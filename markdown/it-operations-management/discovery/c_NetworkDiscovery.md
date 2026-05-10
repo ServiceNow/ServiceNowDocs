@@ -21,7 +21,7 @@ Network Discovery discovers the internal IP networks and subnets within your org
 
 Discovery uses the information it gathers to update routers and Layer 3 switches in the Configuration Management Database \(CMDB\). A single MID Server begins its scan on a configurable list of starting \(or seed\) routers performs network Discovery. The starting routers are the default routers used by all the MID Server host machines in the network, but can be any designated routers. The MID Server uses the router tables on the starting routers to discover other routers in the network. The MID Server then spreads out through the network, using router tables it finds to discover other routers. It continues until the MID Server explored all the routers and switches.
 
-After running Network Discovery, convert the IP networks it finds into IP address Range Sets that you use in Discovery schedules to discover configuration items \(CI\). Configure [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=australia&pubname=australia-platform-security&ft:locale=en-US). Port 161 must be open for SNMP access.
+After running Network Discovery, convert the IP networks it finds into IP address Range Sets that you use in Discovery schedules to discover configuration items \(CI\). Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md). Port 161 must be open for SNMP access.
 
 ## Network Discovery properties
 
@@ -117,7 +117,7 @@ Configure network Discovery from a Discovery schedule.
 
 ### Before you begin
 
-Configure [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=australia&pubname=australia-platform-security&ft:locale=en-US), and keep port 161 open for SNMP access.
+Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md), and keep port 161 open for SNMP access.
 
 Role required: none
 

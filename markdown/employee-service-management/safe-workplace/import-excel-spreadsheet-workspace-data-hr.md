@@ -53,7 +53,7 @@ Role required: sn\_wsd\_core.admin
 **Related topics**  
 
 
-[Run an import](https://www.servicenow.com/docs/access?context=t_RunImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+[Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_RunImport.md)
 
-[Create a transform map](https://www.servicenow.com/docs/access?context=t_CreateATransformMap&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+[Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md)
 

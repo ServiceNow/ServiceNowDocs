@@ -31,14 +31,14 @@ Supported variable types include:
 
 When indexing records from the Catalog Item \[sc\_cat\_item\] table and tables that extend it, AI Search can retrieve searchable content from these Service Catalog variable types:
 
--   [Multiple choice](https://www.servicenow.com/docs/access?context=multiple-choice&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Select box](https://www.servicenow.com/docs/access?context=select-box&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   [Multiple choice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/multiple-choice.md)
+-   [Select box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/select-box.md)
 
 Other variable types aren't supported for catalog variable indexing.
 
 Catalog variable indexing is not active in the base system, but it's activated if you've installed the Now Assist in AI Search application. To learn how to activate and configure catalog variable indexing, see [Activate indexing of catalog variable content on Catalog Item records](../task/activate-catalog-variable-indexing.md). For details on the Now Assist in AI Search application, see [Now Assist in AI Search](now-assist-ais.md).
 
-For the full list of available Service Catalog variable types, see [Types of Service Catalog variables](https://www.servicenow.com/docs/access?context=r_VariableTypes&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For the full list of available Service Catalog variable types, see [Types of Service Catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md).
 
 **Parent Topic:**[AI Search reference](../concept/reference-ais.md)
 

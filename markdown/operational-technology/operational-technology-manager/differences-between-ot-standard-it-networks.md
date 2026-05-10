@@ -22,7 +22,7 @@ Devices managed under the OT data model exist in Levels 0 to 3.5 of the Purdue M
 1.  A CI class record. This can be an IT or an OT class CI.
 2.  An OT device details record. This describes the OT device type \(function\) and other OT-specific attributes.
 
-**Note:** For more information about the OT data model and extension classes, see [Operational Technology \(OT\) extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-operation-technology&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Note:** For more information about the OT data model and extension classes, see [Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-operation-technology.md).
 
 
 

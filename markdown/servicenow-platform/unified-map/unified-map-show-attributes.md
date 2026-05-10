@@ -41,7 +41,7 @@ When you select a group CI such as a service instanceor a dynamic CI group as th
     -   For a group CI: The top card shows attributes of the group CI. The cards in the Configuration items section display attributes for each of the group member CIs.
     -   For a single relationship: A card with the attributes for the selected relationship.
     -   For a multi-relationship badge: A card for each of the relationships in the relationship set that shows the attributes for the relationship. The number of cards is equal to the number on the relationship badge, which is a count of the different types of relationships between the two CIs in that direction. Relationship connections are based on records in the CI Relationship \[cmdb\_rel\_ci\] table.
-    **Note:** If an attribute has highlighting defined on the Highlighted Value Conditions form, then it is highlighted on the **Attributes** panel. For more information, see [Highlight list fields](https://www.servicenow.com/docs/access?context=highlight-list-fields-platform&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    **Note:** If an attribute has highlighting defined on the Highlighted Value Conditions form, then it is highlighted on the **Attributes** panel. For more information, see [Highlight list fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/highlight-list-fields-platform.md).
 
 
 ## What to do next

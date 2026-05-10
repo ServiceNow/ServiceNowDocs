@@ -21,7 +21,7 @@ A playbook breaks a workflow into multiple stages. Each stage includes the follo
 -   Status indicators that display the current state of each activity or step.
 -   Check boxes and counters that indicate where an agent is in the workflow.
 
-Playbooks are created using the [Process Automation Designer](https://www.servicenow.com/docs/access?context=process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US) platform feature.
+Playbooks are created using the [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md) platform feature.
 
 ## Playbooks for the ServiceNow Agent
 

@@ -29,7 +29,7 @@ The Authorization code grant flow process consists of these three steps:
 
 ![Authorization code grant flow process](../../../product/discovery/image/AuthCodeGrantFlow1.png)
 
-In step one, the client application or website initiates a REST API call in the form of a GET request to the instance via the user agent. Typically, the REST call is initiated when the end user clicks a button or a link on the client application or website to request an access token. In the client application, the end user also has to specify the authorization URL, token URL, client ID, and client secret. For an explanation of these items, see the field descriptions in this topic: [Use a third-party OAuth provider](https://www.servicenow.com/docs/access?context=t_UseAThirdPartyOAuthProvider&version=australia&pubname=australia-api-reference&ft:locale=en-US). If the client asks for a grant type, the end user must select **Authorization Code**.
+In step one, the client application or website initiates a REST API call in the form of a GET request to the instance via the user agent. Typically, the REST call is initiated when the end user clicks a button or a link on the client application or website to request an access token. In the client application, the end user also has to specify the authorization URL, token URL, client ID, and client secret. For an explanation of these items, see the field descriptions in this topic: [Use a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_UseAThirdPartyOAuthProvider.md). If the client asks for a grant type, the end user must select **Authorization Code**.
 
 Example GET request from the client application to the instance:
 
@@ -41,7 +41,7 @@ https://myinstance.service-now.com/oauth_auth.do?response_type=code&redirect_uri
 
 The end user must manually allow access to the restricted resource on the instance. In the ServiceNow implementation, the end user must be logged into the instance. The instance prompts the end user with a UI page that has **Allow** and **Deny** buttons.
 
-The item that the client application is actually requesting the token from is the OAuth provider application registry record that you created, also known as the authorization endpoint \(see [Use a third-party OAuth provider](https://www.servicenow.com/docs/access?context=t_UseAThirdPartyOAuthProvider&version=australia&pubname=australia-api-reference&ft:locale=en-US)\). The auth code is sent from the authorization endpoint to the client. It does not go to the client directly but to the **Redirect URL** that you specify on the authorization endpoint form. This URL is also known as a callback URL. You can obtain this URL from the client application or website.
+The item that the client application is actually requesting the token from is the OAuth provider application registry record that you created, also known as the authorization endpoint \(see [Use a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_UseAThirdPartyOAuthProvider.md)\). The auth code is sent from the authorization endpoint to the client. It does not go to the client directly but to the **Redirect URL** that you specify on the authorization endpoint form. This URL is also known as a callback URL. You can obtain this URL from the client application or website.
 
 Example response from the instance to the client application, providing an authorization code:
 

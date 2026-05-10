@@ -17,7 +17,7 @@ Use Mobile App Builder to create a contextual link in your mobile application so
 
 Role required: admin
 
-Before you can create a virtual link to a Virtual Agent feature, you must have the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) installed on your instance. For more details, see [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Before you can create a virtual link to a Virtual Agent feature, you must have the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) installed on your instance. For more details, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md).
 
 Perform the following steps in Mobile App Builder.
 

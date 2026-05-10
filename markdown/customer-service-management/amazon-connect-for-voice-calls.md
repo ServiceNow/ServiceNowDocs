@@ -17,7 +17,7 @@ Agents can access the Active call controls directly from their CSM Configurable 
 
 Amazon Connect integration with ICC provides voice controls enabling agents to handle phone interactions without leaving their Workspace. Call features include actions such as answering, holding, transferring, muting, ending, and accessing the phone directory. Real-time synchronization of agent presence, compliance, and support for various call management features are key achievements of this integration.
 
-To use this feature, complete the steps in the **Enable Interaction Controls** section of the Amazon Connect guided setup for configuring the components. See [Integrate ServiceNow Voice with Amazon Connect](https://www.servicenow.com/docs/access?context=integrate-ccc-amazonconnect&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+To use this feature, complete the steps in the **Enable Interaction Controls** section of the Amazon Connect guided setup for configuring the components. See [Integrate ServiceNow Voice with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrate-ccc-amazonconnect.md)
 
 ## Key Features and Benefits of the Amazon Connect integration
 

@@ -425,7 +425,7 @@ Automated Order Guide
 
 </td><td>
 
-\(Lifecycle Events for Enterprise only\) An order guide fulfills the activity. In the **Order guide** field, select the order guide to use.**Note:** An order guide submits a single service catalog request that generates several items. See [Order guides](https://www.servicenow.com/docs/access?context=c_ServiceCatalogOrderGuides&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+\(Lifecycle Events for Enterprise only\) An order guide fulfills the activity. In the **Order guide** field, select the order guide to use.**Note:** An order guide submits a single service catalog request that generates several items. See [Order guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogOrderGuides.md) for more information.
 
 </td></tr><tr><td>
 
@@ -433,7 +433,7 @@ Catalog Item
 
 </td><td>
 
-\(Lifecycle Events for Enterprise only\) A catalog item fulfills the activity. In the **Catalog item** field, select the catalog item to use.**Note:** A catalog item is a good or service. See [Service catalog items](https://www.servicenow.com/docs/access?context=c_IntroductionToCatalogItems&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+\(Lifecycle Events for Enterprise only\) A catalog item fulfills the activity. In the **Catalog item** field, select the catalog item to use.**Note:** A catalog item is a good or service. See [Service catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md) for more information.
 
 </td></tr><tr><td>
 
@@ -441,7 +441,7 @@ Flow
 
 </td><td>
 
-A flow fulfills the activity. In the **Flow** field, select the flow to use.**Note:** A flow automates a process with a sequence of reusable actions. See [Flow designer](https://www.servicenow.com/docs/access?context=flow-designer&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.
+A flow fulfills the activity. In the **Flow** field, select the flow to use.**Note:** A flow automates a process with a sequence of reusable actions. See [Flow designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md) for more information.
 
 </td></tr><tr><td>
 
@@ -465,7 +465,7 @@ Incident
 
 </td><td>
 
-\(Lifecycle Events for Enterprise only\) An incident fulfills the activity. In the **Template** field, select the incident template to use.**Note:** An incident template automatically populates fields on the Incident form. See [Incident Management](https://www.servicenow.com/docs/access?context=c_IncidentManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US) for more information.
+\(Lifecycle Events for Enterprise only\) An incident fulfills the activity. In the **Template** field, select the incident template to use.**Note:** An incident template automatically populates fields on the Incident form. See [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentManagement.md) for more information.
 
 </td></tr><tr><td>
 
@@ -730,7 +730,7 @@ Having the ability to call any subflow from a lifecycle event activity provides 
 
 Calling subflows from a lifecycle event activity provides an enterprise-wide workflow you can use to interact with third-party applications at a specific point in a lifecycle event.
 
-For more information, see [Flows](https://www.servicenow.com/docs/access?context=flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+For more information, see [Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md).
 
 ### Use cases
 
@@ -790,7 +790,7 @@ Switch primary job
 -   Job: Subject person job
 
 </td></tr></tbody>
-</table>For more information, see [Subflows](https://www.servicenow.com/docs/access?context=subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+</table>For more information, see [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
 
 ### Map activity fields and input parameters
 
@@ -1011,7 +1011,7 @@ Input mandatory
 
 </td><td>
 
-Indicates if the input is required and reflects the settings from the subflow you selected.For more information, see [Subflows](https://www.servicenow.com/docs/access?context=subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Indicates if the input is required and reflects the settings from the subflow you selected.For more information, see [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
 
 </td></tr></tbody>
 </table>6.  Click **Submit** or **Update**.

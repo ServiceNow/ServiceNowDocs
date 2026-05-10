@@ -31,7 +31,7 @@ ServiceNow supports PowerShell 3.0 to 5.1.
 
 2.  After setting up [general properties](../reference/General-Flds-Templates.md) and [creating input variables](CreateInputVariables.md#), configure the PowerShell Execution Command.
 
-<table id="choicetable_asj_mzp_vz"><tbody><tr><td id="d591879e116">
+<table id="choicetable_asj_mzp_vz"><tbody><tr><td id="d594192e116">
 
 **[Map the input variables](CreateInputVariables.md#)**
 
@@ -39,7 +39,7 @@ ServiceNow supports PowerShell 3.0 to 5.1.
 
 Use the variables you created to configure the command that Orchestration executes on the MID Server.
 
-</td></tr><tr><td id="d591879e132">
+</td></tr><tr><td id="d594192e132">
 
 **Target host**
 
@@ -47,7 +47,7 @@ Use the variables you created to configure the command that Orchestration execut
 
 Host name or IP address of the target server for this PowerShell activity.
 
-</td></tr><tr><td id="d591879e141">
+</td></tr><tr><td id="d594192e141">
 
 **Script type**
 
@@ -57,7 +57,7 @@ Type of PowerShell script to run on the PowerShell host. Available options are:-
 -   MID Server script file
 
 
-</td></tr><tr><td id="d591879e159">
+</td></tr><tr><td id="d594192e159">
 
 **MID Server script file**
 
@@ -65,7 +65,7 @@ Type of PowerShell script to run on the PowerShell host. Available options are:-
 
 The MID Server script file contains the PowerShell scripts. This field is available when the **Script type** selected is MID Server script file.
 
-</td></tr><tr><td id="d591879e171">
+</td></tr><tr><td id="d594192e171">
 
 **Command**
 
@@ -73,7 +73,7 @@ The MID Server script file contains the PowerShell scripts. This field is availa
 
 PowerShell command the activity executes. This field is available when the **Script type** selected is Custom PowerShell command. You can create your commands by dragging and dropping input variables from the variable builder into this field.
 
-</td></tr><tr><td id="d591879e187">
+</td></tr><tr><td id="d594192e187">
 
 **PowerShell variables**
 
@@ -81,7 +81,7 @@ PowerShell command the activity executes. This field is available when the **Scr
 
 Name-value pairs to pass to the host with PowerShell. You can create these variables manually, or drag input variables into the **Value** field. Encrypted input variables retain their encryption, regardless of the data type settings in this field. If you type in a value and select the **Encrypted** data type, your value appears in plain text. It is only encrypted when it passes to the ECC Queue.
 
-</td></tr><tr><td id="d591879e202">
+</td></tr><tr><td id="d594192e202">
 
 **Use MID Service Account**
 
@@ -89,7 +89,7 @@ Name-value pairs to pass to the host with PowerShell. You can create these varia
 
 If checked, this activity authenticates on the target host using the credentials of the MID Server service account only, without trying any other credentials. **Note:** The **Credential tag** field is not available.
 
-</td></tr><tr><td id="d591879e217">
+</td></tr><tr><td id="d594192e217">
 
 **Credential tag**
 
@@ -97,7 +97,7 @@ If checked, this activity authenticates on the target host using the credentials
 
 Credential tag this activity must use to run PowerShell commands on the host. If this field is left blank, the MID Server tries all the available credentials until it finds a valid one, ending with the MID Server service account. If a credential tag is defined, the MID Server tries the credentials with that tag specified only and does not try the MID Server service account. **Note:** This field is not available when the **Use MID service account** check box is selected.
 
-</td></tr><tr><td id="d591879e232">
+</td></tr><tr><td id="d594192e232">
 
 **Required MID Server capabilities**
 
@@ -269,7 +269,7 @@ Array of hashmap
 
 </td><td>
 
-Capability values used to select the MID Server. For more information, see [MID Server capabilities](https://www.servicenow.com/docs/access?context=t_ConfigureCapabilities&version=australia&pubname=australia-servicenow-platform&section=r_MIDServerCapabilities&ft:locale=en-US). If there are additional capabilities that are assigned by value, use this example to customize the MID Server selection:```
+Capability values used to select the MID Server. For more information, see [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md). If there are additional capabilities that are assigned by value, use this example to customize the MID Server selection:```
 var valueCapability = {'NEW_MID_CAPABIILTY':'NEW_MID_CAPABILITY_VALUE'};
 executionParam.valueCapabilities.push(valueCapability);
 ```

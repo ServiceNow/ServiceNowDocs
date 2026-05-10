@@ -19,50 +19,50 @@ The ServiceNow® Telecommunications Customer 360 application provides a unified 
 -   Provides data source configurability to bring call, chat, billing data from external sources and generate insights.
 -   Receive insights on customer health and top recent issues.
 
-See [Telecommunications Customer 360](https://www.servicenow.com/docs/access?context=c360-land-page&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US) for more information.
+See [Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-land-page.md) for more information.
 
 **Important:** Telecommunications Customer 360 is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Telecommunications Customer 360 features
 
--   **[Customer information](https://www.servicenow.com/docs/access?context=c360-home-page&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)**
+-   **[Customer information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-home-page.md)**
 
     View customer account, contact, or consumer information including contact details, location, and recent interaction summary for efficient service delivery.
 
 
--   **[Interaction history](https://www.servicenow.com/docs/access?context=c360-inter-history-card&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)**
+-   **[Interaction history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-inter-history-card.md)**
 
     Track customer interactions over time with date range filtering. View chronological history of customer engagements to understand previous communication context.
 
 
--   **[Trend charts](https://www.servicenow.com/docs/access?context=c360-data-visual-card&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)**
+-   **[Trend charts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-data-visual-card.md)**
 
     Monitor key customer metrics through visual charts including NPS and CSAT scores with target comparisons and trend lines. View last updated timestamps for each metric.
 
--   **[Billing](https://www.servicenow.com/docs/access?context=c360-billing-card&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)**
+-   **[Billing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-billing-card.md)**
 
     Review customer billing information and invoices for the selected billing account. Search and filter billing records to quickly locate specific invoice details.
 
 
--   **[Products](https://www.servicenow.com/docs/access?context=c360-products-card&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)**
+-   **[Products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-products-card.md)**
 
     Identify active products and services associated with the customer account. View counts of related cases, service problem cases, incidents, and test results for each product to understand product-specific issues.
 
--   **[Cases, tasks, and orders](https://www.servicenow.com/docs/access?context=c360-tasks-card&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)**
+-   **[Cases, tasks, and orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-tasks-card.md)**
 
     Manage multiple task types including service problem cases, cases, customer orders, work orders, complaint cases, and invoice cases in a unified view. View details such as case numbers, descriptions, state, sold products, and priority levels across all task records.
 
--   **[Interaction record](https://www.servicenow.com/docs/access?context=c360-view-inter-record&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)**
+-   **[Interaction record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-view-inter-record.md)**
 
     View customer phone interaction records, verify and open records to view details.
 
 
 ## Changed in this release
 
--   **[Products](https://www.servicenow.com/docs/access?context=c360-products-card&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)**
+-   **[Products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-products-card.md)**
     -   Filter the list of sold products displayed by product characteristic values.
     -   Modify configurations, suspend, resume, or disconnect one or more sold products and their services.
--   **[Customer history](https://www.servicenow.com/docs/access?context=c360-inter-history-card&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)**
+-   **[Customer history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-inter-history-card.md)**
 
     The **Interaction history** card has been renamed to **Customer history**. Phone interactions, chat messages, cases, contracts, work orders, and other activity types that have been configured are displayed.
 
@@ -82,7 +82,7 @@ Install Telecommunications customer 360 by requesting it from the ServiceNow Sto
 
 ## Related ServiceNow applications and features
 
--   **[Customer Service Management](https://www.servicenow.com/docs/access?context=c_CustomerServiceManagement&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)**
 
     The Customer Service Management application enables you to automate your onboarding and case monitoring processes and provides service agents with visibility into the customer systems and tools that you need to deliver proactive services to your customers.
 

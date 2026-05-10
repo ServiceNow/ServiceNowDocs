@@ -19,7 +19,7 @@ Add a calendar to the employee portal to provide employees with a quick way of v
 
 Role required: sn\_cd.content\_manager
 
-Calender dates are configured in the ServiceNow AI Platform. For more information, see [Holidays](https://www.servicenow.com/docs/access?context=c_Holidays&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Calender dates are configured in the ServiceNow AI Platform. For more information, see [Holidays](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_Holidays.md).
 
 ## Procedure
 

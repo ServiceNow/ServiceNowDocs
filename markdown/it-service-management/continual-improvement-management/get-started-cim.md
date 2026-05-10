@@ -33,7 +33,7 @@ Once CIM is activated, assign user roles and groups.
 -   Improvement Coordinator
 -   Approver group membership \(CIM Approvers, default is empty\)
 
-For more information, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
 Use the [Continual Improvement Workbench](../task/plan-cim-initiatives.md) to plan and manage improvements. Both tile and list views are supported.
 

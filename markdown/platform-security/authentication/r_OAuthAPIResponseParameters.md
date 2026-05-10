@@ -32,7 +32,7 @@ The OAuth 2.0 API produces a JSON response containing the following parameters a
 |Type|true\|false|
 |Value|false|
 
-For details on creating system properties, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
+For details on creating system properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md)
 
 The following example illustrates the JSON string returned by an access token request. \(Spaces have been added to improve readability\).
 

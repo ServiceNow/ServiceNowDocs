@@ -26,7 +26,7 @@ There are two ways you can migrate your data from a lower environment to a highe
 
 For more information about the restructuring of the RPA Hub tables, see [Restructuring RPA Hub tables](restructured-rpa-hub-tables-utah.md).
 
-For more information about update sets, see [Get started with update sets](https://www.servicenow.com/docs/access?context=get-started-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For more information about update sets, see [Get started with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/get-started-update-sets.md).
 
 ## Functionality
 
@@ -58,7 +58,7 @@ Environment
 
 </th></tr></thead><tbody><tr><td>
 
-1. [Create and select an update set as the current set](https://www.servicenow.com/docs/access?context=create-select-update-set&version=australia&pubname=australia-application-development&ft:locale=en-US).
+1. [Create and select an update set as the current set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/create-select-update-set.md).
 
 </td><td>
 
@@ -82,7 +82,7 @@ Lower \(non-production\) environment
 
 </td></tr><tr><td>
 
-4. [Mark your current update set complete](https://www.servicenow.com/docs/access?context=t_CompleteUpdateSets&version=australia&pubname=australia-application-development&ft:locale=en-US).
+4. [Mark your current update set complete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_CompleteUpdateSets.md).
 
 </td><td>
 
@@ -90,7 +90,7 @@ Lower \(non-production\) environment
 
 </td></tr><tr><td>
 
-5. [Export to XML](https://www.servicenow.com/docs/access?context=t_SaveAnUpdateSetAsAnXMLFile&version=australia&pubname=australia-application-development&ft:locale=en-US).
+5. [Export to XML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_SaveAnUpdateSetAsAnXMLFile.md).
 
 </td><td>
 
@@ -108,7 +108,7 @@ Lower \(non-production\) environment
 
 </td></tr><tr><td>
 
-7. Switch to higher instance. [Retrieve an update set](https://www.servicenow.com/docs/access?context=t_RetrieveAnUpdateSet&version=australia&pubname=australia-application-development&ft:locale=en-US).
+7. Switch to higher instance. [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_RetrieveAnUpdateSet.md).
 
 </td><td>
 
@@ -116,7 +116,7 @@ Higher \(production\) environment
 
 </td></tr><tr><td>
 
-8. [Preview a remote update set](https://www.servicenow.com/docs/access?context=t_PreviewARemoteUpdateSet&version=australia&pubname=australia-application-development&ft:locale=en-US).
+8. [Preview a remote update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_PreviewARemoteUpdateSet.md).
 
 </td><td>
 
@@ -124,7 +124,7 @@ Higher \(production\) environment
 
 </td></tr><tr><td>
 
-9. [Commit an update set](https://www.servicenow.com/docs/access?context=t_CommitAnUpdateSet&version=australia&pubname=australia-application-development&ft:locale=en-US).
+9. [Commit an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_CommitAnUpdateSet.md).
 
 </td><td>
 
@@ -148,7 +148,7 @@ Higher \(production\) environment
 
 </td></tr><tr><td>
 
-12. If the instance connection is established with a required lower \(non-production\) instance, perform this import task.To establish an instance connection, create an active connection in the **RPA Automation Package** connection and credential alias. Ensure to provide the lower \(non-production\) environment in the **Connection URL** field. For more information, see [Create an HTTP\(s\) connection](https://www.servicenow.com/docs/access?context=create-https-connection&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+12. If the instance connection is established with a required lower \(non-production\) instance, perform this import task.To establish an instance connection, create an active connection in the **RPA Automation Package** connection and credential alias. Ensure to provide the lower \(non-production\) environment in the **Connection URL** field. For more information, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md).
 
 Perform this task if you are automatically migrating the package attachment \(automation zip file\) from a lower \(non-production\) to a higher \(production\) environment.
 

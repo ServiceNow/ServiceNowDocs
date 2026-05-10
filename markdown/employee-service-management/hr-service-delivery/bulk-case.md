@@ -70,7 +70,7 @@ You can create one bulk case that creates individual HR cases for each employee 
 
     -   Bulk Case User Segment \(sn\_hr\_core\_bulk\_case\_user\_segment\)
     -   Bulk Case User Segment Group \(sn\_hr\_core\_bulk\_case\_user\_segment\_group\)
-    For more information on ACLs, see [Access control list rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    For more information on ACLs, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).
 
 
 -   **[Create a bulk case request](../task/t_CreateBulkCases.md)**  

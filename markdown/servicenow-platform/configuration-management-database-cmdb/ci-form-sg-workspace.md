@@ -44,7 +44,7 @@ You can control the use and content of CI Form as follows:
 
     -   Select **Configure attributes** to modify the Summary and Attributes sections on the form, in Form Builder. For example, to add sections, modify section titles or the attributes included in sections: Requires the personalize\_form user role.
 
-        For more information about Form Builder and Table Builder, see [Forms in Table Builder](https://www.servicenow.com/docs/access?context=form-view-configuration&version=australia&pubname=australia-application-development&ft:locale=en-US) and [Add fields to a form layout in Table Builder](https://www.servicenow.com/docs/access?context=add-form-fields&version=australia&pubname=australia-application-development&ft:locale=en-US).
+        For more information about Form Builder and Table Builder, see [Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-view-configuration.md) and [Add fields to a form layout in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/add-form-fields.md).
 
     -   Select **Configure resources** to modify the Resources section on the form. For example, to add or remove subsections or items within subsections: Requires the personalize\_list user role.
 
@@ -57,7 +57,7 @@ Several key attributes are preconfigured to be highlighted on a CI form when spe
 
 To see those preconfigured highlight records that are used in CI Form and in various other Service Graph Workspace features, navigate to **All** &gt; **Workspace Experience** &gt; **Administration** &gt; **Highlighted Values**.
 
-For more information about configuring attribute highlights in the ServiceNow AI Platform, see [Highlight list fields](https://www.servicenow.com/docs/access?context=highlight-list-fields-platform&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information about configuring attribute highlights in the ServiceNow AI Platform, see [Highlight list fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/highlight-list-fields-platform.md).
 
 ## Summary
 
@@ -114,9 +114,9 @@ Managing tags requires the sn\_cmdb\_editor user role.
 
 More information:
 
--   [Tag-based discovery in Service Mapping](https://www.servicenow.com/docs/access?context=tag-based-mapping&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
--   [Data collected for Amazon AWS Cloud Discovery](https://www.servicenow.com/docs/access?context=cloud-disco-aws-data-collected&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
--   [Data collected for Microsoft Azure Cloud Discovery](https://www.servicenow.com/docs/access?context=data-collected-azure-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+-   [Tag-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag-based-mapping.md)
+-   [Data collected for Amazon AWS Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/cloud-disco-aws-data-collected.md)
+-   [Data collected for Microsoft Azure Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/data-collected-azure-discovery.md)
 
 ## Resources
 
@@ -166,9 +166,9 @@ This section shows related items such as open incidents and the activity stream 
 
 More information:
 
--   [Problem Management](https://www.servicenow.com/docs/access?context=c_ProblemManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Incident Management](https://www.servicenow.com/docs/access?context=c_IncidentManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Change Management](https://www.servicenow.com/docs/access?context=c_ITILChangeManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+-   [Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/c_ProblemManagement.md)
+-   [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentManagement.md)
+-   [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ITILChangeManagement.md)
 
 Role requirements for operations in this section:
 
@@ -205,7 +205,7 @@ More information about relationships and about editing relationships in Unified 
 -   [CI relationships in the CMDB](c_CIRelationships.md)
 -   [Edit relationships in Unified Map](../task/unified-map-edit-connection.md)
 -   [CI relationship editor](c_RelationshipEditor.md)
--   [Service Mapping](https://www.servicenow.com/docs/access?context=c_ServiceMappingOverview&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+-   [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md)
 -   [Unified Map](cmdb-workspace-unified-map.md)
 
 Role requirements for operations in this section: **Edit relationships** requires sn\_cmdb\_editor

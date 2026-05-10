@@ -31,14 +31,14 @@ The portable chat widget uses an inline frame element \(iframe\). The third-part
 
 Before you begin, do the following:
 
-1.  [Activate the custom URL plugin \(com.snc.customurl\) in your instance.](https://www.servicenow.com/docs/access?context=activate-custom-url-plugin&version=australia&pubname=australia-platform-security&ft:locale=en-US)
-2.  [Add the custom URL \(that you previously purchased and registered\) to your instance.](https://www.servicenow.com/docs/access?context=configure-custom-url&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+1.  [Activate the custom URL plugin \(com.snc.customurl\) in your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/activate-custom-url-plugin.md)
+2.  [Add the custom URL \(that you previously purchased and registered\) to your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-custom-url.md)
 
-**Note:** To learn more about using custom URLs, see [Associating custom URLs to your instance](https://www.servicenow.com/docs/access?context=custom-url&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+**Note:** To learn more about using custom URLs, see [Associating custom URLs to your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/custom-url.md).
 
 ## Using SSO authentication with the portable Virtual Agent chat widget
 
-After you embed the Virtual Agent client, you can optionally trigger SSO authentication from the chat widget, but only when your instance is set up to use an external SSO provider. Your hosting site must also use the same SSO provider as your instance. For details on setting SSO providers, see [External single sign-on \(SSO\)](https://www.servicenow.com/docs/access?context=c_MultipleProviderSingleSignOn&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+After you embed the Virtual Agent client, you can optionally trigger SSO authentication from the chat widget, but only when your instance is set up to use an external SSO provider. Your hosting site must also use the same SSO provider as your instance. For details on setting SSO providers, see [External single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_MultipleProviderSingleSignOn.md).
 
 To trigger SSO authentication, create a JavaScript script that defines conditions for running authentication and redirects users to a chat widget page that you specify. You also specify the allowed URLs that can be passed in this script, by identifying them in the **com.glide.cs.web\_client\_login\_redirect\_urls** system property. Specify the full redirect URLs or the host part of the URL, such as `https://example.com`.
 

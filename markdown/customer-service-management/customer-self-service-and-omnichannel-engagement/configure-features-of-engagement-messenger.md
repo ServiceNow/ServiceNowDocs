@@ -50,8 +50,8 @@ Use the Features section of the guided configuration to customize the messenger 
 
         **Note:**
 
-        -   The knowledge article, catalog item, and case links sent by an agent can be opened within Engagement Messenger. You can configure how links should be open in a messenger. For more information, see [Create a smart link preference](https://www.servicenow.com/docs/access?context=create-smart-link-preference&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
-        -   You can also enable the Now Assist in Virtual Agent in Engagement Messenger by [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) and then [Display your assistant](https://www.servicenow.com/docs/access?context=display-assistant-portal-channel&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) in Engagement Messenger.
+        -   The knowledge article, catalog item, and case links sent by an agent can be opened within Engagement Messenger. You can configure how links should be open in a messenger. For more information, see [Create a smart link preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/create-smart-link-preference.md).
+        -   You can also enable the Now Assist in Virtual Agent in Engagement Messenger by [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md) and then [Display your assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md) in Engagement Messenger.
     -   Configurable Cards: See [Configurable Cards feature configuration](../reference/configurable-card.md).
     -   Callback: See [Callback feature configuration form](../reference/em-callback.md).
 5.  You can also add a feature in the **Features** section using Configurable Cards.
@@ -72,7 +72,7 @@ Use the Features section of the guided configuration to customize the messenger 
 
     ![View of the Configure Engagement Messenger form with a list of features like Greeting, Search, Knowledge and so on that can be used for configuration.](../image/em-config-feature.gif "Engagement Messenger features")
 
-    **Note:** Engagement Messenger extends service portal capabilities that don't support domain separation. For more information, see \([Domain separation and Service Portal](https://www.servicenow.com/docs/access?context=domain-separation-service-portal&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)\). However, other tables that are used in Engagement Messenger may support domain separation according to the configurations with which they're created.
+    **Note:** Engagement Messenger extends service portal capabilities that don't support domain separation. For more information, see \([Domain separation and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/domain-separation-service-portal.md)\). However, other tables that are used in Engagement Messenger may support domain separation according to the configurations with which they're created.
 
 
 ## What to do next

@@ -37,7 +37,7 @@ Resource Planning
 
 </td><td>
 
-As a resource requester, find the availability of the resources, and create and manage the resource plans for the project and project tasks in the project workspace. For more information, refer to [Create and manage resource plans for a project](https://www.servicenow.com/docs/access?context=manage-resources-for-project&version=australia&pubname=australia-it-business-management&ft:locale=en-US)
+As a resource requester, find the availability of the resources, and create and manage the resource plans for the project and project tasks in the project workspace. For more information, refer to [Create and manage resource plans for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/manage-resources-for-project.md)
 
 </td><td>
 
@@ -50,7 +50,7 @@ Cost Planning
 
 </td><td>
 
-Project cost plans capture the costs of projects. Create a cost plan to specify the unit cost of a cost type for a fiscal period. For more information, refer to [Create a project cost plan](https://www.servicenow.com/docs/access?context=t_CreateAProjectCostPlan&version=australia&pubname=australia-it-business-management&ft:locale=en-US)
+Project cost plans capture the costs of projects. Create a cost plan to specify the unit cost of a cost type for a fiscal period. For more information, refer to [Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectCostPlan.md)
 
 </td><td>
 
@@ -69,7 +69,7 @@ Resource allocations
 
 After resource requesters create a resource plan, resource managers can confirm the resources to move the plan to the Confirmed state. Resource managers can then allocate resources to the plan and move it to the Allocated state.
 
- Based on calendar and schedule information, resource managers view resource availability and select the resources under their management that can be confirmed and allocated to specific tasks. For more information, refer to [Resource allocation](https://www.servicenow.com/docs/access?context=r_AllocatingResources&version=australia&pubname=australia-it-business-management&ft:locale=en-US)
+ Based on calendar and schedule information, resource managers view resource availability and select the resources under their management that can be confirmed and allocated to specific tasks. For more information, refer to [Resource allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/r_AllocatingResources.md)
 
 </td><td>
 
@@ -82,7 +82,7 @@ Time card reporting
 
 </td><td>
 
-You can log hours in a time card for an engagement and other tasks on an engagement. If there is a project associated with an engagement, then the actual expenses and actual resources values roll up. To create a time card, see [Create a time card](https://www.servicenow.com/docs/access?context=t_CreateATimeCard&version=australia&pubname=australia-it-business-management&ft:locale=en-US).
+You can log hours in a time card for an engagement and other tasks on an engagement. If there is a project associated with an engagement, then the actual expenses and actual resources values roll up. To create a time card, see [Create a time card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/t_CreateATimeCard.md).
 
 </td><td>
 

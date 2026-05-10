@@ -47,7 +47,7 @@ Assets contained in a pallet can also be consumed as part of the following workf
 
     **Note:** In an RMA request with an off-site replacement or repair, the assets that are in the pallet aren't shown in the Replacement asset field on the Receive task form.
 
--   [Asset Local Stock](https://www.servicenow.com/docs/access?context=consume-local-asset-stock&version=australia&pubname=australia-it-service-management&ft:locale=en-US): When an asset from the pallet is consumed as part of the local stock, the asset is removed from the pallet after the Confirm assigned asset task is closed.
+-   [Asset Local Stock](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/consume-local-asset-stock.md): When an asset from the pallet is consumed as part of the local stock, the asset is removed from the pallet after the Confirm assigned asset task is closed.
 -   [Loaner](loaner-asset.md#): When an asset from a pallet is consumed as a Loaner asset, the asset is removed from the pallet after the Prepare task of the loaner order is closed.
 -   [Return leased assets](../task/return-your-leased-hardware-asset.md): When a leased asset from a pallet is returned, the asset is removed from the pallet after the Shipment task is closed.
 -   Swap and deploy tasks from ITSM: When deploy asset action is triggered from ITSM, the asset that must be deployed is removed from the pallet. When swap action is triggered from ITSM, the asset in the pallet that is a replacement for a faulty asset is removed from the pallet.

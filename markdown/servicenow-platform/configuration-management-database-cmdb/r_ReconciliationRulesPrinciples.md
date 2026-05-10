@@ -15,7 +15,7 @@ breadcrumb: [Configure, CMDB Identification and Reconciliation \(IRE\), Configur
 
 Reconciliation rules determine which discovery sources can update CI attributes.
 
-Discovery sources, such as EventManagement, ImportSet, ManualEntry, and Tivoli, are used with the [createOrUpdateCI\(\)](https://www.servicenow.com/docs/access?context=c_IdentEngineScriptAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) API to simulate manual updates to CIs. Without reconciliation rules, discovery sources can overwrite each other's updates to attribute values.
+Discovery sources, such as EventManagement, ImportSet, ManualEntry, and Tivoli, are used with the [createOrUpdateCI\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_IdentEngineScriptAPI.md) API to simulate manual updates to CIs. Without reconciliation rules, discovery sources can overwrite each other's updates to attribute values.
 
 There are two types of reconciliation rules:
 

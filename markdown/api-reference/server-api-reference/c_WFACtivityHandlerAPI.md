@@ -51,7 +51,7 @@ Logs a debug message.
 
 Generates approvals and tasks before the activity runs for a preview of upcoming work.
 
-Enables generating objects at the start of a workflow in a **pending** state. For related information, see [Generate workflow activity](https://www.servicenow.com/docs/access?context=r_Generate&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Enables generating objects at the start of a workflow in a **pending** state. For related information, see [Generate workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-activities/r_Generate.md).
 
 <table id="table_dv2_sh5_4t" class="parameters"><thead><tr><th>
 

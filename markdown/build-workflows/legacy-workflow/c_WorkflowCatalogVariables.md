@@ -56,7 +56,7 @@ You can declare global catalog variables using the Service Catalog.
 
 1.  Navigate to **All** &gt; **Service Catalog** &gt; **Item Variables**.
 
-2.  The list of variables that appears in the workspace has a default filter of **Cat Item != &lt;blank&gt;**. [Change the filter](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to **Cat Item = &lt;blank&gt;** and run the query.
+2.  The list of variables that appears in the workspace has a default filter of **Cat Item != &lt;blank&gt;**. [Change the filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to **Cat Item = &lt;blank&gt;** and run the query.
 
     The catalog variables that appear are available to any catalog task that is initiated from within a workflow.
 

@@ -19,7 +19,7 @@ Configure push connectors to personalize domain separation of events so you can 
 
 Make sure that you have the following setup:
 
--   You have read access to the domain information table for the evt\_mgmt\_integration role \(default table: core\_company\). For more information, see [Configure an ACL rule](https://www.servicenow.com/docs/access?context=t_CreateAnACLRule&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   You have read access to the domain information table for the evt\_mgmt\_integration role \(default table: core\_company\). For more information, see [Configure an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_CreateAnACLRule.md).
 -   You enabled the **evt\_mgmt.connector\_enable\_custom\_domain\_separation** .system property.
 -   You installed the following plug-ins in the ServiceNow AI Platform® instance:
     -   Event Management \(**com.glideapp.itom.snac**\)
@@ -43,15 +43,15 @@ Role required: evt\_mgmt\_admin
 
 4.  In the **Push Connector Configurations** screen, determine whether events should be created in the provided domain or the domain provided in the payload of each event.
 
-<table id="choicetable_jm5_rmb_d1c"><thead><tr><th align="left" id="d256768e187">
+<table id="choicetable_jm5_rmb_d1c"><thead><tr><th align="left" id="d261604e187">
 
 Domain creation location
 
-</th><th align="left" id="d256768e190">
+</th><th align="left" id="d261604e190">
 
 Parameter and values
 
-</th></tr></thead><tbody><tr><td id="d256768e196">
+</th></tr></thead><tbody><tr><td id="d261604e196">
 
 **The provided domain**
 
@@ -61,7 +61,7 @@ Parameter and values
 -   **Value**: domain-identifier
 
 
-</td></tr><tr><td id="d256768e218">
+</td></tr><tr><td id="d261604e218">
 
 **The domain provided in the payload of each event**
 
@@ -93,7 +93,7 @@ Parameter and values
 
 Events are created in the domain referred to by the domain identifier.
 
-**Note:** The table that stores domain information records \(for example, core\_company\) must be domain separated. For more information, see [Domain-separate a custom table](https://www.servicenow.com/docs/access?context=bp-ds-custom-table&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+**Note:** The table that stores domain information records \(for example, core\_company\) must be domain separated. For more information, see [Domain-separate a custom table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-ds-custom-table.md).
 
 **Parent Topic:**[Event Management Connectors domain personalization](../concept/domain-separation-connectors-personalization.md)
 

@@ -17,11 +17,11 @@ By integrating the Telecommunications Network Inventory application with the Har
 
 ## HAM integration overview
 
-With this integration, you can enable the Telecommunications Network Inventory application to create the bill of materials for your assets by using a record producer. Then, you can create a service request to get those assets. To learn more about record producers, see [Record Producer](https://www.servicenow.com/docs/access?context=c_RecordProducer&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+With this integration, you can enable the Telecommunications Network Inventory application to create the bill of materials for your assets by using a record producer. Then, you can create a service request to get those assets. To learn more about record producers, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md).
 
 Before creating the service request, you must publish the asset to the hardware catalog by adding it to the Catalog Definition table. To learn more, see [Publish an asset to the hardware catalog](../task/publish-asset-harware-calaog.md).
 
-The Hardware Asset Management fulfills the service request and executes the workflow to procure the assets in the Hardware Asset Management Workspace. To learn more about the Hardware Asset Management workflow, see [Procurement](https://www.servicenow.com/docs/access?context=c_Procurement&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).
+The Hardware Asset Management fulfills the service request and executes the workflow to procure the assets in the Hardware Asset Management Workspace. To learn more about the Hardware Asset Management workflow, see [Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_Procurement.md).
 
 After the assets are acquired or available in a stockroom, the procurement managers can use the ServiceNow® Procurement application to create the configuration items \(CIs\) for these assets. You can use these CIs for equipment instantiation by tagging them.
 

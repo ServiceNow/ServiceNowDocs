@@ -16,7 +16,7 @@ breadcrumb: [Now Assist for ITOM, IT Operations Management]
 
 Enable Event Management users to view alert analyses that Now Assist for ITOM creates using generative AI.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 -   **[Install the Now Assist for IT Operations Management \(ITOM\) plugin](../task/install-now-assist-itom.md)**  
 Install the ITOM plugin in the ServiceNow® Now Assist feature.

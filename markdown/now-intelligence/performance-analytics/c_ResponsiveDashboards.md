@@ -34,7 +34,7 @@ Watch this three-minute video to learn more about flexible layouts, multiple tab
 
 ## Limitation
 
-ServiceNow mobile apps don’t give access to dashboards as dashboards aren’t optimized for mobile screen sizes. You can access dashboards on a tablet using the standard web interface. It’s possible to create mobile apps that display reports and Performance Analytics visualizations, but these aren’t full responsive dashboards. For more information, see [Configure an analytics UI section](https://www.servicenow.com/docs/access?context=sg-ui-section-config-reports&version=australia&pubname=australia-mobile&ft:locale=en-US).
+ServiceNow mobile apps don’t give access to dashboards as dashboards aren’t optimized for mobile screen sizes. You can access dashboards on a tablet using the standard web interface. It’s possible to create mobile apps that display reports and Performance Analytics visualizations, but these aren’t full responsive dashboards. For more information, see [Configure an analytics UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-ui-section-config-reports.md).
 
 **Related topics**  
 

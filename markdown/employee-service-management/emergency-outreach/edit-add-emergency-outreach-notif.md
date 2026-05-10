@@ -17,7 +17,7 @@ The administrator can modify email notifications used with Emergency Outreach.
 
 ## Before you begin
 
-Review the details about planning for, creating, and modifying system notifications by starting with [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Review the details about planning for, creating, and modifying system notifications by starting with [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
 
 Role required: admin
 

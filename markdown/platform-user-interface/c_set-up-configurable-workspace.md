@@ -31,7 +31,7 @@ To update an existing Configurable Workspace experience, see [Open a Configurabl
 
     Create a Configurable Workspace page from scratch or with a page template in UI Builder.
 
--   **[UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)**
 
     Receive additional, detailed documentation on configuring and using UI Builder.
 

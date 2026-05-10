@@ -24,7 +24,7 @@ The Sales CRM Pricing API supports external IDs in pricing requests. For each ex
 -   Source reference table
 -   Reference field name
 
-For information on the pricing API, see [Sales CRM Pricing API](https://www.servicenow.com/docs/access?context=sales-crm-pricing-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For information on the pricing API, see [Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/sales-crm-pricing-api.md).
 
 **Note:** Only a single reference field for an external ID is supported as a key to resolve an external ID with a sys\_id. To get an accurate and valid response, the external ID or code sent in a reference field must map to a unique record in the source reference table.
 

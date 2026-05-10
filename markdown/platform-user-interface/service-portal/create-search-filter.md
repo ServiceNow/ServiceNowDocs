@@ -21,7 +21,7 @@ Role required: admin or sp\_admin
 
 In new instances, search facets are enabled by default. If upgrading from a previous release, enable search facets by activating a record in the Page Route Maps \[sp\_page\_route\_map\] table. See [Enable search facets](enable-facets.md). Create facet items and mapped queries with no more than 30 filter items. To verify, test each search source with a variety of keywords as a user with low permissions.
 
-**Note:** Only set search facets for indexed fields. Fields that are not indexed may take longer to return results and are not optimized for a fast search experience. Learn more: [Configure a table for indexing and searching](https://www.servicenow.com/docs/access?context=configure-single-table-for-indexing&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** Only set search facets for indexed fields. Fields that are not indexed may take longer to return results and are not optimized for a fast search experience. Learn more: [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-single-table-for-indexing.md).
 
 ## Procedure
 

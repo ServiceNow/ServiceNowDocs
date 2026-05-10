@@ -27,7 +27,7 @@ Role required: sn\_map\_core.admin
 
 The Upload Excel files feature uses Import Sets to import the information from the Excel files. For more information about Import Sets, see the following resources:
 
--   [Import sets documentation](https://www.servicenow.com/docs/access?context=import-sets-landing-page&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+-   [Import sets documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md)
 -   [Import Data ServiceNow® developer course](https://developer.servicenow.com/dev.do#!/learn/courses/zurich/app_store_learnv2_importingdata_zurich_importing_data_into_servicenow)
 
 ## Procedure

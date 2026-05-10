@@ -45,15 +45,15 @@ An OT incident summary provides you with a concise summary of an incident. The s
 
 6.  When you're finished summarizing an OT incident, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d48774e169">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d48778e169">
 
 Option
 
-</th><th align="left" id="d48774e172">
+</th><th align="left" id="d48778e172">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d48774e178">
+</th></tr></thead><tbody><tr><td id="d48778e178">
 
 **Save the summary information by adding it to the incident work notes**
 
@@ -64,7 +64,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d48774e205">
+</td></tr><tr><td id="d48778e205">
 
 **Expand or collapse the summary**
 
@@ -72,7 +72,7 @@ Procedure
 
 Select the expand card icon \(![expand card icon.](../image/icon-expand.png)\) to view the complete summary or the collapse card icon \(![collapse card icon.](../image/icon-collapse.png)\) to view a collapsed summary.
 
-</td></tr><tr><td id="d48774e226">
+</td></tr><tr><td id="d48778e226">
 
 **Provide feedback for the summary**
 
@@ -80,7 +80,7 @@ Select the expand card icon \(![expand card icon.](../image/icon-expand.png)\) t
 
 If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../image/icon-helpful.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d48774e249">
+</td></tr><tr><td id="d48778e249">
 
 **Copy the incident summary**
 
@@ -88,7 +88,7 @@ If you think that the summary was helpful, select the helpful icon \(![Helpful i
 
 If you want to reuse the summary, select the copy to clipboard icon \(![Copy to clipboard icon.](../image/icon-copy.png)\).
 
-</td></tr><tr><td id="d48774e265">
+</td></tr><tr><td id="d48778e265">
 
 **View the information about the incident summary**
 

@@ -97,7 +97,7 @@ if(!current.watch_list.nil()){
 
 [Useful attachment scripts](../../useful-scripts/reference/r_UsefulAttachmentScripts.md)
 
-[TemplatePrinter API](https://www.servicenow.com/docs/access?context=c_TemplatePrinterScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[TemplatePrinter API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_TemplatePrinterScopedAPI.md)
 
-[GlideEmailOutbound API](https://www.servicenow.com/docs/access?context=c_GlideEmailOutboundScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[GlideEmailOutbound API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideEmailOutboundScopedAPI.md)
 

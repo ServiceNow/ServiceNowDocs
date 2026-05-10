@@ -34,7 +34,7 @@ The different UI Builder Component names for Trending topics dashboard are OOB T
 
     For example, open **OOB Trending Topics Dashboard**. Make a clone if needed.
 
-3.  Select **Insight Carousel Item 1** and [duplicate](https://www.servicenow.com/docs/access?context=duplicate-components&version=australia&pubname=australia-application-development&ft:locale=en-US) it.
+3.  Select **Insight Carousel Item 1** and [duplicate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/duplicate-components.md) it.
 
     Drag the newly duplicated component to reorder as needed.
 

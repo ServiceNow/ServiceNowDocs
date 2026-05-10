@@ -45,7 +45,7 @@ To ensure uninterrupted services, consider also configuring a failover MID Serve
 
 4.  To ensure that the MID Server is validated, under Related Links, select **Validate**.
 
-    For more information, see [Validate a MID Server](https://www.servicenow.com/docs/access?context=t_ValidateAMIDServer&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For more information, see [Validate a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ValidateAMIDServer.md).
 
 5.  Click **Update**.
 

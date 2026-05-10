@@ -37,7 +37,7 @@ Content Governance integrates with Content Publishing to provide content manager
 
 -   **Assignment groups**
 
-    An assignment group is a group of users that receive the content request. Content Governance includes two assignment groups out of the box: Content Admin and Content Manager, which contain the users with those roles. To configure a new assignment group, see [Configure assignment group types](https://www.servicenow.com/docs/access?context=c_ConfigGroupTypesForAssignGroups&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+    An assignment group is a group of users that receive the content request. Content Governance includes two assignment groups out of the box: Content Admin and Content Manager, which contain the users with those roles. To configure a new assignment group, see [Configure assignment group types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ConfigGroupTypesForAssignGroups.md)
 
 
 ## Content request process overview

@@ -135,7 +135,7 @@ Impersonate the specified user for the test.
 
 -   Do not rely on user IDs being consistent across different instances. The system dynamically assigns users IDs, so the ID for a particular user often differs from one instance to the next.
 -   When exporting and importing automated tests, keep in mind that update sets do not update the user field.
--   Tests can impersonate users with the snc\_external role, which allows testing users who do not have login access. See [Explicit Roles](https://www.servicenow.com/docs/access?context=explicit-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US) for requirements of the snc\_external role.
+-   Tests can impersonate users with the snc\_external role, which allows testing users who do not have login access. See [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explicit-roles.md) for requirements of the snc\_external role.
 
 <table id="nn4_pvy_rw"><thead><tr><th>
 

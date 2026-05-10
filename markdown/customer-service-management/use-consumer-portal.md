@@ -163,7 +163,7 @@ Contains important links, contact information, and legal details for easy access
 </td></tr></tbody>
 </table>## Customizing the Consumer Portal
 
-To customize this portal, navigate to **Service Portal** &gt; **Portals** and select **Consumer Portal**. For details about creating a custom interface, see [Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+To customize this portal, navigate to **Service Portal** &gt; **Portals** and select **Consumer Portal**. For details about creating a custom interface, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md).
 
 **Related topics**  
 

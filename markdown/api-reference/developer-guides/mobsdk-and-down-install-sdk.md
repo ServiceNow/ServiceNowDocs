@@ -32,7 +32,7 @@ Before you start the download and installation process, ensure that your develop
 
     -   Mobile SDK: [https://store.servicenow.com/sn\_appstore\_store.do\#!/store/application/52821846803120101040fe43e5b9ee8c](https://store.servicenow.com/sn_appstore_store.do#!/store/application/52821846803120101040fe43e5b9ee8c)
     -   Android library: [https://store.servicenow.com/sn\_appstore\_store.do\#!/store/application/f06b29b487ea3014970e2178cebb3511](https://store.servicenow.com/sn_appstore_store.do#!/store/application/f06b29b487ea3014970e2178cebb3511)
-    For details on installing applications on your instance, see [Administering applications](https://www.servicenow.com/docs/access?context=administering-applications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For details on installing applications on your instance, see [Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/administering-applications.md).
 
 2.  Unzip the NowSDK file into a temporary folder.
 

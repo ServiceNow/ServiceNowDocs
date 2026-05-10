@@ -25,7 +25,7 @@ The images show a comparative example, within the mobile platform, where a refer
 
 For information on the difference between simple, dynamic, and advanced reference qualifiers and how to configure them, see the following documentation topics:
 
-[Reference qualifiers](https://www.servicenow.com/docs/access?context=c_ReferenceQualifiers&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceQualifiers.md)
 
-[Configure reference qualifiers](https://www.servicenow.com/docs/access?context=t_ConfigureReferenceQualifiers&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Configure reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfigureReferenceQualifiers.md)
 

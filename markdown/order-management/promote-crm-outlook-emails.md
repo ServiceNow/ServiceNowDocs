@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: task
 last_updated: "2026-04-29"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Activity Management, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -80,32 +80,68 @@ Promote and run Triggers
 
     4.  On the form, fill in the fields.
 
-        |Field|Value|
-        |-----|-----|
-        |Name|&lt;business rule name&gt;|
-        |Table|Staged Email \[sys\_email\_staging\]|
-        |Active|Selected|
-        |Advanced|Selected|
+<table id="table-br-fields"><thead><tr><th>
 
-    5.  In the **When to run** tab, enter the following values.
+Field
+
+</th><th>
+
+Value
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+&lt;business rule name&gt;For example, Trigger promotion rules on CRM emails.
+
+</td></tr><tr><td>
+
+Table
+
+</td><td>
+
+Staged Email \[sys\_email\_staging\]
+
+</td></tr><tr><td>
+
+Active
+
+</td><td>
+
+Selected
+
+</td></tr><tr><td>
+
+Advanced
+
+</td><td>
+
+Selected
+
+</td></tr></tbody>
+</table>    5.  In the **When to run** tab, enter the following values.
 
         |Field|Value|
         |-----|-----|
         |When|after|
         |Insert|Selected|
-        |Filter Conditions|\[Target\] \[is anything\] AND \[Target table\] \[is anything\]|
+        |Update|Selected|
+        |Filter Conditions|\[Target\] \[changes\] AND \[Target table\] \[changes\]|
 
-    6.  In the **Advanced** tab, add the following line in the **Script** field to trigger email promotion processing for staged emails.
+    6.  In the **Advanced** tab, add the following values to trigger email promotion processing for staged CRM emails.
 
-        ```
-        gs.eventQueue("email_staged.read", current);
-        ```
+        |Field|Value|
+        |-----|-----|
+        |Condition|sn\_crm\_outlook.CRMOutlookAddinConstants.PROMOTED\_TABLE\_LIST\[current.target\_table\] == true &amp;&amp; !gs.nil\(current.instance\) &amp;&amp; gs.nil\(current.email\)|
+        |Script|gs.eventQueue\("email\_staged.read", current\);|
 
         This event initiates asynchronous processing for the staged email record. It triggers the promotion logic that moves emails from the staging table to the Emails \[sys\_email\] table, ensuring all staged emails are processed successfully after the UID duplication issue is resolved.
 
-        The following image shows the complete **Script** field value.
+        The following image shows the Advanced tab with Condition and Script fields populated.
 
-        ![Script field value after adding the eventQueue system event.](../image/email-promotion-business-rule.png)
+        ![Advanced tab with Condition and Script fields populated.](../image/email-promotion-business-rule.png)
 
     7.  Select **Submit**.
 
@@ -117,7 +153,7 @@ When an agent associates an email with a CRM record through the Microsoft Outloo
 **Related topics**  
 
 
-[Classic Business rules](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/business-rules-classic/c_BusinessRules.md)
 
 [Track emails linked from Microsoft Outlook](view-associated-emails-crm.md)
 

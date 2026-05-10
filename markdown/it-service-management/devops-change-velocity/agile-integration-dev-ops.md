@@ -15,7 +15,7 @@ breadcrumb: [Integrate, DevOps Change Velocity, IT Service Management]
 
 Connect to your ServiceNow Agile Development 2.0 instance to track your products and the stories, epics, and release versions associated with it.
 
-For more details about Agile Development 2.0, see [Agile Development 2.0](https://www.servicenow.com/docs/access?context=agile-landing-page&version=australia&pubname=australia-it-business-management&ft:locale=en-US).
+For more details about Agile Development 2.0, see [Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-landing-page.md).
 
 ## Get started
 

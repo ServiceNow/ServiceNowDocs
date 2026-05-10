@@ -17,13 +17,13 @@ Configure the release lifecycle documentation AI agent to start automating your 
 
 ## Before you begin
 
-To configure the release lifecycle documentation AI agent, you must have the Now Assist panel turned on and configured. See [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information.
+To configure the release lifecycle documentation AI agent, you must have the Now Assist panel turned on and configured. See [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md) for more information.
 
 Role required: admin
 
 ## About this task
 
-By default, the release lifecycle documentation AI agent is inactive. To use the release lifecycle documentation AI agent, you must configure the AI agent in AI Agent Studio. For more information about configuring AI agents, see [Configure Now Assist AI agents](https://www.servicenow.com/docs/access?context=configuring-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+By default, the release lifecycle documentation AI agent is inactive. To use the release lifecycle documentation AI agent, you must configure the AI agent in AI Agent Studio. For more information about configuring AI agents, see [Configure Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-ai-agents.md).
 
 ## Procedure
 
@@ -43,7 +43,7 @@ By default, the release lifecycle documentation AI agent is inactive. To use the
 
     By default, using the release lifecycle documentation AI agent requires the update\_set\_admin and sn\_aia.viewer roles. You can add additional role requirements if needed.
 
-    For more information about the roles required, see [Roles required for using the release lifecycle documentation AI agent](../reference/release-lifecycle-documentation-ai-agent-roles.md). For more information about defining AI agent access, see [Define security controls for an AI agent](https://www.servicenow.com/docs/access?context=define-sec-controls-aia&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more information about the roles required, see [Roles required for using the release lifecycle documentation AI agent](../reference/release-lifecycle-documentation-ai-agent-roles.md). For more information about defining AI agent access, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md).
 
 6.  In the side panel, select **Select channels and status**.
 
@@ -55,7 +55,7 @@ By default, the release lifecycle documentation AI agent is inactive. To use the
 
 8.  Select **Test**.
 
-    Testing an AI agent enables you to see that it functions the way that you defined it. To learn more, see [Manually test the execution of an AI agent](https://www.servicenow.com/docs/access?context=test-ai-agent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    Testing an AI agent enables you to see that it functions the way that you defined it. To learn more, see [Manually test the execution of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-agent.md).
 
 
 ## What to do next

@@ -126,5 +126,5 @@ You can [define risk assessment](t_DefineARiskAssessment.md) conditions for chan
 
 [Change Management properties](../reference/r_ChangeManagementProperties.md)
 
-[List of Australia plugins](https://www.servicenow.com/docs/access?context=list-of-plugins&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[List of Australia plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

@@ -20,7 +20,7 @@ Install the Now Assist for Creator application so that you can get started with 
 
 Install Now Assist for Creator on your instance before turning on the skill. For more information, see [Install Now Assist for Creator](../../../administer/flow-designer/task/install-now-assist-for-creator.md).
 
-Enable the Now Assist panel before completing these steps. For more information, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Enable the Now Assist panel before completing these steps. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 Role required: admin
 
@@ -50,7 +50,7 @@ Role required: admin
 
 [Install Now Assist for Creator](../../../administer/flow-designer/task/install-now-assist-for-creator.md)
 
-[Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md)
 
 [Use the app generation skill to generate apps](sns-app-gen-use-app-gen-skill.md)
 

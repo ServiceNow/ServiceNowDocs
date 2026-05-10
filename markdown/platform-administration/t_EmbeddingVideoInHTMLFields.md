@@ -42,7 +42,7 @@ The larger the file size, the longer it takes to download before the video start
 |Bit rate|320KBPS|
 |Resolution|480\*320|
 
-Internet Explorer and Safari have difficulty streaming videos uploaded to the database. Attach a file rather than embedding if you intend to use one of these browsers or an unsupported file type. For more information on attaching files, see [Add and manage attachments](https://www.servicenow.com/docs/access?context=t_AddingAnAttachment&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Internet Explorer and Safari have difficulty streaming videos uploaded to the database. Attach a file rather than embedding if you intend to use one of these browsers or an unsupported file type. For more information on attaching files, see [Add and manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_AddingAnAttachment.md).
 
 **Note:** Administrators and users with the image\_admin role can manage the video library at **System UI** &gt; **Videos**.
 

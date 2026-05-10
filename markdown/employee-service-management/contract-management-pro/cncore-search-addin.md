@@ -37,15 +37,15 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 5.  Search for clauses that are either in the template or only in the clause library.
 
-<table id="choicetable_esb_crp_dzb"><thead><tr><th align="left" id="d568769e154">
+<table id="choicetable_esb_crp_dzb"><thead><tr><th align="left" id="d574248e154">
 
 Location of the clause
 
-</th><th align="left" id="d568769e157">
+</th><th align="left" id="d574248e157">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d568769e163">
+</th></tr></thead><tbody><tr><td id="d574248e163">
 
 **Part of the template**
 
@@ -57,7 +57,7 @@ Actions
 4.  In the **Search clauses** field, enter the name of the clause you want to search.
 
 
-</td></tr><tr><td id="d568769e196">
+</td></tr><tr><td id="d574248e196">
 
 **Clause library**
 

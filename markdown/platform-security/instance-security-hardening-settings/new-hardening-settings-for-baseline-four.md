@@ -6,7 +6,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [New hardening settings, Baseline versions, Hardening settings, Platform Security]
 ---

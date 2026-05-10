@@ -29,7 +29,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   Visibility Content
 -   **Verify the configuration of the credentials**
 
-    Configure basic authentication credentials to classify FlashArray. For more information, see [basic authentication](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    Configure basic authentication credentials to classify FlashArray. For more information, see [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md).
 
 -   **Verify the permissions to run REST API calls**
 
@@ -117,7 +117,7 @@ Object ID \[object\_id\]
 
 </td><td>
 
-Credential affinity assigned during discovery to the FlashArray storage. For more information about credential affinity, see [Credential affinity for Discovery and Orchestration](https://www.servicenow.com/docs/access?context=c_CredentialAffinity&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Credential affinity assigned during discovery to the FlashArray storage. For more information about credential affinity, see [Credential affinity for Discovery and Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CredentialAffinity.md).
 
 </td></tr><tr><td>
 

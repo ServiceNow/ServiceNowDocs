@@ -82,7 +82,7 @@ Language of the files
 
 </td><td>
 
-Language of the contract documents this is by Now Assist.For more information on supported languages, see [Languages supported by Document Intelligence](https://www.servicenow.com/docs/access?context=languages-supported-by-document-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Language of the contract documents this is by Now Assist.For more information on supported languages, see [Languages supported by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/languages-supported-by-document-intelligence.md).
 
 </td></tr><tr><td>
 
@@ -160,7 +160,7 @@ This field should be left empty.
 
     4.  Enter details for the field.
 
-        For more information on the field form, see [Question form for use case setup](https://www.servicenow.com/docs/access?context=document-qna-single-field-form&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+        For more information on the field form, see [Question form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/document-qna-single-field-form.md).
 
         ![Question details in the fields page.](../image/cmpro-na-add-fields.png "Fields page")
 

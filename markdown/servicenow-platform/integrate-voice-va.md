@@ -27,7 +27,7 @@ To use our pre-built adapter connector with ServiceNow Voice with Virtual Agent,
 -   **Calling and routing**
     -   Make outbound calls via click to call or via auto-connecting the Omnichannel Callback feature.
 
-        For more information, see [Configure Conversational IVR with Amazon Connect](https://www.servicenow.com/docs/access?context=configure-va-ivr&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+        For more information, see [Configure Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-ivr.md).
 
     -   Transfer to external phone number using the Amazon Connect Softphone.
     -   Skills-based call assignment using the Advanced Work Assignment.
@@ -59,5 +59,5 @@ The following example workflow shows the use of ServiceNow Voice for Virtual Age
 **Related topics**  
 
 
-[Conversational IVR with Amazon Connect](https://www.servicenow.com/docs/access?context=va-ivr-voice&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+[Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-ivr-voice.md)
 

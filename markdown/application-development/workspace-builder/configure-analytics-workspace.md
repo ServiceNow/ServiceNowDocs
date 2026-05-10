@@ -47,5 +47,5 @@ The Analytics Overview always displays current, refreshed content.
 
 ## Result
 
-For more information on working with the Analytics Overview, see [Dashboards in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-dashboards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+For more information on working with the Analytics Overview, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md).
 

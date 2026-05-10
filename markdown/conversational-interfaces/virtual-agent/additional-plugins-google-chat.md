@@ -22,7 +22,7 @@ Role required: virtual\_agent\_admin or admin and external\_app\_install\_admin.
 
 ## About this task
 
-Activate and install multiple plugins and applications to finish installing Conversational Integration with Google chat. For more information on activating plugins, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).\)
+Activate and install multiple plugins and applications to finish installing Conversational Integration with Google chat. For more information on activating plugins, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).\)
 
 ## Procedure
 

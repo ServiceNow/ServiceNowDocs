@@ -21,7 +21,7 @@ Role required: sn\_icw.application\_admin or sn\_icw.admin
 
 ## About this task
 
-Schedule records are saved in the Schedule \[cmn\_schedule\] table. Schedule entries are saved in the Schedule Entry \[cmn\_schedule\_span\] table. For more information about scheduling, see [Define a schedule](https://www.servicenow.com/docs/access?context=t_DefineASchedule&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Schedule records are saved in the Schedule \[cmn\_schedule\] table. Schedule entries are saved in the Schedule Entry \[cmn\_schedule\_span\] table. For more information about scheduling, see [Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_DefineASchedule.md).
 
 ## Procedure
 

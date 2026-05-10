@@ -31,7 +31,7 @@ Canceling a workflow attempts to stop the workflow gracefully by injecting a can
 
 3.  Configure form layout to add **On-cancel script** field to form.
 
-    For detailed information about configuring form layout, see [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For detailed information about configuring form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
 4.  Select the **Cancel** related link.
 
@@ -66,7 +66,7 @@ Role required: admin
 
 ### About this task
 
-For more information, see the [Workflow - cancelContext\(GlideRecord context\)](https://www.servicenow.com/docs/access?context=c_Workflow_api&version=australia&pubname=australia-api-reference&section=r_WF-cancelContext_GR&ft:locale=en-US).
+For more information, see the [Workflow - cancelContext\(GlideRecord context\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_Workflow_api.md).
 
 ## Define an on-cancel script
 

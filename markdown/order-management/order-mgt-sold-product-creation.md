@@ -48,7 +48,7 @@ The change order workflow is as follows:
 **Related topics**  
 
 
-[Customer Life Cycle Management Workflows](https://www.servicenow.com/docs/access?context=customer-life-cycle-management-workflows&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Customer Life Cycle Management Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-life-cycle-management-workflows.md)
 
 [Managing post-fulfillment order changes](managing-orders.md)
 

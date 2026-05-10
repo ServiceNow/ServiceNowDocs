@@ -48,7 +48,7 @@ Portal widget
 
 </td><td>
 
-Prompts are displayed through a widget on the Employee Portal.**Note:** To see the prompts on the portal, the Prompt widget must be added to the portal page. For information on configuring portal pages, see [Create and edit a page using the Service Portal Designer](https://www.servicenow.com/docs/access?context=t_ConfigureAPage&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US). For information on adding widgets to a page, see [Service Portal widgets](https://www.servicenow.com/docs/access?context=service-portal-widgets&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Prompts are displayed through a widget on the Employee Portal.**Note:** To see the prompts on the portal, the Prompt widget must be added to the portal page. For information on configuring portal pages, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md). For information on adding widgets to a page, see [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-portal-widgets.md).
 
 </td></tr><tr><td>
 

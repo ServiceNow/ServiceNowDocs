@@ -27,7 +27,7 @@ Role required: admin, ui\_builder\_admin
 
 3.  Fill in the fields for your experience.
 
-<table id="choicetable_jwq_jdh_x1c"><tbody><tr><td id="d75080e89">
+<table id="choicetable_jwq_jdh_x1c"><tbody><tr><td id="d75084e89">
 
 **Name**
 
@@ -35,7 +35,7 @@ Role required: admin, ui\_builder\_admin
 
 The name is used for tracking the experience internally. The experience name is also visible to users from the browser tab.
 
-</td></tr><tr><td id="d75080e98">
+</td></tr><tr><td id="d75084e98">
 
 **URL path**
 
@@ -45,7 +45,7 @@ The URL path is the prefix that people will use to reach your experience. It mat
 
 Supported characters include digits \(0-9\), letters \(A-Z, a-z\), and the following symbols: $-\_!\*\(\),The path can't end with a forward slash \(/\).
 
-</td></tr><tr><td id="d75080e114">
+</td></tr><tr><td id="d75084e114">
 
 **App shell UI**
 
@@ -53,9 +53,9 @@ Supported characters include digits \(0-9\), letters \(A-Z, a-z\), and the follo
 
 Choose the **UXR Base Experience Shell**.
 
- The app shell is the wrapper of the page contents, which is similar to the functionality of a web page. The app shell can show things like the logo of your company, user preferences, and the search icon. To learn more about the app shell options, see [Define UI experiences using app shells](https://www.servicenow.com/docs/access?context=app-shells-uibuilder&version=australia&pubname=australia-application-development&ft:locale=en-US).
+ The app shell is the wrapper of the page contents, which is similar to the functionality of a web page. The app shell can show things like the logo of your company, user preferences, and the search icon. To learn more about the app shell options, see [Define UI experiences using app shells](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/app-shells-uibuilder.md).
 
-</td></tr><tr><td id="d75080e139">
+</td></tr><tr><td id="d75084e139">
 
 **Landing path**
 
@@ -63,7 +63,7 @@ Choose the **UXR Base Experience Shell**.
 
 The landing path is the prefix that people will use to reach your experience homepage. It matches your experience name by default. To designate a page as the homepage, you will need to create a page that has a matching path.
 
-</td></tr><tr><td id="d75080e148">
+</td></tr><tr><td id="d75084e148">
 
 **Roles**
 
@@ -155,7 +155,7 @@ View mode used to render Playbook activities in stacked or focused mode.
 The tab that your page opens to by default.
 
 </td></tr></tbody>
-</table>10. Setup your default [page variant](https://www.servicenow.com/docs/access?context=create-variant&version=australia&pubname=australia-application-development&ft:locale=en-US).
+</table>10. Setup your default [page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md).
 
 <table id="table_frz_wd3_q1c"><tbody><tr><td>
 

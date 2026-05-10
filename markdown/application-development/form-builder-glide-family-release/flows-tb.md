@@ -152,7 +152,7 @@ Run as
 
 Option to specify the user that runs the flow. You can select the system user or the user who initiates the session. Select the user who initiates the session option when updates should come from the user who triggered the flow. For example, use this option when you want the incident record comments to come from the user who started the flow. Settings for the Run as option in a flow don't apply to child subflows.
 
- To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see [OAuth 2.0 credentials](https://www.servicenow.com/docs/access?context=oauth-2-credentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+ To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/oauth-2-credentials.md).
 
  When flows run as the user who initiates the session, the system limits the flow actions by user access control list \(ACL\) restrictions. Ensure that security restrictions don't prevent users who trigger the flow from performing flow actions. Flows that are run by the initiating user also respect user-specific settings, such as the date/time formats.
 
@@ -171,7 +171,7 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 
 7.  Choose the event that your flow will be triggered by.
 
-<table id="choicetable_nl2_cmz_ztb"><tbody><tr><td id="d80781e753">
+<table id="choicetable_nl2_cmz_ztb"><tbody><tr><td id="d80785e753">
 
 **When the record is created**
 
@@ -179,7 +179,7 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 
 Create a flow that is triggered when a record in the selected table is created.
 
-</td></tr><tr><td id="d80781e762">
+</td></tr><tr><td id="d80785e762">
 
 **When the record is updated**
 
@@ -187,7 +187,7 @@ Create a flow that is triggered when a record in the selected table is created.
 
 Create a flow that is triggered when a record in the selected table is updated.
 
-</td></tr><tr><td id="d80781e771">
+</td></tr><tr><td id="d80785e771">
 
 **When the record is created or updated**
 
@@ -196,7 +196,7 @@ Create a flow that is triggered when a record in the selected table is updated.
 Create a flow that is triggered when a record in the selected table is created or updated.
 
 </td></tr></tbody>
-</table>    The flow that you just created is displayed in the flow diagramming view. See [Flow diagramming view](https://www.servicenow.com/docs/access?context=flow-diagramming-view&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+</table>    The flow that you just created is displayed in the flow diagramming view. See [Flow diagramming view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-diagramming-view.md).
 
 8.  Select **Add node**, and then select one of the following options to modify your flow:
 
@@ -214,7 +214,7 @@ Action
 
 </td><td>
 
-Select the desired action. Workflow Studio includes [Workflow Studio actions](https://www.servicenow.com/docs/access?context=flow-actions&version=australia&pubname=australia-build-workflows&ft:locale=en-US) that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The [Integration Hub](https://www.servicenow.com/docs/access?context=integrationhub&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) and [Spokes](https://www.servicenow.com/docs/access?context=spokes&version=australia&pubname=australia-build-workflows&ft:locale=en-US) plugins install additional actions.
+Select the desired action. Workflow Studio includes [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md) that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md) and [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md) plugins install additional actions.
 
  To add draft actions from the More Actions menu, set **Show draft actions** to **true**.
 
@@ -239,11 +239,11 @@ Subflow
 Select a published subflow and define the input values. In addition to adding a subflow as a flow action, you can enable the **Show triggered flows** option from the More Actions menu to select an activated flow and define the required inputs. Running a triggered flow ignores its trigger conditions and runs all actions.
 
 </td></tr></tbody>
-</table>    **Note:** Alternately, you may toggle the Workflow Studio default view from the view selector, and then select **Add an Action, Flow Logic, or Subflow** in that view of Workflow Studio. For more information, see [Flow diagramming view](https://www.servicenow.com/docs/access?context=flow-diagramming-view&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+</table>    **Note:** Alternately, you may toggle the Workflow Studio default view from the view selector, and then select **Add an Action, Flow Logic, or Subflow** in that view of Workflow Studio. For more information, see [Flow diagramming view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-diagramming-view.md).
 
 9.  Continue modifying your flow in Workflow Studio.
 
-    **Note:** For detailed information on how to work with flows for your application, see [Create a flow](https://www.servicenow.com/docs/access?context=create-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    **Note:** For detailed information on how to work with flows for your application, see [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
 
 10. Select **Save**.
 
@@ -252,9 +252,9 @@ Select a published subflow and define the input values. In addition to adding a 
 
 ### What to do next
 
-Test your flow until you're ready to activate it. For more information on testing and editing flows, see [Activate a flow](https://www.servicenow.com/docs/access?context=flow-activate&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Test your flow until you're ready to activate it. For more information on testing and editing flows, see [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-activate.md).
 
-**Note:** Your application can trigger only activated flows. For detailed information on how to design, test, and activate flows for your application, see [Flows in Workflow Studio](https://www.servicenow.com/docs/access?context=exploring-flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+**Note:** Your application can trigger only activated flows. For detailed information on how to design, test, and activate flows for your application, see [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flows.md).
 
 To return to the comprehensive list of flows related to the selected table after editing a flow, select the Additional actions \( ![Additional actions menu.](../image/ellipsisIcon.png)\) menu to the right of the **Flows** tab, and then select **All flows** as shown in the following example.
 
@@ -292,7 +292,7 @@ The **Flows** tab in Table Builder provides a list of flows that are triggered b
 
 5.  Edit the record-based flow by using Workflow Studio.
 
-    For detailed information on how to work with flows for your application, see [Create a flow](https://www.servicenow.com/docs/access?context=create-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For detailed information on how to work with flows for your application, see [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
 
     **Note:** To return to the list of flow cards that are related to the table, select the Additional actions \( ![Additional actions menu.](../image/ellipsisIcon.png)\) menu to the right of the **Flows** tab, and then select **All flows**.
 
@@ -301,9 +301,9 @@ The **Flows** tab in Table Builder provides a list of flows that are triggered b
 
 ### What to do next
 
-Test your flow until you're ready to activate it. For more information on testing and editing flows, see [Activate a flow](https://www.servicenow.com/docs/access?context=flow-activate&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Test your flow until you're ready to activate it. For more information on testing and editing flows, see [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-activate.md).
 
-**Note:** Your application can trigger only activated flows. For detailed information on how to design, test, and activate flows for your application, see [Flows in Workflow Studio](https://www.servicenow.com/docs/access?context=exploring-flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+**Note:** Your application can trigger only activated flows. For detailed information on how to design, test, and activate flows for your application, see [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flows.md).
 
 To return to the list of flows related to the table that you selected after you edited a flow, select the Additional actions \( ![Additional actions menu.](../image/ellipsisIcon.png)\) menu to the right of the **Flows** tab, and then select **All flows** as shown in the following example.
 
@@ -370,7 +370,7 @@ Role required: personalize\_forms, personalize\_dictionary, and flow\_designer p
 
 6.  Edit your new flow by using Workflow Studio.
 
-    For detailed information on how to work with flows for your application, see [Create a flow](https://www.servicenow.com/docs/access?context=create-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For detailed information on how to work with flows for your application, see [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
 
 7.  Select **Save**.
 

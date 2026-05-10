@@ -13,7 +13,7 @@ breadcrumb: [Configuring customer access management, User management, Set up you
 
 Learn about the tables and plugins that you can use with customer access management.
 
-The customer access management feature adds new tables or modifies existing tables. You can activate the following plugins that enable features, such as enabling restricted contact access. To activate these plugins, you must have the admin role. For details, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The customer access management feature adds new tables or modifies existing tables. You can activate the following plugins that enable features, such as enabling restricted contact access. To activate these plugins, you must have the admin role. For details, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 <table id="table_pqr_4xf_fsb"><thead><tr><th>
 

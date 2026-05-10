@@ -27,7 +27,7 @@ Role required: admin
 
 2.  Search for the Procurement for Field Service Management plugin \(sn\_fsm\_psm\_mobile\).
 
-    **Note:** To activate this plugin, there is a dependency on the Shopping Hub Mobile application. For more information on activating and setting up Field Service Management and additional plugins, see [Activate Field Service Management](https://www.servicenow.com/docs/access?context=t_ActivateFieldServiceManagement&version=australia&pubname=australia-field-service-management&ft:locale=en-US).
+    **Note:** To activate this plugin, there is a dependency on the Shopping Hub Mobile application. For more information on activating and setting up Field Service Management and additional plugins, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ActivateFieldServiceManagement.md).
 
 3.  Select **Activate**.
 

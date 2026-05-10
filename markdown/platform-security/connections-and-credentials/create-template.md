@@ -27,15 +27,15 @@ Role required: admin
 
 3.  Select the type of configuration template that you want to create.
 
-<table id="choicetable_brl_cpl_1jb"><thead><tr><th align="left" id="d73204e77">
+<table id="choicetable_brl_cpl_1jb"><thead><tr><th align="left" id="d73294e77">
 
 Configuration type
 
-</th><th align="left" id="d73204e80">
+</th><th align="left" id="d73294e80">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d73204e86">
+</th></tr></thead><tbody><tr><td id="d73294e86">
 
 **HTTP Connection with OAuth Authorization Code grant type**
 
@@ -43,7 +43,7 @@ Description
 
 Creates a template to register the third-party system as an OAuth provider using an authorization code.
 
-</td></tr><tr><td id="d73204e95">
+</td></tr><tr><td id="d73294e95">
 
 **HTTP Connection with OAuth JWT Bearer grant type**
 
@@ -59,7 +59,7 @@ Creates a template to register the third-party system as an OAuth provider using
 
 Creates a template to integrate with a third-party application via the OAuth 2.0 authentication that uses the client credentials grant type.
 
-</td></tr><tr><td id="d73204e116">
+</td></tr><tr><td id="d73294e116">
 
 **HTTP Connection with OAuth Client Credentials grant type \(External Storage\)**
 
@@ -67,7 +67,7 @@ Creates a template to integrate with a third-party application via the OAuth 2.0
 
 Creates a template that enables the sending of OAuth token request that comprises client credentials stored by an external storage to an OAuth server via the MID Server.
 
-</td></tr><tr><td id="d73204e129">
+</td></tr><tr><td id="d73294e129">
 
 **HTTP Connection with Basic Auth Credential**
 
@@ -75,7 +75,7 @@ Creates a template that enables the sending of OAuth token request that comprise
 
 Creates a template to integrate with the third-party system using basic authentication.
 
-</td></tr><tr><td id="d73204e138">
+</td></tr><tr><td id="d73294e138">
 
 **HTTP Connection with API Key Credential**
 
@@ -83,7 +83,7 @@ Creates a template to integrate with the third-party system using basic authenti
 
 Creates a template to integrate with the third-party system using an API key.
 
-</td></tr><tr><td id="d73204e147">
+</td></tr><tr><td id="d73294e147">
 
 **Other Configuration**
 
@@ -317,14 +317,14 @@ Groups that contains a different set of fields. These groups are available as a 
             }
 ```
 
- For more information on how to use dot-walking, see [Dot-walking](https://www.servicenow.com/docs/access?context=c_DotWalking&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+ For more information on how to use dot-walking, see [Dot-walking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md).
 
 </td></tr></tbody>
 </table>    **Tip:** If the pre-populated values are not appearing in the fields while editing a connection, navigate to **System Diagnostics** &gt; **Session Debug** &gt; **Debug Log** to diagnose the issue.
 
 9.  In the **Test Action** field, enter the name of the test action.
 
-    Creating a test action enables you to test a connection directly from an integration action in the flow view of Workflow Studio. The test action uses an action definition to test the alias that the template is currently attached to. For details, see [Create a test action to test a connection alias from a configuration template](https://www.servicenow.com/docs/access?context=test-alias-configuration-template&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    Creating a test action enables you to test a connection directly from an integration action in the flow view of Workflow Studio. The test action uses an action definition to test the alias that the template is currently attached to. For details, see [Create a test action to test a connection alias from a configuration template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/test-alias-configuration-template.md).
 
 10. Add the template to a Connection &amp; Credential alias.
 

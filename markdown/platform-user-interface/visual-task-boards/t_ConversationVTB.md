@@ -39,7 +39,7 @@ When you create a conversation from a task board, all the board members become m
 **Related topics**  
 
 
-[Connect Chat](https://www.servicenow.com/docs/access?context=c_Collaboration&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Connect Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_Collaboration.md)
 
 [Visual Task Boards](../../visual-task-boards/concept/c_VisualTaskBoards.md)
 

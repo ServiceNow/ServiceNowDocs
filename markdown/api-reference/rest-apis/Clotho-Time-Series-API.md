@@ -980,7 +980,7 @@ metrics
 
 </td><td>
 
-List of metrics objects to use in the transform. For more information on metrics, see [Metrics](https://www.servicenow.com/docs/access?context=c_MetricDefinitionSupport&version=australia&pubname=australia-platform-administration&ft:locale=en-US).Data type: Array
+List of metrics objects to use in the transform. For more information on metrics, see [Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_MetricDefinitionSupport.md).Data type: Array
 
  ```
 "metrics": [
@@ -2291,7 +2291,7 @@ metrics
 
 </td><td>
 
-List of metrics objects to use in the transform. For more information on metrics, see [Metrics](https://www.servicenow.com/docs/access?context=c_MetricDefinitionSupport&version=australia&pubname=australia-platform-administration&ft:locale=en-US).Data type: Array
+List of metrics objects to use in the transform. For more information on metrics, see [Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_MetricDefinitionSupport.md).Data type: Array
 
  ```
 "metrics": [

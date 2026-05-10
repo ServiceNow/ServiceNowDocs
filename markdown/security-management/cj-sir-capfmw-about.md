@@ -13,7 +13,7 @@ breadcrumb: [Security Operations Integration Reference, Security Operations comm
 
 The new Integration Capabilities Framework 2.0 has been redesigned to enable implementation of integrations in a simple and consistent manner. This ensures a consistent experience for similar types of integrations \(for example: observable reputation lookup\).
 
-The new framework has capabilities implemented using [Flows](https://www.servicenow.com/docs/access?context=flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+The new framework has capabilities implemented using [Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md).
 
 Benefits from the enhanced framework implementation include:
 
@@ -70,7 +70,7 @@ Starting with Security Incident Response 10.4, the following integrations are su
 
 The new Capability Integration Framework includes the following components:
 
--   **Capabilities**: All of the following capabilities that exist in the product today as workflows have been redesigned using [Flows](https://www.servicenow.com/docs/access?context=flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US):
+-   **Capabilities**: All of the following capabilities that exist in the product today as workflows have been redesigned using [Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md):
     -   **Block Request**: Provides a way to block observables associated with a security incident on a firewall, web proxy, or some other control point. This capability is used during incident response investigations to contain an identified threat.
     -   **Email Search and Delete**: Provides a way to search an email server during a security investigation and if necessary, delete emails from the server.
     -   **Enrich Configuration Item**: Provides a general way to enrich configuration items with additional information from a variety of sources. This capability is used during incident response investigations to enrich data associated with a security incident.

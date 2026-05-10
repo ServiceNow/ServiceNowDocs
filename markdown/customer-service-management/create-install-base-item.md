@@ -61,9 +61,9 @@ Configuration Item
 
 </td><td>
 
-Configuration item that is associated with the install base item.The sn\_customerservice\_manager role must also have the app\_service\_user role to create the install base items for the Application Service configuration item class. For more information, see [Application services](https://www.servicenow.com/docs/access?context=application-services&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Configuration item that is associated with the install base item.The sn\_customerservice\_manager role must also have the app\_service\_user role to create the install base items for the Application Service configuration item class. For more information, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/application-services.md).
 
-Service models have a model category called the Application Service, which links a service model to the Application Service CI class. For more information, see [Models](https://www.servicenow.com/docs/access?context=c_Models&version=australia&pubname=australia-it-asset-management&ft:locale=en-US) and [Model categories](https://www.servicenow.com/docs/access?context=c_ModelCategories&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).
+Service models have a model category called the Application Service, which links a service model to the Application Service CI class. For more information, see [Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_Models.md) and [Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_ModelCategories.md).
 
 </td></tr><tr><td>
 

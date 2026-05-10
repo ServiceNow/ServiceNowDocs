@@ -15,7 +15,7 @@ Plan and track customer calls to organize and manage follow-ups and outreach and
 
 ## Before you begin
 
-The Omnichannel Callback for Customer Service Management \(com.sn\_omnichannel\_callback\) application must be installed to enable the click-to-call feature so agents can call customers from the touchpoint record. For more information, see [Install Omnichannel Callback for Customer Service Management](https://www.servicenow.com/docs/access?context=install-csm-omni-callback-app&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+The Omnichannel Callback for Customer Service Management \(com.sn\_omnichannel\_callback\) application must be installed to enable the click-to-call feature so agents can call customers from the touchpoint record. For more information, see [Install Omnichannel Callback for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-csm-omni-callback-app.md).
 
 Role required: sn\_crm\_touchpoint.touchpoint\_writer
 

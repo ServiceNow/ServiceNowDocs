@@ -22,9 +22,9 @@ Create a flow with Now Assist
 -   Roles required:
     -   admin, flow\_designer, or a delegated developer permission
     -   now.assist.creator
--   Turn on the flow generation skill. See [Turn on the flow generation skill](https://www.servicenow.com/docs/access?context=turn-on-the-flow-generation-skill&version=australia&pubname=australia-application-development&ft:locale=en-US).
--   Turn on the flow generation with images skill. See [Turn on the flow generation with images skill](https://www.servicenow.com/docs/access?context=turn-on-the-flow-generation-with-images-skill&version=australia&pubname=australia-application-development&ft:locale=en-US).
--   Turn on the flow recommendations skill. See [Turn on the flow recommendations skill](https://www.servicenow.com/docs/access?context=turn-on-the-now-assist-recommendations-skill&version=australia&pubname=australia-application-development&ft:locale=en-US).
+-   Turn on the flow generation skill. See [Turn on the flow generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/turn-on-the-flow-generation-skill.md).
+-   Turn on the flow generation with images skill. See [Turn on the flow generation with images skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/turn-on-the-flow-generation-with-images-skill.md).
+-   Turn on the flow recommendations skill. See [Turn on the flow recommendations skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/turn-on-the-now-assist-recommendations-skill.md).
 
 ## About this task
 
@@ -149,7 +149,7 @@ Option to specify the user that runs the flow. You can select the system user or
 
  **Note:** By default, flows run as the user who initiates the session.
 
- To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see [OAuth 2.0 credentials](https://www.servicenow.com/docs/access?context=oauth-2-credentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+ To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/oauth-2-credentials.md).
 
  When flows run as the user who initiates the session, the system limits flow actions by user ACL restrictions. Ensure that security restrictions don't prevent users who trigger the flow from performing flow actions. Flows run by the initiating user also respect user-specific settings such as date/time formats.
 
@@ -191,7 +191,7 @@ Priority level at which you want the system to run this flow by default. Options
 
 8.  If the generated flow preview does not meet your needs, you can update the Now Assist directions, and select **Rebuild flow**.
 
-    Each time you build or rebuild a flow, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    Each time you build or rebuild a flow, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
 
 9.  If you want to stop creating a flow and return to the Workflow Studio homepage, you can select **Discard flow**.
 

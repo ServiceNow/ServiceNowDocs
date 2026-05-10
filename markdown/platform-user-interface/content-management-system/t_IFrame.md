@@ -23,7 +23,7 @@ Role required: content\_admin or admin
 
 Configure an iFrame with forms you create in the instance and link to the page in which the iFrame resides.
 
-**Note:** Do not add any type of report, such as a calendar, to iFrames. For more information on adding a report directly onto a page without using iFrames, see [Embedding reports in Jelly](https://www.servicenow.com/docs/access?context=c_EmbeddingReportsInJelly&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+**Note:** Do not add any type of report, such as a calendar, to iFrames. For more information on adding a report directly onto a page without using iFrames, see [Embedding reports in Jelly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_EmbeddingReportsInJelly.md).
 
 **Note:** To deliver ServiceNow content from a web page, see [Service Portal](../../../build/service-portal/concept/c_ServicePortal.md) instead.
 

@@ -217,7 +217,7 @@ Allow multiple rate types
 
 Option to provide a rate type in a time card to be used during expense line generation.When this option is selected, the **Rate type** field displays on the Time Card form to enable the selection of a rate type.
 
- For more information, see [Rate type in labor rate card](https://www.servicenow.com/docs/access?context=RateType&version=australia&pubname=australia-it-business-management&ft:locale=en-US).
+ For more information, see [Rate type in labor rate card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/RateType.md).
 
 </td></tr><tr><td>
 

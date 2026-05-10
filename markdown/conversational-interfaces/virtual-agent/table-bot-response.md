@@ -67,7 +67,7 @@ Filter rows
 
 </td><td>
 
-Options for filtering the contents of the table. Choose one of the following:-   **Condition**: Specify a no-code condition statement using the condition builder. For more information, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Options for filtering the contents of the table. Choose one of the following:-   **Condition**: Specify a no-code condition statement using the condition builder. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 -   **Script**: Enter a low-code script that specifies a condition.
 
  This field is available only when the **Table** option is selected.

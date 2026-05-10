@@ -37,7 +37,7 @@ You can create a part requirement to request a part with or without the context 
 
 4.  Do one of the following.
 
-<table><tbody><tr><td id="d47690e188">
+<table><tbody><tr><td id="d47694e188">
 
 **Click __Source__.**
 
@@ -45,7 +45,7 @@ You can create a part requirement to request a part with or without the context 
 
 All tasks and part requirements are listed on the left. Point to any task or part requirement icon to obtain more information. Right-click a work order task and select **Create Part Requirement**. This method is useful if you are sourcing multiple parts for a work order task.
 
-</td></tr><tr><td id="d47690e203">
+</td></tr><tr><td id="d47694e203">
 
 **In the __Part Requirements__ related list, click __New__.**
 
@@ -60,7 +60,7 @@ This method is useful if you are sourcing a single part for a work order task.
     |-----|-----------|
     |Number|Auto-generated number for the part requirement.|
     |Work order task|Number assigned to the work order task.|
-    |Model|Description of the part [model](https://www.servicenow.com/docs/access?context=c_Models&version=australia&pubname=australia-it-service-management&ft:locale=en-US) needed to complete the work order task.|
+    |Model|Description of the part [model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_Models.md) needed to complete the work order task.|
     |Required by date|Date by which all parts should be delivered. The date is filled in automatically based on the task's expected travel start time. If necessary, change the date manually.|
     |Required quantity|Total quantity necessary to complete the part requirement. This field becomes read-only when the full number of required parts has been sourced.|
     |Reserved quantity|Total quantity that has been [sourced](t_SourceAPartAndAssignAnAgent.md) already.|

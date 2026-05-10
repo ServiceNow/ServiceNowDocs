@@ -35,7 +35,7 @@ The ServiceNow® AI Risk and Compliance application, along with the ServiceNow®
 
 </td><td>
 
-[AI Control Tower![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about how AI Control Tower manages and tracks all the AI assets and other AI assets.](https://www.servicenow.com/docs/access?context=ai-control-tower-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[AI Control Tower![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about how AI Control Tower manages and tracks all the AI assets and other AI assets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md)
 
 </td><td>
 

@@ -23,11 +23,11 @@ You can define custom invoice fields for the request body. Use the following flo
 
 Define credentials for cXML payloads in the Source system credential \[sn\_spend\_intg\_source\_system\_credential\] table. For instructions, see [Setting credentials for authentication in the cXML payload](apInvoice-dev-guide.md#).
 
-You can apply a filter condition for invoice lines containing multiple ERPs. For information, see [Integration errors](https://www.servicenow.com/docs/access?context=integration-errors-during-erp-posting&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US).
+You can apply a filter condition for invoice lines containing multiple ERPs. For information, see .
 
 See also:
 
--   [Accounts Payable Invoice Processing](https://www.servicenow.com/docs/access?context=acc-pay-invoice-processing&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)
+-   
 -   [AP Invoice API](../../../inbound-rest/concept/ap-invoice-api.md#)
 
 ## Add custom fields for invoice import
@@ -37,7 +37,7 @@ Use the following procedure to add custom fields for invoices, invoice lines, an
 ### Before you begin
 
 -   Role required: admin
--   Application scope: [Source-to-Pay Integrations](https://www.servicenow.com/docs/access?context=source-to-pay-integrations-landing&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)
+-   Application scope: [Source-to-Pay Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integrations-landing.md)
 
 ### Procedure
 
@@ -52,7 +52,7 @@ Use the following procedure to add custom fields for invoices, invoice lines, an
 
 4.  Select a type associated with the field value \(for example, `Integer`\) from the **Type** menu.
 
-    **Note:** For a list of valid types, see [Field types reference](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    **Note:** For a list of valid types, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
 
 5.  Enter a meaningful name in the **Column label** field.
 
@@ -62,7 +62,7 @@ Use the following procedure to add custom fields for invoices, invoice lines, an
 
 7.  Add a column of the same name and type to the Invoice \[sn\_shop\_invoice\] table.
 
-    **Note:** For more information on columns and fields, see [Exploring field administration](https://www.servicenow.com/docs/access?context=c_IntroductionToFields&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    **Note:** For more information on columns and fields, see [Exploring field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_IntroductionToFields.md).
 
 8.  [Map the fields between the source and target tables](apInvoice-dev-guide.md#).
 
@@ -74,7 +74,7 @@ Use the following procedure to map custom fields between source and target table
 ### Before you begin
 
 -   Role required: admin
--   Application scope: [Source-to-Pay Integrations](https://www.servicenow.com/docs/access?context=source-to-pay-integrations-landing&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)
+-   Application scope: [Source-to-Pay Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integrations-landing.md)
 
 Create table columns for mapping the new field from the source table to the target table. Use the steps in [Add custom fields for invoice import](apInvoice-dev-guide.md#).
 
@@ -102,7 +102,7 @@ Use the following procedure to map custom fields to a payload entry in JSON, cXM
 ### Before you begin
 
 -   Role required: admin
--   Application scope: [Source-to-Pay Integrations](https://www.servicenow.com/docs/access?context=source-to-pay-integrations-landing&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)
+-   Application scope: [Source-to-Pay Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integrations-landing.md)
 -   [Add custom fields for invoice import](apInvoice-dev-guide.md#)
 -   [Map custom fields between source and target tables](apInvoice-dev-guide.md#)
 

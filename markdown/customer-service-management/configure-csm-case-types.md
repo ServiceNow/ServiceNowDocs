@@ -239,7 +239,7 @@ Set Up Portal View for Case Types
 
 </td><td>
 
-Configure the fields that a customer can see when they view a case on the Customer or Consumer Service Portals. Create a new record to configure the fields for each case type.For more information about the Ticket Configuration form, see [Configure the standard ticket page](https://www.servicenow.com/docs/access?context=configure-st-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Configure the fields that a customer can see when they view a case on the Customer or Consumer Service Portals. Create a new record to configure the fields for each case type.For more information about the Ticket Configuration form, see [Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-st-page.md).
 
 </td></tr></tbody>
 </table>4.  To perform a task, click **Configure**.

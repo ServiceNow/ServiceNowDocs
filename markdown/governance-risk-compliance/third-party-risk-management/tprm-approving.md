@@ -21,7 +21,7 @@ Approval levels and rules are used to determine which team members are assigned 
 
 For more information on managing approvals, approval levels, and approval rules, see [Approval process management](../../grc-workspace-vrm/reference/tprm-ws-dd-mgt-pg-approvals.md).
 
-**Note:** Any multi-level approvals related to a workflow require updates to be made using Workflow Studio. For more information on creating flows using Workflow Studio, see [Create a flow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+**Note:** Any multi-level approvals related to a workflow require updates to be made using Workflow Studio. For more information on creating flows using Workflow Studio, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
 
 ## Setting up approval levels and rules
 

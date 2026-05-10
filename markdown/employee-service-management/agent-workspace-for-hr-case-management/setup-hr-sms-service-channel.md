@@ -47,7 +47,7 @@ The HR Service Delivery base system includes the **HR SMS** service channel queu
 
 7.  Click on any of the related lists to view or modify default configured values.
 
-    **Note:** Notice that the Assignment Eligibility related list defaults to the **HR SMS Support Group**. Manually add users to this group to route assignments. Refer to [Add a user to a group](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to learn how to add users to this group.
+    **Note:** Notice that the Assignment Eligibility related list defaults to the **HR SMS Support Group**. Manually add users to this group to route assignments. Refer to [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAGroup.md) to learn how to add users to this group.
 
 8.  Click **Update** to save any changes you made.
 
@@ -61,6 +61,6 @@ The HR Service Delivery base system includes the **HR SMS** service channel queu
 
 12. Click **Update**.
 
-    **Note:** For complete information regarding Conversational SMS service channels and setup guidance, refer to [Conversational SMS service channel](https://www.servicenow.com/docs/access?context=conversation-sms-service-channel-store-app&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    **Note:** For complete information regarding Conversational SMS service channels and setup guidance, refer to [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/conversation-sms-service-channel-store-app.md).
 
 

@@ -72,7 +72,7 @@ Turning this property flag on, enables the base system *DevOpsImportPolling* sch
 
 The default frequency of the job is set to run daily at midnight using the system time zone. To change the frequency of scheduled job you need the ServiceNow ServiceNow AI Platform Administrator \(admin\) role.
 
-Navigate to **System Definition** &gt; **Scheduled Jobs** &gt; **DevOpsImportPolling** and modify the **Run** frequency, **Time zone**, and **Time** field values, as needed. For more information, see [Schedule Jobs](https://www.servicenow.com/docs/access?context=c_ScheduledJobs&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+Navigate to **System Definition** &gt; **Scheduled Jobs** &gt; **DevOpsImportPolling** and modify the **Run** frequency, **Time zone**, and **Time** field values, as needed. For more information, see [Schedule Jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_ScheduledJobs.md)
 
 **Note:**
 

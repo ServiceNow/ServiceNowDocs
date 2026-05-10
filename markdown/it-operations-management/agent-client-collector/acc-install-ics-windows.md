@@ -24,7 +24,7 @@ Install MID-less Agent Client Collector on a Windows machine to enable sending d
 
 ## About this task
 
-For details on sending data through the cloud in a MID-less deployment, see [DEX Architecture](https://www.servicenow.com/docs/access?context=dex-architecture&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+For details on sending data through the cloud in a MID-less deployment, see [DEX Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-architecture.md).
 
 ## Procedure
 

@@ -32,5 +32,5 @@ Use the Carbon Black integration to investigate and respond to security incident
 -   [Ask or answer questions in the Security Operations community](https://community.servicenow.com/community/security-operations)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
--   [Upgrade to Madrid](https://www.servicenow.com/docs/access?context=upgrade&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+-   [Upgrade to Madrid](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrade.md)
 

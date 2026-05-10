@@ -15,7 +15,7 @@ breadcrumb: [Reference, Service Portfolio Management, IT Service Management]
 
 Service Portfolio Management Core is active by default for users with ITSM licenses. Service Portfolio Management Foundation is administrator activated and enables you to document portfolios, taxonomies, services, and service offerings using a standardized, structured format.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 ## Service Portfolio Management plugins
 

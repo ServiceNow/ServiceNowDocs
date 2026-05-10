@@ -46,6 +46,6 @@ Create service requests from directly within an EMR system that can then be fulf
 </td></tr></tbody>
 </table>## Troubleshoot and get help
 
--   [Remote help request API](https://www.servicenow.com/docs/access?context=remote_help_request-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+-   [Remote help request API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/remote_help_request-api.md)
 -   [EMR Help forum on the ServiceNow Community site](https://community.servicenow.com/community?id=community_forum&sys_id=3a299a2ddbd897c068c1fb651f961991)
 

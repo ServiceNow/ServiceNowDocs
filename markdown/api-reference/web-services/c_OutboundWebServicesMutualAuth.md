@@ -21,7 +21,7 @@ As an administrator, you can enable mutual authentication by defining a protocol
 
 For example, you can create a protocol profile called `mauth` with a certificate for mutual authentication. You can then make an HTTPS web service request by calling `mauth://<external-endpoint.com>` when the end point requires mutual authentication.
 
-**Note:** This feature enables mutual authentication only on outbound HTTPS connections, such as SOAP, REST, or direct HTTPS calls. ServiceNow does not support mutual authentication for outbound requests sent through a MID Server. For information about mutual authentication for inbound web services, see [Certificate-based authentication](https://www.servicenow.com/docs/access?context=certificate-based-authentication&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+**Note:** This feature enables mutual authentication only on outbound HTTPS connections, such as SOAP, REST, or direct HTTPS calls. ServiceNow does not support mutual authentication for outbound requests sent through a MID Server. For information about mutual authentication for inbound web services, see [Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/certificate-based-authentication/certificate-based-authentication.md).
 
 -   **[Create a protocol profile](../task/t_CreateAProtocolProfile.md)**  
 You can create a custom HTTPS protocol profile to specify the credentials and certificates used for outbound web services. For example, you can create a custom HTTPS protocol profile to enable mutual authentication.

@@ -25,15 +25,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Jira.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d359128e100">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d359545e100">
 
 Option
 
-</th><th align="left" id="d359128e103">
+</th><th align="left" id="d359545e103">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d359128e109">
+</th></tr></thead><tbody><tr><td id="d359545e109">
 
 **Homepage**
 
@@ -43,7 +43,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Jira from the **Plan** category.
 
 
-</td></tr><tr><td id="d359128e136">
+</td></tr><tr><td id="d359545e136">
 
 **Applications module**
 
@@ -55,7 +55,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Jira from the **Plan** category.
 
 
-</td></tr><tr><td id="d359128e188">
+</td></tr><tr><td id="d359545e188">
 
 **Tools module**
 
@@ -132,7 +132,7 @@ Enter the API token to access the instance.
 
 3.  If your Jira instance is attached to a MID Server, select the **MID Server** option and enter its details.
 
-For more information about MID server, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md)
 
 </td></tr><tr><td>
 
@@ -148,7 +148,7 @@ Jira Cloud
 https://api.atlassian.com/ex/jira/<Cloud-ID>
     ```
 
-For information on obtaining the value of Cloud ID, see [Obtain the value of Cloud ID](https://www.servicenow.com/docs/access?context=setup-jira-serv-mgmt&version=australia&pubname=australia-integrate-applications&section=jira-cloud-id&ft:locale=en-US).
+For information on obtaining the value of Cloud ID, see [Obtain the value of Cloud ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-jira-serv-mgmt.md).
 
 2.  Select the credential type as **Basic Auth** or **OAuth 2.0 with 3LO**.
 
@@ -176,7 +176,7 @@ Select an existing OAuth 2.0 credential record in the **Credential** field, or s
 
 3.  If your Jira instance is attached to a MID Server, select the **MID Server** option and enter its details.
 
-For more information about MID server, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md)
 
 </td></tr></tbody>
 </table>    2.  Select **Connect**.

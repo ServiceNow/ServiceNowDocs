@@ -17,7 +17,7 @@ Add a language to an existing NLU model by translating it. Use one of several tr
 
 ## Before you begin
 
--   Activate the Localization Framework \(com.glide.localization\_framework.installer\) plugin. See [Localization Framework](https://www.servicenow.com/docs/access?context=localization-framework-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Activate the Localization Framework \(com.glide.localization\_framework.installer\) plugin. See [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-framework-landing.md).
 -   In your target application scope, create a primary language model, or use an existing primary model.
 -   Multilingualism is available for Virtual Agent and AI Search models.
 -   Role required: nlu\_admin or admin.
@@ -50,9 +50,9 @@ Description
 
 </td><td>
 
-Translate using machine-intelligence providers such as Google. Selecting the card creates a translated secondary model. Machine translations may be incorrect or too literal, so review the translated content for accuracy. For more information, see [Dynamic Translation](https://www.servicenow.com/docs/access?context=dynamic-translation-overview&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Translate using machine-intelligence providers such as Google. Selecting the card creates a translated secondary model. Machine translations may be incorrect or too literal, so review the translated content for accuracy. For more information, see [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md).
 
- To activate the Use AI mode, [Localization Framework](https://www.servicenow.com/docs/access?context=localization-framework-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US) must be configured and activated.
+ To activate the Use AI mode, [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-framework-landing.md) must be configured and activated.
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ Translate using machine-intelligence providers such as Google. Selecting the car
 
 </td><td>
 
-Request translation by a professional translation team. When you select this mode, an LF task is created per the LF language group settings for the secondary language. When the translations are completed, the translated model is created and ready for review. For more information, see [Localization Framework](https://www.servicenow.com/docs/access?context=localization-framework-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [Translation modes](https://www.servicenow.com/docs/access?context=translation-modes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Request translation by a professional translation team. When you select this mode, an LF task is created per the LF language group settings for the secondary language. When the translations are completed, the translated model is created and ready for review. For more information, see [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-framework-landing.md) and [Translation modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/translation-modes.md).
 
 </td></tr><tr><td>
 

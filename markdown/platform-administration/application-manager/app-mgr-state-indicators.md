@@ -65,7 +65,7 @@ The application version isn't compatible with either the family or patch version
 
 </td><td>
 
-Select a compatible application version from the version selector in the application details. If no compatible version is available, consider upgrading your ServiceNow AI Platform instance. For more information about upgrading your instance, see [Prepare your upgrade](https://www.servicenow.com/docs/access?context=rn-prepare-landing-page&version=australia&pubname=australia-release-notes&ft:locale=en-US).
+Select a compatible application version from the version selector in the application details. If no compatible version is available, consider upgrading your ServiceNow AI Platform instance. For more information about upgrading your instance, see [Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-prepare-landing-page.md).
 
 </td></tr><tr><td>
 

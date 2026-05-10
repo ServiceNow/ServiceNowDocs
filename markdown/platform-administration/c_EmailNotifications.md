@@ -13,7 +13,7 @@ breadcrumb: [System notifications, Notifications, Configure core features, Admin
 
 Use email notifications to send selected users email or SMS notifications about specific activities in the system, such as updates to incidents or change requests.
 
-**Important:** Service providers such as AT&amp;T and Verizon may soon be deprecating the **email-to-text** functionality. See [Using Notify with SMS](https://www.servicenow.com/docs/access?context=c_NotifySMS&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for SMS delivery.
+**Important:** Service providers such as AT&amp;T and Verizon may soon be deprecating the **email-to-text** functionality. See [Using Notify with SMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifySMS.md) for SMS delivery.
 
 Email notifications allow administrators to specify:
 

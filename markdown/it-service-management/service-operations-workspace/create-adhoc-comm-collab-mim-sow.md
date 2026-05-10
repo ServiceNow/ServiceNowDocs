@@ -69,7 +69,7 @@ Role required: major\_incident\_manager, itil, ia\_admin, or admin
 
     5.  On the communication channel record, fill in the required details based on the selected **Channel**.
 
-        For more information on the form fields, see [Define a communication channel](https://www.servicenow.com/docs/access?context=create-comm-channel-definition&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+        For more information on the form fields, see [Define a communication channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/create-comm-channel-definition.md).
 
     6.  Select **Save**.
 

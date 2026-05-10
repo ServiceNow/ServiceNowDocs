@@ -19,7 +19,7 @@ Role required: none
 
 ## About this task
 
-You can activate most plugins directly in your PDI. Follow the instructions to [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+You can activate most plugins directly in your PDI. Follow the instructions to [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 ## Procedure
 

@@ -25,9 +25,9 @@ Role required: sp\_admin
 
     Some of the components that you can customize include:
 
-    -   Branding: [Configure the portal branding](https://www.servicenow.com/docs/access?context=c_BrandingEditor&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to give your Customer Service Portal its own look and feel. The default theme for Customer and Consumer Service portals is the Coral theme.
-    -   Menus: [Configure the portal header menu](https://www.servicenow.com/docs/access?context=configure-header-menu&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to set up the main menu, one of the main navigation controls for your users.
-    -   Homepage: [Assign a homepage to the portal](https://www.servicenow.com/docs/access?context=assign-portal-homepage&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
-    -   Widgets: Use [Service Portal widgets](https://www.servicenow.com/docs/access?context=service-portal-widgets&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to define the content in your portal.
-    -   Roles: [Configure page security by role](https://www.servicenow.com/docs/access?context=configure-page-security&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to either set up pages to be public \(no login required\) or to filter them by user role.
+    -   Branding: [Configure the portal branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_BrandingEditor.md) to give your Customer Service Portal its own look and feel. The default theme for Customer and Consumer Service portals is the Coral theme.
+    -   Menus: [Configure the portal header menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-header-menu.md) to set up the main menu, one of the main navigation controls for your users.
+    -   Homepage: [Assign a homepage to the portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/assign-portal-homepage.md).
+    -   Widgets: Use [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-portal-widgets.md) to define the content in your portal.
+    -   Roles: [Configure page security by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-page-security.md) to either set up pages to be public \(no login required\) or to filter them by user role.
 

@@ -38,7 +38,7 @@ The Service instance dashboard is fully integrated into the [Insights view in CM
     -   Population method defined: Count of Service instances for which a service population method is specified.
     -   Population method not defined: Count of Service instances missing a service population method. Data for the tags and top down discovery methods appear only if Service Mapping is installed.
 
-        **Note:** Some population methods for Service instances are available only with [Service Mapping](https://www.servicenow.com/docs/access?context=c_ServiceMappingOverview&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) and therefore won't appear in the tile if Service Mapping isn't installed.
+        **Note:** Some population methods for Service instances are available only with [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md) and therefore won't appear in the tile if Service Mapping isn't installed.
 
     -   Service instances types: Chart of Service instances by population methods such as Dynamic CI Group and Manual, including Service instances without a population method \(Empty\). The chart includes business services that were converted to Service instances.
     -   Service instances missing data: Chart of Service instances by key data that is missing, such as service offering and owner. For example, the bar 'No Service Offering' shows Service instances without any relationship with a business service or a technical service.

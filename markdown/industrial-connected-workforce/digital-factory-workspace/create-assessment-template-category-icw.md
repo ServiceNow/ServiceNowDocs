@@ -27,7 +27,7 @@ Role required: sn\_icw.admin
 
 3.  On the Assessment template category form, fill in the fields.
 
-    For a description of the field values, see [Create an assessment template category](https://www.servicenow.com/docs/access?context=sae-asmnt-template-category-create&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US). The Category role must be sn\_icw\_igt.user or any role that contains this role, such as sn\_icw\_igt.expert, sn\_icw\_igt.author, or any other role that you create.
+    For a description of the field values, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md). The Category role must be sn\_icw\_igt.user or any role that contains this role, such as sn\_icw\_igt.expert, sn\_icw\_igt.author, or any other role that you create.
 
 <table id="table_axz_wxx_1hc"><thead><tr><th>
 

@@ -32,7 +32,7 @@ A subflow is an automated process consisting of a sequence of reusable actions, 
 
 Using Workflow Studio, you can build and configure various components such as subflow inputs, outputs, actions, and flow variables such as escalation levels. You can use the contextual comments in the flow designer to help you configure the subflows. For more information on building and configuring subflows in Workflow Studio, see
 
-[Workflow Studio](https://www.servicenow.com/docs/access?context=workflow-studio&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md)
 
 ## Subflows activation and uses
 

@@ -140,7 +140,7 @@ By using Lens actions, you can perform one of the following tasks:
             |glide.rest.max\_content\_length|Integer|15|
             |glide.rest.scripted.max\_inbound\_content\_length\_mb|Integer|15|
 
-            For more information, see [Configure system property](https://www.servicenow.com/docs/access?context=r_ControllingMaxRequestSize&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+            For more information, see [Configure system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/r_ControllingMaxRequestSize.md)
 
             **Note:** You must have the admin role to set the system properties.
 
@@ -156,15 +156,15 @@ By using Lens actions, you can perform one of the following tasks:
 
 12. Depending on the type of Lens action selected, perform the following steps.
 
-<table id="choicetable_vdv_pdx_mgc"><thead><tr><th align="left" id="d119388e751">
+<table id="choicetable_vdv_pdx_mgc"><thead><tr><th align="left" id="d119738e751">
 
 Task
 
-</th><th align="left" id="d119388e754">
+</th><th align="left" id="d119738e754">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d119388e760">
+</th></tr></thead><tbody><tr><td id="d119738e760">
 
 **Filling form**
 
@@ -174,7 +174,7 @@ Steps
 2.  On the form header in the Preview window, select **Submit** to save the filled form on the instance.
 
 
-</td></tr><tr><td id="d119388e781">
+</td></tr><tr><td id="d119738e781">
 
 **Previewing extracted data**
 

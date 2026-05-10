@@ -24,7 +24,7 @@ Using this API you can:
 
 This API requires the Data Classification \[com.glide.data\_classification\] plugin.
 
-For more information, see [Data Classification](https://www.servicenow.com/docs/access?context=data-classification&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information, see [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-classification/data-classification.md).
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 

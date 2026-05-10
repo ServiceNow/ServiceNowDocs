@@ -84,7 +84,7 @@ For each resource that matches the policy criteria, the actions that the policy 
 
 [Define or update a Business hours policy](../task/bh-policy-create-cloudin.md)
 
-[Change Management](https://www.servicenow.com/docs/access?context=c_ITILChangeManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ITILChangeManagement.md)
 
 [Exclude a resource from all Cloud Cost Management reports](../task/exclusion-list-add-to-cloudin.md)
 

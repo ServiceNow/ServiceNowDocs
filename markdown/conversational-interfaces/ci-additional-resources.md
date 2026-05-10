@@ -59,7 +59,7 @@ Release notes
 
 </td><td>
 
-[Now Assist in Virtual Agent release notes](https://www.servicenow.com/docs/access?context=now-assist-va-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+[Now Assist in Virtual Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-va-rn.md)
 
 </td></tr><tr><td>
 
@@ -89,7 +89,7 @@ Release notes
 
 </td><td>
 
-[Sidebar release notes](https://www.servicenow.com/docs/access?context=sidebar-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+[Sidebar release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sidebar-rn.md)
 
 </td></tr><tr><td>
 
@@ -125,7 +125,7 @@ Release notes
 
 </td><td>
 
-[Virtual Agent release notes](https://www.servicenow.com/docs/access?context=virtual-agent-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+[Virtual Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/virtual-agent-rn.md)
 
 </td></tr><tr><td>
 

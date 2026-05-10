@@ -43,7 +43,7 @@ The base system provides the following predefined virtual agent topics \(chatbot
     You can configure the**sn\_fsm\_va.days\_in\_past\_to\_debrief\_task** system property to get information about the work in progress tasks for n number of previous days. For more information see, [Install Field Service Virtual Agent Conversations](activate-virtual-agent-fsm.md).
 
 
-**Note:** If you want to customize the predefined topics provided in the base system, duplicate the topic and then modify it. For more information, see [Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+**Note:** If you want to customize the predefined topics provided in the base system, duplicate the topic and then modify it. For more information, see [Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
 ## Procedure
 

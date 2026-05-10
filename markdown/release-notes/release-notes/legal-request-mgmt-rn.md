@@ -16,13 +16,13 @@ The ServiceNow® Legal Request Management application provides a unified mechani
 
 Help ensure that sensitive information remains confidential with stakeholder controls through attorney-client privilege \(ACP\) protection for legal requests and matters.
 
-See [Legal Request Management](https://www.servicenow.com/docs/access?context=legal-request-management-landing-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) for more information.
+See [Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-request-management-landing-page.md) for more information.
 
 **Important:** Legal Request Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Attorney Client Privilege](https://www.servicenow.com/docs/access?context=lmm-acp-landing&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **[Attorney Client Privilege](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/lmm-acp-landing.md)**
 
     Protect sensitive legal information by marking legal matters as Privileged &amp; Confidential, helping to ensure access is restricted to only authorized stakeholders.
 
@@ -33,11 +33,11 @@ Install Legal Request Management by requesting it from the ServiceNow Store. Vis
 
 ## Related ServiceNow applications and features
 
--   **[Legal Service Delivery Practice Applications](https://www.servicenow.com/docs/access?context=lsd-practice-app-landing&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **[Legal Service Delivery Practice Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-practice-app-landing.md)**
 
     Legal practice applications in the Legal Service Delivery suite provide solutions for the specific needs of different legal practice areas.
 
--   **[Now Assist for Legal Service Delivery \(LSD\)](https://www.servicenow.com/docs/access?context=now-assist-lsd-landing&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **[Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)**
 
     Summarize a legal request or legal matter to understand the context, refresh the summary, and post the summary to the work notes.
 

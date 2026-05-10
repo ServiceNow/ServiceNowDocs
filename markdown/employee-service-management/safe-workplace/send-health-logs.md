@@ -23,7 +23,7 @@ Role required: sn\_imt\_core.api\_logging\_user
 
 1.  Send a POST request to the Table API on your instance.
 
-    For more information, see [Table API](https://www.servicenow.com/docs/access?context=c_TableAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    For more information, see [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_TableAPI.md).
 
     1.  Construct the endpoint using the Log Import \[sn\_imt\_core\_log\_import\] table.
 
@@ -59,5 +59,5 @@ Role required: sn\_imt\_core.api\_logging\_user
 
 ## What to do next
 
-Generate reports on the data you imported to the Log \[sn\_imt\_core\_log\] table using [Reporting](https://www.servicenow.com/docs/access?context=reporting-landing-page&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+Generate reports on the data you imported to the Log \[sn\_imt\_core\_log\] table using [Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/reporting-landing-page.md).
 

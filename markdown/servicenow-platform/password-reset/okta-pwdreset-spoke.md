@@ -31,7 +31,7 @@ Password Reset integration with Okta 1.1.2 is the latest version.
 
 If you’re having trouble installing the app, ensure that these dependent plugins are installed:
 
--   [Okta spoke v 4.1.3](https://www.servicenow.com/docs/access?context=okta-v2-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+-   [Okta spoke v 4.1.3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/okta-v2-spoke.md)
 -   ServiceNow IntegrationHub Action Template - Data Stream \(com.glide.hub.action\_type.datastream\)
 -   ServiceNow IntegrationHub Action Step - REST \(com.glide.hub.action\_step.rest\)
 -   ServiceNow IntegrationHub Runtime \(com.glide.hub.integration.runtime\)

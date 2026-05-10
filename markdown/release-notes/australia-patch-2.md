@@ -37,31 +37,31 @@ Australia Patch 2 includes fixes for security-related problems that affected cer
 
 ## Changes in Australia Patch 2
 
--   **[Add the Now Assist context menu](https://www.servicenow.com/docs/access?context=add-nacm&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
+-   **[Add the Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-nacm.md)**
 
     Use the NACM to enable viewers of a dashboard to generate a summary of the contents of a dashboard or dashboard tab.
 
--   **[Altering tables and fields using dictionary attributes](https://www.servicenow.com/docs/access?context=c_DictionaryAttributes&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)**
 
-    If true, enables case and accent \(diacritic\) sensitivity for text search of the column. If false, text search of the column is case and accent insensitive. The default behavior is false. This attribute can't be set to true when i18n\_session\_language\_sortable is true on the same column. To learn more see [Set case and accent sensitivity on a per-column basis](https://www.servicenow.com/docs/access?context=sl-locale-text-match&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    If true, enables case and accent \(diacritic\) sensitivity for text search of the column. If false, text search of the column is case and accent insensitive. The default behavior is false. This attribute can't be set to true when i18n\_session\_language\_sortable is true on the same column. To learn more see [Set case and accent sensitivity on a per-column basis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/sl-locale-text-match.md).
 
--   **[Guarded script evaluator](https://www.servicenow.com/docs/access?context=guarded-script&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Guarded script evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/guarded-script.md)**
 
     The guarded script evaluator enhances instance security by supporting only a restricted scripting language and detecting or rejecting untrusted scripts that use unsupported JavaScript features.
 
--   **[Install Live Archive](https://www.servicenow.com/docs/access?context=install-data-archiving-plugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Install Live Archive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/install-data-archiving-plugin.md)**
 
     Install Live Archive to archive data in object storage.
 
--   **[JavaScript APIs supported by guarded script](https://www.servicenow.com/docs/access?context=guarded-script-allowed-apis&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[JavaScript APIs supported by guarded script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/guarded-script-allowed-apis.md)**
 
     Review the JavaScript APIs that guarded script supports to help you analyze scripts in the Incompatible Guarded Scripts list and either rewrite them or create an exemption for them.
 
--   **[Live Archive with RaptorDB Professional V2](https://www.servicenow.com/docs/access?context=data-archiving-with-raptordb-professional-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Live Archive with RaptorDB Professional V2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/data-archiving-with-raptordb-professional-v2.md)**
 
     Live Archive \(formerly Data Archiving\) moves records and attachments to object storage, freeing up space in the primary database while keeping data accessible for compliance and reporting. This capability improves query performance and provides scalable storage for large archives.
 
--   **[Review and update scripts incompatible with guarded script](https://www.servicenow.com/docs/access?context=review-incompatible-guarded-scripts&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Review and update scripts incompatible with guarded script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/review-incompatible-guarded-scripts.md)**
 
     Review scripts that are incompatible with guarded script and either rewrite them to use supported features or create an exemption for scripts that can't be rewritten.
 
@@ -69,25 +69,25 @@ Australia Patch 2 includes fixes for security-related problems that affected cer
 
     For Now Assist new features and changes, see [Now Assist and agentic AI release notes](../now-assist/now-assist-rn-landing.md).
 
--   **[Script sandbox environment](https://www.servicenow.com/docs/access?context=script-sandbox-environment&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Script sandbox environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-sandbox-environment.md)**
 
     The script sandbox environment is a restricted execution context in which untrusted, client-generated scripts run on the server using one of two evaluators: the guarded script evaluator or the script sandbox evaluator.
 
--   **[Script sandbox evaluator](https://www.servicenow.com/docs/access?context=script-sandbox&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Script sandbox evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-sandbox.md)**
 
     The script sandbox evaluator helps prevent executing untrusted scripts on an instance by limiting the APIs available to scripts.
 
     Scripts that run in the script sandbox evaluator can use features supported by the JavaScript engine and the sandbox environment, except for certain restricted methods.
 
--   **[Set case and accent sensitivity on a per-column basis](https://www.servicenow.com/docs/access?context=sl-locale-text-match&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Set case and accent sensitivity on a per-column basis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/sl-locale-text-match.md)**
 
     Set locale text match to provide case and accent sensitivity when searching the text of table columns. The default behavior for text searching in table columns is insensitive to case and accent \(diacritic\) variations, but you can enforce sensitivity using locale text match.
 
--   **[System Archive](https://www.servicenow.com/docs/access?context=c_ArchiveData&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[System Archive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ArchiveData.md)**
 
     System Archive enables you to manage table growth by moving inactive records out of primary tables into dedicated archive tables within the same instance.
 
--   **[Viewing all tables](https://www.servicenow.com/docs/access?context=data-management-tables&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Viewing all tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/data-management-tables.md)**
 
     By default, the list of live tables and live archive tables is filtered to show tables over 100 MB in size.
 

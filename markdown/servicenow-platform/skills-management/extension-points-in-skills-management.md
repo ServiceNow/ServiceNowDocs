@@ -23,5 +23,5 @@ Use scripted extension points to integrate customizations without altering the c
 |--------------------|-----------|
 |sn\_skill\_cfg\_page.ManageSkillsExtnPt|Implement this extension point to customize the logic of creating users by groups for the Manage IT skills page.|
 
-**Important:** You can configure additional groups using the `sn_skill_cfg_page.ManageSkillsConstants` script include. For information on script includes see, [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+**Important:** You can configure additional groups using the `sn_skill_cfg_page.ManageSkillsConstants` script include. For information on script includes see, [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
 

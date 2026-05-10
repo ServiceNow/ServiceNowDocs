@@ -47,16 +47,16 @@ As you make changes to a topic's intent, train the model so that your updates ar
 
     The default value of the **com.glide.cs.entity\_confidence\_threshold** property is **0.5**.
 
-    **Note:** You can compare the draft NLU model to its most recent published version. For more information, see [Compare draft and published versions of your NLU model](https://www.servicenow.com/docs/access?context=compare-draftmodel-to-last-published-version&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    **Note:** You can compare the draft NLU model to its most recent published version. For more information, see [Compare draft and published versions of your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/compare-draftmodel-to-last-published-version.md).
 
 6.  When you're satisfied with the prediction results, publish the model from NLU Workbench or select **Publish** in the topic Header bar and select **NLU Model**.
 
 
 ## What to do next
 
-You can publish the model at the same time as the Virtual Agent topic if the model meets publication criteria. Make sure your model has passed through all phases of development and is ready to publish. For more information, see [Model management](https://www.servicenow.com/docs/access?context=model-management-phases&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+You can publish the model at the same time as the Virtual Agent topic if the model meets publication criteria. Make sure your model has passed through all phases of development and is ready to publish. For more information, see [Model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/model-management-phases.md).
 
-For more information on providing feedback using thumbs icons in the results, see [Test panel feedback](https://www.servicenow.com/docs/access?context=test-model-panel-feedback&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information on providing feedback using thumbs icons in the results, see [Test panel feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/test-model-panel-feedback.md).
 
 **Parent Topic:**[Testing NLU/Keyword topics](../reference/va-designer-testing.md)
 

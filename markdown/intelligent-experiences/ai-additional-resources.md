@@ -36,7 +36,7 @@ Release Notes
 
 </td><td>
 
-[Now Assist AI Agents Release Notes](https://www.servicenow.com/docs/access?context=now-assist-ai-agents-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US).
+[Now Assist AI Agents Release Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-ai-agents-rn.md).
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ Release notes
 
 </td><td>
 
-[AI Control Tower release notes](https://www.servicenow.com/docs/access?context=ai-control-tower-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+[AI Control Tower release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/ai-control-tower-rn.md)
 
 </td></tr><tr><td>
 
@@ -134,7 +134,7 @@ Release notes
 
 </td><td>
 
-[Document Intelligence release notes](https://www.servicenow.com/docs/access?context=document-intelligence-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+[Document Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/document-intelligence-rn.md)
 
 </td></tr><tr><td>
 
@@ -284,29 +284,29 @@ Release notes
 
 </td><td>
 
-[Now Assist release notes](https://www.servicenow.com/docs/access?context=now-assist-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+[Now Assist release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn.md)
 
- [Now Assist for Creator release notes](https://www.servicenow.com/docs/access?context=now-assist-for-creator-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
-
- 
-
- [Now Assist in Document Intelligence release notes](https://www.servicenow.com/docs/access?context=now-assist-document-intelligence-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
-
- [Now Assist for Enterprise Architecture \(EA\) release notes](https://www.servicenow.com/docs/access?context=now-assist-for-ea-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+ [Now Assist for Creator release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-creator-rn.md)
 
  
 
- [Now Assist for IT Service Management \(ITSM\) release notes](https://www.servicenow.com/docs/access?context=now-assist-for-itsm-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+ [Now Assist in Document Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-document-intelligence-rn.md)
+
+ [Now Assist for Enterprise Architecture \(EA\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-ea-rn.md)
+
+ 
+
+ [Now Assist for IT Service Management \(ITSM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-itsm-rn.md)
 
  
 
  
 
- [Now Assist for Strategic Portfolio Management \(SPM\) release notes](https://www.servicenow.com/docs/access?context=now-assist-for-spm-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+ [Now Assist for Strategic Portfolio Management \(SPM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-spm-rn.md)
 
- [Now Assist in Virtual Agent release notes](https://www.servicenow.com/docs/access?context=now-assist-va-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+ [Now Assist in Virtual Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-va-rn.md)
 
- [Generative AI Controller release notes](https://www.servicenow.com/docs/access?context=generative-ai-controller-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+ [Generative AI Controller release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/generative-ai-controller-rn.md)
 
 </td></tr><tr><td>
 
@@ -424,7 +424,7 @@ Release notes
 
 </td><td>
 
-[Predictive Intelligence release notes](https://www.servicenow.com/docs/access?context=predictive-intelligence-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+[Predictive Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/predictive-intelligence-rn.md)
 
 </td></tr><tr><td>
 

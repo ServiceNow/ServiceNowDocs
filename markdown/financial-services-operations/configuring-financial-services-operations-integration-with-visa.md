@@ -19,7 +19,7 @@ Plan and configure your Financial Services Operations Integration with Visa impl
 
 To configure Financial Services Operations Integration with Visa on your ServiceNow instance, you need to set up a sequence of tasks.
 
-1.  [Request Integration Hub subscription](https://www.servicenow.com/docs/access?context=request-ih-overview&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+1.  [Request Integration Hub subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md).
 
     Use the Integration Hub to integrate a Visa account with your ServiceNow instance.
 

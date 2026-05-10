@@ -31,8 +31,8 @@ Role required: sn\_cbs.requestor
 
         For more information on the field descriptions of each request form, see the following:
 
-        -   [HR service catalog management](https://www.servicenow.com/docs/access?context=hr-service-catalog-management&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
-        -   [Report an issue with your payslip](https://www.servicenow.com/docs/access?context=payslips-awd&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+        -   [HR service catalog management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-catalog-management.md).
+        -   [Report an issue with your payslip](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/payslips-awd.md).
 
 **Parent Topic:**[Using Core Business Suite](../concept/cbs-using-parent.md)
 

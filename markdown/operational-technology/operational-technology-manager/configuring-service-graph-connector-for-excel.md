@@ -19,7 +19,7 @@ Use the Service Graph Connector for Microsoft Excel Excel guided setup and compl
 
 Navigate to **All** &gt; **Industrial Workspace Admin** &gt; **Guided Setup**, open the following guided setups, and complete the tasks.
 
-For more information on using guided setup, see [Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For more information on using guided setup, see [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 -   **[Assign Pre-import OT Worksheet Entry Review roles](../task/assign-pre-import-ot-worksheet-entry-review-tool-for-sgc-import-roles.md)**  
 Assign roles to the users  or user groups so that you can manage the Service Graph Connector for Microsoft Excel staging table and ETL.

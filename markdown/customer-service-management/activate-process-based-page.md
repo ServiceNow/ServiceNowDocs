@@ -52,11 +52,11 @@ Some playbook pages and page variants are not active by default. You need to act
 **Related topics**  
 
 
-[Create a page from a template](https://www.servicenow.com/docs/access?context=reuse-page-definitions&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/reuse-page-definitions.md)
 
-[Edit a page](https://www.servicenow.com/docs/access?context=edit-page&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[Edit a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/edit-page.md)
 
-[Create a page variant](https://www.servicenow.com/docs/access?context=create-variant&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md)
 
-[Edit page variant settings](https://www.servicenow.com/docs/access?context=edit-variant-settings&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[Edit page variant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/edit-variant-settings.md)
 

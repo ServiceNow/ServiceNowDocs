@@ -55,5 +55,5 @@ Role required: admin
 
 [Scripted templates](../reference/r_ScriptedTemplates.md)
 
-[ACL rule types](https://www.servicenow.com/docs/access?context=acl-rule-types&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[ACL rule types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/acl-rule-types.md)
 

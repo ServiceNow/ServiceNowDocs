@@ -6,7 +6,7 @@ release: australia
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 4
 breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
@@ -55,15 +55,15 @@ This task is explained using Strategic Planning Workspace as the example.
 
 7.  When you're finished refining the content, you can replace the existing content with generated content, provide feedback, or copy it.
 
-<table id="choicetable_nly_n5h_1dc"><thead><tr><th align="left" id="d142561e190">
+<table id="choicetable_nly_n5h_1dc"><thead><tr><th align="left" id="d143064e190">
 
 Option
 
-</th><th align="left" id="d142561e193">
+</th><th align="left" id="d143064e193">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d142561e199">
+</th></tr></thead><tbody><tr><td id="d143064e199">
 
 **Provide feedback for the generated text**
 
@@ -71,7 +71,7 @@ Procedure
 
 If you think that the generated text was helpful, select the helpful icon \(![Helpful icon.](../images/icon-helpful-feedback.png)\). If you think that the generated text wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../images/icon-nt-helpful.png)\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d142561e222">
+</td></tr><tr><td id="d143064e222">
 
 **Copy the text**
 

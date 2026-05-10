@@ -26,7 +26,7 @@ Requirements:
 
 **Note:** In order for the password reset process to be available in Virtual Agent, ensure that you selected the **Enabled on Virtual Agent** check box in the Password Reset process configuration page.
 
-For more information about the password reset process, see [Password Reset for Virtual Agent](https://www.servicenow.com/docs/access?context=password-reset-for-virtual-agent&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information about the password reset process, see [Password Reset for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-for-virtual-agent.md).
 
 ## Verification options for password reset in Virtual Agent conversations
 
@@ -38,7 +38,7 @@ The following identity verification options are supported in Virtual Agent conve
 -   Email code verification: User enters the code received via email.
 -   Security question verification: User enters the configured security question answers.
 
-For more information, see [Configure your Password Reset process](https://www.servicenow.com/docs/access?context=t_CreateAPasswordResetProcess&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information, see [Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md).
 
 ## Change Password
 

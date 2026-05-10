@@ -24,7 +24,7 @@ The Remove File or Directory activity removes a file or a directory on an SFTP s
 |sourceFilePath|Full path to the file or directory to remove. To remove multiple files or directories using a single activity, enter a semicolon-separated list of paths in this field.|
 |isDirectory|True/false variable that determines if the specified file path is a directory. The default value for this variable is **false**.|
 |includeSubfolders|True/false variable that determines if the given directory and all of its subfolders should be removed. The default value for this variable is **false**. If the value for this field is **false**, then the activity can only remove an empty directory. This field appears when the **isDirectory** checkbox is selected.|
-|sourceCredentialTag|Specific [Credential aliases for Orchestration activities](https://www.servicenow.com/docs/access?context=c_AssignCredsOrchActivities&version=australia&pubname=australia-platform-security&ft:locale=en-US) this activity must use to run SSH commands on the host.|
+|sourceCredentialTag|Specific [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_AssignCredsOrchActivities.md) this activity must use to run SSH commands on the host.|
 
 ## Output variables
 

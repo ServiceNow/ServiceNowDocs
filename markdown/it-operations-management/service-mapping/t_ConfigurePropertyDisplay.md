@@ -17,7 +17,7 @@ You can control what configuration item \(CI\) attributes the system displays in
 
 ## Before you begin
 
-Get familiar with the notion of views. For more information on views, see [View Management](https://www.servicenow.com/docs/access?context=view-management-overview&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Get familiar with the notion of views. For more information on views, see [View Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-management-overview.md).
 
 Decide for which CI classes you need to modify display.
 

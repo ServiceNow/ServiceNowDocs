@@ -41,7 +41,7 @@ Enable playbook owners to configure and organize multiple instances of Workflow 
     |-----|------|
     |**Playbook name**|Enter a unique, user-facing name for your playbook. This name appears to agents and fulfillers during runtime of your playbook.|
     |**Description**|Optionally, enter some descriptive details about your playbook.|
-    |**Application**|Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US).|
+    |**Application**|Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).|
 
     The builder displays in **Diagram view** by default, but you can select **Board view** to switch views. Switch between views anytime as you build your playbook.
 
@@ -53,15 +53,15 @@ Enable playbook owners to configure and organize multiple instances of Workflow 
 
 5.  Under the **Details** tab, update or fill in the following fields.
 
-<table id="choicetable_vdx_qhw_bgc"><thead><tr><th align="left" id="d107145e332">
+<table id="choicetable_vdx_qhw_bgc"><thead><tr><th align="left" id="d107149e332">
 
 Field
 
-</th><th align="left" id="d107145e335">
+</th><th align="left" id="d107149e335">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d107145e341">
+</th></tr></thead><tbody><tr><td id="d107149e341">
 
 **Playbook name**
 
@@ -69,7 +69,7 @@ Action
 
 Enter a unique, user-facing name for your playbook. This name appears to agents and fulfillers during runtime of your playbook.
 
-</td></tr><tr><td id="d107145e356">
+</td></tr><tr><td id="d107149e356">
 
 **Parent table**
 
@@ -77,7 +77,7 @@ Enter a unique, user-facing name for your playbook. This name appears to agents 
 
 Select the table that you want your trigger records and other playbook inputs to come from.**Note:** This field is required for Knowledge and Email activities.
 
-</td></tr><tr><td id="d107145e367">
+</td></tr><tr><td id="d107149e367">
 
 **Description**
 
@@ -85,7 +85,7 @@ Select the table that you want your trigger records and other playbook inputs to
 
 Optionally, enter some descriptive details about your playbook.
 
-</td></tr><tr><td id="d107145e379">
+</td></tr><tr><td id="d107149e379">
 
 **Limit playbook executions for each parent record to**
 
@@ -93,7 +93,7 @@ Optionally, enter some descriptive details about your playbook.
 
 Limit the number of times a playbook can run for a single parent record.
 
-</td></tr><tr><td id="d107145e389">
+</td></tr><tr><td id="d107149e389">
 
 **Allow this playbook to be restarted during runtime**
 

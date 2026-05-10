@@ -17,7 +17,7 @@ See the list of records which passed through an activity or connection to analyz
 
 Select an activity or connection on a route to display the metrics box. You can then also select **Show Records** to open the list of records that passed through it.
 
-**Note:** The **Show Records** link displays for a maximum of 100,000 records returned for an activity or connection. An administrator can add and the promin.show\_records.limit system property to change this limit. The sn\_process\_mining\_analyst role must have read access to the promin.show\_records.limit system property.​ For instructions on adding properties, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+**Note:** The **Show Records** link displays for a maximum of 100,000 records returned for an activity or connection. An administrator can add and the promin.show\_records.limit system property to change this limit. The sn\_process\_mining\_analyst role must have read access to the promin.show\_records.limit system property.​ For instructions on adding properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 ![View records for an activity or connection](../image/view-records-node-arc.png)
 

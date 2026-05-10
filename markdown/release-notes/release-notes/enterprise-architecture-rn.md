@@ -38,13 +38,13 @@ Australia Early Availability
 -   Generate a context-sensitive summary for business applications based on the page that you’re generating the summary from.
 -   Compare any two versions of a diagram and generate a summary in the Enterprise Modeling and Visualization page.
 
-See [Enterprise Architecture Workspace](https://www.servicenow.com/docs/access?context=ea-workspace&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US) for more information.
+See [Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-workspace.md) for more information.
 
 ## New in the Australia release
 
 [Australia Patch 2](../quality/australia-patch-2.md)
 
--   **[AI systems on business applications](https://www.servicenow.com/docs/access?context=eaw-aict&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US)**
+-   **[AI systems on business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-aict.md)**
 
     View and manage AI systems associated with a business application from the **AI Systems** tab on a business application record in the Enterprise Architecture Workspace.
 
@@ -54,14 +54,14 @@ See [Enterprise Architecture Workspace](https://www.servicenow.com/docs/access?c
     -   Open the full AI system record in AI Control Tower directly from the **AI Systems** tab of a business application record in Enterprise Architecture Workspace, to review governance details, lifecycle status, and related assets.
     Associate a business application with a new AI use case at intake using the **Business Applications** field on the **Request an AI use case** catalog item in the service portal. The association is established on submission, and the AI system appears as unmanaged on the corresponding business application records in the Enterprise Architecture Workspace.
 
--   **[AI Search on the TRM catalog](https://www.servicenow.com/docs/access?context=ai-search-trm-cat&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US)**
+-   **[AI Search on the TRM catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ai-search-trm-cat.md)**
 
-    Search published TRM catalog records using natural language queries in the Now Assist panel. EA Workspace ships default AI Search configuration that automatically indexes TRM catalog records you publish. To make previously published TRM catalog records searchable, you can manually trigger indexing. For information, see [Index previously published TRM catalog records for AI Search](https://www.servicenow.com/docs/access?context=index-archive-pub-trm-cat&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US) or [AI Search on the TRM catalog](https://www.servicenow.com/docs/access?context=ai-search-trm-cat&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US).
+    Search published TRM catalog records using natural language queries in the Now Assist panel. EA Workspace ships default AI Search configuration that automatically indexes TRM catalog records you publish. To make previously published TRM catalog records searchable, you can manually trigger indexing. For information, see [Index previously published TRM catalog records for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/index-archive-pub-trm-cat.md) or [AI Search on the TRM catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ai-search-trm-cat.md).
 
 
 [Australia Patch 1](../quality/australia-patch-1.md)
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -71,7 +71,7 @@ See [Enterprise Architecture Workspace](https://www.servicenow.com/docs/access?c
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
--   **[Exploring the architecture analyzer](https://www.servicenow.com/docs/access?context=eaw-explore-arch-analyzer&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US)Architecture Analyzer**
+-   **[Exploring the architecture analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-explore-arch-analyzer.md)Architecture Analyzer**
     -   Added support for analyzing all EA extended entities that are part of Enterprise Modeling and Visualization, such as
         -   Control
         -   Digital integration
@@ -83,7 +83,7 @@ See [Enterprise Architecture Workspace](https://www.servicenow.com/docs/access?c
 
 Australia Early Availability
 
--   **[Enterprise Modeling and Visualization enhancements](https://www.servicenow.com/docs/access?context=eaw-work-with-ent-model-and-visual&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US)**
+-   **[Enterprise Modeling and Visualization enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)**
 
     Label management improvements for diagrams:
 
@@ -114,49 +114,49 @@ Australia Early Availability
     -   Relationship Type category- Added this category with the following shape elements:
         -   And junction
         -   Or junction
--   **[Exploring the publishing center in Enterprise Architecture Workspace](https://www.servicenow.com/docs/access?context=publishing-center-in-ea-workspace&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US)**
+-   **[Exploring the publishing center in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/publishing-center-in-ea-workspace.md)**
 
     Use the Publishing Center to control publishing workflows, monitor status, and view publishing history from a single location.
 
--   **[Publish TRM catalog to a knowledge base](https://www.servicenow.com/docs/access?context=working-with-publishing-center&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US)**
+-   **[Publish TRM catalog to a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/working-with-publishing-center.md)**
     -   Configure TRM catalogs and apply filters for products and lifecycle phases.
     -   Manage publishing workflows with status updates from Draft to Published.
     -   View publishing job history in the Run logs tab.
     -   Access the published TRM catalog using the generated knowledge base URL.
--   **Enhancements to the [Value stream](https://www.servicenow.com/docs/access?context=eaw-manage-value-streams&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US) and [Value stream stage](https://www.servicenow.com/docs/access?context=eaw-manage-value-stream-stages&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US) related lists**
+-   **Enhancements to the [Value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-value-streams.md) and [Value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-value-stream-stages.md) related lists**
     -   Value stream: View associated value stream stages and application models as related lists. You can add, edit, or remove the associated value stream stages and application models.
     -   Value stream stage: View associated business processes and business capabilities. Add or remove business processes and business capabilities. You can also view the value stream stage as a related list in the business process and business capability records.
--   **[Enhancements to the Business Process related lists](https://www.servicenow.com/docs/access?context=eaw-manage-business-processes&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US)**
+-   **[Enhancements to the Business Process related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-processes.md)**
 
     View the value stream stage as a related list of a business process.
 
--   **[Enhancements to the Business Capability related lists](https://www.servicenow.com/docs/access?context=eaw-manage-business-capabilities&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US)**
+-   **[Enhancements to the Business Capability related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-capabilities.md)**
 
     View the value stream stage as a related list of a business capability.
 
--   **[Create documents for the Enterprise Modeling and Visualization diagrams](https://www.servicenow.com/docs/access?context=create-documents-for-diagrams&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US)**
+-   **[Create documents for the Enterprise Modeling and Visualization diagrams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/create-documents-for-diagrams.md)**
     -   Save diagram as a document using the Generate document option from the Enterprise Modeling and Visualization diagrams page.
     -   Define templates for the documents that can be created and used from the Diagrams page.
     -   Tag components that can be included in the templates to generate documents.
     -   View associated documents from the Diagrams page.
--   **[Exploring the architecture analyzer](https://www.servicenow.com/docs/access?context=eaw-explore-arch-analyzer&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US)Architecture Analyzer**
+-   **[Exploring the architecture analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-explore-arch-analyzer.md)Architecture Analyzer**
     -   The Architectural Analyzer helps you to analyze architecture data without creating or maintaining custom diagrams. You can visually explore relationships across applications, services, and infrastructure to quickly understand dependencies and collaborate on architecture decisions. You can also understand the potential impact of architectural changes across applications and services.
--   **[Application rationalization page enhancements](https://www.servicenow.com/docs/access?context=eaw-rationalize-business-applications&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US)**
+-   **[Application rationalization page enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-rationalize-business-applications.md)**
 
     Added an Overall score indicator to show the overall average score of a business application. Use this indicator to determine the bubble size of a business application on the Bubble Chart page. You can compare the overall scores of different business applications using their individual bubble sizes.
 
--   **[Business application summarization skill enhancements](https://www.servicenow.com/docs/access?context=generate-insights-into-ba&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US)**
+-   **[Business application summarization skill enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/generate-insights-into-ba.md)**
 
     Generate context-sensitive business application summaries from the following pages:
 
     -   Business capability hierarchy page: On generating a business application summary from this page, information such as the associated primary and secondary capabilities and the position in the capability hierarchy are displayed along with the general information about the business application.
     -   Application rationalization list view page: On generating a business application summary from this page, information such as the indicator scores \(actual and normalized scores\), and associated demand details are displayed along with the general information about the business application.
     -   Application rationalization bubble chart page: On generating a business application summary from this page, information such as x and y-axis details, and planned disposition details are displayed along with the general information about the business application.
--   **[Generate insights for Enterprise Architecture Workspace dashboard widgets](https://www.servicenow.com/docs/access?context=generate-insights-ea-dashboard&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US)Now Assist**
+-   **[Generate insights for Enterprise Architecture Workspace dashboard widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/generate-insights-ea-dashboard.md)Now Assist**
 
     Generate insights for the widgets available on the Enterprise Architecture Dashboard page using the Now Assist Explorer icon available on the header of each widget.
 
--   **[Diagram change analysis skill enhancements](https://www.servicenow.com/docs/access?context=compare-modeling-diagrams&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US)**
+-   **[Diagram change analysis skill enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/compare-modeling-diagrams.md)**
     -   Compare any two versions of a diagram and generate a summary of the changes.
     -   Select any version as a primary or secondary version to compare.
     -   Generate a summary for real-time changes made to the primary version while already comparing it to another diagram version.
@@ -195,7 +195,7 @@ Australia Early Availability
 
 ## Changed in this release
 
--   **[Granular admin role changes in Enterprise Architecture](https://www.servicenow.com/docs/access?context=eaw-gran-admin-role-changes&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US)**
+-   **[Granular admin role changes in Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-gran-admin-role-changes.md)**
 
     Added the granular level admin role \(sn\_apm.apm\_admin\) to the following system properties in the Enterprise Architecture:
 
@@ -211,21 +211,21 @@ Australia Early Availability
     -   **sn\_apm.endRangeOfTPMLifecycle**: The number of years beyond the current date is included when displaying software model lifecycle phases in the TPM timeline.
     -   **noOfBusinessAppsPerTPMPage**: The number of business applications to show per page.
 
--   **[Enhancements to the My certifications section](https://www.servicenow.com/docs/access?context=manage-requests-certs-assessments&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US)**
+-   **[Enhancements to the My certifications section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/manage-requests-certs-assessments.md)**
 
     View only the certifications that are relevant to you in the **My certifications** tab on the Enterprise Architecture Workspace home page.
 
 
--   **[Enhancements to the Application Portfolio](https://www.servicenow.com/docs/access?context=eaw-work-with-application-portfolio&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US)**
+-   **[Enhancements to the Application Portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-application-portfolio.md)**
 
     Business applications with the Retired state or Lifecycle stage as End of life are no longer displayed in the Business Portfolio section.
 
 
 ## Activation information
 
-Enterprise Architecture \(formerly Application Portfolio Management\) is available with activation of the Enterprise Architecture \(com.snc.apm\), which requires a separate subscription. For details, see [Enterprise Architecture](https://www.servicenow.com/docs/access?context=application-portfolio-management-landing-page&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US).
+Enterprise Architecture \(formerly Application Portfolio Management\) is available with activation of the Enterprise Architecture \(com.snc.apm\), which requires a separate subscription. For details, see [Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/application-portfolio-management-landing-page.md).
 
-Now Assist features are available with activation of the Now Assist for Enterprise Architecture \(EA\) plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Now Assist features are available with activation of the Now Assist for Enterprise Architecture \(EA\) plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 ## Accessibility information
 
@@ -239,19 +239,19 @@ Now Assist features are available with activation of the Now Assist for Enterpri
 
 ## Related ServiceNow applications and Features
 
--   **[Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     Help improve productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
 
--   **[Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)**
 
     The Now Assist Admin console provides you with quick and effortless access to the important information that you must set up, configure, and monitor in Now Assist applications and features.
 
--   **[Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
 
     Use the Now Assist panel to interact with and get assistance from generative AI.
 
--   **[Now Assist skills](https://www.servicenow.com/docs/access?context=now-assist-skills&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md)**
 
     Now Assist products provide generative AI skills that are tailored to meet the needs of users in different workflows, including content summarization in docs.
 

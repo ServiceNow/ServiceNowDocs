@@ -869,7 +869,7 @@ Response body.
 
 Backs out an installation operation that was performed on an update set with a given sys\_id.
 
-For more information about how the back out operation affects an update set, see [Back out an update set](https://www.servicenow.com/docs/access?context=t_BackOutUpdateSet&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For more information about how the back out operation affects an update set, see [Back out an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_BackOutUpdateSet.md).
 
 ### URL format
 
@@ -1153,7 +1153,7 @@ Response:
 
 Commits an update set with a given sys\_id.
 
-When you have previewed an update set and have resolved any issues, you can commit the update set using this endpoint. Committing an update set applies all changes to the instance and creates a local copy of the update set that contains an update record for every change. For more information about committing an update set, see [Commit an update set](https://www.servicenow.com/docs/access?context=t_CommitAnUpdateSet&version=australia&pubname=australia-application-development&ft:locale=en-US).
+When you have previewed an update set and have resolved any issues, you can commit the update set using this endpoint. Committing an update set applies all changes to the instance and creates a local copy of the update set that contains an update record for every change. For more information about committing an update set, see [Commit an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_CommitAnUpdateSet.md).
 
 ### URL format
 

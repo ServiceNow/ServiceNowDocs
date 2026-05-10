@@ -27,15 +27,15 @@ Role required: sn\_ins\_claim\_cml.fnol\_representative, sn\_ins\_claim\_cml.aut
 
 3.  Open the task from the case playbook or the Commercial auto claim adjuster tasks list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d114213e85">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d114675e85">
 
 Option
 
-</th><th align="left" id="d114213e88">
+</th><th align="left" id="d114675e88">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d114213e94">
+</th></tr></thead><tbody><tr><td id="d114675e94">
 
 **From the case playbook**
 
@@ -45,7 +45,7 @@ Steps
 2.  In the list, select the case that contains the adjuster task.
 
 
-</td></tr><tr><td id="d114213e118">
+</td></tr><tr><td id="d114675e118">
 
 **From the Commercial auto claim adjuster tasks list**
 
@@ -58,6 +58,6 @@ Steps
 </td></tr></tbody>
 </table>4.  Select the Agent assist icon to use the feature.
 
-    For more detailed information about Agent assist, refer to [Agent assist](https://www.servicenow.com/docs/access?context=agent-assist-configurable-workspace&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more detailed information about Agent assist, refer to [Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/agent-assist-configurable-workspace.md).
 
 

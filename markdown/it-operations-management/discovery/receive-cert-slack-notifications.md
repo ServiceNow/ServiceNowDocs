@@ -25,13 +25,13 @@ A scheduled job in Certificate Inventory and Management regularly checks the exp
 
 ## Procedure
 
-1.  [Set up Slack spoke](https://www.servicenow.com/docs/access?context=set-up-slack&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+1.  [Set up Slack spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-slack.md).
 
 2.  Create a [Slack bot](https://api.slack.com/bot-users) and add it to a Slack channel.
 
-3.  [Configure default Slack credentials](https://www.servicenow.com/docs/access?context=set-up-slack&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+3.  [Configure default Slack credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-slack.md).
 
-4.  [Configure custom Slack credentials](https://www.servicenow.com/docs/access?context=set-up-slack&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+4.  [Configure custom Slack credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-slack.md).
 
     If your Slack spoke version is 1.2.0, you can bypass the next step concerning the retrieval of the Channel ID.
 

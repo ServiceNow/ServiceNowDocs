@@ -45,7 +45,7 @@ Role required: sn\_notif\_agents.notification\_ai\_admin
 
     6.  Select **Activate**.
 
-        For more information, see [Edit a flow](https://www.servicenow.com/docs/access?context=flow-edit&version=australia&pubname=australia-build-workflows&ft:locale=en-US), [Test a flow](https://www.servicenow.com/docs/access?context=flow-test&version=australia&pubname=australia-build-workflows&ft:locale=en-US), and [Activate a flow](https://www.servicenow.com/docs/access?context=flow-activate&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+        For more information, see [Edit a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-edit.md), [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md), and [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-activate.md).
 
 
 ## What to do next

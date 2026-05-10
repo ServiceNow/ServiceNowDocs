@@ -17,7 +17,7 @@ As a provider, use the Scratchpad feature of the Service Exchange application to
 
 The Zero Touch request flow requires you to send Scratchpad updates to your consumer's ServiceNow instance when you complete the confirmation and shipment tasks successfully. Based on the updates that you send, the Zero Touch flow progresses on your consumer's ServiceNow instance.
 
-You must include the code specific to your tasks in the **PSBScratchpadUtil** API. For more information, see [Using the Scratchpad for Service Exchange tasks](https://www.servicenow.com/docs/access?context=service-bridge-v2-scratchpad&version=australia&pubname=australia-service-exchange&ft:locale=en-US). Confirm that the Scratchpad codes associated with the tasks of your request fulfillment flow are in the following format.
+You must include the code specific to your tasks in the **PSBScratchpadUtil** API. For more information, see [Using the Scratchpad for Service Exchange tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-scratchpad.md). Confirm that the Scratchpad codes associated with the tasks of your request fulfillment flow are in the following format.
 
 ## Sample code for request confirmation
 

@@ -52,7 +52,7 @@ Each semantic index configuration includes the following elements:
 
 ## Activating semantic index configuration
 
-Semantic index configuration functionality is provided by the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\). This plugin is automatically activated for your instance when you install any [Now Assist application](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Semantic index configuration functionality is provided by the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\). This plugin is automatically activated for your instance when you install any [Now Assist application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
 You can verify whether semantic index configuration is activated by navigating to **All** &gt; **AI Search** &gt; **AI Search Index** &gt; **Indexed Sources** and selecting an indexed source record. If you see the Semantic Index Configuration related list on the Indexed Source form, the plugin is activated.
 

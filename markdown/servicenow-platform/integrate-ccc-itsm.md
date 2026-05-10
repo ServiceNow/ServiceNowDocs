@@ -25,7 +25,7 @@ Callers can use PIN-based authentication to access the phone channel. Managers c
 
 ## Workforce Optimization for ITSM
 
-Integrate Voice with Workforce Optimization for ITSM to visualize call metrics from Amazon Connect. The Voice uses [Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-overview&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) to display the call metrics and active calls along with all other Channel metrics in the Manager Workspace.
+Integrate Voice with Workforce Optimization for ITSM to visualize call metrics from Amazon Connect. The Voice uses [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md) to display the call metrics and active calls along with all other Channel metrics in the Manager Workspace.
 
 ![Amazon Connect Phone Workforce Optimization for ITSM](../image/cloudcallcenter-amazonconnect-wfo-itsm.png "Amazon Connect Phone Workforce Optimization for ITSM")
 

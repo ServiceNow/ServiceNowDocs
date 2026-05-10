@@ -289,11 +289,11 @@ When the improvement is taken off hold, all active CIM tasks \(not closed or can
 </td></tr></tbody>
 </table>## CIM approver states
 
-Each improvement needs at least one [approval](https://www.servicenow.com/docs/access?context=r_Approvals&version=australia&pubname=australia-build-workflows&ft:locale=en-US) to progress to the Implement state. The Approvers related list in the improvement contains a list of user approval records and the state of the approval.
+Each improvement needs at least one [approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/r_Approvals.md) to progress to the Implement state. The Approvers related list in the improvement contains a list of user approval records and the state of the approval.
 
 The users in the Approvers related list belong to the **Approver Group** specified on the Improvement Initiative form. Once the improvement has been approved by an Approver Group member, approval from other members is no longer required to progress the improvement. However, other Approver Group members can still set their individual approval state.
 
-To require additional approvers, configure the CIM Approval workflow in [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=australia&pubname=australia-application-development&ft:locale=en-US).
+To require additional approvers, configure the CIM Approval workflow in [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md).
 
 ## Improvement process flow
 

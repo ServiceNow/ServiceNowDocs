@@ -60,7 +60,7 @@ Subscriptions, users, groups, and roles work together to help you define who can
 
 ## User preferences
 
-Users can configure many UI features. Some examples include the number of rows per page in a list or whether the response time displays at the bottom of a list or form. Administrators can modify or delete these preferences as needed. For more information, see [User preferences](https://www.servicenow.com/docs/access?context=c_UserPreferences&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Users can configure many UI features. Some examples include the number of rows per page in a list or whether the response time displays at the bottom of a list or form. Administrators can modify or delete these preferences as needed. For more information, see [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md).
 
 ## User groups
 

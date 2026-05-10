@@ -26,7 +26,7 @@ Role required: admin
 
 Lists menu in the Workspace homepage helps planning managers quickly find a record that they need. By default, this view shows the list of entities of all the planning items and lens available for this ServiceNow instance. If your planning managers need more categories or lists, you can add them.
 
-For more information of configuring lists in a workspace, see [Lists](https://www.servicenow.com/docs/access?context=migration-lists&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+For more information of configuring lists in a workspace, see [Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/migration-lists.md).
 
 ## Procedure
 

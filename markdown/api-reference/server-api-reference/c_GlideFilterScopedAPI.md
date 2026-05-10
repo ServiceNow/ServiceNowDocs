@@ -189,7 +189,7 @@ String
 
 </td><td>
 
-Encoded query string in standard Glide format. See [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US). Results are case-sensitive, unless disabled using the [setCaseSensitive\(\)](c_GlideFilterScopedAPI.md#) method.To exclude null values from GlideFilter query results, add ISNOTEMPTY to the query condition.
+Encoded query string in standard Glide format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md). Results are case-sensitive, unless disabled using the [setCaseSensitive\(\)](c_GlideFilterScopedAPI.md#) method.To exclude null values from GlideFilter query results, add ISNOTEMPTY to the query condition.
 
 </td></tr><tr><td>
 
@@ -270,7 +270,7 @@ String
 
 </td><td>
 
-Encoded query string in standard Glide format. See [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US). To exclude null values from GlideFilter query results, add ISNOTEMPTY to the query condition.
+Encoded query string in standard Glide format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md). To exclude null values from GlideFilter query results, add ISNOTEMPTY to the query condition.
 
  **Note:** The **filter** values are case-sensitive. In addition, you cannot use [setCaseSensitive\(false\)](c_GlideFilterScopedAPI.md#) to change the change the case-sensitive value.
 

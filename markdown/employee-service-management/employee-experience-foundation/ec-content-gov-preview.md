@@ -29,5 +29,5 @@ The portal used for previews is determined by the sn\_ca.campaign.preview.portal
 
 An email notification is sent to the content requester and appears as a to-do under **My Tasks** in the Employee Center Pro. A link is provided to the to-do.
 
-For information on setting up email notifications, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For information on setting up email notifications, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
 

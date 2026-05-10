@@ -45,5 +45,5 @@ Role required: sn\_si.basic and sn\_customerservice\_agent
 **Related topics**  
 
 
-[Customer service case management](https://www.servicenow.com/docs/access?context=configure-csm-case-management&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Customer service case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-case-management.md)
 

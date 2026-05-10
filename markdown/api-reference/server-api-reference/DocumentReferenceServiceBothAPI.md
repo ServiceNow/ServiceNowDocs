@@ -15,7 +15,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The DocumentReferenceService API provides methods for managing document references within a target table, such as the Incidents \[incident\] or Knowledge \[kb\_knowledge\] table. You can use document references to associate information with a record.
 
-This API requires the Document Management plugin \(com.snc.platform\_document\_management\) and is provided within the `sn_doc_services` namespace. For information, see [Document Services](https://www.servicenow.com/docs/access?context=document-services-landing-page&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+This API requires the Document Management plugin \(com.snc.platform\_document\_management\) and is provided within the `sn_doc_services` namespace. For information, see [Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-services-landing-page.md).
 
 The following APIs enable you to define and manage documents:
 

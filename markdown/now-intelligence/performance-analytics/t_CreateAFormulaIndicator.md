@@ -163,7 +163,7 @@ Live group profile
 
 Live Group Profile \[live\_group\_profile\] record for a Live Feed group. Specify a group profile to cause that group to get notifications about this indicator.
 
- For more information about this social application on the ServiceNow AI Platform, see [Live Feed](https://www.servicenow.com/docs/access?context=c_GetStartedWithLiveFeed&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+ For more information about this social application on the ServiceNow AI Platform, see [Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_GetStartedWithLiveFeed.md).
 
 </td></tr><tr><td>
 

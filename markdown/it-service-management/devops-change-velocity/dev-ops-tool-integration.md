@@ -51,7 +51,7 @@ DevOps tool integration consists of these objects.
 
     The source tool is configured manually \(by your integration developer\) to send raw data to the ServiceNow instance. The raw payload is then transformed into a standard JSON object using a subflow.
 
-    See the [Notification capability subflow](creating-dev-ops-subflows.md#section_ep4_txg_w3b) and the [DevOps - POST /devops/tool/\{capability\}](https://www.servicenow.com/docs/access?context=devops-api&version=australia&pubname=australia-api-reference&ft:locale=en-US) endpoint of the [DevOps API](https://www.servicenow.com/docs/access?context=devops-api&version=australia&pubname=australia-api-reference&ft:locale=en-US) for more details.
+    See the [Notification capability subflow](creating-dev-ops-subflows.md#section_ep4_txg_w3b) and the [DevOps - POST /devops/tool/\{capability\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/devops-api.md) endpoint of the [DevOps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/devops-api.md) for more details.
 
     **Note:** If a subflow is not specified, default handling of notifications occurs \(`original payload` is automatically copied to `transformed payload`\).
 
@@ -131,7 +131,7 @@ Timeout exception
 
 The subflow takes more time than the value set in the property: **com.glide.hub.flow\_api.default\_execution\_time**
 
- See [FlowAPI - executeSubflowQuick\(String name, Map inputs, Number timeout\)](https://www.servicenow.com/docs/access?context=ScriptableFlowAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) for more details.
+ See [FlowAPI - executeSubflowQuick\(String name, Map inputs, Number timeout\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ScriptableFlowAPI.md) for more details.
 
  **Note:** The execution of the subflow exceeds the value set in the **Timeout** field in the Integration Capability record.
 

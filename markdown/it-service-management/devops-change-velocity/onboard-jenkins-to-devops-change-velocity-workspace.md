@@ -29,15 +29,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
     You can connect a tool from an application if you also know which specific pipelines should be associated and tracked under that application to streamline the setup. This will allow you to easily associate and import data from Jenkins as well.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d43701e127">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d43705e127">
 
 Option
 
-</th><th align="left" id="d43701e130">
+</th><th align="left" id="d43705e130">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d43701e136">
+</th></tr></thead><tbody><tr><td id="d43705e136">
 
 **Homepage**
 
@@ -47,7 +47,7 @@ Steps
 2.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to Jenkins as an orchestration tool, you'd select Jenkins under the **Orchestration** category.
 
 
-</td></tr><tr><td id="d43701e166">
+</td></tr><tr><td id="d43705e166">
 
 **Applications module**
 
@@ -59,7 +59,7 @@ Steps
 4.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to Jenkins as an orchestration tool, you'd select Jenkins under the **Orchestration** category.
 
 
-</td></tr><tr><td id="d43701e221">
+</td></tr><tr><td id="d43705e221">
 
 **Tools module**
 
@@ -88,7 +88,7 @@ Steps
 
     3.  If your Jenkins instance is attached to a MID Server, select the MID Server option and enter its details.
 
-        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md)
 
 4.  Select **Connect**.
 

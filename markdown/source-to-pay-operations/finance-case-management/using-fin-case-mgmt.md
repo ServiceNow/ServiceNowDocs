@@ -15,7 +15,7 @@ breadcrumb: [Finance Case Management, Finance and Supply Chain applications, Fin
 
 Finance specialists can create, track, and resolve finance requests efficiently.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 -   **[Use the Employee Center](using-ec-fin-case-mgmt.md)**  
 Finance requesters can use the Employee Center to create finance inquiry, view the requests and tasks, and interact with the live agent.

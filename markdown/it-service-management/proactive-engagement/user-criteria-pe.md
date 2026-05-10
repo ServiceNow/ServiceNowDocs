@@ -17,7 +17,7 @@ User criteria settings details the settings in Proactive Engagement to group the
 
 You can access user criteria settings through **All** &gt; **Proactive Engagement** &gt; **User Criteria Settings**. User criteria includes or excludes a user or certain group of users from receiving PE notifications. User criteria helps in grouping the users based on certain conditions such as role, location, department, or Business unit and so on. Once the user criteria is created, the users are excluded or included as per the defined criteria. As a prerequisite, set the role to Engagement admins `sn_pren.engagement_admin` to be able to set the user criteria. The criteria for user settings are applied at the framework level rather than the use case level. Once these criteria are established, notifications will be enabled/disabled corresponding to the criteria set.
 
-You can access any pre-defined user criteria. To know more, see [User criteria diagnostics for Knowledge Management](https://www.servicenow.com/docs/access?context=diagnose-knowledge-user-criteria&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US). To create a new user setting, fill the following details:
+You can access any pre-defined user criteria. To know more, see [User criteria diagnostics for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/diagnose-knowledge-user-criteria.md). To create a new user setting, fill the following details:
 
 <table id="table_xhb_tn3_y2c"><thead><tr><th>
 

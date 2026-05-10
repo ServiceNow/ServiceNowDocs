@@ -71,7 +71,7 @@ When an upgrade is scheduled, the queue will go into an upgrade paused state two
 
 For additional information on CICD, see:
 
--   [Continuous Integration and Continuous Delivery \(CICD\) Spoke](https://www.servicenow.com/docs/access?context=cicd-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+-   [Continuous Integration and Continuous Delivery \(CICD\) Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/cicd-spoke.md)
 -   [https://plugins.jenkins.io/servicenow-cicd/](https://plugins.jenkins.io/servicenow-cicd/)
 -   [https://marketplace.visualstudio.com/items?itemName=ServiceNow.vss-services-servicenow-cicd](https://marketplace.visualstudio.com/items?itemName=ServiceNow.vss-services-servicenow-cicd)
 -   [https://github.com/marketplace?type=actions&amp;query=servicenow](https://github.com/marketplace?type=actions&query=servicenow)
@@ -2418,7 +2418,7 @@ curl 'instance.servicenow.com/api/sn_cicd/app_repo/install?sys_id=2d146921dbd800
 
 Publishes the specified application and all of its artifacts to the application repository.
 
-**Note:** If there are uncommitted changes to tracked files when you call this endpoint, it returns a 400 Bad Request status code. You can either commit the changes manually in Studio or call the [CI/CD - POST /sn\_cicd/sc/apply\_changes](cicd-api.md#) endpoint to stash the changes. Changes that aren’t tracked in the Customer Updates \[sys\_update\_xml\] table are committed automatically after publishing to the application repository. For information about the layout of the changes in the Customer Updates table and a description of the changes that aren’t represented in this table, see [Customer Updates table](https://www.servicenow.com/docs/access?context=r_CustomerUpdatesTable&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+**Note:** If there are uncommitted changes to tracked files when you call this endpoint, it returns a 400 Bad Request status code. You can either commit the changes manually in Studio or call the [CI/CD - POST /sn\_cicd/sc/apply\_changes](cicd-api.md#) endpoint to stash the changes. Changes that aren’t tracked in the Customer Updates \[sys\_update\_xml\] table are committed automatically after publishing to the application repository. For information about the layout of the changes in the Customer Updates table and a description of the changes that aren’t represented in this table, see [Customer Updates table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_CustomerUpdatesTable.md).
 
 ### URL format
 
@@ -3004,7 +3004,7 @@ curl 'instance.servicenow.com/api/sn_cicd/app_repo/rollback?sys_id=2d146921dbd80
 
 Runs all active checks present in your instance.
 
-You can run checks that are provided with Instance Scan or you can create your own checks. For more information, see [Instance Scan](https://www.servicenow.com/docs/access?context=hs-landing-page&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+You can run checks that are provided with Instance Scan or you can create your own checks. For more information, see [Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-landing-page.md).
 
 **Note:** This endpoint is part of the CICD Instance Scan Execution Service API and is used under the `sn_cicd` namespace.
 
@@ -3226,7 +3226,7 @@ Executes all applicable checks against a specified record.
 
 For example, if you execute a point scan against a Catalog Item, only the checks applicable to the Catalog Item table run, and only the specified record is scanned.
 
-You can run checks that are provided with Instance Scan or you can create your own checks. For more information, see [Instance Scan](https://www.servicenow.com/docs/access?context=hs-landing-page&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+You can run checks that are provided with Instance Scan or you can create your own checks. For more information, see [Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-landing-page.md).
 
 **Note:** This endpoint is part of the CICD Instance Scan Execution Service API and is used under the `sn_cicd` namespace.
 
@@ -3463,7 +3463,7 @@ curl 'instance.service-now.com/api/sn_cicd/instance_scan/point_scan?target_table
 
 Runs a scan using a suite and target \(scoped apps or update sets\) that have already run previously.
 
-Before calling this endpoint, you must call the /sn\_cicd/instance\_scan/suite\_scan/\{suite\_sys\_id\}/scoped\_apps or /sn\_cicd/instance\_scan/suite\_scan/\{suite\_sys\_id\}/update\_sets endpoints, or [execute a suite scan](https://www.servicenow.com/docs/access?context=hc-execute-suite-scan&version=australia&pubname=australia-platform-administration&ft:locale=en-US) in the UI.
+Before calling this endpoint, you must call the /sn\_cicd/instance\_scan/suite\_scan/\{suite\_sys\_id\}/scoped\_apps or /sn\_cicd/instance\_scan/suite\_scan/\{suite\_sys\_id\}/update\_sets endpoints, or [execute a suite scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hc-execute-suite-scan.md) in the UI.
 
 **Note:** This endpoint is part of the CICD Instance Scan Execution Service API and is used under the `sn_cicd` namespace.
 
@@ -3727,7 +3727,7 @@ suite\_sys\_id
 
 </td><td>
 
-Sys\_id of the [suite](https://www.servicenow.com/docs/access?context=hc-suites-mgmt&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to run.Data type: String
+Sys\_id of the [suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hc-suites-mgmt.md) to run.Data type: String
 
 Table: Suite \[scan\_check\_suite\]
 
@@ -3986,7 +3986,7 @@ suite\_sys\_id
 
 </td><td>
 
-Sys\_id of the [suite](https://www.servicenow.com/docs/access?context=hc-suites-mgmt&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to run.Data type: String
+Sys\_id of the [suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hc-suites-mgmt.md) to run.Data type: String
 
 Table: Suite \[scan\_check\_suite\]
 
@@ -4977,7 +4977,7 @@ curl 'https://instance.servicenow.com/api/sn_cicd/sc/apply_changes?app_sys_id=04
 
 Starts applying a previously generated "stash" of changes from a remote source control to a specified local application or application-customization.
 
-This endpoint works in conjunction with the [POST/api/sn\_cicd/sc/apply\_changes](cicd-api.md#) and [CI/CD - GET /sn\_cicd/progress/\{progress\_id\}](cicd-api.md#) endpoints. When the POST /api/sn\_cicd/sc/apply\_changes endpoint is called, any unsaved or uncommitted changes in App Engine Studio on the associated instance are saved into the database as a [stash](https://www.servicenow.com/docs/access?context=stash-changes&version=australia&pubname=australia-application-development&ft:locale=en-US).
+This endpoint works in conjunction with the [POST/api/sn\_cicd/sc/apply\_changes](cicd-api.md#) and [CI/CD - GET /sn\_cicd/progress/\{progress\_id\}](cicd-api.md#) endpoints. When the POST /api/sn\_cicd/sc/apply\_changes endpoint is called, any unsaved or uncommitted changes in App Engine Studio on the associated instance are saved into the database as a [stash](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/stash-changes.md).
 
 The way to determine whether a stash was created when the changes were initially applied is to call the GET /sn\_cicd/progress/\{progress\_id\} endpoint. If a stash was created, the sys\_id \(**stash\_id**\) and URL of the stash are returned. To apply the stashed changes to the associated application, call this apply\_stash endpoint using the **stash\_id** returned by the progress endpoint.
 
@@ -5521,7 +5521,7 @@ Returns the progress of the import.
 
 Starts a specified automated test suite. The test suite runs on the instance from which the endpoint was called.
 
-**Note:** If the suite you are running contains UI tests, you must have either a scheduled Client Test Runner open, or be able to configure headless Test Runner execution. To learn more, see [Headless browser for Automated Test Framework](https://www.servicenow.com/docs/access?context=atf-headless-browser&version=australia&pubname=australia-application-development&ft:locale=en-US).
+**Note:** If the suite you are running contains UI tests, you must have either a scheduled Client Test Runner open, or be able to configure headless Test Runner execution. To learn more, see [Headless browser for Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-headless-browser.md).
 
 ### URL format
 

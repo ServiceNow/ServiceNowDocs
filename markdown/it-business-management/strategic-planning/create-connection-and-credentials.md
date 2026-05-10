@@ -24,7 +24,7 @@ Role required: admin or sn\_jira\_int.admin
 
 ## About this task
 
-This task is performed for Jira Server/Data Center type instances only. For Jira Cloud, follow the steps of OAuth authentication. For more information, see [Option 1: Using OAuth authentication \(Authorization Code grant type\)](https://www.servicenow.com/docs/access?context=setup-jira-spk-opt2&version=australia&pubname=australia-integrate-applications&section=setup-jira-spk-oauth&ft:locale=en-US).
+This task is performed for Jira Server/Data Center type instances only. For Jira Cloud, follow the steps of OAuth authentication. For more information, see [Option 1: Using OAuth authentication \(Authorization Code grant type\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-jira-spk-opt2.md).
 
 ## Procedure
 

@@ -91,5 +91,5 @@ As constituents answer questions and select options presented by Virtual Agent, 
 
 If constituents want to chat with an agent, Virtual Agent hands them off to a live agent. To provide this resource, use the Connect Support feature.
 
-To learn more about chat, see [Configuring the chat channel](https://www.servicenow.com/docs/access?context=c_ChatFeature&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+To learn more about chat, see [Configuring the chat channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_ChatFeature.md).
 

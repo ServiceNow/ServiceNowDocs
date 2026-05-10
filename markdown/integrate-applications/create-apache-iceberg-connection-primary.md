@@ -161,15 +161,15 @@ Access key for ADLS.
 </td></tr></tbody>
 </table>4.  Configure the object storage system that you want to use with Apache Iceberg.
 
-<table id="choicetable_q5x_dvj_xhc"><thead><tr><th align="left" id="d112034e362">
+<table id="choicetable_q5x_dvj_xhc"><thead><tr><th align="left" id="d112053e362">
 
 Option
 
-</th><th align="left" id="d112034e365">
+</th><th align="left" id="d112053e365">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d112034e371">
+</th></tr></thead><tbody><tr><td id="d112053e371">
 
 **Amazon S3**
 
@@ -181,7 +181,7 @@ Description
 4.  Configure the metastore that you want to use with Apache Iceberg.
 
 
-</td></tr><tr><td id="d112034e399">
+</td></tr><tr><td id="d112053e399">
 
 **S3-Compatible**
 
@@ -194,7 +194,7 @@ Description
 5.  Configure the metastore that you want to use with Apache Iceberg.
 
 
-</td></tr><tr><td id="d112034e431">
+</td></tr><tr><td id="d112053e431">
 
 **Azure Data Lake Storage \(ADLS\)**
 
@@ -205,15 +205,15 @@ Enter the ADLS Access Key.
 </td></tr></tbody>
 </table>5.  Configure the metastore that you want to use with Apache Iceberg.
 
-<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d112034e451">
+<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d112053e451">
 
 Option
 
-</th><th align="left" id="d112034e454">
+</th><th align="left" id="d112053e454">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d112034e460">
+</th></tr></thead><tbody><tr><td id="d112053e460">
 
 **Hive Thrift**
 
@@ -227,7 +227,7 @@ Description
 
 `thrift://<host>:<port>`
 
-</td></tr><tr><td id="d112034e495">
+</td></tr><tr><td id="d112053e495">
 
 **AWS Glue**
 
@@ -238,7 +238,7 @@ Description
 3.  Enter the AWS region of the Glue Catalog.
  **Note:** AWS Glue appears when Amazon S3 is selected as the object storage system.
 
-</td></tr><tr><td id="d112034e523">
+</td></tr><tr><td id="d112053e523">
 
 **Rest**
 

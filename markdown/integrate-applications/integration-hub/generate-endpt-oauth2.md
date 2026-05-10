@@ -23,10 +23,10 @@ Subscription required: This feature requires an Integration Hub subscription. Fo
 
 Ensure that you've installed the required spoke plugin.
 
-Ensure that you have created an OAuth application endpoint for the external client applications to access the ServiceNow instance. For more information about creating an inbound OAuth application endpoint, see [OAuth Inbound](https://www.servicenow.com/docs/access?context=oauth-inbound&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Ensure that you have created an OAuth application endpoint for the external client applications to access the ServiceNow instance. For more information about creating an inbound OAuth application endpoint, see [OAuth Inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/oauth-inbound.md).
 
--   If you want to create an OAuth application endpoint for external client applications to access the ServiceNow instance, see [Create an endpoint for clients to access the instance](https://www.servicenow.com/docs/access?context=t_CreateEndpointforExternalClients&version=australia&pubname=australia-platform-security&ft:locale=en-US).
--   If you want to create an OAuth JWT API endpoint for external clients to access the ServiceNow instance, see [Create an OAuth JWT API endpoint for external clients \(machine to machine integration\)](https://www.servicenow.com/docs/access?context=create-jwt-endpoint&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   If you want to create an OAuth application endpoint for external client applications to access the ServiceNow instance, see [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_CreateEndpointforExternalClients.md).
+-   If you want to create an OAuth JWT API endpoint for external clients to access the ServiceNow instance, see [Create an OAuth JWT API endpoint for external clients \(machine to machine integration\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-jwt-endpoint.md).
 
 **Parent Topic:**[Set up external trigger endpoints](set-up-external-webhook-endpoints.md)
 

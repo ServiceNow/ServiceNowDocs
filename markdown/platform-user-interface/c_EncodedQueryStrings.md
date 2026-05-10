@@ -13,7 +13,7 @@ breadcrumb: [Filters and breadcrumbs, Lists in the classic environment, Working 
 
 An encoded query string represents a complex filter on a list of records.
 
-Use encoded query strings to include a filter as part of a URL parameter, such as the [Navigate to a record or module using a URL](../../navigation/task/navigate-using-url.md), or as a [reference qualifier](https://www.servicenow.com/docs/access?context=c_ReferenceQualifiers&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to restrict the data that is selectable for a reference field.
+Use encoded query strings to include a filter as part of a URL parameter, such as the [Navigate to a record or module using a URL](../../navigation/task/navigate-using-url.md), or as a [reference qualifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceQualifiers.md) to restrict the data that is selectable for a reference field.
 
 To construct an encoded query string, generate a list query and then [copy it from the list filter](../task/t_GenEncodQueryStringFilter.md). This is the preferred method because the alternative is to create the string manually.
 
@@ -59,11 +59,11 @@ Referring to choice list values
 
 </td><td>
 
-To create a query string that refers to a [choice list](https://www.servicenow.com/docs/access?context=c_ChoiceLists&version=australia&pubname=australia-platform-administration&ft:locale=en-US) option, use the value of the choice list, not the label, with this syntax: choice list field=value. For example, to return configuration items \(CIs\) with the status **Installed**, which has a value of 1 in the choice list, use:```
+To create a query string that refers to a [choice list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ChoiceLists.md) option, use the value of the choice list, not the label, with this syntax: choice list field=value. For example, to return configuration items \(CIs\) with the status **Installed**, which has a value of 1 in the choice list, use:```
 install_status=1
 ```
 
- See [Values to associate with choice labels for scripting](https://www.servicenow.com/docs/access?context=c_DetermValsAssocWChoicesScripting&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to find the options for the values.
+ See [Values to associate with choice labels for scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DetermValsAssocWChoicesScripting.md) to find the options for the values.
 
 </td></tr><tr><td>
 

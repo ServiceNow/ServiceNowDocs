@@ -19,7 +19,7 @@ Now Assist keeps your data secure throughout the AI lifecycle. Additional contro
 
 The following topics, all in Now Assist Admin, describe how Now Assist handles your data and how to configure privacy controls for your instance.
 
--   **[User data usage policy for Now Assist](https://www.servicenow.com/docs/access?context=user-data-usage-policy-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[User data usage policy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/user-data-usage-policy-now-assist.md)**
 
     Understand how Now Assist transmits, processes, and protects your data, including options to mask sensitive data and control data sharing for model improvements.
 
@@ -27,15 +27,15 @@ The following topics, all in Now Assist Admin, describe how Now Assist handles y
 
     Configure how PII is de-identified before it reaches the large language model, including which data types are caught and how anonymization rules are applied.
 
--   **[Configure Now Assist privacy policies](https://www.servicenow.com/docs/access?context=configure-privacy-policies&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Configure Now Assist privacy policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-privacy-policies.md)**
 
     Set up privacy policies to control how sensitive information is anonymized during AI processing.
 
--   **[Assign the data steward role](https://www.servicenow.com/docs/access?context=assign-data-steward-role&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Assign the data steward role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/assign-data-steward-role.md)**
 
     Assign a data steward, the role responsible for making data sharing decisions for Now Assist on your instance.
 
--   **[Opt out of data sharing for Now Assist](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Opt out of data sharing for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md)**
 
     Opt your instance out of data sharing with ServiceNow for AI model improvements from the Admin console Settings page.
 
@@ -72,7 +72,7 @@ The following topics describe how to use Now Assist for Vault and Now Assist Dat
 
     Create a custom regular expression data pattern from a plain-language description and add it as an active data pattern on your instance.
 
--   **[Find and cleanse sensitive data](https://www.servicenow.com/docs/access?context=sensitive-data&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Find and cleanse sensitive data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/sensitive-data.md)**
 
     Now Assist Data Kit: Scan your datasets for sensitive data including PII, and cleanse identified data before it is used in AI evaluations.
 

@@ -17,13 +17,13 @@ Add wearable devices such as Bluetooth LE-enabled devices that are assigned to e
 
 ## Before you begin
 
-The wearable device data is stored in the Wearable Technology \[cmdb\_ci\_wearable\] table. The table is installed with the CMDB CI Class Models application available on ServiceNow Store. Ensure that you have the CMDB CI Class Models application installed and active. For more information, see [CMDB CI Class Models](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-iot&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+The wearable device data is stored in the Wearable Technology \[cmdb\_ci\_wearable\] table. The table is installed with the CMDB CI Class Models application available on ServiceNow Store. Ensure that you have the CMDB CI Class Models application installed and active. For more information, see [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-iot.md).
 
 Role required: sn\_imt\_tracing.wifi\_manager
 
 ## About this task
 
-You can also import your wearable devices data from an Excel spreadsheet. For more information, see [Easy import data from a list](https://www.servicenow.com/docs/access?context=c_EasyImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+You can also import your wearable devices data from an Excel spreadsheet. For more information, see [Easy import data from a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/easy-import/c_EasyImport.md).
 
 ## Procedure
 
@@ -79,7 +79,7 @@ MAC address
 
 </td><td>
 
-MAC address of the device.Follow the steps in [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to add this field to the Wearables form.
+MAC address of the device.Follow the steps in [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) to add this field to the Wearables form.
 
 </td></tr></tbody>
 </table>4.  Click **Submit**.

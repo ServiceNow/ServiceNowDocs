@@ -19,7 +19,7 @@ Document Intelligence provides document extraction capabilities to Financial Ser
 
 Document Intelligence integration with FSO enables machine learning \(ML\) to assist in quickly automating document processing and accurately extracting information from documents. Admins can further integrate Document Intelligence with the FSO Document Processor to enable users to extract and store fields from a document.
 
-For more information, see [Document Intelligence for FSO](https://www.servicenow.com/docs/access?context=integration-with-document-intelligence&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US).
+For more information, see [Document Intelligence for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/integration-with-document-intelligence.md).
 
 ## How Document Intelligence works with FSO
 
@@ -41,7 +41,7 @@ After the DocIntel document task is complete, the values should be extracted to 
 
 Ensure all the necessary applications and plugins are installed and activated to enable Document Intelligence in the FSO Document Processor.
 
-See [Enable Document Intelligence for FSO](https://www.servicenow.com/docs/access?context=enable-docintel-fso&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US).
+See [Enable Document Intelligence for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/enable-docintel-fso.md).
 
 **Parent Topic:**[Integrating Document Intelligence with other applications](integrating-docintel.md)
 

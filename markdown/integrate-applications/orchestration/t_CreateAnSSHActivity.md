@@ -31,7 +31,7 @@ For instructions on using the activity template process flow, see [create custom
 
 2.  After setting up [general properties](../reference/General-Flds-Templates.md) and [creating input variables](CreateInputVariables.md#), configure the SSH Execution Command.
 
-<table id="choicetable_j2l_k2s_d1b"><tbody><tr><td id="d383897e120">
+<table id="choicetable_j2l_k2s_d1b"><tbody><tr><td id="d384812e120">
 
 **[Map the input variables](CreateInputVariables.md#)**
 
@@ -39,7 +39,7 @@ For instructions on using the activity template process flow, see [create custom
 
 Use the variables you created to configure the command that Orchestration executes.
 
-</td></tr><tr><td id="d383897e136">
+</td></tr><tr><td id="d384812e136">
 
 **Target host**
 
@@ -47,7 +47,7 @@ Use the variables you created to configure the command that Orchestration execut
 
 Host name or IP address of the target server for this activity.
 
-</td></tr><tr><td id="d383897e145">
+</td></tr><tr><td id="d384812e145">
 
 **Command**
 
@@ -55,7 +55,7 @@ Host name or IP address of the target server for this activity.
 
 Command this activity runs on the target host. You can invoke a MID Server script from this field using any script type that the SSH command line supports. For more information, see **Advanced SSH script options** below the table.
 
-</td></tr><tr><td id="d383897e157">
+</td></tr><tr><td id="d384812e157">
 
 **Directory**
 
@@ -63,7 +63,7 @@ Command this activity runs on the target host. You can invoke a MID Server scrip
 
 Directory on the target host where the command is run.
 
-</td></tr><tr><td id="d383897e166">
+</td></tr><tr><td id="d384812e166">
 
 **Credential tag**
 
@@ -71,7 +71,7 @@ Directory on the target host where the command is run.
 
 The Orchestration credential tag to use when running the command.
 
-</td></tr><tr><td id="d383897e176">
+</td></tr><tr><td id="d384812e176">
 
 **Required MID Server capabilities**
 
@@ -79,7 +79,7 @@ The Orchestration credential tag to use when running the command.
 
 MID Server with the appropriate capabilities for connecting to the host. By default, the system selects a MID Server with SSH capabilities.
 
-</td></tr><tr><td id="d383897e185">
+</td></tr><tr><td id="d384812e185">
 
 **Long running**
 
@@ -87,13 +87,13 @@ MID Server with the appropriate capabilities for connecting to the host. By defa
 
 If checked, disables the SSH connection timeout for commands that might take longer to run than the default 60 seconds. Orchestration periodically checks the running process to determine its status until it is finished.
 
-</td></tr><tr><td id="d383897e194">
+</td></tr><tr><td id="d384812e194">
 
 **Must Sudo**
 
 </td><td>
 
-If checked, enables the use of [sudo](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) to run commands.
+If checked, enables the use of [sudo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md) to run commands.
 
 </td></tr></tbody>
 </table>    **Note:** You can map parameter values in a test payload to variables in the **Outputs** tab automatically. See [automap output variables](automap-output-variable-inputs.md).
@@ -257,7 +257,7 @@ Array of hashmap
 
 </td><td>
 
-Capability values used to select the MID Server. For more information, see [MID Server capabilities](https://www.servicenow.com/docs/access?context=t_ConfigureCapabilities&version=australia&pubname=australia-servicenow-platform&section=r_MIDServerCapabilities&ft:locale=en-US). If there are additional capabilities that are assigned by value, use this example to customize the MID Server selection:```
+Capability values used to select the MID Server. For more information, see [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md). If there are additional capabilities that are assigned by value, use this example to customize the MID Server selection:```
 var valueCapability = {'NEW_MID_CAPABIILTY':'NEW_MID_CAPABILITY_VALUE'};
 executionParam.valueCapabilities.push(valueCapability);
 ```
@@ -292,7 +292,7 @@ Boolean
 
 </td><td>
 
-Indicates whether or not this activity must use sudo to run root commands. A value of true indicates that [sudo](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) must be used.
+Indicates whether or not this activity must use sudo to run root commands. A value of true indicates that [sudo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md) [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md) must be used.
 
 </td></tr></tbody>
 </table>## SSH post-processing parameters and payload parsing
@@ -466,7 +466,7 @@ Credential tag
 
 </td><td>
 
-The [Credential aliases for Orchestration activities](https://www.servicenow.com/docs/access?context=c_AssignCredsOrchActivities&version=australia&pubname=australia-platform-security&ft:locale=en-US) to use when running the command.
+The [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_AssignCredsOrchActivities.md) to use when running the command.
 
 </td></tr><tr><td>
 
@@ -490,7 +490,7 @@ Must Sudo
 
 </td><td>
 
-Check box to allow the use of [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) to run commands.
+Check box to allow the use of [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md) to run commands.
 
 </td></tr></tbody>
 </table>3.  Click **Save**.

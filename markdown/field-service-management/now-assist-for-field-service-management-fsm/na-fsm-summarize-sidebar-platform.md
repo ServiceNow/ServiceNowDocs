@@ -49,15 +49,15 @@ You can do these actions using Sidebar summarization:
 
 4.  After summarizing the Sidebar discussion, you can add it to the work notes, and provide feedback about it.
 
-<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d91839e202">
+<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d91843e202">
 
 Option
 
-</th><th align="left" id="d91839e205">
+</th><th align="left" id="d91843e205">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d91839e211">
+</th></tr></thead><tbody><tr><td id="d91843e211">
 
 **Save the summary information by adding it to the work notes**
 
@@ -68,7 +68,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d91839e238">
+</td></tr><tr><td id="d91843e238">
 
 **Provide feedback for the summary**
 

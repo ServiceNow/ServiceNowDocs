@@ -32,7 +32,7 @@ There are a few good practices when creating groups:
 
 3.  Fill in the fields on the form, as appropriate.
 
-    See [Create a user group](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for an explanation of each field.
+    See [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAGroup.md) for an explanation of each field.
 
 4.  Click the lock icon beside the **Type** field.
 

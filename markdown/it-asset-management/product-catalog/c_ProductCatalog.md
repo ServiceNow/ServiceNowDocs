@@ -17,7 +17,7 @@ The product catalog is a set of information about individual models. Models are 
 
 A detailed and well-maintained product catalog can coordinate with service catalog, asset, procurement, request, contract, and vendor information.
 
-Models published to the product catalog are automatically published to the [Service Catalog](https://www.servicenow.com/docs/access?context=service-catalog&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US). The service catalog includes information about goods \(models\) and services. If the model is available from multiple vendors, a model can be listed more than once. Models are included with the Asset Management application.
+Models published to the product catalog are automatically published to the [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md). The service catalog includes information about goods \(models\) and services. If the model is available from multiple vendors, a model can be listed more than once. Models are included with the Asset Management application.
 
 Keep the following in mind when working with the product catalog.
 

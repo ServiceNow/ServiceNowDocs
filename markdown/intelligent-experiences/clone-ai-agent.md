@@ -4,7 +4,7 @@ description: Duplicate an existing AI agent in AI Agent Studio so that you can s
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 2
 breadcrumb: [Create an AI agent, Now Assist AI agents, Enable AI experiences]
 ---

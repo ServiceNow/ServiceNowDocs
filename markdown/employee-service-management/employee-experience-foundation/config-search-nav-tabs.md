@@ -19,7 +19,7 @@ In Employee Center, the AI search navigation tabs are enabled by default. You ca
 
 Role required: admin
 
-Ensure you understand the AI search and indexed sources. For more information, see [Create an indexed source](https://www.servicenow.com/docs/access?context=create-indexed-source-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [Configuring navigation tabs in AI Search](https://www.servicenow.com/docs/access?context=config-nav-tabs-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Ensure you understand the AI search and indexed sources. For more information, see [Create an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-indexed-source-ais.md) and [Configuring navigation tabs in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/config-nav-tabs-ais.md).
 
 ## About this task
 

@@ -50,7 +50,7 @@ Feedback type
 -   You can exclude a page on the portal manually from all the feedback types except **Service - topic page**.
 -   You can view **Survey** as a feedback type only if you have a **Survey Instances** set up.
 
-For more information on setting up a survey instance, see [Configure a survey in the survey designer](https://www.servicenow.com/docs/access?context=t_ConfigSurveyInSurveyDesgnr&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information on setting up a survey instance, see [Configure a survey in the survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigSurveyInSurveyDesgnr.md).
 
 </td></tr><tr><td>
 
@@ -208,9 +208,9 @@ Feedback content
 
 **Survey**: Existing survey to be added to the **Feedback type**.To use a survey for the **Email** **Channel**, Outlook Actionable Messages must be selected in the survey definition.
 
-To use a survey for the **Virtual Agent** **Channel**, **Chat Survey** must be selected in the survey definition. For more information about chat surveys, see [Create chat surveys](https://www.servicenow.com/docs/access?context=create-chat-surveys&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+To use a survey for the **Virtual Agent** **Channel**, **Chat Survey** must be selected in the survey definition. For more information about chat surveys, see [Create chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/create-chat-surveys.md).
 
-For more information about survey definitions, see [Modify a survey definition](https://www.servicenow.com/docs/access?context=t_ModifySurveyDefinitions&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information about survey definitions, see [Modify a survey definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ModifySurveyDefinitions.md).
 
 </td></tr><tr><td>
 

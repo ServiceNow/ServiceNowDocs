@@ -60,5 +60,5 @@ If the values for a case or interaction have been predicted using a record categ
 
 ## Email sentiment replies
 
-Duplicate entries can be posted in the Predictor Result table for email sentiment replies. To help prevent these duplicate entries, deactivate the **Predict Sentiment for Cases** inbound email action. For more information, see [Inbound email actions](https://www.servicenow.com/docs/access?context=c_InboundEmailActions&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Duplicate entries can be posted in the Predictor Result table for email sentiment replies. To help prevent these duplicate entries, deactivate the **Predict Sentiment for Cases** inbound email action. For more information, see [Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_InboundEmailActions.md).
 

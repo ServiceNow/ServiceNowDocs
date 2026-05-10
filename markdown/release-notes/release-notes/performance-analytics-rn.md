@@ -21,22 +21,22 @@ The ServiceNow®   Performance Analytics application is an in-platform process
 -   View scores as they accumulate throughout the day without having to wait for end-of-day processing.
 -   When exploring a Data snapshots indicator with KPI Details, customizable score formats, apply flexible breakdowns and aggregation periods, direct alert subscriptions for targets and thresholds, and apply hierarchical roll-ups for breakdowns.
 
-See [Performance Analytics \(Indicator data sources\)](https://www.servicenow.com/docs/access?context=pa-overview&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) for more information.
+See [Performance Analytics \(Indicator data sources\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-overview.md) for more information.
 
 ## New in the Australia release
 
--   **[Create data snapshots indicators](https://www.servicenow.com/docs/access?context=create-ds-automated-indicator&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
+-   **[Create data snapshots indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-ds-automated-indicator.md)**
 
     Create data snapshots indicators and their sources rather than being able to enable data snapshots only on existing indicators. Benefit from the simplicity of data snapshots indicators, including the escape from the two-level breakdown limit. You can create either automated or formula indicators. Access control for these indicator is the same as for classic Performance Analytics indicators.
 
--   **[Create intraday indicators](https://www.servicenow.com/docs/access?context=create-ds-source&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
+-   **[Create intraday indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-ds-source.md)**
 
     Track process changes at a more granular level than daily, such as by work shift. Data snapshots indicator sources support business calendars with intraday periods, which can be as short as per minute.
 
 
 ## Changed in this release
 
--   **[Explore native data snapshots indicators with KPI Details](https://www.servicenow.com/docs/access?context=kpi-details-targets&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
+-   **[Explore native data snapshots indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-targets.md)**
 
     KPI Details supports data snapshots indicators that you create, not only those that are enabled from classic indicators. The following features have been created for or extended to native data snapshots indicators:
 
@@ -44,18 +44,18 @@ See [Performance Analytics \(Indicator data sources\)](https://www.servicenow.co
     -   Adjustable filtering by breakdown, calendar, or time series aggregation
     -   Hierarchical breakdowns, with scores rolled up to parent elements
     -   Customizable score formatting options, such as precision and abbreviation
--   **[View data trends in data snapshots as data accumulates](https://www.servicenow.com/docs/access?context=create-ds-automated-indicator&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
+-   **[View data trends in data snapshots as data accumulates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-ds-automated-indicator.md)**
 
     When you select a field by which to trend a data snapshots automated indicator, you have the option to show the trend for incomplete collection periods. This feature shows the trend as it develops for live data without having to wait for the end of the collection period. You can set this behavior either on the automated data snapshot indicator record or in a time series data visualization for a data snapshot indicator.
 
--   **[Collect data snapshots scores with confidence](https://www.servicenow.com/docs/access?context=tables-unlimited-breakdowns&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
+-   **[Collect data snapshots scores with confidence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/tables-unlimited-breakdowns.md)**
 
     Data mining for data snapshots scores has the following improvements:
 
     -   Collect scores for tables with any volume of records.
     -   The system accurately and automatically handles data gaps when data mining is disabled.
     -   You are warned of the implications before you manually disable data mining \(score collection\).
--   **[Activate data snapshots in more cases and with better information](https://www.servicenow.com/docs/access?context=activate-unlimited-breakdowns&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
+-   **[Activate data snapshots in more cases and with better information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/activate-unlimited-breakdowns.md)**
     -   Activate indicators without active data collector jobs.
     -   Activate indicators regardless of underlying record volume. For example, the `INSERT_VOLUME_EXCEEDED` error no longer occurs.
     -   If the activation fails because of scripted breakdowns, the scripted breakdowns are listed in the failure message.
@@ -71,15 +71,15 @@ See [Performance Analytics \(Indicator data sources\)](https://www.servicenow.co
 
 Complimentary Performance Analytics for Incident Management is active by default. You cannot create indicators or breakdowns with this complimentary application.
 
-The full features of Performance Analytics are available with a subscription. Activate the Premium plugin that matches your subscription. For details, see [Activating your Performance Analytics subscription](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+The full features of Performance Analytics are available with a subscription. Activate the Premium plugin that matches your subscription. For details, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
 
 ## Related ServiceNow applications and features
 
--   **[Platform Analytics experience](https://www.servicenow.com/docs/access?context=par-workspace&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
+-   **[Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/par-workspace.md)**
 
     The ServiceNow® Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products, including Performance Analytics.
 
--   **[Process Mining](https://www.servicenow.com/docs/access?context=process-mining&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
+-   **[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining.md)**
 
     Process Mining helps analysts and process owners quickly analyze and optimize their business processes. Use Process Mining with Platform Analytics insights to optimize your indicator data sources.
 

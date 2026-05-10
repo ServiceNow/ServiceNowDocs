@@ -25,7 +25,7 @@ Role required: None
 
 You can use URL queries to generate filtered lists of records programmatically before exporting them. URL queries are useful for scripts that generate a list of records or when no user can manually add the filter from the UI.
 
-You must be familiar with the ServiceNow table and column names to export data directly from the URL. See [Navigate to a record or a module using a URL](https://www.servicenow.com/docs/access?context=navigate-using-url&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+You must be familiar with the ServiceNow table and column names to export data directly from the URL. See [Navigate to a record or a module using a URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/navigate-using-url.md).
 
 You can control whether to export the display value or raw value of fields and the field label or field name for headers using query parameters or system properties.
 
@@ -70,7 +70,7 @@ Query parameters, if present, override system properties.
     https://<instance name>.service-now.com/incident_list.do?XML&sysparm_query=priority=1
     ```
 
-    **Note:** All queries use a column name, an operator, and a value. See [Condition Builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) for a list of available operators.
+    **Note:** All queries use a column name, an operator, and a value. See [Condition Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) for a list of available operators.
 
 5.  Sort the records by column name using the **sysparm\_orderby** parameter.
 
@@ -96,7 +96,7 @@ Query parameters, if present, override system properties.
 
     This URL exports incident fields visible from the Self Service \(ess\) view.
 
-    -   By default, exporting data from a list exports only the fields that are visible from the current view. If you want to export fields from another list view, you can switch views from the UI. See [View management](https://www.servicenow.com/docs/access?context=view-management-overview&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    -   By default, exporting data from a list exports only the fields that are visible from the current view. If you want to export fields from another list view, you can switch views from the UI. See [View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-management-overview.md).
     -   If you're exporting CSV or Excel data and don't specify a view, the export uses the default list view.
     -   If you're exporting XML data, all fields are exported by default unless you specify a particular view.
 7.  Export specific fields from the table using the **sysparm\_fields** parameter.

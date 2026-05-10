@@ -165,7 +165,7 @@ CMDB IRE Incomplete Payloads\[cmdb\_ire\_incomplete\_payloads\]
 
 Incomplete items, stored using JSON format as incomplete payloads. Incomplete items are stored for the purpose of logging payloads with irrecoverable errors, and are never processed again.
 
- The table is configured for [table rotation](https://www.servicenow.com/docs/access?context=c_TableRotation&version=australia&pubname=australia-platform-administration&ft:locale=en-US), with duration of one day and seven table rotations.
+ The table is configured for [table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableRotation.md), with duration of one day and seven table rotations.
 
  For more information about usage of this table in IRE processes, see [Identification and Reconciliation engine \(IRE\)](../concept/ire.md).
 

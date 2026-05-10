@@ -34,7 +34,7 @@ Demands come with an assessment metric type named **Demand**, five default asses
     |Assessment metric category|Data source|Description|
     |--------------------------|-----------|-----------|
     |**Size**|**T-Shirt size** field on the demand form.|Assesses demand size relative to the size of other demands.|
-    |**Strategic Alignment**|View an assessment category result field in the assessment category result for the Strategic Alignment metric category. For more information, see [View an assessment category result](https://www.servicenow.com/docs/access?context=t_ViewACategoryResult&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|Assesses how closely the demand aligns with strategic goals of the organization compared to other demands.|
+    |**Strategic Alignment**|View an assessment category result field in the assessment category result for the Strategic Alignment metric category. For more information, see [View an assessment category result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewACategoryResult.md)|Assesses how closely the demand aligns with strategic goals of the organization compared to other demands.|
     |**Risk**|**Rating** field in the assessment category result for the Risk metric category.|Assesses demand risks compared to other demands.|
     |**ROI**|**Impact** and **Financial return** fields on the Demand form.|Assesses demand return on investment compared to other demands.|
     |**Cost**|**Labor costs**, **Capital expense**, and **Operating expense** fields on the Demand form.|Assesses demand cost compared to other demands.|

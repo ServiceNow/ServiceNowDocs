@@ -41,7 +41,7 @@ An agent can also initiate a Zoom meeting from a chat to resolve issues faster. 
 
 If a case is created as the result of a chat, the customer can later find and view the case from the portal for updates. The customer service agent can also link a chat discussion to an existing case. Details from the chat discussion are copied to the case form.
 
-For more information, see [Connect Support](https://www.servicenow.com/docs/access?context=c_ConnectSupport&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and [Configuring the chat channel](c_ChatFeature.md).
+For more information, see [Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_ConnectSupport.md) and [Configuring the chat channel](c_ChatFeature.md).
 
 When a support agent of the assignment group associated with the chat queue ends a chat with a user, a survey is available in the chat window for the users. Users can take the survey to give feedback about the interaction with an agent. The survey is not captured in the transcript in the agent's interactions page.
 

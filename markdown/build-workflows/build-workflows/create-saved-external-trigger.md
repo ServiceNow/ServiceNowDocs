@@ -64,7 +64,7 @@ For more information about creating an event source, see [Create an external eve
     |Description|Description of the trigger.|
     |Application|Application scope to create the trigger. Workflow Studio displays the configured spokes that are supported.|
     |Event source|The third party system that will send the events to ServiceNow.|
-    |Domain|Domain scope of the flow. For more information about domain separation, see [Domain separation explained](https://www.servicenow.com/docs/access?context=bp-what-is-domain-separation&version=australia&pubname=australia-platform-security&ft:locale=en-US).|
+    |Domain|Domain scope of the flow. For more information about domain separation, see [Domain separation explained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-what-is-domain-separation.md).|
 
 4.  Select **Show additional properties** and fill in the fields.
 

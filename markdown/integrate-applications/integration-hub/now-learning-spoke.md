@@ -21,7 +21,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## ServiceNow University spoke subscription
 
-The ServiceNow University spoke is available with the ITSM Enterprise license. You can integrate Coaching with Learning with ServiceNow University. For more information, see [External Content Integration Sources](https://www.servicenow.com/docs/access?context=integration-source-coaching-with-learning-coaching-wfo-itsm&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+The ServiceNow University spoke is available with the ITSM Enterprise license. You can integrate Coaching with Learning with ServiceNow University. For more information, see [External Content Integration Sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/integration-source-coaching-with-learning-coaching-wfo-itsm.md).
 
 ## Spoke actions
 

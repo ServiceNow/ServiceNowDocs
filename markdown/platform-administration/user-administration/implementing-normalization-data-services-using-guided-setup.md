@@ -15,7 +15,7 @@ breadcrumb: [Normalization data services, Creating users, companies, departments
 
 You can implement Normalization Data Services using a guided setup.
 
-Normalization Data Services guided setup provides a sequence of tasks that help you configure the Normalization Data Services plugin on your instance. To open Normalization Data Services guided setup, navigate to **Normalization Data Services** &gt; **Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Normalization Data Services guided setup provides a sequence of tasks that help you configure the Normalization Data Services plugin on your instance. To open Normalization Data Services guided setup, navigate to **Normalization Data Services** &gt; **Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 **Note:** Because the Normalization Data Services feature requires an internet connection to download mapping information, this feature isn’t supported for on-premise instances.
 

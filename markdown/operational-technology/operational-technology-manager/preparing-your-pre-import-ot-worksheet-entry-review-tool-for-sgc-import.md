@@ -1213,7 +1213,7 @@ string
 
 Type of OT device/configuration item \(CI\). Examples: PLC, DCS**Note:**
 
--   For a listing and explanation of valid CI types, see [Operation Technology \(OT\) extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-operation-technology&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   For a listing and explanation of valid CI types, see [Operation Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-operation-technology.md).
 -   For an OT device, you should create entries in the following spreadsheet columns, even though they are not required:
     -   type
     -   os\_version

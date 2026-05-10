@@ -23,7 +23,7 @@ The agents, tools, and triggers that are associated with the Predict service and
 
 You must have HRSD Pro plus for Now Assist installed for the HR Service Delivery AI Agent Collection. When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
-Perform the following steps after you [Configure Group Action Framework](https://www.servicenow.com/docs/access?context=configure-gaf&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Perform the following steps after you [Configure Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-gaf.md).
 
 **Note:** Run the GAF training against **HR GAF Group**, the skill designated for GAF activation.
 

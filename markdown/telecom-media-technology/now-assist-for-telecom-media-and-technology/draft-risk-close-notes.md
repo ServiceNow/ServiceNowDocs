@@ -42,7 +42,7 @@ A scheduled job runs everyday and automatically drafts closure notes for all ris
 
     ![Activity context group](../image/activity-context.jpg)
 
-    For more details on creating the activity context group, see [Configure activity groups for the Customer History view](https://www.servicenow.com/docs/access?context=configure-activity-groups-ca&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+    For more details on creating the activity context group, see [Configure activity groups for the Customer History view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-activity-groups-ca.md).
 
 
 **Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](../concept/now-assist-spm-using.md)

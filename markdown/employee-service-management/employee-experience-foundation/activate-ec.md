@@ -56,7 +56,7 @@ Employee Center \(sn\_ex\_sp\) installs the following dependent plugins:
 
 4.  Check the **Load demo data** check-box to include the demo data along with your install or repair your install with demo data checked.
 
-    **Note:** Dependent plugin demo data is not automatically installed. To use demo data, repair the plugins with demo data checked. See [Repair a ServiceNow application](https://www.servicenow.com/docs/access?context=repair-app&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    **Note:** Dependent plugin demo data is not automatically installed. To use demo data, repair the plugins with demo data checked. See [Repair a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/repair-app.md).
 
 5.  Select **Install**.
 

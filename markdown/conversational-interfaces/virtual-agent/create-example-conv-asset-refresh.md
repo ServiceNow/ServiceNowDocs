@@ -25,7 +25,7 @@ Install the following applications:
     You must have a subscription for Virtual Agent before you can activate the Glide Virtual Agent plugin.
 
 -   [Enable Natural Language Understanding \(NLU\)](configure-nlu-settings.md), if not already enabled \(recommended\).
--   [ITSM Virtual Agent Conversations](https://www.servicenow.com/docs/access?context=setup-itsm-virtual-agent&version=australia&pubname=australia-it-service-management&ft:locale=en-US) \(available in the ServiceNow® Store\)
+-   [ITSM Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setup-itsm-virtual-agent.md) \(available in the ServiceNow® Store\)
 
     If this application is already installed, check the ServiceNow Store for an updated version before you begin.
 
@@ -164,7 +164,7 @@ For more information about building topics and the Virtual Agent Designer interf
 
         ![For the catalog_item_id field, select the dot-walking icon and choose Input Variables > Catalog_item_id.](../images/crawl-ex-req-catalog-item.png)
 
-    This topic block returns output variables as well. The user will be able to select variables for their new device, as well. You can configure these variables in [Service Catalog](https://www.servicenow.com/docs/access?context=service-catalog&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    This topic block returns output variables as well. The user will be able to select variables for their new device, as well. You can configure these variables in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md).
 
 11. Ask the user to confirm their choice of device.
 

@@ -62,6 +62,6 @@ SAMScalable beyond 200 apps
 
 For more information on application monitoring with SAM, see the following:
 
--   [Using push-based Discovery and SAM together](https://www.servicenow.com/docs/access?context=using-enhanced-discovery-and-sam-together&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
--   [SaaS detection report](https://www.servicenow.com/docs/access?context=shadow-saas-analytics&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
+-   [Using push-based Discovery and SAM together](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/using-enhanced-discovery-and-sam-together.md)
+-   [SaaS detection report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/shadow-saas-analytics.md)
 

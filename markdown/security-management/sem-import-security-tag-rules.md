@@ -4,7 +4,7 @@ description: You can import security tag rules from other tables in your deploym
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Set up security tag groups and tags, Implement, Unified Security Exposure Management, Security Operations]
 ---

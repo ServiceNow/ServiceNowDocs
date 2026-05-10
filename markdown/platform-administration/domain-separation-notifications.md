@@ -22,7 +22,7 @@ Domain separation is supported in the Notifications application. Domain separati
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Overview
 
@@ -57,9 +57,9 @@ To learn more see [Inbound email actions](c_InboundEmailActions.md).
 
 ## Use case
 
-If an instance is using the [Domain separation plugin](https://www.servicenow.com/docs/access?context=c_DomainSeparationSetup&version=australia&pubname=australia-platform-security&ft:locale=en-US) and a new email notification is defined for a domain that has the same event as the notification on the global domain, the user receives two emails for the same event.
+If an instance is using the [Domain separation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparationSetup.md) and a new email notification is defined for a domain that has the same event as the notification on the global domain, the user receives two emails for the same event.
 
-Solution: Set the \[sys\_overrides\] field on the notification that belongs to the domain so it overrides the setting on global. For more information, see [Delegated administration](https://www.servicenow.com/docs/access?context=c_DelegatedAdministration&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Solution: Set the \[sys\_overrides\] field on the notification that belongs to the domain so it overrides the setting on global. For more information, see [Delegated administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DelegatedAdministration.md).
 
 **Parent Topic:**[Email and SMS notifications](c_EmailNotifications.md)
 
@@ -88,5 +88,5 @@ Solution: Set the \[sys\_overrides\] field on the notification that belongs to
 
 [Email FAQs and troubleshooting notification emails](troubleshooting-notification-emails.md)
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

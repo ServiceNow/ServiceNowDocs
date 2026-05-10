@@ -28,5 +28,5 @@ The following table shows the Copy smart assessment responses action form.
 
 Both the source assessment that you’re copying from and the target assessment for reusing responses must be based on the same template. The target assessment must be in an Open state. After this flow action is implemented, the answers from the source assessment are automatically available as answers for the assessor's responses.
 
-For more information on adding actions to flows in Workflow Studio, see [Create a flow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+For more information on adding actions to flows in Workflow Studio, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
 

@@ -49,7 +49,7 @@ Number of days after which the data collected for contact tracing is automatical
 -   User daily contact logs, daily log notes, and daily log acknowledgment data.
 -   All closed and canceled cases and associated potentially exposed contacts, case tasks, diagnostic requests and the underlying source data, and diagnostic events.
 
-**Note:** A survey associated with cases eligible for deletion after the retention period is not deleted because surveys have their own retention period. For more information, see [Clean up assessment data](https://www.servicenow.com/docs/access?context=t_CleanUpAssessmentData&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Note:** A survey associated with cases eligible for deletion after the retention period is not deleted because surveys have their own retention period. For more information, see [Clean up assessment data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CleanUpAssessmentData.md).
 
 -   Wi-Fi access register data
  The default value is 90.

@@ -29,7 +29,7 @@ The time the assessment scan takes can vary according to the number of records i
 
 1.  Elevate your role to security\_admin.
 
-    For more information, see [Elevate to a privileged role](https://www.servicenow.com/docs/access?context=t_ElevateToAPrivilegedRole&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    For more information, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
 
 2.  Navigate to **All** &gt; **Reports** &gt; **ACL Assessment for Reports** &gt; **Report ACL Dashboard**.
 

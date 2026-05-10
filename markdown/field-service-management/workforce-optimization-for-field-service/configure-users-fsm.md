@@ -27,7 +27,7 @@ The steps for configuring users are:
 
     Appoint additional managers for your user groups when Workforce Optimization for Field Service is active, ensuring the continuity of work in the absence of a manager.
 
-3.  [Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+3.  [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md)
 
     Create a user for Field Service organization for various tasks and responsibilities. A Field Service Management user can be an admin, a manager, an agent, etc. Each user must be added to appropriate user groups with the required roles and permissions.
 

@@ -17,8 +17,8 @@ Produce an outbound notification from the ServiceNow instance using the Hermes c
 
 In this use case, the notifications are produced to the Hermes cluster from your ServiceNow instance. After replication from Hermes to Kafka is completed, customers can consume or pull the messages from their own Kafka.
 
--   To learn more about Hermes Messaging Service, see [Hermes Messaging Service](https://www.servicenow.com/docs/access?context=hermes-messaging-service&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
--   To learn more about Apache Kafka Stream Connect, see [Using Stream Connect for Apache Kafka](https://www.servicenow.com/docs/access?context=stream-connect-apache-kafka&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+-   To learn more about Hermes Messaging Service, see [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service.md).
+-   To learn more about Apache Kafka Stream Connect, see [Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md).
 
 In the Australia release, the following events are supported for trouble ticket notification.
 
@@ -29,7 +29,7 @@ In the Australia release, the following events are supported for trouble ticket 
 
 ## Prerequisites
 
-Before producing an outbound notification, the customer must create the topic in the Hermes cluster. To learn more about creating a topic in Hermes, see [Managing namespaces and topics in Hermes](https://www.servicenow.com/docs/access?context=managing-namespaces-topics-hermes&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Before producing an outbound notification, the customer must create the topic in the Hermes cluster. To learn more about creating a topic in Hermes, see [Managing namespaces and topics in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/managing-namespaces-topics-hermes.md).
 
 ## Workflow
 
@@ -37,7 +37,7 @@ The workflow for producing the outbound notification by using Hermes contains th
 
 1.  On the trigger of the trouble ticket event, the system invokes the appropriate business rule, and stamps the event type.
 
-    To learn more about business rule that you must add to your ServiceNow instance, see [Add a business rule for a new trouble ticket event](https://www.servicenow.com/docs/access?context=prd_evt_not-dev_gd-add_bus_rule&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    To learn more about business rule that you must add to your ServiceNow instance, see [Add a business rule for a new trouble ticket event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/prd_evt_not-dev_gd-add_bus_rule.md).
 
 2.  The system pushes the Glide snapshot and event type in the staging table, which acts as a queue.
 3.  The producer framework picks the event and converts it to a TMF 688 complaint event payload.
@@ -51,7 +51,7 @@ The workflow for producing the outbound notification by using Hermes contains th
 **Related topics**  
 
 
-[EventProcessorUtilOOB - Scoped](https://www.servicenow.com/docs/access?context=EventProcessorUtilOOBScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[EventProcessorUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EventProcessorUtilOOBScopedAPI.md)
 
-[EventQueueProcessorOOB - Scoped](https://www.servicenow.com/docs/access?context=EventQueueProcessorOOBScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[EventQueueProcessorOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EventQueueProcessorOOBScopedAPI.md)
 

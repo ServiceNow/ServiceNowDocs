@@ -15,7 +15,7 @@ Send ServiceNow notifications to users via your own Slack bot.
 
 ## Before you begin
 
--   [Request Integration Hub](https://www.servicenow.com/docs/access?context=request-ih-overview&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+-   [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md)
 -   [Request the Messaging Notification plugin](request-messaging-notification.md)
 -   Create a custom application for Slack
 

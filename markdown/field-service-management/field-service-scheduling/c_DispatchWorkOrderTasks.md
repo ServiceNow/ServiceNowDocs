@@ -43,15 +43,15 @@ Role required: wm\_dispatcher, wm\_initiator\_qualifier\_dispatcher, or wm\_admi
 
 3.  Assign task to an agent or a crew.
 
-<table id="choicetable_rqt_352_vtb"><thead><tr><th align="left" id="d94059e236">
+<table id="choicetable_rqt_352_vtb"><thead><tr><th align="left" id="d94063e236">
 
 Option
 
-</th><th align="left" id="d94059e239">
+</th><th align="left" id="d94063e239">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d94059e245">
+</th></tr></thead><tbody><tr><td id="d94063e245">
 
 **If Territory Planning is not enabled**
 
@@ -64,7 +64,7 @@ Description
 
 A warning message appears if the assigned task is outside the radius between the task location and the agent's location.
 
-</td></tr><tr><td id="d94059e277">
+</td></tr><tr><td id="d94063e277">
 
 **If Territory Planning is enabled**
 

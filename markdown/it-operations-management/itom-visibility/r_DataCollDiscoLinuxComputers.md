@@ -113,10 +113,10 @@ Before running a discovery, you must verify that all the required configurations
 
     For more information about the commands that require a user with elevated rights, refer to the following documents.
 
-    -   [Commands that require root privileges for Discovery, Orchestration, and Integration Hub](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    -   [Commands that require root privileges for Discovery, Orchestration, and Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
     -   For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](../../service-mapping/reference/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
 
-    -   [MID Server privileged commands](https://www.servicenow.com/docs/access?context=c_PrivilegedCommandsForMIDServer&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+    -   [MID Server privileged commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_PrivilegedCommandsForMIDServer.md)
     -   [View Patterns commands through the Discovery Patterns module](../task/view-command-pattern-discovery.md)
     -   [Validate commands used in pattern-based discovery](../../it-operations-management/task/validate-discovery-commands.md)
     SSH private key credentials are preferable over SSH password credentials for security reasons.
@@ -125,8 +125,8 @@ Before running a discovery, you must verify that all the required configurations
 
     For detailed information, see:
 
-    -   [Test MID Server connectivity](https://www.servicenow.com/docs/access?context=t_ValidateNetworkConnectivity&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
-    -   [MID Server properties](https://www.servicenow.com/docs/access?context=r_MIDServerProperties&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+    -   [Test MID Server connectivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ValidateNetworkConnectivity.md)
+    -   [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md)
 -   **Verify the configuration of the discovery schedule**
 
     For information on creating a discovery schedule, see [Schedule a horizontal discovery](../task/t_CreateADiscoverySchedule.md#).

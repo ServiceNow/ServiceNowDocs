@@ -19,7 +19,7 @@ The following sections explain how to set up the application, configure worker p
 
 ## Application setup
 
-First, you must activate the HR Service Delivery Integration with Workday application from ServiceNow Store. This automatically activates the Workday HR Spoke. Next, you must set up [Workday HR Spoke](https://www.servicenow.com/docs/access?context=workday-hr-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+First, you must activate the HR Service Delivery Integration with Workday application from ServiceNow Store. This automatically activates the Workday HR Spoke. Next, you must set up [Workday HR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/workday-hr-spoke.md).
 
 ## Worker profile settings
 

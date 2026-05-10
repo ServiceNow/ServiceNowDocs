@@ -478,7 +478,7 @@ Macro
 
 </td><td>
 
-[UI macro](https://www.servicenow.com/docs/access?context=c_UIMacros&version=australia&pubname=australia-api-reference&ft:locale=en-US) to insert into the catalog item.This field appears for macro, macro with label, and UI page variables.
+[UI macro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UIMacros.md) to insert into the catalog item.This field appears for macro, macro with label, and UI page variables.
 
 </td></tr><tr><td>
 
@@ -526,7 +526,7 @@ Reference qual
 
 </td><td>
 
-Qualifiers to restrict data that is available in the field.Supports reference qualifiers and advance qualifiers. For more information, see [Reference qualifiers](https://www.servicenow.com/docs/access?context=c_ReferenceQualifiers&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Qualifiers to restrict data that is available in the field.Supports reference qualifiers and advance qualifiers. For more information, see [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceQualifiers.md).
 
  Returns all matching results \(no maximum\).
 

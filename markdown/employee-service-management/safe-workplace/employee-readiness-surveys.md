@@ -23,7 +23,7 @@ The check-in administrator sends the surveys to targeted audiences using the Eme
 
 -   **Use guided setup to implement Safe Workplace suite apps**
 
-    The Safe Workplace guided setup provides a sequence of tasks that help you configure the Safe Workplace and Emergency Response Management applications on your ServiceNow instance. To open the Safe Workplace guided setup, navigate to **Guided Setup** &gt; **Safe Workplace Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    The Safe Workplace guided setup provides a sequence of tasks that help you configure the Safe Workplace and Emergency Response Management applications on your ServiceNow instance. To open the Safe Workplace guided setup, navigate to **Guided Setup** &gt; **Safe Workplace Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 
 ## Use with other Safe Workplace suite applications
@@ -85,7 +85,7 @@ See the [Commercial downloads for the Emergency Response Management and Safe Wor
 </td></tr></tbody>
 </table>## Domain separation for the Employee Readiness Surveys application
 
-Surveys are configured and managed through the Survey Management application on your ServiceNow instance. For information about how domain separation is supported, see [Domain separation for Survey Management](https://www.servicenow.com/docs/access?context=domain-separation-surveys&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Surveys are configured and managed through the Survey Management application on your ServiceNow instance. For information about how domain separation is supported, see [Domain separation for Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-surveys.md).
 
 ## Notice regarding use by organizations
 

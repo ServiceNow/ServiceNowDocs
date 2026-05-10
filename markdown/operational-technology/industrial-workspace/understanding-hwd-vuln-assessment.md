@@ -63,7 +63,7 @@ The HVA menu displays HVA records created for the OT devices. These assessment r
 **Important:**
 
 -   If the property to create automatic VIT is enabled, the **Fully matched assessments** tab doesn’t display any data. You can view this information on the **Vulnerable Items** tab.
--   Enable the Firmware Discovery Model Opt-in feature in Enterprise Asset Management so that OT devices data are available for normalization. For more information, see [Opt-in to Enterprise Asset Management Content Service](https://www.servicenow.com/docs/access?context=optin-cs-eam&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).
+-   Enable the Firmware Discovery Model Opt-in feature in Enterprise Asset Management so that OT devices data are available for normalization. For more information, see [Opt-in to Enterprise Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/optin-cs-eam.md).
 
 ## Additional Resources
 
@@ -77,7 +77,7 @@ Reference values used to calculate the confidence score.
 **Related topics**  
 
 
-[Enterprise Asset Management normalization](https://www.servicenow.com/docs/access?context=normalization-eam&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
+[Enterprise Asset Management normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/normalization-eam.md)
 
 [Industrial Workspace](../../operational-technology-management/concept/industrial-workspace-for-operational-technology.md)
 

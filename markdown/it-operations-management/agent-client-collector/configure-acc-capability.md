@@ -21,7 +21,7 @@ Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-A capability defines MID Server functions. Any MID Server that is assigned with a capability that has **Is ACC Capability=true** is enabled to work with an agent. For details on the MID Server capabilities, see [MID Server capabilities](https://www.servicenow.com/docs/access?context=mid-server-capabilities&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+A capability defines MID Server functions. Any MID Server that is assigned with a capability that has **Is ACC Capability=true** is enabled to work with an agent. For details on the MID Server capabilities, see [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/mid-server-capabilities.md).
 
 ## Procedure
 

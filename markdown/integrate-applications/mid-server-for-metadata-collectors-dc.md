@@ -15,7 +15,7 @@ Set up a MID Server to host metadata collectors that harvest metadata from on-pr
 
 For the Data Catalog capability within Workflow Data Fabric \(WDF\), the MID Server hosts metadata collectors that harvest metadata — schemas, tables, columns, and lineage — from on-premises and privately networked data sources, then securely uploads them to the ServiceNow instance for cataloging, governance, and AI-ready workflows.
 
-The Management, Instrumentation, and Discovery \(MID\) Server facilitates secure communication and data movement between your ServiceNow instance and external data sources. You must have a configured and validated MID Server to connect to the data source. For more information, see the [MID server documentation](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+The Management, Instrumentation, and Discovery \(MID\) Server facilitates secure communication and data movement between your ServiceNow instance and external data sources. You must have a configured and validated MID Server to connect to the data source. For more information, see the [MID server documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
 
 ## System requirements
 
@@ -36,7 +36,7 @@ Consider the following recommendations when sizing and configuring the MID Serve
 
 Consider your data volume and processing requirements when configuring your MID Server. Depending on your environment, you may want to adjust memory allocation to support your workload.
 
-**Note:** If you experience out-of-memory errors or performance issues, refer to the [MID Server system requirements](https://www.servicenow.com/docs/access?context=r_MIDServerSystemRequirements&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) documentation for guidance on adjusting your configuration.
+**Note:** If you experience out-of-memory errors or performance issues, refer to the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md) documentation for guidance on adjusting your configuration.
 
 **Parent Topic:**[Configuring metadata collectors](configure-metadata-collectors-dc.md)
 

@@ -131,7 +131,7 @@ Condition Type
 
 The conditions applied to the chart screen.
 
- -   **Declarative**: Adds a condition builder to the form. For more information, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+ -   **Declarative**: Adds a condition builder to the form. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 -   **Script**: Adds a script condition field to the form.
  This field is only visible when the **Context** field is set to **Record**.
 

@@ -104,7 +104,7 @@ Roles that the flow runs with. This option is available only when **Run as** is 
 
     2.  From the Trigger list, select a trigger that will start running your flow.
 
-        For more information on trigger types, see [Workflow Studio flow trigger types](https://www.servicenow.com/docs/access?context=flow-triggers&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+        For more information on trigger types, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-triggers.md).
 
         The system displays a set of fields depending on the type of trigger that you've selected.
 
@@ -132,7 +132,7 @@ Action
 
 </td><td>
 
-Select the desired action. Workflow Studio includes [Workflow Studio actions](https://www.servicenow.com/docs/access?context=flow-actions&version=australia&pubname=australia-build-workflows&ft:locale=en-US) that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The [Integration Hub](https://www.servicenow.com/docs/access?context=integrationhub&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) and [Spokes](https://www.servicenow.com/docs/access?context=spokes&version=australia&pubname=australia-build-workflows&ft:locale=en-US) plugins install additional actions.
+Select the desired action. Workflow Studio includes [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md) that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md) and [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md) plugins install additional actions.
 
  To add draft actions from the More Actions menu, set **Show draft actions** to **true**.
 
@@ -169,7 +169,7 @@ Select a published subflow and define the input values. In addition to adding a 
 
 10. To specify how the app will handle errors, enable the **ERROR HANDLER** switch and fill in the fields.
 
-    For more information on configuring how errors are handled in flows, see [Flow error handler](https://www.servicenow.com/docs/access?context=flow-error-handler&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For more information on configuring how errors are handled in flows, see [Flow error handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-error-handler.md).
 
 11. Select **Save**.
 
@@ -178,7 +178,7 @@ Select a published subflow and define the input values. In addition to adding a 
 
 ## What to do next
 
-Test your flow until you're ready to activate it. For more information on testing and editing flows, see [Activate a flow](https://www.servicenow.com/docs/access?context=flow-activate&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Test your flow until you're ready to activate it. For more information on testing and editing flows, see [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-activate.md).
 
 **Note:** Your application can trigger only activated flows.
 

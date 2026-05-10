@@ -31,7 +31,7 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for Universal Request for Source-to-Pay Operations.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Components installed with Universal Request](https://www.servicenow.com/docs/access?context=installed-with-ur&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Components installed with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/installed-with-ur.md).
 
 
 **Parent Topic:**[Configure Supplier Lifecycle Operations](../concept/config-supp-mgmt.md)

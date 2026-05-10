@@ -19,7 +19,7 @@ The Extend Your Employee Center to Pro Accelerator provides prescriptive guidanc
 
 Extend Your Employee Center to Pro provides Impact customers with guidance on how to extend  their current Employee Center implementation with  Employee Center Pro features. Through an overview of Employee Center Pro features, such as Content Experiences, Publishing, and Employee Communications, customers are  educated on the features available with Employee Center Pro.
 
-Additionally, this Accelerator equips our customers with essential ServiceNow resources and leading  practice guides on how to best increase adoption and usage of the Employee Center Pro capabilities.  For additional information, see [Exploring Employee Center Pro](https://www.servicenow.com/docs/access?context=emp-center-vs-ec-pro&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+Additionally, this Accelerator equips our customers with essential ServiceNow resources and leading  practice guides on how to best increase adoption and usage of the Employee Center Pro capabilities.  For additional information, see [Exploring Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-vs-ec-pro.md).
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

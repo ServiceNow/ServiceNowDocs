@@ -57,7 +57,7 @@ The Password Change application extends the Password Reset application by lettin
 
 1.  The user logs in to the instance and then selects the **All** &gt; **Password Reset** &gt; **Change Password** module or link from the user profile record. The user can also use the Password Change application on mobile devices.
 
-    **Note:** By default, the dark theme doesn't apply to the Change Password form. Users can change the theme to the dark theme. For more information about the dark theme, see [Exploring themes in Next Experience](https://www.servicenow.com/docs/access?context=next-experience-theming&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    **Note:** By default, the dark theme doesn't apply to the Change Password form. Users can change the theme to the dark theme. For more information about the dark theme, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
 
 2.  On the Change Password form, the user selects a Password Reset process related to a credential store for which the user wants to change the password.
 3.  The user enters the old password and the new password.

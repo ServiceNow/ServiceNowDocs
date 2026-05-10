@@ -110,7 +110,7 @@ The following operation handler script shows how to use various CTIOperationResp
 })(request, response);
 ```
 
-For additional information on creating operation handlers, see [Configure a contact flow for an automated caller interaction](https://www.servicenow.com/docs/access?context=establish-automated-bot-interactions&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For additional information on creating operation handlers, see [Configure a contact flow for an automated caller interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/establish-automated-bot-interactions.md).
 
 The following message transformer script gets the values set on the CTIOperationResponse object and stores them in the CTI-specific payload that is then sent back to the CTI provider.
 
@@ -127,9 +127,9 @@ The following message transformer script gets the values set on the CTIOperation
 })(operationResponse, httpResponse);
 ```
 
-This script include runs in the `sn_cti_core` namespace. Before you are able to access the CTIOperationRequest script include, the ServiceNow Voice Core \(sn\_cti\_core\) plugin must be installed. For information on this installation, see [Install ServiceNow Voice applications](https://www.servicenow.com/docs/access?context=install-ccc-apps&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+This script include runs in the `sn_cti_core` namespace. Before you are able to access the CTIOperationRequest script include, the ServiceNow Voice Core \(sn\_cti\_core\) plugin must be installed. For information on this installation, see [Install ServiceNow Voice applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/install-ccc-apps.md).
 
-For additional information on the ServiceNow Voice, see [ServiceNow Voice](https://www.servicenow.com/docs/access?context=cloud-call-center-overview&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For additional information on the ServiceNow Voice, see [ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cloud-call-center-overview.md).
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 

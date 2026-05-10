@@ -17,7 +17,7 @@ Create a custom GraphQL API to query record data from a component or a third-par
 
 For example, you can create a component that displays the cases associated with an SLA. You can use the Next Experience UI Framework to develop the component you need, and access case data from the platform by creating a GraphQL schema that defines data in the Case table.
 
-To learn more about developing components, see [Developing components for Workspace](https://www.servicenow.com/docs/access?context=custom-components&version=australia&pubname=australia-application-development&ft:locale=en-US).
+To learn more about developing components, see [Developing components for Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/custom-components.md).
 
 ## Benefits of GraphQL
 
@@ -82,7 +82,7 @@ GraphQL APIs have two different namespaces:
 
 -   **Application namespace**
 
-    The namespace for the custom application. To learn more about application namespaces, see [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    The namespace for the custom application. To learn more about application namespaces, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).
 
 -   **Schema namespace**
 

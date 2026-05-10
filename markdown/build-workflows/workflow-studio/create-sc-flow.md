@@ -37,7 +37,7 @@ Unlike a record trigger which runs on all records in a table, the Service Catalo
 
     3.  Complete the fields.
 
-        For a detailed description of catalog item fields, see [Catalog Item form](https://www.servicenow.com/docs/access?context=catalog-item-form&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+        For a detailed description of catalog item fields, see [Catalog Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-item-form.md).
 
         **Note:** If you plan to add stages to your flow, verify that there is not an existing workflow associated with the item that also has stages. Clear the values of the **Workflow** and **Execution Plan** fields to prevent conflicting stages from reporting to the requested item stage field.
 

@@ -88,7 +88,7 @@ Forum
 
 The forum in Communities you want the link to appear and share with members of the forum. Only appears when **Forums Link** is selected from **Type** and the Communities plugin \[com.sn\_communities\] is installed.
 
- For information on Communities, see [Communities](https://www.servicenow.com/docs/access?context=servicenow-communities&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+ For information on Communities, see [Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/servicenow-communities.md).
 
 </td></tr><tr><td>
 

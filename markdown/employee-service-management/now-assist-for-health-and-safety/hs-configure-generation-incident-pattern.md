@@ -17,7 +17,7 @@ Configure the scheduled jobs that generate the incident patterns from the safety
 
 ## Before you begin
 
-Verify that the application scope is selected as Health and Safety Core. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Verify that the application scope is selected as Health and Safety Core. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: sn\_ohs\_im.admin
 
@@ -36,7 +36,7 @@ The scheduled jobs to generate the incident patterns run by default when you hav
     -   HS pattern detection: pattern generation
 3.  Define how the schedule job should repeat from the **Run**, **Time zone**, and **Time** fields.
 
-    For more information, see [Advanced options for scheduled jobs](https://www.servicenow.com/docs/access?context=advanced-options-for-scheduled-jobs&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information, see [Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md).
 
 4.  Select **Update**.
 

@@ -34,7 +34,7 @@ Role required: admin
 4.  In the **Zoom** card, select **View Details**.
 
     -   To configure the default connection and credential alias record that is shipped along with the DEX for Zoom spoke, select **View Details**.
-    -   To manage more than one DEX for Zoom connection records, create a child alias record by selecting **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://www.servicenow.com/docs/access?context=support-multiple-connections&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    -   To manage more than one DEX for Zoom connection records, create a child alias record by selecting **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you’re configuring the spoke for the first time, select **Configure**. Otherwise, select **Edit**.
 
 5.  On the form, fill the following values.

@@ -21,7 +21,7 @@ Role required: sn\_comp\_case.compliance\_​case\_analyst
 
 ## About this task
 
-You can export compliance data to PDF reports for easy sharing with audit teams, partners, or internal committees, eliminating the requirement for application access. A compliance administrator can select a predefined template or create a customized document template to generate reports. For more information, see [Configure a PDF document template](https://www.servicenow.com/docs/access?context=configure-editable-pdf&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+You can export compliance data to PDF reports for easy sharing with audit teams, partners, or internal committees, eliminating the requirement for application access. A compliance administrator can select a predefined template or create a customized document template to generate reports. For more information, see [Configure a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-editable-pdf.md).
 
 ## Procedure
 

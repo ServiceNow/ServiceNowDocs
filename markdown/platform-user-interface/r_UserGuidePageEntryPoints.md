@@ -13,7 +13,7 @@ breadcrumb: [System user guide, User interface configuration, Working in Core UI
 
 You can create entry points in your instance for help generated with the system user guide by providing the correct address parameters in the target URL.
 
-Help pages generated with the user guide can be displayed to end users from configurable entry points in the system, including application modules and [UI actions](https://www.servicenow.com/docs/access?context=c_UIActions&version=australia&pubname=australia-platform-administration&ft:locale=en-US). To create these entry points, you must express a target URL using these parameters:
+Help pages generated with the user guide can be displayed to end users from configurable entry points in the system, including application modules and [UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UIActions.md). To create these entry points, you must express a target URL using these parameters:
 
 |Parameter|Provides|
 |---------|--------|

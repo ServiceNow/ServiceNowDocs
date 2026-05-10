@@ -31,7 +31,7 @@ A Case template simplifies the process of creating cases in Workplace Case Manag
 
     -   To create a template, select **New**.
     -   To modify an existing template, select the template from the list.
-    For information about the template form fields, see [Create a template](https://www.servicenow.com/docs/access?context=t_CreateATemplateUsingTheTmplForm&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For information about the template form fields, see [Create a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateATemplateUsingTheTmplForm.md).
 
 3.  In the **Table** field, select the **Workplace case \[sn\_wsd\_case\_workplace\_case\]** table.
 

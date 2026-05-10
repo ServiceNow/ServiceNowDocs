@@ -74,5 +74,5 @@ This topic refers to Reporting in the Core UI. If your instance is migrated to P
 
 The user can drill down from the top-level report to the specified drilldown report visualizations.
 
-**Note:** All users can view report visualizations, such as pie charts and column reports. However, the last level of a drilldown is always a list. Platform access control lists determine user access to list information. Users may see a message indicating that rows were removed from the list by Security constraints. For more information, see [Access control list rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+**Note:** All users can view report visualizations, such as pie charts and column reports. However, the last level of a drilldown is always a list. Platform access control lists determine user access to list information. Users may see a message indicating that rows were removed from the list by Security constraints. For more information, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).
 

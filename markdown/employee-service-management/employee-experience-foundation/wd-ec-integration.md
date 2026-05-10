@@ -40,7 +40,7 @@ Before you start working on the Workday integration, get familiar with the follo
 
 -   Ensure you have the HRSD pro/Enterprise license that includes EC Pro. Workday integration is not available for Employee Center Pro standalone.​
 -   Understand how Enterprise Service Management Integrations Framework works, see [Using Enterprise Service Management Integrations Framework](../../human-resources/task/use-integrations-framework.md) and [View tasks of a third-party system](../../human-resources/task/display-todos.md)
--   Integrate Workday with ServiceNow, as explained in [Workday HR Spoke](https://www.servicenow.com/docs/access?context=workday-hr-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) and [Connections and Credentials](https://www.servicenow.com/docs/access?context=r-credentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   Integrate Workday with ServiceNow, as explained in [Workday HR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/workday-hr-spoke.md) and [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md).
 -   Activate and run the schedule flow that pulls record details. For more information, see [Activating schedule flows](../../human-resources/task/activate-w-schedule-flow.md).
 -   Understand the installed components as explained in [Components installed with HR Service Delivery Integration with Workday](../../human-resources/reference/installed-with-wd.md)
 -   Understand the basics of [Workday integration](https://www.workday.com/en-us/products/platform-product-extensions/integrations.html) and business processes.
@@ -65,7 +65,7 @@ Improve productivity by managing third-party approval flows from Employee Center
 
 By default, todos configurations are available for **Open** and **Completed**.
 
-**Note:** For more information the field-level info about leaves, timesheets, timeoffs, compensation change, job change, job requisition, or leave of absence, see [Workday HR Spoke](https://www.servicenow.com/docs/access?context=workday-hr-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+**Note:** For more information the field-level info about leaves, timesheets, timeoffs, compensation change, job change, job requisition, or leave of absence, see [Workday HR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/workday-hr-spoke.md).
 
 For additional reference information, see [Approvals experience reference](../reference/approval-hub-ootb.md).
 

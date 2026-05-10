@@ -31,7 +31,7 @@ The GlideElementCurrency2 class has no constructor.
 
 Returns an FX Currency field display string, as entered by the user, from the associated GlideRecord.
 
-For additional information on FX Currency fields, see [Setting up and operating FX Currency fields](https://www.servicenow.com/docs/access?context=fx-currency&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For additional information on FX Currency fields, see [Setting up and operating FX Currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -68,7 +68,7 @@ Depending on how the display\_value is set in the FX Currency Configuration \[fx
 -   Currency value converted to the session currency \(based on the user's locale\)
 -   Currency value converted to the reference currency
 
-For additional information on FX Currency and the configuration table, see [Configure FX Currency global settings](https://www.servicenow.com/docs/access?context=fx-currency-configure&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For additional information on FX Currency and the configuration table, see [Configure FX Currency global settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency-configure.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -107,7 +107,7 @@ Reference currency is the common currency into which all currency values in a fi
     -   If set, the **reference\_currency\_source** in the FX Currency Configuration \[fx\_configuration\] table.
     -   System default, system reference currency.
 
-For additional information on the values in the FX Currency Configuration \[fx\_configuration\] table, see [Setting up and operating FX Currency fields](https://www.servicenow.com/docs/access?context=fx-currency&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For additional information on the values in the FX Currency Configuration \[fx\_configuration\] table, see [Setting up and operating FX Currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -167,7 +167,7 @@ Session display value: $8,677.99
 
 Sets the display value of an FX Currency field with the specified currency value.
 
-For additional information on FX Currency fields, see [Setting up and operating FX Currency fields](https://www.servicenow.com/docs/access?context=fx-currency&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For additional information on FX Currency fields, see [Setting up and operating FX Currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency.md).
 
 <table id="table_enw_5jd_fy" class="parameters"><thead><tr><th>
 

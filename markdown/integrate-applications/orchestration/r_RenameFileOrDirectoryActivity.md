@@ -23,7 +23,7 @@ The Rename File or Directory activity renames a file or directory to a new name 
 |sourcePort|Port number to use to communicate with the target server. The default port number is **22**.|
 |sourceFilePath|Full path to the file or directory to rename.|
 |targetFilePath|Full path to the renamed file or directory.|
-|sourceCredentialTag|Specific [Credential aliases for Orchestration activities](https://www.servicenow.com/docs/access?context=c_AssignCredsOrchActivities&version=australia&pubname=australia-platform-security&ft:locale=en-US) this activity must use to run SSH commands on the host.|
+|sourceCredentialTag|Specific [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_AssignCredsOrchActivities.md) this activity must use to run SSH commands on the host.|
 
 ## Output variables
 

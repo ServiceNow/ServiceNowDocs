@@ -31,7 +31,7 @@ Role required: admin
 
 ### About this task
 
-For more information about client credentials grant type, see [Client Credentials](https://www.servicenow.com/docs/access?context=client-credentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information about client credentials grant type, see [Client Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/client-credentials.md).
 
 ### Procedure
 
@@ -86,7 +86,7 @@ OAuth Application User
 
 </td><td>
 
-User role to which the OAuth token flow is mapped.**Important:** By default, this field is not displayed on the Application Registries form. Configure the form layout to see the field on the form. For information about configuring the form layout, see [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+User role to which the OAuth token flow is mapped.**Important:** By default, this field is not displayed on the Application Registries form. Configure the form layout to see the field on the form. For information about configuring the form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
 </td></tr></tbody>
 </table>5.  Right-click the form header and click **Save**.
@@ -251,5 +251,5 @@ Under **Include Data**, select the **Recipients** option. Select other options a
 
 ### What to do next
 
-Create flows in Workflow Studio using these triggers as per your requirement. For more information, see [Create a flow with an external trigger](https://www.servicenow.com/docs/access?context=create-a-flow-with-an-external-trigger-definition&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Create flows in Workflow Studio using these triggers as per your requirement. For more information, see [Create a flow with an external trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-a-flow-with-an-external-trigger-definition.md).
 

@@ -21,9 +21,9 @@ Role required: AEM author
 
 ## About this task
 
-The Case REST API enables you to create, retrieve, and update customer service case records. For more information, see [Case API](https://www.servicenow.com/docs/access?context=case-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+The Case REST API enables you to create, retrieve, and update customer service case records. For more information, see [Case API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/case-api.md).
 
-The CSM Attachment API enables you to upload, download, and remove attachments associated with customer service cases and to retrieve attachment metadata. For more information, see [CSM Attachment API](https://www.servicenow.com/docs/access?context=attachment_csm-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+The CSM Attachment API enables you to upload, download, and remove attachments associated with customer service cases and to retrieve attachment metadata. For more information, see [CSM Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/attachment_csm-api.md).
 
 ## Procedure
 

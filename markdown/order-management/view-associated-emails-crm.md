@@ -17,7 +17,7 @@ View emails that have been linked to CRM records using the Microsoft Outlook dir
 
 Email promotion must be configured before you can view the associated emails on the Emails tab of the Lead, Opportunity, Accounts, or Contacts record. For more information, see [Make emails associated through the CRM Outlook Add-in visible to agents](promote-crm-outlook-emails.md).
 
-The User Mailbox Integration plugin \(com.glide.email.user\_mailbox.integration\) must be installed on your ServiceNow instance to enable agents to send emails from the touchpoint record. For setup instructions, see [Personal corporate mailbox](https://www.servicenow.com/docs/access?context=personal-corporate-mailbox&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The User Mailbox Integration plugin \(com.glide.email.user\_mailbox.integration\) must be installed on your ServiceNow instance to enable agents to send emails from the touchpoint record. For setup instructions, see [Personal corporate mailbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/personal-corporate-mailbox.md).
 
 Role required: sn\_crm\_outlook.crm\_outlook\_user
 

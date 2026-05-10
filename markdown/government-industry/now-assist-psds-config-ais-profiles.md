@@ -19,7 +19,7 @@ AI Search for Now Assist for Public Sector Digital Services \(PSDS\) stores sear
 
 A search profile contains settings that determine how AI Search generates search results for a given search. The search application's configuration specifies which search profile to use, and also determines how the generated results are displayed to users.
 
-For more information on AI search profiles, see [Search profiles in AI Search](https://www.servicenow.com/docs/access?context=defining-search-profiles-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information on AI search profiles, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-profiles-ais.md).
 
 ## Create a search profile using Now Assist for PSDS
 
@@ -37,7 +37,7 @@ Role required: admin
 
 3.  On the Search Profile form, fill in the fields.
 
-    For a description of the field values, see [Search Profile form](https://www.servicenow.com/docs/access?context=search-profile-form-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For a description of the field values, see [Search Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-profile-form-ais.md).
 
 4.  Select **Submit**.
 
@@ -48,7 +48,7 @@ The new search profile appears in the AI Search Search Profiles list with **Stat
 
 ### What to do next
 
-Your new search profile includes sample synonym and stop word dictionaries and a default typo handling dictionary. For more details on configuring and populating these dictionaries, see [Synonyms](https://www.servicenow.com/docs/access?context=synonyms-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US), [Stop words](https://www.servicenow.com/docs/access?context=stop-words-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US), and [Typo handling](https://www.servicenow.com/docs/access?context=typo-handling-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Your new search profile includes sample synonym and stop word dictionaries and a default typo handling dictionary. For more details on configuring and populating these dictionaries, see [Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/synonyms-ais.md), [Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md), and [Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/typo-handling-ais.md).
 
 To make content searchable using your new search profile, link one or more search sources to it.
 
@@ -80,7 +80,7 @@ Linking a search source to a search profile makes its filtered content available
 
     To configure single-turn AI Search, enter **Now Assist Q&amp;A** in the Genius Result Configuration field, and set the order to **1**.
 
-    For a description of the field values, see [Search Profile - Search Source Mapping form](https://www.servicenow.com/docs/access?context=search-prof-src-mapping-form-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For a description of the field values, see [Search Profile - Search Source Mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-prof-src-mapping-form-ais.md).
 
 5.  Select **Submit**.
 

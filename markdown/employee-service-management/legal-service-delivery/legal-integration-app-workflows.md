@@ -15,7 +15,7 @@ breadcrumb: [Legal Service Delivery, Legal and Contract Operations, Employee Ser
 
 The Legal Request Management application installs automated workflows for electronic signature and external storage. These workflows enable support for multiple integrations and accounts at the same time.
 
-These workflows available in Legal Service Delivery are built using [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=australia&pubname=australia-application-development&ft:locale=en-US).
+These workflows available in Legal Service Delivery are built using [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md).
 
 **Note:** All workflows for Legal Service Delivery applications are read-only by default.
 

@@ -20,7 +20,7 @@ You can access the Coaching Dashboard from the Coaching navigation menu, or dire
 **Note:**
 
 -   You must have the Coaching coach role to view the Coach Dashboard.
--   The Coach Dashboard page uses the Next Experience user interface. For more information on Next Experience, see [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+-   The Coach Dashboard page uses the Next Experience user interface. For more information on Next Experience, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md).
 
 Coaching begins once a trainee assessment has been assigned to you. Coaching assessments are triggered from a coaching opportunity that is set up by the coaching admin. Use coaching assessments to facilitate a dialog with your trainee, assign training content, and set a due date and other details.
 

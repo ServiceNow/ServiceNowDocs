@@ -42,7 +42,7 @@ Role required: analytics\_admin, mobile\_analytics\_admin, web\_analytics\_admin
 
 Assign a web\_analytics\_viewer or portal\_analytics\_viewer role to users to enable them to view the Usage Insights application.
 
-[Track Usage Insights in Service Portal](https://www.servicenow.com/docs/access?context=create-sp-analytics-settings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to monitor key performance indicators with the Usage Insights application.
+[Track Usage Insights in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-sp-analytics-settings.md) to monitor key performance indicators with the Usage Insights application.
 
 **Parent Topic:**[Enable Usage Insights](enable-user-experience-analytics.md)
 

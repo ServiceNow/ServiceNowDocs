@@ -13,7 +13,7 @@ breadcrumb: [Threat Intelligence, Enterprise security case management applicatio
 
 Threat Intelligence Orchestration activities allow users to determine whether a threat has been seen before in other security incidents or on other systems using workflow orchestration.
 
-For more information on editing Security Incident Response Orchestration workflows or creating custom workflows, see [Getting started with workflows](https://www.servicenow.com/docs/access?context=c_WorkflowOverview&version=australia&pubname=australia-build-workflows&ft:locale=en-US) and [Workflow editor](https://www.servicenow.com/docs/access?context=workflow-editor&version=australia&pubname=australia-build-workflows&ft:locale=en-US) [Workflow editor](https://www.servicenow.com/docs/access?context=workflow-editor&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+For more information on editing Security Incident Response Orchestration workflows or creating custom workflows, see [Getting started with workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowOverview.md) and [Workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/workflow-editor.md) [Workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/workflow-editor.md).
 
 -   **[Set up Threat Intelligence Orchestration](../task/t_ThreatIntelligenceOrchestrationSetup.md)**  
 Prior to using Threat Intelligence Orchestration, perform steps to set up various parts of the system, including populating the CMDB, configuring the MID Server, and configuring credentials.

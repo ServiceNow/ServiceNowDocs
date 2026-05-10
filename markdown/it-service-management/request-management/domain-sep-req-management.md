@@ -24,15 +24,15 @@ This is an overview of domain separation in Request Management. Domain separatio
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Activation information
 
-The Domain Support - Domain Extensions Installer plugin \(com.glide.domain.msp\_extensions.installer\) should be activated to enable domain separation for Request Management. For information on how you can request for this plugin activation, see [Request domain separation](https://www.servicenow.com/docs/access?context=t_ActivateDomainSeparation&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+The Domain Support - Domain Extensions Installer plugin \(com.glide.domain.msp\_extensions.installer\) should be activated to enable domain separation for Request Management. For information on how you can request for this plugin activation, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md).
 
 ## How domain separation works in Request Management
 
-Fulfillers see only requests, requested items, and catalog tasks that have been created within the \(tenant\) domain for which the fulfiller has the visibility. For information on visibility in domain hierarchies, see [Visibility domains and Contains domains](https://www.servicenow.com/docs/access?context=c_DomainVisibility&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Fulfillers see only requests, requested items, and catalog tasks that have been created within the \(tenant\) domain for which the fulfiller has the visibility. For information on visibility in domain hierarchies, see [Visibility domains and Contains domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainVisibility.md).
 
 ## Domain separated tables
 
@@ -52,5 +52,5 @@ Fulfillers see only requests, requested items, and catalog tasks that have been 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

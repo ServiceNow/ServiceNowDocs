@@ -15,7 +15,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Digital Product Release API provides endpoints to manage releases and policy compliance.
 
-This API requires the Digital Product Release \(sn\_dpr\) application, which is available on the ServiceNow Store. For more information, see [Digital Product Release](https://www.servicenow.com/docs/access?context=dpr-landing-page&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+This API requires the Digital Product Release \(sn\_dpr\) application, which is available on the ServiceNow Store. For more information, see [Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-landing-page.md).
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 
@@ -1405,7 +1405,7 @@ Creates a key date for a release.
 
 Key dates are used to track deadlines, milestones, and other important events during the release.
 
-Before calling this endpoint, a [timeline-oriented release](https://www.servicenow.com/docs/access?context=dpr-working-timeline-release&version=australia&pubname=australia-it-service-management&ft:locale=en-US) must be created. A timeline-oriented release has fixed deadlines and follows a strict schedule, while a stage-oriented release is primarily focused on completing objectives and features rather than meeting due dates.
+Before calling this endpoint, a [timeline-oriented release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-working-timeline-release.md) must be created. A timeline-oriented release has fixed deadlines and follows a strict schedule, while a stage-oriented release is primarily focused on completing objectives and features rather than meeting due dates.
 
 To access this endpoint, the caller must have one of the following roles.
 
@@ -1821,7 +1821,7 @@ Adds related tasks to a release.
 
 You can view release information in the Digital Product Release Workspace in the Releases tab. Related tasks for a release are shown in the Release Scope section of a release record.
 
-**Important:** Before calling this endpoint, there must be existing task records that can be added as related tasks for the release. The records must be in tables that extend the Task \[task\] table, but not in the Task table itself. In the [**sn\_dpr\_model.release\_related\_task\_types**](https://www.servicenow.com/docs/access?context=digital-product-release-properties&version=australia&pubname=australia-it-service-management&ft:locale=en-US) system property, list the tables that contain your task records.
+**Important:** Before calling this endpoint, there must be existing task records that can be added as related tasks for the release. The records must be in tables that extend the Task \[task\] table, but not in the Task table itself. In the [**sn\_dpr\_model.release\_related\_task\_types**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/digital-product-release-properties.md) system property, list the tables that contain your task records.
 
 To access this endpoint, the caller must have one of the following roles.
 
@@ -1881,7 +1881,7 @@ taskIds
 
 </td><td>
 
-Required. List of task sys\_ids to add as related tasks for the release. The task records must be from tables listed in the **sn\_dpr\_model.release\_related\_task\_types** system property. For more information, see [Digital Product Release properties](https://www.servicenow.com/docs/access?context=digital-product-release-properties&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+Required. List of task sys\_ids to add as related tasks for the release. The task records must be from tables listed in the **sn\_dpr\_model.release\_related\_task\_types** system property. For more information, see [Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
 
 Data type: Array
 
@@ -2756,7 +2756,7 @@ Response body.
 
 Changes the readiness target for a release.
 
-The new readiness target can be an existing readiness target that is already defined, or an out-of-band date \(a one-time readiness target not tied to the standard release calendar\). To set an out-of-band date, the [**sn\_dpr.out\_of\_band\_release\_allowed**](https://www.servicenow.com/docs/access?context=digital-product-release-properties&version=australia&pubname=australia-it-service-management&ft:locale=en-US) system property must be set to `true`.
+The new readiness target can be an existing readiness target that is already defined, or an out-of-band date \(a one-time readiness target not tied to the standard release calendar\). To set an out-of-band date, the [**sn\_dpr.out\_of\_band\_release\_allowed**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/digital-product-release-properties.md) system property must be set to `true`.
 
 The release phase duration is adjusted to reflect the new readiness target.
 

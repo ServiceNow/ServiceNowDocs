@@ -36,13 +36,13 @@ Action Assignment \[sys\_declarative\_action\_assignment\]
 </td></tr></tbody>
 </table>To migrate a declarative action, convert your custom declarative actions to new UXF Client Action type, and then define the corresponding add-on event mapping. For more information, see the following topics:
 
--   [Customizing your workspace with declarative actions](https://www.servicenow.com/docs/access?context=declarative-actions-landing&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
--   [Declarative actions glossary](https://www.servicenow.com/docs/access?context=declarative-actions-glossary&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+-   [Customizing your workspace with declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/declarative-actions-landing.md)
+-   [Declarative actions glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/declarative-actions-glossary.md)
 
 **Related topics**  
 
 
-[Manage actions in UI Builder pages](https://www.servicenow.com/docs/access?context=work-events&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-events.md)
 
-[Bind an event to a declarative action](https://www.servicenow.com/docs/access?context=bind-event-declarative-action&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[Bind an event to a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/bind-event-declarative-action.md)
 

@@ -18,20 +18,20 @@ The ServiceNow® Customer Success Management application helps you to streamline
 -   Provide increased expansion and advocacy opportunities.
 -   Search the record's title, subject, or short description using AI search.
 
-See [Customer Success Management](https://www.servicenow.com/docs/access?context=account-lifecycle-events-landing&version=australia&pubname=australia-acct-lifecycle-events&ft:locale=en-US) for more information.
+See [Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md) for more information.
 
 **Important:** Customer Success Management is available in the ServiceNow Store. For details, see the Activation information section of these release notes.
 
 ## New in the Australia release
 
--   **[Product adoption roadmap](https://www.servicenow.com/docs/access?context=account-lifecycle-par-roadmap&version=australia&pubname=australia-acct-lifecycle-events&ft:locale=en-US)**
+-   **[Product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-par-roadmap.md)**
 
     Enable customer success managers to create structured roadmaps that can guide customers through adoption of purchased products based on business value and current adoption scores. The planner supports two planning levels—Product \(strategic\) and Capabilities \(tactical\)—with sequencing to establish clear adoption pathways.
 
 
 ## Changed in this release
 
--   **[Touchpoint home page](https://www.servicenow.com/docs/access?context=account-lifecycle-touchpoint-home&version=australia&pubname=australia-acct-lifecycle-events&ft:locale=en-US)**
+-   **[Touchpoint home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-touchpoint-home.md)**
 
     Internal touchpoints ensure that the internal teams are aligned on the objectives and outcomes of the engagement.
 
@@ -51,12 +51,12 @@ Install Customer Success Management by requesting it from the ServiceNow Store. 
 
 ## Related ServiceNow applications and features
 
--   **[Customer Service Management](https://www.servicenow.com/docs/access?context=c_CustomerServiceManagement&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)**
 
     The Customer Service Management application enables you to automate your onboarding and case monitoring processes and provides service agents with visibility into the customer systems and tools that you need to deliver proactive services to your customers.
 
 
--   **[Service Exchange](https://www.servicenow.com/docs/access?context=tmt-service-bridge-both-landing-page&version=australia&pubname=australia-service-exchange&ft:locale=en-US)**
+-   **[Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)**
 
     ServiceNow® Service Exchange connects multiple ServiceNow instances to provide seamless support and service experiences across the ecosystem, from enterprise customers to suppliers and system integrators. Service Exchange provides a frictionless experience that enables efficient collaboration and request processing while giving users the convenience of working in their own ServiceNow instance.
 

@@ -63,7 +63,7 @@ See CMDB Health-related rules settings at:
 Most of the CMDB Health-related rules are domain separated and provided by the users. Users can define different rules for different domains by logging in to each domain and adding/overriding rules in the CI Class Manager.
 
 1.  Completeness
-    1.  Required fields – These are based on the class schema defined in the platform’s [System dictionary](https://www.servicenow.com/docs/access?context=c_SystemDictionary&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and is fixed for all domains. These cannot be changed.
+    1.  Required fields – These are based on the class schema defined in the platform’s [System dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_SystemDictionary.md) and is fixed for all domains. These cannot be changed.
     2.  Recommended fields – These are domain separated. The table used is CMDB Recommended Fields \[cmdb\_recommended\_fields\], which is domain separated. The user can set these up for different domains.
 2.  Correctness
     1.  Duplicates – Duplicates are based on Identification rules, which are not domain separated, so the same rules apply to all domains.

@@ -49,7 +49,7 @@ The manage contract repository agentic workflow uses AI agents to extract key co
 
         **Note:** Complete all required fields before saving the changes or approving the obligation.
 
-        For a description of the field values, see [Obligation form](https://www.servicenow.com/docs/access?context=cncore-obligation-form&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+        For a description of the field values, see [Obligation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-obligation-form.md).
 
     -   To save the changes, select **Save**.
     -   To approve the extracted obligation and add it as a record in the contract repository, select **Approve**.

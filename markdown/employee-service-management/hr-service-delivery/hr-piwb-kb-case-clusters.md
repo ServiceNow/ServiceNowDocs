@@ -21,7 +21,7 @@ Role required: sn\_piwb\_hr\_content.admin
 
 ## About this task
 
-This template helps customizing a use case model to configure the Knowledge Demand Insights feature to identify which topics are missing knowledge articles and create actionable knowledge gaps for missing topics. Review the information from [Configure Knowledge Demand Insights](https://www.servicenow.com/docs/access?context=configure-demand-insights&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+This template helps customizing a use case model to configure the Knowledge Demand Insights feature to identify which topics are missing knowledge articles and create actionable knowledge gaps for missing topics. Review the information from [Configure Knowledge Demand Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-demand-insights.md).
 
 ## Procedure
 
@@ -40,7 +40,7 @@ This template helps customizing a use case model to configure the Knowledge Dema
 
     ![List of ML usecases for HR PIWB](../image/piwb-hr-ml-list.png "HR ML use cases")
 
-3.  Review the information from [Configure Knowledge Demand Insights](https://www.servicenow.com/docs/access?context=configure-demand-insights&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+3.  Review the information from [Configure Knowledge Demand Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-demand-insights.md).
 
 4.  Go to **Clustering** &gt; **Knowledge demand for HR case clusters** from the available Solution Definitions, click **Configure**.
 
@@ -64,7 +64,7 @@ You can verify the integration status from **HR Administration** &gt; **HR AI Co
 **Related topics**  
 
 
-[Create and train a similarity solution](https://www.servicenow.com/docs/access?context=create-similarity-solution&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md)
 
-[Create and train a clustering solution](https://www.servicenow.com/docs/access?context=create-clustering-solution&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md)
 

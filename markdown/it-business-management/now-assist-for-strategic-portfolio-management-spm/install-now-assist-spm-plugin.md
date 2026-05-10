@@ -25,7 +25,7 @@ Follow these instructions to get started with Now Assist Admin:
 2.  Activate any Now Assist plugin from the ServiceNow Store to access Now Assist Admin.
 3.  Install additional plugins, from the Now Assist Admin console.
 4.  The Now Assist Admin console guides your implementation, starting with installation.
-5.  Check out the [Now Assist Journey Checklist for more information](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+5.  Check out the [Now Assist Journey Checklist for more information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
 ## Procedure
 
@@ -61,5 +61,5 @@ If you encounter issues installing or updating applications, see this [knowledge
 **Related topics**  
 
 
-[Activate a Now Assist skill](https://www.servicenow.com/docs/access?context=configure-a-now-assist-skill&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md)
 

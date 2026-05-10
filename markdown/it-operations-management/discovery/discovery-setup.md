@@ -35,7 +35,7 @@ Description
 
 Use this method if you want to set up everything you need to use Discovery, including a MID Server. ITOM Discovery Guided Setup provides a sequence of tasks that help you configure Discovery on your ServiceNow instance. To access the guided setup, navigate to **All** &gt; **ITOM Guided Setup** &gt; **ITOM Discovery Guided Setup**.
 
- For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+ For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 </td></tr><tr><td>
 

@@ -29,7 +29,7 @@ The Personalize Form menu \(![](../image/icon-personalize-form.png)\) in the for
 
 2.  Add a system property named **glide.ui.personalize\_form\_role**.
 
-    For more information on adding a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+    For more information on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 3.  In the Value field, enter a list of roles that can access the Personalize Form menu.
 

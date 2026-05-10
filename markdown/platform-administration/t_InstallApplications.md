@@ -32,7 +32,7 @@ Role required: admin, sn\_appclient.app\_client\_company\_installer \(can only i
 
 Applications that you purchase from the ServiceNow Store are added to the Application Manager automatically. You must install the application from the Application Manager to activate it in an instance.
 
-To install an application that you published to the ServiceNow application repository, follow the steps in [Install an application from the application repository](https://www.servicenow.com/docs/access?context=install-app-from-repo&version=australia&pubname=australia-application-development&ft:locale=en-US) instead.
+To install an application that you published to the ServiceNow application repository, follow the steps in [Install an application from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/install-app-from-repo.md) instead.
 
 ## Procedure
 
@@ -64,7 +64,7 @@ To install an application that you published to the ServiceNow application repos
 **Related topics**  
 
 
-[Install customizations from an application repository](https://www.servicenow.com/docs/access?context=install-customizations-from-app-repo&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[Install customizations from an application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/install-customizations-from-app-repo.md)
 
-[System-managed developer and deployment roles](https://www.servicenow.com/docs/access?context=delegated_deployment_user_roles&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[System-managed developer and deployment roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/delegated_deployment_user_roles.md)
 

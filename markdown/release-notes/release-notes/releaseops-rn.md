@@ -19,7 +19,7 @@ The ServiceNow® ReleaseOps application enables you to deploy and validate code 
 -   Leverage Automated Test Framework \(ATF\) code coverage to improve the efficacy of your ATF test suites.
 -   If you have a Now Assist for Creator subscription, you can use generate update set descriptions and release notes using the release lifecycle documentation AI agent.
 
-See [ReleaseOps](https://www.servicenow.com/docs/access?context=releaseops-landing&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.
+See [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/releaseops-landing.md) for more information.
 
 **Important:** ReleaseOps is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -29,27 +29,27 @@ If you have customized the ReleaseOps sample playbooks, the runbook task playboo
 
 ## New in the Australia release
 
--   **[Complete ReleaseOps guided setup](https://www.servicenow.com/docs/access?context=complete-guided-setup&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[Complete ReleaseOps guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/complete-guided-setup.md)**
 
     Use guided setup to start using ReleaseOps quickly. You can also continue to use manual setup for more complex setup scenarios and if you need to add changes to your ReleaseOps ecosystems later.
 
--   **[Runbook tasks in ReleaseOps](https://www.servicenow.com/docs/access?context=runbook-tasks&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[Runbook tasks in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/runbook-tasks.md)**
 
     Add custom, flexible, and manual activities to your assessment and release playbooks with runbook tasks, without having to adjust the structure of your playbooks from one release to the next.
 
--   **[Create a runbook task](https://www.servicenow.com/docs/access?context=create-runbook-task&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[Create a runbook task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/create-runbook-task.md)**
 
     Define the type of runbook task and when the task should occur in your ReleaseOps playbooks.
 
--   **[Set Automated Test Framework \(ATF\) code coverage](https://www.servicenow.com/docs/access?context=set-atf-code-coverage-threshold&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[Set Automated Test Framework \(ATF\) code coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/set-atf-code-coverage-threshold.md)**
 
     Leverage Automated Test Framework \(ATF\) code coverage in ReleaseOps. ATF code coverage enables you to determine what percentage of code in a deployment request is covered by ATF test suites. You can define the threshold for ATF test failure and see what lines of code were covered by the ATF test suites.
 
--   **[Generate an update set description](https://www.servicenow.com/docs/access?context=generate-update-set-description&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[Generate an update set description](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-update-set-description.md)**
 
     If you have a Now Assist for Creator subscription, you can generate update descriptions using the release lifecycle documentation AI agent.
 
--   **[Generate release notes](https://www.servicenow.com/docs/access?context=generate-release-notes&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[Generate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-release-notes.md)**
 
     If you have a Now Assist for Creator subscription, you can generate release notes using the release lifecycle documentation AI agent.
 
@@ -60,27 +60,27 @@ Install ReleaseOps by requesting it from the ServiceNow Store. Visit the [Servic
 
 ## Related ServiceNow applications and features
 
--   **[App Engine Management Center](https://www.servicenow.com/docs/access?context=app-engine-management-center&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/app-engine-management-center.md)**
 
     Track and manage application requests, deployments, and collaborative developers for your custom applications using the App Engine Management Center \(AEMC\).
 
--   **[Automated Test Framework \(ATF\)](https://www.servicenow.com/docs/access?context=atf-landing-page&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-landing-page.md)**
 
     ServiceNow®Automated Test Framework \(ATF\) enables you to create and run automated tests to confirm that your instance works after making changes.
 
--   **[Instance Scan](https://www.servicenow.com/docs/access?context=hs-landing-page&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-landing-page.md)**
 
     Use ServiceNow® Instance Scan to interrogate your instance for configurations that indicate health issues and identify opportunities to address best practices. Instance Scan checks your existing configurations and helps you avoid creating future configuration issues. Instance Scan is a tool that can be used as a part of your development operations, release management as well as pre- and post-upgrades.
 
--   **[Now Assist for Creator](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md)**
 
     ServiceNow® Now Assist for Creator includes generative and agentic AI capabilities that can make developing on the ServiceNow AI Platform more efficient.
 
--   **[ServiceNow Studio](https://www.servicenow.com/docs/access?context=servicenow-studio-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md)**
 
     ServiceNow Studio provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps.
 
--   **[System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md)**
 
     Update sets enable developers to create functionality on a non-production instance and promote the changes to another instance for testing or deployment.
 

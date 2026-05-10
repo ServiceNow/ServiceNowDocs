@@ -19,14 +19,14 @@ Role required: agent\_schedule\_admin
 
 ## About this task
 
-Creating a schedule for the agent calendar uses the schedule feature. For more information, see [Schedules](https://www.servicenow.com/docs/access?context=c_UseSchedules&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Creating a schedule for the agent calendar uses the schedule feature. For more information, see [Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md).
 
 Schedules are configured with two types of records.
 
 -   Schedule records specify a time zone and a type of schedule and use one or more schedule entries. Schedule records are saved in the Schedule \[cmn\_schedule\] table.
 -   Schedule entry records specify the time periods that are included or excluded from a schedule. Schedule entries are saved in the Schedule Entry \[cmn\_schedule\_span\] table.
 
-For more information on schedule fields, see [Schedule fields](https://www.servicenow.com/docs/access?context=r_ScheduleFields&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information on schedule fields, see [Schedule fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_ScheduleFields.md).
 
 ## Procedure
 

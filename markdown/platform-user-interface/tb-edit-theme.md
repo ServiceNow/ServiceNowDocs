@@ -18,7 +18,7 @@ Customize and manage your theme and styling in a time and cost efficient way. Af
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see [Granular admin roles](https://www.servicenow.com/docs/access?context=granular-admin-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
 
 ## Procedure
 
@@ -60,15 +60,15 @@ For information on granular roles, see [Granular admin roles](https://www.servic
     -   Publish: makes the theme available for use.
 3.  Choose the theme you want to edit using one of the following ways.
 
-<table id="choicetable_v1x_lnb_qfc"><thead><tr><th align="left" id="d48609e241">
+<table id="choicetable_v1x_lnb_qfc"><thead><tr><th align="left" id="d51270e241">
 
 Page
 
-</th><th align="left" id="d48609e244">
+</th><th align="left" id="d51270e244">
 
 Option
 
-</th></tr></thead><tbody><tr><td id="d48609e250">
+</th></tr></thead><tbody><tr><td id="d51270e250">
 
 **Manager \(Grid view\)**
 
@@ -76,7 +76,7 @@ Option
 
 From the Published or Unpublished section, choose the theme you want to edit and select **Edit**.
 
-</td></tr><tr><td id="d48609e262">
+</td></tr><tr><td id="d51270e262">
 
 **Manager \(List view\)**
 
@@ -84,7 +84,7 @@ From the Published or Unpublished section, choose the theme you want to edit and
 
 From the Published or Unpublished section, choose the theme you want to edit and select the pencil icon ![](../../workspace/image/pencil-icon.png).
 
-</td></tr><tr><td id="d48609e276">
+</td></tr><tr><td id="d51270e276">
 
 **Editor**
 

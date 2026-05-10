@@ -42,7 +42,7 @@ Role required: workspace\_admin, awa\_agent, sn\_customerservice\_consumer\_agen
 
     7.  Select **Show additional properties**.
 
-        To know more about additional properties, see [Create a flow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+        To know more about additional properties, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
 
     8.  Select **Build flow**.
 
@@ -93,7 +93,7 @@ Role required: workspace\_admin, awa\_agent, sn\_customerservice\_consumer\_agen
 **Related topics**  
 
 
-[Create a flow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
 
 ## Update an interaction
 
@@ -123,7 +123,7 @@ Role required: admin, workspace\_admin, awa\_agent, sn\_customerservice\_consume
 
     7.  Select **Show additional properties**.
 
-        To know more about additional properties, see [Create a flow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+        To know more about additional properties, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
 
     8.  Select **Build flow**.
 
@@ -171,5 +171,5 @@ Role required: admin, workspace\_admin, awa\_agent, sn\_customerservice\_consume
 **Related topics**  
 
 
-[Create a flow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
 

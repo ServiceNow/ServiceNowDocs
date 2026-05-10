@@ -96,7 +96,7 @@ When you select full visual view as the preview type, this field displays auto-c
 
 </td><td>
 
-Select this icon to enable session debugging for AI Search and launch the Script Debugger in a new browser tab. To learn about session debugging and using the Script Debugger, see [Enable session debugging for AI Search](../task/session-debugging-ais.md) and [Script Debugger and Session Log](https://www.servicenow.com/docs/access?context=script-debugger&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Select this icon to enable session debugging for AI Search and launch the Script Debugger in a new browser tab. To learn about session debugging and using the Script Debugger, see [Enable session debugging for AI Search](../task/session-debugging-ais.md) and [Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md).
 
 </td></tr><tr><td>
 

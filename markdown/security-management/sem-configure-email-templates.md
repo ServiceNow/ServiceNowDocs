@@ -81,7 +81,7 @@ Enter the content of the email template message. You can use the HTML editor too
 
 -   When a template is applied to a notification, the contents of this field are used when you select **HTML and plain text** or **HTML** in the **Content Type** field in the Email Notification form.
 -   You cannot use HTML code to control the appearance of the contents in the `${comments}` variable.
--   If you want to include a link to the record that triggered the notification, see [Enable links to records](https://www.servicenow.com/docs/access?context=c_EnableLinksToServiceNowRecords&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   If you want to include a link to the record that triggered the notification, see [Enable links to records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EnableLinksToServiceNowRecords.md).
 
 
 </td></tr><tr><td>
@@ -101,7 +101,7 @@ SMS alternate
 Create a different message to be delivered to an SMS device. Enter a brief message, showing the most important information only. If this message field is blank, the contents of the **Message Text** field are used for the SMS message. **Note:** The message in this field is used when the message is sent to a device configured as SMS.
 
 </td></tr></tbody>
-</table>    For detailed instructions for creating email templates, see [Construct an email message with a template](https://www.servicenow.com/docs/access?context=r_ConstructAnEmailMessage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+</table>    For detailed instructions for creating email templates, see [Construct an email message with a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ConstructAnEmailMessage.md).
 
 6.  Select **Save**.
 

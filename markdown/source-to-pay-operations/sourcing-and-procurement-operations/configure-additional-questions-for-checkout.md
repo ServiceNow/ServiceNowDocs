@@ -44,7 +44,7 @@ A record producer can contain the following question types:
 
     This record producer is used to store more information from a shopper specific to a purchase.
 
-    **Note:** For information on how to create a record producer, see [Create a catalog item using a template](https://www.servicenow.com/docs/access?context=create-item-cat-builder&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    **Note:** For information on how to create a record producer, see [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-item-cat-builder.md).
 
 4.  Navigate to **ShoppingHub** &gt; **Administration** &gt; **ShoppingHub Configuration**.
 

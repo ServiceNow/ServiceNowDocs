@@ -28,17 +28,17 @@ The ServiceNow® AI Desktop Actions application enables you to design, configure
 -   Added a **Delete** button to the image canvas to remove a screen.
 -   Enabled screen-level testing while designing desktop actions.
 
-See [AI Desktop Actions](https://www.servicenow.com/docs/access?context=agentic-desktop-landing-page&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information.
+See [AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-landing-page.md) for more information.
 
 ## Important information for upgrading AI Desktop Actions to Australia
 
-Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) by downloading and installing the newer version of the application. Make sure to close the current execution and close the desktop app before staring the installation for upgrade. For more information, see [Download AI Desktop Actions installer](https://www.servicenow.com/docs/access?context=download-agentic-desktop-installer&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) by downloading and installing the newer version of the application. Make sure to close the current execution and close the desktop app before staring the installation for upgrade. For more information, see [Download AI Desktop Actions installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
 
 **Important:** AI Desktop Actions is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Use the new application name](https://www.servicenow.com/docs/access?context=agentic-desktop-landing-page&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Use the new application name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-landing-page.md)**
 
     The product formerly referred to as Agentic Desktop has been rebranded as AI Desktop Actions. All UI labels, navigation elements, and in-product text updated to reflect the new name.
 
@@ -48,28 +48,28 @@ Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) 
     -   Use the default Web Automation Agent AI agent and Web Automation agentic workflow to automate repetitive tasks.
     -   See every click, keystroke, and scroll your AI agent makes in real time, with consent prompts before execution kicks off and timely warnings before your session expires.
     -   Pause a running AI agent, provide corrective input, and resume. The AI agent replans based on your instructions, keeping execution on the right track.
--   **[Use the onboarding wizard to get the app overview](https://www.servicenow.com/docs/access?context=desktop-actions&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Use the onboarding wizard to get the app overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions.md)**
 
     Get a quick overview of the application by using the onboarding wizard that highlights recording, refining, testing, and activating desktop actions.
 
     Select **Skip intro** to bypass the onboarding wizard and go to the home page. Select the **Don't show this again** option to prevent the wizard from appearing the next time you open the app. After completing the onboarding wizard, select **Get started** to start creating desktop actions.
 
--   **[Filter required inputs for testing](https://www.servicenow.com/docs/access?context=test-activate-desktop-action-ad&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Filter required inputs for testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-activate-desktop-action-ad.md)**
 
     Use filtering options to filter the inputs that are required.
 
     -   **Show Inputs** — Filters the screens with required input fields.
     -   **Show All** — Removes the filter and displays all screens.
 
--   **[Improved error and informational messages](https://www.servicenow.com/docs/access?context=test-activate-desktop-action-ad&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Improved error and informational messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-activate-desktop-action-ad.md)**
 
     Improved error and informational messages for better guidance and troubleshooting during testing of desktop actions.
 
--   **[Delete button on image canvas](https://www.servicenow.com/docs/access?context=agentic-desktop-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Delete button on image canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-overview.md)**
 
     Added a **Delete** button to the image canvas to remove a screen.
 
--   **[Test button for a screen in the Design tab](https://www.servicenow.com/docs/access?context=agentic-desktop-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Test button for a screen in the Design tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-overview.md)**
 
     Test screens directly from the design tab while designing desktop actions.
 
@@ -82,18 +82,18 @@ Pagination is implemented for desktop actions on the AI Desktop Actions home pag
 
 ## Changed in this release
 
--   **[Optional Application name field](https://www.servicenow.com/docs/access?context=add-details-desktop-action-ad&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Optional Application name field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-details-desktop-action-ad.md)**
 
     The Application field in the Details tab is now optional, enabling you to save and run desktop actions without entering an application name.
 
--   **[Improved connectors descriptions for non-UI block desktop actions](https://www.servicenow.com/docs/access?context=desktop-actions-designer-workspace-ad&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Improved connectors descriptions for non-UI block desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md)**
 
     Descriptions for Excel, Word, PDF, and System Actions connectors are enhanced to improve accuracy and selection.
 
 
 ## Activation information
 
-AI Desktop Actions is available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using AI Desktop Actions, see [Configure AI Desktop Actions](https://www.servicenow.com/docs/access?context=configure-agentic-desktop&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+AI Desktop Actions is available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using AI Desktop Actions, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md).
 
 ## Additional requirements
 
@@ -103,7 +103,7 @@ The following are required to use AI Desktop Actions:
 -   .NET 9.0 runtime v9.0.10 or .NET 9 Desktop Runtime v9.0.10.
 -   No extended monitors are connected.
 
-You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://www.servicenow.com/docs/access?context=install-ai-agents-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md).
 
 You must enable Next Experience UI Framework before you can use the Now Assist panel.
 
@@ -113,19 +113,19 @@ Now Assist AI agents support various browsers, including Google Chrome and Micro
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist AI agents](https://www.servicenow.com/docs/access?context=na-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md)**
 
     The ServiceNow® Now Assist AI agents are entities that mimic human-like intelligence by using large language models \(LLMs\). AI agents can perform tasks that range from simple automated responses to complex problem solving. By using AI agents, you can help reduce the workloads of your live agents and help increase their productivity.
 
--   **[Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
 
     With the ServiceNow®Now Assist panel, you can get assistance from generative AI experiences to solve customer issues fast. Use this conversational interface to summarize a chat, case, or incident, get help, or generate resolution notes so that you can get the context of this information quickly.
 
--   **[Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     ServiceNow® Now Assist uses generative AI that is designed to enhance user productivity and efficiency through conversation and proactive experiences.
 
--   **[Generative AI Controller](https://www.servicenow.com/docs/access?context=generative-ai-controller&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/generative-ai-controller.md)**
 
     The ServiceNow® Generative AI Controller lets you integrate third-party LLMs with your workflows.
 

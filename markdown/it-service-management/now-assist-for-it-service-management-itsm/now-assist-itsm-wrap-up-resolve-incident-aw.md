@@ -26,7 +26,7 @@ Using the Wrap-up and resolve incident agentic workflow:
 4.  Check for relevant available KB articles and attach any of them to the incident record.
 5.  Create a draft KB and attach it to the incident record if necessary.
 
-To modify the Wrap-up and resolve incident agentic workflow, [duplicate it](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), and adjust the settings according to your requirements.
+To modify the Wrap-up and resolve incident agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 **Important:** When you modify an agentic workflow, AI agent, or a tool, make sure that you update all instructions accordingly.
 

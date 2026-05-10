@@ -54,7 +54,7 @@ Account
 The name of the account associated with this customer contract.**Note:**
 
 -   A customer contract can be associated with either an account or a consumer.
--   An account can be created if no account is found by selecting **New** on the Accounts form. For more information on the fields in the Account form, see [Account form](https://www.servicenow.com/docs/access?context=customer-service-account-form&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+-   An account can be created if no account is found by selecting **New** on the Accounts form. For more information on the fields in the Account form, see [Account form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-account-form.md).
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Consumer
 
 </td><td>
 
-The name of the consumer associated with this contract.**Note:** If no consumer record is found, you can create a consumer and add it to the customer contract. For more information, see [Create a consumer record](https://www.servicenow.com/docs/access?context=create-a-consumer-record&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+The name of the consumer associated with this contract.**Note:** If no consumer record is found, you can create a consumer and add it to the customer contract. For more information, see [Create a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-a-consumer-record.md).
 
 </td></tr><tr><td>
 

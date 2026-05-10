@@ -36,7 +36,7 @@ After the driver is installed, configure it for your instance. The driver is pre
 
 4.  Change the **Value** to the URL of your instance, such as `https://<instance>.service-now.com`.
 
-    If integrating the ODBC driver with Edge Encryption, change the **Value** to the URL of your encryption proxy. See [Edge Encryption ODBC driver integration](https://www.servicenow.com/docs/access?context=c_IntegrateODBCWithEdge&version=australia&pubname=australia-platform-security&ft:locale=en-US) for more information.
+    If integrating the ODBC driver with Edge Encryption, change the **Value** to the URL of your encryption proxy. See [Edge Encryption ODBC driver integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_IntegrateODBCWithEdge.md) for more information.
 
 5.  Click **OK**.
 

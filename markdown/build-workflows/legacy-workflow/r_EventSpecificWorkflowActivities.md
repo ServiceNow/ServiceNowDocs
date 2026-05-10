@@ -59,9 +59,9 @@ Fires the notification event specified in the Workflow Activity \[wf\_activity\]
 
 1.  Navigate to **System Policy** &gt; **Events** &gt; **Registry**
 2.  Create an event.
-3.  Navigate to **System Policy** &gt; **Templates** and create an [Email templates](https://www.servicenow.com/docs/access?context=c_EmailTemplates&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+3.  Navigate to **System Policy** &gt; **Templates** and create an [Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailTemplates.md).
 4.  Navigate to **System Policy** &gt; **Email** &gt; **Notifications**.
-5.  [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US) that is triggered by the event you created and sends the template you created.
+5.  [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md) that is triggered by the event you created and sends the template you created.
 6.  On the workflow canvas, drag the **Create Event** activity onto the canvas and associate it with the newly registered event.
 
 When the workflow executes, the event is created and the email associated with the event is sent.
@@ -80,7 +80,7 @@ On the notification thread, outside of workflow
 
 </td></tr><tr><td>
 
-[Wait for WF Event](https://www.servicenow.com/docs/access?context=r_WaitForWFEvent&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Wait for WF Event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/r_WaitForWFEvent.md)
 
 </td><td>
 

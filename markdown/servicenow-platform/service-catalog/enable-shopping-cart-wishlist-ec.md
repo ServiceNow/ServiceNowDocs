@@ -25,7 +25,7 @@ Role required: admin
 
 The Shopping Cart and Add to Wish List menu options that are available by default on the Service Portal are not available in the Employee Center. You must enable these options in the Employee Center to allow employees to add catalog items to the Shopping Cart and Wish List.
 
-If these features are not required, then consider disabling these options in Service Catalog for a seamless experience in the Employee Center. To enable or disable the shopping cart option in Service Catalog follow the first three steps mentioned in the [Enable the Shopping Cart Widget](https://www.servicenow.com/docs/access?context=enable-shopping-cart&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) topic and for information on enabling or disabling the Wish list option in Service Catalog, see [Saving catalog items to a wish list](../concept/catalog-items-wishlist.md) topic.
+If these features are not required, then consider disabling these options in Service Catalog for a seamless experience in the Employee Center. To enable or disable the shopping cart option in Service Catalog follow the first three steps mentioned in the [Enable the Shopping Cart Widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-shopping-cart.md) topic and for information on enabling or disabling the Wish list option in Service Catalog, see [Saving catalog items to a wish list](../concept/catalog-items-wishlist.md) topic.
 
 ## Procedure
 

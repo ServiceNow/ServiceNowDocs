@@ -45,7 +45,7 @@ Role required:
     -   If the selected target entity is an opportunity, an opportunity to renew the customer contract is created. You can select the opportunity number from the confirmation message to review the renewal opportunity.
     -   If the selected target entity is an opportunity and a quote, both opportunity and quote to renew the customer contract are created. You can navigate to the opportunity and quote by selecting the numbers from the confirmation message.
 
-        **Note:** If you select a quote or an opportunity, the line items with same product offerings and configuration will be consolidated into a single quote or opportunity line. The consolidated line item reflects the total quantity of all the combined items. For more info, see [Consolidate quotes](https://www.servicenow.com/docs/access?context=consolidate-quotes&version=australia&pubname=australia-order-management&ft:locale=en-US).
+        **Note:** If you select a quote or an opportunity, the line items with same product offerings and configuration will be consolidated into a single quote or opportunity line. The consolidated line item reflects the total quantity of all the combined items. For more info, see [Consolidate quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/consolidate-quotes.md).
 
     If more than 20 contract lines are renewed, the target entities are created asynchronously. You can configure the threshold value for the number of contract lines.
 

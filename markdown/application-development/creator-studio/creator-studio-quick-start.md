@@ -173,7 +173,7 @@ Select the value field
 
 </td><td>
 
-Field in the source table for the record choices question that contains the value you want to use as the answer to the current question.You must select the edit icon \(![](../../../administer/ui-builder/image/crs-edit-pencil-icon-purple.png)\), navigate to the field in the source table that contains the auto-populated answer, and select to **Apply** it. For more info on selecting fields in a table, see [Dot-walking to data in related tables](https://www.servicenow.com/docs/access?context=c_DotWalking&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Field in the source table for the record choices question that contains the value you want to use as the answer to the current question.You must select the edit icon \(![](../../../administer/ui-builder/image/crs-edit-pencil-icon-purple.png)\), navigate to the field in the source table that contains the auto-populated answer, and select to **Apply** it. For more info on selecting fields in a table, see [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md).
 
 </td></tr></tbody>
 </table>5.  Select **Save and close** when you finish modifying the question.
@@ -281,7 +281,7 @@ Your system administrator must add you to the Creator Studio Users group.
 
             ![Use a specific answer to a form's question as trigger](../image/crs-trigger-question-answer.png "Question answer as trigger for an automation")
 
-        Add as many conditions as you need. For more information, see [Create a condition statement using the condition builder](https://www.servicenow.com/docs/access?context=create-cond-state-using-cond-build&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+        Add as many conditions as you need. For more information, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
 
     4.  Select **Create**.
 

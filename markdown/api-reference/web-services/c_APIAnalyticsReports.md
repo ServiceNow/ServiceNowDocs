@@ -33,15 +33,15 @@ The REST &amp; SOAP API Analytics dashboard contains Usage Overview, Usage by AP
 
 2.  Select one of the following tabs in the dashboard.
 
-<table id="choicetable_trp_2cg_z1c"><thead><tr><th align="left" id="d787585e102">
+<table id="choicetable_trp_2cg_z1c"><thead><tr><th align="left" id="d788822e102">
 
 Option
 
-</th><th align="left" id="d787585e105">
+</th><th align="left" id="d788822e105">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d787585e111">
+</th></tr></thead><tbody><tr><td id="d788822e111">
 
 **Usage Overview**
 
@@ -49,7 +49,7 @@ Action
 
 View general usage statistics for all REST and SOAP APIs.
 
-</td></tr><tr><td id="d787585e120">
+</td></tr><tr><td id="d788822e120">
 
 **Usage by API**
 
@@ -60,7 +60,7 @@ View detailed usage statistics for each API. 1.  From the **API Stats by API** m
 3.  Select **Apply**.
 
 
-</td></tr><tr><td id="d787585e149">
+</td></tr><tr><td id="d788822e149">
 
 **Usage by Requestor**
 
@@ -85,5 +85,5 @@ If the selected user has not made requests to the selected API, no data is shown
 
 [Use the REST API Explorer](../../inbound-rest/concept/use-REST-API-Explorer.md)
 
-[Dashboards in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-dashboards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md)
 

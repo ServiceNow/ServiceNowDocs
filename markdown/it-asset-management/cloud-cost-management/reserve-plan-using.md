@@ -149,7 +149,7 @@ Notify groups/Notify users
 
 </td><td>
 
-Users or groups to notify by email when the spend for potential reserved instance savings exceed the specified percentage of overall cloud spend. For information on configuring the email, see [Create an email template](https://www.servicenow.com/docs/access?context=t_CreateAnEmailTemplate&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Users or groups to notify by email when the spend for potential reserved instance savings exceed the specified percentage of overall cloud spend. For information on configuring the email, see [Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnEmailTemplate.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

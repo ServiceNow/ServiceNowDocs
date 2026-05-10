@@ -17,7 +17,7 @@ ITSM Virtual Agent helps you manage Microsoft Active Directory distribution list
 
 Natural Language Understanding \(NLU\) is used to identify and trigger the Microsoft Active Directory Group action that a user wants to perform.
 
-Requirement: [Microsoft AD spoke](https://www.servicenow.com/docs/access?context=microsoft-ad-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for Integration Hub \(com.sn.ad.spoke\) plugin
+Requirement: [Microsoft AD spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/microsoft-ad-spoke.md) for Integration Hub \(com.sn.ad.spoke\) plugin
 
 **Note:** If the Microsoft Active Directory topics are duplicated in a different scope than ITSM Virtual Agent conversations, script logic can be affected and cause errors.
 

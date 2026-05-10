@@ -17,7 +17,7 @@ Create or modify a response template to define a reusable message that can be co
 
 ## Before you begin
 
-Ensure that the scope is selected for the Financial Services Complaint Management application. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Ensure that the scope is selected for the Financial Services Complaint Management application. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: sn\_bom\_compl.admin and sn\_templated\_snip.template\_snippet\_admin
 
@@ -31,7 +31,7 @@ Each template is associated with the Complaint Case \[sn\_bom\_compl\_service\] 
 
 2.  Create a response template.
 
-    For more information, see [Create or modify a response template](https://www.servicenow.com/docs/access?context=create-modify-templated-snippet&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For more information, see [Create or modify a response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-modify-templated-snippet.md).
 
     The Channels related list appears.
 
@@ -41,7 +41,7 @@ Each template is associated with the Complaint Case \[sn\_bom\_compl\_service\] 
 
     -   Click **New** to create a new channel that gets added to the response template.
 
-        **Note:** For information on Response Template Channel form fields, see [Create a response template channel](https://www.servicenow.com/docs/access?context=hr-templated-snippets&version=australia&pubname=australia-employee-service-management&section=response-template-channel&ft:locale=en-US).
+        **Note:** For information on Response Template Channel form fields, see [Create a response template channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
 
     -   Click **Edit** to access and add an existing channel to the response template.
     The Response Template form returns.

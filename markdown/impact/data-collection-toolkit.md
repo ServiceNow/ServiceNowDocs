@@ -32,7 +32,7 @@ Impact Value Management data collection apps are delivered by the Impact squad w
 
     For more information, see:
 
-    -   [Service Exchange](https://www.servicenow.com/docs/access?context=tmt-service-bridge-both-landing-page&version=australia&pubname=australia-service-exchange&ft:locale=en-US)
+    -   [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)
     -   [Use manual registration to establish the connection to the provider instance](../task/connect-instance-impact-store-app.md)
 
 ## Get started

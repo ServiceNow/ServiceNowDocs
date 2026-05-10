@@ -36,7 +36,7 @@ Enable exceptions for a PaCE policy and associate it with a control objective in
 
     The Exception status is changed to **Enabled**.
 
-    **Note:** After an exception has been enabled, the policy must be configured in the Policy and Compliance Management workspace and connected to a control objective. See [Policy as Code Engine for Preventive compliance management](https://www.servicenow.com/docs/access?context=preventive-compliance-pace&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) for details.
+    **Note:** After an exception has been enabled, the policy must be configured in the Policy and Compliance Management workspace and connected to a control objective. See [Policy as Code Engine for Preventive compliance management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/preventive-compliance-pace.md) for details.
 
 
 ## Result

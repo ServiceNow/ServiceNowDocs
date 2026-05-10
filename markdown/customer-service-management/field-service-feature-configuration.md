@@ -33,6 +33,6 @@ To enable this functionality, ensure that you meet the following criteria:
 -   Activate the Field Service Management - Customer Experience plugin \(com.snc.fsm\_customer\_experience\).
 -   in the sys\_user table, enable the **Geolocation tracked** field for all your field service agents who would be assigned to the customer work orders.
 
-    For more information, see [Location tracking](https://www.servicenow.com/docs/access?context=r_LocationTracking&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For more information, see [Location tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_LocationTracking.md).
 
 

@@ -34,7 +34,7 @@ Moving to modern applications such as Advanced Work Assignment and Agent Chat of
 -   Supervisor features, such as [Agent Whisper](../../conversational-interfaces/concept/ci-agent-whisper.md), that enable managers to join ongoing public customer chats with agents or send private messages to agents.
 -   Agent features, such as workspace [inbox controls](../concept/agent-experience.md) for viewing, accepting, or rejecting incoming chats.
 
-If you are currently using Connect Support APIs, see [AWA Routing API](https://www.servicenow.com/docs/access?context=queue-api&version=australia&pubname=australia-api-reference&ft:locale=en-US) for information on AWA APIs.
+If you are currently using Connect Support APIs, see [AWA Routing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/queue-api.md) for information on AWA APIs.
 
 ## Procedure
 

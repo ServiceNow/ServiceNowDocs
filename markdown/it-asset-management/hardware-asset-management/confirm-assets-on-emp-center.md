@@ -19,7 +19,7 @@ As an employee, acknowledge or deny the ownership of the serialized hardware ass
 
 Role required: Log in as an employee.
 
-To view the **My Assets** option on the global header navigation bar of the Employee Center portal, the value of the **enable\_assets** option must be set to **true** on the Additional options, JSON format field of the Employee Center menu record. For more details, see [Enable or disable global header options](https://www.servicenow.com/docs/access?context=config-global-header-components&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+To view the **My Assets** option on the global header navigation bar of the Employee Center portal, the value of the **enable\_assets** option must be set to **true** on the Additional options, JSON format field of the Employee Center menu record. For more details, see [Enable or disable global header options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-global-header-components.md).
 
 **Note:** The **My Assets** option requires the Hardware Asset Management application to be activated.
 
@@ -71,5 +71,5 @@ To view the **My Assets** option on the global header navigation bar of the Empl
 **Related topics**  
 
 
-[Employee Center](https://www.servicenow.com/docs/access?context=employee-center-landing-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+[Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md)
 

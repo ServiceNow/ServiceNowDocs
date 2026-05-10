@@ -20,112 +20,112 @@ The ServiceNow® Threat Intelligence Security Center application enables your or
 -   Added automated tagging and MITRE-ATT&amp;CK extraction rules to apply tags, taxonomies, and associate relevant techniques. Added automated cleanup of duplicate source records generated during the aggregation process.
 -   Added automated zero day vulnerability detection from RSS feeds with enhanced correlation, streamlined Security Incident Response workflows, and integrated intelligence context in Security Incident to support faster threat analysis.
 
-See [Threat Intelligence Security Center](https://www.servicenow.com/docs/access?context=tisc-landing-page&version=australia&pubname=australia-security-management&ft:locale=en-US) for more information.
+See [Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-landing-page.md) for more information.
 
 **Important:** Threat Intelligence Security Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Have I Been Pwned integration](https://www.servicenow.com/docs/access?context=tisc-hibp-integration&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[Have I Been Pwned integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-hibp-integration.md)**
 
     Added support in TISC for Have I been pwned? \(HIBP\) observable enrichment, enabling analysts to identify whether observables have been exposed in known data breaches instances.
 
 
--   **[Configure Tagging Rules in TISC](https://www.servicenow.com/docs/access?context=tisc-tag-rules&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[Configure Tagging Rules in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-tag-rules.md)**
 
     Introduced automated tagging of RSS feed records using configurable tagging rules to apply tags and taxonomies.
 
 
--   **[Create a CWE record](https://www.servicenow.com/docs/access?context=tisc-create-cwe-record&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[Create a CWE record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-cwe-record.md)**
 
     Introduced CWEs as related entities with support for relationship linking.
 
 
--   **[Create Remediations](https://www.servicenow.com/docs/access?context=tisc-create-remediation-record&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[Create Remediations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-remediation-record.md)**
 
     Introduced remediations as related entities with support for relationship linking and added support for managing remediations.
 
 
--   **[Create a Product](https://www.servicenow.com/docs/access?context=tisc-create-product&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[Create a Product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-product.md)**
 
     Introduced products as related entities with support for relationship linking.
 
 
--   **[Create a Vendor to a Vulnerability](https://www.servicenow.com/docs/access?context=tisc-add-vendor-to-vul&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[Create a Vendor to a Vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-add-vendor-to-vul.md)**
 
     Associated vendors as related entities with support for relationship linking.
 
 
--   **[Automated creation of zero day vulnerability](https://www.servicenow.com/docs/access?context=tisc-zero-day-vuln-scenario&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[Automated creation of zero day vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-zero-day-vuln-scenario.md)**
 
     Automatically generate zero day vulnerability records from flagged RSS feeds with extracted and linked CPE, CWE, and CVE details for enhanced threat analysis. The catalog now includes the RSS feed for **Google Project Zero**, enabling real-time detection of emerging threats.
 
 
--   **[Create Vulnerability Assessment from a Vulnerability](https://www.servicenow.com/docs/access?context=tisc-vul-assess&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[Create Vulnerability Assessment from a Vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-vul-assess.md)**
 
     Initiate vulnerability assessments directly from identified issues for faster risk evaluation. Sample workflows and flow actions are included to automate the assessment process.
 
 
--   **[Create Security Incident from a Vulnerability Record](https://www.servicenow.com/docs/access?context=tisc-create-security-incident&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[Create Security Incident from a Vulnerability Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-security-incident.md)**
 
     Create security incident records directly from detected vulnerabilities to expedite incident response and streamline threat management workflows.
 
 
--   **[Enable security incidents for vulnerabilities](https://www.servicenow.com/docs/access?context=tisc-view-security-context&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[Enable security incidents for vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/tisc-view-security-context.md)**
 
     View vulnerabilities and related intelligence in the **TISC Context** tab of Security Incident Response Workspace, allowing analysts to quickly access risk data during investigations without navigating to separate records.
 
 
 ## UI changes
 
--   **[TISC Library Repository](https://www.servicenow.com/docs/access?context=tisc-ioc&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[TISC Library Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-ioc.md)**
 
     Enhanced Threat Intelligence Library list views by grouping observables, indicators, threat entities, RSS feed, and vulnerability artifacts into appropriate categories for improved navigation.
 
 
--   **[Create Vulnerability Assessment from a Vulnerability](https://www.servicenow.com/docs/access?context=tisc-vul-assess&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[Create Vulnerability Assessment from a Vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-vul-assess.md)**
 
     Introduced a new button **Create Vulnerability Assessment** to conduct a vulnerability assessment for a specific vulnerability.
 
 
--   **[Create Security Incident from a Vulnerability Record](https://www.servicenow.com/docs/access?context=tisc-create-security-incident&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[Create Security Incident from a Vulnerability Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-security-incident.md)**
 
     Introduced a new button **Create Security Incident** to facilitate identifying vulnerabilities and enable faster incident response within the threat analysis.
 
 
--   **[Threat Intelligence Security Center Catalog](https://www.servicenow.com/docs/access?context=threat-intelligence-security-center-catalogue&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[Threat Intelligence Security Center Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-catalogue.md)**
 
     Introduced a new catalog entry which includes the RSS feed for **Google Project Zero**, enabling real-time detection of emerging threats.
 
 
 ## Changed in this release
 
--   **[MITRE ATT&amp;CK Technique Extraction Rules](https://www.servicenow.com/docs/access?context=mitre-extraction-rules&version=australia&pubname=australia-security-management&ft:locale=en-US) and [View extracted MITRE ATT&amp;CK Techniques](https://www.servicenow.com/docs/access?context=mitre-extraction-method&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[MITRE ATT&amp;CK Technique Extraction Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/mitre-extraction-rules.md) and [View extracted MITRE ATT&amp;CK Techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/mitre-extraction-method.md)**
 
     Enabled MITRE-ATT&amp;CK extraction rules for RSS feed to map and associate MITRE-ATT&amp;CK techniques.
 
 
--   **[View RSS Feeds](https://www.servicenow.com/docs/access?context=define-rss-feeds&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[View RSS Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-rss-feeds.md)**
 
     Enhanced the RSS feed schema and parsers to support additional fields, including tags, taxonomies, status, and expiration time.
 
 
--   **[Export intelligence data](https://www.servicenow.com/docs/access?context=tisc-export-observables&version=australia&pubname=australia-security-management&ft:locale=en-US), [Sharing of Outbound Intelligence Records from GUI](https://www.servicenow.com/docs/access?context=tisc-create-intel-records-lib&version=australia&pubname=australia-security-management&ft:locale=en-US), and [Add to TAXII Collections from Library List View](https://www.servicenow.com/docs/access?context=tisc-obs-add-taxii-collects&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[Export intelligence data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-export-observables.md), [Sharing of Outbound Intelligence Records from GUI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-intel-records-lib.md), and [Add to TAXII Collections from Library List View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-obs-add-taxii-collects.md)**
 
-    Enhanced STIX 2.1 export to include Traffic Light Protocol \(TLP\) definitions applied to intelligence objects as TLP 2.0 marking definition objects. For more information, see [Marking Definition](https://www.servicenow.com/docs/access?context=marking-definition&version=australia&pubname=australia-security-management&ft:locale=en-US).
+    Enhanced STIX 2.1 export to include Traffic Light Protocol \(TLP\) definitions applied to intelligence objects as TLP 2.0 marking definition objects. For more information, see [Marking Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/marking-definition.md).
 
 
--   **[System properties for TISC Reports](https://www.servicenow.com/docs/access?context=reports-system-properties&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[System properties for TISC Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/reports-system-properties.md)**
 
     The system property `sn_sec_tisc.reporting.email_template_sn_sec_tisc_case` is no longer supported in TISC. It has been renamed to `sn_sec_tisc.default_report_email_template`, effective with the latest release.
 
 
--   **[Configure custom MISP API feed](https://www.servicenow.com/docs/access?context=tisc-premium-misp&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[Configure custom MISP API feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-premium-misp.md)**
 
     Enhanced MISP API feed ingestion to handle events when the published timestamp is greater than the modified timestamp.
 
 
--   **[Define Vulnerability](https://www.servicenow.com/docs/access?context=define-vulnerability&version=australia&pubname=australia-security-management&ft:locale=en-US) and [Access the Vulnerability Entities](https://www.servicenow.com/docs/access?context=access-the-vulnerability-entities&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[Define Vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-vulnerability.md) and [Access the Vulnerability Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/access-the-vulnerability-entities.md)**
 
     Enhanced the vulnerability schema to support additional vulnerability intelligence fields related to CVSS scoring, exploit details, and remediation information.
 
@@ -136,19 +136,19 @@ Install Threat Intelligence Security Center by requesting it from the [ServiceNo
 
 ## Related ServiceNow applications and features
 
--   **[Threat Intelligence](https://www.servicenow.com/docs/access?context=threat-intel-landing-page&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[Threat Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intel-landing-page.md)**
 
     The ServiceNow Threat Intelligence application displays indicators of compromise \(IoC\) and enables you to enrich security incidents with threat intelligence data.
 
--   **[Security Incident Response](https://www.servicenow.com/docs/access?context=sir-landing-page&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-landing-page.md)**
 
     With Security Incident Response manage the life cycle of your security incidents from initial analysis to containment, eradication, and recovery. Security Incident Response enables you to get a comprehensive understanding of incident response procedures performed by your analysts, and understand trends and bottlenecks in those procedures with analytic-driven dashboards and reporting.
 
--   **[Vulnerability Response](https://www.servicenow.com/docs/access?context=vuln-landing-page&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vuln-landing-page.md)**
 
     Vulnerability Response is part of the Security Operations application suite. Together, these applications connect security to your IT department, increase the speed and efficiency of your response, and give you a definitive view of your security posture.
 
--   **[Security Operations common functionality](https://www.servicenow.com/docs/access?context=sec-ops-common-functionality&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-common-functionality.md)**
 
     The Security Support Common plugin is activated when any of the plugins for the main Security Operations applications \(Security Incident Response, Vulnerability Response, Threat Intelligence, or Configuration Compliance\) are activated.
 

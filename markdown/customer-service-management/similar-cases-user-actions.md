@@ -99,5 +99,5 @@ The current case is added as a child to the major case.
 </table>**Related topics**  
 
 
-[Similarity solutions](https://www.servicenow.com/docs/access?context=word-collection-similarity-solution&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+[Similarity solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/word-collection-similarity-solution.md)
 

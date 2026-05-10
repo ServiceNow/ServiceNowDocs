@@ -30,17 +30,17 @@ Roles required:
 
 ### Procedure
 
-1.  [Create a Connection &amp; Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+1.  [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md)
 
     -   A connection alias \(sn\_ado\_int.Azure\_DevOps\) is available by default.
     -   You must create a connection alias for every Azure DevOps organization that you use.
 2.  Use OAuth 2.0 or Basic Auth to create credentials.
 
-    -   OAuth 2.0: See [Set up the Microsoft Azure DevOps Boards spoke using OAuth](https://www.servicenow.com/docs/access?context=setup-azdevops-boards-oauth&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    -   OAuth 2.0: See [Set up the Microsoft Azure DevOps Boards spoke using OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-azdevops-boards-oauth.md).
 
         **Important:** Make sure to specify a username in the OAuth 2.0 Credentials \[oauth\_2\_0\_credentials\] table for the Credential Alias record. This username must correspond to the service account used to interact with Azure DevOps.
 
-    -   Basic Authentication: See [Basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    -   Basic Authentication: See [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md).
 
         **Note:** When creating Basic Auth credentials, use the details of your personal access token in Azure DevOps.
 
@@ -49,7 +49,7 @@ Roles required:
 
             If your login is in the format of **domainname\\username**, use only the **username**.
 
-3.  Create [Create an HTTP\(s\) connection](https://www.servicenow.com/docs/access?context=create-https-connection&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+3.  Create [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md).
 
 
 ### What to do next

@@ -25,7 +25,7 @@ The Field Service Mobile plugin \(com.sn\_fsm\_mobile\) must be installed to use
 
 The Now Assist in Virtual Agent for FSM, available OOTB, enables agents to ask questions and get specific answers found in Knowledge Base articles. It sources the article used to provide the answer and provides the relevant answer found there. By providing immediate access to essential information, the Now Assist in Virtual Agent for FSM enables technicians to resolve issues more swiftly and accurately, ultimately improving service quality and customer satisfaction. This setup is required to see the Now Assist in Virtual Agent for Field Service Mobile Agent® application. The following steps guide you through the process of activating this virtual agent to optimize your Field Service Management.
 
-To set up and control who has access to the AI agents and the workflows they manage, see [Implement access control in Now Assist AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+To set up and control who has access to the AI agents and the workflows they manage, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
 
 ## Procedure
 

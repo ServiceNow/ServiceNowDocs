@@ -20,7 +20,7 @@ Integrate the ServiceNow instance and SCCM using Windows credentials to authenti
 -   Request an Integration Hub subscription.
 -   Activate the Microsoft SCCM spoke.
 -   Role required: admin.
--   [Configure the MID Server for SCCM activities](https://www.servicenow.com/docs/access?context=t_ConfigMIDServerForSCCMActivities&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   [Configure the MID Server for SCCM activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_ConfigMIDServerForSCCMActivities.md).
 
 **Note:** Ensure that user must be able to establish remote PowerShell sessions with the Microsoft SCCM server. The spoke scripts use **Microsoft.PowerShell32** configuration for creating sessions. For user permissions, see [User permissions](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_requirements?view=powershell-7.4#user-permissions) in [Microsoft Learn](https://learn.microsoft.com/en-us/).
 
@@ -32,7 +32,7 @@ Create a Credential record to the SCCM server. The SCCM spoke connection and cre
 
 -   Request Integration Hub subscription
 -   Role required: admin
--   [Configure the MID Server for SCCM activities](https://www.servicenow.com/docs/access?context=t_ConfigMIDServerForSCCMActivities&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   [Configure the MID Server for SCCM activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_ConfigMIDServerForSCCMActivities.md)
 
 ### Procedure
 
@@ -52,7 +52,7 @@ Create a Credential record to the SCCM server. The SCCM spoke connection and cre
     |-----|--------------|
     |Name|Enter any name to uniquely identify the record. For example, enter `SCCM Credential`.|
     |Active|Enable|
-    |User name|Enter a user name with access to the target Windows host. For more information about Windows permissions, see [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).|
+    |User name|Enter a user name with access to the target Windows host. For more information about Windows permissions, see [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md).|
     |Password|Enter the password for the account.|
     |Applies to|Select the MID Servers that can use this credential. For example, select **All MID servers**.|
     |Order|Select the order to apply this credential. For example, enter `100`.|
@@ -91,5 +91,5 @@ Create a Connection record to your SCCM host machine. The SCCM spoke connection 
 
 ### What to do next
 
-[Configure MID Server as WinRM trusted host](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Configure MID Server as WinRM trusted host](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/enable-winRM-MID-servers.md)
 

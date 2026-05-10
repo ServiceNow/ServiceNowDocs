@@ -111,7 +111,7 @@ Has rate card
 
 </td><td>
 
-Option that indicates if the lease contract has an associated contract rate card, which provides detailed cost information for the contract.See [Create a contract rate card](https://www.servicenow.com/docs/access?context=t_ContractRateCardsAndExpenseLines&version=australia&pubname=australia-it-service-management&ft:locale=en-US) for more information on contract rate cards.
+Option that indicates if the lease contract has an associated contract rate card, which provides detailed cost information for the contract.See [Create a contract rate card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_ContractRateCardsAndExpenseLines.md) for more information on contract rate cards.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Enterprise Asset Management reference](../concept/reference-enterprise-asset-management.md)

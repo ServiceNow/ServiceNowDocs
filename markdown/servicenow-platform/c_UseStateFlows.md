@@ -13,7 +13,7 @@ breadcrumb: [State flows, Exploring Service Administration, Service Administrati
 
 You can create custom state flows for any table that uses states.
 
-Make state transitions occur in any order or skip specific states according to your business practices. State flows can manage the behavior of fields and field visibility on a task form. State flows can also trigger system events that perform work such as sending [Email and SMS notifications](https://www.servicenow.com/docs/access?context=c_EmailNotifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Make state transitions occur in any order or skip specific states according to your business practices. State flows can manage the behavior of fields and field visibility on a task form. State flows can also trigger system events that perform work such as sending [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md).
 
 Administrators can configure state flows to:
 
@@ -22,7 +22,7 @@ Administrators can configure state flows to:
 -   Configure [events that are triggered when a task changes states](c_StateFlows.md).
 -   [Set up](../task/t_CreateAStateFlow.md) UI actions and business rules to implement certain state transitions, or while the task is in certain states.
 
-The State Flow plugin installs records used by work management to control state transitions for work orders and work order tasks. For detailed information about using work management state flows, see [State flow customization](https://www.servicenow.com/docs/access?context=c_StateFlowCustomization&version=australia&pubname=australia-service-management-for-the-enterprise&ft:locale=en-US).
+The State Flow plugin installs records used by work management to control state transitions for work orders and work order tasks. For detailed information about using work management state flows, see [State flow customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_StateFlowCustomization.md).
 
 Creating and customizing state flows requires scripting knowledge. Users with the admin role can create state flow records.
 

@@ -26,7 +26,7 @@ You can configure MID Server selection by application, IP address ranges, networ
 -   **Use specific MID Server**: Automatic reassignment to another MID Server is not supported.
 -   **Use specific MID Server cluster**: Automatic reassignment to another MID Server only selects from members of the specified cluster.
 
-For Agent Client Collector, refer to [Automatic MID Server selection](https://www.servicenow.com/docs/access?context=acc-auto-mid-selection&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+For Agent Client Collector, refer to [Automatic MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-auto-mid-selection.md).
 
 ## MID Server criteria
 
@@ -43,9 +43,9 @@ MID Servers offer these types of criteria that help an application determine whi
     An **ALL** application option is also available. By default, this option includes all applications. You can [configure which applications](../task/t_SpecifyMIDServerApplications.md#) are included in the **ALL** designation.
 
 -   **IP address or range**: The IP address or the IP ranges that the MID Server is allowed to work within. You can specify an IP address or IP range in the application, such as on a Discovery schedule or an Orchestration activity, and for the MID Server. If the IP configured in the application matches the IP address or falls within the allowable IP range configured on the MID Server, a match is possible, and that MID Server passes this criteria. To have the instance automatically assign IP ranges \(subnets\) to available MID Servers, see [Using MID Server IP range auto-assignment](mid-servers-auto-assignment.md#).
--   **Capabilities**: The [network capability](../reference/r_MIDServerCapabilities.md) an application needs to use, such as the [PowerShell Orchestration activity](../../orchestration/reference/mid-server-powershell-files.md) or the Workflow Studio [PowerShell step](https://www.servicenow.com/docs/access?context=powershell-step-action-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US). Some applications, like Cloud Management, require a specific capability.
+-   **Capabilities**: The [network capability](../reference/r_MIDServerCapabilities.md) an application needs to use, such as the [PowerShell Orchestration activity](../../orchestration/reference/mid-server-powershell-files.md) or the Workflow Studio [PowerShell step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/powershell-step-action-designer.md). Some applications, like Cloud Management, require a specific capability.
 
-    **Note:** Discovery and Service Mapping can also use behaviors, which determine the type of port probes used during the port scan phase of Discovery. Both Discovery and Service Mapping use a behavior to discover [Create a discovery behavior for Unix-based load balancers](https://www.servicenow.com/docs/access?context=t_CreateDiscoBehavior4LB&version=australia&pubname=australia-it-operations-management&ft:locale=en-US). Other applications do not use behaviors. Behaviors are not used for auto-selection, default MID Servers, or specific MID Servers as described below. See [Discovery behaviors](https://www.servicenow.com/docs/access?context=c_DiscoveryBehaviors&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) for more information.
+    **Note:** Discovery and Service Mapping can also use behaviors, which determine the type of port probes used during the port scan phase of Discovery. Both Discovery and Service Mapping use a behavior to discover [Create a discovery behavior for Unix-based load balancers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_CreateDiscoBehavior4LB.md). Other applications do not use behaviors. Behaviors are not used for auto-selection, default MID Servers, or specific MID Servers as described below. See [Discovery behaviors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryBehaviors.md) for more information.
 
 
 ## How an application selects a MID Server
@@ -78,7 +78,7 @@ The **Discovery** or **ALL** application must be [specified on the MID Server](.
 
 </td><td>
 
-Discovery uses IP ranges that you configure on the [Discovery Schedule form](https://www.servicenow.com/docs/access?context=t_CreateADiscoverySchedule&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) to see if they fall within the IP ranges that you configure on the MID Server, or the **ALL** IP ranges option must be selected on the MID Server.
+Discovery uses IP ranges that you configure on the [Discovery Schedule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) to see if they fall within the IP ranges that you configure on the MID Server, or the **ALL** IP ranges option must be selected on the MID Server.
 
 </td><td>
 
@@ -126,7 +126,7 @@ The **Event Management** or **ALL** application must be specified on the MID Ser
 
 </td><td>
 
-The IP configured in the event connector instances, such as [Configure event collection from HPOM](https://www.servicenow.com/docs/access?context=t_EMConfigureHPOMConnector&version=australia&pubname=australia-it-operations-management&ft:locale=en-US), must fall within the IP range configured on the MID Server.
+The IP configured in the event connector instances, such as [Configure event collection from HPOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureHPOMConnector.md), must fall within the IP range configured on the MID Server.
 
 </td><td>
 
@@ -248,7 +248,7 @@ Event Management
 
 </td><td>
 
-Choose one or more MID Servers on the connector instance event collection, such as [Configure event collection from HPOM](https://www.servicenow.com/docs/access?context=t_EMConfigureHPOMConnector&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+Choose one or more MID Servers on the connector instance event collection, such as [Configure event collection from HPOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureHPOMConnector.md).
 
 </td><td>
 

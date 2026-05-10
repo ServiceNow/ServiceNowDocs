@@ -82,7 +82,7 @@ Impersonations
 
 </td><td>
 
-Number of impersonation logins in this instance during the calendar day. To learn about impersonating users, see [Impersonate a user](https://www.servicenow.com/docs/access?context=c_ImpersonateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Number of impersonation logins in this instance during the calendar day. To learn about impersonating users, see [Impersonate a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ImpersonateAUser.md).
 
 </td></tr><tr><td>
 
@@ -153,7 +153,7 @@ For example, to view a listing of each failed attempt on the Security Dashboard 
 -   Click one of the failed login attempts.
 -   The detail includes the name of the user who attempted to log in, their IP address, and the table name that they tried to access.
 
-You can set up event threshold triggers in the Core UI Analytics Hub or Platform Analytics KPI Details to provide alerts when a certain event occurs within a range of scores for an [indicator](https://www.servicenow.com/docs/access?context=performance-analytics-glossary&version=australia&pubname=australia-now-intelligence&section=gloss-indicator&ft:locale=en-US). You can also set targets that enable you to visualize the difference between the desired score and the actual score of an event.
+You can set up event threshold triggers in the Core UI Analytics Hub or Platform Analytics KPI Details to provide alerts when a certain event occurs within a range of scores for an [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md). You can also set targets that enable you to visualize the difference between the desired score and the actual score of an event.
 
 For example, you can set a threshold of `10` for the **Failed Logins** metric. When ten or more failed login attempts occur during the day, an alert is sent to specific security personnel. You can also set a similar target that provides a visual highlight in the KPI Details when 10 failed logins occur during a day.
 
@@ -181,9 +181,9 @@ Configure preferences for the types of notifications you want to receive for occ
 
 [Instance Security Center](instance-security-center.md)
 
-[Now Intelligence](https://www.servicenow.com/docs/access?context=c_performanceAnalyticsAndReporting&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[Now Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_performanceAnalyticsAndReporting.md)
 
-[Analytics Hub](https://www.servicenow.com/docs/access?context=c_UsePerformanceAnalyticsScorecards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)
 
-[Performance Analytics targets and thresholds](https://www.servicenow.com/docs/access?context=pa-targets-thresholds&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[Performance Analytics targets and thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-targets-thresholds.md)
 

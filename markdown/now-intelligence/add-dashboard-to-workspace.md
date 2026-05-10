@@ -33,7 +33,7 @@ To add a dashboard to a page in UI Builder, create the page from the Dashboards 
 
 3.  Create a page in the workspace using the Dashboards page template, or open an existing page created from the template.
 
-    For more information, see [Create a page from a template](https://www.servicenow.com/docs/access?context=reuse-page-definitions&version=australia&pubname=australia-application-development&ft:locale=en-US) and [Add Platform Analytics pages to a configurable workspace](add-analytics-center-to-experience.md#).
+    For more information, see [Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/reuse-page-definitions.md) and [Add Platform Analytics pages to a configurable workspace](add-analytics-center-to-experience.md#).
 
     **Note:** You cannot add a Dashboard component to a page. You can only create a page from the Dashboards template. This page will include a Dashboard component.
 

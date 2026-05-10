@@ -24,7 +24,7 @@ To discover certain information on a host server, the MID Server must run SSH co
 
 **Important:** You can edit supported privileged commands, but do not delete them.
 
-For a list of possible SSH commands requiring root privileges, see [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For a list of possible SSH commands requiring root privileges, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
 
 <table id="table_zgn_3wb_dt"><thead><tr><th>
 

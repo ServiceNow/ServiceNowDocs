@@ -21,7 +21,7 @@ Role required: admin or developer
 
 Create a definition for an application in development or for an application you have already published. However, if you assign a definition to a published application, you will have to re-publish it with the new definition. Additionally, you can only assign one definition to an application.
 
-**Note:** You can only create a definition for capacity subscriptions. See [Types of subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=types-subscription-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** You can only create a definition for capacity subscriptions. See [Types of subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/types-subscription-v2.md).
 
 ## Procedure
 

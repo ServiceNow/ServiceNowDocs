@@ -43,13 +43,13 @@ Role required: sn\_ac.automation\_admin, sn\_ac.automation\_technical\_user
 
     You can select the current instance or any other instance. Ensure that the instance you choose has Automation Center installed.
 
-    To configure an instance, set the connection alias for the **AC Agent Enablement connection** alias. For information on configuring an instance, see [Create a Connection &amp; Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    To configure an instance, set the connection alias for the **AC Agent Enablement connection** alias. For information on configuring an instance, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
 
     A summary of the agent that is in progress is displayed.
 
 6.  Select **Create agent in AI studio** after reviewing the content.
 
-    For the detailed procedure to create an agent in AI studio, see [Create an AI agent](https://www.servicenow.com/docs/access?context=configure-next-best-action-agent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For the detailed procedure to create an agent in AI studio, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
     The agent is created for the automation request.
 

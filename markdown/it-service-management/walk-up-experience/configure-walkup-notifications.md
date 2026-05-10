@@ -38,9 +38,9 @@ Walk-up Experience includes several base-system notifications that you can use o
 
 3.  To modify a walk-up notification, edit any of the form fields.
 
-4.  To create a new walk-up email or push notification, click **New** and refer to [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US) or [Create a push message](https://www.servicenow.com/docs/access?context=t_CreateAPushMessage&version=australia&pubname=australia-platform-administration&ft:locale=en-US) .
+4.  To create a new walk-up email or push notification, click **New** and refer to [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md) or [Create a push message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAPushMessage.md) .
 
-    For complete information regarding using the System Notification application, refer to [Notifications](https://www.servicenow.com/docs/access?context=notifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US) .
+    For complete information regarding using the System Notification application, refer to [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notifications.md) .
 
 
 **Parent Topic:**[Configuring Walk-up Experience](../concept/walkup-experience-configuration.md)

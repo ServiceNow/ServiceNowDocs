@@ -17,7 +17,7 @@ ServiceNow Discovery is an automated process that continuously scans and identif
 
 Discovery overview Discovery is available as a separate subscription from the rest of the ServiceNow AI Platform. See [Request Discovery](../task/t_ActivateTheDiscoveryPlugin.md) for details.
 
-Discovery supports database encryption and full-disk encryption. See [Database Encryption](https://www.servicenow.com/docs/access?context=db-full-disk-encryption&version=australia&pubname=australia-platform-security&ft:locale=en-US) for details.
+Discovery supports database encryption and full-disk encryption. See [Database Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/database-encryption-with-customer-controlled-switch/db-full-disk-encryption.md) for details.
 
 ## Get started
 
@@ -33,8 +33,8 @@ Discovery supports database encryption and full-disk encryption. See [Database E
 
  -   [Request Discovery](../task/t_ActivateTheDiscoveryPlugin.md)
 -   [Discovery setup](../concept/discovery-setup.md)
--   [MID Server installation](https://www.servicenow.com/docs/access?context=mid-server-installation&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Create and test your credentials](https://www.servicenow.com/docs/access?context=t_CreateCredential&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+-   [MID Server installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-installation.md)
+-   [Create and test your credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/t_CreateCredential.md)
 -   [Migrate from CAPI to Patterns](../task/migrate-from-capi-to-pattern.md)
 
 </td><td>
@@ -63,7 +63,7 @@ Discovery supports database encryption and full-disk encryption. See [Database E
 
 **Integrate and develop**
 
- -   [Activate SCCM Asset Intelligence scheduled imports](https://www.servicenow.com/docs/access?context=activate-ai-scheduled-imports&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+ -   [Activate SCCM Asset Intelligence scheduled imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/activate-ai-scheduled-imports.md)
 -   [Discovery APIs on the ServiceNow® Developer Site](https://developer.servicenow.com)
 
 </td><td>

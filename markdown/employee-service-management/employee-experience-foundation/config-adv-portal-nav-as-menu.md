@@ -207,7 +207,7 @@ Select this option to show the browse option on the menu. -   When you select ta
         When Sync is in progress, you can't perform actions such as Update or Delete from the APN or Menu items records.
 
     -   **Last synced** indicates the time of the last sync.
-    **Note:** To display the Sync status, ensure you deactivate the **Hide sync status** UI policy from **All** &gt; **System UI** &gt; **UI Policies**. For more information, see [Using UI policies](https://www.servicenow.com/docs/access?context=t_CreateAUIPolicy&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+    **Note:** To display the Sync status, ensure you deactivate the **Hide sync status** UI policy from **All** &gt; **System UI** &gt; **UI Policies**. For more information, see [Using UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUIPolicy.md)
 
 10. Notify the sync status through email.
 

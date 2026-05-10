@@ -21,7 +21,7 @@ Roles required: none
 
 Ensure that ITSM Mobile Agent is installed from ServiceNow Store onto your instance. For more information, see [Install ITSM Mobile Agent](install-itsm-mobile-agent.md).
 
-On your mobile, install the ServiceNow Agent app \(from Apple App Store or Google Play Store\). For more information about this app, see [Mobile Agent](https://www.servicenow.com/docs/access?context=mobile-experience&version=australia&pubname=australia-mobile&ft:locale=en-US).
+On your mobile, install the ServiceNow Agent app \(from Apple App Store or Google Play Store\). For more information about this app, see [Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-experience.md).
 
 ## Procedure
 

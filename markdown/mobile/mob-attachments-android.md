@@ -42,7 +42,7 @@ Group B: users that CAN'T:
 </td></tr></tbody>
 </table>## About this task
 
-After you identify the two groups of users, assign different roles to each group of users. You can assign more than one role to each group of users. For information about creating and assigning roles to users, see [Create a role](https://www.servicenow.com/docs/access?context=t_CreateARole&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+After you identify the two groups of users, assign different roles to each group of users. You can assign more than one role to each group of users. For information about creating and assigning roles to users, see [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateARole.md).
 
 **Note:** This feature is available on Android clients, version 19.5.1 and later.
 
@@ -132,7 +132,7 @@ Is Public
 
 Determines whether the pre-auth property is included in the API response.
 
- By default, this option is not selected. If you want this property included in the /pre-auth API response, select this checkbox. For more information, see [Adaptive authentication events](https://www.servicenow.com/docs/access?context=adaptive-authentication-events&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+ By default, this option is not selected. If you want this property included in the /pre-auth API response, select this checkbox. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-authentication-events.md).
 
  Mobile properties with this checkbox enabled are excluded from the /user\_client API response.
 
@@ -231,7 +231,7 @@ Is Public
 
 Determines whether the pre-auth property is included in the API response.
 
- By default, this option is not selected. If you want this property included in the /pre-auth API response, select this checkbox. For more information, see [Adaptive authentication events](https://www.servicenow.com/docs/access?context=adaptive-authentication-events&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+ By default, this option is not selected. If you want this property included in the /pre-auth API response, select this checkbox. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-authentication-events.md).
 
  Mobile properties with this checkbox enabled are excluded from the /user\_client API response.
 

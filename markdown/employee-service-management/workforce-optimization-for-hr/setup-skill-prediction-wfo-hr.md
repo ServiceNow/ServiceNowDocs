@@ -17,9 +17,9 @@ Collect skill data based on skills agents have used for case resolution. Use sup
 
 ## Before you begin
 
-Set up skills. For more information, see [Skills Management](https://www.servicenow.com/docs/access?context=skills-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Set up skills. For more information, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skills-management.md).
 
-Predictive Intelligence must be set up and configured on your instance to train the models. For more information, see [Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Predictive Intelligence must be set up and configured on your instance to train the models. For more information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md).
 
 Activate the Skill Recommendation application plugin \(com.snc.sre\) to use predictive intelligence for recommending skills.
 
@@ -31,7 +31,7 @@ Role required: sn\_hr\_wfo.admin
 
 2.  Run the solution definition models such as **Recommend similar skills for cases** or **Recommend skills from similar cases** to train the supervised and unsupervised solutions.
 
-    For more information on training a solution, refer to [Create and train a similarity solution](https://www.servicenow.com/docs/access?context=create-similarity-solution&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more information on training a solution, refer to [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md).
 
 3.  Run the **Start skill prediction** scheduled job everyday to start predicting skills for cases or agents.
 

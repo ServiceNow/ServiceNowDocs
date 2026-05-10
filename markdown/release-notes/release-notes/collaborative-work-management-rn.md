@@ -18,13 +18,13 @@ The ServiceNow® Collaborative Work Management \(CWM\) application provides a ce
 -   Generate scrum tasks for user stories using AI and improve visibility into sprint work.
 -   Spot bottlenecks early by linking work items as blocking or related, with visual cues that surface dependencies across Kanban, List, and Gantt views.
 
-See [Collaborative Work Management](https://www.servicenow.com/docs/access?context=cwm-landing&version=australia&pubname=australia-it-business-management&ft:locale=en-US) for more information.
+See [Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-landing.md) for more information.
 
 **Important:** Collaborative Work Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -33,7 +33,7 @@ See [Collaborative Work Management](https://www.servicenow.com/docs/access?conte
     -   Prime: Act autonomously with all AI assets, and create your own
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
--   **[Formula columns in CWM](https://www.servicenow.com/docs/access?context=add-formula-column-cwm-boards&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **[Formula columns in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-formula-column-cwm-boards.md)**
 
     Gain deeper insights into your work by adding formula columns to your List view in CWM Boards. Create calculations that automatically compute values across your tasks, such as summing hours, calculating date differences, or deriving metrics from existing fields.
 
@@ -41,42 +41,42 @@ See [Collaborative Work Management](https://www.servicenow.com/docs/access?conte
 
     You can accelerate formula creation with AI by describing your calculation in natural language. AI generates a valid formula that you can insert directly into the editor, saving you the time to manually build a valid formula.
 
--   **[Kanban board filters](https://www.servicenow.com/docs/access?context=cwm-board-views&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **[Kanban board filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-board-views.md)**
 
     Save time finding the work that matters most by applying quick filters directly on your Kanban board.
 
     As you adjust filter conditions in the header, the quick filter panel stays in sync, and vice versa. Your filter choices automatically apply to saved views and CWM Board templates, so the next time you open the board, your preferences are readily available.
 
--   **[Scrum tasks](https://www.servicenow.com/docs/access?context=managing-scrum-tasks-for-stories-cwm&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **[Scrum tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.md)**
 
     Improve sprint execution by breaking user stories into scrum tasks that make estimation easier and daily progress visible. These tasks appear as nested children in the List, Kanban, and Sprint planning views, so that your team sees how individual efforts roll up into the larger story.
 
     Using AI to generate an initial set of scrum tasks based on your story descriptions, you can reduce the overhead of task creation. Trigger the scrum task generation from the story form or inline from the Sprint planning view, and receive a relevant set of tasks as a starting point for your sprint planning. You can then review, edit, and add the generated tasks to fit your team's workflow.
 
--   **[Task dependencies and relationships](https://www.servicenow.com/docs/access?context=managing-task-dependencies-relationships-cwm&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **[Task dependencies and relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.md)**
 
     Increase visibility into how work is connected by linking related items directly in CWM and avoid switching context to track dependencies.
 
     As these relationships surface across Kanban, List, and Gantt views with clear visual cues, you can improve planning confidence for your teams. Blocked items stand out at a glance, helping teams spot bottlenecks early, communicate delays quickly, and plan tasks in the right sequence.
 
--   **[Team member roles for project work](https://www.servicenow.com/docs/access?context=cwm-team-member-roles&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **[Team member roles for project work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-team-member-roles.md)**
 
     View and update project and demand tasks directly in CWM using team member roles, installed alongside Collaborative Work Management.
 
     The team member read role lets users view project and demand tasks and leave comments. The team member read-write role also lets users edit those tasks. Team members can view and manage the work assigned to them and their team through **My Work** and **Connected Work** in CWM.
 
--   **[Image download from docs](https://www.servicenow.com/docs/access?context=cwm-docs&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **[Image download from docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-docs.md)**
 
     Save images from your CWM documents directly to your device, making it easier to share or use them outside of the Docs environment.
 
 
 ## UI changes
 
--   **[Formatting toolbar changes in Docs](https://www.servicenow.com/docs/access?context=cwm-docs&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **[Formatting toolbar changes in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-docs.md)**
 
     Quickly confirm which text formatting is active for your text selection. A green checkmark now appears next to the currently applied format in the formatting toolbar, giving you a clear visual indicator of the active formatting.
 
--   **[Sprint section footer changes in Sprint planning view](https://www.servicenow.com/docs/access?context=agile-sprint-planning-in-cwm&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **[Sprint section footer changes in Sprint planning view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)**
 
     For sprints that are not started yet, the footer of the sprint section in the Sprint planning view now shows only the % of capacity utilized, and the story points remaining for the sprint.
 
@@ -100,11 +100,11 @@ Install Collaborative Work Management by requesting it from the ServiceNow Store
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist for Collaborative Work Management \(CWM\)](https://www.servicenow.com/docs/access?context=now-assist-for-cwm-landing&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **[Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-landing.md)**
 
     The ServiceNow®Now Assist for CWM application uses generative AI skills to save time and improve efficiency for the actions you perform within the CWM workspace.
 
--   **[Strategic Planning](https://www.servicenow.com/docs/access?context=alignment-planner-workspace-landing-page&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **[Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/alignment-planner-workspace-landing-page.md)**
 
     Prioritize, roadmap, and track work when using traditional, Agile, or hybrid methodologies with the ServiceNow® Strategic Planning application. Align strategy to execution by defining and tracking goals across your organization. Strategic Planning is available with an SPM Professional license.
 

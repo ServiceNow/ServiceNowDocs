@@ -25,15 +25,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Rally.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d422873e95">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d423290e95">
 
 Option
 
-</th><th align="left" id="d422873e98">
+</th><th align="left" id="d423290e98">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d422873e104">
+</th></tr></thead><tbody><tr><td id="d423290e104">
 
 **Homepage**
 
@@ -43,7 +43,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Rally from the Plan category.
 
 
-</td></tr><tr><td id="d422873e128">
+</td></tr><tr><td id="d423290e128">
 
 **Applications module**
 
@@ -55,7 +55,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Rally from the Plan category.
 
 
-</td></tr><tr><td id="d422873e177">
+</td></tr><tr><td id="d423290e177">
 
 **Tools module**
 
@@ -78,7 +78,7 @@ Steps
     2.  In the **Password or access token** field, enter the API token for your Rally instance.
     3.  \(Optional\) If your Rally instance is attached to a MID Server, select the **Use MID Server** option and enter its details.
 
-        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
 
 4.  Select **Connect**.
 

@@ -18,8 +18,8 @@ Add a custom Localization Framework setting to translate multiple knowledge arti
 ## Before you begin
 
 -   [Activate the Knowledge Management Advanced plugin](../task/activate-knowledge-advanced-plugin.md).
--   [Activate Localization Framework](https://www.servicenow.com/docs/access?context=activate-lf-plugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   [Activate Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/activate-lf-plugin.md).
+-   [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 -   Bulk Translation is available with the base Australia release. If you are upgrading from a previous release, you must configure the following settings:
     -   Enable the Localization Framework by setting the **glide.knowman.translation.enable\_lf\_article\_translation** system property to true.
     -   Set the **glide.knowman.translation.enable\_translation\_task** system property to false.
@@ -47,7 +47,7 @@ Role required: admin
 
 9.  Enable the creation of bulk translation localization projects.
 
-    -   To enable manual creation, select **Enable projects**. For more information, see [Create translation projects](https://www.servicenow.com/docs/access?context=projects-localization-framework&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    -   To enable manual creation, select **Enable projects**. For more information, see [Create translation projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/projects-localization-framework.md).
     -   To enable the auto-creation of the localization projects, select **Enable projects** and **Enable auto creation**.
 
         If auto creation is enabled, selected localization requested items \(LRITMs\) are automatically bundled into a single localization project.

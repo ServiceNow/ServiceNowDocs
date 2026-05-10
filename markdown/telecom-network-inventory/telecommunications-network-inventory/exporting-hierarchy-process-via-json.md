@@ -6,7 +6,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 2
 breadcrumb: [Export hierarchy of models and templates, Explore, Telecommunications Network Inventory]
 ---

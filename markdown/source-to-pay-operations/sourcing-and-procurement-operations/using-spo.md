@@ -15,7 +15,7 @@ breadcrumb: [Sourcing and Procurement Operations, Finance and Supply Chain]
 
 Employees, shoppers, or requesters can use Sourcing and Procurement Operations to self-service requests, and source or purchase products and services through the procurement organization. Procurement specialists and sourcing managers can use Sourcing and Procurement Operations to work on various procurement objects such as purchase requisitions, sourcing requests, negotiations, procurement requests, cases, and more.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 -   **[Using Shopping Hub](../reference/use-shoppinghub-portal.md)**  
 Use the Shopping Hub module to request pricing or place an order for products and services. You can also request for products or services that you don’t see in the catalog, revise, replace, or return your ordered products and services, customize your top suppliers, work on your to-dos, and much more.

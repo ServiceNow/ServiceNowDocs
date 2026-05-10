@@ -15,7 +15,7 @@ breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and
 
 Provide the connection and credential details from another step, such as a REST step, to other steps in your action.
 
-**Note:** The Get Connection Info step is not available in the base system and requires the subscription to Integration Hub Starter Pack Installer \(com.glide.hub.integrations\) or later. For more information about the ServiceNow® Integration Hub subscription packages, see [Integration Hub usage and subscription](https://www.servicenow.com/docs/access?context=subscription-usage&version=australia&pubname=australia-integrate-applications&ft:locale=en-US). After the required plugin is activated, the step is visible under Integrations.
+**Note:** The Get Connection Info step is not available in the base system and requires the subscription to Integration Hub Starter Pack Installer \(com.glide.hub.integrations\) or later. For more information about the ServiceNow® Integration Hub subscription packages, see [Integration Hub usage and subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/subscription-usage.md). After the required plugin is activated, the step is visible under Integrations.
 
 ## Roles and availability
 

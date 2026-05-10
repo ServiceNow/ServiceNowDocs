@@ -36,7 +36,7 @@ Before you start the download and installation process, ensure that your develop
 
     -   Mobile SDK: [https://store.servicenow.com/sn\_appstore\_store.do\#!/store/application/52821846803120101040fe43e5b9ee8c](https://store.servicenow.com/sn_appstore_store.do#!/store/application/52821846803120101040fe43e5b9ee8c)
     -   iOS library: [https://store.servicenow.com/sn\_appstore\_store.do\#!/store/application/1539a1f087ea3014970e2178cebb3564](https://store.servicenow.com/sn_appstore_store.do#!/store/application/1539a1f087ea3014970e2178cebb3564)
-    For details on installing applications on your instance, see [Administering applications](https://www.servicenow.com/docs/access?context=administering-applications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For details on installing applications on your instance, see [Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/administering-applications.md).
 
 3.  Navigate to the packaged\_sdk folder and unzip the `NowKit.zip` file which contains the NowSDK libraries.
 

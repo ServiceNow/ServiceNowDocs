@@ -23,7 +23,7 @@ Role required: sn\_customerservice\_agent or sn\_customerservice\_manager
 
 1.  Depending on your device, go to the Apple App Store or the Google Play Store and download the ServiceNow Agent mobile app.
 
-2.  [Log in to an instance](https://www.servicenow.com/docs/access?context=login-end-user&version=australia&pubname=australia-mobile&ft:locale=en-US).
+2.  [Log in to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/login-end-user.md).
 
 3.  Tap **Customer Service** to open the application and display the applet launcher.
 
@@ -42,5 +42,5 @@ Customer service agents manage cases and real-time notifications help in taking 
 
 [CSM application overview](../reference/customer-service-mobile-overview.md)
 
-[Agent mobile app](https://www.servicenow.com/docs/access?context=mobile-experience&version=australia&pubname=australia-mobile&ft:locale=en-US)
+[Agent mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-experience.md)
 

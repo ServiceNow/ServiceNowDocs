@@ -235,7 +235,7 @@ The Now Assist for TMT application includes the following generative AI skills:
 
 An agent can use the Now Assist panel in CSM/FSM Configurable Workspace.
 
-This conversational interface enables an agent to request a service problem case summary and generate the service problem case resolution notes. For more information about the Now Assist panel, see [Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+This conversational interface enables an agent to request a service problem case summary and generate the service problem case resolution notes. For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## Now Assist in Remote Hands Request management application
 
@@ -257,7 +257,7 @@ The comprehensive summary includes the following sections:
 **Related topics**  
 
 
-[Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)
 
-[Exploring Now Assist Admin](https://www.servicenow.com/docs/access?context=exploring-now-assist-platform&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[Exploring Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-platform.md)
 

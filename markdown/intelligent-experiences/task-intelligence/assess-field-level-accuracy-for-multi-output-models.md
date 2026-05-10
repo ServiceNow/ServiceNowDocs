@@ -23,9 +23,9 @@ Role required: admin
 
 After you have created and tested your model, assess its performance to evaluate how well it's predicting what you want it to predict. For multi-output models that predict multiple fields, you may want to assess the performance of each field individually.
 
-If you have not already created a model, see either [Create a model to predict record fields](https://www.servicenow.com/docs/access?context=csm-task-intel-create-cat-solution&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) or [Create a model to predict incident fields](https://www.servicenow.com/docs/access?context=create-incident-prediction-model&version=australia&pubname=australia-it-service-management&ft:locale=en-US) to make one.
+If you have not already created a model, see either [Create a model to predict record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-cat-solution.md) or [Create a model to predict incident fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/create-incident-prediction-model.md) to make one.
 
-Your model must be in Monitoring mode. You can set Monitoring mode on the Assess Your Model screen. For more details, see the Set your preferences step in [Create a case field prediction model](https://www.servicenow.com/docs/access?context=csm-task-intel-create-cat-solution&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) or [Create a model to predict incident fields](https://www.servicenow.com/docs/access?context=create-incident-prediction-model&version=australia&pubname=australia-it-service-management&ft:locale=en-US) model.
+Your model must be in Monitoring mode. You can set Monitoring mode on the Assess Your Model screen. For more details, see the Set your preferences step in [Create a case field prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-cat-solution.md) or [Create a model to predict incident fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/create-incident-prediction-model.md) model.
 
 ## Procedure
 

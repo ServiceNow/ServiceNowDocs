@@ -21,7 +21,7 @@ Role required: admin
 
 ## Procedure
 
-1.  To set up the Amazon Connect spoke for Conversational IVR with Amazon Connect, see [Setup Amazon Connect spoke](https://www.servicenow.com/docs/access?context=setup-amzn-connect&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+1.  To set up the Amazon Connect spoke for Conversational IVR with Amazon Connect, see [Setup Amazon Connect spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-amzn-connect.md).
 
 
 **Parent Topic:**[Configure Conversational IVR with Amazon Connect](configure-va-ivr.md)

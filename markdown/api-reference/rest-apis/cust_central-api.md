@@ -19,7 +19,7 @@ Use this API to obtain information records \(cards\) that were previously genera
 
 You must have the admin or sn\_esm\_agent role to access this API. In addition, before this API is available in your instance you must activate the **com.sn\_csm\_customer\_central** plugin.
 
-For additional information, see [Customer Central](https://www.servicenow.com/docs/access?context=customer-central&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+For additional information, see [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-central.md).
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 
@@ -36,7 +36,7 @@ This endpoint returns all active records \(cards\) within the following Customer
 -   Report Configuration \[sn\_customercentral\_report\_config\]
 -   Report Group Configuration \[sn\_customercentral\_report\_group\_config\]
 
-You must define any additional configuration records that you need through the Customer Central interface. For details, see [Configure customer central](https://www.servicenow.com/docs/access?context=configure-customer-central&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+You must define any additional configuration records that you need through the Customer Central interface. For details, see [Configure customer central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-customer-central.md).
 
 ### URL format
 

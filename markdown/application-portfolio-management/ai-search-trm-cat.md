@@ -40,8 +40,8 @@ After you install the May 2026 update, the indexing behavior depends on when you
 
 Before you can search TRM catalog records using AI Search, verify the following are configured on your instance:
 
--   AI Search is activated. Navigate to **All** and search for **AI Search Status**. The status page must display **AI Search is ready**. For instructions, see [Activate AI search](https://www.servicenow.com/docs/access?context=configure-ui-builder-agent&version=australia&pubname=australia-application-development&section=activate-ai-search&ft:locale=en-US)
--   Now Assist panel is enabled. Navigate to **Now Assist admin** &gt; **Now Assist Experiences** &gt; **Now Assist panel** and verify that the panel is turned on. For instructions, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+-   AI Search is activated. Navigate to **All** and search for **AI Search Status**. The status page must display **AI Search is ready**. For instructions, see [Activate AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/configure-ui-builder-agent.md)
+-   Now Assist panel is enabled. Navigate to **Now Assist admin** &gt; **Now Assist Experiences** &gt; **Now Assist panel** and verify that the panel is turned on. For instructions, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 -   Install the Now Assist for EA plugin. For instructions, see [Configure Now Assist for Enterprise Architecture \(EA\)](../../../now-assist-ea/task/configure-now-assist-ea.md).
 -   At least one TRM catalog is published to a knowledge base. AI Search returns results only for published records. See [Publish a TRM catalog to the knowledge base](../../task/eaw-task/publish-trm-cat-to-kb.md).
 

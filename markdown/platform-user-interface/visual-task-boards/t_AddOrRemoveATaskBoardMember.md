@@ -33,7 +33,7 @@ Only members of a task board can access the board. Any board member can add or r
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_e3x_3n5_1r"><tbody><tr><td id="d89459e94">
+<table id="choicetable_e3x_3n5_1r"><tbody><tr><td id="d95925e94">
 
 **Add a member**
 
@@ -43,7 +43,7 @@ Only members of a task board can access the board. Any board member can add or r
 2.  Enter a user's name or select a user from the drop-down menu.
 
 
-</td></tr><tr><td id="d89459e118">
+</td></tr><tr><td id="d95925e118">
 
 **Remove a member**
 
@@ -53,7 +53,7 @@ Only members of a task board can access the board. Any board member can add or r
 2.  Click the remove icon \(![Remove user icon](../image/RemoveUserIcon.png)\).
 
 
-</td></tr><tr><td id="d89459e145">
+</td></tr><tr><td id="d95925e145">
 
 **Promote an assignee to a member**
 
@@ -63,7 +63,7 @@ Only members of a task board can access the board. Any board member can add or r
 2.  Click the upward arrow icon.
 
 
-</td></tr><tr><td id="d89459e166">
+</td></tr><tr><td id="d95925e166">
 
 **Promote all assignees to members**
 

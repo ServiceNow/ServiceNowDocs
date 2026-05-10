@@ -28,7 +28,7 @@ Role required: admin
     -   In the navigation filter, enter `prb_task_model.list`.
     -   Navigate to **All** &gt; **Problem** &gt; **Administration** &gt; **Problem Task Models**.
 
-        **Note:** For more information about enabling menu items for Problem Management models, see [Enable or disable an application menu or module](https://www.servicenow.com/docs/access?context=t_EnDisableAppMenuOrMod&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+        **Note:** For more information about enabling menu items for Problem Management models, see [Enable or disable an application menu or module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_EnDisableAppMenuOrMod.md).
 
     1.  Select **New**.
 

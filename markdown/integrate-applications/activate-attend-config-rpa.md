@@ -33,15 +33,15 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager, sn\_rpa\_fdn.rpa\_developer, 
 
 3.  Navigate to the Attended Configuration record either from the Attended Configuration menu list or from an attended bot process record's related list.
 
-<table id="choicetable_uqv_q52_vzb"><thead><tr><th align="left" id="d685967e139">
+<table id="choicetable_uqv_q52_vzb"><thead><tr><th align="left" id="d689430e139">
 
 Option
 
-</th><th align="left" id="d685967e142">
+</th><th align="left" id="d689430e142">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d685967e148">
+</th></tr></thead><tbody><tr><td id="d689430e148">
 
 **From an Attended Configuration menu list**
 
@@ -51,7 +51,7 @@ Action
 2.  Open an attended configuration record.
 
 
-</td></tr><tr><td id="d685967e175">
+</td></tr><tr><td id="d689430e175">
 
 **From an attended bot process record's related list**
 

@@ -45,10 +45,10 @@ You can select real-time scores to view instead of the last score.
 
 You can view real-time scores in the following circumstances:
 
--   The indicator is an [automated indicator](https://www.servicenow.com/docs/access?context=now-platform-glossary&version=australia&pubname=australia-glossary&section=gloss-automated-indicator&ft:locale=en-US).
+-   The indicator is an [automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md).
 -   It is configured to show real-time scores.
 -   The aggregate function for the indicator does not use a script.
--   The indicator source does not use a [database view](https://www.servicenow.com/docs/access?context=now-platform-glossary&version=australia&pubname=australia-glossary&section=gloss-database-view&ft:locale=en-US).
+-   The indicator source does not use a [database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md).
 -   None of the breakdowns that are applied to the indicator use a scripted breakdown source.
 
 **Warning:**

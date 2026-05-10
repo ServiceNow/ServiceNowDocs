@@ -20,13 +20,13 @@ The ServiceNow® Industrial Standards application provides a centralized, govern
 -   Skills‑based execution controls help to ensure that qualified operators are performing the designated work.
 -   Strengthen your audit process with a structured versioning model that logically categorizes standards across their life cycle.
 
-See [Exploring Industrial Standards](https://www.servicenow.com/docs/access?context=industrial-standards-landing-page&version=australia&pubname=australia-industrial-connected-workforce&ft:locale=en-US) for more information.
+See [Exploring Industrial Standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-standards-landing-page.md) for more information.
 
 **Important:** Industrial Standards is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Industrial Standards features
 
--   **[Industrial Standards Library](https://www.servicenow.com/docs/access?context=industrial-standards-library&version=australia&pubname=australia-industrial-connected-workforce&ft:locale=en-US)**
+-   **[Industrial Standards Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-standards-library.md)**
 
     Browse and compare standards using an upgraded hub that provides tile and list views with filters for state, scope, category, functional location, and equipment model.
 
@@ -34,7 +34,7 @@ See [Exploring Industrial Standards](https://www.servicenow.com/docs/access?cont
 
     Access policies differentiate enterprise and site standards to help prevent misapplication.
 
--   **[Scheduling standards](https://www.servicenow.com/docs/access?context=scheduling-standards&version=australia&pubname=australia-industrial-connected-workforce&ft:locale=en-US)**
+-   **[Scheduling standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/scheduling-standards.md)**
 
     Generate recurring work from standards by configuring daily, weekly, monthly, and custom scheduling patterns to maintain a consistent operational cadence.
 
@@ -42,7 +42,7 @@ See [Exploring Industrial Standards](https://www.servicenow.com/docs/access?cont
 
     Runtime tracing improves visibility into created tasks, their status, and exceptions.
 
--   **[Skill-based task management](https://www.servicenow.com/docs/access?context=skill-based-task-management&version=australia&pubname=australia-industrial-connected-workforce&ft:locale=en-US)**
+-   **[Skill-based task management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/skill-based-task-management.md)**
 
     Define required skills or certifications within standards to ensure that only qualified operators execute safety‑critical tasks. Supervisors can request waivers or alternative routing when skills are missing.
 
@@ -62,15 +62,15 @@ Industrial Standards is automatically installed when you install Industrial Conn
 
 ## Related ServiceNow applications and features
 
--   **[Industrial Connected Workforce Core](https://www.servicenow.com/docs/access?context=industrial-connected-workforce-core-landing-page&version=australia&pubname=australia-industrial-connected-workforce&ft:locale=en-US)**
+-   **[Industrial Connected Workforce Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-core-landing-page.md)**
 
     ICW Core provides the foundational data models, workflows, and governance structures that power the entire Industrial Connected Workforce suite. It standardizes how organizations, equipment hierarchies, calendars, worker profiles, and industrial records are represented across applications. All other ICW applications rely on ICW Core for consistent execution, shared services, and data interoperability.
 
--   **[Industrial Guided Tasks](https://www.servicenow.com/docs/access?context=industrial-standards-landing-page&version=australia&pubname=australia-industrial-connected-workforce&ft:locale=en-US)**
+-   **[Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-standards-landing-page.md)**
 
     Industrial Guided Tasks delivers structured, step‑by‑step digital workflows that guide operators through critical industrial activities. It supports assessment‑based scoring, automation triggers, and life-cycle governance for accurate and traceable task execution. Guided tasks are often generated from Industrial Standards and integrate with ICW Core for data, workflows, and reporting.
 
--   **[ICW Mobile Experience](https://www.servicenow.com/docs/access?context=icw-mobile-exp-landing-page&version=australia&pubname=australia-industrial-connected-workforce&ft:locale=en-US)**
+-   **[ICW Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/icw-mobile-exp-landing-page.md)**
 
     The ICW Mobile Experience provides a mobile‑first interface that enables frontline workers to perform tasks, report deviations, and access standards and knowledge while on the shop floor. It offers offline readiness, barcode or QR scanning, and streamlined execution flows optimized for industrial environments. Mobile capabilities extend the functions of ICW Core, Industrial Standards, and Industrial Guided Tasks directly to operators’ handheld devices.
 

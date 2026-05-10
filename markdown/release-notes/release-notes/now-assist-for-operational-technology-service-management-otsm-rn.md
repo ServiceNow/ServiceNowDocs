@@ -20,21 +20,21 @@ Australia
 -   Help save time by automatically updating the resolution notes for an OT incident.
 -   Generate a KB article when an OT incident is resolved by using an agentic workflow.
 
-See [Now Assist for Operational Technology Service Management \(OTSM\)](https://www.servicenow.com/docs/access?context=now-assist-for-operational-technology-service-management&version=australia&pubname=australia-operational-technology&ft:locale=en-US) for more information.
+See [Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/now-assist-for-operational-technology-service-management.md) for more information.
 
 **Important:** Now Assist for OTSM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Now Assist for OTSM features
 
--   **[Summarize an Operational Technology incident by using Now Assist for Operational Technology Service Management \(OTSM\)](https://www.servicenow.com/docs/access?context=summarize-ot-incident-now-assist&version=australia&pubname=australia-operational-technology&ft:locale=en-US)**
+-   **[Summarize an Operational Technology incident by using Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/summarize-ot-incident-now-assist.md)**
 
     Automatically summarize an OT incident using the **Summarize** UI action to produce a concise summary of the incident.
 
--   **[Generate resolution notes for an Operational Technology incident](https://www.servicenow.com/docs/access?context=generate-resolution-notes-ot-incident&version=australia&pubname=australia-operational-technology&ft:locale=en-US)**
+-   **[Generate resolution notes for an Operational Technology incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/generate-resolution-notes-ot-incident.md)**
 
     Automatically generate resolution notes for an OT incident using the **Generate resolution notes** UI action to produce a concise summary of the incident.
 
--   **[Generate OT KB articles agentic workflow](https://www.servicenow.com/docs/access?context=agent-ot-knowledge-generator&version=australia&pubname=australia-operational-technology&ft:locale=en-US)**
+-   **[Generate OT KB articles agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/agent-ot-knowledge-generator.md)**
 
     Automatically generate a KB article for an OT incident when the state of the incident is set to **Resolved**. The article contains the following information:
 
@@ -48,11 +48,11 @@ See [Now Assist for Operational Technology Service Management \(OTSM\)](https://
 
 ## UI changes
 
--   **[Summarize UI action](https://www.servicenow.com/docs/access?context=summarize-ot-incident-now-assist&version=australia&pubname=australia-operational-technology&ft:locale=en-US)**
+-   **[Summarize UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/summarize-ot-incident-now-assist.md)**
 
     The **Summarize** UI action was added to OT incident records in the Industrial Workspace so you can automatically summarize the incident details.
 
--   **[Generate resolution notes UI action](https://www.servicenow.com/docs/access?context=generate-resolution-notes-ot-incident&version=australia&pubname=australia-operational-technology&ft:locale=en-US)**
+-   **[Generate resolution notes UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/generate-resolution-notes-ot-incident.md)**
 
     The **Generate resolution notes** UI action was added to OT incident records in the Industrial Workspace so you can generate resolution notes after the incident state is set to **Resolved**.
 
@@ -74,7 +74,7 @@ Install Now Assist for OTSM by requesting it from the ServiceNow Store. Visit th
 
 ## Related ServiceNow applications and features
 
--   **[Operational Technology Incident Management](https://www.servicenow.com/docs/access?context=operational-technology-incident-management-landing-page&version=australia&pubname=australia-operational-technology&ft:locale=en-US)**
+-   **[Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/operational-technology-incident-management-landing-page.md)**
 
     The ServiceNow® Operational Technology Incident Management application enables engineers to resolve Operational Technology \(OT\) asset and production process issues quickly.
 

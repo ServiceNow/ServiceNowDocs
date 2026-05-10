@@ -128,7 +128,7 @@ Quick links and latest videos.
 </td></tr></tbody>
 </table>The Alumni home page uses some of the widgets from **Content Delivery**. For more information, see [Content Publishing](../../employee-center/concept/ec-publish-content.md).
 
-For more information about the service portal, see [Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For more information about the service portal, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md).
 
 For more information on the Employee Center, see [Employee Center](../../employee-center/concept/employee-center-landing-page.md).
 

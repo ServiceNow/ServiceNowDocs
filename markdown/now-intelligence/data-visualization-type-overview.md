@@ -54,7 +54,7 @@ Like dials, gauges show where a single value lies across a range from minimum to
 
 Time Series visualizations show data over time. All time series visualization types share configuration options. They differ in use case, depending on whether you want to emphasize data trends or the differences between individual data points. For more information about these use cases, see [Create time series data visualizations](../../reporting/task/create-dv-time-series-ac.md).
 
-**Note:** In addition to data from within your instances and imported data sources, you can also use MetricBase data in time series visualizations. For more information, see [MetricBase application](https://www.servicenow.com/docs/access?context=metricbase&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Note:** In addition to data from within your instances and imported data sources, you can also use MetricBase data in time series visualizations. For more information, see [MetricBase application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase.md).
 
 <table id="table_time-series"><thead><tr><th>
 

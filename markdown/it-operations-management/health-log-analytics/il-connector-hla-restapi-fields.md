@@ -50,7 +50,7 @@ Service instance
 
 </td><td>
 
-The service instance \(formerly the application service\) to which to bind the log data. This field is required.**Note:** If no relevant service instance exists, [Create a service instance](https://www.servicenow.com/docs/access?context=create-it-services&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and add CIs \(Configuration Items\) to it. Set the status of the new service instance to Operational.
+The service instance \(formerly the application service\) to which to bind the log data. This field is required.**Note:** If no relevant service instance exists, [Create a service instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-it-services.md) and add CIs \(Configuration Items\) to it. Set the status of the new service instance to Operational.
 
 </td></tr><tr><td>
 

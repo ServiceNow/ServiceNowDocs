@@ -22,7 +22,7 @@ Ensure that the query that you want to create a dynamic report for is a saved qu
 Role required:
 
 -   To create: cmdb\_query\_builder and report\_user
--   To view: Reporting role requirements might apply, see [Administering reports](https://www.servicenow.com/docs/access?context=c_AdminsteringReports&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) for Reporting role requirements.
+-   To view: Reporting role requirements might apply, see [Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdminsteringReports.md) for Reporting role requirements.
 
 ## About this task
 
@@ -60,14 +60,14 @@ However, if you change the query definition itself, the query and the report are
     -   **Source type** is set to **Data source**.
     -   **Data source** is set to the table in which the query results are stored.
     -   **Query Sys ID** is the ID of the latest run of the query.
-    For more details about Reporting and about configuring a report in the Report Designer, see [Reporting](https://www.servicenow.com/docs/access?context=reporting-landing-page&version=australia&pubname=australia-now-intelligence&ft:locale=en-US), [Creating reports](https://www.servicenow.com/docs/access?context=report-types-creation-details-rd&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    For more details about Reporting and about configuring a report in the Report Designer, see [Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/reporting-landing-page.md), [Creating reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md).
 
 6.  Click **Save** or **Run**.
 
 
 ## Result
 
-CMDB Query Builder creates a report source which you can attach to a report and use with dashboards. For more details about report sources, see [Report sources](https://www.servicenow.com/docs/access?context=c_ReportSources&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+CMDB Query Builder creates a report source which you can attach to a report and use with dashboards. For more details about report sources, see [Report sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_ReportSources.md).
 
 ## What to do next
 

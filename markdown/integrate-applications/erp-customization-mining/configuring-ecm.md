@@ -44,7 +44,7 @@ You should install Zero Copy Connector for ERP and add credentials there before 
 
 The number of ERP connections you can have per ServiceNow instance depends on your license.
 
-For details on Connections and Credentials, see [Connections and Credentials](https://www.servicenow.com/docs/access?context=r-credentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For details on Connections and Credentials, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md).
 
 ## Plugins for ERP Semantic Mining
 

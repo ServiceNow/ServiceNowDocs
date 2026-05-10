@@ -35,7 +35,7 @@ All Safety Data Sheets \(SDSs\) that are added to the safety registers through t
 
     **Tip:** You can narrow down the list using the **Register type** and **Location** filters. Alternatively, enter the name of the chemical in the search bar.
 
-    A safety admin can configure the search criteria in the Now Mobile app to help find the information quickly. For more information, see [Configure search criteria](https://www.servicenow.com/docs/access?context=sg-create-custom-search&version=australia&pubname=australia-mobile&ft:locale=en-US).
+    A safety admin can configure the search criteria in the Now Mobile app to help find the information quickly. For more information, see [Configure search criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-create-custom-search.md).
 
     The safety register document associated with the hazardous material shows.
 

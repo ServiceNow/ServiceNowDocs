@@ -26,7 +26,7 @@ You can use external codes for the following reference fields \(objects\), inclu
 -   Pricing adjustment type
 -   Account
 
-**Note:** External IDs apply to REST API pricing requests and do not affect UI‑based flows. Pricing execution can use internal system IDs, external IDs, or a combination of both IDs in pricing requests. For more information on the pricing API, see [Sales CRM Pricing API](https://www.servicenow.com/docs/access?context=sales-crm-pricing-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+**Note:** External IDs apply to REST API pricing requests and do not affect UI‑based flows. Pricing execution can use internal system IDs, external IDs, or a combination of both IDs in pricing requests. For more information on the pricing API, see [Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/sales-crm-pricing-api.md).
 
 ## How external IDs work in pricing requests
 

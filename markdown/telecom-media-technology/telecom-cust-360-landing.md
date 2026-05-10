@@ -48,7 +48,7 @@ Use the guided setup option to review the default configuration for the Telecomm
 
 6.  To create a custom card, select **Configure** and then select **New** and fill in the required fields.
 
-    Creating a custom card only defines the card's metadata. To display the card in the Telecom Customer 360 view, you must also add it to the page in UI Builder. See [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US) for details.
+    Creating a custom card only defines the card's metadata. To display the card in the Telecom Customer 360 view, you must also add it to the page in UI Builder. See [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md) for details.
 
 7.  Complete the **Configure 360 card data and settings** task.
 
@@ -65,7 +65,7 @@ Use the guided setup option to review the default configuration for the Telecomm
 
 9.  Select **Configure** to open the Telecom Customer 360 record page variant in UI Builder.
 
-    **Note:** The Telecom Customer 360 record variant is set to Read-only. Do not edit the Telecom Customer 360 record variant directly to preserve the base configuration and avoid upgrade conflicts. Clone the record variant, set an appropriate order, update the variant condition and audience on the new version. See [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US) for details.
+    **Note:** The Telecom Customer 360 record variant is set to Read-only. Do not edit the Telecom Customer 360 record variant directly to preserve the base configuration and avoid upgrade conflicts. Clone the record variant, set an appropriate order, update the variant condition and audience on the new version. See [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md) for details.
 
 10. Select **Mark as Complete**.
 

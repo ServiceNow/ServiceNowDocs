@@ -23,7 +23,7 @@ Role required: sn\_ohs\_im.admin
 
 This property is required to set a default coordinate for the map when using the map location feature to report an incident or an observation.
 
-The Geo map component \[sn\_geo\_map\] must be installed to use this feature. For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The Geo map component \[sn\_geo\_map\] must be installed to use this feature. For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 ## Procedure
 

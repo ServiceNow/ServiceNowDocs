@@ -19,7 +19,7 @@ Design and manage the appearance of the widget, such as the title, display style
 
 Role required: sp\_admin or admin
 
-**Note:** These configuration options are only available for the Quick links widget, not the Quick links \(CD\) widget. To verify which widget is present in your portal, open the page in the Service Portal Designer [Create and edit a page using the Service Portal Designer](https://www.servicenow.com/docs/access?context=t_ConfigureAPage&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US). For more information on how to configure quick links, see [Create a quick link](create-quick-links.md)
+**Note:** These configuration options are only available for the Quick links widget, not the Quick links \(CD\) widget. To verify which widget is present in your portal, open the page in the Service Portal Designer [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md). For more information on how to configure quick links, see [Create a quick link](create-quick-links.md)
 
 ## Procedure
 

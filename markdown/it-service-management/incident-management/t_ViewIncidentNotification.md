@@ -40,7 +40,7 @@ Incident notifications use the email notification layout and template that are s
 
 You can redirect the users to the incident or major incident record in Service Operations Workspace instead of opening in the UI16 interface of Incident Management or Major Incident Management. For more information, see [Email notification redirection for incident and major incident](../concept/email-notif-redirt-inci-major-inci.md).
 
-To receive these notifications, the end user must enable notifications. For more information, see [Subscription-based notifications](https://www.servicenow.com/docs/access?context=c_SubscriptionBasedNotifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+To receive these notifications, the end user must enable notifications. For more information, see [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SubscriptionBasedNotifications.md).
 
 -   **[Email notification redirection for incident and major incident](../concept/email-notif-redirt-inci-major-inci.md)**  
 You can redirect the users to the incident or major incident record in Service Operations Workspace \(SOW\) instead of opening in the UI16 interface of Incident Management or Major Incident Management.
@@ -50,5 +50,5 @@ You can redirect the users to the incident or major incident record in Service O
 **Related topics**  
 
 
-[Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md)
 

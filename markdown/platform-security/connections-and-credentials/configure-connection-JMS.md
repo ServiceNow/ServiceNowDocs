@@ -29,7 +29,7 @@ The MID Server must have the correct JMS connection factories for your organizat
 
 2.  Click **New**, select **JMS Connection**, fill in the form, and then click **Submit**.
 
-<table id="choicetable_gqc_pd4_5y"><tbody><tr><td id="d201569e104">
+<table id="choicetable_gqc_pd4_5y"><tbody><tr><td id="d202486e104">
 
 **Name**
 
@@ -37,7 +37,7 @@ The MID Server must have the correct JMS connection factories for your organizat
 
 Unique name of this connection factory.
 
-</td></tr><tr><td id="d201569e113">
+</td></tr><tr><td id="d202486e113">
 
 **Credential**
 
@@ -45,7 +45,7 @@ Unique name of this connection factory.
 
 Add credentials for JMS provider.
 
-</td></tr><tr><td id="d201569e122">
+</td></tr><tr><td id="d202486e122">
 
 **Connection Alias**
 
@@ -53,7 +53,7 @@ Add credentials for JMS provider.
 
 Select the alias record to associate with this connection. Using an alias enables you to update the connection record without having to reconfigure any actions or activities that use the alias.
 
-</td></tr><tr><td id="d201569e134">
+</td></tr><tr><td id="d202486e134">
 
 **Initial Context Factory**
 
@@ -61,7 +61,7 @@ Select the alias record to associate with this connection. Using an alias enable
 
 Name of the JNDI class that is used to create the InitialContext. **Note:** For example, to connect to ActiveMQ V5.10 \(JMS Provider\), the value is `org.apache.activemq.jndi.ActiveMQInitialContextFactory`.
 
-</td></tr><tr><td id="d201569e149">
+</td></tr><tr><td id="d202486e149">
 
 **Provider URL**
 
@@ -69,7 +69,7 @@ Name of the JNDI class that is used to create the InitialContext. **Note:** For 
 
 Location of the running JMS provider installation. **Note:** For example, to connect to ActiveMQ V5.1: `tcp://ipAddressOrHostName:61616`.
 
-</td></tr><tr><td id="d201569e165">
+</td></tr><tr><td id="d202486e165">
 
 **Active**
 
@@ -77,7 +77,7 @@ Location of the running JMS provider installation. **Note:** For example, to con
 
 Check the box to make this an active connection.
 
-</td></tr><tr><td id="d201569e174">
+</td></tr><tr><td id="d202486e174">
 
 **Domain**
 
@@ -85,7 +85,7 @@ Check the box to make this an active connection.
 
 Determine the domain the action or activity runs in.
 
-</td></tr><tr><td id="d201569e183">
+</td></tr><tr><td id="d202486e183">
 
 **Use MID server**
 
@@ -93,7 +93,7 @@ Determine the domain the action or activity runs in.
 
 Check to use a MID Server for this action or activity. If selected, define fields in the Advanced MID Server Configuration section.
 
-</td></tr><tr><td id="d201569e192">
+</td></tr><tr><td id="d202486e192">
 
 **MID Selection**
 
@@ -103,11 +103,11 @@ Option to select a specific MID Server or MID Cluster. Choose any one of the fol
 -   **Specific MID Server**: Your ServiceNow instance uses MID Server that you specify.
 -   **Specific MID Cluster**: Your ServiceNow instance uses the MID Cluster that you specify.
 
-A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see [Configure a MID Server cluster](https://www.servicenow.com/docs/access?context=t_ConfigureAMIDServerCluster&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md).
 
  This field is available when **Use MID Server** is checked.
 
-</td></tr><tr><td id="d201569e252">
+</td></tr><tr><td id="d202486e252">
 
 **MID Cluster**
 
@@ -115,7 +115,7 @@ A MID Cluster is a group of MID Servers that enables your ServiceNow instance to
 
 The specific MID Cluster you want to use. This field is available when **Use MID Server** is checked, and **Specific MID Cluster** is selected from the MID Selection list.
 
-</td></tr><tr><td id="d201569e270">
+</td></tr><tr><td id="d202486e270">
 
 **Capabilities**
 
@@ -123,9 +123,9 @@ The specific MID Cluster you want to use. This field is available when **Use MID
 
 The capabilities the MID Server must support to be eligible for selection. The system runs the action or activity from a MID Server that supports the selected capabilities. Only displays if **Use MID server** is selected.
 
- To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+ To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
 
-</td></tr><tr><td id="d201569e304">
+</td></tr><tr><td id="d202486e304">
 
 **MID Application**
 
@@ -133,7 +133,7 @@ The capabilities the MID Server must support to be eligible for selection. The s
 
 The application the MID Server must support to be eligible for selection. The system runs the action from a MID Server that supports the selected application. Only displays if **Use MID server** is selected.
 
- To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+ To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
 
 </td></tr></tbody>
 </table>3.  Navigate to **Connections &amp; Credentials** &gt; **Credentials**.

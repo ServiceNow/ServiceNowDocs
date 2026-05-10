@@ -60,5 +60,5 @@ Role required: workspace\_admin or ui\_builder\_admin​
 **Related topics**  
 
 
-[Create and bind a client state parameter to a component](https://www.servicenow.com/docs/access?context=state-parameters&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[Create and bind a client state parameter to a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/state-parameters.md)
 

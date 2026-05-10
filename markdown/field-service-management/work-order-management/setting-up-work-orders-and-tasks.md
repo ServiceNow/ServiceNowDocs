@@ -68,10 +68,10 @@ The steps for setting up work orders and tasks are:
 
 Users with the wm\_agent role can work with operational records and perform actions such as update certain task fields, record the task time, and cancel tasks even if they are not assigned to them, unless restricted by Access Control Lists \(ACL\) or query rules. To enforce stricter controls on the wm\_agent role, you can:
 
--   Enforce access control at record and field levels. For more information, see [Configure an ACL rule](https://www.servicenow.com/docs/access?context=t_CreateAnACLRule&version=australia&pubname=australia-platform-security&ft:locale=en-US).
--   Apply pre-query filtering. For more information, see [CSM Query Rules](https://www.servicenow.com/docs/access?context=csm-query-rules&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
--   Apply dynamic filtering. For more information, see [Before Query business rules](https://www.servicenow.com/docs/access?context=bp-before-query-business-rules&version=australia&pubname=australia-platform-security&ft:locale=en-US).
--   Apply restrictions at the UI level. For more information, see [Using UI policies](https://www.servicenow.com/docs/access?context=t_CreateAUIPolicy&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Enforce access control at record and field levels. For more information, see [Configure an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_CreateAnACLRule.md).
+-   Apply pre-query filtering. For more information, see [CSM Query Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-query-rules.md).
+-   Apply dynamic filtering. For more information, see [Before Query business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-before-query-business-rules.md).
+-   Apply restrictions at the UI level. For more information, see [Using UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUIPolicy.md).
 
 To enforce strict separation between different departments or to separate sensitive data, domain separation is recommended. It ensures data isolation, domain-specific access controls, and controlled data sharing.
 

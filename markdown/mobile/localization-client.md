@@ -24,11 +24,11 @@ Translations are provided by the administrators who must configure the required 
 For more information, refer to the following topics:
 
 -   [Client-side translations within your mobile app](https://www.servicenow.com/community/international-localization/need-to-translate-the-mobile-app-check-this/ta-p/3433635) \(ServiceNow Community article\)
--   [System Localization](https://www.servicenow.com/docs/access?context=system-localization-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
--   [Localization Workspace](https://www.servicenow.com/docs/access?context=localization-workspace&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
--   [Translated Name / Field table](https://www.servicenow.com/docs/access?context=r_TranslatedNameFieldTable&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
--   [Artifact configurations](https://www.servicenow.com/docs/access?context=framework-configuration&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
--   [Create and configure a custom artifact](https://www.servicenow.com/docs/access?context=create-configure-custom-artifact&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+-   [System Localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/system-localization-landing.md)
+-   [Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/localization-workspace.md)
+-   [Translated Name / Field table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_TranslatedNameFieldTable.md)
+-   [Artifact configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/framework-configuration.md)
+-   [Create and configure a custom artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/create-configure-custom-artifact.md)
 -   [Localization Framework artifact examples](https://www.servicenow.com/community/international-localization/need-to-translate-a-par-dashboard-check-this/ta-p/2839751) \(ServiceNow Community article\)
 
 ## Licensing
@@ -37,8 +37,8 @@ The Mobile Custom Localization app is available from the  ServiceNow Store and
 
 For more information, refer to the following topics:
 
--   [ServiceNow Store](https://www.servicenow.com/docs/access?context=servicenow-store&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
--   [Get a free application](https://www.servicenow.com/docs/access?context=get-free-app&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+-   [ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/servicenow-store.md)
+-   [Get a free application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/get-free-app.md)
 
 ## General Guidelines for client-side localization
 

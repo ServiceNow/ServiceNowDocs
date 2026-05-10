@@ -33,15 +33,15 @@ Using the **Attendees** tab of a safety meeting, you can keep track of all atten
 
 4.  In the **Attendees** tab, select **Add** or **New** to add attendees for this meeting.
 
-<table id="choicetable_owg_bw1_1fc"><thead><tr><th align="left" id="d615406e112">
+<table id="choicetable_owg_bw1_1fc"><thead><tr><th align="left" id="d621546e112">
 
 Option
 
-</th><th align="left" id="d615406e115">
+</th><th align="left" id="d621546e115">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d615406e121">
+</th></tr></thead><tbody><tr><td id="d621546e121">
 
 **To add multiple attendees**
 
@@ -52,7 +52,7 @@ Add users with the Health and Safety profile in your organization who are attend
 3.  Select users in the list and then select **Add**.
 For information on Health and Safety profile, see [Health and Safety user profile](../concept/health-and-safety-user-profile.md).
 
-</td></tr><tr><td id="d615406e167">
+</td></tr><tr><td id="d621546e167">
 
 **To add an external attendee or a single internal attendee**
 

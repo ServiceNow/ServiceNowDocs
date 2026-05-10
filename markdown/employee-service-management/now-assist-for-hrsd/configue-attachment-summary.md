@@ -27,7 +27,7 @@ Role required: sn\_hr\_core.admin
 
 3.  Make a copy of the case summarization skill.
 
-    For more information, see [Make a copy of a Now Assist skill](https://www.servicenow.com/docs/access?context=make-a-copy-of-a-now-assist-skill&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more information, see [Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
 
 4.  Navigate to the Choose input step.
 

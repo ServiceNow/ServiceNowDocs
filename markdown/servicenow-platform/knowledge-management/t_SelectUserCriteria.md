@@ -46,7 +46,7 @@ Starting with the Washington DC release, the Knowledge Management v3 homepage \(
         |Can Contribute|Users can create, modify, and retire knowledge articles in a knowledge base. Contribute access to a knowledge base also provides read access to all articles in the knowledge base.|
         |Cannot Contribute|Users can't create, modify, retire, or read knowledge articles in the knowledge base.|
 
-        **Note:** If the related lists aren't visible, configure the Knowledge form to display them. For more information, see [Add a related list to a form](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+        **Note:** If the related lists aren't visible, configure the Knowledge form to display them. For more information, see [Add a related list to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
     2.  In the selected related list, add the required user criteria.
 

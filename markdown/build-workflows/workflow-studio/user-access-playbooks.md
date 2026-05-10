@@ -223,7 +223,7 @@ none
 
 ## Delegated development access
 
-Administrators can grant users access to Workflow Studio playbooks by creating an application and assigning users as developers with the playbook [delegated development](https://www.servicenow.com/docs/access?context=c_DelegatedDevelopment&version=australia&pubname=australia-application-development&ft:locale=en-US) permission. Delegated development allows administrators to control whether playbook authors can access features normally restricted to admin users. For more information, see [Developer permissions](https://www.servicenow.com/docs/access?context=developer-permissions&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Administrators can grant users access to Workflow Studio playbooks by creating an application and assigning users as developers with the playbook [delegated development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md) permission. Delegated development allows administrators to control whether playbook authors can access features normally restricted to admin users. For more information, see [Developer permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/developer-permissions.md).
 
 ## Role-based content filtering
 

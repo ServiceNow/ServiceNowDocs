@@ -6,7 +6,7 @@ release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Incident Management plugins, Reference section for Incident Management, Incident Management, IT Service Management]
 ---
@@ -80,5 +80,5 @@ Select the date and time to activate the plugin.
 **Related topics**  
 
 
-[List of Australia plugins](https://www.servicenow.com/docs/access?context=list-of-plugins&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[List of Australia plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

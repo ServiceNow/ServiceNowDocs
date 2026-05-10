@@ -36,5 +36,5 @@ You can access Workplace Lease Administration, either from the Core UI or Workpl
 
 For more information about installing Workplace Central, see [Install Workplace Central](../../workplace-central/task/install-workplace-central.md).
 
-For more information on the workplace contract workflow, states, and substates, see [Contract life cycle](https://www.servicenow.com/docs/access?context=c_ContractLifeCycle&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+For more information on the workplace contract workflow, states, and substates, see [Contract life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/c_ContractLifeCycle.md).
 

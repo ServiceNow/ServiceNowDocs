@@ -36,7 +36,7 @@ To edit a record in a list using quick edit functions, right-click a field and s
 
 ## List editor
 
-The list editor lets you edit field values in a list without opening a form. Administrators can configure the list editor. By default, list editing is disabled for some tables. Fields of [certain types](https://www.servicenow.com/docs/access?context=r_AdministeringTheListEditor&version=australia&pubname=australia-platform-administration&ft:locale=en-US) cannot be edited from lists.
+The list editor lets you edit field values in a list without opening a form. Administrators can configure the list editor. By default, list editing is disabled for some tables. Fields of [certain types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/r_AdministeringTheListEditor.md) cannot be edited from lists.
 
 ## Multiple record edits
 

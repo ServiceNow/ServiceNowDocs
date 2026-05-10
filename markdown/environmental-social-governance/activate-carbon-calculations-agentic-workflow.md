@@ -29,13 +29,13 @@ If you have the user sn\_esg\_gen\_ai.cmd\_agent\_user role, you can get carbon 
 
 This workflow uses an agentic approach to guide operational sustainability teams through carbon calculations, confirming accurate Scope 3 emissions reporting. It leverages conversational AI agents and integrated tools to select methodologies, map metrics, and validate emission factors for transparency and compliance. The process requires user interaction and runs under helper agent roles with ACL-based security to maintain oversight and efficiency.
 
-**Note:** You can add or remove AI agents from this workflow by making a copy and customizing it. For more information, about copying agentic workflows, see [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** You can add or remove AI agents from this workflow by making a copy and customizing it. For more information, about copying agentic workflows, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md).
 
 You can perform the following actions on Now Assist workflows if you have the sn\_generative\_ai.nsa\_admin role:
 
--   [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
--   [Modify an agentic workflow](https://www.servicenow.com/docs/access?context=modify-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
--   [Delete an agentic workflow](https://www.servicenow.com/docs/access?context=delete-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+-   [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md)
+-   [Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aia-use-case.md)
+-   [Delete an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/delete-aia-use-case.md).
 
 ## Procedure
 
@@ -66,13 +66,13 @@ You can perform the following actions on Now Assist workflows if you have the sn
 
 ## What to do next
 
-Use the **Testing** playground to [test your new agentic workflow](https://www.servicenow.com/docs/access?context=test-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) using example utterances.
+Use the **Testing** playground to [test your new agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md) using example utterances.
 
 Verify that the executive summary and recommendations are generated. If activation fails, check roles and skill configuration.
 
 Once you’ve confirmed the workflow is functioning as expected, begin by selecting the Ask Now Assist action menu and entering your prompt.
 
-If you have not already set up the Now Assist panel, for more information see, [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+If you have not already set up the Now Assist panel, for more information see, [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 -   **[Activate calculation creation AI agent](activate-calculation-creation-ai-agent.md)**  
 The calculation creation AI agent creates a calculated metric definition record using the formula passed in the input.

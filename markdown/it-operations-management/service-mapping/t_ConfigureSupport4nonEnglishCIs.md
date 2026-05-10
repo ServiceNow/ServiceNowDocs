@@ -56,5 +56,5 @@ This configuration affects only the user for which you perform this procedure.
 
 [Resolve pattern-related mapping errors](t_TBSMapProcess.md)
 
-[MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md)
 

@@ -159,7 +159,7 @@ Email/SMS Password Reset URL
 
 </td><td>
 
-Select the check box to enable users to reset the password by clicking a link in an email that the instance sends to them. This is the secured method of resetting a password. If configured, the instance also sends the URL to the users through SMS on mobile devices. By default, the self-service Password Reset processes enable this option. When you select this option, the **Auto-generate password** check box is not available. See [Example: The default self-service Password Reset process](https://www.servicenow.com/docs/access?context=c_SelfServicePasswordReset&version=australia&pubname=australia-platform-security&ft:locale=en-US) for an outline of the process that is enabled by default.
+Select the check box to enable users to reset the password by clicking a link in an email that the instance sends to them. This is the secured method of resetting a password. If configured, the instance also sends the URL to the users through SMS on mobile devices. By default, the self-service Password Reset processes enable this option. When you select this option, the **Auto-generate password** check box is not available. See [Example: The default self-service Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_SelfServicePasswordReset.md) for an outline of the process that is enabled by default.
 
  If you don’t select the **Email/SMS Password Reset URL** option and try to save the record, you get a message that suggests you select the verification options to configure with secure verification.
 

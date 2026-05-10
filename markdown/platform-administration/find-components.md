@@ -18,7 +18,7 @@ Activating a plugin installs an application on your instance. Each application c
 -   The application plugin must be activated.
 -   Roles required: admin or the application admin role
 
-    **Note:** The application admin role is only required for applications that use the [Application administration](https://www.servicenow.com/docs/access?context=application-administration&version=australia&pubname=australia-application-development&ft:locale=en-US) feature. For example, Vulnerability Response.
+    **Note:** The application admin role is only required for applications that use the [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-administration.md) feature. For example, Vulnerability Response.
 
 
 ## About this task

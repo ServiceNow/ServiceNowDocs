@@ -92,7 +92,7 @@ Webhook URL as configured on the ServiceNow instance.**Note:** This URL is for c
 
 Create a webhook and web service while selecting the appropriate authentication access using your ServiceNow instance admin role.
 
-For more information, see [Create a scripted REST API](https://www.servicenow.com/docs/access?context=t_CreateAScriptedRESTService&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+For more information, see [Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)
 
 </td></tr></tbody>
 </table>    ![Create a webhook integration for a ServiceNow instance.](../image/io-webhook-sn-integ.png)

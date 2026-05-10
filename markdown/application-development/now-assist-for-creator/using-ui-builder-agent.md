@@ -6,7 +6,7 @@ release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 5
 breadcrumb: [Use, UI generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
 ---
@@ -17,7 +17,7 @@ Use the UI Builder agent to learn about features and functionality, understand y
 
 The UI Builder agent introduces key features to enhance user experience. It offers an informative resource to answer questions about the features and functionality of UI Builder and provides links to relevant documentation. Additionally, it gives an overview of page configuration, helping developers understand the structure and interconnections of page elements. It also streamlines the process of modifying and enhancing pages by enabling you to apply different layouts, configure components, and update styles.
 
-Agentic workflows and their AI agents use [role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://www.servicenow.com/docs/access?context=define-sec-controls-aw&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 **Parent Topic:**[Using UI generation](using-ui-generation.md)
 

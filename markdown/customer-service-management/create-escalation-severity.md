@@ -42,7 +42,7 @@ The user interface determines which fields are highlighted for escalated cases a
 
 4.  In the **Style** field, enter a color.
 
-    To configure additional escalation severity records, the system administrator must configure a new style with the desired color. For more information, see [Highlight list fields](https://www.servicenow.com/docs/access?context=highlight-list-fields-platform&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    To configure additional escalation severity records, the system administrator must configure a new style with the desired color. For more information, see [Highlight list fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/highlight-list-fields-platform.md).
 
 5.  Click **Submit**.
 

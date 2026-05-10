@@ -17,7 +17,7 @@ You can manage the process of submitting the personal information from your pati
 
 As a user with the admin role, you can create a record producer to define the fields for the form where patient's can enter their personal information and then embed the form in the Patient Portal.
 
-By default, the **Enter personal Info** record producer is available for submitting key personal information. You can use the default record producer to add more fields or create your own record producer. For more information, see [Record Producer](https://www.servicenow.com/docs/access?context=c_RecordProducer&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+By default, the **Enter personal Info** record producer is available for submitting key personal information. You can use the default record producer to add more fields or create your own record producer. For more information, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md).
 
 **Note:** When the Vaccine Administration Management application is installed, a different record producer is available for submitting personal information for vaccines. For more information, see [Setting up the process for submitting personal information for vaccines](../../vaccine-management/concept/hcls-vam-config.-personal-info.md).
 

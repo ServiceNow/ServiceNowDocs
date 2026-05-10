@@ -23,7 +23,7 @@ The out-of-the-box components are built for any Playbook Experience you may need
 
 If, for example, you need a UXF Client Action to work for your instance of the playbook page, we recommend cloning the playbook widget instead.
 
-**Note:** To learn more about how to clone or create your own widget instead, see [Developing custom widgets](https://www.servicenow.com/docs/access?context=widget-dev-guide&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+**Note:** To learn more about how to clone or create your own widget instead, see [Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-dev-guide.md).
 
 ## Cloning a Playbook Service Portal Widget
 
@@ -69,7 +69,7 @@ Application
 
 </td><td>
 
-Choose an application scope that you want your widget to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Choose an application scope that you want your widget to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).
 
 </td></tr><tr><td>
 
@@ -97,7 +97,7 @@ Leverage the Angular JS two-way binding to bind your controller variables to you
 
 Only make changes to HTML templates if you have advanced coding knowledge and a firm understanding of AngularJS and the platform API.
 
-The iFrame URL is the URL of the UI Builder page. To learn more about the HTML template field, see [Developing custom widgets](https://www.servicenow.com/docs/access?context=widget-dev-guide&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US#section_gpd_lkw_h1b).**Warning:** Make sure the iFrame URL of your cloned widget is different from the iFrame URL for the out-of-the-box widget.
+The iFrame URL is the URL of the UI Builder page. To learn more about the HTML template field, see [Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-dev-guide.md#section_gpd_lkw_h1b).**Warning:** Make sure the iFrame URL of your cloned widget is different from the iFrame URL for the out-of-the-box widget.
 
 </td></tr><tr><td>
 
@@ -105,7 +105,7 @@ CSS
 
 </td><td>
 
-Configure the widget CSS. Configuring CSS in an actual widget affects all instances of that widget. To learn more about the CSS field, see [Developing custom widgets](https://www.servicenow.com/docs/access?context=widget-dev-guide&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US#section_gpd_lkw_h1b).
+Configure the widget CSS. Configuring CSS in an actual widget affects all instances of that widget. To learn more about the CSS field, see [Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-dev-guide.md#section_gpd_lkw_h1b).
 
 </td></tr><tr><td>
 
@@ -117,7 +117,7 @@ Script the server-side logic. This is helpful primarily with interacting with th
 
 A server script requires knowledge of the ServiceNow API to work with record data.
 
-To learn more about the Server script field, see [Developing custom widgets](https://www.servicenow.com/docs/access?context=widget-dev-guide&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US#section_gpd_lkw_h1b).
+To learn more about the Server script field, see [Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-dev-guide.md#section_gpd_lkw_h1b).
 
 </td></tr><tr><td>
 
@@ -147,7 +147,7 @@ Use a link function to directly manipulate the DOM.**Danger**
 
 The link function requires knowledge of AngularJS.
 
- To learn more about the Link field, see [Developing custom widgets](https://www.servicenow.com/docs/access?context=widget-dev-guide&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US#section_gpd_lkw_h1b).
+ To learn more about the Link field, see [Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-dev-guide.md#section_gpd_lkw_h1b).
 
 </td></tr><tr><td>
 
@@ -187,7 +187,7 @@ Option schema
 
 </td><td>
 
-Allows a Service Portal admin to configure a widget. To learn more about the Option schema field, [Widget option schema](https://www.servicenow.com/docs/access?context=c_WidgetInstanceOptions&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Allows a Service Portal admin to configure a widget. To learn more about the Option schema field, [Widget option schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_WidgetInstanceOptions.md).
 
 </td></tr><tr><td>
 

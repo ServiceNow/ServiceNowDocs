@@ -32,7 +32,7 @@ When you hover over or select an element in the playbook diagram, buttons such a
 
 2.  Enable the option **Show all buttons without the need to hover**.
 
-    To learn more about how you can make the UI most accessible for you, see [Configure Next Experience accessibility preferences](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+    To learn more about how you can make the UI most accessible for you, see [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-accessibility-preferences.md)
 
 
 **Parent Topic:**[Configuring Playbooks](../concept/setting-up-process-automation-designer.md)

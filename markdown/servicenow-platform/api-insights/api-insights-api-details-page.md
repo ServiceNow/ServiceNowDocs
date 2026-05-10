@@ -118,7 +118,7 @@ Critical alerts
 
 </td><td>
 
-Critical alerts from IT operations related to the API enabling identifying major issues that could affect the API’s performance.Select the card to display all the open alerts in the Service Operations Workspace and access more detailed information on them. For more information, see [Service Operations Workspace](https://www.servicenow.com/docs/access?context=workspace-dashboard-use&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+Critical alerts from IT operations related to the API enabling identifying major issues that could affect the API’s performance.Select the card to display all the open alerts in the Service Operations Workspace and access more detailed information on them. For more information, see [Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/workspace-dashboard-use.md).
 
 </td></tr><tr><td>
 
@@ -126,7 +126,7 @@ Incidents
 
 </td><td>
 
-Recorded incidents, such as outages, change requests, or problems related to the API essential for tracking operational health and remediation efforts.Select the card to display all the open incidents in the Service Operations Workspace and access more detailed information on them. For more information, see [Service Operations Workspace](https://www.servicenow.com/docs/access?context=workspace-dashboard-use&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+Recorded incidents, such as outages, change requests, or problems related to the API essential for tracking operational health and remediation efforts.Select the card to display all the open incidents in the Service Operations Workspace and access more detailed information on them. For more information, see [Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/workspace-dashboard-use.md).
 
 </td></tr></tbody>
 </table>-   **Security**
@@ -147,7 +147,7 @@ Active vulnerability items
 
 </td><td>
 
-Security vulnerabilities associated with the API enabling to track and resolve potential risks.Select the card to display all vulnerabilities in the Vulnerability Manager Workspace and access more detailed information on them. For more information, see [Vulnerability Manager Workspace](https://www.servicenow.com/docs/access?context=vulnerability-manager-workspace-landing-page&version=australia&pubname=australia-security-management&ft:locale=en-US).
+Security vulnerabilities associated with the API enabling to track and resolve potential risks.Select the card to display all vulnerabilities in the Vulnerability Manager Workspace and access more detailed information on them. For more information, see [Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vulnerability-manager-workspace-landing-page.md).
 
 </td></tr><tr><td>
 
@@ -155,7 +155,7 @@ Security incidents
 
 </td><td>
 
-Security incidents, if enabled, providing insights into security breaches or issues that might have occurred with the API.Select the card to display all open security incidents in the Security Incident Response Workspace and access more detailed information on them. For more information, see [Security Incident Response Workspace](https://www.servicenow.com/docs/access?context=sir-workspace-landing-page&version=australia&pubname=australia-security-management&ft:locale=en-US).
+Security incidents, if enabled, providing insights into security breaches or issues that might have occurred with the API.Select the card to display all open security incidents in the Security Incident Response Workspace and access more detailed information on them. For more information, see [Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-workspace-landing-page.md).
 
 </td></tr></tbody>
 </table>-   **Relationship map**
@@ -166,9 +166,9 @@ Security incidents, if enabled, providing insights into security breaches or iss
 
     ![API unified map](../image/api-insights-rel-map.png "Unified map for APIs")
 
-    Nodes on the map represent the API and its components in the CMDB and lines represent connections and relationships between API components. The connections help you, for example, to assess the impact of a change to a selected node by showing components that are connected to it through relationships and references. Products such as [Change Management](https://www.servicenow.com/docs/access?context=c_ITILChangeManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US), [Incident Management](https://www.servicenow.com/docs/access?context=c_IncidentManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US), and [Event Management](https://www.servicenow.com/docs/access?context=c_EM&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) benefit from such information.
+    Nodes on the map represent the API and its components in the CMDB and lines represent connections and relationships between API components. The connections help you, for example, to assess the impact of a change to a selected node by showing components that are connected to it through relationships and references. Products such as [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ITILChangeManagement.md), [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentManagement.md), and [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EM.md) benefit from such information.
 
-    The map also shows the composition of application services useful with products such as [Event Management](https://www.servicenow.com/docs/access?context=c_EM&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) and [Incident Management](https://www.servicenow.com/docs/access?context=c_IncidentManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US). You can review historical changes.
+    The map also shows the composition of application services useful with products such as [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EM.md) and [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentManagement.md). You can review historical changes.
 
     The following elements are available in the unified map for APIs:
 

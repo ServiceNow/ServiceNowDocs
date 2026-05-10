@@ -23,7 +23,7 @@ Roles required: sn\_kmf.cryptographic\_manager
 
 This example shows you how a target instance requests keys from a host instance.
 
--   Before you can perform this procedure, you must clone an instance. See [Instance Clone](https://www.servicenow.com/docs/access?context=system-clone-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+-   Before you can perform this procedure, you must clone an instance. See [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-clone-landing.md) for more information.
 -   **Automatic Key Exchange**: The base system property **glide\_encryption.auto\_key\_exchange.enabled** is **true** by default, meaning that automatic is activated when cloning an instance. The property is cloned over to the target instance.
 -   Turn off automatic by setting the property to **false**.
 

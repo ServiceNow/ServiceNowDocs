@@ -21,7 +21,7 @@ The Install Windows App activity installs an application from an MSI package on 
 
 |Variable|Description|
 |--------|-----------|
-|hostname|Hostname or IP address of the target Windows machine on which the service is installed. Use the Resolve DNS [MID Server capabilities](https://www.servicenow.com/docs/access?context=t_ConfigureCapabilities&version=australia&pubname=australia-servicenow-platform&section=r_MIDServerCapabilities&ft:locale=en-US) to resolve hostnames into IP addresses.|
+|hostname|Hostname or IP address of the target Windows machine on which the service is installed. Use the Resolve DNS [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md) to resolve hostnames into IP addresses.|
 |installerpath|Path to the installer. The installer can be on any machine that is visible to both the MID Server and the target machine \(local drive, UNC path, mapped drive, etc.\).|
 |installer|Name of the installer file, such as `winzip150.msi`. The installer must be an MSI package.|
 |arguments|The parameter that contains the command line arguments to the MSI package. These are name=value pairs, separated by a space. For example, the argument might appear as: `INSTALLDIR=c:\myinstallfolder ADDDESKTOPICON=0`. These arguments are dependent on the what the actual MSI being installed defines. If there are no arguments, leave the field empty.|

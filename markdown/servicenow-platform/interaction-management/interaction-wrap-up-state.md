@@ -21,7 +21,7 @@ While in the Wrap Up state, an agent’s capacity is not reduced until the state
 
 **Note:** The interaction wrap up feature works with multiple types of communication channels. This feature supports a chat and messaging interactions base system.
 
-You can also use [AI interaction wrap up](https://www.servicenow.com/docs/access?context=interaction-wrapup-ai-generated&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) to generate wrap up content for an interaction, such as the wrap up code and notes.
+You can also use [AI interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-wrapup-ai-generated.md) to generate wrap up content for an interaction, such as the wrap up code and notes.
 
 ## Configuring interaction wrap up
 

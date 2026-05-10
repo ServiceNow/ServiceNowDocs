@@ -40,7 +40,7 @@ The deflection configuration and deflection pattern that you create in the defle
 
 The deflection metrics are generated and stored in the Deflection Metric \[ssa\_deflection\_metric\] table. To view the deflection metrics, navigate to the Deflection Metrics module in the Self-Service Analytics framework.
 
-**Note:** The Self-Service Analytics framework requires the Self-Service Analytics Core plugin \(com.snc.self\_service\_analytics\_core\). For more information, see [Activate Self-Service Analytics](https://www.servicenow.com/docs/access?context=activate-ssa-cs&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Note:** The Self-Service Analytics framework requires the Self-Service Analytics Core plugin \(com.snc.self\_service\_analytics\_core\). For more information, see [Activate Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-ssa-cs.md).
 
 ![Deflection metrics for Virtual Agent deflections.](../images/def-metrics.png "Deflection metrics")
 

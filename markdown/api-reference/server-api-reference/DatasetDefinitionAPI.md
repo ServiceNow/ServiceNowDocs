@@ -15,7 +15,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The DatasetDefinition API provides methods to identify a set of records including a table name, columns, and row selection criteria to use as input for ML training algorithms. Datasets don't contain the actual data.
 
-This API requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) and is provided within the `sn_ml` namespace. For information, see [Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+This API requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) and is provided within the `sn_ml` namespace. For information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md).
 
 Use the dataset to estimate mutual information [PredictabilityEstimate](../../PredictabilityEstimate/concept/PredictabilityEstimateAPI.md#) or train data specified by an [Encoder](../../Encoder/concept/EncoderAPI.md#). You can also use the dataset to train data specified by one of the following solution types:
 
@@ -24,7 +24,7 @@ Use the dataset to estimate mutual information [PredictabilityEstimate](../../Pr
 -   [RegressionSolution](../../RegressionSolution/concept/RegressionSolutionAPI.md#)
 -   [SimilaritySolution](../../SimilaritySolution/concept/SimilaritySolutionAPI.md#)
 
-For usage guidelines, refer to [Using ML APIs](https://www.servicenow.com/docs/access?context=using-ml-apis&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For usage guidelines, refer to [Using ML APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/using-ml-apis.md).
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 
@@ -152,7 +152,7 @@ String
 
 </td><td>
 
-Optional. Encoded query string in standard Glide format. See [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US). You can construct the query to be absolute or relative. For example, your query can return rows for the previous 3 months \(relative\), or for the May through July period \(absolute\). Whether using an absolute or relative pattern, the data a definition identifies can change if the rows in the underlying table change.
+Optional. Encoded query string in standard Glide format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md). You can construct the query to be absolute or relative. For example, your query can return rows for the previous 3 months \(relative\), or for the May through July period \(absolute\). Whether using an absolute or relative pattern, the data a definition identifies can change if the rows in the underlying table change.
 
 </td></tr></tbody>
 </table>The following example shows how to create a dataset definition.

@@ -167,7 +167,7 @@ Allow vaccine exemptions.\[sn\_imt\_vaccine.allow\_vaccine\_exemptions\]
 
 </td><td>
 
-Enable this property to give users the ability to submit vaccine exemption requests. Exemptions do not affect the vaccine profile's **Covid 19 Vaccine Complete** status. This property is inactive by default.**Note:** If you do not want users to access the **Request vaccine exemption** module because it is not active, you can inactivate the module. For more information, see [Enable or disable an application menu or module](https://www.servicenow.com/docs/access?context=t_EnDisableAppMenuOrMod&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Enable this property to give users the ability to submit vaccine exemption requests. Exemptions do not affect the vaccine profile's **Covid 19 Vaccine Complete** status. This property is inactive by default.**Note:** If you do not want users to access the **Request vaccine exemption** module because it is not active, you can inactivate the module. For more information, see [Enable or disable an application menu or module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_EnDisableAppMenuOrMod.md).
 
 </td></tr><tr><td>
 

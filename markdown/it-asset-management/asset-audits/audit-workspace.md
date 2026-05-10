@@ -23,5 +23,5 @@ The Audit Workspace also supports repositories of financial regulatory requireme
 
 **Note:** All requirements and guidelines that have been supported since before the Australia release are automatically included in the base Asset Audit Response application. Any requirements and guidelines that are supported starting with the Australia release are available only through the Unified Content Management application. You must install this application from the ServiceNow® Store as an add-on to the base Asset Audit Response application.
 
-For more information on the Audit Workspace, see [Audit Workspace limited](https://www.servicenow.com/docs/access?context=lite-audit-workspace&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+For more information on the Audit Workspace, see [Audit Workspace limited](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/lite-audit-workspace.md).
 

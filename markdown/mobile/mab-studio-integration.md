@@ -15,7 +15,7 @@ Mobile App Builder and Mobile Card Builder are both available within ServiceNow 
 
 ServiceNow Studio offers a streamlined platform for ServiceNow® development, allowing admins and developers to extend system solutions, create custom apps, build app files, edit metadata, and package changes for deployment—all in one tool.
 
-To learn more about ServiceNow Studio, see [ServiceNow Studio](https://www.servicenow.com/docs/access?context=servicenow-studio-landing&version=australia&pubname=australia-application-development&ft:locale=en-US).
+To learn more about ServiceNow Studio, see [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md).
 
 ![mobile app builder record open in studio](../image/mab-snstudio.png "Mobile App Builder in ServiceNow Studio")
 

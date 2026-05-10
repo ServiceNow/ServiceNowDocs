@@ -68,7 +68,7 @@ Audience
 
 The audience determines who can see the page variant. The Front-line case page has the following audience: **CSM - Front-line Agent**This audience includes the sn\_cwf\_wrkspc.frontline\_agent role.
 
-For more information, see [Learn about audiences](https://www.servicenow.com/docs/access?context=add-audiences&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-audiences.md).
 
 </td></tr></tbody>
 </table>To access the settings for this page variant:
@@ -236,8 +236,8 @@ The Front-line case page action bar includes the **Follow** action in the More A
 
 You receive notifications in the Notifications menu at the top of the page according to your notification preferences. You can select the notification to open the record that was updated. For more information, see the following topics:
 
--   [Configure Next Experience notification preferences](https://www.servicenow.com/docs/access?context=next-experience-notifications-preferences&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
--   [Follow records in Next Experience](https://www.servicenow.com/docs/access?context=follow-records-in-next-experience&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+-   [Configure Next Experience notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-notifications-preferences.md)
+-   [Follow records in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/follow-records-in-next-experience.md)
 
 When the **Follow** action is selected, the button toggles to **Unfollow**. To stop receiving notifications, select **Unfollow**.
 
@@ -470,7 +470,7 @@ The user presence component displays an icon in the form header that shows the u
 -   Hover over an icon to see more information about a user.
 -   Select the number icon to see more information about the additional users.
 
-For more information about this feature, see [User presence](https://www.servicenow.com/docs/access?context=c_UserPresence&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For more information about this feature, see [User presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPresence.md).
 
 ## Requesting information from customers
 

@@ -27,7 +27,7 @@ Role required: sn\_publications.admin
 
 3.  To add an approver, click **Edit Approvers** next to the **Approvers** field and select an approver from the Users list.
 
-    This list includes users with the sn\_publications.approver role. The selected user is added to the **Approvers** field. Approvals on workflows is a platform functionality. For more information, see [Approval and rollback workflow activities](https://www.servicenow.com/docs/access?context=c_ApprovalAndRollbackActivities&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    This list includes users with the sn\_publications.approver role. The selected user is added to the **Approvers** field. Approvals on workflows is a platform functionality. For more information, see [Approval and rollback workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-activities/c_ApprovalAndRollbackActivities.md).
 
 4.  To remove an approver, click **Edit Approvers** next to the **Approvers** field, select the approver's name, and then click **Remove**.
 

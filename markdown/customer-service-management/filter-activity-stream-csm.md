@@ -61,5 +61,5 @@ Enhancements in the Activity Stream include the following:
 **Related topics**  
 
 
-[Configure Activity stream](https://www.servicenow.com/docs/access?context=configure-activity-stream-general&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[Configure Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-activity-stream-general.md)
 

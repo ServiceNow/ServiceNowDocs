@@ -27,7 +27,7 @@ The two methods are combined to rank results, improving relevance without requir
 
 ## Hybrid search results
 
-For example, a search for `My system keeps freezing` now returns relevant KB articles such as titled `Troubleshooting application performance degradation`, even if they do not use the word "freezing" — a query that previously returned no results with keyword-only search. With Hybrid Search, the article is surfaced because the search understands that freezing, lagging, and performance degradation describe the same problem. For more information on hybrid search, see [Hybrid search in AI Search](https://www.servicenow.com/docs/access?context=hybrid-search-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For example, a search for `My system keeps freezing` now returns relevant KB articles such as titled `Troubleshooting application performance degradation`, even if they do not use the word "freezing" — a query that previously returned no results with keyword-only search. With Hybrid Search, the article is surfaced because the search understands that freezing, lagging, and performance degradation describe the same problem. For more information on hybrid search, see [Hybrid search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/hybrid-search-ais.md).
 
 ## Default behavior
 

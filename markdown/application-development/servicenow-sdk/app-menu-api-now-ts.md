@@ -105,7 +105,7 @@ Reference
 
 </td><td>
 
-The variable identifier of a menu category \[sys\_app\_category\] that defines the navigation menu style. To define a menu category, use the [Record API - ServiceNow Fluent](record-api-now-ts.md#).For general information about menu categories, see [Customize menu categories](https://www.servicenow.com/docs/access?context=customize-menu-categories&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+The variable identifier of a menu category \[sys\_app\_category\] that defines the navigation menu style. To define a menu category, use the [Record API - ServiceNow Fluent](record-api-now-ts.md#).For general information about menu categories, see [Customize menu categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/customize-menu-categories.md).
 
 </td></tr><tr><td>
 

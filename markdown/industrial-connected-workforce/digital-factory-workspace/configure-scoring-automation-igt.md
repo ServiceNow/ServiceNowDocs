@@ -33,11 +33,11 @@ Role required: sn\_icw\_igt.standard\_author
 
     1.  Configure automation of guided tasks by selecting the **Automations** tab.
 
-        The availability of the Automation feature is dependent on the installation of Automation plugins described in [Smart Assessment Engine automation plugin dependencies](../reference/sae-automation-plugin-dependencies.md). For the detailed information about configuring automations in Smart Assessment Engine, see [Configure post-assessment actions](https://www.servicenow.com/docs/access?context=configure-post-assessment-actions&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+        The availability of the Automation feature is dependent on the installation of Automation plugins described in [Smart Assessment Engine automation plugin dependencies](../reference/sae-automation-plugin-dependencies.md). For the detailed information about configuring automations in Smart Assessment Engine, see [Configure post-assessment actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/configure-post-assessment-actions.md).
 
     2.  Configure scoring for guided tasks by selecting the **Scoring** tab.
 
-        For detailed information about configuring Scoring in Smart Assessment Engine, see [Configure scoring for an assessment](https://www.servicenow.com/docs/access?context=configure-scoring-for-assessments&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+        For detailed information about configuring Scoring in Smart Assessment Engine, see [Configure scoring for an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/configure-scoring-for-assessments.md).
 
     3.  Enable normalized scoring for the standard.
 
@@ -55,7 +55,7 @@ Role required: sn\_icw\_igt.standard\_author
 **Related topics**  
 
 
-[Scoring assessments](https://www.servicenow.com/docs/access?context=scoring-in-assessments&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)
+[Scoring assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/scoring-in-assessments.md)
 
-[Post-assessment automations](https://www.servicenow.com/docs/access?context=impact-automation&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)
+[Post-assessment automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/impact-automation.md)
 

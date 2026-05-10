@@ -15,7 +15,7 @@ breadcrumb: [Service offerings in Service Portfolio Management, Use, Service Por
 
 Service offerings inherit the pricing structure of the associated parent service. If the price model for each service offering in Service Portfolio Management is defined in the parent service as per unit, then each service offering must also have an associated price unit. The actual price for that unit is established in the service offering record.
 
-You can review service offering information regularly as a part of [Data Certification](https://www.servicenow.com/docs/access?context=c_DataCertification&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and workflow. For example, you can set up a certification to validate pricing for your service offerings.
+You can review service offering information regularly as a part of [Data Certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_DataCertification.md) and workflow. For example, you can set up a certification to validate pricing for your service offerings.
 
 Forecast service usage and cost for a fiscal period to plan your future business using the Showback functionality of Financial Management.
 

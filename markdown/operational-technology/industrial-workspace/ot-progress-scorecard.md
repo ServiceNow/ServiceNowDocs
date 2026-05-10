@@ -87,7 +87,7 @@ OT Device Data Completeness \(%\)
 
 </td><td>
 
-The percentage of OT devices that meet your data goals. This metric depends on the CMDB Health Dashboard - Completeness Score Calculation job and you must set the required &amp; recommended fields on the CI Class Manager. For more information, see [Configuring CMDB Health](https://www.servicenow.com/docs/access?context=c_CMDBHealthSetupandConfig&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Completeness is a KPI determined by the following metrics:
+The percentage of OT devices that meet your data goals. This metric depends on the CMDB Health Dashboard - Completeness Score Calculation job and you must set the required &amp; recommended fields on the CI Class Manager. For more information, see [Configuring CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealthSetupandConfig.md).Completeness is a KPI determined by the following metrics:
 
 -   **Required**
 
@@ -98,7 +98,7 @@ Measures the percentage of CIs in which fields that are defined as required, are
 Measures the percentage of CIs in which fields that are set as recommended, aren't populated.
 
 
-For more information about data completeness, see [CMDB Health KPIs and metrics](https://www.servicenow.com/docs/access?context=r_CMDBHealthMetrics&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+For more information about data completeness, see [CMDB Health KPIs and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthMetrics.md)
 
 **Note:** If you see a value of -1, then the CMDB Health Dashboard - Completeness Score Calculation job hasn't been run yet. Or the job has been run with an incomplete status.
 

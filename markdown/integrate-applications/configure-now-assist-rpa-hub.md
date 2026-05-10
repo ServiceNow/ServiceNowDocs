@@ -31,15 +31,15 @@ Refer to the [Now Assist Overview](https://www.servicenow.com/content/dam/servic
 
 1.  Perform any of the following tasks to install the Now Assist for RPA Hub application.
 
-<table id="choicetable_b2q_dpq_y2c"><thead><tr><th align="left" id="d110353e142">
+<table id="choicetable_b2q_dpq_y2c"><thead><tr><th align="left" id="d110372e142">
 
 Option
 
-</th><th align="left" id="d110353e145">
+</th><th align="left" id="d110372e145">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d110353e151">
+</th></tr></thead><tbody><tr><td id="d110372e151">
 
 **From Now Assist Admin**
 
@@ -52,7 +52,7 @@ Action
 5.  Select **Install**.
 
 
-</td></tr><tr><td id="d110353e213">
+</td></tr><tr><td id="d110372e213">
 
 **From System Applications**
 
@@ -81,7 +81,7 @@ To view the installed plugins, navigate to **All** &gt; **Now Assist Admin** &gt
 
 ## What to do next
 
-If you are upgrading to the Yokohama Patch 3 release, reindex the data source. For more information, see [Perform a full table index or reindex for multiple AI Search indexed sources](https://www.servicenow.com/docs/access?context=index-multiple-sources-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US). In the step 2 of this procedure, select the indexed source as RPA Component \[sn\_rpa\_na\_rpa\_component\].
+If you are upgrading to the Yokohama Patch 3 release, reindex the data source. For more information, see [Perform a full table index or reindex for multiple AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-multiple-sources-ais.md). In the step 2 of this procedure, select the indexed source as RPA Component \[sn\_rpa\_na\_rpa\_component\].
 
 Turn on the Robotic Process Automation \(RPA\) bot generation skill to use generative AI to create automations, activities, and automation logic additions from text instructions and preview options. For more information, see [Turn on the RPA bot generation skill](turn-rpa-bot-generation-skill.md).
 

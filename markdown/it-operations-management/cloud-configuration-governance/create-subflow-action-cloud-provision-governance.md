@@ -17,7 +17,7 @@ Create a subflow with the required input parameters that notifies Cloud Provisio
 
 ## Before you begin
 
--   Ensure that you are familiar with the concepts of , [Subflows](https://www.servicenow.com/docs/access?context=subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US), and [Action Designer](https://www.servicenow.com/docs/access?context=actions&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+-   Ensure that you are familiar with the concepts of , [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md), and [Action Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/actions.md).
 -   Create a subflow that you intend to invoke for pre or post-provisioning.
 
 Role required: flow\_designer, action\_designer, or admin
@@ -36,7 +36,7 @@ The response action communicates to the Cloud Provisioning and Governance applic
 
 1.  Navigate to **All** &gt; **Flow Designer** &gt; **Actions** tab, select **New Action**.
 
-    For more information, see [Create an action](https://www.servicenow.com/docs/access?context=create-action&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For more information, see [Create an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-action.md).
 
 2.  Fill in the Action Properties.
 

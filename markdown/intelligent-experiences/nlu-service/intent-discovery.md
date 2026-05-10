@@ -78,7 +78,7 @@ When the analysis is complete, the column values on the screen appear, with the 
 
 ## Importing recommended intents to new or existing custom models
 
-Before importing intents to an NLU model, ensure that you are in the same application scope as the model. For more information, see [Select an application from the application picker](https://www.servicenow.com/docs/access?context=t_SelectAnAppFromTheAppPicker&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Before importing intents to an NLU model, ensure that you are in the same application scope as the model. For more information, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md).
 
 1. On the Records covered by recommendations section of the screen, select the caret icon on a recommended intent you want to add to a custom model.
 

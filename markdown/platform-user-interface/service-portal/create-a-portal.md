@@ -261,7 +261,7 @@ Search Application
 
 </td><td>
 
-Defines the search experience settings for your portal, such as the search engine, search results limit, and suggestions limit. For more information on defining a search application configuration, see [Defining search application configurations](https://www.servicenow.com/docs/access?context=defining-search-app-cfgs-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Defines the search experience settings for your portal, such as the search engine, search results limit, and suggestions limit. For more information on defining a search application configuration, see [Defining search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-app-cfgs-ais.md).
 
 </td></tr><tr><td>
 
@@ -269,7 +269,7 @@ Search Results Configuration
 
 </td><td>
 
-Defines how search results are displayed in the portal. For more information on defining a search results configuration, see [Define a composite dataset](https://www.servicenow.com/docs/access?context=define-composite-dataset&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Defines how search results are displayed in the portal. For more information on defining a search results configuration, see [Define a composite dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-composite-dataset.md).
 
 </td></tr></tbody>
 </table>3.  Save the form.

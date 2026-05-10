@@ -63,7 +63,7 @@ Condition
 
 </td><td>
 
-Expression logic to specify a condition for following this branch in the conversation. The condition must evaluate to true.-   **Condition**: Use the [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to add or edit conditions.
+Expression logic to specify a condition for following this branch in the conversation. The condition must evaluate to true.-   **Condition**: Use the [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to add or edit conditions.
 -   **Script**: Use the script editor to create or edit a script that contains a condition statement.
 
 

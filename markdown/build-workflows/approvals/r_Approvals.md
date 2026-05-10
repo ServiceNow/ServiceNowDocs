@@ -72,7 +72,7 @@ Approval Summarizer
 
 </td><td>
 
-A [Create a formatter and add it to a form](https://www.servicenow.com/docs/access?context=t_CreateAFormatter&version=australia&pubname=australia-platform-administration&ft:locale=en-US) that displays key fields relevant to the approval from the referenced document. This summarizer will not display if there is no record referenced.
+A [Create a formatter and add it to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAFormatter.md) that displays key fields relevant to the approval from the referenced document. This summarizer will not display if there is no record referenced.
 
 </td></tr></tbody>
 </table>

@@ -30,7 +30,7 @@ Some semantic shortcuts are provided in the base system, and you can add more fo
 You can create a new shortcut, or modify an existing shortcut, as follows.
 
 -   If any shortcut already exists for your target table and filter conditions, you must add your new shortcut to the current record. Separate multiple shortcuts with a comma.
--   Shortcuts can point to reference fields, using dot-walking. For more information, see [Dot-walking examples](https://www.servicenow.com/docs/access?context=dot-walking-examples&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+-   Shortcuts can point to reference fields, using dot-walking. For more information, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dot-walking-examples.md).
 -   Synonyms are case-insensitive in queries.
 -   Synonyms can contain apostrophes and periods, but not commas.
 -   Synonym and shortcut records are associated to one table. You can associate the same synonym term to more than one table, but you must create a record for each table.

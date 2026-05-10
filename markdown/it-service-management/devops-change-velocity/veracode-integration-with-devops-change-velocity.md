@@ -36,7 +36,7 @@ You can view the security scan results either in the related list of a Change Re
 
 ## Get started
 
-You must install the DevOps Vulnerability Integrations \(sn\_devops\_vul\_ints\) and Vulnerability Response Integration with Veracode \(sn\_vul\_veracode\) plugins before connecting your Veracode instance to ServiceNow. For more information on activating a plugin, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+You must install the DevOps Vulnerability Integrations \(sn\_devops\_vul\_ints\) and Vulnerability Response Integration with Veracode \(sn\_vul\_veracode\) plugins before connecting your Veracode instance to ServiceNow. For more information on activating a plugin, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
 
 **Note:**
 

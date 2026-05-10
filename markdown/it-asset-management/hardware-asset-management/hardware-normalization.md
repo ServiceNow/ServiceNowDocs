@@ -19,7 +19,7 @@ The Hardware Model Normalization \(com.sn\_hwnorm\) plugin is activated when you
 
 For more information about the process of normalizing hardware and consumable models, see [Normalize hardware and consumable models](../task/normalize-hardware-consumable-models.md).
 
-**Note:** This documentation is for Hardware Model Normalization. For additional information on Asset Management, see the [Asset Management documentation](https://www.servicenow.com/docs/access?context=c_AssetManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+**Note:** This documentation is for Hardware Model Normalization. For additional information on Asset Management, see the [Asset Management documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/asset-management/c_AssetManagement.md).
 
 ## Scheduled jobs
 

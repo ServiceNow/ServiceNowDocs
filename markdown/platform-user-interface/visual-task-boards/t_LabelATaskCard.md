@@ -33,7 +33,7 @@ You can add one or more labels to a task card.
 
 1.  Do one of the following actions.
 
-<table id="choicetable_t2r_5jd_pt"><tbody><tr><td id="d113895e91">
+<table id="choicetable_t2r_5jd_pt"><tbody><tr><td id="d122318e91">
 
 **Add a label to a card from the quick panel**
 
@@ -43,7 +43,7 @@ You can add one or more labels to a task card.
 2.  Drop the label in the drop zone.
 
 
-</td></tr><tr><td id="d113895e109">
+</td></tr><tr><td id="d122318e109">
 
 **Add a label to a card from the card details**
 

@@ -19,7 +19,7 @@ The TuneUp Your Hardware Asset Management \(HAM\) Accelerator provides guidance 
 
 TuneUp Your Hardware Asset Management provides Impact customers with an assessment of their current HAM implementation. This Accelerator includes an  applied demonstration of HAM capabilities to standardize asset lifecycle. Customers obtain assistance for better insight into their HAM investment and  are provided leading practices on how to best increase adoption and usage.
 
-See [Hardware Asset Management](https://www.servicenow.com/docs/access?context=ham-landing-page&version=australia&pubname=australia-it-asset-management&ft:locale=en-US) for additional information about HAM.
+See [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-landing-page.md) for additional information about HAM.
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

@@ -26,7 +26,7 @@ Add extra columns as choices to this side panel or remove any of the default col
 -   If the portfolio plan has multiple item types associated to it, update the view configuration of the Planning Item \[sn\_align\_core\_planning\_item\] table.
 -   If the portfolio plan has a single item type associated to it, update the view configuration of the relevant table.
 
-From the form view of the identified table, change the view to **APW Prioritization**, and update the list layout. For the detailed procedure of updating the layout configuration for a list, see [Configure the list layout](https://www.servicenow.com/docs/access?context=t_ConfigureTheListLayout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+From the form view of the identified table, change the view to **APW Prioritization**, and update the list layout. For the detailed procedure of updating the layout configuration for a list, see [Configure the list layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/t_ConfigureTheListLayout.md).
 
 **Note:** List v3 is no longer available for new deployments. If you are already using list v3, you may continue to do so, but in this case some of the functionalities might not be available.
 

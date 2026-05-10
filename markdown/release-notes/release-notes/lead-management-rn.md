@@ -16,13 +16,13 @@ The ServiceNow® Lead Management application enables your sales agents and sales
 
 -   Record early customer interactions and associate tasks with ongoing lead engagement using touchpoints throughout the pre‑deal sales lifecycle.
 
-See [Lead Management](https://www.servicenow.com/docs/access?context=lead-management&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
+See [Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md) for more information.
 
 **Important:** Lead Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[View touchpoint records for a task](https://www.servicenow.com/docs/access?context=lead-management-use-tasks-tab&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[View touchpoint records for a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-use-tasks-tab.md)**
 
     Record early customer interactions and associate tasks with ongoing engagement throughout the pre‑deal sales lifecycle by:
 
@@ -35,7 +35,7 @@ Install Lead Management by requesting it from the ServiceNow Store. Visit the [S
 
 ## Related ServiceNow applications and features
 
--   **[Activity Management](https://www.servicenow.com/docs/access?context=explore-activity-management&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-activity-management.md)**
 
     ServiceNow®Activity Management applications help sales and service teams work more productively by capturing, organizing, and acting on customer interactions in one place, helping to ensure complete context and effective follow‑up across Customer Relationship Management \(CRM\) records.
 

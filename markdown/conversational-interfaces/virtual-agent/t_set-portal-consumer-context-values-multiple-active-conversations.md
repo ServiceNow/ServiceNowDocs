@@ -19,7 +19,7 @@ Use context values to determine which portals receive certain messages and notif
 
 Activate Virtual Agent. For more information, see [Activate Virtual Agent](activate-virtual-agent.md).
 
-Configure your Agent Chat system for your portal or portals. See [Configure Agent Chat in a portal](https://www.servicenow.com/docs/access?context=configure-va-in-sp&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) for more information.
+Configure your Agent Chat system for your portal or portals. See [Configure Agent Chat in a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-va-in-sp.md) for more information.
 
 Role required: virtual\_agent\_admin or admin
 

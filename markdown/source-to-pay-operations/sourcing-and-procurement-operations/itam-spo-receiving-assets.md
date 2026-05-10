@@ -15,7 +15,7 @@ breadcrumb: [Sourcing Procurement Operations integration Asset, Integrate, Sourc
 
 As part of the Better Together integration, all asset receiving is handled within IT Asset Management \(ITAM\). When an item is initially received in ITAM, a receipt is automatically generated in SPO in the Pending Submission state.
 
-After the buyer confirms receipt against the purchase order in ITAM, a corresponding receipt is automatically created for the associated purchase order in Sourcing and Procurement Operations. For more information about receiving assets in ITAM, see [Receive an asset](https://www.servicenow.com/docs/access?context=t_ReceiveAnAsset&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).
+After the buyer confirms receipt against the purchase order in ITAM, a corresponding receipt is automatically created for the associated purchase order in Sourcing and Procurement Operations. For more information about receiving assets in ITAM, see [Receive an asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/t_ReceiveAnAsset.md).
 
 After the receipt is posted to the ERP system, the status of the SPO receipt changes to Posted.
 
@@ -29,15 +29,15 @@ As part of the shipment process, the ITAM shipment record passes shipment detail
 
 After receiving the requested items, the asset manager or an employee can acknowledge receipt using the following ITAM receiving experiences:
 
--   Mobile barcode scanning. For more information, see [Acknowledge receipt of an asset on a mobile device](https://www.servicenow.com/docs/access?context=receive-assets-from-ztr&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).
+-   Mobile barcode scanning. For more information, see [Acknowledge receipt of an asset on a mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/receive-assets-from-ztr.md).
 
     ![Asset receiving via mobile barcode scanning.](../image/itam-spo-barcode.png)
 
--   From the Employee Center portal. For more information, see [Acknowledge receipt of assets on the Employee Center portal](https://www.servicenow.com/docs/access?context=receive-assets-employee-center&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).
+-   From the Employee Center portal. For more information, see [Acknowledge receipt of assets on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/receive-assets-employee-center.md).
 
     ![Asset receiving from Employee Center.](../image/itam-spo-receive-ec.png)
 
--   From the ITAM purchase order. For more information, see [Receive an asset](https://www.servicenow.com/docs/access?context=t_ReceiveAnAsset&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).
+-   From the ITAM purchase order. For more information, see [Receive an asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/t_ReceiveAnAsset.md).
 
     .![Asset receiving via ITAM purchase orders.](../image/itam-spo-receive-po.png)
 

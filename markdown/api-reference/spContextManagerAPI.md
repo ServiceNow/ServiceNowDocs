@@ -19,7 +19,7 @@ The spContextManager API is an AngularJS service that you can use in Service Por
 
 Keys passed to this API are unique per page. For example, if the `'agent-chat'` key is already initialized by another widget on the page through the addContext\(\) method, you must use the updateContextForKey\(\) method to update the key's data. Available keys include: agent-chat: Sends widget data to Agent Chat.
 
-For more information about passing data to Agent Chat, see [Configure Agent Chat in Service Portal](https://www.servicenow.com/docs/access?context=configure-va-in-sp&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For more information about passing data to Agent Chat, see [Configure Agent Chat in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-va-in-sp.md).
 
 **Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
 

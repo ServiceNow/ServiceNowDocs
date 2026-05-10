@@ -6,7 +6,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Confirm the following:
     -   Discovery Admin Workspace v1.13.0.
     -   Visibility Content v6.13.10.
     -   Discovery and Service Mapping Patterns v1.30.2.
--   You have Code Signing enabled with the Circle of Trust established. For more information, see [Configuring Code Signing](https://www.servicenow.com/docs/access?context=config-code-signing&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   You have Code Signing enabled with the Circle of Trust established. For more information, see [Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/config-code-signing.md).
 
 Role required: security\_admin
 
@@ -50,5 +50,5 @@ The **com.glide.codesigning.tracking.unsupported\_script\_tracking.enabled** pro
 
 [Discovery on Code Signing instances](../concept/code-sign-disco-probes.md)
 
-[Code Signing](https://www.servicenow.com/docs/access?context=code-signing-landing&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-landing.md)
 

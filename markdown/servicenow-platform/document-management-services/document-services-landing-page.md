@@ -36,7 +36,7 @@ Document Services provides a broad range of services related to document managem
 
     Manage large numbers of documents efficiently. Document Management provides storage space and a tracking system to easily upload, retrieve, and delete documents.
 
--   **[Document Viewer](https://www.servicenow.com/docs/access?context=Documentviewer&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **[Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/Documentviewer.md)**
 
     View documents directly in the ServiceNow AI Platform® rather than having to download them. Document Viewer supports viewing various file types in the platform. The maximum document file size is 50 MB. Enable  Document Viewer and the tables you want to use with it at the instance level.
 
@@ -49,16 +49,16 @@ Document Services provides a broad range of services related to document managem
     Integrate providers with your ServiceNow instance to store files, upload, add versions, and download information with document providers.
 
 
--   [Upgrade to Australia](https://www.servicenow.com/docs/access?context=upgrade&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+-   [Upgrade to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrade.md)
 -   [Developer training](https://developer.servicenow.com/app.do#!/training/article/app_store_learnv2_automatingapps_paris_notifications/app_store_learnv2_automatingapps_paris_notifications_objectives?v=paris)
 -   [Domain separation and Document Management](../concept/domain-separation-document-services.md)
 
 ## Document generation apps
 
--   [PDFGenerationAPI API](https://www.servicenow.com/docs/access?context=PDFGenerationAPIBothAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
--   [Document API](https://www.servicenow.com/docs/access?context=DocumentBothAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
--   [DocumentListService API](https://www.servicenow.com/docs/access?context=DocumentListServiceBothAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
--   [DocumentService API](https://www.servicenow.com/docs/access?context=DocumentServiceBothAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+-   [PDFGenerationAPI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+-   [Document API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md)
+-   [DocumentListService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentListServiceBothAPI.md)
+-   [DocumentService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentServiceBothAPI.md)
 
 ## Troubleshoot and get help
 

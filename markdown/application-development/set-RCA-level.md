@@ -35,7 +35,7 @@ Role required: admin or application admin
 
 3.  Select the appropriate access level in the **Caller Access** field.
 
-<table id="choicetable_h1t_jtg_n1b"><tbody><tr><td id="d158598e128">
+<table id="choicetable_h1t_jtg_n1b"><tbody><tr><td id="d158602e128">
 
 **None**
 
@@ -43,7 +43,7 @@ Role required: admin or application admin
 
 Cross-scope calls to the resource are approved or denied based on the value of the **Accessible from** field.
 
-</td></tr><tr><td id="d158598e140">
+</td></tr><tr><td id="d158602e140">
 
 **Caller Restriction**
 
@@ -51,7 +51,7 @@ Cross-scope calls to the resource are approved or denied based on the value of t
 
 Calls to the resource must be manually approved. Access requests are tracked in the Restricted Caller Access table with a status of Requested.
 
-</td></tr><tr><td id="d158598e149">
+</td></tr><tr><td id="d158602e149">
 
 **Caller Tracking**
 

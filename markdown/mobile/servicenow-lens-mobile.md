@@ -18,5 +18,5 @@ ServiceNow AI Lens enables you to harness generative AI to scan, extract, unders
 
 By capturing data from a variety of visual sources—including images, emails, handwritten notes, websites, and applications—ServiceNow AI Lens streamlines tasks like auto-filling forms, extracting information from multiple screenshots, and generating actionable insights.
 
-For more information about the feature, see [Exploring ServiceNow AI Lens](https://www.servicenow.com/docs/access?context=servicenow-lens-explore&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US). For information on configuring on your device, see [Configure ServiceNow AI Lens](https://www.servicenow.com/docs/access?context=install-sn-lens&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information about the feature, see [Exploring ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-explore.md). For information on configuring on your device, see [Configure ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/install-sn-lens.md).
 

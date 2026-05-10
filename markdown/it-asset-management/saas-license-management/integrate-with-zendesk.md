@@ -133,7 +133,7 @@ To create a Zendesk integration profile, request the Software Asset Management -
 
 ServiceNow Role required: sam\_integrator
 
-**Important:** You must select the **Zendesk Spoke** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **Zendesk Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
 
 ### About this task
 
@@ -143,15 +143,15 @@ If you’re using Software Asset Workspace, the option to create the Zendesk int
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d73187e526">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d73191e526">
 
 Interface
 
-</th><th align="left" id="d73187e529">
+</th><th align="left" id="d73191e529">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d73187e535">
+</th></tr></thead><tbody><tr><td id="d73191e535">
 
 **Core UI**
 
@@ -162,7 +162,7 @@ Action
 3.  Select **Zendesk Integration Profile**.
 
 
-</td></tr><tr><td id="d73187e577">
+</td></tr><tr><td id="d73191e577">
 
 **Software Asset Workspace**
 

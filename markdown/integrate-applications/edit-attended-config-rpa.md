@@ -37,15 +37,15 @@ Editing an attended configuration record moves the state from **Active** to **In
 
 3.  Navigate to the Attended Configuration record either from the Attended Configuration menu list or from an attended bot process record's related list.
 
-<table id="choicetable_uqv_q52_vzb"><thead><tr><th align="left" id="d450360e146">
+<table id="choicetable_uqv_q52_vzb"><thead><tr><th align="left" id="d451329e146">
 
 Option
 
-</th><th align="left" id="d450360e149">
+</th><th align="left" id="d451329e149">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d450360e155">
+</th></tr></thead><tbody><tr><td id="d451329e155">
 
 **From an Attended Configuration menu list**
 
@@ -55,7 +55,7 @@ Action
 2.  Open the attended configuration record that you want to modify.
 
 
-</td></tr><tr><td id="d450360e182">
+</td></tr><tr><td id="d451329e182">
 
 **From an attended bot process record's related list**
 

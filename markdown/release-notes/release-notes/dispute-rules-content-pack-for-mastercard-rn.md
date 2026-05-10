@@ -17,7 +17,7 @@ The ServiceNow® Dispute Rules Content Pack for Mastercard application provides 
 -   Verify that dispute cases are compliant with Mastercard core rules through refined chargeback eligibility rules.
 -   Streamline dispute intake process through an updated questionnaire.
 
-See [Dispute Rules Content Pack for Mastercard](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-mastercard-landing-page&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US) for more information.
+See [Dispute Rules Content Pack for Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-rules-content-pack-for-mastercard-landing-page.md) for more information.
 
 **Important:** Dispute Rules Content Pack for Mastercard is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -27,11 +27,11 @@ The Australia release adds 14 new data fields to the Authorization and Financial
 
 ## New in the Australia release
 
--   **[New data fields for Mastercard chargeback eligibility rules](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-mastercard-landing-page&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
+-   **[New data fields for Mastercard chargeback eligibility rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-rules-content-pack-for-mastercard-landing-page.md)**
 
     New data fields sourced from the Mastercard authorization API and Mastercard clearing API have been added to support the expanded eligibility rules. Fields sourced from the Mastercard authorization API are available on the Financial Transaction Authorization table. Fields sourced from the Mastercard clearing API are available on the Financial Transaction table.
 
--   **[New eligibility questionnaire questions](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-mastercard-landing-page&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
+-   **[New eligibility questionnaire questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-rules-content-pack-for-mastercard-landing-page.md)**
 
     New Mastercard-specific questions have been added to the chargeback eligibility questionnaire.
 
@@ -44,7 +44,7 @@ The Australia release adds 14 new data fields to the Authorization and Financial
 
 ## Changed in this release
 
--   **[Dispute Rules Content Pack for Mastercard chargeback eligibility rules updates](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-mastercard-landing-page&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
+-   **[Dispute Rules Content Pack for Mastercard chargeback eligibility rules updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-rules-content-pack-for-mastercard-landing-page.md)**
 
     Determine the eligibility of a selected transaction for chargeback through chargeback eligibility rules transformed into technical formulas.
 
@@ -61,7 +61,7 @@ The Australia release adds 14 new data fields to the Authorization and Financial
     -   RC 4849 \(Questionable Merchant Activity\)
     -   RC 4870 \(Chip Liability Shift\)
     -   RC 4871 \(Chip Liability Shift – Lost/Stolen/NRI Fraud\)
--   **[Dispute Rules Content Pack for Mastercard intake questionnaire updates](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-mastercard-landing-page&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
+-   **[Dispute Rules Content Pack for Mastercard intake questionnaire updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-rules-content-pack-for-mastercard-landing-page.md)**
 
     Benefit from the dispute questionnaire provided through Dispute Rules Content Pack for Mastercard with some modified questions and added hard stop alerts. Questionnaire questions include RC 4853 Failed Travel Merchant – Intra-EEA and Domestic European Transactions Only as an additional display condition.
 
@@ -76,19 +76,19 @@ This application requires Financial Services Card Operations \(sn\_bom\_credit\_
 
 ## Related ServiceNow applications and features
 
--   **[Financial Services Card Operations](https://www.servicenow.com/docs/access?context=card-ops-landing-page&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
+-   **[Financial Services Card Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-card-operations/card-ops-landing-page.md)**
 
     The ServiceNow® Financial Services Card Operations application digitizes and automates the card operations of your financial institution, enabling quick processing of credit card applications and card transaction disputes.
 
--   **[Financial Services Credit Operations](https://www.servicenow.com/docs/access?context=fso-credit-operations-landing-page&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
+-   **[Financial Services Credit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-credit-operations/fso-credit-operations-landing-page.md)**
 
     The ServiceNow® Financial Services Credit Operations application enables the management of credit cases and tasks that are used in ServiceNow® Financial Services Operations workflows.
 
--   **[Customer Service Management](https://www.servicenow.com/docs/access?context=c_CustomerServiceManagement&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)**
 
     Enable the extension of tables from the Customer Service Management \(CSM\) application into the Financial Services Card Operations application.
 
--   **[Playbook capabilities](https://www.servicenow.com/docs/access?context=customer-service-case-playbooks&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **[Playbook capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-playbooks.md)**
 
     Visualize business process workflows in a simple, task-oriented view with the Playbooks for Customer Service Management \(CSM\) to verify consistent responses to commonly encountered situations.
 

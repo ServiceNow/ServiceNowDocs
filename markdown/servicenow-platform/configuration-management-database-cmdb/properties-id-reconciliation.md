@@ -94,7 +94,7 @@ Enable IRE to process CI updates with upgrade reclassification updates. This pro
 
  -   Type: true \| false
 -   Default value: false
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 -   Learn more: [Configure CI reclassification during IRE processing](../concept/c_CIReclassification.md#).
 
  Depending on the property setting, IRE processes or skips the upgrade update:
@@ -112,7 +112,7 @@ Enable IRE to process CI updates with downgrade reclassification updates. This p
 
  -   Type: true \| false
 -   Default value: false
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 -   Learn more: [Configure CI reclassification during IRE processing](../concept/c_CIReclassification.md#).
 
  Depending on the property setting, IRE processes or skips the downgrade update:
@@ -130,7 +130,7 @@ Enable IRE to process CI updates with switch reclassification updates. This prop
 
  -   Type: true \| false
 -   Default value: false
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 -   Learn more: [Configure CI reclassification during IRE processing](../concept/c_CIReclassification.md#).
 
  Depending on the property setting, IRE processes or skips the switch update:
@@ -148,7 +148,7 @@ Globally enable or disable the application of active reclassification restrictio
 
  -   Type: true \| false
 -   Default value: true
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 -   Learn more: [Configure CI reclassification during IRE processing](../concept/c_CIReclassification.md#).
 
 </td></tr><tr><td>
@@ -222,7 +222,7 @@ Maximum cache size \(in MB\) that is used by the identification engine for inbou
 
  -   Type: Integer
 -   Default value: 20
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 
 </td></tr><tr><td>
 
@@ -234,7 +234,7 @@ Determines whether to use multiple granular insert locks or single global insert
 
  -   Type: true \| false
 -   Default value: true
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 
 </td></tr><tr><td>
 
@@ -246,7 +246,7 @@ Controls batch update of **last\_discovered** field in CIs that are being proces
 
  -   Type: true \| false
 -   Default value: true
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 
 </td></tr><tr><td>
 
@@ -258,7 +258,7 @@ For optimization, a custom number of locally cached query result entries of rela
 
  -   Type: integer
 -   Default value: 15000
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 
  **Note:** If there is a memory issue due to optimization related to using local cache, set the **glide.identification\_engine.related\_items\_local\_cache\_count** and the **glide.identification\_engine.dependent\_items\_local\_cache\_count** properties to 0.
 
@@ -272,7 +272,7 @@ For optimization, a custom number of locally cached query result entries of depe
 
  -   Type: integer
 -   Default value: 10000
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 
  **Note:** If there is a memory issue due to optimization related to using local cache, set the **glide.identification\_engine.related\_items\_local\_cache\_count** and the **glide.identification\_engine.dependent\_items\_local\_cache\_count** properties to 0.
 
@@ -286,7 +286,7 @@ For optimization, a custom number of locally cached query result entries of inde
 
  -   Type: integer
 -   Default value: 100000
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 
  Setting the value to 0 avoids using local cache for independent CIs which might affect performance.
 
@@ -300,7 +300,7 @@ Enable and configure what type of details the system logs when using IRE outside
 
  -   Type: string
 -   Values: info, warn, error, debug, or debugVerbose
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 
 **Note:** Depending on the setting, the system can generate large amounts of data that might affect overall system performance. Set the value with caution, and limit the level of details and use time to the minimum necessary for testing or debugging.
 
@@ -321,7 +321,7 @@ Maximum number of items allowed when creating a partial payload. When that limit
  -   Type: integer
 -   Default: 1000
 -   Learn more: [Identification and Reconciliation Engine \(IRE\)](../concept/ire.md)
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table
 
 </td></tr><tr><td>
 
@@ -335,7 +335,7 @@ Maximum number of partial items to be fetched in a single IRE call. After reachi
 
  -   Type: integer
 -   Default: 2000
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 
 </td></tr><tr><td>
 
@@ -347,7 +347,7 @@ Absolute limit of the number of partial items for IRE to fetch, after which, IRE
 
  -   Type: integer
 -   Default: 5000
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 
 </td></tr><tr><td>
 
@@ -365,7 +365,7 @@ Determines how IRE updates the **last\_discovered** and the **discovery\_source*
  -   Type: true \| false
 -   Default: true
 -   Learn more: [Identification and Reconciliation Engine \(IRE\)](../concept/ire.md)
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 
 </td></tr><tr><td>
 
@@ -373,12 +373,12 @@ glide.identification\_engine.ire\_message\_listener\_skip\_updating\_source\_las
 
 </td><td>
 
-If Robust Transform Engine \(RTE\) does not pass the **ire.skip\_updating\_last\_scan\_to\_now** custom property on the [Robust Import Set Transformer form](https://www.servicenow.com/docs/access?context=create-robust-import-set-transformer&version=australia&pubname=australia-integrate-applications&ft:locale=en-US), IRE uses the value of this property for the **skip\_updating\_source\_last\_discovered\_to\_now** [IRE option](../concept/ire.md).
+If Robust Transform Engine \(RTE\) does not pass the **ire.skip\_updating\_last\_scan\_to\_now** custom property on the [Robust Import Set Transformer form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/create-robust-import-set-transformer.md), IRE uses the value of this property for the **skip\_updating\_source\_last\_discovered\_to\_now** [IRE option](../concept/ire.md).
 
  -   Type: true \| false
 -   Default: false
 -   Learn more: [Identification and Reconciliation Engine \(IRE\)](../concept/ire.md)
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 
 </td></tr><tr><td>
 
@@ -398,7 +398,7 @@ Determines how IRE uses the **source\_recency\_timestamp** value in a payload to
  -   Type: true \| false
 -   Default: true
 -   Learn more: [About mapping data columns to CMDB classes and attributes](../concept/create-etl-transform-map.md#) and [Identification and Reconciliation Engine \(IRE\)](../concept/ire.md)
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 
 </td></tr><tr><td>
 
@@ -406,12 +406,12 @@ glide.identification\_engine.ire\_message\_listener\_skip\_updating\_last\_scan\
 
 </td><td>
 
-If RTE does not pass the **ire.skip\_updating\_last\_scan\_to\_now** custom property on the [Robust Import Set Transformer form](https://www.servicenow.com/docs/access?context=create-robust-import-set-transformer&version=australia&pubname=australia-integrate-applications&ft:locale=en-US), IRE uses the value of this property for the **ire.skip\_updating\_last\_scan\_to\_now** [IRE option](../concept/ire.md).
+If RTE does not pass the **ire.skip\_updating\_last\_scan\_to\_now** custom property on the [Robust Import Set Transformer form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/create-robust-import-set-transformer.md), IRE uses the value of this property for the **ire.skip\_updating\_last\_scan\_to\_now** [IRE option](../concept/ire.md).
 
  -   Type: true \| false
 -   Default: false
 -   Learn more: [About mapping data columns to CMDB classes and attributes](../concept/create-etl-transform-map.md#) and [Identification and Reconciliation Engine \(IRE\)](../concept/ire.md)
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 
 </td></tr><tr><td>
 
@@ -427,7 +427,7 @@ Toggles domain separation support mode during IRE processing.
  -   Type: true \| false
 -   Default: false
 -   Learn more: [Domain separation and CMDB Identification and Reconciliation](../concept/domain-separation-identification-reconciliation.md)
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 
 </td></tr><tr><td>
 
@@ -448,7 +448,7 @@ To prevent unexpected behavior, review those predefined conditions in regular id
  -   Type: true \| false
 -   Default: false
 -   Learn more: [Create a CI identification rule](../task/t_CreateCIIdentificationRule.md)
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 
 </td></tr><tr><td>
 
@@ -461,7 +461,7 @@ Determines whether filter conditions of a reconciliation rule are applied before
  -   Type: true \| false
 -   Default: false
 -   Learn more: [Create a static reconciliation rule](../concept/create-reconciliation-rule.md#), [Create a dynamic reconciliation rule](../concept/create-reconciliation-rule.md#)
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 
 </td></tr><tr><td>
 
@@ -478,7 +478,7 @@ Determines whether IRE identification processes have the priority in being used 
  -   Type: true \| false
 -   Default: false
 -   Learn more: [Identification and Reconciliation Engine \(IRE\)](../concept/ire.md)
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 
 </td></tr><tr><td>
 
@@ -493,7 +493,7 @@ Enables IRE behavior of creating de-duplication tasks for duplicate related item
  -   Type: true \| false
 -   Default: false
 -   Learn more: [Detecting duplicate CIs](../concept/id-detect-dup-ci.md)
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 
 </td></tr><tr><td>
 
@@ -506,7 +506,7 @@ Switch between using Dynamic IRE or Static IRE. Set to 'true' to use Dynamic IRE
  -   Type: true \| false
 -   Default: false
 -   Learn more: [Dynamic IRE](../concept/dynamic-ire.md)
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 
 </td></tr></tbody>
 </table>

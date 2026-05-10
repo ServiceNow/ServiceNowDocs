@@ -1361,7 +1361,7 @@ sa.service.max\_ci\_service\_population
 The maximum number of CI connections added to application services during the following operations: Converting manual services created in Event Management into application services with changes from the CMDB.-   **Type**: integer
 -   **Default value**: 1000
 -   **Limit**: 2000
--   **Location**: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   **Location**: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 
 Increasing the default value may cause performance issues.
 

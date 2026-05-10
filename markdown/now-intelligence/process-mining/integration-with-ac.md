@@ -23,7 +23,7 @@ Discover, prioritize, and manage automation requests from different sources from
 
 ### Before you begin
 
-You must install and configure the Automation Center plugin before configuring. See [Install Automation Center](https://www.servicenow.com/docs/access?context=install-automation-center&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for more information.
+You must install and configure the Automation Center plugin before configuring. See [Install Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/install-automation-center.md) for more information.
 
 Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
@@ -45,7 +45,7 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
     ![New automation idea form](../image/new-automation-request.png)
 
-    For more information, see [Automation request form from Automation Center](https://www.servicenow.com/docs/access?context=automation-request-autocenter-form&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For more information, see [Automation request form from Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-request-autocenter-form.md).
 
 
 ### Result

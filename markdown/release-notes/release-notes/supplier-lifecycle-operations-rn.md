@@ -16,7 +16,7 @@ The ServiceNow® Supplier Lifecycle Operations application enables you to quickl
 
 [Australia Patch 1](../quality/australia-patch-1.md)
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -39,17 +39,17 @@ Australia Early Availability
 
 **Important:**
 
--   The plugin Supplier Operations \(com.snc.sn\_so\) **must** be installed after upgrading to Supplier Lifecycle Operations Australia release. For more information, see [Install Supplier Operations](https://www.servicenow.com/docs/access?context=install-supplier-ops&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US).
--   The Supplier Lifecycle Operations plugin \(com.snc.sn\_supplier\_mgmt\) is renamed to Supplier Case Management. For more information, see [Supplier Case Management](https://www.servicenow.com/docs/access?context=supplier-case-management&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US).
+-   The plugin Supplier Operations \(com.snc.sn\_so\) **must** be installed after upgrading to Supplier Lifecycle Operations Australia release. For more information, see [Install Supplier Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/install-supplier-ops.md).
+-   The Supplier Lifecycle Operations plugin \(com.snc.sn\_supplier\_mgmt\) is renamed to Supplier Case Management. For more information, see [Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-case-management.md).
 -   Supplier Lifecycle Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Smart Assessments](https://www.servicenow.com/docs/access?context=slo-campaign-mgmt&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)**
+-   **[Smart Assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-campaign-mgmt.md)**
 
     Supplier managers can use the segmentation rules and assessment templates to create smart assessments in bulk for users. Smart assessments provide a survey-like experience with enhanced UI capabilities for both internal and external users. This feature utilizes the capabilities of the Smart Assessment Engine application.
 
--   **[Emails view for supplier managers in the Source-to-Pay Workspace](https://www.servicenow.com/docs/access?context=enabling-emails-view-for-contacts&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)**
+-   **[Emails view for supplier managers in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/enabling-emails-view-for-contacts.md)**
 
     Supplier managers can access their emails within the Source-to-Pay Workspace from the **Emails** tab in the case, task, and supplier details pages respectively. Email actions are reflected and incomplete email errors are handled. Email-summarization is available from the workspace for tasks and cases only.
 
@@ -57,7 +57,7 @@ Australia Early Availability
 
     Internal stakeholders receive the emails and they can perform the assigned tasks directly via email without logging in to the Source-to-Pay Workspace.
 
--   **[AI driven supplier onboarding using Now Assist for SLO](https://www.servicenow.com/docs/access?context=supplier-onboarding-agentic-workflow&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)**
+-   **[AI driven supplier onboarding using Now Assist for SLO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-onboarding-agentic-workflow.md)**
 
     Use theAI driven supplier onboarding workflow to automate data validation, duplicate checking, task generation, and supplier communication. Key enhancements include:
 
@@ -66,19 +66,19 @@ Australia Early Availability
     -   View a list of AI-suggested suppliers while reviewing supplier onboarding requests initiated through sourcing requests.
     -   Supplier relationship managers can manually approve or reject supplier onboarding requests.
     -   Resolve duplicate supplier onboarding requests from the Now Assist panel by updating the supplier legal name, contact email, or both.
--   **[Automate supplier case creation from emails](https://www.servicenow.com/docs/access?context=automated-supplier-case-creation-from-emails&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)**
+-   **[Automate supplier case creation from emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/automated-supplier-case-creation-from-emails.md)**
 
     Convert supplier emails into cases automatically when registered supplier contacts send emails to a supplier inbox. Supplier cases are created for all SLO related queries and assigned to the supplier relationship manager. For queries unrelated to SLO, a universal request is created for resolution.
 
--   **[Summarize supplier performance in Source-to-Pay Workspace](https://www.servicenow.com/docs/access?context=summarize-supp-perf&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)**
+-   **[Summarize supplier performance in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/summarize-supp-perf.md)**
 
     Generate comprehensive supplier performance summaries, including performance data, trends, and actionable insights, using the supplier performance summarization skill.
 
--   **[Analyze sentiments in supplier cases](https://www.servicenow.com/docs/access?context=slo-analyze-sentiments&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)**
+-   **[Analyze sentiments in supplier cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-analyze-sentiments.md)**
 
     Use the sentiment analysis skill to analyze supplier case fields and determine the tone or sentiment of the fulfiller.
 
--   **[Generate an email response for supplier cases](https://www.servicenow.com/docs/access?context=generate-email-response-for-supplier-case&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)**
+-   **[Generate an email response for supplier cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/generate-email-response-for-supplier-case.md)**
 
     Use the email response skill to analyze the supplier case details and generate professional email response regardless of the record type using past email responses, KB articles, and related tasks.
 
@@ -89,11 +89,11 @@ Install Supplier Lifecycle Operations by requesting it from the ServiceNow Store
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)**
+-   **[Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo.md)**
 
     Use the ServiceNow® Now Assist for Supplier Lifecycle Operations \(SLO\) application to guide your supplier managers through a conversation-like experience for their supplier needs.
 
--   **[Source-to-Pay Workspace](https://www.servicenow.com/docs/access?context=source-to-pay-ws-overview&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)**
+-   **[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-overview.md)**
 
     Provide experiences and tools to support key activities, such as procuring goods and services, onboarding high-performing suppliers, and processing invoices.
 

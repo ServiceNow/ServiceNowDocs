@@ -76,7 +76,7 @@ Language of the files
 
 </td><td>
 
-Language of the contract documents from which you want to extract the metadata.For more information on supported languages, see [Languages supported by Document Intelligence](https://www.servicenow.com/docs/access?context=languages-supported-by-document-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Language of the contract documents from which you want to extract the metadata.For more information on supported languages, see [Languages supported by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/languages-supported-by-document-intelligence.md).
 
 </td></tr><tr><td>
 
@@ -111,7 +111,7 @@ Displays the skill name for which you’re creating the use case.
 
     2.  Enter details for the new field.
 
-        For more information on the field form, see [Field form for use case setup](https://www.servicenow.com/docs/access?context=document-extraction-single-field-form&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+        For more information on the field form, see [Field form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/document-extraction-single-field-form.md).
 
         ![Field information for contract metadata extraction.](../image/cmpro-na-fields-me.png "Field page for contract metadata extraction")
 

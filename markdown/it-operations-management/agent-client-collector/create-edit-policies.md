@@ -71,8 +71,8 @@ You assign a credential alias in the policy's **Credentials** tab, as described 
         ![Monitored CI Script example](../image/ACC-Monitored-CI-Type-Script.png)
 
     -   **Monitored CI type by CMDB Group**: Enables you to specify the monitored CIs by using CMDB group queries. When selecting this option, the **Monitored CMDB group** field appears, where you select a CMDB group to associate with the policy.
-        -   For details on CMDB groups, see [CMDB groups](https://www.servicenow.com/docs/access?context=cmdb-groups&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
-        -   For details on building a CMDB query using the CMDB query builder, see [Build a CMDB query using the CMDB query builder](https://www.servicenow.com/docs/access?context=use-cmdb-query-builder&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+        -   For details on CMDB groups, see [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md).
+        -   For details on building a CMDB query using the CMDB query builder, see [Build a CMDB query using the CMDB query builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/use-cmdb-query-builder.md).
 5.  Select checks in the **Available** cell on the **Checks** tab, and move them to the **Selected** cell for them to be included in the policy.
 
     Checks can be selected multiple times, when you are monitoring more than one process. You can also select a group of checks in the **Filter checks by groups** field, which presents checks of the selected group in the **Available** cell.
@@ -107,7 +107,7 @@ You assign a credential alias in the policy's **Credentials** tab, as described 
 9.  On the **Credentials** tab, select one of the following:
 
     -   **Credential name**: Select credentials to be assigned to the policy. The available credentials are those displayed on the associated check definition's **Check Secure Parameter Definitions** tab.
-    -   **Credential alias**: Select the search icon ![Search icon](../../event-management/image/search-icon.png) to select a credential alias to be used by the policy's checks to connect to the monitored CI. The available options are those created on the **Connection &amp; Credential Aliases** page. For details on credential aliases, see [Credential aliases for Discovery](https://www.servicenow.com/docs/access?context=discovery-credential-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    -   **Credential alias**: Select the search icon ![Search icon](../../event-management/image/search-icon.png) to select a credential alias to be used by the policy's checks to connect to the monitored CI. The available options are those created on the **Connection &amp; Credential Aliases** page. For details on credential aliases, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/discovery-credential-alias.md).
 10. Click **Save**.
 
     The following buttons appear:

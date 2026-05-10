@@ -38,7 +38,7 @@ To enable import and export of work items between Agile Development 2.0 and Azur
 -   When you delete a work item in Azure DevOps, the corresponding record is deleted in Agile Development 2.0.
 -   When you delete an iteration in Azure DevOps, the corresponding sprint is deleted in the Agile Development 2.0.
 
-    **Note:** To delete records in the Agile Development 2.0, set the **Can Delete** field to **true** in the Application access of the respective tables. For details, see [Table design and runtime settings](https://www.servicenow.com/docs/access?context=r_TableApplicationAccessFields&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    **Note:** To delete records in the Agile Development 2.0, set the **Can Delete** field to **true** in the Application access of the respective tables. For details, see [Table design and runtime settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/r_TableApplicationAccessFields.md).
 
 -   When you restore a work item from recycle bin in Azure DevOps, a corresponding record is created in Agile Development 2.0 according to its team integration settings.
 

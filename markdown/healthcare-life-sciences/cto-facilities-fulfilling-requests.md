@@ -17,7 +17,7 @@ For Care Team Operations for Facilities to create work orders from Healthcare Fa
 
 This plugin provides all roles and features needed for the healthcare facilities case to synchronize to work orders.
 
-For information on fulfilling work orders, see [Manage work orders](https://www.servicenow.com/docs/access?context=c_ManageWorkOrders&version=australia&pubname=australia-field-service-management&ft:locale=en-US).
+For information on fulfilling work orders, see [Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/c_ManageWorkOrders.md).
 
 **If the Field Service Management \[com.snc.work\_management\] plugin isn’t installed:**
 
@@ -25,5 +25,5 @@ Work orders aren’t created from healthcare facilities cases. Instead, agents w
 
 Cases created are assigned to assignment groups based on the requesting location associations and are configured normally.
 
-For information on fulfilling cases, see [Manage cases](https://www.servicenow.com/docs/access?context=manage-cases&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) in Customer Service Management.
+For information on fulfilling cases, see [Manage cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-cases.md) in Customer Service Management.
 

@@ -90,7 +90,7 @@ See [Currency administration](../../currency/concept/currency.md).
 
 Ensure your services to your customers are properly managed and documented. The full series of ServiceNow modules for Service Level Management lets you define service contracts and service level agreements \(SLA\) as needed. Repair, monitor, and validate SLA records for time and duration accuracy, get analyses and reports on service, and separate record domains for information display and control.
 
-See [Service Level Management](https://www.servicenow.com/docs/access?context=service-level-mgmt-landing-page&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+See [Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-mgmt-landing-page.md).
 
 ## ServiceNow AI Platform translation and localization
 

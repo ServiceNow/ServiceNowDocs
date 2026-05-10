@@ -54,7 +54,7 @@ The following roles are required for installation, configuration, and verificati
 
 Several types of components are installed with activation of the Threat Intelligence plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -1235,7 +1235,7 @@ If you selected the **Conditional** check box, enter the conditions here.
     |-----|-----------|
     |Endpoint|Enter the web service endpoint URL where the threat source is accessed by Threat Intelligence. Click the lock icon to lock the URL.|
     |Use REST Message|If you need a REST message to access the threat source, select this check box. The **REST message** and **REST method** fields become required.|
-    |REST message|Click the lookup icon, and select the REST message from the list or click **New** to [define a new REST message](https://www.servicenow.com/docs/access?context=t_ConfiguringARESTMessage&version=australia&pubname=australia-api-reference&ft:locale=en-US).|
+    |REST message|Click the lookup icon, and select the REST message from the list or click **New** to [define a new REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md).|
     |REST method|Click the lookup icon, and select the REST method from the list or click **New** to define a new REST method.|
     |Integration script|The default integration script is **SimpleRESTSecurityDataIntegration**. It runs a simple REST call, saves the response as an attachment, and then returns the attachment to the processor. This script meets the needs of most organizations. But if you want, you can click the lookup icon, and select a different integration script or define a new one.|
     |Integration factory script|If the **Advanced** check box is selected, this field displays the actual script for constructing the integration script. You can edit the script as needed. This ability is useful for custom implementations. Integrations in the base system usually don’t need any custom constructor logic.|
@@ -1282,15 +1282,15 @@ Role required: sn\_ti.admin
 
 5.  Fill in the fields in the **Collection Service Configuration** section, as appropriate.
 
-<table id="choicetable_fn4_l4l_wmb"><thead><tr><th align="left" id="d72325e2686">
+<table id="choicetable_fn4_l4l_wmb"><thead><tr><th align="left" id="d72558e2686">
 
 Field
 
-</th><th align="left" id="d72325e2689">
+</th><th align="left" id="d72558e2689">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d72325e2695">
+</th></tr></thead><tbody><tr><td id="d72558e2695">
 
 **Collection Info Service endpoint**
 
@@ -1298,7 +1298,7 @@ Description
 
 A TAXII Collection is an interface to a logical repository of CTI objects provided by a TAXII Server and is used by TAXII Clients to send information to the TAXII Server or request information from the TAXII Server. A TAXII Server can host multiple Collections per API Root, and Collections are used to exchange information in a request–response manner.
 
-</td></tr><tr><td id="d72325e2707">
+</td></tr><tr><td id="d72558e2707">
 
 **Use REST message**
 
@@ -1306,7 +1306,7 @@ A TAXII Collection is an interface to a logical repository of CTI objects provid
 
 Select this option if you require a REST message to access the TAXII profile. The **Collection Info Service REST message** and **Collection Info Service REST method** fields become required.
 
-</td></tr><tr><td id="d72325e2722">
+</td></tr><tr><td id="d72558e2722">
 
 **Collection Info Service REST message**
 
@@ -1314,7 +1314,7 @@ Select this option if you require a REST message to access the TAXII profile. Th
 
 Click the lookup icon, and select the REST message from the list or click **New** to define a new REST message.
 
-</td></tr><tr><td id="d72325e2734">
+</td></tr><tr><td id="d72558e2734">
 
 **Collection Info Service REST method**
 

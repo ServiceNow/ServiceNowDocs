@@ -45,21 +45,21 @@ Role required: user must have contributor access to the knowledge base.
 
     **Note:** Blocks can be added to only the text field.
 
-    In the **Add Blocks** side panel, you can search for, do an advanced search, view, and insert knowledge blocks into the article. To use condition builder with advanced search, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US). You can also create blocks directly from the side panel.
+    In the **Add Blocks** side panel, you can search for, do an advanced search, view, and insert knowledge blocks into the article. To use condition builder with advanced search, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md). You can also create blocks directly from the side panel.
 
     -   You can configure the number of search results displayed in the **Add Blocks** side panel using the **glide.knowman.add\_blocks.search\_results** property. By default, the minimum number of search results displayed is 6 and the maximum number of search results displayed is 25. See [Knowledge properties](../reference/r_KnowledgeProperties.md#) for more information.
     -   If there are knowledge blocks you cannot find, make sure that the blocks are published, in the same language, and in the same knowledge base as an article.![Insert knowledge blocks into article, as well as search for and create blocks.](../image/knowledge-blocks-insert-blocks-into-article.png)
 6.  Rearrange knowledge block in the article body.
 
-<table id="choicetable_fph_h4t_rhb"><thead><tr><th align="left" id="d418230e217">
+<table id="choicetable_fph_h4t_rhb"><thead><tr><th align="left" id="d420680e217">
 
 Option
 
-</th><th align="left" id="d418230e220">
+</th><th align="left" id="d420680e220">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d418230e226">
+</th></tr></thead><tbody><tr><td id="d420680e226">
 
 **If you are using a mouse**
 
@@ -69,7 +69,7 @@ Steps
 2.  Drag and drop the block within the article.
 
 
-</td></tr><tr><td id="d418230e244">
+</td></tr><tr><td id="d420680e244">
 
 **If you are using a keyboard**
 

@@ -23,7 +23,7 @@ To avoid issues while rendering your floor plan, verify that the dxf.json attach
 
 -   Work with your AutoCAD designers to ensure that spaces are represented as blocks \(not single or multi-line text\).
 -   Ensure that the block reference attributes are appropriately set and try to import the dxf.json file again.
--   Set the **com.glide.attachment.max\_get\_size** property to a size that is greater or equal to the dxf.json file size. For more information, see [Administering attachments](https://www.servicenow.com/docs/access?context=r_AdministeringAttachments&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Set the **com.glide.attachment.max\_get\_size** property to a size that is greater or equal to the dxf.json file size. For more information, see [Administering attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AdministeringAttachments.md).
 
 Role required: sn\_wsd\_core.workplace\_manager
 

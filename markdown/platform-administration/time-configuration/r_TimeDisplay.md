@@ -19,7 +19,7 @@ You can use three different interfaces to view record information over time: rep
 
 ![Column chart shows data over time](../../../use/reporting/image/ColumnChart.png "Report example")
 
-You can visualize data using [Reporting](https://www.servicenow.com/docs/access?context=reporting-landing-page&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+You can visualize data using [Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/reporting-landing-page.md).
 
 ## Timeline pages
 

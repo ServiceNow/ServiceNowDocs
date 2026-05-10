@@ -13,7 +13,7 @@ breadcrumb: [Now Assist panel, Now Assist Experiences, Exploring Now Assist Admi
 
 With the Now Assist panel standard chat, you can get assistance from generative AI experiences to solve customer issues faster. Use this conversational interface to summarize a chat, case, or incident, get help, or generate resolution notes so that you can get the context of this information more quickly.
 
-**Note:** Next Experience must be enabled to use the Now Assist panel. For more information, see [Considerations for activating Next Experience](https://www.servicenow.com/docs/access?context=next-experience-adoption-paths&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+**Note:** Next Experience must be enabled to use the Now Assist panel. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
 
 ## Now Assist panel overview
 
@@ -97,7 +97,7 @@ Voice Input
 
 </td><td>
 
-If Voice Input is activated, select the microphone icon or the keyboard shortcut to use your voice to interact with the Now Assist panel. After you speak, there’s a pause while the system transcribes the text and then displays it on the screen. See [Enable voice input for Now Assist panel](../../now-assist-admin/task/enable-voice-input-for-now-assist-panel.md) for information on enabling Voice Input. See [Next Experience keyboard shortcuts](https://www.servicenow.com/docs/access?context=next-experience-keyboard-shortcuts&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) for the Now Assist menu \(Voice Input mode\) shortcuts for Microsoft and macOS.
+If Voice Input is activated, select the microphone icon or the keyboard shortcut to use your voice to interact with the Now Assist panel. After you speak, there’s a pause while the system transcribes the text and then displays it on the screen. See [Enable voice input for Now Assist panel](../../now-assist-admin/task/enable-voice-input-for-now-assist-panel.md) for information on enabling Voice Input. See [Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-keyboard-shortcuts.md) for the Now Assist menu \(Voice Input mode\) shortcuts for Microsoft and macOS.
 
 </td></tr><tr><td>
 

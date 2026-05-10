@@ -18,32 +18,32 @@ The ServiceNow® DevOps Change Velocity application improves visibility into you
 -   Connect to JFrog using the secure bearer token authentication.
 -   Connect to DevOps Change Velocity through HTTP proxy settings in your Docker deployment.
 
-See [DevOps Change Velocity](https://www.servicenow.com/docs/access?context=devops-landing-page-new&version=australia&pubname=australia-it-service-management&ft:locale=en-US) for more information.
+See [DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-landing-page-new.md) for more information.
 
 **Important:** DevOps Change Velocity is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Changed in this release
 
--   **[Enhanced JFrog integration with DevOps Change Velocity](https://www.servicenow.com/docs/access?context=devops-jfrog-connect-workspace&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
+-   **[Enhanced JFrog integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-jfrog-connect-workspace.md)**
 
     Gather JFrog evidence seamlessly and create change records automatically using the improved JFrog integration with DevOps Change Velocity.
 
 
--   **[Bearer authentication in JFrog](https://www.servicenow.com/docs/access?context=devops-jfrog-connect-workspace&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
+-   **[Bearer authentication in JFrog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-jfrog-connect-workspace.md)**
 
     Connect to JFrog using the secure bearer token authentication to comply with JFrog’s updated security policies.
 
 
--   **[HTTP proxy for Docker](https://www.servicenow.com/docs/access?context=servicenow-custom-actions-for-gitlab&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
+-   **[HTTP proxy for Docker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md)**
 
     Connect to DevOps Change Velocity through HTTP proxy settings using environment variables in your Docker deployment for instances that run a proxy server.
 
--   **[Health scan enhancements](https://www.servicenow.com/docs/access?context=run-health-scan-check&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
+-   **[Health scan enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/run-health-scan-check.md)**
     -   Identify any callback processing issues in your instance.
     -   Identify any access control rule \(ACL\) that is incorrectly associated with a role in your instance.
     -   Verify whether all DevOps tables are present in your instance and confirm whether all metadata in sys\_\* tables is present.
     -   Verify whether all DevOps roles in your instance contain all expected roles, including inherited roles.
--   **[Auto close without Change Management - State Model \[Legacy\] plugin](https://www.servicenow.com/docs/access?context=dev-ops-change-acceleration&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
+-   **[Auto close without Change Management - State Model \[Legacy\] plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)**
 
     Change requests can now be auto-closed without requiring you to install the Change Management - State Model \[Legacy\] plugin.
 
@@ -54,19 +54,19 @@ Install DevOps Change Velocity by requesting it from the ServiceNow Store. Visit
 
 ## Related ServiceNow applications and features
 
--   **[Performance Analytics](https://www.servicenow.com/docs/access?context=pa-overview&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
+-   **[Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-overview.md)**
 
     The ServiceNow® Performance Analytics application is an in-platform process optimization solution to create management dashboards, report on Key Performance Indicators \(KPIs\) and metrics, and answer key business questions. The application helps improve quality and reduces the costs of service delivery.
 
--   **[Change Management](https://www.servicenow.com/docs/access?context=c_ITILChangeManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
+-   **[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ITILChangeManagement.md)**
 
     The ServiceNow® Change Management application provides a systematic approach to control the life cycle of all changes, facilitating beneficial changes to be made with minimum disruption to IT services.
 
--   **[Agile Development](https://www.servicenow.com/docs/access?context=agile-development&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **[Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-development.md)**
 
     The ServiceNow® Agile Development application helps you deliver software projects more efficiently by managing and tracking software development life cycles using an iterative, incremental, and flexible approach.
 
--   **[Risk Management](https://www.servicenow.com/docs/access?context=grc-risk-overview&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)**
+-   **[Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-risk-overview.md)**
 
     The ServiceNow® Governance, Risk, and Compliance Risk Management application helps you continuously monitor and identify high-impact risks, improve your risk-based decision-making, and reduce reaction time effectively. The application also provides structured workflows for the management of risk assessments, risk indicators, and risk issues.
 

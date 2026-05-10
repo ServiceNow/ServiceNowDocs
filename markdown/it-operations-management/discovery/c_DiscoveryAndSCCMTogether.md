@@ -23,7 +23,7 @@ When Software Asset Management is not enabled, software installation records are
 
 ## Overview of Service Graph connector for Microsoft SCCM
 
-Use the Service Graph connector for Microsoft SCCM to pull data from SCCM into your ServiceNow instance. See [Service Graph connector for Microsoft SCCM](https://www.servicenow.com/docs/access?context=cmdb-integration-sccm&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more details.
+Use the Service Graph connector for Microsoft SCCM to pull data from SCCM into your ServiceNow instance. See [Service Graph connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-sccm.md) for more details.
 
 **Note:** If you upgrade your instance to a version of the ServiceNow AI Platform that does not provide support for your version of SCCM, you can continue to use that version. However, all new instances require the use of a supported SCCM version.
 
@@ -32,7 +32,7 @@ Use the Service Graph connector for Microsoft SCCM to pull data from SCCM into y
 The ServiceNow SCCM integrations are self-contained and can exist independently. They each use their own import set tables, data sources and transform maps. However, all SCCM integrations will transform data into the same tables within the ServiceNow CMDB. To avoid the data being overwritten by another source:
 
 -   Use one SCCM integration and disable all other SCCM scheduled imports.
--   Perform a [full import](https://www.servicenow.com/docs/access?context=how-sccm-integration-works&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to clear the cmdb\_software\_instance table, the cmdb\_sam\_sw\_install table, and other tables of old SCCM data.
+-   Perform a [full import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/how-sccm-integration-works.md) to clear the cmdb\_software\_instance table, the cmdb\_sam\_sw\_install table, and other tables of old SCCM data.
 
 ## Collect software data with either SCCM or Discovery
 

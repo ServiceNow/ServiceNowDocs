@@ -39,7 +39,7 @@ Role required: admin, usage\_admin
         -   Storage volumes
     -   **Resource Total Count**: Asset count of the managed IT resources that is grouped by Resource categories and Model categories.
 
-        The Cloud License Estimator enables you to determine the estimated resource count for all the cloud resources that are eligible for licensing based on Cloud Cost Management licensing rules. For more information, see [Cloud License Estimator](https://www.servicenow.com/docs/access?context=explore-cloud-license-estimator&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+        The Cloud License Estimator enables you to determine the estimated resource count for all the cloud resources that are eligible for licensing based on Cloud Cost Management licensing rules. For more information, see [Cloud License Estimator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-license-estimator/explore-cloud-license-estimator.md).
 
     -   **Subscription Unit Ratio**: Predefined ratios that determine how many assets of a Resource category require a subscription. For example, the defined ratio of 1:1 for Server means that every asset of that resource category requires one Subscription Unit.
     -   **Total Subscription Units Consumed**: The number of subscriptions per Resource category that your organization consumed. The licensing module calculates this number by applying the Subscription Unit Ratio to the Resource Total Count for each Resource Category.

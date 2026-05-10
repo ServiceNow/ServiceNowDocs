@@ -31,7 +31,7 @@ Role required: admin
 
 1.  Set the application scope to **CMDB CI Class Models** by using the application picker.
 
-    The IPAM tables \(Managed Network, IP Pool, Subnet, and Allocated IP Address\) belong to the CMDB CI Class Models scope. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    The IPAM tables \(Managed Network, IP Pool, Subnet, and Allocated IP Address\) belong to the CMDB CI Class Models scope. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 2.  Navigate to **All** &gt; **System Maintenance** &gt; **Table Cleanup**.
 

@@ -49,7 +49,7 @@ For step-by-step instructions for each supported cloud AI provider, see [Configu
 
 2.  Configure your Azure OpenAI model and deployment name in Generative AI Controller so your ServiceNow instance can recognize and use it.
 
-    For more information, see [Create a custom embedding model](https://www.servicenow.com/docs/access?context=create-byom&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information, see [Create a custom embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-byom.md).
 
 3.  Modify the prompt configuration to write your own prompts to send to the Azure OpenAI LLMs.
 

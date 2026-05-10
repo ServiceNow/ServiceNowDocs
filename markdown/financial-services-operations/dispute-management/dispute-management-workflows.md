@@ -29,9 +29,9 @@ During this phase, the system identifies the initial transaction. You’re then 
 
 You can then add more transactions \(if the dispute category is Fraud\),  and select associated transactions \(if Visa network\). You also complete the dispute questionnaire and upload any supporting documentation.  Dispute cases created using  disputes intake via Virtual Agent  are populated with information from the customer's responses in the Virtual Agent chat.
 
-When a transaction is selected for a card dispute, you can obtain additional information about the transaction with an integration, such as [Order Insight Digital Management](https://www.servicenow.com/docs/access?context=visa-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+When a transaction is selected for a card dispute, you can obtain additional information about the transaction with an integration, such as [Order Insight Digital Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/visa-spoke.md).
 
-**Note:** Additional integrations such as [Ethoca Consumer Clarity](https://www.servicenow.com/docs/access?context=ethoca-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) are available to retrieve additional information on a transaction.
+**Note:** Additional integrations such as [Ethoca Consumer Clarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/ethoca-spoke.md) are available to retrieve additional information on a transaction.
 
 The system evaluates decision rules and determines policy rules for each transaction in the case. For example, determining which transaction qualifies for a provisional credit, as opposed to a final credit. However, if the dispute is initiated by a contributor or customer, the evaluation of decision rules occurs only after the Review task has been submitted. For more information on these rules, see [Dispute decision tables](dispute-decision-tables.md).
 
@@ -41,7 +41,7 @@ Chargeback eligibility rules depend on the dispute category \(for card disputes\
 
 For information about Now Assist for FSO, see [Now Assist for Financial Services Operations \(FSO\)](../../fso-common/concept/now-assist-for-financial-services-operations.md).
 
-For information about configuring business rules, see [Exploring Decision Tables](https://www.servicenow.com/docs/access?context=decision-designer-overview&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+For information about configuring business rules, see [Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/decision-designer-overview.md).
 
 ## Review
 

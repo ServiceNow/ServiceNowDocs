@@ -17,9 +17,9 @@ If a risk assessor is unavailable to perform a risk assessment, the assessor can
 
 Delegation is the assignment of authority to another person to perform specific activities. It is a process of entrusting work to another person. In the context of risk assessments, at times, it may happen that the assigned assessor for a risk assessment is unavailable to perform their risk assessments. In such a scenario, the assessor can assign another user as a delegate and the delegate can perform the risk assessment on behalf of the original assessor for a specified time period. A delegate can perform the risk assessment from the Risk Workspace and the Risk Portal. A delegate also receives a copy of all the system notifications that are sent to the original assessor. Once the delegate starts performing the assessment, the delegate's name is visible on the assessment instance. ![Delegate on the risk assessment instance.](../image/delegate-feature.png)
 
-As a risk assessor, to understand how you can assign a delegate, refer to [Configure a delegate for your tasks](https://www.servicenow.com/docs/access?context=t_DelegateApprovalsTasks&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+As a risk assessor, to understand how you can assign a delegate, refer to [Configure a delegate for your tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service/t_DelegateApprovalsTasks.md).
 
-To delegate tasks to another user, configure your user profile form to display the Delegates related list. For details, refer to [Add the Delegates related list](https://www.servicenow.com/docs/access?context=add-delegates-related-list&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+To delegate tasks to another user, configure your user profile form to display the Delegates related list. For details, refer to [Add the Delegates related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service/add-delegates-related-list.md).
 
 It is important to note the following points when you assign a delegate.
 

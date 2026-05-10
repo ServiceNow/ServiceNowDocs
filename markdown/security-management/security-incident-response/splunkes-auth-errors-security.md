@@ -19,7 +19,7 @@ This section describes some common authentication errors and how they can be res
 
 If an error occurs during authentication, you may see the following screen:![Invalid certificate error](../image/new-images/authentication-errors.png)
 
-If you have verified that your API account credentials and the Splunk Base URL information are correct, this error may be due to an issue with the Splunk certificate for the port 8089 communication. ServiceNow® instance requires a valid certificate with a common name that matches the server host name to establish secure connections. For more information, see [Certificates](https://www.servicenow.com/docs/access?context=c_Certificates&version=australia&pubname=australia-platform-security&ft:locale=en-US). If you see this error, you can verify that the issue is due to a certificate problem by viewing the system logs.
+If you have verified that your API account credentials and the Splunk Base URL information are correct, this error may be due to an issue with the Splunk certificate for the port 8089 communication. ServiceNow® instance requires a valid certificate with a common name that matches the server host name to establish secure connections. For more information, see [Certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_Certificates.md). If you see this error, you can verify that the issue is due to a certificate problem by viewing the system logs.
 
 An error condition similar to the following will likely appear: ![Certificate error](../image/splunk_es_auth_error1.png)
 

@@ -15,7 +15,7 @@ breadcrumb: [Installed with Search Suggestions, Search Suggestions reference, Se
 
 Search Suggestions uses tables to generate and track relevant search suggestions. You can review data from these tables to gain insight into search suggestions offered in your system.
 
-**Note:** Because the Search Suggestions tables are system tables, they are excluded from the Reporting module by default. To learn about enabling reporting on system tables, see [Reporting on system tables](https://www.servicenow.com/docs/access?context=c_ReportOnSystemTables&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+**Note:** Because the Search Suggestions tables are system tables, they are excluded from the Reporting module by default. To learn about enabling reporting on system tables, see [Reporting on system tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_ReportOnSystemTables.md).
 
 ## Search Event table
 

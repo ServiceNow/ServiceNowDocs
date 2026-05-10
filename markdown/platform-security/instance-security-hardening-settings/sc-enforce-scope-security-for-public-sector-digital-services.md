@@ -103,7 +103,7 @@ References
 
 </td><td>
 
-[Configuring Public Sector Digital Services](https://www.servicenow.com/docs/access?context=configuring-public-sector-digital-services&version=australia&pubname=australia-government-industry&ft:locale=en-US)
+[Configuring Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/configuring-public-sector-digital-services.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Access control](sc-access-control.md)

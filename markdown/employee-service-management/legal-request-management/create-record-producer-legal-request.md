@@ -140,7 +140,7 @@ Name of the [service catalog category](add-catalog-categories.md) in which the i
 
     **Important:** If you are configuring the record producer for a practice area table, you must map the variable with a column name of the selected table. On the Variable form, select the **Map to field** check box and the column name of the selected practice area table in the **Field**. Only the mapped variables are copied to the columns of the selected table.
 
-    For more information on creating variables, see [Create a service catalog variable](https://www.servicenow.com/docs/access?context=t_CreateAVariableForACatalogItem&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For more information on creating variables, see [Create a service catalog variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAVariableForACatalogItem.md).
 
 6.  In the Assigned topics related list, assign the catalog item to a topic in a taxonomy so that the catalog item is added to the Employee Center portal.
 
@@ -148,7 +148,7 @@ Name of the [service catalog category](add-catalog-categories.md) in which the i
 
 7.  In the Applicable For and Not Applicable For related lists, apply the user criteria to control access of the record producer.
 
-    User criteria define conditions for user records that enable you to grant or deny access to the record producer for users matching those conditions. For more information on creating a user criteria, see [Set up the user criteria](https://www.servicenow.com/docs/access?context=t_CreateAUserCriteriaRecord&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    User criteria define conditions for user records that enable you to grant or deny access to the record producer for users matching those conditions. For more information on creating a user criteria, see [Set up the user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAUserCriteriaRecord.md).
 
 8.  If you have enabled the option to [save attached documents for a legal request in an external storage](associate-categories-practice-area.md), you can add the script to validate the documents attached to a legal request while submitting.
 
@@ -156,7 +156,7 @@ Name of the [service catalog category](add-catalog-categories.md) in which the i
 
     2.  On the Catalog Client Scripts form, fill in the fields.
 
-        For more information, see [Create a Service Catalog client script](https://www.servicenow.com/docs/access?context=t_CreateACatalogClientScript&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+        For more information, see [Create a Service Catalog client script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateACatalogClientScript.md).
 
     3.  In the **Script** field, copy the following client script which runs on the catalog item to determine if:
 

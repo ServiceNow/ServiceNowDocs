@@ -29,7 +29,7 @@ Provide basic details for the integration, such as the source of the data that y
 
 The data source that you plan to select for the ETL Transform Map must exist in the same application scope as the one being used in the current session.
 
-When you open an ETL transform map, by default the map is not validated. You can enable this validation step by [adding the system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) **sn\_int\_studio.validation.enabled** to the System Properties \[sys\_properties\] table and then setting it to **true**. After validation is complete, you choose how to handle validation errors.
+When you open an ETL transform map, by default the map is not validated. You can enable this validation step by [adding the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) **sn\_int\_studio.validation.enabled** to the System Properties \[sys\_properties\] table and then setting it to **true**. After validation is complete, you choose how to handle validation errors.
 
 Role required: cmdb\_inst\_admin
 
@@ -160,7 +160,7 @@ Discovery source associated with a new **CMDB Application**. Appears if you set 
 **Related topics**  
 
 
-[Create an Import Set data source](https://www.servicenow.com/docs/access?context=c_CreateNewDataSource&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+[Create an Import Set data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_CreateNewDataSource.md)
 
 ## Preview and prepare data
 
@@ -471,9 +471,9 @@ When you configure mapping for a class, relationship, or a lookup rule, those it
             **Note:** You can work around this restriction by using the [Copy](create-etl-transform-map.md#) transform in the data preparation step, to copy attributes from a parent level to a child level. Prepare the data so that all the attributes that you want to map, are at the same level.
 
         -   When you drag a column to map from the Data sidebar, the fields of CMDB target attributes that are valid for the mapping, are highlighted by a green frame. If you attempt to drop a column in an invalid target attribute, the respective field is highlighted by a red frame and an error appears.
-    2.  Click **Add Attribute**. Then, in the Add Attribute dialog box, from the **Attribute** list, select one or more items as target attributes to map data to. You can also scroll down to the **IRE Settings** section of the list and select one of the [robust import set transformer properties](https://www.servicenow.com/docs/access?context=robust-import-set-xform-props&version=australia&pubname=australia-integrate-applications&ft:locale=en-US). Click **Save**.
+    2.  Click **Add Attribute**. Then, in the Add Attribute dialog box, from the **Attribute** list, select one or more items as target attributes to map data to. You can also scroll down to the **IRE Settings** section of the list and select one of the [robust import set transformer properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/robust-import-set-xform-props.md). Click **Save**.
 
-        For information about precedence order between robust import set transformer properties defined at the individual item level and at the IRE payload level, see [robust import set transformer properties](https://www.servicenow.com/docs/access?context=robust-import-set-xform-props&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) .
+        For information about precedence order between robust import set transformer properties defined at the individual item level and at the IRE payload level, see [robust import set transformer properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/robust-import-set-xform-props.md) .
 
     3.  Map any lookup rules such as the 'Serial Number Lookup 1' rule.
 
@@ -518,15 +518,15 @@ ITOM Visibility, if available, uses enhanced discovery patterns to identify and 
 
 3.  To add relationships, select **Add Relationship** or **Add Conditional Relationship** if you want to specify attribute conditions that must be met before adding a relationship. Then, complete the following actions as needed.
 
-<table id="choicetable_rvq_52s_2nb"><thead><tr><th align="left" id="d468074e1742">
+<table id="choicetable_rvq_52s_2nb"><thead><tr><th align="left" id="d470712e1742">
 
 Option
 
-</th><th align="left" id="d468074e1745">
+</th><th align="left" id="d470712e1745">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d468074e1751">
+</th></tr></thead><tbody><tr><td id="d470712e1751">
 
 **Add Relationship**
 
@@ -536,7 +536,7 @@ Description
 2.  Click **Add**.
 
 
-</td></tr><tr><td id="d468074e1781">
+</td></tr><tr><td id="d470712e1781">
 
 **Add Conditional Relationship**
 
@@ -571,7 +571,7 @@ Role required: cmdb\_inst\_admin
 
 Run an integration test and view a summary of the results, for the sample data \(by default,up to 100 records\). The summary includes total numbers for relationships that were created, mapped classes, partial and incomplete payloads that IRE couldn’t process. You can also view detailed messages from Robust Transform Engine \(RTE\) and from Identification Reconciliation Engine \(IRE\).
 
-**Note:** Most IntegrationHub ETL log messages \(from RTE and IRE\) are informational. However, even if the **com.glide.import\_set.importlog\_level** and the **glide.importlog.log\_to\_table** system properties are set to not add INFO log messages, IntegrationHub ETL does render INFO log messages. For more details about these properties, see [Import sets properties](https://www.servicenow.com/docs/access?context=r_ImportSetsProperties&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+**Note:** Most IntegrationHub ETL log messages \(from RTE and IRE\) are informational. However, even if the **com.glide.import\_set.importlog\_level** and the **glide.importlog.log\_to\_table** system properties are set to not add INFO log messages, IntegrationHub ETL does render INFO log messages. For more details about these properties, see [Import sets properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_ImportSetsProperties.md).
 
 After you view the details in the summary page, you can return to any step to make adjustments and then rerun the integration.
 
@@ -638,7 +638,7 @@ Role required: cmdb\_inst\_admin
 
 5.  Fill out the Scheduled Data Import form and then click **Submit**.
 
-    See [Schedule a data import](https://www.servicenow.com/docs/access?context=t_ScheduleADataImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for details about the form fields.
+    See [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md) for details about the form fields.
 
 6.  Click **Mark as Complete**.
 

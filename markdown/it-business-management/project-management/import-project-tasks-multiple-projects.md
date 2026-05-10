@@ -37,11 +37,11 @@ Role required: import\_transformer, import\_admin, or admin
 
 7.  Create field mappings for custom columns.
 
-    For more information, see [Create field mappings](https://www.servicenow.com/docs/access?context=c_MappingOptions&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For more information, see [Create field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_MappingOptions.md).
 
 8.  Transform the data from the import set table to the target table.
 
-    For more information, see [Run an import](https://www.servicenow.com/docs/access?context=t_RunImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For more information, see [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_RunImport.md).
 
 
 **Parent Topic:**[Importing and exporting projects](../concept/c_ProjectImportAndExport.md)

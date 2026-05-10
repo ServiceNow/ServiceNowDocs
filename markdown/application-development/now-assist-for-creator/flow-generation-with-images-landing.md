@@ -27,7 +27,7 @@ Create a flow or a subflow from an image by using Now Assist.
 
 </td></tr><tr><td>
 
-[Generate![](../../../reuse/icons/brand-icons/bus-start-developing.svg)Create a flow from an image](https://www.servicenow.com/docs/access?context=create-flow-now-assist&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Generate![](../../../reuse/icons/brand-icons/bus-start-developing.svg)Create a flow from an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow-now-assist.md)
 
 </td><td>
 

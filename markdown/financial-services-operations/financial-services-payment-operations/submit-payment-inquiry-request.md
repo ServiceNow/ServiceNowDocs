@@ -37,15 +37,15 @@ For information about external inquiries, see [Create a payment inquiry case for
 
 3.  Create a payment inquiry request from the customer record or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d72634e123">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d72837e123">
 
 Option
 
-</th><th align="left" id="d72634e126">
+</th><th align="left" id="d72837e126">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d72634e132">
+</th></tr></thead><tbody><tr><td id="d72837e132">
 
 **Payment inquiry request from a consumer record**
 
@@ -55,7 +55,7 @@ Steps
 2.  Open the required customer record.
 
 
-</td></tr><tr><td id="d72634e159">
+</td></tr><tr><td id="d72837e159">
 
 **Payment inquiry request from a business account record**
 
@@ -65,7 +65,7 @@ Steps
 2.  Click the account that you want to create a payment inquiry for.
 
 
-</td></tr><tr><td id="d72634e186">
+</td></tr><tr><td id="d72837e186">
 
 **Payment inquiry request from an interaction record**
 
@@ -73,7 +73,7 @@ Steps
 
 1.  In the **Lists** tab, under **Interactions**, click **My Interactions**.
 2.  Open the required interaction record for the customer.
- For information on how to create an interaction, see [Create an interaction](https://www.servicenow.com/docs/access?context=create-interactions&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+ For information on how to create an interaction, see [Create an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/create-interactions.md).
 
 </td></tr></tbody>
 </table>4.  Click **Create Payment Request**.

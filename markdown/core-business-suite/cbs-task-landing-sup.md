@@ -21,11 +21,11 @@ Choose one of the following tiles to learn more about the different applications
 
 <table id="table_odc_qmb_kgc" class="nav-card"><tbody><tr><td>
 
-[Supplier Lifecycle Operations![](../../../reuse/icons/brand-icons/bus-meetings.svg)Learn more about Supplier Lifecycle Operations to create collaboration with suppliers, mitigate risks, and monitor compliance and performance.](https://www.servicenow.com/docs/access?context=supp-mgmt-landing-page&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)
+[Supplier Lifecycle Operations![](../../../reuse/icons/brand-icons/bus-meetings.svg)Learn more about Supplier Lifecycle Operations to create collaboration with suppliers, mitigate risks, and monitor compliance and performance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-landing-page.md)
 
 </td><td>
 
-[Accounts Payable Operations![](../../../reuse/icons/brand-icons/bus-compliance.svg)Learn more about Accounts Payable Operations to manage invoices, invoice exceptions, approvals, and supplier inquiries.](https://www.servicenow.com/docs/access?context=acc-pay-mgmt-landing-page&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)
+Accounts Payable Operations![](../../../reuse/icons/brand-icons/bus-compliance.svg)Learn more about Accounts Payable Operations to manage invoices, invoice exceptions, approvals, and supplier inquiries.
 
 </td></tr></tbody>
 </table>Find a breakdown of the supported features in CBS within the mentioned applications.
@@ -46,5 +46,5 @@ For more information, see [Raise an invoice request](../task/request-apo.md).
 
 ## Workflows and applications
 
-[Finance and Supply Chain](https://www.servicenow.com/docs/access?context=finance-supply-chain-landing&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)
+[Finance and Supply Chain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-supply-chain-landing.md)
 

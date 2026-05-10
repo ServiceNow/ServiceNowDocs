@@ -54,15 +54,15 @@ Beginning with the Xanadu release, these new columns are added to the BIA depend
 
 8.  To add an item to a dependency group, select one of the options.
 
-<table id="choicetable_fjs_hqz_dyb"><thead><tr><th align="left" id="d56979e259">
+<table id="choicetable_fjs_hqz_dyb"><thead><tr><th align="left" id="d56983e259">
 
 Step
 
-</th><th align="left" id="d56979e262">
+</th><th align="left" id="d56983e262">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d56979e268">
+</th></tr></thead><tbody><tr><td id="d56983e268">
 
 **__Add__**
 
@@ -79,7 +79,7 @@ Add an item from all the records. The relationship source is BCM. All items from
 -   **Additional details - Comment**
  A sample assessment is shown in the example.![Update the dependencies.](../image/update-dependencies.png)
 
-</td></tr><tr><td id="d56979e331">
+</td></tr><tr><td id="d56983e331">
 
 **__Add first level CMDB dependencies__**
 
@@ -91,7 +91,7 @@ Add dependencies for which the relationships are identified in CMDB.
 
  A sample assessment is shown in the example.![Add first level CMDB dependencies.](../image/first-level-of-dependencies.png)
 
-</td></tr><tr><td id="d56979e376">
+</td></tr><tr><td id="d56983e376">
 
 **__Update dependencies__**
 
@@ -99,7 +99,7 @@ Add dependencies for which the relationships are identified in CMDB.
 
 Import all CMDB relationships manually in the respective categories that are defined in the instance.
 
-</td></tr><tr><td id="d56979e389">
+</td></tr><tr><td id="d56983e389">
 
 **Edit __Required Recovery Timeframe__ \(RTO\) for one dependency**
 
@@ -107,7 +107,7 @@ Import all CMDB relationships manually in the respective categories that are def
 
 If you have one dependency in the **Pending** state, you can update its RTO by updating the inline value in the **Required Recovery Timeframe** field as shown in the example.![Updating RTO for one dependency at a time.](../image/req-recovery-timeframe-inline.png)
 
-</td></tr><tr><td id="d56979e416">
+</td></tr><tr><td id="d56983e416">
 
 **Edit __Required Recovery Timeframe__ for multiple dependencies**
 
@@ -135,7 +135,7 @@ If the administrator has set the **Required Recovery Timeframe** field in the de
 
  Data from the Required Recovery Timeframe and Required Data Backup columns is now pulled into the BCP record.
 
-</td></tr><tr><td id="d56979e510">
+</td></tr><tr><td id="d56983e510">
 
 **Select __Complete__**
 

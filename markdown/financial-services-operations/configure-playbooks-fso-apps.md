@@ -15,7 +15,7 @@ Review the playbooks that are available with Financial Services Operations appli
 
 ## Before you begin
 
-Ensure that the scope is selected for the application for which you are configuring a playbook. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Ensure that the scope is selected for the application for which you are configuring a playbook. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: Based on the application that you are configuring, you need the following roles:
 
@@ -36,7 +36,7 @@ Role required: Based on the application that you are configuring, you need the f
 
 ## About this task
 
-The playbooks are built using ServiceNow Playbooks, so make sure you’re familiar with [Process Automation Designer](https://www.servicenow.com/docs/access?context=process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US) basics.
+The playbooks are built using ServiceNow Playbooks, so make sure you’re familiar with [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md) basics.
 
 For information on playbooks that are installed with Financial Services Operations applications, see [Playbooks for Financial Services Operations applications](../reference/playbooks-fso-apps.md).
 
@@ -50,12 +50,12 @@ For information on playbooks that are installed with Financial Services Operatio
 
     -   To create a playbook, click **New**.
     -   To modify a predefined playbook, open the playbook from the list.
-    For information on how to create or modify playbooks, see [Create a process definition](https://www.servicenow.com/docs/access?context=create-process-definition&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For information on how to create or modify playbooks, see [Create a process definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-process-definition.md).
 
 3.  Click **Save**.
 
 4.  Test your playbook and click **Activate**.
 
-    For more information, see [Test a process](https://www.servicenow.com/docs/access?context=test-process&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For more information, see [Test a process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-process.md).
 
 

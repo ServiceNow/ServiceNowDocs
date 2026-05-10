@@ -45,7 +45,7 @@ Use the exported list to consider which pages and widgets to focus on while rede
 
 5.  Review the list and, if needed, export it as a CSV, Excel, XML, JSON, or PDF file to reference during a system upgrade.
 
-    For more information on exporting list data, see [List export](https://www.servicenow.com/docs/access?context=export-list-data&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information on exporting list data, see [List export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/export-list-data.md).
 
 
 **Parent Topic:**[Analyzing portal performance and usage](using-portal-analytics.md)
@@ -53,5 +53,5 @@ Use the exported list to consider which pages and widgets to focus on while rede
 **Related topics**  
 
 
-[Scheduled jobs](https://www.servicenow.com/docs/access?context=c_ScheduledJobs&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_ScheduledJobs.md)
 

@@ -73,5 +73,5 @@ One highlighted value configuration, **CSM/FSM Configurable Workspace Highlighte
 **Related topics**  
 
 
-[Configure a highlighted value for a form header](https://www.servicenow.com/docs/access?context=config-ws-highlight-value&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[Configure a highlighted value for a form header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-ws-highlight-value.md)
 

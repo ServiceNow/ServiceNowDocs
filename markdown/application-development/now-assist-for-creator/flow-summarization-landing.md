@@ -29,7 +29,7 @@ Summarize a flow with Now Assist
 
 </td></tr><tr><td>
 
-[Generate![](../../../reuse/icons/brand-icons/bus-start-developing.svg)Create a flow summary](https://www.servicenow.com/docs/access?context=summarize-a-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Generate![](../../../reuse/icons/brand-icons/bus-start-developing.svg)Create a flow summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/summarize-a-flow.md)
 
 </td><td>
 

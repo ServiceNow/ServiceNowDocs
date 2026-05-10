@@ -29,12 +29,12 @@ Verify you’ve installed the following Integration Hub plugins on your ServiceN
 -   Azure Active Directory User Mapping plugin \(sn\_now\_azure\).
 -   Notify UI Components for Configurable Workspaces
 
-For more information, see [Request IntegrationHub](https://www.servicenow.com/docs/access?context=request-ih-overview&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+For more information, see [Request IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md).
 
 ## Configuration
 
--   To configure the MSIM Conference Call Microsoft Teams integration using the pre-configured app, see [Integrate Notify connector pre-published app with Microsoft Teams](https://www.servicenow.com/docs/access?context=setup-notify-ms-teams-multi-tenant&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
--   To configure the MSIM Conference Call Microsoft Teams integration using the self-configured app, see [Integrating Notify connector self-configured app with Microsoft Teams](https://www.servicenow.com/docs/access?context=setup-notify-ms-teams-single-tenant&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+-   To configure the MSIM Conference Call Microsoft Teams integration using the pre-configured app, see [Integrate Notify connector pre-published app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-multi-tenant.md).
+-   To configure the MSIM Conference Call Microsoft Teams integration using the self-configured app, see [Integrating Notify connector self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-single-tenant.md).
 
 -   **[Use the MSIM Conference Call Microsoft Teams integration](../task/using-conf-call-ms-teams-integration.md)**  
 The following steps give you a walkthrough of how you can manage and initiate a Microsoft Teams conference call directly from a major security incident.

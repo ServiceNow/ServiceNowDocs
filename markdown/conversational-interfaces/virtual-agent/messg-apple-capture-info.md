@@ -32,7 +32,7 @@ Users must opt in to receive notifications. No notifications can be delivered un
 There are two ways for users to grant consent to receive notifications:
 
 -   The user can enter `Notification` into the Apple Messages for Business chat to get a bot response with the option to subscribe or unsubscribe from receiving notifications for your business on Apple Messages for Business.
--   As the administrator, you can set up the option for users to subscribe or unsubscribe from notifications from your portal. See [Subscription-based notifications](https://www.servicenow.com/docs/access?context=c_SubscriptionBasedNotifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+-   As the administrator, you can set up the option for users to subscribe or unsubscribe from notifications from your portal. See [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SubscriptionBasedNotifications.md) for more information.
 
 ## User input controls
 

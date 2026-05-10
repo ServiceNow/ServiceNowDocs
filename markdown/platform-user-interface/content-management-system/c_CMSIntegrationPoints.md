@@ -22,7 +22,7 @@ Generating lists from the ServiceNow platform is straightforward, especially if 
 -   Summary template: defines the list
 -   Detail template: defines the detail as it is rendered in a page.
 
-The templates work together to pass data attributes or [Unique record identifier \(sys\_id\)](https://www.servicenow.com/docs/access?context=c_UniqueRecordIdentifier&version=australia&pubname=australia-platform-administration&ft:locale=en-US) \(sysid\) into a single detail page that manages the data. Any attribute variations use the URL sent to the page.
+The templates work together to pass data attributes or [Unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UniqueRecordIdentifier.md) \(sysid\) into a single detail page that manages the data. Any attribute variations use the URL sent to the page.
 
 Understanding how content types work can mean the difference between a site with 20 pages versus a site with 200 pages. There is a time for both types of data calls. Depending on the task, there are appropriate times to use static content and times for dynamic methods.
 

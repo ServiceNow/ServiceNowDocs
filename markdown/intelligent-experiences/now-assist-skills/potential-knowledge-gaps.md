@@ -17,5 +17,5 @@ The potential knowledge gap skill helps find missing or incomplete knowledge cov
 
 The knowledge gaps feature \(also known as potential gaps\) helps knowledge managers and service teams discover missing or insufficient knowledge articles by analyzing service case and incident patterns. When the relevant skills are activated, Now Assist generates gap recommendations to guide the creation or improvement of knowledge content.
 
-For more information, see [Manage potential knowledge gaps](https://www.servicenow.com/docs/access?context=address-knowledge-gaps&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+For more information, see [Manage potential knowledge gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/address-knowledge-gaps.md)
 

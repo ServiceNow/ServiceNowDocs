@@ -93,12 +93,12 @@ You can:
 
 For more details about using NLQ with Intelligent Search, see [Intelligent Search for CMDB](intelligent-search-cmdb.md).
 
-Alternatively, you can select **Use conditional search instead** to use a basic [condition builder](https://www.servicenow.com/docs/access?context=create-related-list-query&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) functionality where you can specify conditions to search for CIs of a specific class.
+Alternatively, you can select **Use conditional search instead** to use a basic [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-related-list-query.md) functionality where you can specify conditions to search for CIs of a specific class.
 
 You can:
 
 -   Select **New condition set** to add a condition phrase.
--   Select **Related List Condition** to [add a condition phrase for related lists](https://www.servicenow.com/docs/access?context=create-related-list-query&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+-   Select **Related List Condition** to [add a condition phrase for related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-related-list-query.md).
 -   Select **Search** to search through the CMDB.
 -   Add and then adjust the **sn\_cmdb\_ws.list.record\_count\_limit** system property to limit the record count summation and so to minimize the performance impact of that operation. The record count shows on the Conditional search page, for example, above the results list. For more information about adding and modifying that system property, see [Components installed with Service Graph Workspace](../reference/installed-with-sg-workspace.md).
 

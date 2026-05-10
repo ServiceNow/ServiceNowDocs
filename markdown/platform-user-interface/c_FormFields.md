@@ -13,7 +13,7 @@ breadcrumb: [Forms in the classic environment, Working in the classic environmen
 
 A field represents an individual item of data on a record.
 
-Users can view and modify field data on a form. For more detailed information, see [Field administration](https://www.servicenow.com/docs/access?context=c_IntroductionToFields&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Users can view and modify field data on a form. For more detailed information, see [Field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_IntroductionToFields.md).
 
 **Parent Topic:**[Forms in the classic environment](c_UsingForms.md)
 
@@ -53,7 +53,7 @@ Required field contains a value that was saved or must be saved. Default color i
 **Related topics**  
 
 
-[Define field styles](https://www.servicenow.com/docs/access?context=t_DefineFieldStyles&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Define field styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineFieldStyles.md)
 
 ## AI indicator
 

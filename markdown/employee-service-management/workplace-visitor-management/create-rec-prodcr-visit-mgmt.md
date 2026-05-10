@@ -103,7 +103,7 @@ Select this option to enable users to expand help for all questions.
 
     Variables collect information from the user, and are used to ask questions and map answers to fields.
 
-    To learn more about the different types of variables and how to configure them, see [Types of service catalog variables](https://www.servicenow.com/docs/access?context=r_VariableTypes&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    To learn more about the different types of variables and how to configure them, see [Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md).
 
 7.  Click **Submit**.
 

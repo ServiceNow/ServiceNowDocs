@@ -15,5 +15,5 @@ The Voice dashboard page in the Analytics tab of Assistant Designer helps you mo
 
 ## Accessing AI voice agent analytics
 
-To view the dashboard, navigate to **All** &gt; **Assistant Designer** &gt; **Analytics** and select the **Voice** tab. See [Voice page in assistant analytics](https://www.servicenow.com/docs/access?context=voice-assistant-analytics&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) for more information.
+To view the dashboard, navigate to **All** &gt; **Assistant Designer** &gt; **Analytics** and select the **Voice** tab. See [Voice page in assistant analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/voice-assistant-analytics.md) for more information.
 

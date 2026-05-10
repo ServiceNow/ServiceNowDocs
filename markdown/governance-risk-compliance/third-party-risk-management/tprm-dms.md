@@ -87,14 +87,14 @@ If your organization uses DMS and Now Assist for TPRM, you can leverage AI-drive
 
 -   Smart documents – Summarizes risk management documents and provides quick Q&amp;A, reducing manual review and speeding up due diligence.
 
-    For more information, see [Smart Documents Skill](https://www.servicenow.com/docs/access?context=now-assist-skills-smart-documents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more information, see [Smart Documents Skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-smart-documents.md).
 
 -   Extract information from documents – Uses AI to pull specific data points \(such as risk indicators, compliance clauses, or contract terms\) from large documents, reducing manual review time and improving accuracy.
 
-    For more information, see [Now Assist extract information from documents](https://www.servicenow.com/docs/access?context=now-assist-extract-information-from-documents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more information, see [Now Assist extract information from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-extract-information-from-documents.md).
 
 
-For more information on Now Assist for Document Management skills, see [Explore Now Assist in Document Management](https://www.servicenow.com/docs/access?context=explore-now-assist-in-document-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information on Now Assist for Document Management skills, see [Explore Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/explore-now-assist-in-document-management.md).
 
 ## Limitations
 
@@ -115,11 +115,11 @@ For more information on Now Assist for Document Management skills, see [Explore 
 
 [Upload and manage documents in the third-party portal](../task/tprm-add-document-portal.md)
 
-[Document approval and publish process](https://www.servicenow.com/docs/access?context=document-review-approval&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Document approval and publish process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-review-approval.md)
 
-[Exploring Document Management](https://www.servicenow.com/docs/access?context=explore-doc-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Exploring Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/explore-doc-management.md)
 
-[Explore Now Assist in Document Management](https://www.servicenow.com/docs/access?context=explore-now-assist-in-document-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Explore Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/explore-now-assist-in-document-management.md)
 
-[Exploring Document Intelligence](https://www.servicenow.com/docs/access?context=exploring-docintel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[Exploring Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/exploring-docintel.md)
 

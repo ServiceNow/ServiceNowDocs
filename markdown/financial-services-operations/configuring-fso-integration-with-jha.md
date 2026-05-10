@@ -23,7 +23,7 @@ Role required: admin
 
 2.  To customize the connection configuration, access the connection settings in **Flow Designer** &gt; **Connections** and select **JHA**.
 
-    For more information on how to update the connection configuration, see [Set up Jack Henry jXchange Spoke](https://www.servicenow.com/docs/access?context=jha-spk-setup&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For more information on how to update the connection configuration, see [Set up Jack Henry jXchange Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jha-spk-setup.md).
 
 3.  To update other attributes, navigate to **Integration Hub** &gt; **Connection &amp; Credential Aliases** and edit the required information.
 

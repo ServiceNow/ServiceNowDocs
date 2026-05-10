@@ -45,5 +45,5 @@ Review the updates to the JavaScript engine on the ServiceNow AI Platform in the
 **Related topics**  
 
 
-[Update a custom application record](https://www.servicenow.com/docs/access?context=t_UpdateAnApplicationRecord&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[Update a custom application record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/t_UpdateAnApplicationRecord.md)
 

@@ -13,11 +13,11 @@ breadcrumb: [Enable communication channels, Configure, Public Sector Digital Ser
 
 Configure certain Engagement Messenger settings to enable public sector end users to create and track requests. With Engagement Messenger, public sector users can access self-service and chat features from third-party web applications outside of the ServiceNow environment.
 
--   Create an Engagement Messenger module. For more information on implementing Engagement Messenger, see [Set up Engagement Messenger](https://www.servicenow.com/docs/access?context=setting-up-engagement-messenger&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
--   Be familiar with customizing the Engagement Messenger module. For details, see [Customize the feature configuration of Engagement Messenger](https://www.servicenow.com/docs/access?context=configure-features-of-engagement-messenger&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
--   [Activate the Agent Chat plugin](https://www.servicenow.com/docs/access?context=ac-configure-agent-chat&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) \(com.glide.interaction.awa\).
--   [Activate the Virtual Agent plugin](https://www.servicenow.com/docs/access?context=activate-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) \(com.glide.cs.chatbot\), which requires a subscription.
--   [Activate the Customer Service Virtual Agent Conversations plugin](https://www.servicenow.com/docs/access?context=activate-virtual-agent-csm&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) \(com.sn\_csm.virtualagent\), which requires a subscription.
+-   Create an Engagement Messenger module. For more information on implementing Engagement Messenger, see [Set up Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/setting-up-engagement-messenger.md).
+-   Be familiar with customizing the Engagement Messenger module. For details, see [Customize the feature configuration of Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-features-of-engagement-messenger.md).
+-   [Activate the Agent Chat plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md) \(com.glide.interaction.awa\).
+-   [Activate the Virtual Agent plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/activate-virtual-agent.md) \(com.glide.cs.chatbot\), which requires a subscription.
+-   [Activate the Customer Service Virtual Agent Conversations plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-virtual-agent-csm.md) \(com.sn\_csm.virtualagent\), which requires a subscription.
 
 ## Configure Engagement Messenger for Service Request Playbook
 

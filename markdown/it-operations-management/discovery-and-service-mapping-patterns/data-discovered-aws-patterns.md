@@ -699,7 +699,7 @@ Operational status \[operational\_status\]
 Whether the web ACL is enabled or disabled.Possible values are Operational or Retired.
 
 </td></tr></tbody>
-</table>    **Note:** Security Operations users can leverage the integration with Discovery to import web ACL rules and load balancers with attached web ACLs. For more information on setting ACL rules and using the Mitigation Controls Monitoring app, see [Configure the AWS WAF integration for mitigation controls monitoring](https://www.servicenow.com/docs/access?context=spc-install-config-aws-waf&version=australia&pubname=australia-security-management&ft:locale=en-US).
+</table>    **Note:** Security Operations users can leverage the integration with Discovery to import web ACL rules and load balancers with attached web ACLs. For more information on setting ACL rules and using the Mitigation Controls Monitoring app, see [Configure the AWS WAF integration for mitigation controls monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-install-config-aws-waf.md).
 
 
 ## Events discovered by Discovery during horizontal discovery
@@ -923,7 +923,7 @@ The AWS patterns create the following relationships and references to support AW
     |---|------------|---|
     |Web ACL \[cmdb\_ci\_web\_acl\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
 
-    **Note:** Security Operations users can leverage the integration with Discovery to import web ACL rules and load balancers with attached web ACLs. For more information on setting ACL rules and using the Mitigation Controls Monitoring app, see [Configure the AWS WAF integration for mitigation controls monitoring](https://www.servicenow.com/docs/access?context=spc-install-config-aws-waf&version=australia&pubname=australia-security-management&ft:locale=en-US).
+    **Note:** Security Operations users can leverage the integration with Discovery to import web ACL rules and load balancers with attached web ACLs. For more information on setting ACL rules and using the Mitigation Controls Monitoring app, see [Configure the AWS WAF integration for mitigation controls monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-install-config-aws-waf.md).
 
 
 ## Services discovered by patterns

@@ -31,15 +31,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 4.  Perform any of the following actions based on your preference.
 
-<table id="choicetable_x42_ksz_n3c"><thead><tr><th align="left" id="d453673e102">
+<table id="choicetable_x42_ksz_n3c"><thead><tr><th align="left" id="d458104e102">
 
 Action
 
-</th><th align="left" id="d453673e105">
+</th><th align="left" id="d458104e105">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d453673e111">
+</th></tr></thead><tbody><tr><td id="d458104e111">
 
 **Manage visits**
 
@@ -50,7 +50,7 @@ Select any of the following options:-   **Upcoming**: Displays upcoming visits i
 -   **Drafts**: Displays visits that are saved for later. You can edit and submit draft visits.
 You can select a visit to view its details. You can also edit or cancel a visit based on your preference.
 
-</td></tr><tr><td id="d453673e139">
+</td></tr><tr><td id="d458104e139">
 
 **Manage visitors**
 
@@ -64,7 +64,7 @@ Selecting the pending tasks displays the tasks that the visitor hasn't completed
 -   On the visit details page, you can edit a visitor's details or remove the visitor.
 
 
-</td></tr><tr><td id="d453673e164">
+</td></tr><tr><td id="d458104e164">
 
 **Create a visit**
 
@@ -85,7 +85,7 @@ For more information about adding visitors, see [Adding visitors](../concept/add
 5.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d453673e220">
+</td></tr><tr><td id="d458104e220">
 
 **Edit a visit**
 

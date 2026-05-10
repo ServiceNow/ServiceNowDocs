@@ -19,7 +19,7 @@ Due to the complexity of each file, work with Micello, Inc. or some other vendor
 
 For information about the GeoJSON standard, see [http://geojson.org](http://geojson.org). Object properties in the GeoJSON files are used to create buildings, floors, and spaces.
 
-When cloning an instance, sys\_attachments including GeoJSON maps are not cloned by default. See the **Exclude large attachment data field** in [Request a clone](https://www.servicenow.com/docs/access?context=t_StartAClone&version=australia&pubname=australia-platform-administration&ft:locale=en-US) .
+When cloning an instance, sys\_attachments including GeoJSON maps are not cloned by default. See the **Exclude large attachment data field** in [Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_StartAClone.md) .
 
 **Note:** As an option, you can download the GeoJSON maps from the source tables \(fm\_map\_set and fm\_map\_set\_tranformed\) and upload to the destination.
 

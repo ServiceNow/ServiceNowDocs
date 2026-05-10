@@ -23,7 +23,7 @@ Role required: sn\_lg\_ops.legal\_config
 
 ## About this task
 
-Response templates are reusable messages that can be used by the legal fulfillers to respond to stakeholders of a legal request or legal matter. For more information, see [Response templates](https://www.servicenow.com/docs/access?context=response-templates-templated-snippets&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Response templates are reusable messages that can be used by the legal fulfillers to respond to stakeholders of a legal request or legal matter. For more information, see [Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/response-templates-templated-snippets.md).
 
 ## Procedure
 

@@ -52,7 +52,7 @@ sn\_channel\_mgmt.user \(for the additional manager\)
 
 </td><td>
 
-The Manager can log into Agent Workspace and access the channel management module through role-based visibility, such as the sn\_channel\_mgmt.user role. The Manager can utilize Channel Management in Agent Workspace independently of the full WFO suite.For more details see [Configuring groups in Workforce Optimization for ITSM](https://www.servicenow.com/docs/access?context=configuring-groups-wfo-itsm&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+The Manager can log into Agent Workspace and access the channel management module through role-based visibility, such as the sn\_channel\_mgmt.user role. The Manager can utilize Channel Management in Agent Workspace independently of the full WFO suite.For more details see [Configuring groups in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configuring-groups-wfo-itsm.md)
 
 </td></tr></tbody>
 </table>## Channel Management \(New Menu in Agent Workspace\)

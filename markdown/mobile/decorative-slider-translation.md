@@ -52,7 +52,7 @@ Access your decorative slider record from your input form screen and keep a reco
 10. Select **New** in the Inputs attribute table, and then complete the table as follows.
 
     1.  In the **Label \(translate\)** field, enter the translated word that corresponds to the word in the **Value** field. For example, for an Italian translation, the **Value** field may contain the word **high**, the **Label \(translate\)** field would contain the word **alto**.
-    2.  In the Language field, enter the abbreviation for translated language you want the word to appear. For example, **it** for Italian or **es** for Spanish. For more information on abbreviations for languages, see [Languages table](https://www.servicenow.com/docs/access?context=r_LanguagesTable&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    2.  In the Language field, enter the abbreviation for translated language you want the word to appear. For example, **it** for Italian or **es** for Spanish. For more information on abbreviations for languages, see [Languages table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_LanguagesTable.md).
     3.  In the **Element** field, enter the text `translated_value`.
     4.  In the **Value** field, enter the word that needs translating.
 

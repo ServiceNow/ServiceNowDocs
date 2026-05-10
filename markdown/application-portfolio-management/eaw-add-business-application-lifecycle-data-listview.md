@@ -15,7 +15,7 @@ Create or edit the life cycle of a business application to better manage the bus
 
 ## Before you begin
 
-The application model \(field name: Model ID\) is required to create application model life cycle for a business application. The application model ID can either be entered manually or can be automatically created and added to the business application by executing or scheduling the **CSDM Product Model Assignment** script. For details on how to run the **CSDM Product Model Assignment** script, see [Auto-generate product models for logical CIs](https://www.servicenow.com/docs/access?context=csdm-auto-create-prod-model-for-ci&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+The application model \(field name: Model ID\) is required to create application model life cycle for a business application. The application model ID can either be entered manually or can be automatically created and added to the business application by executing or scheduling the **CSDM Product Model Assignment** script. For details on how to run the **CSDM Product Model Assignment** script, see [Auto-generate product models for logical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-auto-create-prod-model-for-ci.md).
 
 Role required: sn\_apm.apm\_analyst
 

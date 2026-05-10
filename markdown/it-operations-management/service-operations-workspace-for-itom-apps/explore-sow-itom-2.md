@@ -125,5 +125,5 @@ Manages the lifecycle of alerts, including performing basic operations such as v
 **Related topics**  
 
 
-[List of workspaces](https://www.servicenow.com/docs/access?context=list-of-workspaces&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/list-of-workspaces.md)
 

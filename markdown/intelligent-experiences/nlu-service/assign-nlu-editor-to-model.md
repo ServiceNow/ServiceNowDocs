@@ -18,7 +18,7 @@ Assign an editor to review your Natural Language Understanding \(NLU\) model tra
 ## Before you begin
 
 -   Create a model, or use an existing one. For translation review, create both primary and secondary \(translated\) models. For more information on multilingual model groups, see [Multilingual model management](../concept/multilingual-model-managent.md).
--   Assign the nlu\_editor role to users. See [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Assign the nlu\_editor role to users. See [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 -   Role required: nlu\_admin. The nlu\_editor can't assign another editor to models.
 
 ## About this task

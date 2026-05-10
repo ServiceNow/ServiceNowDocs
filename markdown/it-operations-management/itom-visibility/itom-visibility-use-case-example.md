@@ -61,13 +61,13 @@ The Service Map tab displays a visual representation of the service.
 **Related topics**  
 
 
-[Life cycle of document and contract entities](https://www.servicenow.com/docs/access?context=csdm-lifecycle-document&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Life cycle of document and contract entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-document.md)
 
-[Life cycle of tangible/physical CIs](https://www.servicenow.com/docs/access?context=csdm-lifecycle-hardware&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Life cycle of tangible/physical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-hardware.md)
 
-[Life cycle of location entities](https://www.servicenow.com/docs/access?context=csdm-lifecycle-location&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Life cycle of location entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-location.md)
 
-[Life cycle of intangible/logical entities](https://www.servicenow.com/docs/access?context=csdm-lifecycle-logical&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Life cycle of intangible/logical entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-logical.md)
 
-[Life cycle of product entities](https://www.servicenow.com/docs/access?context=csdm-lifecycle-product&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Life cycle of product entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-product.md)
 

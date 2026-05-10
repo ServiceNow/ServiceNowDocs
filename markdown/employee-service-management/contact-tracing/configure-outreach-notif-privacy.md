@@ -66,7 +66,7 @@ Role required: sn\_imt\_checkin.checkin\_admin or admin
 
 10. In the Scheduled Script pop-up window, configure a scheduled job to the notification.
 
-    For more information, see [Configure a scheduled job](https://www.servicenow.com/docs/access?context=t_ScheduleAScriptExecution&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information, see [Configure a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ScheduleAScriptExecution.md).
 
 11. Click **Submit**.
 

@@ -19,7 +19,7 @@ Role required: admin
 
 ## About this task
 
-For additional details, see [Email API](https://www.servicenow.com/docs/access?context=email-api&version=australia&pubname=australia-api-reference&ft:locale=en-US) .
+For additional details, see [Email API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/email-api.md) .
 
 ## Procedure
 

@@ -27,7 +27,7 @@ Provide a value for each input that your flow needs. To add dynamic values, you 
 
     Data type: **Record**
 
-    Email \[sys\_mail\] record containing one or more attachments that you want to move. You must enable email receiving to have valid email records. For more information about email services and setup, see [Email Administration](https://www.servicenow.com/docs/access?context=email-administration-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    Email \[sys\_mail\] record containing one or more attachments that you want to move. You must enable email receiving to have valid email records. For more information about email services and setup, see [Email Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-administration-landing.md).
 
 -   **Target Record**
 

@@ -224,7 +224,7 @@ Necessary steps to be followed by the AI agent while carrying out its role.
 
     2.  In the **Voice assistants** field, select **Now Assist Voice Deployment** or a custom provider.
 
-        Voice assistants are created in Assistant Designer. See [Create a voice assistant](https://www.servicenow.com/docs/access?context=configure-voice-assistants&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) for more information.
+        Voice assistants are created in Assistant Designer. See [Create a voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-voice-assistants.md) for more information.
 
     3.  Activate the AI agent by toggling the **Status**.
 

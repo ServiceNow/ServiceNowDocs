@@ -4,7 +4,7 @@ description: The Deal Registration Management application \(com.snc.deal\_regist
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 3
 breadcrumb: [Deal Registration, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---

@@ -39,7 +39,7 @@ Role required: sn\_icw\_igt.standard\_author
 
 7.  Create an assessment template for your standard.
 
-    The Industrial Guided Tasks uses the Smart Assessment Engine for designing the templates for standards. To learn how to create an assessment template, see [Add instructions and questions to an assessment template](https://www.servicenow.com/docs/access?context=sae-asmnt-template-populate&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+    The Industrial Guided Tasks uses the Smart Assessment Engine for designing the templates for standards. To learn how to create an assessment template, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).
 
     The following authoring rules are in place.
 

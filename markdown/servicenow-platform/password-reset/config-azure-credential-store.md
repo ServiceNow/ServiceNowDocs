@@ -116,7 +116,7 @@ Check this option to select either a default password policy or one you created 
 
     **Note:**
 
-    -   The **Enable Password Policy** option was added in the Quebec release. Checking the option displays your password policy choices right from your instance. To learn more, see [Enable password policies on your instance](https://www.servicenow.com/docs/access?context=enable-password-policies&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    -   The **Enable Password Policy** option was added in the Quebec release. Checking the option displays your password policy choices right from your instance. To learn more, see [Enable password policies on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/enable-password-policies.md).
     -   Since the Microsoft Entra ID doesn't support the history policy, the **Enforce history policy** option is hidden.
 
 **Parent Topic:**[Credential Store for Password Reset for Microsoft Entra ID](../concept/credentials-store-micro-ad.md)

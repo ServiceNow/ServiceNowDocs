@@ -75,7 +75,7 @@ Integrate the ServiceNow instance and SAP Fieldglass account using API keys to a
 
     2.  Create a flow and include the Get Buyer Token spoke action.
 
-        For more information about creating flows, see [Building flows](https://www.servicenow.com/docs/access?context=flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+        For more information about creating flows, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md).
 
     3.  Select the buyer credential record for **Credentials \[SAP Fieldglass Buyer Credentials\]**.
 
@@ -94,7 +94,7 @@ Integrate the ServiceNow instance and SAP Fieldglass account using API keys to a
 
     2.  Create a flow and include the Get Supplier Token spoke action.
 
-        For more information about creating flows, see [Building flows](https://www.servicenow.com/docs/access?context=flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+        For more information about creating flows, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md).
 
     3.  Select the supplier credential record for **Credentials \[SAP Fieldglass Supplier Credentials\]**.
 

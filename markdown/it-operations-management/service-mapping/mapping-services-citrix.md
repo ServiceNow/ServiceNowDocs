@@ -157,11 +157,11 @@ Map an application service containing Citrix XenApps, Presentation Servers, and 
 -   Provide a user with permissions to read and query the Citrix repository:
     -   For versions 4.5 and later, a PowerShell script from the XenApp server.
     -   For versions earlier than 4.5, a Microsoft Visual Basic Script \(VBScript\) from the Citrix Presentation Server
--   On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md).
 
     **Note:** To use this credential later for XenAPP, set the **Credential alias** attribute to cmdb\_ci\_appl\_citrix\_xenapp. To use this credential later for Citrix, set the **Credential alias** attribute to cmdb\_ci\_appl\_citrix\_collector.
 
--   \(Optional\) To discover using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   \(Optional\) To discover using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/enable-winRM-MID-servers.md)
 -   Configure a user with permissions to run PowerShell commands on the Citrix server.
 -   \(For discovery of Citrix Presentation Server only\) Find out the icon path for the entry point:
     1.  In the Citrix Access Management Console, navigate to **Presentation Server** &gt; **Applications**.

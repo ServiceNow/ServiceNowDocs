@@ -26,14 +26,14 @@ Role required: admin
 2.  In the User Experience - Chat settings section, do the following:
 
     1.  Swipe the **Agent names and avatars** toggle switch to the right to enable this option.
-    2.  Swipe the **Transcripts** toggle switch to the right to enable the requesters to download a transcript of the conversation they had with an agent. For more information, see [Chat transcript downloads for requesters](https://www.servicenow.com/docs/access?context=ci-chat-transcripts&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    2.  Swipe the **Transcripts** toggle switch to the right to enable the requesters to download a transcript of the conversation they had with an agent. For more information, see [Chat transcript downloads for requesters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-chat-transcripts.md).
 3.  In the User Experience - Statuses section, from the Live chat wait status drop-down list, select **Wait Time**.
 
 4.  In the Configurable Toolbar Controls section, select **View All**.
 
     The Quick Action Toolbar Controls is displayed.
 
-    Add or update the quick action shortcuts for live agents in the Agent Chat. For more information about configuring the toolbar controls, see [Setting up quick action toolbar controls](https://www.servicenow.com/docs/access?context=ci-quick-actions-overview&version=australia&pubname=australia-conversational-interfaces&section=ac-configure-qa-toolbar-controls&ft:locale=en-US).
+    Add or update the quick action shortcuts for live agents in the Agent Chat. For more information about configuring the toolbar controls, see [Setting up quick action toolbar controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-quick-actions-overview.md).
 
 5.  Select **Save**.
 

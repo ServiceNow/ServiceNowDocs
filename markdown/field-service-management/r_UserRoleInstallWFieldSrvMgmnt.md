@@ -327,7 +327,7 @@ wm\_initiator
 </td></tr></tbody>
 </table>## Role integration with Customer Service Management
 
-When you enable the Customer Service Management plugin \(com.sn\_customerservice\) along with the Field Service Management plugin \(com.snc.work\_management\) and add specific Customer Service roles to Field Service agents, they can view or create a case and also view additional customer service data. For more information on customer service agent roles, see [Roles installed with Customer Service Management](https://www.servicenow.com/docs/access?context=r_RolesInstalledWithCustomerService&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+When you enable the Customer Service Management plugin \(com.sn\_customerservice\) along with the Field Service Management plugin \(com.snc.work\_management\) and add specific Customer Service roles to Field Service agents, they can view or create a case and also view additional customer service data. For more information on customer service agent roles, see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 <table id="table_abt_gsr_4jb"><thead><tr><th>
 

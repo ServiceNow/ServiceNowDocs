@@ -15,7 +15,7 @@ breadcrumb: [Dependency Views, Configuration Management Database \(CMDB\), Confi
 
 ServiceNow® Dependency Views maps graphically display CIs that support application or business services and the relationships between the CIs.
 
-The [CMDB Workspace](../../configuration-management/concept/cmdb-workspace.md)and [Service Graph Workspace](../../configuration-management/concept/sg-workspace.md) store apps provide the [Unified Map](../../configuration-management/concept/cmdb-workspace-unified-map.md) feature as an alternative to using Dependency Views. Unified Map combines the capabilities of Dependency Views and [Service Mapping](https://www.servicenow.com/docs/access?context=c_ServiceMappingOverview&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) into a single map experience.
+The [CMDB Workspace](../../configuration-management/concept/cmdb-workspace.md)and [Service Graph Workspace](../../configuration-management/concept/sg-workspace.md) store apps provide the [Unified Map](../../configuration-management/concept/cmdb-workspace-unified-map.md) feature as an alternative to using Dependency Views. Unified Map combines the capabilities of Dependency Views and [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md) into a single map experience.
 
 A ServiceNow service \(application service or business service\) is work or goods that are supported by an IT infrastructure. For example, delivering email service to an employee can require services such as email servers, web servers, and the work to configure the user's account.
 

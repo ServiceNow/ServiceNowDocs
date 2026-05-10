@@ -41,7 +41,7 @@ The agentic workflow and the AI agents included in the Now Assist for Hardware A
 
 ## What to do next
 
-1.  Enable the Now Assist panel to access the AI agents. For details, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+1.  Enable the Now Assist panel to access the AI agents. For details, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 2.  Activate the AI Search application on your ServiceNow instance enabling the AI agents to search and get related records.
     1.  Navigate to **All** &gt; **AI Search** &gt; **AI Search Status**.
     2.  Trigger the automatic AI Search activation process on your ServiceNow instance by selecting **Request AI Search**.

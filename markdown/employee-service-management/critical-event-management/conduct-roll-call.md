@@ -27,15 +27,15 @@ Role required: sn\_critical.responder
 
 3.  Mark the status of the impacted people.
 
-<table id="choicetable_pgz_fm4_ndc"><thead><tr><th align="left" id="d257710e78">
+<table id="choicetable_pgz_fm4_ndc"><thead><tr><th align="left" id="d260219e78">
 
 Status
 
-</th><th align="left" id="d257710e81">
+</th><th align="left" id="d260219e81">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d257710e87">
+</th></tr></thead><tbody><tr><td id="d260219e87">
 
 **Accounted**
 
@@ -45,7 +45,7 @@ Choose one of the following:-   Select the check mark \(![Check mark icon](../..
 -   Select the More actions icon \(![More actions icon](../../legal-request-management/image/more-actions-icon.png)\) and select **Accounted**.
 
 
-</td></tr><tr><td id="d257710e124">
+</td></tr><tr><td id="d260219e124">
 
 **Need Help**
 

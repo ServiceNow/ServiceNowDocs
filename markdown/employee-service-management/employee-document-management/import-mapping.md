@@ -60,7 +60,7 @@ For example, your employee documents have a consistent naming convention: Abel\_
 
 ## Scripting
 
-You can also use scripts to map source elements to the required map elements for Employee Document Management. See [Scripts](https://www.servicenow.com/docs/access?context=c_Script&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+You can also use scripts to map source elements to the required map elements for Employee Document Management. See [Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md).
 
 **Note:** The base system provides import map examples you can use as models.
 

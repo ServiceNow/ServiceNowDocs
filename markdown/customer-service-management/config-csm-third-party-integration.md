@@ -25,7 +25,7 @@ Role required: admin
 
     2.  Follow the setup instructions specific to the spoke.
 
-        For example, for the Salesforce spoke, follow the instructions in the [Set up Salesforce spoke](https://www.servicenow.com/docs/access?context=setup-sf-spk&version=australia&pubname=australia-integrate-applications&section=setup-salesforce&ft:locale=en-US) topic.
+        For example, for the Salesforce spoke, follow the instructions in the [Set up Salesforce spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-sf-spk.md) topic.
 
 2.  Identify the spoke action that retrieves the desired third-party data.
 

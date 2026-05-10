@@ -42,7 +42,7 @@ The project manager \(project\_manager role\) includes all the manager roles for
 
 Digital Portfolio Management \(DPM\) provides a unified workspace for owners to view and collectively manage their services and applications through the full life cycle. Installing DPM and Project Portfolio Management enables the integration with Project Management and Demand Management. With this integration, DPM managers can view project data that may impact a business application and create demands on a business application in DPM.
 
-For more information, see [Exploring Digital Portfolio Management](https://www.servicenow.com/docs/access?context=dpm-explore-cfw&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+For more information, see [Exploring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-explore-cfw.md).
 
 ## Domain separation
 

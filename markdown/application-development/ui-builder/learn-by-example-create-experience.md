@@ -23,7 +23,7 @@ Role required: ui\_builder\_admin
 
 The UI Builder experience view is a central place to view and understand the structure and details of an experience. Use the experience view to see the structure and hierarchy of your experience. You can access UI Builder experience view by selecting an existing experience from the UI Builder home screen or by creating a demo experience, as described here.
 
-**Note:** UI Builder is not yet capable of building or configuring ServiceNow base system service portals, such as the Employee Center. For service portals, continue to use the [Service Portal Designer](https://www.servicenow.com/docs/access?context=t_ConfigureAPage&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+**Note:** UI Builder is not yet capable of building or configuring ServiceNow base system service portals, such as the Employee Center. For service portals, continue to use the [Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md).
 
 ## Procedure
 

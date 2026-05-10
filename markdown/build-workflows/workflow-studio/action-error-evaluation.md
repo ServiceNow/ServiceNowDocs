@@ -56,7 +56,7 @@ Action error evaluation consists of these configuration components.
 
     Section containing possible error conditions. When an action runs, it evaluates the available error conditions from top to bottom looking for a possible match. An action returns the Action Status specified by the first matching error condition. If there is no matching error condition, the Action status is set to the Step Status of the last step run.
 
-    **Note:** Data stream actions have an error evaluation section for REST, SOAP, and JDBC steps. For more information see [Data Stream actions and pagination](https://www.servicenow.com/docs/access?context=data-stream-actions&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    **Note:** Data stream actions have an error evaluation section for REST, SOAP, and JDBC steps. For more information see [Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/data-stream-actions.md).
 
 -   **6. Add error condition option**
 

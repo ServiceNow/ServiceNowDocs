@@ -56,7 +56,7 @@ AI voice agents are managed through AI Agent Studio. To configure a new agent:
 2.  Open the **Add** drop-down list.
 3.  Select an AI voice agent to create a voice-enabled agent for case management.
 
-This interface enables admins to [create a AI voice agents](https://www.servicenow.com/docs/access?context=create-a-voice-enabled-ai-agent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), connect to [supported contact center providers](https://www.servicenow.com/docs/access?context=integrating-voice-service-with-ccaas-providers&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), and deploy fully functional AI voice agents for case management. For deployment and configuration info, see [Deploy AI voice agents](https://www.servicenow.com/docs/access?context=deploy-ai-agents-for-voice&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+This interface enables admins to [create a AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-voice-enabled-ai-agent.md), connect to [supported contact center providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md), and deploy fully functional AI voice agents for case management. For deployment and configuration info, see [Deploy AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/deploy-ai-agents-for-voice.md).
 
 **Note:**
 

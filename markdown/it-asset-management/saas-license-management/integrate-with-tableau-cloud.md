@@ -29,7 +29,7 @@ Register a Tableau Cloud application through the Tableau Cloud admin portal.
 
 ### Before you begin
 
--   Activate the Tableau spoke. For more information, see [Tableau spoke](https://www.servicenow.com/docs/access?context=tableau-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+-   Activate the Tableau spoke. For more information, see [Tableau spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/tableau-spoke.md).
 -   Tableau Cloud Role required: site administrator
 
 ### Procedure
@@ -93,7 +93,7 @@ To create a Tableau Cloud integration profile, request the Software Asset Manage
 
 ServiceNow Role required: sam\_integrator
 
-**Important:** You must select the **Software Asset Management integration with Tableau** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **Software Asset Management integration with Tableau** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
 
 ### About this task
 
@@ -103,15 +103,15 @@ If you’re using the Software Asset Workspace, the option to create the integra
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d41452e487">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d41456e487">
 
 Interface
 
-</th><th align="left" id="d41452e490">
+</th><th align="left" id="d41456e490">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d41452e496">
+</th></tr></thead><tbody><tr><td id="d41456e496">
 
 **Core UI**
 
@@ -122,7 +122,7 @@ Action
 3.  Select **Tableau Cloud**.
 
 
-</td></tr><tr><td id="d41452e538">
+</td></tr><tr><td id="d41456e538">
 
 **Software Asset Workspace**
 

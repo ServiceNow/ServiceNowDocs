@@ -68,7 +68,7 @@ To create a Trello integration profile, request the Software Asset Management - 
 
 ServiceNow Role required: sam\_integrator and sn\_trello\_spoke.trello\_admin
 
-**Important:** You must select the **Trello Spoke** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **Trello Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
 
 ### About this task
 
@@ -78,15 +78,15 @@ If you’re using Software Asset Workspace, the option to create the Trello inte
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d95769e380">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d95773e380">
 
 Interface
 
-</th><th align="left" id="d95769e383">
+</th><th align="left" id="d95773e383">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d95769e389">
+</th></tr></thead><tbody><tr><td id="d95773e389">
 
 **Core UI**
 
@@ -97,7 +97,7 @@ Action
 3.  Select **Trello Enterprise Integration Profile**.
 
 
-</td></tr><tr><td id="d95769e431">
+</td></tr><tr><td id="d95773e431">
 
 **Software Asset Workspace**
 

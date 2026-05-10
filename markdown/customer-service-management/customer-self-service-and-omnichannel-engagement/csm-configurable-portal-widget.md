@@ -27,11 +27,11 @@ Configurable Portal widgets offer the following benefits:
 -   Content modification: Control the data sources or content that you want to display on the portal by mapping the widgets to data sets and configuring filters or parameters to control the information presented.
 -   No code or low code configuration: Update the data, behavior, and presentation of the widgets with minimal code or by updating the instance options.
 
-For more information on using configurable widgets in your customer portals, see [Using portal widgets](https://www.servicenow.com/docs/access?context=service-portal-widgets&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For more information on using configurable widgets in your customer portals, see [Using portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-portal-widgets.md).
 
 ## Widget instances
 
-You can use widget instances to configure the location, properties, and CSS specific to that instance. For more information, see [Configure widget instances](https://www.servicenow.com/docs/access?context=c_ConfigureWidgetInstances&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+You can use widget instances to configure the location, properties, and CSS specific to that instance. For more information, see [Configure widget instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ConfigureWidgetInstances.md).
 
 The following are Configurable Portal widgets that enable you to configure the portal homepage.
 
@@ -159,5 +159,5 @@ Displays topics as cards on your portal page enabling your users to access knowl
 </table>**Related topics**  
 
 
-[Using portal widgets](https://www.servicenow.com/docs/access?context=service-portal-widgets&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[Using portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-portal-widgets.md)
 

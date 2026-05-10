@@ -20,5 +20,5 @@ You can access Workplace Lease Administration, either from the Core UI or Workpl
 -   [Manage workplace contracts from Core UI](manage-contracts-from-core-ui.md)
 -   [Manage workplace contracts from Workplace Central](manage-contracts-from-wpc.md)
 
-For more information on the lease contract workflow, states, and substates, see [Contract life cycle](https://www.servicenow.com/docs/access?context=c_ContractLifeCycle&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+For more information on the lease contract workflow, states, and substates, see [Contract life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/c_ContractLifeCycle.md).
 

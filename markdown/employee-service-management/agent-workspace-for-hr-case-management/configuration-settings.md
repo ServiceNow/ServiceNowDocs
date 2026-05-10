@@ -135,7 +135,7 @@ Agent assist configuration
 
 </td><td>
 
-List of table names and sys\_id of the associated agent assist configuration record.**Note:** A sys\_id is a unique 32-character GUID \(Globally Unique ID\), that identifies each record in an instance. For more information, see [Unique record identifier \(sys\_id\)](https://www.servicenow.com/docs/access?context=c_UniqueRecordIdentifier&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+List of table names and sys\_id of the associated agent assist configuration record.**Note:** A sys\_id is a unique 32-character GUID \(Globally Unique ID\), that identifies each record in an instance. For more information, see [Unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UniqueRecordIdentifier.md).
 
 To preview your configured setting before applying it on the case form, select **Preview**.
 

@@ -30,15 +30,15 @@ Role required: sn\_cwm.cwm\_user
 
 3.  You can save a Board, a Doc, or a single Doc page as a template.
 
-<table id="choicetable_mfv_yn1_ddc"><thead><tr><th align="left" id="d254406e108">
+<table id="choicetable_mfv_yn1_ddc"><thead><tr><th align="left" id="d255298e108">
 
 Choice
 
-</th><th align="left" id="d254406e111">
+</th><th align="left" id="d255298e111">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d254406e117">
+</th></tr></thead><tbody><tr><td id="d255298e117">
 
 **Save a Board as template**
 
@@ -46,7 +46,7 @@ Action
 
 From the Board header, select the More options icon \(![More options icon.](../images/cwm-icon-board-more-options.png)\) and select **Save as template**.![Option to save Board as a template.](../images/cwm-templates-save-board.png)
 
-</td></tr><tr><td id="d254406e141">
+</td></tr><tr><td id="d255298e141">
 
 **Save a Doc as template**
 
@@ -54,7 +54,7 @@ From the Board header, select the More options icon \(![More options icon.](../i
 
 From the Doc header, select the More actions icon \(![More actions icon.](../images/cwm-icon-doc-more-actions.png)\) and select **Save as template**.![Option to save Doc as a template.](../images/cwm-templates-save-doc.png)
 
-</td></tr><tr><td id="d254406e165">
+</td></tr><tr><td id="d255298e165">
 
 **Save a Doc page as template**
 

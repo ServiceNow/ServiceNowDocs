@@ -21,7 +21,7 @@ Role required: itil
 
 ## About this task
 
-Employee Center portal enables users to easily scale their service solutions across departments, such as IT, HR, Workplace, Legal, and Procurement with digital workflows. This unified portal goes beyond the basic service delivery to provide a platform for communications, engagement, and content experiences. For more information, see [Employee Center](https://www.servicenow.com/docs/access?context=employee-center-landing-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+Employee Center portal enables users to easily scale their service solutions across departments, such as IT, HR, Workplace, Legal, and Procurement with digital workflows. This unified portal goes beyond the basic service delivery to provide a platform for communications, engagement, and content experiences. For more information, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md).
 
 -   Use Employee Center to schedule a walk-up appointment to get help, such as to request for new hardware, update software, or upgrade your system.
 -   You can make an appointment, request for the next open appointment, or see your upcoming appointments.

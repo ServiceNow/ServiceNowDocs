@@ -72,15 +72,15 @@ Identify the legal and contract requests created for amendment using the followi
 
 3.  Modify legal request.
 
-<table id="choicetable_rxb_zfw_fhc"><thead><tr><th align="left" id="d728257e246">
+<table id="choicetable_rxb_zfw_fhc"><thead><tr><th align="left" id="d735495e246">
 
 Options
 
-</th><th align="left" id="d728257e249">
+</th><th align="left" id="d735495e249">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d728257e255">
+</th></tr></thead><tbody><tr><td id="d735495e255">
 
 **Add collaborators**
 
@@ -90,7 +90,7 @@ If you need help from other fulfillers to work on the legal request, add them in
 
 The collaborators are notified via email that they’ve been added as collaborators to a legal request.
 
-</td></tr><tr><td id="d728257e274">
+</td></tr><tr><td id="d735495e274">
 
 **Update the users in watch list and requested for**
 

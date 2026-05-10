@@ -7,7 +7,7 @@ topic_type: task
 last_updated: "2026-04-02"
 reading_time_minutes: 2
 keywords: [conversational authoring, Now Assist Chat, AI announcements, Employee Slate]
-breadcrumb: [Employee communications, Working with Employee Slate capabilities, Employee Slate, Employee Service Management]
+breadcrumb: [Conversational authoring for announcements, Employee communications, Working with Employee Slate capabilities, Employee Slate, Employee Service Management]
 ---
 
 # Create an announcement using chat
@@ -16,7 +16,7 @@ Use conversational authoring with Chat to create Employee Slate announcements fr
 
 ## Before you begin
 
-Now Assist Chat must be configured and available in your instance.
+Ensure Now Assist Chat is configured and available in your instance.
 
 Role required: content\_manager or content\_admin
 

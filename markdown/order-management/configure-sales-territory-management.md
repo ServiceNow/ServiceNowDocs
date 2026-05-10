@@ -15,7 +15,7 @@ Learn how to configure the features and components that help distribute accounts
 
 ## Activate Sales Territory Management​
 
-As an admin, activate the plugin \(com.sn\_sales\_territory\) to enable users to access Sales Territory Management​. For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+As an admin, activate the plugin \(com.sn\_sales\_territory\) to enable users to access Sales Territory Management​. For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 <table id="table_tjw_xbp_chc"><thead><tr><th>
 

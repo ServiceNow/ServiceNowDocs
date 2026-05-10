@@ -95,7 +95,7 @@ Configuration item
 
 </td><td>
 
-JSON string that represents a configuration item. For example, `{"name":"SAP ORA01","type":"Oracle"}`. The CI identifier that generated the event appears in the **Additional information** field. Maximum length: 1000 characters. Note: Reference pop-ups and click-throughs are hidden by default for read-only fields. For **Configuration item** and other read only fields, you can optionally change the read-only setting. For more information, see [Configure pop-ups on read-only fields](https://www.servicenow.com/docs/access?context=c_ReferenceIcon&version=australia&pubname=australia-platform-administration&section=t_ConfigPopupsOnReadOnlyFields&ft:locale=en-US) . Click ![Dependency view icon](../image/alert-dependency-view-icon.png) to open the alert in dependency view.
+JSON string that represents a configuration item. For example, `{"name":"SAP ORA01","type":"Oracle"}`. The CI identifier that generated the event appears in the **Additional information** field. Maximum length: 1000 characters. Note: Reference pop-ups and click-throughs are hidden by default for read-only fields. For **Configuration item** and other read only fields, you can optionally change the read-only setting. For more information, see [Configure pop-ups on read-only fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceIcon.md) . Click ![Dependency view icon](../image/alert-dependency-view-icon.png) to open the alert in dependency view.
 
 </td></tr><tr><td>
 
@@ -320,5 +320,5 @@ In an alert, use the `Quick Response` feature to apply remediation to the alert 
 **Related topics**  
 
 
-[Security incidents created from events and alerts](https://www.servicenow.com/docs/access?context=c_ScIncdUseAlrts&version=australia&pubname=australia-security-management&ft:locale=en-US)
+[Security incidents created from events and alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/c_ScIncdUseAlrts.md)
 

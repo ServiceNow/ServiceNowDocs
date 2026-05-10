@@ -21,7 +21,7 @@ Role required: user\_admin or admin
 
 ## About this task
 
-When you assign roles to groups rather than to individual users, members of the group inherit the role. When a user switches groups, the new group role is assigned automatically. For information about the Service Mapping roles, see [Control user access to application services](https://www.servicenow.com/docs/access?context=control-user-access-to-business-services&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+When you assign roles to groups rather than to individual users, members of the group inherit the role. When a user switches groups, the new group role is assigned automatically. For information about the Service Mapping roles, see [Control user access to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/control-user-access-to-business-services.md).
 
 ## Procedure
 

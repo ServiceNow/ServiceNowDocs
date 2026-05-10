@@ -42,15 +42,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Azure DevOps.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d41452e230">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d41456e230">
 
 Option
 
-</th><th align="left" id="d41452e233">
+</th><th align="left" id="d41456e233">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d41452e239">
+</th></tr></thead><tbody><tr><td id="d41456e239">
 
 **Homepage**
 
@@ -60,7 +60,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Azure DevOps from the appropriate category \(Orchestration, Plan, Code, Artifact, or Software quality\).
 
 
-</td></tr><tr><td id="d41452e263">
+</td></tr><tr><td id="d41456e263">
 
 **Applications module**
 
@@ -72,7 +72,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Azure DevOps from the appropriate category \(Orchestration, Plan, Code, Artifact, or Software quality\).
 
 
-</td></tr><tr><td id="d41452e312">
+</td></tr><tr><td id="d41456e312">
 
 **Tools module**
 
@@ -100,7 +100,7 @@ Steps
 
 3.  In the Enter Azure DevOps instance details section, select one of the following values in the **Credential type** field.
 
-<table id="choicetable_j33_jgk_lcc"><tbody><tr><td id="d41452e419">
+<table id="choicetable_j33_jgk_lcc"><tbody><tr><td id="d41456e419">
 
 **Personal Access Token**
 
@@ -108,7 +108,7 @@ Steps
 
 Enter the password or access token to access this instance.For information on creating a PAT, see [Personal access token \(PAT\)](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=preview-page). ![Connect to a tool - ADO PAT](../image/ado-pat-01.png)
 
-</td></tr><tr><td id="d41452e439">
+</td></tr><tr><td id="d41456e439">
 
 **OAuth 2.0**
 
@@ -132,7 +132,7 @@ Pre-requisites: -   [Create a tenant in Microsoft Entra](../task/set-up-azure-de
 </td></tr></tbody>
 </table>4.  If your tool instance is attached to a MID Server, select the **MID Server** option and enter its details.
 
-    For more information about MID server, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
 
 5.  Select **Connect**.
 
@@ -242,15 +242,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Azure DevOps.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d41452e1072">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d41456e1072">
 
 Option
 
-</th><th align="left" id="d41452e1075">
+</th><th align="left" id="d41456e1075">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d41452e1081">
+</th></tr></thead><tbody><tr><td id="d41456e1081">
 
 **Homepage**
 
@@ -260,7 +260,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Azure DevOps from the appropriate category \(Orchestration, Plan, Code, Artifact, or Software quality\).
 
 
-</td></tr><tr><td id="d41452e1105">
+</td></tr><tr><td id="d41456e1105">
 
 **Applications module**
 
@@ -272,7 +272,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Azure DevOps from the appropriate category \(Orchestration, Plan, Code, Artifact, or Software quality\).
 
 
-</td></tr><tr><td id="d41452e1154">
+</td></tr><tr><td id="d41456e1154">
 
 **Tools module**
 
@@ -329,7 +329,7 @@ Steps
 
     2.  If your tool instance is attached to a MID Server, select the **MID Server** option and enter its details.
 
-        For more information about MID server, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+        For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
 
     3.  Select **Connect**.
 

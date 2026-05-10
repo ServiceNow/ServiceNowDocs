@@ -37,5 +37,5 @@ Role required: admin
 **Related topics**  
 
 
-[List of plugins \(madrid\)](https://www.servicenow.com/docs/access?context=list-of-plugins&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[List of plugins \(madrid\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

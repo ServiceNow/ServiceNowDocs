@@ -31,7 +31,7 @@ Add a document list definition to a service definition by using the Insurance cl
 **Related topics**  
 
 
-[Service definitions](https://www.servicenow.com/docs/access?context=csm-service-definitions&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-service-definitions.md)
 
 [Service Definitions in FSO](../../../integrate/guides/FSO/concept/fso-int_guide-service-definitions-in-fso.md)
 

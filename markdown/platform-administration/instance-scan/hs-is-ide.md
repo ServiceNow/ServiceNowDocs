@@ -17,5 +17,5 @@ Access Instance Scan directly from your integrated development environment \(IDE
 
 ![](../image/hs-ide.png)
 
-See [ServiceNow IDE](https://www.servicenow.com/docs/access?context=servicenow-ide-landing&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.
+See [ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-landing.md) for more information.
 

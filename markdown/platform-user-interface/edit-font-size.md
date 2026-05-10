@@ -17,7 +17,7 @@ Adjust font sizes at the theme or component category level to refine default or 
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see [Granular admin roles](https://www.servicenow.com/docs/access?context=granular-admin-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
 
 ## About this task
 
@@ -53,7 +53,7 @@ Font sizing changes in Theme Builder also apply to web embeddables using your th
 
 5.  Edit global font sizes.
 
-<table id="choicetable_o4q_hfq_g3c"><tbody><tr><td id="d85220e179">
+<table id="choicetable_o4q_hfq_g3c"><tbody><tr><td id="d91255e179">
 
 **Edit global base font**
 
@@ -61,7 +61,7 @@ Font sizing changes in Theme Builder also apply to web embeddables using your th
 
 Under Global sizes, locate Base font size and enter a new size value.
 
-</td></tr><tr><td id="d85220e188">
+</td></tr><tr><td id="d91255e188">
 
 **Edit individual global font sizes**
 

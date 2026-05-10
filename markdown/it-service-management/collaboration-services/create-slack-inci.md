@@ -21,7 +21,7 @@ Create a private or a public slack channel to collaborate with support teams or 
 -   Plugins required:
     -   Collaboration Services plugin \(sn\_tcm\_collab\_hook\) version 2.0.x
     -   Slack Spoke for ServiceNow Integration Hub plugin \(com.sn.slack.ahv2\) version 1.3.x
--   Ensure you have set up interactivity and shortcuts for slack. For more information, refer [configure slack app](https://www.servicenow.com/docs/access?context=set-up-slack&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+-   Ensure you have set up interactivity and shortcuts for slack. For more information, refer [configure slack app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-slack.md).
 
 ## About this task
 

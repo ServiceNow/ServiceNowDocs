@@ -51,7 +51,7 @@ The following options are available.
 -   Deployed
 -   Development
 
-For more information on states, see [AI asset lifecycle](https://www.servicenow.com/docs/access?context=ai-asset-lifecycle&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).**Note:** This field is available in the Request an AI use case form on the Employee Center.
+For more information on states, see [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-asset-lifecycle.md).**Note:** This field is available in the Request an AI use case form on the Employee Center.
 
 </td></tr><tr><td>
 
@@ -129,7 +129,7 @@ Select one or more business applications to associate with the AI system.
 
  Associating a business application creates an association between the AI system and the selected application.
 
- For more information, see [AI Control Tower integration with Enterprise Architecture](https://www.servicenow.com/docs/access?context=eaw-aict&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US).
+ For more information, see [AI Control Tower integration with Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-aict.md).
 
  **Note:**
 

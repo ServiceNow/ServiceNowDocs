@@ -28,11 +28,11 @@ Domain separation is supported in the Agent Chat application. Domain separation 
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ### Requirements
 
-All domain support features require the Domain Support - Domain Extensions Installer \[com.glide.domain.msp\_extensions.installer\] plugin. For details, see [Request domain separation](https://www.servicenow.com/docs/access?context=t_ActivateDomainSeparation&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+All domain support features require the Domain Support - Domain Extensions Installer \[com.glide.domain.msp\_extensions.installer\] plugin. For details, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md).
 
 ### Configuring Agent Chat with domain separation
 
@@ -77,7 +77,7 @@ Role required: admin
 
 2.  Create a new metric definition for Interaction "help requested" on the Metric Definition - New record screen by entering `Interaction` in the **Table** field and selecting **Help Requested** from the **Field** list.
 
-    For detailed steps on creating metric definitions, see [Define a metric](https://www.servicenow.com/docs/access?context=create-metric&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For detailed steps on creating metric definitions, see [Define a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-metric.md).
 
 3.  Create a new chat as a requester.
 
@@ -93,7 +93,7 @@ Role required: admin
 
 9.  Navigate to **Metrics** &gt; **Instances** and observe that one instance record was created for help\_requested=true.
 
-    For more information about using the Metric Instance Table, see [Metric instance](https://www.servicenow.com/docs/access?context=c_MetricInstance&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information about using the Metric Instance Table, see [Metric instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_MetricInstance.md).
 
 
 ## Agent Chat Interaction related records

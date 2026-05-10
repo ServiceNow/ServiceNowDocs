@@ -17,7 +17,7 @@ The DuplicateTemplate API provides methods for users to interact with de-duplica
 
 De-duplication task remediation can be more time consuming than desirable when handled individually. Duplication templates enable grouping a set of duplicate tasks and running them together. Use the DuplicateTemplate API to create and consume de-duplication templates. This API runs in the `sn_cmdb` namespace and requires the cmdb\_dedup\_admin role to access.
 
-When an instance detects duplicate configuration items \(CIs\) during identification and reconciliation, it groups each set of duplicate CIs into a de-duplication task for review and remediation. De-duplication tasks provide details about the duplication, including a list of all duplicate CIs. For information, see [Duplicate CIs remediation](https://www.servicenow.com/docs/access?context=de-duplication-tasks&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+When an instance detects duplicate configuration items \(CIs\) during identification and reconciliation, it groups each set of duplicate CIs into a de-duplication task for review and remediation. De-duplication tasks provide details about the duplication, including a list of all duplicate CIs. For information, see [Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md).
 
 See also: [IdentificationEngine - Scoped](../../IdentificationEngineScoped/concept/IdentificationEngineScopedAPI.md#)
 
@@ -95,7 +95,7 @@ failed
 
 </td><td>
 
-Error occurred while checking if the task is compatible with the template. See also [Detecting duplicate CIs](https://www.servicenow.com/docs/access?context=id-detect-dup-ci&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Error occurred while checking if the task is compatible with the template. See also [Detecting duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.md).
 
 </td></tr><tr><td>
 
@@ -346,7 +346,7 @@ String
 
 </td><td>
 
-Optional \(required if the value of **master\_ci\_option** is `conditional`\). Encoded query to specify how the main CI is selected. If multiple CIs or no CIs match the query, the method selects the most recently updated CI as the main CI. The encoded query is evaluated for the template table. This table is identified in the **table** property.For details, see [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Optional \(required if the value of **master\_ci\_option** is `conditional`\). Encoded query to specify how the main CI is selected. If multiple CIs or no CIs match the query, the method selects the most recently updated CI as the main CI. The encoded query is evaluated for the template table. This table is identified in the **table** property.For details, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 </td></tr><tr><td>
 
@@ -392,7 +392,7 @@ String
 
 Optional \(required if the value of **merge\_relations** is `conditional`\). Encoded query to specify if all or none of the relationships from duplicate CIs are merged. The query is evaluated on the main CI that is selected for the de-duplication task. If the query returns true, all relationships are merged. If false, no relationships are merged.The encoded query is evaluated for the template table. This table is identified in the **table** property.
 
-For details, see [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For details, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 </td></tr><tr><td>
 
@@ -404,7 +404,7 @@ String
 
 </td><td>
 
-Optional. Specifies which related tables for duplicate CIs within a de-duplication task are merged to the main CI when applying this template. See also [Remediate a de-duplication task \(manual\)](https://www.servicenow.com/docs/access?context=reconcile-dup-task&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Possible options:
+Optional. Specifies which related tables for duplicate CIs within a de-duplication task are merged to the main CI when applying this template. See also [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).Possible options:
 
 -   all\_available – Includes the default-related tables and any related tables that reference duplicate CIs for the de-duplication task remediated via the template.
 -   conditional
@@ -430,7 +430,7 @@ Optional. List of related entries with an encoded query for each related entry. 
 ]
 ```
 
-For details, see [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For details, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 </td></tr><tr><td>
 
@@ -516,7 +516,7 @@ String
 
 Optional. Encoded query to be evaluated when the template runs. This query is evaluated on the Reconcile Duplicate Task Data \[reconcile\_duplicate\_task\_data\] table. All tasks returned from this query are considered during the template evaluation. **Note:** Even if a task is returned as a part of the query, it doesn’t guarantee that the template run processes the task. Other factors might cause the task to be skipped during template processing.
 
-For details, see [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For details, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -748,7 +748,7 @@ Data type: String
 
 </td><td>
 
-Specifies which related tables for duplicate CIs within a de-duplication task are merged to the main CI when applying this template. See also [Remediate a de-duplication task \(manual\)](https://www.servicenow.com/docs/access?context=reconcile-dup-task&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Possible options:
+Specifies which related tables for duplicate CIs within a de-duplication task are merged to the main CI when applying this template. See also [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).Possible options:
 
 -   all\_available – Includes the default-related tables and any related tables that reference duplicate CIs for the de-duplication task remediated via the template.
 -   conditional
@@ -763,7 +763,7 @@ Data type: String
 
 </td><td>
 
-List of related entries with an encoded query for each related entry. Each query is evaluated on the main CI that is selected for the task. If the query returns true, the related entries are merged during the remediation of a de-duplication task. If false, related entries aren’t merged.For details, see [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+List of related entries with an encoded query for each related entry. Each query is evaluated on the main CI that is selected for the task. If the query returns true, the related entries are merged during the remediation of a de-duplication task. If false, related entries aren’t merged.For details, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 Data type: Array
 
@@ -831,7 +831,7 @@ Location of the table task conditions, that is, the Reconcile Duplicate Task Dat
 
 Encoded query to be evaluated when the template runs. This query is evaluated on the Reconcile Duplicate Task Data \[reconcile\_duplicate\_task\_data\] table. All tasks returned from this query are considered during the template evaluation. **Note:** Even if a task is returned as a part of the query, it doesn’t guarantee that the template run processes the task. Other factors might cause the task to be skipped during template processing.
 
-For details, see [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For details, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 Data type: String
 
@@ -1037,7 +1037,7 @@ Data type: String
 
 </td><td>
 
-Specifies which related tables for duplicate CIs within a de-duplication task are merged to the main CI when applying this template. See also [Remediate a de-duplication task \(manual\)](https://www.servicenow.com/docs/access?context=reconcile-dup-task&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Possible options:
+Specifies which related tables for duplicate CIs within a de-duplication task are merged to the main CI when applying this template. See also [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).Possible options:
 
 -   all\_available – Includes the default-related tables and any related tables that reference duplicate CIs for the de-duplication task remediated via the template.
 -   conditional
@@ -1213,9 +1213,9 @@ Use the [previewTemplate\(\)](DuplicateTemplateScopedAPI.md#) method to preview 
 
 See also.
 
--   [Duplicate CIs remediation](https://www.servicenow.com/docs/access?context=de-duplication-tasks&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   [Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md)
 -   [publishTemplate\(\)](DuplicateTemplateScopedAPI.md#)
--   [Remediate a de-duplication task \(manual\)](https://www.servicenow.com/docs/access?context=reconcile-dup-task&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1655,7 +1655,7 @@ String
 
 </td><td>
 
-Optional \(required if the value of **master\_ci\_option** is `conditional`\). Encoded query to specify how the main CI is selected. If multiple CIs or no CIs match the query, the method selects the most recently updated CI as the main CI. The encoded query is evaluated for the template table. This table is identified in the **table** property.For details, see [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Optional \(required if the value of **master\_ci\_option** is `conditional`\). Encoded query to specify how the main CI is selected. If multiple CIs or no CIs match the query, the method selects the most recently updated CI as the main CI. The encoded query is evaluated for the template table. This table is identified in the **table** property.For details, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 </td></tr><tr><td>
 
@@ -1701,7 +1701,7 @@ String
 
 Optional \(required if the value of **merge\_relations** is `conditional`\). Encoded query to specify if all or none of the relationships from duplicate CIs are merged. The query is evaluated on the main CI that is selected for the de-duplication task. If the query returns true, all relationships are merged. If false, no relationships are merged.The encoded query is evaluated for the template table. This table is identified in the **table** property.
 
-For details, see [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For details, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 </td></tr><tr><td>
 
@@ -1713,7 +1713,7 @@ String
 
 </td><td>
 
-Optional. Specifies which related tables for duplicate CIs within a de-duplication task are merged to the main CI when applying this template. See also [Remediate a de-duplication task \(manual\)](https://www.servicenow.com/docs/access?context=reconcile-dup-task&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Possible options:
+Optional. Specifies which related tables for duplicate CIs within a de-duplication task are merged to the main CI when applying this template. See also [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).Possible options:
 
 -   all\_available – Includes the default-related tables and any related tables that reference duplicate CIs for the de-duplication task remediated via the template.
 -   conditional
@@ -1739,7 +1739,7 @@ Optional. List of related entries with an encoded query for each related entry. 
 ]
 ```
 
-For details, see [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For details, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 </td></tr><tr><td>
 
@@ -1825,7 +1825,7 @@ String
 
 Optional. Encoded query to be evaluated when the template runs. This query is evaluated on the Reconcile Duplicate Task Data \[reconcile\_duplicate\_task\_data\] table. All tasks returned from this query are considered during the template evaluation. **Note:** Even if a task is returned as a part of the query, it doesn’t guarantee that the template run processes the task. Other factors might cause the task to be skipped during template processing.
 
-For details, see [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For details, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 </td></tr></tbody>
 </table><table id="table_sl4_t5c_txb" class="returns"><thead><tr><th>

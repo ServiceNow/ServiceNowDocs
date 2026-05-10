@@ -77,7 +77,7 @@ Create a PagerDuty application to integrate with your ServiceNow instance.
 
 ### Before you begin
 
--   Activate the PagerDuty spoke. For more information, see [PagerDuty Spoke](https://www.servicenow.com/docs/access?context=pagerduty-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+-   Activate the PagerDuty spoke. For more information, see [PagerDuty Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/pagerduty-spoke.md).
 -   PagerDuty Role required: Refer to the [Minimal user permissions](integrate-with-pagerduty.md#) table.
 
 ### Procedure
@@ -151,7 +151,7 @@ To create a PagerDuty integration profile, request the Software Asset Management
 
 ServiceNow Role required: sam\_integrator
 
-**Important:** You must select the **PagerDuty Spoke** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **PagerDuty Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
 
 ### About this task
 
@@ -161,15 +161,15 @@ If you’re using Software Asset Workspace, the option to create the PagerDuty i
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d130604e672">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d130608e672">
 
 Interface
 
-</th><th align="left" id="d130604e675">
+</th><th align="left" id="d130608e675">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d130604e681">
+</th></tr></thead><tbody><tr><td id="d130608e681">
 
 **Core UI**
 
@@ -180,7 +180,7 @@ Action
 3.  Select **PagerDuty Integration Profile**.
 
 
-</td></tr><tr><td id="d130604e723">
+</td></tr><tr><td id="d130608e723">
 
 **Software Asset Workspace**
 

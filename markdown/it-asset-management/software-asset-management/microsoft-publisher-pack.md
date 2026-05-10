@@ -21,7 +21,7 @@ Microsoft offers a wide variety of products that span from database servers to s
 
 To learn more about Microsoft licensing models, see [Microsoft licensing](https://www.microsoft.com/en-us/Licensing).
 
-Set up ServiceNow Discovery to identify Microsoft installations on your network. For more information, see [Data collected by ITOM Visibility](https://www.servicenow.com/docs/access?context=data-collected-by-itom-visibility&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+Set up ServiceNow Discovery to identify Microsoft installations on your network. For more information, see [Data collected by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/data-collected-by-itom-visibility.md).
 
 ## Licensing models
 

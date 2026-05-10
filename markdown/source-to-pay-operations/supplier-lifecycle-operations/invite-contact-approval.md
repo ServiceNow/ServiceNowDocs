@@ -23,7 +23,7 @@ Role required: sn\_slm.admin
 
 After you perform this task, an approval record is created for the Enroll a new supplier user case type, regardless of whether a supplier contact self-registers or a supplier manager invites a new supplier contact.
 
-**Important:** Supplier Case Management creates an approval record if the "Ask For Approval" action is a part of any SLO flow. This approval record can be approved by the user who belongs to the Supplier Administrators group \(sys\_user\_group table\). For more information, see [Add a user to a group](https://www.servicenow.com/docs/access?context=t_AddAUserToAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Important:** Supplier Case Management creates an approval record if the "Ask For Approval" action is a part of any SLO flow. This approval record can be approved by the user who belongs to the Supplier Administrators group \(sys\_user\_group table\). For more information, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AddAUserToAGroup.md).
 
 ## Procedure
 

@@ -17,13 +17,13 @@ You can design a topic conversation in Virtual Agent powered Now LLM by includin
 
 ## Request catalog item through Now LLM
 
-You can use this topic block to request for a catalog item through a conversational and streamlined experience based on generative AI. For information about configuring Now Assist in conversational catalog request, see [Configure Now Assist in Conversational Catalog Request](https://www.servicenow.com/docs/access?context=configure-gen-ai-catalog-item&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+You can use this topic block to request for a catalog item through a conversational and streamlined experience based on generative AI. For information about configuring Now Assist in conversational catalog request, see [Configure Now Assist in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-gen-ai-catalog-item.md).
 
 |Parameter|Description|
 |---------|-----------|
 |catalog\_item\_id|sys\_id of the catalog item that should be requested.|
 |context\_json|Context of the conversation in JSON format.|
-|execute\_contextual\_search|Option to specify if the contextual search should be run for a record producer based on its configuration. For information on defining contextual search for a record producer, see [Define contextual search for record producer](https://www.servicenow.com/docs/access?context=t_CntxtSearchRP&version=australia&pubname=australia-platform-administration&ft:locale=en-US).|
+|execute\_contextual\_search|Option to specify if the contextual search should be run for a record producer based on its configuration. For information on defining contextual search for a record producer, see [Define contextual search for record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/t_CntxtSearchRP.md).|
 |confirm\_catalog\_item|Option to specify whether the user must confirm the catalog item before continuing with the next step. If this is set to `false`, user can answer the catalog items questions by skipping the confirmation.|
 |show\_end\_state\_card|Option to display the end state card information about the generated record to the user.|
 
@@ -240,9 +240,9 @@ The following conditions must be met when a user requests a catalog item in the 
 **Related topics**  
 
 
-[Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+[Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md)
 
 [Catalog builder preview topic conversation](catalog-builder-preview-topic.md)
 
-[Now LLM Service updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[Now LLM Service updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/now-llm-model-updates.md)
 

@@ -29,7 +29,7 @@ The extension of the Localization Framework capabilities to KB articles enables 
 -   Approve and publish the translated content.
 -   Translate Knowledge Base articles in bulk in multiple languages.
 
-For more information on translating the KB articles, see [Knowledge base article localization](https://www.servicenow.com/docs/access?context=translation-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information on translating the KB articles, see [Knowledge base article localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/translation-management.md).
 
 **Parent Topic:**[Explore Localization Framework](exploring-localization-framework.md)
 

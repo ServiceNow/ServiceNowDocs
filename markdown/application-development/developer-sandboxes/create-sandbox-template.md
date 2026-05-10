@@ -15,5 +15,5 @@ breadcrumb: [Administering, Developer Sandboxes, Developing your application, Bu
 
 Developer Sandboxes templates are being deprecated, and should no longer be used.
 
-**Note:** To generate synthetic test data for use in your sandbox template, you can use Now Assist Data Kit. For more information, see [Now Assist Data Kit](https://www.servicenow.com/docs/access?context=now-assist-data-kit-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** To generate synthetic test data for use in your sandbox template, you can use Now Assist Data Kit. For more information, see [Now Assist Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md).
 

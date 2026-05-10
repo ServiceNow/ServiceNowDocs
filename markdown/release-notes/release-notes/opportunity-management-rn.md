@@ -19,17 +19,17 @@ The ServiceNow® Opportunity Management application enables your sales agents an
 -   Split opportunity revenue across multiple contributors using opportunity allocations to ensure accurate attribution, incentive crediting, and forecast reporting for collaborative sales teams.
 -   Capture Direct or Indirect deal types to align opportunities with defined routes to market.
 
-See [Opportunity Management](https://www.servicenow.com/docs/access?context=opportunity-management&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
+See [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md) for more information.
 
 **Important:** Opportunity Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[View touchpoint records for a task](https://www.servicenow.com/docs/access?context=opportunity-management-tasks-tab&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[View touchpoint records for a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-tasks-tab.md)**
 
     Gain complete visibility into customer engagement by viewing a complete touchpoint timeline on every opportunity so that teams have context at their fingertips.
 
--   **[Add competitors to an opportunity](https://www.servicenow.com/docs/access?context=opportunity-management-competitors-tab&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Add competitors to an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-competitors-tab.md)**
 
     Identify and store competitor information for product offerings/product family within an opportunity.​
 
@@ -39,7 +39,7 @@ See [Opportunity Management](https://www.servicenow.com/docs/access?context=oppo
     Divide sales credit across multiple contributors on a single opportunity for accurate attribution and compensation.
 
 
--   **[Customer entities on opportunity](https://www.servicenow.com/docs/access?context=opportunity-management-details-tab&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Customer entities on opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-details-tab.md)**
 
     Capture the deal type \(Direct or Indirect\) on customer entities to align opportunities with defined routes to market and support consistent, compliant processing across systems and teams.
 
@@ -54,7 +54,7 @@ Install Opportunity Management by requesting it from the ServiceNow Store. Visit
 
 ## Related ServiceNow applications and features
 
--   **[Activity Management](https://www.servicenow.com/docs/access?context=explore-activity-management&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-activity-management.md)**
 
     ServiceNow®Activity Management applications help sales and service teams work more productively by capturing, organizing, and acting on customer interactions in one place, helping to ensure complete context and effective follow‑up across Customer Relationship Management \(CRM\) records.
 

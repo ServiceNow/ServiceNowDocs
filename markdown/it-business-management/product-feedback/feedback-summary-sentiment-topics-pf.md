@@ -61,15 +61,15 @@ With the feedback or multi feedback summarization skill, you can get enough deta
 
 5.  When you're finished summarizing the feedback, you can expand or collapse the summary, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_mzf_fyg_y1c"><thead><tr><th align="left" id="d139403e168">
+<table id="choicetable_mzf_fyg_y1c"><thead><tr><th align="left" id="d139906e168">
 
 Option
 
-</th><th align="left" id="d139403e171">
+</th><th align="left" id="d139906e171">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d139403e177">
+</th></tr></thead><tbody><tr><td id="d139906e177">
 
 **Expand or collapse the summary**
 
@@ -77,7 +77,7 @@ Procedure
 
 Select the expand card icon \(![Expand card icon.](../../now-assist-spm/images/icon-expand-spm.png)\) or the collapse card icon \(![Collapse card icon.](../../now-assist-spm/images/icon-collapse-spm.png)\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d139403e198">
+</td></tr><tr><td id="d139906e198">
 
 **More information on summary**
 
@@ -85,7 +85,7 @@ Select the expand card icon \(![Expand card icon.](../../now-assist-spm/images/i
 
 If you want to check some details about the summary, select the more info icon \(![More information icon.](../../now-assist-spm/images/icon-more-information-spm.png)\).
 
-</td></tr><tr><td id="d139403e213">
+</td></tr><tr><td id="d139906e213">
 
 **View more or less summary**
 
@@ -93,7 +93,7 @@ If you want to check some details about the summary, select the more info icon \
 
 Select **View more** or **View less** to see more or less summary information.
 
-</td></tr><tr><td id="d139403e228">
+</td></tr><tr><td id="d139906e228">
 
 **Provide feedback for the summary**
 
@@ -101,7 +101,7 @@ Select **View more** or **View less** to see more or less summary information.
 
 If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../../now-assist-spm/images/icon-helpful-feedback.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../../now-assist-spm/images/icon-nt-helpful.png)\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d139403e252">
+</td></tr><tr><td id="d139906e252">
 
 **Copy the feedback summary**
 
@@ -109,7 +109,7 @@ If you think that the summary was helpful, select the helpful icon \(![Helpful i
 
 Select the copy to clipboard icon \(![Copy to clipboard icon.](../../now-assist-spm/images/icon-copy-spm.png)\) to use the feedback summary information for another purpose, such as pasting it into an email.
 
-</td></tr><tr><td id="d139403e267">
+</td></tr><tr><td id="d139906e267">
 
 **Refresh the summary**
 
@@ -117,7 +117,7 @@ Select the copy to clipboard icon \(![Copy to clipboard icon.](../../now-assist-
 
 Select **Refresh** to reload the feedback summary.
 
-</td></tr><tr><td id="d139403e279">
+</td></tr><tr><td id="d139906e279">
 
 **Copy and create epic from summary**
 

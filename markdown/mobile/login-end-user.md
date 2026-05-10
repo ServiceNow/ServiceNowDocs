@@ -37,15 +37,15 @@ If you download the mobile app from an enterprise mobility management \(EMM\) su
 
 2.  In the instance address field, enter the instance address in one of two ways.
 
-<table id="choicetable_dvq_y41_fwb"><thead><tr><th align="left" id="d45613e121">
+<table id="choicetable_dvq_y41_fwb"><thead><tr><th align="left" id="d45617e121">
 
 Option
 
-</th><th align="left" id="d45613e124">
+</th><th align="left" id="d45617e124">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d45613e130">
+</th></tr></thead><tbody><tr><td id="d45617e130">
 
 **Manual entry**
 
@@ -55,7 +55,7 @@ Type the instance address in the instance address field.
 
 **Note:** You don't need to include  `.service-now.com ` at the end of the instance name.
 
-</td></tr><tr><td id="d45613e147">
+</td></tr><tr><td id="d45617e147">
 
 **Scan QR code**
 
@@ -66,7 +66,7 @@ Tap the QR icon \(![Mobile QR scan code.](../image/mobile-qr-scan.png)\), and th
  The QR code automatically fills in the name of the instance.
 
 </td></tr></tbody>
-</table>    **Note:** For both the Now Mobile app and Mobile Agent app, there's an option to test with a demo account, where you can select a role that matches the demo you would like to see. For more information, see [Now Mobile app demo](https://www.servicenow.com/docs/access?context=sg-mobile-demo&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) and [Mobile Agent app demo](../concept/sg-agent-demo.md).
+</table>    **Note:** For both the Now Mobile app and Mobile Agent app, there's an option to test with a demo account, where you can select a role that matches the demo you would like to see. For more information, see [Now Mobile app demo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/sg-mobile-demo.md) and [Mobile Agent app demo](../concept/sg-agent-demo.md).
 
 3.   Enter a nickname for this instance to help you easily locate changes you make within the instance.
 

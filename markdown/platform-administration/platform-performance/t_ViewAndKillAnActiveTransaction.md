@@ -25,7 +25,7 @@ This action is intended to stop background processes, such as scheduled jobs, an
 
 ## Procedure
 
-1.  If [High Security Settings](https://www.servicenow.com/docs/access?context=c_HighSecuritySettings&version=australia&pubname=australia-platform-security&ft:locale=en-US) are enabled, elevate privileges to security\_admin.
+1.  If [High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HighSecuritySettings.md) are enabled, elevate privileges to security\_admin.
 
 2.  Navigate to the appropriate **Active Transactions** module.
 

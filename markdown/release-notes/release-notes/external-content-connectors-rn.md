@@ -20,52 +20,52 @@ The ServiceNow® External Content Connectors application enables AI Search appli
 -   Retrieve content and links from URLs found in sitemaps defined for your web source system when running content crawls for the Webcrawler external content connector.
 -   View a content crawl's start point via links in the content crawl list and in content crawl history entries.
 
-See [External Content Connectors](https://www.servicenow.com/docs/access?context=ext-cont-connectors-landing-page&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+See [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ext-cont-connectors-landing-page.md) for more information.
 
 **Important:** External Content Connectors is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Adobe Acrobat Sign external content connector](https://www.servicenow.com/docs/access?context=adobe-acrobat-sign-external-content-connector&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Adobe Acrobat Sign external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/adobe-acrobat-sign-external-content-connector.md)**
 
     Retrieve searchable content and metadata from your Adobe Acrobat Sign source system.
 
--   **[Aha! Roadmaps external content connector](https://www.servicenow.com/docs/access?context=aha-roadmaps-external-content-connector&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Aha! Roadmaps external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/aha-roadmaps-external-content-connector.md)**
 
     Retrieve searchable content and metadata from your Aha! Roadmaps source system.
 
--   **[Cornerstone external content connector](https://www.servicenow.com/docs/access?context=cornerstone-external-content-connector&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Cornerstone external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/cornerstone-external-content-connector.md)**
 
     Retrieve searchable content and metadata from your Cornerstone source system.
 
--   **[Fluid Topics external content connector](https://www.servicenow.com/docs/access?context=fluid-topics-external-content-connector&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Fluid Topics external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/fluid-topics-external-content-connector.md)**
 
     Retrieve searchable content and metadata from your Fluid Topics source system.
 
--   **[ManageEngine external content connector](https://www.servicenow.com/docs/access?context=manageengine-external-content-connector&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[ManageEngine external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/manageengine-external-content-connector.md)**
 
     Retrieve searchable content and metadata from your ManageEngine source system.
 
--   **[Workvivo external content connector](https://www.servicenow.com/docs/access?context=workvivo-external-content-connector&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Workvivo external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/workvivo-external-content-connector.md)**
 
     Retrieve searchable content and metadata from your Workvivo source system.
 
 
 ## Changed in this release
 
--   **[Sitemap support in the Webcrawler external content connector](https://www.servicenow.com/docs/access?context=webcrawler-external-content-connector&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Sitemap support in the Webcrawler external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/webcrawler-external-content-connector.md)**
 
     Retrieve content and links from URLs found in sitemaps defined for your web source system when running content crawls for the Webcrawler external content connector. A content crawl only retrieves sitemap URLs that include the crawl's starting point URL.
 
--   **[Start point links for scheduled partial content crawls](https://www.servicenow.com/docs/access?context=create-content-crawl-external-content-connector&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Start point links for scheduled partial content crawls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-content-crawl-external-content-connector.md)**
 
     View the start point for a scheduled partial content crawl via a link in its entry in the the external content connector's list of crawls.
 
--   **[Start point links in partial content crawl history entries](https://www.servicenow.com/docs/access?context=review-crawl-ext-cont-connector&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Start point links in partial content crawl history entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/review-crawl-ext-cont-connector.md)**
 
     View the start point for a scheduled partial content crawl via a link in its crawl history entries.
 
--   **[Limited Role-Based Access Control \(RBAC\) support in the Atlassian](https://www.servicenow.com/docs/access?context=atlassian-confluence-cloud-external-content-connector&version=australia&pubname=australia-platform-administration&ft:locale=en-US) Confluence Cloud external content connector**
+-   **[Limited Role-Based Access Control \(RBAC\) support in the Atlassian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/atlassian-confluence-cloud-external-content-connector.md) Confluence Cloud external content connector**
 
     Map source system user and group permissions assigned via RBAC roles to users in your ServiceNow AI Platform instance.
 
@@ -76,7 +76,7 @@ Install External Content Connectors by requesting the External Content Connector
 
 ## Related ServiceNow applications and features
 
--   **[AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md)**
 
     Configure search applications to display results indexed by your external content connectors.
 

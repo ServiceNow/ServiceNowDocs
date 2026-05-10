@@ -110,15 +110,15 @@ Option to enable table statistics. Optimize SQL queries using table statistics b
 </td></tr></tbody>
 </table>4.  Configure the authentication method that you want to use with Snowflake.
 
-<table id="choicetable_ckm_bgh_b3c"><thead><tr><th align="left" id="d146066e254">
+<table id="choicetable_ckm_bgh_b3c"><thead><tr><th align="left" id="d146111e254">
 
 Option
 
-</th><th align="left" id="d146066e257">
+</th><th align="left" id="d146111e257">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d146066e263">
+</th></tr></thead><tbody><tr><td id="d146111e263">
 
 **JWT**
 
@@ -145,7 +145,7 @@ and ends with:
 4.  Enter the role that determines your permissions within Snowflake.
 
 
-</td></tr><tr><td id="d146066e306">
+</td></tr><tr><td id="d146111e306">
 
 **OAuth**
 
@@ -167,7 +167,7 @@ Select this option to enter OAuth credentials directly from your identity provid
 
 Select this option if you created a record in the Application Registries \[oauth\_entity\] table with a Snowflake or IdP service principal for authentication.
 
-This option keeps credentials within the instance and uses the ServiceNow AI Platform OAuth framework for token lifecycle management. For details on creating an OAuth entity profile, see [Use a third-party OAuth provider](https://www.servicenow.com/docs/access?context=t_UseAThirdPartyOAuthProvider&version=australia&pubname=australia-api-reference&ft:locale=en-US). When configuring the profile, select **Client Credentials** as the grant type. If your OAuth provider requires scopes, add them on the OAuth Entity Scopes tab. Consult your data source or identity provider documentation for the required scope values.
+This option keeps credentials within the instance and uses the ServiceNow AI Platform OAuth framework for token lifecycle management. For details on creating an OAuth entity profile, see [Use a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_UseAThirdPartyOAuthProvider.md). When configuring the profile, select **Client Credentials** as the grant type. If your OAuth provider requires scopes, add them on the OAuth Entity Scopes tab. Consult your data source or identity provider documentation for the required scope values.
 
 Select the OAuth entity profile for your Snowflake or IdP service principal.
 

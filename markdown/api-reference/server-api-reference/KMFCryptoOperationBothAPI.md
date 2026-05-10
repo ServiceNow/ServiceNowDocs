@@ -15,7 +15,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The KMFCryptoOperation class provides methods for performing cryptographic operations using a Key Management Framework \(KMF\) cryptographic module or a Field Encryption encryption module.
 
-To use this API, you must have already created and configured a KMF cryptographic module or a CLE encryption module. The module must have one or more cryptographic specifications and you must create or import its associated key. For details, see [Cryptographic modules](https://www.servicenow.com/docs/access?context=crypto-module-overview&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+To use this API, you must have already created and configured a KMF cryptographic module or a CLE encryption module. The module must have one or more cryptographic specifications and you must create or import its associated key. For details, see [Cryptographic modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/crypto-module-overview.md).
 
 The KMFCryptoOperation object generated using this API represents a cryptographic operation, such as a Symmetric Encryption. Use the KMFCryptoOperations\(\) method to create this object, the builder methods to set properties on the object, and the doOperation\(\) method to execute the operation.
 
@@ -59,7 +59,7 @@ String
 
 </td><td>
 
-Name of the Key Management Framework \(KMF\) cryptographic module or Field Encryption encryption module to use. You must create the module before calling this method. For details, see [Cryptographic module overview](https://www.servicenow.com/docs/access?context=crypto-module-overview&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Name of the Key Management Framework \(KMF\) cryptographic module or Field Encryption encryption module to use. You must create the module before calling this method. For details, see [Cryptographic module overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/crypto-module-overview.md).
 
 </td></tr><tr><td>
 

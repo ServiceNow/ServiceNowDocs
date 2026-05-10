@@ -31,15 +31,15 @@ When you receive assets:
 
 1.  View purchase orders.
 
-<table id="choicetable_jg3_j33_4xb"><thead><tr><th align="left" id="d277876e71">
+<table id="choicetable_jg3_j33_4xb"><thead><tr><th align="left" id="d277990e71">
 
 UI
 
-</th><th align="left" id="d277876e74">
+</th><th align="left" id="d277990e74">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d277876e80">
+</th></tr></thead><tbody><tr><td id="d277990e80">
 
 **Core UI**
 
@@ -47,7 +47,7 @@ Action
 
 Navigate to **All** &gt; **Procurement** &gt; **Orders** &gt; **Purchase Orders**.
 
-</td></tr><tr><td id="d277876e104">
+</td></tr><tr><td id="d277990e104">
 
 **Hardware Asset Workspace**
 
@@ -57,7 +57,7 @@ Navigate to **All** &gt; **Procurement** &gt; **Orders** &gt; **Purchase Orders*
 2.  Select the **Purchase orders** tab.
 
 
-</td></tr><tr><td id="d277876e137">
+</td></tr><tr><td id="d277990e137">
 
 **Enterprise Asset WorkWorkspace**
 
@@ -67,7 +67,7 @@ Navigate to **All** &gt; **Procurement** &gt; **Orders** &gt; **Purchase Orders*
 2.  Select the **Purchase orders** tab.
 
 
-</td></tr><tr><td id="d277876e170">
+</td></tr><tr><td id="d277990e170">
 
 **OT Asset Workspace**
 
@@ -144,7 +144,7 @@ Navigate to **All** &gt; **Procurement** &gt; **Orders** &gt; **Purchase Orders*
 
         If the assets that you are receiving belong to model categories linked to a CI class with identification rules defined for fields like the Asset tag, Serial number, or MAC address, you should provide details for at least one of these fields. For example, if identification rules are defined for the Serial number and MAC address, you should provide a value for either of these fields to proceed. The Capture asset tags dialog box will display a message indicating the specific field values you should provide.
 
-        The identification rules for a CI class are defined in the CMDB Identification and Reconciliation engine \(IRE\). For more details, see [Identification rules](https://www.servicenow.com/docs/access?context=c_IdentificationRules&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and [Create a CI identification rule](https://www.servicenow.com/docs/access?context=t_CreateCIIdentificationRule&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US). These rules help to uniquely identify the asset through these required fields and maintain accurate asset records.
+        The identification rules for a CI class are defined in the CMDB Identification and Reconciliation engine \(IRE\). For more details, see [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_IdentificationRules.md) and [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.md). These rules help to uniquely identify the asset through these required fields and maintain accurate asset records.
 
     8.  From the **Reserved for** list, select the user for whom the item was ordered.
 

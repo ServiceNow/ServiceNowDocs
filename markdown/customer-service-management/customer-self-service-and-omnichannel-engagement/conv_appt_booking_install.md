@@ -34,7 +34,7 @@ Conversational Appointment Booking requires the following plugins. Ensure that t
 
         -   NLU model for Conversational Appointment Booking.
 
-            **Note:** In order to use the NLU model, you need to train and publish the model. See [Natural Language Understanding](https://www.servicenow.com/docs/access?context=nlu-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information.
+            **Note:** In order to use the NLU model, you need to train and publish the model. See [Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-landing.md) for more information.
 
         -   Virtual Agent topics: Schedule a Walk-up appointment, Reschedule a Walk-up appointment, and Cancel a Walk-up appointment.
         -   Virtual Agent topic blocks: Get Walk-up location and Walk-up appointment scheduling.
@@ -44,7 +44,7 @@ Conversational Appointment Booking requires the following plugins. Ensure that t
 
     -   **Glide Virtual Agent \(com.glide.cs.chatbot\)**
 
-        Activates the Virtual Agent platform. Virtual Agent requires additional licensing. See [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) for more information.
+        Activates the Virtual Agent platform. Virtual Agent requires additional licensing. See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md) for more information.
 
     -   **NLU Workbench \(com.snc.nlu\_studio\)**
 
@@ -55,7 +55,7 @@ Conversational Appointment Booking requires the following plugins. Ensure that t
         Used for adding and updating application files.
 
 
-For information about plugin activation, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For information about plugin activation, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 ## Procedure
 

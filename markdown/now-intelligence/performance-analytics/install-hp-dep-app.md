@@ -21,7 +21,7 @@ Role required: admin.
 
 ## About this task
 
-The Homepage deprecation help tool is a store app. For more information about installing store apps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The Homepage deprecation help tool is a store app. For more information about installing store apps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
 
 ## Procedure
 

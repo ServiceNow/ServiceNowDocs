@@ -32,7 +32,7 @@ Install these additional plugins to use the Incident management best practice â€
     This plugin is not installed by default for zBoot customers. Install the plugin manually. This plugin is responsible for known error article behavior in the incident or problem workflow. For more information on this plugin and the activation process, see [Activate Problem Management Best Practice â€” Jakarta](../../problem-management/task/act-pm-best-prac-jakarta.md).
 
 
-All the plugins except for com.snc.best\_practice.problem.jakarta are activated by default for the new customers. Existing or upgrading customers must request the plugin or install the plugin manually. For more information, see [Request a plugin](https://www.servicenow.com/docs/access?context=t_RequestAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+All the plugins except for com.snc.best\_practice.problem.jakarta are activated by default for the new customers. Existing or upgrading customers must request the plugin or install the plugin manually. For more information, see [Request a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_RequestAPlugin.md).
 
 ## Impacts on upgrading customers
 

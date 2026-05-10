@@ -74,7 +74,7 @@ The base system `ApprovalNotificationWorkspaceURLExt` script provides the config
 
 To see a list of available default email notifications, go to **All** &gt; **System Notification** &gt; **Notifications** and search for the **Contracts Support** category.
 
-To create new email notifications, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+To create new email notifications, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
 
 **Parent Topic:**[Manage notifications in Contract Management Pro](../concept/cmpro-manage-notifications.md)
 

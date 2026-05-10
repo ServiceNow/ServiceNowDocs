@@ -39,5 +39,5 @@ Role required: sn\_hr\_core.walkup\_admin, sn\_walkup.walkup\_manager
 
 ## What to do next
 
-Add the reasons to the walk-up location queue that you want to use for appointment booking. For more information, see [Create or modify Walk-up Experience locations](https://www.servicenow.com/docs/access?context=configure-walkup-location&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+Add the reasons to the walk-up location queue that you want to use for appointment booking. For more information, see [Create or modify Walk-up Experience locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/configure-walkup-location.md).
 

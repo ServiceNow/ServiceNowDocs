@@ -167,7 +167,7 @@ The agent assist provides a recommendation for each of the two major case scenar
 -   Major case found: returns a list with one or more major cases created in the time-frame indicated in the solution definition that are similar to the current case. Cases are listed by similarity score. The default time-frame is set to the start of yesterday.
 -   No major case found: returns a recommendation based on the number of cases created in the time-frame indicated in the solution definition that is similar to the current case \(does not include any major cases\). The default time-frame is set to the start of yesterday.
 
-To configure the time-frame for the solution definition threshold, see [Update your similarity score threshold](https://www.servicenow.com/docs/access?context=update-similarity-threshold&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+To configure the time-frame for the solution definition threshold, see [Update your similarity score threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/update-similarity-threshold.md).
 
 If the Major Case agent assist recommendations find one or more major cases similar to the current case, the Predictive Intelligence tab displays these cases ranked by similarity score. The case with the highest score is highlighted with a white box and the title **Major Case** and includes a user action to link the current case to the major case.
 

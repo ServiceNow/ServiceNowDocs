@@ -29,15 +29,15 @@ Role required: admin
 
 1.  To manage granular roles for users and groups, choose one to continue.
 
-<table id="choicetable_m51_vw5_tlb"><thead><tr><th align="left" id="d47355e105">
+<table id="choicetable_m51_vw5_tlb"><thead><tr><th align="left" id="d47527e105">
 
 Option
 
-</th><th align="left" id="d47355e108">
+</th><th align="left" id="d47527e108">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d47355e114">
+</th></tr></thead><tbody><tr><td id="d47527e114">
 
 **Edit the granular roles for a user or group**
 
@@ -45,7 +45,7 @@ Description
 
 Assign or remove granular roles for users or groups, or edit granular roles so that only select users within a group have expanded or limited permissions.An example follows the table.
 
-</td></tr><tr><td id="d47355e126">
+</td></tr><tr><td id="d47527e126">
 
 **Create a new role**
 
@@ -145,7 +145,7 @@ Create a new role using one or more granular roles from the library for a specif
 
     3.  In the Role record, fill out the fields.
 
-        Create a name, select the application that contains this record, and enter a short description for your new role. For more information about the other fields on the form, see [Create a role](https://www.servicenow.com/docs/access?context=t_CreateARole&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+        Create a name, select the application that contains this record, and enter a short description for your new role. For more information about the other fields on the form, see [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateARole.md)
 
         **Note:** When creating a name for your new role, you may prefer to use a name that is easily recognized in the roles list and describes the functionality of the role. For this example, you may prefer a title such as, Compliance Auditor - GRC-VR.
 

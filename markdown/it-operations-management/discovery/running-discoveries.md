@@ -30,7 +30,7 @@ Ensure that your MID Servers are properly configured prior to creating a Discove
 
 Ensure that your MID Servers can authenticate on the devices they find and classify configuration items \(CI\) properly.
 
--   **Credentials**: Configure the MID Servers with the login credentials they need to query the devices in the network. The MID Server tries all available credentials on each discovered device, then creates an affinity for any successful credentials. For more information, see [Credential affinity for Discovery and Orchestration](https://www.servicenow.com/docs/access?context=c_CredentialAffinity&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   **Credentials**: Configure the MID Servers with the login credentials they need to query the devices in the network. The MID Server tries all available credentials on each discovered device, then creates an affinity for any successful credentials. For more information, see [Credential affinity for Discovery and Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CredentialAffinity.md).
 -   **Classifications**: The device and process classifications provided in the base platform are normally sufficient. Create classifications as needed for the devices, processes, and applications in the network not covered by the default classifiers.
 
 ## Get started running a discovery

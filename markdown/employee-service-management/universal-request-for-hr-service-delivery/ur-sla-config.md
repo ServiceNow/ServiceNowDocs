@@ -33,7 +33,7 @@ The SLA definitions created for the Universal Request are for the UR and does no
 
 3.  On the form, fill the fields.
 
-    For field descriptions and detailed instructions, see [Create an SLA definition](https://www.servicenow.com/docs/access?context=t_CreateAnSLADefinition&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+    For field descriptions and detailed instructions, see [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/t_CreateAnSLADefinition.md).
 
 
 ## Result

@@ -15,7 +15,7 @@ Improve your layout control and dashboard customization capabilities, by organiz
 
 ## Before you begin
 
-The system property **par.dashboard.widget.group.enabled.dashboards.list** must be enabled on your instance with a value of ALL, -1, or the sys\_id of the dashboard you want to group content on. For more information, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+The system property **par.dashboard.widget.group.enabled.dashboards.list** must be enabled on your instance with a value of ALL, -1, or the sys\_id of the dashboard you want to group content on. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 Role required: If you have an internal role, you can create dashboards with the inline editor. You must have edit rights on the dashboard to group its content.
 

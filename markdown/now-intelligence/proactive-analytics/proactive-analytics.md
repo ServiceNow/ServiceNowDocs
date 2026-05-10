@@ -124,7 +124,7 @@ While key contributor events are also based on KPI Signals, they do not require 
 **Related topics**  
 
 
-[Create a flow with a Proactive Analytics trigger](https://www.servicenow.com/docs/access?context=create-flow-proactive-analytics&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Create a flow with a Proactive Analytics trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow-proactive-analytics.md)
 
 [Indicator targets and thresholds in KPI Details](kpi-details-targets.md)
 

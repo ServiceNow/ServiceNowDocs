@@ -6,7 +6,7 @@ release: australia
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Create custom activities using custom activity designer templates, Orchestration activity designer, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -35,7 +35,7 @@ Role required: admin
 
 4.  Select an auto-mapping option.
 
-<table id="choicetable_wkc_2t4_sz"><tbody><tr><td id="d445101e110">
+<table id="choicetable_wkc_2t4_sz"><tbody><tr><td id="d447551e110">
 
 **Auto-Map to Local**
 
@@ -47,7 +47,7 @@ Translates the entire payload into a JSON object and places it in the data bus. 
 -   eccSysId
 
 
-</td></tr><tr><td id="d445101e134">
+</td></tr><tr><td id="d447551e134">
 
 **Auto-Map to Output**
 

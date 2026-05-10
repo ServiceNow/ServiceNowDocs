@@ -47,7 +47,7 @@ Role required: discovery\_admin
 
     6.  Select **Submit**.
 
-        For more information about Basic Auth Credentials form fields, see [Basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+        For more information about Basic Auth Credentials form fields, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md).
 
 
 ## What to do next

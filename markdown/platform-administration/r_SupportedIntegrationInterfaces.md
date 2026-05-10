@@ -17,13 +17,13 @@ ServiceNow provides a number of interfaces to be able to directly integrate with
 |---------|
 |[Email](../../../administer/notification/concept/c_InboundEmailActions.md)|
 |[JDBC](../../inbound-other-web-services/task/t_JDBCProbe.md)|
-|[JSONv2 Web Service](https://www.servicenow.com/docs/access?context=c_JSONv2WebService&version=australia&pubname=australia-api-reference&ft:locale=en-US)|
-|[LDAP integration](https://www.servicenow.com/docs/access?context=c_LDAPIntegration&version=australia&pubname=australia-platform-security&ft:locale=en-US)|
-|[SOAP web service](https://www.servicenow.com/docs/access?context=c_SOAPWebService&version=australia&pubname=australia-api-reference&ft:locale=en-US)|
-|[REST API](https://www.servicenow.com/docs/access?context=c_RESTAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)|
-|[SAML](https://www.servicenow.com/docs/access?context=c_SAML2.0WebBrowserSSOProfile&version=australia&pubname=australia-platform-security&ft:locale=en-US)|
-|[Digest token authentication](https://www.servicenow.com/docs/access?context=c_DigestTokenAuthentication&version=australia&pubname=australia-platform-security&ft:locale=en-US)|
-|[ODBC driver](https://www.servicenow.com/docs/access?context=c_ODBCDriver&version=australia&pubname=australia-api-reference&ft:locale=en-US)|
+|[JSONv2 Web Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_JSONv2WebService.md)|
+|[LDAP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/c_LDAPIntegration.md)|
+|[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPWebService.md)|
+|[REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md)|
+|[SAML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_SAML2.0WebBrowserSSOProfile.md)|
+|[Digest token authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_DigestTokenAuthentication.md)|
+|[ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_ODBCDriver.md)|
 |[Data Export](../../../administer/exporting-data/concept/c_ExportData.md)|
 |[CTI](../../incident/reference/r_ComputerTelephonyIntegration.md)|
 |[Syslog probe](r_SyslogProbe.md)|

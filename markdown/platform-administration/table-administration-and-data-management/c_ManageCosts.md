@@ -15,7 +15,7 @@ breadcrumb: [Time Card management, Working with Task table, Table admin, Tables 
 
 When the cost management feature is enabled, time cards can be used to manage the cost of labor in the Cost Management application.
 
-When a time card for a project task is approved, an expense line is generated for the corresponding labor cost associated with the project. If the project has a [Rate Models](https://www.servicenow.com/docs/access?context=rate-model&version=australia&pubname=australia-it-business-management&ft:locale=en-US) associated, then the hourly rate for calculating labor cost for the expense lines is derived from the rate model. If no rate model is associated to the project, the rate listed in the Labor Rate Card is considered. If no Labor Rate Cards is applicable, the property com.snc.time\_card.default\_rate defines the default hourly rate.
+When a time card for a project task is approved, an expense line is generated for the corresponding labor cost associated with the project. If the project has a [Rate Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/rate-model.md) associated, then the hourly rate for calculating labor cost for the expense lines is derived from the rate model. If no rate model is associated to the project, the rate listed in the Labor Rate Card is considered. If no Labor Rate Cards is applicable, the property com.snc.time\_card.default\_rate defines the default hourly rate.
 
 ## Roles
 
@@ -26,5 +26,5 @@ The timecard\_admin role enables users to approve, modify, and delete the time c
 **Related topics**  
 
 
-[Activate Cost Management](https://www.servicenow.com/docs/access?context=t_ActivatingCostManagement&version=australia&pubname=australia-it-business-management&ft:locale=en-US)
+[Activate Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/t_ActivatingCostManagement.md)
 

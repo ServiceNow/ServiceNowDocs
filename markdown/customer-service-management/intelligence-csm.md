@@ -27,7 +27,7 @@ Intelligence solutions use artificial intelligence \(AI\) to support machine lea
 
 -   **Natural Language Understanding**
 
-    [Natural Language Understanding](https://www.servicenow.com/docs/access?context=nlu-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) helps with features such as sentiment analysis, which analyzes customer interactions for positive, negative, or neutral tone. NLU can also interpret customer intent when interacting with a virtual agent to automatically fulfill requests. For example: a customer asks "I need access to the XYZ environment", and NLU interprets "Grant access" as the intent and "XYZ environment" as the entity.
+    [Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-landing.md) helps with features such as sentiment analysis, which analyzes customer interactions for positive, negative, or neutral tone. NLU can also interpret customer intent when interacting with a virtual agent to automatically fulfill requests. For example: a customer asks "I need access to the XYZ environment", and NLU interprets "Grant access" as the intent and "XYZ environment" as the entity.
 
 
 ## Task Intelligence for Customer Service

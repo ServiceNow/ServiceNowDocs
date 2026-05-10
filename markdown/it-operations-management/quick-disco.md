@@ -68,5 +68,5 @@ Use quick discovery to run an on-demand, IP-based discovery without configuring 
 **Related topics**  
 
 
-[Get started with credentials](https://www.servicenow.com/docs/access?context=credentials-getting-started&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-getting-started.md)
 

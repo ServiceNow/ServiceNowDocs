@@ -26,7 +26,7 @@ Email notifications that are available by default:
 -   Interaction created for guest
 -   Interaction created for contact
 
-You can customize the existing notification or create a notification. For more information, see [Email and SMS notifications](https://www.servicenow.com/docs/access?context=c_EmailNotifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+You can customize the existing notification or create a notification. For more information, see [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md).
 
 ## Procedure
 

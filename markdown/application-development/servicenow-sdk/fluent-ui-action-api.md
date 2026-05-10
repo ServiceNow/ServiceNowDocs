@@ -17,7 +17,7 @@ The UI Action API defines custom user interface \(UI\) actions \[sys\_ui\_action
 
 **Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
-For general information about UI actions, see [Create a UI action](https://www.servicenow.com/docs/access?context=t_EditingAUIAction&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For general information about UI actions, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md).
 
 **Parent Topic:**[ServiceNow Fluent API reference](servicenow-fluent-api-reference.md)
 
@@ -294,7 +294,7 @@ String
 
 </td><td>
 
-Text strings that the UI action can use as a key to look up a localized message alternative from the Message \[sys\_ui\_message\] table. Each message key is on a separate line in the Messages field. The instance looks for a localized message string anytime the UI action makes a getmessage\('\[message\]'\) call where the message string matches a key in the Messages field. For more information, see [Translate a client script message](https://www.servicenow.com/docs/access?context=t_TranslateAClientScriptMessage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Text strings that the UI action can use as a key to look up a localized message alternative from the Message \[sys\_ui\_message\] table. Each message key is on a separate line in the Messages field. The instance looks for a localized message string anytime the UI action makes a getmessage\('\[message\]'\) call where the message string matches a key in the Messages field. For more information, see [Translate a client script message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_TranslateAClientScriptMessage.md).
 
 </td></tr><tr><td>
 

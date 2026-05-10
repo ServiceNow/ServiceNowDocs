@@ -13,7 +13,7 @@ breadcrumb: [Reference, Core Business Suite]
 
 Various components are installed with Core Business Suite.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 ## Core Business Suite Roles
 
@@ -75,14 +75,14 @@ Grants permissions to submit requests for services included in the Core Business
 
 |Application|Component information|
 |-----------|---------------------|
-|Legal Service Delivery|[Components installed with Legal Request Management](https://www.servicenow.com/docs/access?context=installed-with-legal-request-management&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)|
-|HR Service Delivery|[Components installed with Case and Knowledge Management](https://www.servicenow.com/docs/access?context=components-installed-with-case-and-knowledge-management&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)|
-|Workplace Services Delivery|[Components installed with Workplace Case Management](https://www.servicenow.com/docs/access?context=components-installed-with-workplace-case-mgmt&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)|
-|Health and Safety|[Components installed with Health and Safety Risk Management](https://www.servicenow.com/docs/access?context=components-installed-with-hs-risk-mgmt&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)|
-|Sourcing and Procurement Operations|[Components installed with Sourcing and Procurement Operations](https://www.servicenow.com/docs/access?context=installed-with-FSC&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)|
-|Finance and Supply Chain applications|[Components installed with Finance Case Management](https://www.servicenow.com/docs/access?context=installed-with-fin-ops&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)|
-|Supplier Lifecycle Operations|[Components installed with Supplier Case Management](https://www.servicenow.com/docs/access?context=installed-with-supp-mgmt&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)|
-|Accounts Payable Operations|[Components installed with Accounts Payable Invoice Processing](https://www.servicenow.com/docs/access?context=installed-with-acc-pay-mgmt&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)|
+|Legal Service Delivery|[Components installed with Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/installed-with-legal-request-management.md)|
+|HR Service Delivery|[Components installed with Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/components-installed-with-case-and-knowledge-management.md)|
+|Workplace Services Delivery|[Components installed with Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/components-installed-with-workplace-case-mgmt.md)|
+|Health and Safety|[Components installed with Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/components-installed-with-hs-risk-mgmt.md)|
+|Sourcing and Procurement Operations|[Components installed with Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/installed-with-FSC.md)|
+|Finance and Supply Chain applications|[Components installed with Finance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/installed-with-fin-ops.md)|
+|Supplier Lifecycle Operations|[Components installed with Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/installed-with-supp-mgmt.md)|
+|Accounts Payable Operations||
 
 **Parent Topic:**[Core Business Suite reference](cbs-reference-parent.md)
 

@@ -25,7 +25,7 @@ Configuring an action button to open a custom modal involves several processes:
 
 1.  Opening your record page in UI Builder:
 
-    Accessing your record page in UI Builder enables you to design and configure the page variant with a custom modal. For more information, see [Create a page variant](https://www.servicenow.com/docs/access?context=create-variant&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    Accessing your record page in UI Builder enables you to design and configure the page variant with a custom modal. For more information, see [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md).
 
 2.  Designing the page variant in UI Builder:
 

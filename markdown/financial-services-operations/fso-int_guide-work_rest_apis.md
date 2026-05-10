@@ -26,5 +26,5 @@ For a list of all of the FSO roles and descriptions, see [User roles and FSO Bus
 
 ## Test driving ServiceNow® REST APIs
 
-The ServiceNow platform provides the [REST API Explorer](https://www.servicenow.com/docs/access?context=use-REST-API-Explorer&version=australia&pubname=australia-api-reference&ft:locale=en-US), which allows you to access the available REST APIs within your instance. Use this tool to interact with the various FSO tables within your instance before trying to implement the endpoint calls within your application.
+The ServiceNow platform provides the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md), which allows you to access the available REST APIs within your instance. Use this tool to interact with the various FSO tables within your instance before trying to implement the endpoint calls within your application.
 

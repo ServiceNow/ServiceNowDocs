@@ -30,7 +30,7 @@ If you cancel the order instead, you receive a message confirming the cancellati
 
 ![The user requests an iPhone.](../images/va-catalogs-06.png)![While completing the request, the user chooses to cancel the order instead.](../images/va-catalogs-07.png)![The request is closed with a message informing the user that the order is Canceled.](../images/va-catalogs-08.png)
 
-**Note:** Catalogs for Virtual Agent are separate from Now Assist and Multi-turn catalog ordering. For more information on how catalog search results work based on AI Search, see [Genius Results](https://www.servicenow.com/docs/access?context=genius-results-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US). For information on Multi-turn catalog ordering instead, see [Using Now Assist in Virtual Agent](../../now-assist-in-va/concept/using-now-assist-in-va.md).
+**Note:** Catalogs for Virtual Agent are separate from Now Assist and Multi-turn catalog ordering. For more information on how catalog search results work based on AI Search, see [Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-results-ais.md). For information on Multi-turn catalog ordering instead, see [Using Now Assist in Virtual Agent](../../now-assist-in-va/concept/using-now-assist-in-va.md).
 
 ## Catalog live agent autopilot experience
 

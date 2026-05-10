@@ -31,7 +31,7 @@ To export and import issues between Agile Development 2.0 and Jira, you must com
 
 -   When you delete an issue in Jira, the corresponding record is deleted in Agile Development 2.0.
 
-    **Note:** To delete records in Agile Development 2.0, set the **Can Delete** field to **true** in the Application access of the respective tables. For details, see [Table design and runtime settings](https://www.servicenow.com/docs/access?context=r_TableApplicationAccessFields&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    **Note:** To delete records in Agile Development 2.0, set the **Can Delete** field to **true** in the Application access of the respective tables. For details, see [Table design and runtime settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/r_TableApplicationAccessFields.md).
 
 -   When you start a sprint in Jira, a sprint is created for the assignment group in Agile Development 2.0, if the Jira board is configured in the team integration settings.
 

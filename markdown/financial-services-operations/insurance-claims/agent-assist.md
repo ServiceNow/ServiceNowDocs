@@ -27,15 +27,15 @@ Role required: sn\_ins\_claim\_indl.fnol\_representative, sn\_ins\_claim\_indl.m
 
 3.  Open the task from the case playbook or the Individual death claim tasks list.
 
-<table id="choicetable_dvz_rgb_qbc"><thead><tr><th align="left" id="d49720e114">
+<table id="choicetable_dvz_rgb_qbc"><thead><tr><th align="left" id="d49877e114">
 
 Option
 
-</th><th align="left" id="d49720e117">
+</th><th align="left" id="d49877e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d49720e123">
+</th></tr></thead><tbody><tr><td id="d49877e123">
 
 **From the case playbook**
 
@@ -45,7 +45,7 @@ Steps
 2.  In the list, select the case that contains the adjuster task.
 
 
-</td></tr><tr><td id="d49720e144">
+</td></tr><tr><td id="d49877e144">
 
 **From the Individual death claim tasks list**
 
@@ -58,6 +58,6 @@ Steps
 </td></tr></tbody>
 </table>4.  Select the Agent assist icon \(![Graduation cap icon for Agent assist.](../../../common/image/Form_AgentAssistIcon.png)\) to use the feature.
 
-    For more information about Agent assist, see [Agent assist](https://www.servicenow.com/docs/access?context=agent-assist-configurable-workspace&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information about Agent assist, see [Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/agent-assist-configurable-workspace.md).
 
 

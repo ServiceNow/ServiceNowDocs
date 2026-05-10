@@ -16,7 +16,7 @@ You have the option to archive and delete data after a specified time, instead o
 
 Create archive and destroy rules to archive data and delete the archived records.
 
-For more information, see [System Archive](https://www.servicenow.com/docs/access?context=c_ArchiveData&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information, see [System Archive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ArchiveData.md).
 
 **Parent Topic:**[Modify purge policies to clean up data](../task/set-up-purge-pollicies-ta.md)
 

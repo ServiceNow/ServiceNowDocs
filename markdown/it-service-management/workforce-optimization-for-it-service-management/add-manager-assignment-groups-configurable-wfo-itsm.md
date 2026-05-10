@@ -21,7 +21,7 @@ Role required: sn\_wfo\_admin
 
 ## About this task
 
-You can associate a user with a primary assignment group by selecting the group in the [user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US) record.
+You can associate a user with a primary assignment group by selecting the group in the [user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md) record.
 
 ## Procedure
 

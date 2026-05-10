@@ -19,7 +19,7 @@ Role required: sn\_csm\_pricing.pricelist\_administrator or sn\_csm\_pricing.pri
 
 ## About this task
 
-You select the characteristics of a product that affect the base product cost. Next, use a decision table to create an attribute adjustment rule that defines the conditions for applying the adjustments and the markup or markdown value, either a percentage or amount to be applied for specified characteristics. For more information on using decision tables, see [Using decision tables](https://www.servicenow.com/docs/access?context=using-decision-builder&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+You select the characteristics of a product that affect the base product cost. Next, use a decision table to create an attribute adjustment rule that defines the conditions for applying the adjustments and the markup or markdown value, either a percentage or amount to be applied for specified characteristics. For more information on using decision tables, see [Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md).
 
 ## Procedure
 
@@ -154,7 +154,7 @@ Product attributes used to differentiate product costs.
 
 7.  Test your decision table.
 
-    For information on testing your decision table before publishing it, see [Test a decision table in Workflow Studio](https://www.servicenow.com/docs/access?context=test-decision-table-in-decision-builder&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For information on testing your decision table before publishing it, see [Test a decision table in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-decision-table-in-decision-builder.md).
 
 8.  If this is a product-based cost attribute adjustment, select **Publish** in the **Details** tab for the attribute adjustment to make the attribute adjustment available.
 

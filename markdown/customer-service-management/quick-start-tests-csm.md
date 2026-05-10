@@ -17,8 +17,8 @@ A quick start test is a test or test suite installed with the demo data of an ap
 
 For more information about using quick start tests, see the following topics:
 
--   [Test your apps with the ATF](https://www.servicenow.com/docs/access?context=automated-test-framework&version=australia&pubname=australia-application-development&ft:locale=en-US)
--   [Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=australia&pubname=australia-application-development&ft:locale=en-US)
+-   [Test your apps with the ATF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/automated-test-framework.md)
+-   [Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/quick-start-tests.md)
 -   [Getting started with quick start tests](https://www.youtube.com/watch?v=wV0SjY5gq8M)
 
 ## CSM test suites and tests

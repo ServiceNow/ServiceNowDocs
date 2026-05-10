@@ -31,15 +31,15 @@ In this procedure, you can select either the **Look up Claim Fraud Score via Spo
 
 3.  Depending on which subflow option you select, complete the following actions.
 
-<table id="choicetable_ldc_fz3_zwb"><thead><tr><th align="left" id="d120941e108">
+<table id="choicetable_ldc_fz3_zwb"><thead><tr><th align="left" id="d121403e108">
 
 Option
 
-</th><th align="left" id="d120941e111">
+</th><th align="left" id="d121403e111">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d120941e117">
+</th></tr></thead><tbody><tr><td id="d121403e117">
 
 **Look up Claim Fraud Score**
 
@@ -49,7 +49,7 @@ Description
 2.  From the list of saved subflows, look for the **Look up Claim Fraud Score** option and open it.
 
 
-</td></tr><tr><td id="d120941e144">
+</td></tr><tr><td id="d121403e144">
 
 **Look up Claim Fraud Score via Spoke selector**
 

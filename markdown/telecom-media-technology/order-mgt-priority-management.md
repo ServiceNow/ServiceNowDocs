@@ -78,5 +78,5 @@ These rules are defined in the following decision tables:
 
 Each parameter defined in the decision table has a rank value assigned to it. When an order is created, the decision tables are evaluated and a weightage is assigned to each table to calculate the order priority. See [Calculating the order priority](order-mgmt-priority-calculate.md) on how the priority is calculated.
 
-**Note:** You can add new inputs, conditions, or modify the existing conditions in the decision tables. For more details on updating decision tables, see [Using decision tables](https://www.servicenow.com/docs/access?context=using-decision-builder&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+**Note:** You can add new inputs, conditions, or modify the existing conditions in the decision tables. For more details on updating decision tables, see [Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md).
 

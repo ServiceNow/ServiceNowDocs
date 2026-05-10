@@ -54,7 +54,7 @@ After learning the basics, here are some other Virtual Agent features that may h
 
     Use the ServiceNow Localization Framework to translate topics and NLU models into other languages.
 
--   **[NLU Workbench - Advanced Features](https://www.servicenow.com/docs/access?context=nlu-workbench-advanced-features&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-workbench-advanced-features.md)**
 
     Expand the functionality of NLU Workbench to help you manage and improve your models. NLU Workbench - Advanced Features is available from the ServiceNow Store.
 

@@ -52,7 +52,7 @@ The following field types are currently supported with ServiceNow AI Lens:
 -   reference
 -   glide\_list
 
-For more information about these fields, see [Field types reference](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information about these fields, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
 
 <table id="table_psc_fs3_mfc"><thead><tr><th>
 

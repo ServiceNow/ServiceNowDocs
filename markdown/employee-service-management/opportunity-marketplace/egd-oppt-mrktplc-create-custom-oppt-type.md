@@ -37,7 +37,7 @@ You can customize several areas for an opportunity type or use existing records.
     -   **Separate from opportunity \(1 or more positions\)**
 5.  Select a **User criteria** record to restrict access to a group of people that match that user criteria.
 
-    Leave the field empty if you want to enable access to all licensed Opportunity Marketplace users. To create custom user criteria, see [Create a user criteria record in Service Catalog](https://www.servicenow.com/docs/access?context=t_CreateAUserCriteriaRecord&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    Leave the field empty if you want to enable access to all licensed Opportunity Marketplace users. To create custom user criteria, see [Create a user criteria record in Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAUserCriteriaRecord.md).
 
 6.  Select and existing **Opportunity details** record.
 

@@ -17,8 +17,8 @@ Download the AWS scripts included within the guided setup of the Service Graph C
 
 ## Before you begin
 
--   Ensure that you have installed the Service Graph Connector for AWS application \(sn\_aws\_integ\). For more information, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   Ensure that you’ve selected the **Service Graph Connector for AWS** application scope by using the application picker. See [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+-   Ensure that you have installed the Service Graph Connector for AWS application \(sn\_aws\_integ\). For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
+-   Ensure that you’ve selected the **Service Graph Connector for AWS** application scope by using the application picker. See [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: admin
 

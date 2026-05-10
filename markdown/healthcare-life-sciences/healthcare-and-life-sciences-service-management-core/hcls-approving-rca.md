@@ -19,7 +19,7 @@ RCA privileges define cross-scope access to an application, an event, or an appl
 
 The real and requested RCAs required for accessing document templates from a Healthcare and Life Sciences Service Management application are included within the Healthcare and Life Sciences Service Management Core application.
 
-When you install a Healthcare and Life Sciences Service Management application, the status of Real RCAs of the Document Templates application are set to **Requested**. For more information, see [Requested restricted caller access \(RCA\)](https://www.servicenow.com/docs/access?context=requested-rca&version=australia&pubname=australia-application-development&ft:locale=en-US).
+When you install a Healthcare and Life Sciences Service Management application, the status of Real RCAs of the Document Templates application are set to **Requested**. For more information, see [Requested restricted caller access \(RCA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/requested-rca.md).
 
 To be able to use document templates in a Healthcare and Life Sciences Service Management application, as an administrator, you must set the status of Real RCAs of the Document Templates application to **Allowed**. For more information, see [Allow a restricted caller access privilege for document templates in Healthcare and Life Sciences Service Management Core](hcls-approving-rca.md#).
 
@@ -29,7 +29,7 @@ Allow restricted caller access \(RCA\) privileges for the Document Templates app
 
 ### Before you begin
 
-Ensure that the application scope is set to Document Templates in the application picker. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Ensure that the application scope is set to Document Templates in the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: admin
 

@@ -19,5 +19,5 @@ Deleting an entry, also referred to as a record, also deletes the entire history
 
 For example, configuration items \(CIs\), SLA agreements, software licenses, purchase orders, and service catalog entries all have a reference to Department, and if a department is deleted, then the integration clears all references to the department. Also, deleting a user results in losing all history of what that user did.
 
-Decide whether to retain or [Delete all records from a table](https://www.servicenow.com/docs/access?context=t_DeleteAllRecordsFromATable&version=australia&pubname=australia-platform-administration&ft:locale=en-US) according to your organization's needs.
+Decide whether to retain or [Delete all records from a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_DeleteAllRecordsFromATable.md) according to your organization's needs.
 

@@ -35,7 +35,7 @@ Make sure that date/time inputs are mapped to date/time fields in the back-end i
 
 </td><td>
 
-You must convert the date/time input value to UTC/GMT. Refer to the following script examples for more information. For more information about scripting in general for ServiceNow, see [Scripting](https://www.servicenow.com/docs/access?context=c_Script&version=australia&pubname=australia-api-reference&ft:locale=en-US) **Note:** Customizations might be needed depending on the use case involved.
+You must convert the date/time input value to UTC/GMT. Refer to the following script examples for more information. For more information about scripting in general for ServiceNow, see [Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md) **Note:** Customizations might be needed depending on the use case involved.
 
 </td></tr></tbody>
 </table>## GlideDateTime script example

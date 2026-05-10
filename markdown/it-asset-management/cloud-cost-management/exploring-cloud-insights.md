@@ -35,5 +35,5 @@ Cloud Cost Management continuously monitors your cloud infrastructure to analyze
 |Identify cost optimizations targets by analyzing areas of high spend and stranded cloud assets.|[Unused resources](ur-cloudin.md#)|Cloud Administrators/Application owners|
 |Turn off resources when not in use by identifying cloud resources that aren’t used outside normal working hours and automatically turn them off and on.|[Business hours](bh-cloudin.md)|Cloud Administrators/Application owners|
 |Allocate budgets|[Cloud budgets](bf-cloudin.md#)|FinOps Practitioners/Cloud Administrators|
-|Automate optimization approvals by integrating cloud optimization tasks into your existing change management processes.|[Change Management](https://www.servicenow.com/docs/access?context=c_ITILChangeManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|FinOps Practitioners/Cloud Administrators|
+|Automate optimization approvals by integrating cloud optimization tasks into your existing change management processes.|[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ITILChangeManagement.md)|FinOps Practitioners/Cloud Administrators|
 

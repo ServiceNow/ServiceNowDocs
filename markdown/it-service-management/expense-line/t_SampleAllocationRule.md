@@ -57,5 +57,5 @@ Role required: admin, financial\_mgmt\_admin, or financial\_mgmt\_user
 
 [Use a scripted allocation](t_UseAScriptedAllocation.md)
 
-[Cost Management](https://www.servicenow.com/docs/access?context=r_CostManagement&version=australia&pubname=australia-it-business-management&ft:locale=en-US)
+[Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/r_CostManagement.md)
 

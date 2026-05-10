@@ -134,5 +134,5 @@ The service account that you created gets listed on the **Service accounts** pag
 
 [Schedule and manage the Cloud Cost Management jobs that download Microsoft Azure price sheets](azure-pricesht-sched-dwnld-cloudin.md)
 
-[Discovery for Microsoft Azure](https://www.servicenow.com/docs/access?context=azure-cloud-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+[Discovery for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/azure-cloud-discovery.md)
 

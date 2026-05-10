@@ -115,7 +115,7 @@ Web service access only
 
 </td><td>
 
-Option to designate the user as a non-interactive user. Non-interactive users can use only assigned credentials to authorize API connections, including JSON, SOAP, and WSDL. See [Non-interactive sessions](https://www.servicenow.com/docs/access?context=c_NonInteractiveSessions&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information on non-interactive users.**Note:** This option must be enabled.
+Option to designate the user as a non-interactive user. Non-interactive users can use only assigned credentials to authorize API connections, including JSON, SOAP, and WSDL. See [Non-interactive sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_NonInteractiveSessions.md) for more information on non-interactive users.**Note:** This option must be enabled.
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ Internal Integration User
 
 </td><td>
 
-Option to designate the user as an internal integration user. See [Mark service accounts as internal integration users](https://www.servicenow.com/docs/access?context=t_MarkSvcAcctsAsInternalIntegUsers&version=australia&pubname=australia-api-reference&ft:locale=en-US) for more information on internal integration users.
+Option to designate the user as an internal integration user. See [Mark service accounts as internal integration users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_MarkSvcAcctsAsInternalIntegUsers.md) for more information on internal integration users.
 
 </td></tr><tr><td>
 

@@ -15,24 +15,24 @@ ServiceNow® Product Support for Technology provide a way for telecommunications
 
 <table id="table_b4t_hhl_nnb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about how service providers and customers use Product Support for Technology.](https://www.servicenow.com/docs/access?context=explore-assurance-workflows&version=australia&pubname=australia-proactive-service-exp-workflows&ft:locale=en-US)
+[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about how service providers and customers use Product Support for Technology.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Plan and configure your implementation.](https://www.servicenow.com/docs/access?context=configure-assurance-workflows&version=australia&pubname=australia-proactive-service-exp-workflows&ft:locale=en-US)
+[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/configure-assurance-workflows.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Using Product Support for Technology.](https://www.servicenow.com/docs/access?context=use-assurance-workflows&version=australia&pubname=australia-proactive-service-exp-workflows&ft:locale=en-US)
+[Use![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Using Product Support for Technology.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/use-assurance-workflows.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get additional details about Product Support for Technology.](https://www.servicenow.com/docs/access?context=assurance-workflows-reference&version=australia&pubname=australia-proactive-service-exp-workflows&ft:locale=en-US)
+[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get additional details about Product Support for Technology.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Product Support for Technology release notes](https://www.servicenow.com/docs/access?context=proactive-service-experience-workflows-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US).
+-   Learn more about what's new and changed, see the [Product Support for Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/proactive-service-experience-workflows-rn.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Product Support for Technology features at [Now Create](https://learning.servicenow.com/nowcreate).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

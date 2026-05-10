@@ -32,7 +32,7 @@ You can approve or reject requests from different channels, depending on how the
 
 You may also receive email reminders if your approval rule admin has set up email reminders for your approval configurtion.
 
-**Note:** For more information on setting up your preferred notification channels, see [Notification Preferences](https://www.servicenow.com/docs/access?context=preferences-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** For more information on setting up your preferred notification channels, see [Notification Preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/preferences-landing.md).
 
 ## Rejection workflow
 
@@ -52,7 +52,7 @@ You can add one or more approvers or approval groups to a workflow, when an appr
 
 ## Delegating approvals
 
-If you need to be away from work for a specific time period and can't review your approval requests, you can delegate your approval responsibilities to another coworker if the delegation feature in Employee Workflows has been implemented by your admin. For more information on delegation, see [Granular Delegation](https://www.servicenow.com/docs/access?context=granular-delegation&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+If you need to be away from work for a specific time period and can't review your approval requests, you can delegate your approval responsibilities to another coworker if the delegation feature in Employee Workflows has been implemented by your admin. For more information on delegation, see [Granular Delegation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/granular-delegation/granular-delegation.md).
 
 **Parent Topic:**[Using Advanced Approval Management](using-advanced-approval-management.md)
 

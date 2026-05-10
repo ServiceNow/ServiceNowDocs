@@ -15,7 +15,7 @@ Zing text indexing is available for tags on records.
 
 ## Before you begin
 
-Text indexing must be enabled for the table that you want to index tags for. For instructions for this procedure, see [Configure a table for indexing and searching](https://www.servicenow.com/docs/access?context=configure-single-table-for-indexing&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Text indexing must be enabled for the table that you want to index tags for. For instructions for this procedure, see [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-single-table-for-indexing.md).
 
 Role required: admin
 

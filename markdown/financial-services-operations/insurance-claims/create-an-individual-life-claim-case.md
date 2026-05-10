@@ -27,15 +27,15 @@ Role required: sn\_ins\_claim\_indl.fnol\_representative
 
 3.  Create a case from the individual life claim cases list.
 
-<table id="choicetable_jsk_byx_4bc"><thead><tr><th align="left" id="d101347e92">
+<table id="choicetable_jsk_byx_4bc"><thead><tr><th align="left" id="d101574e92">
 
 Option
 
-</th><th align="left" id="d101347e95">
+</th><th align="left" id="d101574e95">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d101347e101">
+</th></tr></thead><tbody><tr><td id="d101574e101">
 
 **Individual life claim**
 
@@ -60,15 +60,15 @@ Steps
 
 9.  In the Reporter details activity, enter the details of the entity reporting the incident.
 
-<table id="choicetable_ctl_hys_1cc"><thead><tr><th align="left" id="d101347e180">
+<table id="choicetable_ctl_hys_1cc"><thead><tr><th align="left" id="d101574e180">
 
 Reporter status
 
-</th><th align="left" id="d101347e183">
+</th><th align="left" id="d101574e183">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d101347e189">
+</th></tr></thead><tbody><tr><td id="d101574e189">
 
 **Is a policy participant**
 
@@ -79,7 +79,7 @@ Steps
 3.  In the **Consumer** \(person\) or **Account** \(company\) field, use the search function to search for policy participants. The contact details populate after selecting the participant.
 
 
-</td></tr><tr><td id="d101347e222">
+</td></tr><tr><td id="d101574e222">
 
 **Is not a policy participant**
 

@@ -15,7 +15,7 @@ breadcrumb: [Scripting, API implementation, API implementation and reference]
 
 The code editor provides support to use programming language services in a text editor and is used in scripts.
 
-The code editor has these features for the supported language services and [Inline scripts](https://www.servicenow.com/docs/access?context=inline-scripts&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+The code editor has these features for the supported language services and [Inline scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/inline-scripts.md).
 
 -   Syntax coloring, indentation, line numbers, and automatic creation of closing braces and quotes
 -   Auto-suggestions and auto-completions

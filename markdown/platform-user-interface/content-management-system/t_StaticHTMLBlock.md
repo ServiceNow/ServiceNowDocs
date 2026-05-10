@@ -38,7 +38,7 @@ Anyone who edits their own HTML, Jelly, or Javascript may find the HTML editor i
     |Frame|Select a border styling for the static HTML block. For more information, see [Format a frame](t_Frame.md).|
     |Active|Select this check box to make the block available for use.|
     |Conditional|Enter any scripted conditions to be applied. If selected, adds a **Condition** script field and **Logged on** check box to the form.|
-    |Static Content|Enter [HTML code](https://www.servicenow.com/docs/access?context=c_UseHTMLFields&version=australia&pubname=australia-platform-administration&ft:locale=en-US) that determines the behavior of the static HTML block.|
+    |Static Content|Enter [HTML code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UseHTMLFields.md) that determines the behavior of the static HTML block.|
 
 4.  Click **Submit**.
 

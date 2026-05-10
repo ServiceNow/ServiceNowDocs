@@ -38,5 +38,5 @@ Migrate data from one instance to another by exporting and importing XML files.
     -   Ignores any business rules that normally apply to the table.
     -   Does not provide any opportunity to transform incoming data.
     -   Automatically matches a reference field's display value to the local Sys ID for some tables.
--   Data export and import via XML is helpful for copying records from one system to another but does not remove the need to know the relationships between tables. If you need validate or transform data or reconcile the sys ID values of reference fields, use an XML import set instead. See [Export sets](https://www.servicenow.com/docs/access?context=c_ExportSets&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+-   Data export and import via XML is helpful for copying records from one system to another but does not remove the need to know the relationships between tables. If you need validate or transform data or reconcile the sys ID values of reference fields, use an XML import set instead. See [Export sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-export-sets/c_ExportSets.md).
 

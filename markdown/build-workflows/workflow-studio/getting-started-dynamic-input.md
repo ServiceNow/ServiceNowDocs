@@ -126,7 +126,7 @@ Role required: action\_designer or admin
 
 This data gathering action consists of these elements.
 
--   A REST step to gather table names from the REST [Table API](https://www.servicenow.com/docs/access?context=c_TableAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+-   A REST step to gather table names from the REST [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_TableAPI.md)
 -   A script step to construct a JSON payload from the REST step's Response Body
 -   An action output variable named `output` to store table name and value pairs as a JSON document
 
@@ -174,7 +174,7 @@ Connection Alias
 
 </td><td>
 
-Select the alias you created earlier, or select the Create new record icon \(![Create new record icon](../images/create-new-record-icon.png)\) to [Create an HTTP\(s\) connection](https://www.servicenow.com/docs/access?context=create-https-connection&version=australia&pubname=australia-platform-security&ft:locale=en-US).**Note:** The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see [Getting started with connections](https://www.servicenow.com/docs/access?context=connection-information&version=australia&pubname=australia-platform-security&ft:locale=en-US) and [Getting started with credentials](https://www.servicenow.com/docs/access?context=credentials-getting-started&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Select the alias you created earlier, or select the Create new record icon \(![Create new record icon](../images/create-new-record-icon.png)\) to [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md).**Note:** The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see [Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-information.md) and [Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-getting-started.md).
 
 </td></tr><tr><td>
 
@@ -382,7 +382,7 @@ Role required: action\_designer or admin
 
 This data gathering action consists of these elements.
 
--   A REST step to gather fields from the REST [Table API](https://www.servicenow.com/docs/access?context=c_TableAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+-   A REST step to gather fields from the REST [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_TableAPI.md)
 -   A script step to construct a JSON payload from the REST step's Response Body
 -   An action output variable named `output` to store field name and value pairs as a JSON document
 
@@ -479,7 +479,7 @@ Connection Alias
 
 </td><td>
 
-Select the alias you created earlier, or select the Create new record icon \(![Create new record icon](../images/create-new-record-icon.png)\) to [Create an HTTP\(s\) connection](https://www.servicenow.com/docs/access?context=create-https-connection&version=australia&pubname=australia-platform-security&ft:locale=en-US).**Note:** The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see [Getting started with connections](https://www.servicenow.com/docs/access?context=connection-information&version=australia&pubname=australia-platform-security&ft:locale=en-US) and [Getting started with credentials](https://www.servicenow.com/docs/access?context=credentials-getting-started&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Select the alias you created earlier, or select the Create new record icon \(![Create new record icon](../images/create-new-record-icon.png)\) to [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md).**Note:** The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see [Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-information.md) and [Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-getting-started.md).
 
 </td></tr><tr><td>
 
@@ -789,7 +789,7 @@ This custom action includes these elements.
 
 -   An input of type Dynamic Choice to select a table
 -   An input of type Dynamic Template to select and set field values
--   A script step to create a record from the [GlideRecord - Global](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+-   A script step to create a record from the [GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
 -   An action output variable named `output` to store the sys\_id of the record created
 
 ### Procedure

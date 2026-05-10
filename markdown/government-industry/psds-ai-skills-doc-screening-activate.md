@@ -41,7 +41,7 @@ Activate the Document screening Al skill to use Now Assist for PSDS gen-AI to sc
     -   Service Applicant Information \(sn\_svc\_appl\_info\)
     -   Now Assist for Public Sector Digital Services \(PSDS\)
     -   Social Benefits Playbook, Grants Management, **or** License and Permit Playbook
-    For more information on configuring Now Assist in Document Intelligence, see [Configuring Now Assist in Document Intelligence](https://www.servicenow.com/docs/access?context=docintel-configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more information on configuring Now Assist in Document Intelligence, see [Configuring Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-configuring-now-assist.md).
 
 -   Perform this task in your ServiceNow instance, ensuring the Now Assist for Public Sector Digital Services \(PSDS\) Application scope is selected.
 -   Role required: admin

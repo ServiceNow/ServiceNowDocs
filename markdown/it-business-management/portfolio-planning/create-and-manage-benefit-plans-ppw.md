@@ -35,15 +35,15 @@ The non-monetary benefit plan breakdown records are automatically created when y
 
 2.  Add, edit, or delete a benefit plan.
 
-<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d77100e114">
+<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d77278e114">
 
 Choice
 
-</th><th align="left" id="d77100e117">
+</th><th align="left" id="d77278e117">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d77100e123">
+</th></tr></thead><tbody><tr><td id="d77278e123">
 
 **To create a benefit plan**
 
@@ -62,7 +62,7 @@ Description
 6.  Select **Save**.
 
 
-</td></tr><tr><td id="d77100e200">
+</td></tr><tr><td id="d77278e200">
 
 **To edit a benefit plan**
 
@@ -76,7 +76,7 @@ Description
 3.  Select the name of the benefit plan, edit the required details and select **Save**.
  **Note:** Alternatively, you can edit a benefit plan from the **Define benefit estimates** playbook activity.
 
-</td></tr><tr><td id="d77100e244">
+</td></tr><tr><td id="d77278e244">
 
 **To view and manage benefit plan breakdowns**
 
@@ -96,7 +96,7 @@ Description
     -   To delete a benefit plan breakdown record, select **Delete** from the More Actions option in the benefit plan breakdown form.
  **Note:** Alternatively, you can view and manage benefit plan breakdowns from the **Define benefit estimates** playbook activity.
 
-</td></tr><tr><td id="d77100e327">
+</td></tr><tr><td id="d77278e327">
 
 **To create benefit plan breakdowns**
 
@@ -114,7 +114,7 @@ Description
     -   For non-monetary benefit plans, see [Non-monetary benefit plan breakdown form](../reference/non-monetary-benefit-plan-breakdown-ppw.md).
  **Note:** Alternatively, you can create a benefit plan breakdown from the **Define benefit estimates** playbook activity.
 
-</td></tr><tr><td id="d77100e400">
+</td></tr><tr><td id="d77278e400">
 
 **To delete a benefit plan**
 

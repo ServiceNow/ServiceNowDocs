@@ -128,7 +128,7 @@ Option for controlling the section header display.-   If selected, auto-complete
 
 After you have customized the display of your search results, select the AI Search results to be displayed in an applet launcher. See, [Add AI Search to a launcher screen](aisearch-add-applet-launcher.md).
 
-Consider configuring a customized empty state display to inform users that their search has not produced any results. If you do not customize an empty state, a preconfigured default empty state is displayed. To customize an empty state, see [Configure an empty state for search results](https://www.servicenow.com/docs/access?context=empty-state-search-results&version=australia&pubname=australia-mobile&ft:locale=en-US).
+Consider configuring a customized empty state display to inform users that their search has not produced any results. If you do not customize an empty state, a preconfigured default empty state is displayed. To customize an empty state, see [Configure an empty state for search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/empty-state-search-results.md).
 
 **Parent Topic:**[AI Search in mobile](../concept/text-search-advanced-now.md)
 

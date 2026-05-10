@@ -29,9 +29,9 @@ Use a dark theme on the Mobile Agent and Now Mobile apps to improve focus and re
 </td></tr></tbody>
 </table>## Enable dark theme on your instance
 
-Administrators can enable dark mode on an instance using the `glide.ui.polaris.dark_themes_enabled` system property. For details on dark theme configuration, see [Working with the dark theme](https://www.servicenow.com/docs/access?context=tb-working-in-dark-theme&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Administrators can enable dark mode on an instance using the `glide.ui.polaris.dark_themes_enabled` system property. For details on dark theme configuration, see [Working with the dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-working-in-dark-theme.md).
 
-**Note:** Dark theme is available as part of the Next Experience UI. You must activate this UI to enable dark theme. For details see [Considerations for activating Next Experience](https://www.servicenow.com/docs/access?context=next-experience-adoption-paths&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+**Note:** Dark theme is available as part of the Next Experience UI. You must activate this UI to enable dark theme. For details see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
 
 ## Access dark theme in the mobile UI
 

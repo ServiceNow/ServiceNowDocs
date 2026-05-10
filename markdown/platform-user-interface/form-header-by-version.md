@@ -35,7 +35,7 @@ The Core UI form header includes the following controls.
 |More options![More options icon](../image/IconUI16MoreOptions.png)|
 |Email|![email icon](../image/FormEmailUI15.png)|Opens an email window.|
 |Template bar|![edit tags icon](../image/IconToggleTemplateBar.png)|Opens a bar at the bottom of the form and lists available templates.|
-|Annotations|![annotations icon](../image/FormToggleAnnotUI15.png)|Displays on-form annotations. For more information, see [Administering form annotations](https://www.servicenow.com/docs/access?context=c_FormAnnotation&version=australia&pubname=australia-platform-administration&ft:locale=en-US).|
+|Annotations|![annotations icon](../image/FormToggleAnnotUI15.png)|Displays on-form annotations. For more information, see [Administering form annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_FormAnnotation.md).|
 |Tags|![edit tags icon](../image/FormEditTagsUI15.png)|Displays the option to create custom tags and categorize documents. For more information, see [Tags](../../common-ui-elements/concept/c_Tags.md).|
 |Remaining controls|
 |Submit or Update| |Saves changes and returns to the previously viewed page.|

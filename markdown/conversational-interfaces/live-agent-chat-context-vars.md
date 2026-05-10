@@ -58,7 +58,7 @@ csp\_category
 
 Category defined in the Consumer Service portal in the CSM application \(requires the com.glide.service-portal.consumer-portal plugin\).
 
- For more information, see [Using the Consumer Service Portal](https://www.servicenow.com/docs/access?context=use-consumer-service-portal&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+ For more information, see [Using the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-consumer-service-portal.md).
 
 </td></tr><tr><td>
 
@@ -196,7 +196,7 @@ post\_chat\_survey\_name
 
 Name of a post-chat survey that is used to gather feedback from the requester.For information about creating surveys, see [Create chat surveys](../../conversational-interfaces/task/create-chat-surveys.md).
 
- For information about creating surveys in Connect Chat, see [Configure a survey in Connect Chat support](https://www.servicenow.com/docs/access?context=take-survey-connect-chat&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+ For information about creating surveys in Connect Chat, see [Configure a survey in Connect Chat support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/take-survey-connect-chat.md).
 
 </td></tr><tr><td>
 
@@ -214,7 +214,7 @@ pre\_chat\_survey\_name
 
 Name of a pre-chat survey that is used to gather information from the requester.For information about creating surveys, see [Create chat surveys](../../conversational-interfaces/task/create-chat-surveys.md). To learn more about how chat context variables from pre-chat surveys are used in Advanced Work Assignment to route work to live agents, see [Work item queues](../../advanced-work-assignment/reference/awa-queues.md).
 
- For information about creating surveys in Connect Chat, see [Configure a survey in Connect Chat support](https://www.servicenow.com/docs/access?context=take-survey-connect-chat&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+ For information about creating surveys in Connect Chat, see [Configure a survey in Connect Chat support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/take-survey-connect-chat.md).
 
 </td></tr><tr><td>
 

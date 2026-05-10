@@ -21,13 +21,13 @@ Perform the following tasks before you import a package version attachment:
 -   Ensure that the **sn\_rpa\_fdn.allow\_manual\_upload\_of\_automation\_package** system property is marked as true. If you have the admin role, you can edit this system property.
 -   Ensure that there is no valid attachment associated to the package version​.
 -   Verify that the life-cycle stage of the package version isn’t set to **Retired**.
--   Create an active connection in the **RPA Automation Package** connection and credential alias. Ensure to provide the lower \(non-production\) environment in the **Connection URL** field. For more information, see [Create an HTTP\(s\) connection](https://www.servicenow.com/docs/access?context=create-https-connection&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   Create an active connection in the **RPA Automation Package** connection and credential alias. Ensure to provide the lower \(non-production\) environment in the **Connection URL** field. For more information, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md).
 
 Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 
 ## About this task
 
-The maximum package size is determined by the **com.glide.attachment.max\_size** system property. For more information about this system property, [Minimize Allowed Attachment Size](https://www.servicenow.com/docs/access?context=sc-max-allowed-attachment-size&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+The maximum package size is determined by the **com.glide.attachment.max\_size** system property. For more information about this system property, [Minimize Allowed Attachment Size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-max-allowed-attachment-size.md).
 
 Perform this task if you are automatically migrating the package attachment \(automation zip file\) from a lower \(non-production\) to a higher \(production\) environment.
 

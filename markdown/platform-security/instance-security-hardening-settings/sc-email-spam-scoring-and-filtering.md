@@ -118,7 +118,7 @@ Dependencies and prerequisites
 
 Before setting this property:
 
- Set the **glide.email.read.active** property to true. To learn more, see [Enable using your own POP3 server](https://www.servicenow.com/docs/access?context=t_ConfAltEmailConfPOP3Server&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ Set the **glide.email.read.active** property to true. To learn more, see [Enable using your own POP3 server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfAltEmailConfPOP3Server.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[File and resources](sc-file-resources.md)

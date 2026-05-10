@@ -43,7 +43,7 @@ Role required: flow\_designer, decision\_table\_admin, sn\_hr\_integr\_fw.admin,
 
 6.  Duplicate available HCM AI agents to run them autonomously.
 
-    For more information, see [Duplicate an AI agent](https://www.servicenow.com/docs/access?context=clone-ai-agent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) For list of available agents, see [Using agentic workflows in Now Assist for HRSD](../concept/now-assist-hrsd-ai-agents-use-cases.md).
+    For more information, see [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md) For list of available agents, see [Using agentic workflows in Now Assist for HRSD](../concept/now-assist-hrsd-ai-agents-use-cases.md).
 
     **Note:** In the Toggle display section, ensure the toggle beside Virtual Agent is enabled.
 

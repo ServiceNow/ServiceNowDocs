@@ -183,7 +183,7 @@ Versions
 
 </td><td>
 
-Shows all versions of the script include. Use this list to compare versions or to revert to a previous version. See [Versions](https://www.servicenow.com/docs/access?context=c_Versions&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Shows all versions of the script include. Use this list to compare versions or to revert to a previous version. See [Versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/c_Versions.md).
 
 </td></tr><tr><td>
 
@@ -255,7 +255,7 @@ The private privacy-setting means that guests who access public pages cannot acc
 
 A public privacy-setting means that the client script can be executed by non-logged-in users that create an appropriate HTTP request. This can create a security problem if the client script provides confidential information.
 
-The following script includes remain public by default because [Make UI pages public or private](https://www.servicenow.com/docs/access?context=t_MakeAPagePublic&version=australia&pubname=australia-platform-security&ft:locale=en-US) need to access them:
+The following script includes remain public by default because [Make UI pages public or private](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_MakeAPagePublic.md) need to access them:
 
 -   GlideSystemAjax
 -   SysMessageAjax
@@ -275,7 +275,7 @@ To provide further control over all Glide AJAX enabled script includes, administ
 |Type|true\|false|
 |Value|false|
 
-**Note:** To learn more about this property, see [Require authentication by default for client-callable script includes](https://www.servicenow.com/docs/access?context=sc-privacy-on-client-callable-script-includes&version=australia&pubname=australia-platform-security&ft:locale=en-US) in Instance Security Hardening Settings.
+**Note:** To learn more about this property, see [Require authentication by default for client-callable script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-privacy-on-client-callable-script-includes.md) in Instance Security Hardening Settings.
 
 #### Change privacy on a single Glide AJAX enabled script include
 
@@ -315,7 +315,7 @@ When creating a Glide AJAX enabled script include, the system displays the follo
     **Note:** To disable the security recommendation messages, set the property glide.script.ccsi.customer\_scoped.security\_msgs\_enabled to **false** in the sys\_properties table. The default value is set to **true**.
 
 
-See [Instance Security Hardening Settings](https://www.servicenow.com/docs/access?context=security-hardening-settings&version=australia&pubname=australia-platform-security&ft:locale=en-US) for additional information on security compliance.
+See [Instance Security Hardening Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/security-hardening-settings.md) for additional information on security compliance.
 
 ## Discovery script includes
 

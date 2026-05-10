@@ -42,8 +42,8 @@ You must ensure that these conditions are met:
 
 To create a change request, an admin must perform the following tasks for an order task that needs the network inventory actions:
 
-1.  Create a record producer. To learn more, see [Create a record producer](https://www.servicenow.com/docs/access?context=t_DefRecProdInSCat&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
-2.  Create a change model. To learn more, see [Create a change model](https://www.servicenow.com/docs/access?context=create-a-change-model&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+1.  Create a record producer. To learn more, see [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefRecProdInSCat.md).
+2.  Create a change model. To learn more, see [Create a change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-change-model.md).
 
     By default, the Telecommunications Network Inventory application provides the change models that are described in the following table.
 

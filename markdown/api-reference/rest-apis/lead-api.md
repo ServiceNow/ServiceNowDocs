@@ -19,7 +19,7 @@ Use this API to integrate your instance with external websites and systems such 
 
 This API is provided within the `sn_lead_mgmt_core` namespace. To access the API, the Lead Management Data Model \(sn\_lead\_mgmt\_core\) plugin must be activated on the instance, and the calling user must have the sn\_lead\_mgmt\_core.lead\_integrator role.
 
-For additional information on Lead Management, see [Using Lead Management](https://www.servicenow.com/docs/access?context=lead-management-using&version=australia&pubname=australia-order-management&ft:locale=en-US).
+For additional information on Lead Management, see [Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-using.md).
 
 ## Extending the Lead API
 

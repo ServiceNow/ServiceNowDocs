@@ -15,7 +15,7 @@ breadcrumb: [ACC-M reference, Agent Client Collector reference, Agent Client Col
 
 The following MID Server parameters support the MID Server Distributed cluster type.
 
-You can access these parameters in the **Configuration Parameters** related list of a MID Server. To add and set any of these parameter, see [Add a MID Server parameter](https://www.servicenow.com/docs/access?context=mid-server-parameters&version=australia&pubname=australia-servicenow-platform&section=t_SetMIDServerParameters&ft:locale=en-US).
+You can access these parameters in the **Configuration Parameters** related list of a MID Server. To add and set any of these parameter, see [Add a MID Server parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md).
 
 <table id="table_psp_b3r_mbb"><thead><tr><th>
 

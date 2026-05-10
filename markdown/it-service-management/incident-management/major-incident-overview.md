@@ -159,7 +159,7 @@ Major Incident Overview – Premium provides the following additional functions:
 **Related topics**  
 
 
-[Create and use dashboards](https://www.servicenow.com/docs/access?context=create-and-edit-dashboards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
 
 [Major incident workbench](major-incident-workbench.md)
 

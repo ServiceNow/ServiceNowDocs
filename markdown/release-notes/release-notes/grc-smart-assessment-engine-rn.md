@@ -17,31 +17,31 @@ The ServiceNow® Smart Assessment Engine \(SAE\) application streamlines creatin
 -   Enable efficient, role-based collaboration by allowing primary owners to delegate assessment sections to subject matter experts \(SMEs\).
 -   Edit published templates quickly with inline edits and built‑in audit tracking.
 
-See [Smart Assessment Engine](https://www.servicenow.com/docs/access?context=smart-asmnt-engine-landing-page&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) for more information.
+See [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md) for more information.
 
 **Important:** Smart Assessment Engine is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Collaboration in assessments](https://www.servicenow.com/docs/access?context=collaboration-in-assessments&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)**
+-   **[Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.md)**
 
     Starting with version 22.0.0, use granular delegation as a primary owner to assign individual assessment sections to SMEs. Respondents can view the entire assessment for context but can edit only their assigned sections. Monitor overall assessment progress and maintain final review and submission capabilities.
 
--   **[Quick edit for published templates](https://www.servicenow.com/docs/access?context=quick-edit-for-published-templates&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)**
+-   **[Quick edit for published templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/quick-edit-for-published-templates.md)**
 
     Starting with version 22.0.0, edit published templates inline as a template manager, including edits to the titles, descriptions, and reader roles.
 
 
 ## UI changes
 
--   **[Create an assessment template category](https://www.servicenow.com/docs/access?context=sae-asmnt-template-category-create&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)**
+-   **[Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md)**
 
     Starting with version 22.0.0, the **Category Role** field in the assessment template category form is replaced with the **Category Roles** field.
 
 
 ## Changed in this release
 
--   **[Create an assessment template category](https://www.servicenow.com/docs/access?context=sae-asmnt-template-category-create&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)**
+-   **[Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md)**
 
     Allow one or more roles to access a template category with the multiselect **Category Roles** field.
 

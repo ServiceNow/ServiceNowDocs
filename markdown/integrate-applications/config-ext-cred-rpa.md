@@ -27,7 +27,7 @@ Reference
 
 </th></tr></thead><tbody><tr><td>
 
-1. Create a subflow to integrate your external credential vault. For more information, see [Create a subflow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-subflow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+1. Create a subflow to integrate your external credential vault. For more information, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow.md).
 
 </td><td>
 
@@ -54,7 +54,7 @@ Populate values for **appID** and **query**.
 
 </td></tr><tr><td>
 
-1.B. You can use the REST Step in the subflow to connect with the external credential vault. You can also use other integration steps such as SOAP. For more information, see [Workflow Studio steps](https://www.servicenow.com/docs/access?context=steps&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+1.B. You can use the REST Step in the subflow to connect with the external credential vault. You can also use other integration steps such as SOAP. For more information, see [Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/steps.md).
 
 </td><td>
 
@@ -156,7 +156,7 @@ For reference, see the sample **Demo CyberArk** external credential vault in you
 
 </td></tr><tr><td>
 
-3. Establish a connection with an external credential vault by using the ServiceNow Connections and Credentials. For more information about creating an active connection, see [Create an HTTP\(s\) connection](https://www.servicenow.com/docs/access?context=create-https-connection&version=australia&pubname=australia-platform-security&ft:locale=en-US). While configuring the connection record, verify to align with your organizational security requirements.
+3. Establish a connection with an external credential vault by using the ServiceNow Connections and Credentials. For more information about creating an active connection, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md). While configuring the connection record, verify to align with your organizational security requirements.
 
 </td><td>
 

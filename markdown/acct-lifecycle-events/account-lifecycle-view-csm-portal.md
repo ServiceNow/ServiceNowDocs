@@ -26,7 +26,7 @@ Role required:
 
 1.  Use the name and password that you created during the registration process to log in to the Customer Service Portal.
 
-    See [Using the Customer Service Portal](https://www.servicenow.com/docs/access?context=use-the-customer-portal&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) for details.
+    See [Using the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-the-customer-portal.md) for details.
 
 2.  Select **My Lists** to view the account onboarding cases and case tasks.
 

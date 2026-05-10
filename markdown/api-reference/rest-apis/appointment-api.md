@@ -15,7 +15,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Appointment API provides endpoints for interacting with the appointment booking application. Use this API to book and reschedule appointments, check available appointment slots, and fetch appointment booking configuration details.
 
-Before using this API, the Appointment Booking Configuration and Service Configuration must be setup. In addition, a task for which the appointment is being booked must already exist. For additional information, see [Configuring Appointment Booking](https://www.servicenow.com/docs/access?context=appointment-booking-administer&version=australia&pubname=australia-field-service-management&ft:locale=en-US).
+Before using this API, the Appointment Booking Configuration and Service Configuration must be setup. In addition, a task for which the appointment is being booked must already exist. For additional information, see [Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/appointment-booking-administer.md).
 
 The Appointment API requires the Appointment Booking plugin \(com.snc.appointment\_booking\) and is provided within the `sn_apptmnt_booking` namespace. To access this API you must have the snc\_internal role.
 
@@ -25,7 +25,7 @@ The Appointment API requires the Appointment Booking plugin \(com.snc.appointmen
 
 Returns the time range for which you can book appointments. The return results honor the lead time and maximum future bookable dates configured in the appointment booking service configuration.
 
-For additional information on lead time and maximum future bookable dates configuration, see [Create or modify an application configuration for Appointment Booking](https://www.servicenow.com/docs/access?context=appt-booking-create-app-config&version=australia&pubname=australia-field-service-management&ft:locale=en-US).
+For additional information on lead time and maximum future bookable dates configuration, see [Create or modify an application configuration for Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/appt-booking-create-app-config.md).
 
 You must have either the snc\_internal or snc\_external role to access this endpoint.
 
@@ -336,7 +336,7 @@ result.advanced\_calendar\_view\_portal
 
 </td><td>
 
-Flag that indicates whether the advanced calendar view displays on the portal or displays the base view. For additional information on the advanced calendar view, see [Create or modify an application configuration for Appointment Booking](https://www.servicenow.com/docs/access?context=appt-booking-create-app-config&version=australia&pubname=australia-field-service-management&ft:locale=en-US).Possible values:
+Flag that indicates whether the advanced calendar view displays on the portal or displays the base view. For additional information on the advanced calendar view, see [Create or modify an application configuration for Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/appt-booking-create-app-config.md).Possible values:
 
 -   true: Advanced calendar view displays on the portal.
 -   false: Basic view displays on the portal.
@@ -482,7 +482,7 @@ result.service\_config.​enable\_advanced\_config
 
 </td><td>
 
-Flag that indicates whether appointment booking configurations and appointment booking rules are considered when booking appointments. For additional information, see [Create appointment booking advanced configuration](https://www.servicenow.com/docs/access?context=appintment-booking-day-level-config&version=australia&pubname=australia-field-service-management&ft:locale=en-US).Possible values:
+Flag that indicates whether appointment booking configurations and appointment booking rules are considered when booking appointments. For additional information, see [Create appointment booking advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/appintment-booking-day-level-config.md).Possible values:
 
 -   true: Appointment booking configurations and appointment booking rules are considered when booking appointments.
 -   false: Appointment booking configurations and appointment booking rules aren't considered when booking appointments.
@@ -653,7 +653,7 @@ result.service\_config.work\_duration
 
 </td><td>
 
-Amount of time it takes to work on the appointment. Work duration is configured in the appointment booking service configuration. For additional information, see [Create or modify service configuration for Appointment Booking](https://www.servicenow.com/docs/access?context=appt-booking-create-service-config&version=australia&pubname=australia-field-service-management&ft:locale=en-US).Data type: String
+Amount of time it takes to work on the appointment. Work duration is configured in the appointment booking service configuration. For additional information, see [Create or modify service configuration for Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/appt-booking-create-service-config.md).Data type: String
 
 Unit: Minutes
 
@@ -1139,7 +1139,7 @@ result.dedicatedCapacity
 
 </td><td>
 
-Flag that indicates whether the associated rule has dedicated capacity. For additional information on dedicated capacity, see [Create service configuration rules for a service configuration](https://www.servicenow.com/docs/access?context=create-appt-booking-service-config-rules&version=australia&pubname=australia-field-service-management&ft:locale=en-US).Possible values:
+Flag that indicates whether the associated rule has dedicated capacity. For additional information on dedicated capacity, see [Create service configuration rules for a service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-appt-booking-service-config-rules.md).Possible values:
 
 -   true: Rule has dedicated capacity.
 -   false: Capacity is shared between the associated rule and the base configuration. It’s also shared with other rules that don't have dedicated capacity.
@@ -1242,7 +1242,7 @@ Enables you to book and reschedule appointments for a Field Service Management t
 
 **Note:** This endpoint only enables you to book and schedule appointments that have start and end times defined in the associated appointment booking service configuration and have available slots.
 
-For additional information on Field Service Management tasks, see [Configuring Appointment Booking](https://www.servicenow.com/docs/access?context=appointment-booking-administer&version=australia&pubname=australia-field-service-management&ft:locale=en-US).
+For additional information on Field Service Management tasks, see [Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/appointment-booking-administer.md).
 
 ### URL format
 

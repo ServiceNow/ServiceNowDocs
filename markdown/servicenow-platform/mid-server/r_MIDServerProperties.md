@@ -67,13 +67,13 @@ Properties control the behavior of all MID Servers or a particular MID Server.
     -   Default:
 -   **mid.aws.sts.assume\_role.disable\_credential\_caching**
 
-    Set this property to **true** to prevent the caching of temporary credentials for Cloud Discovery. For more information, see [Access setup for AWS service accounts](https://www.servicenow.com/docs/access?context=access-aws-accounts&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) [Access setup for AWS service accounts](https://www.servicenow.com/docs/access?context=access-aws-accounts&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+    Set this property to **true** to prevent the caching of temporary credentials for Cloud Discovery. For more information, see [Access setup for AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/access-aws-accounts.md) [Access setup for AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/access-aws-accounts.md).
 
     -   Type: true \| false
     -   Default: false
 -   **mid.aws.sts.assume\_role.credential\_ttl\_minutes**
 
-    Set the number of minutes you want to cache temporary credentials for Cloud Discovery. For more information, see [Access setup for AWS service accounts](https://www.servicenow.com/docs/access?context=access-aws-accounts&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) [Access setup for AWS service accounts](https://www.servicenow.com/docs/access?context=access-aws-accounts&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+    Set the number of minutes you want to cache temporary credentials for Cloud Discovery. For more information, see [Access setup for AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/access-aws-accounts.md) [Access setup for AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/access-aws-accounts.md).
 
     -   Type: integer
     -   Default: 60
@@ -113,7 +113,7 @@ Properties control the behavior of all MID Servers or a particular MID Server.
 
     Specifies the maximum string length of Discovery results that the MID Server sends to the instance. If the Discovery probe results exceed the limit, the MID Server discards them and returns a warning message.
 
-    For probes, this applies only to those probes where the Used by Discovery field is true. For patterns, this applies to the [Horizontal Pattern probe](https://www.servicenow.com/docs/access?context=r-HorizontalPatternProbe&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+    For probes, this applies only to those probes where the Used by Discovery field is true. For patterns, this applies to the [Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-HorizontalPatternProbe.md).
 
     Set the value to any negative number to disable the payload limit and allow payloads of any size to be sent to the instance. For example, -1.
 
@@ -123,7 +123,7 @@ Properties control the behavior of all MID Servers or a particular MID Server.
 
 -   **mid.discovery.multiprobe.skip\_others\_on\_error**
 
-    Prevents probes in a [multi-probe](https://www.servicenow.com/docs/access?context=r_MultiprobesIncludedWithDiscovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) from iterating through available credentials when another member probe has already failed or timed out. If this property is set to **false**, each probe in the multi-probe attempts to connect to the target with the same invalid credentials. This condition results in longer probe execution times on the MID Server.
+    Prevents probes in a [multi-probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_MultiprobesIncludedWithDiscovery.md) from iterating through available credentials when another member probe has already failed or timed out. If this property is set to **false**, each probe in the multi-probe attempts to connect to the target with the same invalid credentials. This condition results in longer probe execution times on the MID Server.
 
     This property is not visible by default and must be added to the sys\_properties table to change the value.
 
@@ -232,7 +232,7 @@ Properties control the behavior of all MID Servers or a particular MID Server.
     -   Default value: false
 -   **mid.probe.use\_legacy\_forward\_dns**
 
-    Enables the legacy DNSNameResolver probe and disables the default DNSNameResolver probe. See [Probes used by Orchestration](https://www.servicenow.com/docs/access?context=r_OrchestrationProbes&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for more information.
+    Enables the legacy DNSNameResolver probe and disables the default DNSNameResolver probe. See [Probes used by Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/r_OrchestrationProbes.md) for more information.
 
     -   Type: true \| false
     -   Default value: false
@@ -347,7 +347,7 @@ Properties control the behavior of all MID Servers or a particular MID Server.
     -   Default value: true
     GETBULK can also be set at the probe level or for an individual MID Server. Settings are listed in the order of precedence:
 
-    -   [SNMP probe parameter](https://www.servicenow.com/docs/access?context=r_SNMPProbeParameters&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+    -   [SNMP probe parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_SNMPProbeParameters.md)
     -   [MID Server configuration parameter](mid-server-parameters.md#)
     -   MID Server properties
 -   **mid.ssh.algorithms.kex**

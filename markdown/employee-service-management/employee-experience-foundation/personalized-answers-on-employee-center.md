@@ -49,11 +49,11 @@ The following plugins are required for the set-up of this feature with Kronos:
 -   app\_ex\_integrated\_answers
 -   com.glide.hub.action\_step.payload
 
-For more information on ServiceNow® plugins, see [List of plugins](https://www.servicenow.com/docs/access?context=list-of-plugins&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+For more information on ServiceNow® plugins, see [List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 
 **Note:** app\_ex\_integrated\_answers plugin runs with Employee Center version 26.0.1 and Employee Experience Foundation version 25.0.1. When you install the plugin, it prompts that the appropriate versions of the said applications are going to be installed.
 
-After the plugins are installed, [Set up the UKG spoke](https://www.servicenow.com/docs/access?context=setup-kronos&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) to register Kronos as an OAuth provider and authenticate requests from ServiceNow®.
+After the plugins are installed, [Set up the UKG spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-kronos.md) to register Kronos as an OAuth provider and authenticate requests from ServiceNow®.
 
 After the UKG setup, ensure that the following prerequisites are established, before training and publishing the NLU model:
 

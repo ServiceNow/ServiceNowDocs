@@ -15,7 +15,7 @@ Chat with an AI agent in the Now Assist panel to begin the process for uploading
 
 ## Before you begin
 
-The Now Assist panel must be activated. For more information, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+The Now Assist panel must be activated. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 Role required: ot\_excel\_import\_user and now\_assist\_panel\_user
 

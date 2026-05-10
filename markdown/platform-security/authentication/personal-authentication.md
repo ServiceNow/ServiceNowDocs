@@ -32,7 +32,7 @@ Grant types such as Client Credentials, and JWT Bearer Grant aren’t supported 
 
 ## Personal Authentication dashboard
 
-Use your personal credentials to connect to third-party integrations. View, authenticate, revoke, and renew your personal authentications through a simplified, consolidated interface. For more information, see [Using the Personal Authentication dashboard](https://www.servicenow.com/docs/access?context=personal-auth-dashboard&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+Use your personal credentials to connect to third-party integrations. View, authenticate, revoke, and renew your personal authentications through a simplified, consolidated interface. For more information, see [Using the Personal Authentication dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/personal-auth-dashboard.md).
 
 **Note:** The personal authentication dashboard can only be accessed by users who are assigned to the role: `sn_personal_auth.personal_auth_user`
 

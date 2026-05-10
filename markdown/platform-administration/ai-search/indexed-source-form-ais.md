@@ -41,7 +41,7 @@ Source
 
 The ServiceNow AI Platform® table to index. AI Search excludes some ServiceNow AI Platform tables from indexing. You can't define indexed sources for these excluded tables or their derived tables. For a list of excluded tables, see [ServiceNow AI Platform tables excluded from AI Search indexing](excluded-tables-ais.md).
 
- To index content from a [remote table](https://www.servicenow.com/docs/access?context=remote-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US), create an external indexed source. For more details on configuring indexed sources for external content, see [Indexing and searching external content in AI Search](../concept/external-content-ais.md).
+ To index content from a [remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-tables.md), create an external indexed source. For more details on configuring indexed sources for external content, see [Indexing and searching external content in AI Search](../concept/external-content-ais.md).
 
  Plugins and applications can define multiple indexed sources for the same ServiceNow AI Platform table, but only one of them can be active at a time. For more details, see **Active**.
 

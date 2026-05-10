@@ -45,9 +45,9 @@ After the Service Management Core plugin has been activated, you can activate ot
 **Related topics**  
 
 
-[Process flow formatter](https://www.servicenow.com/docs/access?context=r_ProcessFlowFormatter&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Process flow formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ProcessFlowFormatter.md)
 
-[State flows](https://www.servicenow.com/docs/access?context=c_StateFlows&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[State flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_StateFlows.md)
 
-[Managed Documents](https://www.servicenow.com/docs/access?context=c_ManagedDocuments&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/c_ManagedDocuments.md)
 

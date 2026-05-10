@@ -28,7 +28,7 @@ Role required: sn\_itom\_cam.cw\_admin
 
 2.  Select **CW Certification Policy** &gt; **View Policy** to review policy details.
 
-3.  For creating or customizing a policy, see [Create a CMDB Data Manager policy](https://www.servicenow.com/docs/access?context=data-manager-create-policy-wrkspc&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+3.  For creating or customizing a policy, see [Create a CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
 
     **Note:**
 

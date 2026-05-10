@@ -32,7 +32,7 @@ New York and later.
 
 ## Plugins
 
--   [ServiceNow IntegrationHub Installer](https://www.servicenow.com/docs/access?context=request-ih-overview&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) \(com.glide.hub.integrations\): Suite of plugins necessary to design integration flows in the Workflow Studio application.
+-   [ServiceNow IntegrationHub Installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md) \(com.glide.hub.integrations\): Suite of plugins necessary to design integration flows in the Workflow Studio application.
 -   The Zoom spoke, version 1.0.2 \(com.sn.zoom.spoke\) for ServiceNow Integration Hub provides actions that allow user to create and manage the conference meetings.
 
 **Parent Topic:**[Exploring Notify](exploring-notify.md)

@@ -41,15 +41,15 @@ The service problem case summarization skill is available in CSM/FSM Configurabl
 
 5.  After you're finished summarizing the key findings, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d26574e133">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d26578e133">
 
 Option
 
-</th><th align="left" id="d26574e136">
+</th><th align="left" id="d26578e136">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d26574e142">
+</th></tr></thead><tbody><tr><td id="d26578e142">
 
 **View more or less summary details**
 
@@ -59,7 +59,7 @@ Procedure
 -   To see fewer summary details, select the View less icon \(![Collapse card icon.](../image/icon-collapse.png)\).
 
 
-</td></tr><tr><td id="d26574e172">
+</td></tr><tr><td id="d26578e172">
 
 **Provide feedback for the summary**
 
@@ -69,7 +69,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d26574e205">
+</td></tr><tr><td id="d26578e205">
 
 **Copy the case summary**
 
@@ -77,7 +77,7 @@ Procedure
 
 Select the copy to clipboard icon \(![Copy to clipboard icon.](../image/icon-copy.png)\) to use the comprehensive summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d26574e220">
+</td></tr><tr><td id="d26578e220">
 
 **View the information about the case summary**
 

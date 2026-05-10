@@ -25,9 +25,9 @@ In the navigation filter, enter `sys_property.list` and ensure **glide.documents
 
 ## Procedure
 
-1.  [Create an experience for UI Builder](https://www.servicenow.com/docs/access?context=create-experience&version=australia&pubname=australia-application-development&ft:locale=en-US), if an experience is already created, go to Step 5.
+1.  [Create an experience for UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-experience.md), if an experience is already created, go to Step 5.
 
-2.  [Create a page from a template](https://www.servicenow.com/docs/access?context=reuse-page-definitions&version=australia&pubname=australia-application-development&ft:locale=en-US).
+2.  [Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/reuse-page-definitions.md).
 
 3.  Go to created page template and select **Use template**.
 

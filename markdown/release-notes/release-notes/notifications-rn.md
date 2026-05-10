@@ -21,53 +21,53 @@ The ServiceNow® Notifications application enables you to create, manage, and se
 -   Deliver critical push notifications even when users are logged out.
 -   Create and modify email notifications and email templates using natural language prompts through the Notification Agent.
 
-See [Notifications](https://www.servicenow.com/docs/access?context=notifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+See [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notifications.md) for more information.
 
 ## New in the Australia release
 
--   **[User mailbox integration](https://www.servicenow.com/docs/access?context=personal-corporate-mailbox&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[User mailbox integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/personal-corporate-mailbox.md)**
 
     Enable agents to integrate their personal corporate mail boxes to send and receive emails.
 
--   **[Granular admin roles required to secure the instance](https://www.servicenow.com/docs/access?context=granular-admin-roles-notifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Granular admin roles required to secure the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/granular-admin-roles-notifications.md)**
 
     The granular admin role enables developers and administrators to complete administrative configuration tasks for Notifications without requiring the full admin role.
 
--   **[Notification agent](https://www.servicenow.com/docs/access?context=notification-creation-agent&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Notification agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notification-creation-agent.md)**
 
     The Notification agent enables platform administrators to create and modify email notifications and templates using natural language prompts, reducing the need of navigating complex forms &amp; scripts.
 
 
 ## UI changes
 
--   **[Create an email client template](https://www.servicenow.com/docs/access?context=t_CreateAnEmailClientTemplate&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Create an email client template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnEmailClientTemplate.md)**
 
     Added a check box for the email client template.
 
--   **[Configure templates for personal corporate mailboxes](https://www.servicenow.com/docs/access?context=configure-personal-corporate-mailbox&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Configure templates for personal corporate mailboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-personal-corporate-mailbox.md)**
 
     Added a new **From Generation Type** for the User Email Addresses for email client templates.
 
--   **[Integrate personal corporate mailbox for receiving emails](https://www.servicenow.com/docs/access?context=integrate-corporate-email-receiving&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Integrate personal corporate mailbox for receiving emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/integrate-corporate-email-receiving.md)**
 
     Added the Forwarding Address option for the email account type.
 
 
 ## Changed in this release
 
--   **[Sending email using Microsoft Graph](https://www.servicenow.com/docs/access?context=send-email-using-ms-graph&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Sending email using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/send-email-using-ms-graph.md)**
 
     Connect Microsoft email accounts using Microsoft Graph within the ServiceNow instance for sending outbound emails.
 
--   **[Email threading for inbound reply email](https://www.servicenow.com/docs/access?context=c_InboundEmailActions&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Email threading for inbound reply email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_InboundEmailActions.md)**
 
     Enable classification of inbound emails by using the thread-index header for emails originating from Microsoft or Microsoft Outlook ecosystem.
 
--   **[Column Level Encryption for email attachments](https://www.servicenow.com/docs/access?context=cle-for-email-attachments&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Column Level Encryption for email attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/cle-for-email-attachments.md)**
 
     Attachments from inbound emails are now encrypted when stored in CLE-enabled tables and decrypted when sent in outbound emails, ensuring secure access without requiring scripting.
 
--   **[Enable push notifications for logged-out users](https://www.servicenow.com/docs/access?context=enable-notifications-logged-out-users&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Enable push notifications for logged-out users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enable-notifications-logged-out-users.md)**
 
     Push notifications can now be configured to be sent to users even when they are logged out, ensuring critical updates are not missed.
 

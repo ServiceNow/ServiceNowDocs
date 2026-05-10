@@ -33,7 +33,7 @@ Role required: Owner of the knowledge base, knowledge\_manager, knowledge\_admin
     **Note:**
 
     -   If you are a knowledge administrator, you can view the feedback tasks and task metrics of articles in the knowledge bases. If you are a knowledge owner or knowledge manager, you can view feedback tasks and task metrics of all articles in the knowledge bases you own or manage.
-    -   You may need to configure the form to add **Knowledge Feedback Task Metrics** in the related list section. For more information, see [Add a related list to a form](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&section=t_AddARelatedList&ft:locale=en-US).
+    -   You may need to configure the form to add **Knowledge Feedback Task Metrics** in the related list section. For more information, see [Add a related list to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
     -   The feedback task state is unaffected by changes in the article state. Therefore, when the article is retired, the feedback owner or group assigned to the feedback task has to close or resolve the feedback task.
 
 **Parent Topic:**[Using Knowledge Management](../concept/using-knowledge-management.md)

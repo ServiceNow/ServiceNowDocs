@@ -38,12 +38,12 @@ Complete the steps in the [Request Software Asset Management](t_RequSoftwareAsse
 
 3.  Integrate with an inventory tool for installation usage data.
 
-    -   For integrating with Microsoft SCCM, complete the steps in the [Service Graph Connector for Microsoft SCCM](https://www.servicenow.com/docs/access?context=cmdb-integration-sccm&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) topic and all subtopics.
-    -   For integrating with ServiceNow Agent Client Collector \(ACC\), complete the steps in the [Agent Client Collector installation](https://www.servicenow.com/docs/access?context=acc-installation&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) topic and all subtopics.
+    -   For integrating with Microsoft SCCM, complete the steps in the [Service Graph Connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-sccm.md) topic and all subtopics.
+    -   For integrating with ServiceNow Agent Client Collector \(ACC\), complete the steps in the [Agent Client Collector installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-installation.md) topic and all subtopics.
 
         **Note:** ServiceNow Agent Client Collector \(ACC\) is a separately licensed IT Operations Management \(ITOM\) product. For details, contact your ServiceNow account executive.
 
-    -   For integrating with Jamf for MAC OS devices, complete the steps in the [Service Graph Connector for Jamf](https://www.servicenow.com/docs/access?context=cmdb-integration-jamf&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) topic and all subtopics.
+    -   For integrating with Jamf for MAC OS devices, complete the steps in the [Service Graph Connector for Jamf](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-jamf.md) topic and all subtopics.
     -   To integrate with a third-party inventory tool, complete the steps in the [Software asset connections](../concept/third-party-discovery-sam.md) topic and all subtopics.
 
 ## What to do next

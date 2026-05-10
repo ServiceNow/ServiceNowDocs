@@ -139,5 +139,5 @@ Select the date and time to activate the plugin.
 **Related topics**  
 
 
-[List of plugins \(Madrid\)](https://www.servicenow.com/docs/access?context=list-of-plugins&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[List of plugins \(Madrid\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

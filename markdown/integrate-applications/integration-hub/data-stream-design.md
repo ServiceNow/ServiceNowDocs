@@ -142,7 +142,7 @@ SOAP step
 </td></tr></tbody>
 </table>-   **Turn off reporting when consuming a large number of records in the For Each logic block**
 
-    Iterating over a large number of records can be resource intensive, especially when the For Each logic block includes complex actions for each iteration. To avoid performance issues, turn off reporting using the **com.snc.process\_flow.reporting.level** system property. For more information, see [Workflow Studio flow system properties](https://www.servicenow.com/docs/access?context=flow-designer-system-properties&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    Iterating over a large number of records can be resource intensive, especially when the For Each logic block includes complex actions for each iteration. To avoid performance issues, turn off reporting using the **com.snc.process\_flow.reporting.level** system property. For more information, see [Workflow Studio flow system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-system-properties.md).
 
 
 **Parent Topic:**[Data Stream actions and pagination](data-stream-actions.md)

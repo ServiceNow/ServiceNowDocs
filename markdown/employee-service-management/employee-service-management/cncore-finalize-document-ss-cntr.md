@@ -32,15 +32,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 6.  Access and edit the contract document.
 
-<table id="choicetable_szm_zjq_gbc"><thead><tr><th align="left" id="d760926e91">
+<table id="choicetable_szm_zjq_gbc"><thead><tr><th align="left" id="d768446e91">
 
 Choice
 
-</th><th align="left" id="d760926e94">
+</th><th align="left" id="d768446e94">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d760926e100">
+</th></tr></thead><tbody><tr><td id="d768446e100">
 
 **Download contract document from the internal storage**
 
@@ -53,7 +53,7 @@ Steps
 5.  Edit the downloaded document.
 
 
-</td></tr><tr><td id="d760926e139">
+</td></tr><tr><td id="d768446e139">
 
 **Download contract document from the external storage**
 
@@ -67,7 +67,7 @@ The document opens from the external storage.
 3.  Edit the downloaded document.
 
 
-</td></tr><tr><td id="d760926e162">
+</td></tr><tr><td id="d768446e162">
 
 **Edit the contract document directly from the external storage**
 

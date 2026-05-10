@@ -21,7 +21,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Follow the instructions in [Set up Google Maps API](https://www.servicenow.com/docs/access?context=set-up-google-maps-api&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+1.  Follow the instructions in [Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/set-up-google-maps-api.md).
 
     For information on the Google Maps APIs in the Geo-map component, see the KB article: [KB1588661](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1588661)
 

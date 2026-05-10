@@ -25,5 +25,5 @@ On the **Select channels and status** page of a voice agent, select **Test in as
 
 ## Test from Assistant Designer
 
-See [Test a voice assistant](https://www.servicenow.com/docs/access?context=test-a-voice-assistant&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) for more information on testing voice agents from Assistant Designer.
+See [Test a voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/test-a-voice-assistant.md) for more information on testing voice agents from Assistant Designer.
 

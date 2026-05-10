@@ -19,7 +19,7 @@ The Agent Client Collector automatic MID Server selection feature set is disable
 
 ## Use case considerations
 
-Automatic MID Server selection provides several benefits. [MID Server capabilities](https://www.servicenow.com/docs/access?context=t_ConfigureCapabilities&version=australia&pubname=australia-servicenow-platform&section=r_MIDServerCapabilities&ft:locale=en-US) can narrow the list of MID Servers an agent can potential connect to. Automatic MID Server selection keeps the back-end URL configuration list up to date on the agent host without additional work flows.
+Automatic MID Server selection provides several benefits. [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md) can narrow the list of MID Servers an agent can potential connect to. Automatic MID Server selection keeps the back-end URL configuration list up to date on the agent host without additional work flows.
 
 When automatic MID Server selection is enabled, the agent performs a connectivity test against the list of available MID Servers and determines the best connection based on latency and number of currently connected agents.
 
@@ -39,7 +39,7 @@ During automatic MID Server selection, the agent selects a primary MID and a sec
 
 When an agent detects that its IP address has changed, it automatically connects with the most efficient MID Server available from the agent's list of MID Servers.
 
-To secure communication between the MID Server and the agent, use the MID Server's unified key store. For details on using the MID Server unified key store, see [MID Server unified key store](https://www.servicenow.com/docs/access?context=mid-unified-keystore&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+To secure communication between the MID Server and the agent, use the MID Server's unified key store. For details on using the MID Server unified key store, see [MID Server unified key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-unified-keystore.md).
 
 -   **[Enable automatic MID Server selection](../task/acc-disable-auto-mid-selection.md)**  
 Enabling automatic MID Server selection lets the agent perform a connectivity test against the list of available MID Servers and determine the best connection based on latency and number of currently connected agents. Automatic MID Server selection is disabled by default.

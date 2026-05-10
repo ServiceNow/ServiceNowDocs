@@ -29,15 +29,15 @@ Role required: admin or sn\_vdr\_risk\_asmt.vendor\_risk\_admin
 
 4.  Add an assessment metric \(a question\) to the category using one of the following methods.
 
-<table id="choicetable_rkc_13z_hcc"><thead><tr><th align="left" id="d75276e102">
+<table id="choicetable_rkc_13z_hcc"><thead><tr><th align="left" id="d76161e102">
 
 Option
 
-</th><th align="left" id="d75276e105">
+</th><th align="left" id="d76161e105">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d75276e111">
+</th></tr></thead><tbody><tr><td id="d76161e111">
 
 **Create a question**
 
@@ -45,7 +45,7 @@ Description
 
 Select **New** and fill out the form. For more information, see [Define a question](tprm-questions-create.md).
 
-</td></tr><tr><td id="d75276e134">
+</td></tr><tr><td id="d76161e134">
 
 **Add a question**
 

@@ -18,9 +18,9 @@ Generate summaries, frequently asked questions \(FAQs\), or ask questions to ret
 
 ## Before you begin
 
--   The smart documents skill must be activated. For more information, see [Configure the Smart Documents Skill for Now Assist in Document Management](https://www.servicenow.com/docs/access?context=configure-skill-smart-documents&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   The smart documents skill must be activated. For more information, see [Configure the Smart Documents Skill for Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-skill-smart-documents.md).
 -   Your role and relevant tables must be configured to use this feature. For more information, see [Configuring contract summarization for Contract Management Pro](cmpro-conf-cntr-summary.md).
--   The Now Assist panel must be enabled. For more information, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+-   The Now Assist panel must be enabled. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 -   Role required: sn\_cm\_core.contract\_fulfiller
 
 ## About this task
@@ -79,7 +79,7 @@ Workspace used by your application
 
     ![Now Assist panel displaying options to summarize the document, generate FAQs, and ask questions.](../image/cmpro-summary-nap.png "Contract summary options in the Now Assist panel")
 
-    For more information on using Now Assist for generating summaries, see [Generate a document summary by using Now Assist in Document Management](https://www.servicenow.com/docs/access?context=generate-document-summary-now-assist&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and [Generate summary and ask questions using Now Assist in Document Management](https://www.servicenow.com/docs/access?context=ask-questions-faqs-now-assist&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For more information on using Now Assist for generating summaries, see [Generate a document summary by using Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/generate-document-summary-now-assist.md) and [Generate summary and ask questions using Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ask-questions-faqs-now-assist.md).
 
     You can also summarize supporting documents and signed contracts using Ask Now Assist in the document viewer.
 

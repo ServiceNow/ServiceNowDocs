@@ -23,12 +23,12 @@ Use case: As a service provider when I use chat to respond to a tenant-customerâ
 
 ## Overview
 
-Data archiving supports [Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US). For example, incidents that belong to a domain keep their domain designation even after they are archived.
+Data archiving supports [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md). For example, incidents that belong to a domain keep their domain designation even after they are archived.
 
 **Parent Topic:**[Data Management reference](../reference/data-management-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

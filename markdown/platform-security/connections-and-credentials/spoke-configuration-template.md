@@ -54,7 +54,7 @@ You can create configuration templates for integrations with these credential ty
 
 -   **Test Action**
 
-    Enables you to test a connection directly from an integration action in the flow view of Workflow Studio. The test action uses an action definition to test the alias that the template is currently attached to. For details, see [Create a test action to test a connection alias from a configuration template](https://www.servicenow.com/docs/access?context=test-alias-configuration-template&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    Enables you to test a connection directly from an integration action in the flow view of Workflow Studio. The test action uses an action definition to test the alias that the template is currently attached to. For details, see [Create a test action to test a connection alias from a configuration template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/test-alias-configuration-template.md).
 
 
 ## Demo data

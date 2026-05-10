@@ -19,21 +19,21 @@ You can create a transfer order directly from a request to source hardware items
 
 Role required: procurement\_admin or procurement\_user
 
-**Important:** If the Field Service Management application is also activated on your ServiceNow instance, then a workflow in this application processes the transfer orders. For more information, see [Move an asset through the transfer process](https://www.servicenow.com/docs/access?context=create-transfer-order-line-task&version=australia&pubname=australia-field-service-management&ft:locale=en-US).
+**Important:** If the Field Service Management application is also activated on your ServiceNow instance, then a workflow in this application processes the transfer orders. For more information, see [Move an asset through the transfer process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/create-transfer-order-line-task.md).
 
 ## Procedure
 
 1.  View procurement requests.
 
-<table id="choicetable_ugf_l3l_4xb"><thead><tr><th align="left" id="d196177e68">
+<table id="choicetable_ugf_l3l_4xb"><thead><tr><th align="left" id="d196291e68">
 
 UI
 
-</th><th align="left" id="d196177e71">
+</th><th align="left" id="d196291e71">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d196177e77">
+</th></tr></thead><tbody><tr><td id="d196291e77">
 
 **Core UI**
 
@@ -41,7 +41,7 @@ Action
 
 Navigate to **All** &gt; **Procurement** &gt; **Requests** &gt; **Requests**.
 
-</td></tr><tr><td id="d196177e101">
+</td></tr><tr><td id="d196291e101">
 
 **Hardware Asset Workspace**
 
@@ -109,5 +109,5 @@ Navigate to **All** &gt; **Procurement** &gt; **Requests** &gt; **Requests**.
 
 [Add an assignment from a request](t_AddingAssignmentsFromReq.md)
 
-[Manage transfer orders](https://www.servicenow.com/docs/access?context=c_TransferOrders&version=australia&pubname=australia-field-service-management&ft:locale=en-US)
+[Manage transfer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/c_TransferOrders.md)
 

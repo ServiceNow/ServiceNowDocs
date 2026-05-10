@@ -66,5 +66,5 @@ This example demonstrates how you can create and configure a playbook to design 
 
 [Telecommunications Network Inventory subflows](subflow.md)
 
-[Building Playbooks](https://www.servicenow.com/docs/access?context=building-a-process&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-a-process.md)
 

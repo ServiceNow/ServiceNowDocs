@@ -31,7 +31,7 @@ Role required: sn\_icw.rca\_user or sn\_icw.rca\_expert
 
 3.  Select **Save**.
 
-    The Playbook opens that helps you get to the root of the problem. To learn more about Playbook Experience, see [About Playbook Experience](https://www.servicenow.com/docs/access?context=playbook-ui&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    The Playbook opens that helps you get to the root of the problem. To learn more about Playbook Experience, see [About Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md).
 
 4.  On the Information Gathering form, fill in the fields.
 

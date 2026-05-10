@@ -13,7 +13,7 @@ breadcrumb: [Configure, Task Intelligence for Customer Service, Machine learning
 
 Activate the required plugins and flows to use the language detection feature.
 
-For more information about the languages supported by language detection, see this topic: [Languages supported by Task Intelligence](https://www.servicenow.com/docs/access?context=languages-supported-by-language-detection&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information about the languages supported by language detection, see this topic: [Languages supported by Task Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/task-intelligence/languages-supported-by-language-detection.md).
 
 Follow the steps in the table below to configure the language detection feature for cases.
 
@@ -33,7 +33,7 @@ Ensure that your instance is set up for Predictive Intelligence \(PI\).
 
 Predictive Intelligence is a ServiceNow platform feature that provides a layer of artificial intelligence, which serves as a framework for machine learning models. For more information, see:
 
--   [Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+-   [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md)
 -   [Machine learning solutions for Customer Service Management](machine-learning-csm.md)
 
 </td></tr><tr><td>

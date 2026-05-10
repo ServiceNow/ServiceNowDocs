@@ -17,7 +17,7 @@ Use COE Access Control List \(ACLs\) Configuration to allow specific groups read
 
 For example, you don't want the Benefits group to view the cases created by the Compensation group. You create a COE security policy that allows the Compensation group access. Groups that aren't included on the policy cannot access the cases.
 
-Use this feature as an alternative to using ACLs rules. For more information on ACLs, see [Access control list rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Use this feature as an alternative to using ACLs rules. For more information on ACLs, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).
 
 COE security policies don't affect case creation. COE security policies affect what cases you can view or modify after creation.
 

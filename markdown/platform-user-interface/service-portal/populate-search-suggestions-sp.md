@@ -19,13 +19,13 @@ If you are upgrading from a previous release, run a script to populate search su
 
 Role required: admin
 
-In new instances, the search suggestions are enabled by default. In upgraded instances, you must enable the search suggestions. For more information, see [Enable search suggestions](https://www.servicenow.com/docs/access?context=enable-search-suggestions&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+In new instances, the search suggestions are enabled by default. In upgraded instances, you must enable the search suggestions. For more information, see [Enable search suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/enable-search-suggestions.md).
 
 ## About this task
 
 The ServiceNow AI Platform collects search data and analytics that generate search suggestions. If you are upgrading from a previous release, the search analytics do not contain any data yet. To immediately provide suggestions to your users, you can populate the search suggestions using data from either the Text Searches \[text\_search\] table or the Service Portal Log Entries \[sp\_log\] table. The Service Portal Log Entries table includes search data from Service Portal only and may take less time to populate search suggestions. The Text Search table includes search data from the entire platform.
 
-Search suggestions improve over time as more people use Service Portal. Search Suggestions is a ServiceNow AI Platform feature. For more information, see [Search Suggestions](https://www.servicenow.com/docs/access?context=search-suggestions-overview&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Search suggestions improve over time as more people use Service Portal. Search Suggestions is a ServiceNow AI Platform feature. For more information, see [Search Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-suggestions/search-suggestions-overview.md).
 
 **Warning:** Populating search suggestions can be a resource-intensive task that may take a while to complete. Do not run this script during peak hours. Populating search suggestions is not supported on domain-separated instances.
 

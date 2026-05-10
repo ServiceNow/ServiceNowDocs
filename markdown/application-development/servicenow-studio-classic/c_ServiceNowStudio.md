@@ -27,7 +27,7 @@ The system opens the newServiceNow Studio whenever you edit a custom application
 -   Perform code search.
 -   Integrate with source control.
 -   Create your company's customizations to store applications that belong to other organizations.
--   Use [Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) to create and manage topics, which are blueprints for conversations between a virtual agent and a user. You can design topics that help your users resolve common work issues or guide them through self-service tasks.
+-   Use [Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md) to create and manage topics, which are blueprints for conversations between a virtual agent and a user. You can design topics that help your users resolve common work issues or guide them through self-service tasks.
 
 ![Studio User interface displaying the header, application explorer, content frame, and status bar.](../image/studio-ui-istanbul.png "Studio")
 

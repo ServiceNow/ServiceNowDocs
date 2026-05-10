@@ -49,7 +49,7 @@ Role required: sn\_dpr\_model.product\_manager or sn\_dpr\_model.release\_admin
         -   sn\_dpr\_model.release\_coordinator
     -   ServiceNow® Strategic Planning Workspace is installed with the Digital Product lens configured
 
-        For more information about the lenses and portfolio plans, see [Lenses in Strategic Planning](https://www.servicenow.com/docs/access?context=lens-alignment-planner-workspace&version=australia&pubname=australia-it-business-management&ft:locale=en-US) and [Portfolio plans in Strategic Planning](https://www.servicenow.com/docs/access?context=portfolio-plans-in-strategic-planning&version=australia&pubname=australia-it-business-management&ft:locale=en-US).
+        For more information about the lenses and portfolio plans, see [Lenses in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/lens-alignment-planner-workspace.md) and [Portfolio plans in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/portfolio-plans-in-strategic-planning.md).
 
     A list of the planning items associated with the product enhancements displays.
 

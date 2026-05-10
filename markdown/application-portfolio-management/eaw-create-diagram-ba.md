@@ -27,7 +27,7 @@ For creating the diagram using the Lucidchart, you must activate the following S
 -   Lucidchart Integration \[sn\_lcdchart\_int\] \(v 2.3.0 or later\)
 -   Personal Authentication \[sn\_ihub\_personal\_auth\] \(v 27.0.0 or later\)
 
-To establish a connection with Lucid, see [Create OAuth 2.0 Client in Lucidchart](https://www.servicenow.com/docs/access?context=set-up-lucidchart&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) and [Create a connection and credential alias for the Lucidchart diagramming spoke](https://www.servicenow.com/docs/access?context=create-conn-cred-lucidchart&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+To establish a connection with Lucid, see [Create OAuth 2.0 Client in Lucidchart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-lucidchart.md) and [Create a connection and credential alias for the Lucidchart diagramming spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-conn-cred-lucidchart.md).
 
 Role required: Member of the Enterprise Architect group
 

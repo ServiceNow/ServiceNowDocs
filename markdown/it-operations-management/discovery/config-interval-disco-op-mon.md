@@ -6,7 +6,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Discovery Operations Monitor dashboard, Discovery Admin Workspace Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -55,5 +55,5 @@ Role required: discovery\_admin
 
 [Configure the date range for a Discovery Operations Monitor visualization](config-time-frame-disco-op-mon.md)
 
-[Common dashboard tasks in the in-line editor](https://www.servicenow.com/docs/access?context=common-dashboard-tasks&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dashboard-tasks.md)
 

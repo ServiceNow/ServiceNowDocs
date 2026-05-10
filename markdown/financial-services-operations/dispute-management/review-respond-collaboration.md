@@ -72,15 +72,15 @@ If Card Data Security is installed and configured, **Attachments** in the contex
 
     **Note:** In case of integration with Mastercard's Mastercom APIs, the **Merchant's Response to Collaboration** drop-down list automatically shows the merchant response and you can't edit it.
 
-<table id="choicetable_kzh_rp5_vfc"><thead><tr><th align="left" id="d79215e364">
+<table id="choicetable_kzh_rp5_vfc"><thead><tr><th align="left" id="d79418e364">
 
 Option
 
-</th><th align="left" id="d79215e367">
+</th><th align="left" id="d79418e367">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d79215e373">
+</th></tr></thead><tbody><tr><td id="d79418e373">
 
 **__Refund__**
 
@@ -105,7 +105,7 @@ The [Review chargeback response and decide on pre-arbitration or arbitration](re
     -   **No** if there’s no second presentment from the merchant. The case goes in the favor of the cardholder and the transaction moves to Financial adjustments 1 and the dispute life cycle ends. For more information, see [About Financial adjustments in Mastercard disputes](../concept/financial-adjustments.md).
 
 
-</td></tr><tr><td id="d79215e473">
+</td></tr><tr><td id="d79418e473">
 
 **__Voucher__**
 
@@ -130,7 +130,7 @@ The [Review chargeback response and decide on pre-arbitration or arbitration](re
     -   Select **No** if there’s no second presentment from the merchant. The case goes in the favor of the cardholder and the transaction moves to Financial adjustments 1 and the dispute life cycle ends.
 
 
-</td></tr><tr><td id="d79215e573">
+</td></tr><tr><td id="d79418e573">
 
 **__First-Party Trust__**
 

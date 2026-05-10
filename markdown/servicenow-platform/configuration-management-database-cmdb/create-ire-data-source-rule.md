@@ -28,9 +28,9 @@ For example, an IP scan tool that discovers network gear but does not discover s
 -   Child classes derive IRE data source rules from parent classes like identification rules do.
 -   IRE data source rules that are specified for a child class, override any IRE data source rules derived from a parent class.
 
-When IRE processes an insert operation that is prohibited by an IRE data source rule, the insert operation fails. This failure happens when the discovery source and CI class in the insert operation and in an IRE data source rule, match. When [CreateOrUpdateCIEnhanced\(\)](https://www.servicenow.com/docs/access?context=IdentificationEngineScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) is used, IRE stores the failed payload in the CMDB IRE Partial Payloads \[cmdb\_ire\_partial\_payloads\] table for future potential use.
+When IRE processes an insert operation that is prohibited by an IRE data source rule, the insert operation fails. This failure happens when the discovery source and CI class in the insert operation and in an IRE data source rule, match. When [CreateOrUpdateCIEnhanced\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/IdentificationEngineScopedAPI.md) is used, IRE stores the failed payload in the CMDB IRE Partial Payloads \[cmdb\_ire\_partial\_payloads\] table for future potential use.
 
-**Note:** When an insert operation is not allowed by the IRE data source rule, then when using [createOrUpdateCI\(\)](https://www.servicenow.com/docs/access?context=c_IdentEngineScriptAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US), the entire IRE payload fails since [createOrUpdateCI\(\)](https://www.servicenow.com/docs/access?context=c_IdentEngineScriptAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) doesn't allow partial commits.
+**Note:** When an insert operation is not allowed by the IRE data source rule, then when using [createOrUpdateCI\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_IdentEngineScriptAPI.md), the entire IRE payload fails since [createOrUpdateCI\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_IdentEngineScriptAPI.md) doesn't allow partial commits.
 
 If later, a permitted discovery source attempts to insert that same CI, then IRE inserts the CI after merging it with the matching CI from the partial payloads. IRE then deletes the partial payload from the CMDB IRE Partial Payloads \[cmdb\_ire\_partial\_payloads\] table, and allows future updates by the discovery source specified in the rule.
 
@@ -60,7 +60,7 @@ If a payload item with an insert request, and in which the discovery source and 
 
     INSERT\_NOT\_ALLOWED\_FOR\_SOURCE Insert into \[xyz\] is blocked for data source \[xyz\] by IRE data source rule.
 
-2.  If using [CreateOrUpdateCIEnhanced\(\)](https://www.servicenow.com/docs/access?context=IdentificationEngineScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US), then IRE stores the payload item as a partial payload in the CMDB IRE Partial Payloads \[cmdb\_ire\_partial\_payloads\] table.
+2.  If using [CreateOrUpdateCIEnhanced\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/IdentificationEngineScopedAPI.md), then IRE stores the payload item as a partial payload in the CMDB IRE Partial Payloads \[cmdb\_ire\_partial\_payloads\] table.
 
 If later, a permitted discovery source successfully inserts a CI that matches the CI from a partial payload item:
 

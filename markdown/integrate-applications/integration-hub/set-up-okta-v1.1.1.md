@@ -323,7 +323,7 @@ Create a connection record that contains the information to connect to the Okta 
 
 #### Before you begin
 
-**Important:** If you have configured different OAuth scopes as mentioned in step 9 of [Create an OAuth application in Okta](set-up-okta-v1.1.1.md#), do not perform this procedure. Instead, perform the steps outlined in [Connect to a third-party OAuth provider](https://www.servicenow.com/docs/access?context=connect-3rd-party-oauth-provider&version=australia&pubname=australia-platform-security&ft:locale=en-US) and add the corresponding OAuth scopes that align with your Okta Web Application that are granted in step 9 of [Create an OAuth application in Okta](set-up-okta-v1.1.1.md#).
+**Important:** If you have configured different OAuth scopes as mentioned in step 9 of [Create an OAuth application in Okta](set-up-okta-v1.1.1.md#), do not perform this procedure. Instead, perform the steps outlined in [Connect to a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/connect-3rd-party-oauth-provider.md) and add the corresponding OAuth scopes that align with your Okta Web Application that are granted in step 9 of [Create an OAuth application in Okta](set-up-okta-v1.1.1.md#).
 
 Role required: admin.
 

@@ -15,7 +15,7 @@ breadcrumb: [Reference, CMDB Health, Configuration Management Database \(CMDB\),
 
 Several types of components are installed with CMDB Health \(included in the com.snc.cmdb plugin\), such as tables, properties, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 ## Properties installed
 
@@ -38,7 +38,7 @@ Maximum number of service CIs that can appear in the CMDB service dashboard. Thi
  -   Type: integer
 -   Default: 10,000
 -   Range: 0-100,000
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 -   Learn more: [View CMDB Health Dashboard](../concept/c_MonitorCMDBHealth.md)
 
 </td></tr><tr><td>
@@ -52,7 +52,7 @@ Maximum number of application services \(any class extending the Service \[cmdb\
  -   Type: integer
 -   Default: 1,000
 -   Range: 1-10,000 \(If set lower than 1, defaults to 1\)
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 -   Learn more: [View CMDB Health Dashboard](../concept/c_MonitorCMDBHealth.md)
 
 </td></tr><tr><td>
@@ -66,7 +66,7 @@ Maximum number of CIs associated with application services \(any class extending
  -   Type: integer
 -   Default: 1,000
 -   Range: 1-10,000 \(If set lower than 1, defaults to 1\)
--   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 -   Learn more: [View CMDB Health Dashboard](../concept/c_MonitorCMDBHealth.md)
 
 </td></tr></tbody>

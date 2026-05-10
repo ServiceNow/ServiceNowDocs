@@ -27,7 +27,7 @@ Enable access to the Idea Portal module using the Application Menus module.
 
 1.  Open the **Ideas** application menu record and add the Idea Portal to the navigation menu.
 
-    For information about how to add Idea Portal to the navigation menu, see [Create a module](https://www.servicenow.com/docs/access?context=test-steps-app-navigator-category&version=australia&pubname=australia-application-development&section=t_CreateAModule&ft:locale=en-US).
+    For information about how to add Idea Portal to the navigation menu, see [Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-app-navigator-category.md).
 
 2.  In the Module form, set the value of the **Link type** field as **URL \(from arguments\)**.
 

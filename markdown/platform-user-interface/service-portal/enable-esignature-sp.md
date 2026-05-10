@@ -32,7 +32,7 @@ Role required: admin
 
 ## Result
 
-With e-signature enabled, approvers are required to provide a password to approve or reject any requests. Authentication with touch ID works in the mobile app. On the mobile web, approvers are still required to enter a password. For more information on configuring e-signature, see [Approval with e-signature](https://www.servicenow.com/docs/access?context=approval-with-e-signature&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+With e-signature enabled, approvers are required to provide a password to approve or reject any requests. Authentication with touch ID works in the mobile app. On the mobile web, approvers are still required to enter a password. For more information on configuring e-signature, see [Approval with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/approval-with-e-signature.md).
 
 **Parent Topic:**[Managing portal access](../concept/portal-security.md)
 

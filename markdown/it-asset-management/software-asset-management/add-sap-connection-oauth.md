@@ -20,7 +20,7 @@ Create a connection profile to establish a connection between your SAP system an
 Before establishing a connection between SAP and your ServiceNow instance, make sure that the following conditions are met:
 
 -   Verify if your SAP system network is accessible to external applications like ServiceNow.
--   If external connections are blocked, install a MID Server. A MID Server enables communication and data movement between a ServiceNow instance and external applications or data sources. For instructions, see [Installing the MID Server](https://www.servicenow.com/docs/access?context=mid-server-installation&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   If external connections are blocked, install a MID Server. A MID Server enables communication and data movement between a ServiceNow instance and external applications or data sources. For instructions, see [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-installation.md).
 
 If you already have a MID Server installed in the network and connected to your ServiceNow instance, this SAP connection automatically uses it.
 

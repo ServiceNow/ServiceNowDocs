@@ -72,5 +72,5 @@ One or more product catalog items that you can select to identify the configurat
 
 ## Result
 
-A draft of the work plan is created. Next, you can create a planned work schedule to make the work plan active and ready for an agent. To configure a planned work schedule, see [Configure a work schedule](https://www.servicenow.com/docs/access?context=configure-work-plan&version=australia&pubname=australia-field-service-management&ft:locale=en-US).
+A draft of the work plan is created. Next, you can create a planned work schedule to make the work plan active and ready for an agent. To configure a planned work schedule, see [Configure a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/configure-work-plan.md).
 

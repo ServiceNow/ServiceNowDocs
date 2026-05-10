@@ -21,13 +21,13 @@ The ServiceNow® Advanced Approval Management application enables you to define 
 -   Enable approvers or approval request writers to add relevant approvers during an active approval cycle without modifying existing approval rules.
 -   Keep requesters informed and approvers on track by using automated email notifications for approval status changes, escalations, overrides, and ad hoc approvals.
 
-See [Advanced Approval Management](https://www.servicenow.com/docs/access?context=explore-advanced-approval-for-sales&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
+See [Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-advanced-approval-for-sales.md) for more information.
 
 **Important:** Advanced Approval Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Advanced Approval Management features
 
--   **[Flexible approval configurations](https://www.servicenow.com/docs/access?context=configuring-advanced-approval-management&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Flexible approval configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-advanced-approval-management.md)**
 
     Build workflows that enable sequential approvals, parallel \(simultaneous\) approvals, or a combination of both.
 
@@ -35,35 +35,35 @@ See [Advanced Approval Management](https://www.servicenow.com/docs/access?contex
     -   Set the approval order using combinations of levels, roles, and conditions.
     -   Define approval users and groups.
     -   Consolidate multiple email notifications on an approval request for an approver so that the approver receives a single email notification.
--   **[Intelligent routing rules and smart reapprovals](https://www.servicenow.com/docs/access?context=set-approval-trigger-conditions&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Intelligent routing rules and smart reapprovals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-approval-trigger-conditions.md)**
 
     Automatically trigger approvals by setting conditions based on items such as discount percentage, deal size, and margin thresholds. Configure thresholds and conditions so the approval workflow skips approved steps that have already been approved if the underlying conditions haven't changed.
 
--   **[Escalations](https://www.servicenow.com/docs/access?context=create-approval-configuration&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Escalations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-configuration.md)**
 
     Enable approval rule admins to escalate an approval request by reassigning a pending approval request to another approver automatically when the original approver does not act within a specified time.
 
--   **[Override an approval step](https://www.servicenow.com/docs/access?context=override-approval-step&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Override an approval step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/override-approval-step.md)**
 
     As an approval rule writer who also has the approval admin role, override or bypass a pending approval request step to unblock an approval request when the approval is no longer required.
 
--   **[Automated notifications of approval status](https://www.servicenow.com/docs/access?context=setting-up-approval-notifications&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Automated notifications of approval status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/setting-up-approval-notifications.md)**
 
     Inform sales agents and approvers of the status of approval items moving through the approval workflow by setting up notifications. Use predefined system notifications for reminders and escalations.
 
--   **[Flexible submission for approval requests](https://www.servicenow.com/docs/access?context=submitting-approval-requests&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Flexible submission for approval requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/submitting-approval-requests.md)**
 
     Before submitting requests for approval, see the required approvals, approver names, approval reasons, and approval sequencing by creating and previewing approval requests. Requesters can recall approval requests for changes and resubmit them.
 
--   **[Ad-hoc approvers](https://www.servicenow.com/docs/access?context=add-approver&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Ad-hoc approvers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-approver.md)**
 
     As a requester or an approver, add one or more approvers or approval groups to an approval request, outside of the predefined approvers for a given rule. Enables approval users to add approvers who have more expertise on certain aspects of the request, for example if there are legal or regulatory issues relevant to the request.
 
--   **[Real-time status tracking and approval history](https://www.servicenow.com/docs/access?context=tracking-approval-status&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Real-time status tracking and approval history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/tracking-approval-status.md)**
 
     Monitor approval progress and access an audit trail with detailed status for each approval step including assigned approvers, actual approvers \(for completed steps\), approval comments, and assignment and completion timestamps.
 
--   **[Approval management](https://www.servicenow.com/docs/access?context=approving-approval-requests&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Approval management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/approving-approval-requests.md)**
     -   Accept or reject approvals using multiple channels, such as email, push notifications, the CSM Configurable Workspace, or approval centers, such as My Approvals in the ServiceNow AI Platform®.
     -   Assign backup approvers with date-specific coverage periods for seamless continuity of the approval process.
 
@@ -82,7 +82,7 @@ Install Advanced Approval Management by requesting it from the ServiceNow Store.
 
 ## Related ServiceNow applications and features
 
--   **[Quote Management](https://www.servicenow.com/docs/access?context=quote-management&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management.md)**
 
     The Quote Management application enables sales teams to create, configure, and manage customer quotes so that they accurately reflect products, pricing, and discounts throughout the sales cycle. Sales agents can submit quotes for approval using workflows defined in the Advanced Approval Management application.
 

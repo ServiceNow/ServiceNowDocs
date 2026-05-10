@@ -42,5 +42,5 @@ While by default Service Mapping uses the legacy algorithm in upgraded deploymen
 **Related topics**  
 
 
-[Configure an IP address range for the MID Server](https://www.servicenow.com/docs/access?context=t_ConfigureMIDIPRange&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Configure an IP address range for the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureMIDIPRange.md)
 

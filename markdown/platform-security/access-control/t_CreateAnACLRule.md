@@ -59,7 +59,7 @@ Operation
 
 </td><td>
 
-Select the operation that this ACL rule secures. Each object type has its own list of operations. An ACL rule can only secure one operation. To secure multiple operations, create a separate ACL rule for each.If you’re creating a rule for a report\_view operation, see also [Report\_view access control](https://www.servicenow.com/docs/access?context=report-view-access-control&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+Select the operation that this ACL rule secures. Each object type has its own list of operations. An ACL rule can only secure one operation. To secure multiple operations, create a separate ACL rule for each.If you’re creating a rule for a report\_view operation, see also [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-access-control.md).
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ Admin overrides
 
 </td><td>
 
-Select this check box to have users with the admin role automatically pass the permissions check for this ACL rule. Admin users pass regardless of what script or role restrictions apply. However, the **nobody** role, which only ServiceNow personnel can assign, takes precedence over the admin override option. If an ACL is assigned the **nobody** role, admin users can’t access the resource even when **Admin overrides** is selected. See [Base system roles](https://www.servicenow.com/docs/access?context=r_BaseSystemRoles&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Select this check box to have users with the admin role automatically pass the permissions check for this ACL rule. Admin users pass regardless of what script or role restrictions apply. However, the **nobody** role, which only ServiceNow personnel can assign, takes precedence over the admin override option. If an ACL is assigned the **nobody** role, admin users can’t access the resource even when **Admin overrides** is selected. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).
 
  Clear this check box if administrators must meet the permissions defined in this ACL rule to gain access to the secured object. Since administrators always pass role checks \(see the description of the **Requires role** field\), use the condition builder or **Script** field to create a permissions check that administrators must pass.
 
@@ -152,7 +152,7 @@ Data Condition
 
 </td><td>
 
-Use this [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to select the fields and values that must be true for users to access the object.**Note:** The Condition field is case-sensitive.
+Use this [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to select the fields and values that must be true for users to access the object.**Note:** The Condition field is case-sensitive.
 
 </td></tr></tbody>
 </table>6.  If the **Advanced** box is checked, fill in the **Advanced Conditions** fields as necessary.
@@ -171,7 +171,7 @@ Script
 
 </td><td>
 
-Enter a custom script describing the permissions required to access the object. The script can use the values of the current and previous [Global variables in business rules](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=australia&pubname=australia-api-reference&section=c_UsingPredefinedGlobalVariables&ft:locale=en-US) as well as system properties. The script must generate a true or false response in one of two ways:-   return an answer variable set to a value of true or false
+Enter a custom script describing the permissions required to access the object. The script can use the values of the current and previous [Global variables in business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/business-rules-classic/c_BusinessRules.md) as well as system properties. The script must generate a true or false response in one of two ways:-   return an answer variable set to a value of true or false
 -   evaluate to true or false
  In either case, users only gain access to the object when the script evaluates to true and the user meets any conditions the ACL rule has. Both the conditions and the script must evaluate to true for a user to access the object.
 

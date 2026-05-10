@@ -26,7 +26,7 @@ The main ServiceNow capabilities that are leveraged to support the Grants Manage
 
 -   Document Management/Processor​: Manage internal docs with version control, security, &amp; workflow integration. Request and verify docs from applicants​.
 -   [Playbooks](playbooks-psds-exploring.md)​: Provide a visual, step-by-step guide for applicants and agents to complete key processes.​
--   [Policy as Code Engine \(PaCE\)](https://www.servicenow.com/docs/access?context=pace-managing-policies&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US): Streamline the creation, maintenance, and use of screening criteria with a low-code rules engine.
+-   [Policy as Code Engine \(PaCE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-managing-policies.md): Streamline the creation, maintenance, and use of screening criteria with a low-code rules engine.
 -   Configurable Portal Widgets: Use pre-built UI components for easy portal set up and modification.
 -   [Smart Assessment](psds-config-gmp-smart-assessment-engine.md): Improve the creation and maintenance of application questions.
 -   [Decision Trees](psds-config-gmp-config-pre-eligibility.md): Provide a structured, step-by-step approach for pre-screening potential applicants.​​​

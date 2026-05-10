@@ -25,7 +25,7 @@ This API runs in the `sn_auth` namespace and requires the SCIM v2 - ServiceNow C
 
 You can locate the results of each SCIM method call in the SCIM Client Logs \[sys\_scim\_client\_logs\] table.
 
-For additional information on SCIM, see [System for Cross-domain Identity Management \(SCIM\)](https://www.servicenow.com/docs/access?context=scim&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For additional information on SCIM, see [System for Cross-domain Identity Management \(SCIM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/scim.md).
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 
@@ -519,7 +519,7 @@ Creates or updates a resource in an external service provider system for a speci
 
 For example, if you create or update a user in a ServiceNow instance, you can use this method to create or update the same resource on an external service provider system. Only those fields which are mapped in the SCIM Provider Resource Mapping \[sys\_scim\_provider\_resource\_mapping \] table can be created or updated in the corresponding resource.
 
-For additional information on provider resource mapping, see [Create a SCIM Provider Resource Mapping](https://www.servicenow.com/docs/access?context=scim-provider-resource-mapping&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For additional information on provider resource mapping, see [Create a SCIM Provider Resource Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/scim-provider-resource-mapping.md).
 
 <table id="table_urc_kcl_btb" class="parameters"><thead><tr><th>
 
@@ -679,7 +679,7 @@ Creates a new resource in an external service provider system for a specified sy
 
 For example, if you create a new user in a ServiceNow instance, you can use this method to create the same resource on an external service provider system. Only those fields which are mapped in the SCIM Provider Resource Mapping \[sys\_scim\_provider\_resource\_mapping\] table can be created in the corresponding external service provider system. If the resource is already present in the external service provider system, an error response is returned.
 
-For additional information on provider resource mapping, see [Create a SCIM Provider Resource Mapping](https://www.servicenow.com/docs/access?context=scim-provider-resource-mapping&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For additional information on provider resource mapping, see [Create a SCIM Provider Resource Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/scim-provider-resource-mapping.md).
 
 <table id="table_csg_wxp_btb" class="parameters"><thead><tr><th>
 

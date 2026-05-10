@@ -15,7 +15,7 @@ Configure the Public Sector Digital Services service catalog so that you can def
 
 ## About this task
 
-For more information on creating and maintaining service catalogs, see [Service Catalog](https://www.servicenow.com/docs/access?context=service-catalog&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information on creating and maintaining service catalogs, see [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md).
 
 ## Before you begin
 

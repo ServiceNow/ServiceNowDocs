@@ -42,7 +42,7 @@ Role required: adaptive\_auth\_admin
 
 To deny access to your instance based on user groups, you must create a group filter criteria record. This record defines a user group or a set of user groups that your policy can grant or deny access. In this example, you will create a group filter criteria record for a single user group.
 
-For details on user groups and how they are used in your instance, see [Exploring user administration](https://www.servicenow.com/docs/access?context=exploring-user-administration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For details on user groups and how they are used in your instance, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/exploring-user-administration.md).
 
 ### Procedure
 
@@ -62,7 +62,7 @@ For details on user groups and how they are used in your instance, see [Explorin
 
 6.  Enter the name of a user group, or click the reference icon \(![Reference icon](../images/search.png)\) to select a group from a list.
 
-    If you want to create a new user group for your filter criteria, click the reference icon \(![Reference icon](../images/search.png)\), and then click the **New** button. For more details on creating user groups, see [Create a user group](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    If you want to create a new user group for your filter criteria, click the reference icon \(![Reference icon](../images/search.png)\), and then click the **New** button. For more details on creating user groups, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAGroup.md).
 
 7.  After you have added your user group, click **Submit** to save your criteria record.
 

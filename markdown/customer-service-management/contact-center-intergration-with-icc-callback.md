@@ -126,5 +126,5 @@ In addition to the ICC callback features, the following features are available i
 
 [Manage a CCaaS callback request using Global Voice Control](../task/handle-ccaas-callback-gvc.md)
 
-[Components installed with Omnichannel Callback](https://www.servicenow.com/docs/access?context=installed-with-omnichannel-callback&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+[Components installed with Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/omnichannel-callback/installed-with-omnichannel-callback.md)
 

@@ -363,7 +363,7 @@ Global.
 
         ![Service Portal Agent Chat Configuration record example.](../../virtual-agent/images/va-sp-chat-config.png)
 
-        **Note:** There are other Service Portal Agent Chat features that you can configure, such as [customizing the Agent Chat button](https://www.servicenow.com/docs/access?context=configure-va-in-sp&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) in your portal. For more information on customizing the Agent Chat widget in Service Portal, see [Configure Agent Chat in Service Portal](https://www.servicenow.com/docs/access?context=configure-va-in-sp&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+        **Note:** There are other Service Portal Agent Chat features that you can configure, such as [customizing the Agent Chat button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-va-in-sp.md) in your portal. For more information on customizing the Agent Chat widget in Service Portal, see [Configure Agent Chat in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-va-in-sp.md).
 
     -   Apply the branding configuration to a destination page. Enter the system parameter `sysparm_branding_key` with the branding key in the chat widget URL. For example:
 

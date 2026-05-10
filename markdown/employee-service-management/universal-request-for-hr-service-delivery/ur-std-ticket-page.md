@@ -24,7 +24,7 @@ A requester can view the aggregated and simplified view of the UR activity and a
 
 The Standard ticket page configuration for UR tickets enables you to determine what you want to display as a view. By default, a Universal Request Standard Ticket configuration is available that you can use and customize. Information displayed in different sections of a standard ticket page depends on the individual request type.
 
-**Note:** If you are upgrading from a previous release and want to use the Standard Ticket page for your department, ensure that you enable the **Page Route map** in Service Portal. For more information, see [Enable the page route map for standard ticket page](https://www.servicenow.com/docs/access?context=config-pageroutemap-stpage&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+**Note:** If you are upgrading from a previous release and want to use the Standard Ticket page for your department, ensure that you enable the **Page Route map** in Service Portal. For more information, see [Enable the page route map for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/config-pageroutemap-stpage.md).
 
 <table id="table_cv4_kmd_gdb"><thead><tr><th>
 

@@ -39,9 +39,9 @@ If you select a field that was defined as a parameter for the system query, you 
 If you want to use ERP data for processes or tasks outside of Zero Copy Connector for ERP, use the following workflow:
 
 1.  In Workflow Studio, test the **Use ERP Data** action by selecting the model in the **System** field of the Test Action modal and then specifying the inputs.
-    -   For more information on testing actions, see [Test an action](https://www.servicenow.com/docs/access?context=test-action&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    -   For more information on testing actions, see [Test an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md).
     -   For more details on inputs for the action, see [Use ERP Data action details for flows](../reference/erp-canvas-flow-reference-2.md).
-2.  After the test runs, view the action execution details. For more information, see [Flow execution details](https://www.servicenow.com/docs/access?context=flow-execution-details&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+2.  After the test runs, view the action execution details. For more information, see [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-details.md).
 3.  The returned data from testing the action appears in the **Response** field of the output data.
     -   For more information on outputs for the action, see [Use ERP Data action details for flows](../reference/erp-canvas-flow-reference-2.md).
     -   For details on incorporating returned ERP data, see [Specifying where ERP system data is saved](erpc-call-response-data.md).
@@ -53,7 +53,7 @@ If you want to use ERP data for processes or tasks outside of Zero Copy Connecto
     -   The **Output** section in the **Data** pane
     You can then add the **Response** data pill or any of the child **record** data pills to a flow to parse the returned JSON.
 
-    For more information, see [Building flows](https://www.servicenow.com/docs/access?context=flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For more information, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md).
 
 
 **Note:** Zero Copy Connector for ERP appears as **ERP Integration** when you work with it in Workflow Studio.

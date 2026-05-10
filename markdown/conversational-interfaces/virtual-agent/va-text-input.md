@@ -73,7 +73,7 @@ Text format that is validated when a user enters certain text items. If the user
 -   URL: Web address format.
 -   Custom: A script that provides a validation rule for a custom text format. The script should include related error messages that are displayed when the expected format is not entered.
 
-For phone and IP address format examples, see [E.164 phone formats](https://www.servicenow.com/docs/access?context=r_ConfigureE.164PhoneNumberFields&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [IP address field types](https://www.servicenow.com/docs/access?context=r-IPAddressFieldType&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For phone and IP address format examples, see [E.164 phone formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ConfigureE.164PhoneNumberFields.md) and [IP address field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r-IPAddressFieldType.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -192,7 +192,7 @@ Text format that is validated when a user enters certain text items. If the user
 -   URL: Web address format.
 -   Custom: A script that provides a validation rule for a custom text format. The script should include related error messages that are displayed when the expected format is not entered.
 
-For phone and IP address format examples, see [E.164 phone formats](https://www.servicenow.com/docs/access?context=r_ConfigureE.164PhoneNumberFields&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [IP address field types](https://www.servicenow.com/docs/access?context=r-IPAddressFieldType&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For phone and IP address format examples, see [E.164 phone formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ConfigureE.164PhoneNumberFields.md) and [IP address field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r-IPAddressFieldType.md).
 
 </td></tr><tr><td>
 
@@ -231,7 +231,7 @@ The method digest algorithm based on the standard WS-security standard. Choose o
 -   **SHA-256 \(lower case\)**
 -   **SHA-1 \(lower case\)**
 
-For more information about the WS-security standards, see [WS-Security properties](https://www.servicenow.com/docs/access?context=ws-security-properties&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For more information about the WS-security standards, see [WS-Security properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/ws-security-properties.md).
 
 </td></tr><tr><td>
 

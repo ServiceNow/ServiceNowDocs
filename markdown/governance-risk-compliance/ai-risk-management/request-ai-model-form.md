@@ -43,7 +43,7 @@ State
 
 </td><td>
 
-Indicates whether the AI model is in a draft, development, or deployed state. For more information on states, see [AI asset lifecycle](https://www.servicenow.com/docs/access?context=ai-asset-lifecycle&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Indicates whether the AI model is in a draft, development, or deployed state. For more information on states, see [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-asset-lifecycle.md).
 
 </td></tr><tr><td>
 

@@ -103,5 +103,5 @@ Output: % of commits without Work Item.
 
 [Digital Product Release policies](dpr-policies.md)
 
-[Passing parameters to PaCE policies](https://www.servicenow.com/docs/access?context=pace-passing-parameters&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Passing parameters to PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-passing-parameters.md)
 

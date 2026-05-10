@@ -66,7 +66,7 @@ If a matching Microsoft IIS Web Server CI is found on the identified host, the a
 
 7.  In the **Select an identifier** field, select an identifier for the class.
 
-    An identifier for a class is a set of rules that helps the system recognize and match CIs correctly. Think of it like a fingerprint for each type of CI \(such as a server, router, or application\). The identifier uses key attributes—like a serial number, hostname, or IP address—to make sure that when new data comes in, it gets linked to the right CI instead of creating duplicates. For more information on CI identification rule, see [Create a CI identification rule](https://www.servicenow.com/docs/access?context=t_CreateCIIdentificationRule&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    An identifier for a class is a set of rules that helps the system recognize and match CIs correctly. Think of it like a fingerprint for each type of CI \(such as a server, router, or application\). The identifier uses key attributes—like a serial number, hostname, or IP address—to make sure that when new data comes in, it gets linked to the right CI instead of creating duplicates. For more information on CI identification rule, see [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.md).
 
 8.  In the **Add value** field, add the exact value or specify the source field from which the value for the field must be populated.
 

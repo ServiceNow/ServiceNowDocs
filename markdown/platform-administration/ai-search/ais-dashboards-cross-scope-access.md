@@ -31,7 +31,7 @@ If an indexed source or search source table can't be accessed from this scope, t
 
 To resolve this issue, define a cross-scope table access privilege for the Advanced AI Search Management Tools application.
 
-For more information on cross-scope privileges, see [Cross-scope privilege record](https://www.servicenow.com/docs/access?context=c_CrossScopePrivilegeRecord&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For more information on cross-scope privileges, see [Cross-scope privilege record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_CrossScopePrivilegeRecord.md).
 
 ## Procedure
 

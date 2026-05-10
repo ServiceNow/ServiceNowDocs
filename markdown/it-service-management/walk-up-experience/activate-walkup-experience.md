@@ -32,7 +32,7 @@ To activate Walk-up Experience Badge Reader Integration and for more information
 
 For enhanced security, activate the Explicit Role \(com.glide.explicit\_roles\) plugin. The walk-up user is assigned snc\_external automatically. This plugin was introduced in the ServiceNow AI Platform Paris release.
 
-**Note:** Refer to [Explicit roles plugin](https://www.servicenow.com/docs/access?context=explicit-roles-plugin&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US) for details about the plugin and [Explicit Roles](https://www.servicenow.com/docs/access?context=explicit-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US) for more information about this upgrade process.
+**Note:** Refer to  for details about the plugin and [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explicit-roles.md) for more information about this upgrade process.
 
 ## Procedure
 
@@ -54,5 +54,5 @@ For enhanced security, activate the Explicit Role \(com.glide.explicit\_roles\) 
 **Related topics**  
 
 
-[List of plugins \(Australia\)](https://www.servicenow.com/docs/access?context=list-of-plugins&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

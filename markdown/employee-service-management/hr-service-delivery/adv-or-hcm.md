@@ -28,7 +28,7 @@ It enables you to complete the following Oracle HCM tasks from a ServiceNow inst
 
 First, you must activate HR Service Delivery Advanced Integration with Oracle HCM application from the ServiceNow Store. The Oracle HCM Cloud spoke \[sn\_oracle\_hcm\_spoke\], Human Resources Scoped App: Core \[com.sn\_hr\_core\] and [HR Service Delivery Portal UI Components](portal-components.md#) \[com.sn\_hr\_portal\_components\] applications are automatically installed.
 
-Next, you must set up [Oracle HCM Cloud spoke](https://www.servicenow.com/docs/access?context=setup-oracle-hcm&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+Next, you must set up [Oracle HCM Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-oracle-hcm.md).
 
 ## Request apps on the Store
 

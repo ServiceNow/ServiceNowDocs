@@ -23,7 +23,7 @@ Role required: admin.
 
 1.  In Workflow Studio, create a copy of the default subflow, Amazon SNS Subscription and customize the subflow as per your requirement.
 
-    For more information about creating subflows, see [Building subflows](https://www.servicenow.com/docs/access?context=subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For more information about creating subflows, see [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
 
 2.  Copy and record the internal name of the customized subflow.
 

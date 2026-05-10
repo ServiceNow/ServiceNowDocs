@@ -96,5 +96,5 @@ Modify the execution script so that it passes the correct record to the selected
 **Related topics**  
 
 
-[Work with workflow versions](https://www.servicenow.com/docs/access?context=c_WorkflowVersions&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Work with workflow versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowVersions.md)
 

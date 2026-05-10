@@ -69,7 +69,7 @@ Any modification to sample searches is reflected in CMDB Workspace,Service Graph
 
 The NLQ Synonym \[nlq\_synonym\] table is pre-populated with synonyms for natural language strings for CMDB table and column names, and relationships. This table is used to match natural language search words to the CMDB query language. For example, the phrase ‘linux server’ has synonyms such as ‘Linux Server’, ‘Server’, and ‘Virtual Machine Instance’.
 
-For details about viewing and adding synonyms customized to your business needs, see [NLQ synonyms](https://www.servicenow.com/docs/access?context=create-nlq-synonym&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For details about viewing and adding synonyms customized to your business needs, see [NLQ synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/create-nlq-synonym.md).
 
 ## CMDB Implicit Relationships
 
@@ -89,5 +89,5 @@ For example, in CMDB Query Builder, you want to see your service offerings that 
 
 Implicit relationships are stored in the NLQ CMDB Implicit Relationship \[nlq\_cmdb\_implicit\_relationship\] table and are used in the CMDB Workspaceand in Service Graph Workspace, and if integrated, also in CMDB Query Builder.
 
-For more information about NLQ in the ServiceNow AI Platform, see [Natural Language Query \(NLQ\)](https://www.servicenow.com/docs/access?context=natural-language-query&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information about NLQ in the ServiceNow AI Platform, see [Natural Language Query \(NLQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/natural-language-query.md).
 

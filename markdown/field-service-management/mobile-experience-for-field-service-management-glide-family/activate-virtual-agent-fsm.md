@@ -22,13 +22,13 @@ You can install the Field Service Virtual Agent Conversations application \(com.
     -   **Required ServiceNow plugins**
         -   **Virtual Agent plugin \(com.glide.cs.chatbot\)**
 
-            Enables the chatbot conversation with virtual agent. For details on activating Virtual Agent, see [Activate Virtual Agent](https://www.servicenow.com/docs/access?context=activate-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+            Enables the chatbot conversation with virtual agent. For details on activating Virtual Agent, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/activate-virtual-agent.md).
 
 -   Virtual Agent for Field Service Management requires the following ServiceNow Store applications. Ensure that these applications are installed before you install Field Service Virtual Agent Conversations.
     -   **Required ServiceNow Store applications**
         -   **Field Service NLU Model for Virtual Agent Conversations**
 
-            For more information, see [Enabling NLU](https://www.servicenow.com/docs/access?context=configure-nlu-settings&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+            For more information, see [Enabling NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-nlu-settings.md).
 
 
 Role required: admin

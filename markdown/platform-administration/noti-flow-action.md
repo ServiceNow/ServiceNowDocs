@@ -69,7 +69,7 @@ Choose Flow or Action
 
 </td><td>
 
-Option to select either Flow or Action. See [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.**Note:** You can select either Flow or Action, but not both.
+Option to select either Flow or Action. See [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md) for more information.**Note:** You can select either Flow or Action, but not both.
 
 </td></tr><tr><td>
 

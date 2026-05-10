@@ -32,8 +32,11 @@ When creating announcements from existing content, the AI assistant automaticall
 -   **Headlines**: Generated from the source article title or catalog item name
 -   **Body text**: Summarized from the first paragraph or description of the source content
 -   **Images**: Inherited from the source content when available
--   **Links**: Automatically configured to point to the source knowledge article or catalog item
+-   **Links**: Automatically configured t o point to the source knowledge article or catalog item
 -   **User criteria**: Inherited from the source content audience targeting
+
+    **Note:** User criteria is only applicable announcement flows targeting catalog/KBs.
+
 
 ## Human review and editing
 

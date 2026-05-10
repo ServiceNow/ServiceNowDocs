@@ -95,7 +95,7 @@ Role required: admin
 
 ### About this task
 
-See [UI actions](https://www.servicenow.com/docs/access?context=c_UIActions&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information about creating a UI action.
+See [UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UIActions.md) for more information about creating a UI action.
 
 ### Procedure
 

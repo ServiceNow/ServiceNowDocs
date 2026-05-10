@@ -277,7 +277,7 @@ report\_on
 
 </td><td>
 
-User can’t create a report on the ACL table. For more information, see [Restrict report creation with an ACL rule](https://www.servicenow.com/docs/access?context=t_RestrictRepCreationWAnACLRule&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+User can’t create a report on the ACL table. For more information, see [Restrict report creation with an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_RestrictRepCreationWAnACLRule.md).
 
 </td></tr><tr><td>
 
@@ -285,7 +285,7 @@ report\_view
 
 </td><td>
 
-User can’t view the content of a report on the ACL table or on the ACL field. For more information, see [Reporting](https://www.servicenow.com/docs/access?context=reporting-landing-page&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+User can’t view the content of a report on the ACL table or on the ACL field. For more information, see [Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/reporting-landing-page.md).
 
 </td></tr><tr><td>
 

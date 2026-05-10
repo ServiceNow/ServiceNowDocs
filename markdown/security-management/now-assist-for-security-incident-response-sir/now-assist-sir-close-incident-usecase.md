@@ -20,7 +20,7 @@ The Wrap up security incident agentic workflow enables security analysts to clos
 
 Using the Wrap up security incident agentic workflow, cancel the associated response tasks, generate resolution notes, close notes, close code and post incident analysis \(PIA\) during a security incident closure, and provide feedback and adjust content in natural language​ from the Now Assist panel.
 
-If you want to modify this agentic workflow, you can [duplicate](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) it, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+If you want to modify this agentic workflow, you can [duplicate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md) it, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
 
 ## Agent used in Wrap up security incident agentic workflow
 

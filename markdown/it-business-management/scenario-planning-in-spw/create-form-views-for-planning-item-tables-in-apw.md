@@ -57,7 +57,7 @@ The following are the necessary form views:
 
     -   For Preview and APW Default views, select the **Strategic priority** and the **Primary goal** fields to be visible on the form.
     -   For all three views, select the field for the bottom entity of your lens to be visible on the form.
-    -   For all three views, add the Milestones related list. See [Add a related list to a form](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    -   For all three views, add the Milestones related list. See [Add a related list to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 9.  Select **Save**.
 
     A new form view is created for this planning item type.

@@ -33,15 +33,15 @@ The option to use Investment Funding for funding your portfolios is available on
 
 3.  Configure the planning type and scope.
 
-<table id="choicetable_zkm_1vk_knb"><thead><tr><th align="left" id="d92370e94">
+<table id="choicetable_zkm_1vk_knb"><thead><tr><th align="left" id="d92655e94">
 
 Planning type
 
-</th><th align="left" id="d92370e97">
+</th><th align="left" id="d92655e97">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d92370e103">
+</th></tr></thead><tbody><tr><td id="d92655e103">
 
 **If you want to plan for a single fiscal year and single portfolio**
 
@@ -51,7 +51,7 @@ Steps
 2.  Select **Single Selected Portfolio** from the Planning Scope list.
 
 
-</td></tr><tr><td id="d92370e127">
+</td></tr><tr><td id="d92655e127">
 
 **If you want to plan for a single fiscal year and all portfolios**
 
@@ -61,7 +61,7 @@ Steps
 2.  Select **All Portfolios** from the Planning Scope list.
 
 
-</td></tr><tr><td id="d92370e151">
+</td></tr><tr><td id="d92655e151">
 
 **If you want to plan for multiple years and single portfolio**
 
@@ -73,7 +73,7 @@ Steps
 
 When you select a planning window, all the demands and projects falling within the selected duration appear on the Portfolio Planning Workbench.
 
-</td></tr><tr><td id="d92370e183">
+</td></tr><tr><td id="d92655e183">
 
 **If you want to plan for multiple years and all portfolios**
 

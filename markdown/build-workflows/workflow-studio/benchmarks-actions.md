@@ -15,7 +15,7 @@ breadcrumb: [Spokes, Flow integrations, Flows, subflows, and actions reference, 
 
 Provides read-only actions for the read-only Benchmark Recommendation Evaluator flow.
 
-The Benchmarks Spoke is designed for the Recommendations feature of the [Benchmarks](https://www.servicenow.com/docs/access?context=r_Benchmarks&version=australia&pubname=australia-it-service-management&ft:locale=en-US) application.
+The Benchmarks Spoke is designed for the Recommendations feature of the [Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/r_Benchmarks.md) application.
 
 <table id="table_hkd_s53_jbb"><thead><tr><th>
 

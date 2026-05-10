@@ -17,7 +17,7 @@ The Response Templates API provides endpoints to handle records in the Response 
 
 This script include requires the Templated Responses plugin \(com.sn\_templated\_snip\), which is activated by default, and runs within the `sn_templated_snip` namespace.
 
-For additional information on response templates, see [Response templates](https://www.servicenow.com/docs/access?context=response-templates-templated-snippets&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For additional information on response templates, see [Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/response-templates-templated-snippets.md).
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 

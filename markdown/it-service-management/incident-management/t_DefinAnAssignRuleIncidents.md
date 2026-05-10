@@ -23,7 +23,7 @@ Role required: assignment\_rule\_admin or admin
 
 1.  Navigate to **All** &gt; **System Policy** &gt; **Rules** &gt; **Assignment**.
 
-2.  Create assignment rules by following the steps provided in [Create an assignment rule](https://www.servicenow.com/docs/access?context=t_AssignmentModuleRule&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+2.  Create assignment rules by following the steps provided in [Create an assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_AssignmentModuleRule.md).
 
 3.  Click **Submit**.
 

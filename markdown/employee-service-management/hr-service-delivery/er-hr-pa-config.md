@@ -25,7 +25,7 @@ Role required: pa\_admin
 
 1.  Run diagnostics on all records.
 
-    These diagnostics can catch many mismatches between the configuration of your Platform Analytics Solutions and your tables. For more information, see [Performance Analytics diagnostics](https://www.servicenow.com/docs/access?context=self-diagnostics&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    These diagnostics can catch many mismatches between the configuration of your Platform Analytics Solutions and your tables. For more information, see [Performance Analytics diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/self-diagnostics.md).
 
 2.  Navigate to **All** &gt; **Performance Analytics** &gt; **Administration Console**.
 

@@ -45,5 +45,5 @@ By accessing the sales data and using integrated communication channels such as 
 
 [Linking, delinking, and link conversion conditions](conditions-link-delink-toggle-records.md)
 
-[Using Sidebar](https://www.servicenow.com/docs/access?context=using-sidebar&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+[Using Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/using-sidebar.md)
 

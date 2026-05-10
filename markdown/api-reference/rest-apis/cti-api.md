@@ -21,9 +21,9 @@ Using this API, integrators are able to:
 -   Pass events from a CCP provider to a ServiceNow instance.
 -   Render transcripts and recordings for a specified agent call.
 
-This API runs in the **sn\_cti\_core** namespace. Before you are able to access this API, you must install the Cloud Call Center Core \(sn\_cti\_core\) application. For information on this installation, see [Install Cloud Call Center applications](https://www.servicenow.com/docs/access?context=install-ccc-apps&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+This API runs in the **sn\_cti\_core** namespace. Before you are able to access this API, you must install the Cloud Call Center Core \(sn\_cti\_core\) application. For information on this installation, see [Install Cloud Call Center applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/install-ccc-apps.md).
 
-For additional information on the Cloud Call Center, see [Cloud Call Center](https://www.servicenow.com/docs/access?context=cloud-call-center-overview&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For additional information on the Cloud Call Center, see [Cloud Call Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cloud-call-center-overview.md).
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 
@@ -33,7 +33,7 @@ Renders transcripts and recordings for a specified agent call.
 
 Components use this endpoint in Agent and Manager workspaces to render associated agent call transcripts and recordings. To access this endpoint, the user credentials that you pass in the call must have the workspace\_user, interaction\_agent, or admin role.
 
-This endpoint has a corresponding extension point, sn\_cti\_core.CTICallAnalysisExtractor, that is responsible for rendering the call data. The base system provides an implementation for Amazon Connect. If your implementation is different, you should customize this extension point before utilizing this endpoint. Also, the response parameters returned by this endpoint correspond to the implementation of this extension point. For additional information on implementing extension points, see [Using extension points to extend application functionality](../../../build/applications/concept/extension-points.md) and [Extension points in Cloud Call Center](https://www.servicenow.com/docs/access?context=extension-point-ccc&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+This endpoint has a corresponding extension point, sn\_cti\_core.CTICallAnalysisExtractor, that is responsible for rendering the call data. The base system provides an implementation for Amazon Connect. If your implementation is different, you should customize this extension point before utilizing this endpoint. Also, the response parameters returned by this endpoint correspond to the implementation of this extension point. For additional information on implementing extension points, see [Using extension points to extend application functionality](../../../build/applications/concept/extension-points.md) and [Extension points in Cloud Call Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/extension-point-ccc.md).
 
 ### URL format
 
@@ -211,13 +211,13 @@ Rendered call data based on the processing specified in the sn\_cti\_core.CTICal
 
 Invokes Computer Telephony Integration \(CTI\) operations using a specified operation handlers within the Cloud Call Center framework.
 
-Before calling this endpoint, you must create a provider configuration record and associated message transformers. This is typically done when the Cloud Call Center framework is initially implemented in your instance. For additional information, see [Provider configuration in Cloud Call Center](https://www.servicenow.com/docs/access?context=provider-configuration-ccc&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Before calling this endpoint, you must create a provider configuration record and associated message transformers. This is typically done when the Cloud Call Center framework is initially implemented in your instance. For additional information, see [Provider configuration in Cloud Call Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/provider-configuration-ccc.md).
 
 A message transformer is responsible for parsing the payload specified in the request body of this endpoint and setting the payload data on an associated [CTIOperationRequest](../../../app-store/dev_portal/API_reference/CTIOperationRequest/concept/CTIOperationRequestAPI.md#) object. An operation handler is then responsible for getting the information from the CTIOperationRequest object and using the data to process the requested operation.
 
 After the message transformer finishes parsing the passed in payload, the Cloud Call Center framework instantiates the specified operation handler. The operating handler uses the [CTIOperationResponse](../../../app-store/dev_portal/API_reference/CTIOperationResponse/concept/CTIOperationResponseAPI.md#) [CTIOperationResponse - Scoped, Global](../../../app-store/dev_portal/API_reference/CTIOperationResponse/concept/CTIOperationResponseAPI.md#) API GET methods to obtain the information that it needs from the associated CTIOperationRequest object to process the requested operation.
 
-You define the operation handler to invoke, and its associated parameters, in the request body of this endpoint call. The specified operation handler must be defined in your instance within the Operation Handler \[sn\_cti\_operation\_handler\] table. For additional information on creating operation handlers, see [Configure a contact flow for an automated caller interaction](https://www.servicenow.com/docs/access?context=establish-automated-bot-interactions&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+You define the operation handler to invoke, and its associated parameters, in the request body of this endpoint call. The specified operation handler must be defined in your instance within the Operation Handler \[sn\_cti\_operation\_handler\] table. For additional information on creating operation handlers, see [Configure a contact flow for an automated caller interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/establish-automated-bot-interactions.md).
 
 The ServiceNow base system provides working operation handlers and message transformers that enable connection to Amazon Connect. When building contact flows within Amazon Connect, there are two integration points between Amazon services and a ServiceNow instance:
 
@@ -228,7 +228,7 @@ You can find the available operation handlers and message transformers for these
 
 In addition, the user credentials that you pass in the call must have the sn\_cti\_core.service or admin role to access this endpoint.
 
-For additional information on the Cloud Call Center, see [Cloud Call Center](https://www.servicenow.com/docs/access?context=cloud-call-center-overview&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For additional information on the Cloud Call Center, see [Cloud Call Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cloud-call-center-overview.md).
 
 ### URL format
 
@@ -415,7 +415,7 @@ Passes events from a Contact Control Panel \(CCP\) provider to a ServiceNow inst
 
 Typically you call this endpoint from your CCP UI page to perform various tasks \(events\), such as changing the presence state of an agent or changing the state of a record on call completion. To access this endpoint, the user credentials that you pass in the call must have the sn\_openframe\_user or admin role.
 
-This endpoint has a corresponding extension point, sn\_cti\_core.SoftPhoneEventSink, that is responsible for determining the action that is actually performed by this endpoint call for each event. The base system provides an implementation for Amazon Connect events. If your implementation is different, you should customize this extension point before utilizing this endpoint. The request body and response formats of this endpoint correspond to the implementation of this extension point. For additional information on implementing extension points, see [Using extension points to extend application functionality](../../../build/applications/concept/extension-points.md) and [Extension points in Cloud Call Center](https://www.servicenow.com/docs/access?context=extension-point-ccc&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+This endpoint has a corresponding extension point, sn\_cti\_core.SoftPhoneEventSink, that is responsible for determining the action that is actually performed by this endpoint call for each event. The base system provides an implementation for Amazon Connect events. If your implementation is different, you should customize this extension point before utilizing this endpoint. The request body and response formats of this endpoint correspond to the implementation of this extension point. For additional information on implementing extension points, see [Using extension points to extend application functionality](../../../build/applications/concept/extension-points.md) and [Extension points in Cloud Call Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/extension-point-ccc.md).
 
 ### URL format
 

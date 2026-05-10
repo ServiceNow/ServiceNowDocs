@@ -87,5 +87,5 @@ The invoice case has been cancelled.**Note:** Only invoice cases in the Draft st
 **Related topics**  
 
 
-[Invoice case and invoice case line states](https://www.servicenow.com/docs/access?context=invoice-operations-case-states&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Invoice case and invoice case line states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/invoice-operations-case-states.md)
 

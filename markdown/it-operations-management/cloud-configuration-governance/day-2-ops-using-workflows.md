@@ -21,5 +21,5 @@ Previously, to execute Day 2 operations in Cloud Provisioning and Governance, yo
 
 ## Learn more
 
-To learn about flows, subflows, and actions in general, see:[Workflow Studio flows, subflows, and actions](https://www.servicenow.com/docs/access?context=workflow-studio-flows-subflows-and-actions-landing&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+To learn about flows, subflows, and actions in general, see:[Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio-flows-subflows-and-actions-landing.md).
 

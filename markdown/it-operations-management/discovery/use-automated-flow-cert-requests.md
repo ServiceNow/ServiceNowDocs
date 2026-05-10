@@ -17,7 +17,7 @@ Certificate and Management streamlines your TLS certificate processes, offering 
 
 ## Before you begin
 
-To use the Microsoft Certificate Authority automated flow, you must install the **ServiceNow IntegrationHub Action Step - PowerShell** plugin and must have an Integration Hub subscription. See [Integration Hub usage and subscription](https://www.servicenow.com/docs/access?context=subscription-usage&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for more information.
+To use the Microsoft Certificate Authority automated flow, you must install the **ServiceNow IntegrationHub Action Step - PowerShell** plugin and must have an Integration Hub subscription. See [Integration Hub usage and subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/subscription-usage.md) for more information.
 
 Role required: pki\_admin or admin
 
@@ -39,7 +39,7 @@ Role required: pki\_admin or admin
 
 4.  Create the certificate credential and map it to the credential alias.
 
-    Each credential should map using a unique credential alias. For more information, see [Credential alias for Discovery](https://www.servicenow.com/docs/access?context=discovery-credential-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    Each credential should map using a unique credential alias. For more information, see [Credential alias for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/discovery-credential-alias.md).
 
 5.  Confirm the Certificate and Certificate URL information are in the Certificate Authority \[sn\_disco\_certmgmt\_ca\] and Certificate Authority API URL \[sn\_disco\_certmgmt\_ca\_api\_url\] tables.
 

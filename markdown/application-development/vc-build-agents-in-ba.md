@@ -35,7 +35,7 @@ Build Agent can generate agentic workflows that coordinate sequences of automate
 
 Build Agent can generate custom skills scoped to your application's data model, without manually authoring skill definitions. You describe what you want the skill to do, and Build Agent creates skills that align with your existing table structure, field configurations, and access controls.
 
-You can create custom skills individually, that is, they don't need to be used as tools for an agent. Think of skills as custom instructions that you use when vibe coding to create a higher quality outcome. For more information, see [Exploring Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=exploring-now-assist-skill-kit&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+You can create custom skills individually, that is, they don't need to be used as tools for an agent. Think of skills as custom instructions that you use when vibe coding to create a higher quality outcome. For more information, see [Exploring Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/exploring-now-assist-skill-kit.md).
 
 ## Helpful resources
 

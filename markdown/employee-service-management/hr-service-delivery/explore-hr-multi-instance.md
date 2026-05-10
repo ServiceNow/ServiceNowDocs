@@ -32,7 +32,7 @@ Partners and service providers for HR service fulfillment often are running thei
 
 **Note:** HR Multi Instance Integration is dependent on the following plugins:
 
--   [Service Bridge](https://www.servicenow.com/docs/access?context=tmt-service-bridge-both-landing-page&version=australia&pubname=australia-service-exchange&ft:locale=en-US)
+-   [Service Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)
 -   [Human Resources Scoped App: Core](../reference/case-knowledge-management-landing-page.md)
 
 ## HR Multi Instance Integration users
@@ -54,7 +54,7 @@ Provider administrator
 -   Can register customers in a provider instance.
 -   Can create and publish remote catalogs in a provider instance.
 -   Can view records in transport queue in a provider instance.
--   Can [Enable magic links](https://www.servicenow.com/docs/access?context=service-bridge-v2-magic-links&version=australia&pubname=australia-service-exchange&ft:locale=en-US) to let consumer users complete assigned tasks from provider instance.
+-   Can [Enable magic links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-magic-links.md) to let consumer users complete assigned tasks from provider instance.
 
 </td></tr><tr><td>
 

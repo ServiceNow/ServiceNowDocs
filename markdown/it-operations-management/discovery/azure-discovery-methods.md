@@ -51,11 +51,11 @@ Service Graph Connector for Microsoft Azure
 
 </td><td>
 
-[Service Graph Connector for Microsoft Azure](https://www.servicenow.com/docs/access?context=cmdb-integration-azure&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-azure.md)
 
 </td><td>
 
-[Configure Service Graph Connector for Microsoft Azure using the guided setup](https://www.servicenow.com/docs/access?context=configure-azure-integration&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Configure Service Graph Connector for Microsoft Azure using the guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-azure-integration.md)
 
 </td></tr></tbody>
 </table>**Note:**

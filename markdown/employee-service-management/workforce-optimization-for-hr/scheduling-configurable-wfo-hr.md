@@ -25,7 +25,7 @@ With Scheduling, you can do the following:
 -   Analyze whether your team members are following the schedules. If you see a potential issue, you can easily alert your team so that they can take immediate action.
 -   Use historical adherence reports to analyze and recommend coaching opportunities for your agents.
 
-To delve into more information behind your key performance indicators, filters and sidebars, see [Exploring indicators with KPI Details](https://www.servicenow.com/docs/access?context=kpi-details-components&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+To delve into more information behind your key performance indicators, filters and sidebars, see [Exploring indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-components.md)
 
 -   **[Create a shift plan](../task/create-shift-wfo-hr.md)**  
 Schedule shifts for your team to make sure you cover all work assignments and breaks. You can also specify the days of the week that you want to override scheduled shifts.

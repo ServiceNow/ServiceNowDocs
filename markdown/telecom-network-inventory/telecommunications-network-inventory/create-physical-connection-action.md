@@ -41,7 +41,7 @@ The following table lists the input fields in the Create Physical Connection fun
 |Connection Type|Type of connection. This field information updates the Product Model that is associated with the physical connection.|Reference.Physical Connection Model|
 |Physical Connection Elements|sys\_id of the connection elements that are added for the physical connections. If the physical connection has the Connection Type attribute as Cable, you can add the connection element. Click the add icon \(![Add icon.](../image/add-icon-1.png)\) to add a connection element.|Array.String|
 
-To learn more about the variable data types, see [Flow Designer input and output data variables](https://www.servicenow.com/docs/access?context=action-inputs-outputs&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md).
 
 ## Output
 

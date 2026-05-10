@@ -25,7 +25,7 @@ Domain separation is supported in Workforce Optimization for ITSM. Domain separa
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## How domain separation works in Workforce Optimization for ITSM
 
@@ -33,7 +33,7 @@ Domain separation is supported in Workforce Optimization for ITSM and does not r
 
 ## Domain separation for Channels in Workforce Optimization for ITSM
 
-For information on how domain separation works in Channel Management for Workforce Optimization for Customer Service, refer to [Domain separation and Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-domain-separation&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For information on how domain separation works in Channel Management for Workforce Optimization for Customer Service, refer to [Domain separation and Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-domain-separation.md).
 
 Domain separated tables for Channel Management
 

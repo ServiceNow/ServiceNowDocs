@@ -19,7 +19,7 @@ As an administrator, you can review the installed components and modify them or 
 
 -   Approver group for managing Gifts and Entertainment Compliance requests
 -   Gift policies for Gifts and Entertainment Compliance.
--   [Notifications](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to inform different stakeholders at different stages of a gift and entertainment disclosure requests.
+-   [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md) to inform different stakeholders at different stages of a gift and entertainment disclosure requests.
 
 -   **[Install Gifts and Entertainment Compliance](../task/lsd-install-ge.md)**  
 You can install the Gifts and Entertainment Compliance application \(sn\_lg\_gifts\) if you have the admin role.

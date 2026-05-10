@@ -65,15 +65,15 @@ If the field is auto-filled, a box already appears over the extracted text. You 
 
 5.  Adjust the box as needed.
 
-<table id="choicetable_kws_nrj_4bc"><thead><tr><th align="left" id="d153945e258">
+<table id="choicetable_kws_nrj_4bc"><thead><tr><th align="left" id="d154295e258">
 
 Option
 
-</th><th align="left" id="d153945e261">
+</th><th align="left" id="d154295e261">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d153945e267">
+</th></tr></thead><tbody><tr><td id="d154295e267">
 
 **Resize the box**
 
@@ -83,7 +83,7 @@ Select the box. Drag the box edge or corner to the desired position.
 
  The updated text in the box is extracted and fills the related field in the document fields panel.
 
-</td></tr><tr><td id="d153945e282">
+</td></tr><tr><td id="d154295e282">
 
 **Remove the box**
 
@@ -93,7 +93,7 @@ Select the Remove the box icon \(![Remove the box icon](../image/icon-docintel-d
 
  The box is deleted and the extracted value is removed from the field.
 
-</td></tr><tr><td id="d153945e303">
+</td></tr><tr><td id="d154295e303">
 
 **Extract to a different field**
 
@@ -217,15 +217,15 @@ Use the following steps to make changes to a grid. You can then extract the upda
 
     The text in the cell appears surrounded by a solid-line box if it’s already extracted. It appears in a dotted-line box if it isn’t extracted yet.
 
-<table id="choicetable_jmr_csy_11c"><thead><tr><th align="left" id="d153945e723">
+<table id="choicetable_jmr_csy_11c"><thead><tr><th align="left" id="d154295e723">
 
 Option
 
-</th><th align="left" id="d153945e726">
+</th><th align="left" id="d154295e726">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d153945e732">
+</th></tr></thead><tbody><tr><td id="d154295e732">
 
 **Move the grid**
 
@@ -233,7 +233,7 @@ Description
 
 Drag the Move icon \(![Move icon.](../image/icon-docintel-dm-move-table.png)\) to the desired position.
 
-</td></tr><tr><td id="d153945e750">
+</td></tr><tr><td id="d154295e750">
 
 **Change a column header**
 
@@ -241,7 +241,7 @@ Drag the Move icon \(![Move icon.](../image/icon-docintel-dm-move-table.png)\) t
 
 Select the column header and select the column where the data will be extracted to in the table fields.
 
-</td></tr><tr><td id="d153945e762">
+</td></tr><tr><td id="d154295e762">
 
 **Make the first row a header row**
 
@@ -249,7 +249,7 @@ Select the column header and select the column where the data will be extracted 
 
 Select the row header and check the **This is a header row** check box.
 
-</td></tr><tr><td id="d153945e777">
+</td></tr><tr><td id="d154295e777">
 
 **Move a column or row border**
 
@@ -257,7 +257,7 @@ Select the row header and check the **This is a header row** check box.
 
 Drag the border to the desired position.
 
-</td></tr><tr><td id="d153945e790">
+</td></tr><tr><td id="d154295e790">
 
 **Add a new column or row**
 
@@ -267,7 +267,7 @@ Go to the outside border of the grid and select the Add a line icon \(![Add a li
 
  Adding a line splits the affected cells so they can be extracted to separate fields.
 
-</td></tr><tr><td id="d153945e811">
+</td></tr><tr><td id="d154295e811">
 
 **Remove a column or row border**
 
@@ -277,7 +277,7 @@ Select the Remove a line icon \(![Remove a line icon.](../image/icon-docintel-de
 
  Removing a line merges the affected cells so they can be extracted to the same fields.
 
-</td></tr><tr><td id="d153945e832">
+</td></tr><tr><td id="d154295e832">
 
 **Remove the grid**
 
@@ -287,7 +287,7 @@ Select the Remove the grid icon \(![Remove the grid icon](../image/icon-docintel
 
  This action only removes the grid, not the extracted data.
 
-</td></tr><tr><td id="d153945e853">
+</td></tr><tr><td id="d154295e853">
 
 **Ignore a table column or row**
 

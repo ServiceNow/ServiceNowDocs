@@ -65,7 +65,7 @@ Topic
 
 </td><td>
 
-The name of the probe the MID server ran. If you are using a pattern for discovery, the [Horizontal Pattern probe](https://www.servicenow.com/docs/access?context=r-HorizontalPatternProbe&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) [Horizontal Pattern probe](https://www.servicenow.com/docs/access?context=r-HorizontalPatternProbe&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) appears.
+The name of the probe the MID server ran. If you are using a pattern for discovery, the [Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-HorizontalPatternProbe.md) [Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-HorizontalPatternProbe.md) appears.
 
 </td></tr><tr><td>
 

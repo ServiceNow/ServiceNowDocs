@@ -45,7 +45,7 @@ When constructing an LLM description or instruction, consider these basic guidel
 
 NLU utterances are more dependent on keywords and their phrasing, but LLM descriptions work very differently. The problem with NLU utterances in descriptions is that they don't provide instructions for the LLM. Google search descriptions won't work well with LLMs, either. When writing descriptions, you need to be specific about the purpose of the topic and the context of the task being performed in that topic. Keywords aren't necessarily helpful, but logic is.
 
-For more information, see [General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://www.servicenow.com/docs/access?context=llm-instruction-guidelines&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information, see [General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/llm-instruction-guidelines.md).
 
 ## Example topic descriptions
 

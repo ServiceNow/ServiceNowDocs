@@ -21,7 +21,7 @@ Role required: sn\_hr\_sp.esc\_admin
 
 The to-dos will then be sorted by the filter they are associated with. Within each filter, the to-dos will be sorted by due date.
 
-When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 ## Procedure
 

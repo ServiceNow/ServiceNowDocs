@@ -126,7 +126,7 @@ Show Benchmarks
 Opens the Benchmarks Dashboard that provides visibility into your key performance indicators \(KPIs\) and trends.**Note:**
 
 -   This related link is available only for survey\_admin, assessment\_admin and survey\_reader with bm\_viewer role.
--   You must opt in to Benchmarks to view the dashboard. See [Enable Benchmarks](https://www.servicenow.com/docs/access?context=t_EnableBench&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+-   You must opt in to Benchmarks to view the dashboard. See [Enable Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/t_EnableBench.md)
 -   This is applicable only for a published quiz.
 
 

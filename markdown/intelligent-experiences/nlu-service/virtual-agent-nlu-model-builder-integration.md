@@ -15,7 +15,7 @@ breadcrumb: [Natural Language Understanding, Enable AI experiences]
 
 Virtual Agent administrators can access and update their NLU models from within the Virtual Agent Designer user interface.
 
-**Note:** If you have Now Assist in Virtual Agent, you can continue to use your existing NLU topics and migrate them into new LLM topics using the topic migration feature within Virtual Agent Designer. For more information on topic migration, see [Migrate NLU topics to LLM topics](https://www.servicenow.com/docs/access?context=migrate-nlu-llm&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+**Note:** If you have Now Assist in Virtual Agent, you can continue to use your existing NLU topics and migrate them into new LLM topics using the topic migration feature within Virtual Agent Designer. For more information on topic migration, see [Migrate NLU topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/migrate-nlu-llm.md).
 
 ## Integration setup tasks, roles, and details
 
@@ -32,14 +32,14 @@ Virtual Agent administrators must also apply their NLU model to a conversation t
 -   In **Topic Properties**, select the NLU model, the NLU intent, and the topic switching behavior.
 -   For input controls used in the topic flow, set the NLU properties for entity extraction.
 
-Optionally, admins can activate Dialog Acts to enable Virtual Agent to respond flexibly when users make a modification in mid-conversation. Currently available response types are Modify, Affirm, and Negate, based on the last 5 exchanges in the conversation. Dialog Acts can be configured for English only, in Topic Properties. For more information see [Dialog Acts for Virtual Agent](https://www.servicenow.com/docs/access?context=c_dialog-acts&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Optionally, admins can activate Dialog Acts to enable Virtual Agent to respond flexibly when users make a modification in mid-conversation. Currently available response types are Modify, Affirm, and Negate, based on the last 5 exchanges in the conversation. Dialog Acts can be configured for English only, in Topic Properties. For more information see [Dialog Acts for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/c_dialog-acts.md).
 
 After the NLU model is complete and associated with a Virtual Agent conversation topic, administrators with the virtual\_agent\_admin or admin role can do the following from within the Virtual Agent Designer user interface.
 
 -   Update NLU intent utterances.
 -   Train, test, and publish the NLU model.
 
-For more information, see [Natural Language Understanding \(NLU\) topic discovery in Virtual Agent](https://www.servicenow.com/docs/access?context=va-NLU&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For more information, see [Natural Language Understanding \(NLU\) topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-NLU.md).
 
 ## Publishing topics from Virtual Agent
 

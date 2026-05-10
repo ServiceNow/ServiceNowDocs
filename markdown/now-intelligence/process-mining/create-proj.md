@@ -19,7 +19,7 @@ Configure and manage the project status and outline of the process you want to a
 
 Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
-You must enable [Audit Log](https://www.servicenow.com/docs/access?context=t_EnableAuditingForATable&version=australia&pubname=australia-platform-security&ft:locale=en-US) for the table that you’ve selected to generate a model for a project.
+You must enable [Audit Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_EnableAuditingForATable.md) for the table that you’ve selected to generate a model for a project.
 
 ## About this task
 

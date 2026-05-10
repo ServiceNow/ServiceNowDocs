@@ -27,7 +27,7 @@ The JDBC activity template allows you to execute ANSI SQL statements or stored p
 
 ## Procedure
 
-1.  Create or verify your [JDBC credential](https://www.servicenow.com/docs/access?context=r_JDBCCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+1.  Create or verify your [JDBC credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_JDBCCredentialsForm.md).
 
     Your JDBC credentials must have permission for the target database and proper configuration for the corresponding JDBC connection. Credentials must be set up before you can create a JDBC activity.
 
@@ -41,7 +41,7 @@ The JDBC activity template allows you to execute ANSI SQL statements or stored p
 
 4.  After setting up [general properties](../reference/General-Flds-Templates.md) and [creating input variables](CreateInputVariables.md#), configure the JDBC Execution Command.
 
-<table id="choicetable_py3_zmj_4y"><tbody><tr><td id="d586464e163">
+<table id="choicetable_py3_zmj_4y"><tbody><tr><td id="d588709e163">
 
 **[JDBC Connection](t_CreateAJDBCActivity.md#)**
 
@@ -53,7 +53,7 @@ Configure or reference the appropriate JDBC Connection for the database. The con
 -   Database instance name
 
 
-</td></tr><tr><td id="d586464e194">
+</td></tr><tr><td id="d588709e194">
 
 **Credential**
 
@@ -61,7 +61,7 @@ Configure or reference the appropriate JDBC Connection for the database. The con
 
 JDBC credential to use for your JDBC connection.
 
-</td></tr><tr><td id="d586464e203">
+</td></tr><tr><td id="d588709e203">
 
 **SQL statement**
 
@@ -78,7 +78,7 @@ Input the ANSI SQL to execute on the JDBC target database. **Note:** This field 
 -   describe
 For added security measure, a MID Server property controls the operations that this JDBCOrchestrationProbe executes, which restricts the SQL commands used. This property protects against potentially destructive commands, such as drop database. The mid.property.jdbc\_operations contains the MID Server property controls.**Note:** You cannot run multiple statements of different types. For example, you cannot run a select statement and an update statement together, but you can run two insert statements. However, you cannot run multiple select statements in this activity.
 
-</td></tr><tr><td id="d586464e250">
+</td></tr><tr><td id="d588709e250">
 
 **Maximum rows**
 
@@ -86,7 +86,7 @@ For added security measure, a MID Server property controls the operations that t
 
 Maximum number of records to retrieve from database. The default is 1000.
 
-</td></tr><tr><td id="d586464e259">
+</td></tr><tr><td id="d588709e259">
 
 **Maximum payload size \(KB\)**
 
@@ -94,7 +94,7 @@ Maximum number of records to retrieve from database. The default is 1000.
 
 You can set a limit on the maximum payload size of data retrieved from the database. The default is 64 kilobytes.
 
-</td></tr><tr><td id="d586464e269">
+</td></tr><tr><td id="d588709e269">
 
 **Connection timeout**
 
@@ -102,7 +102,7 @@ You can set a limit on the maximum payload size of data retrieved from the datab
 
 How long the activity waits to make the connection. This field is populated automatically from the data source, but can be changed for this activity.
 
-</td></tr><tr><td id="d586464e278">
+</td></tr><tr><td id="d588709e278">
 
 **Query timeout**
 
@@ -110,7 +110,7 @@ How long the activity waits to make the connection. This field is populated auto
 
 Elapsed time to wait after running the query until the data is returned. This field is populated automatically from the data source, but can be changed for this activity.
 
-</td></tr><tr><td id="d586464e287">
+</td></tr><tr><td id="d588709e287">
 
 **Required MID Server capabilities**
 
@@ -118,7 +118,7 @@ Elapsed time to wait after running the query until the data is returned. This fi
 
 MID Server to use for querying JDBC, by capabilities. By default, the system selects a MID Server that has JDBC capability.
 
-</td></tr><tr><td id="d586464e296">
+</td></tr><tr><td id="d588709e296">
 
 **Use stored procedure**
 
@@ -157,7 +157,7 @@ Role required: activity\_admin, activity\_creator
 
 ### About this task
 
-[JDBC credentials](https://www.servicenow.com/docs/access?context=r_JDBCCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) [JDBC credentials](https://www.servicenow.com/docs/access?context=r_JDBCCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) are retrieved separately by the activity designer template and support external credential storage, such as [CyberArk](https://www.servicenow.com/docs/access?context=c_CyberArkCredStorageIntegrate&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+[JDBC credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_JDBCCredentialsForm.md) [JDBC credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_JDBCCredentialsForm.md) are retrieved separately by the activity designer template and support external credential storage, such as [CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CyberArkCredStorageIntegrate.md).
 
 ### Procedure
 
@@ -360,7 +360,7 @@ The JDBC driver to use for this connection when it is not a default database. **
 **Related topics**  
 
 
-[JDBC credentials](https://www.servicenow.com/docs/access?context=r_JDBCCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[JDBC credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_JDBCCredentialsForm.md)
 
 ## Auto-map JDBC activity output variables
 
@@ -416,7 +416,7 @@ There is support of multiple data types, with the following limitations:
 -   ResultSet is the first result set coming back from database server.
 -   MS-SQL does not support INOUT parameters. If you use INOUT parameters, the Activity Template transparently maps them to OUT parameters.
 
-**Note:** If you do not want to do a validation of data types in stored procedure parameters, like the legacy behavior, you set the glide.stored\_proc.data\_type.validation as false. See [MID Server properties](https://www.servicenow.com/docs/access?context=r_MIDServerProperties&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+**Note:** If you do not want to do a validation of data types in stored procedure parameters, like the legacy behavior, you set the glide.stored\_proc.data\_type.validation as false. See [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md) for more information.
 
 <table id="table_vry_jqc_cz"><thead><tr><th>
 

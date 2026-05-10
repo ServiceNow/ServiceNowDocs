@@ -17,7 +17,7 @@ Configure prompts and skills for Now Assist Skill Kit.
 
 ## Configuration overview
 
-To use Now Assist Skill Kit, you must update your Now Assist plugins in the [Application Manager](https://www.servicenow.com/docs/access?context=exploring-application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US). For example, update your Now Assist for ITSM plugin to the Xanadu release.
+To use Now Assist Skill Kit, you must update your Now Assist plugins in the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/exploring-application-manager.md). For example, update your Now Assist for ITSM plugin to the Xanadu release.
 
 After you install the plugin, there are two parts to configuring a skill in Now Assist Skill Kit. First, you must configure how to deploy the skill. Next, you must configure the prompt.
 

@@ -17,9 +17,9 @@ ServiceNow Discovery is used to automatically populate the Software Installation
 
 The discovery process consists of automatically discovering software used at your organization, which can be done either using ServiceNow Discovery, or using SCCM integration.
 
-For more information, see [Collect software data with either SCCM or Discovery](https://www.servicenow.com/docs/access?context=c_DiscoveryAndSCCMTogether&version=australia&pubname=australia-it-operations-management&section=collect-software-data-sccm-disco&ft:locale=en-US) and [Discovery with Software Asset Management](https://www.servicenow.com/docs/access?context=c_DiscoSWAssetMgmtTableSchema&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+For more information, see [Collect software data with either SCCM or Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryAndSCCMTogether.md) and [Discovery with Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_DiscoSWAssetMgmtTableSchema.md).
 
-**Note:** To use Discovery, the [Request Discovery](https://www.servicenow.com/docs/access?context=t_ActivateTheDiscoveryPlugin&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) must be activated.
+**Note:** To use Discovery, the [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md) must be activated.
 
 Discovery uses patterns in the discovery process that can be created or customized. The base system contains a wide range of patterns that cover most industry standard network devices and applications. Software Asset Management Foundation plugin automatically leverages SQL Server, Exchange Server, and Oracle Database Server specifically, but other patterns can be customized for use by Software Asset Management Foundation plugin, if needed.
 

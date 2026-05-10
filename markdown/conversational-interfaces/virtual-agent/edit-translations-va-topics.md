@@ -38,7 +38,7 @@ Role required: virtual\_agent\_admin or admin
     -   Unlock fields and enter translations directly on the form.
     -   If it is configured in the Localization Framework, use machine translation to fill in the fields.
 
-        To set up machine translation, see [Create a translator configuration](https://www.servicenow.com/docs/access?context=create-custom-translator&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+        To set up machine translation, see [Create a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-custom-translator.md).
 
     -   Export files to send to a third party for translation.
 

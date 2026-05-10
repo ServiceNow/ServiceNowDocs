@@ -15,7 +15,7 @@ breadcrumb: [Integration steps, Build integrations, Integration Hub, Workflow Da
 
 Identify structured data from an XML payload without having to write script. Map incoming XML elements to a complex object output that you can use in other steps or actions. At runtime, values from an XML payload populate the complex object output.
 
-To learn more about complex objects, see [Complex data](https://www.servicenow.com/docs/access?context=complex-data&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+To learn more about complex objects, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/complex-data.md).
 
 **Note:** This step requires an Integration Hub subscription. For more information, see [Legal schedules - Integration Hub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf). After the required plugin is activated, the step is visible under Integrations.
 

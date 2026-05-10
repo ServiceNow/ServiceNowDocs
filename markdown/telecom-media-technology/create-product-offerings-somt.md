@@ -29,7 +29,7 @@ A versioned product offering is the customer-facing entity of a product. It cont
 
 3.  On the form, fill in the fields.
 
-    For information about the field descriptions, see the Product offerings form fields section in [Product catalog forms](https://www.servicenow.com/docs/access?context=field-descriptions-for-product-catalog-fields&version=australia&pubname=australia-order-management&ft:locale=en-US).
+    For information about the field descriptions, see the Product offerings form fields section in [Product catalog forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/field-descriptions-for-product-catalog-fields.md).
 
 4.  Select **Submit**.
 
@@ -53,15 +53,15 @@ A versioned product offering is the customer-facing entity of a product. It cont
 
 8.  When you finish creating the product offering version, do one of the following actions.
 
-<table id="choicetable_product_offering"><thead><tr><th align="left" id="d39099e187">
+<table id="choicetable_product_offering"><thead><tr><th align="left" id="d39103e187">
 
 Action
 
-</th><th align="left" id="d39099e190">
+</th><th align="left" id="d39103e190">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d39099e196">
+</th></tr></thead><tbody><tr><td id="d39103e196">
 
 **Publish**
 
@@ -71,7 +71,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 -   After you publish a product offering, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d39099e214">
+</td></tr><tr><td id="d39103e214">
 
 **Update**
 
@@ -79,7 +79,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 
 Update the product offering with the new data that you added, but don't publish it for use in a product catalog.
 
-</td></tr><tr><td id="d39099e223">
+</td></tr><tr><td id="d39103e223">
 
 **Copy**
 

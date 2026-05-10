@@ -25,15 +25,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Bitbucket.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d407603e96">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d408020e96">
 
 Option
 
-</th><th align="left" id="d407603e99">
+</th><th align="left" id="d408020e99">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d407603e105">
+</th></tr></thead><tbody><tr><td id="d408020e105">
 
 **Homepage**
 
@@ -43,7 +43,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Bitbucket from the **Code** category.
 
 
-</td></tr><tr><td id="d407603e132">
+</td></tr><tr><td id="d408020e132">
 
 **Applications module**
 
@@ -55,7 +55,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Bitbucket from the **Code** category.
 
 
-</td></tr><tr><td id="d407603e184">
+</td></tr><tr><td id="d408020e184">
 
 **Tools module**
 
@@ -76,15 +76,15 @@ Steps
 
 3.  On the Bitbucket instance details playbook activity, enter the following details.
 
-<table id="choicetable_krv_ykg_42c"><thead><tr><th align="left" id="d407603e272">
+<table id="choicetable_krv_ykg_42c"><thead><tr><th align="left" id="d408020e272">
 
 Tool
 
-</th><th align="left" id="d407603e275">
+</th><th align="left" id="d408020e275">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d407603e281">
+</th></tr></thead><tbody><tr><td id="d408020e281">
 
 **Bitbucket Server**
 
@@ -92,10 +92,10 @@ Steps
 
 1.  Enter the URL of your Bitbucket instance.
 2.  Enter the login credentials of the global admin for the Bitbucket instance.
-3.  If your Bitbucket instance is attached to a MID Server, select the MID Server option and enter its details. A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+3.  If your Bitbucket instance is attached to a MID Server, select the MID Server option and enter its details. A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
 ![Enter Bitbucket instance details page for Bitbucket Server](../image/bitbucket-connect-server.png)
 
-</td></tr><tr><td id="d407603e318">
+</td></tr><tr><td id="d408020e318">
 
 **Bitbucket Cloud**
 
@@ -138,7 +138,7 @@ For Oauth 2.0 - Client Credentials,
 
 ![Enter Bitbucket instance details page for Bitbucket Cloud - OAuth 2.0 - Client Credentials](../image/bitbucket-connect-cloud-oauth-client.png)
 
-3.  If your Bitbucket instance is attached to a MID Server, select the MID Server option and enter its details. A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+3.  If your Bitbucket instance is attached to a MID Server, select the MID Server option and enter its details. A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
 
 
 </td></tr></tbody>

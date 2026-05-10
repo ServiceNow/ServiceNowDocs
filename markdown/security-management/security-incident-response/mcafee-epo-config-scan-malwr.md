@@ -35,15 +35,15 @@ As with the isolate host action, you can initiate an on-demand scan directly fro
 
 2.  Fill out the form.
 
-<table id="choicetable_mpd_zzq_1fb"><thead><tr><th align="left" id="d350263e133">
+<table id="choicetable_mpd_zzq_1fb"><thead><tr><th align="left" id="d353327e133">
 
 Option
 
-</th><th align="left" id="d350263e136">
+</th><th align="left" id="d353327e136">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d350263e142">
+</th></tr></thead><tbody><tr><td id="d353327e142">
 
 **Enable alternate CI trigger field**
 
@@ -55,7 +55,7 @@ Alternate configuration item \(CI\) trigger field. Default is disabled. For this
 
  For more information about the alternate CI trigger field, see [Defining triggering conditions with a Configuration item \(CI\) field](../concept/mcafee-epo-alternate-ci.md) and [Create a capability profile](mcafee-epo-create-profile.md).
 
-</td></tr><tr><td id="d350263e186">
+</td></tr><tr><td id="d353327e186">
 
 **Display Tags**
 
@@ -69,7 +69,7 @@ Security tags on security incidents. Default is disabled.When this check box is 
 
  Tag names and colors can be edited. For more information, see [Edit security tags in the ServiceNow AI Platform for the McAfee ePO integration](mcafee-epo-match-tags.md).
 
-</td></tr><tr><td id="d350263e226">
+</td></tr><tr><td id="d353327e226">
 
 **Auto trigger based on incident**
 
@@ -81,7 +81,7 @@ Filter conditions. Default is disabled. When the check box is cleared, and the o
 
  For this example, filters for `Category is Malicious code activity` and `Business impact is 1 - Critical` are used. For more information about the filter condition builder, see [Create a capability profile](mcafee-epo-create-profile.md).
 
-</td></tr><tr><td id="d350263e260">
+</td></tr><tr><td id="d353327e260">
 
 **Require Approval**
 

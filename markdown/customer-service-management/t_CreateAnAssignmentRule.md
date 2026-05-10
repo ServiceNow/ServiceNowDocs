@@ -128,5 +128,5 @@ A script to determine advanced assignment rule functionality. Scripts provide ac
 **Related topics**  
 
 
-[Define assignment rules](https://www.servicenow.com/docs/access?context=c_DefineAssignmentRules&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Define assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DefineAssignmentRules.md)
 

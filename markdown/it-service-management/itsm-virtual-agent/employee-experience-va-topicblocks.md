@@ -17,7 +17,7 @@ ITSM Virtual Agent helps you manage meetings in Microsoft Exchange Online. Using
 
 Use the **Category** list on the Topics page in Virtual Agent Designer to sort by **Self Service** to view all Employee Experience topics blocks.
 
-For detailed information about topic blocks, see [Maximizing code reuse with topic blocks](https://www.servicenow.com/docs/access?context=topic-blocks-overview&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For detailed information about topic blocks, see [Maximizing code reuse with topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topic-blocks-overview.md).
 
 ## Cancel Meeting EXO
 
@@ -167,7 +167,7 @@ Returns one of the following status codes for the meeting:-   NO\_EMAIL\_FOUND
 </td></tr></tbody>
 </table>## Get MS Teams Meeting Link
 
-If the [Microsoft Teams Communication spoke](https://www.servicenow.com/docs/access?context=msteams-comm&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) \(sn\_msteams\_com\_spk\) is installed on the instance, users can send a Microsoft Teams meeting link with their invitation.
+If the [Microsoft Teams Communication spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/msteams-comm.md) \(sn\_msteams\_com\_spk\) is installed on the instance, users can send a Microsoft Teams meeting link with their invitation.
 
 |Name|Description|
 |----|-----------|
@@ -380,7 +380,7 @@ Returns one of the following status codes for the meeting:-   MEETING\_SCHEDULED
 </td></tr></tbody>
 </table>## Webex Meeting Actions
 
-If the [Cisco Webex Teams spoke](https://www.servicenow.com/docs/access?context=cisco-teams-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) \(sn\_cisco\_teams\_spk\) is installed on the instance, users can send a Webex meeting link with their invitation.
+If the [Cisco Webex Teams spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/cisco-teams-spoke.md) \(sn\_cisco\_teams\_spk\) is installed on the instance, users can send a Webex meeting link with their invitation.
 
 <table id="table_im4_pxr_dwb"><thead><tr><th>
 
@@ -499,7 +499,7 @@ Returns one of the following status codes for the meeting:-   SCHEDULE\_ACTION\_
 </td></tr></tbody>
 </table>## Zoom Meeting Actions
 
-If the [Zoom spoke](https://www.servicenow.com/docs/access?context=zoom-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)\(com.sn.zoom.spoke\) is installed on the instance, users can send a Zoom meeting link with their invitation.
+If the [Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/zoom-spoke.md)\(com.sn.zoom.spoke\) is installed on the instance, users can send a Zoom meeting link with their invitation.
 
 <table id="table_zsx_qxr_dwb"><thead><tr><th>
 

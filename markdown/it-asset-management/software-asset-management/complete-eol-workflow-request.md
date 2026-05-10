@@ -120,7 +120,7 @@ Additionally, the EOL workflow can be completed using the Software End of Life F
 
 12. Select the change request and review the values that are automatically populated in the Change Request form.
 
-    For details on completing a change request, see [Process a change request](https://www.servicenow.com/docs/access?context=t_ProcessAChangeRequest&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+    For details on completing a change request, see [Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ProcessAChangeRequest.md).
 
 
 ## Result

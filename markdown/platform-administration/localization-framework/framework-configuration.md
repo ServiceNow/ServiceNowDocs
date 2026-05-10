@@ -19,9 +19,9 @@ Any artifact configured in the Localization Framework application has its own re
 
 With the activation of the Localization Framework Installer plugin \(com.glide.localization\_framework.installer\), a record for Service Catalog item and Natural Language Understanding Model are automatically created and configured in Localization Framework.
 
-A record for the Virtual Agent topic is also created and configured in the framework, since Virtual Agent is automatically enabled with the base system. For more information, see [Virtual Agent Lite](https://www.servicenow.com/docs/access?context=va-lite&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+A record for the Virtual Agent topic is also created and configured in the framework, since Virtual Agent is automatically enabled with the base system. For more information, see [Virtual Agent Lite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-lite.md).
 
-Records for Document Template Block Content and HTML Document Template are created in the artifact configurations \[sn\_lf\_config\] table when you activate the Human Resources Scoped App: Lifecycle Events for Enterprise plugin \[com.sn\_hr\_lifecycle\_ent\]. For more information about activating this plugin, see [Activate Lifecycle Events for Enterprise](https://www.servicenow.com/docs/access?context=activate-hr-lifecycle-events-for-enterprise&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+Records for Document Template Block Content and HTML Document Template are created in the artifact configurations \[sn\_lf\_config\] table when you activate the Human Resources Scoped App: Lifecycle Events for Enterprise plugin \[com.sn\_hr\_lifecycle\_ent\]. For more information about activating this plugin, see [Activate Lifecycle Events for Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/activate-hr-lifecycle-events-for-enterprise.md).
 
 You can also create and configure an artifact of your choice and a record for the same is created in the artifact configurations \[sn\_lf\_config\] table. For more information, see [Create and configure a custom artifact](../task/create-configure-custom-artifact.md).
 

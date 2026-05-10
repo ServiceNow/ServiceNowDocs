@@ -23,7 +23,7 @@ You can apply user roles to certain components of your mobile apps. For a comple
 
 Role required: admin
 
-When working with user roles in the Mobile App Builder, you assign existing user roles permissions and map them to a mobile component. To create additional user roles, you must access the Roles \[sys\_user\_role\] table. For more information, see [Managing roles](https://www.servicenow.com/docs/access?context=ua-creating-roles&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+When working with user roles in the Mobile App Builder, you assign existing user roles permissions and map them to a mobile component. To create additional user roles, you must access the Roles \[sys\_user\_role\] table. For more information, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md).
 
 ## Procedure
 

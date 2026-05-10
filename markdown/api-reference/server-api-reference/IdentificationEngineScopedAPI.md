@@ -23,7 +23,7 @@ When using this class in a scoped application, use the `sn_cmdb` namespace ident
 
 Inserts or updates configuration items \(CI\) and non-Configuration Management Database \(CMDB\) CIs \(classes not extending from cmdb\_ci\) in the CMDB based on identification and reconciliation rules. Use this API instead of updating the CMDB directly.
 
-For additional information on non-CMDB table ingestion, see [IRE support for non-CMDB tables](https://www.servicenow.com/docs/access?context=ire-support-non-cmdb-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For additional information on non-CMDB table ingestion, see [IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md).
 
 <table class="parameters"><thead><tr><th>
 
@@ -1130,7 +1130,7 @@ Index values for CIs from the request body **items** array that correspond to th
 
 </td><td id="entry_return_item_maskedAttributes">
 
-List of attributes whose update by a non-authoritative data source was skipped as defined by the [Reconciliation Rules](https://www.servicenow.com/docs/access?context=create-reconciliation-rule&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Data type: Array
+List of attributes whose update by a non-authoritative data source was skipped as defined by the [Reconciliation Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-reconciliation-rule.md).Data type: Array
 
 </td></tr><tr><td>
 
@@ -1974,9 +1974,9 @@ In addition to providing the functionality of the createOrUpdateCI\(\) method, t
 -   Removing duplicate items within a payload
 -   Generating output summaries
 
-For additional information on IRE and more detailed explanations of the data used by this method, see [Identification and Reconciliation \(IRE\)](https://www.servicenow.com/docs/access?context=ire&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For additional information on IRE and more detailed explanations of the data used by this method, see [Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md).
 
-For additional information on non-CMDB table ingestion, see [IRE support for non-CMDB tables](https://www.servicenow.com/docs/access?context=ire-support-non-cmdb-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For additional information on non-CMDB table ingestion, see [IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md).
 
 <table id="table_vyh_fvh_sjb" class="parameters"><thead><tr><th>
 
@@ -2789,7 +2789,7 @@ Boolean
 
 </td><td id="entry_options_partial_commits">
 
-Flag that indicates whether partial commit support is enabled. For additional information on partial commits, see [Enhanced IRE features](https://www.servicenow.com/docs/access?context=ire&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Valid values:
+Flag that indicates whether partial commit support is enabled. For additional information on partial commits, see [Enhanced IRE features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md).Valid values:
 
 -   true: Partial commit enabled.
 -   false: Partial commit disabled.
@@ -2806,7 +2806,7 @@ Boolean
 
 </td><td id="entry_options_partial_payloads">
 
-Flag that indicates whether partial payload support is enabled. For additional information on partial payloads, see [Enhanced IRE features](https://www.servicenow.com/docs/access?context=ire&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and [Create an IRE data source rule](https://www.servicenow.com/docs/access?context=create-ire-data-source-rule&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Valid values:
+Flag that indicates whether partial payload support is enabled. For additional information on partial payloads, see [Enhanced IRE features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md) and [Create an IRE data source rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-ire-data-source-rule.md).Valid values:
 
 -   true: Partial payload enabled.
 -   false: Partial payload disabled.
@@ -3620,7 +3620,7 @@ Indexes of the corresponding input CI. For top-level items, it is a list of inte
 
 </td><td id="entry_return_item_maskedAttributes">
 
-List of attributes whose update by a non-authoritative data source was skipped as defined by the [Reconciliation Rules](https://www.servicenow.com/docs/access?context=create-reconciliation-rule&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Data type: Array
+List of attributes whose update by a non-authoritative data source was skipped as defined by the [Reconciliation Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-reconciliation-rule.md).Data type: Array
 
 </td></tr><tr id="row_return_item_operation"><td>
 
@@ -5319,7 +5319,7 @@ Boolean
 
 </td><td id="entry_options_partial_commits">
 
-Flag that indicates whether partial commit support is enabled. For additional information on partial commits, see [Enhanced IRE features](https://www.servicenow.com/docs/access?context=ire&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Valid values:
+Flag that indicates whether partial commit support is enabled. For additional information on partial commits, see [Enhanced IRE features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md).Valid values:
 
 -   true: Partial commit enabled.
 -   false: Partial commit disabled.
@@ -5336,7 +5336,7 @@ Boolean
 
 </td><td id="entry_options_partial_payloads">
 
-Flag that indicates whether partial payload support is enabled. For additional information on partial payloads, see [Enhanced IRE features](https://www.servicenow.com/docs/access?context=ire&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and [Create an IRE data source rule](https://www.servicenow.com/docs/access?context=create-ire-data-source-rule&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Valid values:
+Flag that indicates whether partial payload support is enabled. For additional information on partial payloads, see [Enhanced IRE features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md) and [Create an IRE data source rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-ire-data-source-rule.md).Valid values:
 
 -   true: Partial payload enabled.
 -   false: Partial payload disabled.
@@ -5770,7 +5770,7 @@ Indexes of the corresponding input CI. For top-level items, it is a list of inte
 
 </td><td id="entry_return_item_maskedAttributes">
 
-List of attributes whose update by a non-authoritative data source was skipped as defined by the [Reconciliation Rules](https://www.servicenow.com/docs/access?context=create-reconciliation-rule&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Data type: Array
+List of attributes whose update by a non-authoritative data source was skipped as defined by the [Reconciliation Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-reconciliation-rule.md).Data type: Array
 
 </td></tr><tr><td>
 

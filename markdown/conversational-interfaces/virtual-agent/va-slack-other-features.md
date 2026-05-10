@@ -43,7 +43,7 @@ Translation of responses to the conversation language is done using the function
 
 -   The requested language plugin is absent, but fallback is set and enabled​.
 
-    When the requested language plugin is absent, then the fallback language specified in the \[sys\_language\] table is used for the translation process. However, for the fallback mechanism to work, you must enable the **glide\_i18n.language\_fallback\_enabled** system property. By default, the value of the property is **false**. Set it to **true** to enable the fallback mechanism. For more information, see [Set a fallback language](https://www.servicenow.com/docs/access?context=set-fallback-language&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    When the requested language plugin is absent, then the fallback language specified in the \[sys\_language\] table is used for the translation process. However, for the fallback mechanism to work, you must enable the **glide\_i18n.language\_fallback\_enabled** system property. By default, the value of the property is **false**. Set it to **true** to enable the fallback mechanism. For more information, see [Set a fallback language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/set-fallback-language.md).
 
 -   The requested language plugin is absent, but fallback is not set/enabled.
 

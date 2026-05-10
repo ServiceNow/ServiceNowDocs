@@ -25,15 +25,15 @@ Review [Stages and activities](../concept/process-automation-designer-lanes-acti
 
 1.  Add a stage.
 
-<table id="choicetable_z1g_1yz_21c"><thead><tr><th align="left" id="d39297e75">
+<table id="choicetable_z1g_1yz_21c"><thead><tr><th align="left" id="d39301e75">
 
 View
 
-</th><th align="left" id="d39297e78">
+</th><th align="left" id="d39301e78">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d39297e84">
+</th></tr></thead><tbody><tr><td id="d39301e84">
 
 **Diagram**
 
@@ -43,7 +43,7 @@ Steps
 2.  In the mini-picker, select the dotted square icon. ![Square dotted stage icon in Diagram view mini-picker.](../images/diagram-stage-icon.png)
 
 
-</td></tr><tr><td id="d39297e113">
+</td></tr><tr><td id="d39301e113">
 
 **Board**
 
@@ -97,7 +97,7 @@ Choose when you want your stage to start running. Options include:-   **When pla
 
         **Warning:** Changing the advanced property fields of an activity can potentially break your automation. Make sure you understand how the playbook and its activities flow before you make changes.
 
-<table id="choicetable_ffz_mct_vlb"><tbody><tr><td id="d39297e257">
+<table id="choicetable_ffz_mct_vlb"><tbody><tr><td id="d39301e257">
 
 **Display order**
 
@@ -105,7 +105,7 @@ Choose when you want your stage to start running. Options include:-   **When pla
 
 When there are multiple stages running at the same time, define the order in which stages appear during a playbook run.**Note:** In Workflow Studio, this can also be helpful when viewing parallel activities in Diagram view.
 
-</td></tr><tr><td id="d39297e277">
+</td></tr><tr><td id="d39301e277">
 
 **Start with delay**
 

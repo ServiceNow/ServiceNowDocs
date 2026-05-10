@@ -15,7 +15,7 @@ State flows enable an administrator to customize transitions from one state to a
 
 An example of a state transition is when the **State** field in an incident changes from **Active** to **Awaiting User Info**. An administrator might want to trigger an event during this transition or make a specific field mandatory when the incident reaches the end state.
 
-State transitions in the Field Service Management application were reimplemented to use state flows. For information about customizing Field Service Management state flows, see [State flow customization](https://www.servicenow.com/docs/access?context=c_StateFlowCustomization&version=australia&pubname=australia-service-management-for-the-enterprise&ft:locale=en-US).
+State transitions in the Field Service Management application were reimplemented to use state flows. For information about customizing Field Service Management state flows, see [State flow customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_StateFlowCustomization.md).
 
 -   **[Installed with state flows](../reference/r_InstalledWithStateFlows.md#)**  
 Several types of components are installed with state flows.

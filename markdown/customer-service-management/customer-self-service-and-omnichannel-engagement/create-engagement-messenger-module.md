@@ -379,7 +379,7 @@ The icon appears at the top of the list page and shows applied filters icon in m
     1.  [Create an identity provider \(IdP\) for Engagement Messenger](../concept/create-identity-providers-for-engagement-messenger.md).
     2.  [Configure a CORS rule for Engagement Messenger](create-cors-for-rest-api-ec.md).
     3.  [Create HTTP response headers for Engagement Messenger](create-http-response-headers-for-ec.md).
-    **Note:** Engagement Messenger extends service portal capabilities that don’t support domain separation. For more information, see [Domain separation and Service Portal](https://www.servicenow.com/docs/access?context=domain-separation-service-portal&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US). However, other tables that are used in Engagement Messenger may support domain separation according to the configurations with which they're created.
+    **Note:** Engagement Messenger extends service portal capabilities that don’t support domain separation. For more information, see [Domain separation and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/domain-separation-service-portal.md). However, other tables that are used in Engagement Messenger may support domain separation according to the configurations with which they're created.
 
 
 ## Result

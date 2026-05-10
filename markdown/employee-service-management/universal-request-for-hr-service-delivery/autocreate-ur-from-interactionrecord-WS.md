@@ -29,7 +29,7 @@ You may want to automatically create universal request in the following scenario
 -   Transfer the department ticket at any time, as UR is already associated with the ticket.
 -   Use cross-departmental SLA/OLA reporting for the UR, the department ticket, and any other tasks associated with the parent UR.
 
-You can achieve this by using a business rule and the Universal Request API. For more information, see [UniversalRequestUtilsSNC API](https://www.servicenow.com/docs/access?context=UniversalRequestUtilsSNCScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+You can achieve this by using a business rule and the Universal Request API. For more information, see [UniversalRequestUtilsSNC API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/UniversalRequestUtilsSNCScopedAPI.md).
 
 Follow the given steps to enable create universal request automatically from an interaction record.
 
@@ -41,7 +41,7 @@ Follow the given steps to enable create universal request automatically from an 
 
 3.  Create an onSubmit\(\) client script to fetch the URL parameter.
 
-    For more information, see [Client scripts](https://www.servicenow.com/docs/access?context=client-scripts&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    For more information, see [Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/client-scripts.md).
 
 4.  Set the URL parameter and the sys\_id to the glide session using the AJAX script include.
 

@@ -21,7 +21,7 @@ Available as a Now Assist Skill Kit action.
 
 -   **Subscription requirements**
 
-    This action requires activiating the Now Assist Skill Kit plugin from the Now Assist panel. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    This action requires activiating the Now Assist Skill Kit plugin from the Now Assist panel. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 -   **Role requirements**
 
@@ -36,31 +36,31 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **Dynamic Choice**
 
-    The Workflow deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see [Configure skill deployment settings](https://www.servicenow.com/docs/access?context=configure-skill-settings&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    The Workflow deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md).
 
 -   **Product**
 
     Data type: **Dynamic Choice**
 
-    The Product deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see [Configure skill deployment settings](https://www.servicenow.com/docs/access?context=configure-skill-settings&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    The Product deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md).
 
 -   **Feature**
 
     Data type: **Dynamic Choice**
 
-    The Feature deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see [Configure skill deployment settings](https://www.servicenow.com/docs/access?context=configure-skill-settings&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    The Feature deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md).
 
 -   **Skill Config**
 
     Data type: **Dynamic Choice**
 
-    The name of the Now Assist skill that you want the action to run. For more information on skill configurations, see [Create a skill](https://www.servicenow.com/docs/access?context=create-new-skill&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    The name of the Now Assist skill that you want the action to run. For more information on skill configurations, see [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-new-skill.md).
 
 -   **Skill Inputs**
 
     Data type: **Dynamic Inputs**
 
-    The list of inputs that the Now Assist skill uses. For more information on skill inputs, see [Create a skill](https://www.servicenow.com/docs/access?context=create-new-skill&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    The list of inputs that the Now Assist skill uses. For more information on skill inputs, see [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-new-skill.md).
 
 
 ## Outputs

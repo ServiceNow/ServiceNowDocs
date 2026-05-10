@@ -32,9 +32,9 @@ By default, the **rmt\_help\_data\_view** encryption module associated with the 
 
 ## Column Level Encryption Enterprise
 
-Column Level Encryption Enterprise provides an enhanced encryption capability and utilizes the Key Management Framework \(KMF\). For using the Column Level Encryption Enterprise option with the EMR Help application, your administrator must activate the plugin \(com.glide.now.platform.encryption\). As an administrator, you can choose to opt in to use CLE with KMF. For more information, see [Activate Column Level Encryption Enterprise](https://www.servicenow.com/docs/access?context=activate-platform-encryption&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Column Level Encryption Enterprise provides an enhanced encryption capability and utilizes the Key Management Framework \(KMF\). For using the Column Level Encryption Enterprise option with the EMR Help application, your administrator must activate the plugin \(com.glide.now.platform.encryption\). As an administrator, you can choose to opt in to use CLE with KMF. For more information, see [Activate Column Level Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-platform-encryption.md).
 
-Beginning with the Quebec release, the migration of keys and encrypted data from Encryption Support to Column Level Encryption is automated using scheduled jobs. For more information, see [Migrating to Column Level Encryption Enterprise](https://www.servicenow.com/docs/access?context=migration-to-platform-encryption&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Beginning with the Quebec release, the migration of keys and encrypted data from Encryption Support to Column Level Encryption is automated using scheduled jobs. For more information, see [Migrating to Column Level Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/migration-to-platform-encryption.md).
 
 **Note:** Existing customers on the Paris release must contact ServiceNow Customer Support to migrate keys and encrypted data from Encryption Support to Column Level Encryption Enterprise.
 

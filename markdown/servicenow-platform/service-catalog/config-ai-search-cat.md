@@ -23,8 +23,8 @@ Role required: admin
 
 You can configure AI-based catalog search experience in portals and Now Mobile. Following are the default search application configurations for Service Portal and Now Mobile:
 
--   Service Portal Default Search Application. For information about AI Search in Service Portal, see [AI Search in Service Portal](https://www.servicenow.com/docs/access?context=ai-search&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
--   NowMobile App Search Configurations. For information about AI Search in Now Mobile, see [AI Search in mobile](https://www.servicenow.com/docs/access?context=text-search-advanced-now&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+-   Service Portal Default Search Application. For information about AI Search in Service Portal, see [AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/ai-search.md).
+-   NowMobile App Search Configurations. For information about AI Search in Now Mobile, see [AI Search in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/text-search-advanced-now.md).
 
 Each of these search application configurations have an associated search profile based on which the search results are filtered and displayed.
 
@@ -41,7 +41,7 @@ Following are a few limitations for AI-based catalog search experience:
 
 2.  To edit the searchable catalogs in a portal or Now Mobile, perform the following steps.
 
-    **Note:** Items are searched for only in the catalogs configured in the search source, irrespective of the catalogs associated with the portal. For information on associating a catalog with a portal, see [Configure a catalog in Service Portal](https://www.servicenow.com/docs/access?context=associate-portal-catalog&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    **Note:** Items are searched for only in the catalogs configured in the search source, irrespective of the catalogs associated with the portal. For information on associating a catalog with a portal, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/associate-portal-catalog.md).
 
     1.  In the Search Application Configurations list, select the search application configuration associated with the portal.
 
@@ -69,5 +69,5 @@ Following are a few limitations for AI-based catalog search experience:
 **Related topics**  
 
 
-[AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md)
 

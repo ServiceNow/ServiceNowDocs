@@ -33,16 +33,16 @@ Supported ServiceNow versions:
 
 The following are examples on how you can use the Service Graph Connector for different ServiceNow® applications:
 
--   [IT Operations Management \(ITOM\) Visibility](https://www.servicenow.com/docs/access?context=itom-visibility-landing-page&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+-   [IT Operations Management \(ITOM\) Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/itom-visibility-landing-page.md)
     -   Detailed hardware and software inventory tracking for macOS hardware and apps. The tracking can be done with or without Software Asset Management \(SAM\).
     -   Detailed hardware and software inventory tracking for hardware and apps for both iPhones and iPads. The tracking can be done with or without Software Asset Management \(SAM\).
     -   Compliance tracking for mobile devices and end-user computers.
     -   Duplicate data detection on imports to improve performance of nightly imports.
--   [Software Asset Management \(SAM\)](https://www.servicenow.com/docs/access?context=c_SoftwareAssetMgmt&version=australia&pubname=australia-it-asset-management&ft:locale=en-US) and [IT Asset Management \(ITAM\)](https://www.servicenow.com/docs/access?context=it-asset-management&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
+-   [Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md) and [IT Asset Management \(ITAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/it-asset-management.md)
     -   Software package and installation tracking.
     -   License reclamation by detecting removed software.
     -   Software Usage tracking.
--   [IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=r_ITServiceManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+-   [IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_ITServiceManagement.md)
     -   Incidents, problems, and changes on discovered configuration items \(CI\).
     -   Automatic ownership assignment based on top users.
 
@@ -90,9 +90,9 @@ The following data sources are included for the Jamf application:
 
 -   **SG-Jamf Software Usage**
 
-    Imports the software usage details from the Jamf environment to track which software data is being used infrequently, hasn't been used recently enough, or isn't being used at all and loads the imported data in the SG-Jamf Software Usage \[sn\_jamf\_integrate\_jamf\_software\_usage\] staging table. Based on the software usage information, you can add a reclamation rule to aggregate usage records and to identify unused software devices. See [Software reclamation rules](https://www.servicenow.com/docs/access?context=sw-reclamation-rules&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).
+    Imports the software usage details from the Jamf environment to track which software data is being used infrequently, hasn't been used recently enough, or isn't being used at all and loads the imported data in the SG-Jamf Software Usage \[sn\_jamf\_integrate\_jamf\_software\_usage\] staging table. Based on the software usage information, you can add a reclamation rule to aggregate usage records and to identify unused software devices. See [Software reclamation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sw-reclamation-rules.md).
 
-    **Note:** The SG-Jamf Software Usage data source is available only when the Software Asset Management Professional plugin \(com.snc.samp\) is activated on your ServiceNow instance. See [Request Software Asset Management](https://www.servicenow.com/docs/access?context=t_RequSoftwareAssetMgmt&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).
+    **Note:** The SG-Jamf Software Usage data source is available only when the Software Asset Management Professional plugin \(com.snc.samp\) is activated on your ServiceNow instance. See [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md).
 
 
 The imported data is then inserted into the following target tables:

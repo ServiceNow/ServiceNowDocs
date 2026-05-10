@@ -44,7 +44,7 @@ please configure on Google and set these properties: google.captcha.secret, goog
 
 -   google.captcha.secret
 -   google.captcha.site\_key
-You must also set up an enterprise Google captcha account. For more information, see [Configure Google reCAPTCHA for the password reset process](https://www.servicenow.com/docs/access?context=t_ConfigureGoogleRecaptcha&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+You must also set up an enterprise Google captcha account. For more information, see [Configure Google reCAPTCHA for the password reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_ConfigureGoogleRecaptcha.md).
 
 </td></tr><tr><td>
 

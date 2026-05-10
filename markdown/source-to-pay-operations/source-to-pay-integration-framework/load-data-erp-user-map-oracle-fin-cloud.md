@@ -37,13 +37,13 @@ Role required: sn\_shop.procurement\_administrator
 
     The imported data is now available in the new Import Set table.
 
-7.  [Create a transform map](https://www.servicenow.com/docs/access?context=t_CreateATransformMap&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) to define the field mapping between columns of the import set and columns of the target ERP User Mapping \[sn\_fcms\_intg\_erp\_user\_map\] table.
+7.  [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md) to define the field mapping between columns of the import set and columns of the target ERP User Mapping \[sn\_fcms\_intg\_erp\_user\_map\] table.
 
     The ERP User Mapping table maintains mapping between ERP user IDs and ServiceNow user IDs.
 
 8.  Transform the data from the import set table to the target table.
 
-    For more information, see [Run an import](https://www.servicenow.com/docs/access?context=t_RunImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For more information, see [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_RunImport.md).
 
     The data is imported into the Oracle Financial Cloud ERP User Mapping `(sn_fcms_intg_erp_user_map)` table.
 

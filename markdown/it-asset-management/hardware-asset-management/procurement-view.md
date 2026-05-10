@@ -36,5 +36,5 @@ Select any widget or chart to view the details. You can also use **Location**, *
 **Related topics**  
 
 
-[Procurement](https://www.servicenow.com/docs/access?context=c_Procurement&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_Procurement.md)
 

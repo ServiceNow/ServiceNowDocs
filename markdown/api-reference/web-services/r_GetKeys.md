@@ -21,7 +21,7 @@ Any field value in the targeted table.
 
 ## Output fields
 
-A SOAP response element **sys\_id** that contains a comma delimited list of [Unique record identifier \(sys\_id\)](https://www.servicenow.com/docs/access?context=c_UniqueRecordIdentifier&version=australia&pubname=australia-platform-administration&ft:locale=en-US) values.
+A SOAP response element **sys\_id** that contains a comma delimited list of [Unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UniqueRecordIdentifier.md) values.
 
 ## Sample SOAP messages
 

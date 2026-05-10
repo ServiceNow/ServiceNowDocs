@@ -16,9 +16,9 @@ Your instance requires certificates to establish secure connections and validate
 Certificates are used for features such as:
 
 -   [LDAPS](../../../integrate/ldap/reference/r_LDAPIntegrationFAQs.md)
--   [Outbound web service mutual authentication](https://www.servicenow.com/docs/access?context=c_OutboundWebServicesMutualAuth&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+-   [Outbound web service mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundWebServicesMutualAuth.md)
 -   [Web service security](../../security/concept/c_WebServiceSecurity.md)
--   [MID Server](https://www.servicenow.com/docs/access?context=add-ssl-certificates&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/add-ssl-certificates.md)
 
 In order to use a certificate, you must generate or purchase a certificate for the secured server, or client and upload it to an instance.
 

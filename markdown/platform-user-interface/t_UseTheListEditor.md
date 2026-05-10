@@ -21,7 +21,7 @@ Role required: none
 
 ## About this task
 
-The list editor lets you edit field values in a list without opening a form. Administrators can configure the list editor. By default, list editing is disabled for some tables. Fields of [certain types](https://www.servicenow.com/docs/access?context=r_AdministeringTheListEditor&version=australia&pubname=australia-platform-administration&ft:locale=en-US) cannot be edited from lists.
+The list editor lets you edit field values in a list without opening a form. Administrators can configure the list editor. By default, list editing is disabled for some tables. Fields of [certain types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/r_AdministeringTheListEditor.md) cannot be edited from lists.
 
 Before the list editor opens, access rights to edit the field are verified. If this process takes longer than expected, a loading indicator appears. If the field has a dependency relationship \(for example, Category and Subcategory\), then a composite editor opens to enable editing of all dependent fields. You must have permissions to edit all dependent fields to use the list editor.
 

@@ -57,7 +57,7 @@ An alternative to using the **Evaluation interval** field is to use the **Condit
     -   It then looks for the workflows that are running for the LE case until it finds the HR Activity Set Trigger Check workflow and broadcasts the check\_activity\_set\_trigger event to that workflow.
 -   You can modify the **Condition with Event BR \(Demo\)** activity set, **Email - Condition with Event BR \(Demo\)** activity, and **Condition with Event BR \(Demo\)** business rule to fit your requirements.
 
-    **Note:** For more information, see [Lifecycle Events workflows](LEWorkflow.md) and [Business rules](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    **Note:** For more information, see [Lifecycle Events workflows](LEWorkflow.md) and [Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/business-rules-classic/c_BusinessRules.md).
 
 
 ## HR Activity Set Trigger Check workflow

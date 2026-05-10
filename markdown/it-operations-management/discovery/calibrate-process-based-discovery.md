@@ -81,7 +81,7 @@ If the **Application Fingerprints** dashboard does not display any suggestions, 
 
         ![Verify that the clustering solution is active.](../image/pi-clustering-solution.png)
 
-    5.  If the State value is not Solution Complete, configure Predictive Intelligence as described in [Configuration tips for Predictive Intelligence](https://www.servicenow.com/docs/access?context=troubleshooting-predictive-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    5.  If the State value is not Solution Complete, configure Predictive Intelligence as described in [Configuration tips for Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/troubleshooting-predictive-intelligence.md).
 
 4.  Check that the clustering solution created enough process groups, which become suggestions.
 
@@ -93,7 +93,7 @@ If the **Application Fingerprints** dashboard does not display any suggestions, 
 
     4.  If there are still less than 1000 processes after discovering additional IP ranges or subnets, [disable the fingerprint-based discovery](calibrate-process-based-discovery.md#).
 
-5.  Check that the **Application suggestion - ITOM Autodisco** transaction is not slow-loading, as described in [View and kill active transaction](https://www.servicenow.com/docs/access?context=t_ViewAndKillAnActiveTransaction&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+5.  Check that the **Application suggestion - ITOM Autodisco** transaction is not slow-loading, as described in [View and kill active transaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/t_ViewAndKillAnActiveTransaction.md).
 
     If this transaction is running for a long time, kill it.
 
@@ -205,7 +205,7 @@ Role required: discovery\_admin
 
 ### Procedure
 
-1.  Add the system property **sys\_property process.clustering.appfingerprint.enabled** as described in [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+1.  Add the system property **sys\_property process.clustering.appfingerprint.enabled** as described in [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 2.  To disable, enter `false` in the **Value** field.
 

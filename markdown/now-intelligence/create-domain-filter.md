@@ -20,7 +20,7 @@ Domain filters are available on instances with domain separation enabled. Domain
 -   com.glide.domain.msp\_extensions.installer
 -   com.snc.pa.domain\_support
 
-For more information, see [Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US). Domain filters are a different component than the Filter component.
+For more information, see [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md). Domain filters are a different component than the Filter component.
 
 Role required: ui\_builder\_admin or admin.
 

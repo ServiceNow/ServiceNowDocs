@@ -644,5 +644,5 @@ Defines dynamic variables for a model used in an application form.
 ServiceNow AI Platform
 
 </td></tr></tbody>
-</table>**Note:** To learn about ServiceNow AI Platform, CSM, and Product Catalog Management Core tables, see [Industry data model tables](https://www.servicenow.com/docs/access?context=csm-data-model-tables&version=australia&pubname=australia-customer-service-management&ft:locale=en-US), and [Tables installed with Customer Service Management](https://www.servicenow.com/docs/access?context=r_TIWCustomerService&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+</table>**Note:** To learn about ServiceNow AI Platform, CSM, and Product Catalog Management Core tables, see [Industry data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-tables.md), and [Tables installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_TIWCustomerService.md).
 

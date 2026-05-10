@@ -23,7 +23,7 @@ Generate outbound signing requests using these APIs in the following order:
 4.  HttpRequestAuthedData: Get information about the signed request.
 5.  GlideHTTPRequest: Send the signed request.
 
-Before using these APIs, you must [configure an authentication algorithm](https://www.servicenow.com/docs/access?context=configure-authentication-algorithm&version=australia&pubname=australia-platform-security&ft:locale=en-US) to sign the request and associate it with the credential used to authenticate the request.
+Before using these APIs, you must [configure an authentication algorithm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/configure-authentication-algorithm.md) to sign the request and associate it with the credential used to authenticate the request.
 
 Use this API in scoped scripts with the `sn_auth` namespace identifier.
 

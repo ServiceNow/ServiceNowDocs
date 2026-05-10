@@ -79,7 +79,7 @@ Choice
 </td><td>
 
 Each view type displays different field combinations. There are two options available:-   **Calendars**
--   [Schedule Pages](https://www.servicenow.com/docs/access?context=c_SchedulePages&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+-   [Schedule Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_SchedulePages.md)
 
 </td></tr><tr><td>
 

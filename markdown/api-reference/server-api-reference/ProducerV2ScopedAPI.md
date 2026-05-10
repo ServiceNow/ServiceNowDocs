@@ -117,7 +117,7 @@ String
 
 </td><td>
 
-Sys\_id of the schema record.Required if you're using a schema to convert plain-text messages to Avro messages and back. Schemas are stored in the Stream Connect Schemas \[stream\_connect\_schema\] table. For more information, see [Schema management in Stream Connect](https://www.servicenow.com/docs/access?context=schema-management&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+Sys\_id of the schema record.Required if you're using a schema to convert plain-text messages to Avro messages and back. Schemas are stored in the Stream Connect Schemas \[stream\_connect\_schema\] table. For more information, see [Schema management in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/schema-management.md).
 
 </td></tr></tbody>
 </table><table id="table_wn5_c3f_nvb" class="returns"><thead><tr><th>

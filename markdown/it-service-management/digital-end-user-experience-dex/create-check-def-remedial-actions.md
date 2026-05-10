@@ -19,7 +19,7 @@ Create a check definition and link it to the Agent Client Collector \(ACC\) plug
 
 -   [Create an ACC plugin package](create-acc-plugin-structure.md)
 -   [Sign and verify the ACC plugin](sign-verify-plugin.md)
--   Upload the signed ACC plugin `tar.gz` file to the ServiceNow instance. For more information, see [Create and edit Agent Client Collector plugins](https://www.servicenow.com/docs/access?context=create-edit-assets&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+-   Upload the signed ACC plugin `tar.gz` file to the ServiceNow instance. For more information, see [Create and edit Agent Client Collector plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/create-edit-assets.md).
 
 Role required: admin
 
@@ -43,7 +43,7 @@ Role required: admin
 
     For example, `custom-script.rb`.
 
-    **Note:** For information about creating a check definition with input parameters, see [Create a check definition](https://www.servicenow.com/docs/access?context=acc-api-check-def&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+    **Note:** For information about creating a check definition with input parameters, see [Create a check definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-api-check-def.md).
 
 6.  From the **When to send the check results** drop-down list, select when to send check results.
 
@@ -59,7 +59,7 @@ Role required: admin
 
 8.  On the form, fill in the remaining fields.
 
-    For a description of the field values, see [Agent Client Collector check definition page](https://www.servicenow.com/docs/access?context=check-definition-form&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+    For a description of the field values, see [Agent Client Collector check definition page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/check-definition-form.md).
 
 9.  Select **Submit**.
 

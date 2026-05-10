@@ -23,7 +23,7 @@ When you create a customer service case from a support conversation, the system 
 
 **Important:**
 
-Starting in Utah, Connect Support has been deprecated and is no longer supported or available for new activation. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://www.servicenow.com/docs/access?context=migrate-from-connect-support&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Starting in Utah, Connect Support has been deprecated and is no longer supported or available for new activation. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/migrate-from-connect-support.md).
 
 ## Procedure
 
@@ -61,5 +61,5 @@ Starting in Utah, Connect Support has been deprecated and is no longer supported
 **Related topics**  
 
 
-[Connect workspace](https://www.servicenow.com/docs/access?context=c_CollaborationWorkspace&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Connect workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_CollaborationWorkspace.md)
 

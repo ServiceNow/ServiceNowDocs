@@ -19,7 +19,7 @@ Create a labor rate card to record the time worked on a task and associate a rat
 
 Role required: asset\_admin
 
-Activate the ServiceNow® Cost Management \(com.snc.cost\_management\) plugin. For more information, see [Activate Cost Management](https://www.servicenow.com/docs/access?context=t_ActivatingCostManagement&version=australia&pubname=australia-it-business-management&ft:locale=en-US).
+Activate the ServiceNow® Cost Management \(com.snc.cost\_management\) plugin. For more information, see [Activate Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/t_ActivatingCostManagement.md).
 
 ## Procedure
 

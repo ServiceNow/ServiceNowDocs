@@ -55,8 +55,8 @@ Oracle Analytics Server consists of integrated components that provide business 
     -   `BI_ORACLE_HOME` environment variable location
     -   `bifoundation/version.txt` file within the Oracle BI installation
 -   **Create credentials on the ServiceNow AI Platform**
-    -   Windows: Configure Windows credentials. For more information, see [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
-    -   Linux: Configure SSH credentials. For more information, see [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    -   Windows: Configure Windows credentials. For more information, see [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md).
+    -   Linux: Configure SSH credentials. For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
 -   **Schedule a horizontal discovery**
 
     For more information, see [Schedule a horizontal discovery](../../discovery/task/t_CreateADiscoverySchedule.md#).

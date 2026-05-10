@@ -60,7 +60,7 @@ Role required: sam
     |Cached|If checked, the license installation has already been counted.|
     |Omit from suites|If checked, the license is ignored for any suite calculations. This box is automatically checked if the install finds a possible entitlement of the exact software model for this configuration item.|
 
-    **Note:** Third-party discovery tools can use software normalization to more effectively manage the software installation database. Software normalization allows you to standardize your software installation data, such as the display name, publisher, revision, and version. You can personalize the software installation form to include these normalization fields. For more information, see [Personalize a form](https://www.servicenow.com/docs/access?context=t_PersonalizeAForm&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    **Note:** Third-party discovery tools can use software normalization to more effectively manage the software installation database. Software normalization allows you to standardize your software installation data, such as the display name, publisher, revision, and version. You can personalize the software installation form to include these normalization fields. For more information, see [Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_PersonalizeAForm.md).
 
 
 **Parent Topic:**[Determine where software is installed using the legacy Software Asset Management plugin](../concept/c_DeterminWhereSWInstalled.md)

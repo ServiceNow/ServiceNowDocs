@@ -17,7 +17,7 @@ The Access Control List API defines access control lists \[sys\_security\_acl\] 
 
 **Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
-For general information about access control lists \(ACLs\), see [Access Control List Rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For general information about access control lists \(ACLs\), see [Access Control List Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).
 
 **Parent Topic:**[ServiceNow Fluent API reference](servicenow-fluent-api-reference.md)
 
@@ -147,7 +147,7 @@ Flag that indicates whether users with the admin role automatically pass the per
 
 -   true: Administrators automatically pass the permissions check.
 
-If true, admin users pass the permissions check regardless of what script or role restrictions apply. However, the nobody role, which only ServiceNow personnel can assign, takes precedence over the admin override option. If an ACL is assigned the nobody role, admin users cannot access the resource even when adminOverrides is true. For more information, see [Base system roles](https://www.servicenow.com/docs/access?context=r_BaseSystemRoles&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+If true, admin users pass the permissions check regardless of what script or role restrictions apply. However, the nobody role, which only ServiceNow personnel can assign, takes precedence over the admin override option. If an ACL is assigned the nobody role, admin users cannot access the resource even when adminOverrides is true. For more information, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).
 
 -   false: Administrators must meet the permissions defined in this ACL rule to gain access to the secured object. Use the condition or script properties to create a permissions check that administrators must pass.
 
@@ -238,7 +238,7 @@ String
 
 </td><td>
 
-A filter query that specifies the fields and values that must be true for users to access the object. For more information, see [Operators available for filters and queries](https://www.servicenow.com/docs/access?context=r_OpAvailableFiltersQueries&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).ACLs must include one or more roles, a security attribute, a condition, or a script.
+A filter query that specifies the fields and values that must be true for users to access the object. For more information, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).ACLs must include one or more roles, a security attribute, a condition, or a script.
 
 </td></tr><tr><td>
 
@@ -264,7 +264,7 @@ String
 
 </td><td>
 
-Pre-defined conditions for the ACL to use. For example, whether a user is impersonating another user. For more information about security attributes, see [OOB \(Out-of-Box\) Security Attributes](https://www.servicenow.com/docs/access?context=oob-security-attributes&version=australia&pubname=australia-platform-security&ft:locale=en-US).ACLs must include one or more roles, a security attribute, a condition, or a script.
+Pre-defined conditions for the ACL to use. For example, whether a user is impersonating another user. For more information about security attributes, see [OOB \(Out-of-Box\) Security Attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/oob-security-attributes.md).ACLs must include one or more roles, a security attribute, a condition, or a script.
 
 **Note:** For security attributes with the **Is localized** field set to true, the localOrExisting property of the ACL should be set to Local. If the **Is localized** field is false, the localOrExisting property should be set to Existing.
 

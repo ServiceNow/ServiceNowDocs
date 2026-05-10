@@ -128,7 +128,7 @@ Run As
 
 Option to specify the user that runs the flow. You can select the system user or the user who initiates the session. Select the user who initiates the session option when updates should come from the user who triggered the flow. For example, use this option when you want the incident record comments to come from the user who started the flow. Settings for the Run as option in a flow don't apply to child subflows.
 
- To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see [OAuth 2.0 credentials](https://www.servicenow.com/docs/access?context=oauth-2-credentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+ To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/oauth-2-credentials.md).
 
 </td></tr><tr><td>
 
@@ -141,7 +141,7 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 </td></tr></tbody>
 </table>## Printing flows
 
-Workflow Studio supports multipage printing for flows, subflows, actions, and flow execution details. For a list of supported browsers, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Workflow Studio supports multipage printing for flows, subflows, actions, and flow execution details. For a list of supported browsers, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/browser-support.md).
 
 ## Roles
 
@@ -192,9 +192,9 @@ Any general guidelines that apply to flows also apply to [subflows](flows.md#sub
     -   Set max records on Look Up Records to 1000.
     -   Avoid changing property sn\_flow\_designer.max\_iterations, which defaults to 1000.
     -   For large amounts of data processing, consider batching into smaller batches.
-    -   For bulk imports, consider [concurrent imports](https://www.servicenow.com/docs/access?context=concurrent-imports&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    -   For bulk imports, consider [concurrent imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/concurrent-imports.md).
 -   **Use QuickAPI for faster executions \(business rule alternative\)**
-    -   [QuickAPI](https://www.servicenow.com/docs/access?context=ScriptableFlowRunnerScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) executions are much faster, but there is less debugging capability.
+    -   [QuickAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ScriptableFlowRunnerScopedAPI.md) executions are much faster, but there is less debugging capability.
     -   Foreground QuickAPI executions run in the user session as the user who called the flow.
     -   Background QuickAPI executions run in a background thread and are run in the ‘system’ user session.
 -   **Use Do Until loops instead of calling flows from themselves**

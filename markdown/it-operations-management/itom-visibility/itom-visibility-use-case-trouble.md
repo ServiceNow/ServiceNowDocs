@@ -23,7 +23,7 @@ Here are alternative methods for defining application services:
 -   Use a Dynamic CI group, based on a query.
 -   Use a tag-based approach \(commonly used for Cloud integrations\).
 
-For more information about creating application services, see [Create an application service](https://www.servicenow.com/docs/access?context=create-it-services&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information about creating application services, see [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
 
 **Parent Topic:**[ITOM Visibility and CSDM reference](itom-visibility-use-case-product-view.md)
 

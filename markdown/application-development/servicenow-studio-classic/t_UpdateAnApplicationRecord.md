@@ -95,7 +95,7 @@ JavaScript Mode
 
 </td><td>
 
-The JavaScript standard that the application supports. Select **ECMAScript 2021 \(ES12\)** to support features in ECMAScript 12th edition or **ES5 Standards Mode** to support features in ECMAScript 5th edition. Select **Compatibility Mode** to support earlier ECMAScript editions. For more information, see [Set the JavaScript mode for an application](https://www.servicenow.com/docs/access?context=set-javascript-mode-application&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+The JavaScript standard that the application supports. Select **ECMAScript 2021 \(ES12\)** to support features in ECMAScript 12th edition or **ES5 Standards Mode** to support features in ECMAScript 5th edition. Select **Compatibility Mode** to support earlier ECMAScript editions. For more information, see [Set the JavaScript mode for an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/set-javascript-mode-application.md).
 
 </td></tr><tr><td>
 
@@ -139,7 +139,7 @@ Subscription model
 
 </td><td>
 
-Not applicable for ServiceNow customers who build custom applications for their own use. Used only by partners who sell and monitor the usage of resellable applications on the ServiceNow Store.Specifies how the Subscription Management application tracks usage. See [Types of subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=types-subscription-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Not applicable for ServiceNow customers who build custom applications for their own use. Used only by partners who sell and monitor the usage of resellable applications on the ServiceNow Store.Specifies how the Subscription Management application tracks usage. See [Types of subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/types-subscription-v2.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -163,7 +163,7 @@ User role
 
 </td><td>
 
-Select the user role required to access the application menu. For more information about user roles, see [Create a role](https://www.servicenow.com/docs/access?context=t_CreateARole&version=australia&pubname=australia-platform-administration&ft:locale=en-US) [Create a role](https://www.servicenow.com/docs/access?context=t_CreateARole&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Select the user role required to access the application menu. For more information about user roles, see [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateARole.md) [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateARole.md).
 
 </td></tr><tr><td>
 

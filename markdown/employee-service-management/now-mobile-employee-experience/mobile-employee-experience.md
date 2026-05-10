@@ -40,7 +40,7 @@ The Now Mobile app is a downloadable app designed to help your employees with th
     -   Upload images and attachments to ServiceNow records
     -   Request help from Agent Chat and Virtual Agent
     -   Use pre-configured Siri shortcuts unique to the Now Mobile app to complete common actions.
-**Note:** For more information, see [Base system functionality for ServiceNow mobile](https://www.servicenow.com/docs/access?context=base-system-functionality&version=australia&pubname=australia-mobile&ft:locale=en-US).
+**Note:** For more information, see [Base system functionality for ServiceNow mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/base-system-functionality.md).
 
 -   **Download the app**
 
@@ -54,7 +54,7 @@ Take a look at the Now Mobile app demo. The demo is a curated experience designe
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://www.servicenow.com/docs/access?context=hr-service-delivery-landing&version=australia&pubname=australia-release-notes&ft:locale=en-US).
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hr-service-delivery-landing.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

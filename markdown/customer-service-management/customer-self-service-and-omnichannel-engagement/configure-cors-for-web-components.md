@@ -26,7 +26,7 @@ Role required: admin
 
 ## About this task
 
-You can use the existing CORS rules to enable secure communication between ServiceNow components and the external website. You can also set up a CORS rule so that ServiceNow components are able to make cross-origin requests to retrieve dynamic translations. For more information on creating and defining CORS rules, see [Define a CORS rule](https://www.servicenow.com/docs/access?context=t_DefineACORSRule&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+You can use the existing CORS rules to enable secure communication between ServiceNow components and the external website. You can also set up a CORS rule so that ServiceNow components are able to make cross-origin requests to retrieve dynamic translations. For more information on creating and defining CORS rules, see [Define a CORS rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_DefineACORSRule.md).
 
 ## Procedure
 
@@ -52,5 +52,5 @@ The domain name that you’ve entered is configured with CORS rules and can be u
 **Related topics**  
 
 
-[Define a CORS rule](https://www.servicenow.com/docs/access?context=t_DefineACORSRule&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[Define a CORS rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_DefineACORSRule.md)
 

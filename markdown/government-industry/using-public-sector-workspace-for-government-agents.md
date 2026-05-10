@@ -41,7 +41,7 @@ Public Sector Digital Services provides agents across government agencies with a
 
     Public Sector Digital Services playbooks are setup on and are accessed through the CSM Configurable Workspace to provide step-by-step guidance to agents for resolving specific types of government service cases, including service requests, information requests, license and permit, and social benefits cases.
 
-    To learn more about CSM Configurable Workspace, see [Explore CSM Configurable Workspace](https://www.servicenow.com/docs/access?context=exploring-configurable-workspace&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+    To learn more about CSM Configurable Workspace, see [Explore CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/exploring-configurable-workspace.md).
 
 -   **Mobile Agent**
 

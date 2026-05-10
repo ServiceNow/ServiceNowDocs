@@ -19,7 +19,7 @@ The following checklist helps to ensure your environment is properly configured,
 1.  Ensure you have credentials for the development instance.
 2.  Confirm that you have the appropriate license for the tools you want to use, for example for Build Agent or Now Assist for Creator.
 
-    **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 3.  Confirm that the plugins for the tools that you want to use are installed and activated. For more information, see the following topics:
     -   [Install Build Agent](../../build-agent/tasks/install-build-agent.md)

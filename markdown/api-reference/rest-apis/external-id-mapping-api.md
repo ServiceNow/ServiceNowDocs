@@ -40,7 +40,7 @@ When a CCaaS platform \(such as Genesys Cloud, Five9, or Amazon Connect\) routes
     This API accepts any valid table name, making it extensible for future use cases. The endpoints can be called independently depending on the workflow.
 
 
-For more information about integrating with CCaaS systems, see [Integrating with contact centers](https://www.servicenow.com/docs/access?context=contactcenter-integration&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+For more information about integrating with CCaaS systems, see [Integrating with contact centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contactcenter-integration.md).
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 
@@ -407,7 +407,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://www.servicenow.com/docs/access?context=installed-with-awa&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/installed-with-awa.md).
 
 </td></tr><tr><td>
 

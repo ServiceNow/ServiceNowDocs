@@ -35,7 +35,7 @@ After configuring the access control lists \(ACLs\), you must configure the User
 -   **Dynamic user**: The logged-in user who invokes the execution of an AI agent or an agentic workflow. Dynamic user is the default user identity, and you can use the dynamic user unless there's a specific need that justifies an AI user.
 -   **AI user**: A dedicated user who executes the AI agent or an agentic workflow with assigned roles that remain consistent regardless of who or how the execution is invoked. For example, an AI agent or an agentic workflow may need to be run with elevated privileges that the dynamic user might not have.
 
-If you do not have an AI user but want to use the **AI user** identity, you need to create a new record on the User table. See [Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US). Select **AI user** as the identity type.
+If you do not have an AI user but want to use the **AI user** identity, you need to create a new record on the User table. See [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md). Select **AI user** as the identity type.
 
 **Note:**
 

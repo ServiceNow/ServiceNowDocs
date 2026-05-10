@@ -34,15 +34,15 @@ Role required:
 
     Modify them or add new ones as applicable.
 
-<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d109231e162">
+<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d109569e162">
 
 Task
 
-</th><th align="left" id="d109231e165">
+</th><th align="left" id="d109569e165">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d109231e171">
+</th></tr></thead><tbody><tr><td id="d109569e171">
 
 **Configure service definitions**
 
@@ -50,7 +50,7 @@ Description
 
 [Configure service definitions](../../fso-common/task/configure-service-definitions.md) to enable unique flows and views for deposit service cases and tasks. You can add new case types and configure service definitions for each type.
 
-</td></tr><tr><td id="d109231e193">
+</td></tr><tr><td id="d109569e193">
 
 **Edit or create flows**
 
@@ -58,7 +58,7 @@ Description
 
 [Edit or create flows](../../fso-common/task/configure-flow-designer-flows-fso-apps.md) using Workflow Studio.
 
-</td></tr><tr><td id="d109231e215">
+</td></tr><tr><td id="d109569e215">
 
 **Configure playbooks**
 
@@ -66,7 +66,7 @@ Description
 
 [Edit or create a new playbook](../../fso-common/task/configure-playbooks-fso-apps.md) using Playbooks.
 
-</td></tr><tr><td id="d109231e237">
+</td></tr><tr><td id="d109569e237">
 
 **Configure CSM Configurable Workspace**
 
@@ -74,7 +74,7 @@ Description
 
 [Configure CSM Configurable Workspace](../../fso-common/task/configure-csm-workspace-fso-apps.md) to enable agents to interact with customers and create and work on cases.
 
-</td></tr><tr><td id="d109231e265">
+</td></tr><tr><td id="d109569e265">
 
 **Configure Service Level Agreements \(SLAs\)**
 
@@ -82,7 +82,7 @@ Description
 
 [Configure the installed SLAs](../../fso-common/task/configure-sla-definitions-fso-cases.md) to configure SLA timings for deposit service cases and tasks.
 
-</td></tr><tr><td id="d109231e284">
+</td></tr><tr><td id="d109569e284">
 
 **Configure user groups**
 
@@ -90,7 +90,7 @@ Description
 
 [Configure user groups](../../fso-common/task/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.Configure agent connector and contributor roles for the groups, if required. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
 
-</td></tr><tr><td id="d109231e321">
+</td></tr><tr><td id="d109569e321">
 
 **Configure assignment rules**
 
@@ -98,7 +98,7 @@ Description
 
 [Configure assignment rules](../../fso-common/task/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.
 
-</td></tr><tr><td id="d109231e337">
+</td></tr><tr><td id="d109569e337">
 
 **Configure Document Processor**
 

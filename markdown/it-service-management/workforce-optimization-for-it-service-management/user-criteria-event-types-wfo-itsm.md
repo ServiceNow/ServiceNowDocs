@@ -48,5 +48,5 @@ Role required: admin
 **Related topics**  
 
 
-[Create a user criteria record for Service Portal](https://www.servicenow.com/docs/access?context=create-user-criteria-record&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[Create a user criteria record for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-user-criteria-record.md)
 

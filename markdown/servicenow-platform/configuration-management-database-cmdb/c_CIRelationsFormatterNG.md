@@ -17,7 +17,7 @@ The default CI form includes a CI relations formatter from which you can examine
 
 If the domain separation plugin is activated, then only relationships in which the logged on user is authorized to view both CIs, are displayed.
 
-The CI relations formatter contains a list of related CIs and a toolbar with controls for viewing the relationships between the current CI and related CIs. You can configure the controls in this formatter to modify varying aspects of the view. For more information about formatters, see [Create a formatter and add it to the form](https://www.servicenow.com/docs/access?context=t_CreateAFormatter&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The CI relations formatter contains a list of related CIs and a toolbar with controls for viewing the relationships between the current CI and related CIs. You can configure the controls in this formatter to modify varying aspects of the view. For more information about formatters, see [Create a formatter and add it to the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAFormatter.md).
 
 **Note:**
 
@@ -213,7 +213,7 @@ On instances that do not meet the internet browser requirements for the latest C
 
 [Create a CI relation rollup](../task/t_CreateACIRelationRollup.md)
 
-[Create a formatter and add it to the form](https://www.servicenow.com/docs/access?context=t_CreateAFormatter&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Create a formatter and add it to the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAFormatter.md)
 
 [Create or edit a relationship filter](../task/t_CreateRelationshipFilter.md)
 

@@ -21,17 +21,17 @@ Personal authentication allows users to securely connect their individual Micros
 
 This authentication method uses OAuth 2.0 to authorize each user, ensuring that file access and operations are performed under their unique identity. Each user connects to their own Microsoft OneDrive account, ensuring privacy and personalized access.
 
-For more information, see [Personal Authentication](https://www.servicenow.com/docs/access?context=personal-authentication&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information, see [Personal Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/personal-authentication.md).
 
 ## Personal authentication for Google Drive
 
 Personal authentication for Google Drive enables users to securely link their individual Google accounts with Document Management. This integration allows users to access, upload, and manage files from their personal Google Drive within ServiceNow, ensuring that all document interactions are authenticated under the user’s unique identity.
 
-For more information, see [Personal Authentication](https://www.servicenow.com/docs/access?context=personal-authentication&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information, see [Personal Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/personal-authentication.md).
 
 ## Personal Authentication dashboard
 
-Use your personal credentials to connect to third-party integrations. View, authenticate, revoke, and renew your personal authentications through a simplified, consolidated interface. For more information, see [Using the Personal Authentication dashboard](https://www.servicenow.com/docs/access?context=personal-auth-dashboard&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+Use your personal credentials to connect to third-party integrations. View, authenticate, revoke, and renew your personal authentications through a simplified, consolidated interface. For more information, see [Using the Personal Authentication dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/personal-auth-dashboard.md).
 
 **Note:** The personal authentication dashboard can be accessed by users with `sn_personal_auth.personal_auth_user` role.
 

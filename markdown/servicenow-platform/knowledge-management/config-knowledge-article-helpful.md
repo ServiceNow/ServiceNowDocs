@@ -38,7 +38,7 @@ The article view page uses the Knowledge Article Helpful widget to allow users t
     |Instance option|Description|
     |---------------|-----------|
     |Bootstrap color|The color of the widget header.|
-    |CSS|Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://www.servicenow.com/docs/access?context=scss-primer&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).|
+    |CSS|Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/scss-primer.md).|
     |Show helpful percentage information|Check box to enable the display of percentage of users who found this article to be helpful.|
     |Helpful Action Label|Label for marking this article as helpful or not.|
     |Feedback Message|Text that displays when the user marks the article as helpful or not.|

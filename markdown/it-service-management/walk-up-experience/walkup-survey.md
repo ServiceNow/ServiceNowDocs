@@ -25,7 +25,7 @@ Two base-system predefined Walk-up Experience surveys are provided:
 
 Walk-up administrators and managers can modify these surveys and the associated trigger conditions. Managers and administrators can review responses by question and see a scorecard for each survey on the **Walk-up Experience Dashboard** module. Requester feedback is used to improve the performance of walk-up interactions.
 
-For more information about working with surveys, sentiment analysis, trigger conditions, and survey questions, see [Assessments and Surveys](https://www.servicenow.com/docs/access?context=assessments-surveys-landing-page&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information about working with surveys, sentiment analysis, trigger conditions, and survey questions, see [Assessments and Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/assessments-surveys-landing-page.md).
 
 -   **[Create or modify a Walk-up Experience customer satisfaction survey](../task/configure-walkup-csat-survey.md)**  
 Improve your **Walk-up Experience** operations and customer service by using surveys and monitoring survey results. Walk-up surveys capture important information from users about the interaction experience provided to them at the venue.

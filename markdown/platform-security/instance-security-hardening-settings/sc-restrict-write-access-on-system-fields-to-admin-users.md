@@ -23,7 +23,7 @@ The **glide.rest.table\_api.admin\_only\_sys\_fields** property controls write a
 -   sys\_updated\_by
 -   sys\_updated\_on
 
-When this property is set to **true**, only an admin can write to these fields that are system-generated values. When the property is set to **false** or it doesn't exist in the System Properties \[sys\_properties\] table, users who have create or write access to a table can write to these system values using the [Table API](https://www.servicenow.com/docs/access?context=c_TableAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+When this property is set to **true**, only an admin can write to these fields that are system-generated values. When the property is set to **false** or it doesn't exist in the System Properties \[sys\_properties\] table, users who have create or write access to a table can write to these system values using the [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_TableAPI.md).
 
 Set the property **glide.rest.table\_api.admin\_only\_sys\_fields** to **true** to prevent non-admin users from updating system fields on records.
 
@@ -120,7 +120,7 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Parent Topic:**[Access control](sc-access-control.md)
 

@@ -91,7 +91,7 @@ The script block that contains the notification link. In the script block, the J
 
     2.  Use the notification layout script and include the global application scope to generate layout fields.
 
-        To learn more about script includes, see [Script Includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+        To learn more about script includes, see [Script Includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
         **Note:** Do not modify the notification layout generator script include.
 

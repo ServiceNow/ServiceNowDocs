@@ -720,11 +720,11 @@ To use this endpoint, users must have the csm\_ws\_integration, sn\_customerserv
 
 Use this endpoint to populate field value lists in case creation forms.
 
-When you request values for a reference field, any reference qualifiers defined for the requested field in the Dictionary Entry \[sys\_dictionary\] table are applied. For more information on reference qualifiers, see [Reference qualifiers](https://www.servicenow.com/docs/access?context=c_ReferenceQualifiers&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+When you request values for a reference field, any reference qualifiers defined for the requested field in the Dictionary Entry \[sys\_dictionary\] table are applied. For more information on reference qualifiers, see [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceQualifiers.md).
 
 You can use the **sysparm\_ref\_qual\_input** query parameter to specify field values to use when evaluating JavaScript reference qualifiers. For an example, see the query parameter listing below.
 
-When you request values for a choice field that is dependent on another field, you can use the **sysparm\_dependent\_value** query parameter to specify a value for the dependency parent field and restrict the returned field values accordingly. For more details on dependent fields, see [Make a field dependent](https://www.servicenow.com/docs/access?context=t_MakingAFieldDependent&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+When you request values for a choice field that is dependent on another field, you can use the **sysparm\_dependent\_value** query parameter to specify a value for the dependency parent field and restrict the returned field values accordingly. For more details on dependent fields, see [Make a field dependent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_MakingAFieldDependent.md).
 
 **Note:** You can reference all sysparm query parameters using either their full name or their shortened name \(without the **sysparm\_** prefix\). For example, for **sysparm\_limit** you can also use **limit**.
 
@@ -1003,11 +1003,11 @@ To use this endpoint, users must have the csm\_ws\_integration, sn\_customerserv
 
 Use this endpoint to populate field value lists in case update forms.
 
-When you request values for a reference field, any reference qualifiers defined for the requested field in the Dictionary Entry \[sys\_dictionary\] table are applied, using values from the specified case record. For more information on reference qualifiers, see [Reference qualifiers](https://www.servicenow.com/docs/access?context=c_ReferenceQualifiers&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+When you request values for a reference field, any reference qualifiers defined for the requested field in the Dictionary Entry \[sys\_dictionary\] table are applied, using values from the specified case record. For more information on reference qualifiers, see [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceQualifiers.md).
 
 You can use the **sysparm\_ref\_qual\_input** query parameter to override values from the specified case when evaluating JavaScript reference qualifiers. For an example, see the query parameter listing below.
 
-When you request values for a choice field that is dependent on another field, this endpoint limits returned field values based on the dependency parent field value selected in the specified case record. For more details on dependent fields, see [Make a field dependent](https://www.servicenow.com/docs/access?context=t_MakingAFieldDependent&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+When you request values for a choice field that is dependent on another field, this endpoint limits returned field values based on the dependency parent field value selected in the specified case record. For more details on dependent fields, see [Make a field dependent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_MakingAFieldDependent.md).
 
 You can use the **sysparm\_dependent\_value** query parameter to override the selection from the dependency parent field. For an example, see the query parameter listing below.
 

@@ -18,7 +18,7 @@ Run a pre-built IT Service Management \(ITSM\) Virtual Agent Lite topic to decid
 
 ## Before you begin
 
-Activate the plugin. For more information, see [ITSM Virtual Agent Conversation Topics Lite](https://www.servicenow.com/docs/access?context=setup-itsm-virtual-agent-lite&version=australia&pubname=australia-it-service-management&ft:locale=en-US) \(com.snc.itsm.virtualagent.lite\).
+Activate the plugin. For more information, see [ITSM Virtual Agent Conversation Topics Lite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setup-itsm-virtual-agent-lite.md) \(com.snc.itsm.virtualagent.lite\).
 
 Role required: virtual\_agent\_admin or admin
 

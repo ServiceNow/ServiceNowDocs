@@ -13,7 +13,7 @@ breadcrumb: [Exploring the application portfolio, Exploring Portfolio list view,
 
 A business application is software used by business users to perform a business function. Classify the applications to maintain an inventory and consolidate the business applications. Analyze, assess, and evaluate the applications across various dimensions and determine the action that you can take for each application.
 
-You can record the details of a business application manually or import the list of applications from a spreadsheet or a third-party tool. To [import data](https://www.servicenow.com/docs/access?context=c_ImportDataUsingImportSets&version=australia&pubname=australia-integrate-applications&ft:locale=en-US), define a data source and transform map, and run or schedule an import.
+You can record the details of a business application manually or import the list of applications from a spreadsheet or a third-party tool. To [import data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md), define a data source and transform map, and run or schedule an import.
 
 ## Assessment of Business applications
 

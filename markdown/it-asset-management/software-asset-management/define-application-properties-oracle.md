@@ -30,7 +30,7 @@ Domain separation is supported on the following Oracle reconciliation properties
 -   **Select the level of aggregation for reconciling licenses for Oracle databases and WebLogic servers on VMware** \(**com.snc.samp.oracle.reconlevel**\)
 -   **Use host affinity for reconciling licenses for Oracle databases and WebLogic servers on VMware at the vCenter\(s\) aggregation level** \(**com.snc.samp.oracle.hostaffinityenabled**\)
 
-For more information on the existing Software Asset Management properties, see [Software Asset Management properties](../reference/sam-properties.md). For more information on domain separation application properties, see [Domain separation application properties](https://www.servicenow.com/docs/access?context=ds-application-properties&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on the existing Software Asset Management properties, see [Software Asset Management properties](../reference/sam-properties.md). For more information on domain separation application properties, see [Domain separation application properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ds-application-properties.md).
 
 ## Procedure
 

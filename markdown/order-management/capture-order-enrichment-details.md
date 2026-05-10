@@ -33,15 +33,15 @@ You can enrich order and order line items that meet the following conditions:
 
 3.  Navigate to the order enrichment task using either of the following options.
 
-<table id="choicetable_ctl_t4y_pgc"><thead><tr><th align="left" id="d68886e108">
+<table id="choicetable_ctl_t4y_pgc"><thead><tr><th align="left" id="d68918e108">
 
 Navigation option
 
-</th><th align="left" id="d68886e111">
+</th><th align="left" id="d68918e111">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d68886e117">
+</th></tr></thead><tbody><tr><td id="d68918e117">
 
 **From Customer Orders**
 
@@ -53,7 +53,7 @@ Steps
 4.  Select the order enrichment task to open the task record and view its details.
 
 
-</td></tr><tr><td id="d68886e153">
+</td></tr><tr><td id="d68918e153">
 
 **From Order Tasks**
 

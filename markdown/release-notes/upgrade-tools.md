@@ -17,13 +17,13 @@ Learn about ServiceNow products and tools that can improve your upgrade experien
 
 Use these ServiceNow products to automate parts of your upgrade testing and manage your upgrades from one central place.
 
--   **[Automated Test Framework](https://www.servicenow.com/docs/access?context=automated-test-framework&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/automated-test-framework.md)**
 
     The Automated Test Framework \(ATF\) enables you to create and run automated tests to confirm that your instance works after making a change. For example, after an upgrade, during application development, or when deploying instance configurations with update sets. Review failed test results to identify the changes that caused the failure and the changes that you should review.
 
     **Note:** By default, the system property to run automated tests is disabled to prevent you from accidentally running them on a production system. Run tests only on development, test, and other non-production instances to avoid data corruption and outage.
 
--   **[Upgrade Center](https://www.servicenow.com/docs/access?context=uc-landing-page&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-landing-page.md)**
 
     Use ServiceNow® Upgrade Center to plan and manage your upgrades. Use the Upgrade Preview module to explore different release versions available to you and gain insights about the experience of an upgrade without actually upgrading your instance. You can also monitor the status of any ongoing upgrade and view the summary of your latest upgrade with the new Upgrade Monitor module. The Upgrade Center also features an Upgrade visual task board \(VTB\) to manage post-upgrade skips. A separate Upgrade History module can be used to view all your past upgrades.
 

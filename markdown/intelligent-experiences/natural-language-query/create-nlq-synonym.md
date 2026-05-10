@@ -28,7 +28,7 @@ Several synonyms are provided in the base system, and you can add more for your 
 You can create a new synonym, or modify an existing synonym, as follows.
 
 -   If any synonym already exists for your target table and column, you must add your new synonym to the current record. Separate multiple synonyms with a comma.
--   Synonyms can point to reference fields, using dot-walking. For more information, see [Dot-walking examples](https://www.servicenow.com/docs/access?context=dot-walking-examples&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+-   Synonyms can point to reference fields, using dot-walking. For more information, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dot-walking-examples.md).
 -   Synonyms are case-insensitive in queries.
 -   Synonyms can contain apostrophes and periods, but not commas.
 -   Synonym records are associated to one table. You can use the same synonym term for more than one table, but you must create a record for each table.
@@ -60,7 +60,7 @@ Synonym Type
 Type of synonym.
 
 -   **Table or Column**: Synonym for a value on a table or a specific column in that table.
--   **Record**: Synonym for a value on the CMDB tables \[cmdb\_rel\_type\_table\]. For more information, see [Querying the CMDB](https://www.servicenow.com/docs/access?context=querying-cmdb&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   **Record**: Synonym for a value on the CMDB tables \[cmdb\_rel\_type\_table\]. For more information, see [Querying the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md).
 
 **Note:** Supports cmdb\_rel\_type,cmdb\_group, cmdb\_ci\_service\_technical, cmdb\_ci\_service\_discovered, cmdb\_ci\_query\_based\_service tables.
 

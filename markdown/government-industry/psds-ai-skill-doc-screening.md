@@ -31,7 +31,7 @@ The Document Screening Skill uses Al-driven document intelligence. Key capabilit
 -   Ul Integration: Validation results are displayed directly next to each uploaded document, allowing human agents to confirm or dispute the classification.
 -   Al-Assisted Message Composition: Agents can quickly generate messages requesting corrected documents, which are reprocessed automatically upon re-upload.
 
-For more information on Document Intelligence, see [Document Intelligence](https://www.servicenow.com/docs/access?context=document-intelligence-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information on Document Intelligence, see [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-landing.md).
 
 The Document Screening Skill delivers measurable value across agencies: Reduced manual effort by eliminating repetitive document checks, Faster application processing and reduced case backlogs, Improved accuracy and consistency in document validation, Lower operational risk from missed or incorrect documentation, Higher agent productivity, allowing staff to focus on complex case work.
 

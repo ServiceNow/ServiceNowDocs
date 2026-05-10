@@ -15,7 +15,7 @@ breadcrumb: [Use, Health and Safety Core, Health and Safety, Employee Service Ma
 
 As a safety manager or agent, you can manage safety-related knowledge base articles in the Health and Safety Workspace.
 
-The Health and Safety Knowledge is the same as the ServiceNow AI Platform Knowledge Management. For more information, see [Knowledge Management](https://www.servicenow.com/docs/access?context=knowledge-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+The Health and Safety Knowledge is the same as the ServiceNow AI Platform Knowledge Management. For more information, see [Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management.md).
 
 ## Knowledge-related tasks in the Health and Safety Workspace
 
@@ -28,7 +28,7 @@ Based on your access permissions, you can perform the following Knowledge-relate
 -   Republish a retired article if necessary.
 -   Delete an article.
 
-To learn about authoring and managing knowledge articles in a workspace, see [Authoring a knowledge article in Agent Workspace](https://www.servicenow.com/docs/access?context=managing-knowledge-workspace&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+To learn about authoring and managing knowledge articles in a workspace, see [Authoring a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/managing-knowledge-workspace.md).
 
 ## Knowledge articles available with Health and Safety
 
@@ -51,7 +51,7 @@ To view a list of all knowledge base articles in the Health and Safety Workspace
 **Note:** By default, the knowledge list in the Health and Safety Workspace is filtered by the `Knowledge base = Safety` filter. However, to view all articles from other knowledge bases, you can do the following:
 
 -   Select the filter icon \(![filter icon](../../talent-acquisition/images/icon-filter.png)\) in the list and remove the `Knowledge base = Safety` filter.
--   Additionally, to remove this default filter setting from the Knowledge list in the Health and Safety Workspace, remove it in the UIB related list configuration. For more information, see [Lists](https://www.servicenow.com/docs/access?context=lists-configurable-workspace&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+-   Additionally, to remove this default filter setting from the Knowledge list in the Health and Safety Workspace, remove it in the UIB related list configuration. For more information, see [Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/lists-configurable-workspace.md)
 
 -   **[Create a Health and Safety knowledge article](../task/hs-create-safety-knowledge-article.md)**  
 Create a safety-related knowledge article in the Health and Safety Workspace to share information across your organization.

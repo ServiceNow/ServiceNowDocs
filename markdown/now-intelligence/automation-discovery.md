@@ -83,7 +83,7 @@ The **Actions You Can Take** card shows what you can do with the automation oppo
 
 In Topic Recommendations, you can add topics to your Natural Language Understanding \(NLU\) models and to Virtual Agent. If you add an opportunity to a model, the **Action Taken** shows the corresponding intent or model.
 
-To learn more see [Using Virtual Agent Topic Recommendations](https://www.servicenow.com/docs/access?context=va-topic-recommendations&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) and [NLU models](https://www.servicenow.com/docs/access?context=nlu-models&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+To learn more see [Using Virtual Agent Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-topic-recommendations.md) and [NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-models.md).
 
 You can also create custom topics for opportunities that are not VA ready. For more information about creating custom topics, see [Creating Virtual Agent Topics](https://developer.servicenow.com/dev.do#!/learn/learning-plans/quebec/servicenow_application_developer/app_store_learnv2_virtualagent_quebec_creating_topics) on the ServiceNow Developer Site.
 
@@ -110,5 +110,5 @@ Enabling sampling of data before clustering is run can help speed up the report 
 **Related topics**  
 
 
-[Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md)
 

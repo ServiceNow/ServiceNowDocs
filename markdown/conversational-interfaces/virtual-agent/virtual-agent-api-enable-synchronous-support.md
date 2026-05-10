@@ -43,7 +43,7 @@ Ensure to exclude the Bot to Bot channel from Agent Chat.
 
     ![Bot to Bot channel configuration for Synchronous mode shows Enable Notifications and Support typing indicator boxes as unselected. The Synchronous box is selected.](../images/va-api-synchronous-mode.png "Bot to Bot channel with synchronous support enabled")
 
-    **Note:** If the **Synchronous** field is not visible, you can [configure the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to show it.
+    **Note:** If the **Synchronous** field is not visible, you can [configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) to show it.
 
 6.  Click **Update**.
 

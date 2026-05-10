@@ -31,7 +31,7 @@ To set up Enterprise Service Management Integrations Framework, you must first a
 
 3.  Create a flow in Flow Designer.
 
-    For more information, refer to [Create a flow](https://www.servicenow.com/docs/access?context=create-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For more information, refer to [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
 
     **Note:** The flows or subflows that you are parsing into integration services must follow the input and output structure of Template Integration Service.
 

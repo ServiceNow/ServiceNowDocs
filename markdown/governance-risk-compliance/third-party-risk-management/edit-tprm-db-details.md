@@ -37,7 +37,7 @@ Any role for dashboards that you own or ones that you have been given permission
 
     3.  Mark the dashboard as **Certified** to inform the user that the dashboard is for use across your organization.
 
-        **Note:** You must have an admin role to mark a dashboard as **Certified**. For more information, see [Certify a Platform Analytics dashboard](https://www.servicenow.com/docs/access?context=certify-db-ac&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+        **Note:** You must have an admin role to mark a dashboard as **Certified**. For more information, see [Certify a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/certify-db-ac.md).
 
     4.  In **Dashboard Visibility**, view, add, or remove workspaces in which the dashboard can be viewed.
 
@@ -45,7 +45,7 @@ Any role for dashboards that you own or ones that you have been given permission
 
     5.  Specify one or more dashboard categories.
 
-        For more information, see [Platform Analytics experience dashboard categories](https://www.servicenow.com/docs/access?context=db-categories&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+        For more information, see [Platform Analytics experience dashboard categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/db-categories.md).
 
     6.  Specify who requested the dashboard.
 

@@ -18,71 +18,71 @@ The ServiceNow® Integration Hub application extends the ServiceNow® Workflow S
 -   Simplify topic management in Stream Connect with topic aliases. A topic alias is a unique topic name that can be connected to any underlying Hermes or Direct Kafka topic.
 -   View detailed statistics and monitor the health of your Integration Hub Remote Process Sync \(RPS\) integrations with the Remote Process Sync Dashboard.
 
-See [Integration Hub](https://www.servicenow.com/docs/access?context=integrationhub&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for more information.
+See [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md) for more information.
 
 ## New in the Australia release
 
--   **[Use Direct Kafka to integrate your on-premise ServiceNow instance with your local Kafka environment](https://www.servicenow.com/docs/access?context=direct-kafka&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **[Use Direct Kafka to integrate your on-premise ServiceNow instance with your local Kafka environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/direct-kafka.md)**
 
     Configure a custom Kafka connection to enable your on-premise instance to connect directly to your local Kafka environment.
 
--   **[Create topic aliases for Stream Connect topics](https://www.servicenow.com/docs/access?context=manage-topic-alias&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **[Create topic aliases for Stream Connect topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/manage-topic-alias.md)**
 
     Use topic aliases to simplify topic management in Stream Connect. A topic alias is a unique topic name that can be connected to any underlying Hermes or Direct Kafka topic. A topic alias can be moved to different instances and, wherever they’re moved, connected to an underlying topic.
 
--   **[Stream Connect Dashboard updates](https://www.servicenow.com/docs/access?context=stream-connect-dashboard&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **[Stream Connect Dashboard updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-dashboard.md)**
     -   The Topics menu displays topic aliases, Hermes topics, and Direct Kafka topics.
     -   The **Data usage** tab shows data for the Hermes cluster or the Direct Kafka cluster. Use the **Kafka Cluster** list to select which cluster data to display.
     -   The Consumers and Producers menus reference topic aliases instead of Hermes topics.
--   **[View the Remote Process Sync Dashboard](https://www.servicenow.com/docs/access?context=remote-process-sync-dashboard&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **[View the Remote Process Sync Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/remote-process-sync-dashboard.md)**
 
     View detailed statistics and monitor the health of your Remote Process Sync \(RPS\) integrations. The Remote Process Sync Dashboard provides real-time visibility into key metrics, including records processed, queue sizes, processing times, and system status. Use this dashboard to identify issues, track performance trends, and promote smooth operation of your RPS integrations.
 
--   **[Produce messages to Hermes via a MID Server](https://www.servicenow.com/docs/access?context=MID-hermes-API&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **[Produce messages to Hermes via a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/MID-hermes-API.md)**
 
     Send message payloads to Hermes with MID script includes.
 
--   **[View usage metrics for Direct Kafka](https://www.servicenow.com/docs/access?context=direct-kafka-usage-metrics&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **[View usage metrics for Direct Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/direct-kafka-usage-metrics.md)**
 
     Track data usage between your instance and Direct Kafka systems. The Direct Kafka Usage metrics table provides administrators with visibility into data transfer volumes for bytes produced and consumed. View metrics aggregated by hour, day, or month at the cluster and topic level. Usage records are automatically retained for 13 months.
 
--   **[Use the read-only role for Stream Connect](https://www.servicenow.com/docs/access?context=stream-connect-apache-kafka-roles&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **[Use the read-only role for Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka-roles.md)**
 
     Use the new read-only role for Stream Connect to grant users view-only access to Stream Connect resources. Users with this role can view Stream Connect configurations and runtime statistics across all related modules, but can’t create, modify, or delete any Stream Connect settings.
 
--   **[View logs for Stream Connect producers](https://www.servicenow.com/docs/access?context=producer-statistics&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **[View logs for Stream Connect producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/producer-statistics.md)**
 
     Get detailed log information for producers in the Stream Connect logs. Use the **glide.ih.kafka.producer.message\_bytes\_to\_log** property to specify how much of the message to display in the logs.
 
--   **[Configure alert thresholds for undelivered messages in Stream Connect](https://www.servicenow.com/docs/access?context=sc-alert-properties&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **[Configure alert thresholds for undelivered messages in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sc-alert-properties.md)**
 
     Set alert thresholds for undelivered messages based on how long a topic has gone without receiving new messages. Use this configuration to trigger INFO, WARNING, or CRITICAL alerts when message delivery stops for a specified period.
 
--   **[Configure alert thresholds for unprocessed messages in Stream Connect](https://www.servicenow.com/docs/access?context=sc-alert-properties&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **[Configure alert thresholds for unprocessed messages in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sc-alert-properties.md)**
 
     Set alert thresholds for messages that remain unprocessed in a topic. You can trigger alerts based on how long messages sit in a topic without being consumed, helping to identify lagging or failing consumers.
 
--   **[Get metadata information for Stream Connect consumers](https://www.servicenow.com/docs/access?context=configure-script-consumer&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **[Get metadata information for Stream Connect consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-script-consumer.md)**
 
     View the partition, offset, datacenter ID, and timestamp epoch for the script consumer and Kafka Message trigger.
 
--   **[View message timestamps in the Stream Connect script consumer](https://www.servicenow.com/docs/access?context=configure-script-consumer&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **[View message timestamps in the Stream Connect script consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-script-consumer.md)**
 
     Get the message timestamp in the script consumer as a UTC time-zone string. You can use the UTC time-zone string to convert the timestamp to a **GlideDateTime** object.
 
--   **[Use an error subflow template to create your own error subflows in Remote Process Sync](https://www.servicenow.com/docs/access?context=getting-started-with-remote-process-sync&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **[Use an error subflow template to create your own error subflows in Remote Process Sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md)**
 
     Copy and modify the RPS Error Subflow Template to create error subflows. The template enables you to select notification methods for when the Inbound and Outbound States are errored.
 
 -   **Specify attachment details in Remote Process Sync actions**
 
-    Specify the max attachment size and allowed attachment extensions in the [Identify New Attachments action](https://www.servicenow.com/docs/access?context=identify-new-attachments-action&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) and the [Get Attachment Metadata for Local Record action](https://www.servicenow.com/docs/access?context=get-attachment-metadata-local-record-action&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    Specify the max attachment size and allowed attachment extensions in the [Identify New Attachments action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/identify-new-attachments-action.md) and the [Get Attachment Metadata for Local Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/get-attachment-metadata-local-record-action.md).
 
 -   **Use a new retry policy for Remote Process Sync actions**
 
-    Retry failed requests at specified intervals with the RPS Push Attachment Policy. This policy works with the [Identify New Attachments action](https://www.servicenow.com/docs/access?context=identify-new-attachments-action&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) and the [Get Attachment Metadata for Local Record action](https://www.servicenow.com/docs/access?context=get-attachment-metadata-local-record-action&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    Retry failed requests at specified intervals with the RPS Push Attachment Policy. This policy works with the [Identify New Attachments action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/identify-new-attachments-action.md) and the [Get Attachment Metadata for Local Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/get-attachment-metadata-local-record-action.md).
 
--   **[SASL authentication support for Apache Kafka connections](https://www.servicenow.com/docs/access?context=hla-data-input-kafka-credentials&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)**
+-   **[SASL authentication support for Apache Kafka connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-kafka-credentials.md)**
 
     Configure SASL authentication for your Apache Kafka connections with support for SASL\_SSL and SASL\_PLAINTEXT security protocols. Kafka credentials now support multiple SASL mechanisms: PLAIN- SCRAM-SHA-256, SCRAM-SHA-512.
 
@@ -93,7 +93,7 @@ Integration Hub is included in Workflow Data Fabric and is available with activa
 
 ## Plugin information
 
--   **[New plugins](https://www.servicenow.com/docs/access?context=ih-plugins&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **[New plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/ih-plugins.md)**
 
     The following plugins are new in Australia:
 
@@ -108,19 +108,19 @@ Integration Hub is included in Workflow Data Fabric and is available with activa
 
 ## Related ServiceNow applications and features
 
--   **[Workflow Studio](https://www.servicenow.com/docs/access?context=workflow-studio&version=australia&pubname=australia-build-workflows&ft:locale=en-US)**
+-   **[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md)**
 
     ServiceNow® Workflow Studio enables process owners to automate approvals, tasks, notifications, and record operations without having to code. You can use the Workflow Studio design environment to author flows and actions and to view the results that they produce.
 
--   **[MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md)**
 
     The Management, Instrumentation, and Discovery \(MID\) Server is a Java application that runs as a Windows service or UNIX daemon on a server in your local network. The ServiceNow® MID Server enables communication and the movement of data between a ServiceNow instance and external applications, data sources, and services.
 
--   **[RPA Hub](https://www.servicenow.com/docs/access?context=rpa-hub-landing-page&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **[RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-landing-page.md)**
 
     Use the ServiceNow® Robotic Process Automation \(RPA\) Hub to enable end-to-end automation for your organization. With a combination of UI interactions, element-based automations, and APIs that interact between the various business applications, you can emulate user actions and eliminate mundane and repetitive human activities.
 
--   **[Connections and Credentials](https://www.servicenow.com/docs/access?context=r-credentials&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
+-   **[Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md)**
 
     Credentials and connection information are required to gain access to a computer or network device for ServiceNow® Discovery, ServiceNow® Service Mapping, and ServiceNow® Cloud Management, or to perform work using ServiceNow® Orchestration. When adding content to share on the ServiceNow® Developer Site or the ServiceNow® Store, you can configure connections and credentials relevant to your environment without modifying the built content.
 

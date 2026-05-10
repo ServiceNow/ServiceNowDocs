@@ -103,7 +103,7 @@ Depreciation
 
 </td><td>
 
-The [Use depreciation with fixed assets](https://www.servicenow.com/docs/access?context=c_CreatingFixedAssets&version=australia&pubname=australia-it-asset-management&section=t_UsingDepreciationWithFixedAssets&ft:locale=en-US) for the model.
+The [Use depreciation with fixed assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/c_CreatingFixedAssets.md) for the model.
 
 </td></tr><tr><td>
 

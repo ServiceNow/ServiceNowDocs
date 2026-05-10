@@ -25,7 +25,7 @@ Role required: itil, admin, or sn\_change\_write
 
 2.  Select one of the following options depending on the type of standard change you want to create.
 
-<table id="choicetable_g1t_3h4_rw"><tbody><tr><td id="d276033e73">
+<table id="choicetable_g1t_3h4_rw"><tbody><tr><td id="d276284e73">
 
 **Network Standard Changes**
 
@@ -33,7 +33,7 @@ Role required: itil, admin, or sn\_change\_write
 
 Create a standard change request for the network.
 
-</td></tr><tr><td id="d276033e82">
+</td></tr><tr><td id="d276284e82">
 
 **Server Standard Changes**
 

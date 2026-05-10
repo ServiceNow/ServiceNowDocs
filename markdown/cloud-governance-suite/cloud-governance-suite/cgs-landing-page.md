@@ -24,19 +24,19 @@ Key feature in Cloud Workspace is Cloud Account Management \(CAM\), which is ava
 
 <table id="table_kqk_ttx_r5b" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg)](https://www.servicenow.com/docs/access?context=exploring-cam&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)Learn about Cloud Account Management concepts and features.
+[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/exploring-cam.md)Learn about Cloud Account Management concepts and features.
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)](https://www.servicenow.com/docs/access?context=configuring-cam&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)Configure environment and user access.
+[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/configuring-cam.md)Configure environment and user access.
 
 </td></tr><tr><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-try-a-demo.svg)](https://www.servicenow.com/docs/access?context=using-cam&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)Become familiar with workflow to create and manage cloud accounts.
+[Use ![](../../../reuse/icons/brand-icons/bus-try-a-demo.svg)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/using-cam.md)Become familiar with workflow to create and manage cloud accounts.
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-whitepaper.svg)](https://www.servicenow.com/docs/access?context=cam-reference&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)Get details about components like fields, tables, and properties.
+[Reference ![](../../../reuse/icons/brand-icons/bus-whitepaper.svg)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/cam-reference.md)Get details about components like fields, tables, and properties.
 
 </td></tr></tbody>
 </table>

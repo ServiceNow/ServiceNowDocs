@@ -51,6 +51,6 @@ For information on configuring HR case transfer or classification properties, se
 
     **Note:** If the sn\_hr\_core.restrict\_guest\_email system property is False, text from an email appears in the Work notes field when the employee is responding from a personal email account. False is the default property.
 
-    See [Email setup](https://www.servicenow.com/docs/access?context=c_EmailConfiguration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    See [Email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailConfiguration.md).
 
 

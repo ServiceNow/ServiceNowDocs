@@ -26,7 +26,7 @@ Role required: asset
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 The Generate hardware asset insights generative AI skill generates comprehensive asset analysis summaries by aggregating data from related records. These summaries provide insights into the asset lifecycle, chain of custody, audit status, and financial metrics to support key asset management activities. The level of detail in the summary depends on the amount of data available for that specific asset. The summary dynamically updates based on asset state and includes context from any active incidents, change requests, or tasks. To maintain data integrity and streamline workflows, the skill highlights missing information and lists specific action items.
 

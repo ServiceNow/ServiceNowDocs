@@ -15,7 +15,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Agent Client Collector API provides endpoints to manage actions on available agents and managing policies.
 
-This API requires the Agent Client Collector Framework \(sn\_agent\) store application and is provided within the `sn_agent` namespace. The endpoints in this API require the agent\_client\_collector\_admin role. For more information, refer to [Agent Client Collector](https://www.servicenow.com/docs/access?context=acc-landing-page&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+This API requires the Agent Client Collector Framework \(sn\_agent\) store application and is provided within the `sn_agent` namespace. The endpoints in this API require the agent\_client\_collector\_admin role. For more information, refer to [Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-landing-page.md).
 
 -   **Agent management endpoints**
 
@@ -819,7 +819,7 @@ plugins
 
 </td><td>
 
-List of [Agent Client Collector plugins](https://www.servicenow.com/docs/access?context=acc-assets&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) associated with this check. Data type: Array
+List of [Agent Client Collector plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-assets.md) associated with this check. Data type: Array
 
 </td></tr><tr><td>
 
@@ -1019,7 +1019,7 @@ X-Enc-Query
 
 </td><td>
 
-An [encoded query string](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to filter the check definition result list. Use null for an unfiltered list of check definitions in the system. Data type: String
+An [encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md) to filter the check definition result list. Use null for an unfiltered list of check definitions in the system. Data type: String
 
 </td></tr><tr><td>
 
@@ -1229,7 +1229,7 @@ plugins
 
 </td><td id="accCkDf-plugins-desc">
 
-List of [Agent Client Collector plugins](https://www.servicenow.com/docs/access?context=acc-assets&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) associated with this check. Data type: Array
+List of [Agent Client Collector plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-assets.md) associated with this check. Data type: Array
 
 </td></tr><tr><td>
 
@@ -1686,7 +1686,7 @@ X-Enc-Query
 
 </td><td>
 
-Encoded query on the Agent Client Collectors \[sn\_agent\_cmdb\_ci\_agent\] table in standard Glide format. See [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Encoded query on the Agent Client Collectors \[sn\_agent\_cmdb\_ci\_agent\] table in standard Glide format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 </td></tr><tr><td>
 
@@ -2144,7 +2144,7 @@ X-Enc-Query
 
 </td><td>
 
-Optional. Encoded query string in standard Glide format. See [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Optional. Encoded query string in standard Glide format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 </td></tr><tr><td>
 
@@ -2206,7 +2206,7 @@ policies
 
 </td><td>
 
-List of policies retrieved. Includes checks and agent in results if queried using specific request headers. For information on policies, see [default checks and policies](https://www.servicenow.com/docs/access?context=agent-policies-checks&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).```
+List of policies retrieved. Includes checks and agent in results if queried using specific request headers. For information on policies, see [default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md).```
 {
   "policies": [
     {
@@ -2445,7 +2445,7 @@ policies.monitored\_ci\_group
 
 </td><td>
 
-Name of the [CMDB groups](https://www.servicenow.com/docs/access?context=cmdb-groups&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) associated with the policy.This field is only applied if the value of the **monitored\_ci\_type\_group** property is true.
+Name of the [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md) associated with the policy.This field is only applied if the value of the **monitored\_ci\_type\_group** property is true.
 
 Data type: String
 
@@ -2651,7 +2651,7 @@ policies.secure\_params
 
 </td><td>
 
-List of objects containing information of check secure parameters. For more information, see [Create a secure parameter for a check](https://www.servicenow.com/docs/access?context=acc-create-secure-params&version=australia&pubname=australia-it-operations-management&ft:locale=en-US). These results only display if the **X-Include-Check-Params** header parameter is set to true.Data type: Array of Objects
+List of objects containing information of check secure parameters. For more information, see [Create a secure parameter for a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-create-secure-params.md). These results only display if the **X-Include-Check-Params** header parameter is set to true.Data type: Array of Objects
 
 ```
 "secure_params": [
@@ -3152,7 +3152,7 @@ Description
 
 </td><td>
 
-Extended details of the sandbox copy associated with the policy. For information on policies, see [default checks and policies](https://www.servicenow.com/docs/access?context=agent-policies-checks&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).```
+Extended details of the sandbox copy associated with the policy. For information on policies, see [default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md).```
 {
   "active": Boolean"
   "agent_ids": "String",
@@ -3383,7 +3383,7 @@ monitored\_ci\_group
 
 </td><td>
 
-Name of the [CMDB groups](https://www.servicenow.com/docs/access?context=cmdb-groups&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) associated with the policy.This field is only applied if the value of the **monitored\_ci\_type\_group** property is true.
+Name of the [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md) associated with the policy.This field is only applied if the value of the **monitored\_ci\_type\_group** property is true.
 
 Data type: String
 
@@ -3561,7 +3561,7 @@ secure\_params
 
 </td><td>
 
-List of objects containing information of check secure parameters. For more information, see [Create a secure parameter for a check](https://www.servicenow.com/docs/access?context=acc-create-secure-params&version=australia&pubname=australia-it-operations-management&ft:locale=en-US). These results only display if the **X-Include-Check-Params** header parameter is set to true.Data type: Array of Objects
+List of objects containing information of check secure parameters. For more information, see [Create a secure parameter for a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-create-secure-params.md). These results only display if the **X-Include-Check-Params** header parameter is set to true.Data type: Array of Objects
 
 ```
 "secure_params": [
@@ -4660,7 +4660,7 @@ plugins
 
 </td><td>
 
-List of [Agent Client Collector plugins](https://www.servicenow.com/docs/access?context=acc-assets&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) associated with this check.Data type: Array
+List of [Agent Client Collector plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-assets.md) associated with this check.Data type: Array
 
 </td></tr><tr><td>
 
@@ -5153,7 +5153,7 @@ monitored\_ci\_group
 
 </td><td>
 
-Name of the [CMDB groups](https://www.servicenow.com/docs/access?context=cmdb-groups&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) associated with the policy.This field is only applied if the value of the **monitored\_ci\_type\_group** property is true.
+Name of the [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md) associated with the policy.This field is only applied if the value of the **monitored\_ci\_type\_group** property is true.
 
 Data type: String
 

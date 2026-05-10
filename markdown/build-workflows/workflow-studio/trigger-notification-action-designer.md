@@ -15,9 +15,9 @@ breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and
 
 Trigger a notification as a step within an action by selecting a record \(such as an incident, change request, problem, or user record\) to trigger a notification and defining the associated notification.
 
-[Notifications](https://www.servicenow.com/docs/access?context=notifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US) is a platform feature. Before triggering a notification as an action step in Workflow Studio, ensure that the notification is set up for use in the platform.
+[Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notifications.md) is a platform feature. Before triggering a notification as an action step in Workflow Studio, ensure that the notification is set up for use in the platform.
 
--   When you [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US), set the **Send when** field in the **When to send** tab of the Notification form to Triggered.
+-   When you [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md), set the **Send when** field in the **When to send** tab of the Notification form to Triggered.
 -   Verify that your users have an active primary email channel and that all their notifications are active.
 
 ## Roles and availability
@@ -56,7 +56,7 @@ Notification
 
 </td><td>
 
-Select the notification to be triggered. The notifications that can be selected are associated with the table of the specified record. If no record was selected, you can select a notification that does not have an associated record or table. To create notifications, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+Select the notification to be triggered. The notifications that can be selected are associated with the table of the specified record. If no record was selected, you can select a notification that does not have an associated record or table. To create notifications, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md)
 
 </td></tr></tbody>
 </table>## Action error evaluation

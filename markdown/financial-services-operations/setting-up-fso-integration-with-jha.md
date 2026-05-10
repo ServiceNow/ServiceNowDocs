@@ -19,8 +19,8 @@ You can set up and configure the Jack Henry jXchange integration in your flows f
 
 To set up your integration, do the following actions:
 
-1.  Request an Integration Hub subscription. To learn how, see [Request Integration Hub](https://www.servicenow.com/docs/access?context=request-ih-overview&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
-2.  Install the Financial Services Operations Integration with Jack Henry jXchange application from the ServiceNow Store, which automatically activates the Jack Henry jXchange spoke. For more information on how to integrate and set up a ServiceNow instance with your Jack Henry jXchange account, see [Jack Henry jXchange Spoke](https://www.servicenow.com/docs/access?context=jha-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+1.  Request an Integration Hub subscription. To learn how, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md).
+2.  Install the Financial Services Operations Integration with Jack Henry jXchange application from the ServiceNow Store, which automatically activates the Jack Henry jXchange spoke. For more information on how to integrate and set up a ServiceNow instance with your Jack Henry jXchange account, see [Jack Henry jXchange Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jha-spoke.md).
 
 **Parent Topic:**[Financial Services Operations Integration with Jack Henry jXchange](fso-integration-with-jha-integthub-landing-page.md)
 

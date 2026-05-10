@@ -4,7 +4,7 @@ description: The Domain Visibility AI agent enables Domain Admins to manage user
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 3
 breadcrumb: [Platform AI agents, Now Assist AI assets, Enable AI experiences]
 ---
@@ -29,7 +29,7 @@ Once enabled, the Domain Visibility agent exposes the following options to the a
 
 Ensure the following requirements are met before using the AI agent:
 
--   The Domain Separation plugin is installed on your instance and active. For more information, refer to [Domain separation plugin](https://www.servicenow.com/docs/access?context=domain-sep-plugin&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   The Domain Separation plugin is installed on your instance and active. For more information, refer to [Domain separation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-plugin.md).
 -   AI capabilities are enabled on the instance.
 -   You are signed in with a Domain Admin role.
 

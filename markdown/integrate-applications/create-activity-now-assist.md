@@ -78,23 +78,23 @@ To create an activity manually, see [Create and use an activity in RPA Desktop D
 
     ![New activity window displays the options to regenerate a preview, clear a workflow, cancel an automation, or add an activity.](../image/new-activity-options.png "Example: New activity options")
 
-<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d358258e358">
+<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d358905e358">
 
 Option
 
-</th><th align="left" id="d358258e361">
+</th><th align="left" id="d358905e361">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d358258e367">
+</th></tr></thead><tbody><tr><td id="d358905e367">
 
 **Regenerate preview**
 
 </td><td>
 
-If the generated automation preview doesn’t meet your needs, you can update the Now Assist instructions, and select **Regenerate preview**.Each time you build or rebuild an automation, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+If the generated automation preview doesn’t meet your needs, you can update the Now Assist instructions, and select **Regenerate preview**.Each time you build or rebuild an automation, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
 
-</td></tr><tr><td id="d358258e394">
+</td></tr><tr><td id="d358905e394">
 
 **Clear**
 
@@ -102,7 +102,7 @@ If the generated automation preview doesn’t meet your needs, you can update th
 
 If you want to clear the workflow that was created by the Now Assist instructions, select **Clear** and then select **Yes** in the Confirm clear automation window.
 
-</td></tr><tr><td id="d358258e412">
+</td></tr><tr><td id="d358905e412">
 
 **Cancel**
 
@@ -110,7 +110,7 @@ If you want to clear the workflow that was created by the Now Assist instruction
 
 If you want to stop creating an automation and return to the design surface, select **Cancel**. In the Confirm cancel window, select **Yes** to return to the previous screen.The added content isn’t saved.
 
-</td></tr><tr><td id="d358258e429">
+</td></tr><tr><td id="d358905e429">
 
 **Add activity**
 

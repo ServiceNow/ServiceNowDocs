@@ -117,7 +117,7 @@ Role required: discovery\_admin or admin
 
 7.  Select the **Configuration Parameters** related list.
 
-8.  Set the following [MID Server config parameters](https://www.servicenow.com/docs/access?context=mid-server-parameters&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) as indicated:
+8.  Set the following [MID Server config parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md) as indicated:
 
     1.  **mid.windows.management\_protocol:** This parameter is required for Discovery with JEA.
 
@@ -129,7 +129,7 @@ Role required: discovery\_admin or admin
 
         For example, the PowerShell command **Register-PSConfiguration -name JEA\_DISCO\_V2 -path &lt;session\_configuration\_file&gt;** sets the endpoint name to JEA\_DISCO\_V2. In that case, **mid.powershell.jea.endpoint** must be updated to JEA\_DISCO\_V2.
 
-9.  Use the following [MID Server property](https://www.servicenow.com/docs/access?context=r_MIDServerProperties&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and [System property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to troubleshoot issues:
+9.  Use the following [MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md) and [System property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) to troubleshoot issues:
 
     1.  **mid.probe.collect\_debug\_info**: This is an optional MID Server property to collect debug information.
 

@@ -82,7 +82,7 @@ Condition
 
 </td><td>
 
-Use the [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to define the criteria for the workflow trigger. If you selected the **Use filter group** check box and selected a filter group, the **Condtion** fields are not displayed.
+Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to define the criteria for the workflow trigger. If you selected the **Use filter group** check box and selected a filter group, the **Condtion** fields are not displayed.
 
 </td></tr><tr><td>
 

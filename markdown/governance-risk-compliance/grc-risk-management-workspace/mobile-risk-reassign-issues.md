@@ -50,15 +50,15 @@ Edit or reassign a task directly from the list of records. Alternatively, add a 
 
 7.  With the fields on the issue record displayed, choose one in the following table to continue.
 
-<table id="choicetable_adf_df2_yhb"><thead><tr><th align="left" id="d69572e206">
+<table id="choicetable_adf_df2_yhb"><thead><tr><th align="left" id="d70457e206">
 
 Option
 
-</th><th align="left" id="d69572e209">
+</th><th align="left" id="d70457e209">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d69572e215">
+</th></tr></thead><tbody><tr><td id="d70457e215">
 
 **Details tab**
 
@@ -72,7 +72,7 @@ Tap the **Control Objective/Risk Statement** field to expand it. A list of recor
 -   At the top right of the screen with the Issue record displayed, tap the menu icon \( ![Menu icon.](../../grc-common/image/mobile-top-menu.png)\) to edit and reassign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d69572e256">
+</td></tr><tr><td id="d70457e256">
 
 **Activity Stream tab**
 
@@ -82,7 +82,7 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 -   At the top right of the screen, tap the menu icon \( ![Menu icon.](../../grc-common/image/mobile-top-menu.png)\) to edit and reassign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d69572e286">
+</td></tr><tr><td id="d70457e286">
 
 **Tap the Related List tab.**
 
@@ -94,7 +94,7 @@ With the Related List tab selected, follow these steps.
 2.  After your review, navigate back to the open record on the Issue screen and tap the menu icon \( ![Menu icon.](../../grc-common/image/mobile-top-menu.png)\) to reassign or edit the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d69572e316">
+</td></tr><tr><td id="d70457e316">
 
 **Tap a screen icon at the bottom of the screen.**
 

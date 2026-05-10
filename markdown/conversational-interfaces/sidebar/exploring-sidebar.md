@@ -69,7 +69,7 @@ This is the magnifying glass. Display Sidebar discussions dialog. If a number in
 
 Search within the Sidebar discussions. When you select the Search icon, the **Search** field appears and you can enter the text you want to locate. The search results display below the search field and are grouped by user message then file name. Select **Cancel** to clear the search field and return to the Sidebar discussion. You can filter the search results by discussions, messages, and attachments and sort by most relevant or date.
 
- To use the Search KB quick action, enable AI Search. For more information, see [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [AI Search Availability \[KB0867751\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867751).
+ To use the Search KB quick action, enable AI Search. For more information, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md) and [AI Search Availability \[KB0867751\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867751).
 
 </td></tr><tr><td>
 

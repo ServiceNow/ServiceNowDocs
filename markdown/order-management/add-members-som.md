@@ -21,7 +21,7 @@ Role required: sales territory admin, sales territory manager
 
 -   A territory comprises a team, where different members play different roles.​
 -   A member can belong to one or more territories, where they can play different/same roles.​
--   A member can have different roles in the same territory.​ Their membership and role grant them access and permission to the CRM entities. The access is driven by the responsibility framework, for additional information see [Create a responsibility definition](https://www.servicenow.com/docs/access?context=t_CreateAResponsibilityDefinition&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+-   A member can have different roles in the same territory.​ Their membership and role grant them access and permission to the CRM entities. The access is driven by the responsibility framework, for additional information see [Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateAResponsibilityDefinition.md).
 -   Only active members during their membership period get access to the CRM entities.
 
 ## Procedure
@@ -124,7 +124,7 @@ Member Role
 Role of the team member. Following member roles \(related party types\) and responsibility are shipped by default: -   Account Executive
 -   Solution Sales Executive
 -   Price Band Approver
-However, more roles can be configured. For more information, see [Create related party configurations](https://www.servicenow.com/docs/access?context=adding-related-party-config-to-case&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+However, more roles can be configured. For more information, see [Create related party configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/adding-related-party-config-to-case.md).
 
 </td></tr></tbody>
 </table>    The member with the defined role appears in the Territory Member roles related list.

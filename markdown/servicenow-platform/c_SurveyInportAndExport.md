@@ -13,7 +13,7 @@ breadcrumb: [Survey distribution, Survey administration, Use surveys, Surveys, A
 
 You can export a survey and then import it to a different ServiceNow instance.
 
-**Note:** Update sets are available in the Helsinki release and should be used to move data from one instance to another. For information about update sets, see [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US).
+**Note:** Update sets are available in the Helsinki release and should be used to move data from one instance to another. For information about update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md).
 
 The system exports a single XML file that contains a survey definition \[asmt\_metric\_type\] and the associated records, including the following.
 

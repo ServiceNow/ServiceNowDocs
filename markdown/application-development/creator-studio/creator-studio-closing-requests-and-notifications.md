@@ -36,7 +36,7 @@ Apps created in Creator Studio send the following notifications by default.
 
 \*Remember, request records must be manually closed.
 
-For more information on notifications from the ServiceNow AI Platform, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information on notifications from the ServiceNow AI Platform, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
 
 ## Notifications Creator Studio sends about building apps
 

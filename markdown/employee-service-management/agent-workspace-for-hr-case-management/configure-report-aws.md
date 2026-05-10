@@ -37,7 +37,7 @@ Role required: sn\_hr\_agent\_ws.admin and sn\_hr\_core.basic
 
 6.  Define who can view your page by selecting **Add an audience** and selecting or defining the audience.
 
-    For more information, see [Learn about audiences](https://www.servicenow.com/docs/access?context=add-audiences&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-audiences.md).
 
 7.  Select **Create**.
 

@@ -32,7 +32,7 @@ AI Agent Advisor
 -   Let AI analyze your instance data and tell you exactly where automation will have the biggest impact.
 -   Match your automation opportunities to existing AI agents and automate the creation and deployment of new agents.
 
-See [AI Agent Advisor](https://www.servicenow.com/docs/access?context=ai-agent-advisor-landing-page&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information.
+See [AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-advisor-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -58,7 +58,7 @@ AI Control Tower
 -   AI Gateway offers Global MCP clients, which once created can be used across all MCP servers.
 -   A Gateway offers MCP Catalog to choose while adding MCP servers into AI Control Tower.
 
-For more information on AI Control Tower, see [AI Control Tower](https://www.servicenow.com/docs/access?context=ai-control-tower-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information on AI Control Tower, see [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md).
 
 </td></tr><tr><td>
 
@@ -80,7 +80,7 @@ AI Desktop Actions
 -   Added a **Delete** button to the image canvas to remove a screen.
 -   Enabled screen-level testing while designing desktop actions.
 
-See [AI Desktop Actions](https://www.servicenow.com/docs/access?context=agentic-desktop-landing-page&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information.
+See [AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ AI Risk and Compliance
 -   Submit AI cases anonymously to report potential AI risks or concerns without disclosing your identity, helping improve early risk visibility and participation in AI governance.
 -   Offboard AI assets with structured life-cycle tasks to help ensure governance and risk activities are completed when systems are retired or replaced.
 
-See [AI Risk and Compliance](https://www.servicenow.com/docs/access?context=ai-risk-and-compliance&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) for more information.
+See [AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance.md) for more information.
 
 </td></tr><tr><td>
 
@@ -107,7 +107,7 @@ AI Search
 -   Augment the enhanced chat experience by configuring AI Search as the source for Ask Now Assist suggestions.
 -   Gain insights into search behavior with a refreshed and updated Search Preview UI.
 
-See [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+See [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md) for more information.
 
 </td></tr><tr><td>
 
@@ -120,7 +120,7 @@ API
 -   Use inbound REST APIs to interact with various ServiceNow functionalities within your application.
 -   Client Next Experience APIs include client APIs compatible with the Next Experience UI.
 
-See [API implementation and reference](https://www.servicenow.com/docs/access?context=api-implementation-reference&version=australia&pubname=australia-api-reference&ft:locale=en-US) for more information.
+See [API implementation and reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-implementation-reference.md) for more information.
 
 </td></tr><tr><td>
 
@@ -135,7 +135,7 @@ Early Availability
 -   Access Findings is the proactive detection and remediation layer within Access Management Console. It runs eight out-of-box access checks against your instance on a daily schedule, surfaces prioritized findings when misconfigurations are detected, and provides a complete remediation workflow including AI-powered guidance.
 
 
-See [Access Control List Rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=australia&pubname=australia-platform-security&ft:locale=en-US) for more information.
+See [Access Control List Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md) for more information.
 
 </td></tr><tr><td>
 
@@ -146,7 +146,7 @@ Accounts Payable Operations
 -   Leverage Accounts payable document classification skill to classify email attachments into invoice, credit memo, or supporting documents based on the AI recommended confidence score resulting in error free invoice data extraction.
 -   Validate supplier provided tax against a system-calculated tax by integrating an enterprise-grade tax engine resulting in straight-through processing of invoice while improving accuracy, compliance, and operational efficiency.
 
-See [Accounts Payable Operations](https://www.servicenow.com/docs/access?context=acc-pay-mgmt-landing-page&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -158,7 +158,7 @@ Activity Management
 -   Define, plan, capture, and track customer interactions such as discovery calls, demos, and customer business reviews \(CBRs\) across different channels such as emails, calls, meetings, and more.
 -   Manage tasks and appointments for leads, opportunities, and more directly from a touchpoint record, in addition to opportunity.
 
-See [Activity Management](https://www.servicenow.com/docs/access?context=explore-activity-management&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
+See [Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-activity-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -166,9 +166,9 @@ Adoption Services
 
 </td><td>
 
-Explore Dynamic Guidance within [In-product help](https://www.servicenow.com/docs/access?context=inproduct-help&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) features of [Adoption services](https://www.servicenow.com/docs/access?context=adoption-services&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) as the proactive AI assistant that generates an engaging voice based, step by step guidance, dynamically, across platforms.
+Explore Dynamic Guidance within [In-product help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/inproduct-help.md) features of [Adoption services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/adoption-services.md) as the proactive AI assistant that generates an engaging voice based, step by step guidance, dynamically, across platforms.
 
-See [Adoption services](https://www.servicenow.com/docs/access?context=adoption-services&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) for more information.
+See [Adoption services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/adoption-services.md) for more information.
 
 </td></tr><tr><td>
 
@@ -183,7 +183,7 @@ Advanced Approval Management
 -   Enable approvers or approval request writers to add relevant approvers during an active approval cycle without modifying existing approval rules.
 -   Keep requesters informed and approvers on track by using automated email notifications for approval status changes, escalations, overrides, and ad hoc approvals.
 
-See [Advanced Approval Management](https://www.servicenow.com/docs/access?context=explore-advanced-approval-for-sales&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
+See [Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-advanced-approval-for-sales.md) for more information.
 
 </td></tr><tr><td>
 
@@ -199,7 +199,7 @@ Advanced Risk
 
 Review the updated AI experience with three licensing tiers.
 
-See [Advanced Risk Assessment](https://www.servicenow.com/docs/access?context=advanced-risk-assessment&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) for more information.
+See [Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-assessment.md) for more information.
 
 </td></tr><tr><td>
 
@@ -209,7 +209,7 @@ Advanced Work Assignment \(AWA\)
 
 Use AWA with non-task and non-interaction tables such as leads, opportunities, orders, and quotes.
 
-See [Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-application-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) for more information.
+See [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-application-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -220,7 +220,7 @@ Agent Workspace for HR Case Management
 -   Enable CCaaS providers to display native voice and callback integrations so that HR agents can manage customer calls directly from HR Agent Workspace.
 -   Recommend actions based on the context of the case, helping HR agents resolve HR cases efficiently.
 
-See [Agent Workspace for HR Case Management](https://www.servicenow.com/docs/access?context=agent-ws-hr-case-mgmt-landing-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) for more information.
+See [Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -233,7 +233,7 @@ Agent experience for CSM
 -   Populate interaction wrap-up codes and notes by using AI, saving agents time.
 -   Auto-populate record fields and email drafts with dynamic values using form templates.
 
-See [CSM Configurable Workspace](https://www.servicenow.com/docs/access?context=csm-workspaces-configure&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) for more information.
+See [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md) for more information.
 
 </td></tr><tr><td>
 
@@ -245,7 +245,7 @@ Agentic Contact Center for Banking
 -   Handle customer inquiries, review customer insights, and get suggested actions through AI skills and agents.
 -   View customer data such as account details and recent transactions without toggling between different applications.
 
-See [Agentic Contact Center for Banking](https://www.servicenow.com/docs/access?context=agentic-contact-center-for-banking-landing&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US) for more information.
+See [Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/agentic-contact-center-for-banking-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -257,7 +257,7 @@ If you have a Now Assist for Creator subscription, you can leverage the release 
 
 Use the improved filter feature to sort requests based on specific criteria.
 
-See [App Engine Management Center](https://www.servicenow.com/docs/access?context=app-engine-management-center&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.
+See [App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/app-engine-management-center.md) for more information.
 
 </td></tr><tr><td>
 
@@ -267,7 +267,7 @@ App Engine Studio
 
 Several Integration Hub flow templates are being deprecated.
 
-See [Build apps using App Engine Studio](https://www.servicenow.com/docs/access?context=aes-overview&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.
+See [Build apps using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -279,7 +279,7 @@ Application Manager
 -   View all ServiceNow Store applications that are licensed or available for procurement from the **Available for you** tab.
 -   Gain insights about application installation requirements and blockers with application state indicators.
 
-See [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+See [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md) for more information.
 
 </td></tr><tr><td>
 
@@ -294,7 +294,7 @@ Application Vulnerability Response
 -   Reevaluate the risk score, assignments, remediation target date, exceptions, and remediation task for a specific set of application vulnerable items in the Vulnerability Manager Workspace.
 -   Compare application vulnerability-related data and determine if application vulnerabilities are found in an application.
 
-See [Application Vulnerability Response](https://www.servicenow.com/docs/access?context=app-vuln-mgmt&version=australia&pubname=australia-security-management&ft:locale=en-US) for more information.
+See [Application Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/application-vulnerability-response/app-vuln-mgmt.md) for more information.
 
 </td></tr><tr><td>
 
@@ -308,7 +308,7 @@ Asset Audit Response
 -   Track and manage impacted records that are associated with your remediation tasks.
 -   Gain insight into the citations associated with your evidence requests.
 
-See [Asset Audit Response](https://www.servicenow.com/docs/access?context=asset-audit-response&version=australia&pubname=australia-it-asset-management&ft:locale=en-US) for more information.
+See [Asset Audit Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audits/asset-audit-response.md) for more information.
 
 </td></tr><tr><td>
 
@@ -318,12 +318,12 @@ Authentication
 
 [Australia Patch 1](../quality/australia-patch-1.md)
 
--   **[Knowledge-based factor enhancement for AI voice service](https://www.servicenow.com/docs/access?context=knowledge-based-authentication&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
+-   **[Knowledge-based factor enhancement for AI voice service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/knowledge-based-authentication.md)**
 
 Following are the knowledge-based authentication \(KBA\) enhancements:
 
-    -   [Voice input support for KBA questions](https://www.servicenow.com/docs/access?context=create-knowledge-based-questions&version=australia&pubname=australia-platform-security&ft:locale=en-US): Configure KBA questions to support Voice as an input type, allowing users to provide spoken responses during identification and authentication. When Voice input is enabled, you can configure the expected format, provide examples, and optionally define a validation pattern using regular expressions.
-    -   [Script-based validation for external systems](https://www.servicenow.com/docs/access?context=create-knowledge-based-answers&version=australia&pubname=australia-platform-security&ft:locale=en-US): Configure KBA answers to validate that are created against external systems using custom scripts through the Script Configuration field. When set to Identification mode, you can write scoped scripts that validate caller identity against external authentication systems instead of internal ServiceNow AI Platform tables.
+    -   [Voice input support for KBA questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-knowledge-based-questions.md): Configure KBA questions to support Voice as an input type, allowing users to provide spoken responses during identification and authentication. When Voice input is enabled, you can configure the expected format, provide examples, and optionally define a validation pattern using regular expressions.
+    -   [Script-based validation for external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-knowledge-based-answers.md): Configure KBA answers to validate that are created against external systems using custom scripts through the Script Configuration field. When set to Identification mode, you can write scoped scripts that validate caller identity against external authentication systems instead of internal ServiceNow AI Platform tables.
 
 Australia
 
@@ -332,7 +332,7 @@ Australia
 -   Use the granular roles to complete administrative configuration tasks for Authentication without requiring the full admin role.
 -   Use the enhanced Auth Scope for your Inbound Integrations.
 
-See [Authentication](https://www.servicenow.com/docs/access?context=c_Authentication&version=australia&pubname=australia-platform-security&ft:locale=en-US) for more information.
+See [Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_Authentication.md) for more information.
 
 </td></tr><tr><td>
 
@@ -346,7 +346,7 @@ Build Agent
 -   Upgraded support for additional models.
 -   Extended metadata support.
 
-See [Build Agent](https://www.servicenow.com/docs/access?context=build-agent&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.
+See [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md) for more information.
 
 </td></tr><tr><td>
 
@@ -356,7 +356,7 @@ Business Continuity Management
 
 -   Use the AI native experience built into the product.
 
-See [Business Continuity Management](https://www.servicenow.com/docs/access?context=business-continuity-mangmt-overview&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) for more information.
+See [Business Continuity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/business-continuity-mangmt-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -366,7 +366,7 @@ Buying Group
 
 Buying Group provides information on the customer stakeholders involved in a purchase decision for a product or solution, supporting multiple roles and persisting before, during, and after an opportunity.
 
-See [Buying Group](https://www.servicenow.com/docs/access?context=explore-buying-group&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
+See [Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-buying-group.md) for more information.
 
 </td></tr><tr><td>
 
@@ -379,7 +379,7 @@ CPQ
 -   Integrate with Salesforce, ServiceNow, and downstream systems using Transaction Manager's API‑first design, which acts as the system of record for transaction data while remaining CRM‑agnostic.
 -   Duplicate an existing solution configuration node in a set, directly from the solution configuration navigation sidebar to use it as the starting point for a new node.
 
-For more information, see [CPQ Configurator](https://www.servicenow.com/docs/access?context=explore-servicenowcpq&version=australia&pubname=australia-order-management&ft:locale=en-US).
+For more information, see [CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-servicenowcpq.md).
 
 </td></tr><tr><td>
 
@@ -390,7 +390,7 @@ Card data security
 -   Display sensitive documents, and mask or reveal PANs in the FSO workspace with the Card data security container.
 -   View external documents from card networks, acquirers, and merchants at the transaction level of a dispute in an updated Attachments view.
 
-See [Card Data Security](https://www.servicenow.com/docs/access?context=card-data-security&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US) for more information.
+See [Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/card-data-security.md) for more information.
 
 </td></tr><tr><td>
 
@@ -402,7 +402,7 @@ Care Team Operations for Biomed
 -   Leverage the Care Team Operations Case Creation Voice AI Agent enables to create cases conversationally over the phone.
 -   Care Team Operations for Biomed has received security enhancements in the Australia release.
 
-See [Care Team Operations for Biomed](https://www.servicenow.com/docs/access?context=care-team-operations-for-biomed&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US) for more information.
+See [Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/care-team-operations-for-biomed.md) for more information.
 
 </td></tr><tr><td>
 
@@ -414,7 +414,7 @@ Care Team Operations for Environmental Services
 -   Leverage the Care Team Operations Case Creation Voice AI Agent enables to create cases conversationally over the phone.
 -   Care Team Operations for Environmental Services has received security enhancements in the Australia release.
 
-See [Care Team Operations for Environmental Services](https://www.servicenow.com/docs/access?context=cto-evs-landing&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US) for more information.
+See [Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-evs-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -426,7 +426,7 @@ Care Team Operations for Facilities
 -   Leverage the Care Team Operations Case Creation Voice AI Agent enables to create cases conversationally over the phone.
 -   Care Team Operations for Facilities has received security enhancements in the Australia release.
 
-See [Care Team Operations for Facilities](https://www.servicenow.com/docs/access?context=cto-facilities-landing&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US) for more information.
+See [Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-facilities-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -438,7 +438,7 @@ Care Team Operations for Healthcare IT
 -   Leverage the Care Team Operations Case Creation Voice AI Agent enables to create cases conversationally over the phone.
 -   Care Team Operations for Healthcare IT has received security enhancements in the Australia release.
 
-See [Care Team Operations for Healthcare IT](https://www.servicenow.com/docs/access?context=hcls-cto-it-app&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US) for more information.
+See [Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-cto-it-app.md) for more information.
 
 </td></tr><tr><td>
 
@@ -450,7 +450,7 @@ Care Team Work Management
 -   Use the unified workspace landing page for managing cases and tasks.
 -   Streamline rounding workflows and reduce administrative burden by leveraging the Operational Rounding playbook.
 
-See [Care Team Work Management](https://www.servicenow.com/docs/access?context=ctwm-landing&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US) for more information.
+See [Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/ctwm-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -461,7 +461,7 @@ Case and Knowledge Management
 -   Restrict access to HR data with Granular admin roles in Case and Knowledge Management.
 -   Find users who can access HR cases in an instance based on COE security policies, using the COE Security Diagnostics tool.
 
-See [Case and Knowledge Management](https://www.servicenow.com/docs/access?context=case-knowledge-management-landing-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) for more information.
+See [Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/case-knowledge-management-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -473,7 +473,7 @@ Case management for CSM
 -   Enhancements to task plan templates to support task dependency, and to support document attachments in task plan template items.
 -   Migrating several applications from family to store.
 
-See [Case management for Customer Service Management](https://www.servicenow.com/docs/access?context=csm-case-management&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) for more information.
+See [Case management for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -486,7 +486,7 @@ Change Management
 -   Configure change templates with a specific change model.
 -   Use change templates to manage the change request creation process.
 
-See [Change Management](https://www.servicenow.com/docs/access?context=c_ITILChangeManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US) for more information.
+See [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ITILChangeManagement.md) for more information.
 
 </td></tr><tr><td>
 
@@ -497,7 +497,7 @@ Clone Admin Console
 -   Access all clone functions from the Clone Admin Console menu navigation item.
 -   Submit additional clone requests to a target instance with an existing scheduled clone that is at least seven days apart.
 
-See [Instance Clone](https://www.servicenow.com/docs/access?context=system-clone-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+See [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-clone-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -509,7 +509,7 @@ Cloud Cost Management 10.0
 -   Gain financial clarity and reporting flexibility by choosing to view your cloud cost data in your preferred currency.
 -   Get centralized visibility into the Microsoft Partner Agreement \(MPA\) account spend when operating under a Managed Service Provider \(MSP\).
 
-See [Cloud Cost Management](https://www.servicenow.com/docs/access?context=cloud-insights-landing-page&version=australia&pubname=australia-it-asset-management&ft:locale=en-US) for more information.
+See [Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/cloud-insights-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -521,7 +521,7 @@ Code Signing
 -   Install build time signatures for records in all trued-up ServiceNow Store application versions, thus eliminating the self-signing process.
 -   Ensure reliable script verification by supporting multiple signatures for a record across certificates. Reduce upgrade failures and improve compliance for customers using custom and ServiceNow® certificates.
 
-See [Code Signing](https://www.servicenow.com/docs/access?context=code-signing-landing&version=australia&pubname=australia-platform-security&ft:locale=en-US) for more information.
+See [Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -533,7 +533,7 @@ Collaborative Work Management
 -   Generate scrum tasks for user stories using AI and improve visibility into sprint work.
 -   Spot bottlenecks early by linking work items as blocking or related, with visual cues that surface dependencies across Kanban, List, and Gantt views.
 
-See [Collaborative Work Management](https://www.servicenow.com/docs/access?context=cwm-landing&version=australia&pubname=australia-it-business-management&ft:locale=en-US) for more information.
+See [Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -544,7 +544,7 @@ Common Governance, Risk, and Compliance feature
 -   Automatic redirection from GRC notification links to the appropriate workspace view based on the recipient's persona and access permissions.
 -   The Tasks page now loads faster by showing an instant overview of task counts and progressively loading detailed tasks.
 
-See [Common Governance, Risk, and Compliance features](https://www.servicenow.com/docs/access?context=common-grc-features&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) for more information.
+See [Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md) for more information.
 
 </td></tr><tr><td>
 
@@ -569,7 +569,7 @@ Configurable Workspace
 -   Edit or delete Activity stream posts, and add knowledge base links from recommended actions.
 -   Implement declarative actions without assuming page ownership, and override attributes without altering the base action.
 
-See [Configurable Workspace UI](https://www.servicenow.com/docs/access?context=workspace-landing-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) for more information.
+See [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -583,7 +583,7 @@ Configuration Compliance
 -   With the sn\_vulc.remediation\_owner role, create remediation tasks manually in the IT Remediation Workspace.
 -   With the sn\_vulc.admin role, create remediation tasks manually in the Vulnerability Manager Workspace.
 
-See [Configuration Compliance](https://www.servicenow.com/docs/access?context=vr-config-compliance-landing&version=australia&pubname=australia-security-management&ft:locale=en-US) for more information.
+See [Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/vr-config-compliance-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -597,7 +597,7 @@ Configuration Management Database \(CMDB\)
 -   Use Dynamic Identification and Reconciliation Engine \(IRE\) that eliminates the need for manually-created identification rules and reduces incorrect detection of duplicate CIs in the CMDB.
 -   Protect sensitive information with domain separation that supports key CMDB tables such as the Key Value \[cmdb\_key\_value\] table.
 
-See [Configuration Management](https://www.servicenow.com/docs/access?context=manage-cmdb&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+See [Configuration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/manage-cmdb.md) for more information.
 
 </td></tr><tr><td>
 
@@ -611,7 +611,7 @@ Container Vulnerability Response
 -   With the sn\_vul\_container.vulnerability\_analyst or sn\_vul\_container.vulnerability\_admin role, create container remediation tasks manually in the Vulnerability Manager Workspace.
 -   With the role sn\_vul\_container.remediation\_owner, create container remediation tasks manually in the IT Remediation Workspace.
 
-See [Container Vulnerability Response](https://www.servicenow.com/docs/access?context=cvr-landing&version=australia&pubname=australia-security-management&ft:locale=en-US) for more information.
+See [Container Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/container-vulnerability-response/cvr-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -625,7 +625,7 @@ Continuous Authorization and Monitoring
 -   View and edit Controls and Engagements sections in Authorization Packages in a hierarchical grid.
 -   Control visibility of UI elements across different workflow steps through state model attributes.
 
-See [Continuous Authorization and Monitoring](https://www.servicenow.com/docs/access?context=grc-cam-landing-page&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) for more information.
+See [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/grc-cam-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -638,7 +638,7 @@ Contract Management Pro
 -   Compare two revisions of a contract document that are stored in external storage.
 -   Support for processing Microsoft Word documents larger than 10 MB in Contract Management Pro.
 
-See [Contract Management Pro](https://www.servicenow.com/docs/access?context=cncore-cmpro-landing-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) for more information.
+See [Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-cmpro-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -650,7 +650,7 @@ Core Business Suite
 -   Launch Core Business Suite applications from a new admin home configuration console. Set up each application from the entry point.
 -   Leverage the AI-native requester experience in CBS.
 
-See [Core Business Suite](https://www.servicenow.com/docs/access?context=cbs-landing&version=australia&pubname=australia-core-business-suite&ft:locale=en-US) for more information.
+See [Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -663,7 +663,7 @@ Customer Contracts and Entitlements
 -   Support hierarchical list view for contract lines in customer contracts.
 -   Enhance contract renewal performance with asynchronous processing.
 
-See [Customer Contracts and Entitlements](https://www.servicenow.com/docs/access?context=exploring-post-sales-support&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
+See [Customer Contracts and Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/exploring-post-sales-support.md) for more information.
 
 </td></tr><tr><td>
 
@@ -673,7 +673,7 @@ Customer Engagement Sequences
 
 -   Enable click-to-call for agents using the new Schedule call activity that supports runtime outbound calling from sequence tasks.
 
-See [Customer Engagement Sequences](https://www.servicenow.com/docs/access?context=explore-customer-engagement-sequences&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
+See [Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-customer-engagement-sequences.md) for more information.
 
 </td></tr><tr><td>
 
@@ -683,7 +683,7 @@ Customer Service Problem Management
 
 Use Alternative Dispute Resolution \(ADR\) feature to acknowledge and register customer disputes, complaints, or ADRs, conduct investigations, and deliver timely resolutions.
 
-See [Customer Service Problem Management](https://www.servicenow.com/docs/access?context=cspm-landing-page&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US) for more information.
+See [Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/cspm-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -695,7 +695,7 @@ Customer Success Management
 -   Provide increased expansion and advocacy opportunities.
 -   Search the record's title, subject, or short description using AI search.
 
-See [Customer Success Management](https://www.servicenow.com/docs/access?context=account-lifecycle-events-landing&version=australia&pubname=australia-acct-lifecycle-events&ft:locale=en-US) for more information.
+See [Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -719,7 +719,7 @@ Australia Early Availability
 -   Enable customers to view invoices and invoice details directly from the Business Portal, providing transparency into billing information.
 -   Provide customers with visibility into invoice case status, resolution steps, and associated invoice lines to track dispute progress.
 
-See [Customer self-service for Sales Customer Relationship Management](https://www.servicenow.com/docs/access?context=som-self-service-business-portal&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
+See [Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-self-service-business-portal.md) for more information.
 
 </td></tr><tr><td>
 
@@ -733,7 +733,7 @@ Data Catalog
 -   Collect and synchronize metadata from 14 or more external platforms using automated collectors.
 -   Organize assets with tags and domains to improve discoverability and governance.
 
-See [Explore Data Catalog](https://www.servicenow.com/docs/access?context=explore-data-catalog&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for more information.
+See [Explore Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/explore-data-catalog.md) for more information.
 
 </td></tr><tr><td>
 
@@ -746,7 +746,7 @@ Data Management
 -   Search for archived records and restore them in bulk.
 -   Enable users to complete administrative tasks in Data Management without the full admin role.
 
-See [Data Management](https://www.servicenow.com/docs/access?context=c_DataManagement&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+See [Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DataManagement.md) for more information.
 
 </td></tr><tr><td>
 
@@ -760,7 +760,7 @@ Data Management for CSM
 -   Renamed Service Model Foundation entities for clarity and consistency. Update any configurations, scripts, or integrations that reference these entities.
 -   Enable billing account support on Sold Products to give agents instant financial context, accelerate billing case resolution, and improve billing accuracy and transparency.
 
-See [Data management for Customer Service Management](https://www.servicenow.com/docs/access?context=csm-data-management&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) feature for more information.
+See [Data management for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-management.md) feature for more information.
 
 </td></tr><tr><td>
 
@@ -772,7 +772,7 @@ Data Privacy
 -   Scan and quarantine attachments that contain sensitive data to restrict their access and downloading.
 -   Define conditions for the anonymization of sensitive data to meet business specific requirements. Use the enhanced data anonymization dashboard to obtain insights and metrics about data protection and anonymization for executive reporting.
 
-See [Data Privacy](https://www.servicenow.com/docs/access?context=data-privacy-landing&version=australia&pubname=australia-platform-security&ft:locale=en-US) for more information.
+See [Data Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/data-privacy-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -786,7 +786,7 @@ Data products
 -   Access data from external systems such as Snowflake, Databricks, and Oracle without moving data into ServiceNow using zero-copy connectors.
 -   Protect consumers from source system changes through schema stability — published data interfaces maintain their structure even when underlying tables change.
 
-See [Explore data products](https://www.servicenow.com/docs/access?context=data-products&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for more information.
+See [Explore data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-products.md) for more information.
 
 </td></tr><tr><td>
 
@@ -798,7 +798,7 @@ DevOps Change Velocity
 -   Connect to JFrog using the secure bearer token authentication.
 -   Connect to DevOps Change Velocity through HTTP proxy settings in your Docker deployment.
 
-See [DevOps Change Velocity](https://www.servicenow.com/docs/access?context=devops-landing-page-new&version=australia&pubname=australia-it-service-management&ft:locale=en-US) for more information.
+See [DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-landing-page-new.md) for more information.
 
 </td></tr><tr><td>
 
@@ -809,7 +809,7 @@ Developer Sandboxes
 -   Upgrading an instance recreates sandboxes and backs up any update sets.
 -   A new plugin supports clone preservation when cloning an instance with sandboxes.
 
-See [Developer Sandboxes](https://www.servicenow.com/docs/access?context=sandboxes-landing&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.
+See [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/sandboxes-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -827,7 +827,7 @@ Digital End-User Experience
 -   Generate event insights reports from collected event data to analyze device health trends and support incident investigation.
 -   Save custom insight reports and access them from the left navigation panel for faster, repeatable analysis.
 
-See [Digital End-User Experience](https://www.servicenow.com/docs/access?context=dex-landing&version=australia&pubname=australia-it-service-management&ft:locale=en-US) for more information.
+See [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -837,7 +837,7 @@ Dispute Content Pack for US Regulations
 
 Improve compliance with US Regulation E \(Reg E\) and Regulation Z \(Reg Z\) through the Service Level Agreement \(SLA\) definitions enhancements.
 
-See [Dispute Content Pack for US Regulations](https://www.servicenow.com/docs/access?context=dispute-content-pack-for-us-regulation-landing-page&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US) for more information.
+See [Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-content-pack-for-us-regulation-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -848,7 +848,7 @@ Dispute Rules Content Pack for Mastercard
 -   Verify that dispute cases are compliant with Mastercard core rules through refined chargeback eligibility rules.
 -   Streamline dispute intake process through an updated questionnaire.
 
-See [Dispute Rules Content Pack for Mastercard](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-mastercard-landing-page&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US) for more information.
+See [Dispute Rules Content Pack for Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-rules-content-pack-for-mastercard-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -858,7 +858,7 @@ Dispute Rules Content Pack for Visa
 
 Applied Visa Resolve Online \(VROL\) release 26.1 revision changes to the Dispute Rules Content Pack for Visa questionnaireand updated chargeback rules based on the Visa Chargeback Guide v1.1.
 
-See [Dispute Rules Content Pack for Visa](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-visa-landing-page-1&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US) for more information.
+See [Dispute Rules Content Pack for Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-rules-content-pack-for-visa-landing-page-1.md) for more information.
 
 </td></tr><tr><td>
 
@@ -872,7 +872,7 @@ Document Services
 -   Streamline operations with drag-and-drop uploads and direct cloud integration, allowing file management through quick actions directly from file cards.
 -   Enhanced control provides teams with real-time visibility over the document life cycle via in-line metadata editing, automatic version tracking, granular permissions, and embedded workflow assignments on the file card.
 
-See [Document Services](https://www.servicenow.com/docs/access?context=document-services-landing-page&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+See [Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-services-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -900,7 +900,7 @@ Employee Center
 -   Simplify how employees move through by providing a modern, left‑aligned, one‑level navigation that reduces cognitive load and adapts seamlessly across desktop and mobile.
 -   Improve accessibility by allowing admins to configure widget heading levels \(H1–H6\) to meet organizational standards and support technologies.
 
-See [Employee Center](https://www.servicenow.com/docs/access?context=employee-center-landing-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) for more information.
+See [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -910,7 +910,7 @@ Employee Center Pro
 
 Add granular admin roles to the Integrated experience and service feedback functionality to decentralize administrative task management.
 
-See [Employee Center Pro](https://www.servicenow.com/docs/access?context=employee-center-pro-landing&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) for more information.
+See [Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-pro-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -938,7 +938,7 @@ Encryption
 -   ManageField Encryption and Field Encryption Enterprise using the redesigned user interface.
 -   Enhance data security with the newly added External Key Management Service \(EKMS\) integration, enabling you to store encryption keys outside the instance for enhanced security.
 
-See [Encryption](https://www.servicenow.com/docs/access?context=encryption-landing&version=australia&pubname=australia-platform-security&ft:locale=en-US) for more information.
+See [Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -970,7 +970,7 @@ Australia Early Availability
 -   Generate a context-sensitive summary for business applications based on the page that you’re generating the summary from.
 -   Compare any two versions of a diagram and generate a summary in the Enterprise Modeling and Visualization page.
 
-See [Enterprise Architecture Workspace](https://www.servicenow.com/docs/access?context=ea-workspace&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US) for more information.
+See [Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-workspace.md) for more information.
 
 </td></tr><tr><td>
 
@@ -988,7 +988,7 @@ Early Availability
 -   Streamline complex maintenance activities across assets, asset groups, or locations with unified work order plans.
 -   Streamline inventory asset management with the expanded and efficient inventory auditing process.
 
-See [Enterprise Asset Management](https://www.servicenow.com/docs/access?context=enterprise-asset-management&version=australia&pubname=australia-it-asset-management&ft:locale=en-US) for more information.
+See [Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/enterprise-asset-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1000,7 +1000,7 @@ Enterprise Service Management Foundation
 -   Deploy with AI-driven guided setup, preset configurations, and a centralized implementation console that eliminates the need for complex configuration procedures.
 -   Deliver cross-functional workflows that route employee queries across departments.
 
-See [Enterprise Service Management Foundation](https://www.servicenow.com/docs/access?context=esm-foundation&version=australia&pubname=australia-better-together&ft:locale=en-US) for more information.
+See [Enterprise Service Management Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/esm-foundation.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1023,7 +1023,7 @@ Some apps are updated monthly or quarterly via the ServiceNow Store. For informa
     -   [Alert Automation](https://store.servicenow.com/store/app/98e8672e1be06a50a85b16db234bcb52#releaseNotes)
     -   [Service Operations Workspace \(SOW\) for ITOM](https://store.servicenow.com/store/app/98e8672e1be06a50a85b16db234bcb52#releaseNotes)
 
-See [Event Management](https://www.servicenow.com/docs/access?context=c_EM&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) or [Service Operations Workspace for ITOM](https://www.servicenow.com/docs/access?context=sow-landing-page-itom&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) for more information.
+See [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EM.md) or [Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/sow-landing-page-itom.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1037,7 +1037,7 @@ External Content Connectors
 -   Retrieve content and links from URLs found in sitemaps defined for your web source system when running content crawls for the Webcrawler external content connector.
 -   View a content crawl's start point via links in the content crawl list and in content crawl history entries.
 
-See [External Content Connectors](https://www.servicenow.com/docs/access?context=ext-cont-connectors-landing-page&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+See [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ext-cont-connectors-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1051,7 +1051,7 @@ Field Service Management
 -   View run summaries in Schedule Optimization to understand what was evaluated during scheduling, including objectives, constraints, travel mode, and assignment outcomes.
 -   Review the Field Service Management features and activation plugins now available through the ServiceNow Store application. For more details, see the "Changed in the Release" section.
 
-See [Field Service Management](https://www.servicenow.com/docs/access?context=fsm-application-landing-page&version=australia&pubname=australia-field-service-management&ft:locale=en-US) for more information.
+See [Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1061,7 +1061,7 @@ Financial Services Card Operations
 
 Streamline dispute document submission to Mastercard with the document attachment and validation enhancement.
 
-See [Financial Services Card Operations](https://www.servicenow.com/docs/access?context=card-ops-landing-page&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US) for more information.
+See [Financial Services Card Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-card-operations/card-ops-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1071,7 +1071,7 @@ Financial Services Operations Core
 
 The case type selector in Financial Services Operations now uses the predefined Customer Service Management \(CSM\) implementation, replacing the previous FSO-specific override.
 
-See [Case type selector](https://www.servicenow.com/docs/access?context=csm-case-type-select-modals&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) for more information.
+See [Case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-type-select-modals.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1082,7 +1082,7 @@ Financial Services Operations Integration with Mastercard
 -   Help prevent storage or transmission of Payment Card Industry \(PCI\) data for card disputes within your ServiceNow instance by using updated subflows.
 -   Streamline dispute document submission to Mastercard with the document attachment and validation enhancement.
 
-See [Financial Services Operations Integration with Mastercard](https://www.servicenow.com/docs/access?context=financial-services-operations-integration-with-mastercard-landing-page&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US) for more information.
+See [Financial Services Operations Integration with Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-integration-with-mastercard-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1095,7 +1095,7 @@ Financial Services Operations Integration with Verifi
 -   Reduced chargeback exposure for merchants.
 -   Seamless API integration.
 
-See [Financial Services Operations Integration with Verifi](https://www.servicenow.com/docs/access?context=financial-services-operations-verifi-cdrn-integration-app-landing-page&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US) for more information.
+See [Financial Services Operations Integration with Verifi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-verifi-cdrn-integration-app-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1105,7 +1105,7 @@ Financial Services Operations Integration with Visa
 
 Use updated subflows to help prevent storage or transmission of Payment Card Industry \(PCI\) data for card disputes within your ServiceNow instance.
 
-See [Financial Services Operations Integration with Visa](https://www.servicenow.com/docs/access?context=financial-services-operations-integration-with-visa-landing-page&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US) for more information.
+See [Financial Services Operations Integration with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-integration-with-visa-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1118,7 +1118,7 @@ Flows, Subflows, and Actions
 -   Test conversation-enabled actions and subflows from a conversation.
 -   Use an AI agent from a flow.
 
-See [Exploring flows](https://www.servicenow.com/docs/access?context=exploring-flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US), [Exploring subflows](https://www.servicenow.com/docs/access?context=exploring-subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US), and [Exploring actions](https://www.servicenow.com/docs/access?context=exploring-actions&version=australia&pubname=australia-build-workflows&ft:locale=en-US) for more information.
+See [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flows.md), [Exploring subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-subflows.md), and [Exploring actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-actions.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1128,7 +1128,7 @@ Generative AI Controller
 
 Connect your Azure OpenAI deployment to Generative AI Controller by configuring a custom resource path in your bring your own key \(BYOK\) model configuration.
 
-See [Generative AI Controller](https://www.servicenow.com/docs/access?context=generative-ai-controller&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information.
+See [Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/generative-ai-controller.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1138,7 +1138,7 @@ Goal Framework
 
 Use the enhanced Goal, Target, and Strategic Priority forms to more effectively manage and track your organization’s goals.
 
-See [Goal Framework](https://www.servicenow.com/docs/access?context=goal-framework&version=australia&pubname=australia-it-business-management&ft:locale=en-US) for more information.
+See [Goal Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/goal-framework.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1148,7 +1148,7 @@ Goal Framework for SPM
 
 Define targets across multiple organizational levels with the **Assigned entity** field in the target form.
 
-See [Goal Framework for SPM](https://www.servicenow.com/docs/access?context=goal-framework&version=australia&pubname=australia-it-business-management&ft:locale=en-US) for more information.
+See [Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/goal-framework.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1166,7 +1166,7 @@ Australia Patch 0
 -   Streamlined Advanced Shipment \(ASN\) import process with support for users with specific functional roles.
 -   Save time and effort by copying a model from the Content lookup portal to create a record in your ServiceNow instance.
 
-See [Hardware Asset Management](https://www.servicenow.com/docs/access?context=ham-landing-page&version=australia&pubname=australia-it-asset-management&ft:locale=en-US) for more information.
+See [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1180,7 +1180,7 @@ Healthcare Operations Core
 
 has received security enhancements in the Australia release.
 
-See [Healthcare Operations Core](https://www.servicenow.com/docs/access?context=hcls-cto-app&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US) for more information.
+See [Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-app.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1190,7 +1190,7 @@ Healthcare and Life Sciences Service Management Core
 
 Healthcare and Life Sciences Service Management Core has received security enhancements in the Australia release.
 
-See [Healthcare and Life Sciences Service Management](https://www.servicenow.com/docs/access?context=hcls-service-mgmt-overview&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US) for more information.
+See [Healthcare and Life Sciences Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management/hcls-service-mgmt-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1202,7 +1202,7 @@ Hermes Messaging Service
 -   View granular usage metrics in the Hermes Usage Dashboard.
 -   Restrict access to the Hermes cluster based on the client IP address.
 
-See [Hermes Messaging Service](https://www.servicenow.com/docs/access?context=hermes-messaging-service&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+See [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1215,7 +1215,7 @@ IT Service Management
 -   Enable employees to find answers, order items, create incidents, and check status on the Employee Center portal through an AI-first, multi-channel experience.
 -   Enable fulfillers to experience simplified incident and request management through an AI-first experience with IT support.
 
-See [Simplified IT Service Management](https://www.servicenow.com/docs/access?context=ai-native-it-service-desk-landing-page&version=australia&pubname=australia-it-service-management&ft:locale=en-US) for more information.
+See [Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/ai-native-it-service-desk-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1242,7 +1242,7 @@ The majority of ITOM AIOps apps are updated monthly or quarterly via the Service
     -   [Service Operations Workspace \(SOW\) for ITOM](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-service-ops-workspace-itom-apps.html)
     -   [Synthetic Monitoring](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-sow-synthetic-monitoring.html)
 
-See [ITOM AIOps](https://www.servicenow.com/docs/access?context=itom-health-landing-page&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) for more information.
+See [ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-health-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1272,7 +1272,7 @@ The majority of Visibility apps are updated monthly or quarterly via the Service
     -   [Tag Governance](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-tag-governance.html)
     -   [AI Agent Topology Mapping](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-ai-agent-topology-mapping.html)
 
-See [ITOM Visibility](https://www.servicenow.com/docs/access?context=itom-visibility-landing-page&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) for more information.
+See [ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/itom-visibility-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1286,7 +1286,7 @@ Identity
 -   Use role masking for AI agents and agentic workflows to limit the inherited roles during tool execution, verifying that AI agents run with restricted privileges, minimizing potential security risks and helping prevent unintended actions.
 -   Use the Identity sub-type field to categorize the identity type while creating a user.
 
-See [Identity](https://www.servicenow.com/docs/access?context=identity-landing&version=australia&pubname=australia-platform-security&ft:locale=en-US) for more information.
+See [Identity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/identity-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1299,7 +1299,7 @@ Impact
 -   Provide access to partners with the impact\_partner\_role.
 -   View true applications capabilities organized by product lines.
 
-See [Impact](https://www.servicenow.com/docs/access?context=impact-landing-page&version=australia&pubname=australia-impact&ft:locale=en-US) for more information.
+See [Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1310,7 +1310,7 @@ Import and Export
 -   Enable large exports with parallel export sets. Exporting data in parallel can enable your integrations to finish in less time and create less of an impact on other tasks.
 -   Configure a separate connection alias for JDBC data sources. Configuring the connection alias separately enables you to reuse it rather than having to reconfigure it with each JDBC data source.
 
-See [Imports](https://www.servicenow.com/docs/access?context=imports-overview-page&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) and [Exports](https://www.servicenow.com/docs/access?context=exports-overview-page&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for more information.
+See [Imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/imports-overview-page.md) and [Exports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/exports-overview-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1321,7 +1321,7 @@ Incident Management
 -   Perform the incident, major incident, task outage, and related communication features configurations using granular admin roles.
 -   Enhance communication capabilities with the form channel added to response templates.
 
-See [Incident Management](https://www.servicenow.com/docs/access?context=c_IncidentManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US) for more information.
+See [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentManagement.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1337,7 +1337,7 @@ Industrial Connected Workforce Core
 -   Improve system responsiveness with performance optimizations that reduce load times and increase record processing throughput.
 -   Enhance interoperability across the ICW suite applications with improved integration capabilities for downstream applications.
 
-See, [ICW Core](https://www.servicenow.com/docs/access?context=industrial-connected-workforce-core-landing-page&version=australia&pubname=australia-industrial-connected-workforce&ft:locale=en-US) for more information.
+See, [ICW Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-core-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1353,7 +1353,7 @@ Industrial Connected Workforce Mobile Experience
 -   Find the information that you need quickly using AI-powered search functionality across tasks, standards, and articles from a single mobile interface.
 -   Improve guided task accuracy and speed with integrated barcode and QR scanning support.
 
-See [Exploring Industrial Connected Workforce Mobile Experience](https://www.servicenow.com/docs/access?context=exploring-icw-mobile-experience&version=australia&pubname=australia-industrial-connected-workforce&ft:locale=en-US) for more information.
+See [Exploring Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/exploring-icw-mobile-experience.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1367,7 +1367,7 @@ Industrial Guided Tasks
 -   Track guided tasks through their full life cycle using intuitive workflow states that support clearer governance and audit readiness.
 -   Extend task governance across the ICW suite through integrations with Industrial Standards, ICW Mobile, and ICW Core.
 
-See [Exploring Industrial Guided Tasks](https://www.servicenow.com/docs/access?context=exploring-industrial-guided-tasks&version=australia&pubname=australia-industrial-connected-workforce&ft:locale=en-US) for more information.
+See [Exploring Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/exploring-industrial-guided-tasks.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1380,7 +1380,7 @@ Industrial Process Manager
 -   Automatically create a location for equipment model entities to visualize your location hierarchy.
 -   Use the updated Automated Mapping Across Zone-based IP Network Groups \(AMAZING\) feature to uniquely identify OT devices during equipment model entity mapping.
 
-See for [Industrial Process Manager](https://www.servicenow.com/docs/access?context=industrial-process-manager-overview&version=australia&pubname=australia-operational-technology&ft:locale=en-US) more information.
+See for [Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/industrial-process-manager-overview.md) more information.
 
 </td></tr><tr><td>
 
@@ -1394,7 +1394,7 @@ Industrial Standards
 -   Skills‑based execution controls help to ensure that qualified operators are performing the designated work.
 -   Strengthen your audit process with a structured versioning model that logically categorizes standards across their life cycle.
 
-See [Exploring Industrial Standards](https://www.servicenow.com/docs/access?context=industrial-standards-landing-page&version=australia&pubname=australia-industrial-connected-workforce&ft:locale=en-US) for more information.
+See [Exploring Industrial Standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-standards-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1404,7 +1404,7 @@ Instance Data Replication
 
 View updated diagnostic test descriptions and results on the redesigned IDR Diagnostics page.
 
-See [Instance Data Replication](https://www.servicenow.com/docs/access?context=instance-data-replication&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+See [Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/instance-data-replication.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1416,7 +1416,7 @@ Instance Scan
 -   Experience the new scan\_check\_writer role to write checks in the Instance Scan table.
 -   Execute scans on inactive and base system records by enabling certain system properties.
 
-See [Instance Scan](https://www.servicenow.com/docs/access?context=hs-landing-page&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+See [Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1428,7 +1428,7 @@ Integration Hub
 -   Simplify topic management in Stream Connect with topic aliases. A topic alias is a unique topic name that can be connected to any underlying Hermes or Direct Kafka topic.
 -   View detailed statistics and monitor the health of your Integration Hub Remote Process Sync \(RPS\) integrations with the Remote Process Sync Dashboard.
 
-See [Integration Hub](https://www.servicenow.com/docs/access?context=integrationhub&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for more information.
+See [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1449,7 +1449,7 @@ Intelligence for CSM
 -   Use AI to populate interaction wrap-up codes and notes, saving agents time.
 -   Simplify metadata management by granting developer roles and privileges to your granular admin users.
 
-See [Intelligence for CSM](https://www.servicenow.com/docs/access?context=intelligence-csm&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) for more information.
+See [Intelligence for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/intelligence-csm.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1461,7 +1461,7 @@ Key Management
 -   Admins can share module keys between instances offline to facilitate instance clones between on-premise instances using KMF.
 -   The signing and verification processes for JWTs are now integrated as operation types in the existing KMFCryptoOperation class.
 
-See [Key Management Framework](https://www.servicenow.com/docs/access?context=encryption&version=australia&pubname=australia-platform-security&ft:locale=en-US) for more information.
+See [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1475,7 +1475,7 @@ Knowledge Center
 -   Improve the quality and health of knowledge articles with article optimization scans, confirming that the information is latest and relevant.
 -   Merge duplicate knowledge articles with Now Assist to improve content quality, maintain the source references, and keep your knowledge base clear, reliable, and easy to manage.
 
-See [Knowledge Center](https://www.servicenow.com/docs/access?context=knowledge-center&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+See [Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-center.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1488,7 +1488,7 @@ Knowledge Graph
 -   Added an interactive guided tour for admins, providing step-by-step walk through of key features and configurations to simplify setup.
 -   Supports Configuration item \(CI\) Relationship queries, enabling natural language questions about CMDB configuration item dependencies and infrastructure topology.
 
-See [Knowledge Graph](https://www.servicenow.com/docs/access?context=knowledge-graph-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information.
+See [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1498,7 +1498,7 @@ Lead Management
 
 -   Record early customer interactions and associate tasks with ongoing lead engagement using touchpoints throughout the pre‑deal sales lifecycle.
 
-See [Lead Management](https://www.servicenow.com/docs/access?context=lead-management&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
+See [Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1508,7 +1508,7 @@ Legal Conflict of Interest
 
 Disclose conflicts of interest using natural language from Now Assist in Virtual Agent rather than having to fill out intake forms. The risk assessment utility then automatically evaluates each submission and routes it to the appropriate approval workflow, enabling faster resolution.
 
-See [Legal Conflict of Interest](https://www.servicenow.com/docs/access?context=legal-conflict-of-interest-landing-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) for more information.
+See [Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/legal-conflict-of-interest-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1518,7 +1518,7 @@ Legal Matter Management
 
 Help ensure that sensitive information remains confidential with stakeholder controls through attorney-client privilege \(ACP\) protection for legal requests and matters.
 
-See [Legal Matter Management](https://www.servicenow.com/docs/access?context=legal-matter-management-landing-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) for more information.
+See [Legal Matter Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/legal-matter-management-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1528,7 +1528,7 @@ Legal Request Management
 
 Help ensure that sensitive information remains confidential with stakeholder controls through attorney-client privilege \(ACP\) protection for legal requests and matters.
 
-See [Legal Request Management](https://www.servicenow.com/docs/access?context=legal-request-management-landing-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) for more information.
+See [Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-request-management-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1542,7 +1542,7 @@ Localization Workspace
 -   View the translation method from the translation request summary.
 -   Use intelligent due date suggestions based on the size and scope of your requests when creating translation requests.
 
-See [Localization Workspace](https://www.servicenow.com/docs/access?context=localization-workspace&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+See [Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/localization-workspace.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1554,7 +1554,7 @@ MCP Server Console
 -   Create MCP Server Console servers and tools based on various categories including Now Assist skills for different use cases.
 -   Connect to any MCP Server Console client using OAuth 2.0 authentication.
 
-See [MCP Server Console](https://www.servicenow.com/docs/access?context=mcp-platform-manager-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information.
+See [MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-platform-manager-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1566,7 +1566,7 @@ MID Server
 -   MID Server's CyberArk integration adds a REST-based CCP option alongside the existing AIM SDK method, providing flexible, interchangeable integration choices.
 -   MID Server smart workload manager continuously evaluates load and assigns jobs in a cluster to ensure that no server is overloaded.
 
-See [MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+See [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1579,7 +1579,7 @@ Manufacturing Commercial Operations
 -   Enable the recall manager to plan and execute phases and sub-phases recall campaigns using the plan and execute recall campaign phases and sub-phases AI agent.
 -   Enable a non-conformance description to verify that the requirements are clearly stated.
 
-See [Manufacturing Commercial Operations](https://www.servicenow.com/docs/access?context=manufacturing-overview&version=australia&pubname=australia-manufacturing&ft:locale=en-US) for more information.
+See [Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1592,7 +1592,7 @@ Mobile Platform
 -   Assign the new mobile\_admin role to administrators who specifically configure mobile applications.
 -   Enable multiple users to securely access a single ServiceNow account from shared mobile devices.
 
-See [Mobile Platform](https://www.servicenow.com/docs/access?context=mobile-config-navigation&version=australia&pubname=australia-mobile&ft:locale=en-US) for more information.
+See [Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-config-navigation.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1603,7 +1603,7 @@ Next Experience
 -   Manage the visibility of page alerts with a new accessibility user preference.
 -   Explore a modernized Coral theme with better contrast, rounded UI elements, improved dark mode, and AI-focused enhancements.
 
-See [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) for more information.
+See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1614,7 +1614,7 @@ Next Experience Components
 -   Build rich UI experiences with prebuilt system or custom components. To view the Next Experience Components API reference, usage guidance, and ServiceNow® UI Builder setup documentation, visit the [Horizon site Components section](https://horizon.servicenow.com/workspace/components).
 -   Use common web component patterns and principles, such as a JavaScript framework, immutable data, and simple action handlers.
 -   Reuse components across multiple user interfaces to create a cohesive experience for your end users.
--   Use preset property values to configure properties and event handlers automatically for a component so that the component is ready to work when you add it to a page. Presets can connect to a controller that acts as a data resource for the component. For more information, see [Automatically configure components using presets](https://www.servicenow.com/docs/access?context=presets&version=australia&pubname=australia-application-development&ft:locale=en-US) and [Bind data to UI Builder pages using controllers \(advanced feature\)](https://www.servicenow.com/docs/access?context=controllers&version=australia&pubname=australia-application-development&ft:locale=en-US).
+-   Use preset property values to configure properties and event handlers automatically for a component so that the component is ready to work when you add it to a page. Presets can connect to a controller that acts as a data resource for the component. For more information, see [Automatically configure components using presets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/presets.md) and [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/controllers.md).
 
 </td></tr><tr><td>
 
@@ -1641,7 +1641,7 @@ Notifications
 -   Deliver critical push notifications even when users are logged out.
 -   Create and modify email notifications and email templates using natural language prompts through the Notification Agent.
 
-See [Notifications](https://www.servicenow.com/docs/access?context=notifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+See [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notifications.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1651,7 +1651,7 @@ Notify
 
 Use the Notify granular admin role to configure Notify features.
 
-See [Notify](https://www.servicenow.com/docs/access?context=notify-landing-page&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+See [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1659,7 +1659,7 @@ Now Assist
 
 </td><td>
 
--   **[Merge duplicate articles](https://www.servicenow.com/docs/access?context=merge-duplicate-articles&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **[Merge duplicate articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/merge-duplicate-articles.md)**
 
 Merge selected duplicate knowledge articles into a new consolidated article using Now Assist in Knowledge Management. The merge preserves references to source articles and helps maintain a clean, high‑quality knowledge base.
 
@@ -1677,7 +1677,7 @@ Now Assist AI Agents
 -   Run improved Platform agentic workflows, including Generate resolution plans, Generate my work plan, and Process images to tasks.
 -   Get more insights into agentic AI asset performance with issue tracing and suggested optimizations from results pages.
 
-See [Now Assist AI agents](https://www.servicenow.com/docs/access?context=na-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information.
+See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) for more information.
 
 For the Platform Now Assist release notes, see [Now Assist release notes](../analytics-intelligence-reporting/now-assist-rn.md).
 
@@ -1693,7 +1693,7 @@ Now Assist Center
 -   Let AI analyze your instance data and tell you exactly where automation will have the biggest impact.
 -   Match your automation opportunities to existing AI agents and automate the creation and deployment of new agents.
 
-See [Now Assist Center](https://www.servicenow.com/docs/access?context=now-assist-center-landing-page&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information.
+See [Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1703,7 +1703,7 @@ Now Assist for App Engine
 
 If you have a Now Assist for Creator subscription, you can create AI assets conversationally using Build Agent.
 
-See [Now Assist for App Engine](https://www.servicenow.com/docs/access?context=add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.
+See [Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1714,7 +1714,7 @@ Now Assist for Collaborative Work Management \(CWM\)
 -   Generate formulas for your CWM tasks using a natural language description of a calculation.
 -   Generate scrum tasks for stories based on their context.
 
-See [Now Assist for Collaborative Work Management \(CWM\)](https://www.servicenow.com/docs/access?context=now-assist-for-cwm-landing&version=australia&pubname=australia-it-business-management&ft:locale=en-US) for more information.
+See [Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1731,7 +1731,7 @@ Now Assist for Configuration Management Database \(CMDB\)
 -   Dive deeply into CI and class information while working in CI forms, dashboards, home pages, and other views on the workspace.
 -   Search the Service Graph database using natural language
 
-See [Now Assist for Configuration Management Database \(CMDB\)](https://www.servicenow.com/docs/access?context=now-assist-landing-cmdb&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+See [Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1756,7 +1756,7 @@ Australia early availability \(March\)
 -   Generate application modules in UI Builder workspaces using natural-language prompts.
 -   Learn how to vibe code, using an AI-first approach to development, in the new vibe coding documentation.
 
-See [Now Assist for Creator](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.
+See [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1781,7 +1781,7 @@ Now Assist for FSM
 -   Use voice-to-text input when interacting with Now Assist Virtual Agent in the ServiceNow Agent mobile app.
 -   Experience updated visual indicators with consistent AI gradients across platform, workspace, and mobile interfaces.
 
-See [Now Assist for Field Service Management \(FSM\)](https://www.servicenow.com/docs/access?context=now-assist-fsm&version=australia&pubname=australia-field-service-management&ft:locale=en-US) for more information.
+See [Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1795,7 +1795,7 @@ Australia Patch 1
 -   Reduce handle time with automatic call summarization: when a call is transferred to a human agent, a contextual summary of the customer's issue is made available.
 -   Research and prepare for customer outreach with a customer profile summary skill and a customer insights AI agent, which answers natural-language queries about a customer by dynamically drawing on data from defined data sources.
 
-See [Now Assist for Financial Services Operations \(FSO\)](https://www.servicenow.com/docs/access?context=now-assist-for-financial-services-operations&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US) for more information.
+See [Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1816,7 +1816,7 @@ Now Assist for IT Service Management \(ITSM\)
 -   Use the Knowledge Article Advanced Editor page to create and edit articles.
 -   Use the ITSM Conversational Analytics dashboard that provides usage adoption performance metrics in Now Assist in Virtual Agent.
 
-See [Now Assist for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=now-assist-itsm&version=australia&pubname=australia-it-service-management&ft:locale=en-US) for more information.
+See [Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1839,7 +1839,7 @@ Australia
 -   Help save time by automatically updating the resolution notes for an OT incident.
 -   Generate a KB article when an OT incident is resolved by using an agentic workflow.
 
-See [Now Assist for Operational Technology Service Management \(OTSM\)](https://www.servicenow.com/docs/access?context=now-assist-for-operational-technology-service-management&version=australia&pubname=australia-operational-technology&ft:locale=en-US) for more information.
+See [Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/now-assist-for-operational-technology-service-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1853,7 +1853,7 @@ Now Assist for Sales CRM for Telecommunications
 
 -   Automate the customer move order capture journey to reduce the manual effort.
 
-See [Now Assist for Sales CRM for Telecommunications](https://www.servicenow.com/docs/access?context=somt-now-assist&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US) for more information.
+See [Now Assist for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/somt-now-assist.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1866,7 +1866,7 @@ Now Assist for Setup
 -   Introduces Product Hubs to centralize discovery, installation, and configuration of entitled Now Assist products through guided, modular setup flows.
 -   Delivers an intuitive, customizable experience with streamlined access to critical tools based on user entitlements.
 
-See [Now Assist for Setup](https://www.servicenow.com/docs/access?context=ia-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+See [Now Assist for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1888,7 +1888,7 @@ Now Assist for Strategic Portfolio Management \(SPM\)
 -   Use the goal insights skill to generate insights for goals to gain predictive, actionable visibility into goal health.
 -   Generate a story for your epic using Now Assist.
 
-See [Now Assist for Strategic Portfolio Management \(SPM\)](https://www.servicenow.com/docs/access?context=now-assist-spm&version=australia&pubname=australia-it-business-management&ft:locale=en-US) for more information.
+See [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1902,7 +1902,7 @@ Now Assist for Telecommunications, Media and Technology \(TMT\)
 -   Generate customized product adoption roadmaps by analyzing customer characteristics, goals, and similar product adoption patterns.
 -   Analyze call, chat, billing, and interaction data with sentiment analysis for proactive service recommendations and faster issue resolution.
 
-See [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=now-assist-spmc&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US) for more information.
+See [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md) for more information.
 
 -   Automatically draft, refine, and publish release announcement emails to the multiple customers regarding the product changes and features adoption.
 -   Identify and match internal experts to customer needs based on engagement context, skills, region, and real-time availability.
@@ -1910,7 +1910,7 @@ See [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://ww
 -   Generate customized product adoption roadmaps by analyzing customer characteristics, goals, and similar product adoption patterns.
 -   Analyze call, chat, billing, and interaction data with sentiment analysis for proactive service recommendations and faster issue resolution.
 
-See [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=now-assist-spmc&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US) for more information.
+See [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1935,7 +1935,7 @@ Now Assist in Contract Management
 -   Configure use case mappings to extract metadata and obligations from a signed contract that is uploaded directly on a contract record.
 -   Use Now Assist powered conversational search to query contract documents using natural language and dialogue-driven queries, making it easier to find relevant information.
 
-See [Now Assist in Contract Management](https://www.servicenow.com/docs/access?context=cncore-now-assit-landing&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) for more information.
+See [Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1952,7 +1952,7 @@ Now Assist in Document Intelligence
 -   View citations for multiple attachments using the document and visual insights AI agent.
 -   Create skills with data extraction, question answering, and summarization capabilities using document and visual intelligence in Now Assist Skill Kit.
 
-See [Now Assist in Document Intelligence](https://www.servicenow.com/docs/access?context=docintel-nowassist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information.
+See [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1966,7 +1966,7 @@ Now Assist in Platform Analytics
 -   Collaboration with Other Users: Transform data analysis by working simultaneously with colleagues in a shared space to refine analyses, align on insights, and accelerate data-driven decisions.
 -   Smart Integration with Contextual Intelligence: Trigger AI Data Explorer instantly from any application, list, or data visualization to access powerful insights enhanced by contextual awareness and usage patterns to highlight the data that matter most to you.
 
-See [Now Assist in Platform Analytics](https://www.servicenow.com/docs/access?context=now-assist-platform-analytics&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) for more information.
+See [Now Assist in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1985,7 +1985,7 @@ On-Call Scheduling
 -   Configure on-call schedule features using granular roles.
 -   Configure a monthly roster rotation for an on-call schedule to simplify shift management.
 
-See [On-Call Scheduling](https://www.servicenow.com/docs/access?context=c_OnCallScheduling&version=australia&pubname=australia-it-service-management&ft:locale=en-US) for more information.
+See [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/c_OnCallScheduling.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1997,7 +1997,7 @@ Operational Resilience
 -   Generate consistent, regulator-ready reports using optional currency conversion and third-party expense aggregation in Digital Operational Resilience Act \(DORA\) Register of Information reporting.
 -   Leverage AI-native experience built into the product.
 
-See [Operational Resilience](https://www.servicenow.com/docs/access?context=grc-opres-landing-page&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) for more information.
+See [Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-opres-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2009,7 +2009,7 @@ Operational Sustainability Management \(formerly Environmental, Social, and Gove
 -   Configure thresholds with multiple levels, ranges, and automated actions that trigger when breaches occur.
 -   Automatically extract units from invoices and update metric data with accurate unit values.
 
-See [Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://www.servicenow.com/docs/access?context=esg-landing-page&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US) for more information.
+See [Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2022,7 +2022,7 @@ Operational Technology Incident Management
 -   Generate a KB article when an OT incident is resolved by using an agentic workflow.
 -   Report an OT incident without an OT incident role using the Employee Center for OT.
 
-See [Operational Technology Incident Management](https://www.servicenow.com/docs/access?context=operational-technology-incident-management-landing-page&version=australia&pubname=australia-operational-technology&ft:locale=en-US) for more information.
+See [Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/operational-technology-incident-management-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2033,7 +2033,7 @@ Operational Technology Manager
 -   Get a deeper look into your OT network with the OT network map in the Industrial Workspace, where you can view a site, its subnets, and the OT devices in each subnet.
 -   Keep your OT device data updated by using the Configuration Management Database \(CMDB\) OT class model updates and UI enhancements.
 
-See for [Operational Technology Manager](https://www.servicenow.com/docs/access?context=operational-technology-manager&version=australia&pubname=australia-operational-technology&ft:locale=en-US) more information.
+See for [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/operational-technology-manager.md) more information.
 
 </td></tr><tr><td>
 
@@ -2046,7 +2046,7 @@ Opportunity Management
 -   Split opportunity revenue across multiple contributors using opportunity allocations to ensure accurate attribution, incentive crediting, and forecast reporting for collaborative sales teams.
 -   Capture Direct or Indirect deal types to align opportunities with defined routes to market.
 
-See [Opportunity Management](https://www.servicenow.com/docs/access?context=opportunity-management&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
+See [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2059,7 +2059,7 @@ Order Management
 -   Enhance the Order management \(OM\) integration with Strategic Portfolio Management \(SPM\) for in-flight orders to support projects for site and maintain program project and sub-project hierarchy.
 -   Enable visibility into all entities involved in a deal by viewing billing, shipping, entitlement, and partner details on the customer order.
 
-See [Order management](https://www.servicenow.com/docs/access?context=explore-order-management&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
+See [Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2069,7 +2069,7 @@ Password Reset
 
 Use the Password Reset granular admin role to configure Password Reset features.
 
-See [Password Reset](https://www.servicenow.com/docs/access?context=password-reset-landing-page&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+See [Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2084,7 +2084,7 @@ Performance Analytics
 -   View scores as they accumulate throughout the day without having to wait for end-of-day processing.
 -   When exploring a Data snapshots indicator with KPI Details, customizable score formats, apply flexible breakdowns and aggregation periods, direct alert subscriptions for targets and thresholds, and apply hierarchical roll-ups for breakdowns.
 
-See [Performance Analytics \(Indicator data sources\)](https://www.servicenow.com/docs/access?context=pa-overview&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) for more information.
+See [Performance Analytics \(Indicator data sources\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2096,7 +2096,7 @@ Performance Analyzer
 -   Filter client interaction lists to investigate user-specific performance issues.
 -   View a waterfall with macroponent server-side calls.
 
-See [Performance Analyzer](https://www.servicenow.com/docs/access?context=performance-analyzer-landing&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.
+See [Performance Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/performance-analyzer/performance-analyzer-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2109,7 +2109,7 @@ Platform Analytics experience
 -   Author and adjust layouts within the dashboard, which enables business owners to make changes without heavy developer involvement.
 -   Use performance enhancements, such as dashboard caching and UX improvements, to help shorten load times and improve day-to-day usability for high-traffic dashboards.
 
-See [Platform Analytics experience](https://www.servicenow.com/docs/access?context=par-workspace&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) for more information.
+See [Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/par-workspace.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2123,7 +2123,7 @@ Playbook
 -   Preview the UI for an activity in when configuring a playbook activity in Workflow Studio.
 -   Use AI agents as activities in your playbook to automate tasks.
 
-See [Exploring Playbook](https://www.servicenow.com/docs/access?context=process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US) for more information.
+See [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2134,7 +2134,7 @@ Policy and Compliance Management
 -   Manage control objective changes through a structured workflow without affecting the active published record.
 -   Rationalize UCF and non-UCF control objectives together in a single rationalization process.
 
-See [Policy and Compliance Management](https://www.servicenow.com/docs/access?context=r_PolicyComplianceMgmt&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) for more information.
+See [Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/r_PolicyComplianceMgmt.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2148,7 +2148,7 @@ Portfolio Planning
 -   Review the financial records of your planning items in both project currency and investment currency when you migrate them from Classic to Next Experience.
 -   Create financial baselines with multicurrency to capture, view, and track the financial health of your planning item using project baselines and investment baselines.
 
-See [Portfolio Planning](https://www.servicenow.com/docs/access?context=portfolio-planning-app-landing-page&version=australia&pubname=australia-it-business-management&ft:locale=en-US) for more information.
+See [Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/portfolio-planning-app-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2158,7 +2158,7 @@ Predictive Intelligence
 
 A new Predictive Intelligence Usage Analytics dashboard provides you with actionable insights into model performance, user engagement, adoption trends, and product health.
 
-See [Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information.
+See [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2169,7 +2169,7 @@ Privacy Management
 -   Automatically generate an AI-recommended privacy case summary from varied compliance case data, reducing investigation time and enabling faster, more consistent decision-making.
 -   Anonymously report compliance violations through a secure portal that maintains complete identity protection while enabling organizational trust and regulatory compliance.
 
-See [Privacy Management](https://www.servicenow.com/docs/access?context=privacy-management&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) for more information.
+See [Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2184,7 +2184,7 @@ Process Mining
 -   Take advantage of Process Mining and Task Mining integration.
 -   Filter the data from the parent and child tables in the multidimensional projects.
 
-See [Process Mining](https://www.servicenow.com/docs/access?context=process-mining&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) for more information.
+See [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2199,7 +2199,7 @@ Product Catalog Management and Pricing Management
 -   Use standard predefined formulas \(SUM, AVG, MIN, and MAX\) in derived pricing calculations to capture adjustments at each pricing step.
 -   Enable agents and customers to view attribute-based pricing where the product offering price is based on a combination of attributes.
 
-See [Product Catalog Management](https://www.servicenow.com/docs/access?context=product-catalog-managment&version=australia&pubname=australia-order-management&ft:locale=en-US) and [Pricing Management](https://www.servicenow.com/docs/access?context=pricing-management&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
+See [Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md) and [Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/pricing-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2210,7 +2210,7 @@ Product Support for Technology
 -   Use analytics dashboards on the Service Delivery Overview page to improve usability and operational visibility.
 -   Use the customer impact tab to improve operational clarity, reduce navigation time, and manage the Proactive Service Experience Workflows \(PSEW\) processes.
 
-See [Product Support for Technology](https://www.servicenow.com/docs/access?context=assurance-workflows&version=australia&pubname=australia-proactive-service-exp-workflows&ft:locale=en-US) for more information.
+See [Product Support for Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2222,7 +2222,7 @@ Project Portfolio Management
 -   Link AI systems to demands in Demand Management.
 -   Generate a concise summary of a demand by using the demand summarization skill.
 
-See [Explore Project Portfolio Management](https://www.servicenow.com/docs/access?context=explore-project-portfolio-management&version=australia&pubname=australia-it-business-management&ft:locale=en-US) for more information.
+See [Explore Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/explore-project-portfolio-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2238,7 +2238,7 @@ Project Workspace
 -   Deliver clear, executive‑ready project status reports using AI.
 -   Use the AI insights page to view task, milestone, resource, financial, and RIDAC insights for a project.
 
-See [Project Workspace](https://www.servicenow.com/docs/access?context=project-workspace-landing-page&version=australia&pubname=australia-it-business-management&ft:locale=en-US) for more information.
+See [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-workspace-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2253,7 +2253,7 @@ Public Sector Digital Services
 -   Synthesize narratives, entities, evidence, and activity history into a structured summary using Investigative Case Management Case Summarization.
 -   Validate large volumes of uploaded documents, verify information, flag issues, and highlight key details for case agents with the Document Screening Al Skill, used with Now Assist for Public Sector Digital Services \(PSDS\).
 
-See [Public Sector Digital Services \(PSDS\)](https://www.servicenow.com/docs/access?context=bun-public-sector-landing-page&version=australia&pubname=australia-government-industry&ft:locale=en-US) for more information.
+See [Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/bun-public-sector-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2263,7 +2263,7 @@ Purchase Order Management
 
 [Australia Patch 1](../quality/australia-patch-1.md)
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
 The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -2281,7 +2281,7 @@ Australia Early Availability
 -   Convert supplier emails into purchase order exceptions automatically when a registered supplier contact sends emails to a supplier inbox.
 -   Analyze delivery gaps and view suggested edits to orders with alternative suppliers with the Define purchase order exception mitigation strategy agentic workflow
 
-See [Purchase Order Management](https://www.servicenow.com/docs/access?context=purchase-order-mgmt-landing-page&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US) for more information.
+See [Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purchase-order-mgmt-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2296,7 +2296,7 @@ Quote Management
 -   Enhance quote approval workflows with automated reminders, escalations, override capabilities, and ad-hoc approvals for greater control and accountability throughout the approval process.
 -   [Australia Patch 1](../quality/australia-patch-1.md)Summarize a quote with Now Assist for immediate, comprehensive insights into quote details \(product, pricing, and terms\) to improve quote accuracy, help teams align, reduce manual review, catch issues early, and accelerate quote turnaround.
 
-See [Quote Management](https://www.servicenow.com/docs/access?context=quote-management&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
+See [Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2307,7 +2307,7 @@ RPA Hub
 -   You can now selectively define which actions \(components\) are handled within a Try-Catch block and which are handled outside it.
 -   Versions of model provider are now supported for RPA bot generation skill.
 
-See [Learn about RPA suite of applications](https://www.servicenow.com/docs/access?context=rpa-explore&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for more information.
+See [Learn about RPA suite of applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-explore.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2317,7 +2317,7 @@ Recommended Actions for HRSD
 
 Provide relevant resources and recommendations to HR agents for speedy resolution of HR cases.
 
-See [Exploring Recommended Actions for HRSD](https://www.servicenow.com/docs/access?context=explore-recommended-actions-hrsd&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) for more information.
+See [Exploring Recommended Actions for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/explore-recommended-actions-hrsd.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2327,7 +2327,7 @@ Recommended Actions for Operational Technology Service Management \(OTSM\)
 
 -   Use the AI Enhanced Recommended Actions for OTSM feature to access external sources related to an OT incident and review why the document is relevant to the incident.
 
-See [Recommended Actions for Operational Technology Service Management \(OTSM\)](https://www.servicenow.com/docs/access?context=recommended-actions-for-otsm&version=australia&pubname=australia-operational-technology&ft:locale=en-US) and [AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://www.servicenow.com/docs/access?context=ai-enhanced-ra-otsm-landing&version=australia&pubname=australia-operational-technology&ft:locale=en-US) for more information.
+See [Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/recommended-actions-for-otsm/recommended-actions-for-otsm.md) and [AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ai-enhanced-ra-otsm-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2343,7 +2343,7 @@ Review the updated skill family name for Regulatory change management Now Assist
 
 Review the updated AI experience with three licensing tiers.
 
-See [Regulatory Change Management](https://www.servicenow.com/docs/access?context=reg-change-mgmt-landing-page&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) for more information.
+See [Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/reg-change-mgmt-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2356,7 +2356,7 @@ ReleaseOps
 -   Leverage Automated Test Framework \(ATF\) code coverage to improve the efficacy of your ATF test suites.
 -   If you have a Now Assist for Creator subscription, you can use generate update set descriptions and release notes using the release lifecycle documentation AI agent.
 
-See [ReleaseOps](https://www.servicenow.com/docs/access?context=releaseops-landing&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.
+See [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/releaseops-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2369,7 +2369,7 @@ Retail
 -   Schedule and manage recurring tasks such as daily store opening procedures with parent cases for store-level tracking.
 -   Fulfillment of store case and task for regional managers and store teams through Retail mobile app.
 
-See [Retail](https://www.servicenow.com/docs/access?context=rahi-retail-operations-overview&version=australia&pubname=australia-retail-industry&ft:locale=en-US) for more information.
+See [Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2383,7 +2383,7 @@ SQL API
 -   Merge your ServiceNow data with external datasets in your analytical platforms for comprehensive analysis.
 -   Write targeted SQL queries to retrieve only the data you need, reducing network overhead on data pipeline and data transformation, and improving performance.
 
-For more information, see [Access your ServiceNow data using SQL API](https://www.servicenow.com/docs/access?context=accessing-your-servicenow-data-using-sql-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For more information, see [Access your ServiceNow data using SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md).
 
 </td></tr><tr><td>
 
@@ -2394,7 +2394,7 @@ Sales CRM for Telecommunications
 -   Sales and Order Management for Telecommunications \(SOMT\) is now known as Sales Customer Relationship Management for Telecommunication \(Sales CRM for Telecommunications\) to align with the updated product taxonomy. There is no change to functionality or existing customer configurations.
 -   Provide customers with the option to configure product workflows using the data-driven catalog subflow as an alternative to Flow Designer, giving more options for implementing product configurations.
 
-See [Sales Customer Relationship Management for Telecommunications](https://www.servicenow.com/docs/access?context=somt&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US) for more information.
+See [Sales Customer Relationship Management for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/somt.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2409,7 +2409,7 @@ Sales Forecasting
 -   Support for submitting forecasts by primary and secondary hierarchies.
 -   Enable forecast owners to submit and adjust forecasts at base forecast source.
 
-See [Sales Forecasting](https://www.servicenow.com/docs/access?context=sales-forecasting&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
+See [Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2419,7 +2419,7 @@ Sales Territory Management​
 
 Sales Territory Member role gets access to view the sales territory associated on the CRM entities like Lead, Opportunity, Account, or Consumer.
 
-See [Sales Territory Management​](https://www.servicenow.com/docs/access?context=explore-sales-territory-management&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
+See [Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-sales-territory-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2444,7 +2444,7 @@ Security Incident Response
 -   Rapidly build integrations for Security Incident Response using auto-code generation through the Now Assist LLM-powered integration builder.
 -   Ingest MITRE D3FEND data and visualize attack–defense relationships through an interactive graph directly within a security incident.
 
-See [Security Incident Response](https://www.servicenow.com/docs/access?context=sir-landing-page&version=australia&pubname=australia-security-management&ft:locale=en-US) for more information.
+See [Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2458,7 +2458,7 @@ Self-service and omnichannel engagement for CSM
 -   Enable agents to initiate outbound email interactions from contact or consumer records, with configurable automated reminders to end users, enabling proactive customer engagement and comprehensive email tracking. Improve reporting reliability and compliance with configurable wrap‑up codes for CCaaS and AWA‑routed email interactions.
 -   Schedule, reschedule, and cancel native callbacks from Agent Workspace across all omnichannel interactions \(chat, voice, email, and messaging\) and cases without switching to external tools or applications.
 
-See [Omnichannel](https://www.servicenow.com/docs/access?context=omnichannels-communicating-customers&version=australia&pubname=australia-customer-service-management&ft:locale=en-US), [Self-service for Customer Service Management](https://www.servicenow.com/docs/access?context=self-service-options-csm-customers&version=australia&pubname=australia-customer-service-management&ft:locale=en-US), and [Interaction Controls Component \(ICC\) for voice calls](https://www.servicenow.com/docs/access?context=contact-center-integration-with-icc&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) for more information.
+See [Omnichannel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/omnichannels-communicating-customers.md), [Self-service for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/self-service-options-csm-customers.md), and [Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contact-center-integration-with-icc.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2472,7 +2472,7 @@ Service Catalog
 -   Hide or show variables on a grid layout of the multi-row variable set \(MRVS\) for a catalog item.
 -   Configure the update set prefix to set a custom name for the update set that gets generated automatically in the Catalog Builder.
 
-See [Service Catalog](https://www.servicenow.com/docs/access?context=service-catalog&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+See [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2485,7 +2485,7 @@ Service Exchange \(formerly Service Bridge\)
 -   Get enhanced visibility into your instances with the Service Exchange center.
 -   Reduce onboarding complexity for consumers with auto-onboarding.
 
-See [Service Exchange](https://www.servicenow.com/docs/access?context=tmt-service-bridge-both-landing-page&version=australia&pubname=australia-service-exchange&ft:locale=en-US) for more information.
+See [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/tmt-service-bridge-both-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2499,7 +2499,7 @@ Service Operations Workspace for ITSM
 -   Configure reference field auto-load behavior from the SOW Admin Center.
 -   Enable service desk agents to easily create, manage, and track checklists for Request and RITM records directly within the workspace to confirm that all steps are completed.
 
-See [Service Operations Workspace for ITSM](https://www.servicenow.com/docs/access?context=sow-landing-page&version=australia&pubname=australia-it-service-management&ft:locale=en-US) for more information.
+See [Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2513,7 +2513,7 @@ Service Portal
 -   Use a Coral dark theme on a portal to improve focus, readability, and accessibility.
 -   Create theme variants for the Service Portal themes to tailor the visual experience for your users.
 
-See [Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) for more information.
+See [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2525,7 +2525,7 @@ ServiceNow AI Lens
 
 Get started with ServiceNow AI Lens by using it directly from the browser. No downloading or installation required.
 
-See [ServiceNow AI Lens](https://www.servicenow.com/docs/access?context=servicenow-lens-landing-page&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information.
+See [ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2535,7 +2535,7 @@ ServiceNow AI Platform core feature
 
 Control whether read-only fields can be updated through client scripts and server-side operations by configuring read-only options.
 
-See [Administer the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=intro-now-platform-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+See [Administer the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/intro-now-platform-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2545,7 +2545,7 @@ ServiceNow IDE
 
 Create or convert applications in the global scope with instances on the Australia release.
 
-See [ServiceNow IDE](https://www.servicenow.com/docs/access?context=servicenow-ide-landing&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.
+See [ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2555,7 +2555,7 @@ ServiceNow SDK
 
 Create or convert applications in the global scope with instances on the Australia release.
 
-See [ServiceNow SDK](https://www.servicenow.com/docs/access?context=servicenow-sdk-landing&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.
+See [ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-sdk-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2568,7 +2568,7 @@ ServiceNow Studio
 -   Create and edit full-stack applications conversationally with Build Agent, an autonomous AI agent.
 -   Build pages for workspaces or custom web experiences in your applications by adding UI Builder files to your application in ServiceNow Studio.
 
-See [ServiceNow Studio](https://www.servicenow.com/docs/access?context=servicenow-studio-landing&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.
+See [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2586,7 +2586,7 @@ ServiceNow Vault
 -   Identify potential threats and data leaks using the new AI Insights section within the ServiceNow Vault console dashboard.
 -   Use guided setup to begin autoclassifying sensitive data within your custom applications.
 
-See [ServiceNow Vault](https://www.servicenow.com/docs/access?context=servicenow-vault-landing&version=australia&pubname=australia-platform-security&ft:locale=en-US) for more information.
+See [ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-vault-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2597,7 +2597,7 @@ Sidebar
 -   Move and resize the chat window using the Sidebar new dynamic window framework.
 -   Create standalone Sidebar discussions.
 
-See [Sidebar](https://www.servicenow.com/docs/access?context=sidebar-landing&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) for more information.
+See [Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/sidebar-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2608,7 +2608,7 @@ Smart Assessment Engine
 -   Enable efficient, role-based collaboration by allowing primary owners to delegate assessment sections to subject matter experts \(SMEs\).
 -   Edit published templates quickly with inline edits and built‑in audit tracking.
 
-See [Smart Assessment Engine](https://www.servicenow.com/docs/access?context=smart-asmnt-engine-landing-page&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) for more information.
+See [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2628,7 +2628,7 @@ Australia Patch 0
 -   Streamline software lifecycle reporting and compliance management with a guided playbook.
 -   Use a consolidated Microsoft licensing report that unifies device and infrastructure deployment details with license consumption calculations and transparent explanations.
 
-See [Software Asset Management](https://www.servicenow.com/docs/access?context=c_SoftwareAssetMgmt&version=australia&pubname=australia-it-asset-management&ft:locale=en-US) for more information.
+See [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2640,7 +2640,7 @@ Source-to-Pay Operations Integrations
 -   Added enhancements to the Purchase Requisition Line \(PRL\) outbound staging table.
 -   Performance optimizations applied to the Purchase Order \(PO\) transform map.
 
-See [Source-to-Pay integration with third-party applications](https://www.servicenow.com/docs/access?context=source-to-pay-third-party-integration&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US) for more information.
+See [Source-to-Pay integration with third-party applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-third-party-integration.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2650,7 +2650,7 @@ Sourcing and Procurement Operations
 
 [Australia Patch 1](../quality/australia-patch-1.md)
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
 The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -2668,7 +2668,7 @@ Australia Early Availability
 -   Purchase on behalf of other users directly from Shopping Hub and track purchases using the business owner filter.
 -   Create a single sourcing request when a requester submits an intake request with multiple products or services.
 
-See [Sourcing and Procurement Operations](https://www.servicenow.com/docs/access?context=psm-overview&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US) for more information.
+See [Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psm-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2683,7 +2683,7 @@ Strategic Planning
 -   Consistent financial reporting across all baselines by support of investment currency on migrated financial baselines.
 -   Simplified user experience and focus on investment level financials view on investment currency fields for new customers. Complete and accurate currency data in all financial baselines for existing customers are now upgraded to include investment currency values.
 
-See [Strategic Planning](https://www.servicenow.com/docs/access?context=alignment-planner-workspace-landing-page&version=australia&pubname=australia-it-business-management&ft:locale=en-US) for more information.
+See [Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/alignment-planner-workspace-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2694,7 +2694,7 @@ Subscription Management
 -   View and filter Now Assist usage by domain in domain-separated instances.
 -   Monitor Workflow Data Fabric usage and view token use rate of each capability.
 
-See [Subscription Management](https://www.servicenow.com/docs/access?context=subscription-management-landing-page-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+See [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/subscription-management-landing-page-v2.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2704,7 +2704,7 @@ Supplier Lifecycle Operations
 
 [Australia Patch 1](../quality/australia-patch-1.md)
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
 The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -2734,7 +2734,7 @@ Table Builder
 -   Read-only behavior is now controlled by the **Read only option** \[`read_only_option`\] choice field, which provides options such as **Display Read Only** or **Strict Read Only**.
 -   The existing **Read only** field will no longer be editable in the UI.
 
-See [Table Builder](https://www.servicenow.com/docs/access?context=tb-landing-page&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.
+See [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2747,7 +2747,7 @@ Telecommunications Customer 360
 -   Provides data source configurability to bring call, chat, billing data from external sources and generate insights.
 -   Receive insights on customer health and top recent issues.
 
-See [Telecommunications Customer 360](https://www.servicenow.com/docs/access?context=c360-land-page&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US) for more information.
+See [Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-land-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2758,7 +2758,7 @@ Telecommunications Network Inventory
 -   Enable customers to request services for equipment housed in your facility using Remote Hands.
 -   View a concise summary of Remote Hands Request
 
-See [Telecommunications Network Inventory](https://www.servicenow.com/docs/access?context=telecom-network-inventory&version=australia&pubname=australia-telecom-network-inventory&ft:locale=en-US) for more information.
+See [Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecom-network-inventory.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2770,7 +2770,7 @@ Telecommunications Service Operations Management \(TSOM\)
 -   Extend discovery pattern capabilities with support for switch stacks, card models, lifecycle attributes, and improved error handling.
 -   Monitor SD-WAN health in real-time with new Telecom Event and Metric connectors that enable intelligent event categorization, correlation, and KPI aggregation.
 
-See [Telecommunications Service Operations Management](https://www.servicenow.com/docs/access?context=telecommunications-service-operations-management&version=australia&pubname=australia-telecom-service-ops&ft:locale=en-US) for more information.
+See [Telecommunications Service Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecommunications-service-operations-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2782,7 +2782,7 @@ Theme Builder
 -   Customize fonts by category and adjust font sizes to scale typography across specific component categories like headers, buttons, and form fields, or by size groups for consistent styling.
 -   Access the new icon library to configure and override default icons using custom assets.
 
-See [Working with themes in Next Experience](https://www.servicenow.com/docs/access?context=next-experience-theming&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) for more information.
+See [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2802,7 +2802,7 @@ Use generative AI to recommend TPRM issues for reviewer validation.
 
 Review the updated AI experience with three licensing tiers.
 
-See [Third-party Risk Management](https://www.servicenow.com/docs/access?context=third-party-risk-mgt-landing-page&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) for more information.
+See [Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/third-party-risk-mgt-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2816,7 +2816,7 @@ Threat Intelligence Security Center
 -   Added automated tagging and MITRE-ATT&amp;CK extraction rules to apply tags, taxonomies, and associate relevant techniques. Added automated cleanup of duplicate source records generated during the aggregation process.
 -   Added automated zero day vulnerability detection from RSS feeds with enhanced correlation, streamlined Security Incident Response workflows, and integrated intelligence context in Security Incident to support faster threat analysis.
 
-See [Threat Intelligence Security Center](https://www.servicenow.com/docs/access?context=tisc-landing-page&version=australia&pubname=australia-security-management&ft:locale=en-US) for more information.
+See [Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2827,7 +2827,7 @@ UI Builder
 -   Share UI Builder pages across experiences without copying or recreating them, reducing maintenance and keeping users in their current workspace.
 -   UI Interactions let you define reusable UI and logic that can be triggered by user actions or system events and shared across any page or experience, eliminating the need to duplicate code or UI.
 
-See [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.
+See [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2838,7 +2838,7 @@ Universal Request
 -   Enable employees raise tickets for hard-to-find catalog services or issues requiring interdepartmental collaboration using the Agentic AI flow for departmental ticket creation.
 -   Resolve universal requests efficiently by enabling effective communication among agents from different departments.
 
-See [Universal Request](https://www.servicenow.com/docs/access?context=ur-landing-limitedaccess&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) for more information.
+See [Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-landing-limitedaccess.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2849,7 +2849,7 @@ Upgrade Console
 -   Access the ATF troubleshooting agent directly from the Upgrade console.
 -   Manage your application version compatibility by updating the Now Assist suite.
 
-See [Upgrade Console](https://www.servicenow.com/docs/access?context=um-landing-page&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+See [Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2873,7 +2873,7 @@ Visa Spoke
 -   Use updated Visa Spoke APIs to help prevent storage or transmission of Payment Card Industry \(PCI\) data within ServiceNow.
 -   Apply Visa Resolve Online \(VROL\) release 26.1 revision changes to some Visa Spoke actions.
 
-See [Visa Spoke](https://www.servicenow.com/docs/access?context=visa-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for more information.
+See [Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/visa-spoke.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2885,7 +2885,7 @@ Vulnerability Response
 -   The Central Vulnerability Database \(CVDB\) introduces a source-agnostic vulnerability data layer that consolidates data from multiple sources, improving accuracy and traceability.
 -   Define the number of background jobs that run concurrently to reduce system resource consumption, with a new Background Job Configuration tile available in the Vulnerability Manager Workspace Admin console under the Others section.
 
-See [Vulnerability Response](https://www.servicenow.com/docs/access?context=vuln-landing-page&version=australia&pubname=australia-security-management&ft:locale=en-US) for more information.
+See [Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vuln-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2910,7 +2910,7 @@ Zero Copy Connector for ERP
 -   Use REST APIs to extend beyond SAP systems.
 -   Improved AI suggestions and interface for mapping fields in the Model Manager.
 
-See [Zero Copy Connector for ERP](https://www.servicenow.com/docs/access?context=erp-integration-overview&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for more information.
+See [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2925,7 +2925,7 @@ Zero Copy Connectors
 -   Include either primary connectors only both primary and community connectors.
 -   Connect to Teradata using Bearer Token and OAuth authentication.
 
-See [Zero Copy Connectors](https://www.servicenow.com/docs/access?context=zero-copy-connectors&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for more information.
+See [Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zero-copy-connectors.md) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Australia features](../release-notes-summaries.md)

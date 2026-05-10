@@ -40,7 +40,7 @@ Use this example to see demonstrations of these operations and steps.
 
 1.  Create an application to store your work.
 
-    You can use App Engine Studio to plan, create, and deploy applications. For more information about building a custom application, see [Building apps in App Engine Studio](https://www.servicenow.com/docs/access?context=aes-app-creation&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    You can use App Engine Studio to plan, create, and deploy applications. For more information about building a custom application, see [Building apps in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-creation.md).
 
     For example, create an application called `My Application`.
 
@@ -309,7 +309,7 @@ Value
 
     ![Execution details page for the test results of your custom action.](../images/array-objects-execution-details-page.png)
 
-    Although the execution details display the output data as a JSON formatted string, the actual output data type is an array of objects. If you need a string version of your output, you can convert the object into a string using the JSON class. For more information about converting a JSON object into a string, see [Scoped JSON - stringify\(Object jsonObject\)](https://www.servicenow.com/docs/access?context=JSONScopedAPI&version=australia&pubname=australia-api-reference&section=JSONScoped-stringify_O&ft:locale=en-US).
+    Although the execution details display the output data as a JSON formatted string, the actual output data type is an array of objects. If you need a string version of your output, you can convert the object into a string using the JSON class. For more information about converting a JSON object into a string, see [Scoped JSON - stringify\(Object jsonObject\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/JSONScopedAPI.md).
 
     For this example, the contacts object contains an array of contact objects with first name, last name, and email information for three users in the Development department.
 

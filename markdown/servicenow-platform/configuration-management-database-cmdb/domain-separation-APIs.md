@@ -19,11 +19,11 @@ Use CMDB APIs to create, update, and read operations on the CMDB. Domain separat
 
 Use the following CMDB APIs to create, update, and read operations on the CMDB:
 
--   [CMDBGroupAPI - Scoped](https://www.servicenow.com/docs/access?context=c_CMDBGroupAPIScoped&version=australia&pubname=australia-api-reference&ft:locale=en-US)
--   [CMDBTransformUtil - Global](https://www.servicenow.com/docs/access?context=c_CMDBTransformUtilAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
--   [CMDBUtil - Global](https://www.servicenow.com/docs/access?context=c_CMDBUtilAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
--   [IdentificationEngineScriptableApi](https://www.servicenow.com/docs/access?context=c_IdentEngineScriptAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
--   [IdentificationEngine - Scoped](https://www.servicenow.com/docs/access?context=IdentificationEngineScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+-   [CMDBGroupAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_CMDBGroupAPIScoped.md)
+-   [CMDBTransformUtil - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_CMDBTransformUtilAPI.md)
+-   [CMDBUtil - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_CMDBUtilAPI.md)
+-   [IdentificationEngineScriptableApi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_IdentEngineScriptAPI.md)
+-   [IdentificationEngine - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/IdentificationEngineScopedAPI.md)
 
 ## Domain separation in CMDB APIs
 

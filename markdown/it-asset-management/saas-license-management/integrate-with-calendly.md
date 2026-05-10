@@ -77,7 +77,7 @@ To create a Calendly integration profile, request the Software Asset Management 
 
 ServiceNow Role required: sam\_integrator
 
-**Important:** You must select the **Calendly Spoke** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **Calendly Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
 
 ### About this task
 
@@ -87,15 +87,15 @@ If you’re using Software Asset Workspace, the option to create the Calendly in
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d89110e472">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d89114e472">
 
 Interface
 
-</th><th align="left" id="d89110e475">
+</th><th align="left" id="d89114e475">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d89110e481">
+</th></tr></thead><tbody><tr><td id="d89114e481">
 
 **Core UI**
 
@@ -106,7 +106,7 @@ Action
 3.  Select **Calendly Integration Profile**.
 
 
-</td></tr><tr><td id="d89110e523">
+</td></tr><tr><td id="d89114e523">
 
 **Software Asset Workspace**
 

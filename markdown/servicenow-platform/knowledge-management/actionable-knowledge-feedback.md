@@ -23,7 +23,7 @@ The task assignees can update the article, create a new article, request additio
 
 **Note:** The actionable feedback feature is available in the Knowledge Management Service Portal and Agent Workspace. To use the actionable feedback feature in other service portals, you can activate the **Knowledge Article View** page route map.
 
-Beginning with New York, the **Knowledge Article View** page route map is activated by default. Existing customers on release versions prior to New York can activate the **Knowledge Article View** page route map. For more information, see [Activate the Knowledge Article View page on upgrade](https://www.servicenow.com/docs/access?context=redirect-knowledge&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Beginning with New York, the **Knowledge Article View** page route map is activated by default. Existing customers on release versions prior to New York can activate the **Knowledge Article View** page route map. For more information, see [Activate the Knowledge Article View page on upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/redirect-knowledge.md).
 
 **Parent Topic:**[Knowledge Management](knowledge-management.md)
 

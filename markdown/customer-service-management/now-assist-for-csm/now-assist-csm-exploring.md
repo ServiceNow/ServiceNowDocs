@@ -160,17 +160,17 @@ Get a comprehensive view of customer sentiment across cases and accounts. The da
 
 ## Now Assist panel in CSM Configurable Workspace
 
-An agent can use the Now Assist panel in CSM Configurable Workspace. This conversational interface enables an agent to request a chat summary or case summary and generate the case resolution notes. For more information about the Now Assist panel, see [Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+An agent can use the Now Assist panel in CSM Configurable Workspace. This conversational interface enables an agent to request a chat summary or case summary and generate the case resolution notes. For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## Now Assist in AI Search
 
-The Now Assist in AI Search application uses Now LLM Service to extract actionable Q&amp;A Genius Result answers from the knowledge articles that are found in Service Portal, Virtual Agent, Employee Center, and global searches. By using this application, an agent can improve the customer's experience by retrieving the relevant content from the knowledge base and generating concise answers. For more information, see [Now Assist in AI Search](https://www.servicenow.com/docs/access?context=now-assist-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The Now Assist in AI Search application uses Now LLM Service to extract actionable Q&amp;A Genius Result answers from the knowledge articles that are found in Service Portal, Virtual Agent, Employee Center, and global searches. By using this application, an agent can improve the customer's experience by retrieving the relevant content from the knowledge base and generating concise answers. For more information, see [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-ais.md).
 
 ## Now Assist in Virtual Agent
 
-Now Assist in the Virtual Agent guided setup can reduce the time and effort needed to deploy Now Assist within Virtual Agent. Your administrators can configure features and skills as well as sources of information such as knowledge bases and catalogs. For more information, see [Configure Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Now Assist in the Virtual Agent guided setup can reduce the time and effort needed to deploy Now Assist within Virtual Agent. Your administrators can configure features and skills as well as sources of information such as knowledge bases and catalogs. For more information, see [Configure Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
-With the Now Assist Multi-Turn Catalog Requests skill, your customers can engage with Virtual Agent in a conversational manner to request catalog items. A customer can request an item and then refine their search by providing additional information. For more information, see [Multi-turn catalog ordering](https://www.servicenow.com/docs/access?context=using-now-assist-in-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US#section_pl4_zjw_jzb).
+With the Now Assist Multi-Turn Catalog Requests skill, your customers can engage with Virtual Agent in a conversational manner to request catalog items. A customer can request an item and then refine their search by providing additional information. For more information, see [Multi-turn catalog ordering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md#section_pl4_zjw_jzb).
 
 ## Sensitive data handling
 
@@ -184,7 +184,7 @@ Get a quick overview of the important information that is related to the Now Ass
 **Related topics**  
 
 
-[Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)
 
-[Exploring Now Assist Admin](https://www.servicenow.com/docs/access?context=exploring-now-assist-platform&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[Exploring Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-platform.md)
 

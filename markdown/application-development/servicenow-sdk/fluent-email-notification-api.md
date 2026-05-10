@@ -18,7 +18,7 @@ The Email Notification API defines notifications \[sysevent\_email\_action\] tha
 
 **Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
-For general information about email notifications, see [Email and SMS notifications](https://www.servicenow.com/docs/access?context=c_EmailNotifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For general information about email notifications, see [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md).
 
 **Parent Topic:**[ServiceNow Fluent API reference](servicenow-fluent-api-reference.md)
 
@@ -31,7 +31,7 @@ For general information about email notifications, see [Email and SMS notificati
 
 Create an email notification \[sysevent\_email\_action\] specifying when to send it, who receives it, what it contains, and if it can be delivered in an email digest.
 
-For general information about creating email notifications, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For general information about creating email notifications, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
 
 <table id="table_yys_jdh_33c" class="parameters"><thead><tr><th>
 
@@ -361,7 +361,7 @@ String
 
 </td><td>
 
-A filter query that specifies the fields and values that must be true for users to access the object. For more information, see [Operators available for filters and queries](https://www.servicenow.com/docs/access?context=r_OpAvailableFiltersQueries&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+A filter query that specifies the fields and values that must be true for users to access the object. For more information, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
 </td></tr><tr><td>
 
@@ -373,7 +373,7 @@ String
 
 </td><td>
 
-A JavaScript conditional statement that must return true or set a global answer variable to true to send the notification. For more information, see [Advanced conditions for email notifications](https://www.servicenow.com/docs/access?context=c_OptSpecifyingAdvancedCond&version=australia&pubname=australia-platform-administration&ft:locale=en-US).**Note:** This property is evaluated in addition to other conditions that you set on the notification. Both the condition and advanced condition must evaluate to true to send the notification.
+A JavaScript conditional statement that must return true or set a global answer variable to true to send the notification. For more information, see [Advanced conditions for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_OptSpecifyingAdvancedCond.md).**Note:** This property is evaluated in addition to other conditions that you set on the notification. Both the condition and advanced condition must evaluate to true to send the notification.
 
 </td></tr><tr><td>
 
@@ -678,7 +678,7 @@ emailContent: {
 
 Configure the contents of an email digest that summarizes the activity for a selected notification and its target records during a specified time interval.
 
-For general information about email digests, see [Email digests](https://www.servicenow.com/docs/access?context=email-digests&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For general information about email digests, see [Email digests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-digests.md).
 
 <table id="table_fhs_wfh_33c" class="parameters"><thead><tr><th>
 
@@ -935,7 +935,7 @@ Boolean
 
 </td><td>
 
-Flag that indicates whether to allow all users to subscribe to the notification. For more information, see [Subscription-based notifications](https://www.servicenow.com/docs/access?context=c_SubscriptionBasedNotifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).**Note:** If the record contains sensitive or protected data, consider restricting the recipient list only to those users and groups who normally have access to it, leaving the value of this property as false. You can also configure your notification content so that private or sensitive data isn’t exposed. For example, you could insert a link back to the associated record, so that details aren’t revealed in the notification.
+Flag that indicates whether to allow all users to subscribe to the notification. For more information, see [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SubscriptionBasedNotifications.md).**Note:** If the record contains sensitive or protected data, consider restricting the recipient list only to those users and groups who normally have access to it, leaving the value of this property as false. You can also configure your notification content so that private or sensitive data isn’t exposed. For example, you could insert a link back to the associated record, so that details aren’t revealed in the notification.
 
 Default: false
 

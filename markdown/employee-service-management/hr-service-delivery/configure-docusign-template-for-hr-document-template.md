@@ -17,7 +17,7 @@ If you are using the DocuSign integration, configure an HR PDF document template
 
 ## Before you begin
 
-Create the DocuSign template that you want to make available for signing through the DocuSign system. See the [DocuSign eSignature User Guide](https://support.docusign.com/en/guides/ndse-user-guide) for more information. You must also synchronize your accounts to bring the DocuSign template \(and any other new or updated templates\) into the ServiceNow system. See [Synchronize Docusign with ServiceNow](https://www.servicenow.com/docs/access?context=sync-docusign-servicenow&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for more information.
+Create the DocuSign template that you want to make available for signing through the DocuSign system. See the [DocuSign eSignature User Guide](https://support.docusign.com/en/guides/ndse-user-guide) for more information. You must also synchronize your accounts to bring the DocuSign template \(and any other new or updated templates\) into the ServiceNow system. See [Synchronize Docusign with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sync-docusign-servicenow.md) for more information.
 
 **Note:** Each DocuSign template must have one associated document. Multiple documents per template are not supported.
 
@@ -95,7 +95,7 @@ DocuSign template
 
 </td><td>
 
-Select the DocuSign template to use.**Note:** You must synchronize each time you need to get new or updated DocuSign templates. To synchronize, navigate to **DocuSign** &gt; **Accounts** and click the **Get Accounts** related link. See [Synchronize Docusign with ServiceNow](https://www.servicenow.com/docs/access?context=sync-docusign-servicenow&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for more information.
+Select the DocuSign template to use.**Note:** You must synchronize each time you need to get new or updated DocuSign templates. To synchronize, navigate to **DocuSign** &gt; **Accounts** and click the **Get Accounts** related link. See [Synchronize Docusign with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sync-docusign-servicenow.md) for more information.
 
 </td></tr><tr><td>
 
@@ -103,7 +103,7 @@ HR criteria
 
 </td><td>
 
-Defines the conditions that the subject person of an HR case must meet for an HR agent to be able to access the HR document template on their behalf.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Defines the conditions that the subject person of an HR case must meet for an HR agent to be able to access the HR document template on their behalf.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr></tbody>
 </table>5.  Right-click on the form header and click **Save**.

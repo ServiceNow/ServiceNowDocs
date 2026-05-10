@@ -49,15 +49,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, navigate to **Legal Requests** or **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d544711e172">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d549976e172">
 
 Option
 
-</th><th align="left" id="d544711e175">
+</th><th align="left" id="d549976e175">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d544711e181">
+</th></tr></thead><tbody><tr><td id="d549976e181">
 
 **As an assignee**
 
@@ -67,7 +67,7 @@ Steps
 2.  Select a contract request to work on.
 
 
-</td></tr><tr><td id="d544711e202">
+</td></tr><tr><td id="d549976e202">
 
 **As a collaborator**
 
@@ -102,15 +102,15 @@ Steps
 
     **Note:** You can add signatories in NDA legal requests only when the contract is generated from a template configured with signature blocks
 
-<table id="choicetable_v3x_kwb_5bc"><thead><tr><th align="left" id="d544711e342">
+<table id="choicetable_v3x_kwb_5bc"><thead><tr><th align="left" id="d549976e342">
 
 Option
 
-</th><th align="left" id="d544711e345">
+</th><th align="left" id="d549976e345">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d544711e351">
+</th></tr></thead><tbody><tr><td id="d549976e351">
 
 **Internal**
 
@@ -124,7 +124,7 @@ The fields **Authorized signatory name**, **Signatory**, and **Signatory email**
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d544711e392">
+</td></tr><tr><td id="d549976e392">
 
 **External**
 

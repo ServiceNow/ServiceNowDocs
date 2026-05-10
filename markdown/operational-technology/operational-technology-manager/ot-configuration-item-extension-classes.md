@@ -15,7 +15,7 @@ breadcrumb: [Explore, Operational Technology Manager, Operational Technology]
 
 Operational Technology Manager uses Operational Technology \(OT\) configuration item \(CI\) extension classes that extend the CMDB class hierarchy.
 
-Operational Technology Manager includes class descriptions, identification rules, identifier entries, and dependent relationships, if applicable. The Service Graph applications use these class extensions to populate CIs and discover various technologies and software. To learn more, see [Operation Technology \(OT\) extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-operation-technology&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Operational Technology Manager includes class descriptions, identification rules, identifier entries, and dependent relationships, if applicable. The Service Graph applications use these class extensions to populate CIs and discover various technologies and software. To learn more, see [Operation Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-operation-technology.md).
 
 **Parent Topic:**[Exploring the Operational Technology Manager](exploring-operational-technology-manager.md)
 

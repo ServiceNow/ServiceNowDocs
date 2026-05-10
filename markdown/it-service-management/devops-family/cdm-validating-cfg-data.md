@@ -29,7 +29,7 @@ Here's the CDM process that auto-validates configuration data before it is consu
 2.  For dynamic mapping of policies to deployables, create a condition on the CDM Deployable \[sn\_cdm\_deployable\] table. Associate the condition with one or more policies. At runtime, these policies are executed to validate deployables that meet the defined conditions.
 3.  You map the policy to a deployable using static mapping or dynamic mapping to ensure that the policy executes against any snapshot of the deployable when requested \(manual or automated request\).
 
-    For more information on policy mappings, see [PaCE Static and Dynamic Mapping](https://www.servicenow.com/docs/access?context=pace-policy-mapping&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For more information on policy mappings, see [PaCE Static and Dynamic Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-policy-mapping.md).
 
 4.  When you commit a changeset for the deployable, the system must validate the resulting snapshot. To auto-trigger execution of the mapped policies whenever a changeset is committed, select the **Validate** option when committing the changeset. You also have the option to validate the snapshot manually.
 
@@ -98,5 +98,5 @@ Deployment is executed.
 **Related topics**  
 
 
-[CdmQuery - Scoped](https://www.servicenow.com/docs/access?context=CdmQueryScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[CdmQuery - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CdmQueryScopedAPI.md)
 

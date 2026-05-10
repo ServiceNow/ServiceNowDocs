@@ -27,7 +27,7 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **String**
 
-    The text string that the flow is waiting to receive from the sendMessage\(\) API. The action uses this message to resume running the flow. For more information about the sendMessage\(\) API, see [FlowAPI - sendMessage\(String contextSysID, String message, String payload\)](https://www.servicenow.com/docs/access?context=ScriptableFlowAPI&version=australia&pubname=australia-api-reference&section=FlowAPI-sendMessage_S_S_S&ft:locale=en-US).
+    The text string that the flow is waiting to receive from the sendMessage\(\) API. The action uses this message to resume running the flow. For more information about the sendMessage\(\) API, see [FlowAPI - sendMessage\(String contextSysID, String message, String payload\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ScriptableFlowAPI.md).
 
 -   **Enable timeout**
 
@@ -73,7 +73,7 @@ Use these general guidelines when creating flows that wait for a message.
 
 -   **Use the sendMessage\(\) method to create messages**
 
-    Create messages for waiting flows using the sendMessage\(\) method. If you want the flow to generate the message to resume running, create a custom action with a Script step to generate the message. Alternatively, create some script logic that runs outside the flow such as an event to generate the message. For more information about the sendMessage\(\) API, see [FlowAPI - sendMessage\(String contextSysID, String message, String payload\)](https://www.servicenow.com/docs/access?context=ScriptableFlowAPI&version=australia&pubname=australia-api-reference&section=FlowAPI-sendMessage_S_S_S&ft:locale=en-US).
+    Create messages for waiting flows using the sendMessage\(\) method. If you want the flow to generate the message to resume running, create a custom action with a Script step to generate the message. Alternatively, create some script logic that runs outside the flow such as an event to generate the message. For more information about the sendMessage\(\) API, see [FlowAPI - sendMessage\(String contextSysID, String message, String payload\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ScriptableFlowAPI.md).
 
 
 ## Wait for message to run Go back to flow logic
@@ -86,7 +86,7 @@ In this example, Fred Luddy rejected the approval and requested more information
 
 ![Execution details of the Wait for Message action in the Completed state. The payload has a runtime value of Resubmitted for approval.](../images/example-wait-for-message-03.png)
 
-After fixing the change request, someone ran the sendMessage\(\) API to send the message `Resume Flow` and also send the flow a Payload value of `Resubmitted for approval`. For more information about the sendMessage\(\) API, see [FlowAPI - sendMessage\(String contextSysID, String message, String payload\)](https://www.servicenow.com/docs/access?context=ScriptableFlowAPI&version=australia&pubname=australia-api-reference&section=FlowAPI-sendMessage_S_S_S&ft:locale=en-US).
+After fixing the change request, someone ran the sendMessage\(\) API to send the message `Resume Flow` and also send the flow a Payload value of `Resubmitted for approval`. For more information about the sendMessage\(\) API, see [FlowAPI - sendMessage\(String contextSysID, String message, String payload\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ScriptableFlowAPI.md).
 
 Since the API message value matched the conditions of the Wait for Message action, the flow resumed running. In this case, the flow used a Go back to flow logic block to rerun the Ask for Approval action.
 

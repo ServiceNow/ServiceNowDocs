@@ -136,7 +136,7 @@ If some of these applications are not installed, employees can still use the wid
 
 4.  Adjust the page layout to remove any blank spaces.
 
-    You can also remove any widgets that you don't want to use, or add new widgets. For detailed instructions, see [Create and edit a page using the Service Portal Designer](https://www.servicenow.com/docs/access?context=t_ConfigureAPage&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    You can also remove any widgets that you don't want to use, or add new widgets. For detailed instructions, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md).
 
 
 ### What to do next

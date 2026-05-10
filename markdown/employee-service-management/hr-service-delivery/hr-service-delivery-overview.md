@@ -66,5 +66,5 @@ Copy and customize quick start tests to validate that your instance works after 
 
 Customers are responsible for ensuring their use of HR Service Delivery application is compliant with applicable data protection laws and regulations. Customers using the HR Service Delivery application should assess fields that may contain sensitive, personal, or personally identifiable information, the extent of which is solely determined by customers. Once installed, customers are able to access table definitions within their instance to review fields used by HR Service Delivery application. This can be done by navigating to "System Definition &gt; Tables" and filtering "Name" "starts with" "sn\_hr\_".
 
-COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are [ServiceNow ACLs](https://www.servicenow.com/docs/access?context=access-control-rules&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are [ServiceNow ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).
 

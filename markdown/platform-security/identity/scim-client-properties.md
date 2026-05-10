@@ -72,7 +72,7 @@ The following are some of the use cases for using the scriptable APIs:
     -   The user has access to the token, meaning that the user has the role to generate the token from the REST template.
     -   The user has access to retrieve the SCIM attribute values from the mapped tables.
 
-To know more about the scriptable API, see [SCIM2Client API](https://www.servicenow.com/docs/access?context=SCIM2ClientAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+To know more about the scriptable API, see [SCIM2Client API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SCIM2ClientAPI.md).
 
 ## SCIM Client Logs
 

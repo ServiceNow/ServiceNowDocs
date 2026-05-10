@@ -28,7 +28,7 @@ Because of that, several factors can make the answers vary each time. The factor
 
 Answer generation involves probability, context, and variation. Therefore, responses to the same question can differ slightly each time it is asked, and from provider to provider.
 
-For more information on differences in ServiceNow AI results, see [Search result disparities between AI Search and Now Assist search features](https://www.servicenow.com/docs/access?context=search-disparities-ai-search-now-assist&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information on differences in ServiceNow AI results, see [Search result disparities between AI Search and Now Assist search features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-disparities-ai-search-now-assist.md).
 
 ## Now LLM Service response vs. Azure response
 

@@ -118,7 +118,7 @@ Role required: oauth\_admin
     -   Click **New**, select **Configure an OIDC provider to verify ID tokens**, and then fill in the Application Registries form.
     -   Select an existing template for your OIDC provider \(Okta or Microsoft Azure\), and then either accept the default values in the Application Registries form or modify them.
 
-        **Note:** OIDC provider templates are available after loading demo data with the OAuth 2.0 plugin. For more information, see [Configure an OAuth OIDC provider](https://www.servicenow.com/docs/access?context=add-OIDC-entity&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+        **Note:** OIDC provider templates are available after loading demo data with the OAuth 2.0 plugin. For more information, see [Configure an OAuth OIDC provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/add-OIDC-entity.md).
 
 <table id="table_zfw_cyj_vkb"><thead><tr><th>
 

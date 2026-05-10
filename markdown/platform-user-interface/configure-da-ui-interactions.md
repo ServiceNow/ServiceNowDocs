@@ -17,7 +17,7 @@ Trigger a UI interaction from a declarative action to extend a page without taki
 
 Complete the following actions:
 
-1.  Create a UI interaction in UI Builder. For instructions, see [Create a UI interaction](https://www.servicenow.com/docs/access?context=create-ui-interaction-show-alert&version=australia&pubname=australia-application-development&ft:locale=en-US).
+1.  Create a UI interaction in UI Builder. For instructions, see [Create a UI interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-ui-interaction-show-alert.md).
 2.  Create a declarative action and add the button to a workspace. For instructions, see [Creating declarative action buttons](../concept/creating-declarative-actions.md).
 
 Role required:
@@ -42,7 +42,7 @@ A UI interaction defines what you want to happen, and how you apply a UI interac
 
 A UI interaction can be used instead of a UXF client action to simplify configuration since there's no need to configure add-on event mapping on a corresponding UI Builder page.
 
-For a detailed overview of UI interactions, see [UI interactions](https://www.servicenow.com/docs/access?context=uib-ui-interactions&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For a detailed overview of UI interactions, see [UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/uib-ui-interactions.md).
 
 ## Procedure
 

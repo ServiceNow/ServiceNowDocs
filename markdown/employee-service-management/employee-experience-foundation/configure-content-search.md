@@ -18,7 +18,7 @@ Configure a content processor to add a button to the Content Library interface t
 ## Before you begin
 
 -   Role required: sn\_cd.content\_admin and fd\_read\_flows
--   [Create a subflow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-subflow&version=australia&pubname=australia-build-workflows&ft:locale=en-US) with the following inputs and outputs:
+-   [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow.md) with the following inputs and outputs:
 
     ![necessary inputs and outputs for the search subflow](../images/subflow-search.png)
 

@@ -19,11 +19,11 @@ Clone the DevOps Change Velocity application from one instance to another.
 
 For detailed information for cloning a ServiceNow instance, see the following topics.
 
--   [Instance Clone](https://www.servicenow.com/docs/access?context=system-clone-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
-    -   [Request a clone](https://www.servicenow.com/docs/access?context=t_StartAClone&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
-    -   [Register target instance \(legacy\)](https://www.servicenow.com/docs/access?context=t_CreateACloneTarget&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
-    -   [Exclude a table from cloning](https://www.servicenow.com/docs/access?context=t_ExcludeATableFromCloning&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
-    -   [Create a data preserver \(legacy\)](https://www.servicenow.com/docs/access?context=t_CreateADataPreserver&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+-   [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-clone-landing.md)
+    -   [Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_StartAClone.md)
+    -   [Register target instance \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateACloneTarget.md)
+    -   [Exclude a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ExcludeATableFromCloning.md)
+    -   [Create a data preserver \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateADataPreserver.md)
 -   [New Backup-based Clone Engine \[KB0540342\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0540342)
 
 ## Base system table exclusion and preservers on global tables used in DevOps

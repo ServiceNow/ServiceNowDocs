@@ -66,7 +66,7 @@ To create a Roadmunk integration profile, request the Software Asset Management 
 
 ServiceNow Role required: sam\_integrator
 
-**Important:** You must select the **Roadmunk Spoke** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **Roadmunk Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
 
 ### About this task
 
@@ -76,15 +76,15 @@ If you’re using Software Asset Workspace, the option to create the Roadmunk in
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d314547e378">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d314661e378">
 
 Interface
 
-</th><th align="left" id="d314547e381">
+</th><th align="left" id="d314661e381">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d314547e387">
+</th></tr></thead><tbody><tr><td id="d314661e387">
 
 **Core UI**
 
@@ -95,7 +95,7 @@ Action
 3.  Select **Roadmunk Integration Profile**.
 
 
-</td></tr><tr><td id="d314547e429">
+</td></tr><tr><td id="d314661e429">
 
 **Software Asset Workspace**
 

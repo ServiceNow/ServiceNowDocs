@@ -79,7 +79,7 @@ Domain separation segregates MID Servers based on the records they can access. T
 
 ## MID Servers used for credential-less Discovery
 
-MID Servers that are used for [credential-less Discovery](https://www.servicenow.com/docs/access?context=nmap-credential-less-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) require special configuration to run Network Mapper \(Nmap\) commands on target computers.
+MID Servers that are used for [credential-less Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/nmap-credential-less-discovery.md) require special configuration to run Network Mapper \(Nmap\) commands on target computers.
 
 [Install and uninstall Nmap on a MID Server](../task/install-nmap-on-mid-server.md#)
 

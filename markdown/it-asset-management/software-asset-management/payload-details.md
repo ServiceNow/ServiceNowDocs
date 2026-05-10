@@ -19,7 +19,7 @@ The following is a sample payload for creating software install records for publ
 
 In this sample payload, you are passing the information of the installed software, Microsoft Word 2016, and the related CI to inform where it is installed \(on a computer CI "SAMILMT8"\). You can look up column names in the cmdb\_sam\_sw\_install table and send information by passing the columns, value pairs in the payload. For example, in this payload you are sending the publisher, version and display\_name columns. You can also send additional information such as the edition column.
 
-**Note:** For more information on CI Identifier rules, see [Identifier Rules](https://www.servicenow.com/docs/access?context=c_IdentificationRules&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Note:** For more information on CI Identifier rules, see [Identifier Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_IdentificationRules.md).
 
 ```
 { 'items': [{'className':'cmdb_ci_computer',

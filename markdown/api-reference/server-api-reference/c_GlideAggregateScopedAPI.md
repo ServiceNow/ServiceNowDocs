@@ -17,7 +17,7 @@ The GlideAggregate API enables creating database aggregation queries.
 
 The GlideAggregate class is an extension of the GlideRecord class and provides database aggregation \(AVG, COUNT, GROUP\_CONCAT, GROUP\_CONCAT\_DISTINCT, MAX, MIN, STDDEV, SUM\) queries. This functionality can be helpful when creating customized reports or in calculations for calculated fields.
 
-When you use GlideAggregate methods on currency or price fields, you are working with the reference currency value. Be sure to convert the aggregate values to the user's session currency for display. Because the conversion rate between the currency or price value \(displayed value\) and its reference [currency](https://www.servicenow.com/docs/access?context=currency&version=australia&pubname=australia-platform-administration&ft:locale=en-US) value \(aggregation value\) might change, the result may not be what the user expects.
+When you use GlideAggregate methods on currency or price fields, you are working with the reference currency value. Be sure to convert the aggregate values to the user's session currency for display. Because the conversion rate between the currency or price value \(displayed value\) and its reference [currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/currency.md) value \(aggregation value\) might change, the result may not be what the user expects.
 
 **Note:** When using an on-premise system, the database server time zone must be set to GMT/UTC for this class to work properly.
 
@@ -807,7 +807,7 @@ String
 
 </td><td>
 
-Name of the field to order the aggregates by.Alternatively, you can provide a glidefunction to order the aggregates, such as `glidefunction:length(short_description)`. For more information about glidefunctions, see [glidefunction operations](https://www.servicenow.com/docs/access?context=platform-support-functions&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Name of the field to order the aggregates by.Alternatively, you can provide a glidefunction to order the aggregates, such as `glidefunction:length(short_description)`. For more information about glidefunctions, see [glidefunction operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-support-functions.md).
 
 </td></tr></tbody>
 </table>|Type|Description|

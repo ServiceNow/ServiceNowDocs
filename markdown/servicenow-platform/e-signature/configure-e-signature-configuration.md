@@ -61,7 +61,7 @@ Document type
 
 Document type of the e-signature template. Select one of the following:-   **HR document template**: Make sure that the **Task table** field is set to HR Task \[sn\_hr\_core\_task\].
 
-The HR document template that the signatory will sign is selected on the HR case form. See [Select an HR document template for an e-signature task](https://www.servicenow.com/docs/access?context=select-hr-document-template-for-e-signature-task&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) for more information.
+The HR document template that the signatory will sign is selected on the HR case form. See [Select an HR document template for an e-signature task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/select-hr-document-template-for-e-signature-task.md) for more information.
 
 -   **Knowledge article**: In the **Knowledge article** field, select the knowledge article that the signatory will sign.
 -   **Managed document**: In the **Managed document** field, select the managed document that the signatory will sign.

@@ -25,7 +25,7 @@ To use a chart screen, you will first need to create a dashboard preview to link
 
 ![Three screen shots showing a flow from launcher screen to chart screen to parameterized list.](../image/donut-flow.png "Data visualization flow from launcher screen to chart screen to record list")
 
-For general information on using and configuring data visualizations \(not specifically for mobile\), see the following documentation topics: [Platform Analytics overview](https://www.servicenow.com/docs/access?context=analytics-center&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) and [Data visualizations in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-data-visualizations&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+For general information on using and configuring data visualizations \(not specifically for mobile\), see the following documentation topics: [Platform Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center.md) and [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md).
 
 For information on the various data visualizations supported in mobile, see the user-related topics in [Mobile platform dashboards](mobile-reporting-dashboard.md).
 

@@ -31,7 +31,7 @@ Role required: ts\_admin or admin
 
 4.  If a message appears at the top of the form, select **Regenerate Text Index**, then select **OK**.
 
-    You must regenerate indexes whenever words may be missing from an index. For example, if you delete or change a stop word for which the mode was Neither Index nor Query, the word may be missing from the index. An after [Business rules](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=australia&pubname=australia-api-reference&ft:locale=en-US) checks these conditions and generates the notification message when index regeneration is necessary.
+    You must regenerate indexes whenever words may be missing from an index. For example, if you delete or change a stop word for which the mode was Neither Index nor Query, the word may be missing from the index. An after [Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/business-rules-classic/c_BusinessRules.md) checks these conditions and generates the notification message when index regeneration is necessary.
 
     **Note:** Text search uses the global list plus the table-specific list of stop words when indexing the table.
 

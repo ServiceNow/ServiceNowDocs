@@ -33,7 +33,7 @@ Role required: none
 
 5.  Add or remove conditions to construct the desired filter by completing one or more of the following steps.
 
-<table id="choicetable_ll5_44w_tt"><tbody><tr><td id="d128102e135">
+<table id="choicetable_ll5_44w_tt"><tbody><tr><td id="d137440e135">
 
 **To add a top-level condition**
 
@@ -41,7 +41,7 @@ Role required: none
 
 Click **AND** or **OR** on the condition builder toolbar, above the conditions.
 
-</td></tr><tr><td id="d128102e150">
+</td></tr><tr><td id="d137440e150">
 
 **To add a dependent condition**
 
@@ -49,7 +49,7 @@ Click **AND** or **OR** on the condition builder toolbar, above the conditions.
 
 Click **AND** or **OR** beside the condition.
 
-</td></tr><tr><td id="d128102e165">
+</td></tr><tr><td id="d137440e165">
 
 **To remove a condition**
 
@@ -84,7 +84,7 @@ Click **x** beside the condition.
 
 [Dot-walking to data in related tables](../../navigation/concept/c_DotWalking.md)
 
-[Field types](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md)
 
 [Operators available for filters and queries](../../common-ui-elements/reference/r_OpAvailableFiltersQueries.md)
 

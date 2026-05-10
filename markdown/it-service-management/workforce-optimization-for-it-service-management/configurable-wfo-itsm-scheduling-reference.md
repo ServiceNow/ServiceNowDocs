@@ -228,7 +228,7 @@ Navigate to **All** &gt; **User Administration** &gt; **User Preferences** and a
 
 **Note:** To set a system-wide user preference, select the **System** check box.
 
-For information on setting user preferences, see [User preferences](https://www.servicenow.com/docs/access?context=c_UserPreferences&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For information on setting user preferences, see [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md).
 
 <table id="table_urf_2s3_dtb"><thead><tr><th>
 

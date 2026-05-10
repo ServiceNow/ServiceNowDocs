@@ -15,7 +15,7 @@ breadcrumb: [IT Service Management]
 
 The ServiceNow® Change Management application provides a systematic approach to control the life cycle of all changes, facilitating beneficial changes to be made with minimum disruption to IT services.
 
-ServiceNow Change Management integrates with the [Vulnerability response](https://www.servicenow.com/docs/access?context=c_VulnerabilityResponse&version=australia&pubname=australia-security-management&ft:locale=en-US) plugin to introduce extra functionality within Change Management.
+ServiceNow Change Management integrates with the [Vulnerability response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/c_VulnerabilityResponse.md) plugin to introduce extra functionality within Change Management.
 
 ## Get started
 

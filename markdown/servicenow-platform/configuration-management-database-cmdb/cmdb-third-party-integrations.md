@@ -80,7 +80,7 @@ Simplify integration and resolve issues with the following enhanced integration 
 
     Options for populating the CMDB.
 
--   **[Discovery patterns](https://www.servicenow.com/docs/access?context=c_MappingPatternsCustomization&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)**
+-   **[Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)**
 
     A ServiceNow Store app that provides a library of discovery patterns for discovering specific devices and applications in the industry.
 

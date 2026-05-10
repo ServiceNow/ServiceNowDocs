@@ -109,8 +109,8 @@ References
 
 </td><td>
 
--   [Email properties](https://www.servicenow.com/docs/access?context=c_EmailProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
--   [Attachment limit properties](https://www.servicenow.com/docs/access?context=r_AttachmentLimitProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+-   [Email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailProperties.md)
+-   [Attachment limit properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AttachmentLimitProperties.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[File and resources](sc-file-resources.md)

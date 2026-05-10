@@ -30,7 +30,7 @@ A service configuration is required for each of the walk-up queue locations with
 
 **Note:** Both the application configuration and the service configuration must be active to book appointments.
 
-For detailed information about the **Appointment Booking** application, refer to [Managing appointments](https://www.servicenow.com/docs/access?context=managing-appointments&version=australia&pubname=australia-field-service-management&ft:locale=en-US).
+For detailed information about the **Appointment Booking** application, refer to [Managing appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appointment-booking/managing-appointments.md).
 
 -   **[Walk-up Experience appointment booking administration](walkup-appointment-administration.md)**  
 Create or modify the Walk-up Experience **Appointment Booking** feature.

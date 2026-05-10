@@ -77,7 +77,7 @@ Users responsible for approving content before the campaign is published. When y
 
 To send notifications to approvers, select **Publish with Approval**.
 
-The approvers receive an email notification that you require their approval. For more information, see [Notifications](https://www.servicenow.com/docs/access?context=notifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [Email templates](https://www.servicenow.com/docs/access?context=c_EmailTemplates&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The approvers receive an email notification that you require their approval. For more information, see [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notifications.md) and [Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailTemplates.md).
 
 **Note:** If you select **Yes** in the **sn\_ca.all\_must\_approve** property, all approvers must approve before the campaign publishes. If you select **No**, only one approver is required.
 

@@ -26,7 +26,7 @@ Role required: admin, sn\_app\_eng\_studio.user, or delegated\_developer
 
 ## About this task
 
-App Engine Studio includes default roles that you can use for your application. For more information on the default roles, see [Base system roles](https://www.servicenow.com/docs/access?context=r_BaseSystemRoles&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+App Engine Studio includes default roles that you can use for your application. For more information on the default roles, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).
 
 ## Procedure
 

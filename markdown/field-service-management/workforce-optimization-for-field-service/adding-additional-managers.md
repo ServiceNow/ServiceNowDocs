@@ -36,7 +36,7 @@ Appoint additional internal managers for an outsourced service provider to manag
 
 ### Before you begin
 
-Assign wm\_int\_contractor\_manager role to the employee of an internal company whom you want to add as additional internal manager. For more information, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Assign wm\_int\_contractor\_manager role to the employee of an internal company whom you want to add as additional internal manager. For more information, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
 Role required: admin, wm\_admin, or wm\_int\_contractor\_manager
 
@@ -67,7 +67,7 @@ Appoint additional external managers for an outsourced service provider to manag
 
 Role required: admin, wm\_admin, or wm\_int\_contractor\_manager
 
-Assign wm\_ext\_agent role to the employee of an external company whom you want to add as additional external manager. For more information, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Assign wm\_ext\_agent role to the employee of an external company whom you want to add as additional external manager. For more information, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
 **Note:** The agent to be appointed as an additional external manager, should be the member of the assignment group of the same outsourced service provider.
 

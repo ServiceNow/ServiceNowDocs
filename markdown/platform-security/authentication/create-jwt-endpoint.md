@@ -112,7 +112,7 @@ Accessible from
 
 </td><td>
 
-Cross-scope access policy. For more information, see [Application access settings](https://www.servicenow.com/docs/access?context=c_ApplicationAccessSettings&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Cross-scope access policy. For more information, see [Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationAccessSettings.md).
 
 </td></tr><tr><td>
 

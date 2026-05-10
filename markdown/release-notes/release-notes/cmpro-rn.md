@@ -19,32 +19,32 @@ The ServiceNow® Contract Management Pro solution enables you to set up contract
 -   Compare two revisions of a contract document that are stored in external storage.
 -   Support for processing Microsoft Word documents larger than 10 MB in Contract Management Pro.
 
-See [Contract Management Pro](https://www.servicenow.com/docs/access?context=cncore-cmpro-landing-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) for more information.
+See [Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-cmpro-landing-page.md) for more information.
 
 **Important:** Contract Management Pro is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Better visibility of undelivered signature requests for a contract](https://www.servicenow.com/docs/access?context=cncore-cr-state-status&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **[Better visibility of undelivered signature requests for a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-cr-state-status.md)**
 
     When an electronic signature request is not delivered, the contract state is updated to Signature delivery failed and the signatory status to Delivery failed, clearly indicating the state of signature request. Contract fulfillers are also notified through in‑product and email alerts. This capability is supported for both Docusign and Adobe Sign.
 
 
 ## Changed in this release
 
--   **[Send contracts for signature using Adobe Sign without signing in](https://www.servicenow.com/docs/access?context=cncore-nss-review-request&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **[Send contracts for signature using Adobe Sign without signing in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-nss-review-request.md)**
 
     Send contracts for signature in Adobe Sign without requiring users to sign in to the e-signature portal. Any modifications to the signatory details and contract documents are restricted in the Adobe Sign portal and must be completed in Contract Management Pro before initiating the signature process.
 
--   **[Compare contract revisions in Contract Management Pro](https://www.servicenow.com/docs/access?context=cmpro-compare-docs&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **[Compare contract revisions in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-compare-docs.md)**
 
     Compare contract revisions of a contract document stored in external storage.
 
--   **[Validations for content control placement in the Microsoft Word add‑in](https://www.servicenow.com/docs/access?context=cncore-addin-add-clauses&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **[Validations for content control placement in the Microsoft Word add‑in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-addin-add-clauses.md)**
 
     See when a clause, table, or signature block is incorrectly tagged while configuring a contract template through validation messages displayed in the Microsoft Word add-in.
 
--   **[Improved Microsoft Word document processing](https://www.servicenow.com/docs/access?context=cncore-set-ext-app-config&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **[Improved Microsoft Word document processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-set-ext-app-config.md)**
 
     Contract Management Pro now supports processing of Microsoft Word documents larger than 10 MB. This enhancement applies to all document operations such as contract revision generation, document synchronization, and document comparison.
 
@@ -55,11 +55,11 @@ Install Contract Management Pro by requesting it from the ServiceNow Store. Visi
 
 ## Related ServiceNow applications and features
 
--   **[Contract Management Pro](https://www.servicenow.com/docs/access?context=cncore-cmpro-landing-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **[Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-cmpro-landing-page.md)**
 
     Use the ServiceNow®Contract Management Pro application to set up contract document templates, clauses, clause variations, and to initiate contract requests. It also supports Now Assist driven contract analysis and metadata extraction, e-signatures, wet signatures, and external storage systems.
 
--   **[Now Assist in Contract Management](https://www.servicenow.com/docs/access?context=cncore-now-assit-landing&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **[Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)**
 
     Use the ServiceNow® Now Assist application in the Contract Management application to analyze a contract for missing and non-standard clauses. It also enables you to review and add the information to the mapped fields in the contract repository, eliminating the need to manually update the contract repository.
 

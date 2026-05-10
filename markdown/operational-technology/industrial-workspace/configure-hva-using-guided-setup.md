@@ -61,7 +61,7 @@ Set up automatic deletion of obsolete or expired assessment records.
 **Related topics**  
 
 
-[Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md)
 
 [Operational Technology Hardware Vulnerability Assessment](../concept/understanding-hwd-vuln-assessment.md)
 

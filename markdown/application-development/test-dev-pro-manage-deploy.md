@@ -28,7 +28,7 @@ Deploy your ServiceNow apps.
 
 </td><td>
 
-[Cloud Provisioning and Governance ![Cloud Provisioning and Governance.](../image/icon-cloud-provisioning.png) The ServiceNow® Cloud Provisioning and Governance application provides a single interface to access cloud resources, publish cloud offerings to a catalog, and manage the usage of those resources.](https://www.servicenow.com/docs/access?context=cloud-management-v2-landing-page&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+[Cloud Provisioning and Governance ![Cloud Provisioning and Governance.](../image/icon-cloud-provisioning.png) The ServiceNow® Cloud Provisioning and Governance application provides a single interface to access cloud resources, publish cloud offerings to a catalog, and manage the usage of those resources.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md)
 
 </td></tr></tbody>
 </table>

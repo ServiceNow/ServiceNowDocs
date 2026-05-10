@@ -21,7 +21,7 @@ At least one provider configuration for messaging type channel must be available
 
 ## Phone number validation
 
-REST endpoint `/api/now/initiate_message/validate_phone_number` is used to validate if the phone number is in the E.164 format. If the number of a known consumer is not in the E.164 format, the system converts it to the E.164 format based on for example, the location of the consumer. If the location is not found, it will by default convert the number to an E.164 format. For more information about E.164 formats and validation, see [Phone number field type](https://www.servicenow.com/docs/access?context=c_UsePhoneNumberFields&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+REST endpoint `/api/now/initiate_message/validate_phone_number` is used to validate if the phone number is in the E.164 format. If the number of a known consumer is not in the E.164 format, the system converts it to the E.164 format based on for example, the location of the consumer. If the location is not found, it will by default convert the number to an E.164 format. For more information about E.164 formats and validation, see [Phone number field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UsePhoneNumberFields.md).
 
 ## Customer profile validation
 

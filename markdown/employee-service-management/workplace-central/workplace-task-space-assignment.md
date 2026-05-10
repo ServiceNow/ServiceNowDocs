@@ -88,7 +88,7 @@ Filter
 
 </td><td>
 
-Conditions used to filter spaces from the selected table. For more information about conditions, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Conditions used to filter spaces from the selected table. For more information about conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Workplace Central reference](../concept/workplace-central-references.md)

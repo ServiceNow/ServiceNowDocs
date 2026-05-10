@@ -26,15 +26,15 @@ Role required: sn\_cm\_obligation.obligation\_fulfiller
 
 2.  Open an active obligation record either from the **Obligations** tab within the contract record or from the **Obligations** view.
 
-<table id="choicetable_bdx_54g_jhc"><thead><tr><th align="left" id="d258391e81">
+<table id="choicetable_bdx_54g_jhc"><thead><tr><th align="left" id="d258505e81">
 
 Method
 
-</th><th align="left" id="d258391e84">
+</th><th align="left" id="d258505e84">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d258391e90">
+</th></tr></thead><tbody><tr><td id="d258505e90">
 
 **From the contract record**
 
@@ -46,7 +46,7 @@ Steps
 4.  Select an active obligation record.
 
 
-</td></tr><tr><td id="d258391e133">
+</td></tr><tr><td id="d258505e133">
 
 **From the Obligations view**
 

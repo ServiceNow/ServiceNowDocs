@@ -153,5 +153,5 @@ Prevents the system from automatically creating assets in a specific model categ
 
 [Delete model categories](t_DeletingModelCategories.md)
 
-[Discovery](https://www.servicenow.com/docs/access?context=r-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-discovery.md)
 

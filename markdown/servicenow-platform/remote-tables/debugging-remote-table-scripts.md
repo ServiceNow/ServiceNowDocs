@@ -25,14 +25,14 @@ Prolonged use of the **glide.script.vtable.log.debug** property can affect perfo
 
 **Note:** If you are not on the application node that processed your remote table script, you may not see the resulting log statements. In this case, contact Technical Support.
 
-Use the v\_query.setLastErrorMessage\(message\) API to set the last error message that appears at the bottom of the list view. In script, you can retrieve this message using the glideRecord.getLastErrorMessage\(\) API. To learn more about these APIs, see [Text-To-Display](https://www.servicenow.com/docs/access?context=c_GlideRecordScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Use the v\_query.setLastErrorMessage\(message\) API to set the last error message that appears at the bottom of the list view. In script, you can retrieve this message using the glideRecord.getLastErrorMessage\(\) API. To learn more about these APIs, see [Text-To-Display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
 **Parent Topic:**[Remote tables](../concept/remote-tables.md)
 
 **Related topics**  
 
 
-[Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md)
 
-[Script Debugger and Session Logging](https://www.servicenow.com/docs/access?context=script-debugger&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[Script Debugger and Session Logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md)
 

@@ -51,7 +51,7 @@ Be sure to perform the procedures in order. After you have performed the Day 1 s
 
     For more information, see [Create an Azure AD application and service principal that can access resources](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).
 
-2.  [Configure MID Servers](https://www.servicenow.com/docs/access?context=c_MIDServerConfiguration&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) to connect Cloud Provisioning and Governance to a Microsoft Azure Government cloud account.
+2.  [Configure MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md) to connect Cloud Provisioning and Governance to a Microsoft Azure Government cloud account.
 
     1.  Navigate to **MID server** &gt; **Capabilities**.
 
@@ -74,8 +74,8 @@ Be sure to perform the procedures in order. After you have performed the Day 1 s
 
         **Note:** For more information, see:
 
-        -   [MID server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
-        -   [MID server capabilities](https://www.servicenow.com/docs/access?context=t_ConfigureCapabilities&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+        -   [MID server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md)
+        -   [MID server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md)
 3.  Navigate to **MID server** &gt; **Properties**.
 
     1.  Click **New** and add new records for each of the following name-value pairs:

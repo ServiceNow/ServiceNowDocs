@@ -13,7 +13,7 @@ breadcrumb: [Reference, Commercial Lines Servicing, Property and Casualty Insura
 
 Several types of components are installed with installation of the Commercial Lines Underwriting application \(sn\_ins\_uw\_b2b\), including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 The Commercial Lines Underwriting plugin \(sn\_ins\_uw\_b2b\) is automatically installed with the Commercial Lines Servicing plugin.
 

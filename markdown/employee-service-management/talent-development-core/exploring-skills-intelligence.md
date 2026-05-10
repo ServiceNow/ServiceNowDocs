@@ -41,7 +41,7 @@ Proactive Prompts enable contextual and proactive engagement for your managers a
 
 ## Support for multiple languages in Skills Foundation
 
-Employees can view the skill names and their descriptions translated when they change their preferred language to a non-English language. For information on the languages supported by AI Search, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Employees can view the skill names and their descriptions translated when they change their preferred language to a non-English language. For information on the languages supported by AI Search, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 
 **Note:**
 

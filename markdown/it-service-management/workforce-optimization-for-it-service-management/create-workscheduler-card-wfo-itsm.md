@@ -74,5 +74,5 @@ Associate the work scheduler card that you've created to the work configuration 
 **Related topics**  
 
 
-[Create a page in UI Builder](https://www.servicenow.com/docs/access?context=create-page&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md)
 

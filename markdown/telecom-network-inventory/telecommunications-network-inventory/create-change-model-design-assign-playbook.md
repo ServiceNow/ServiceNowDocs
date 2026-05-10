@@ -74,7 +74,7 @@ The change request is approved.
 
 The change request is closed.
 
-You can also add a new model state to the Change model based on the requirements of your Design and Assign function. To learn more, see [add multi-layer model states](https://www.servicenow.com/docs/access?context=t_AddANewState&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+You can also add a new model state to the Change model based on the requirements of your Design and Assign function. To learn more, see [add multi-layer model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_AddANewState.md).
 
 </td></tr><tr><td>
 
@@ -119,9 +119,9 @@ Create a record producer to configure an activity in the playbook. To learn more
 **Related topics**  
 
 
-[Create a Change model](https://www.servicenow.com/docs/access?context=create-a-change-model&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-change-model.md)
 
-[Legacy: State model and transitions](https://www.servicenow.com/docs/access?context=c_ChangeStateModel&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ChangeStateModel.md)
 
 [Configuring Design and Assign function for your network services](../concept/configure-playbooks-design-assign-function.md)
 

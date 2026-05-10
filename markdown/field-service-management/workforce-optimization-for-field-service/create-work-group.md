@@ -23,7 +23,7 @@ Role required: wm\_admin, wm\_contractor\_manager\_int
 
 External work groups are managed by internal and external managers.
 
-You can also do the initial configuration of onboarding an external manager through **Field Service** &gt; **Administration** &gt; **Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+You can also do the initial configuration of onboarding an external manager through **Field Service** &gt; **Administration** &gt; **Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 ## Procedure
 

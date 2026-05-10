@@ -36,7 +36,7 @@ The Technical Service Qualification process enables the service order managers t
 
 ## Qualification process
 
-Customer orders that have the fulfillment type as **Qualify** are captured from third-party customer order management systems through the [Technical Service Qualification Open API](https://www.servicenow.com/docs/access?context=api-reference&version=australia&pubname=australia-api-reference&ft:locale=en-US). You can use this API, which is a ServiceNow implementation of the TMF645 API, to request the qualification of services for:
+Customer orders that have the fulfillment type as **Qualify** are captured from third-party customer order management systems through the [Technical Service Qualification Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-reference.md). You can use this API, which is a ServiceNow implementation of the TMF645 API, to request the qualification of services for:
 
 -   One or more service specifications with characteristics.
 

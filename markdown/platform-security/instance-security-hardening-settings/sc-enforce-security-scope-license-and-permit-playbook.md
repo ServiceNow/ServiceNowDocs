@@ -99,8 +99,8 @@ References
 
 </td><td>
 
--   [Using License and Permit Playbook](https://www.servicenow.com/docs/access?context=psds-using-lp-playbooks&version=australia&pubname=australia-government-industry&ft:locale=en-US)
--   [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US)
+-   [Using License and Permit Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-lp-playbooks.md)
+-   [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Access control](sc-access-control.md)

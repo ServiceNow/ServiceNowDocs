@@ -15,7 +15,7 @@ breadcrumb: [Legal Service Delivery, Legal and Contract Operations, Employee Ser
 
 The Legal Counsel Center is the next experience Workspace that enables the legal department members to work with actionable widgets to quickly categorize, prioritize, and efficiently resolve legal issues.
 
-It is a redesigned and restructured version of the Legal Counsel Center Classic Workspace experience built on a configurable UI Builder version. For more information on UI Builder, see [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US)
+It is a redesigned and restructured version of the Legal Counsel Center Classic Workspace experience built on a configurable UI Builder version. For more information on UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)
 
 **Important:** Legal Counsel Center Classic is now deprecated and no longer supported or available for new activation. For enhanced workspace experience, use [Legal Counsel Center](legal-counsel-center-landing.md). For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 

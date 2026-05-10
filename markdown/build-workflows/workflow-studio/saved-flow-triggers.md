@@ -71,7 +71,7 @@ A Workflow Studio **Create trigger** tab consists of these elements:
 
         |Option|Description|
         |------|-----------|
-        |Only Run for Non-Interactive Session|Flow that is triggered only in non-interactive sessions. See [Non-interactive sessions](https://www.servicenow.com/docs/access?context=c_NonInteractiveSessions&version=australia&pubname=australia-platform-administration&ft:locale=en-US).|
+        |Only Run for Non-Interactive Session|Flow that is triggered only in non-interactive sessions. See [Non-interactive sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_NonInteractiveSessions.md).|
         |Only Run for User Interactive Session|Flow that is triggered only in interactive sessions.|
         |Run for Both Interactive and Non-Interactive Sessions|Flow that is triggered in all sessions.|
 

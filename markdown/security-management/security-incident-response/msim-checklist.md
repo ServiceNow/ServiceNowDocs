@@ -77,7 +77,7 @@ Microsoft SharePoint manages sites, folders, files, groups, and users in Microso
 
  Add Microsoft SharePoint data to your ServiceNow® instance. To do this, you must have to setup Graph and Rest connections.
 
- For information, see [Microsoft SharePoint spoke v1.1.2](https://www.servicenow.com/docs/access?context=sharepoint-online-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) documentation on how to setup REST and Graph connections Configuration.
+ For information, see [Microsoft SharePoint spoke v1.1.2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sharepoint-online-spoke.md) documentation on how to setup REST and Graph connections Configuration.
 
  Establish Graph and REST connection to connect to your ServiceNow® instance from Microsoft SharePoint.
 

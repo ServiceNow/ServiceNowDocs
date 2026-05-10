@@ -17,7 +17,7 @@ Users with the appropriate roles can configure various aspects of lists. Configu
 
 With list configuration, you can add, remove, and reorder list columns. You can configure calculations to appear under columns. You can also hide controls and define access conditions by role for existing list controls. Configuring lists is called personalizing lists in versions prior to the Fuji release.
 
-**Note:** Configuring a list in this way modifies the list for all users. To make changes to a list that are visible to you only, see [Personal lists](https://www.servicenow.com/docs/access?context=c_PersonalLists&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+**Note:** Configuring a list in this way modifies the list for all users. To make changes to a list that are visible to you only, see [Personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_PersonalLists.md).
 
 -   **[Configure the list layout](../task/t_ConfigureTheListLayout.md#)**  
 You can configure a list to choose which columns appear in a list, create list views, and create fields on the table.

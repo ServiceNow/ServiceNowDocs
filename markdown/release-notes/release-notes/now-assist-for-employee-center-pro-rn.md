@@ -27,11 +27,11 @@ Now Assist for Employee Center Pro only provides employee or requester conversat
 
 ## New in the Australia release
 
--   **[Manage approvals with Now Assist Approval Assistance AI agent](https://www.servicenow.com/docs/access?context=manage-approvals-with-approvals-agent&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **[Manage approvals with Now Assist Approval Assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/manage-approvals-with-approvals-agent.md)**
 
     Accelerate request approvals by automatically aggregating relevant details, validating requests against policies, and recommending approval decisions to managers.
 
--   **[Quick start tests for Employee Center](https://www.servicenow.com/docs/access?context=quick-start-tests-employee-center&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **[Quick start tests for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/quick-start-tests-employee-center.md)**
 
     After upgrades and deployments of new applications or integrations, run quick start tests to verify that Employee Center works as expected. If you customized Employee Center, copy the quick start tests and configure them for your customizations.
 

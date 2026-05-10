@@ -48,7 +48,7 @@ Role required: admin or sn\_appclient.app\_client\_user
 
 5.  If you have available application customizations, use the **Customized ver.** drop-down menu to select which customization to use.
 
-    Your customizations might not be compatible with a new application version. Update the application in a non-production instance, then make any necessary changes to your customization and validate compatibility before making updates in production instances. For more information about managing customizations, see [Manage customizations to applications](https://www.servicenow.com/docs/access?context=manage-customizations-store-apps&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    Your customizations might not be compatible with a new application version. Update the application in a non-production instance, then make any necessary changes to your customization and validate compatibility before making updates in production instances. For more information about managing customizations, see [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/manage-customizations-store-apps.md).
 
 6.  Include demo data if it's desired and available.
 
@@ -64,15 +64,15 @@ Role required: admin or sn\_appclient.app\_client\_user
 
 8.  Update the application now or schedule installation for a later time.
 
-<table id="choicetable_vcm_ndz_tgc"><thead><tr><th align="left" id="d183139e307">
+<table id="choicetable_vcm_ndz_tgc"><thead><tr><th align="left" id="d184736e307">
 
 Installation option
 
-</th><th align="left" id="d183139e310">
+</th><th align="left" id="d184736e310">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d183139e316">
+</th></tr></thead><tbody><tr><td id="d184736e316">
 
 **Install now**
 
@@ -82,7 +82,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d183139e340">
+</td></tr><tr><td id="d184736e340">
 
 **Install later**
 

@@ -176,7 +176,7 @@ Now Assist
 
 </td><td>
 
-Enables you to address and resolve customer issues. The [Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) helps you generate summaries for records, chats, cases, or incidents, get help, and create resolution notes. Use the menu width button to toggle between standard and wide widths. Standard and wide widths are static values and the setting that you choose is retained.The Now Assist panel is configured using the Now Assist Admin console.
+Enables you to address and resolve customer issues. The [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md) helps you generate summaries for records, chats, cases, or incidents, get help, and create resolution notes. Use the menu width button to toggle between standard and wide widths. Standard and wide widths are static values and the setting that you choose is retained.The Now Assist panel is configured using the Now Assist Admin console.
 
 </td></tr><tr><td>
 
@@ -236,7 +236,7 @@ OpenFrame phone
 
 </td><td>
 
-OpenFrame lets you make and receive embedded, contextual calls. When calls are active, the phone icon displays a badge. For more information, see [OpenFrame overview](https://www.servicenow.com/docs/access?context=c_OpenFrameOverview&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+OpenFrame lets you make and receive embedded, contextual calls. When calls are active, the phone icon displays a badge. For more information, see [OpenFrame overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_OpenFrameOverview.md).
 
 </td></tr><tr><td>
 
@@ -263,7 +263,7 @@ User menu
 Menu items to personalize your instance. -   **Profile**: Your instance profile, which includes your personal information displayed in the instance.
 -   **Preferences**: Display, accessibility, notifications, and Workspace preferences.
 -   **Keyboard shortcuts**: Display a modal with keyboard shortcuts that are specific to the screen you’re viewing. For more information on the keyboard shortcut modal, see [Next Experience keyboard shortcuts](../../../use/navigation/reference/next-experience-keyboard-shortcuts.md). The keyboard shortcuts modal can also be accessed using **Command+/** \(Mac\) or **Control+/** \(Windows\).
--   **Impersonate user**: Administrators can impersonate other authenticated users for testing purposes and view impersonation logs. For more information, see [Impersonating users](https://www.servicenow.com/docs/access?context=c_ImpersonateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   **Impersonate user**: Administrators can impersonate other authenticated users for testing purposes and view impersonation logs. For more information, see [Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ImpersonateAUser.md).
 -   **Elevate role**: Designate any role as an elevated privilege role, and then assign that role to one or more users. Do this when you want to restrict users from having access to the rights that the role provides immediately after login.
 -   **Printer friendly version**: A printer-friendly version of the current content frame.
 

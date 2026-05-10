@@ -29,7 +29,7 @@ ITOM Event Management calculates the services \(CIs\) impacted by an alert and p
 
 The Affected Install Base related list on the Alert form displays the install base items that are linked to the impacted services \(CIs\).
 
-The **Refresh Affected Install Base Items** button on the Alert form recalculates the impacted services \(CIs\) and updates the em\_impacted\_ci\_table and affected install base items with the latest changes. For more details, see [Alert Impact Calculation](https://www.servicenow.com/docs/access?context=c_EMImpactCalculation&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+The **Refresh Affected Install Base Items** button on the Alert form recalculates the impacted services \(CIs\) and updates the em\_impacted\_ci\_table and affected install base items with the latest changes. For more details, see [Alert Impact Calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMImpactCalculation.md).
 
 ## Procedure
 

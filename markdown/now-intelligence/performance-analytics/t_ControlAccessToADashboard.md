@@ -52,7 +52,7 @@ In general, when you share a dashboard, you aren’t granting permission to the 
 
 **Note:** Performance Analytics List widgets don’t show the indicators that you don’t have permission to read. While the dashboard permission applies to the whole Performance Analytics list widget, individual indicators in the widget follow the permissions for those indicators. For more information about indicator permissions, see [Control access to an indicator](../../performance-analytics/task/t_ControlAccessToAnIndicator.md).
 
-When domain separation is enabled and the system property **glide.security.admin.override.accessterm** is not selected, admins must be in the same domain as the dashboard to share it. See [Evaluate the admin override at the access level](https://www.servicenow.com/docs/access?context=t_EvalAdmOverrideAccLevel&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+When domain separation is enabled and the system property **glide.security.admin.override.accessterm** is not selected, admins must be in the same domain as the dashboard to share it. See [Evaluate the admin override at the access level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_EvalAdmOverrideAccLevel.md).
 
 ## Procedure
 
@@ -80,13 +80,13 @@ When domain separation is enabled and the system property **glide.security.admin
 
     You can choose not to send an email message. For example, when recipients already know the dashboard has been shared with them.
 
-    **Note:** Sending email from within your instance requires configuration of email servers. For more information, see [Basic email setup](https://www.servicenow.com/docs/access?context=c_StandardEmailConfiguration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    **Note:** Sending email from within your instance requires configuration of email servers. For more information, see [Basic email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_StandardEmailConfiguration.md).
 
 9.  Write an addition to the default email invitation message.
 
     The default email message reads "The dashboard &lt;Name of Dashboard&gt; has been shared with you by &lt;user role&gt;."
 
-    Users with the admin role can edit the default email message. Navigate to **System Notification** &gt; **Email** &gt; **Notifications** and open the dashboard sharing notification. For more information, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    Users with the admin role can edit the default email message. Navigate to **System Notification** &gt; **Email** &gt; **Notifications** and open the dashboard sharing notification. For more information, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
 
 10. Select **Share**.
 

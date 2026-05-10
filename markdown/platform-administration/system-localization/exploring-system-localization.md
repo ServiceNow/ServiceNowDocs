@@ -86,7 +86,7 @@ Translate UI string content that you create or modify.
 
     Localization Workspace is a targeted translation management experience for content owners and translation fulfillers. With Localization Workspace you can manage and deliver multilingual content at scale.
 
--   **[Translation management for Knowledge Management](https://www.servicenow.com/docs/access?context=translation-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **[Translation management for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/translation-management.md)**
 
     Knowledge article translation uses a separate system that relies on the I18N: Knowledge Management Internationalization plugin. If this plugin isn’t activated, knowledge article translation falls back on System Localization, with translations kept in the Translated Text \[sys\_translated\_text\] table.
 

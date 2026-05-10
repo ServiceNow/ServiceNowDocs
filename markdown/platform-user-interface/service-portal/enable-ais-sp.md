@@ -39,13 +39,13 @@ If you leave AI Search inactive, the portal uses the legacy search experience.
 
     A search application configuration defines search experience settings, such as the search engine, search results limit, and suggestions limit. A search application configuration is selected by default, but you can select a different configuration if needed.
 
-    For more information on defining a search application configuration, see [Defining search application configurations](https://www.servicenow.com/docs/access?context=defining-search-app-cfgs-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information on defining a search application configuration, see [Defining search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-app-cfgs-ais.md).
 
 4.  In the **Search Results Configuration** field, select the search results configuration to enable for the portal.
 
     A search results configuration defines how search results are displayed. A search results configuration is selected by default, but you can select a different configuration if needed.
 
-    For more information on defining a search results configuration, see [Create an EVAM definition](https://www.servicenow.com/docs/access?context=define-composite-dataset&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For more information on defining a search results configuration, see [Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-composite-dataset.md).
 
 5.  Select **Update**.
 
@@ -54,11 +54,11 @@ If you leave AI Search inactive, the portal uses the legacy search experience.
 
 AI Search is enabled throughout the portal. Employees or customers can use AI Search the next time they log in.
 
-The Search Sources related list is hidden from the portal record. You now define search sources in the AI Search application. For more information, see [Defining search sources](https://www.servicenow.com/docs/access?context=search-sources-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The Search Sources related list is hidden from the portal record. You now define search sources in the AI Search application. For more information, see [Defining search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-sources-ais.md).
 
 To use AI Search for knowledge articles, you can keep the default **Knowledge Bases** search source or select a custom one.
 
-**Note:** If you're experiencing issues using AI Search for knowledge articles, check that the associated search profile is linked to a knowledge bases search source. For more information, see [Link a search source to a search profile](https://www.servicenow.com/docs/access?context=link-search-source-profile-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** If you're experiencing issues using AI Search for knowledge articles, check that the associated search profile is linked to a knowledge bases search source. For more information, see [Link a search source to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/link-search-source-profile-ais.md).
 
 ## What to do next
 

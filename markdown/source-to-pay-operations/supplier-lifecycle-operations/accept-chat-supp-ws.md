@@ -31,7 +31,7 @@ Role required: sn\_slm.owner
 
     You are automatically connected to the supplier contact in the chat queue. The Active Chat panel displays a pre-chat message acknowledging the chat request. You can review the information before you enter a response in the Active Chat panel.
 
-    A new interaction record is created and chat details are displayed on the **Details** tab of the interaction. For more information, see [Virtual Agent interaction records](https://www.servicenow.com/docs/access?context=va-interactions&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    A new interaction record is created and chat details are displayed on the **Details** tab of the interaction. For more information, see [Virtual Agent interaction records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-interactions.md).
 
 <table id="table_ljw_tmp_wwb"><thead><tr><th>
 

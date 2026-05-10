@@ -221,7 +221,7 @@ Last time a customer satisfaction survey was sent.
 </td></tr></tbody>
 </table>4.  Select the **Team** tab to complete the Team section of the form.
 
-    The Teams related list enables you to assign different group types to support a service offering. For more information, see [Teams related list](https://www.servicenow.com/docs/access?context=teams-related-list&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and [Assign multiple teams to support a service offering](spm2-assign-teams.md).
+    The Teams related list enables you to assign different group types to support a service offering. For more information, see [Teams related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/teams-related-list.md) and [Assign multiple teams to support a service offering](spm2-assign-teams.md).
 
 <table id="table_lms_5h4_h4b"><thead><tr><th>
 
@@ -371,7 +371,7 @@ Longer description of a unit of this offering.
 **Related topics**  
 
 
-[Teams related list](https://www.servicenow.com/docs/access?context=teams-related-list&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Teams related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/teams-related-list.md)
 
 [Assign multiple teams to support a service offering](spm2-assign-teams.md)
 

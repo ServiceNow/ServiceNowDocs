@@ -23,7 +23,7 @@ Role required: catalog\_admin or admin
 
 1.  Navigate to **All** &gt; **Service Catalog** &gt; **Catalog Definitions** &gt; **Record Producers**.
 
-2.  Click **New** and complete the steps in [Create a record producer](https://www.servicenow.com/docs/access?context=t_DefRecProdInSCat&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+2.  Click **New** and complete the steps in [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefRecProdInSCat.md).
 
 3.  Click **Generated Record Data** and select the incident template to populate fields when the record producer is submitted.
 

@@ -45,7 +45,7 @@ You can use the [CMDB Workspace](cmdb-workspace.md) landing page and its viewsor
 
 -   **Policy subflow**
 
-    The policy [subflow](https://www.servicenow.com/docs/access?context=subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US) contains the underlying logic to process a life-cycle event such as retire or delete. If the policy is configured to require approval, then the policy subflow runs only after a policy task is approved.
+    The policy [subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md) contains the underlying logic to process a life-cycle event such as retire or delete. If the policy is configured to require approval, then the policy subflow runs only after a policy task is approved.
 
     The base system provides several common subflows such as delete, archive, and retire, which you can use with policies. You can also create custom subflows for your organization.
 
@@ -80,7 +80,7 @@ You can create policies of the following types:
 
 -   **Archive**
 
-    Use to remove a CI from its current table and store the CI in a separate archive table for temporary retention. Archiving a CI excludes the CI from views and from features such as maps and the relations formatter. During the retention period, you can [restore CIs into active state](https://www.servicenow.com/docs/access?context=managing-archived-data&version=australia&pubname=australia-platform-administration&ft:locale=en-US). At the end of the retention period, archived CIs are deleted from their archive table.
+    Use to remove a CI from its current table and store the CI in a separate archive table for temporary retention. Archiving a CI excludes the CI from views and from features such as maps and the relations formatter. During the retention period, you can [restore CIs into active state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-archived-data.md). At the end of the retention period, archived CIs are deleted from their archive table.
 
 -   **Delete CMDB Related Entry**
 
@@ -97,7 +97,7 @@ You can implement your Retire, Delete, and Archive policies so that they follow 
 
 ## ServiceNow AI Platform® data archiving
 
-The functionality that the Archive policy type in CMDB Data Manager provides, relies and extends the ServiceNow AI Platform® [data archiving feature](https://www.servicenow.com/docs/access?context=c_ArchiveData&version=australia&pubname=australia-platform-administration&ft:locale=en-US), applied specifically for CMDB CIs. While processing an Archive policy to archive CMDB CIs, CMDB Data Manager uses components and processes of ServiceNow AI Platform® data archiving in the following ways:
+The functionality that the Archive policy type in CMDB Data Manager provides, relies and extends the ServiceNow AI Platform® [data archiving feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ArchiveData.md), applied specifically for CMDB CIs. While processing an Archive policy to archive CMDB CIs, CMDB Data Manager uses components and processes of ServiceNow AI Platform® data archiving in the following ways:
 
 -   The Archive Rule \[sys\_archive\] table contains the ServiceNow AI Platform® archive rules including the **Archive Configuration Items** CMDB archive rule which CMDB Data Manager Archive policies use.
 -   Data Manager relies on the **Archive** scheduled job to run \(every hour by default\) and process CMDB Data Manager archive policies. The **Archive** scheduled job is stored in the Schedule Item \[sys\_trigger\] table.
@@ -109,7 +109,7 @@ The functionality that the Archive policy type in CMDB Data Manager provides, re
     CMDB archive tables, such as ar\_cmdb\_ci\_computer, are listed under **All** &gt; **System Archiving** &gt; **Archive Tables**.
 
 
-When using the CMDB Data Manager to archive CIs, you can also directly apply ServiceNow AI Platform® data archiving features, such as [restore CIs into active state](https://www.servicenow.com/docs/access?context=managing-archived-data&version=australia&pubname=australia-platform-administration&ft:locale=en-US) during a CIs retention period.
+When using the CMDB Data Manager to archive CIs, you can also directly apply ServiceNow AI Platform® data archiving features, such as [restore CIs into active state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-archived-data.md) during a CIs retention period.
 
 ## CI life cycle management
 
@@ -127,7 +127,7 @@ In general, CIs that are no longer needed should be retired. Then, to complete t
 The life cycle state of a CI affects the CIs visibility and inclusion in ongoing CMDB processes:
 
 -   A retired CI isn't excluded from any views or processes such as CMDB Health.
--   An archived CI no longer exists in its active table and instead it's stored in a separate archive table. Archived CIs are no longer visible or included in processes such as list views, maps, and relations formatters. Archived CIs can be retained for a specified retention period before being deleted from the archive table. During the retention period, archived CIs can be manually restored into an active state by using the ServiceNow AI Platform® feature to [restore CIs into active state](https://www.servicenow.com/docs/access?context=managing-archived-data&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   An archived CI no longer exists in its active table and instead it's stored in a separate archive table. Archived CIs are no longer visible or included in processes such as list views, maps, and relations formatters. Archived CIs can be retained for a specified retention period before being deleted from the archive table. During the retention period, archived CIs can be manually restored into an active state by using the ServiceNow AI Platform® feature to [restore CIs into active state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-archived-data.md).
 
 **Note:** Deleting a CI is an irreversible operation. A deleted CI no longer exists in the table that it belonged to and there's no way to restore it to an active state.
 

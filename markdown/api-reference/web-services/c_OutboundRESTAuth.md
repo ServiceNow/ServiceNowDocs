@@ -48,7 +48,7 @@ Authentication requirement for REST Outbound are as follows:
 -   Outbound REST supports mutual authentication only when using basic authentication. Mutual authentication is not available with OAuth 2.0.
 -   OAuth 2.0 can be used only with messages that are not configured to use a MID Server. You cannot send OAuth 2.0 authenticated messages through a MID Server. Also, mutual authentication is not supported with MID Server.
 -   When scripting new REST messages configured with authentication you must use the RESTMessageV2 API. The legacy RESTMessage APIs do not support current authentication formats.
--   AWS credentials or any other custom authentication are supported only with the [REST step](https://www.servicenow.com/docs/access?context=rest-request-action-designer&version=australia&pubname=australia-integrate-applications&ft:locale=en-US), not with the RestMessage API.
+-   AWS credentials or any other custom authentication are supported only with the [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/rest-request-action-designer.md), not with the RestMessage API.
 
 -   **[Configure a REST message with basic auth](../task/t_ConfigureRESTMsgBasicAuth.md)**  
 Configure an outbound REST message to provide basic authentication credentials with each request.

@@ -23,7 +23,7 @@ The Mobile SDK gives you the ability to do the following:
 -   Embed authenticated web views.
 -   Support push notifications triggered by the ServiceNow AI Platform.
 
-For more details regarding the Mobile SDK, see the [Mobile SDK API reference](https://www.servicenow.com/docs/access?context=api-mobile_sdk&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For more details regarding the Mobile SDK, see the [Mobile SDK API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/api-mobile_sdk.md).
 
 ## Mobile SDK Benefits
 

@@ -20,7 +20,7 @@ The web search custom skill is based on a prebuilt topic block in Virtual Agent 
 
 ![Virtual Agent Designer topics list showing the web search custom skill, setup topic, and prebuilt topic.](../../virtual-agent/images/web-search-custom-skill-01.png)
 
-For more information about the web search mode end-user display and functionality, see [Web search](https://www.servicenow.com/docs/access?context=web-search-requestor&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For more information about the web search mode end-user display and functionality, see [Web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/web-search-requestor.md).
 
 Web Search AI choices are available in the OneExtend Definition Configs related list within the **AI Search answers** entry in the OneExtend Capabilities \[sys\_one\_extend\_capability\_list\] table. Select one of the AI definitions there, such as Perplexity, and set its value to `true`. Activate a matching AI credential by navigating to **ALL** &gt; **Connections &amp; credentials** &gt; **Credentials**, and setting the matching API key \(such as **Perplexity API key** active value to `true`\).
 

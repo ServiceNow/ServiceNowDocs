@@ -282,7 +282,7 @@ Discovery launches these probes when enhanced ADM is activated:
 
 |Probe|Description|
 |-----|-----------|
-|Windows - ADM Enhanced|Performs the same functions as the Windows ADM probe with additional parameters to control continuous TCP-based discovery. This probe is compatible with WinRM and non-WinRM supported MID Servers. Configure your MID Server using the `mid.windows.management_protocol` parameter. See [MID Server parameters](https://www.servicenow.com/docs/access?context=mid-server-parameters&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for the values you can use for this parameter.|
+|Windows - ADM Enhanced|Performs the same functions as the Windows ADM probe with additional parameters to control continuous TCP-based discovery. This probe is compatible with WinRM and non-WinRM supported MID Servers. Configure your MID Server using the `mid.windows.management_protocol` parameter. See [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md) for the values you can use for this parameter.|
 |UNIX - ADM Enhanced|Performs the same functions as the UNIX ADM probe with additional parameters to control continuous TCP-based discovery.|
 
 Use these probe parameters with the enhanced ADM probes:
@@ -309,7 +309,7 @@ max.adme\_result\_payload\_size
 
 </td><td>
 
-Controls the size of the result, including the payload.**Note:** If this is greater than the [MID Server properties](https://www.servicenow.com/docs/access?context=r_MIDServerProperties&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) mid.discovery.max\_payload\_size, a configuration error can occur.
+Controls the size of the result, including the payload.**Note:** If this is greater than the [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md) mid.discovery.max\_payload\_size, a configuration error can occur.
 
 </td></tr><tr><td>
 

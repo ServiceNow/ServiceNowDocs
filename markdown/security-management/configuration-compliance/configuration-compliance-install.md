@@ -17,7 +17,7 @@ Activate the content pack ServiceNow Store application for the Platform Analytic
 
 ## Before you begin
 
-Activate the full, subscription version of Performance Analytics on the instance where you're activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see [Activate your Performance Analytics subscription](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+Activate the full, subscription version of Performance Analytics on the instance where you're activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see [Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
 
 You need a Now Support account and permission to request applications for the instances under consideration. The Now Support account and the instance must be part of the same company. For more information, see [Install a ServiceNow Product](https://store.servicenow.com/sn_appstore_store.do#!/store/help?article=KB0030186) on the ServiceNow Store.
 

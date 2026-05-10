@@ -324,7 +324,7 @@ Transforms JSON objects to internal objects and sets the word limit for records 
 
  **Note:**
 
-You must [Add this system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) to set the desired value.
+You must [Add this system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) to set the desired value.
 
 When you [synchronize](../task/integrate-learning-third-party-configurable-wfo-itsm.md) third-party learning content with your ServiceNow instance, if the word count of the content being pulled into your instance exceeds the value set for this property, the synchronization will fail.
 
@@ -381,7 +381,7 @@ The recommendation groups listed in the table below are available by default to 
 
 **Note:** You can deactivate the recommendations for the recommendation groups provided by default, but you cannot delete them. To deactivate the recommendations, in the Recommendations related list in the Context form, change the **Active** field value to **false**.
 
-You can create additional recommendations and recommendation groups and associate them with recommendation contexts. For more information, see [Recommended Actions application](https://www.servicenow.com/docs/access?context=nba&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+You can create additional recommendations and recommendation groups and associate them with recommendation contexts. For more information, see [Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nba.md)
 
 |Recommendation group name|Recommendation provided based on this criteria|
 |-------------------------|----------------------------------------------|

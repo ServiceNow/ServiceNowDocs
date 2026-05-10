@@ -21,7 +21,7 @@ Integrating Coupa with Software Asset Management helps you create software requi
 
 -   Install the Asset Management - Procurement Integration \(app-itam-procurement-integration\) store application from ServiceNow Store. For more information, see [Install Asset Management - Procurement Integration](../task/install-proc-int.md).
 -   You must have the Software Asset Management Enterprise license.
--   Activate the Coupa spoke. For more information, see [Coupa Spoke](https://www.servicenow.com/docs/access?context=coupa-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+-   Activate the Coupa spoke. For more information, see [Coupa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/coupa-spoke.md).
 -   Activate the Procurement plugin \(com.snc.procurement\). For more information, see [Activate Procurement](../task/t_ActivateProcurement.md).
 
 ## Synchronize reference data

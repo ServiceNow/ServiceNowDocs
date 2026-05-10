@@ -25,7 +25,7 @@ Administrators can display a scorecard for any table by creating a **Related Lin
 
 The Vendor Performance application provides an enhanced scorecard view for vendors.
 
-See Vendor Performance in . [Project Portfolio Suite](https://www.servicenow.com/docs/access?context=c_ProjectPortfolioSuite&version=australia&pubname=australia-it-business-management&ft:locale=en-US).
+See Vendor Performance in . [Project Portfolio Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md).
 
 ## Procedure
 

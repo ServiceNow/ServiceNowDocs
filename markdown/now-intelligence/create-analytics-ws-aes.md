@@ -15,7 +15,7 @@ The App Engine Studio includes a prebuilt workspace that you can add to an appli
 
 The event handlers for the Analytics Center components of the workspace are all preconfigured. For example, selecting an indicator in the Indicator Scorecard opens that indicator in KPI Details.
 
-For more information about using App Engine Studio to create a workspace with an Analytics Center, see [Add an application experience](https://www.servicenow.com/docs/access?context=add-experience&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For more information about using App Engine Studio to create a workspace with an Analytics Center, see [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-experience.md).
 
 **Parent Topic:**[Creating Platform Analytics pages in your own workspace](adding-analytics-center-to-ws.md)
 

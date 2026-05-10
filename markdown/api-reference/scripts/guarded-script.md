@@ -167,7 +167,7 @@ An option to turn off the guarded script evaluator and route all untrusted scrip
 -   Default value: true
 
 </td></tr></tbody>
-</table>For information about configuring system properties, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>For information about configuring system properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 The GlideGuardedScript script include supports methods for transitioning between enforcement phases and validates that the transition occurs sequentially. These methods are primarily useful for instances that aren't configured to advance automatically, such as upgraded, on-premise instances. From the Scripts - Background module, you can run the following methods to transition to each phase as needed.
 

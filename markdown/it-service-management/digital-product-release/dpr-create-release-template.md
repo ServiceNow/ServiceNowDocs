@@ -283,7 +283,7 @@ Custom template fields that you add to tasks in a release template are stored on
 
 3.  Configure the form layout to add the custom fields on the form.
 
-    For more information on configuring form layout, see [ServiceNow AI Platform® form administration](https://www.servicenow.com/docs/access?context=form-administration-landing-page&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information on configuring form layout, see [ServiceNow AI Platform® form administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/form-administration-landing-page.md).
 
 4.  Select **Save** to save the form view configuration.
 

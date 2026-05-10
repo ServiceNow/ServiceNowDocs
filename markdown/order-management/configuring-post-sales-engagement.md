@@ -13,5 +13,5 @@ breadcrumb: [Configure, Sales Customer Relationship Management]
 
 Learn how to configure the Customer Life Cycle Management Workflows application to manage post-sale workflows on sold products.
 
-Installing and configuring the [Customer Life Cycle Management Workflows](https://www.servicenow.com/docs/access?context=customer-life-cycle-management-workflows&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) application helps manage ongoing customer relationships and product life cycle activities after an order is completed or fulfilled.
+Installing and configuring the [Customer Life Cycle Management Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-life-cycle-management-workflows.md) application helps manage ongoing customer relationships and product life cycle activities after an order is completed or fulfilled.
 

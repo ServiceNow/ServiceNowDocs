@@ -79,7 +79,7 @@ Compliance Workspace
 </td></tr></tbody>
 </table>## Security enhancements
 
-For information about security enhancements for AI agents, see [Implement access control in Now Assist AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For information about security enhancements for AI agents, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
 
 ## Application information
 

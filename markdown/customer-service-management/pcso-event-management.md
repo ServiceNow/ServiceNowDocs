@@ -15,7 +15,7 @@ Create cases proactively from alerts either manually or through automation. Trac
 
 Customer Service Management provides an integration with the Event Management console in IT Operations Management, which enables you to improve the customer experience by breaking down the silos that exist between the processes and systems used by front line customer service and back-office operations teams. By monitoring issues and creating cases proactively, you can be one step ahead of your customers and solve issues faster.
 
-Network Operations Center \(NOC\) operators monitor alerts from the Service Operations Workspace. For more information, see [Monitor service health](https://www.servicenow.com/docs/access?context=t_EMViewDashboard&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+Network Operations Center \(NOC\) operators monitor alerts from the Service Operations Workspace. For more information, see [Monitor service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewDashboard.md).
 
 When alerted to a service disruption, they can identify the accounts and corresponding install base items affected and create a case for customer service to review. Customer service can view the customers affected and notify  them.
 

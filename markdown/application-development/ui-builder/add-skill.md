@@ -22,8 +22,8 @@ Role required: ui\_builder\_admin
 
 **Note:** Skills must be enabled and activated before they can be added to a page. For more information, see:
 
--   [Configure skill deployment settings](https://www.servicenow.com/docs/access?context=configure-skill-settings&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US): Enable the skill to make it available for selection
--   [Activate a skill](https://www.servicenow.com/docs/access?context=activate-skill&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US): Activate the skill so it can be selected
+-   [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md): Enable the skill to make it available for selection
+-   [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/activate-skill.md): Activate the skill so it can be selected
 
 ## About this task
 
@@ -61,7 +61,7 @@ In this example, you will:
 
     ![UI Builder editor with the Select a Now Assist skill dialog open.](../image/add-skill-select.png)
 
-    **Note:** Skills that are enabled in Now Assist Skill Kit but not activated in Now Assist Admin appear in the list, but aren't selectable. For more information, see [Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=now-assist-skill-kit-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) and [Now Assist Admin console](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    **Note:** Skills that are enabled in Now Assist Skill Kit but not activated in Now Assist Admin appear in the list, but aren't selectable. For more information, see [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md) and [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
 6.  Select the **X** in the upper right to close the **Edit Generate Content** dialog.
 

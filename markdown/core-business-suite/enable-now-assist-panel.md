@@ -29,7 +29,7 @@ Role required: admin
 
 4.  On the Visit Assistant Designer page, select **Activate**.
 
-    The Now Assist panel is activated. For more information, see [Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    The Now Assist panel is activated. For more information, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 
 **Parent Topic:**[Configure Core Business Suite Foundation](../concept/configure-cbs.md)

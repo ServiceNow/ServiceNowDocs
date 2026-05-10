@@ -37,7 +37,7 @@ Additional information
 
 </th></tr></thead><tbody><tr><td>
 
-[Applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/applicative-creds.md)
 
 </td><td>
 
@@ -58,7 +58,7 @@ The user needs permissions for the SQL\*Plus command line tool and permissions t
 
 </td></tr><tr><td>
 
-[Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md)
 
 </td><td rowspan="2">
 
@@ -66,7 +66,7 @@ You can also use Windows and SSH credentials in addition to applicative credenti
 
 </td></tr><tr><td>
 
-[SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md)
 
 </td></tr></tbody>
 </table>## Additional requirements

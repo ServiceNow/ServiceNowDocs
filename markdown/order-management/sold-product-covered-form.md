@@ -41,7 +41,7 @@ The products that are sold to a customer.**Note:**
 
 -   The list of sold products is filtered based on the account related to the contract or entitlement.
 -   If a product is added, the **Install Base Items** field is automatically removed.
--   If a product isn't listed, you can add it. Select **New** in the Sold Products window. For more information, see [Create a sold product](https://www.servicenow.com/docs/access?context=create-sold-item&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+-   If a product isn't listed, you can add it. Select **New** in the Sold Products window. For more information, see [Create a sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-sold-item.md).
 
 </td></tr><tr><td>
 
@@ -53,7 +53,7 @@ The related install base item.**Note:**
 
 -   The list of sold products is filtered based on the account related to the contract or entitlement.
 -   If an install base item is added, the **Sold Product** field is automatically removed.
--   If an install base item isn't listed, you can add it. Select **New** in the Install Base Item window. For more information, see [Create an install base item](https://www.servicenow.com/docs/access?context=create-install-base-item&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+-   If an install base item isn't listed, you can add it. Select **New** in the Install Base Item window. For more information, see [Create an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-install-base-item.md).
 
 </td></tr><tr><td>
 

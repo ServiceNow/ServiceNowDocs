@@ -19,7 +19,7 @@ The HTML editor available in knowledge articles uses the built-in TinyMCE editor
 
 The HTML toolbar within the HTML editor contains an array of icons that enable you to edit and format the body text of your knowledge article. You can also use the HTML Editor to add images, links, audio, and video to the knowledge article.
 
-**Note:** Your administrator can configure the HTML toolbar within the HTML editor. For more information, see [Customize TinyMCE attributes](https://www.servicenow.com/docs/access?context=tinymce&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** Your administrator can configure the HTML toolbar within the HTML editor. For more information, see [Customize TinyMCE attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/tinymce.md).
 
 You can perform the following functions using the HTML editor:
 

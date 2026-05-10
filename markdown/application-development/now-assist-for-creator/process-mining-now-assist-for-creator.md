@@ -15,7 +15,7 @@ breadcrumb: [Use generative AI, Now Assist for Creator, Vibe coding and AI app d
 
 Learn about the Process Mining skill available with Now Assist for Creator.
 
-With Process Mining, you can identify the work notes and generate insights about inefficiencies, challenges, and other reasons that cause reassignment of work. To learn more about Process Mining, see [Now Assist for Process Mining](https://www.servicenow.com/docs/access?context=now-assist&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+With Process Mining, you can identify the work notes and generate insights about inefficiencies, challenges, and other reasons that cause reassignment of work. To learn more about Process Mining, see [Now Assist for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/now-assist.md).
 
 **Parent Topic:**[Using generative AI with Now Assist for Creator](using-gen-ai-now-assist-for-creator.md)
 

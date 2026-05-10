@@ -63,5 +63,5 @@ By using a compatibility rule, you can define the horizontal relationships betwe
 **Related topics**  
 
 
-[Manage work orders](https://www.servicenow.com/docs/access?context=c_ManageWorkOrders&version=australia&pubname=australia-field-service-management&ft:locale=en-US)
+[Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/c_ManageWorkOrders.md)
 

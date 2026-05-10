@@ -17,7 +17,7 @@ You can schedule on-demand jobs to be run at specific intervals of time to fetch
 
 Before you start the ERP integration, you must configure the integration services record for target ERP source using the sn\_fcms\_intg\_service table. The sn\_fcms\_intg\_service table is a mapping table between sub flows and target ERP source. For more information on creating a integration service record, see [Create Integration Service record](../task/create-integration-service-record.md).
 
-Scheduled jobs are configured for entities using scripts. Example: Fetch cost center from ERP systems. For more information on configuring scheduled jobs using scripts, see [Automatically run a script of your choosing](https://www.servicenow.com/docs/access?context=t_ScheduleAScriptExecution&version=australia&pubname=australia-platform-administration&ft:locale=en-US). The script invokes subflow which is associated with an entity as shown in the figure below. The subflow queries the active entities or ERP source configuration \(optional\) listed in the integration service table.
+Scheduled jobs are configured for entities using scripts. Example: Fetch cost center from ERP systems. For more information on configuring scheduled jobs using scripts, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ScheduleAScriptExecution.md). The script invokes subflow which is associated with an entity as shown in the figure below. The subflow queries the active entities or ERP source configuration \(optional\) listed in the integration service table.
 
 ![Scheduled script execution](../image/scheduled-script.png)
 

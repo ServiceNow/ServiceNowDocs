@@ -29,15 +29,15 @@ Role required: sn\_si.admin
 
     An example of a completed form follows the table.
 
-<table id="choicetable_k3k_1y3_hcc"><thead><tr><th align="left" id="d164867e99">
+<table id="choicetable_k3k_1y3_hcc"><thead><tr><th align="left" id="d165572e99">
 
 Field
 
-</th><th align="left" id="d164867e102">
+</th><th align="left" id="d165572e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d164867e108">
+</th></tr></thead><tbody><tr><td id="d165572e108">
 
 **Name**
 
@@ -45,7 +45,7 @@ Description
 
 Unique name for the profile. If names are not unique, an error will be displayed and duplicate profile names are not saved. Profile names in your ServiceNow AI Platform instance must be unique.
 
-</td></tr><tr><td id="d164867e122">
+</td></tr><tr><td id="d165572e122">
 
 **Active**
 
@@ -53,7 +53,7 @@ Unique name for the profile. If names are not unique, an error will be displayed
 
 heck box is cleared by default. If this option is disabled, the profile is not active and ingestion will not take place. **Note:** You should complete all sections in the profile before making it active.
 
-</td></tr><tr><td id="d164867e133">
+</td></tr><tr><td id="d165572e133">
 
 **ArcSight Source**
 
@@ -61,7 +61,7 @@ heck box is cleared by default. If this option is disabled, the profile is not a
 
 The ArcSight ESM server configured during the initial authentication step. If you have multiple ArcSight ESM servers configured, select the appropriate server for the correlation event types that will be ingested for the profile. You are required to select a value.
 
-</td></tr><tr><td id="d164867e148">
+</td></tr><tr><td id="d165572e148">
 
 **Query Viewer ID**
 
@@ -69,7 +69,7 @@ The ArcSight ESM server configured during the initial authentication step. If yo
 
 Enter the Resource ID of the configured Query Viewer in the ArcSight ESM Console. The Resource ID is a unique identifier for any Query Viewer configured in the ArcSight ESM server. Once the Resource ID is submitted, the name of the Query View will be returned to ensure that the right Query Viewer has been selected. See the section below for screen shot view of how to determine the Resource ID for the selected Query Viewer in ArcSight ESM.
 
-</td></tr><tr><td id="d164867e164">
+</td></tr><tr><td id="d165572e164">
 
 **Order**
 
@@ -77,7 +77,7 @@ Enter the Resource ID of the configured Query Viewer in the ArcSight ESM Console
 
 Default is 100. If you have created multiple profiles, this value provides a run time execution priority when two or more profiles share the same triggering conditions. The workflow in the profile with the lowest number has the highest priority.
 
-</td></tr><tr><td id="d164867e175">
+</td></tr><tr><td id="d165572e175">
 
 **\(Optional\) Description**
 

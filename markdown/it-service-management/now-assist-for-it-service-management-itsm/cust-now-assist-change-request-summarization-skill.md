@@ -152,15 +152,15 @@ Attachment added to the change request.
 
     Review and test the prompt for each input template configuration.
 
-<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d347426e436">
+<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d347843e436">
 
 To
 
-</th><th align="left" id="d347426e439">
+</th><th align="left" id="d347843e439">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d347426e445">
+</th></tr></thead><tbody><tr><td id="d347843e445">
 
 **Evaluate a prompt for each input template**
 
@@ -174,7 +174,7 @@ Do this
 2.  Select **Run Test**. ![Evaluate prompt output for the change request summarization skill](../image/now-assist-cust-prompt-change-summ-1.png)
 Review and test the prompt for each input template configuration and make sure it meets your expectations.The prompt response is shown. You can make changes to the change state selections and retest as needed.
 
-</td></tr><tr><td id="d347426e484">
+</td></tr><tr><td id="d347843e484">
 
 **Edit the prompt in the Now Assist Skill Kit and then test the prompt**
 
@@ -219,7 +219,7 @@ The prompt displays in the Test prompt screen.
 
         -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 

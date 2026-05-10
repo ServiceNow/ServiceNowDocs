@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-RCA privileges define cross-scope access to an application, an event, or an application resource. Application resources include access control roles, business rules, UI actions, and script includes. RCA privileges can also be used to allow or deny requests for access. Restricted caller access \[sys\_restricted\_caller\_access\] records track cross-scope applications or scripts that request access to an application, application resource, or event. For more information, see [Requested restricted caller access \(RCA\)](https://www.servicenow.com/docs/access?context=requested-rca&version=australia&pubname=australia-application-development&ft:locale=en-US).
+RCA privileges define cross-scope access to an application, an event, or an application resource. Application resources include access control roles, business rules, UI actions, and script includes. RCA privileges can also be used to allow or deny requests for access. Restricted caller access \[sys\_restricted\_caller\_access\] records track cross-scope applications or scripts that request access to an application, application resource, or event. For more information, see [Requested restricted caller access \(RCA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/requested-rca.md).
 
 ## Procedure
 

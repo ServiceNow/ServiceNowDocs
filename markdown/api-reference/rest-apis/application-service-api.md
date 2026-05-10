@@ -1156,7 +1156,7 @@ population\_method.entry\_point
 
 </td><td>
 
-Required if **population\_method.type** = discovery. Entry point into the application service. For additional information on entry points, see [Entry point attributes](https://www.servicenow.com/docs/access?context=r_EntryPointsforBizSvcDef&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) and [Create entry point types for Service Mapping](https://www.servicenow.com/docs/access?context=t_CreateEntryPoint&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).Data type: String
+Required if **population\_method.type** = discovery. Entry point into the application service. For additional information on entry points, see [Entry point attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_EntryPointsforBizSvcDef.md) and [Create entry point types for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreateEntryPoint.md).Data type: String
 
 </td></tr><tr><td>
 

@@ -47,7 +47,7 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **AI capabilities**
 
-    [Exploring Now Assist Admin](https://www.servicenow.com/docs/access?context=exploring-now-assist-platform&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+    [Exploring Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-platform.md)
 
     [Vibe coding and AI app development on the ServiceNow AI Platform](../../ai-capabilities/concept/use-ai-capabilities-in-custom-apps.md)
 
@@ -55,23 +55,23 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **Agentic workflows**
 
-    [Create an agentic workflow](https://www.servicenow.com/docs/access?context=configure-use-case-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+    [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md)
 
-    [Modify an agentic workflow](https://www.servicenow.com/docs/access?context=modify-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+    [Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aia-use-case.md)
 
 -   **AI Agents**
 
-    [Explore Now Assist AI agents](https://www.servicenow.com/docs/access?context=exploring-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+    [Explore Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md)
 
-    [Create an AI agent](https://www.servicenow.com/docs/access?context=configure-next-best-action-agent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+    [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md)
 
-    [Examples of using AI agents](https://www.servicenow.com/docs/access?context=ai-agent-examples&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+    [Examples of using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-examples.md)
 
 -   **Now Assist Skill Kit**
 
-    [Exploring Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=exploring-now-assist-skill-kit&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+    [Exploring Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/exploring-now-assist-skill-kit.md)
 
-    [Create a skill](https://www.servicenow.com/docs/access?context=create-new-skill&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+    [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-new-skill.md)
 
 
 **Parent Topic:**[Using ServiceNow Studio](using-servicenow-studio.md)

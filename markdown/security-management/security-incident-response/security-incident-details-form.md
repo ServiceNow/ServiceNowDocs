@@ -181,7 +181,7 @@ The functional impact of this security incident. For example, service downtime, 
 -   Medium
 -   High
 
-**Note:** This field isn’t available in the base system. To add this field, see [Accessing Form Builder](https://www.servicenow.com/docs/access?context=access-form-builder&version=australia&pubname=australia-application-development&ft:locale=en-US).
+**Note:** This field isn’t available in the base system. To add this field, see [Accessing Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/access-form-builder.md).
 
 </td></tr><tr><td>
 
@@ -194,7 +194,7 @@ How easily and quickly you can restore the normal operations and recover from th
 -   Extended
 -   Not Recoverable
 
-**Note:** This field isn’t available in the base system. To add this field, see [Accessing Form Builder](https://www.servicenow.com/docs/access?context=access-form-builder&version=australia&pubname=australia-application-development&ft:locale=en-US).
+**Note:** This field isn’t available in the base system. To add this field, see [Accessing Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/access-form-builder.md).
 
 </td></tr><tr><td>
 
@@ -206,7 +206,7 @@ The data impact of the security incident. You can select all the applicable:-   
 -   Proprietary Breach
 -   Integrity Loss
 
-**Note:** This field is not available in the base system. To add this field, see [Accessing Form Builder](https://www.servicenow.com/docs/access?context=access-form-builder&version=australia&pubname=australia-application-development&ft:locale=en-US).
+**Note:** This field is not available in the base system. To add this field, see [Accessing Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/access-form-builder.md).
 
 </td></tr><tr><td>
 

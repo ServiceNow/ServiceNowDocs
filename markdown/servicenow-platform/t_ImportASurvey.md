@@ -17,7 +17,7 @@ You can import a survey that has been exported as an XML file. The exported XML 
 
 Role required: admin or survey\_admin
 
-**Note:** Update sets are available in the Helsinki release and should be used to move data from one instance to another. For information about update sets, see [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US).
+**Note:** Update sets are available in the Helsinki release and should be used to move data from one instance to another. For information about update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md).
 
 ## About this task
 
@@ -25,7 +25,7 @@ Role required: admin or survey\_admin
 
 1.  Verify that the target instance has assessments enabled.
 
-2.  Follow the steps in [Import data from XML](https://www.servicenow.com/docs/access?context=import-xml-file&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to import the assessment.
+2.  Follow the steps in [Import data from XML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/import-xml-file.md) to import the assessment.
 
 
 **Parent Topic:**[Sharing surveys](../concept/c_SurveyInportAndExport.md)

@@ -164,7 +164,7 @@ When creating an application menu, consider grouping like modules into a consoli
     |Order|Defines the relative position of the application menu in the application navigator. If you do not specify an order, the default order of the menu category is used.|
     |Default device type|This field is not used. You can define application menus for mobile devices in a separate table.|
 
-    **Note:** You may need to [configure the form](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to see all fields.
+    **Note:** You may need to [configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) to see all fields.
 
 4.  Click **Submit**.
 
@@ -316,7 +316,7 @@ Assessment
 
 </td><td>
 
-Links to the assessment-based survey you select in the **Assessment** reference field. See [Create a survey module](https://www.servicenow.com/docs/access?context=t_CreatingASurveyModule&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Links to the assessment-based survey you select in the **Assessment** reference field. See [Create a survey module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreatingASurveyModule.md).
 
 </td></tr><tr><td>
 
@@ -324,7 +324,7 @@ Content Page
 
 </td><td>
 
-Displays the content page you select in the **Content page** reference field. See [Create a content page](https://www.servicenow.com/docs/access?context=t_CreateAContentPage&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Displays the content page you select in the **Content page** reference field. See [Create a content page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateAContentPage.md).
 
 </td></tr><tr><td>
 
@@ -359,7 +359,7 @@ List Filter
 
 </td><td>
 
-Displays an unpopulated list view for the table you select in the **Table** field. Allows users to specify a filter without loading the list first. Use the **Filter** field to define the default filter for the list. Use the **View name** field to specify a [View management](https://www.servicenow.com/docs/access?context=view-management-overview&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Displays an unpopulated list view for the table you select in the **Table** field. Allows users to specify a filter without loading the list first. Use the **Filter** field to define the default filter for the list. Use the **View name** field to specify a [View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-management-overview.md).
 
 </td></tr><tr><td>
 
@@ -384,7 +384,7 @@ New Record
 </td><td>
 
 Displays a form for creating a record in the table you select in the **Table** field.-   Use the **View name** field to specify a view.
--   Use the **Arguments** field to apply a template. See [Create a module for a template](https://www.servicenow.com/docs/access?context=t_CreateAModuleForATemplate&version=australia&pubname=australia-platform-administration&ft:locale=en-US) .
+-   Use the **Arguments** field to apply a template. See [Create a module for a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAModuleForATemplate.md) .
 
 </td></tr><tr><td>
 
@@ -442,7 +442,7 @@ Timeline Page
 
 </td><td>
 
-Displays the timeline page you select in the **Timeline Page** reference field. See [Timeline pages](https://www.servicenow.com/docs/access?context=c_TimelinePages&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Displays the timeline page you select in the **Timeline Page** reference field. See [Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_TimelinePages.md).
 
 </td></tr><tr><td>
 

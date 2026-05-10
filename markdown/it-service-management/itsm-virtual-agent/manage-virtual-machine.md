@@ -27,7 +27,7 @@ There are two categories of virtual machine management topics:
     -   Stop a Virtual Machine CAI
     -   Terminate a Virtual Machine CAI
     -   Describe a Virtual Machine CAI
--   **Topics that use the [Cloud Provisioning and Governance plugin](https://www.servicenow.com/docs/access?context=request-plugin-cloud-mgt&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) \(com.snc.cloud.mgmt\)**
+-   **Topics that use the [Cloud Provisioning and Governance plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/request-plugin-cloud-mgt.md) \(com.snc.cloud.mgmt\)**
 
     The following topics integrate with Cloud Provisioning and Governance \(required\):
 
@@ -55,7 +55,7 @@ This topic calls the appropriate topic block \(describe, start, stop, and termin
 
 This topic calls the appropriate topic block \(describe, start, stop, and terminate\) to complete an end-to-end fulfillment of the request. This pre-built topic is read-only. Duplicate the topic in the Virtual Machine Management for Virtual Agent scope and activate it to use the conversation flow.
 
-Requirement: [Cloud Provisioning and Governance plugin](https://www.servicenow.com/docs/access?context=request-plugin-cloud-mgt&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) \(com.snc.cloud.mgmt\)
+Requirement: [Cloud Provisioning and Governance plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/request-plugin-cloud-mgt.md) \(com.snc.cloud.mgmt\)
 
 This topic uses the following [topic blocks](itsm-va-topic-blocks.md):
 
@@ -68,13 +68,13 @@ This topic uses the following [topic blocks](itsm-va-topic-blocks.md):
 
 Users can request a new VM in a Virtual Agent conversation. Virtual Agent sends a link to the Cloud User Portal to submit the catalog item.
 
-Requirement: [Cloud Provisioning and Governance plugin](https://www.servicenow.com/docs/access?context=request-plugin-cloud-mgt&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) \(com.snc.cloud.mgmt\)
+Requirement: [Cloud Provisioning and Governance plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/request-plugin-cloud-mgt.md) \(com.snc.cloud.mgmt\)
 
 Basic flow:
 
 1.  User requests a virtual machine.
 2.  Virtual Agent does one of the following:
-    -   Provides a link to the [Cloud User Portal](https://www.servicenow.com/docs/access?context=cloudmgt-cloud-user-portal&version=australia&pubname=australia-it-operations-management&ft:locale=en-US), along with instructions for requesting a VM from the catalog.
+    -   Provides a link to the [Cloud User Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-cloud-user-portal.md), along with instructions for requesting a VM from the catalog.
     -   Displays items in the VM catalog that are assigned to the user.
 
         If the user can't find the desired catalog item, the user can either go directly to the Cloud User Portal or end the conversation.

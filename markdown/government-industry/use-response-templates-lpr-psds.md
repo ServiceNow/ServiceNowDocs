@@ -30,7 +30,7 @@ In License and Permit Playbook,Response Templates replace the static text with d
 -   Address Information
 -   Assigned to
 
-For information on how to create response templates, see [Create or modify a response template](https://www.servicenow.com/docs/access?context=create-modify-templated-snippet&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For information on how to create response templates, see [Create or modify a response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-modify-templated-snippet.md).
 
 ## Procedure
 

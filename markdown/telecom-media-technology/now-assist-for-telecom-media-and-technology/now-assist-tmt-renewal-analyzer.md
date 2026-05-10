@@ -28,7 +28,7 @@ Customer success managers can use the Support renewals and expansion agentic wor
 -   Generate renewal likelihood assessments and expansion potential at the engagement and contract level.
 -   Receive up to three recommended actions, each with a specific play type, target product, priority, and reasoning.
 
-**Note:** The Support renewals and expansion agentic workflow is available in read-only mode. Before using the workflow, you must make a copy and adjust the settings according to your requirements. See [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for details.
+**Note:** The Support renewals and expansion agentic workflow is available in read-only mode. Before using the workflow, you must make a copy and adjust the settings according to your requirements. See [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md) for details.
 
 ## Configure the Support renewals and expansion agentic workflow
 
@@ -48,7 +48,7 @@ Before you use the agentic workflow, you must do the following:
 -   Engagement: Source table must be set to Sold Products and the context table must be set to Engagement.
 -   Contract: Source table must be set to Sold Products and the context table must be set to Contract.
 
-For more details on configuring the data sources, see [Set up the Data Context Engine](https://www.servicenow.com/docs/access?context=account-lifecycle-setup-dce&version=australia&pubname=australia-acct-lifecycle-events&ft:locale=en-US).
+For more details on configuring the data sources, see [Set up the Data Context Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-dce.md).
 
 ## Support renewals and expansion agentic workflow
 
@@ -62,7 +62,7 @@ For more details on configuring the data sources, see [Set up the Data Context E
     -   Generic Prompt Vertex AI \(Google Cloud Chat Completion\)
     -   Generic Prompt \(Amazon Bedrock Chat Completions\)
 
-When a contract is due to expire in 90 days, the customer success manager receives a notification and the Support renewals and expansion workflow is automatically triggered. The customer success manager can monitor the progress in the [Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) and select one of the following scans:
+When a contract is due to expire in 90 days, the customer success manager receives a notification and the Support renewals and expansion workflow is automatically triggered. The customer success manager can monitor the progress in the [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md) and select one of the following scans:
 
 -   Value
 -   Health
@@ -90,7 +90,7 @@ To access the use case testing page:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Testing**.
 2.  On the Overview page, select **Support renewals and expansion**.
 
-To test the use case, see [Manually test the execution of an agentic workflow](https://www.servicenow.com/docs/access?context=test-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+To test the use case, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md).
 
 ![Renewal analysis workflow](../image/renewal-analysis.png)
 

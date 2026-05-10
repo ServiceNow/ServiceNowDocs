@@ -40,7 +40,7 @@ Contextual search uses terms and concepts that can differ from industry norms du
     -   ServiceNow provides pre-defined additional resources. You can't create or delete additional resources, but can update additional resources to better match your organization requirements. For example, you can update the condition and description for Resolved Incidents \(Last 6 months\) to change it to Resolved Incidents \(Last 3 months\).
     -   An additional resource performs the search based on the type of the source:
         -   Table: The [Zing search engine](../../search-administration/reference/features-search-administration.md) to used to search a table.
-        -   [Predictive Intelligence similarity](https://www.servicenow.com/docs/access?context=create-similarity-solution&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US): Search is based on similarity and not on the Zing search engine.
+        -   [Predictive Intelligence similarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md): Search is based on similarity and not on the Zing search engine.
 -   **[Search result display fields](../task/edit-addi-resources-field.md)**
 
     Defines the fields whose values are displayed with the search result of an additional resource. The fields can include **Assigned to**, **Opened by**, and **State**. The search result display fields appear at the bottom of a search result record.

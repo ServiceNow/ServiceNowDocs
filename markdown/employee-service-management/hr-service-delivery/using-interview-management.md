@@ -25,7 +25,7 @@ Scheduling an interview: There are two \(2\) methods you can use to schedule an 
 
 -   Use Microsoft Outlook Calendar to schedule an interview.
 
-    -   To use this feature, you must integrate with Microsoft Exchange. Ensure the **sn\_hr\_er.ex\_online\_notification\_url** system property contains the Callback URL in the **Value** field. For more information, see [Set up Microsoft Exchange Online spoke](https://www.servicenow.com/docs/access?context=setup-ms-exch-ol&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    -   To use this feature, you must integrate with Microsoft Exchange. Ensure the **sn\_hr\_er.ex\_online\_notification\_url** system property contains the Callback URL in the **Value** field. For more information, see [Set up Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-ms-exch-ol.md).
     -   The **sn\_hr\_er.exchange\_online\_max\_candidate** system property determines the maximum number of meeting time slots to return when trying to schedule an interview using Microsoft Exchange. The default value is 500 slots.
     **Note:** You can use the manual method of scheduling in HR Service Delivery Agent Workspace. For more information, see [Schedule an interview in Employee Relations using the legacy UI](../task/hr-er-interview.md) or [Schedule an interview in Employee Relations using Agent Workspace for HR Case Management](../task/hr-er-interview-ws.md).
 

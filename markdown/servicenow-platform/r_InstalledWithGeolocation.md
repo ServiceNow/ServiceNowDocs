@@ -89,7 +89,7 @@ Populates the **Latitude** and **Longitude** fields on a user record with GPS co
 
 Geolocation provides the following configurable properties in **Geolocation** &gt; **Administration** &gt; **Geolocation Properties**.
 
-The Google Maps plugin provides additional [map properties](https://www.servicenow.com/docs/access?context=set-up-google-maps-api&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) that are used to implement and control specific geolocation features. You must have a [private key](r_GeolocationGoogleKey.md) for Google Maps API for Business to take advantage of the properties listed here.
+The Google Maps plugin provides additional [map properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-google-maps-api.md) that are used to implement and control specific geolocation features. You must have a [private key](r_GeolocationGoogleKey.md) for Google Maps API for Business to take advantage of the properties listed here.
 
 <table id="table_n35_gbp_pp"><thead><tr><th>
 

@@ -69,7 +69,7 @@ The breakdown source uses the following records from the Choice table:
 
 8.  Define **RELATED LIST CONDITIONS** to include a relationship with another table in the filter.
 
-    For more information, see [Add related list conditions](https://www.servicenow.com/docs/access?context=create-related-list-query&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information, see [Add related list conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-related-list-query.md).
 
     For example, consider a breakdown source for Configuration Item \(CI\) Managers. The facts table is User \[sys\_user\], but the only condition you can apply from this table is to filter for active users. No field on the table lets you select only users who are CI Managers. You get hundreds of results.
 

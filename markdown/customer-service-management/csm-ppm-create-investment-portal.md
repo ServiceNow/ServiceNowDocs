@@ -25,7 +25,7 @@ Role required: customer project manager \(it\_project\_manager + sn\_customerser
 
 3.  Fill in the fields on the Create New pop-up window.
 
-    For more information about these fields, see [Create an investment board](https://www.servicenow.com/docs/access?context=create-an-investment-report&version=australia&pubname=australia-it-business-management&ft:locale=en-US).
+    For more information about these fields, see [Create an investment board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/create-an-investment-report.md).
 
 4.  Click **Create**.
 

@@ -27,7 +27,7 @@ Role required: user\_admin
 
 3.  On the form, fill in the fields.
 
-    Some fields appear after personalizing the form. [Personalize a form](https://www.servicenow.com/docs/access?context=t_PersonalizeAForm&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    Some fields appear after personalizing the form. [Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_PersonalizeAForm.md).
 
 <table id="table_flh_qwv_sbb"><thead><tr><th>
 
@@ -59,7 +59,7 @@ Type
 
 </td><td>
 
-Category for this group. For example, a group designated as type **catalog** is a service catalog group and can also be accessed under the **Service Catalog** &gt; **Catalog Policy** &gt; **Fulfillment Groups** module. See [Configure assignment group types](../concept/c_ConfigGroupTypesForAssignGroups.md#) for more information.You may need to [Personalize a form](https://www.servicenow.com/docs/access?context=t_PersonalizeAForm&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to add the **Type** field. Activating the Work Management plugin adds the **Type** field automatically.
+Category for this group. For example, a group designated as type **catalog** is a service catalog group and can also be accessed under the **Service Catalog** &gt; **Catalog Policy** &gt; **Fulfillment Groups** module. See [Configure assignment group types](../concept/c_ConfigGroupTypesForAssignGroups.md#) for more information.You may need to [Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_PersonalizeAForm.md) to add the **Type** field. Activating the Work Management plugin adds the **Type** field automatically.
 
 **Note:** ITIL is added for groups with an empty group type. Also, the default reference qualifier for tasks enables these groups to assign tasks and other task types to the group.
 
@@ -104,7 +104,7 @@ Include members
 
 </td><td>
 
-Check box that controls whether the group members receive individual emails when someone sends an email to the **Group Email** address. The only exception to this functionality is for approval notifications, whereby all members of a group receive an approval notification, regardless of the **Include members** selection. See [Receive notifications](https://www.servicenow.com/docs/access?context=c_ReceiveNotifications&version=australia&pubname=australia-build-workflows&ft:locale=en-US) for more information.
+Check box that controls whether the group members receive individual emails when someone sends an email to the **Group Email** address. The only exception to this functionality is for approval notifications, whereby all members of a group receive an approval notification, regardless of the **Include members** selection. See [Receive notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/c_ReceiveNotifications.md) for more information.
 
 </td></tr><tr><td>
 
@@ -134,7 +134,7 @@ Helpful information about the group.
         }
         ```
 
-        **Note:** For more information, see [Before Query business rules](https://www.servicenow.com/docs/access?context=bp-before-query-business-rules&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+        **Note:** For more information, see [Before Query business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-before-query-business-rules.md).
 
 
 ## Result

@@ -69,7 +69,7 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **![](../../../reuse/icons/dcx-icons/dcx-icon-docs.svg) Release Notes**
 
-    Learn more about what's new and changed. See the [Contract Management Pro release notes](https://www.servicenow.com/docs/access?context=cmpro-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US).
+    Learn more about what's new and changed. See the [Contract Management Pro release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/cmpro-rn.md).
 
 -   **![](../../../reuse/icons/dcx-icons/dcx-icon-community.svg)ServiceNow Community**
 

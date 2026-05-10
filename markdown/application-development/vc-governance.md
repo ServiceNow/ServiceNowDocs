@@ -62,12 +62,12 @@ ServiceNow embeds security and governance directly into the vibe coding and AI-a
 |Tool|Description|More information|
 |----|-----------|----------------|
 |App Engine Management Center|Governance hub for approvals and monitoring.|[App Engine Management Center](../../app-engine-management-center/concept/app-engine-management-center.md)|
-|AI Control Tower|Monitors AI agent behavior, enforces guardrails, tracks AI-generated code changes, and provides dashboards showing which apps were created by Build Agent, what data they access, and how they comply with organizational policies.|[AI Control Tower](https://www.servicenow.com/docs/access?context=ai-control-tower-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)|
-|ServiceNow Vault|Discovers and protects sensitive data across workflows, so AI-generated apps handle confidential information appropriately.|[ServiceNow Vault](https://www.servicenow.com/docs/access?context=servicenow-vault-landing&version=australia&pubname=australia-platform-security&ft:locale=en-US)|
+|AI Control Tower|Monitors AI agent behavior, enforces guardrails, tracks AI-generated code changes, and provides dashboards showing which apps were created by Build Agent, what data they access, and how they comply with organizational policies.|[AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md)|
+|ServiceNow Vault|Discovers and protects sensitive data across workflows, so AI-generated apps handle confidential information appropriately.|[ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-vault-landing.md)|
 |ReleaseOps Toolkit|Update set automation and metadata pipelines.|[ReleaseOps](../../release-ops/concept/releaseops-landing.md)|
 |Automated Test Framework|Automated testing for ServiceNow apps.|[Automated Test Framework \(ATF\)](../../../administer/auto-test-framework/concept/atf-landing-page.md)|
 |Developer Sandboxes|Develop in a secure, isolated Developer Sandboxes environment.|[Developer Sandboxes](../../developer-sandboxes/concept/sandboxes-landing.md)|
-|Knowledge Base articles|Data handling and AI usage guidelines.|[Knowledge Management](https://www.servicenow.com/docs/access?context=knowledge-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|
+|Knowledge Base articles|Data handling and AI usage guidelines.|[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management.md)|
 
 ## Governance general guidelines
 

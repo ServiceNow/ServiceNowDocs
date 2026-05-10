@@ -26,7 +26,7 @@ Note the following requirements to be able to send and receive SMS notifications
 -   The Notify plug-in and the Notify-Twilio Direct driver must be enabled.
 -   The Label for your number in **Notify** &gt; **Messages** must be set to **Outreach**.
 
-For more information on configuring Notify and the Notify-Twilio Direct driver, see [Notify](https://www.servicenow.com/docs/access?context=notify-landing-page&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information on configuring Notify and the Notify-Twilio Direct driver, see [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-landing-page.md).
 
 Role required: sn\_imt\_checkin.checkin\_admin or admin
 
@@ -42,15 +42,15 @@ Role required: sn\_imt\_checkin.checkin\_admin or admin
 
 4.  On the **When to run** tab, specify when the outreach should be sent.
 
-<table id="eo-table-when-to-run"><thead><tr><th align="left" id="d187747e166">
+<table id="eo-table-when-to-run"><thead><tr><th align="left" id="d188912e166">
 
 Option
 
-</th><th align="left" id="d187747e169">
+</th><th align="left" id="d188912e169">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d187747e175">
+</th></tr></thead><tbody><tr><td id="d188912e175">
 
 **To send the notification on demand**
 
@@ -58,7 +58,7 @@ Action
 
 Keep the default **Mode** value of **None**. The outreach is sent when you select **Send Notification**.
 
-</td></tr><tr><td id="d187747e193">
+</td></tr><tr><td id="d188912e193">
 
 **To schedule the notification**
 
@@ -83,15 +83,15 @@ The outreach messages reference a send time based on the time zone of the user s
 
 5.  Identify who will receive the outreach notification through either the Emergency Outreach or Safe Workplace application.
 
-<table id="choicetable_mxq_4sk_jmb"><thead><tr><th align="left" id="d187747e300">
+<table id="choicetable_mxq_4sk_jmb"><thead><tr><th align="left" id="d188912e300">
 
 App
 
-</th><th align="left" id="d187747e303">
+</th><th align="left" id="d188912e303">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d187747e309">
+</th></tr></thead><tbody><tr><td id="d188912e309">
 
 **Emergency Outreach standalone**
 
@@ -99,7 +99,7 @@ Action
 
 On the Select targeted audience tab, select the combination of users to send the outreach notification to. Choose from user lists, groups, departments, locations, or other search filters such as building, cost center, or country code.
 
-</td></tr><tr><td id="d187747e324">
+</td></tr><tr><td id="d188912e324">
 
 **Safe Workplace**
 
@@ -116,15 +116,15 @@ On the Safe Workplace **Audience** tab, select the name of the audience to send 
 
 8.  On the **Content configuration** tab, specify how to send the outreach notification.
 
-<table id="choicetable_frh_152_jmb"><thead><tr><th align="left" id="d187747e381">
+<table id="choicetable_frh_152_jmb"><thead><tr><th align="left" id="d188912e381">
 
 Option
 
-</th><th align="left" id="d187747e384">
+</th><th align="left" id="d188912e384">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d187747e390">
+</th></tr></thead><tbody><tr><td id="d188912e390">
 
 **Disable the email notification**
 
@@ -132,7 +132,7 @@ Action
 
 Clear the **Email** check box.
 
-</td></tr><tr><td id="d187747e402">
+</td></tr><tr><td id="d188912e402">
 
 **Select a different notification**
 
@@ -140,7 +140,7 @@ Clear the **Email** check box.
 
 Click the lookup icon \(![Click icon to look up a notification](../../contact-tracing/image/icon-lookup.png)\) and select **Daily Health Verification**.
 
-</td></tr><tr><td id="d187747e421">
+</td></tr><tr><td id="d188912e421">
 
 **Review and edit the introductory message**
 
@@ -148,7 +148,7 @@ Click the lookup icon \(![Click icon to look up a notification](../../contact-tr
 
 Modify the subject and body. The notification includes the link to the daily health verification form that the user can submit in the instance or mobile app.
 
-</td></tr><tr><td id="d187747e433">
+</td></tr><tr><td id="d188912e433">
 
 **Send a mobile push notification**
 
@@ -161,7 +161,7 @@ The check box is active if the ServiceNow NowMobile App Screens and Applet Launc
 2.  Modify the push message text as desired.
  Push notifications use the ServiceNow Request Application notification device. When mobile application is registered to an instance, this notification device is automatically created in the user's notification preferences. Ensure that this device is active for the users that you want to receive the push notification.
 
-</td></tr><tr><td id="d187747e463">
+</td></tr><tr><td id="d188912e463">
 
 **Send an SMS notification**
 
@@ -177,7 +177,7 @@ The check box is active if the ServiceNow NowMobile App Screens and Applet Launc
 
  SMS reply options are dynamically populated from the Response Options table \[sn\_imt\_checkin\_response\_option\].
 
-</td></tr><tr><td id="d187747e504">
+</td></tr><tr><td id="d188912e504">
 
 **Use a custom notification channel**
 

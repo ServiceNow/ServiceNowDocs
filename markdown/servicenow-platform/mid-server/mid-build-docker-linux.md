@@ -240,7 +240,7 @@ Role required: Docker Swarm admin
 
 ### About this task
 
-If [certificate based authentication](https://www.servicenow.com/docs/access?context=set-up-mutual-auth&version=australia&pubname=australia-platform-security&ft:locale=en-US) is enabled on the instance, the MID Server can be configured to [auto-validate using a mutual authentication client certificate](install-mid-mutual-auth.md) \(PEM file\). This can be done via setting the full path to the PEM certificate file inside container with the *MID\_MUTUAL\_AUTH\_PEM\_FILE* environment variable. For example, you can update variable to *MID\_MUTUAL\_AUTH\_PEM\_FILE= /run/secrets/certificate.pem* in the `mid.env` file.
+If [certificate based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md) is enabled on the instance, the MID Server can be configured to [auto-validate using a mutual authentication client certificate](install-mid-mutual-auth.md) \(PEM file\). This can be done via setting the full path to the PEM certificate file inside container with the *MID\_MUTUAL\_AUTH\_PEM\_FILE* environment variable. For example, you can update variable to *MID\_MUTUAL\_AUTH\_PEM\_FILE= /run/secrets/certificate.pem* in the `mid.env` file.
 
 You can pass the PEM certificate file into a container using Docker or Kubernetes secret. The following is an example command to pass the PEM certificate file into a container: `docker service create --name mid-service --secret mid-secrets.properties --secret <certificate-secret-name> --env-file mid.env <docker-tag or image-id>`
 
@@ -352,7 +352,7 @@ Role required: Kubernetest admin
 
 Prerequisites:
 
-If [certificate based authentication](https://www.servicenow.com/docs/access?context=set-up-mutual-auth&version=australia&pubname=australia-platform-security&ft:locale=en-US) is enabled on the instance, the MID Server can be configured to [auto-validate using a mutual authentication client certificate](install-mid-mutual-auth.md) \(PEM file\). This can be done via setting the full path to the PEM certificate file inside container with the *MID\_MUTUAL\_AUTH\_PEM\_FILE* environment variable. You can pass the PEM certificate file into a container using Kubernetes secret.
+If [certificate based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md) is enabled on the instance, the MID Server can be configured to [auto-validate using a mutual authentication client certificate](install-mid-mutual-auth.md) \(PEM file\). This can be done via setting the full path to the PEM certificate file inside container with the *MID\_MUTUAL\_AUTH\_PEM\_FILE* environment variable. You can pass the PEM certificate file into a container using Kubernetes secret.
 
 The mutual PEM certificate is installed on the MID Server during initialization. MID Server then connects to the instance and auto-validates. When the MID Server connects to the instance with mutual authentication successfully enabled, you might observe some of the following entries in the MID agent log:
 

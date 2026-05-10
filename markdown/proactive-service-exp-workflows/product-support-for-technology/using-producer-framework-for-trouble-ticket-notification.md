@@ -150,11 +150,11 @@ When the system pushes an event to the staging table, the following steps take p
 1.  The scheduler picks a number of records at a preconfigured interval and then sends Glide snapshots to the event processor.
 2.  The system converts the Glide snapshot to a TMF 688 complaint event payload based on the event type.
 
-    To learn more about the methods used to define and generate the TMF-compliant payloads for trouble ticket events, see [TopicAPIUtilsOOB - Scoped](https://www.servicenow.com/docs/access?context=TopicAPIUtilsOOBAPIScoped&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    To learn more about the methods used to define and generate the TMF-compliant payloads for trouble ticket events, see [TopicAPIUtilsOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TopicAPIUtilsOOBAPIScoped.md).
 
 3.  The system checks whether the notification configuration is intended for Hermes Kafka or the open message bus.
 
-    To learn more about configuring the producer event notification framework, see [Producer Event Notification Framework developer guide](https://www.servicenow.com/docs/access?context=prod_evt_not-dev_guide-overview&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    To learn more about configuring the producer event notification framework, see [Producer Event Notification Framework developer guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/prod_evt_not-dev_guide-overview.md).
 
 
 **Related topics**  

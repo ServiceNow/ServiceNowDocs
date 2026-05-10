@@ -107,7 +107,7 @@ Count
 
 </td><td>
 
-Maximum number of retry attempts. This field applies only to **Exponential Backoff** and **Fixed Interval** retry strategies. If no value is specified, the maximum number of retry attempts is based on the value provided in the **glide.fdih.retry.max\_count** system property. Default value of the **glide.fdih.retry.max\_count** system property is 0. For more information about system properties, see [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Maximum number of retry attempts. This field applies only to **Exponential Backoff** and **Fixed Interval** retry strategies. If no value is specified, the maximum number of retry attempts is based on the value provided in the **glide.fdih.retry.max\_count** system property. Default value of the **glide.fdih.retry.max\_count** system property is 0. For more information about system properties, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 </td></tr><tr><td>
 
@@ -120,7 +120,7 @@ Maximum cumulative time in seconds after which the retry attempts are stopped. T
 </td></tr></tbody>
 </table>3.  Create a global system property with the following attributes.
 
-    For more information on how to create a property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US). You can use this system property to specify the maximum time in seconds for a retry policy.
+    For more information on how to create a property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md). You can use this system property to specify the maximum time in seconds for a retry policy.
 
     |Field|Value|
     |-----|-----|
@@ -144,11 +144,11 @@ When the condition is met, retry attempts are made for a maximum number of three
 
 ### What to do next
 
--   [Create a Connection &amp; Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US), if you do not have the required alias.
+-   [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md), if you do not have the required alias.
 -   Assign the retry policy as **Default Retry Policy** to the required Connection &amp; Credential alias.
 
     **Note:** A default retry policy is provided and is selected as **Default Retry Policy**. If you have created retry policies, you can select the required policy as **Default Retry Policy**.
 
--   Create an HTTP\(s\) Connection in the Connections related list for the Connection &amp; Credential alias. For more information, see [Connections and Credentials](https://www.servicenow.com/docs/access?context=r-credentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   Create an HTTP\(s\) Connection in the Connections related list for the Connection &amp; Credential alias. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md).
 -   Verify and view the details of the retry attempts by navigating to **System Logs** &gt; **Outbound HTTP Requests**.
 

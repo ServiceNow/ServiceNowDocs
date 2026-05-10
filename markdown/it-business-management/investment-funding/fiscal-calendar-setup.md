@@ -19,9 +19,9 @@ Based on the fiscal calendar setup, you can then set the [funding frequency](../
 
 **Note:** Once you allocate or request funds for investments for a fiscal period, you cannot change to another fiscal calendar type.
 
-For information about fiscal calendars, see [Defining fiscal calendars](https://www.servicenow.com/docs/access?context=c_FiscalCalendar&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For information about fiscal calendars, see [Defining fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_FiscalCalendar.md).
 
-For information about how to generate a fiscal calendar, see [Generate a fiscal calendar](https://www.servicenow.com/docs/access?context=t_GenerateFiscalCalendar&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For information about how to generate a fiscal calendar, see [Generate a fiscal calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_GenerateFiscalCalendar.md).
 
 **Parent Topic:**[Investment Funding administration](investment-funding-administration.md)
 

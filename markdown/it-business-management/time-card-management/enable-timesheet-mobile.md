@@ -25,14 +25,14 @@ Role required: admin
 
 2.  Download the Now mobile application on an iOS platform from the Apple App Store or on an Android platform from the Google Play Store.
 
-    For more information on using this mobile app, see the [Now Mobile app](https://www.servicenow.com/docs/access?context=mobile-employee-experience&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) topic.
+    For more information on using this mobile app, see the [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) topic.
 
 3.  Add the instance that has Mobile Time Sheets installed to the Now Mobile application and log in to access the application data on your mobile device.
 
 
 ## What to do next
 
-[Log in to an instance with a mobile app](https://www.servicenow.com/docs/access?context=login-end-user&version=australia&pubname=australia-mobile&ft:locale=en-US).
+[Log in to an instance with a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/login-end-user.md).
 
 **Parent Topic:**[Install Mobile Time Sheets](install-timesheet-mobile.md)
 

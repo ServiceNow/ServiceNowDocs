@@ -167,7 +167,7 @@ None
 </td></tr></tbody>
 </table>**Note:**
 
--   The SG-Tanium Usage data source is available only when the Software Asset Management Professional plugin \(com.snc.samp\) plugin is activated on your ServiceNow instance. See [Request Software Asset Management](https://www.servicenow.com/docs/access?context=t_RequSoftwareAssetMgmt&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).
+-   The SG-Tanium Usage data source is available only when the Software Asset Management Professional plugin \(com.snc.samp\) plugin is activated on your ServiceNow instance. See [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md).
 -   The SG-Tanium Remove Software data source creates import sets and uses the transform map-based method for removing any target records for software data that weren't updated in the last delta query check. See [Managing CMDB data deletion](cmdb-integ-record-removal.md).
 -   Starting with the Service Graph Connector for Tanium 1.8.0 release, a buffer time is added for software removal when the **buffer\_days\_from\_last\_scan\_for\_hardware** system property is enabled. When this system property is enabled, the software removal candidate is removed only if the last scan time of the hardware on which the software removal candidate is installed is earlier than the last success import time + buffer time. To enable this property, set the value of the **buffer\_days\_from\_last\_scan\_for\_hardware** system property to a non-zero numeral value according to the number of days of buffer that you require. To disable this property, set the value to `0`.
 

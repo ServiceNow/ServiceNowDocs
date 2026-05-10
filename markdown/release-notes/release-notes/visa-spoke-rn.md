@@ -17,13 +17,13 @@ The ServiceNow® Visa Spoke application enables the ServiceNow AI Platform to co
 -   Use updated Visa Spoke APIs to help prevent storage or transmission of Payment Card Industry \(PCI\) data within ServiceNow.
 -   Apply Visa Resolve Online \(VROL\) release 26.1 revision changes to some Visa Spoke actions.
 
-See [Visa Spoke](https://www.servicenow.com/docs/access?context=visa-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for more information.
+See [Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/visa-spoke.md) for more information.
 
 **Important:** Visa Spoke is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Changed in this release
 
--   **[Card data security updates](https://www.servicenow.com/docs/access?context=visa-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **[Card data security updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/visa-spoke.md)**
 
     The following spoke actions have been updated to support integration with the Card data security application:
 
@@ -31,7 +31,7 @@ See [Visa Spoke](https://www.servicenow.com/docs/access?context=visa-spoke&versi
     -   Look up Image
     -   Look up Report Output
     -   Download and Attach Image
--   **[VROL release 26.1 updates](https://www.servicenow.com/docs/access?context=visa-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **[VROL release 26.1 updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/visa-spoke.md)**
 
     Updated the following Visa Spoke actions to align with VROL release 26.1 revision changes. These changes support dispute agents and admins in processing disputes accurately:
 
@@ -66,15 +66,15 @@ Install Visa Spoke by requesting it from the ServiceNow Store. Visit the [Servic
 
 ## Related ServiceNow applications and features
 
--   **[Integration Hub](https://www.servicenow.com/docs/access?context=integrationhub&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **[Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md)**
 
     Automate integration tasks by using ServiceNow components for ServiceNow® Workflow Studio, or develop custom integrations.
 
--   **[Integration Hub spokes](https://www.servicenow.com/docs/access?context=spokes-list&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **[Integration Hub spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/spokes-list.md)**
 
     Activate spokes to enhance your Workflow Studio experience with integration-specific content. Use prebuilt flows and actions to automate your integrations or create your own integration automation.
 
--   **[Integrating with spokes](https://www.servicenow.com/docs/access?context=spokes&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
+-   **[Integrating with spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/spokes.md)**
 
     Integrate spokes with ServiceNow® Financial Services Operations \(FSO\) applications to enable flow designers to provide specific actions within Workflow Studio for those applications.
 

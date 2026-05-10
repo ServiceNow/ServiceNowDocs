@@ -34,7 +34,7 @@ Role required: admin
         **Important:**
 
         -   This configuration must contain the credentials of the user who is logged in and has the admin role.
-        -   Only after you create the basic authentication configuration, create an update set to record any changes that are made to Service Operations Workspace for ITSM in your non-production instance during the migration. See [Create and select an update set as the current set](https://www.servicenow.com/docs/access?context=create-select-update-set&version=australia&pubname=australia-application-development&ft:locale=en-US).
+        -   Only after you create the basic authentication configuration, create an update set to record any changes that are made to Service Operations Workspace for ITSM in your non-production instance during the migration. See [Create and select an update set as the current set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/create-select-update-set.md).
     2.  From the **Select a basic auth configuration** drop-down, select the required configuration.
 
     3.  Select **Test the configuration**.

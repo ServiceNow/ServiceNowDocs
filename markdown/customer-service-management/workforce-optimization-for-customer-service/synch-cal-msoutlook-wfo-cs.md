@@ -15,7 +15,7 @@ breadcrumb: [Configure, Workforce Optimization for Customer Service, Customer Se
 
 Managers and agents can synchronize their calendars and events with Microsoft Outlook.
 
-As a user with admin role, you can enable this feature by installing Microsoft Exchange Online Spoke. See [Set up](https://www.servicenow.com/docs/access?context=setup-ms-exch-ol&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+As a user with admin role, you can enable this feature by installing Microsoft Exchange Online Spoke. See [Set up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-ms-exch-ol.md).
 
 **Note:** Ensure that you grant the following Graph API permissions to synchronize Microsoft Outlook with team calendar.
 

@@ -19,7 +19,7 @@ Create a data stream action to get user activity from a SaaS application.
 
 If you're using an existing ServiceNow® Integration Hub spoke, find out if it has a data stream action to get user activity that you can use instead of creating one.
 
-For more information about data stream actions, see [Data Stream actions](https://www.servicenow.com/docs/access?context=data-stream-actions&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+For more information about data stream actions, see [Data Stream actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/data-stream-actions.md).
 
 Role required: flow\_designer
 

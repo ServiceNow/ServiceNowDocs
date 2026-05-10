@@ -4,7 +4,7 @@ description: Test your agentic workflow in AI Agent Studio to analyze how it fun
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 3
 breadcrumb: [Create an agentic workflow, Now Assist AI agents, Enable AI experiences]
 ---

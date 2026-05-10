@@ -60,5 +60,5 @@ Schedule when to run the deflection configuration to generate the activities tha
 **Related topics**  
 
 
-[Self-Service Analytics dashboard for customer service](https://www.servicenow.com/docs/access?context=ssa-cs-dashboard&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Self-Service Analytics dashboard for customer service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analytics-and-reporting-solutions-for-customer-service/ssa-cs-dashboard.md)
 

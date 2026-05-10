@@ -52,9 +52,9 @@ Publish a report to create a URL that anyone can use to access the report, inclu
 **Related topics**  
 
 
-[ACL troubleshooting reference](https://www.servicenow.com/docs/access?context=r_ACLTroubleshoot&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[ACL troubleshooting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/r_ACLTroubleshoot.md)
 
-[Managing roles](https://www.servicenow.com/docs/access?context=ua-creating-roles&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md)
 
-[Creating groups](https://www.servicenow.com/docs/access?context=ua-creating-groups&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-groups.md)
 

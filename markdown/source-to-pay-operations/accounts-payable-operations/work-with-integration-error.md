@@ -31,7 +31,7 @@ Role required: Integration admin
 
 3.  You can manually select the error tasks to be closed or create a schedule job, on-demand, or auto-schedule to close the error tasks.
 
-    For more information on scheduled jobs, see [Scheduled jobs](https://www.servicenow.com/docs/access?context=c_ScheduledJobs&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information on scheduled jobs, see [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_ScheduledJobs.md).
 
     System-related integration error tasks are closed and invoices are auto-synchronized to outbound tables.
 

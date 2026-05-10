@@ -31,7 +31,7 @@ Select an option below.
 
 </td><td>
 
-[Learn about the ServiceNow platform ![](../image/icon-learn.png) See what you can do with the ServiceNow platform.](https://www.servicenow.com/docs/access?context=now-platform-landing&version=australia&pubname=australia-now-platform&ft:locale=en-US)
+[Learn about the ServiceNow platform ![](../image/icon-learn.png) See what you can do with the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-platform/now-platform-landing.md)
 
 </td><td>
 

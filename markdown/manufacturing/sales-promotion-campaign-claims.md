@@ -31,7 +31,7 @@ The following diagram shows the entities and their relationships within the Sale
 
 The sales promotion supports bulk import functionality, where the dealer sales agents can import a spreadsheet with multiple claims for review and approval. To enable bulk import, you must customize it on the Customer Service Management \(CSM\) or Business Location Service Portal \(BLSP\) portals.
 
-To learn more about the Business Location Service Portal, see [Using the Business Location Service Portal](https://www.servicenow.com/docs/access?context=using-blsp-portal&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+To learn more about the Business Location Service Portal, see [Using the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-blsp-portal.md).
 
 -   **[Sales Promotion Campaign Claim tables](sales-promotion-campaign-claim-table.md)**  
 This section explains the sales promotion campaign claims tables in Manufacturing Commercial Operations.

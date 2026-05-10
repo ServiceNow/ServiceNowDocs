@@ -17,9 +17,9 @@ When a document type is created, Document Intelligence can extract specified fie
 
 If you have Document Intelligence integrated, once a document verification task is created, a Document Intelligence task is also created.
 
-For information on activating Document Intelligence, see [Install Document Intelligence](https://www.servicenow.com/docs/access?context=install-document-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For information on activating Document Intelligence, see [Install Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/install-document-intelligence.md).
 
-For information on how to upload and extract data from documents, and information on how to use the Document Intelligence workspace and dashboard, see [Process documents using Document Intelligence](https://www.servicenow.com/docs/access?context=doc-intel-using&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+For information on how to upload and extract data from documents, and information on how to use the Document Intelligence workspace and dashboard, see [Process documents using Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/doc-intel-using.md)
 
 -   **[Enable Document Intelligence for FSO](../task/enable-docintel-fso.md)**  
 Enable Document Intelligence for FSO Document Processor by installing and activating the required plugins.

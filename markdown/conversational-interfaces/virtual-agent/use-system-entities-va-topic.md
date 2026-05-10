@@ -17,7 +17,7 @@ Associate system-derived entities such as such as date, time, duration, or locat
 
 ## Before you begin
 
-Create the Booking Reservations NLU model and system entities \(`FromLocation` and `ToLocation`\) as described in [Create a system-derived entity](https://www.servicenow.com/docs/access?context=create-system-derived-entity&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US). In this example procedure, you will create a topic that can slot fill locations that are used in an utterance.
+Create the Booking Reservations NLU model and system entities \(`FromLocation` and `ToLocation`\) as described in [Create a system-derived entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-system-derived-entity.md). In this example procedure, you will create a topic that can slot fill locations that are used in an utterance.
 
 Role required: virtual\_agent\_admin or admin
 

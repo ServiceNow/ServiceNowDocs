@@ -23,7 +23,7 @@ Role required: password\_reset\_credential\_manager, password\_reset\_admin, or 
 
 Users can easily reset their passwords for the credential stores that don't have REST APIs to reset the password. For example, the password reset subflows support Robotic Process Automation. The Password Reset process can be automated with a Robotic Process Automation robot to reset the password of an application that does not have an API to reset the password.
 
-For more information about Robotic Process Automation, see [Robotic Process Automation \(RPA\) Hub](https://www.servicenow.com/docs/access?context=rpa-explore&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+For more information about Robotic Process Automation, see [Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-explore.md).
 
 ## Procedure
 

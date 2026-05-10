@@ -19,7 +19,7 @@ ServiceNow AI Platform supports integrating third-party AI agents into your agen
 
 The following topics describe how to set up the connections and credentials required to authorize external AI agents on your instance.
 
--   **[Integrating external AI agents](https://www.servicenow.com/docs/access?context=external-agent-protocols&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Integrating external AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/external-agent-protocols.md)**
 
     Integrate and configure external agents with the ServiceNow AI Platform agentic AI system using the A2A protocol and manual integration, including instance-level settings for discoverability and data access.
 
@@ -28,11 +28,11 @@ The following topics describe how to set up the connections and credentials requ
 
 The following topics describe how to integrate specific third-party AI agent providers with AI Agent Studio.
 
--   **[Create an external AI agent](https://www.servicenow.com/docs/access?context=create-external-aia&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Create an external AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-external-aia.md)**
 
     Create external AI agents in AI Agent Studio to connect the ServiceNow AI Platform with third-party agentic AI providers as primary agents.
 
--   **[Create an external AI agent with the Agent2Agent protocol](https://www.servicenow.com/docs/access?context=create-a2a-agent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Create an external AI agent with the Agent2Agent protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a2a-agent.md)**
 
     Create external AI agents using the A2A protocol to connect third-party agentic AI providers to your instance.
 

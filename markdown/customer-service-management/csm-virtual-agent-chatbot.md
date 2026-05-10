@@ -21,7 +21,7 @@ The system administrator or a virtual agent admin must do the following to enabl
 
 -   Enable the Glide Virtual Agent plugin \(com.glide.cs.chatbot\).
 -   Enable the Customer Service Virtual Agent Conversations plugin \(com.sn\_csm.virtualagent\).
--   [Publish](https://www.servicenow.com/docs/access?context=publish-virtual-agent-topic&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) the following read-only pre-defined virtual agent chatbot topics and topic blocks:
+-   [Publish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md) the following read-only pre-defined virtual agent chatbot topics and topic blocks:
 
     **Note:** You can duplicate a topic and then customize it.
 
@@ -67,14 +67,14 @@ Your users can run the published topics in your chat support client.
     -   GetHelpWithProduct
     -   GetHelpWithOrder
     -   SubmitRequest
-    Each intent corresponds to a [chatbot topic](../task/csm-virtual-agent-conversation.md). To customize an intent, you can [import](https://www.servicenow.com/docs/access?context=import-nlu-intent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) an existing intent from the Customer Service NLU for Virtual Agent model and then [link the NLU model with the associated intent for the topic](https://www.servicenow.com/docs/access?context=va-NLU&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    Each intent corresponds to a [chatbot topic](../task/csm-virtual-agent-conversation.md). To customize an intent, you can [import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/import-nlu-intent.md) an existing intent from the Customer Service NLU for Virtual Agent model and then [link the NLU model with the associated intent for the topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-NLU.md).
 
--   Enable ServiceNow NLU in the [general settings](https://www.servicenow.com/docs/access?context=va-conversation-settings&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+-   Enable ServiceNow NLU in the [general settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-conversation-settings.md).
 
 **Related topics**  
 
 
 [Get help using virtual agent conversations](../task/csm-virtual-agent-conversation.md)
 
-[Natural Language Understanding in Virtual Agent](https://www.servicenow.com/docs/access?context=va-NLU&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+[Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-NLU.md)
 

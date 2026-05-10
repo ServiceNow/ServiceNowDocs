@@ -210,6 +210,6 @@ A location support agent is a service organization member who acts as a fulfille
 
 -   You can assign roles to users using the Service Model Foundation guided setup.
 
--   You can also assign roles to users using the ServiceNow AI Platform user administration feature: [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   You can also assign roles to users using the ServiceNow AI Platform user administration feature: [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
 

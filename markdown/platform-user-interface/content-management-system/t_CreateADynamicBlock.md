@@ -31,9 +31,9 @@ Several dynamic blocks are predefined, including the following items.
 -   **Search**: The global text search field. Currently, global text search is the only form of search that can be included in a content page.
 -   **Search Results**: An area for displaying global text search results.
 
-For information about Apache Jelly, see [Jelly tags](https://www.servicenow.com/docs/access?context=r_JellyTags&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For information about Apache Jelly, see [Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_JellyTags.md).
 
-**Note:** Dynamic Content Blocks in Content Management System are not automatically escaped. These blocks must implement their own content escaping \(e.g., to protect against potential Cross Site Scripting attacks\). For more information, see [Jelly escaping types](https://www.servicenow.com/docs/access?context=r_JellyEscapingTypes&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+**Note:** Dynamic Content Blocks in Content Management System are not automatically escaped. These blocks must implement their own content escaping \(e.g., to protect against potential Cross Site Scripting attacks\). For more information, see [Jelly escaping types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_JellyEscapingTypes.md).
 
 ## Procedure
 
@@ -50,7 +50,7 @@ For information about Apache Jelly, see [Jelly tags](https://www.servicenow.com/
     |Frame|Select a border styling for the dynamic block. For more information, see [Format a frame](t_Frame.md).|
     |Active|Select this check box to make the block available for use.|
     |Conditional|Enter any scripted conditions to be applied. If selected, adds a Condition script field to the form.|
-    |Two phase|Select this check box to allow two phase [Extensions to Jelly syntax](https://www.servicenow.com/docs/access?context=c_ExtensionsToJellySyntax&version=australia&pubname=australia-api-reference&ft:locale=en-US).|
+    |Two phase|Select this check box to allow two phase [Extensions to Jelly syntax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ExtensionsToJellySyntax.md).|
     |Dynamic content|Enter the XML script field that determines the behavior of the dynamic block.|
 
 

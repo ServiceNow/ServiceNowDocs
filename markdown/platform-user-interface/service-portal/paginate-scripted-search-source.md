@@ -41,8 +41,8 @@ If adding pagination to a simple search source, set **Paginate results** on the 
 
     |Scope|Method|
     |-----|------|
-    |Global|setLocation\(\) in [GlideRecord - Global](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)|
-    |Scoped application|chooseWindow\(\) in [GlideRecord - Scoped](https://www.servicenow.com/docs/access?context=c_GlideRecordScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)|
+    |Global|setLocation\(\) in [GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)|
+    |Scoped application|chooseWindow\(\) in [GlideRecord - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)|
 
     The following is an example data fetch script for a global search source that queries the incident table and paginates results.
 

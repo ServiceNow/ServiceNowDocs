@@ -6,7 +6,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
 ---
@@ -57,5 +57,5 @@ Role required: TSOM Assurance admin
 **Related topics**  
 
 
-[Exploring Metric Intelligence](https://www.servicenow.com/docs/access?context=exploring-metric-intelligence&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+[Exploring Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/exploring-metric-intelligence.md)
 

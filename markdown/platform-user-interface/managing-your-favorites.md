@@ -30,7 +30,7 @@ Role required: none
 
 1.  Add a favorite in one of the ways listed in the following table.
 
-<table id="choicetable_dg5_wsn_vvb"><tbody><tr><td id="d95142e152">
+<table id="choicetable_dg5_wsn_vvb"><tbody><tr><td id="d102612e152">
 
 **From any page**
 
@@ -40,7 +40,7 @@ From any page, select the star icon in the contextual app pill.
 
  ![Favorite star in the contextual app pill](../image/pol-nav-pill-favorite.png)
 
-</td></tr><tr><td id="d95142e171">
+</td></tr><tr><td id="d102612e171">
 
 **From the All menu**
 
@@ -50,7 +50,7 @@ From any page, select the star icon in the contextual app pill.
 -   To add all the modules under an application: In the application navigator, select the star icon next to the application name.
 
 
-</td></tr><tr><td id="d95142e194">
+</td></tr><tr><td id="d102612e194">
 
 **From a list or record in the classic environment**
 
@@ -61,7 +61,7 @@ From any page, select the star icon in the contextual app pill.
 3.  Select **Create Favorite**.
  You can add a different favorite for each view of a list or record.
 
-</td></tr><tr><td id="d95142e226">
+</td></tr><tr><td id="d102612e226">
 
 **From a knowledge base article**
 
@@ -136,7 +136,7 @@ Role required: none
 
 2.  Edit or delete favorites.
 
-<table id="choicetable_ipt_c1r_fwb"><tbody><tr><td id="d95142e572">
+<table id="choicetable_ipt_c1r_fwb"><tbody><tr><td id="d102612e572">
 
 **Edit a favorite**
 
@@ -152,7 +152,7 @@ Role required: none
 4.  Select **Save edits**.
 
 
-</td></tr><tr><td id="d95142e621">
+</td></tr><tr><td id="d102612e621">
 
 **Delete a favorite**
 

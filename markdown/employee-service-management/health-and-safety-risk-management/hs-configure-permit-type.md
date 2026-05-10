@@ -43,7 +43,7 @@ A permit type is a specific category of permit that addresses unique risks and s
 
     A new permit type is created which appears in the **Permit type** field of the permit-to-work request form. Repeat the steps to create multiple permit types.
 
-8.  Automatically display questions specific to a permit type when the user selects it on the permit-to-work request form by creating a variable set for each permit type. For more information on variable sets and the layout, see [Variable set layout](https://www.servicenow.com/docs/access?context=c_DefineVariableSetLayout&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+8.  Automatically display questions specific to a permit type when the user selects it on the permit-to-work request form by creating a variable set for each permit type. For more information on variable sets and the layout, see [Variable set layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_DefineVariableSetLayout.md).
 
     1.  Navigate to **All** &gt; **Service catalog** &gt; **Catalog definitions** &gt; **Record producers**.
     2.  Search for and select **Request a permit to work**.

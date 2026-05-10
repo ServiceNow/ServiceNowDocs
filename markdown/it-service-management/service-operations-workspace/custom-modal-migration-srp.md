@@ -45,7 +45,7 @@ Standard Record Page \(SRP\) provides options to modify the different modals use
 
 7.  Select the ![Create new page](../image/add-icon.png) icon to create a page or to add a new variant to a page.
 
-    For more information about creating a page and variant, see [Learn UI Builder by example](https://www.servicenow.com/docs/access?context=learning-uib-by-example&version=australia&pubname=australia-application-development&ft:locale=en-US)
+    For more information about creating a page and variant, see [Learn UI Builder by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learning-uib-by-example.md)
 
 
 **Parent Topic:**[Configuring Standard Record Page in Service Operations Workspace](../concept/srp-service-operations-workspace.md)

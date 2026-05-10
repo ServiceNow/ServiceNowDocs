@@ -18,7 +18,7 @@ You can configure customer success onboarding tasks in a playbook using the Proc
 Role required:
 
 -   sn\_acct\_lc.agent
--   One or more Playbooks roles. See [Playbooks roles](https://www.servicenow.com/docs/access?context=process-automation-designer-roles&version=australia&pubname=australia-build-workflows&ft:locale=en-US) for details.
+-   One or more Playbooks roles. See [Playbooks roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-roles.md) for details.
 
 ## About this task
 

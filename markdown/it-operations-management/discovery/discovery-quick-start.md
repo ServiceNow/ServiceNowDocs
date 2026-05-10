@@ -15,7 +15,7 @@ breadcrumb: [Discovery setup, Configuring Discovery, Discovery, ITOM Visibility,
 
 Discovery Quick Start is a wizard that helps you get up and running with Discovery quickly. Use Discovery Quick Start tasks to discover IP ranges, or subnets, in your environment and then to identify the configuration items \(CI\) in those subnets.
 
-Before using Discovery Quick Start, install and validate MID Servers. See [MID Server installation](https://www.servicenow.com/docs/access?context=mid-server-installation&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for details.
+Before using Discovery Quick Start, install and validate MID Servers. See [MID Server installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-installation.md) for details.
 
 ## Configure and schedule subnet discovery
 
@@ -41,7 +41,7 @@ After Discovery identifies the subnets, it automatically assigns the IP ranges o
 
     ![Start Quick Start](../image/QS_Start.png)
 
-    **Note:** If you did not set up a MID Server yet, select **MID Server Guided Setup** when prompted to create the MID Server user, download and install the MID Server, and validate it. Links in Guided Setup return you to Discovery Quick Start to continue configuring subnet discovery. For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    **Note:** If you did not set up a MID Server yet, select **MID Server Guided Setup** when prompted to create the MID Server user, download and install the MID Server, and validate it. Links in Guided Setup return you to Discovery Quick Start to continue configuring subnet discovery. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
     ![MID Server setup link](../image/QS_NoMIDFound2.png)
 
@@ -141,7 +141,7 @@ Role required: discovery\_admin
 
 The goal of this phase is to create the schedules necessary to discover the CIs on each subnet. Discovery Quick Start does that automatically, and then runs these schedules using the credentials you provide. You can add additional credentials at any time. Optionally, you can define locations for each of the subnet routers, and Discovery creates separate schedules for each location.
 
-You must be familiar with the types of credentials that you need for the CIs in your network. Each CI type requires different credentials. For example, if Discovery uses patterns instead of probes, the patterns might require [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+You must be familiar with the types of credentials that you need for the CIs in your network. Each CI type requires different credentials. For example, if Discovery uses patterns instead of probes, the patterns might require [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/applicative-creds.md).
 
 Review the requirements for the CI types you intend to discover. See [Data collected by ITOM Visibility](../reference/data-collected-by-itom-visibility.md), and then locate the specific type of device, computer, or application.
 

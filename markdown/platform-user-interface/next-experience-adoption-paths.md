@@ -36,9 +36,9 @@ If you're an existing customer who has made any of the following modifications t
 
 You can use the following tools and APIs with your implementation partner to help adjust your customizations to work well with the new Next Experience theme:
 
--   [Scriptable PolarisUI API](https://www.servicenow.com/docs/access?context=PolarisUIScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+-   [Scriptable PolarisUI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PolarisUIScopedAPI.md)
 -   [Next Experience client scripting globals](../reference/next-exp-client-script-globals.md)
--   [Jelly tags](https://www.servicenow.com/docs/access?context=r_JellyTags&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+-   [Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_JellyTags.md)
 
 ## Existing customer opting out of the Next Experience UI prior to an upgrade
 
@@ -52,12 +52,12 @@ During the upgrade, the Next Experience UI is not turned on.
 
 Connect Chat is not available in Next Experience. Starting with Australia, certain Connect Chat functions are available in Next Experience by using Sidebar. See [KB1123615 – Moving from Connect Chat to Sidebar](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123615) for more information about the differences between Connect Chat and Sidebar.
 
-Connect Support is not available in Next Experience and is scheduled to be completely deprecated in Utah. If you want to automatically assign chat requests and other work items to agents in Next Experience, you must migrate to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://www.servicenow.com/docs/access?context=migrate-from-connect-support&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Connect Support is not available in Next Experience and is scheduled to be completely deprecated in Utah. If you want to automatically assign chat requests and other work items to agents in Next Experience, you must migrate to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/migrate-from-connect-support.md).
 
 These features and products are not currently supported with Next Experience:
 
--   The functionality found in homepages, arranging information from your instance to tell a story about your data, is found in dashboards on new instances. On upgraded instances with Next Experience enabled, users can view existing homepages if they have a direct URL, but they can't create or edit them. Responsive dashboards and Analytics Overview dashboards take over homepage functionality. Use the [Homepage deprecation help tool](https://www.servicenow.com/docs/access?context=homepage-deprecation-help-tool&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) to convert the homepages on your instance to responsive dashboards.
--   [Live Feed](https://www.servicenow.com/docs/access?context=c_GetStartedWithLiveFeed&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) is not supported.
+-   The functionality found in homepages, arranging information from your instance to tell a story about your data, is found in dashboards on new instances. On upgraded instances with Next Experience enabled, users can view existing homepages if they have a direct URL, but they can't create or edit them. Responsive dashboards and Analytics Overview dashboards take over homepage functionality. Use the [Homepage deprecation help tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/homepage-deprecation-help-tool.md) to convert the homepages on your instance to responsive dashboards.
+-   [Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_GetStartedWithLiveFeed.md) is not supported.
 -   The JavaScript console log isn't supported in the Next Experience framework.
 -   ATF doesn't support these elements of Next Experience, but support for these features is planned for future releases:
 

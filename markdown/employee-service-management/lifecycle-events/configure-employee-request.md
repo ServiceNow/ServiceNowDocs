@@ -70,7 +70,7 @@ Category
 </td><td>
 
 Employee Requests category types.-   For the HR Service category type, see [HR services](../concept/hr-service-administration.md).
--   For the Catalog Item category type, see [Service catalog items](https://www.servicenow.com/docs/access?context=c_IntroductionToCatalogItems&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   For the Catalog Item category type, see [Service catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md).
 
 
 </td></tr><tr><td>

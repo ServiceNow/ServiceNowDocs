@@ -19,7 +19,7 @@ Configure Agent Client Collector Log Analytics on your ServiceNow instance eithe
 
 Agent Client Collector Log Analytics guided setup provides a sequence of tasks that help you configure Agent Client Collector Log Analytics on your instance. Using guided setup ensures that you have the minimum required setup to use the application. For more information, see [Set up Agent Client Collector Log Analytics using guided setup](../task/accl-guided-setup-use.md).
 
-For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 ## Agent Client Collector Log Analytics setup without using guided setup
 

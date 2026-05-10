@@ -21,13 +21,13 @@ Role required: workspace\_admin or ui\_builder\_admin
 
 ## About this task
 
-All Workforce Optimization for ITSM Next Experience UI Builder pages and page variants are read-only. You can copy a page variant and then customize it. You can create a page variant from scratch or use a page template. For more information, see [Create a variant of a page](https://www.servicenow.com/docs/access?context=create-variant&version=australia&pubname=australia-application-development&ft:locale=en-US).
+All Workforce Optimization for ITSM Next Experience UI Builder pages and page variants are read-only. You can copy a page variant and then customize it. You can create a page variant from scratch or use a page template. For more information, see [Create a variant of a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md).
 
 **Note:** After you copy and customize a page variant, any automatic updates applied to the original read-only page variant will not be applied to the page variant that you have customized.
 
-To open your configurable workspace experience in UI Builder, see [Open a Configurable Workspace experience in UI Builder](https://www.servicenow.com/docs/access?context=open-your-configurable-workspace-experience-in-ui-builder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+To open your configurable workspace experience in UI Builder, see [Open a Configurable Workspace experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.md)
 
-For a list of all workspaces ServiceNow offers to target specific users, see [List of workspaces](https://www.servicenow.com/docs/access?context=list-of-workspaces&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For a list of all workspaces ServiceNow offers to target specific users, see [List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/list-of-workspaces.md).
 
 ## Procedure
 
@@ -63,5 +63,5 @@ For a list of all workspaces ServiceNow offers to target specific users, see [Li
 **Related topics**  
 
 
-[Configuring the Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-ui-admin&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
 

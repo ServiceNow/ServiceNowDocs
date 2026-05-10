@@ -25,7 +25,7 @@ Role required: password\_reset\_admin
 
     **Note:** Starting with the Kingston release, following a zBoot, the script actions **SNC User Lockout Check with Auto Unlock** and **SNC User Clear** are activated.
 
-    To learn more about properties that affect failed login attempts, see [Managing failed login attempts \(instance security hardening\)](https://www.servicenow.com/docs/access?context=sc-managing-failed-login-attempts&version=australia&pubname=australia-platform-security&ft:locale=en-US) in the Instance Security Hardening Settings.
+    To learn more about properties that affect failed login attempts, see [Managing failed login attempts \(instance security hardening\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-managing-failed-login-attempts.md) in the Instance Security Hardening Settings.
 
 <table id="table_yzs_qcf_g1b"><thead><tr><th>
 

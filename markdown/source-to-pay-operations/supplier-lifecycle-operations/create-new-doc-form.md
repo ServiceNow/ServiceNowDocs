@@ -15,7 +15,7 @@ breadcrumb: [Reference, Supplier Lifecycle Operations, Finance and Supply Chain]
 
 Use the Create New Documents form to provide details about the new document you want to create.
 
-The Create New Documents form contains the Documents and Access Settings sections. For more information about document access settings, see [Document security and access](https://www.servicenow.com/docs/access?context=document-access-settings&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+The Create New Documents form contains the Documents and Access Settings sections. For more information about document access settings, see [Document security and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-access-settings.md).
 
 <table id="table_ff3_ksw_dvb"><thead><tr><th>
 

@@ -38,7 +38,7 @@ The homepage displays links to the featured, most viewed, and most useful articl
     |Title|The title of the widget.|
     |Bootstrap color|The color of the widget.|
     |Glyph|An icon that appears in the widget.|
-    |CSS|Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://www.servicenow.com/docs/access?context=scss-primer&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).|
+    |CSS|Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/scss-primer.md).|
     |Table|The table that contains the **Source Field** used to provide the featured, most viewed, and most useful articles widget options. The default table is Knowledge \(kb\_knowledge\).|
     |Display Field|The title displayed for each article in the list. By default, this is the article short description.|
     |Secondary Fields|Additional information displayed for each article in the list below the title. By default, this information includes the author, view count, the date that the article was last modified, and the article rating.|

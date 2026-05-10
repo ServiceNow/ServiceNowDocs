@@ -33,15 +33,15 @@ Role required: sn\_wsd\_core.workplace\_manager
 
 4.  Manage the spaces based on your requirement.
 
-<table id="choicetable_d2c_yt5_g3c"><thead><tr><th align="left" id="d310579e93">
+<table id="choicetable_d2c_yt5_g3c"><thead><tr><th align="left" id="d314008e93">
 
 Action
 
-</th><th align="left" id="d310579e96">
+</th><th align="left" id="d314008e96">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d310579e102">
+</th></tr></thead><tbody><tr><td id="d314008e102">
 
 **Create a space**
 
@@ -52,7 +52,7 @@ Steps
 3.  Select **Save**.
  **Important:** If you have Workplace Space Management installed, the Create New Space form contains fields from the `Space` form. For more information about the Space form, see [Add a space using Workplace Space Management](../../workplace-space-management/task/add-a-space.md).
 
-</td></tr><tr><td id="d310579e148">
+</td></tr><tr><td id="d314008e148">
 
 **Edit spaces**
 
@@ -67,7 +67,7 @@ Steps
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d310579e186">
+</td></tr><tr><td id="d314008e186">
 
 **Edit space allocations**
 
@@ -85,7 +85,7 @@ The Edit space allocation pop-up opens with the `Allocation` tab selected by def
 5.  Select **Apply**.
 
 
-</td></tr><tr><td id="d310579e236">
+</td></tr><tr><td id="d314008e236">
 
 **Remove space allocations**
 
@@ -96,7 +96,7 @@ The Edit space allocation pop-up opens with the `Allocation` tab selected by def
 3.  On the Remove space allocation pop-up, review the current allocation details, then select **Save**.
 
 
-</td></tr><tr><td id="d310579e267">
+</td></tr><tr><td id="d314008e267">
 
 **Export space details**
 

@@ -46,7 +46,7 @@ Discover all the users who have a similar profile as the employee. Identify the 
 
 4.  On the form, verify the default field values and customize the solution as required.
 
-    For more information about the Clustering solution definition form fields, see [Create and train a clustering solution](https://www.servicenow.com/docs/access?context=create-clustering-solution&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) and [Test a classification solution prediction](https://www.servicenow.com/docs/access?context=test-solution-prediction&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more information about the Clustering solution definition form fields, see [Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md) and [Test a classification solution prediction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/test-solution-prediction.md).
 
     **Note:** For details regarding trained use case integration implementation, see Predictive Intelligence Workbench integration and customization.
 
@@ -64,7 +64,7 @@ You can verify the integration status from **HR Administration** &gt; **HR AI Co
 **Related topics**  
 
 
-[Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md)
 
-[Get started with Predictive Intelligence](https://www.servicenow.com/docs/access?context=install-predictive-intelligence&version=australia&pubname=australia-intelligent-experiences&section=get-started-predictive-intelligence&ft:locale=en-US)
+[Get started with Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/install-predictive-intelligence.md)
 

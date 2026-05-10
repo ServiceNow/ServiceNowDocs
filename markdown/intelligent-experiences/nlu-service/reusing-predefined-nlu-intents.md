@@ -27,9 +27,9 @@ The prebuilt models map to common conversation topics used by Virtual Agent chat
 
 For more NLU and Virtual Agent context, refer to the following product documentation:
 
--   For ITSM context, see [ITSM Virtual Agent](https://www.servicenow.com/docs/access?context=itsm-virtual-agent&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
--   For HR context, see [Virtual Agent for HR Service Delivery](https://www.servicenow.com/docs/access?context=hr-virtual-agent-conversations&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
--   For CSM context, see [Customer Service Virtual Agent conversations](https://www.servicenow.com/docs/access?context=csm-virtual-agent-chatbot&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+-   For ITSM context, see [ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-virtual-agent.md).
+-   For HR context, see [Virtual Agent for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.md).
+-   For CSM context, see [Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-virtual-agent-chatbot.md).
 
 ## Virtual Agent and NLU plugins and roles
 
@@ -51,7 +51,7 @@ Descriptions
 
 </td><td>
 
-Enables [Pre-built Virtual Agent topics, topic blocks, and ServiceNow NLU models](https://www.servicenow.com/docs/access?context=prebuilt-topics-ITSM&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) for the Customer Service Management, HR Service Delivery, and IT Service Management applications.
+Enables [Pre-built Virtual Agent topics, topic blocks, and ServiceNow NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/prebuilt-topics-ITSM.md) for the Customer Service Management, HR Service Delivery, and IT Service Management applications.
 
  -   Requires the Glide Virtual Agent \(com.glide.cs.chatbot\) plugin to be activated.
 -   Automatically activates the NLU Workbench \(com.snc.nlu\_studio\) plugin.

@@ -76,7 +76,7 @@ As shown in the following figure, this integration can support more than one McA
 
 ## Workflows for the McAfee ePO integration
 
-This integration includes the following workflows. These workflows are pre-configured and are designed specifically for this integration. You can edit these workflows to meet the needs of your organization as required. For more general information about workflows and using the workflow editor, see [Getting started with workflows](https://www.servicenow.com/docs/access?context=getting-started-workflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+This integration includes the following workflows. These workflows are pre-configured and are designed specifically for this integration. You can edit these workflows to meet the needs of your organization as required. For more general information about workflows and using the workflow editor, see [Getting started with workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/getting-started-workflows.md).
 
 -   Security Operations McAfee EPO integration - Get Host Details
 -   Security Operations McAfee EPO integration - Initiate Malware Scan

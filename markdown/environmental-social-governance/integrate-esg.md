@@ -17,7 +17,7 @@ You can integrate Operational Sustainability Management with Project Portfolio M
 
 If you integrate Operational Sustainability Management with Project Portfolio Management, you can plan, build a roadmap, and prioritize activities to achieve your sustainability goals. You can view all the programs and projects associated with operational sustainability under **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace** &gt; **Lists** &gt; **Program Setup**.
 
-When you create goals for your material topics, you perform some activity to accomplish those goals. The work that you do is captured in the form of programs and projects. When you integrate with Project Portfolio Management, you can create programs and projects for your goals. To learn more about program management and how to create programs, see [Program Management](https://www.servicenow.com/docs/access?context=c_ProgramManagement&version=australia&pubname=australia-it-business-management&ft:locale=en-US).
+When you create goals for your material topics, you perform some activity to accomplish those goals. The work that you do is captured in the form of programs and projects. When you integrate with Project Portfolio Management, you can create programs and projects for your goals. To learn more about program management and how to create programs, see [Program Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/c_ProgramManagement.md).
 
 To see the configurations that you must perform on the project form, see [Display the priorities and goals on the project form](../task/configure-project-form.md).
 

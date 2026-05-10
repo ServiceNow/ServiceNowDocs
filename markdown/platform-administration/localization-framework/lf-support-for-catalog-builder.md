@@ -33,7 +33,7 @@ You can do the following tasks on the Catalog Builder dashboard in Service Catal
 
 -   Request the translations of the Service Catalog items when creating the items.
 
-For more information on the Localization Framework integration with catalog builder, see [Localization Framework integration with Catalog Builder](https://www.servicenow.com/docs/access?context=c-CB-LF-translation&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information on the Localization Framework integration with catalog builder, see [Localization Framework integration with Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c-CB-LF-translation.md).
 
 **Parent Topic:**[Localization Framework support for Service Catalog items](lf-support-for-catalog-items.md)
 

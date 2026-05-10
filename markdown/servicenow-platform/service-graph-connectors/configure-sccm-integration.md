@@ -356,7 +356,7 @@ MID Server for the connection.
 
     2.  On the Scheduled Data Import form, verify the field values for the scheduled job.
 
-        For more information, see [Schedule a data import](https://www.servicenow.com/docs/access?context=t_ScheduleADataImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US#table_r53_5hm_xp).
+        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
         All other Service Graph Connector for Microsoft SCCM scheduled jobs that are active will run in their specified order after the Computer Identity scheduled job is finished running. Select the **Active** check box for a scheduled job to activate the job.
 

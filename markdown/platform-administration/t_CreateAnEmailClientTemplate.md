@@ -186,15 +186,15 @@ Enter a comma-separated list of either field names that contain user email addre
 </td></tr></tbody>
 </table>6.  On the **Sender Configuration** tab, select the **From Generation Type** method to determine how the sender \(From address\) in the email client message is generated.
 
-<table id="choicetable_f3x_twt_pfc"><thead><tr><th align="left" id="d38740e499">
+<table id="choicetable_f3x_twt_pfc"><thead><tr><th align="left" id="d38744e499">
 
 Type
 
-</th><th align="left" id="d38740e502">
+</th><th align="left" id="d38744e502">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d38740e508">
+</th></tr></thead><tbody><tr><td id="d38744e508">
 
 **None**
 
@@ -202,7 +202,7 @@ Description
 
 The From address isn’t generated in the email client message.
 
-</td></tr><tr><td id="d38740e517">
+</td></tr><tr><td id="d38744e517">
 
 **SMTP Email Account**
 
@@ -210,7 +210,7 @@ The From address isn’t generated in the email client message.
 
 Use the From address of the SMTP email account for the instance as the sender.
 
-</td></tr><tr><td id="d38740e526">
+</td></tr><tr><td id="d38744e526">
 
 **Select From List**
 
@@ -218,7 +218,7 @@ Use the From address of the SMTP email account for the instance as the sender.
 
 Choose from a list of allowable From addresses defined in the Email Client From Address \[sys\_email\_client\_from\_address\] table.
 
-</td></tr><tr><td id="d38740e535">
+</td></tr><tr><td id="d38744e535">
 
 **Script**
 
@@ -241,7 +241,7 @@ Run a GlideRecord query on the Email Client From Address \[sys\_email\_client\_f
 })(fromAddressQuery, targetRecord);
 ```
 
-</td></tr><tr><td id="d38740e549">
+</td></tr><tr><td id="d38744e549">
 
 **Text**
 
@@ -249,7 +249,7 @@ Run a GlideRecord query on the Email Client From Address \[sys\_email\_client\_f
 
 Enter the email From address to be used in the client.
 
-</td></tr><tr><td id="d38740e558">
+</td></tr><tr><td id="d38744e558">
 
 **User Email Addresses**
 
@@ -276,7 +276,7 @@ For integrating users or agents personal corporate mail boxes with ServiceNow to
 **Related topics**  
 
 
-[Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md)
 
 ## Apply an email client template
 

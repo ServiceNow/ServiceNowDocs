@@ -19,7 +19,7 @@ The business-to-business \(B2B\) model supports customer accounts and the contac
 
 The B2B2C model enables you to support business customers and third-party channel partners who, in turn, support the end consumers. This model must be enabled manually for use with Healthcare and Life Sciences Service Management Core.
 
-As a user with the admin role, you can enable B2B2C for use with Healthcare and Life Sciences Service Management Core by configuring the Customer Data Models. For more information, see [Customer Data Models for B2B2C](https://www.servicenow.com/docs/access?context=customer-data-model-b2b2c&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+As a user with the admin role, you can enable B2B2C for use with Healthcare and Life Sciences Service Management Core by configuring the Customer Data Models. For more information, see [Customer Data Models for B2B2C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-data-model-b2b2c.md).
 
 Configure the Customer Data Models for B2B2C to enable contacts of accounts to open healthcare cases on the CSM portal by following the steps below:
 

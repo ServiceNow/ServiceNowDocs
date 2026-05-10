@@ -48,9 +48,9 @@ System administrators can create wrap-up codes. From the Interaction Wrap Up Con
 
 For more information, see the following topics:
 
--   [Create an interaction wrap-up configuration](https://www.servicenow.com/docs/access?context=create-interaction-wrap-up-config&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Create interaction wrap up codes](https://www.servicenow.com/docs/access?context=config-interaction-wrapup-codes&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Enable interaction wrap up codes](https://www.servicenow.com/docs/access?context=enable-interaction-wrapup-codes&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   [Create an interaction wrap-up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/create-interaction-wrap-up-config.md)
+-   [Create interaction wrap up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/config-interaction-wrapup-codes.md)
+-   [Enable interaction wrap up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/enable-interaction-wrapup-codes.md)
 
 ## Wrap-up timer
 

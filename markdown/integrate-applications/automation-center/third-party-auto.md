@@ -17,7 +17,7 @@ Track any third-party automations in Automation Center.
 
 In Automation Center you can track any third-party automations. You can do that by using the Automation Center API.
 
-For more information, see [Automation Center API](https://www.servicenow.com/docs/access?context=auto-api&version=australia&pubname=australia-api-reference&ft:locale=en-US) .
+For more information, see [Automation Center API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/auto-api.md) .
 
 **Parent Topic:**[Configuring Automation Center](automation-center-setup.md)
 

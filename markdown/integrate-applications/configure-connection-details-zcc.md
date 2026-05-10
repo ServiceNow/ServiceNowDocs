@@ -183,7 +183,7 @@ A connection admin can remove an established connection from the Zero Copy Conne
 
 3.  Delete the connection immediately if it doesn't have any associated tables or delete the associated tables and then delete the connection.
 
-<table id="choicetable_wv5_lmf_w2c"><tbody><tr><td id="d531286e780">
+<table id="choicetable_wv5_lmf_w2c"><tbody><tr><td id="d533514e780">
 
 **Delete a connection without any associated tables**
 
@@ -193,7 +193,7 @@ A connection admin can remove an established connection from the Zero Copy Conne
 2.  In the confirmation dialog box, select **Delete**.
 
 
-</td></tr><tr><td id="d531286e810">
+</td></tr><tr><td id="d533514e810">
 
 **Delete a connection with associated tables**
 

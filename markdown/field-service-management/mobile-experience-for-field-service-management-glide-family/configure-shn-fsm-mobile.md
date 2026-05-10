@@ -31,6 +31,6 @@ Role required: sn\_shn.admin
 
 5.  Click **Submit**.
 
-6.  To modify special handling notes properties, see [Configure special handling notes properties](https://www.servicenow.com/docs/access?context=t_EnableOnScreenAlertProperties&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+6.  To modify special handling notes properties, see [Configure special handling notes properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_EnableOnScreenAlertProperties.md).
 
 

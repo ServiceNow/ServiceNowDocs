@@ -111,7 +111,7 @@ References
 
 </td><td>
 
-[Attachment limit properties](https://www.servicenow.com/docs/access?context=r_AttachmentLimitProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Attachment limit properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AttachmentLimitProperties.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[File and resources](sc-file-resources.md)

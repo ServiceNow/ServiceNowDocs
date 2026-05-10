@@ -44,14 +44,14 @@ These groups are available for assignment.
     -   To review an existing group, open the group that you want to configure.
 3.  On the form, fill in the fields.
 
-    For detailed instructions and field descriptions, see [Create a user group](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For detailed instructions and field descriptions, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAGroup.md).
 
 4.  Select **Submit** or **Update**.
 
 
 ## What to do next
 
--   Assign roles to the group. For more information, see [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Assign roles to the group. For more information, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
 -   Add users to the group.
 
 **Parent Topic:**[Setting up Health and Safety Core](../../hs-core/concept/setting-up-hs-core.md)

@@ -21,7 +21,7 @@ Review [Using the deflection topic block to track deflections in Virtual Agent](
 
 Watch this video for more information about deflection tracking. ![Video link to deflection tracking.](../../conversational-interfaces/image/icon-video-link.png)[Virtual Agent Academy: Measure success and user journey in Conversational Analytics](https://www.youtube.com/watch?v=YMAaTSzPhwM&list=PLkGSnjw5y2U79gjQuQW-2GBqzEccwFkWH&index=21)
 
-**Note:** For information about configuring components of the Virtual Agent Analytics dashboard \(such as Performance Analytics widgets\), see [Add and configure components](https://www.servicenow.com/docs/access?context=add-components&version=australia&pubname=australia-application-development&ft:locale=en-US).
+**Note:** For information about configuring components of the Virtual Agent Analytics dashboard \(such as Performance Analytics widgets\), see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md).
 
 Role required: virtual\_agent\_admin or admin
 

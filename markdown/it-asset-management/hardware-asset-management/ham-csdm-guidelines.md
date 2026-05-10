@@ -21,7 +21,7 @@ The CSDM is the data framework that you follow when you set up ServiceNow produc
 
 Using a CSDM standard and consistent set of terms and definitions helps to track the assets effectively through their life cycle transitions.
 
-**Note:** To set up CSDM for Hardware Asset Management, see [Implementing the CSDM framework in stages](https://www.servicenow.com/docs/access?context=csdm-implementation-stages&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Note:** To set up CSDM for Hardware Asset Management, see [Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md).
 
 ## Tables adhering to the CSDM guidelines managed by Hardware Asset Management
 
@@ -107,5 +107,5 @@ If you have opted-in to CSDM in the releases before Xanadu, synchronization of t
 
 From the Xanadu release onward, when you opt in to CSDM, the life-cycle fields are directly synchronized between the asset and CI.
 
-For more details on synchronization of life-cycle fields, see [How life-cycle values for Asset, CI, and IBI are synchronized](https://www.servicenow.com/docs/access?context=cmdb-asset-CI-IBI-sync-options&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more details on synchronization of life-cycle fields, see [How life-cycle values for Asset, CI, and IBI are synchronized](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/cmdb-asset-CI-IBI-sync-options.md).
 

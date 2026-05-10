@@ -18,7 +18,7 @@ Configure your voice assistant to be accessible through the voice launcher funct
 Role required: virtual\_agent\_admin or admin
 
 -   You must have a voice assistant created in Assistant Designer
--   Mobile app voice launcher function must be configured using Now Assist for Mobile before you can assign it to an assistant. See [Configure Mobile AI Voice Agent](https://www.servicenow.com/docs/access?context=config-mobile-ai-voice-agent&version=australia&pubname=australia-mobile&ft:locale=en-US) for more information.
+-   Mobile app voice launcher function must be configured using Now Assist for Mobile before you can assign it to an assistant. See [Configure Mobile AI Voice Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-mobile-ai-voice-agent.md) for more information.
 
 ## Procedure
 
@@ -36,7 +36,7 @@ Role required: virtual\_agent\_admin or admin
 
 6.  In Prominent action button override, select from the **Add tab override** drop-down to allow a prominent action button to launch the assistant.
 
-    The prominent action button overrides what’s been defined in the chat launcher and voice launcher functions. See [Configuring a prominent action button](https://www.servicenow.com/docs/access?context=configuring-prominent-action-button&version=australia&pubname=australia-mobile&ft:locale=en-US) for more information on configuring the prominent action button.
+    The prominent action button overrides what’s been defined in the chat launcher and voice launcher functions. See [Configuring a prominent action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configuring-prominent-action-button.md) for more information on configuring the prominent action button.
 
 7.  Select **Save** to save the configuration.
 

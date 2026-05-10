@@ -25,7 +25,7 @@ Role required: admin
 
 2.  Select **Supplier Collaboration Queue**.
 
-    For more information about the fields on the Supplier Collaboration Queue form, see [Create a work item queue](https://www.servicenow.com/docs/access?context=awa-create-queue&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    For more information about the fields on the Supplier Collaboration Queue form, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-queue.md).
 
 3.  In the **Initial agent response** field, enter the message that you want the users to see when an agent accepts a chat.
 
@@ -39,7 +39,7 @@ Role required: admin
 
 6.  In the Max Wait Time field, enter the maximum amount of time within which all available agents have to accept or reject a chat request.
 
-    After time runs out, the requester receives the value in either the **Max wait time message** field or the **No Agents Available Message** field defined in [Agent Chat settings](https://www.servicenow.com/docs/access?context=ac-configure-agent-chat&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    After time runs out, the requester receives the value in either the **Max wait time message** field or the **No Agents Available Message** field defined in [Agent Chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
 
     **Note:** The **Max Wait Time** field is available after you associate the queue to the chat service channel.
 

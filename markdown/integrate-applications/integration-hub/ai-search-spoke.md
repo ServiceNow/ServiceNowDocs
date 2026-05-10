@@ -124,7 +124,7 @@ Ingests properties of the specified document into the batcher. In releases start
 }
 ```
 
- For more details on security principal access permissions, see [External content access permissions](https://www.servicenow.com/docs/access?context=defining-access-perms-ext-docs-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ For more details on security principal access permissions, see [External content access permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-access-perms-ext-docs-ais.md).
 
 </td></tr><tr><td>
 
@@ -175,7 +175,7 @@ The document's **url** property is automatically populated with the value of the
 }
 ```
 
- For more details on security principal access permissions, see [External content access permissions](https://www.servicenow.com/docs/access?context=defining-access-perms-ext-docs-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ For more details on security principal access permissions, see [External content access permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-access-perms-ext-docs-ais.md).
 
 </td></tr><tr><td>
 

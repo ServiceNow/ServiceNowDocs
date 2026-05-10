@@ -27,15 +27,15 @@ Stockrooms are separate, standalone entities in the Asset Management application
 
 1.  Create a stockroom.
 
-<table id="choicetable_njv_thg_kyb"><thead><tr><th align="left" id="d348500e91">
+<table id="choicetable_njv_thg_kyb"><thead><tr><th align="left" id="d348614e91">
 
 Interface
 
-</th><th align="left" id="d348500e94">
+</th><th align="left" id="d348614e94">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d348500e100">
+</th></tr></thead><tbody><tr><td id="d348614e100">
 
 **Core UI**
 
@@ -45,7 +45,7 @@ Action
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d348500e136">
+</td></tr><tr><td id="d348614e136">
 
 **Hardware Asset Workspace**
 

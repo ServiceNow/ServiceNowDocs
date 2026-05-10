@@ -160,7 +160,7 @@ Update Frequency
 Frequency of how often to include new records in the model to retrieve the similarity results.
 
 </td></tr></tbody>
-</table>    For more information, see [Create and train a similarity solution](https://www.servicenow.com/docs/access?context=create-similarity-solution&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+</table>    For more information, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md).
 
 4.  In the Training Request Schedule related list, update the schedule for training the Similar Part Requirements solution definition.
 
@@ -178,11 +178,11 @@ Frequency of how often to include new records in the model to retrieve the simil
 
     2.  Review the similarity examples by clicking the **Similarity Examples** related link on the ML Solution form.
 
-        For more information, see [Review solution similarity examples](https://www.servicenow.com/docs/access?context=review-similarity-examples&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+        For more information, see [Review solution similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/review-similarity-examples.md).
 
     3.  In the Solution Statistics related list on the ML Solution form, enter the required value in the **Similarity Score Threshold** field, right-click the ML Solution form, and then click **Save**.
 
-        For more information, see [Update your similarity score threshold](https://www.servicenow.com/docs/access?context=update-similarity-threshold&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+        For more information, see [Update your similarity score threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/update-similarity-threshold.md).
 
 
 ### Result

@@ -19,25 +19,25 @@ The ServiceNow® Knowledge Graph application enables you to create and manage a 
 -   Added an interactive guided tour for admins, providing step-by-step walk through of key features and configurations to simplify setup.
 -   Supports Configuration item \(CI\) Relationship queries, enabling natural language questions about CMDB configuration item dependencies and infrastructure topology.
 
-See [Knowledge Graph](https://www.servicenow.com/docs/access?context=knowledge-graph-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information.
+See [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md) for more information.
 
 **Important:** Knowledge Graph is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Configuration item relationships and Knowledge Graph](https://www.servicenow.com/docs/access?context=ci-relationships-knowledge-graph&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Configuration item relationships and Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/ci-relationships-knowledge-graph.md)**
 
     CI relationship support in Knowledge Graph allows users to ask natural language questions about how services, servers, databases, and other CIs relate to one another without writing queries or navigating CMDB tables directly.
 
 
--   **[Tagging in Knowledge Graph Designer](https://www.servicenow.com/docs/access?context=tagging-in-knowledge-graph&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Tagging in Knowledge Graph Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/tagging-in-knowledge-graph.md)**
 
     The Knowledge landing page now includes a dedicated tagging section that allows users to create, edit, and manage tags.
 
 
 ## UI changes
 
--   **[Create Knowledge Graph tag](https://www.servicenow.com/docs/access?context=create-knowledge-graph-tags&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Create Knowledge Graph tag](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/create-knowledge-graph-tags.md)**
 
     The new option to add AI instructions at node, property, and edge level when creating a tag, gives more business context to natural language queries.
 
@@ -48,17 +48,17 @@ Knowledge Graph is a ServiceNow AI Platform feature that is active on installati
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     ServiceNow® Now Assist uses generative AI that is designed to enhance user productivity and efficiency through conversation and proactive experiences.
 
 
--   **[Now Assist in AI Search](https://www.servicenow.com/docs/access?context=now-assist-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-ais.md)**
 
     The Now Assist in AI Search ServiceNow® Store application combines the power of search with the Now LLM Service generative AI model to answer questions in user searches with actionable AI-generated summaries of relevant Knowledge articles.
 
 
--   **[Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)**
+-   **[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md)**
 
     Unlock your enterprise productivity with ServiceNow® Virtual Agent. Increase deflections by empowering your employees and customers to serve themselves using a friendly messaging interface, featuring prebuilt conversations powered by artificial intelligence.
 

@@ -27,7 +27,7 @@ If you have already deployed ServiceNow Voice and are upgrading, go through all 
 
 1.  Add the system property `sn_cti_csm_cnt.enable_ims_update` and set it to **true**.
 
-    For more information on adding a new system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+    For more information on adding a new system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 2.  Navigate to **All** &gt; **Amazon Connect integration** &gt; **View instances**.
 

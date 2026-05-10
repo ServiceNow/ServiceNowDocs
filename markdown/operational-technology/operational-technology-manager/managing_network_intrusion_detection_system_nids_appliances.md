@@ -19,7 +19,7 @@ A Network Intrusion Detection System helps manage the import of IT and OT device
 
 **Note:** Manual creation for an NIDS record in the table is restricted from the list view or the form view of the records.
 
-For more information about the NIDS class records, see [Network Intrusion Detection System \(NIDS\) CI extension class](https://www.servicenow.com/docs/access?context=cmdb-network-ids-nids-ci-extension-class&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information about the NIDS class records, see [Network Intrusion Detection System \(NIDS\) CI extension class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-network-ids-nids-ci-extension-class.md).
 
 If a NIDS record has the Validated field set to true, then when any of the following attributes of the NIDS are changed on the NIDS form, a warning message is displayed.
 
@@ -54,7 +54,7 @@ Validate multiple NIDS sensors at once through a bulk validation so that you can
 **Related topics**  
 
 
-[Network Intrusion Detection System \(NIDS\) CI extension class](https://www.servicenow.com/docs/access?context=cmdb-network-ids-nids-ci-extension-class&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Network Intrusion Detection System \(NIDS\) CI extension class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-network-ids-nids-ci-extension-class.md)
 
 [Script includes installed with Operational Technology Manager](script_includes_installed_with_operational_technology_manager.md)
 

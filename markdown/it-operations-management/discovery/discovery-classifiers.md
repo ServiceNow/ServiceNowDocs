@@ -93,7 +93,7 @@ Description
 
 Enables debugging information for process classification. -   **Type**: true \| false
 -   **Default Value**: false
--   **Location**: Add to the System Properties \[sys\_properties\] table. For more information, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+-   **Location**: Add to the System Properties \[sys\_properties\] table. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 </td></tr></tbody>
 </table>## What you can do with Discovery classification

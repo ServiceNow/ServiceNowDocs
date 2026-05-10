@@ -113,7 +113,7 @@ How to avoid this: Use secondary storage to look up references. Secondary storag
 
 To enable secondary storage:
 
--   Activate the Secondary Database Pools \[com.glide.secondary\_db\_pools\] plugin. For more information, see [Request a plugin](https://www.servicenow.com/docs/access?context=t_RequestAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Activate the Secondary Database Pools \[com.glide.secondary\_db\_pools\] plugin. For more information, see [Request a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_RequestAPlugin.md).
 -   Confirm that the import\_reference\_resoultion category in the Secondary Database Categories \[sys\_db\_category\] table has been configured and enabled. When you request the plugin, ServiceNow support configures this category for you.
 
 After the plugin is activated and your secondary storage category has been configured and enabled, there will be a **Use Secondary Storage for References** check box on the form to [Create a transform map](../../../script/server-scripting/task/t_CreateATransformMap.md). Use this check box to enable or disable secondary storage.

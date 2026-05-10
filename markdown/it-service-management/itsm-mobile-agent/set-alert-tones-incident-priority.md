@@ -65,7 +65,7 @@ Role required: admin
             }
     ```
 
-    **Note:** Replace the ringtone with the desired alert tone name. For more information on the list of ringtones and alert tones available to update the script, see [Configure sounds for push notifications](https://www.servicenow.com/docs/access?context=push-notif-sounds&version=australia&pubname=australia-mobile&ft:locale=en-US).
+    **Note:** Replace the ringtone with the desired alert tone name. For more information on the list of ringtones and alert tones available to update the script, see [Configure sounds for push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/push-notif-sounds.md).
 
 4.  Select **Update**.
 

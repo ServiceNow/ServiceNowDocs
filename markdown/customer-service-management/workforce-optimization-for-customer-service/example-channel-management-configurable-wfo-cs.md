@@ -15,7 +15,7 @@ breadcrumb: [Channel Management, Explore, Workforce Optimization for Customer Se
 
 Understand how you can monitor important metrics \(or key process indicators\) across different channels and queues. Manage the work being done by your team members \(or agents in your teams\) and collaborate with them to solve complex issues for your end-customers.
 
-The example employee manages Customer Service operations for a large organization and has 12 teams. Each team has anywhere from 8 through 15 agents. The employee must ensure that incoming work gets effectively routed to the right groups across all channels. This can be done by setting up [Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-overview&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) as per the business requirement.
+The example employee manages Customer Service operations for a large organization and has 12 teams. Each team has anywhere from 8 through 15 agents. The employee must ensure that incoming work gets effectively routed to the right groups across all channels. This can be done by setting up [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md) as per the business requirement.
 
 Once the employee has configured Advanced Work Assignment \(AWA\) appropriately, they can add key performance indicators \(KPIs\) to the channels and queues, and monitor the operational performance of the teams in real time.
 

@@ -51,5 +51,5 @@ Domain separation is unsupported in Contract Management. Domain separation enabl
 
 [Terms and conditions](c_TermsAndConditions.md)
 
-[Software Asset Management](https://www.servicenow.com/docs/access?context=c_SAMOverview&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
+[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMOverview.md)
 

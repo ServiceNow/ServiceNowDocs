@@ -165,7 +165,7 @@ To see the report, from the DevOps Change Workspace, navigate to **Administratio
 
 ## System health email notifications
 
-A base system DevOps Report group is added by default. An email notification summarizing the weekly System Health report is sent to the users in this DevOps Report user group that is specified in the **Who will receive** related list of the **System Notifications &gt; Email Notifications** form, as configured in the base system DevOps Health Report notification. For more information, see [Email notifications](https://www.servicenow.com/docs/access?context=c_EmailNotifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+A base system DevOps Report group is added by default. An email notification summarizing the weekly System Health report is sent to the users in this DevOps Report user group that is specified in the **Who will receive** related list of the **System Notifications &gt; Email Notifications** form, as configured in the base system DevOps Health Report notification. For more information, see [Email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md).
 
 **Note:**
 
@@ -176,7 +176,7 @@ The base-system email notification contains and displays a comparative digest of
 
 To configure the frequency in which the base system email notification is sent out. Navigate to **System Scheduler** &gt; **Scheduled Jobs** &gt; **Trigger DevOps Health Check Email Notification** and select the **Configure Job Notification** related link, and make the schedule changes.
 
-If you want to modify the users who receive the email notification, modify the user group specified in the **Groups** field of the **Who will receive** section. Navigate to **System Notification** &gt; **Email** &gt; **Notification** &gt; **DevOps Health Script**. For more information, see [Add a user to a group](https://www.servicenow.com/docs/access?context=t_AddAUserToAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+If you want to modify the users who receive the email notification, modify the user group specified in the **Groups** field of the **Who will receive** section. Navigate to **System Notification** &gt; **Email** &gt; **Notification** &gt; **DevOps Health Script**. For more information, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AddAUserToAGroup.md).
 
 Use the **Preview Notification** option to check your notification.
 

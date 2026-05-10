@@ -17,9 +17,9 @@ Grant users one or more Playbooks roles to enable them to create triggers, playb
 
 ## Roles
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-System administrators can grant users access to Playbooks by assigning [delegated development permissions](https://www.servicenow.com/docs/access?context=c_DelegatedDevelopment&version=australia&pubname=australia-application-development&ft:locale=en-US) or directly assigning [Roles](https://www.servicenow.com/docs/access?context=exploring-user-administration&version=australia&pubname=australia-platform-administration&ft:locale=en-US). Additionally, playbook authors can create additional filters for runtime user access as they build a playbook in Workflow Studio. The following user roles are available for Playbooks:
+System administrators can grant users access to Playbooks by assigning [delegated development permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md) or directly assigning [Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/exploring-user-administration.md). Additionally, playbook authors can create additional filters for runtime user access as they build a playbook in Workflow Studio. The following user roles are available for Playbooks:
 
 <table id="table_h1y_drx_blb"><thead><tr><th>
 

@@ -52,7 +52,7 @@ The IBM zOS Server pattern performs infrastructure-level discovery for z/OS serv
     -   Ability to run REXX scripts
 -   **Create SSH credentials**
 
-    For more information, see [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
 
 
 ## Data collected by Discovery during horizontal discovery

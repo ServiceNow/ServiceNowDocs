@@ -18,7 +18,7 @@ The new inbound integration workflow in the ServiceNow Machine Identity Console 
 
 ## Inbound integrations methods
 
-Inbound Integrations allow you to configure and manage external applications to access ServiceNow APIs. To view detailed usage statistics for each OAuth client, see [View Inbound API Integration Usage dashboard](https://www.servicenow.com/docs/access?context=view-inbound-api-integration-usage-dashboard&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Inbound Integrations allow you to configure and manage external applications to access ServiceNow APIs. To view detailed usage statistics for each OAuth client, see [View Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/view-inbound-api-integration-usage-dashboard.md).
 
 On the instance, navigate to **All** &gt; **Machine Identity Console** &gt; **Inbound integrations** &gt; **New integration**. Choose the application connection type \(grant type\).
 

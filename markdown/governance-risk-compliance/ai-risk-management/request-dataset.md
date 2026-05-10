@@ -27,15 +27,15 @@ Datasets are critical inputs for AI systems and models. Requesting a dataset ini
 
 1.  Request a dataset using one of the following options.
 
-<table><thead><tr><th align="left" id="d76638e71">
+<table><thead><tr><th align="left" id="d77523e71">
 
 Option
 
-</th><th align="left" id="d76638e74">
+</th><th align="left" id="d77523e74">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d76638e80">
+</th></tr></thead><tbody><tr><td id="d77523e80">
 
 **Employee Center**
 
@@ -46,7 +46,7 @@ Description
 3.  Select the **Request a dataset** card.
  **Note:** AI Risk and Compliance Business User and AI Asset owner can complete this option.
 
-</td></tr><tr><td id="d76638e131">
+</td></tr><tr><td id="d77523e131">
 
 **AI Control Tower**
 
@@ -60,7 +60,7 @@ Description
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
-    For full descriptions of the fields for the Request an AI dataset form, see [Request a dataset form](../reference/request-dataset-form.md). For more information, on adding a dataset using the AI Control Tower, see [Create dataset assets](https://www.servicenow.com/docs/access?context=create-dataset-assets&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For full descriptions of the fields for the Request an AI dataset form, see [Request a dataset form](../reference/request-dataset-form.md). For more information, on adding a dataset using the AI Control Tower, see [Create dataset assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-dataset-assets.md).
 
 3.  To add attachments, select **Add attachments**.
 
@@ -79,7 +79,7 @@ AI Product Owner or Requester \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_user
 
 AI Steward or AI Center of Excellence \(AI CoE\) \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager, sn\_ai\_asset\_mgmt.ai\_asset\_owner\]: Review submitted requests for business and strategy alignment, initiate the review process and trigger required assessments as applicable, and coordinate cross‑functional reviews. Continue to oversee the dataset through its life cycle, including inventory tracking, governance activities, and collaboration across stakeholders.
 
-For more information, see [AI Control Tower dashboard](https://www.servicenow.com/docs/access?context=ai-governance&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information, see [AI Control Tower dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-governance.md).
 
 Risk and Compliance Manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\]: Assess the dataset for regulatory, policy, and risk considerations. Assign risk assessments, recommend controls and attestations, and monitor compliance throughout the dataset and associated AI system life cycle.
 

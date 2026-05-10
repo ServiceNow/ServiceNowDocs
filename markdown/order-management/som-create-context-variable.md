@@ -51,7 +51,7 @@ Type
 
 </td><td>
 
-Context variable type. Choose the type of field for the variable. For example, the choice list field type lets your user select from a pre-defined list of choices.For more information on the different field types, see [Field types reference](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Context variable type. Choose the type of field for the variable. For example, the choice list field type lets your user select from a pre-defined list of choices.For more information on the different field types, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
 
 **Note:** Depending on the **Type** selected, other fields and sections in the form are displayed.
 

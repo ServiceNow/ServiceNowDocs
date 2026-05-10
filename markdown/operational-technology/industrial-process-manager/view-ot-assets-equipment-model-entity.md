@@ -44,15 +44,15 @@ Users with an assigned cmdb\_ot\_isa\_admin role can view equipment model entiti
 
 5.  Review the associated OT devices or the associate additional OT devices to the selected equipment model entity.
 
-<table id="choicetable_nnq_bxc_3qb"><thead><tr><th align="left" id="d91862e151">
+<table id="choicetable_nnq_bxc_3qb"><thead><tr><th align="left" id="d91866e151">
 
 Task
 
-</th><th align="left" id="d91862e154">
+</th><th align="left" id="d91866e154">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d91862e160">
+</th></tr></thead><tbody><tr><td id="d91866e160">
 
 **Review the associated OT devices for the selected equipment model entity**
 
@@ -60,7 +60,7 @@ Description
 
 Proceed to the next step and review the OT devices form.
 
-</td></tr><tr><td id="d91862e169">
+</td></tr><tr><td id="d91866e169">
 
 **Associate the additional OT devices to the selected equipment model entity**
 
@@ -72,7 +72,7 @@ Proceed to the next step and review the OT devices form.
 4.  To edit the columns on the table, select the List Actions \(![List Actions icon](../../../common/image/List_PersonalizeListIcon.png)\) icon. Select **Edit columns** to choose the columns you want to display. For example, if you want to display the IP address column for the OT devices, select **IP Address** from the Available columns and click **OK**.
 
 
-</td></tr><tr><td id="d91862e214">
+</td></tr><tr><td id="d91866e214">
 
 **Remove the OT devices from the selected equipment model entity**
 

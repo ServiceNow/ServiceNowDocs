@@ -4,7 +4,7 @@ description: The Security Annotations report presents details stored in the Secu
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Security annotations, Security Operations common functionality, Security Operations]
 ---
@@ -35,5 +35,5 @@ Role required: admin
 
 [Create security annotations for users](create-multi-sec-annotations-for-users.md)
 
-[View the Reports list](https://www.servicenow.com/docs/access?context=r_ViewTheReportsList&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[View the Reports list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/r_ViewTheReportsList.md)
 

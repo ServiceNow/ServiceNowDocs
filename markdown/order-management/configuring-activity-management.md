@@ -16,7 +16,7 @@ Install and configure the necessary plugins for enabling Activity Management fea
 
 **Important:**
 
-To use personal email mailbox in Activity Management, you must install the User Mailbox Integration plugin \(com.glide.email.user\_mailbox.integration\) on your ServiceNow instance. For setup instructions, see [Personal corporate mailbox](https://www.servicenow.com/docs/access?context=personal-corporate-mailbox&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+To use personal email mailbox in Activity Management, you must install the User Mailbox Integration plugin \(com.glide.email.user\_mailbox.integration\) on your ServiceNow instance. For setup instructions, see [Personal corporate mailbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/personal-corporate-mailbox.md).
 
 You must also install the Omnichannel Callback for Customer Service Management \(com.sn\_omnichannel\_callback\) application to enable the click-to-call feature, so agents can call customers from the touchpoint record.
 

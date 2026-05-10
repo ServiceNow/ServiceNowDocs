@@ -33,7 +33,7 @@ Following table depicts the RCA record mapping to its feature.
 |human\_resources\_service\_portal\_rca\_records.xml|\{ Employee Center \}|\[com.sn\_hr\_service\_portal\]|
 |human\_resources\_workspace\_rca.xml|\{Human Resources Scoped App: Workspace\}|\[com.sn\_hr\_agent\_workspace\]|
 
-For more information about the Update sets, see [Update set transfers](https://www.servicenow.com/docs/access?context=update-set-transfers&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For more information about the Update sets, see [Update set transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/update-set-transfers.md).
 
 ## Procedure
 

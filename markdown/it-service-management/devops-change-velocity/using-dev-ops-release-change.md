@@ -47,7 +47,7 @@ A package tracks when one or more artifact versions are being used in a deployme
 
 ## Artifact registration
 
-Configure artifact registration in a scripted pipeline or freestyle job using the [DevOps API](https://www.servicenow.com/docs/access?context=devops-api&version=australia&pubname=australia-api-reference&ft:locale=en-US) `/artifact/registration` endpoint. Multiple artifact versions are supported.
+Configure artifact registration in a scripted pipeline or freestyle job using the [DevOps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/devops-api.md) `/artifact/registration` endpoint. Multiple artifact versions are supported.
 
 For Jenkins pipeline:
 
@@ -72,7 +72,7 @@ For Jenkins pipeline:
 
 **Important:** You must add the package creation step before the change step in your pipeline, and package creation must be added in a stage which is previous to the change step, so that packages are linked to the pipeline execution for a change request.
 
-Configure artifact package creation in a scripted pipeline or freestyle job using the [DevOps API](https://www.servicenow.com/docs/access?context=devops-api&version=australia&pubname=australia-api-reference&ft:locale=en-US) `/package/registration` endpoint.
+Configure artifact package creation in a scripted pipeline or freestyle job using the [DevOps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/devops-api.md) `/package/registration` endpoint.
 
 **Note:** Package name must be specified.
 

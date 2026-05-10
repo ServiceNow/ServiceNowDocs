@@ -37,133 +37,133 @@ Australia Patch 1 includes fixes for security-related problems that affected cer
 
 ## Changes in Australia Patch 1
 
--   **[Access your ServiceNow data using SQL API](https://www.servicenow.com/docs/access?context=accessing-your-servicenow-data-using-sql-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Access your ServiceNow data using SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md)**
 
     The SQL API provides read-only access to your ServiceNow tables, allowing you to write SQL queries, create reports, and perform analysis while maintaining your existing security controls. This eliminates the need for data synchronization and ensures you work with current ServiceNow data.
 
--   **[Associate a request header with a resource](https://www.servicenow.com/docs/access?context=associate-header-api-resource&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Associate a request header with a resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/associate-header-api-resource.md)**
 
     The following procedure describes the process for manually associating a REST API request header with a resource. For details about automatically generating request header definitions in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html).
 
     The request headers that you added are included in the exportable OpenAPI specification in the REST API Explorer with a "type: string" schema definition. For more information about exporting OpenAPI specifications, see [Export to OpenAPI specification](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/export-openapi-specification.html)
 
--   **[Associate query parameters with a resource](https://www.servicenow.com/docs/access?context=AssocQueryParmResource&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Associate query parameters with a resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/AssocQueryParmResource.md)**
 
     The following procedure describes the process for manually associating a query parameter with a resource. For details about automatically generating query parameters for requests in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html).
 
--   **[Automatically generate API request definitions](https://www.servicenow.com/docs/access?context=autogenerate-api-request-definitions&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Automatically generate API request definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/autogenerate-api-request-definitions.md)**
 
     Use sample requests made to an API resource to generate request header associations, query parameter associations, and a request schema for that resource.
 
--   **[Common use cases for SQL API](https://www.servicenow.com/docs/access?context=common-use-cases-for-sql-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Common use cases for SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/common-use-cases-for-sql-api.md)**
 
     The SQL API supports business intelligence reporting, ad-hoc data analysis, and custom report development.
 
--   **[Configure ServiceNow SQL API JDBC driver on client machine](https://www.servicenow.com/docs/access?context=configure-jdbc-driver&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Configure ServiceNow SQL API JDBC driver on client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configure-jdbc-driver.md)**
 
     Configure the JDBC driver settings on your client machine to establish a connection to your ServiceNow instance and access data through the SQL API.
 
--   **[Configure ServiceNow SQL API ODBC driver on client machine](https://www.servicenow.com/docs/access?context=configure-odbc-driver&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Configure ServiceNow SQL API ODBC driver on client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configure-odbc-driver.md)**
 
     Configure connection settings for the installed ODBC driver including server URL and authentication credentials to enable data access from BI tools to your ServiceNow instance.
 
--   **[Configuring ServiceNow Vault](https://www.servicenow.com/docs/access?context=configuring-servicenow-vault&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
+-   **[Configuring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-servicenow-vault.md)**
 
     Learn how to install and configure ServiceNow Vault.
 
--   **[Configuring SQL API](https://www.servicenow.com/docs/access?context=configuring-sql-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Configuring SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configuring-sql-api.md)**
 
     Configure your ServiceNow instance to enable SQL API access, set up the necessary security controls, and install the appropriate drivers on your client machine.
 
--   **[Configure SQL API plugin on your ServiceNow instance](https://www.servicenow.com/docs/access?context=configure-sql-api-overview&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Configure SQL API plugin on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configure-sql-api-overview.md)**
 
     Configure your ServiceNow instance to enable SQL API access, set up the necessary security controls, and install the appropriate drivers on your client machine.
 
--   **[Connect DB Visualizer to JDBC driver](https://www.servicenow.com/docs/access?context=connect-dbvisualizer-jdbc&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Connect DB Visualizer to JDBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/connect-dbvisualizer-jdbc.md)**
 
     Overview of the three-step configuration process required to enable SQL API access including prerequisites and expected outcomes.
 
--   **[Connect Power BI Desktop to ODBC driver](https://www.servicenow.com/docs/access?context=connect-power-bi-odbc&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Connect Power BI Desktop to ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/connect-power-bi-odbc.md)**
 
     Connect Power BI Desktop to your ServiceNow instance using the ODBC driver to access and analyze ServiceNow data. Create dashboards and reports that visualize your ServiceNow data.
 
--   **[Create Access Control Lists \(ACLs\) for SQL API](https://www.servicenow.com/docs/access?context=create-acls-sql-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Create Access Control Lists \(ACLs\) for SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/create-acls-sql-api.md)**
 
     Configure table-level access control using the egress\_sql and read operations to grant Service Accounts query access to specific tables through the SQL API.
 
--   **[Create IP filter criteria](https://www.servicenow.com/docs/access?context=create-ip-filter-criteria&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Create IP filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/create-ip-filter-criteria.md)**
 
     Define which IP addresses or IP ranges are permitted to connect to your ServiceNow instance via the SQL API ODBC or JDBC driver. By default, all incoming IPs are blocked until you configure the SQL API Authentication Policy with an IP filter and policy condition to allow access only from trusted client machines.
 
--   **[Create a Service Account and assign Roles](https://www.servicenow.com/docs/access?context=create-service-account&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Create a Service Account and assign Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/create-service-account.md)**
 
     Create a dedicated non-interactive Service Account in User Administration and assign the appropriate SQL API access role to enable secure, programmatic access for BI tools and analytics platforms.
 
--   **[Download the SQL API drivers on client machine](https://www.servicenow.com/docs/access?context=download-sql-api-drivers&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Download the SQL API drivers on client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/download-sql-api-drivers.md)**
 
     Download the ODBC and JDBC drivers from the ServiceNow store to your client machine to enable SQL API connectivity.
 
--   **[Define a REST API response header](https://www.servicenow.com/docs/access?context=define-scripted-api-response-header&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Define a REST API response header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/define-scripted-api-response-header.md)**
 
     Define one or more REST API response headers in a REST API.
 
--   **[Define a REST API schema](https://www.servicenow.com/docs/access?context=define-scripted-rest-api-schema&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Define a REST API schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/define-scripted-rest-api-schema.md)**
 
     Specify the expected data structure for requests or responses within a REST API by defining a schema.
 
     The following procedure describes the process for manual schema definition. For details about automatically generating request schema definitions in non-production instances, see .
 
--   **[Define an API resource request structure](https://www.servicenow.com/docs/access?context=add-schema-rest-api-request&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Define an API resource request structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/add-schema-rest-api-request.md)**
 
     Add a schema to a REST request record to define the request's expected data structure.
 
     The following procedure describes the process for manually adding a request schema to a resource. For details about automatically generating request schema definitions in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html)
 
--   **[Define an API resource response structure](https://www.servicenow.com/docs/access?context=add-schema-rest-api-response&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Define an API resource response structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/add-schema-rest-api-response.md)**
 
     Add a schema and relevant response headers to a REST response to define the response's expected data structure.
 
--   **[Define available query parameters](https://www.servicenow.com/docs/access?context=t_DefineAvailableQueryParameters&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Define available query parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_DefineAvailableQueryParameters.md)**
 
     The following procedure describes the process for manually defining query parameters for a scripted REST API service. For details about automatically generating query parameters for requests in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html).
 
--   **[Define a scripted REST API request header](https://www.servicenow.com/docs/access?context=t_DefineRESTServiceHeaders&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Define a scripted REST API request header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_DefineRESTServiceHeaders.md)**
 
     a scripted REST API request header
 
     The following procedure describes the process for manual definition of a scripted REST API request header. For details about automatically generating request header definitions in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html).
 
--   **[Enhanced Requests Experience](https://www.servicenow.com/docs/access?context=my-requests-update-intro&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **[Enhanced Requests Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/my-requests-update-intro.md)**
 
     **Note:** You must be on the Employee Center version 38.0 or later or have upgraded to the Australia release to use the Enhanced Requests Experience.
 
     The requests are displayed in a card view by default. You can the view toggle icons next to the search bar to switch between card view and list view. The toggle functionality is only available on Employee Center version 40 onwards.
 
--   **[Getting started with ServiceNow SQL API](https://www.servicenow.com/docs/access?context=getting-started-with-servicenow-sql-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Getting started with ServiceNow SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/getting-started-with-servicenow-sql-api.md)**
 
     The ServiceNow SQL API provides data access to your ServiceNow instances through industry-standard ODBC and JDBC drivers, enabling direct connections from Business Intelligence \(BI\) tools and data analysis platforms.
 
--   **[Integrate SQL API Drivers with external BI tools](https://www.servicenow.com/docs/access?context=configure-drivers-bi-tools&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Integrate SQL API Drivers with external BI tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configure-drivers-bi-tools.md)**
 
     Configure ServiceNow SQL API drivers to connect with external business intelligence and database tools for direct data access and analysis.
 
--   **[Install ServiceNow SQL API ODBC driver on client machine](https://www.servicenow.com/docs/access?context=install-odbc-driver&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Install ServiceNow SQL API ODBC driver on client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/install-odbc-driver.md)**
 
     Install the ServiceNow ODBC driver on your Windows client machine to enable connectivity between your Business Intelligence \(BI\) tools and ServiceNow data through the SQL API.
 
--   **[Install SQL API plugin on your ServiceNow instance](https://www.servicenow.com/docs/access?context=install-sql-api-plugin&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Install SQL API plugin on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/install-sql-api-plugin.md)**
 
     Installing the SQL API on your instance enables secure, read-only access to your instance data from external applications. You can integrate your data with external tools and analytics platforms to enhance your reporting and data analysis capabilities.
 
--   **[Install ServiceNow Vault](https://www.servicenow.com/docs/access?context=install-vault&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
+-   **[Install ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/install-vault.md)**
 
     Install the ServiceNow Vault application and assign the required roles.
 
--   **[Manage connected content from topic pages](https://www.servicenow.com/docs/access?context=mnge-content-topics&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **[Manage connected content from topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mnge-content-topics.md)**
 
     Link your desired categories to the topics and track the additions and removals to have easier management of unconnected content.
 
--   **[Minimum requirements and supported software for SQL API](https://www.servicenow.com/docs/access?context=minimum-requirements-and-supported-softwares&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Minimum requirements and supported software for SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/minimum-requirements-and-supported-softwares.md)**
 
     This section lists the minimum supported versions for ServiceNow server releases, client drivers \(ODBC and JDBC\), and Java Development Kit required for SQL API.
 
@@ -171,39 +171,39 @@ Australia Patch 1 includes fixes for security-related problems that affected cer
 
     For Now Assist new features and changes, see [Now Assist and agentic AI release notes](../now-assist/now-assist-rn-landing.md).
 
--   **[Route SQL API calls to Read Replica](https://www.servicenow.com/docs/access?context=routing-sql-api-calls-to-read-replica&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Route SQL API calls to Read Replica](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/routing-sql-api-calls-to-read-replica.md)**
 
     You can route SQL API calls to Read Replica to optimize the performance of your ServiceNow instance.
 
--   **[Scripted REST APIs](https://www.servicenow.com/docs/access?context=c_CustomWebServices&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md)**
 
     Schemas define a structure that can be used for API requests and responses, including data type, expected fields, and formats. You can define multiple schemas within a scripted REST API, which can be used to specify request and response contents of the resources within that API.
 
--   **[ServiceNow Vault roles](https://www.servicenow.com/docs/access?context=vault-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
+-   **[ServiceNow Vault roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-roles.md)**
 
     Learn and set up the roles necessary to use ServiceNow Vault.
 
--   **[SQL API architecture](https://www.servicenow.com/docs/access?context=sql-api-architecture&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[SQL API architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/sql-api-architecture.md)**
 
     The SQL API architecture demonstrates how the SQL API plugin integrates with the ServiceNow system to provide secure, read-only data access through industry-standard ODBC and JDBC drivers.
 
--   **[SQL API reference information](https://www.servicenow.com/docs/access?context=troubleshooting&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[SQL API reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/troubleshooting.md)**
 
     This section provides details about SQL API reference information like minimum requirements and usage limitations.
 
--   **[Supported SQL functions](https://www.servicenow.com/docs/access?context=supported-sql-functions&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Supported SQL functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/supported-sql-functions.md)**
 
     Common SQL functions used in SQL API for querying and analyzing incident data.
 
--   **[Test SQL API ODBC driver connection using Interactive SQL](https://www.servicenow.com/docs/access?context=test-sql-api-odbc-driver-connection-using-interactive-sql&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Test SQL API ODBC driver connection using Interactive SQL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/test-sql-api-odbc-driver-connection-using-interactive-sql.md)**
 
     Run the Interactive SQL application for quick verification of connectivity and to test query results without using a full application.
 
--   **[Usage Limitations for SQL API](https://www.servicenow.com/docs/access?context=usage-limitations&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Usage Limitations for SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/usage-limitations.md)**
 
     The SQL API imposes rate limits to ensure system stability and performance when querying ServiceNow data through ODBC and JDBC drivers.
 
--   **[Use Now Assist to search the CMDB](https://www.servicenow.com/docs/access?context=na-cmdb-awf-search&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **[Use Now Assist to search the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-search.md)**
 
     Starting with Now Assist for CMDB v3.0, searches can include parent-child nodes spanning multiple tables and can traverse relationship graphs \(searches that traverse the cmdb\_rel\_ci\), for example, "Search for servers that depend on databases".
 

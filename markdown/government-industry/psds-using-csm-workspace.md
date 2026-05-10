@@ -63,13 +63,13 @@ Search for knowledge articles and attach them to cases or open articles in sub-t
 
 </td><td>
 
-[Search for knowledge articles](https://www.servicenow.com/docs/access?context=csm-workspace-search-knowledge&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Search for knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-search-knowledge.md)
 
- [Open a knowledge article](https://www.servicenow.com/docs/access?context=csm-workspace-open-knowledge&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+ [Open a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-open-knowledge.md)
 
- [Report a knowledge gap](https://www.servicenow.com/docs/access?context=csm-workspace-report-knowledge-gap&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+ [Report a knowledge gap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-report-knowledge-gap.md)
 
- [Create a knowledge article](https://www.servicenow.com/docs/access?context=csm-workspace-create-knowledge&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+ [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-create-knowledge.md)
 
 </td></tr><tr><td>
 

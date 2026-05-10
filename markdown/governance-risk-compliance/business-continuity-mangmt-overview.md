@@ -55,7 +55,7 @@ For more information on Business Continuity Management, see [Exploring Business 
 
 You can configure the Business Continuity Management application in the UI Builder Workspace. UI Builder is a Web user interface builder to build or customize your Workspace pages by using Next Experience Components.
 
-For more information on the next generation of the user interface, see [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For more information on the next generation of the user interface, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md).
 
 For information on the UI Builder administrative tasks in BCM, see [Setup for the UI Builder](configuring-bcm-workspace-by-using-ui-builder.md).
 

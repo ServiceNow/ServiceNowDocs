@@ -40,7 +40,7 @@ The ServiceNow AI Platform offers several forms of queuing and communication man
 </td></tr></tbody>
 </table>## Troubleshoot and get help
 
--   [Virtual Agent interaction records](https://www.servicenow.com/docs/access?context=va-interactions&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+-   [Virtual Agent interaction records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-interactions.md)
 -   [ServiceNow Community forums](https://www.servicenow.com/community/)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)

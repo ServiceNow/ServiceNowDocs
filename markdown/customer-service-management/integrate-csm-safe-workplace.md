@@ -23,7 +23,7 @@ Role required: admin
 
 ## Procedure
 
-1.  [Install Employee Health Screening](https://www.servicenow.com/docs/access?context=install-emp-health-screening&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+1.  [Install Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/install-emp-health-screening.md).
 
 2.  Give external users access to the Health Verification form.
 

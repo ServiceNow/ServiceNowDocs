@@ -24,7 +24,7 @@ Domain separation is supported in Knowledge Management. Domain separation enable
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Overview
 
@@ -50,7 +50,7 @@ Fulfiller: The application can be used by the Fulfiller within the tenant domain
 
 -   If the `glide.knowman.allow_edit_global_articles` system property is enabled, users from a domain other than the global domain can check out and edit global articles. Otherwise, system administrators and users from a domain other than the global domain cannot check out global articles and are shown a warning message to that effect. Depending on their access, users can change their domain to the global domain to check out and edit the global articles.
 -   Domains of versioned articles will be maintained as per the latest article version's domain. This includes updating the domain for kb\_version, kb\_knowledge, kb\_feedback, and sys\_attachment tables.
--   If domains contain another domain: If Domain A contains Domain B, users with access to Domain A can author articles in Domain B by toggling the domain scope. To learn more about toggling domain scope, see [Visibility domains and Contains domains](https://www.servicenow.com/docs/access?context=c_DomainVisibility&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   If domains contain another domain: If Domain A contains Domain B, users with access to Domain A can author articles in Domain B by toggling the domain scope. To learn more about toggling domain scope, see [Visibility domains and Contains domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainVisibility.md).
 
 See [Managing access to knowledge bases and knowledge articles](user-access-knowledge.md) to learn how to control contribute and read access to knowledge bases and knowledge articles.
 
@@ -108,5 +108,5 @@ This image demonstrates a basic domain hierarchy that is available in the base s
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

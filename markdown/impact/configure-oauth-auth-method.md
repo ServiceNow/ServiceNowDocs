@@ -21,7 +21,7 @@ Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\).
 
 1.  To assign a user or users the Integration role \(sn\_se.internal\_rest\_integration\), navigate to **ALL** &gt; **System Security** &gt; **Users and Groups** &gt; **Users**, and then select **New**.
 
-    For more information on creating a new user, see [Create new user form](https://www.servicenow.com/docs/access?context=eaw-create-new-user-form&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US).
+    For more information on creating a new user, see [Create new user form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-user-form.md).
 
 2.  To create an OAuth authentication record, navigate to `sys_auth_profile_oauth2.list`, and then select **New**.
 

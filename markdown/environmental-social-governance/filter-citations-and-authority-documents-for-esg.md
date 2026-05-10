@@ -39,5 +39,5 @@ When you view the citations and authority documents in an instance, all the cita
 **Related topics**  
 
 
-[Create or deactivate a citation](https://www.servicenow.com/docs/access?context=t_CreateCitations&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)
+[Create or deactivate a citation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateCitations.md)
 

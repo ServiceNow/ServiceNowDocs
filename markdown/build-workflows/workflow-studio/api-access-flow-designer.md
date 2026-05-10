@@ -21,23 +21,23 @@ Trigger flows, subflows, and actions using these APIs from server or client scri
 
 -   **Server side**
 
-    [FlowAPI](https://www.servicenow.com/docs/access?context=ScriptableFlowAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US): Trigger a flow, subflow, or action using synchronous or asynchronous methods, with or without execution details.
+    [FlowAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ScriptableFlowAPI.md): Trigger a flow, subflow, or action using synchronous or asynchronous methods, with or without execution details.
 
 -   **Client side**
 
-    [GlideFlow](https://www.servicenow.com/docs/access?context=GlideFlowAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US): Perform client-side interactions with actions, flows, and subflows. Flow designers must enable a flow, subflow, and action to be called from the client.
+    [GlideFlow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideFlowAPI.md): Perform client-side interactions with actions, flows, and subflows. Flow designers must enable a flow, subflow, and action to be called from the client.
 
 
 ## FlowAPI quick methods
 
-Use quick methods in the [FlowAPI](https://www.servicenow.com/docs/access?context=ScriptableFlowAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) class to run an action, flow, or subflow from a server-side script without creating execution details or other related records. Use these methods to increase the speed of high-volume processing in a production environment, and to improve performance by eliminating record-keeping overhead. Methods include:
+Use quick methods in the [FlowAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ScriptableFlowAPI.md) class to run an action, flow, or subflow from a server-side script without creating execution details or other related records. Use these methods to increase the speed of high-volume processing in a production environment, and to improve performance by eliminating record-keeping overhead. Methods include:
 
 -   executeActionQuick\(\), executeFlowQuick\(\), executeSubflowQuick\(\): Run an action, flow, or subflow from a server-side script synchronously from the current user session.
 -   startActionQuick\(\), startFlowQuick\(\), startSubflowQuick\(\): Run an action, flow, or subflow from a server-side script asynchronously.
 
 ## XML and JSON streaming APIs
 
-Builds a large streaming or non-streaming JSON or XML payload to use in a REST or SOAP request to send bulk data to a third-party API. For example, you can use these APIs to create a JSON payload in the Workflow Studio Script step and pass the returned value to the REST step to send the request to a third-party service. For more information, see [JSONStreamingBuilder](https://www.servicenow.com/docs/access?context=JSONStreamingBuilderScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) and [XMLStreamingBuilder](https://www.servicenow.com/docs/access?context=XMLStreamingBuilderScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Builds a large streaming or non-streaming JSON or XML payload to use in a REST or SOAP request to send bulk data to a third-party API. For example, you can use these APIs to create a JSON payload in the Workflow Studio Script step and pass the returned value to the REST step to send the request to a third-party service. For more information, see [JSONStreamingBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/JSONStreamingBuilderScopedAPI.md) and [XMLStreamingBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/XMLStreamingBuilderScopedAPI.md).
 
 ## Client callable APIs
 

@@ -29,21 +29,21 @@ In addition to using Now Assist on the Explore CI page, Now Assist provides deta
 
 1.  While viewing a CI on the Explore CI view, select **Ask Now Assist for help**.
 
-    The Now Assist panel opens. Enter a question about any field or section on the view. For more information, see [Working in the Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    The Now Assist panel opens. Enter a question about any field or section on the view. For more information, see [Working in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
     ![Description of the CI attribute](../image/na-cmdb-ci-form-help-explore-ci-ex.png)
 
 2.  Provide feedback, copy the response text to the clipboard, or refresh the response.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d598429e143">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d602175e143">
 
 Option
 
-</th><th align="left" id="d598429e146">
+</th><th align="left" id="d602175e146">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d598429e152">
+</th></tr></thead><tbody><tr><td id="d602175e152">
 
 **Provide feedback for the summary**
 
@@ -51,7 +51,7 @@ Procedure
 
 If you think that the response was helpful, select thumbs-up ![](../../configuration-management/image/icon-thumbs-up.png). If you think that it wasn’t helpful, select thumbs-down ![](../../configuration-management/image/icon-thumbs-down.png).This feedback improves the Agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the Agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d598429e167">
+</td></tr><tr><td id="d602175e167">
 
 **Copy the summary**
 
@@ -59,7 +59,7 @@ If you think that the response was helpful, select thumbs-up ![](../../configura
 
 Select the copy to clipboard icon ![](../../configuration-management/image/icon-clipboard.png) to use the response information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d598429e178">
+</td></tr><tr><td id="d602175e178">
 
 **Refresh the summary**
 

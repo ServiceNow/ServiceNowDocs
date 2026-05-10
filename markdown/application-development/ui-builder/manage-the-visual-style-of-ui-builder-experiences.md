@@ -17,19 +17,19 @@ Themes enable you to change the visual style of your UI Builder experiences so t
 
 ## Getting started with themes
 
-By default, the Polaris theme is applied to UI Builder experiences. For more information, see [Working with themes in Next Experience](https://www.servicenow.com/docs/access?context=next-experience-theming&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+By default, the Polaris theme is applied to UI Builder experiences. For more information, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
 
 ## Create a new theme with Theme Builder
 
-Theme Builder enables you to create, edit, manage, and apply Next Experience themes using a friendly visual interface. For more information, see [Configuring Next Experience with Theme Builder](https://www.servicenow.com/docs/access?context=configuring-next-experience-with-theme-builder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Theme Builder enables you to create, edit, manage, and apply Next Experience themes using a friendly visual interface. For more information, see [Configuring Next Experience with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configuring-next-experience-with-theme-builder.md).
 
 ## Create a custom theme
 
-If you are an admin user comfortable working in style records and JSON code, you can create a custom theme to override the default Polaris style. This option gives you the most control over typefaces, colors, and images \(including the banner and logo\) in a theme. For more information, see [Configuring Next Experience themes and preferences](https://www.servicenow.com/docs/access?context=config-next-experience-themes-prefs&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+If you are an admin user comfortable working in style records and JSON code, you can create a custom theme to override the default Polaris style. This option gives you the most control over typefaces, colors, and images \(including the banner and logo\) in a theme. For more information, see [Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-next-experience-themes-prefs.md).
 
 ## Working with dark theme
 
-If you are interested in dark theme, see [Working with the dark theme](https://www.servicenow.com/docs/access?context=tb-working-in-dark-theme&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+If you are interested in dark theme, see [Working with the dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-working-in-dark-theme.md).
 
 ## Create custom style classes and rules
 

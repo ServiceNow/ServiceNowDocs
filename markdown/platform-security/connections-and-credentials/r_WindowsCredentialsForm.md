@@ -33,12 +33,12 @@ To provide sufficient permissions, Windows credentials must be one of the follow
     **Important:** If User Account Control \(UAC\) is enabled on the Windows operating system where discovery runs, and the user account is part of the local Administrators group, administrator tasks may fail. To avoid interruptions, we recommend disabling UAC. For more information, see the [Why does the User Access Control \(UAC\) need to be disabled for Windows Discovery?](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1638330) article in the Now Support Knowledge Base
 
 -   A local account that has administrator privileges and UAC disabled on the same target host.
--   A user who meets the requirements of Windows [probes and permissions](https://www.servicenow.com/docs/access?context=r_DiscoWinProbesAndPermissions&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) \(Discovery only\).
+-   A user who meets the requirements of Windows [probes and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoWinProbesAndPermissions.md) \(Discovery only\).
 -   A user who meets the requirements of the Orchestration activity to be run \(Orchestration only\).
 
 **Note:** No logon privileges are needed. Account does NOT need to be interactive.
 
-Security around granting privileged access can be enhanced by using JEA profiles to run Discovery. For more information, see [Microsoft Just Enough Administration \(JEA\) for Discovery](https://www.servicenow.com/docs/access?context=microsoft-jea-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+Security around granting privileged access can be enhanced by using JEA profiles to run Discovery. For more information, see [Microsoft Just Enough Administration \(JEA\) for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/microsoft-jea-discovery.md).
 
 ## Workgroup computers
 
@@ -61,7 +61,7 @@ These additional actions are required to enable credentials to function across m
 |---------|---------------------------|
 |MID Server host on the same domain as the Windows target.|None|
 |MID Server host on a different domain than the Windows target.|Ensure that PowerShell 3.0 \(or higher up to 5.1\) is installed on the MID Server host.|
-|MID Server host on a different domain than the Microsoft SQL Server target.|See [MSSQL server discovery](https://www.servicenow.com/docs/access?context=mssql-data-collected-pattern&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) .|
+|MID Server host on a different domain than the Microsoft SQL Server target.|See [MSSQL server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/mssql-data-collected-pattern.md) .|
 
 ## Windows credentials type
 
@@ -176,7 +176,7 @@ Role required: admin
 
 1.  Configure the MID Server to use credentials from the MID Server service account.
 
-    1.  Set the [Configure Windows MID Server service credentials](https://www.servicenow.com/docs/access?context=mid-server-install-prereqs&version=australia&pubname=australia-servicenow-platform&section=t_ConfigMIDSvrSvcCredentials&ft:locale=en-US) to a user who meets the permission requirements.
+    1.  Set the [Configure Windows MID Server service credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md) to a user who meets the permission requirements.
 
     2.  Verify the user name meets the name format requirements.
 
@@ -193,7 +193,7 @@ Role required: admin
         -   Verify each credential meets the Windows domain requirements.
     2.  Configure the MID Server to use Powershell by setting the `mid.use_powershell` parameter to **true**.
 
-        See [Configuring MID Servers](https://www.servicenow.com/docs/access?context=c_MIDServerConfiguration&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+        See [Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md).
 
     3.  Select the Windows MID Server Service Account check box to create a credential that represents the windows MID Server service account to run as a specific Windows user or domain account.
 

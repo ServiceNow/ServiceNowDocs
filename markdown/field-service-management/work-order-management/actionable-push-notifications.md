@@ -24,9 +24,9 @@ Push notifications provide several advantages:
 **Related topics**  
 
 
-[Mobile push notifications](https://www.servicenow.com/docs/access?context=sg-mobile-push-notifications&version=australia&pubname=australia-mobile&ft:locale=en-US)
+[Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-push-notifications.md)
 
-[Configure actionable push notifications](https://www.servicenow.com/docs/access?context=actionable-push-notification&version=australia&pubname=australia-mobile&ft:locale=en-US)
+[Configure actionable push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/actionable-push-notification.md)
 
-[Mobile push notification components](https://www.servicenow.com/docs/access?context=configure-mobile-push-notifications&version=australia&pubname=australia-mobile&ft:locale=en-US)
+[Mobile push notification components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-mobile-push-notifications.md)
 

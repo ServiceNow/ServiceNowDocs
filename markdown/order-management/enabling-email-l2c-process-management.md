@@ -15,7 +15,7 @@ Sales process managers must be granted access to compose emails for the sales en
 
 Sales process managers can compose and send emails related to a sales process record by default. Enable sales process managers to compose emails for the related sales entities by setting the value of the **email\_client** dictionary attribute to **true** and using either of the following methods:
 
--   Grant the sales process manager write access to the child entity. For more information, see [Enable the email client for a table](https://www.servicenow.com/docs/access?context=enable-email-client&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Grant the sales process manager write access to the child entity. For more information, see [Enable the email client for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enable-email-client.md).
 -   Set the value of the **glide.email\_client.check\_write\_access** system property to **false** to override checking whether the user has write access to the child entity.
 
     **Note:** The **glide.email\_client.check\_write\_access** system property isn’t supported on Xanadu and Yokohama Glide versions. If you’re using these Glide versions, then you must grant your users write access to the child entity.
@@ -24,7 +24,7 @@ Sales process managers can compose and send emails related to a sales process re
 **Related topics**  
 
 
-[Email client](https://www.servicenow.com/docs/access?context=c_EnableTheEmailClient&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Email client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EnableTheEmailClient.md)
 
 [View and send emails in Lead-to-Cash Process Management](../task/view-send-emails-sales-process.md)
 

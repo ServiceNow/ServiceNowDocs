@@ -15,7 +15,7 @@ In the provider instance, associate the appropriate consumer criteria to the rem
 
 ## Before you begin
 
-By default remote record producers are available to all consumers. If you have specific criteria for certain users, define the consumer criteria for Service Exchange users. For more information, see [Creating entitlements in Service Exchange for Providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-entitlements&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
+By default remote record producers are available to all consumers. If you have specific criteria for certain users, define the consumer criteria for Service Exchange users. For more information, see [Creating entitlements in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-entitlements.md).
 
 Role required: sn\_sb.admin or admin
 

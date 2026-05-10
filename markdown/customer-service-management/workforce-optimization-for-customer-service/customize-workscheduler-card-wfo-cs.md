@@ -66,5 +66,5 @@ You can duplicate an existing work item variant such as an Incident, Problem, Ch
 **Related topics**  
 
 
-[Create a page in UI Builder](https://www.servicenow.com/docs/access?context=create-page&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md)
 

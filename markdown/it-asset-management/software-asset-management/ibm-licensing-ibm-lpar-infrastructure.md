@@ -17,7 +17,7 @@ When you integrate the Software Asset Management publisher pack for IBM with Sof
 
 A logical partition \(LPAR\) is a defined subset of processor hardware that supports the operating system. An LPAR contains resources, such as processors, memory, and input or output devices, that operate as an independent system. You can have multiple LPARs within each mainframe hardware system.
 
-Discovering the LPARs and LPAR resources within your IBM LPAR infrastructure requires ServiceNow Discovery patterns for the IBM Hardware Management Console \(HMC\), which is the hardware appliance that enables you to manage and configure your LPARs. To access these discovery patterns, you must request and install the Discovery and Service Mapping Patterns application from the ServiceNow Store. For more information on how to configure a discovery on your LPARs, see [IBM Virtualization and Hardware Management Console discovery](https://www.servicenow.com/docs/access?context=ibm-hmc-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+Discovering the LPARs and LPAR resources within your IBM LPAR infrastructure requires ServiceNow Discovery patterns for the IBM Hardware Management Console \(HMC\), which is the hardware appliance that enables you to manage and configure your LPARs. To access these discovery patterns, you must request and install the Discovery and Service Mapping Patterns application from the ServiceNow Store. For more information on how to configure a discovery on your LPARs, see [IBM Virtualization and Hardware Management Console discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/ibm-hmc-discovery.md).
 
 **Note:** The `lparstat` command pulls a report of LPAR-related information and usage. For more information, see the [IBM Knowledge Center](https://www.ibm.com/support/knowledgecenter/).
 
@@ -30,7 +30,7 @@ When you run a discovery, your discovered LPAR data is populated and stored in t
 -   cmdb\_rel\_ci
 -   cmdb\_sam\_sw\_install
 
-To populate and store this data, you must request and install the CMDB CI Class Models application from the ServiceNow Store. This application adds or updates CMDB classes for the IBM HMC. For more information on IBM HMC CMDB classes, see [IBM Hardware Management Console \(HMC\) extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-ibm-hmc&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+To populate and store this data, you must request and install the CMDB CI Class Models application from the ServiceNow Store. This application adds or updates CMDB classes for the IBM HMC. For more information on IBM HMC CMDB classes, see [IBM Hardware Management Console \(HMC\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-ibm-hmc.md).
 
 The Software Asset Management application supports both full capacity and sub-capacity processor value unit \(PVU\), resource value unit \(RVU\), and virtual processor core \(VPC\) licensing for IBM software products in IBM LPAR infrastructures.
 

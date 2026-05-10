@@ -17,7 +17,7 @@ To transfer between instances a Performance Analytics domain configuration that 
 
 ## Before you begin
 
-Transfer the domain configuration with an update set. For more information about using update sets to transfer configurations between instances, see [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Transfer the domain configuration with an update set. For more information about using update sets to transfer configurations between instances, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md).
 
 Role required: admin
 

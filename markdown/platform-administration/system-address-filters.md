@@ -38,7 +38,7 @@ Before you set up system address filters, consider doing the following:
 
 -   Monitor your email to identify suspicious domains and email addresses.
 
-    Using Security Center, you can monitor the blocked and allowed incoming email metrics for your instance. For more information, see [Designate untrusted and trusted email domains](https://www.servicenow.com/docs/access?context=designate-untrusted-trusted-email-domains&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    Using Security Center, you can monitor the blocked and allowed incoming email metrics for your instance. For more information, see [Designate untrusted and trusted email domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/designate-untrusted-trusted-email-domains.md).
 
 -   Designate someone to set up system address filters by assigning them the email\_account\_admin role.
 

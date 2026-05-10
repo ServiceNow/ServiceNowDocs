@@ -18,7 +18,7 @@ By default, the DevOps Config Policy content pack contains a set of generic poli
 
 **Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
-You can use or customize these default DevOps Config policies to validate that your configuration data content is conformable, or [administrate the full life cycle of PaCE policies](https://www.servicenow.com/docs/access?context=pace-managing-policies&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+You can use or customize these default DevOps Config policies to validate that your configuration data content is conformable, or [administrate the full life cycle of PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-managing-policies.md).
 
 **Note:** You can’t modify the default policies. However, you can make a copy of the policy and customize your copy.
 

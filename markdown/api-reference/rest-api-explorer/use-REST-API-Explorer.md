@@ -15,7 +15,7 @@ breadcrumb: [REST APIs, Web services, API implementation, API implementation and
 
 In this tutorial you will use the REST API Explorer to test the ServiceNow REST APIs.
 
-The REST API Explorer allows you to discover ServiceNow REST APIs, quickly construct and execute requests, and view responses from ServiceNow REST APIs within your browser. Before beginning, ensure that your user account has the rest\_api\_explorer role. This role is required to complete the example procedures. For additional information on assigning roles, see [Managing roles](https://www.servicenow.com/docs/access?context=ua-creating-roles&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The REST API Explorer allows you to discover ServiceNow REST APIs, quickly construct and execute requests, and view responses from ServiceNow REST APIs within your browser. Before beginning, ensure that your user account has the rest\_api\_explorer role. This role is required to complete the example procedures. For additional information on assigning roles, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md).
 
 -   **[Access the REST API Explorer](../task/t_GetStartedAccessExplorer.md)**  
 View available REST API resources using the REST API Explorer.

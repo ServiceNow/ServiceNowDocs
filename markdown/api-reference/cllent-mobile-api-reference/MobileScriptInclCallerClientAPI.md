@@ -15,9 +15,9 @@ breadcrumb: [Client mobile API reference, API reference, API implementation and 
 
 Provides methods to call script includes from Mobile UI Rule Actions.
 
-This API can be used with the [m\_form - Client](../../m_form/concept/m_formClientAPI.md#) API to auto-fill inputs on input form screens. For more information about input form screens, see [Input form screen](https://www.servicenow.com/docs/access?context=parameter-input-screen&version=australia&pubname=australia-mobile&ft:locale=en-US).
+This API can be used with the [m\_form - Client](../../m_form/concept/m_formClientAPI.md#) API to auto-fill inputs on input form screens. For more information about input form screens, see [Input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-input-screen.md).
 
-Use this API in the **Client script** field of a Mobile UI Rule Action. For instructions on configuring a Mobile UI Rule Action with the correct settings for this API, see [Configure auto-fill inputs on input form screens](https://www.servicenow.com/docs/access?context=config-autofil-inputs-nptfrmscrn&version=australia&pubname=australia-mobile&ft:locale=en-US).
+Use this API in the **Client script** field of a Mobile UI Rule Action. For instructions on configuring a Mobile UI Rule Action with the correct settings for this API, see [Configure auto-fill inputs on input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-autofil-inputs-nptfrmscrn.md).
 
 The script include must have the **Mobile callable** field selected to be called by this API.
 

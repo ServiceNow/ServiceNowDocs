@@ -49,15 +49,15 @@ Reassign a risk assessment that is past its due date directly from the list of r
 
 9.  Choose one from the following table to continue.
 
-<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d52070e179">
+<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d52074e179">
 
 Option
 
-</th><th align="left" id="d52070e182">
+</th><th align="left" id="d52074e182">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d52070e188">
+</th></tr></thead><tbody><tr><td id="d52074e188">
 
 **Reassign**
 
@@ -65,7 +65,7 @@ Description
 
 With the record displayed, review the details and tap the menu icon \(![Top menu icon.](../../grc-common/image/mobile-top-menu.png)\) to reassign the assessment.
 
-</td></tr><tr><td id="d52070e203">
+</td></tr><tr><td id="d52074e203">
 
 **Tap a screen icon at the bottom of the screen.**
 

@@ -111,7 +111,7 @@ The Enhanced Web Service Provider - Common plugin adds the SOAP Security Policie
 -   Enable or disable signing SOAP requests when consuming an external web service
 -   Specify the authentication requirements SOAP requests must meet when communicating over WS-Security.
 
-To know more about SOAP access policy, see [SOAP API access policies](https://www.servicenow.com/docs/access?context=soap-api-access-policies&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+To know more about SOAP access policy, see [SOAP API access policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/soap-api-access-policies.md).
 
 ![The SOAP Security Policies module is selected in the All menu.](../image/SOAPSecurityPolicies.png "SOAP security policies")
 
@@ -130,7 +130,7 @@ Administrators can specify the SOAP security policy an instance uses with the sy
 |-----|-----------|
 |Type|String|
 |Default value|Default Security Policy|
-|Location|[Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) to the System Properties \[sys\_properties\] table|
+|Location|[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) to the System Properties \[sys\_properties\] table|
 
 ## WS-Security
 
@@ -170,7 +170,7 @@ The system property `glide.processor.debug.SOAPProcessor` enables \(true\) or di
 |-----|-----------|
 |Type|true \| false|
 |Default value|false|
-|Location|[Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) to the System Properties \[sys\_properties\] table|
+|Location|[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) to the System Properties \[sys\_properties\] table|
 
 ## WSS X.509 Token Profile
 
@@ -214,7 +214,7 @@ There are two ways to authenticate a UsernameToken.
 
 By default, basic authentication for web services only determines whether a user is authorized to access the instance with a SOAP connection. Once authorized, any user can access any table published as a web service.
 
-The system property **Enforce strict security on incoming SOAP requests** changes this behavior and requires that users meet [Contextual Security Manager](https://www.servicenow.com/docs/access?context=r_ContextualSecurity&version=australia&pubname=australia-platform-security&ft:locale=en-US) requirements to access instance resources from web services.
+The system property **Enforce strict security on incoming SOAP requests** changes this behavior and requires that users meet [Contextual Security Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/r_ContextualSecurity.md) requirements to access instance resources from web services.
 
 With this property enabled, only users that have the proper SOAP role and also meet the ACL conditions the table and operation can perform that operation from a SOAP connection.
 
@@ -253,8 +253,8 @@ Duration, in seconds, that an active session remains open. After this duration i
 </td></tr></tbody>
 </table>**Note:** To learn more about properties that affect SOAP web services processing, see the following topics in Instance Security Hardening Settings:
 
--   [Access control \(instance security hardening\)](https://www.servicenow.com/docs/access?context=sc-access-control&version=australia&pubname=australia-platform-security&ft:locale=en-US)
--   [Basic auth: SOAP requests](https://www.servicenow.com/docs/access?context=sc-soap-request-authorization&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+-   [Access control \(instance security hardening\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+-   [Basic auth: SOAP requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-soap-request-authorization.md)
 
 -   **[Scripted SOAP web services](c_ScriptedWebServices.md)**  
 Scripted SOAP web services allow a ServiceNow administrator to create custom SOAP web services.

@@ -21,7 +21,7 @@ Use the Event API to add/update fields within an event. Use the SNEventSenderPro
 
 You must activate the Event Management \(com.glideapp.itom.snac\) plugin before attempting to access this API. The Event Management plugin requires a separate subscription and must be activated. This plugin includes demo data and activates related plugins if they are not already active.
 
-For additional information on event management, see [Event Management](https://www.servicenow.com/docs/access?context=c_EM&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+For additional information on event management, see [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EM.md).
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 
@@ -261,7 +261,7 @@ Metric type to which the event is related, such as Disk or CPU. This value is us
 </td></tr></tbody>
 </table>**Note:** You can also use the [setText\(\)](EventAPI.md#) method to update the **description** field and the [setTimeOfEvent\(\)](EventAPI.md#) method to update the event time.
 
-For additional information on events, see [Event Management](https://www.servicenow.com/docs/access?context=c_EM&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+For additional information on events, see [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EM.md).
 
 <table id="table_ijd_4ck_jkb" class="parameters"><thead><tr><th>
 
@@ -285,7 +285,7 @@ String
 
 </td><td>
 
-Name of the key to add or update in the event. For additional information on the predefined event fields, see [Event field format for event collection](https://www.servicenow.com/docs/access?context=c_EMIntegrateRequirementEvent&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+Name of the key to add or update in the event. For additional information on the predefined event fields, see [Event field format for event collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMIntegrateRequirementEvent.md).
 
 </td></tr><tr><td>
 

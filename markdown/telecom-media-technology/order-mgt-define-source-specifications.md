@@ -71,5 +71,5 @@ Characteristic option to define the source specification in the compatibility ru
 
 ## What to do next
 
-[Create compatible records in compatibility rules](https://www.servicenow.com/docs/access?context=order-mgt-create-compatibles&version=australia&pubname=australia-order-management&ft:locale=en-US).
+[Create compatible records in compatibility rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-create-compatibles.md).
 

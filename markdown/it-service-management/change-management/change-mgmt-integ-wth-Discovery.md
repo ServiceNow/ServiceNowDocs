@@ -93,7 +93,7 @@ If you have opted to manually initiate the Discovery module, or opted for both m
 
 You can view the changes in the context of application services. Service maps available in Service Mapping show changes to an application service as a whole and to the individual configuration items \(CIs\) comprising the service.
 
-If the ServiceNow AI Platform is configured to validate changes, all changes are evaluated and rendered as valid or not. If a change is valid, its change record on the service instance map is marked as approved. For more information about configuring the platform for change validation, see [Managing proposed changes](https://www.servicenow.com/docs/access?context=c_ProposedChanges&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+If the ServiceNow AI Platform is configured to validate changes, all changes are evaluated and rendered as valid or not. If a change is valid, its change record on the service instance map is marked as approved. For more information about configuring the platform for change validation, see [Managing proposed changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ProposedChanges.md).
 
 The type of change mark depends on the nature of changes that it represents:
 
@@ -119,9 +119,9 @@ The type of change mark depends on the nature of changes that it represents:
 **Related topics**  
 
 
-[Discovery](https://www.servicenow.com/docs/access?context=r-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-discovery.md)
 
-[View the change history of application services](https://www.servicenow.com/docs/access?context=t_ViewCIChanges&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+[View the change history of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_ViewCIChanges.md)
 
-[View the change history of application services in Agent Workspace](https://www.servicenow.com/docs/access?context=workspace-view-history-app-service&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+[View the change history of application services in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/workspace-view-history-app-service.md)
 

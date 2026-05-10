@@ -259,7 +259,7 @@ Role required: sn\_si.admin
 **Related topics**  
 
 
-[Application administration](https://www.servicenow.com/docs/access?context=application-administration&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-administration.md)
 
 ## Manage Restricted Caller Access
 
@@ -272,9 +272,9 @@ A field called **Caller access** has been added to all tables and script include
 **Related topics**  
 
 
-[Restricted caller access privilege settings](https://www.servicenow.com/docs/access?context=restricted-caller-access-privilege&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/restricted-caller-access-privilege.md)
 
-[Set the application scope, application resource, and event access](https://www.servicenow.com/docs/access?context=scope-resource-access&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[Set the application scope, application resource, and event access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/scope-resource-access.md)
 
 ## Run quick start tests for Security Incident Response
 
@@ -566,5 +566,5 @@ Zurich
 </table>**Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/quick-start-tests.md)
 

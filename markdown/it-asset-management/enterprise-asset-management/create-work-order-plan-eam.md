@@ -29,15 +29,15 @@ A work order plan can be created for individual enterprise assets and asset grou
 
 1.  Create a work order plan.
 
-<table id="choicetable_zfb_tsx_j3c"><thead><tr><th align="left" id="d297112e75">
+<table id="choicetable_zfb_tsx_j3c"><thead><tr><th align="left" id="d297226e75">
 
 Create from
 
-</th><th align="left" id="d297112e78">
+</th><th align="left" id="d297226e78">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d297112e84">
+</th></tr></thead><tbody><tr><td id="d297226e84">
 
 **Work management view**
 
@@ -51,7 +51,7 @@ A list of existing work order plans is displayed.
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d297112e125">
+</td></tr><tr><td id="d297226e125">
 
 **Asset group**
 

@@ -17,7 +17,7 @@ If you are using the Adobe Sign integration, configure an HR PDF document templa
 
 ## Before you begin
 
-Create the Adobe Sign template that you want to make available for signing through theAdobe Sign system. See the Adobe Sign user guide for more information. You must also synchronize your accounts to bring the Adobe Sign template \(and any other new or updated templates\) into the ServiceNow system. See [Sync Adobe Sign with ServiceNow](https://www.servicenow.com/docs/access?context=setup-adobe-sign&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for more information.
+Create the Adobe Sign template that you want to make available for signing through theAdobe Sign system. See the Adobe Sign user guide for more information. You must also synchronize your accounts to bring the Adobe Sign template \(and any other new or updated templates\) into the ServiceNow system. See [Sync Adobe Sign with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-adobe-sign.md) for more information.
 
 **Note:** Each Adobe Sign in template must have one associated document. Multiple documents per template are not supported.
 
@@ -101,7 +101,7 @@ HR criteria
 
 </td><td>
 
-Defines the conditions that the subject person of an HR case must meet for an HR agent to be able to access the HR document template on their behalf.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) API API.
+Defines the conditions that the subject person of an HR case must meet for an HR agent to be able to access the HR document template on their behalf.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md) API API.
 
 </td></tr></tbody>
 </table>5.  Right-click on the form header and click **Save**.

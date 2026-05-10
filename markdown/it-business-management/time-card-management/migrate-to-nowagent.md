@@ -37,7 +37,7 @@ The Mobile Time Sheets app must be installed in your system.
 
 7.  Download and enable the Now Mobile app.
 
-    For more information, see the [Now Mobile app](https://www.servicenow.com/docs/access?context=now-mobile-app&version=australia&pubname=australia-mobile&ft:locale=en-US) topic.
+    For more information, see the [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/now-mobile-app.md) topic.
 
 
 **Parent Topic:**[Install Mobile Time Sheets](install-timesheet-mobile.md)

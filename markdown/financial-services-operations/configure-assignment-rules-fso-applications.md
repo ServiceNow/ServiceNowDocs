@@ -85,7 +85,7 @@ Review the assignment rules that are installed with the Financial Services Opera
 |Travel claim baggage adjuster task|sn\_ins\_gen\_claim\_adj\_task|
 |Travel claim trip adjuster task|sn\_ins\_gen\_claim\_adj\_task|
 
-For advanced assignment rules, you can also use the ServiceNow Advanced Work Assignment \(AWA\) feature to automatically assign work items to agents, based on their availability, capacity, and optionally, skills. For more information, see [Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-overview&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For advanced assignment rules, you can also use the ServiceNow Advanced Work Assignment \(AWA\) feature to automatically assign work items to agents, based on their availability, capacity, and optionally, skills. For more information, see [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md).
 
 ## Procedure
 
@@ -97,7 +97,7 @@ For advanced assignment rules, you can also use the ServiceNow Advanced Work Ass
     -   To review an existing rule, filter the list to show the rules for the application tables and then open a rule.
 3.  On the form, fill in the fields.
 
-    For information about the Assignment Rule form fields, see [Create an assignment rule](https://www.servicenow.com/docs/access?context=t_AssignmentModuleRule&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For information about the Assignment Rule form fields, see [Create an assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_AssignmentModuleRule.md).
 
 4.  Click **Submit** or **Update**.
 

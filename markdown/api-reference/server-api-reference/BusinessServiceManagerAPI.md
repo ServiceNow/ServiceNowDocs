@@ -205,13 +205,13 @@ Checks the roles of a specified user and the permissions data configured for a s
 
 The following defines the process flow that the method uses to determine whether the user can view the service/service group:
 
-1.  If the specified record is a service group, checks the user roles and group policy. For more information on assigned roles for service groups, see [Assign a role to a service group](https://www.servicenow.com/docs/access?context=t_EMAssignRoleSvcGroup&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+1.  If the specified record is a service group, checks the user roles and group policy. For more information on assigned roles for service groups, see [Assign a role to a service group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMAssignRoleSvcGroup.md).
 2.  If the roles list contains “itil” but doesn’t contain “app\_service\_admin” and “sam\_core\_user”, return true.
 3.  If the roles list contains “maint”, return true.
 4.  If the roles list contains “app\_serivce\_user” but doesn’t contain “app\_service\_admin” and “sm\_app\_owner”, and the service isn’t operational, return false.
 5.  Check the group of the service.
     1.  If the service belongs to a single group, and the group is “all”, return true.
-    2.  For any non “all” group, checks the policy for user roles and group based on the rules specified in [Assign a role to a service group](https://www.servicenow.com/docs/access?context=t_EMAssignRoleSvcGroup&version=australia&pubname=australia-it-operations-management&ft:locale=en-US). If any of them returns true, return true.
+    2.  For any non “all” group, checks the policy for user roles and group based on the rules specified in [Assign a role to a service group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMAssignRoleSvcGroup.md). If any of them returns true, return true.
 
 <table id="table_snj_253_kyb" class="parameters"><thead><tr><th>
 

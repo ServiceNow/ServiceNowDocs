@@ -17,18 +17,18 @@ The ServiceNow® Encryption Key Management application protects your data by usi
 -   ManageField Encryption and Field Encryption Enterprise using the redesigned user interface.
 -   Enhance data security with the newly added External Key Management Service \(EKMS\) integration, enabling you to store encryption keys outside the instance for enhanced security.
 
-See [Encryption](https://www.servicenow.com/docs/access?context=encryption-landing&version=australia&pubname=australia-platform-security&ft:locale=en-US) for more information.
+See [Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption-landing.md) for more information.
 
 ## New in the Australia release
 
--   **[Manage Field Encryption Enterprise with an enhanced Administration interface](https://www.servicenow.com/docs/access?context=now-platform-encryption&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
+-   **[Manage Field Encryption Enterprise with an enhanced Administration interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-platform-encryption.md)**
 
     Configure encryption settings, monitor key usage, and streamline administration for Field Encryption and Field Encryption Enterprise with the following features:
 
     -   Simplify key rotation and policy updates.
     -   Access encryption status and audit details.
     -   Navigate improved layouts for faster configuration.
--   **[Integrate External Key Management Service \(EKMS\) with Encryption Modules](https://www.servicenow.com/docs/access?context=ekms-external-key-management&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
+-   **[Integrate External Key Management Service \(EKMS\) with Encryption Modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-external-key-management.md)**
 
     Configure and manage encryption keys externally through EKMS integration with an enhanced encryption framework, which enables you to:
 
@@ -42,14 +42,14 @@ See [Encryption](https://www.servicenow.com/docs/access?context=encryption-landi
 
 ## UI changes
 
--   **[Field Encryption user interface changes](https://www.servicenow.com/docs/access?context=now-platform-encryption&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
+-   **[Field Encryption user interface changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-platform-encryption.md)**
 
     The new Field Encryption and Field Encryption Enterprise UI includes updates to key rotation and policies, access to encryption status and audit details, and changes to layouts.
 
 
 ## Activation information
 
-Platform Encryption is available with activation of the com.glide.encryption.external\_kms, which requires a separate subscription. For details, see [Encryption and Key Management subscription bundle](https://www.servicenow.com/docs/access?context=encryption-sku&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Platform Encryption is available with activation of the com.glide.encryption.external\_kms, which requires a separate subscription. For details, see [Encryption and Key Management subscription bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/encryption-sku.md).
 
 ## Plugin information
 
@@ -59,8 +59,8 @@ Platform Encryption is available with activation of the com.glide.encryption.ext
 
     -   Column Level Encryption \(com.glide.encryption\): Planned for deprecation in the C release. Activate the Field Encryption Starter or Field Encryption Enterprise plugins instead.
     -   Column Level Encryption Enterprise\(com.glide.now.platform.encryption\): Planned for deprecation in July 2031. Activate the Field Encryption Starter or Field Encryption Enterprise instead.
-    -   [Edge Encryption](https://www.servicenow.com/docs/access?context=c_EdgeEncryptionOverview&version=australia&pubname=australia-platform-security&ft:locale=en-US) \(com.glide.edgeencryption\): Planned for deprecation in December 2028.Use Platform Encryption instead. For more information, see the [Edge Encryption End of Renewal \[KB2007685\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article on the Now Support Knowledge Base.
-    -   [Edge Encryption Core](https://www.servicenow.com/docs/access?context=c_EdgeEncryptionOverview&version=australia&pubname=australia-platform-security&ft:locale=en-US) \(com.glide.edgeencryption.core\): Planned for deprecation in December 2028. Use Platform Encryption instead. For more information, see the [Edge Encryption End of Renewal \[KB2007685\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article on the Now Support Knowledge Base.
+    -   [Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EdgeEncryptionOverview.md) \(com.glide.edgeencryption\): Planned for deprecation in December 2028.Use Platform Encryption instead. For more information, see the [Edge Encryption End of Renewal \[KB2007685\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article on the Now Support Knowledge Base.
+    -   [Edge Encryption Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EdgeEncryptionOverview.md) \(com.glide.edgeencryption.core\): Planned for deprecation in December 2028. Use Platform Encryption instead. For more information, see the [Edge Encryption End of Renewal \[KB2007685\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article on the Now Support Knowledge Base.
 
 **Parent Topic:**[ServiceNow AI Platform security release notes](now-platform-security-rn-landing.md)
 

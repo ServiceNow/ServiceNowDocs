@@ -194,7 +194,7 @@ This guidance recommends knowledge articles to an agent who is working on a chat
 </td></tr></tbody>
 </table>## Configuring Recommended Actions guidances
 
-Recommended Actions is a component that you can add to a record page in [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US). You can find information about configuring the Recommended Actions component, including the properties and events, in the [Next Experience Components](https://developer.servicenow.com/dev.do#!/reference/now-experience/rome/components) documentation.
+Recommended Actions is a component that you can add to a record page in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md). You can find information about configuring the Recommended Actions component, including the properties and events, in the [Next Experience Components](https://developer.servicenow.com/dev.do#!/reference/now-experience/rome/components) documentation.
 
 The Recommended Actions component includes two views: a preview view \(card view\) and a detail view \(full article view\). How these views are displayed is determined by the Recommended Actions configuration. For more information, see the following topics:
 

@@ -23,13 +23,13 @@ Multiple connections support offers these benefits.
 -   Select which connection you want to use in a flow. Override preset connections for flows, subflows, and actions directly through Workflow Studio.
 -   When a flow is promoted to production, reestablish a connection to each account without needing to modify the flow.
 
-To learn more about connections, see [Connections and Credentials](https://www.servicenow.com/docs/access?context=r-credentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+To learn more about connections, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md).
 
 ## Connection and credential aliases
 
 Integration Hub uses aliases to manage connection information and credentials when integrating with external systems. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. Integration Hub only requires an alias, which then resolves to use the correct credentials and connection information during runtime.
 
-With connection and credential aliases, you can also create additional aliases or connections called child aliases. Child aliases enable you to create multiple connections within the same application integration. For more information, see [Create a Connection and Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+With connection and credential aliases, you can also create additional aliases or connections called child aliases. Child aliases enable you to create multiple connections within the same application integration. For more information, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
 
 ## Flow-level connection selection
 
@@ -66,8 +66,8 @@ In the following example, the Create Remote Incident action has a connection fie
 
 Use the gear icon \(![gear icon](../../../build/app-engine-studio/image/gear-icon.png)\) to create or configure an alias.
 
--   For connections using a [configuration template](https://www.servicenow.com/docs/access?context=spoke-configuration-template&version=australia&pubname=australia-platform-security&ft:locale=en-US), the gear icon opens a window where you can create or configure a connection.
--   For connections without a configuration template, the gear icon opens the platform form for [creating a connection and credential alias.](https://www.servicenow.com/docs/access?context=connection-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+-   For connections using a [configuration template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/spoke-configuration-template.md), the gear icon opens a window where you can create or configure a connection.
+-   For connections without a configuration template, the gear icon opens the platform form for [creating a connection and credential alias.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md)
 
 Use the plus icon \(![plus icon](../../../reuse/icons/product-icons/plus-outline-24.svg)\) to add a new child connection alias.
 
@@ -92,5 +92,5 @@ When you move a flow to a production instance, the alias information is transfer
 You can configure connections without having to modify the flow because you already have the base alias set up. To configure a connection:
 
 -   If the alias has a configuration template, configure the connection through the Connections dashboard. See [Configure a connection in the Connections dashboard](../tasks/dashboard-configure-connection.md) for instructions.
--   If an alias doesn't have a configuration template, configure it through the platform user interface. For more information about configuring a connection without a template, see [Getting started with connections](https://www.servicenow.com/docs/access?context=connection-information&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   If an alias doesn't have a configuration template, configure it through the platform user interface. For more information about configuring a connection without a template, see [Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-information.md).
 

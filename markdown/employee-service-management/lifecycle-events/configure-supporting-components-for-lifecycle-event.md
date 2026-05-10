@@ -47,7 +47,7 @@ Approval
 
 N/A
 
- To learn more about approvals, see [Approvals](https://www.servicenow.com/docs/access?context=r_Approvals&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+ To learn more about approvals, see [Approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/r_Approvals.md).
 
 </td></tr><tr><td>
 
@@ -71,7 +71,7 @@ Automated Order Guide
 
 </td><td>
 
-[Create an order guide](https://www.servicenow.com/docs/access?context=t_CreateAnOrderGuide&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) To learn more about order guides, see [Order guides](https://www.servicenow.com/docs/access?context=c_ServiceCatalogOrderGuides&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+[Create an order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAnOrderGuide.md) To learn more about order guides, see [Order guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogOrderGuides.md).
 
 </td></tr><tr><td>
 
@@ -79,7 +79,7 @@ Catalog item
 
 </td><td>
 
-[Create or edit a catalog item](https://www.servicenow.com/docs/access?context=t_DefineACatalogItem&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) To learn more about catalog items, see [Service catalog items](https://www.servicenow.com/docs/access?context=c_IntroductionToCatalogItems&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+[Create or edit a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefineACatalogItem.md) To learn more about catalog items, see [Service catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md).
 
 </td></tr><tr><td>
 
@@ -103,7 +103,7 @@ Incident
 
 </td><td>
 
-[Create an incident template](https://www.servicenow.com/docs/access?context=t_CreateAnIncidentTemplate&version=australia&pubname=australia-it-service-management&ft:locale=en-US) To learn more about incident management, see [Incident Management](https://www.servicenow.com/docs/access?context=c_IncidentManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+[Create an incident template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/t_CreateAnIncidentTemplate.md) To learn more about incident management, see [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentManagement.md).
 
 </td></tr><tr><td>
 
@@ -111,7 +111,7 @@ Notification
 
 </td><td colspan="2">
 
-[Create an email template](https://www.servicenow.com/docs/access?context=t_CreateAnEmailTemplate&version=australia&pubname=australia-platform-administration&ft:locale=en-US) To learn more about notifications, see [Notifications](https://www.servicenow.com/docs/access?context=notifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+[Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnEmailTemplate.md) To learn more about notifications, see [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notifications.md).
 
 </td></tr><tr><td>
 
@@ -119,11 +119,11 @@ Flow
 
 </td><td colspan="2">
 
-[Create a subflow](https://www.servicenow.com/docs/access?context=create-subflow&version=australia&pubname=australia-build-workflows&ft:locale=en-US) **Important:** The only subflow available for use by default is the **Switch primary job** subflow. This subflow is used to [support multiple jobs in a lifecycle event](../task/adopt-jobs-table.md).
+[Create a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow.md) **Important:** The only subflow available for use by default is the **Switch primary job** subflow. This subflow is used to [support multiple jobs in a lifecycle event](../task/adopt-jobs-table.md).
 
 To use a different subflow for an activity, additional configuration is required. See the [Implementing multiple subflows in an LE activity \[KB0817520\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0817520) article in the HI knowledge base for more information.
 
- To learn more about subflows, see [Subflows](https://www.servicenow.com/docs/access?context=subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+ To learn more about subflows, see [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
 
 </td></tr><tr><td>
 

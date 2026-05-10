@@ -29,5 +29,5 @@ With process mining, you can identify the following opportunities of improvement
 
 The Process Mining Content Pack for Security Incident Response adds a prebuilt project that includes a predefined process model definition for security incidents. To create a project, see [Create process mining project for security incidents](../task/create-proj-proc-min-sir.md).
 
-**Note:** To use the Process Mining in Security Incident Response, download and install the content pack. For more information, see [Content pack for Security Incident Response](https://www.servicenow.com/docs/access?context=sir-proc-min-content-pack&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+**Note:** To use the Process Mining in Security Incident Response, download and install the content pack. For more information, see [Content pack for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/sir-proc-min-content-pack.md).
 

@@ -25,7 +25,7 @@ To create or add to an NLU test set, you can upload a file of test utterances ma
 
 Your CSV or XLSX \(Excel Workbook\) file should contain a table that pairs your test utterances with the intents that you expect for them. Your file can contain up to 10,000 utterances. Ensure that the file has columns titled "Utterance" and "Expected intent".
 
-**Note:** For test sets in languages other than English, you must add the glide.import.csv.charset system property with the value UTF-8. See [Import sets properties](https://www.servicenow.com/docs/access?context=r_ImportSetsProperties&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+**Note:** For test sets in languages other than English, you must add the glide.import.csv.charset system property with the value UTF-8. See [Import sets properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_ImportSetsProperties.md).
 
 For the most accurate test results, include utterances that the model is likely to encounter from your users. Ensure that you have test utterances covering all the intents in your model.
 

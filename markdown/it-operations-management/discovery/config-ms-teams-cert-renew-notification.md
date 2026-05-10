@@ -29,7 +29,7 @@ Role required: pki\_admin or admin
 
 2.  In the form that follows, fill out the following fields
 
-<table><tbody><tr><td id="d459624e98">
+<table><tbody><tr><td id="d465397e98">
 
 **Field**
 
@@ -37,7 +37,7 @@ Role required: pki\_admin or admin
 
 Value
 
-</td></tr><tr><td id="d459624e107">
+</td></tr><tr><td id="d465397e107">
 
 **Choose how you want to provide CSR**
 
@@ -45,7 +45,7 @@ Value
 
 Manually \| Auto generate with private key
 
-</td></tr><tr><td id="d459624e116">
+</td></tr><tr><td id="d465397e116">
 
 **Validity period in days**
 
@@ -53,7 +53,7 @@ Manually \| Auto generate with private key
 
 Number of days
 
-</td></tr><tr><td id="d459624e125">
+</td></tr><tr><td id="d465397e125">
 
 **Certificate Signing Request \(CSR\)**
 

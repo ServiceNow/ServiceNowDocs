@@ -20,7 +20,7 @@ You can do many things using the Workflow Editor.
 -   Modify core [activities](c_WorkflowActivities.md) and [exit conditions](../../workflow/reference/getting-started-workflows.md).
 -   Create custom activities and reuse the data for other workflows.
 
-    See [Orchestration activity designer](https://www.servicenow.com/docs/access?context=c_WorkflowActivityDesigner&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    See [Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_WorkflowActivityDesigner.md).
 
 -   Download activity packs from the ServiceNow Store and create packs for upload.
 -   [Edit workflows](../../workflow/reference/workflow-editor.md) graphically.

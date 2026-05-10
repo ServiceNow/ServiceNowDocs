@@ -125,7 +125,7 @@ Condition
 
 </td><td>
 
-Set of conditions for the data item to conform to. You can create conditions using the [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).**Note:** This field is only available when you select `Declarative` in the **Condition type** field.
+Set of conditions for the data item to conform to. You can create conditions using the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).**Note:** This field is only available when you select `Declarative` in the **Condition type** field.
 
 </td></tr><tr><td>
 

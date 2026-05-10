@@ -32,9 +32,9 @@ If languages aren’t grouped, users can view all available languages as a full-
 **Related topics**  
 
 
-[Enable language selector widget](https://www.servicenow.com/docs/access?context=configure-header-menu&version=australia&pubname=australia-platform-user-interface&section=enable-lang-selector-widget&ft:locale=en-US)
+[Enable language selector widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-header-menu.md)
 
-[Service Portal properties](https://www.servicenow.com/docs/access?context=properties-service-portal&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[Service Portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/properties-service-portal.md)
 
-[Create regions for language selection in portals](https://www.servicenow.com/docs/access?context=create-regions&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Create regions for language selection in portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/create-regions.md)
 

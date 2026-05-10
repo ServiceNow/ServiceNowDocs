@@ -17,11 +17,11 @@ Use Performance Analytics indicators to start a flow. Define the flow start cond
 
 ## Before you begin
 
-**Important:** This flow supports Performance Analytics indicators inside Platform Analytics. The flow requires a subscription to Performance Analytics. Furthermore, you should have a working Performance Analytics implementation. For more information, see [Performance Analytics \(Indicator data sources\)](https://www.servicenow.com/docs/access?context=pa-overview&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+**Important:** This flow supports Performance Analytics indicators inside Platform Analytics. The flow requires a subscription to Performance Analytics. Furthermore, you should have a working Performance Analytics implementation. For more information, see [Performance Analytics \(Indicator data sources\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-overview.md).
 
 To create the flow, you should be familiar with Performance Analytics artifacts such as indicators and their associated targets and thresholds. You should also be familiar with your organization's Performance Analytics implementation. If you are not an expert in Performance Analytics, consider contacting such an expert from inside your organization. This expert can identify your organization's use cases for Proactive analytics triggers, which you can then implement. Even if you are only testing the flow, this expert can identify an appropriate indicator to test it on.
 
--   Activate your Platform Analytics subscription. See [Activating your Performance Analytics subscription](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+-   Activate your Platform Analytics subscription. See [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
 -   Select the relevant Performance Analytics indicators \(KPIs\) and KPI Signals.
 -   Run the **Proactive Analytics Trigger Definition Activation Job** from Schedule \[sys\_trigger\].
 
@@ -50,7 +50,7 @@ Role required: admin or flow\_designer
     |Threshold all time|Start the flow when a KPI threshold is breached by an all-time high or low value.|
     |Threshold breached|Start the flow when a KPI threshold is breached.|
 
-    **Note:** For more information about Proactive Analytics options, see [Proactive analytics insights on dashboards](https://www.servicenow.com/docs/access?context=proactive-analytics&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    **Note:** For more information about Proactive Analytics options, see [Proactive analytics insights on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/proactive-analytics/proactive-analytics.md).
 
 6.  In **Condition**, select the KPI indicator, target, or threshold values needed to start the flow.
 
@@ -74,9 +74,9 @@ Role required: admin or flow\_designer
 **Related topics**  
 
 
-[Performance Analytics indicators](https://www.servicenow.com/docs/access?context=c_Indicators&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_Indicators.md)
 
-[KPI Signals](https://www.servicenow.com/docs/access?context=process-behavior-charts-for-kpis&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[KPI Signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-behavior-charts-for-kpis.md)
 
-[Performance Analytics targets and thresholds](https://www.servicenow.com/docs/access?context=pa-targets-thresholds&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[Performance Analytics targets and thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-targets-thresholds.md)
 

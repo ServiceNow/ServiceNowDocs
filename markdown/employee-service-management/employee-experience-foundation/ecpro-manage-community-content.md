@@ -23,7 +23,7 @@ Role required: sn\_cd.content\_manager
 
 Creating forum content also requires the following to post to a community or forum:
 
--   A forum to post community content. For information on creating forums, see [Configure community forums](https://www.servicenow.com/docs/access?context=configure-forums-topics&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+-   A forum to post community content. For information on creating forums, see [Configure community forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-forums-topics.md).
 -   The `Content Publishing: Post to Forums` scheduled job runs every hour by default to process posts. For more information on scheduled jobs, see [Components installed with Content Publishing](../reference/installed-with-content-delivery.md).
 
 **Note:** The Communities \(com.sn\_communities\) plugin must be activated in order to use this feature.
@@ -60,7 +60,7 @@ Classification of the community post. Fields used to define the post change base
 -   Community Event
 -   Community Video
 -   Forums Post List \(lists posts from a specific forum\)
- **Note:** For more information on community content types, see [Community content types](https://www.servicenow.com/docs/access?context=c_communities-content-types&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+ **Note:** For more information on community content types, see [Community content types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/c_communities-content-types.md).
 
 </td></tr><tr><td>
 

@@ -16,7 +16,7 @@ Connect a supported MCP server to Build Agent to access external tools and resou
 
 ## Before you begin
 
-The MCP connection must be configured before you connect to it in Build Agent. For details on adding a new MCP connection in Workflow Data Fabric, see [Model Context Protocol connectors](https://www.servicenow.com/docs/access?context=model-context-protocol-connector&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+The MCP connection must be configured before you connect to it in Build Agent. For details on adding a new MCP connection in Workflow Data Fabric, see [Model Context Protocol connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/model-context-protocol-connector.md).
 
 The following MCP are currently supported for Build Agent:
 

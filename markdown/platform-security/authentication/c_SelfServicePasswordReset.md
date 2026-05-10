@@ -30,10 +30,10 @@ The default self-service Password Reset process \(`com.glideapp.password_reset`\
 -   The **Enable Password Reset URL** option, which specifies that the user should receive an email with a link to reset their password after they click **Forgot Password?**.
 -   The Personal Data - Enter Email Address verification flow that specifies the three-step password reset flow.
 
-See [Configure your Password Reset process](https://www.servicenow.com/docs/access?context=t_CreateAPasswordResetProcess&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for instructions on accessing this form and configuring the fields.
+See [Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md) for instructions on accessing this form and configuring the fields.
 
 **Note:**
 
 -   This feature works for locally authenticated users who enter the username and password specified in their user record. Users logging in to the instance via an SSO solution or an LDAP integration cannot reset passwords using the example self-service Password Reset process.
--   The end user must enable and configure notification preferences. See [Subscription-based notifications](https://www.servicenow.com/docs/access?context=c_SubscriptionBasedNotifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US). Administrators can x[modify the email that is sent to the end user](../task/t_ModifyPasswordResetNotification.md).
+-   The end user must enable and configure notification preferences. See [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SubscriptionBasedNotifications.md). Administrators can x[modify the email that is sent to the end user](../task/t_ModifyPasswordResetNotification.md).
 

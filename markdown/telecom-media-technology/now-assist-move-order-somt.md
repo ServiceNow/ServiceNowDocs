@@ -28,9 +28,9 @@ To create a move order, AI agent collects these details:
 -   Product or services to be moved
 -   New service location
 
-To integrate AI agent with supported third-party CCaaS \(Contact Center as a Service\) providers, see [Integrating voice assistant with CCaaS provider](https://www.servicenow.com/docs/access?context=integrating-voice-service-with-ccaas-providers&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+To integrate AI agent with supported third-party CCaaS \(Contact Center as a Service\) providers, see [Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md).
 
-To add tools and information, see [Add tools and information to an AI agent](https://www.servicenow.com/docs/access?context=add-tool-aia&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for details.
+To add tools and information, see [Add tools and information to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-tool-aia.md) for details.
 
 Role required: sn\_customerservice.consumer
 
@@ -44,7 +44,7 @@ To configure the AI agent:
 2.  In Now Assist Voice Deployment tile, select **Edit**.
 3.  Select **Settings** tab and review the details.
 
-To create SoftPIN, see [Configure Soft PIN](https://www.servicenow.com/docs/access?context=configure-soft-pin&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+To create SoftPIN, see [Configure Soft PIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-soft-pin.md).
 
 ## Move order voice AI agent
 

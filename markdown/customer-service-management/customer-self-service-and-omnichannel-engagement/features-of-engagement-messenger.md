@@ -47,7 +47,7 @@ After you create and configure the Engagement Messenger module, you can customiz
 
         For more information on enabling Typeahead Search and AI Search Assist widgets for Engagement Messenger, see [Enabling AI search in the Customer and Consumer Service Portals for unauthenticated users](../task/configure_search_csp_guestuser.md).
 
-        For more information of AI Search configuration, see [Configuring AI Search](https://www.servicenow.com/docs/access?context=configuring-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+        For more information of AI Search configuration, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ais.md).
 
 -   **Case management**
 
@@ -114,27 +114,27 @@ After you create and configure the Engagement Messenger module, you can customiz
 
         Now Assist in Virtual Agent offers a conversational support experience that improves the chat experience in Engagement Messenger by delivering prompt answers to user questions. When enabled, Now Assist in Virtual Agent provides your users with an interactive generative AI experience. A friendly, natural language conversation that is easier to understand and helps users to be more comfortable with chatting to a bot.
 
-        By integrating generative AI chat capabilities, Now Assist in Virtual Agent enhances the user experience in Engagement Messenger. It improves asynchronous messaging, enabling users to resolve issues more quickly and efficiently. These capabilities help speed up issue resolution and increase efficiency by reducing the number of incoming queries that must be diverted to a live agent. To know more about Now Assist in Virtual Agent, see [Exploring Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=exploring-now-assist-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+        By integrating generative AI chat capabilities, Now Assist in Virtual Agent enhances the user experience in Engagement Messenger. It improves asynchronous messaging, enabling users to resolve issues more quickly and efficiently. These capabilities help speed up issue resolution and increase efficiency by reducing the number of incoming queries that must be diverted to a live agent. To know more about Now Assist in Virtual Agent, see [Exploring Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/exploring-now-assist-va.md).
 
         Getting started with Now Assist in Virtual Agent in Engagement Messenger:
 
-        -   To enable Now Assist in Virtual Agent chat support in Engagement Messenger, verify that the Now Assist in Virtual Agent experience is configured by virtual\_agent\_admin or admin. For more information, see [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
-        -   You can create or use an existing assistant by navigating to **All** &gt; **Conversational Interfaces** &gt; **Assistants**. For more information, see [Create a chat assistant](https://www.servicenow.com/docs/access?context=create-assistant&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
-        -   Once you select an assistant navigate to the **Display experience** tab to configure the Engagement Messenger module. In the **Portals** tab, select the Engagement Messenger module from the **Add portal** list and select the **Standard chat** as the experience. For more information, see [Display your chat assistant on a portal, channel, or mobile app](https://www.servicenow.com/docs/access?context=display-assistant-portal-channel&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+        -   To enable Now Assist in Virtual Agent chat support in Engagement Messenger, verify that the Now Assist in Virtual Agent experience is configured by virtual\_agent\_admin or admin. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+        -   You can create or use an existing assistant by navigating to **All** &gt; **Conversational Interfaces** &gt; **Assistants**. For more information, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md).
+        -   Once you select an assistant navigate to the **Display experience** tab to configure the Engagement Messenger module. In the **Portals** tab, select the Engagement Messenger module from the **Add portal** list and select the **Standard chat** as the experience. For more information, see [Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
         **Note:** Each assistant comes with its own search configuration. For a smooth experience, if the assistant appears on a portal or mobile app that already has AI search configured, consider duplicating that setup to maintain consistency.
 
         ![Engagement Messenger displaying a conversational interface with Now Assist in Virtual Agent enabled.](../image/nava_in_em.png)
 
     -   **Asynchronous chat**
 
-        Engagement Messenger supports communication at different time intervals, enabling your support agents and end users to participate in long-running conversations without having to be online at the same time. For more information about asynchronous conversation, see [Asynchronous Chat](https://www.servicenow.com/docs/access?context=async-chat&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+        Engagement Messenger supports communication at different time intervals, enabling your support agents and end users to participate in long-running conversations without having to be online at the same time. For more information about asynchronous conversation, see [Asynchronous Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/async-chat.md).
 
-        Configure asynchronous chat on Engagement Messenger by setting the web client as a messaging channel. For more information, see [Configure asynchronous chat for the web channel](https://www.servicenow.com/docs/access?context=configure-async-web&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+        Configure asynchronous chat on Engagement Messenger by setting the web client as a messaging channel. For more information, see [Configure asynchronous chat for the web channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-async-web.md).
 
         -   **Message preview**
 
             -   Enable preview to see previews of unread chat message text, tables, links, HTML content, cases, knowledge cards, and images shared by the support agent without opening a message. The complete HTML content or video, and multiple unread messages, can be seen only when the user accesses the message.
-            -   Asynchronous chat supports emojis sent by an agent in the message preview for a more interactive conversation. For more information on how to use emojis in Agent chat, see [Using emojis in Agent Chat](https://www.servicenow.com/docs/access?context=ci-agent-chat-using&version=australia&pubname=australia-conversational-interfaces&section=ac-using-emojis-agent-chat&ft:locale=en-US).
+            -   Asynchronous chat supports emojis sent by an agent in the message preview for a more interactive conversation. For more information on how to use emojis in Agent chat, see [Using emojis in Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-agent-chat-using.md).
             ![Unread message previews shared by support agents. For the text description, refer to the preceding text in the Message preview section.](../image/async-preview.png "Previews")
 
         -   **Offline message support**
@@ -147,7 +147,7 @@ After you create and configure the Engagement Messenger module, you can customiz
 
             Users can close and reopen the chat window as needed without losing context or progress so an accidental messenger closure doesn’t reset the chat session.
 
-        **Note:** You can set a specific timeout to manage the idle conversation. By default, if the requester doesn’t respond to an agent message within two days, the conversation status changes to Closed Abandoned and the chat session is ended. As an admin, you can override the conversation idle timeout period for a web channel by setting the value in the Conversation Idle Timeout field in the Messaging Channels \[sys\_cs\_channel\] table. For details, see [Closing Virtual Agent and Live Agent conversations](https://www.servicenow.com/docs/access?context=va-open-conversations&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+        **Note:** You can set a specific timeout to manage the idle conversation. By default, if the requester doesn’t respond to an agent message within two days, the conversation status changes to Closed Abandoned and the chat session is ended. As an admin, you can override the conversation idle timeout period for a web channel by setting the value in the Conversation Idle Timeout field in the Messaging Channels \[sys\_cs\_channel\] table. For details, see [Closing Virtual Agent and Live Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-open-conversations.md).
 
 -   **Configurable Cards**
 
@@ -187,15 +187,15 @@ To learn how to start configuring Engagement Messenger for your third-party webs
 **Related topics**  
 
 
-[Exploring AI Search](https://www.servicenow.com/docs/access?context=explore-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Exploring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/explore-ais.md)
 
 [Case management for Customer Service Management](csm-case-management.md)
 
-[Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md)
 
 [Using Walk-up Experience](use-walkup-experiencce.md)
 
-[Knowledge Management](https://www.servicenow.com/docs/access?context=knowledge-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management.md)
 
-[Field Service Management](https://www.servicenow.com/docs/access?context=fsm-application-landing-page&version=australia&pubname=australia-field-service-management&ft:locale=en-US)
+[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md)
 

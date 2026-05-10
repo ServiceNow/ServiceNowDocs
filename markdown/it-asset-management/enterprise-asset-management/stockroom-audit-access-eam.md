@@ -49,7 +49,7 @@ The audit roles are organized in the following hierarchy:
 
     -   The wm\_agent is assigned the sn\_itam\_common.personal\_stockroom\_audit\_user role, restricting access to personal stockrooms only.
     -   The wm\_admin role receives full access including delete through sn\_itam\_common.personal\_stockroom\_audit\_admin.
-    **Note:** For more details on stockroom auditing in the Field Service Management application, see [Perform asset audit for personal stockrooms](https://www.servicenow.com/docs/access?context=perform-asset-audit&version=australia&pubname=australia-field-service-management&ft:locale=en-US).
+    **Note:** For more details on stockroom auditing in the Field Service Management application, see [Perform asset audit for personal stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/perform-asset-audit.md).
 
 
 -   **[Audit enterprise asset inventory](../task/audit-eam-assetinventory.md)**  

@@ -49,7 +49,7 @@ Role required: admin
 
 8.  On the Condition dialog, build a filter for the conversation history.
 
-    For more information, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 9.  Select **Set**.
 

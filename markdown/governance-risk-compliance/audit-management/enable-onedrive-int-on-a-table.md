@@ -39,7 +39,7 @@ Ensure that you have installed the following applications:
 
     -   For grant type as **Client Credentials**, the required API permissions in Azure application registration are **Files.Read.All** and **Files.ReadWrite.All**.
 
-    For more information, see [Document Services Framework for Microsoft OneDrive](https://www.servicenow.com/docs/access?context=onedrive-spoke-document-services-framework&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For more information, see [Document Services Framework for Microsoft OneDrive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/onedrive-spoke-document-services-framework.md).
 
 2.  Navigate to the **Cloud file configurations** module and configure this feature for Engagement and Audit tasks.
 

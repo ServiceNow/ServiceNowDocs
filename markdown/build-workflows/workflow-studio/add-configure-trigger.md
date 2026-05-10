@@ -62,7 +62,7 @@ Record based
 Go to **Add trigger** &gt; **Record based** and select when you want the playbook to run:-   When record is created
 -   When record is updated
 -   When record is created or updated
-If you want to specify a different table for the trigger than the parent table, use dot-walking to specify the relation between the two tables. You can choose to run your trigger on [Table extension and classes](https://www.servicenow.com/docs/access?context=table-extension-and-classes&version=australia&pubname=australia-platform-administration&ft:locale=en-US) or start your trigger only on unique change of records. After you specify the **Conditions** that should start your playbook, select **Save and close**.
+If you want to specify a different table for the trigger than the parent table, use dot-walking to specify the relation between the two tables. You can choose to run your trigger on [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/table-extension-and-classes.md) or start your trigger only on unique change of records. After you specify the **Conditions** that should start your playbook, select **Save and close**.
 
 If you want to use a trigger that has all the conditions you need for your playbook, select **Choose existing playbook trigger**. Then, choose an existing trigger from the list and select **Save and close**.
 

@@ -52,7 +52,7 @@ The integration requires the Finance – ERP Integration store application to be
 
 ## MID Server Requirement
 
-A MID Server is required for ERP integrations using SOAP services. The MID Server must be installed and configured to connect to the ERP system server. See [Installing the MID Server](https://www.servicenow.com/docs/access?context=mid-server-installation&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for details.
+A MID Server is required for ERP integrations using SOAP services. The MID Server must be installed and configured to connect to the ERP system server. See [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-installation.md) for details.
 
 **Note:** MID Server integration is only required for SOAP-based integrations, not for REST-based integrations.
 

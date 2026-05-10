@@ -51,9 +51,9 @@ Recommendation skills help regulatory analysts quickly identify impacted areas b
 
     You can perform the following actions on Now Assist skills if you have the sn\_generative\_ai.nsa\_admin role:
 
-    -   [Edit a Now Assist skill](https://www.servicenow.com/docs/access?context=edit-a-now-assist-skill&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
-    -   [Make a copy of a Now Assist skill](https://www.servicenow.com/docs/access?context=make-a-copy-of-a-now-assist-skill&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
-    -   [Troubleshoot a Now Assist skill](https://www.servicenow.com/docs/access?context=troubleshoot-a-now-assist-skill&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+    -   [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-a-now-assist-skill.md)
+    -   [Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md)
+    -   [Troubleshoot a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/troubleshoot-a-now-assist-skill.md)
     Activating a copy of a Regulatory alert impacted citations, Regulatory alert impacted control objectives, Regulatory alert impacted controls, or Regulatory alert impacted policies skill deactivates any other version of the same skill, including the default version.
 
 <table id="id_o2v_k4c_cfc"><thead><tr><th>
@@ -119,15 +119,15 @@ Template used for this skill.
 </td></tr></tbody>
 </table>5.  Define the user roles that can access the skill by selecting **Define access** and specifying a User access option.
 
-<table id="choicetable_mvq_4wl_tgc"><thead><tr><th align="left" id="d34160e344">
+<table id="choicetable_mvq_4wl_tgc"><thead><tr><th align="left" id="d34164e344">
 
 Option
 
-</th><th align="left" id="d34160e347">
+</th><th align="left" id="d34164e347">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d34160e353">
+</th></tr></thead><tbody><tr><td id="d34164e353">
 
 **Any authenticated user**
 
@@ -135,7 +135,7 @@ Description
 
 Any user that has successfully logged in can access this skill.
 
-</td></tr><tr><td id="d34160e362">
+</td></tr><tr><td id="d34164e362">
 
 **Select Roles**
 

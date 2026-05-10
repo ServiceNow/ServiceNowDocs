@@ -14,13 +14,13 @@ The ServiceNow® Adoption Services application is a suite of solutions, both pro
 
 ## Adoption Services highlights for the Australia release
 
-Explore Dynamic Guidance within [In-product help](https://www.servicenow.com/docs/access?context=inproduct-help&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) features of [Adoption services](https://www.servicenow.com/docs/access?context=adoption-services&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) as the proactive AI assistant that generates an engaging voice based, step by step guidance, dynamically, across platforms.
+Explore Dynamic Guidance within [In-product help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/inproduct-help.md) features of [Adoption services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/adoption-services.md) as the proactive AI assistant that generates an engaging voice based, step by step guidance, dynamically, across platforms.
 
-See [Adoption services](https://www.servicenow.com/docs/access?context=adoption-services&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) for more information.
+See [Adoption services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/adoption-services.md) for more information.
 
 ## New in the Australia release
 
--   **[Using Dynamic Guidance](https://www.servicenow.com/docs/access?context=using-dynamic-guidance&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **[Using Dynamic Guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/using-dynamic-guidance.md)**
 
     Dynamic Guidance provides an assistance that is fully embedded within the product, enabling users to access relevant information without navigating away from their Workflow.
 
@@ -35,7 +35,7 @@ Adoption Services is active by default with the plugins. Do not activate this fe
 
 ## Accessibility information
 
--   **[Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **[Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tours.md)**
 
     Guided Tours is enhanced with more accessibility features including:
 

@@ -19,7 +19,7 @@ Watch this short video for an introduction to the Hardware Asset Management appl
 
 Hardware Asset Management overview 
 
-**Note:** Beginning with the ServiceNow AI Platform® Washington DC release, limited support is provided for the Hardware Asset Management Core UI interface. While it remains active in your instance, including when you upgrade to a new ServiceNow AI Platform release, the best approach is moving to the new workspace experience. For more information, see [KB1584544](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584544), [Hardware Asset Workspace](../concept/using-ham-workspace.md) and [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+**Note:** Beginning with the ServiceNow AI Platform® Washington DC release, limited support is provided for the Hardware Asset Management Core UI interface. While it remains active in your instance, including when you upgrade to a new ServiceNow AI Platform release, the best approach is moving to the new workspace experience. For more information, see [KB1584544](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584544), [Hardware Asset Workspace](../concept/using-ham-workspace.md) and [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md).
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

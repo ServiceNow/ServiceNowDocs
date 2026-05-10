@@ -33,15 +33,15 @@ You can create an ad hoc claim task by navigating to the **Claim Tasks** tab of 
 
 3.  Open the claim task from a claim case or from the Claim Tasks list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d131992e108">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d132454e108">
 
 Option
 
-</th><th align="left" id="d131992e111">
+</th><th align="left" id="d132454e111">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d131992e117">
+</th></tr></thead><tbody><tr><td id="d132454e117">
 
 **From a claim case**
 
@@ -52,7 +52,7 @@ Steps
 3.  In the case, click the **Claim Tasks** tab and click the claim task.
 
 
-</td></tr><tr><td id="d131992e150">
+</td></tr><tr><td id="d132454e150">
 
 **From the Claim Tasks list**
 

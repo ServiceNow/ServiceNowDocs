@@ -20,7 +20,7 @@ Configure an integration to trigger document task processing or value extraction
 ## Before you begin
 
 -   You must first add a target table to your use case before creating an integration.
--   The target table must be readable and writable. Ensure the **Can read** and **Can update** check boxes are selected in the **Application Access** tab of the target table record. For more information, see [Create a table](https://www.servicenow.com/docs/access?context=t_CreateATable&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   The target table must be readable and writable. Ensure the **Can read** and **Can update** check boxes are selected in the **Application Access** tab of the target table record. For more information, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_CreateATable.md).
 -   Role required: sn\_docintel.admin or sn\_docintel.manager
 
 ## About this task
@@ -165,7 +165,7 @@ The following images show two example integrations. The first image is a Process
 
 If you selected to create a flow, finish the activation in Workflow Studio.
 
-For more information, see [Building flows](https://www.servicenow.com/docs/access?context=flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+For more information, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md).
 
 **Parent Topic:**[Integrating Document Intelligence with other applications](../concept/integrating-docintel.md)
 

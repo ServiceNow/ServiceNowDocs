@@ -4,7 +4,7 @@ description: You can view information about specific overridden records and mark
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [View upgraded processes or records in the global domain, Setup and administration, Domain separation for service providers, Access Management]
 ---

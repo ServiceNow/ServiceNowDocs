@@ -18,9 +18,9 @@ Set the Advanced Work Assignment criteria for assigning work items to agents. Ch
 
 ## Before you begin
 
--   A basic understanding of the [Skills Management](https://www.servicenow.com/docs/access?context=skills-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) feature is recommended.
+-   A basic understanding of the [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skills-management.md) feature is recommended.
 -   If you want agent skills to be considered when work is routed to the appropriate agents, define the skills for your agents or groups. When you enable the skill handling options on the Assignment Rules form, AWA assigns the users in groups with the appropriate skills to corresponding work items.
--   You can use rules to identify skills and assign them to work items. For more information on defining and assigning skills for work items, see [Routing work items to agents based on skills](https://www.servicenow.com/docs/access?context=skill-based-routing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   You can use rules to identify skills and assign them to work items. For more information on defining and assigning skills for work items, see [Routing work items to agents based on skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skill-based-routing.md).
 
 Role required: awa\_admin or admin
 

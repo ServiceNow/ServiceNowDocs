@@ -32,11 +32,11 @@ The Infrastructure Security plugin provides the tools that you can use to manage
 
 ## Install the Infrastructure Security plugin
 
-Install the ServiceNow Infrastructure Security Settings \(com.glide.infrastructure\_security\) plugin to get started using these features. For details on plugin activation, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Install the ServiceNow Infrastructure Security Settings \(com.glide.infrastructure\_security\) plugin to get started using these features. For details on plugin activation, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 After installing the plugin, enable Sign Your Own Security \(SYOC\) functionality by setting the **sn\_infra\_sec.syoc.enabled** system property to `true`.
 
-**Note:** If the **sn\_infra\_sec.syoc.enabled** property isn’t available on your instance, you must create it. For details on this process see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+**Note:** If the **sn\_infra\_sec.syoc.enabled** property isn’t available on your instance, you must create it. For details on this process see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 -   **[Generate a Certificate Signing Request](../task/inf-sec-generate-csr.md)**  
 Use the Generate Certificate Signing \(CSR\) page to create a certificate signing request to support customer-signed certificates for your instance load balancer.

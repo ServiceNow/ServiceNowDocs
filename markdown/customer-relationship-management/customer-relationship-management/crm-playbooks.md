@@ -71,13 +71,13 @@ Playbooks ensure that the correct process is applied consistently across every r
 **Related topics**  
 
 
-[Playbooks for Field Service Management](https://www.servicenow.com/docs/access?context=playbooks&version=australia&pubname=australia-field-service-management&ft:locale=en-US)
+[Playbooks for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/playbooks.md)
 
-[Playbooks for Financial Services Operations applications](https://www.servicenow.com/docs/access?context=playbooks-fso-apps&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)
+[Playbooks for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/playbooks-fso-apps.md)
 
-[Playbooks for Public Sector Digital Services](https://www.servicenow.com/docs/access?context=playbooks-psds-exploring&version=australia&pubname=australia-government-industry&ft:locale=en-US)
+[Playbooks for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/playbooks-psds-exploring.md)
 
-[Configuring playbooks for Patient Support Services](https://www.servicenow.com/docs/access?context=pss-config-playbook&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US)
+[Configuring playbooks for Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-config-playbook.md)
 
-[Customer Engagement Sequences](https://www.servicenow.com/docs/access?context=explore-customer-engagement-sequences&version=australia&pubname=australia-order-management&ft:locale=en-US)
+[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-customer-engagement-sequences.md)
 

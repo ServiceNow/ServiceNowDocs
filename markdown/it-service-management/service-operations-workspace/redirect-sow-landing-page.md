@@ -19,7 +19,7 @@ Enable a non-admin user to start prioritizing tasks quickly by redirecting to Se
 
 Role required: admin
 
-Ensure that Next Experience is enabled on your instance. For information about its activation, see [Considerations for activating Next Experience](https://www.servicenow.com/docs/access?context=next-experience-adoption-paths&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Ensure that Next Experience is enabled on your instance. For information about its activation, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
 
 ## Procedure
 

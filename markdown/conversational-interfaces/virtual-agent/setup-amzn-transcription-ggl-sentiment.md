@@ -23,7 +23,7 @@ Role required: admin
 
 -   The voice transcript is stored by Amazon Connect, a third-party provider, post the voice conversation in the \[sys\_cs\_message\] table.
 -   Messages between the User and the Agent are fetched by transcript API and attached to the Conversation. Also, the sentiment score from Amazon for each message is considered to derive overall Sentiment of User and Agent Conversation.
--   From Utah, the voice transcription is available real-time with the APIs that persist transcribed messages of an on-going phone call in real time. The messages are displayed in the Agent workspace chat panel along with previous conversation history \(if enabled\) and allows the Agent to leverage features like agent assist and search while actively talking to the caller. For more information about using Transcript API for real-time transcription, see [Voice Interaction Resource API](https://www.servicenow.com/docs/access?context=voice-interaction-resource-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+-   From Utah, the voice transcription is available real-time with the APIs that persist transcribed messages of an on-going phone call in real time. The messages are displayed in the Agent workspace chat panel along with previous conversation history \(if enabled\) and allows the Agent to leverage features like agent assist and search while actively talking to the caller. For more information about using Transcript API for real-time transcription, see [Voice Interaction Resource API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/voice-interaction-resource-api.md).
 
     To date, we ensure that performance is acceptable for the volume of transactions, about 5 million utterances/day/customer.
 
@@ -69,7 +69,7 @@ Role required: admin
     4.  Create a connection for the Google Sentiment Analysis API.
 
         -   Create a service account on Google Cloud and the Cloud Natural Language API. For more information, see [https://cloud.google.com/natural-language/docs/sentiment-analysis-gcloud](https://cloud.google.com/natural-language/docs/sentiment-analysis-gcloud).
-        -   Download JSON file and create a JAVA Key Store Certificate. For more information, see [Create a Java KeyStore certificate](https://www.servicenow.com/docs/access?context=create-jks-google&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+        -   Download JSON file and create a JAVA Key Store Certificate. For more information, see [Create a Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-jks-google.md)
         -   Navigate to **Workflow Studio** &gt; **Connections** &gt; **Google Sentiment Analysis**.
         -   Set the following fields using the JSON and generated `.jks` file.
         -   Click **Get Auth Token**.

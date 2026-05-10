@@ -17,7 +17,7 @@ Create an AI voice assistant to enable natural, conversational voice interaction
 
 Role required: virtual\_agent\_admin or admin
 
-Set up your preferred user identification and authentication methods to allow access to AI voice agents. See [Authentication factors](https://www.servicenow.com/docs/access?context=authentication-factors&version=australia&pubname=australia-platform-security&ft:locale=en-US) for more information.
+Set up your preferred user identification and authentication methods to allow access to AI voice agents. See [Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/authentication-factors.md) for more information.
 
 ## About this task
 
@@ -105,7 +105,7 @@ Add tags to track analytics for the voice assistant. For example: HR Business Un
         -   Mexican Spanish
         -   Thai
         -   Hindi
-        See [Multilingual support for voice assistants](https://www.servicenow.com/docs/access?context=multi-lingual-support-for-voice-assistants&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) for more information.
+        See [Multilingual support for voice assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/multi-lingual-support-for-voice-assistants.md) for more information.
 
     2.  Add a personalized welcome message to greet the callers calling into the voice assistant.
 
@@ -135,7 +135,7 @@ Add tags to track analytics for the voice assistant. For example: HR Business Un
 
     ![Authentication method selection for creating voice assistant](../image/ai-voice-assistant-authentication.png "Authentication method selection")
 
-    Identification and authentication factors must be configured at the platform level, where you define which tables and columns the system should use for both identification and authentication. After the factors are defined, they appear here as selectable options for your voice agent configuration. For more information, see [Authentication factors](https://www.servicenow.com/docs/access?context=authentication-factors&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    Identification and authentication factors must be configured at the platform level, where you define which tables and columns the system should use for both identification and authentication. After the factors are defined, they appear here as selectable options for your voice agent configuration. For more information, see [Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/authentication-factors.md).
 
     1.  Select the method used to identify the caller when the call begins.
 
@@ -162,7 +162,7 @@ Add tags to track analytics for the voice assistant. For example: HR Business Un
         -   Soft PIN
         Select from the following **Second factor** authentication methods.
 
-        **Note:** The option selected as the First factor is not available in the Second factor dropdown. KBA authentication, for example, employee security questions, requires you to configure the questions and response fields at platform level and explicitly map them to the voice assistant before they can be selected here. To ensure secure and consistent verification, KBA authentication factor must use numeric data only, for example, date of birth, Social Security Number, or employee Id. Additionally, the source table used must reference the `sys_user` table so that caller identity can be validated reliably across the platform. See [Knowledge-based authentication \(Security Questions\)](https://www.servicenow.com/docs/access?context=knowledge-based-authentication&version=australia&pubname=australia-platform-security&ft:locale=en-US) for more information.
+        **Note:** The option selected as the First factor is not available in the Second factor dropdown. KBA authentication, for example, employee security questions, requires you to configure the questions and response fields at platform level and explicitly map them to the voice assistant before they can be selected here. To ensure secure and consistent verification, KBA authentication factor must use numeric data only, for example, date of birth, Social Security Number, or employee Id. Additionally, the source table used must reference the `sys_user` table so that caller identity can be validated reliably across the platform. See [Knowledge-based authentication \(Security Questions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/knowledge-based-authentication.md) for more information.
 
     4.  Select **Save and continue**.
 

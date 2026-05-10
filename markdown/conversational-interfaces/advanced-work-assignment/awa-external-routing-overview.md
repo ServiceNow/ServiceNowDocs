@@ -33,9 +33,9 @@ When Advanced Work Assignment is configured to use external routing:
 
 These APIs are required for external routing:
 
--   AWA Assignment API to support the external routing system to assign work items. For information on AWA Assignment API, see [AWA Assignment API](https://www.servicenow.com/docs/access?context=awa_manual_assign-api&version=australia&pubname=australia-api-reference&ft:locale=en-US) .
--   Work item table API \(awa\_work\_item\) to look up the queued work items waiting for assignment. For information on table API, see [Table API](https://www.servicenow.com/docs/access?context=c_TableAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
--   AWA Agent API if the external solution requires validation of agent availability within Workspace before assignment. For more information on the AWA Agent API, see [AWA Agent API](https://www.servicenow.com/docs/access?context=agent-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+-   AWA Assignment API to support the external routing system to assign work items. For information on AWA Assignment API, see [AWA Assignment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/awa_manual_assign-api.md) .
+-   Work item table API \(awa\_work\_item\) to look up the queued work items waiting for assignment. For information on table API, see [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_TableAPI.md).
+-   AWA Agent API if the external solution requires validation of agent availability within Workspace before assignment. For more information on the AWA Agent API, see [AWA Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/agent-api.md).
 
 ## Functionality of AWA components
 

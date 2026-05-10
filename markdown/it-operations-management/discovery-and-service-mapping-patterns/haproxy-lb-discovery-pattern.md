@@ -46,7 +46,7 @@ To learn about HAProxy load balancers and their versions that you can discover, 
 
 -   **Create SSH credentials**
 
-    For more information, see [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
 
 -   **Schedule a horizontal discovery**
 

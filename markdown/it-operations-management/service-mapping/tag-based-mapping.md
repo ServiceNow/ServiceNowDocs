@@ -57,7 +57,7 @@ The tag-based discovery and mapping process consists of the following stages:
 
 ## Creating tag-based services
 
-You can create single tag-based application services using the Common Service Data Model \(CSDM\) flow as described in [populate application services using tags](https://www.servicenow.com/docs/access?context=populate-app-service-tags&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+You can create single tag-based application services using the Common Service Data Model \(CSDM\) flow as described in [populate application services using tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/populate-app-service-tags.md).
 
 For information about how to create multiple tag-based services, see [Map application services using tags with classic Service Mapping](../task/map-service-tag.md).
 

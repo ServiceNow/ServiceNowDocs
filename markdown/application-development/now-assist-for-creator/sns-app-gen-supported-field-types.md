@@ -28,7 +28,7 @@ App generation currently supports the creation of the following field types:
 -   String
 -   True/False
 
-For a detailed list and description of all field types available in the platform, see [Field types reference](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For a detailed list and description of all field types available in the platform, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
 
 **Parent Topic:**[App generation reference](../concept/sns-app-gen-reference-landing.md)
 

@@ -93,7 +93,7 @@ Service Portal widget
 </td><td>
 
 -   [Translate a client script message](../task/t_TranslateAClientScriptMessage.md)
--   [Internationalize a widget](https://www.servicenow.com/docs/access?context=c_WidgetLocalization&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) in Service Portal documentation
+-   [Internationalize a widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_WidgetLocalization.md) in Service Portal documentation
 -   For unofficial advice, see [Building multi-lingual service portals](https://www.dylanlindgren.com/2018/11/07/building-multilingual-service-portals/)
 
 </td></tr><tr><td>
@@ -107,7 +107,7 @@ Playbooks
 
 </td><td>
 
-[Add translations for Playbooks](https://www.servicenow.com/docs/access?context=add-translations-playbooks&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Add translations for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-translations-playbooks.md)
 
 </td></tr><tr><td>
 
@@ -147,7 +147,7 @@ Support Chat is mostly translated through the I18N language plugins. If you cust
 
 </td><td>
 
-[Internationalize a widget](https://www.servicenow.com/docs/access?context=c_WidgetLocalization&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) in Service Portal documentation
+[Internationalize a widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_WidgetLocalization.md) in Service Portal documentation
 
 </td></tr><tr><td>
 

@@ -41,7 +41,7 @@ For example, topics relevant to an e-commerce site can be orders, returns, payme
 
 6.  On the Edit Members page, move the required taxonomy from **Collection** to the **Taxonomy List**.
 
-    You can also create a taxonomy. For more information, see [Create taxonomy](https://www.servicenow.com/docs/access?context=create-taxonomy-content&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    You can also create a taxonomy. For more information, see [Create taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-taxonomy-content.md).
 
     **Note:** Only one taxonomy can be associated with a portal.
 
@@ -50,10 +50,10 @@ For example, topics relevant to an e-commerce site can be orders, returns, payme
 
 ## What to do next
 
-Create and associate topics to the new taxonomy and associate catalog items and knowledge articles to the topics created. For details, see [Associate connected content to a topic](https://www.servicenow.com/docs/access?context=associate-content-to-topics&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+Create and associate topics to the new taxonomy and associate catalog items and knowledge articles to the topics created. For details, see [Associate connected content to a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/associate-content-to-topics.md).
 
 **Related topics**  
 
 
-[Create and associate topics](https://www.servicenow.com/docs/access?context=create-topics-for-taxonomy&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+[Create and associate topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-topics-for-taxonomy.md)
 

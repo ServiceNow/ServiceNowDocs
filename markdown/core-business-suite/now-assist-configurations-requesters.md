@@ -16,7 +16,7 @@ Requesters in CBS can use Now Assist in the conversational interface and in sear
 
 After the Core Business Suite application setup, requesters gain access to enhanced Now Assist capabilities. These configurations enable AI assistance for raising and managing requests across HR, Legal services, Health &amp; Safety, Workplace services, Finance, and Procurement.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 The Now Assist configuration activates automatically when the **CBS NAVA preset** runs during installation. This one-time action establishes the foundation for Now Assist enabled requester interactions. For more information, see [Core Business Suite Foundation default configurations](cbs-default-configs.md).
 

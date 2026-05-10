@@ -13,7 +13,7 @@ breadcrumb: [Security practices, Device security, Mobile security, Configuring t
 
 In the event a security patch is needed, the mobile development team aligns with standard SDLC properties in order to patch.
 
-For more information, see [Secure your instance](https://www.servicenow.com/docs/access?context=platsec-landing&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information, see [Secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-landing.md).
 
 **Parent Topic:**[Mobile security practices](sg-mobile-security-practices.md)
 

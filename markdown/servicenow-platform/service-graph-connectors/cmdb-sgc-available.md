@@ -160,19 +160,19 @@ Select an application to learn about the Service Graph Connector available for i
 
 <table id="table_ip4_44q_byb" class="nav-card"><tbody><tr><td>
 
-[Claroty CTD![Claroty CTD logo.](../image/sgc-claroty.png)](https://www.servicenow.com/docs/access?context=sgc-cmdb-integration-claroty-ctd&version=australia&pubname=australia-operational-technology&ft:locale=en-US)
+[Claroty CTD![Claroty CTD logo.](../image/sgc-claroty.png)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/sgc-cmdb-integration-claroty-ctd.md)
 
 </td><td>
 
-[Microsoft Defender for IoT \(On-premises Management Console\)![A decorative graphic for Microsoft Defender for IoT on-premises management console.](../image/sgc-iot-onpremise.png)](https://www.servicenow.com/docs/access?context=integration-sgc-microsoft-defender-iot-on-prem&version=australia&pubname=australia-operational-technology&ft:locale=en-US)
+[Microsoft Defender for IoT \(On-premises Management Console\)![A decorative graphic for Microsoft Defender for IoT on-premises management console.](../image/sgc-iot-onpremise.png)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/integration-sgc-microsoft-defender-iot-on-prem.md)
 
 </td><td>
 
-[Microsoft Defender for IoT \(Azure\)![A decorative graphic for Microsoft Defender for IoT Azure graphic.](../image/sgc-iot-azure.png)](https://www.servicenow.com/docs/access?context=integration-sgc-microsoft-defender-iot-azure&version=australia&pubname=australia-operational-technology&ft:locale=en-US)
+[Microsoft Defender for IoT \(Azure\)![A decorative graphic for Microsoft Defender for IoT Azure graphic.](../image/sgc-iot-azure.png)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/integration-sgc-microsoft-defender-iot-azure.md)
 
 </td></tr><tr><td>
 
-[Operational Technology \(Excel import\)![Microsoft Excel logo.](../image/sgc-ms-excel.png)](https://www.servicenow.com/docs/access?context=service-graph-connector-for-OT-excel&version=australia&pubname=australia-operational-technology&ft:locale=en-US)
+[Operational Technology \(Excel import\)![Microsoft Excel logo.](../image/sgc-ms-excel.png)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/service-graph-connector-for-OT-excel.md)
 
 </td><td>
 

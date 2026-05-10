@@ -19,7 +19,7 @@ Role required: admin
 
 ## About this task
 
-You must create a Now Experience Framework page in [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US) before you can configure mobile web screens that can leverage a playbook on mobile devices. After you configure the page, you must configure a web screen in Mobile App Builder \(MAB\). For details about configuring mobile web screens that use Mobile App Bridge to leverage platform features on mobile devices, see [Configure mobile web screens with Mobile App Bridge](configure-mobile-playbooks.md).
+You must create a Now Experience Framework page in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md) before you can configure mobile web screens that can leverage a playbook on mobile devices. After you configure the page, you must configure a web screen in Mobile App Builder \(MAB\). For details about configuring mobile web screens that use Mobile App Bridge to leverage platform features on mobile devices, see [Configure mobile web screens with Mobile App Bridge](configure-mobile-playbooks.md).
 
 ## Procedure
 
@@ -37,7 +37,7 @@ You must create a Now Experience Framework page in [UI Builder](https://www.serv
 
 5.  Select **Create from scratch instead**.
 
-    For information about working with templates or creating a page from scratch in UI Builder, see [Customizing the Playbook Experience](https://www.servicenow.com/docs/access?context=playbook-customize-playbook&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For information about working with templates or creating a page from scratch in UI Builder, see [Customizing the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-customize-playbook.md).
 
 6.  Name the page and select **Continue**.
 
@@ -79,7 +79,7 @@ You must create a Now Experience Framework page in [UI Builder](https://www.serv
     5.  When you've finished configuring the event handler, select **Add** in the lower right corner of the dialog box.
 14. In the Now Experience Framework editor page, select **Save** in the upper right corner to save the page.
 
-    For information about configuring a playbook, see [Customizing the Playbook Experience](https://www.servicenow.com/docs/access?context=playbook-customize-playbook&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For information about configuring a playbook, see [Customizing the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-customize-playbook.md).
 
     **Note:** The getTitle\(\) method in the GlideListProperties API isn't available in Mobile App Bridge to configure Next Experience \(Seismic\) pages.
 

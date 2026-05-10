@@ -25,7 +25,7 @@ Role required: virtual\_agent\_admin or admin
 
 You can configure Dynamic Translation for any installed language plugin on the ServiceNow® platform. Once installed, the language is available for configuration in the Multi language support card in Virtual Agent Chat Settings. But if you want to support a language that doesn't have a plugin, you can add it to the Languages \[sys\_language\] table. Once added, you can enable dynamic machine translation for that language.
 
-For more information about multi-language support options and their tradeoffs, see [Localization options for Virtual Agent](../concept/multi-language-options-va.md). For more information about custom localizations, see [Custom translations](https://www.servicenow.com/docs/access?context=translating-applications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information about multi-language support options and their tradeoffs, see [Localization options for Virtual Agent](../concept/multi-language-options-va.md). For more information about custom localizations, see [Custom translations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/translating-applications.md).
 
 ## Procedure
 

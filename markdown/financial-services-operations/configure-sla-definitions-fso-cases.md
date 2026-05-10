@@ -182,7 +182,7 @@ Insurance claims
 </td></tr></tbody>
 </table>3.  On the form, fill in the fields.
 
-    For detailed instructions and field descriptions, see [Create an SLA definition](https://www.servicenow.com/docs/access?context=t_CreateAnSLADefinition&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+    For detailed instructions and field descriptions, see [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/t_CreateAnSLADefinition.md).
 
 4.  Click **Submit** or **Update**.
 

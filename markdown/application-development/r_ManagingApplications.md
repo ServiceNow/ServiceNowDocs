@@ -15,11 +15,11 @@ The system offers several ways to manage applications. You must have the admin r
 
 ## Legacy Application Manager
 
-The legacy application manager provides information on how to administer your applications in your instance. For more information about installing, updating, or removing an application see [Available actions](https://www.servicenow.com/docs/access?context=app-installation&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The legacy application manager provides information on how to administer your applications in your instance. For more information about installing, updating, or removing an application see [Available actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/app-installation.md).
 
 ## Application Manager
 
-A new Application Manager experience is now available. The new experience simplifies the process of managing your licensed applications by consolidating them in one convenient location, displaying all your licensed applications, plugins, installed applications, and available updates. For more information, see [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+A new Application Manager experience is now available. The new experience simplifies the process of managing your licensed applications by consolidating them in one convenient location, displaying all your licensed applications, plugins, installed applications, and available updates. For more information, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md).
 
 ## Application sharing
 

@@ -53,7 +53,7 @@ Creates a record that you’ve selected. To learn more about the fields in the f
 
 </td><td>
 
-Creates a Kubernetes cluster instance. To learn more about the fields in the form, see [Kubernetes discovery using patterns](https://www.servicenow.com/docs/access?context=kubernetes-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+Creates a Kubernetes cluster instance. To learn more about the fields in the form, see [Kubernetes discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/kubernetes-discovery.md).
 
 </td></tr><tr><td id="d70535e159">
 
@@ -61,7 +61,7 @@ Creates a Kubernetes cluster instance. To learn more about the fields in the for
 
 </td><td>
 
-Creates a Kubernetes pod machine instance. To learn more about the fields in the form, see [Kubernetes discovery using patterns](https://www.servicenow.com/docs/access?context=kubernetes-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+Creates a Kubernetes pod machine instance. To learn more about the fields in the form, see [Kubernetes discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/kubernetes-discovery.md).
 
 </td></tr></tbody>
 </table>3.  Select **New** and then select the equipment type from the list.

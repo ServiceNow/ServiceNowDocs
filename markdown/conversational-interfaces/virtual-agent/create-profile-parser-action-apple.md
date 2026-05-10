@@ -21,7 +21,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Refer to the following procedure to create a new action. [Create an action in Workflow Studio](https://www.servicenow.com/docs/access?context=create-action&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+1.  Refer to the following procedure to create a new action. [Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-action.md).
 
 2.  In the Workflow Studio integration hub, set the **Input** field to `response_body (string)`.
 

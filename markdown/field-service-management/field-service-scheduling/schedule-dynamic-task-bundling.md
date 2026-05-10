@@ -37,7 +37,7 @@ Schedule and define the conditions used to bundle work order tasks dynamically. 
 
 5.  Select a Run type.
 
-    **Note:** For more information on Run types, see [Automatically run a script of your choosing](https://www.servicenow.com/docs/access?context=t_ScheduleAScriptExecution&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    **Note:** For more information on Run types, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ScheduleAScriptExecution.md).
 
 6.  Select **Update**.
 

@@ -29,7 +29,7 @@ Consider the following items when you create or update a notification:
 
 -   To have your email notification also send as an SMS notification, recipients must subscribe to the notification on an SMS channel. For more information on creating an SMS channel, see [Create notification channels](create-channel.md).
 -   After you create or update the notification, use the **Preview Notification** option to examine it. For example, you can test links that you may have added and verify the notification recipients. For details, see [Preview email notifications](t_PreviewingNotifications.md).
--   For information on operators available for filters and queries, see [Operators available for filters and queries](https://www.servicenow.com/docs/access?context=r_OpAvailableFiltersQueries&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+-   For information on operators available for filters and queries, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
 ## About this task
 
@@ -143,7 +143,7 @@ Send when
 
 Select under what condition that the notification is sent: -   When a record is inserted or updated
 -   When a particular event is fired
--   When [Notification step](https://www.servicenow.com/docs/access?context=trigger-notification-action-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US) in Flow Designer
+-   When [Notification step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/trigger-notification-action-designer.md) in Flow Designer
 
 
 </td></tr><tr><td>

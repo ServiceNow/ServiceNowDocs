@@ -31,7 +31,7 @@ Before starting this procedure, ensure there is an active conference call with o
 
 4.  In the **Conferences** tab, select a conference
 
-<table id="choicetable_hbr_r4f_xfb"><tbody><tr><td id="d386303e92">
+<table id="choicetable_hbr_r4f_xfb"><tbody><tr><td id="d388579e92">
 
 **__Mute All__**
 
@@ -39,7 +39,7 @@ Before starting this procedure, ensure there is an active conference call with o
 
 Click this button to mute all the participants in the conference
 
-</td></tr><tr><td id="d386303e104">
+</td></tr><tr><td id="d388579e104">
 
 **__Unmute All__**
 

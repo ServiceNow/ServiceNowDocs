@@ -45,7 +45,7 @@ Quick Links
 
 Field from which you can select the catalog items, knowledge articles, or URL to show as quick links on the widget.By default, this field is set to the pre-defined Quick Links from the sn\_ex\_sp\_quick\_link table.
 
-You can also create a quick link and add it to the Quick Links \[sn\_ex\_sp\_quick\_link\] table. For more information, see [Create a quick link](https://www.servicenow.com/docs/access?context=create-quick-links&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+You can also create a quick link and add it to the Quick Links \[sn\_ex\_sp\_quick\_link\] table. For more information, see [Create a quick link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-quick-links.md).
 
 You can display title, short description, background image, and icon fields on the card in the widget.
 

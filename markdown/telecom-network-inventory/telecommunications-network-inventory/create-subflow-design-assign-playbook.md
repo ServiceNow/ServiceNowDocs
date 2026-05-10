@@ -39,7 +39,7 @@ You create a subflow by defining the input data that the subflow uses and the ou
 
 4.  Create the subflow input and assign an appropriate value to the subflow output according to your requirement.
 
-    To learn more, see [Create a subflow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-subflow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    To learn more, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow.md).
 
     **Note:** The subflows are triggered by the TNI Design Assign process flow on submission, and the following inputs are required.
 
@@ -56,7 +56,7 @@ You create a subflow by defining the input data that the subflow uses and the ou
 **Related topics**  
 
 
-[Building subflows](https://www.servicenow.com/docs/access?context=subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md)
 
 [Telecommunications Network Inventory subflows](../concept/subflow.md)
 

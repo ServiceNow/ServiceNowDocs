@@ -34,7 +34,7 @@ The SLA configuration record is a filter on a table in the system. Select a tabl
     |Field|Description|
     |-----|-----------|
     |Name|Provide a descriptive name.|
-    |Table|Select a table with the CIs for which you want to create the SLA. You can also use the Configuration Item to Host View \[query\_based\_service\_basic\_view\] table, which is used by [Dynamic CI Groups](https://www.servicenow.com/docs/access?context=create-it-services&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).|
+    |Table|Select a table with the CIs for which you want to create the SLA. You can also use the Configuration Item to Host View \[query\_based\_service\_basic\_view\] table, which is used by [Dynamic CI Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).|
     |Filter|Configure the filter for the records.|
 
 4.  Right-click the header and select **Save**.

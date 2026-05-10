@@ -21,7 +21,7 @@ You can see the following information on the Branding page:
 -   Virtual Agent branding: Set your brand theme either through an AI agent or virtual agent. You can create a brand or a theme using the virtual agent conversation system. See ABC for more information.
 -   A branded fulfillment experience: Set the themes to deliver a workspace for both mobile and web experiences. See Theme builder for more information. See ABC for more information.
 
-See [Branding and theming](https://www.servicenow.com/docs/access?context=migration-branding-theming&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) for more information.
+See [Branding and theming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/migration-branding-theming.md) for more information.
 
 **Parent Topic:**[Platform module configuration in Now Assist for Setup](ia-config-platform-il.md)
 

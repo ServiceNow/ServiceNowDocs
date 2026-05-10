@@ -22,7 +22,7 @@ Search for a record in the Industrial Workspace related to Operational Technolog
 
 ## About this task
 
-The Industrial Workspace search is configured to show Natural Language Query \(NLQ\) Genius Results for each search. For more information about how NLQ Genius Results are used in the Industrial Workspace, see [NLQ Genius Results used in the Industrial Workspace](../concept/nlq-genius-results-industrial-workspace.md). For more information about NLQ Genius Results, see [NLQ Genius Results](https://www.servicenow.com/docs/access?context=genius-result-nlq-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The Industrial Workspace search is configured to show Natural Language Query \(NLQ\) Genius Results for each search. For more information about how NLQ Genius Results are used in the Industrial Workspace, see [NLQ Genius Results used in the Industrial Workspace](../concept/nlq-genius-results-industrial-workspace.md). For more information about NLQ Genius Results, see [NLQ Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-result-nlq-ais.md).
 
 Using the search bar in the Industrial Workspace, you can search and find results for the following records.
 

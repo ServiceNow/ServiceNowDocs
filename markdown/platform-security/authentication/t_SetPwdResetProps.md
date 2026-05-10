@@ -29,7 +29,7 @@ For example, you would not want to allow 100 attempts for users to verify their 
 
 1.  Navigate to **All** &gt; **Password Reset** &gt; **Properties**.
 
-    For information about the Password Reset properties, see [Password Reset global properties](https://www.servicenow.com/docs/access?context=password-reset-global-properties&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For information about the Password Reset properties, see [Password Reset global properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-global-properties.md).
 
 2.  Update settings as needed and then click **Save**.
 

@@ -19,8 +19,8 @@ Use top-down discovery to populate an application service. This discovery method
 
 -   Top-Down Discovery is one of several methods for populating an application service with CIs. Choosing a method for populating an application service, is only one step of the generic procedure for creating an application service. Ensure that you have completed the initial steps as described in [Create an application service](../../service-mapping/task/create-it-services.md). The procedure described here is incomplete by itself as it complements that generic procedure.
 
--   [Verify that Service Mapping is set up properly](https://www.servicenow.com/docs/access?context=check-service-mapping-readiness-for-mapping&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
--   Ensure you know which entry point to use for this application service and which attributes you must be able to define for this entry point. Learn about [Entry point attributes](https://www.servicenow.com/docs/access?context=r_EntryPointsforBizSvcDef&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) available with Service Mapping.
+-   [Verify that Service Mapping is set up properly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/check-service-mapping-readiness-for-mapping.md).
+-   Ensure you know which entry point to use for this application service and which attributes you must be able to define for this entry point. Learn about [Entry point attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_EntryPointsforBizSvcDef.md) available with Service Mapping.
 
 For information about the different types of application services and the different methods you can use to populate application services, including using top-down discovery, see [Service instances \(Application services\)](../concept/application-services.md).
 
@@ -44,7 +44,7 @@ Entry points vary depending on the nature of the service instance. Service Mappi
 
     Entry point parameters depend on the type you select.
 
-3.  Define attributes for the selected entry point as described in [Entry point attributes](https://www.servicenow.com/docs/access?context=r_EntryPointsforBizSvcDef&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+3.  Define attributes for the selected entry point as described in [Entry point attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_EntryPointsforBizSvcDef.md).
 
 4.  Add free-text comment that may provide useful information for handling this application service later.
 
@@ -58,5 +58,5 @@ Complete the generic procedure [Create an application service](../../service-map
 **Related topics**  
 
 
-[Discovery patterns used by ITOM Visibility](https://www.servicenow.com/docs/access?context=c_MappingPatternsCustomization&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
 

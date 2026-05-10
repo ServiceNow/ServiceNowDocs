@@ -29,7 +29,7 @@ Your organization can add the new contributing sources as the primary indicator.
 
     The description set for this PA indicator is used to describe the indicator when the user selects the information icon on the score card. Alternatively, if you already have a PA indicator that measures daily scores of the metric you want to measure, you can directly proceed to register and use the PA indicator.
 
-    For information on permissions required to create a PA indicator, see [Performance Analytics roles](https://www.servicenow.com/docs/access?context=r_PARoles&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) for more details.
+    For information on permissions required to create a PA indicator, see [Performance Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/r_PARoles.md) for more details.
 
 2.  Register the PA indicator against the Primary Indicator that it must be reported in by creating a record in the Contributing Indicator Registry table \(sn\_sd\_contributing\_indicator\_registry\).
 

@@ -4,7 +4,7 @@ description: Enable data collection and analysis from external tables by integra
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Define a table data source, Define the data source, Set up the Data Context Engine, Customer success, Customer Success Management, Customer Success Management]
 ---
@@ -15,13 +15,13 @@ Enable data collection and analysis from external tables by integrating the Data
 
 ## Before you begin
 
--   Workflow Data Fabric plugin must be installed and configured. See [Activate Zero Copy Connector Hub](https://www.servicenow.com/docs/access?context=activate-zcc-hub&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for details.
--   The Workflow Data Fabric table must have been created. See [Create a data fabric table](https://www.servicenow.com/docs/access?context=create-data-fabric-table-zcc&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for details.
+-   Workflow Data Fabric plugin must be installed and configured. See [Activate Zero Copy Connector Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/activate-zcc-hub.md) for details.
+-   The Workflow Data Fabric table must have been created. See [Create a data fabric table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-data-fabric-table-zcc.md) for details.
 -   Role required: sn\_acct\_lc.customer\_success\_application\_admin
 
 ## About this task
 
-Access external data through the Workflow Data Fabric tables and analyzed it using the Data Context Engine. This data is available in real-time using a zero-copy model and synced only when queried. See [Managing zero copy connections](https://www.servicenow.com/docs/access?context=managing-connections-zcc&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for details.
+Access external data through the Workflow Data Fabric tables and analyzed it using the Data Context Engine. This data is available in real-time using a zero-copy model and synced only when queried. See [Managing zero copy connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-connections-zcc.md) for details.
 
 ## Procedure
 

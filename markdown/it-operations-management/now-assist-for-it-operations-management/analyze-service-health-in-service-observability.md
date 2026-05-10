@@ -26,7 +26,7 @@ When you ask the skill to analyze a service's health, it generates an optimized 
 
 The skill's results remain available for an hour and don't automatically refresh. You need to rerun the skill to view a new analysis.
 
-Once the skill is [activated](../task/activate-the-analyze-service-health-skill.md), it automatically runs for you in incident investigation from the **Investigate** tab in Incident Management. See [Digital End-User Experience and Service Observability UI experience on investigate tab](https://www.servicenow.com/docs/access?context=dex-so-metric-views-investigate-tab&version=australia&pubname=australia-it-service-management&ft:locale=en-US) for more information.
+Once the skill is [activated](../task/activate-the-analyze-service-health-skill.md), it automatically runs for you in incident investigation from the **Investigate** tab in Incident Management. See [Digital End-User Experience and Service Observability UI experience on investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/dex-so-metric-views-investigate-tab.md) for more information.
 
 Note the following:
 

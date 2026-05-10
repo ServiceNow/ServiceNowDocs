@@ -75,17 +75,17 @@ The following roles are required to initiate, view, and manage contract executio
 
 ## Requirements for integrating Sales Customer Relationship Management and Contract Management Pro
 
-1.  [Install Quote Management](https://www.servicenow.com/docs/access?context=installing-quote-management&version=australia&pubname=australia-order-management&ft:locale=en-US).
+1.  [Install Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/installing-quote-management.md).
 2.  [Install Contract Management Pro](../task/cncore-install-cmpro.md).
-3.  [Integrate with Contract Management Pro](https://www.servicenow.com/docs/access?context=quote-management-integrate-contract-management&version=australia&pubname=australia-order-management&ft:locale=en-US).
+3.  [Integrate with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-integrate-contract-management.md).
 
-For more information, see [Quote Management integration with Contract Management Pro](https://www.servicenow.com/docs/access?context=quote-management-int-contracts-pro&version=australia&pubname=australia-order-management&ft:locale=en-US).
+For more information, see [Quote Management integration with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-int-contracts-pro.md).
 
 ## Get started with initiating contract request
 
 Get started with initiating contract request by completing these tasks:
 
-1.  [Configuring Sales Customer Relationship Management applications](https://www.servicenow.com/docs/access?context=som-configuring&version=australia&pubname=australia-order-management&ft:locale=en-US).
+1.  [Configuring Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-configuring.md).
 2.  Configure Contract Management Pro
     -   **[Create a contract type](../task/cncore-create-contract-type.md)**
 
@@ -123,5 +123,5 @@ Get started with initiating contract request by completing these tasks:
 
         Role:contract configurator.
 
-3.  [Initiate a contract request](https://www.servicenow.com/docs/access?context=quote-management-create-contract&version=australia&pubname=australia-order-management&ft:locale=en-US)
+3.  [Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-create-contract.md)
 

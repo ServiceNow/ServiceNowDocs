@@ -21,11 +21,11 @@ Bring in data from other ServiceNow applications to enhance the training of your
 
     **Note:** The Continual Improvement Management \(com.sn\_cim\) plugin must be active to create an improvement initiative. Continual Improvement Management requires a separate subscription and must be activated by ServiceNow personnel.
 
--   [Skills Management](https://www.servicenow.com/docs/access?context=skills-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skills-management.md)
 
     In a coaching assessment, you can assess trainee skills to identify gaps so the trainee can be coached to acquire new skills or to enhance their existing skill level.
 
--   [Knowledge management](https://www.servicenow.com/docs/access?context=create-knowledge-article&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   [Knowledge management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-knowledge-article.md)
 
     You can assign knowledge articles as assigned training.
 

@@ -18,7 +18,7 @@ Accept recommendations to create issues based on historical assessment data, or 
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 Role required: sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer
 
@@ -52,15 +52,15 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer
 
 5.  Create issues based on these recommendations or dismiss the recommendations.
 
-<table id="choicetable_mqj_mcr_23c"><thead><tr><th align="left" id="d42742e243">
+<table id="choicetable_mqj_mcr_23c"><thead><tr><th align="left" id="d42746e243">
 
 Option
 
-</th><th align="left" id="d42742e246">
+</th><th align="left" id="d42746e246">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d42742e252">
+</th></tr></thead><tbody><tr><td id="d42746e252">
 
 **Create issues or dismiss issues from the Predicted issues pane**
 
@@ -70,7 +70,7 @@ Description
 2.  Select **Create issue** or **Dismiss**.
 
 
-</td></tr><tr><td id="d42742e276">
+</td></tr><tr><td id="d42746e276">
 
 **Create issues or dismiss issues from the Predicted issues list**
 

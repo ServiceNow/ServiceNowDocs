@@ -18,7 +18,7 @@ Generate a summary of the call conversation between a live agent and a customer 
 
 ## Before you begin
 
-To make the skill available in the Now Assist Admin console, install [Install ServiceNow Voice applications](https://www.servicenow.com/docs/access?context=install-ccc-apps&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+To make the skill available in the Now Assist Admin console, install [Install ServiceNow Voice applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/install-ccc-apps.md).
 
 Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, sn\_csm\_agent
 
@@ -49,7 +49,7 @@ The call summarization skill enables you to do the following actions:
 
 4.  If enabled, transfer a call to another agent after accepting an incoming call and do the following actions:
 
-    You need to have Advanced Work Assignment set up for an agent-to-agent transfer. For more information, see [advanced work assignment setup](https://www.servicenow.com/docs/access?context=installing-awa&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    You need to have Advanced Work Assignment set up for an agent-to-agent transfer. For more information, see [advanced work assignment setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/installing-awa.md).
 
     1.  From the keypad, select **Quick connects** while you’re still connected to the customer.
 

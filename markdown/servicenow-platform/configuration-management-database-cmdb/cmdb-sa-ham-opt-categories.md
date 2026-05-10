@@ -17,7 +17,7 @@ You can opt in to Hardware Asset Management \(HAM\) license resource categories 
 
 Before you can set up or update the HAM advisor scope in CMDB success advisor, at least one HAM license resource category must be opted in. Resource categories define the hardware types, such as Servers, Storage, or Mobile Device, covered by your HAM subscription. Only model categories belonging to opted-in resource categories appear in the CMDB success advisor for HAM.
 
-The opted-in resource categories are set to `true` in the HAM Resource Category \[sn\_hamp\_resource\_category\] table. For more information, see [Opt-in or opt-out of HAM license resource categories](https://www.servicenow.com/docs/access?context=optin-optout-ham-license-resource-categories&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).
+The opted-in resource categories are set to `true` in the HAM Resource Category \[sn\_hamp\_resource\_category\] table. For more information, see [Opt-in or opt-out of HAM license resource categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/optin-optout-ham-license-resource-categories.md).
 
 ## Model category availability based on opt-in status
 

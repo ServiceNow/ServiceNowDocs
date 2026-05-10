@@ -17,7 +17,7 @@ Define a category and measurement unit for an exposure type. If needed, you can 
 
 ## Before you begin
 
-Verify that the application scope is selected as Health and Safety Risk Management. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Verify that the application scope is selected as Health and Safety Risk Management. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: admin
 

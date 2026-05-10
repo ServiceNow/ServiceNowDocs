@@ -29,7 +29,7 @@ Type
 
 </td><td>
 
-Context variable type.For information about the different field types, see [Field types](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Context variable type.For information about the different field types, see [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
 
 </td></tr><tr><td>
 

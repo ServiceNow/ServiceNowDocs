@@ -50,6 +50,6 @@ Your users automatically receive audio and visual alerts when they receive a mes
 -   Your authenticated end users can enable or disable audible alerts of chats through the toggle switch on the chat menu \(Contact Support\).
 -   Authenticated end users can also enable or disable the delivery of notifications through the toggle switch on the chat menu \(Contact Support\).
 -   The default sound notification uses the sn\_va\_web\_client\_alert.mp3 audio file.
-    -   You can change the sound that requesters hear by uploading your own audio file. For details, see [Manage audio files](https://www.servicenow.com/docs/access?context=t_UploadAnAudioFile&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    -   You can change the sound that requesters hear by uploading your own audio file. For details, see [Manage audio files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_UploadAnAudioFile.md).
     -   To turn off the audio notification for your instance, use the system parameter `sysparm_disable_audio_notifications=true`. For example: `https://<*your-instance name*>.service-now.com/nav_to.do?sysparm_disable_audio_notifications=true`
 

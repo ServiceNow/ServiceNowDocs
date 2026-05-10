@@ -37,7 +37,7 @@ Navigate to the CMDB success advisor landing page, and on the Data Foundations c
 
 You need the sn\_cmdb\_admin role to access the CMDB success advisor for Data Foundations.
 
-To manage business rules, change the application scope from CMDB success advisor to Global in the [application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+To manage business rules, change the application scope from CMDB success advisor to Global in the [application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 ## Use cases
 

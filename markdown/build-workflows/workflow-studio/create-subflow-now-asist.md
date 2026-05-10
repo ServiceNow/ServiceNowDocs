@@ -20,8 +20,8 @@ Use generative AI to create a subflow from text directionsand images.
 -   Roles required:
     -   admin, flow\_designer, or a delegated developer permission
     -   now.assist.creator
--   Turn on the flow generation skill. See [Turn on the flow generation skill](https://www.servicenow.com/docs/access?context=turn-on-the-flow-generation-skill&version=australia&pubname=australia-application-development&ft:locale=en-US).
--   Turn on the flow generation with images skill. See [Turn on the flow generation with images skill](https://www.servicenow.com/docs/access?context=turn-on-the-flow-generation-with-images-skill&version=australia&pubname=australia-application-development&ft:locale=en-US).
+-   Turn on the flow generation skill. See [Turn on the flow generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/turn-on-the-flow-generation-skill.md).
+-   Turn on the flow generation with images skill. See [Turn on the flow generation with images skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/turn-on-the-flow-generation-with-images-skill.md).
 
 ## About this task
 
@@ -166,7 +166,7 @@ Priority level at which you want the system to run this subflow by default. Opti
 
 6.  If the generated subflow preview does not meet your needs, you can update the Now Assist directions, and select **Regenerate preview**.
 
-    Each time you generate or regenerate a subflow, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    Each time you generate or regenerate a subflow, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
 
 7.  If you want to stop generating the subflow and return to the Workflow Studio homepage, you can select **Discard subflow**.
 

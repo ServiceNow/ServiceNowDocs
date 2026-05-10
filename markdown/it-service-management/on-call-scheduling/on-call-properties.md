@@ -259,7 +259,7 @@ com.snc.notify.default.conference\_call\_follow\_on\_call\_escalation
 
 </td><td>
 
-If true, the On-Call escalation path is followed when a user group is added to a conference call. However, the time between reminders is set to 60 secs. Users can create properties for required task types such as incident. Example: For Incident, the property key would be **com.snc.notify.incident.conference\_call\_follow\_on\_call\_escalation**.**Note:** The property is enabled only when the [Notify](https://www.servicenow.com/docs/access?context=t_ActivateNotify&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) plugin \(com.snc.notify\) is active.
+If true, the On-Call escalation path is followed when a user group is added to a conference call. However, the time between reminders is set to 60 secs. Users can create properties for required task types such as incident. Example: For Incident, the property key would be **com.snc.notify.incident.conference\_call\_follow\_on\_call\_escalation**.**Note:** The property is enabled only when the [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ActivateNotify.md) plugin \(com.snc.notify\) is active.
 
 </td></tr><tr><td>
 
@@ -271,7 +271,7 @@ Fetches the number of users from the group escalation plan. A value of **-1** fe
 
 -   This is the default property that is used until the specific property for the task type is configured. To use different workflows for different task types \(such as incident or problem\), create a new property by replacing the word `default` in the key with the task type.
 -   This property is used only when the **com.snc.notify.default.conference\_call\_follow\_on\_call\_escalation** sys property is false.
--   The property is enabled only when the [Notify](https://www.servicenow.com/docs/access?context=t_ActivateNotify&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) plugin \(com.snc.notify\) is active.
+-   The property is enabled only when the [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ActivateNotify.md) plugin \(com.snc.notify\) is active.
 
 </td></tr><tr><td>
 
@@ -282,7 +282,7 @@ com.snc.notify.default.conference\_call\_escalation\_workflow
 The sys\_id of the default workflow that must be attached when escalating a conference call.**Note:**
 
 -   This is the default property that is used until the specific property for the task type is configured. To use different workflows for different task types \(such as incident or problem\), create a new property by replacing the word `default` in the key with the task type. Example: For Incident, the property key would be **com.snc.notify.incident.conference\_call\_escalation\_workflow**.
--   The property is enabled only when the [Notify](https://www.servicenow.com/docs/access?context=t_ActivateNotify&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) plugin \(com.snc.notify\) is active.
+-   The property is enabled only when the [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ActivateNotify.md) plugin \(com.snc.notify\) is active.
 
 </td></tr><tr><td>
 

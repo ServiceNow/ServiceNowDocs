@@ -35,7 +35,7 @@ On-Call Scheduling supports multiple escalation policies per shift; for example,
 
 1.  Create a custom escalation policy using the escalation designer.
 
-<table id="choicetable_xjj_bsh_cgb"><tbody><tr><td id="d142364e93">
+<table id="choicetable_xjj_bsh_cgb"><tbody><tr><td id="d142498e93">
 
 **Access the designer from the On-Call Schedules module**
 
@@ -47,7 +47,7 @@ On-Call Scheduling supports multiple escalation policies per shift; for example,
 4.  Click **Override escalation** and click **OK** in the confirmation window.
 
 
-</td></tr><tr><td id="d142364e135">
+</td></tr><tr><td id="d142498e135">
 
 **Access the designer from the My Group Schedules module**
 

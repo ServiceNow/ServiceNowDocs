@@ -19,7 +19,7 @@ You can save a project task as a template and reuse it when creating a task.
 
 Role required: it\_project\_manager
 
-You must have a template from an existing project task that has the required field values. See [Templates](https://www.servicenow.com/docs/access?context=c_Templates&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information on this platform feature.
+You must have a template from an existing project task that has the required field values. See [Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Templates.md) for more information on this platform feature.
 
 ## Procedure
 

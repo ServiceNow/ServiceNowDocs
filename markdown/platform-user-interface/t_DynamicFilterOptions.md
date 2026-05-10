@@ -19,9 +19,9 @@ Role required: admin
 
 ## About this task
 
-This task describes how to create a new dynamic filter option and an associated [script include](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+This task describes how to create a new dynamic filter option and an associated [script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
-Dynamic filter options "objectize" script includes/JavaScript, enabling them to be reused in multiple [condition builders](../../common-ui-elements/concept/c_ConditionBuilder.md) and dynamic [Reference qualifiers](https://www.servicenow.com/docs/access?context=c_ReferenceQualifiers&version=australia&pubname=australia-platform-administration&ft:locale=en-US). This type of filter enables you to modify a script once and have the changes automatically take effect everywhere the dynamic filter option is used.
+Dynamic filter options "objectize" script includes/JavaScript, enabling them to be reused in multiple [condition builders](../../common-ui-elements/concept/c_ConditionBuilder.md) and dynamic [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceQualifiers.md). This type of filter enables you to modify a script once and have the changes automatically take effect everywhere the dynamic filter option is used.
 
 When defining a dynamic filter, you can:
 
@@ -37,7 +37,7 @@ All condition builder dynamic filters use the **is \(dynamic\)** operator and ca
 
 ## Procedure
 
-1.  [Create a scripted filter](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=australia&pubname=australia-api-reference&ft:locale=en-US) as a client-callable script include or business rule.
+1.  [Create a scripted filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md) as a client-callable script include or business rule.
 
 2.  Navigate to **System Definition** &gt; **Dynamic Filter Options**.
 

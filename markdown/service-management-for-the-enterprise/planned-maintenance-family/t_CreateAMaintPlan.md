@@ -63,7 +63,7 @@ Model
 
 </td><td>
 
-Select one or more [Product catalog items](https://www.servicenow.com/docs/access?context=c_ManagingProductCatalogItems&version=australia&pubname=australia-it-service-management&ft:locale=en-US) to identify the CIs that require preventive maintenance. When you select a model, the associated table appears in the **Table** field. For example, if you select a specific model of PC, the **Table** field displays Computer \[cmdb\_ci\_computer\]. This field appears if you selected the **Model based** type.
+Select one or more [Product catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_ManagingProductCatalogItems.md) to identify the CIs that require preventive maintenance. When you select a model, the associated table appears in the **Table** field. For example, if you select a specific model of PC, the **Table** field displays Computer \[cmdb\_ci\_computer\]. This field appears if you selected the **Model based** type.
 
  If you select more than one model in the same category, the table does not change. But if you select a CI from a different category, the **Table** field displays the lowest level table that contains all the selected CIs. For example, if you select two PCs and one laser printer, the **Table** field changes to Hardware \[cmdb\_ci\_hardware\], because that table includes computers and printers. If you then add a computer rack, the **Table** field changes to Configuration Item \[cmdb\_ci\], which contains all CIs.
 
@@ -105,7 +105,7 @@ Specify what to do when a maintenance plan runs on a record that is already unde
 </td></tr></tbody>
 </table>    The maintenance plan is now ready for you to [Configure a maintenance schedule](t_DefineAMaintSched.md).
 
-    **Note:** You can [configure the form](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to add **Asset**, **CI**, and **User** reference fields. These fields are appropriately pre-filled in the associated table and can be useful for generating reports. When a configuration item is selected for the maintenance plan and it is associated with an asset, the **Asset** field is pre-populated with that CI.
+    **Note:** You can [configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) to add **Asset**, **CI**, and **User** reference fields. These fields are appropriately pre-filled in the associated table and can be useful for generating reports. When a configuration item is selected for the maintenance plan and it is associated with an asset, the **Asset** field is pre-populated with that CI.
 
     **Note:** After you define a maintenance plan and create maintenance schedules for the plan, you cannot change the **Type**, **Model**, and **Table** fields, or the **Filter conditions**. Changes could potentially cause conflicts. If you need to make changes to those fields, first delete the maintenance schedules, then recreate the schedules with the desired settings.
 

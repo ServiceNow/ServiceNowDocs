@@ -33,7 +33,7 @@ For Australia, the Virtual Agent Designer features available in Virtual Agent Li
 
 -   Localization Framework integration.
 
-    The Localization Framework is used in multi-language topic authoring and translations. The Localization Framework is installed automatically with Virtual Agent. Activate the ServiceNow® plugin for each language you want to support. For more information, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    The Localization Framework is used in multi-language topic authoring and translations. The Localization Framework is installed automatically with Virtual Agent. Activate the ServiceNow® plugin for each language you want to support. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 
     In Virtual Agent Lite, information in the **Languages** tab is read-only.
 
@@ -60,7 +60,7 @@ Virtual Agent Lite has the following limitations:
     -   Enable the **Available for Agent Autopilot** toggle switch.
     **Note:** A lock icon displays next to the Virtual Agent Designer fields that are not available in Virtual Agent Lite.
 
--   Keyword-based conversations: Virtual Agent Lite only supports keyword-based conversations. Natural Language Understanding \(NLU\) models and NLU-enabled topics aren't supported. This means that related NLU features, such as topic switching and multi-language NLU models, are also not supported. Language support is available for conversations through ServiceNow AI Platform [language internationalization](https://www.servicenow.com/docs/access?context=c_LangInternationalizationSupport&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Keyword-based conversations: Virtual Agent Lite only supports keyword-based conversations. Natural Language Understanding \(NLU\) models and NLU-enabled topics aren't supported. This means that related NLU features, such as topic switching and multi-language NLU models, are also not supported. Language support is available for conversations through ServiceNow AI Platform [language internationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/c_LangInternationalizationSupport.md).
 -   Virtual Agent tables: Virtual Agent tables are read only for admins and Virtual Agent admins.
 -   Localized content: Translated content is read-only. You can't add new translations or localize content. The **Languages** tab displays a banner asking users to contact their Account Executive for more information about upgrading to the latest release.
 -   Custom channels: You can't run Virtual Agent Lite topics in any custom chat channels \(created through custom chat integrations\), except for the supported Virtual Agent integrations for Slack, Microsoft Teams, Workplace by Facebook, and Facebook Messenger applications.

@@ -45,7 +45,7 @@ Role required: admin
 **Related topics**  
 
 
-[Developer and deployment permissions](https://www.servicenow.com/docs/access?context=t_AddADeveloper&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[Developer and deployment permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/t_AddADeveloper.md)
 
-[System-managed developer and deployment roles](https://www.servicenow.com/docs/access?context=delegated_deployment_user_roles&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[System-managed developer and deployment roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/delegated_deployment_user_roles.md)
 

@@ -27,7 +27,7 @@ You can change only the background color of calendar events. All other CSS is ig
 
 **Note:**
 
-[Define field styles](https://www.servicenow.com/docs/access?context=t_DefineFieldStyles&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for the appropriate table.
+[Define field styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineFieldStyles.md) for the appropriate table.
 
 -   To define field styles for all calendar reports, define the style on the Task \[task\] table.
 -   To define field styles that apply only to calendars that are a based on a specific table or report source, define the field styles on that table.

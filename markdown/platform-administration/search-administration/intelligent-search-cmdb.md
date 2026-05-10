@@ -21,19 +21,19 @@ Intelligent Search for CMDB is supported only on English language instances and 
 
 Intelligent Search for CMDB is integrated into the Home view in the CMDB Workspace store app. For more information, see:
 
--   [Home view in CMDB Workspace](https://www.servicenow.com/docs/access?context=cmdb-workspace-home-view&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) \(Intelligent Search section\) for details about how to use Intelligent Search, sample search strings, and helpful tips.
--   [CMDB Workspace](https://www.servicenow.com/docs/access?context=cmdb-workspace&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for additional details about CMDB Workspace.
+-   [Home view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-home-view.md) \(Intelligent Search section\) for details about how to use Intelligent Search, sample search strings, and helpful tips.
+-   [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) for additional details about CMDB Workspace.
 
 ## Integration with Service Graph Workspace
 
 Intelligent Search for CMDB is integrated into the Search and Explore view in the Service Graph Workspace store app. For more information, see:
 
--   [Explore and Search view in Service Graph Workspace](https://www.servicenow.com/docs/access?context=sg-workspace-search-explore-view&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US), Search tab for details about how to use Intelligent Search, sample search strings, and helpful tips.
--   [Service Graph Workspace store app](https://www.servicenow.com/docs/access?context=sg-workspace&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for additional details about Service Graph Workspace.
+-   [Explore and Search view in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-search-explore-view.md), Search tab for details about how to use Intelligent Search, sample search strings, and helpful tips.
+-   [Service Graph Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace.md) for additional details about Service Graph Workspace.
 
 ## Integration with CMDB Query Builder
 
-Intelligent Search for CMDB is integrated with the [CMDB Query Builder](https://www.servicenow.com/docs/access?context=querying-cmdb&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) in the ServiceNow AI Platform. This integration is controlled by the system property **glide.cmdb.query.nlq.activated**, which is set to **true** by default. Intelligent Search for CMDB lets you use natural language processing in the CMDB Query Builder to find CIs and their relationships using Intelligent Search for CMDB functions.
+Intelligent Search for CMDB is integrated with the [CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md) in the ServiceNow AI Platform. This integration is controlled by the system property **glide.cmdb.query.nlq.activated**, which is set to **true** by default. Intelligent Search for CMDB lets you use natural language processing in the CMDB Query Builder to find CIs and their relationships using Intelligent Search for CMDB functions.
 
 ## Using Intelligent Search for CMDB
 
@@ -48,7 +48,7 @@ Use Intelligent Search:
 
     -   If the search string has no ambiguities with the table name or relationships, then the query runs and the results appear in a list view format.
 
-        If the constructed CMDB query contains more than a single table, then the **View in Query Builder** button appears. Click the button to open the [CMDB Query Builder](https://www.servicenow.com/docs/access?context=querying-cmdb&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) with your query fully constructed on the Query Builder canvas. You can use the Query Builder to continue editing the query.
+        If the constructed CMDB query contains more than a single table, then the **View in Query Builder** button appears. Click the button to open the [CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md) with your query fully constructed on the Query Builder canvas. You can use the Query Builder to continue editing the query.
 
     -   If there are any ambiguities with table names or relationship types in the search string, then the search string can't be converted into a valid CMDB query. In this case, the Refine your query dialog box appears to continue and parse your search string into a valid CMDB query. The dialog box contains suggested synonyms and labels for phrases in your search string. Use the drop-down lists to select the synonyms that match your intended search and then click **Go** to run the query.
     -   If Intelligent Search is unable to convert your search string into a valid CMDB query, then clicking **Search** does not generate any query results. Instead, a feedback form appears. Fill out the form and click **Submit Feedback** to send your feedback to ServiceNow analysis.
@@ -69,7 +69,7 @@ Any modification to sample searches is reflected in CMDB Workspace,Service Graph
 
 The NLQ Synonym \[nlq\_synonym\] table is pre-populated with synonyms for natural language strings for CMDB table and column names, and relationships. This table is used to match natural language search words to the CMDB query language. For example, the phrase ‘linux server’ has synonyms such as ‘Linux Server’, ‘Server’, and ‘Virtual Machine Instance’.
 
-For details about viewing and adding synonyms customized to your business needs, see [NLQ synonyms](https://www.servicenow.com/docs/access?context=create-nlq-synonym&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For details about viewing and adding synonyms customized to your business needs, see [NLQ synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/create-nlq-synonym.md).
 
 ## CMDB Implicit Relationships
 
@@ -89,5 +89,5 @@ For example, in CMDB Query Builder, you want to see your service offerings that 
 
 Implicit relationships are stored in the NLQ CMDB Implicit Relationship \[nlq\_cmdb\_implicit\_relationship\] table and are used in the CMDB Workspaceand in Service Graph Workspace, and if integrated, also in CMDB Query Builder.
 
-For more information about NLQ in the ServiceNow AI Platform, see [Natural Language Query \(NLQ\)](https://www.servicenow.com/docs/access?context=natural-language-query&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information about NLQ in the ServiceNow AI Platform, see [Natural Language Query \(NLQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/natural-language-query.md).
 

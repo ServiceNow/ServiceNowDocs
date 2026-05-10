@@ -21,7 +21,7 @@ Activate the Explicit Role \(com.glide.explicit\_roles\) plugin to assign users 
 
 When upgrading Walk-up Experience installations prior to Rome, the Walk-up Experience user is assigned snc\_internal instead of snc\_external. This is because the Explicit Role plugin assigns all users, including Walk-up Experience users, to snc\_internal. Walk-up Experience cannot remove snc\_internal during upgrade. For new installations of Walk-up Experience, this process works automatically.
 
-**Note:** Refer to [Explicit roles plugin](https://www.servicenow.com/docs/access?context=explicit-roles-plugin&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US) for details about the plugin and [Explicit Roles](https://www.servicenow.com/docs/access?context=explicit-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US) for more information about this upgrade process.
+**Note:** Refer to  for details about the plugin and [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explicit-roles.md) for more information about this upgrade process.
 
 ## Access to Walk-up Experience
 
@@ -33,11 +33,11 @@ The Explicit Role \(com.glide.explicit\_roles\) plugin was introduced in the Ser
 
 When upgrading Walk-up Experience to Australia, the Walk-up Experience user is assigned snc\_internal instead of snc\_external. This is because the Explicit Role plugin assigns all users, including the Walk-up Experience user, to snc\_internal. Walk-up Experience cannot remove snc\_internal during upgrade. For new installs of Walk-up Experience, this process works without issue because the Explicit Role plugin installs first, assigns all users to snc\_internal, then the Walk-up Experience user account is created with the snc\_external role already assigned.
 
-**Note:** Refer to [Explicit roles plugin](https://www.servicenow.com/docs/access?context=explicit-roles-plugin&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US) for complete details about the plugin and ServiceNow AI Platform explicit roles.
+**Note:** Refer to  for complete details about the plugin and ServiceNow AI Platform explicit roles.
 
 After upgrading to Australia, you need to remove the snc\_internal role from the Walk-up Experience user account, or any users created to log into the Walk-up Experience kiosk. Then you need to add the snc\_external role to the users. This process is not necessary for upgrades after Australia.
 
-**Note:** Refer to [Explicit Roles](https://www.servicenow.com/docs/access?context=explicit-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US) for complete details about this process.
+**Note:** Refer to [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explicit-roles.md) for complete details about this process.
 
 **Parent Topic:**[Configuring Walk-up Experience](walkup-experience-configuration.md)
 

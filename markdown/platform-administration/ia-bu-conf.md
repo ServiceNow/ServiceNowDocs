@@ -13,10 +13,10 @@ breadcrumb: [Configure, Now Assist for Setup, Get started, Administer the Servic
 
 Explore the following information to know more about the configurations of specific product modules.
 
--   Simplified IT Service Management \(ITSM\): See [Configuring Simplified IT Service Management](https://www.servicenow.com/docs/access?context=configuring-ai-native-itsm&version=australia&pubname=australia-it-service-management&ft:locale=en-US) for more information on configuration of ITSM product module.
--   Core Business Suite Foundation \(CBS\): See [Configure Core Business Suite Foundation](https://www.servicenow.com/docs/access?context=configure-cbs&version=australia&pubname=australia-core-business-suite&ft:locale=en-US) for more information on configuration of CBS product module.
--   IT Operations Management \(ITOM\): See [Now Assist for Setup \(ITOM Visibility\)](https://www.servicenow.com/docs/access?context=nowassist-setup-itom-visibility-landing-page&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) for more information on installation of ITOM product module. The configuration for ITOM will be available in future releases.
--   Now Assist Admin: See [Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information on configuration of Now Assist Admin module.
+-   Simplified IT Service Management \(ITSM\): See [Configuring Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-ai-native-itsm.md) for more information on configuration of ITSM product module.
+-   Core Business Suite Foundation \(CBS\): See [Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/configure-cbs.md) for more information on configuration of CBS product module.
+-   IT Operations Management \(ITOM\): See [Now Assist for Setup \(ITOM Visibility\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/nowassist-setup-itom-visibility-landing-page.md) for more information on installation of ITOM product module. The configuration for ITOM will be available in future releases.
+-   Now Assist Admin: See [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md) for more information on configuration of Now Assist Admin module.
 
 **Parent Topic:**[Configure in Now Assist for Setup](ia-config-landing.md)
 

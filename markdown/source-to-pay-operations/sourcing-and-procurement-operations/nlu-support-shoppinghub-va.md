@@ -17,7 +17,7 @@ You can set up Sourcing and Procurement Operations Virtual Agent to use Natural 
 
 NLU provides information that your virtual agent uses to determine what users want to do and to extract relevant values from their input. With NLU, your virtual agent offers a more natural and engaging conversational experience.
 
-For more information, see [Natural Language Understanding in Virtual Agent](https://www.servicenow.com/docs/access?context=va-NLU&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For more information, see [Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-NLU.md).
 
 The following intents are provided as part of the Sourcing and Procurement Operations Model:
 

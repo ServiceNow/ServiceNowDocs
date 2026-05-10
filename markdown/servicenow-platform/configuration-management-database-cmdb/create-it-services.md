@@ -33,9 +33,9 @@ An application service has an entry point, which lets users access the applicati
 
 All application services created in the Application Service wizard, are set with the **application service** classification.
 
-Service Mapping, if activated, can automatically discover and map application services as described in [Application service mapping](https://www.servicenow.com/docs/access?context=c_DefineMapBusinessServices&version=australia&pubname=australia-it-operations-management&ft:locale=en-US). A discovered application service contains the CIs and the connections between them that Service Mapping discovered and mapped.
+Service Mapping, if activated, can automatically discover and map application services as described in [Application service mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_DefineMapBusinessServices.md). A discovered application service contains the CIs and the connections between them that Service Mapping discovered and mapped.
 
-You can also create an application service by using the [createOrUpdateService - POST](https://www.servicenow.com/docs/access?context=application-service-api&version=australia&pubname=australia-api-reference&ft:locale=en-US) REST API.
+You can also create an application service by using the [createOrUpdateService - POST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/application-service-api.md) REST API.
 
 ## Procedure
 
@@ -211,9 +211,9 @@ The application service is created, and you can access the new application servi
     Both lists of CIs are identical, unless the CMDB group contains more than 10,000 CIs. In this case, **View CMDB Group CI's** shows all the CIs in the CMDB group, and **View Service CI's** shows only the 10,000 CIs that are members of the application service.
 
 -   If the service population method is **Tags**, **Top Down Discovery**, or **Manual**, and select **View Map** to [view the application service map](../../configuration-management/task/app-service-map-base-system.md) where you can:
-    -   [Link application services](https://www.servicenow.com/docs/access?context=link-services-to-services&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
-    -   [View CI attributes in an application service map](https://www.servicenow.com/docs/access?context=t_ViewCIDetails&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
-    -   [View the change history of application services](https://www.servicenow.com/docs/access?context=t_ViewCIChanges&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
-    -   [Compare two versions of an application service](https://www.servicenow.com/docs/access?context=t_CompareBS&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+    -   [Link application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/link-services-to-services.md)
+    -   [View CI attributes in an application service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_ViewCIDetails.md)
+    -   [View the change history of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_ViewCIChanges.md)
+    -   [Compare two versions of an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_CompareBS.md)
 -   Select **Advanced**, and then on the Advanced Details page, select **Additional Info**, **Questionnaire**, **Reject Messages**, or **Worknotes**, to add details.
 

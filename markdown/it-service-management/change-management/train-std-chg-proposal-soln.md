@@ -29,7 +29,7 @@ Role required: admin
 
     By default, the **Std Change Template Candidates** is the solution definition provided. To generate records in the **std\_change\_template\_candidate** list, execute the scheduled job Update Standard Change Cluster Candidates. You can also configure the scheduled job to run at specific periods by selecting the required option in the Run field in the **Scheduled Script Execution** page. You can then create standard change templates from the clusters generated.
 
-    For more information on creating and training the solutions, see [Create and train a clustering solution](https://www.servicenow.com/docs/access?context=create-clustering-solution&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more information on creating and training the solutions, see [Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md).
 
 3.  Click **Update**.
 

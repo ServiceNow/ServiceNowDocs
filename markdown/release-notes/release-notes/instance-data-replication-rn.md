@@ -16,7 +16,7 @@ The ServiceNow® Instance Data Replication \(IDR\) application simplifies the da
 
 View updated diagnostic test descriptions and results on the redesigned IDR Diagnostics page.
 
-See [Instance Data Replication](https://www.servicenow.com/docs/access?context=instance-data-replication&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+See [Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/instance-data-replication.md) for more information.
 
 ## Important information for upgrading IDR to Australia
 
@@ -24,18 +24,18 @@ Log rotation is automatically enabled for the Replication Payload Error \[idr\_r
 
 ## New in the Australia release
 
--   **[IDR Diagnostics page improvements](https://www.servicenow.com/docs/access?context=test-IDR-connectivity&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **[IDR Diagnostics page improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/test-IDR-connectivity.md)**
 
     Access detailed test descriptions and results on the redesigned IDR Diagnostics page.
 
 
 ## Activation information
 
-IDR is a ServiceNow AI Platform feature that is available with activation of the IDR \(com.glide.idr\) plugin, which requires a separate subscription. For details, see [Request an Instance Data Replication subscription](https://www.servicenow.com/docs/access?context=request-instance-data-replication&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+IDR is a ServiceNow AI Platform feature that is available with activation of the IDR \(com.glide.idr\) plugin, which requires a separate subscription. For details, see [Request an Instance Data Replication subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/request-instance-data-replication.md).
 
 ## Related ServiceNow applications and features
 
--   **[Hermes Messaging Service](https://www.servicenow.com/docs/access?context=hermes-messaging-service&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **[Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service.md)**
 
     Hermes Messaging Service is a multi-tenant, multi-cluster data transport and queuing service built on Apache Kafka that enables your instance to produce and consume large volumes of Kafka events reliably.
 

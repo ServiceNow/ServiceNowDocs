@@ -419,7 +419,7 @@ It is a good practice to create as many groups as needed in your organization. I
 
     **Note:**
 
-    For more information, see [Create a user group](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAGroup.md).
 
 4.  Make sure that you select the **security incident** type for this group.
 
@@ -898,7 +898,7 @@ Role required: sn\_si.admin
 
 2.  Click **New**.
 
-    For field descriptions and detailed instructions, see [Create an SLA definition](https://www.servicenow.com/docs/access?context=t_CreateAnSLADefinition&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+    For field descriptions and detailed instructions, see [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/t_CreateAnSLADefinition.md).
 
 
 ### Repair security incident SLAs
@@ -917,7 +917,7 @@ Role required: sn\_si.basic
 
 3.  Select **OK** in the Warning confirmation box.
 
-    For more information, see [Repair SLAs](https://www.servicenow.com/docs/access?context=c_RepairSLAs&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+    For more information, see [Repair SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_RepairSLAs.md).
 
 
 ## Create a Security Incident Response runbook
@@ -1005,7 +1005,7 @@ Set the conditions that connect this runbook to the incident or task.If you sele
 
 5.  To see the knowledge article as it would appear to the user, click **View Article**.
 
-6.  To [edit the details of the knowledge article](https://www.servicenow.com/docs/access?context=create-knowledge-article&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US), click **Edit Article**.
+6.  To [edit the details of the knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-knowledge-article.md), click **Edit Article**.
 
 
 ## Create rules to validate user-reported phishing attacks
@@ -1036,7 +1036,7 @@ When an employee encounters a suspicious email, they should forward it as an att
     |Field|Description|
     |-----|-----------|
     |Name|Name for this email matching rule. For example, User Reported Phishing.|
-    |Conditions|Use the [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to validate whether an email sent to your company phishing email address is a phishing attack. See the following example.|
+    |Conditions|Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to validate whether an email sent to your company phishing email address is a phishing attack. See the following example.|
 
 4.  Select **Submit**.
 

@@ -50,6 +50,6 @@ The benefits of integration are:
 
 To integrate Legal Matter Management with Legal Tracker, complete the following actions:
 
--   Install the Legal Tracker spoke. For more information, see [Legal Tracker](https://www.servicenow.com/docs/access?context=legal-tracker-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) Spoke.
+-   Install the Legal Tracker spoke. For more information, see [Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/legal-tracker-spoke.md) Spoke.
 -   Configure Legal Tracker integration. For more information, see [Configure Legal Matter Management to engage with outside counsel using Legal Tracker](configurations-for-legal-tracker-integration.md).
 

@@ -291,7 +291,7 @@ List of knowledge categories associated with this knowledge base.**Note:** If th
 
 [Control access at the knowledge base level through user criteria](t_SelectUserCriteria.md)
 
-[Explicit roles](https://www.servicenow.com/docs/access?context=explicit-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[Explicit roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explicit-roles.md)
 
 [Knowledge workflows](../reference/r_KnowledgeWorkflows.md#)
 

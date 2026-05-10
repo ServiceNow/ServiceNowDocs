@@ -136,9 +136,9 @@ The system assigns the specified Data owner or Data owner group to the Metric.
 
 -   **Advanced**
 
-The system assigns a Data owner based on the assignment configuration. ESG admins \[sn\_esg.admin\] or Risk admins \[sn\_risk.admin\] can set assignment configurations to dynamically assign data owners. For more information on creating assignment configurations see, [Create an assignment configuration](../task/create-assign-config-mmd.md) and [Assignment Configuration New Record](https://www.servicenow.com/docs/access?context=assignment-configuration-new-record&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+The system assigns a Data owner based on the assignment configuration. ESG admins \[sn\_esg.admin\] or Risk admins \[sn\_risk.admin\] can set assignment configurations to dynamically assign data owners. For more information on creating assignment configurations see, [Create an assignment configuration](../task/create-assign-config-mmd.md) and [Assignment Configuration New Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/assignment-configuration-new-record.md).
 
-**Note:** This is available if you have the GRC: Approver Configurator application installed. For more information see, [Using Approver Configurator for setting up approvals](https://www.servicenow.com/docs/access?context=approval-configuration&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+**Note:** This is available if you have the GRC: Approver Configurator application installed. For more information see, [Using Approver Configurator for setting up approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/approval-configuration.md).
 
 
 </td></tr><tr><td>

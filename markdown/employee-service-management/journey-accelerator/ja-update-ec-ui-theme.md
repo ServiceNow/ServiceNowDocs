@@ -17,7 +17,7 @@ Install the Employee Center app from the ServiceNow Store to update the EC UI th
 
 ## Before you begin
 
-Install the Employee Center app from the ServiceNow Store before you can update the labels for the menu items or My active items links. For more information, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Install the Employee Center app from the ServiceNow Store before you can update the labels for the menu items or My active items links. For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
 
 For more information on Employee Center themes, see [Customize Employee Center portal theme](../../employee-center/task/customize-theme.md).
 

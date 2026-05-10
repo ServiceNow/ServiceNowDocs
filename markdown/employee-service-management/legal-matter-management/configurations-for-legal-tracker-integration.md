@@ -15,7 +15,7 @@ breadcrumb: [Configure, Legal Matter Management, Legal Service Delivery, Legal a
 
 Configure the requirements to enable outside counsel engagement and matter creation in Legal Tracker.
 
-To integrate Legal Matter Management with Legal Tracker, ensure you have installed the Legal Tracker Spoke. For more information, see [Legal Tracker](https://www.servicenow.com/docs/access?context=legal-tracker-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+To integrate Legal Matter Management with Legal Tracker, ensure you have installed the Legal Tracker Spoke. For more information, see [Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/legal-tracker-spoke.md).
 
 -   **[Configure Legal Tracker instance URL](../task/update-system-properties-for-legal-tracker.md)**  
 Update the system properties to generate the URL specific to External Matter that is displayed in the Legal Tracker matter link field. By selecting the URL, the user can directly open the matter in the Legal Tracker application.

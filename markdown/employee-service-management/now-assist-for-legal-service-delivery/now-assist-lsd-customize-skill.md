@@ -54,7 +54,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
     **Note:** Selecting the Enable Extended Tables check box applies the Now Assist context menu configuration to all the extended tables of the legal request and legal matter.
 
-    For more information about the Now Assist context menu summarization, see [Summarize records with the Now Assist context menu](https://www.servicenow.com/docs/access?context=summarize-with-now-assist-context-menu&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more information about the Now Assist context menu summarization, see [Summarize records with the Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/summarize-with-now-assist-context-menu.md).
 
 6.  View the input data for each skill, such as the base input fields and related lists for the different input templates \(New, Work in progress, or Closed states\).
 
@@ -166,7 +166,7 @@ Description of the base input field value.
 
     2.  In the **Role restrictions to skill** section, grant data access to additional roles.
 
-        For more information, see [role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+        For more information, see [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md).
 
     3.  Select **Save and continue** to go to the next step.
 
@@ -182,7 +182,7 @@ Description of the base input field value.
 
         -   **Now Assist panel**: When selected, the Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 

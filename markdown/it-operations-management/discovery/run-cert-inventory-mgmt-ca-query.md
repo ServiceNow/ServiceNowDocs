@@ -27,7 +27,7 @@ In Certificate discovery, the Certificate Authorities \(CA\) pattern uses specif
 
 1.  Generate a credential alias if needed.
 
-    For more information, see [Credential aliases for Discovery](https://www.servicenow.com/docs/access?context=discovery-credential-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US). Create a new credential alias for new credentials. In case multiple credentials share the same alias, Discovery prioritizes the Credential and initiates the process.
+    For more information, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/discovery-credential-alias.md). Create a new credential alias for new credentials. In case multiple credentials share the same alias, Discovery prioritizes the Credential and initiates the process.
 
 2.  Create a new credential type specific to the Certificate Authority \(CA\).
 
@@ -47,7 +47,7 @@ In Certificate discovery, the Certificate Authorities \(CA\) pattern uses specif
 
     6.  Fill in the fields that are specific to the CA type you selected.
 
-        Each Certificate Authority \(CA\) requires specific form field entries. For more information, see [API Key credentials](https://www.servicenow.com/docs/access?context=API-key-credential-form&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+        Each Certificate Authority \(CA\) requires specific form field entries. For more information, see [API Key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/API-key-credential-form.md).
 
 3.  Create a Discovery schedule with the following fields.
 

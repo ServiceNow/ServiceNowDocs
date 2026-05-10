@@ -51,11 +51,11 @@ Service Graph Connector for GCP
 
 </td><td>
 
-[Service Graph Connector for GCP](https://www.servicenow.com/docs/access?context=sgc-cmdb-integration-gcp&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-integration-gcp.md)
 
 </td><td>
 
-[Configure Service Graph Connector for GCP using the guided setup](https://www.servicenow.com/docs/access?context=sgc-config-gcp-integration&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Configure Service Graph Connector for GCP using the guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-gcp-integration.md)
 
 </td></tr></tbody>
 </table>**Note:**

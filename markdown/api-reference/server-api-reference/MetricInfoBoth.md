@@ -17,7 +17,7 @@ The MetricInfo API provides methods to check if a metric is in the MetricBase da
 
 You can call this class in scoped and global server scripts. When using the MetricInfo class, use the `sn_clotho` namespace identifier.
 
-This class is part of the [MetricBase](https://www.servicenow.com/docs/access?context=metricbase&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) application.
+This class is part of the [MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase.md) application.
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 
@@ -40,7 +40,7 @@ var metricInfo =  new sn_clotho.MetricInfo('mb_demo_drone','mb_demo_mt_altitude'
 
 Gets the retention policy schedules of the specified metric.
 
-See also [MetricBase retention policies](https://www.servicenow.com/docs/access?context=metricbase-retention-policies&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+See also [MetricBase retention policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase-retention-policies.md).
 
 |Name|Type|Description|
 |----|----|-----------|

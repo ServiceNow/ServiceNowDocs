@@ -208,7 +208,7 @@ Source
 
 </td><td>
 
-Select one of the following options:-   **UI Script**: Add an internal UI script that has been uploaded to the UI script table \[sys\_ui\_script\]. Use UI scripts to create client-side JavaScript and reuse it in multiple locations. For more information on UI scripts, see [UI scripts](https://www.servicenow.com/docs/access?context=c_UIScripts&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Select one of the following options:-   **UI Script**: Add an internal UI script that has been uploaded to the UI script table \[sys\_ui\_script\]. Use UI scripts to create client-side JavaScript and reuse it in multiple locations. For more information on UI scripts, see [UI scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UIScripts.md).
 -   **URL**: Link to an external JavaScript file. Use external URLs to use the same JavaScript as a corporate website or other online resource.
 
 

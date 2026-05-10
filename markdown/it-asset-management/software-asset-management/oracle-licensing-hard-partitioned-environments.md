@@ -21,7 +21,7 @@ When you hard partition a server, the server is divided into smaller systems tha
 
 LPAR is a defined subset of processor hardware that supports the operating system. An LPAR contains resources, such as processors, memory, and input or output devices, that operate as an independent system. You can have multiple LPARs within each mainframe hardware system.
 
-Discovering the LPARs and LPAR resources within your IBM LPAR infrastructure requires ServiceNow Discovery patterns for the IBM Hardware Management Console \(HMC\), which is the hardware appliance that enables you to manage and configure your LPARs. To access these discovery patterns, you must request and install the Discovery and Service Mapping Patterns application from the ServiceNow Store. For more information on how to configure a discovery on your LPARs, see [IBM Virtualization and Hardware Management Console discovery](https://www.servicenow.com/docs/access?context=ibm-hmc-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+Discovering the LPARs and LPAR resources within your IBM LPAR infrastructure requires ServiceNow Discovery patterns for the IBM Hardware Management Console \(HMC\), which is the hardware appliance that enables you to manage and configure your LPARs. To access these discovery patterns, you must request and install the Discovery and Service Mapping Patterns application from the ServiceNow Store. For more information on how to configure a discovery on your LPARs, see [IBM Virtualization and Hardware Management Console discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/ibm-hmc-discovery.md).
 
 **Note:** The `lparstat` command pulls a report of LPAR-related information and usage. For more information, see the [IBM Knowledge Center](https://www.ibm.com/support/knowledgecenter/).
 
@@ -34,7 +34,7 @@ When you run a discovery, your discovered LPAR data is populated and stored in t
 -   cmdb\_rel\_ci
 -   cmdb\_sam\_sw\_install
 
-To populate and store this data, you must request and install the CMDB CI Class Models application from the ServiceNow Store. This application adds or updates CMDB classes for the IBM HMC. For more information on IBM HMC CMDB classes, see [IBM Hardware Management Console \(HMC\) extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-ibm-hmc&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+To populate and store this data, you must request and install the CMDB CI Class Models application from the ServiceNow Store. This application adds or updates CMDB classes for the IBM HMC. For more information on IBM HMC CMDB classes, see [IBM Hardware Management Console \(HMC\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-ibm-hmc.md).
 
 After your discovered LPAR data is populated in the appropriate CMDB tables, you can use the **samp\_frame\_to\_lpar\_resource** database view to join the tables together and consolidate all LPAR data into a single view. Based on this database view and the Oracle Database and WebLogic Server licensing rules for IBM LPAR, you can identify and determine the license compliance of all Oracle Database and WebLogic server installations across your IBM LPAR infrastructure.
 
@@ -86,19 +86,19 @@ To determine the number of rights that are required across your uncapped micro-p
     -   If the resulting value is greater than the number of physical processor cores that are available to the shared processor pool, multiply the number of physical processor cores by a core processor licensing factor, as specified on the [Oracle Processor Core Factor Table](http://www.oracle.com/us/corporate/contracts/processor-core-factor-table-070634.pdf).
 
 </td></tr></tbody>
-</table>For more information on database views, see [Working with database views for reporting](https://www.servicenow.com/docs/access?context=c_DatabaseViews&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+</table>For more information on database views, see [Working with database views for reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DatabaseViews.md).
 
 ## Solaris LDOM or Oracle VM Server for SPARC
 
 A logical domain \(LDOM\) is a distinct logical unit within a single computer system, complete with its own operating system, resources, and identity. You can run different applications in separate logical domains and maintain their independence for performance and security reasons. Solaris LDOM is a virtualization technology that enables creating multiple virtual machines \(VMs\) on a single physical server.
 
-The ServiceNow Discovery application uses the Solaris LDOM infrastructure pattern and Solaris LDOM shared library pattern to find all LDOM data. For information on Solaris LDOM discovery, see [Oracle Solaris LDOM discovery](https://www.servicenow.com/docs/access?context=solaris-ldom-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+The ServiceNow Discovery application uses the Solaris LDOM infrastructure pattern and Solaris LDOM shared library pattern to find all LDOM data. For information on Solaris LDOM discovery, see [Oracle Solaris LDOM discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/solaris-ldom-discovery.md).
 
 The Software Asset Management application supports licensing of Oracle Database Server and WebLogic Server installed on the Solaris LDOM, version 2.0 and above, for Per Processor and Named User Plus \(NUP\) license metrics. To license your Oracle Database or WebLogic server installations, rights should be allocated to the physical server that runs the Solaris LDOM configuration. For details on the licensing of Oracle products, see [Software model metric attributes](../reference/sw-metric-attributes.md).
 
 ## Solaris zones
 
-You can set up a global zone on a Solaris server and hard partition it with multiple local zones. You can then run an Oracle Database or WebLogic server on one or more local zones. To license your Oracle Database or WebLogic server installations, rights should be allocated to the physical host that runs the entire Solaris zone configuration. For the Per Processor license metric, rights must cover the cores for all local zones up to the maximum capacity of the physical host. For the NUP license metric, rights must cover the clients that access the Database or WebLogic server on the local zones. For information on Solaris zone discovery, see [Solaris discovery](https://www.servicenow.com/docs/access?context=r_DataCollDiscoSolarisComputers&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+You can set up a global zone on a Solaris server and hard partition it with multiple local zones. You can then run an Oracle Database or WebLogic server on one or more local zones. To license your Oracle Database or WebLogic server installations, rights should be allocated to the physical host that runs the entire Solaris zone configuration. For the Per Processor license metric, rights must cover the cores for all local zones up to the maximum capacity of the physical host. For the NUP license metric, rights must cover the clients that access the Database or WebLogic server on the local zones. For information on Solaris zone discovery, see [Solaris discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoSolarisComputers.md).
 
 **Parent Topic:**[Oracle Database and WebLogic Server licensing in partitioned environments](oracle-licensing-partitioned-environments.md)
 

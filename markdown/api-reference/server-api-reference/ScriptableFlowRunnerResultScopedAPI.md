@@ -212,7 +212,7 @@ Returns the stream of data from a data stream action.
 
 If the datastream\(\) method was used in the ScriptableFlowRunner builder class, this returns the stream of data as a ScriptableDataStream object. Use the ScriptableDataStream class to iterate over items in the stream. See [ScriptableDataStream](../../ScriptableDataStream/concept/ScriptableDataStreamAPI.md#).
 
-For more information about data stream actions, see [Data Stream actions and pagination](https://www.servicenow.com/docs/access?context=data-stream-actions&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+For more information about data stream actions, see [Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/data-stream-actions.md).
 
 |Name|Type|Description|
 |----|----|-----------|

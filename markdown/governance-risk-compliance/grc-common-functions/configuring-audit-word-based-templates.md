@@ -29,11 +29,11 @@ Create a path to go from a record in the template configuration to any table tha
 
 Define the data that you want to view or fetch, whether it's a list of records or an aggregation when creating an audit report. For example, specify if you want to see a list of remediation tasks or the list of the top five high priority issues. A maximum of 200 records can be fetched from any table.
 
-[Set up Microsoft 365 reporting configuration](https://www.servicenow.com/docs/access?context=configure-o365-reporting-configs&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US)
+[Set up Microsoft 365 reporting configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-o365-reporting-configs.md)
 
 Set up the Microsoft 365 reporting configuration records to specify the data points and reports that you want to import in to a Microsoft Word document for disclosure reporting purposes.
 
-[Add additional reporting configuration filters for a Microsoft 365 configuration record](https://www.servicenow.com/docs/access?context=add-additional-reporting-filters&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US)
+[Add additional reporting configuration filters for a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-additional-reporting-filters.md)
 
 Add additional reporting filters to specify at a granular level what data must be imported to the disclosure report from a table.
 

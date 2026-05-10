@@ -16,7 +16,7 @@ Use the Import Builder to configure the account onboarding data import task.
 ## Before you begin
 
 -   Role required: sn\_acct\_lc\_agent
--   One or more Playbooks roles. See [Playbooks roles](https://www.servicenow.com/docs/access?context=process-automation-designer-roles&version=australia&pubname=australia-build-workflows&ft:locale=en-US) for details.
+-   One or more Playbooks roles. See [Playbooks roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-roles.md) for details.
 -   Confirm that you're in the same application scope in which the target table is present.
 
 ## Procedure

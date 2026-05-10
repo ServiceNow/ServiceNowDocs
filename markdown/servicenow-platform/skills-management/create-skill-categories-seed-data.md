@@ -25,7 +25,7 @@ The sample data provides 150 records that you can use to get started building yo
 
 ## Procedure
 
-1.  [Activate](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US) the Skills Library Data for Skills Management \(com.snc.skills\_management.seed\_data\) plugin.
+1.  [Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md) the Skills Library Data for Skills Management \(com.snc.skills\_management.seed\_data\) plugin.
 
 2.  Navigate to **Skills** &gt; **Skill Taxonomy**.
 

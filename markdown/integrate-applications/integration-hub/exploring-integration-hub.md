@@ -29,7 +29,7 @@ Build reusable integrations with third-party systems and call them from anywhere
 
 -   **Create spokes**
 
-    Build spokes using Spoke Generator to automate integration tasks by creating a sequence of reusable actions to develop custom integrations. For more information, see [Building spokes using Spoke Generator](https://www.servicenow.com/docs/access?context=spoke-builder&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    Build spokes using Spoke Generator to automate integration tasks by creating a sequence of reusable actions to develop custom integrations. For more information, see [Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spoke-builder.md).
 
 -   **Use spokes for base system integrations**
 
@@ -39,7 +39,7 @@ Build reusable integrations with third-party systems and call them from anywhere
     -   Synchronize data across multiple production instances using [Integration Hub Remote Process Sync](integrationhub-remote-process-sync.md).
 -   **Create custom integrations**
 
-    Build custom integrations with Workflow Studio using a [REST step](../../flow-designer/reference/rest-request-action-designer.md) or a [Script step](https://www.servicenow.com/docs/access?context=javascript-step-action-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    Build custom integrations with Workflow Studio using a [REST step](../../flow-designer/reference/rest-request-action-designer.md) or a [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/javascript-step-action-designer.md).
 
 -   **Automate inbound integrations with third-party applications**
 
@@ -47,7 +47,7 @@ Build reusable integrations with third-party systems and call them from anywhere
 
 -   **Automate the administration of servers and applications in your network**
 
-    Use custom actions to delegate Workflow Studio processes to a [MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) in your network. For example, actions that use the [PowerShell step](../../flow-designer/reference/powershell-step-action-designer.md) or [REST step](../../flow-designer/reference/rest-request-action-designer.md).
+    Use custom actions to delegate Workflow Studio processes to a [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md) in your network. For example, actions that use the [PowerShell step](../../flow-designer/reference/powershell-step-action-designer.md) or [REST step](../../flow-designer/reference/rest-request-action-designer.md).
 
 
 ## Import and stream data
@@ -58,7 +58,7 @@ Stream data with Stream Connect for Apache Kafka. Stream Connect links your Kafk
 
 ## Manage connections
 
-Integration Hub takes advantage of aliases to manage connection information and credentials when integrating with external systems. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. Integration Hub only requires an alias, which then resolves to use the correct credentials and connection information during runtime. Learn more about [credentials, connections, and aliases](https://www.servicenow.com/docs/access?context=credentials-connections-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Integration Hub takes advantage of aliases to manage connection information and credentials when integrating with external systems. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. Integration Hub only requires an alias, which then resolves to use the correct credentials and connection information during runtime. Learn more about [credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-connections-alias.md).
 
 View and configure your connection and credential aliases with the [Connections dashboard](connections-dashboard.md). The Connections dashboard enables you to manage multiple connections through a single interface, and provides simplified processes for adding, editing, and configuring connections. With the Connections dashboard, you can view details about an alias and all associated child connections in a single location.
 
@@ -79,7 +79,7 @@ Integration Hub provides process owners and developers these benefits.
 
 ## Development process
 
-When developing a custom integration, develop all actions for the integration within a scoped application. When deployed to a target instance, these actions are grouped as a spoke in Workflow Studio. Brand the spoke by adding a custom icon to the application record. To learn more about application development, see [Build applications](https://www.servicenow.com/docs/access?context=build-applications&version=australia&pubname=australia-application-development&ft:locale=en-US).
+When developing a custom integration, develop all actions for the integration within a scoped application. When deployed to a target instance, these actions are grouped as a spoke in Workflow Studio. Brand the spoke by adding a custom icon to the application record. To learn more about application development, see [Build applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-applications.md).
 
 When developing spokes, flow and action designers typically perform these application development tasks.
 
@@ -92,7 +92,7 @@ When developing spokes, flow and action designers typically perform these applic
     -   Publish to the ServiceNow Store as an application that customers can request for their environments.
     -   Publish to ServiceNow Share to provide content to other customers in the ServiceNow community.
 
-Review Workflow Studio design considerations in the [Architecture Overview](https://www.servicenow.com/docs/access?context=flow-designer-arch-overview&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Review Workflow Studio design considerations in the [Architecture Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-arch-overview.md).
 
 **Parent Topic:**[Integration Hub](integrationhub.md)
 

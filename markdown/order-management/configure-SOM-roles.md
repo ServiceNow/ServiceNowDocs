@@ -27,8 +27,8 @@ Roles define the functions available to users of the Sales CRM applications, inc
 
 Assign roles to users and groups by using the ServiceNow AI Platform user administration feature.
 
--   To assign a role to a user, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   To assign a role to a group, see [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
+-   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
 
 ## Lead Management roles
 
@@ -164,7 +164,7 @@ Order Viewer \[order\_viewer\]
 
 View access to customer orders, product orders, product order tasks, service orders, and resource orders. You should also grant an order viewer with the sn\_prd\_pm.product\_catalog\_viewer role to access the product catalog data.
 
- **Note:** The order approver and order viewer roles are included in the Order Management Business Stakeholder role, which has a fee associated with it. Don’t assign these roles to users without confirming that your organization has the appropriate entitlement. To learn more, see [Activate Business Stakeholder](https://www.servicenow.com/docs/access?context=activate-business-stakeholders&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+ **Note:** The order approver and order viewer roles are included in the Order Management Business Stakeholder role, which has a fee associated with it. Don’t assign these roles to users without confirming that your organization has the appropriate entitlement. To learn more, see [Activate Business Stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/activate-business-stakeholders.md).
 
 </td></tr><tr><td>
 

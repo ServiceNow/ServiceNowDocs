@@ -100,15 +100,15 @@ Individual consumers can have multiple profiles for different needs. Consumer pr
 **Related topics**  
 
 
-[User management](https://www.servicenow.com/docs/access?context=user-management&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[User management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/user-management.md)
 
-[Customer data](https://www.servicenow.com/docs/access?context=customer-data&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Customer data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-data.md)
 
-[CSM Configurable Workspace](https://www.servicenow.com/docs/access?context=csm-workspaces-configure&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)
 
-[AWA for CSM](https://www.servicenow.com/docs/access?context=awa-csm-overview&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[AWA for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/awa-csm-overview.md)
 
-[Set up self-service](https://www.servicenow.com/docs/access?context=set-up-self-service&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Set up self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/set-up-self-service.md)
 
-[Roles installed with Customer Service Management](https://www.servicenow.com/docs/access?context=r_RolesInstalledWithCustomerService&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)
 

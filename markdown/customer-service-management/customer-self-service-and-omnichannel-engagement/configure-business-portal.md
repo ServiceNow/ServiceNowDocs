@@ -67,5 +67,5 @@ For details, see [Activate the Consumer and Customer Service Portals](activate-c
 **Related topics**  
 
 
-[Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md)
 

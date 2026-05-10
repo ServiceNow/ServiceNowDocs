@@ -55,7 +55,7 @@ Although you can insert global optional activities anywhere in the playbook, you
 
     The values for the starting and ending states are derived from the value field of the sys\_choice table.
 
-    To create a custom state flow, see [Create a state flow](https://www.servicenow.com/docs/access?context=t_CreateAStateFlow&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US). Ensure that the class of the state flow is “Customer Service Case Flow." You can also configure more declarative actions for the optional activity. For more information, see [Creating new declarative action assignments](https://www.servicenow.com/community/next-experience-articles/creating-new-declarative-action-assignments-in-the-sys/ta-p/2394930).
+    To create a custom state flow, see [Create a state flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAStateFlow.md). Ensure that the class of the state flow is “Customer Service Case Flow." You can also configure more declarative actions for the optional activity. For more information, see [Creating new declarative action assignments](https://www.servicenow.com/community/next-experience-articles/creating-new-declarative-action-assignments-in-the-sys/ta-p/2394930).
 
 12. Select **Done**.
 

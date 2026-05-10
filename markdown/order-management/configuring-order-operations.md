@@ -15,7 +15,7 @@ Learn how to configure the order operations applications to help sales and suppo
 
 Installing and configuring the following applications involve installing the applications from the ServiceNow Store store, assigning roles, and enabling app-specific features that support post-sales processes and operational efficiency. It covers configuring Order Operations Case Management for handling order-related issues, enabling Return Merchandise Authorization \(RMA\) workflows, and setting up Lead-to-Cash process management to monitor the order life cycle.
 
-1.  [Order Operations Case Management](https://www.servicenow.com/docs/access?context=csm-case-mgmt-order-ops&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+1.  [Order Operations Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-mgmt-order-ops.md)
 
     Install and configure the Order Operations Case Management application customer service agents to create cases for multiple customer orders or for specific products in an order.
 

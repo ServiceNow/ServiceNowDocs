@@ -25,7 +25,7 @@ Role required: admin
 
 1.  Ensure that your ServiceNow instance is configured for Conversational Integration with Microsoft Teams and the IT Service Management integration with Microsoft 365 plugin \(sn\_now\_teams\_it\) is active.
 
-    For information on Virtual Agent permission policies, see [Manage Now Virtual Agent permission policies](https://www.servicenow.com/docs/access?context=disable-now-virtual-agent-ms-teams&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    For information on Virtual Agent permission policies, see [Manage Now Virtual Agent permission policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/disable-now-virtual-agent-ms-teams.md).
 
 2.  Select **Microsoft Teams** as your preferred notification channel while defining the escalation settings for a user group.
 

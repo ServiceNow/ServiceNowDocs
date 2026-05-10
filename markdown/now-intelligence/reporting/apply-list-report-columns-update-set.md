@@ -20,7 +20,7 @@ Configured list report columns are not automatically applied to an instance when
 1.  From the UI View table, search for the sys\_id of the report \(RPT\) view record for your changes.
 2.  Add it to the update set.
 
-For information on adding customized configurations to an update set and applying them, see [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For information on adding customized configurations to an update set and applying them, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md).
 
 ![UI Views report sys_id](../image/UIViewsReportViewRPTSysID.png)
 

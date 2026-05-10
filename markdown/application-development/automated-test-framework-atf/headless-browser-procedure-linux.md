@@ -30,7 +30,7 @@ Role required: admin on your ServiceNow instance and local administrator on the 
 -   Install the [Docker application](https://docs.docker.com/engine/install/)
 -   Install Java Runtime Environment \(JRE\) 1.8 - required for keytool utility
 
-    **Note:** The version must be Java 1.8, or errors result in your ServiceNow instance when trying to validate the certificate created with the keytool utility. To learn more, see [Create encryption keys using the Java KeyStore keytool](https://www.servicenow.com/docs/access?context=t_CreateEncryptionKeys&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    **Note:** The version must be Java 1.8, or errors result in your ServiceNow instance when trying to validate the certificate created with the keytool utility. To learn more, see [Create encryption keys using the Java KeyStore keytool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/t_CreateEncryptionKeys.md).
 
 -   Install OpenSSL
 -   Two-way communication

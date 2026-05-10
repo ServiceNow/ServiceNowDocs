@@ -57,7 +57,7 @@ Activate the Now Assist for Employee Experience plugin to enable generative AI o
     -   Select the step in the guided setup navigation.
     -   Return to a previous step by selecting **Back**.
     -   Select **Save and continue** to go to the next step.
-4.  [Clone a skill](https://www.servicenow.com/docs/access?context=clone-and-edit-servicenow-skill&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+4.  [Clone a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/clone-and-edit-servicenow-skill.md).
 
 5.  Go to **Define Trigger** and select one of the following triggers.
 
@@ -85,5 +85,5 @@ On successful configuration, approval users can see summarization for approvals.
 **Related topics**  
 
 
-[Configuring Now Assist Admin features](https://www.servicenow.com/docs/access?context=configuring-na-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
 

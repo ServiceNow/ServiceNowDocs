@@ -76,7 +76,7 @@ If the record type is `kb_knowledge`, `sc_cat_item`, or `sc_category`, the metho
 
 Returns true if the currently logged in user has permission to view the specified page.
 
-The system determines permission using roles and user criteria. For more information, see [Configure page security by role](https://www.servicenow.com/docs/access?context=configure-page-security&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) and [User criteria for Service Portal](https://www.servicenow.com/docs/access?context=user-criteria&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+The system determines permission using roles and user criteria. For more information, see [Configure page security by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-page-security.md) and [User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/user-criteria.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1112,7 +1112,7 @@ id=form&table=incident&filter=&sys_id=12bc12bc12bc12bc12bc12bc12bc12bc&v=
 
 Returns true if the current user can see a search source specified by the searchSourceID.
 
-Returns true if the user is not restricted by user criteria. For more detail on how user criteria affects Service Portal assets, see [User criteria for Service Portal](https://www.servicenow.com/docs/access?context=user-criteria&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Returns true if the user is not restricted by user criteria. For more detail on how user criteria affects Service Portal assets, see [User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/user-criteria.md).
 
 **Note:** This method does not evaluate role-based permissions of the search source, and should only be used if User Criteria is enabled.
 

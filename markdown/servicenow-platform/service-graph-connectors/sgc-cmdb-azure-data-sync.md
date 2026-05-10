@@ -31,7 +31,7 @@ Disable delta synchronization to import all the Microsoft Azure data.
 
 ### Before you begin
 
-Set the application scope to Service Graph Connector for Microsoft Azure using the application picker. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Set the application scope to Service Graph Connector for Microsoft Azure using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: admin
 

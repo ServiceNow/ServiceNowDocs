@@ -53,23 +53,23 @@ In this workflow:
 
 To get started with assessing your project risks, follow these steps:
 
-1.  Setup and configure the risk assessment methodology. See [Configure Project Portfolio Management and Advanced Risk integration](https://www.servicenow.com/docs/access?context=specify-approvers-for-proj-risks&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+1.  Setup and configure the risk assessment methodology. See [Configure Project Portfolio Management and Advanced Risk integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/specify-approvers-for-proj-risks.md).
 
     Role: sn\_risk.admin.
 
-2.  Define scope and initiate risk assessment. See [Add risks for a project](https://www.servicenow.com/docs/access?context=add-risks-for-project&version=australia&pubname=australia-it-business-management&ft:locale=en-US).
+2.  Define scope and initiate risk assessment. See [Add risks for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-risks-for-project.md).
 
     Role: it\_project\_manager.
 
-3.  Perform risk assessment. See [Perform risk assessment](https://www.servicenow.com/docs/access?context=assessing-proj-risk-by-projmanager&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+3.  Perform risk assessment. See [Perform risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/assessing-proj-risk-by-projmanager.md).
 
     Role: sn\_grc.business\_user.
 
-4.  Assess and elevate to project risk. See [Elevate a project risk to enterprise risk](https://www.servicenow.com/docs/access?context=Elevating-a-risk&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+4.  Assess and elevate to project risk. See [Elevate a project risk to enterprise risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/Elevating-a-risk.md).
 
     Role: it\_project\_manager.
 
-5.  Convert risk to issue and monitor security posture. See [Monitor risk posture](https://www.servicenow.com/docs/access?context=project-risk-dashboard&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+5.  Convert risk to issue and monitor security posture. See [Monitor risk posture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/project-risk-dashboard.md).
 
     Role: sn\_risk.admin, it\_project\_manager.
 

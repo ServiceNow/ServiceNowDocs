@@ -33,7 +33,7 @@ Stores one or more Sys ID references to records in a specific table. The Records
 
 ## Script support
 
-The records data type is supported in script by the GlideRecord class, which can produce an array containing one or more sys\_id values. For more information about the GlideRecord class and its available methods, see [GlideRecord - Global](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+The records data type is supported in script by the GlideRecord class, which can produce an array containing one or more sys\_id values. For more information about the GlideRecord class and its available methods, see [GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md).
 
 ## Output of a Look Up Records action
 

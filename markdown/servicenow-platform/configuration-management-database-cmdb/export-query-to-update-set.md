@@ -23,7 +23,7 @@ Domain in the exported query must be visible in both, source and destination ins
 
 ## About this task
 
-Export a query definition as an update set which you can later import and commit. This process lets you port a query between instances, such as from a development environment to a production environment. For more information about exporting and then committing update sets using XML files, see [Save an update set as a local XML file](https://www.servicenow.com/docs/access?context=t_SaveAnUpdateSetAsAnXMLFile&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Export a query definition as an update set which you can later import and commit. This process lets you port a query between instances, such as from a development environment to a production environment. For more information about exporting and then committing update sets using XML files, see [Save an update set as a local XML file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_SaveAnUpdateSetAsAnXMLFile.md).
 
 When exporting a combination query, the integrated Service Mapping query definition is included in the exported update set.
 

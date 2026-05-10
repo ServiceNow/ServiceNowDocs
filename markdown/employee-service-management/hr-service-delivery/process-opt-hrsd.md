@@ -30,7 +30,7 @@ Use Process Mining to discover, streamline, visualize, analyze, monitor, and mor
 -   **Automate your processes**: Identify frequent, consistent, and repeated tasks that are suitable for automation.
 -   **Improve your processes**: Link process maps to KPIs to perform root cause analysis and identify drivers of performance.
 
-For complete information about the Process Mining application and how it relates to and integrates with HR Service Delivery, see [Process Mining](https://www.servicenow.com/docs/access?context=process-mining&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+For complete information about the Process Mining application and how it relates to and integrates with HR Service Delivery, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining.md).
 
 To enable the Process Mining content pack for HR Service Delivery, see .
 
@@ -48,7 +48,7 @@ Process maps and transitions look across your portfolio of HR services to find a
 
 ## End user and roles
 
-If you have the required roles, you can use Analyst Workbench to access the visualized process workflow data, and tools for analyzing the data related to HR service cases. For more information, see [Overview of the Analyst Workbench](https://www.servicenow.com/docs/access?context=analyst-workbench-overview&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+If you have the required roles, you can use Analyst Workbench to access the visualized process workflow data, and tools for analyzing the data related to HR service cases. For more information, see [Overview of the Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyst-workbench-overview.md).
 
 The following combinations of roles are required for using the Process Mining application with HR Service Delivery.
 
@@ -60,7 +60,7 @@ The following combinations of roles are required for using the Process Mining ap
 
 ## Optimization project for HR service cases
 
-The HRSD Process Mining content pack \(com.sn\_hr\_process\_mining\) adds a prebuilt project that includes predefined HR service cases and, if installed, Lifecycle Events cases process model definitions. By default, the project filters cases for the last two quarters. You can also configure a new process project based on the prebuilt project. For more information, see [Using Process Mining](https://www.servicenow.com/docs/access?context=use-process-mining&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+The HRSD Process Mining content pack \(com.sn\_hr\_process\_mining\) adds a prebuilt project that includes predefined HR service cases and, if installed, Lifecycle Events cases process model definitions. By default, the project filters cases for the last two quarters. You can also configure a new process project based on the prebuilt project. For more information, see [Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-process-mining.md).
 
 The process model definitions include default activity definitions and breakdown definitions for cases that you can use as they are or modify for a custom configuration.
 
@@ -72,9 +72,9 @@ The process model definitions include default activity definitions and breakdown
 
 ## Continual Improvement Management initiative for HR cases
 
-If the Continual Improvement Management \(CIM\) application is enabled, you can also use the CIM project from the Analyst Workbench to track the progress of improvement initiatives for HR cases. The improvement initiative and process optimization model are automatically linked. For more information, see [Integration with Continual Improvement Management](https://www.servicenow.com/docs/access?context=integrate-with-continuous-i&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+If the Continual Improvement Management \(CIM\) application is enabled, you can also use the CIM project from the Analyst Workbench to track the progress of improvement initiatives for HR cases. The improvement initiative and process optimization model are automatically linked. For more information, see [Integration with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integrate-with-continuous-i.md).
 
 ## Performance Analytics for HR cases
 
-If the Performance Analytics \(PA\) application is enabled, you can also use the available template configurations to open the Process Mining application from a PA indicator based on the HR service case data. For more information, see [Integration with Performance Analytics \(PA\)](https://www.servicenow.com/docs/access?context=integrate-pa&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+If the Performance Analytics \(PA\) application is enabled, you can also use the available template configurations to open the Process Mining application from a PA indicator based on the HR service case data. For more information, see [Integration with Performance Analytics \(PA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integrate-pa.md).
 

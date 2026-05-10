@@ -49,7 +49,7 @@ You can do the following tasks to set the existing time-limited authentication p
 
 To learn how to configure the properties, see [Time Limited Authentication Properties form](../reference/iar-time-limited-authentication-properties-form.md).
 
-To learn more about time-limited authentication, see [Time limited authentication](https://www.servicenow.com/docs/access?context=time-based-authentication-with-mfa&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+To learn more about time-limited authentication, see [Time limited authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/time-based-authentication-with-mfa.md).
 
 ## User criteria for generating the digest link
 

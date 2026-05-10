@@ -19,6 +19,6 @@ Role required: admin
 
 ## Procedure
 
-1.  To set up the Socure spoke, follow the instructions in [Set up the Socure spoke](https://www.servicenow.com/docs/access?context=setup-socure&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+1.  To set up the Socure spoke, follow the instructions in [Set up the Socure spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-socure.md).
 
 

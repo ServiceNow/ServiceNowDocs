@@ -54,7 +54,7 @@ Depending on adoption level, a card might contain any of the following resource 
 -   **Get started**: Link to a landing page where you can start immediately utilizing the feature.
 -   **Install app**: Link to the ServiceNow Store where you can immediately install the app.
 
-Cards use different methods to examine the instance and determine if the card's feature is installed, activated, and being used. For example, some cards check for the installation status of plugins and some cards rely on data in the specific feature tables. Many counts and aggregation data that appear on cards is based on [Performance Analytics indicators](https://www.servicenow.com/docs/access?context=c_Indicators&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) built on top of the Base Aggregate Data \[sn\_cmdb\_ws\_base\_aggregate\_data\] table.
+Cards use different methods to examine the instance and determine if the card's feature is installed, activated, and being used. For example, some cards check for the installation status of plugins and some cards rely on data in the specific feature tables. Many counts and aggregation data that appear on cards is based on [Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_Indicators.md) built on top of the Base Aggregate Data \[sn\_cmdb\_ws\_base\_aggregate\_data\] table.
 
 -   If the result is that the card's feature is installed or being used, then the card shows charts and counts about the level of usage. In which case, the card's label might slightly adjust.
 -   If the result is that the card's feature isn't installed or isn't in use, then links are provided to resources where you can explore, install, and start using the feature.
@@ -112,7 +112,7 @@ Data ingestion contains the following features and aggregations:
 
 -   **CMDB application for APIs and CLI**
 
-    Determines whether the [CMDB application for APIs and CLI](https://www.servicenow.com/docs/access?context=cmdb-cli-commands&version=australia&pubname=australia-application-development&ft:locale=en-US) store app is installed.
+    Determines whether the [CMDB application for APIs and CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/cmdb-cli-commands.md) store app is installed.
 
     This card appears only if the store app isn't installed, providing helpful resources for exploration and adoption.
 

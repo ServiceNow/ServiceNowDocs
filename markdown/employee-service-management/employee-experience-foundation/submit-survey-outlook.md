@@ -17,7 +17,7 @@ Submit a survey about your experience using the feedback card in a Microsoft Out
 
 ## Before you begin
 
-To enable a survey in the email channel, the [email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and the [survey](https://www.servicenow.com/docs/access?context=r_SurveyManagementLandingPage&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) must be selected in the [feedback definition](../../employee-center/task/config-feedback-dfnition.md) for the required workflow.
+To enable a survey in the email channel, the [email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md) and the [survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyManagementLandingPage.md) must be selected in the [feedback definition](../../employee-center/task/config-feedback-dfnition.md) for the required workflow.
 
 For information about experience feedback, see [Integrated experience and service feedback](../../employee-center/concept/ex-fdback-ovrvw.md).
 

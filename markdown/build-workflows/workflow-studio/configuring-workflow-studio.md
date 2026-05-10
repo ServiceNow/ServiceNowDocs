@@ -33,7 +33,7 @@ Each workflow application within Workflow Studio has its own installation and su
 
 -   **Data stream actions**
 
-    Data stream actions require a separate subscription to Integration Hub. For activation information, see [Request Integration Hub](https://www.servicenow.com/docs/access?context=request-ih-overview&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    Data stream actions require a separate subscription to Integration Hub. For activation information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md).
 
 -   **Decision Builder**
 

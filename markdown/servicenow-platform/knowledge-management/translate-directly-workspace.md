@@ -63,7 +63,7 @@ If your system administrator has configured languages for the knowledge base, yo
 
     -   If dynamic translation is enabled, click **Machine translate** to automatically replace the draft content in the Translated language section with machine-translated content in the targeted language.
 
-        **Note:** A default translator configuration should be available. For configuring the translation API, see [Dynamic translation](https://www.servicenow.com/docs/access?context=dynamic-translation&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+        **Note:** A default translator configuration should be available. For configuring the translation API, see [Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation.md).
 
         When you click **Machine translate**, any draft content in the Translated language section is automatically replaced with the machine-translated content.
 

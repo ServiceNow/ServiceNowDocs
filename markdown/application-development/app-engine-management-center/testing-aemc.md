@@ -59,7 +59,7 @@ Scoped App Definitions instance scan
 
 </td><td>
 
-Instance scans aid in diagnosing health issues on a non-production instance, and are useful for addressing best practices. For more information, see [Instance Scan](https://www.servicenow.com/docs/access?context=hs-landing-page&version=australia&pubname=australia-platform-administration&ft:locale=en-US).The instance scan checks all tables in the app that extend Task \[task\].
+Instance scans aid in diagnosing health issues on a non-production instance, and are useful for addressing best practices. For more information, see [Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-landing-page.md).The instance scan checks all tables in the app that extend Task \[task\].
 
 </td></tr></tbody>
 </table>The admin can view the results of the scans for troubleshooting purposes by selecting the **Deployment Environment Results** tab in the deployment request.

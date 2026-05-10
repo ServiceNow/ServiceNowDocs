@@ -19,7 +19,7 @@ This property controls the Java Messaging Service \(JMS\) connection factories t
 
 Review the list of names provided to the mid property **mid.property.jms.command.allowed\_factory\_names**. Ensure any additional factory names beyond the default of `connectionFactory, queueConnectionFactory, topicConnectionFactory` are necessary.
 
-See the following documentation for updating this and other mid server properties: [MID Server properties](https://www.servicenow.com/docs/access?context=r_MIDServerProperties&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+See the following documentation for updating this and other mid server properties: [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md)
 
 ## More information
 

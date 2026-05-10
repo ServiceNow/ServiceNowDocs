@@ -62,7 +62,7 @@ For more information about the Card Base Header, see the [Components](https://ho
 
 ## What to do next
 
-[Configure a display type component for a Work scheduler card](https://www.servicenow.com/docs/access?context=work-sched-stacked-component&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[Configure a display type component for a Work scheduler card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-stacked-component.md)
 
 **Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](create-workscheduler-card-wfo-cs.md)
 

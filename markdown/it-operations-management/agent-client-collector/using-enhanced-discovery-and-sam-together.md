@@ -35,7 +35,7 @@ The software usage records are domain separated. The records are populated with 
     To apply SAM basic metering or SAM total usage metrics, you need the following:
 
     -   SAM plugin \(com.snc.samp\) enabled
-    -   System property \[**sn\_acc\_vis\_content.persist\_sam\_usage\_metrics**\] set to true. See [System properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more details.
+    -   System property \[**sn\_acc\_vis\_content.persist\_sam\_usage\_metrics**\] set to true. See [System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) for more details.
     For details on SAM metering setup with the Agent Client Collector, see the Knowledge Base article [KB1642676](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1642676).
 
 

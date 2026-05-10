@@ -48,7 +48,7 @@ Role required: admin
 
 6.  Select **Save** in Mobile App Builder.
 
-7.  To configure the maximum number of search suggestions that can be returned, navigate to the ServiceNow® instance web interface an follow the instructions in [Set the maximum number of search suggestions Zing displays](https://www.servicenow.com/docs/access?context=set-max-num-of-suggestions&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+7.  To configure the maximum number of search suggestions that can be returned, navigate to the ServiceNow® instance web interface an follow the instructions in [Set the maximum number of search suggestions Zing displays](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/set-max-num-of-suggestions.md).
 
 
 ## What to do next

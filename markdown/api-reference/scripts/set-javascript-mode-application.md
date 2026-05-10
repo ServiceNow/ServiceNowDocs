@@ -46,5 +46,5 @@ For applications that use ES5 Standards or Compatibility mode, you can also turn
 **Related topics**  
 
 
-[Legacy - Update a custom application record](https://www.servicenow.com/docs/access?context=t_UpdateAnApplicationRecord&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[Legacy - Update a custom application record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/t_UpdateAnApplicationRecord.md)
 

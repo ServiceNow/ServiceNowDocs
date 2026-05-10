@@ -33,7 +33,7 @@ Create a characteristic to add to an entitlement. A characteristic refers to the
 
 </td></tr><tr><td>
 
-[Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md)
 
 </td><td>
 
@@ -41,7 +41,7 @@ Add a user to your instance to enable them to log in and use designated applicat
 
 </td></tr><tr><td>
 
-[Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md)
 
 </td><td>
 
@@ -49,7 +49,7 @@ Assign roles to users. Use this feature to grant the sn\_customerservice\_manage
 
 </td></tr><tr><td>
 
-[Create customer accounts](https://www.servicenow.com/docs/access?context=import-create-csm-accounts&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**Note:** On the Accounts form, to view the customer contracts, remove the contract-related lists and configure the customer contracts related list.
+[Create customer accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/import-create-csm-accounts.md)**Note:** On the Accounts form, to view the customer contracts, remove the contract-related lists and configure the customer contracts related list.
 
 </td><td>
 
@@ -57,7 +57,7 @@ Create an account and associate it to a customer contract.
 
 </td></tr><tr><td>
 
-[Create a consumer record](https://www.servicenow.com/docs/access?context=create-a-consumer-record&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Create a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-a-consumer-record.md)
 
 </td><td>
 
@@ -65,7 +65,7 @@ Create a consumer record in Customer Service Management. A consumer can be assoc
 
 </td></tr><tr><td>
 
-[Create a sold product](https://www.servicenow.com/docs/access?context=create-sold-item&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Create a sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-sold-item.md)
 
 </td><td>
 
@@ -73,7 +73,7 @@ Create a record for a product that is sold to an account or a consumer. A sold p
 
 </td></tr><tr><td>
 
-[Create an install base item](https://www.servicenow.com/docs/access?context=create-install-base-item&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Create an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-install-base-item.md)
 
 </td><td>
 

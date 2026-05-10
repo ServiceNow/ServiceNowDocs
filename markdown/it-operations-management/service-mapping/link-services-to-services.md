@@ -94,7 +94,7 @@ Select the name of the application service that you want to link as a contained 
 **Related topics**  
 
 
-[Application services](https://www.servicenow.com/docs/access?context=application-services&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/application-services.md)
 
 [View dependent application services in classic Service Mapping](view-linked-services.md)
 

@@ -22,7 +22,7 @@ Before deploying to production, verify that all configurations work correctly in
 
 ## Update set process
 
-[Update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US) capture configuration changes made in your development environment and allow you to transfer them to production. This includes Event Management automation rules, user roles, integration settings, and custom configurations.
+[Update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md) capture configuration changes made in your development environment and allow you to transfer them to production. This includes Event Management automation rules, user roles, integration settings, and custom configurations.
 
 The deployment process involves creating an update set, capturing your changes, exporting the update set, and importing it into your production environment. Always review the update set contents before deployment.
 

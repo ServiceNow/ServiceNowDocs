@@ -52,7 +52,7 @@ After you create a Indoor Mapping campus record, you must map it to the datacent
 
 8.  Complete the synchronization steps.
 
-    To learn more about the synchronization steps, see [Synchronize Indoor Mapping map data with CMN location](https://www.servicenow.com/docs/access?context=sync-ind-mapping-cmn-location&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    To learn more about the synchronization steps, see [Synchronize Indoor Mapping map data with CMN location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/sync-ind-mapping-cmn-location.md).
 
 
 ## Result
@@ -68,7 +68,7 @@ View the details of your datacenter infrastructure using the floor map. To learn
 **Related topics**  
 
 
-[Synchronize Indoor Mapping with CMN Locations](https://www.servicenow.com/docs/access?context=sync-cmn-location&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+[Synchronize Indoor Mapping with CMN Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/sync-cmn-location.md)
 
 [Floor map](../concept/visualization-floor-maps.md)
 

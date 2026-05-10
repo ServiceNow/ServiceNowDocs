@@ -17,7 +17,7 @@ Use the Mobile App Builder to assign your Next Experience themes.
 
 Role required: admin
 
-To use Next Experience theming, you must have Next Experience enabled on your instance. For activation instructions and more information on Next Experience, see [Exploring themes in Next Experience](https://www.servicenow.com/docs/access?context=next-experience-theming&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+To use Next Experience theming, you must have Next Experience enabled on your instance. For activation instructions and more information on Next Experience, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
 
 **Note:** If you are a new customer starting with the Australia release, Next Experience is active by default on your instance. No activation is required, and your mobile apps use the **Coral** theme automatically.
 
@@ -40,7 +40,7 @@ To use Next Experience theming, you must have Next Experience enabled on your in
     -   Have a custom theme that you want to apply to the app.
     -   Want to apply the former **Polaris** theme to the app.
     -   Had previously opted out of Next Experience.
-    For information on creating your own themes, see [Exploring themes in Next Experience](https://www.servicenow.com/docs/access?context=next-experience-theming&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For information on creating your own themes, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
 
 6.  Click the **Save** button in the upper right corner of the screen to save your changes.
 

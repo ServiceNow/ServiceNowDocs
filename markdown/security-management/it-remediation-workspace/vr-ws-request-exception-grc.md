@@ -58,6 +58,6 @@ Role required:
 
     A message appears that your request is successfully submitted for approval.
 
-    For more information on the Policy Exception Integration and the hand-off between the remediation owner and the compliance manager, see [Policy and Compliance Management optional setup](https://www.servicenow.com/docs/access?context=policy-compliance-optional-steps&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+    For more information on the Policy Exception Integration and the hand-off between the remediation owner and the compliance manager, see [Policy and Compliance Management optional setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-optional-steps.md).
 
 

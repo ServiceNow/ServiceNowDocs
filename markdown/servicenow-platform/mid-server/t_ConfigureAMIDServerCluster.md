@@ -77,7 +77,7 @@ MID Servers in clusters must be able to connect to the instance and to all the d
 
     Configure a fail-over MID Server with at least the same capabilities as the MID Server it is intended to relieve.
 
-    **Note:** If a MID Server fails while the [Shazzam probe](https://www.servicenow.com/docs/access?context=t_ConfigureTheShazzamProbe&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) is running and auto-selection is configured, failover is not available. The Shazzam discovery stops. Discovery does not automatically choose another MID Server.
+    **Note:** If a MID Server fails while the [Shazzam probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ConfigureTheShazzamProbe.md) is running and auto-selection is configured, failover is not available. The Shazzam discovery stops. Discovery does not automatically choose another MID Server.
 
 
 ### MID Server cluster event
@@ -100,7 +100,7 @@ You can specify a specific MID Server cluster for a Discovery schedule. The disc
 
 ### Distributed MID Server clusters for Operational Intelligence
 
-The distributed MID Server cluster type is used exclusively in Operational Intelligence, which analyzes Event Management events and generates anomaly alerts. These MID Servers communicate with one another to distribute and balance the workload. For details, see [MID Server distributed clusters for Operational Intelligence](https://www.servicenow.com/docs/access?context=ops-intelligence-mid-server&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+The distributed MID Server cluster type is used exclusively in Operational Intelligence, which analyzes Event Management events and generates anomaly alerts. These MID Servers communicate with one another to distribute and balance the workload. For details, see [MID Server distributed clusters for Operational Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/ops-intelligence-mid-server.md)
 
 ### Smart Workload Manager
 

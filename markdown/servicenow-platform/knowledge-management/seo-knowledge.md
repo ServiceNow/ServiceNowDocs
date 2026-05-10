@@ -15,7 +15,7 @@ breadcrumb: [Knowledge Management reference, Knowledge Management, Manage conten
 
 Improve the searchability of knowledge articles by adding tags for canonical URLs and **hreflang** tags for translated knowledge articles.
 
-You can add the default tags for canonical URLs and **hreflang** tags by selecting the **Use SEO script** check box on the Knowledge Article View \[kb\_article\_view\] page record. For more information, see [Enable SEO for canonical URLs and localized versions of a portal page](https://www.servicenow.com/docs/access?context=seo-sp&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+You can add the default tags for canonical URLs and **hreflang** tags by selecting the **Use SEO script** check box on the Knowledge Article View \[kb\_article\_view\] page record. For more information, see [Enable SEO for canonical URLs and localized versions of a portal page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/seo-sp.md).
 
 When the **Use SEO script** option is selected:
 
@@ -60,7 +60,7 @@ SPSEOHeaderTagsSNC
 
 Includes the default implementation for the canonical URLs and **hreflang** tags for Service Portal pages. This script include is read-only.
 
- For more information, see [Enable SEO for canonical URLs and localized versions of a portal page](https://www.servicenow.com/docs/access?context=seo-sp&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+ For more information, see [Enable SEO for canonical URLs and localized versions of a portal page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/seo-sp.md).
 
 </td></tr><tr><td>
 

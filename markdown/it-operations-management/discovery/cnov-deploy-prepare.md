@@ -33,7 +33,7 @@ Role required: admin for steps performed on the ServiceNow instance.
 
 2.  Choose or create a user with at least the mid\_server role.
 
-    For information about adding a new user to your instance, see [Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US). For information about granting a role to a user, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For information about adding a new user to your instance, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md). For information about granting a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
 3.  In the Kubernetes cluster, choose or create a namespace in which you want to deploy KVA.
 

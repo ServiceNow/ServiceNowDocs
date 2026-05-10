@@ -19,15 +19,15 @@ Create an incident record to document a deviation from an expected Enterprise As
 
 Role required: itil
 
-To create an Enterprise Asset Management incident record, you must install all applicable Incident Management plugins on your ServiceNow instance. See [Incident Management plugins](https://www.servicenow.com/docs/access?context=incident-mgmt-plugins&version=australia&pubname=australia-it-service-management&ft:locale=en-US) for the complete list of Incident Management plugins.
+To create an Enterprise Asset Management incident record, you must install all applicable Incident Management plugins on your ServiceNow instance. See [Incident Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-mgmt-plugins.md) for the complete list of Incident Management plugins.
 
 ## About this task
 
-This procedure describes how an ITIL agent must complete an incident form to document and track an Enterprise Asset Management incident. Refer to [Incident Management](https://www.servicenow.com/docs/access?context=c_IncidentManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US) for more in-depth information on creating and managing incidents.
+This procedure describes how an ITIL agent must complete an incident form to document and track an Enterprise Asset Management incident. Refer to [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentManagement.md) for more in-depth information on creating and managing incidents.
 
 ## Procedure
 
-1.  [Create an incident](https://www.servicenow.com/docs/access?context=create-an-incident&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+1.  [Create an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/create-an-incident.md).
 
     After your incident is created, you are automatically redirected to the Incidents list.
 

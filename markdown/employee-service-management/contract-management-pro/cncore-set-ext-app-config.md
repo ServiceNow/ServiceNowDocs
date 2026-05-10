@@ -24,11 +24,11 @@ The Contract Management Pro application use spokes from Integration Hub to integ
 
     The administrator can use the Integration Hub to install and configure the following external storage provider spokes for saving documents attached to contract requests and signed contract documents:
 
-    -   [Google Drive spoke](https://www.servicenow.com/docs/access?context=googledrive-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+    -   [Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/googledrive-spoke.md)
 
         **Note:** Word \(.docx\) files edited directly from Google Drive using Google Docs may become incompatible with Contract Management Pro causing failures during processing, signature operations, and document updates. To avoid these issues, download the .docx file from the Google Drive, edit it in Microsoft Word \(desktop or online\), and upload it into the system using the Create Revision option.
 
-    -   [Microsoft OneDrive spoke](https://www.servicenow.com/docs/access?context=onedrive-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+    -   [Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/onedrive-spoke.md)
 -   **Configure an external storage provider**
 
     The contract configurator can set up the external storage app integrations from **Contract Integrations**. For more information, see [Configure an external storage system](../task/cncore-integrate-ext-storage.md).
@@ -51,8 +51,8 @@ The Contract Management Pro application use spokes from Integration Hub to integ
 
     The administrator can use the Integration Hub to install and configure the following electronic signature provider spokes for contract documents:
 
-    -   [Adobe Acrobat Sign spoke](https://www.servicenow.com/docs/access?context=adobe-sign-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
-    -   [Docusign spoke](https://www.servicenow.com/docs/access?context=docusign-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+    -   [Adobe Acrobat Sign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/adobe-sign-spoke.md)
+    -   [Docusign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/docusign-spoke.md)
 -   **Set up the electronic signature provider app**
 
     The configurator can set up the electronic signature app integrations from **Contract Integrations**. For more information, see [Configure an e-signature provider](../task/cncore-integrate-esign.md).

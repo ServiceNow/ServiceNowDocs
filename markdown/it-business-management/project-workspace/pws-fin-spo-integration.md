@@ -17,13 +17,13 @@ Request, track, and manage procurement requests of assets for your projects.
 
 ## Before you begin
 
-[Install Sourcing and Procurement Operations](https://www.servicenow.com/docs/access?context=activate-finance-spend-central&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)
+[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-finance-spend-central.md)
 
 Role required: it\_project\_manager
 
 ## About this task
 
-Project managers can navigate from Project Workspace to procurement applications and create purchase requests for their projects. The ordered purchase requests are reflected in the Project Workspace. After the purchase request is processed, the purchase line, cost plan, and expense lines are automatically generated. For more information about the integration, see [Sourcing and Procurement Operations integration with Project Management](https://www.servicenow.com/docs/access?context=integration-psm-ppm&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US).![Financials SPO better together workflow diagram.](../images/Financials-SPO-better-together.png)
+Project managers can navigate from Project Workspace to procurement applications and create purchase requests for their projects. The ordered purchase requests are reflected in the Project Workspace. After the purchase request is processed, the purchase line, cost plan, and expense lines are automatically generated. For more information about the integration, see [Sourcing and Procurement Operations integration with Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/integration-psm-ppm.md).![Financials SPO better together workflow diagram.](../images/Financials-SPO-better-together.png)
 
 ## Procedure
 
@@ -50,7 +50,7 @@ Role required: it\_project\_manager
 
 2.  Place the request for an asset.
 
-    For more details on how to request a product using Source-to-Pay Common Architecture, see [Order a product with quick checkout](https://www.servicenow.com/docs/access?context=order-a-product&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US).
+    For more details on how to request a product using Source-to-Pay Common Architecture, see [Order a product with quick checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/order-a-product.md).
 
     **Note:** While placing the request for the asset, enter the project number in the **What project is this request for?** field.
 

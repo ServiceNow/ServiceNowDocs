@@ -79,7 +79,7 @@ The following example workflow shows the use of the ServiceNow Voice for CSM app
 
 ## Workforce Optimization for Customer Service
 
-Integrate Voice with Workforce Optimization for Customer Service to visualize call metrics from the Amazon Connect service. Voice uses the [Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-overview&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) feature to display the call metrics and active calls along with all other Channel metrics in the Manager Workspace. For more information, see [Using Voice with Workforce Optimization for Customer Service](https://www.servicenow.com/docs/access?context=configurable-servicenow-voice-cs&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+Integrate Voice with Workforce Optimization for Customer Service to visualize call metrics from the Amazon Connect service. Voice uses the [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md) feature to display the call metrics and active calls along with all other Channel metrics in the Manager Workspace. For more information, see [Using Voice with Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-servicenow-voice-cs.md).
 
 ![The Amazon Connect phone queues in the Workforce Optimization for Customer Service application](../image/cloudcallcenter-amazonconnect-wfo-itsm.png "Amazon Connect phone queues in Workforce Optimization for Customer Service")
 

@@ -40,7 +40,7 @@ A system property and scheduled jobs control the data retention policy for conta
 
         The Diagnostic Request and Diagnostics Events tables are installed with the [Emergency Exposure Management](../../business-continuity/concept/emergency-exposure-management.md) application.
 
-        **Note:** A survey associated with cases that are eligible for deletion after the retention period is not deleted because surveys have their own retention period. For more information, see [Clean up assessment data](https://www.servicenow.com/docs/access?context=t_CleanUpAssessmentData&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+        **Note:** A survey associated with cases that are eligible for deletion after the retention period is not deleted because surveys have their own retention period. For more information, see [Clean up assessment data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CleanUpAssessmentData.md).
 
     -   **Employee daily contact logs**
 
@@ -72,7 +72,7 @@ A system property and scheduled jobs control the data retention policy for conta
 
     3.  Configure the job settings and click **Save**.
 
-        For more information, see [Configure a scheduled job](https://www.servicenow.com/docs/access?context=t_ScheduleAScriptExecution&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+        For more information, see [Configure a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ScheduleAScriptExecution.md).
 
 3.  Download, import, and configure the **Purge Contact Tracing Deleted Records \(Data Retention\)** schedule job in the Global scope to purge deleted records.
 
@@ -82,7 +82,7 @@ A system property and scheduled jobs control the data retention policy for conta
 
     3.  Import the downloaded XML file into the Scheduled Job \[sysauto\] table.
 
-        For more information on importing, see [Import a record from the template](https://www.servicenow.com/docs/access?context=t_ImportARecordFromTheTemplate&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+        For more information on importing, see [Import a record from the template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/easy-import/t_ImportARecordFromTheTemplate.md).
 
     4.  Search and open the **Purge Contact Tracing Deleted Records \(Data Retention\)** record.
 

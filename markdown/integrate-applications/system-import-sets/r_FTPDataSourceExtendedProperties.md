@@ -15,7 +15,7 @@ breadcrumb: [Data sources, Import sets, Imports, Workflow Data Fabric]
 
 Certain properties are available for customizing your FTP data source.
 
-To enter these properties, you must [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US) the Data Source form and add the **Properties** field. When specifying more than one property, use a comma to separate each property.
+To enter these properties, you must [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) the Data Source form and add the **Properties** field. When specifying more than one property, use a comma to separate each property.
 
 <table id="table_rby_nqb_z3b"><thead><tr><th>
 

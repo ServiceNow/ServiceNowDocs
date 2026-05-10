@@ -17,13 +17,13 @@ The language detection feature uses a pre-trained model to detect the language u
 
 Agents can save time by not having to manually select the language for each case or rely on a manual process for case routing. You can use the language skill stored in the Task Skills table to route cases to the assignment groups and agents with the necessary language skills.
 
--   Cases can be routed automatically with [Advanced Work Assignment \(AWA\)](https://www.servicenow.com/docs/access?context=awa-overview&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+-   Cases can be routed automatically with [Advanced Work Assignment \(AWA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md).
 -   Cases can be assigned to agents based on language skills using the [assignment workbench](case-assignment-workbench.md).
 -   Cases can be assigned based on the value in the **Language** field.
 
 **Note:** Routing based on detected language must be configured separately.
 
-The language detection feature supports 20 different languages. For details, see [Languages supported by Task Intelligence](https://www.servicenow.com/docs/access?context=languages-supported-by-language-detection&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+The language detection feature supports 20 different languages. For details, see [Languages supported by Task Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/task-intelligence/languages-supported-by-language-detection.md).
 
 ## Language detection flow
 
@@ -32,7 +32,7 @@ Detecting the language used to create a case is based on a flow, **Task Intellig
 -   Short description
 -   Description
 
-When a case is created, the system calls the Detect Language action in the [Dynamic Translation spoke](https://www.servicenow.com/docs/access?context=dynamic-translation-spoke&version=australia&pubname=australia-platform-administration&ft:locale=en-US) which evaluates the text and returns the detected language.
+When a case is created, the system calls the Detect Language action in the [Dynamic Translation spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dynamic-translation-spoke.md) which evaluates the text and returns the detected language.
 
 If the returned language confidence is above the defined confidence threshold, the system performs a check to see if the language exists in the Languages \[sys\_language\] table. It performs this check by matching the language code to the value in the ID field.
 

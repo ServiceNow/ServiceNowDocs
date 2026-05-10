@@ -15,9 +15,9 @@ You can use the ServiceNow® Document Processor application to generate standard
 
 This application is automatically installed when you install any Financial Services Operations application or Financial Services Operations Core.
 
-An admin can use Document Templates to create HTML and PDF document templates, which can be used to generate standard letters or documents. The templates can be used to automate and simplify the process of filling out, signing, and reviewing documents online. For more information, see [Document Templates](https://www.servicenow.com/docs/access?context=document-templates-overview&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+An admin can use Document Templates to create HTML and PDF document templates, which can be used to generate standard letters or documents. The templates can be used to automate and simplify the process of filling out, signing, and reviewing documents online. For more information, see [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/document-templates-overview.md).
 
-Admins can also integrate documents with 3rd party e-signature providers like DocuSign and Adobe Sign. For more information, see [Document Template integration with Docusign](https://www.servicenow.com/docs/access?context=docusign-doc&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) or [Document Template integration with AdobeSign](https://www.servicenow.com/docs/access?context=adobe-sign-doc&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+Admins can also integrate documents with 3rd party e-signature providers like DocuSign and Adobe Sign. For more information, see [Document Template integration with Docusign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/docusign-doc.md) or [Document Template integration with AdobeSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/adobe-sign-doc.md).
 
 ## Features
 

@@ -23,7 +23,7 @@ Create a reusable action to process a stream of response data within a flow.
 
 ## About this task
 
-Creating a custom application to contain your Workflow Studio content enables you to [deploy](https://www.servicenow.com/docs/access?context=c_SharingApplications&version=australia&pubname=australia-application-development&ft:locale=en-US) it using the application repository or the ServiceNow Store.
+Creating a custom application to contain your Workflow Studio content enables you to [deploy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_SharingApplications.md) it using the application repository or the ServiceNow Store.
 
 **Note:** Clearing an option in a configuration page removes the step from the Data Stream outline and deletes all data associated with the step.
 
@@ -40,7 +40,7 @@ Creating a custom application to contain your Workflow Studio content enables yo
     |Action name|Enter a unique name for your data stream action.|
     |Description|Description of the data stream action.|
     |Application|Application scope of the data stream action.|
-    |Domain|Domain scope of the data stream action. For more information about domain separation, see [Domain separation explained](https://www.servicenow.com/docs/access?context=bp-what-is-domain-separation&version=australia&pubname=australia-platform-security&ft:locale=en-US).|
+    |Domain|Domain scope of the data stream action. For more information about domain separation, see [Domain separation explained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-what-is-domain-separation.md).|
     |**Additional properties**|
     |Accessible From|Accessible from all application scoped or only within the specified application scope.|
     |Category|Defined category within the application scope for an action. Beginning with the Xanadu release, you can create a custom category to organize your data stream actions.|
@@ -55,17 +55,17 @@ Creating a custom application to contain your Workflow Studio content enables yo
 
         Inputs are represented as data pills in the right-hand pane.
 
-    For more information about action inputs, see [Workflow Studio - Building custom actions](https://www.servicenow.com/docs/access?context=actions&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For more information about action inputs, see [Workflow Studio - Building custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/actions.md).
 
 5.  Click **Action Preprocessing** in the Data Stream outline and configure the desired options.
 
     1.  Select **Retrieve connection info** to add the Get Connection Info step as the first step in the action preprocessing.
 
-        The Get Connection Info step enables you to retrieve connection and credential details to use in your action. For more information, see [Get Connection Info step](https://www.servicenow.com/docs/access?context=get-connection-info-action-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+        The Get Connection Info step enables you to retrieve connection and credential details to use in your action. For more information, see [Get Connection Info step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/get-connection-info-action-designer.md).
 
     2.  Select **Enable preprocessing script** to run a preprocessing script before the action sends the initial API request. For example, validate action inputs or set default values. Preprocessing executes once per action, before the first API request.
 
-        Selecting this option adds a script step to the Data Stream action. For more information, see [Script step](https://www.servicenow.com/docs/access?context=javascript-step-action-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+        Selecting this option adds a script step to the Data Stream action. For more information, see [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/javascript-step-action-designer.md).
 
         **Important:** Data Stream actions require a constant connection to the response stream. They do not support preprocessing scripts that pause the action to call a MID Server or pause the action to wait for a condition or duration. A preprocessing script that pauses the action for any reason returns an error message.
 
@@ -89,7 +89,7 @@ Creating a custom application to contain your Workflow Studio content enables yo
 
         For example, write a script to transform variable data types from the initial response before sending a request for the next page.
 
-        Selecting this option adds a script step to the Data Stream action. For more information, see [Script step](https://www.servicenow.com/docs/access?context=javascript-step-action-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+        Selecting this option adds a script step to the Data Stream action. For more information, see [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/javascript-step-action-designer.md).
 
         **Note:** For a JDBC step, this is not applicable.
 

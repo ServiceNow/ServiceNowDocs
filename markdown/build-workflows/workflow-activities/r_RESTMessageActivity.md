@@ -15,9 +15,9 @@ breadcrumb: [Utility workflow activities, Workflow activities reference, Workflo
 
 The legacy **REST Message** activity enables an administrator to override the REST endpoint or supply the variables configured in the REST Message module.
 
-This activity is deprecated in the Australia release and no longer shows up in the Workflow canvas for new workflow development. New workflows should use the [Orchestration](https://www.servicenow.com/docs/access?context=r-orchestration&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) REST Activity templates instead.
+This activity is deprecated in the Australia release and no longer shows up in the Workflow canvas for new workflow development. New workflows should use the [Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r-orchestration.md) REST Activity templates instead.
 
-Existing workflows using it will continue to work as designed. To edit this activity in an existing workflow, you must [re-activate the activity](https://www.servicenow.com/docs/access?context=t_ReactivateDeprecatedActivity&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Existing workflows using it will continue to work as designed. To edit this activity in an existing workflow, you must [re-activate the activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_ReactivateDeprecatedActivity.md).
 
 The **REST Message** activity executes a dead link REST function \(POST, PUT, GET, or DELETE\) on an endpoint using values defined in the function record.
 
@@ -43,7 +43,7 @@ REST Message
 
 </td><td>
 
-Name of the [Create a REST message](https://www.servicenow.com/docs/access?context=t_ConfiguringARESTMessage&version=australia&pubname=australia-api-reference&ft:locale=en-US) to run. This is a reference field to the REST Message \[sys\_rest\_message\] table \(**System Web Services** &gt; **Outbound** &gt; **REST Message**\).
+Name of the [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md) to run. This is a reference field to the REST Message \[sys\_rest\_message\] table \(**System Web Services** &gt; **Outbound** &gt; **REST Message**\).
 
 </td></tr><tr><td>
 
@@ -71,7 +71,7 @@ Variables
 
 </td><td>
 
-Values to use for [Variable substitution in outbound REST messages](https://www.servicenow.com/docs/access?context=c_VariableSubstitutionREST&version=australia&pubname=australia-api-reference&ft:locale=en-US) defined in the HTTP Method record. Use the following format for the string:
+Values to use for [Variable substitution in outbound REST messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_VariableSubstitutionREST.md) defined in the HTTP Method record. Use the following format for the string:
 
 ```
 name1=value1, name2=value2, . . .

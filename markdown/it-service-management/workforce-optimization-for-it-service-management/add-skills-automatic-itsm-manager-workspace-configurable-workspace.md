@@ -28,7 +28,7 @@ The following business rules are used in Workforce Optimization for ITSM skill d
 
 The table below shows the skill determination rules available for Workforce Optimization for ITSM.
 
-**Note:** To add language detection skills, you must set dynamic translation APi. for more information, see [Dynamic Translation API](https://www.servicenow.com/docs/access?context=dyn-translation-apis&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** To add language detection skills, you must set dynamic translation APi. for more information, see [Dynamic Translation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dyn-translation-apis.md).
 
 |Skill Determination Rule|Source Table|Type|Description|
 |------------------------|------------|----|-----------|
@@ -45,7 +45,7 @@ The table below shows the skill determination rules available for Workforce Opti
 
 2.  Add the desired rule for an incident or an interaction.
 
-    For information, see [Create Skill Determination rules to assign skills to work items](https://www.servicenow.com/docs/access?context=conf-simple-skill-determination-rule&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For information, see [Create Skill Determination rules to assign skills to work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/conf-simple-skill-determination-rule.md).
 
 
 **Parent Topic:**[Routing work based on skills in Workforce Optimization for ITSM](../concept/skill-determination-configurable-wfo-itsm.md)

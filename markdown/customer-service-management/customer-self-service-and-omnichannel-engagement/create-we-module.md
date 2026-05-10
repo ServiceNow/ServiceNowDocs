@@ -75,7 +75,7 @@ Theme
 
 </td><td>
 
-The theme of the module. Selected theme is applied to all components embed on third-party website. You can select a theme from the list. By default, it is set to Coral. For more information on theme, [Create a theme with Theme Builder](https://www.servicenow.com/docs/access?context=tb-create-theme&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+The theme of the module. Selected theme is applied to all components embed on third-party website. You can select a theme from the list. By default, it is set to Coral. For more information on theme, [Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-theme.md).
 
 </td></tr><tr><td>
 

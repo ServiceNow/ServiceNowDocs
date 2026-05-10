@@ -17,7 +17,7 @@ Workflow fields may indicate when a record required by the workflow is deleted.
 
 After a referenced record is deleted, the reference in the primary record is no longer valid. If the stage renderer detects a reference that is no longer valid, the stage field displays a message about the deleted record.
 
-Administrators can restore deleted records. For more information, see [Use the Deleted Records module to restore a deleted record](https://www.servicenow.com/docs/access?context=t_RestoreADeletedRecordAndRef&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Administrators can restore deleted records. For more information, see [Use the Deleted Records module to restore a deleted record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_RestoreADeletedRecordAndRef.md).
 
 ![](../image/600pxWFRenderMissingrecordEdited.png "Workflows with missing records")
 

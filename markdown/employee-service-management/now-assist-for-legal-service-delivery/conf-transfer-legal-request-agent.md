@@ -19,9 +19,9 @@ You can configure the Triage legal requests agentic workflow in the Now Assist f
 You must complete the following tasks to activate and use the Triage legal requests agentic workflow:
 
 1.  Install the Legal Service Delivery - Prime plugin \(sn\_lg\_ai\_prime\).
-2.  Confirm the Now Assist panel is turned on. For more information, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
-3.  Confirm the **Now Assist Panel - Platform \(default\)** assistant in the CI Admin Experience is turned on. For more information, see [Manage LLM virtual agents on the Assistants screen](https://www.servicenow.com/docs/access?context=manage-llm-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
-4.  Configure AI Search. For more information, see [Configuring AI Search](https://www.servicenow.com/docs/access?context=configuring-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+2.  Confirm the Now Assist panel is turned on. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+3.  Confirm the **Now Assist Panel - Platform \(default\)** assistant in the CI Admin Experience is turned on. For more information, see [Manage LLM virtual agents on the Assistants screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/manage-llm-va.md).
+4.  Configure AI Search. For more information, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ais.md).
 5.  Activate the Triage Legal request use case business rule to activate the Triage legal requests agentic workflow. For more information, see [Activate the business rule for the Triage legal requests agentic workflow](lsd-agentic-config-BR.md).
 6.  Include the legal practice application tables for AI Search indexing. For more information, see [Add legal request tables for data indexing](add-tables-legal-requests.md).
 

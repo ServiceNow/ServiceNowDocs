@@ -17,7 +17,7 @@ Add approval route details in Legal Matter Management to enable matter creation 
 
 ## Before you begin
 
-Ensure you have installed and activated Legal Tracker spoke. For more information, see [Legal Tracker](https://www.servicenow.com/docs/access?context=legal-tracker-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+Ensure you have installed and activated Legal Tracker spoke. For more information, see [Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/legal-tracker-spoke.md).
 
 Role required: sn\_lg\_matter.matter\_config, sn\_lg\_matter.matter\_fulfiller
 

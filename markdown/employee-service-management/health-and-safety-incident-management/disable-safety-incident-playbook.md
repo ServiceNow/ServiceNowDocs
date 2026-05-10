@@ -17,7 +17,7 @@ If you need to enable a tab-based experience for safety incidents in your instan
 
 ## Before you begin
 
-Ensure that the application scope is selected as Health and Safety Incident Management. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Ensure that the application scope is selected as Health and Safety Incident Management. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: sn\_ohs\_im.admin
 

@@ -15,7 +15,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideDynamicAttribute API provides access to dynamic attribute metadata.
 
-This API provides methods that enable you to get dynamic schema values defined in the Dynamic Attribute \[dynamic\_attribute\] table. Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+This API provides methods that enable you to get dynamic schema values defined in the Dynamic Attribute \[dynamic\_attribute\] table. Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 To use this API to create dynamic attributes you must have the dynamic\_schema\_writer role. To read dynamic data using this API you must have the dynamic\_schema\_reader role.
 
@@ -65,7 +65,7 @@ For migration details, see the [Dynamic Schema Zurich Migration Guide \[KB214613
 
 **Note:** This method returns null for migrated attributes and newly created attributes.
 
-You can use dynamic attributes in dynamic categories to simplify administration and improve the dynamic schema user experience. For more information, see [Working with Dynamic Schema](https://www.servicenow.com/docs/access?context=working-with-dynamic-schema&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+You can use dynamic attributes in dynamic categories to simplify administration and improve the dynamic schema user experience. For more information, see [Working with Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/working-with-dynamic-schema.md).
 
 |Name|Type|Description|
 |----|----|-----------|

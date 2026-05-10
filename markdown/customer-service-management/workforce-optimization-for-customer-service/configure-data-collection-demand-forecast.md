@@ -17,7 +17,7 @@ Define the data you want to collect for cases, interactions, or any table to for
 
 ## Before you begin
 
-You must have the MetricBase plugin \[com.snc.clotho\] enabled to use Demand Forecast in Workforce Optimization for Customer Service. For more information, see [Requesting the MetricBase product](https://www.servicenow.com/docs/access?context=request-metricbase&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+You must have the MetricBase plugin \[com.snc.clotho\] enabled to use Demand Forecast in Workforce Optimization for Customer Service. For more information, see [Requesting the MetricBase product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/request-metricbase.md).
 
 **Note:**
 
@@ -93,7 +93,7 @@ Data that you can add to forecast for the future.
 
 </td></tr></tbody>
 </table>    4.  Click **Submit**.
-    5.  Create an index for the table you have created using the date field and the conditions you have added to the table. For information on creating a table index, see [Create a table index](https://www.servicenow.com/docs/access?context=t_CreateCustomIndex&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    5.  Create an index for the table you have created using the date field and the conditions you have added to the table. For information on creating a table index, see [Create a table index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_CreateCustomIndex.md).
 3.  Add parameters to be defined in the formula to calculate agent count per hour in a day.
 
     1.  Click **Formula Parameters**.

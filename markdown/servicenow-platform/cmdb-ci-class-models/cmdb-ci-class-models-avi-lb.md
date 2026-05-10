@@ -27,7 +27,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 The Avi Vantage platform is built on software-defined principles, enabling a next-generation architecture to deliver the flexibility and simplicity expected by IT and lines of business. The Avi Vantage platform architecture separates the data and control planes to deliver application services beyond load balancing, such as application analytics, predictive autoscaling, micro-segmentation, and self-service for app owners in on-premises or cloud environments. The platform provides a centrally managed, dynamic pool of load balancing resources on commodity x86 servers, virtual machines, or containers, to deliver granular services close to individual applications. Providing these services allows network services to scale near infinitely without the added complexity of managing hundreds of disparate appliances.
 
-Discovery uses the [Avi Vantage load balancer discovery](https://www.servicenow.com/docs/access?context=avi-load-balancer-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) pattern to find Avi load balancer resources.
+Discovery uses the [Avi Vantage load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/avi-load-balancer-discovery.md) pattern to find Avi load balancer resources.
 
 ![Avi load balancer extension classes integrated with the CMDB class hierarchy.](../image/cmdb-ci-class-model-AVI-jun20.png "Avi load balancer classes integrated with the CMDB class hierarchy")
 

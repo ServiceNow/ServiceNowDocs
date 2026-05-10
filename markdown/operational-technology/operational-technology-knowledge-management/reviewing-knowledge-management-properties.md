@@ -36,7 +36,7 @@ List of roles \(comma-separated\) that can flag incomplete/inaccurate articles \
 Enter the role names exactly as they appear in **User Administration** &gt; **Roles**. If both the **Show article rating section** and **Show "Flag Article" option** properties are selected, the users with the roles listed in this property see the flag article option in the article view.All roles listed in this property must also be listed in the **List of roles that can see an article's rating section** property.
 
 </td></tr></tbody>
-</table>For more information about the other available Knowledge Management properties, see [Knowledge Management properties](https://www.servicenow.com/docs/access?context=r_KnowledgeProperties&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+</table>For more information about the other available Knowledge Management properties, see [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
 
 **Parent Topic:**[Configuring Operational Technology Knowledge Management](configuring-operational-technology-knowledge-management.md)
 

@@ -39,7 +39,7 @@ Configure a process to be able to generate a cluster analysis.
 4.  From the Clustering Definitions list, select an existing definition from the list, or select **New** to create a new clustering solution definition form.
 
     -   The administrator and ml\_admin roles can create a new clustering solution definition.
-    -   If creating a new definition, configure the fields per guidance in [creating and training a clustering solution](https://www.servicenow.com/docs/access?context=create-clustering-solution&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    -   If creating a new definition, configure the fields per guidance in [creating and training a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md).
 5.  Select **Submit**.
 
     A clustering solution definition is associated with the process for the selected table.

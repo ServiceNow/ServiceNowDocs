@@ -70,15 +70,15 @@ Without actually running the remediation process, Now Assist generates a preview
 </td></tr></tbody>
 </table>3.  Provide feedback, copy the response text to the clipboard, or refresh the response.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d498599e234">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d501719e234">
 
 Option
 
-</th><th align="left" id="d498599e237">
+</th><th align="left" id="d501719e237">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d498599e243">
+</th></tr></thead><tbody><tr><td id="d501719e243">
 
 **Provide feedback for the summary**
 
@@ -86,7 +86,7 @@ Procedure
 
 If you think that the response was helpful, select thumbs-up ![](../image/icon-thumbs-up.png). If you think that it wasn’t helpful, select thumbs-down ![](../image/icon-thumbs-down.png).This feedback improves the Agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the Agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d498599e258">
+</td></tr><tr><td id="d501719e258">
 
 **Copy the summary**
 
@@ -94,7 +94,7 @@ If you think that the response was helpful, select thumbs-up ![](../image/icon-t
 
 Select the copy to clipboard icon ![](../image/icon-clipboard.png) to use the response information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d498599e269">
+</td></tr><tr><td id="d501719e269">
 
 **Refresh the summary**
 
@@ -106,11 +106,11 @@ If you think that data might have changed after you viewed the response, select 
 </table>
 ## What to do next
 
--   For more information, see [Working in the Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+-   For more information, see [Working in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 -   To start over, select **Reset conversation** in the More menu \(![More menu icon](../../../administer/dynamic-translation/image/Ellipses.png)\).
 
-    **Warning:** If you reset the conversation, all existing messages are deleted and an entirely new conversation starts. To learn more about using the Now Assist panel, see [Working in the Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    **Warning:** If you reset the conversation, all existing messages are deleted and an entirely new conversation starts. To learn more about using the Now Assist panel, see [Working in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 -   [See how IRE detects duplicate CIs and generates de-duplication tasks](../concept/id-detect-dup-ci.md).
 -   [See how to manage and remediate the de-duplication tasks by using de-duplication templates](../concept/de-duplication-tasks.md).
@@ -118,7 +118,7 @@ If you think that data might have changed after you viewed the response, select 
 **Related topics**  
 
 
-[Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)
 
 [Duplicate CIs remediation](../concept/de-duplication-tasks.md)
 

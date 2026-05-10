@@ -23,15 +23,15 @@ Transaction Manager is a high‑performance transaction and quoting application 
 -   Integrate with Salesforce, ServiceNow, and downstream systems using Transaction Manager's API‑first design, which acts as the system of record for transaction data while remaining CRM‑agnostic.
 -   Duplicate an existing solution configuration node in a set, directly from the solution configuration navigation sidebar to use it as the starting point for a new node.
 
-For more information, see [CPQ Configurator](https://www.servicenow.com/docs/access?context=explore-servicenowcpq&version=australia&pubname=australia-order-management&ft:locale=en-US).
+For more information, see [CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-servicenowcpq.md).
 
 ## New in the Australia release
 
--   **[Transaction Access Control](https://www.servicenow.com/docs/access?context=cpq-transaction-manager-transaction-access-control&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Transaction Access Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-transaction-manager-transaction-access-control.md)**
 
     Control precisely who can view and edit each transaction to improve security and compliance using Transaction Access Control. Admins and creators automatically receive full access and can grant access to others. Any user with access can also grant or remove access for others.
 
--   **[Transaction AI – Bulk Line Update via File Upload](https://www.servicenow.com/docs/access?context=cpq-transaction-converse&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Transaction AI – Bulk Line Update via File Upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-transaction-converse.md)**
 
     Enables AI column and line item mapping to allow for seamless transition from third-party systems. Transaction AI can be used to add items from favorites enabling users to quickly add commonly used products via voice or text. Triggers events for users via voice or chat
 
@@ -39,11 +39,11 @@ For more information, see [CPQ Configurator](https://www.servicenow.com/docs/acc
 
     Enables admins to upload business and blueprint related context documents to provide Configuration AI and Transaction AI more context of business, standards product information etc.
 
--   **[Export Lines UI Effect](https://www.servicenow.com/docs/access?context=transaction-manager-layouts-ui-effects&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Export Lines UI Effect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-layouts-ui-effects.md)**
 
     Export Transaction Lines to a .csv file via a new UI effect. The exported file includes all lines in the transaction that meet the current line sort, filter, and column show/hide settings.
 
--   **[Layout editor](https://www.servicenow.com/docs/access?context=layout_editor&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Layout editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layout_editor.md)**
 
     Design and maintain layouts in a visual-based editor. Add and organize layout components, configure UI Effect and element properties, manage theming and more, all in an intuitive visual interface.
 
@@ -59,7 +59,7 @@ For more information, see [CPQ Configurator](https://www.servicenow.com/docs/acc
 
     Select product offerings, product specifications, and product characteristic values directly in the CPQ admin UI without manually entering system IDs. Search and select Sales CRM catalog items using built-in UI selectors when configuring products, creating product rules, or setting up pickers, advanced product actions, BOM enrichments, and library functions.
 
--   **[Node cloning for solution configuration](https://www.servicenow.com/docs/access?context=node-cloning-for-solution-configuration&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Node cloning for solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/node-cloning-for-solution-configuration.md)**
 
     Duplicate an existing solution configuration node in a set, directly from the solution configuration navigation sidebar to use it as the starting point for a new node. The original node in a set must be in the valid state.
 
@@ -71,7 +71,7 @@ For more information, see [CPQ Configurator](https://www.servicenow.com/docs/acc
 
     Upload organizational documents — such as pricing policies, standard operating procedures, product specifications, and playbooks — to provide Config AI and Quote AI with company-specific context during configuration and quoting. Supported formats include Excel, Word, PDF, text, markdown, and images \(with OCR support\). These documents are also used by Transaction AI to improve recommendations, product matching, and event suggestions during transaction sessions.
 
--   **[Config Converse](https://www.servicenow.com/docs/access?context=cpq-config-converse&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Config Converse](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-config-converse.md)**
 
     Configure complex products using natural language. Buyers can submit a configuration request through a prompt field on an administrator-designed landing page. The request is processed by an AI agent, which interprets the input and drives the product configuration session. For renewal scenarios, Config AI can reuse a previous configuration as a starting point, enabling faster upsell and cross-sell opportunities while maintaining continuity across renewal cycles. Using Config AI, you can:
 
@@ -107,7 +107,7 @@ Japanese Localization for CPQ admin UI: The CPQ admin UI supports internationali
 
 ## Related ServiceNow applications and Features
 
--   **[Sales Customer Relationship Management](https://www.servicenow.com/docs/access?context=order-mgt-overview&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-overview.md)**
 
     Sales Customer Relationship Management applications enable you to manage the product sales life cycle in your organization. This includes pre-sales leads and opportunities, sales quote generation, order capture, order fulfillment, order and invoice cases, and post-sales order changes and contract renewals.
 

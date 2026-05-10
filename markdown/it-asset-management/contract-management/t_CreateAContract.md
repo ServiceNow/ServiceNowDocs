@@ -500,9 +500,9 @@ Contracts can be associated with documents. Linking a contract to related docume
 
 [Models](../../product-catalog/concept/c_Models.md)
 
-[Service Portfolio Management](https://www.servicenow.com/docs/access?context=SPM2-landing-page&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-landing-page.md)
 
-[Add a commitment to a service offering](https://www.servicenow.com/docs/access?context=define-SPM2-service-commitments&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[Add a commitment to a service offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/define-SPM2-service-commitments.md)
 
 [Contract renewal workflow](../concept/cont-renew-wf.md)
 

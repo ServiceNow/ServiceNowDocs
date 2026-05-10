@@ -12,7 +12,7 @@ reading_time_minutes: 2
 
 The ServiceNow® Accounts Payable Operations application enables accounts payable specialists to automate cost allocations in the invoice lines using distribution sets. The AI-powered agent provides business owner recommendations for non-PO invoices based on historical patterns. The Accounts Payable Operations was enhanced and updated in the Australia release.
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
     The ServiceNow AI Platform now brings you an AI native experience with three licensing tiers available:
 
@@ -27,20 +27,20 @@ The ServiceNow® Accounts Payable Operations application enables accounts payabl
 -   Leverage Accounts payable document classification skill to classify email attachments into invoice, credit memo, or supporting documents based on the AI recommended confidence score resulting in error free invoice data extraction.
 -   Validate supplier provided tax against a system-calculated tax by integrating an enterprise-grade tax engine resulting in straight-through processing of invoice while improving accuracy, compliance, and operational efficiency.
 
-See [Accounts Payable Operations](https://www.servicenow.com/docs/access?context=acc-pay-mgmt-landing-page&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US) for more information.
+See  for more information.
 
 **Important:** Accounts Payable Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Tax Engine Integration](https://www.servicenow.com/docs/access?context=tax-engine-integration&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)**
+-   ****
 
     The tax engine integration framework validates supplier-provided tax against system tax at invoice line level, maintains compliance with regional and global tax regulations. This integration triggers automatic tax validation, handles exceptions for tax variance and missing data, enables manual revalidation and rolling up of system tax.
 
 
 ## Changed in this release
 
--   **[Configure Document Intelligence using Now Assist for Accounts Payable Operations \(APO\)](https://www.servicenow.com/docs/access?context=configure-di-using-now-assis&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)**
+-   ****
 
     The Document classification skill auto-classifies supplier email attachments as invoice, credit memo, or supporting documents with an AI-recommended confidence score. After the classification, separate invoice processing cases are created for invoices and credit memo with supporting documents linked to both the cases. The playbook allows you to configure the confidence threshold for auto-approval or involve AP specialists to manually review them.
 

@@ -23,7 +23,7 @@ The reference field shows the display value. For example, an incident's **Assign
 
 Reference fields show display values in:
 
--   [Lists](https://www.servicenow.com/docs/access?context=c_UseLists&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+-   [Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UseLists.md)
 -   Forms
 -   Reports
 -   [Auto-complete suggestions](c_AutoCompleteForReferenceFields.md#)

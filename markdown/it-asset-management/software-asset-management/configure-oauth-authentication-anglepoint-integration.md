@@ -25,7 +25,7 @@ Role required: admin
 
     The Anglepoint Elevate platform uses the OAuth API endpoint to request the OAuth tokens that authorize access to the Anglepoint integration resources on your ServiceNow instance.
 
-    Refer to [Create an endpoint for clients to access the instance](https://www.servicenow.com/docs/access?context=t_CreateEndpointforExternalClients&version=australia&pubname=australia-platform-security&ft:locale=en-US) for instructions on how to create an OAuth API endpoint.
+    Refer to [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_CreateEndpointforExternalClients.md) for instructions on how to create an OAuth API endpoint.
 
     **Important:** After you successfully create an OAuth API endpoint, copy the values in the **Client ID** and **Client Secret** fields. Save them in a secure location for later use.
 

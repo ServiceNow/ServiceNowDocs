@@ -17,7 +17,7 @@ Finding alerts that are similar to the alert that you are currently investigatin
 
 ## Finding similar alerts
 
-Alert similarity applies natural language processing \(NLP\) based on ServiceNow AI Platform machine learning \(ML\) as implemented in [Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Alert similarity applies natural language processing \(NLP\) based on ServiceNow AI Platform machine learning \(ML\) as implemented in [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md).
 
 ML logic filters out irrelevant information and provides further information to help you understand the cause of alerts. You can view solutions used to resolve similar alerts and the probable root cause.
 

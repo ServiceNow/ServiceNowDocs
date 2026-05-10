@@ -93,7 +93,7 @@ Network Interface \[cmdb\_ci\_ni\_interface\]
 
 </td><td>
 
-Discovered by the Next Generation Fortinet Network Firewall - REST pattern. See [Fortinet firewall and FortiGate VDOM REST-based discovery](https://www.servicenow.com/docs/access?context=fortinet-fw-vdoms-rest-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+Discovered by the Next Generation Fortinet Network Firewall - REST pattern. See [Fortinet firewall and FortiGate VDOM REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/fortinet-fw-vdoms-rest-discovery.md).
 
 </td></tr><tr><td>
 
@@ -105,7 +105,7 @@ Firewall Security Policy \[cmdb\_ci\_firewall\_sec\_policy\]
 
 </td><td>
 
-Discovered by the Next Generation Fortinet Network Firewall - REST pattern. See [Fortinet firewall and FortiGate VDOM REST-based discovery](https://www.servicenow.com/docs/access?context=fortinet-fw-vdoms-rest-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+Discovered by the Next Generation Fortinet Network Firewall - REST pattern. See [Fortinet firewall and FortiGate VDOM REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/fortinet-fw-vdoms-rest-discovery.md).
 
 </td></tr><tr><td>
 
@@ -117,7 +117,7 @@ IP Firewall \[cmdb\_ci\_ip\_firewall\]
 
 </td><td>
 
-Discovered by the Next Generation Fortinet Network Firewall - REST pattern. See [Fortinet firewall and FortiGate VDOM REST-based discovery](https://www.servicenow.com/docs/access?context=fortinet-fw-vdoms-rest-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+Discovered by the Next Generation Fortinet Network Firewall - REST pattern. See [Fortinet firewall and FortiGate VDOM REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/fortinet-fw-vdoms-rest-discovery.md).
 
 </td></tr><tr><td>
 

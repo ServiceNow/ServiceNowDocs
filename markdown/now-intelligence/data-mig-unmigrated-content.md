@@ -24,7 +24,7 @@ Filters that are not migrated
 -   Debug filter
 -   Filter user preferences from dashboards
 -   Cascading filters that support the Choice &gt; Choice configuration
--   Filtered list content. For more information on List filters, see [Create a filter in List](https://www.servicenow.com/docs/access?context=t_CreatingFilters&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+-   Filtered list content. For more information on List filters, see [Create a filter in List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreatingFilters.md).
 
 Visualization configurations that are not migrated:
 

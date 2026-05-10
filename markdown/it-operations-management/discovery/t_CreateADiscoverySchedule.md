@@ -19,7 +19,7 @@ A discovery schedule determines what horizontal discovery searches for, when it 
 
 Ensure that your Discovery schedule conforms to security best practices, such as limiting the range of discovery targets and using the most secure credentials.
 
-Make sure to [test your credentials](https://www.servicenow.com/docs/access?context=t_CreateCredential&version=australia&pubname=australia-platform-security&ft:locale=en-US) before you run a schedule. Bad credentials are a leading cause of failed discoveries.
+Make sure to [test your credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/t_CreateCredential.md) before you run a schedule. Bad credentials are a leading cause of failed discoveries.
 
 Roles required: discovery\_admin or admin
 
@@ -298,7 +298,7 @@ Shazzam can process IP lists containing up to 20,000 addresses that include both
 **Related topics**  
 
 
-[MID Server pause](https://www.servicenow.com/docs/access?context=t_PauseTheMIDServer&version=australia&pubname=australia-servicenow-platform&section=c_MIDServerPause&ft:locale=en-US)
+[MID Server pause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_PauseTheMIDServer.md)
 
-[MID Server cluster configuration](https://www.servicenow.com/docs/access?context=t_ConfigureAMIDServerCluster&version=australia&pubname=australia-servicenow-platform&section=mid-server-clusters&ft:locale=en-US)
+[MID Server cluster configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md)
 

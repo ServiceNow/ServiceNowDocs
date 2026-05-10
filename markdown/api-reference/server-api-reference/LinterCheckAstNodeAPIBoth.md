@@ -15,9 +15,9 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The LinterCheckAstNode API provides methods for getting abstract syntax tree \(AST\) node details in linter checks.
 
-This API is included with the Instance Scan \(com.glide.instance\_scan\) plugin and runs in the `sn_instance_scan` namespace. For more information, see [Instance Scan](https://www.servicenow.com/docs/access?context=hs-landing-page&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+This API is included with the Instance Scan \(com.glide.instance\_scan\) plugin and runs in the `sn_instance_scan` namespace. For more information, see [Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-landing-page.md).
 
-Use the methods in this class to run linter checks on AST node types by adding code to the **Script** field in the [Linter Check form](https://www.servicenow.com/docs/access?context=hc-linter-check&version=australia&pubname=australia-platform-administration&ft:locale=en-US). For more information, see [Advanced linter check scripts](https://www.servicenow.com/docs/access?context=hs-linter-check-scripts&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Use the methods in this class to run linter checks on AST node types by adding code to the **Script** field in the [Linter Check form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hc-linter-check.md). For more information, see [Advanced linter check scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-linter-check-scripts.md).
 
 Create a linter check to identify any issues in a script. When a linter check is run on a record, an abstract syntax tree for its code is generated. You can use the abstract syntax tree to analyze issues with the code.
 
@@ -37,7 +37,7 @@ Retrieves the string value of a name node type. A name node represents a simple 
 |----|-----------|
 |String|If the linter object is a name node type, return the name as a string. Null otherwise.|
 
-The following example uses the Findings API [incrementWithNode\(\)](../../Findings/concept/FindingsAPI.md#) method in a linter check. Use this method in the Script field of the [Linter Check form](https://www.servicenow.com/docs/access?context=hc-linter-check&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The following example uses the Findings API [incrementWithNode\(\)](../../Findings/concept/FindingsAPI.md#) method in a linter check. Use this method in the Script field of the [Linter Check form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hc-linter-check.md).
 
 ```
 (function(engine) {
@@ -63,7 +63,7 @@ Gets the parent node object of the accessed node.
 |----|-----------|
 |Object|Parent node object of the accessed node.|
 
-The following example uses the Findings API [incrementWithNode\(\)](../../Findings/concept/FindingsAPI.md#) method in a linter check. Use this method in the Script field of the [Linter Check form](https://www.servicenow.com/docs/access?context=hc-linter-check&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The following example uses the Findings API [incrementWithNode\(\)](../../Findings/concept/FindingsAPI.md#) method in a linter check. Use this method in the Script field of the [Linter Check form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hc-linter-check.md).
 
 ```
 (function(engine) {
@@ -89,7 +89,7 @@ Gets the type of the accessed node.
 |----|-----------|
 |String|Type name of the accessed node. For example, a function call in the source is tokenized as a node with the type name of `CALL`.|
 
-The following example uses the Findings API [incrementWithNode\(\)](../../Findings/concept/FindingsAPI.md#) method in a linter check. Use this method in the Script field of the [Linter Check form](https://www.servicenow.com/docs/access?context=hc-linter-check&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The following example uses the Findings API [incrementWithNode\(\)](../../Findings/concept/FindingsAPI.md#) method in a linter check. Use this method in the Script field of the [Linter Check form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hc-linter-check.md).
 
 ```
 (function(engine) {
@@ -115,7 +115,7 @@ Accesses each node in the subtree starting from this node and executes a given c
 |----|-----------|
 |None| |
 
-The following example uses the Findings API [incrementWithNode\(\)](../../Findings/concept/FindingsAPI.md#) method in a linter check. Use this method in the Script field of the [Linter Check form](https://www.servicenow.com/docs/access?context=hc-linter-check&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The following example uses the Findings API [incrementWithNode\(\)](../../Findings/concept/FindingsAPI.md#) method in a linter check. Use this method in the Script field of the [Linter Check form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hc-linter-check.md).
 
 ```
 (function(engine) {

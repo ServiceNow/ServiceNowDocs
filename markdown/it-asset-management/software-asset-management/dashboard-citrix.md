@@ -19,7 +19,7 @@ Access the Software Publisher Analytics dashboard by navigating to **All** &gt; 
 
 **Note:** The add-on Citrix publisher pack \(com.sn\_samp\_citrix\) [plugin](../task/t_RequSoftwareAssetMgmt.md) must be installed to view the Citrix dashboard tab.
 
-A discovery process is required for Citrix data to be collected. For ServiceNow Discovery, a user with the admin role must create a [Discovery schedule](https://www.servicenow.com/docs/access?context=t_CreateADiscoverySchedule&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) to run on the Citrix Delivery Controller for communication with the Citrix License Server.
+A discovery process is required for Citrix data to be collected. For ServiceNow Discovery, a user with the admin role must create a [Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) to run on the Citrix Delivery Controller for communication with the Citrix License Server.
 
 The dashboard is updated whenever a new reconciliation result is available. You can save charts in PNG or JPG format.
 

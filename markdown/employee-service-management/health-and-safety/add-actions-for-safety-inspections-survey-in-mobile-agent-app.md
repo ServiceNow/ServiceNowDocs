@@ -19,7 +19,7 @@ Learn how to use the Mobile Agent app to create actions for an inspection survey
 
 Verify the following conditions:
 
--   The system properties for the offline mode behavior of the mobile application are configured. For more information, see [Configure offline mode behavior](https://www.servicenow.com/docs/access?context=sg-configure-offline-mode&version=australia&pubname=australia-mobile&ft:locale=en-US).
+-   The system properties for the offline mode behavior of the mobile application are configured. For more information, see [Configure offline mode behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-offline-mode.md).
 -   The offline mode for the Mobile Agent app on your mobile device is turned on. For more information, see [Offline mode for Mobile Agent](../concept/hs-health-safety-mobile.md#section_hs_mobile_offline_mode).
 -   The **glide.sg.offline.scheduled\_download.enabled** system property for scheduled offline caching is set. If the property is not set, manually update cache before you go offline. To update cache, navigate to **Settings** and tap **Update Cache**. This ensures that the survey is downloaded and it's ready for you to complete.
 
@@ -29,7 +29,7 @@ Role required: sn\_hs\_rm.safety\_inspection\_agent
 
 Surveys completed offline are synchronized once an internet connection is established.
 
-For more information on how offline mode works in the mobile app, see [Offline mode for mobile](https://www.servicenow.com/docs/access?context=offline-end-user&version=australia&pubname=australia-mobile&ft:locale=en-US).
+For more information on how offline mode works in the mobile app, see [Offline mode for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-end-user.md).
 
 For more information on how an admin configures which survey field type should display the **Create action** check box, see [Configure the create action check box for safety inspection survey in the Mobile Agent app](hs-configure-create-action-checkbox-mobile-survey.md).
 
@@ -41,15 +41,15 @@ For more information on how an admin configures which survey field type should d
 
 3.  To open surveys,
 
-<table id="choicetable_adf_tqn_lfc"><thead><tr><th align="left" id="d776331e147">
+<table id="choicetable_adf_tqn_lfc"><thead><tr><th align="left" id="d783989e147">
 
 Section
 
-</th><th align="left" id="d776331e150">
+</th><th align="left" id="d783989e150">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d776331e156">
+</th></tr></thead><tbody><tr><td id="d783989e156">
 
 **My Surveys**
 
@@ -57,7 +57,7 @@ Steps
 
 Tap **My Assessments and Surveys**.All surveys that were downloaded before you went offline are listed.
 
-</td></tr><tr><td id="d776331e170">
+</td></tr><tr><td id="d783989e170">
 
 **Inspections**
 

@@ -110,7 +110,7 @@ The **glide.outbound\_http\_log.override** system property enables you to overri
 
  If **glide.outbound\_http\_log.override** is set to **true**, the level of logging is determined by the value of the **glide.outbound\_http\_log.override.level** property. This value can be **basic**, **elevated**, or **all**. All 3 are string/text based values. Any value other than these is interpreted as **basic**.
 
- For additional details, see [Configure outbound logging](https://www.servicenow.com/docs/access?context=outbound-logging-configure&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+ For additional details, see [Configure outbound logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/outbound-logging-configure.md).
 
 </td></tr><tr><td>
 
@@ -121,7 +121,7 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Parent Topic:**[Error handling and logging](sc-error-handling-logging.md)
 

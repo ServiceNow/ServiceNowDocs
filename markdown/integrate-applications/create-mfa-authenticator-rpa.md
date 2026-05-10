@@ -16,7 +16,7 @@ Define the authenticator and token length that acts as an enabler for the Time-b
 
 ## Before you begin
 
-Familiarize yourself with multi-factor authentication \(MFA\) concepts. For more information, see [Multi-factor authentication](https://www.servicenow.com/docs/access?context=mfa-landing&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Familiarize yourself with multi-factor authentication \(MFA\) concepts. For more information, see [Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-landing.md).
 
 Familiarize yourself with the TOTP authentication in RPA Hub. For more information, see [TOTP authentication in RPA Hub](../concept/totp-authentication-rpa.md).
 
@@ -32,7 +32,7 @@ An authenticator application is a third-party software that generates temporary 
 -   Microsoft Authenticator
 -   Okta Verify
 
-For more detail on these applications, see [Authenticator Applications](https://www.servicenow.com/docs/access?context=mfa-auth-app&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more detail on these applications, see [Authenticator Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-auth-app.md).
 
 The MFA authenticator record acts as an input to the Time-based One-time Password \(TOTP\) authenticator.
 

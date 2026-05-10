@@ -21,7 +21,7 @@ The three types of activity streams are as follows:
 
 -   **Record activity stream**
 
-    Appears in forms that are configured with the [activity formatter](https://www.servicenow.com/docs/access?context=c_ActivityFormatter&version=australia&pubname=australia-platform-administration&ft:locale=en-US) . You can customize the activities to include in this type of stream.
+    Appears in forms that are configured with the [activity formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ActivityFormatter.md) . You can customize the activities to include in this type of stream.
 
     When you follow a record to view it in the Connect Chat interface, the conversation contains the same information as the record activity stream. Comments that are entered in the Connect Chat window update the record activity stream.
 
@@ -46,18 +46,18 @@ Get someone's attention on a record by mentioning them with the @ character in a
 
 Any user can use activity stream mentions in the following places:
 
--   On a form, in the [activity formatter](https://www.servicenow.com/docs/access?context=c_ActivityFormatter&version=australia&pubname=australia-platform-administration&ft:locale=en-US) \(Core UI only\).
+-   On a form, in the [activity formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ActivityFormatter.md) \(Core UI only\).
 -   In a list, in the [activity stream](../../using-lists/concept/c_DisplayActivityStreams.md) for a record.
 -   On a Visual Task Board card, in the [card details](../../visual-task-boards/task/t_EditCardDetails.md#).
--   In a Connect [record conversation](https://www.servicenow.com/docs/access?context=t_StartARecordConversation&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   In a Connect [record conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_StartARecordConversation.md).
 
 To mention someone, enter the `@` character in a supported activity stream. Next, select a user from the suggestion list to select any user in the instance. You can see which users have access to the record and, if presence is enabled, who is online. Enter any other text and post to the activity stream. The following example shows an \#Mention on a form.
 
 ![@mention in an Activity Stream with the user selector menu open.](../image/activity-stream-mention-form.png "Activity stream mention on a form")
 
-By default, you receive an email notification when someone mentions you. You can disable this behavior by unsubscribing from the Activity Stream @Mention Email notification on your [notification preferences](https://www.servicenow.com/docs/access?context=user-notification-preferences&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+By default, you receive an email notification when someone mentions you. You can disable this behavior by unsubscribing from the Activity Stream @Mention Email notification on your [notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-notification-preferences.md).
 
-If Connect is enabled, you can receive additional notifications, depending on whether you [follow the record in Connect](https://www.servicenow.com/docs/access?context=t_StartARecordConversation&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US). When someone mentions you in a record that you do not follow in Connect, you receive whichever Connect notifications you enabled globally, as well as the Activity Stream @Mention Email notification. If you do follow the record in Connect, you only receive notifications according to your [notification preferences](https://www.servicenow.com/docs/access?context=t_EditNotifRecAConv&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for the record conversation. In this case, you do not receive the Activity Stream @Mention Email notification.
+If Connect is enabled, you can receive additional notifications, depending on whether you [follow the record in Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_StartARecordConversation.md). When someone mentions you in a record that you do not follow in Connect, you receive whichever Connect notifications you enabled globally, as well as the Activity Stream @Mention Email notification. If you do follow the record in Connect, you only receive notifications according to your [notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_EditNotifRecAConv.md) for the record conversation. In this case, you do not receive the Activity Stream @Mention Email notification.
 
 **Note:** The system creates a record on the notification \[live\_notification\] table each time a user is mentioned. The record stores the information required to generate notifications.
 

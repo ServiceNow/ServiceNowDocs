@@ -29,15 +29,15 @@ Role required: sn\_ins\_claim\_pers.admin and admin
 
 2.  Review the installed components and modify them or add new ones as applicable.
 
-<table id="choicetable_jt1_44w_fvb"><thead><tr><th align="left" id="d38716e109">
+<table id="choicetable_jt1_44w_fvb"><thead><tr><th align="left" id="d38720e109">
 
 Task
 
-</th><th align="left" id="d38716e112">
+</th><th align="left" id="d38720e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d38716e118">
+</th></tr></thead><tbody><tr><td id="d38720e118">
 
 **Configure service definitions**
 
@@ -45,7 +45,7 @@ Description
 
 Configure service definitions to enable unique flows and views for service cases and tasks. For more information, see [Configure service definitions](../../fso-common/task/configure-service-definitions.md).You can add new case types and configure service definitions for each type.
 
-</td></tr><tr><td id="d38716e140">
+</td></tr><tr><td id="d38720e140">
 
 **Edit or create flows**
 
@@ -53,7 +53,7 @@ Configure service definitions to enable unique flows and views for service cases
 
 Edit or create flows using Workflow Studio. For more information, see [Edit or create flows](../../fso-common/task/configure-flow-designer-flows-fso-apps.md).
 
-</td></tr><tr><td id="d38716e162">
+</td></tr><tr><td id="d38720e162">
 
 **Configure playbook**
 
@@ -61,7 +61,7 @@ Edit or create flows using Workflow Studio. For more information, see [Edit or c
 
 Create a playbook by using Playbooks. For more information, see [Edit or create a new playbook](../../fso-common/task/configure-playbooks-fso-apps.md).
 
-</td></tr><tr><td id="d38716e184">
+</td></tr><tr><td id="d38720e184">
 
 **Configure CSM Configurable Workspace**
 
@@ -69,7 +69,7 @@ Create a playbook by using Playbooks. For more information, see [Edit or create 
 
 Configure CSM Configurable Workspace to enable agents to interact with customers and create and work on cases.For more information, see [Configure CSM Configurable Workspace](../../fso-common/task/configure-csm-workspace-fso-apps.md).
 
-</td></tr><tr><td id="d38716e218">
+</td></tr><tr><td id="d38720e218">
 
 **Configure the Claim Workspace, Fraud score and Claim summary pages**
 
@@ -77,7 +77,7 @@ Configure CSM Configurable Workspace to enable agents to interact with customers
 
 Configure Claim workspace, Fraud score, and Claim summary pages on claim cases and claim adjuster tasks. For more information, see [Enable Claim workspace, Fraud score, and Claim summary pages](../../fso-commercial-lines-claims/task/enable-fraud-score-and-claim-summary-pages.md).**Note:** The Claim workspace is accessible from an adjuster task. The Fraud score and Claim summary pages are accessible from both a claim case and an adjuster task.
 
-</td></tr><tr><td id="d38716e236">
+</td></tr><tr><td id="d38720e236">
 
 **Configure Service Level Agreements \(SLAs\)**
 
@@ -85,7 +85,7 @@ Configure Claim workspace, Fraud score, and Claim summary pages on claim cases a
 
 Configure the installed SLAs to configure SLA timings for claim service cases and tasks.For more information, see [Configure the installed SLAs](../../fso-common/task/configure-sla-definitions-fso-cases.md)
 
-</td></tr><tr><td id="d38716e257">
+</td></tr><tr><td id="d38720e257">
 
 **Configure user groups**
 
@@ -93,7 +93,7 @@ Configure the installed SLAs to configure SLA timings for claim service cases an
 
 Configure user groups for assignment of cases and tasks. You can also assign roles to groups and users.For more information, see [Configure user groups](../../fso-common/task/configure-groups-fso.md).
 
-</td></tr><tr><td id="d38716e279">
+</td></tr><tr><td id="d38720e279">
 
 **Configure assignment rules**
 
@@ -101,7 +101,7 @@ Configure user groups for assignment of cases and tasks. You can also assign rol
 
 Configure assignment rules to identify cases that meet certain conditions and then route those cases to agents. For more information, see [Configure assignment rules](../../fso-common/task/configure-assignment-rules-fso-applications.md).
 
-</td></tr><tr><td id="d38716e295">
+</td></tr><tr><td id="d38720e295">
 
 **Configure Document Processor**
 
@@ -109,7 +109,7 @@ Configure assignment rules to identify cases that meet certain conditions and th
 
 Configure document processor for document categories, document types, inbound and outbound document rules, and approval rules for document deferments and exceptions.For more information, see [Configure Document Processor](../../fso-common/concept/configuring-fso-document-processor.md).
 
-</td></tr><tr><td id="d38716e322">
+</td></tr><tr><td id="d38720e322">
 
 **Configure archive rules**
 

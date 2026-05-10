@@ -15,7 +15,7 @@ breadcrumb: [Reference - Employee Document Management, Employee Document Managem
 
 Several types of components install with the activation of the Employee Document Management \[com.sn\_employee\_document\_management\] plugin, including tables, user roles, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -213,7 +213,7 @@ Refresh Purge Dates for Employee Documents
 This job ensures that any employee documents that have a changed retention period since the last run does not purge a document.This scheduled job works with the sn\_hr\_ef.purge\_stride\_length property to determine which employee documents for a user \[sys\_user\] record get purge dates recalculated.
 
 </td></tr></tbody>
-</table>**Note:** The Employee Document Management scheduled jobs run daily by default. To change when a scheduled job runs, see [Default schedules](https://www.servicenow.com/docs/access?context=r_DefaultSchedules&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+</table>**Note:** The Employee Document Management scheduled jobs run daily by default. To change when a scheduled job runs, see [Default schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_DefaultSchedules.md).
 
 ## Document management tables and descriptions
 

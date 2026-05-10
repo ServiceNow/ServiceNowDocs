@@ -47,10 +47,10 @@ ServiceNow
 
 The following are examples on how you can use the Service Graph Connector for different ServiceNow® applications:
 
--   [IT Operations Management \(ITOM\) Visibility](https://www.servicenow.com/docs/access?context=itom-visibility-landing-page&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+-   [IT Operations Management \(ITOM\) Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/itom-visibility-landing-page.md)
     -   Detailed hardware and application inventory for Android, Apple, and Windows mobile devices. The inventory can be used with or without Software Asset Management \(SAM\).
     -   Compliance tracking for mobile devices. You can build your own device \(BYOD\) or use corporate-owned devices.
--   [IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=r_ITServiceManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+-   [IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_ITServiceManagement.md)
     -   Incidents, problems, and changes on discovered configuration items \(CI\).
     -   Ownership tracking and assignment for mobile devices.
 
@@ -267,7 +267,7 @@ After you complete setting up the connection, you can configure the integration 
 -   For any discovered software applications that were deleted later in the Microsoft Intune application, the Service Graph Connector automatically deletes the corresponding records in CMDB.
 -   To view more details about a handheld computing device or computer in the Computer \[cmdb\_ci\_computer\] class, enable the related lists SG-Intune Device Related and SG-Intune Computer Related.
 
-    You can add these related lists by configuring the Related Lists view on the form that opens when you select a handheld computing device or computer configuration item \(CI\) in the Computer \[cmdb\_ci\_computer\] class. Computer CIs are displayed in the Computers list, accessed by navigating to **All** &gt; **Configuration** &gt; **Base Items** &gt; **Computers**. For more information about adding related lists to a form, see [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    You can add these related lists by configuring the Related Lists view on the form that opens when you select a handheld computing device or computer configuration item \(CI\) in the Computer \[cmdb\_ci\_computer\] class. Computer CIs are displayed in the Computers list, accessed by navigating to **All** &gt; **Configuration** &gt; **Base Items** &gt; **Computers**. For more information about adding related lists to a form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
 
 For more information on where data is saved when pulling data from a Microsoft Intune application, see [CMDB classes targeted in Service Graph Connector for Microsoft Intune](../reference/cmdb-intune-classes.md).

@@ -26,7 +26,7 @@ When you add a catalog template to help users create forms in Creator Studio, yo
 
 Additionally, you may want to use the catalog template to restrict the catalogs that users can choose when creating an app.
 
-For more details on how to add catalog templates, see [Creating or editing catalog item template](https://www.servicenow.com/docs/access?context=create-cat-item-template-cat-builder&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more details on how to add catalog templates, see [Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md).
 
 Check out an article on [Creating catalog templates for Creator Studio](https://www.servicenow.com/community/creator-studio-blogs/creator-studio-for-admins-creating-catalog-templates-for-creator/ba-p/3053357).
 

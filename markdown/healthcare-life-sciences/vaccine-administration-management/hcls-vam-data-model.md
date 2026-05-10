@@ -400,5 +400,5 @@ Provides a series of standard user fields used on each of the tables that extend
 ServiceNow AI Platform
 
 </td></tr></tbody>
-</table>To learn about Healthcare and Life Sciences Service Management Core, ServiceNow AI Platform, and CSM tables, see [Healthcare and Life Sciences data model](../../healthcare-life-sciences/concept/hcls-serv-mgmt-core-1.md), [Industry data model tables](https://www.servicenow.com/docs/access?context=csm-data-model-tables&version=australia&pubname=australia-customer-service-management&ft:locale=en-US), and [Tables installed with Customer Service Management](https://www.servicenow.com/docs/access?context=r_TIWCustomerService&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+</table>To learn about Healthcare and Life Sciences Service Management Core, ServiceNow AI Platform, and CSM tables, see [Healthcare and Life Sciences data model](../../healthcare-life-sciences/concept/hcls-serv-mgmt-core-1.md), [Industry data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-tables.md), and [Tables installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_TIWCustomerService.md).
 

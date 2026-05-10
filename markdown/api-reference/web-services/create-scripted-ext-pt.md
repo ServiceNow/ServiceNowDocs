@@ -19,7 +19,7 @@ Create a scripted extension point that can be placed in a script include in the 
 
 Role required: You must have the specific role for the developer or administrator of the application, or you must have the admin role.
 
-**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://www.servicenow.com/docs/access?context=ACL-access-checks&version=australia&pubname=australia-application-development&ft:locale=en-US) and [Delegated development and deployment](https://www.servicenow.com/docs/access?context=c_DelegatedDevelopment&version=australia&pubname=australia-application-development&ft:locale=en-US).
+**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ACL-access-checks.md) and [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 ## About this task
 
@@ -39,7 +39,7 @@ By creating a good definition, you provide a structure for the extensions.
     |-----|-----------|
     |Name|Unique name for the extension point. The name can be up to 100 alphanumeric characters, including special characters.|
     |API Name|Name of the extension point API that is pre-pended with the application scope to which it applies. This is a system-assigned name and cannot be changed.|
-    |Application|Application scope against which the extension point is assigned. This is system-assigned and cannot be changed. For more information about the protections that are offered by the use of scoping, see [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US).|
+    |Application|Application scope against which the extension point is assigned. This is system-assigned and cannot be changed. For more information about the protections that are offered by the use of scoping, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).|
     |Restrict to this scope|Option for restricting the extension point to the application scope only.|
     |Description|Requirements for the custom script include, such as how the UI script should be structured and how it should operate with the application code.|
     |Example|Example of how a custom script include that interacts with this extension point should be structured so it operates with the application code.|

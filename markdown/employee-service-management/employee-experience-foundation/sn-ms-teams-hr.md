@@ -15,7 +15,7 @@ breadcrumb: [Integration for Employee Experience, Explore, ServiceNow for Micros
 
 HR Service Delivery integration with Microsoft Teams extends the Now Virtual Agent integration with Microsoft Teams to enable employees to more effectively request and receive service from within Microsoft Teams.
 
-The HR Service Delivery integration with Microsoft Teams application extends the [Now Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) integration and includes the following additional capabilities:
+The HR Service Delivery integration with Microsoft Teams application extends the [Now Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md) integration and includes the following additional capabilities:
 
 -   Actionable notifications – for approval and comments on tickets. Users can take action on the notifications from within Microsoft Teams.
 

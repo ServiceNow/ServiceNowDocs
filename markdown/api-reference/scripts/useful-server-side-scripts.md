@@ -111,7 +111,7 @@ Typically, setting a due date requires that you calculate work time rather than 
 10am-5pm on Monday (6 hours) + 8am-12pm on Tuesday (4 hours)
 ```
 
-For information on schedules, which you can use as inputs to DurationCalculator methods, see [Creating and using schedules](https://www.servicenow.com/docs/access?context=c_UseSchedules&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For information on schedules, which you can use as inputs to DurationCalculator methods, see [Creating and using schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md).
 
 This script demonstrates how to use DurationCalculator to compute a due date.
 
@@ -193,7 +193,7 @@ To calculate a relative duration, the calendar and time zone must be considered 
 
 **Note:** Next business day is often defined by a starting day and time. For example, "next business day at 4pm if before 2pm" indicates that if the current time is after 2pm on a business day, then "Next business day" really means 2 business days since today does not count.
 
-For more information on relative durations, see [Define a relative duration](https://www.servicenow.com/docs/access?context=t_DefineARelativeDuration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information on relative durations, see [Define a relative duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_DefineARelativeDuration.md).
 
 #### Calculating a simple duration
 

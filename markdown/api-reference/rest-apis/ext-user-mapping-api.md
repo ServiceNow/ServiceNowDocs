@@ -21,7 +21,7 @@ The AI Search External User Mapping API provides endpoints that enable ingestion
 
 Imports a list of external user mappings into an AI Search user mapping table. Each mapping specifies externally defined user and group aliases for a ServiceNow AI Platform user. AI Search uses these aliases to determine which external document search results the user can view.
 
-To learn how AI Search external content security utilizes external user mappings, see [External content security for AI Search](https://www.servicenow.com/docs/access?context=external-content-security-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+To learn how AI Search external content security utilizes external user mappings, see [External content security for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/external-content-security-ais.md).
 
 User and group names in external user mappings should match those specified in security access permissions for external documents ingested via the External Content Ingestion API's POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint. For more information on ingesting external documents with security access permissions for externally defined users and groups, see [External Content Ingestion API](external-content-ingestion-api.md#).
 

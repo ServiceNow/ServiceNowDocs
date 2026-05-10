@@ -123,5 +123,5 @@ Time of day that the download job should run.
 **Related topics**  
 
 
-[Cloud credentials](https://www.servicenow.com/docs/access?context=r_CloudManagementCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[Cloud credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_CloudManagementCredentialsForm.md)
 

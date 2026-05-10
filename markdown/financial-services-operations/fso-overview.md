@@ -51,7 +51,7 @@ The ServiceNow® Financial Services Operations \(FSO\) solution helps financial 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed in this release at [Financial Services Operations release notes](https://www.servicenow.com/docs/access?context=financial-services-operations-rn-landing&version=australia&pubname=australia-release-notes&ft:locale=en-US).
+-   Learn more about what's new and changed in this release at [Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/financial-services-operations-rn-landing.md).
 -   Log into your ServiceNow account and find additional information about implementing and deploying Field Service Management features at [Now Create](https://learning.servicenow.com/nowcreate).
 -   Work with an implementation specialist to streamline your Financial Services Operations setup process. To learn more, see the [Customer Success Center](https://www.servicenow.com/success.html).
 

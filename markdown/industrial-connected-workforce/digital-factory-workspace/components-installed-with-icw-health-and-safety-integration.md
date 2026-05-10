@@ -65,5 +65,5 @@ sn\_ohs\_im.incident\_manager
 **Related topics**  
 
 
-[Components installed with Health and Safety Incident Management](https://www.servicenow.com/docs/access?context=components-installed-with-hs-incident-mgmt&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+[Components installed with Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/components-installed-with-hs-incident-mgmt.md)
 

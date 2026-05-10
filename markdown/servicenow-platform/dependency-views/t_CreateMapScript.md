@@ -39,7 +39,7 @@ The following dependency types are available in the base system:
     Returns all qualifiers, end points, and entry points. This dependency type is available in the base system and is disabled by default. Typically, you would enable this dependency type for debugging and tracking purposes.
 
 
-The following dependency types are available with [Service Mapping](https://www.servicenow.com/docs/access?context=c_ServiceMappingOverview&version=australia&pubname=australia-it-operations-management&ft:locale=en-US):
+The following dependency types are available with [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md):
 
 -   **Application to Network Devices**
 
@@ -55,7 +55,7 @@ The following dependency types are available with [Service Mapping](https://www.
 
 -   **Flow Dependencies**
 
-    Returns all the server to server connections that were discovered using the Netflow collector. The script builds a graph based on data in the \[sa\_flow\_server\_comm\] table. This table contains pairs of services represented by an IP and a listening port that are communicating with each other. For more information, see [Data collection and discovery using Netflow](https://www.servicenow.com/docs/access?context=data-collection-netflow-mapping&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) and [Data collection and discovery using VPC Flow Logs](https://www.servicenow.com/docs/access?context=data-collection-vpc-mapping&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+    Returns all the server to server connections that were discovered using the Netflow collector. The script builds a graph based on data in the \[sa\_flow\_server\_comm\] table. This table contains pairs of services represented by an IP and a listening port that are communicating with each other. For more information, see [Data collection and discovery using Netflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/data-collection-netflow-mapping.md) and [Data collection and discovery using VPC Flow Logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/data-collection-vpc-mapping.md).
 
 
 ## Procedure
@@ -92,5 +92,5 @@ In a Dependency Views map, you can click **Dependency Type** to apply a custom s
 
 [Condition and script parameters for menu actions](../reference/condition-script-parameters.md)
 
-[Data collection and discovery using Netflow](https://www.servicenow.com/docs/access?context=data-collection-netflow-mapping&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+[Data collection and discovery using Netflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/data-collection-netflow-mapping.md)
 

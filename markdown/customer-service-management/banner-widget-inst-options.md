@@ -47,7 +47,7 @@ Background Image
 
 </td><td>
 
-Image to appear as the background on the banner. **Note:** You can select images from the Images \[db\_image\] table or upload a new image to it. For more information, see [Storing images in the database](https://www.servicenow.com/docs/access?context=c_StoringImagesInTheDatabase&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Image to appear as the background on the banner. **Note:** You can select images from the Images \[db\_image\] table or upload a new image to it. For more information, see [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md).
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Show Search bar
 
 </td><td>
 
-Option to display the search bar on the Portal Banner widget to search content.**Note:** You can enable the AI search for a banner widget to get quick results. For more information, see [Enable and configure AI Search in Service Portal](https://www.servicenow.com/docs/access?context=enable-ais-sp&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Option to display the search bar on the Portal Banner widget to search content.**Note:** You can enable the AI search for a banner widget to get quick results. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-ais-sp.md).
 
 </td></tr><tr><td>
 

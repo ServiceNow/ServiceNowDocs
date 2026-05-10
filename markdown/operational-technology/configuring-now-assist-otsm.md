@@ -19,11 +19,11 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for OTSM. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Use the Now Assist Admin console to configure Now Assist for OTSM. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
 **Note:** You can also set up AI Enhanced Recommended Actions for OTSM to use with Now Assist for OTSM. For more information, see [Set up AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](../../ot-ai-enhanced-recommended-actions/task/set-up-ai-enhanced-ra-otsm.md).
 
-**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 The following table lists the features and skills that you can access from the Now Assist Admin console.
 
@@ -53,7 +53,7 @@ Gen AI skills for OT incident
 1.  Install the Now Assist for OTSM plugin \(sn\_otsm\_gen\_ai\).
 
     -   For information about the application dependencies, see [Supporting information for Now Assist for Operational Technology Service Management \(OTSM\)](supporting-information-for-now-assist-otsm.md).
-    -   For information about the installation process, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **Now Assist Admin**.
 
 3.  Select the **Now Assist Skills** tab.
@@ -81,7 +81,7 @@ Gen AI skills for OT incident
 10. Select where you'd like to display the skill.
 
     -   **In-product**: When selected, the Now Assist skills are displayed on forms and workspaces.
-    -   **Now Assist panel**: When selected, the Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    -   **Now Assist panel**: When selected, the Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 11. After you configure the display for the selected skill, select **Save and continue** to go to the next step.
 
 12. Review your choices and select **Activate** to complete the configuration.
@@ -99,7 +99,7 @@ Get a quick overview of the skill inputs and triggers for Now Assist for Operati
 **Related topics**  
 
 
-[Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
 
-[Configuring Now Assist Admin features](https://www.servicenow.com/docs/access?context=configuring-na-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
 

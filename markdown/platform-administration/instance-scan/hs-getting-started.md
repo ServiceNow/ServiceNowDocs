@@ -15,7 +15,7 @@ breadcrumb: [Instance Scan, Maintain and monitor, Administer the ServiceNow AI P
 
 If you are new to Instance Scan, read this overview to learn what the tool can do. Follow the tutorial to create checks and execute scans that uses most basics of Instance Scan features.
 
-**Note:** Instance Scan doesn't fully support domain separation. Findings are visibly domain separated based on the domain of the source record. For more information see [Domain separation](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+**Note:** Instance Scan doesn't fully support domain separation. Findings are visibly domain separated based on the domain of the source record. For more information see [Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md).
 
 ## Instance Scan overview
 

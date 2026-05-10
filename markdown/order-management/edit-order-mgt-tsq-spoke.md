@@ -43,7 +43,7 @@ The Order Qualification Request type is used to integrate order management with 
 5.  In the Request adapter field, select the subflow that will communicate with the third-party system to update the customer order and click **Submit**.
 
     -   Each request type can have multiple request definitions. For example, if you have multiple inventory systems or vendors, depending on the system you want to invoke, you can add multiple request definitions for each system. You must create a separate spoke to interact with each vendor or third-party system, create a flow in the spoke, and point the request adapter to this flow.
-    -   For more information on how to create a spoke, see [Spokes](https://www.servicenow.com/docs/access?context=spokes&version=australia&pubname=australia-build-workflows&ft:locale=en-US). As shown in the demo subflow, ensure that the response from the third-party system passed to the Process Qualification Response block.
+    -   For more information on how to create a spoke, see [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md). As shown in the demo subflow, ensure that the response from the third-party system passed to the Process Qualification Response block.
     -   When the Process Qualification Request subflow is invoked, the response from the third-party inventory system is received either synchronously or asynchronously, and the Result is updated in the customer order.
 
 **Parent Topic:**[Service qualification requests](../concept/order-mgt-tsq-about.md)

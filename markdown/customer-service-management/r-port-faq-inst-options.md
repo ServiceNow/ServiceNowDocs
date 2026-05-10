@@ -53,7 +53,7 @@ Query
 
 Query to filter FAQs.If this field is empty, the widget displays all the FAQs.
 
-You can include fields from the provided table only in the encoded filter query. For more information, see [Generate an encoded query string through a filter](https://www.servicenow.com/docs/access?context=t_GenEncodQueryStringFilter&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+You can include fields from the provided table only in the encoded filter query. For more information, see [Generate an encoded query string through a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_GenEncodQueryStringFilter.md)
 
 </td></tr><tr><td>
 

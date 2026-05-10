@@ -23,7 +23,7 @@ The Omnichannel Callback API allows agents to programmatically call users back r
 
 This API belongs to the sn\_omni\_callback namespace and requires the Administrator with callback API \[sn\_omni\_callback.callback\_api\] role.
 
-For more information about the Omnichannel Callback application as an ServiceNow AI Platform capability, see [Omnichannel Callback](https://www.servicenow.com/docs/access?context=omnichannel-callback&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For more information about the Omnichannel Callback application as an ServiceNow AI Platform capability, see [Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/omnichannel-callback/omnichannel-callback.md).
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 
@@ -167,7 +167,7 @@ Time zone of customer who requested the callback. Time zones can be provided in 
 -   `Country/Time zone`: For example, `US/Pacific`.
 -   `Time zone abbreviation`: For example, `PST`.
 
-For a complete list of valid timezones, see the Time zone field in the User \[sys\_user\] table. For more information about time zones, see [Time zones](https://www.servicenow.com/docs/access?context=r_TimeZones&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For a complete list of valid timezones, see the Time zone field in the User \[sys\_user\] table. For more information about time zones, see [Time zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_TimeZones.md).
 
 Data type: String
 
@@ -1131,7 +1131,7 @@ Time zone of customer who requested the callback. Time zones can be provided in 
 -   `Country/Time zone`. For example, `US/Pacific`.
 -   `Time zone abbreviation`. For example, `PST`.
 
-For a complete list of valid timezones, see the Time zone field in the User \[sys\_user\] table. For more information about time zones, see [Time zones](https://www.servicenow.com/docs/access?context=r_TimeZones&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For a complete list of valid timezones, see the Time zone field in the User \[sys\_user\] table. For more information about time zones, see [Time zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_TimeZones.md).
 
 Data type: String
 
@@ -2466,7 +2466,7 @@ Time zone of customer who requested the callback. Time zones can be provided in 
 -   `Country/Time zone`. For example, `US/Pacific`.
 -   `Time zone abbreviation`. For example, `PST`.
 
-For a complete list of valid timezones, see the Time zone field in the User \[sys\_user\] table. For more information about time zones, see [Time zones](https://www.servicenow.com/docs/access?context=r_TimeZones&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For a complete list of valid timezones, see the Time zone field in the User \[sys\_user\] table. For more information about time zones, see [Time zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_TimeZones.md).
 
 Data type: String
 

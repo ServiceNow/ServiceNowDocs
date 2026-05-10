@@ -37,7 +37,7 @@ You can view the **Playbook** menu only if a playbook is active and the project 
 
 2.  Use an existing playbook or create a new one.
 
-    -   To create a new playbook, define the trigger condition in Workflow Studio. For more information, see [Triggers](https://www.servicenow.com/docs/access?context=process-automation-designer-triggers&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    -   To create a new playbook, define the trigger condition in Workflow Studio. For more information, see [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-triggers.md).
     -   To use an existing playbook:
 
         1.  From the menu, select **Playbooks**.
@@ -48,7 +48,7 @@ You can view the **Playbook** menu only if a playbook is active and the project 
         -   When you select **Mark Complete** or **Skip**, the activity becomes read-only.
         -   A stage is marked complete once all activities within it are either completed or skipped.
         -   Use the **Restart** option \(available at both the activity and stage levels\) to revisit or edit completed or skipped activities.
-    For more information on how to use playbooks, see [Building Playbooks](https://www.servicenow.com/docs/access?context=building-a-process&version=australia&pubname=australia-build-workflows&ft:locale=en-US) and [Designing Playbook Experience](https://www.servicenow.com/docs/access?context=playbook-experience-admins&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For more information on how to use playbooks, see [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-a-process.md) and [Designing Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-experience-admins.md).
 
 
 **Parent Topic:**[Managing projects with Project Workspace](../concept/use-projects-pw.md)
@@ -56,9 +56,9 @@ You can view the **Playbook** menu only if a playbook is active and the project 
 **Related topics**  
 
 
-[Running Playbooks](https://www.servicenow.com/docs/access?context=playbook-agents-and-fulfillers&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Running Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
 
-[Playbooks reference](https://www.servicenow.com/docs/access?context=process-automation-designer-reference&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-reference.md)
 
 [Playbooks configuration](../concept/configure-playbooks-pw.md)
 

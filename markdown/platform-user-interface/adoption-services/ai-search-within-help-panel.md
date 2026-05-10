@@ -21,5 +21,5 @@ AI Search extends support to search within Help Panel for knowledge articles and
 
 **Note:** The search results will be from knowledge tables and embedded help tables. Results are based on context that are relevant to the users.
 
-For more information about AI Search see [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information about AI Search see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md).
 

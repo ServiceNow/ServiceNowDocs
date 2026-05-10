@@ -25,5 +25,5 @@ The Agent-Initiated Messaging Interface application supports agent-initiated con
 
 **Note:** The messaging channels are available based on the application associated with the service channel you install. For more information, see [Service channels](../../advanced-work-assignment/concept/awa-service-channels.md).
 
-By default, the application is configured for the Conversational SMS service channel in the CSM Configurable Workspace. For more information, see [Conversational SMS service channel](../../advanced-work-assignment/concept/conversation-sms-service-channel-store-app.md) and [Initiate messaging conversations from the CSM Configurable Workspace](https://www.servicenow.com/docs/access?context=agent-init-messg-csm-cws&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+By default, the application is configured for the Conversational SMS service channel in the CSM Configurable Workspace. For more information, see [Conversational SMS service channel](../../advanced-work-assignment/concept/conversation-sms-service-channel-store-app.md) and [Initiate messaging conversations from the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/agent-init-messg-csm-cws.md).
 

@@ -40,9 +40,9 @@ Ensure that all tags are closed. If the tag is not a naturally closing tag, then
 
 If you are unfamiliar with Jelly scripting, review these topics:
 
--   [Jelly tags](https://www.servicenow.com/docs/access?context=r_JellyTags&version=australia&pubname=australia-api-reference&ft:locale=en-US)
--   [Extensions to Jelly syntax](https://www.servicenow.com/docs/access?context=c_ExtensionsToJellySyntax&version=australia&pubname=australia-api-reference&ft:locale=en-US)
--   [Jelly escaping types](https://www.servicenow.com/docs/access?context=r_JellyEscapingTypes&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+-   [Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_JellyTags.md)
+-   [Extensions to Jelly syntax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ExtensionsToJellySyntax.md)
+-   [Jelly escaping types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_JellyEscapingTypes.md)
 
 Include the following tag with all Apache Jelly scripts.
 

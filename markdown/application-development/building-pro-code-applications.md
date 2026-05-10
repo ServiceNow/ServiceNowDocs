@@ -99,15 +99,15 @@ Develop applications in source code with ServiceNow Fluent, create JavaScript mo
 </td></tr></tbody>
 </table>## Scripting
 
--   **[Action Designer](https://www.servicenow.com/docs/access?context=actions&version=australia&pubname=australia-build-workflows&ft:locale=en-US)**
+-   **[Action Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/actions.md)**
 
     Use Workflow Studio to automate a repeatable task within a flow as a sequence of related steps. Enable flow authors to add actions to multiple flows with minimal configuration.
 
--   **[Client-side scripting](https://www.servicenow.com/docs/access?context=client-side-scripting-overview&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Client-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/client-side-scripting-overview.md)**
 
     Client scripts enable the system to run JavaScript on the client \(web browser\) when client-based events occur, such as when a form loads, after form submission, or when a field changes value.
 
--   **[Now Assist for Code](https://www.servicenow.com/docs/access?context=now-assist-code-landing&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Now Assist for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/now-assist-code-landing.md)**
 
     Now Assist for code generation allows developers to write scripts quickly with AI-generated code suggestions based on text or code prompts.
 
@@ -115,41 +115,41 @@ Develop applications in source code with ServiceNow Fluent, create JavaScript mo
 
     Now Code Editor provides a rich-text editor interface that supports Cascading Style Sheets \(CSS\), Hypertext Markup Language \(HTML\), JavaScript, Extensible Markup Language \(XML\), and JavaScript Object Notation \(JSON\). Use Now Code Editor to modify UI configuration, data resource configuration, styles, events, client-side and server-side scripts in Next Experience UI Builder components.
 
--   **[Server-side scripting](https://www.servicenow.com/docs/access?context=c_ServerScripting&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ServerScripting.md)**
 
     Server scripts run on the server or database. They can change the appearance or behavior of the ServiceNow AI Platform or run as business rules when records and tables are accessed or modified.
 
 
 ## Core functionality
 
--   **[Groups](https://www.servicenow.com/docs/access?context=ua-creating-groups&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-groups.md)**
 
     Simplify user administration by assigning roles to groups. Any business rules, assignment rules, system roles, or attributes that refer to the group apply to all group members automatically.
 
--   **[Notifications](https://www.servicenow.com/docs/access?context=notifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notifications.md)**
 
     Use ServiceNow Notifications to manage system email, create system notifications, and configure how your system responds to inbound email.
 
--   **[Roles](https://www.servicenow.com/docs/access?context=ua-creating-roles&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md)**
 
     Roles control access to features and capabilities in applications and modules. The admin role provides access to all features and capabilities.
 
--   **[ServiceNow plugins](https://www.servicenow.com/docs/access?context=c_ServiceNowPlugins&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[ServiceNow plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ServiceNowPlugins.md)**
 
     Plugins are software components that provide specific features and functionalities within a ServiceNow instance.
 
--   **[UI policies](https://www.servicenow.com/docs/access?context=t_CreateAUIPolicy&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUIPolicy.md)**
 
     UI policies dynamically change the behavior of information on a form and control custom process flows for tasks.
 
--   **[Users](https://www.servicenow.com/docs/access?context=user&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/user.md)**
 
     User records establish a relationship between an individual and your ServiceNow instance. User records consist of a user name, a password, and information relating to the individual, such as contact information, location, and job title.
 
 
 ## Related applications and features
 
--   **[JavaScript APIs](https://www.servicenow.com/docs/access?context=api-reference&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[JavaScript APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-reference.md)**
 
     Use JavaScript APIs in scripts that you write to change the functionality of applications, or when you create new applications.
 

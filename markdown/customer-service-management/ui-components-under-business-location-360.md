@@ -44,7 +44,7 @@ The location information component displays the location information details for
 
 The **Email** and **Phone** links are clickable. When you select these links, the information is copied to the clipboard.
 
-**Note:** If your administrator hasn't enabled Computer Telephony Integration \(CTI\), your contact numbers are copied to the clipboard instead of calling the numbers directly​. For more information about integrating Computer Telephony Integration \(CTI\), see [Computer Telephony Integration](https://www.servicenow.com/docs/access?context=r_ComputerTelephonyIntegration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** If your administrator hasn't enabled Computer Telephony Integration \(CTI\), your contact numbers are copied to the clipboard instead of calling the numbers directly​. For more information about integrating Computer Telephony Integration \(CTI\), see [Computer Telephony Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ComputerTelephonyIntegration.md).
 
 On the location information link, navigate to the business location hierarchy view page​ by selecting the view hierarchy icon ![view hierarchy icon.](../image/hierarchy.png).
 
@@ -121,7 +121,7 @@ The following example shows a list of the different KPIs. The list includes the 
 
 ![List of different KPIs that includes the number of P1 cases, the number of cases by priority, and the SLAs that were breached.](../image/bl360-KPIs.png "KPIs component")
 
-These KPIs are filtered to show the current business location-related details. Your administrator can customize these KPIs according to your location's requirements by using the [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US).
+These KPIs are filtered to show the current business location-related details. Your administrator can customize these KPIs according to your location's requirements by using the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
 
 ## Task tab
 

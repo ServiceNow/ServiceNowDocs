@@ -48,7 +48,7 @@ Role required: admin
 
 ## What to do next
 
-Invoke an automated caller interaction with bots to fulfill the caller's request within the ServiceNow instance. For more information, see [Configure a contact flow for an automated caller interaction](https://www.servicenow.com/docs/access?context=establish-automated-bot-interactions&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Invoke an automated caller interaction with bots to fulfill the caller's request within the ServiceNow instance. For more information, see [Configure a contact flow for an automated caller interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/establish-automated-bot-interactions.md).
 
 **Parent Topic:**[Configuring your AWS account for use with Conversational IVR](../concept/configure-aws-account.md)
 

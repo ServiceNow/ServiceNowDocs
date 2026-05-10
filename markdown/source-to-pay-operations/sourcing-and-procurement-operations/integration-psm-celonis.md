@@ -27,7 +27,7 @@ These insights are valuable and have a direct impact on business, in terms of in
 
 ## Workflow and playbook experience for Celonis integration
 
-Workflows for the various insights provided by Celonis are built with the help of the Playbooks component provided by the Now platform. For more information on this component, see [Process Automation Designer](https://www.servicenow.com/docs/access?context=process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Workflows for the various insights provided by Celonis are built with the help of the Playbooks component provided by the Now platform. For more information on this component, see [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md).
 
 Here's an example of an inconsistent payment term insight provided by Celonis, and an end-to-end system built to automate the work for the users.
 
@@ -44,7 +44,7 @@ Configure your playbook experience to include the following relevant information
 -   Ability to perform searches so that the case owner can search for knowledge articles on similar cases and learn how they were resolved.
 -   Embedded tasks in the playbook like directly updating the ERP, which ensures that all the work that must be done can be done from the playbook itself without the need to log in to any other ERP system.
 
-For more information, see [About Playbook Experience](https://www.servicenow.com/docs/access?context=playbook-ui&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+For more information, see [About Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md).
 
 ## Celonis triggers for Sourcing and Procurement Operations
 

@@ -46,7 +46,7 @@ The CAB workbench assists you in managing CAB meetings in the following ways:
     Record meeting notes from a specific CAB meeting and share these notes with other meeting attendees.
 
 
-The CAB Definition \(cab\_definition\) table inherits the domain properties from the Schedule \(cmn\_schedule\) table which has the Domain and Domain path columns. As the CAB Definition table makes use of the same Child Schedule and Schedule Entry tables as the Schedule table, domain support is identical, where the domain\_master attribute is used to derive Domain from a parent record. For more information, refer [Domain support for schedules](https://www.servicenow.com/docs/access?context=domain-support-for-schedules&version=australia&pubname=australia-platform-administration&ft:locale=en-US) .
+The CAB Definition \(cab\_definition\) table inherits the domain properties from the Schedule \(cmn\_schedule\) table which has the Domain and Domain path columns. As the CAB Definition table makes use of the same Child Schedule and Schedule Entry tables as the Schedule table, domain support is identical, where the domain\_master attribute is used to derive Domain from a parent record. For more information, refer [Domain support for schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/domain-support-for-schedules.md) .
 
 **Parent Topic:**[Exploring Change Management](exploring-change-management.md)
 

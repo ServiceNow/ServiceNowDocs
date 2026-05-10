@@ -41,7 +41,7 @@ Use this task to create a visual roadmap that helps you communicate product adop
 
     -   **From scratch**: Manually configure all roadmap settings and add products or capabilities.
     -   **Template**: Use a pre-configured template that includes lanes, items, and phase field settings. Select a template from the **Template** drop down list and select **Finish**. The roadmap is created based on the pre-configured values defined in the template. See [Create a product adoption roadmap template](account-lifecycle-create-par-roadmap-temp.md) for details.
-    -   **Now Assist**: Generate a roadmap using Now Assist. See [Generate a product adoption roadmap using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=now-assist-tmt-generate-par-roadmap&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US) for details.
+    -   **Now Assist**: Generate a roadmap using Now Assist. See [Generate a product adoption roadmap using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-par-roadmap.md) for details.
 
         **Note:** The Now Assist option is displayed only if:
 

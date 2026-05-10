@@ -27,7 +27,7 @@ The Timeline Page Span Styles related list allows you to define conditional span
 
     |Field|Description|
     |-----|-----------|
-    |Condition|[Condition Builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) that filters the results that appear in the timeline.|
+    |Condition|[Condition Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) that filters the results that appear in the timeline.|
     |Label color|Color for the text under each span.|
     |Label decoration|Character style for the text under each span: **Bold**, **Italic**, **Underline**, or **Line-through**.|
     |Order|Number to determine the sequence in which the style conditions are evaluated. Style conditions with a lower order are evaluated first.|

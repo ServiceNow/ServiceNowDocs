@@ -6,7 +6,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 4
 breadcrumb: [Configure Cisco Meraki SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
@@ -33,7 +33,7 @@ Role required: TSOM Visibility admin
 
 3.  On the Guided setup home page, create and configure the MID Server or skip based on your environment.
 
-    **Note:** For more information on how to activate and configure a MID Server, see [Configuring MID Server](https://www.servicenow.com/docs/access?context=configure-mid-server&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    **Note:** For more information on how to activate and configure a MID Server, see [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/configure-mid-server.md).
 
     1.  Select **Get Started**.
 
@@ -61,7 +61,7 @@ Role required: TSOM Visibility admin
         2.  In the **Name** field, specify the alias name.
         3.  In the **API Key** field, enter the API key created in the dashboard.
 
-            **Note:** Other authentication fields might be required depending on the authentication methods used in your Cisco Meraki instance. By default, use basic authentication credentials as part of the Guided setup. For more information, see [Basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+            **Note:** Other authentication fields might be required depending on the authentication methods used in your Cisco Meraki instance. By default, use basic authentication credentials as part of the Guided setup. For more information, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md).
 
         4.  Retain the default values in the rest of the fields.
         5.  Select **Submit** and then select **Mark as Complete**.

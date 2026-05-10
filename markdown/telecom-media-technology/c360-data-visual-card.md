@@ -23,7 +23,7 @@ The following visualizations are displayed for the account, consumer, or contact
 
 You can configure variables such as tables, display fields, and query conditions. See [Configure the data visualization group variables](../task/c360-configure-data-card.md) for details.
 
-You can add custom visualizations to the data visualizations card. For details, see [Platform Analytics experience](https://www.servicenow.com/docs/access?context=par-workspace&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+You can add custom visualizations to the data visualizations card. For details, see [Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/par-workspace.md).
 
 **Parent Topic:**[Telecommunications Customer 360 home page](c360-home-page.md)
 

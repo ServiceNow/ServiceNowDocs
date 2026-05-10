@@ -21,7 +21,7 @@ Role required: admin or evam\_admin
 
 Entity View Action Mapper \(EVAM\) is an application that standardizes how different data sources display in cards and lists.
 
-A view configuration combines conditions, database fields, and declarative actions with an associated view template. For more information, see [View configurations, view templates, and configuration bundles for EVAM](https://www.servicenow.com/docs/access?context=use-configuration-bundle&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+A view configuration combines conditions, database fields, and declarative actions with an associated view template. For more information, see [View configurations, view templates, and configuration bundles for EVAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/use-configuration-bundle.md).
 
 ## Procedure
 
@@ -116,7 +116,7 @@ Custom fields to display on the EVAM view configuration. This is a comma-separat
 
 5.  Create an M2M action assignment or select **Link Existing** and then select the Declarative Action **navigation**.
 
-    For more details, see, [View configurations, view templates, and configuration bundles for EVAM](https://www.servicenow.com/docs/access?context=use-configuration-bundle&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For more details, see, [View configurations, view templates, and configuration bundles for EVAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/use-configuration-bundle.md).
 
 
 **Related topics**  

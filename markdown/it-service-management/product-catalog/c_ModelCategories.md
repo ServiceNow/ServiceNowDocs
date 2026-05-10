@@ -19,7 +19,7 @@ The model category configuration determines if the ServiceNow platform creates a
 
 Any item that is provided as a service or sold to your customer is tracked as an Install Base Item \(IBI\). The Model category table associates Asset class, CI class, and Install Base Item \(IBI\) class.
 
-**Note:** The Install Base Item class field is available on the Model category form only when the Customer Service Install Base Management \[com.snc.install\_base\] plugin is installed. Currently, only the Medical device install base item \[sn\_hcls\_medical\_device\_install\_base\_item\] is supported when the Healthcare and Life Sciences Service Management Core application is installed. For more details, see [Medical device install base item table](https://www.servicenow.com/docs/access?context=hcls-clinical-device-ib-item&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US). When an IBI class is created, it associates with an asset when the asset exists, otherwise an asset is created.
+**Note:** The Install Base Item class field is available on the Model category form only when the Customer Service Install Base Management \[com.snc.install\_base\] plugin is installed. Currently, only the Medical device install base item \[sn\_hcls\_medical\_device\_install\_base\_item\] is supported when the Healthcare and Life Sciences Service Management Core application is installed. For more details, see [Medical device install base item table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-clinical-device-ib-item.md). When an IBI class is created, it associates with an asset when the asset exists, otherwise an asset is created.
 
 The fields in the Asset class and the IBI class are synchronized as follows:
 
@@ -52,7 +52,7 @@ If a model category is no longer needed, you can delete it.
 
 [Domain separation and Product Catalog](domain-separation-product-catalog.md)
 
-[CMDB classifications and class dependency](https://www.servicenow.com/docs/access?context=c_CMDBClassifications&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[CMDB classifications and class dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBClassifications.md)
 
-[Create an asset class](https://www.servicenow.com/docs/access?context=t_CreateAnAssetClass&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
+[Create an asset class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_CreateAnAssetClass.md)
 

@@ -25,7 +25,7 @@ Using the NotifyConferenceUtil API you can:
 -   Obtain the capabilities of a specified service provider
 -   End a conference call
 
-You can use this API in both scoped and global scripts. To use this API you must activate the Conference Notify plugin \(com.snc.notify\) which requires a separate subscription. For details on activating this plugin, see [Activate Notify](https://www.servicenow.com/docs/access?context=t_ActivateNotify&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+You can use this API in both scoped and global scripts. To use this API you must activate the Conference Notify plugin \(com.snc.notify\) which requires a separate subscription. For details on activating this plugin, see [Activate Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ActivateNotify.md).
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 

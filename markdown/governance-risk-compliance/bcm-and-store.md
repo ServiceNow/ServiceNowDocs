@@ -32,7 +32,7 @@ The list of BCM applications available on ServiceNow Store is explained in the t
 
 GRC: Business Continuity Management – Core provides capabilities to configure data required for the business continuity management applications. This application also installs GRC: Business Continuity Management – Components: Now Design System components for the Business Continuity Management application.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 -   **[Get entitlement for the BCM application](../task/entitle-bcm-product.md)**  
 The first step in installing an application is to verify that the application or the product and its associated applications have valid ServiceNow entitlements.

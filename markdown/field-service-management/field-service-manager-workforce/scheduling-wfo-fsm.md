@@ -27,13 +27,13 @@ With Scheduling, you can do the following:
 -   Analyze whether your team members are following the schedules. If you see a potential issue, you can easily alert your team so that they can take immediate action.
 -   Use historical adherence reports to analyze and recommend coaching opportunities for your agents.
 
-For more information about key performance indicators and sidebars, see [Exploring indicators with KPI Details](https://www.servicenow.com/docs/access?context=kpi-details-components&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+For more information about key performance indicators and sidebars, see [Exploring indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-components.md).
 
 ## Schedule adherence
 
 -   Adherence is a metric to analyze how closely agents follow their schedule in completing the work assignments. Conformance measures the work completed regardless of when it was completed.
 -   A high adherence rate indicates that agents are sticking to their schedules and offering field service when expected. A low adherence rate suggests changing the processes or decisions to manage the team efficiently. The numbers are highlighted in red for non-adherent agents.
--   Schedule adherence and conformance calculations are based on the formulas, agents' actual and planned work timings. The following are the default formulas that are used to calculate adherence and conformance for agents. However, your administrator can change the [formulas](https://www.servicenow.com/docs/access?context=setup-scheduling-configurable-wfo-cs&version=australia&pubname=australia-customer-service-management&section=extension-points-schedule-adherence-configurable-wfo&ft:locale=en-US), as required.
+-   Schedule adherence and conformance calculations are based on the formulas, agents' actual and planned work timings. The following are the default formulas that are used to calculate adherence and conformance for agents. However, your administrator can change the [formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-scheduling-configurable-wfo-cs.md), as required.
 
     The following components and formulas are used to calculate adherence and conformance:
 

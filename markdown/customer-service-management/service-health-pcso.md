@@ -19,7 +19,7 @@ The integration between Customer Service Management and the Event Management con
 
 When an issue affects one or more install base items and an alert is created, the severity of the alert is calculated in Event Management. It is calculated according to alert impact calculation rules. Based on the severity of the alert, the service health status of each install base item is calculated. Customer service agents can view the service health status of install base items in an account or a case in Customer Service Management.
 
-​For more information about how the severity of an alert is calculated, see [Alert impact calculation](https://www.servicenow.com/docs/access?context=c_EMImpactCalculation&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+​For more information about how the severity of an alert is calculated, see [Alert impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMImpactCalculation.md).
 
 To provide the service health status for an install base item in Customer Service Management, the following fields are mapped.
 
@@ -29,7 +29,7 @@ To provide the service health status for an install base item in Customer Servic
 |Element Identifier|Configuration Item|
 |Severity|Health Status|
 
-**Note:** The service health status is displayed only if the install base item has both a Configuration Item \(CI\) and a service context associated with it. Service context is the application service associated with the underlying CI for impact calculation in Event Management​. For more information about application services, see Lesson 2 of the [Event Management operator guide](https://www.servicenow.com/docs/access?context=operator-application-services&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+**Note:** The service health status is displayed only if the install base item has both a Configuration Item \(CI\) and a service context associated with it. Service context is the application service associated with the underlying CI for impact calculation in Event Management​. For more information about application services, see Lesson 2 of the [Event Management operator guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-application-services.md).
 
 The service health status is displayed in Customer Service Management as follows.
 
@@ -43,7 +43,7 @@ The service health status is displayed in Customer Service Management as follows
 |Clear|Normal|
 |Empty/Null|Not Available|
 
-For more information about alert severity, see Lesson 1 of the [Event Management operator guide](https://www.servicenow.com/docs/access?context=operator-application-services&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+For more information about alert severity, see Lesson 1 of the [Event Management operator guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-application-services.md).
 
 ## Roles
 

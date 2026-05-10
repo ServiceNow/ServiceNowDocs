@@ -39,7 +39,7 @@ For example, you can configure user criteria for service definitions like Produc
 
     You can also create a user criteria record by selecting **New** on the User Criteria pop-up window and filling in the fields on the User Criteria form.
 
-    For more information about the fields on this form, see [User criteria form](https://www.servicenow.com/docs/access?context=user-criteria-form&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    For more information about the fields on this form, see [User criteria form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/user-criteria-form.md).
 
 5.  Enable the **Active** check box.
 

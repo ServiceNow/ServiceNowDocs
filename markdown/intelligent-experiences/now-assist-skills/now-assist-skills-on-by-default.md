@@ -41,7 +41,7 @@ Starting with the Zurich Patch 4 release, some Now Assist skills, agents, and ag
 
 ## Now Assist AI assets that are on by default
 
-[Release notes](https://www.servicenow.com/docs/access?context=new-features-changes&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+[Release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
 
 |Product|Type|Asset name|Effective date|
 |-------|----|----------|--------------|

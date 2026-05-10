@@ -56,7 +56,7 @@ When you select substitute models, note the following conditions.
 
 [Bundled models](../concept/c_CreatingBundledModels.md)
 
-[Manage transfer orders](https://www.servicenow.com/docs/access?context=c_TransferOrders&version=australia&pubname=australia-field-service-management&ft:locale=en-US)
+[Manage transfer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/c_TransferOrders.md)
 
 [Procurement](../../procurement/concept/c_Procurement.md)
 

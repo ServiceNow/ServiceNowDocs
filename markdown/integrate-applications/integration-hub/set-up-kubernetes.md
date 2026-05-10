@@ -63,7 +63,7 @@ Role required: admin.
 
 3.  Complete the form and enter the certificate in the **PEM Certificate** field.
 
-    For more information about uploading certificates, see [Upload a certificate to an instance](https://www.servicenow.com/docs/access?context=t_UploadACertificateToAnInstance&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    For more information about uploading certificates, see [Upload a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_UploadACertificateToAnInstance.md).
 
 4.  Click **Submit**.
 

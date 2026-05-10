@@ -220,7 +220,7 @@ Clear the check box to make Blocked by capability work.
 </td></tr></tbody>
 </table>4.  Select **Save** to create customer play.
 
-    **Note:** You can use response templates to provide quick responses, or copy and paste relevant information from a case. Select the **Response template** icon and select the response template you want to use. For more details on response templates, see [Response templates](https://www.servicenow.com/docs/access?context=response-templates-templated-snippets&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    **Note:** You can use response templates to provide quick responses, or copy and paste relevant information from a case. Select the **Response template** icon and select the response template you want to use. For more details on response templates, see [Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/response-templates-templated-snippets.md).
 
 
 ## What to do next

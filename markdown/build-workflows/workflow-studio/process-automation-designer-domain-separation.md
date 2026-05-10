@@ -25,7 +25,7 @@ Data separation is supported for Playbooks. The domain value of the triggering i
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## How domain separation works for Playbooks
 
@@ -41,8 +41,8 @@ The system domain separates Playbooks content according to these rules:
 
     **Note:**
 
-    -   A process override refers to a type of [override](https://www.servicenow.com/docs/access?context=domain-sep-override-viewer&version=australia&pubname=australia-platform-security&ft:locale=en-US) in domain separation.
-    -   Service providers \(SPs\) can use [domain separation](https://www.servicenow.com/docs/access?context=c_DomainSeparation&version=australia&pubname=australia-platform-security&ft:locale=en-US), to logically separate data, processes, and administrative tasks into defined groups.
+    -   A process override refers to a type of [override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-override-viewer.md) in domain separation.
+    -   Service providers \(SPs\) can use [domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md), to logically separate data, processes, and administrative tasks into defined groups.
 -   **Playbooks configuration files are visible to all domain users**
 
     Playbooks configuration files are not domain separated. Any user with the appropriate roles can view all playbooks, trigger definitions, and activity definitions.
@@ -53,5 +53,5 @@ The system domain separates Playbooks content according to these rules:
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

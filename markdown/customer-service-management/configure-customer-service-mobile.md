@@ -27,7 +27,7 @@ The Customer Service Mobile plugin \(com.sn\_csm\_mobile\) enables the Customer 
 
 2.  In the **Select Application** pop-up window, click **Customer Service Mobile**.
 
-    The Customer Service mobile application opens in the Studio, which is a guided app creator. For more information about using the Studio, [Legacy - ServiceNow Studio](https://www.servicenow.com/docs/access?context=c_ServiceNowStudio&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    The Customer Service mobile application opens in the Studio, which is a guided app creator. For more information about using the Studio, [Legacy - ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/c_ServiceNowStudio.md).
 
 3.  Customize the application to display the desired applets and data and configure agent actions and notifications.
 

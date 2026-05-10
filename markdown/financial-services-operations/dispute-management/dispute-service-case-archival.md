@@ -29,7 +29,7 @@ Role required: admin
 
     **Note:** The Archive Dispute Service Cases rule is that a case that is inactive and more than two years old is automatically archived. This is the default base system archiving rule for dispute service cases in the Card Disputes Service Case table \[sn\_bom\_credit\_card\_disputes\_service\]. You can modify the archiving rule if necessary.
 
-    For more information on archive rules and archiving records, see [Archiving records in Core UI](https://www.servicenow.com/docs/access?context=archiving-older-records&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information on archive rules and archiving records, see [Archiving records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/archiving-older-records.md).
 
 3.  Update the rule and its parameters, if necessary.
 

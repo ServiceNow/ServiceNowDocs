@@ -46,7 +46,7 @@ Active
 
 Enabling the **Active** check box makes the page variant available to the selected audience. The technology product support process page is active by default.
 
-The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](https://www.servicenow.com/docs/access?context=config-csm-ws-set-record-page-order&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ Record tags
 
 </td><td>
 
-Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Tags](https://www.servicenow.com/docs/access?context=c_Tags&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Tags.md).
 
 </td></tr><tr><td>
 
@@ -164,7 +164,7 @@ The case summarization component appears in the left side panel. When an agent o
 -   Post the summary to the activity stream.
 -   Refresh the summary.
 
- The case summarization component requires that the [Now Assist for Customer Service Management \(CSM\)](https://www.servicenow.com/docs/access?context=now-assist-csm&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) application is installed and the case summarization skill has been configured.
+ The case summarization component requires that the [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md) application is installed and the case summarization skill has been configured.
 
 </td></tr><tr><td>
 
@@ -242,7 +242,7 @@ The following actions are available on the Technology product support process pa
 -   **In-progress Actions**: Provides a list of minimized modeless dialogs and includes a badge that displays the number of items in the list. From this list, an agent can select an item to open the minimized comment, work note, or email.
 -   **Request Information**: The agent requests information from the customer. Selecting this action moves the case state to Awaiting Information.
 -   **Information Received**: The agent acknowledges that information was received from the customer. Selecting this action moves the case state to Work in Progress.
--   **Discuss**: starts a Sidebar discussion. For more information about using the Sidebar feature, see [Exploring Sidebar](https://www.servicenow.com/docs/access?context=exploring-sidebar&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+-   **Discuss**: starts a Sidebar discussion. For more information about using the Sidebar feature, see [Exploring Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/exploring-sidebar.md).
 -   **Compose**: Compose comments, work notes, and emails in modeless dialogs.
 -   **Save**: Saves changes to the case record.
 -   **Accept Solution**: The agent can accept the proposed solution on behalf of the customer. Moves the case to Closed.
@@ -283,8 +283,8 @@ Using this component, agents can:
 
 To use the case summarization component with the Technology product support process page variant, activate the Now Assist for Customer Service Management \(CSM\) application and configure the case summarization skill in the Now Assist Admin console. For more information, see:
 
--   [Activate Now Assist for Customer Service Management \(CSM\)](https://www.servicenow.com/docs/access?context=now-assist-csm-supporting-info&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
--   [Configure the case summarization skill in the Now Assist Admin console](https://www.servicenow.com/docs/access?context=now-assist-csm-configuring&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+-   [Activate Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.md)
+-   [Configure the case summarization skill in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md).
 
 ## Contextual side panel component
 
@@ -312,7 +312,7 @@ The activity stream component displays a list of the activities occurring on a c
 
 </td><td>
 
-The Recommended Actions tab includes [AI search](https://www.servicenow.com/docs/access?context=ra-csm-ai-search&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) functionality. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
+The Recommended Actions tab includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-ai-search.md) functionality. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
 
 From the list of search results, agents can do the following:
 
@@ -326,9 +326,9 @@ From the list of search results, agents can do the following:
     -   Perform other actions such as reading articles in full view, flagging articles, or marking articles as helpful or unhelpful.
 -   View successful actions by selecting the Actions history icon.
 
-For more information, see [Use AI search in Recommended Actions to resolve cases](https://www.servicenow.com/docs/access?context=nba-use-ai-search&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nba-use-ai-search.md).
 
-**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://www.servicenow.com/docs/access?context=nba&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
+**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
 
 </td></tr><tr><td>
 
@@ -435,7 +435,7 @@ For knowledge articles, an agent can view an article and attach the article to t
 -   Selecting **Review and attach article** displays the article in the contextual side panel.
 -   Selecting **Attach this article** attaches the knowledge article to the current case.
 
-**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://www.servicenow.com/docs/access?context=nba&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
+**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
 
 ## Related Items component
 
@@ -518,7 +518,7 @@ Agents can apply templates to emails in a modeless dialog:
 
 Agents can also toggle the **Rich text editor** button in the email modeless dialog to show or hide the TinyMCE formatter.
 
-For more information, see [Modeless dialogs](https://www.servicenow.com/docs/access?context=csm-front-line-case-page-modeless-dialogs&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+For more information, see [Modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page-modeless-dialogs.md).
 
 ## Update action plans
 
@@ -538,7 +538,7 @@ Creating a case opens a service selector modal and displays the services defined
 -   Select a service.
 -   Select **Create case**.
 
-The system creates the case and launches the playbook associated with the service definition. For more information, see [Associate a playbook with a service definition](https://www.servicenow.com/docs/access?context=service-def-associate-playbook&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+The system creates the case and launches the playbook associated with the service definition. For more information, see [Associate a playbook with a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-associate-playbook.md).
 
 **Note:** This action is active by default for the Technology product support process page.
 
@@ -552,8 +552,8 @@ When the playbook transitions to the Resolve stage, the resolution notes generat
 
 To use the resolution notes generation skill with the Technology product support process page variant:
 
-1.  [Activate Now Assist for Customer Service Management \(CSM\)](https://www.servicenow.com/docs/access?context=now-assist-csm-supporting-info&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
-2.  [Configure the resolution notes generation skill in the Now Assist Admin console](https://www.servicenow.com/docs/access?context=now-assist-csm-configuring&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+1.  [Activate Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.md).
+2.  [Configure the resolution notes generation skill in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md).
 
 -   **[Technology Product Support Case playbook stages and activities](tech-product-support-playbook-stages.md)**  
 The Technology Product Support Case playbook includes stages and activities that assist agents in researching and resolving technology cases.

@@ -111,7 +111,7 @@ For more information, see [Restart a playbook](restart-a-playbook.md).
 
     2.  Select the **Add Condition** button.
 
-        The [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) displays.
+        The [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) displays.
 
         **Note:** Branches can only be added in the side panel.
 

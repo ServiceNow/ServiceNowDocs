@@ -31,7 +31,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[spAriaUtil](https://www.servicenow.com/docs/access?context=spAriaUtil-API&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[spAriaUtil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spAriaUtil-API.md)
 
 </td><td>
 
@@ -39,7 +39,7 @@ Shows messages on a screen reader.
 
 </td></tr><tr><td>
 
-[spContextManager](https://www.servicenow.com/docs/access?context=spContextManagerAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[spContextManager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spContextManagerAPI.md)
 
 </td><td>
 
@@ -47,7 +47,7 @@ Makes data from a Service Portal widget available to other applications and serv
 
 </td></tr><tr><td>
 
-[spUtil](https://www.servicenow.com/docs/access?context=spUtilAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[spUtil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
 
 </td><td>
 
@@ -55,7 +55,7 @@ Utility methods to perform common functions in a Service Portal widget client sc
 
 </td></tr><tr><td>
 
-[spModal](https://www.servicenow.com/docs/access?context=SPModal-API&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[spModal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/SPModal-API.md)
 
 </td><td>
 
@@ -78,7 +78,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[GlideSPScriptable](https://www.servicenow.com/docs/access?context=c_GlideSPScriptableScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[GlideSPScriptable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSPScriptableScopedAPI.md)
 
 </td><td>
 
@@ -86,7 +86,7 @@ The GlideSPScriptable API provides methods to interact with data and perform rec
 
 </td></tr><tr><td>
 
-[GlideSPSearchAnalytics](https://www.servicenow.com/docs/access?context=GlideSPSearchAnalyticsAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[GlideSPSearchAnalytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideSPSearchAnalyticsAPI.md)
 
 </td><td>
 
@@ -94,7 +94,7 @@ The GlideSPSearchAnalytics API provides methods to generate search analytics fro
 
 </td></tr><tr><td>
 
-[SPScriptedFacet - Scoped](https://www.servicenow.com/docs/access?context=SPScriptedFacetScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[SPScriptedFacet - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SPScriptedFacetScopedAPI.md)
 
 </td><td>
 
@@ -102,7 +102,7 @@ Defines facet items, filters, or mapped queries for a facets object.
 
 </td></tr><tr><td>
 
-[SPScriptedFacetService - Scoped](https://www.servicenow.com/docs/access?context=SPScriptedFacetServiceScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[SPScriptedFacetService - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SPScriptedFacetServiceScopedAPI.md)
 
 </td><td>
 
@@ -110,7 +110,7 @@ Generates a multi-choice or single-choice facets object for an advanced search s
 
 </td></tr><tr><td>
 
-[SPSEOUtilsSNC - Global](https://www.servicenow.com/docs/access?context=SPSEOUtilsSNCAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[SPSEOUtilsSNC - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SPSEOUtilsSNCAPI.md)
 
 </td><td>
 
@@ -118,7 +118,7 @@ Return human-readable URLs for a specific page, or for the current page, based o
 
 </td></tr><tr><td>
 
-[SPWidgetAccessControl - Global](https://www.servicenow.com/docs/access?context=SPWidgetAccessControlGlobalAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[SPWidgetAccessControl - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SPWidgetAccessControlGlobalAPI.md)
 
 </td><td>
 

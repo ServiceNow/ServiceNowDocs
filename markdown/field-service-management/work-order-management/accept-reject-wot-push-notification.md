@@ -27,15 +27,15 @@ Role required: wm\_agent
 
 3.  Process the request.
 
-<table id="choicetable_dw3_2px_4tb"><thead><tr><th align="left" id="d26885e76">
+<table id="choicetable_dw3_2px_4tb"><thead><tr><th align="left" id="d26889e76">
 
 To
 
-</th><th align="left" id="d26885e79">
+</th><th align="left" id="d26889e79">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d26885e85">
+</th></tr></thead><tbody><tr><td id="d26889e85">
 
 **Accept working on the work order task notification**
 
@@ -43,7 +43,7 @@ Do this
 
 Click **Accept**
 
-</td></tr><tr><td id="d26885e97">
+</td></tr><tr><td id="d26889e97">
 
 **Reject the task notification**
 

@@ -17,7 +17,7 @@ Activate Service Level Objective \(SLO\) change approval decisions to evaluate c
 
 ## Before you begin
 
-Review change approval policies and their terminology, including policy inputs, decisions, and approval definitions. For more information, see [Change approval policies](https://www.servicenow.com/docs/access?context=change-approval-policy&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+Review change approval policies and their terminology, including policy inputs, decisions, and approval definitions. For more information, see [Change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-approval-policy.md).
 
 Role required: admin
 

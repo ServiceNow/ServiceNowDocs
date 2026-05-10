@@ -40,7 +40,7 @@ The process to capture post-sale modification requests is similar to order captu
 
 5.  Fulfill the orders by closing the order tasks, domain orders, and work orders, if any.
 
-You can also manage post-sale change requests from the customer accounts page, not only for products and services sold to a customer, but also to contracts and entitlements associated with the products and services. For more information about customer life cycle workflows, see [Customer Life Cycle Management Workflows](https://www.servicenow.com/docs/access?context=customer-life-cycle-management-workflows&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+You can also manage post-sale change requests from the customer accounts page, not only for products and services sold to a customer, but also to contracts and entitlements associated with the products and services. For more information about customer life cycle workflows, see [Customer Life Cycle Management Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-life-cycle-management-workflows.md).
 
 -   **[Request post-sale change orders](../task/create-macd-orders.md)**  
 Learn how to create orders for disconnecting, suspending, resuming products or services and changing specifications, characteristics, or service location for orders after an initial order has been fulfilled.

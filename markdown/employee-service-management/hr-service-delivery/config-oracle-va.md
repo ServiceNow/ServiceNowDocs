@@ -23,7 +23,7 @@ Role required: flow\_designer, decision\_table\_admin, sn\_hr\_integr\_fw.admin,
 
 1.  Install the HR Service Delivery Advanced Integration with Oracle HCM, Now Assist for HRSD, and Enterprise Service Management Integrations Framework \(v3.6\) applications from ServiceNow Store.
 
-2.  Configure the [Oracle HCM Cloud Spoke](https://www.servicenow.com/docs/access?context=oracle-hcm&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) to pull data from Oracle system.
+2.  Configure the [Oracle HCM Cloud Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/oracle-hcm.md) to pull data from Oracle system.
 
 3.  Create subflows aligning with Template Integration Gateway.
 

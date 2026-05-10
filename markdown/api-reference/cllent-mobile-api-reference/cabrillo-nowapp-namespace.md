@@ -157,7 +157,7 @@ true
 
 Executes a native mobile function.
 
-**Note:** Only Action functions are supported for the Vancouver release. For more information, see [Action functions](https://www.servicenow.com/docs/access?context=mobile-actions&version=australia&pubname=australia-mobile&ft:locale=en-US).
+**Note:** Only Action functions are supported for the Vancouver release. For more information, see [Action functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-actions.md).
 
 <table id="table_tjf_5vj_kxb" class="parameters"><thead><tr><th>
 
@@ -193,7 +193,7 @@ string
 
 </td><td>
 
-The record table. Optional for Global Action items. For more information about mobile function, see [Action functions](https://www.servicenow.com/docs/access?context=mobile-actions&version=australia&pubname=australia-mobile&ft:locale=en-US).**Note:** Differences between Global and Record actions:
+The record table. Optional for Global Action items. For more information about mobile function, see [Action functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-actions.md).**Note:** Differences between Global and Record actions:
 
 -   Record: Applies an action at the record level. For example, use this option to create a button that changes the state of a record. You can set the context to Record for actions on a particular field, a particular record, or swipe actions. If the action function includes a UI parameter with the Input source field set to Auto fill, you must specify the table in the Table field.
 -   Global: Applies an action at the global, or list level. For example, use this option to add a button that creates a record. Do not use the Global setting for actions that are in the context of a record, or actions that include a UI parameter with the Input source field set to Auto fill.
@@ -208,7 +208,7 @@ string
 
 </td><td>
 
-The record sys\_id. Optional for Global Action Items. For more information about mobile function, see [Action functions](https://www.servicenow.com/docs/access?context=mobile-actions&version=australia&pubname=australia-mobile&ft:locale=en-US).
+The record sys\_id. Optional for Global Action Items. For more information about mobile function, see [Action functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-actions.md).
 
  **Note:** Differences between Global and Record action items:
 

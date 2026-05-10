@@ -34,7 +34,7 @@ Role required: sys\_admin
 
 1.  Download the certificate by logging in to the ILMT or BigFix Inventory server and navigating to **Management** &gt; **Server Settings**.
 
-2.  [Import a certificate for the MID Server](https://www.servicenow.com/docs/access?context=add-ssl-certificates&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+2.  [Import a certificate for the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/add-ssl-certificates.md).
 
 
 ### What to do next
@@ -57,7 +57,7 @@ Role required: sys\_admin
 
 1.  Download the certificate by logging in to the ILMT or BigFix Inventory server and navigating to **Management** &gt; **Server Settings**.
 
-2.  From your ServiceNow instance, navigate to **System Definition** &gt; **Certificates** and create a [certificate](https://www.servicenow.com/docs/access?context=t_UploadACertificateToAnInstance&version=australia&pubname=australia-platform-security&ft:locale=en-US) \(Trust Store Cert, PEM format\).
+2.  From your ServiceNow instance, navigate to **System Definition** &gt; **Certificates** and create a [certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_UploadACertificateToAnInstance.md) \(Trust Store Cert, PEM format\).
 
 3.  Paste the full downloaded ILMT or BigFix Inventory server certificate content into the **PEM Certificate** field \(including banners\).
 

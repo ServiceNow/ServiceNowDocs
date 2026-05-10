@@ -41,7 +41,7 @@ You can create both the internal \(snc\_internal\) and external \(snc\_external\
 
 5.  On the form, fill in the fields.
 
-    For a description of the field values, see [Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For a description of the field values, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md).
 
 6.  Select **Submit**.
 

@@ -23,16 +23,16 @@ Use the following development tools to build apps, flows, processes, tables, and
 
 |Builder|Description|
 |-------|-----------|
-|[AI Agent Studio](https://www.servicenow.com/docs/access?context=ai-agent-studio&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)|Create, manage, and test AI agents and agentic workflows to automate self-executing processes and achieve business goals.|
-|[Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=now-assist-skill-kit-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)|Create and activate custom prompts and skills for Now Assist using the Now Assist Skill Kit plugin.|
+|[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)|Create, manage, and test AI agents and agentic workflows to automate self-executing processes and achieve business goals.|
+|[Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)|Create and activate custom prompts and skills for Now Assist using the Now Assist Skill Kit plugin.|
 
 ## Automation
 
 |Builder|Description|
 |-------|-----------|
-|[Decision tables in Workflow Studio](https://www.servicenow.com/docs/access?context=decision-designer-overview&version=australia&pubname=australia-build-workflows&ft:locale=en-US)|Embed business logic into if-then decision rules. Decision tables read data from inputs, evaluate conditions, and return one or more results when all conditions for a rule are met.|
-|[Flows, subflows, and actions in Workflow Studio](https://www.servicenow.com/docs/access?context=exploring-flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US)|Automate work using multi-step flows built from reusable components, without writing code.|
-|[Playbooks in Workflow Studio](https://www.servicenow.com/docs/access?context=process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US)|Author cross-enterprise workflows and create a unified process. Use playbooks to provide end users a simplified, task-oriented view of your process.|
+|[Decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/decision-designer-overview.md)|Embed business logic into if-then decision rules. Decision tables read data from inputs, evaluate conditions, and return one or more results when all conditions for a rule are met.|
+|[Flows, subflows, and actions in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flows.md)|Automate work using multi-step flows built from reusable components, without writing code.|
+|[Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md)|Author cross-enterprise workflows and create a unified process. Use playbooks to provide end users a simplified, task-oriented view of your process.|
 
 ## Data
 
@@ -45,22 +45,22 @@ Use the following development tools to build apps, flows, processes, tables, and
 
 |Builder|Description|
 |-------|-----------|
-|[Integration Hub Imports](https://www.servicenow.com/docs/access?context=importing-streaming-data-ih&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)|Configure, run, and schedule data imports through a single interface. Integration Hub Imports consolidates data integration capabilities in one environment — eliminating the need to manage multiple forms across the platform — and guides you through configuring data sources, target tables, and data mapping.|
+|[Integration Hub Imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/importing-streaming-data-ih.md)|Configure, run, and schedule data imports through a single interface. Integration Hub Imports consolidates data integration capabilities in one environment — eliminating the need to manage multiple forms across the platform — and guides you through configuring data sources, target tables, and data mapping.|
 
 ## Mobile builder
 
 |Builder|Description|
 |-------|-----------|
-|[Mobile App Builder](https://www.servicenow.com/docs/access?context=mab-concept&version=australia&pubname=australia-mobile&ft:locale=en-US)|Configure how ServiceNow applications display on mobile devices.|
+|[Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md)|Configure how ServiceNow applications display on mobile devices.|
 
 ## User interface
 
 |Builder|Description|
 |-------|-----------|
-|[Catalog Builder](https://www.servicenow.com/docs/access?context=set-up-cat-builder&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|Create or edit a catalog item \(catalog item or record producer\) using a visual, guided experience with specified restrictions. Catalog Builder enables you to delegate the creation and maintenance of the catalog.|
-|[Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)|Create or update the portal page layout and add or remove widgets on the page.|
-|[Service Catalog](https://www.servicenow.com/docs/access?context=service-catalog&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|Create or edit a catalog item, which can be a record producer, an order guide, or a content item.|
-|[Survey designer](https://www.servicenow.com/docs/access?context=c_SurveyDesigner&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|Create survey categories and questions, configure their details, and publish the survey to specific users or groups.|
+|[Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/set-up-cat-builder.md)|Create or edit a catalog item \(catalog item or record producer\) using a visual, guided experience with specified restrictions. Catalog Builder enables you to delegate the creation and maintenance of the catalog.|
+|[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md)|Create or update the portal page layout and add or remove widgets on the page.|
+|[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md)|Create or edit a catalog item, which can be a record producer, an order guide, or a content item.|
+|[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md)|Create survey categories and questions, configure their details, and publish the survey to specific users or groups.|
 |[UI Builder](../../../administer/ui-builder/concept/ui-builder-overview.md)|Build pages for App Engine Studio-generated workspaces or custom web experiences using Next Experience Components and custom web components.|
 |[Workspace Builder](../../workspace-builder/concept/workspace-builder-landing.md)|Automate processes in a single design environment using Workspace Builder.|
 
@@ -68,5 +68,5 @@ Use the following development tools to build apps, flows, processes, tables, and
 
 |Builder|Description|
 |-------|-----------|
-|[Script Debugger](https://www.servicenow.com/docs/access?context=script-debugger&version=australia&pubname=australia-api-reference&ft:locale=en-US)|Debug server-side JavaScript for users with the script\_debugger role.|
+|[Script Debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md)|Debug server-side JavaScript for users with the script\_debugger role.|
 

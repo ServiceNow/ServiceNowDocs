@@ -27,11 +27,11 @@ Make sure that the selected subflow is active. If the subflow is inactive, the m
 
 ## Subflows and the Create Task activity
 
-If a workflow contains a [**Create Task**](https://www.servicenow.com/docs/access?context=r_CreateTask&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) activity that has executed on the current record, additional task activities in the workflow might not execute as expected.
+If a workflow contains a [**Create Task**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/r_CreateTask.md) activity that has executed on the current record, additional task activities in the workflow might not execute as expected.
 
 This can happen when the same subflow containing a Create Task activity runs more than once in a parent flow. When the subflow reruns and attempts to execute the **Create Task** activity again, the system reopens the first task activity instead and does not create an additional task.
 
-**Note:** An alternative to creating duplicate subflows that use the **Create Task** activity is to add a [**Run Script**](https://www.servicenow.com/docs/access?context=r_RunScriptActivity&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) activity to the workflow that creates a task with a script.
+**Note:** An alternative to creating duplicate subflows that use the **Create Task** activity is to add a [**Run Script**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/r_RunScriptActivity.md) activity to the workflow that creates a task with a script.
 
 ![](../image/WorkflowCreateTaskSubflowDiagram.png "The same create task activity runs twice in a workflow")
 

@@ -94,7 +94,7 @@ Option to enable a change in manager. Selecting this option will update the jour
 -   Approvals: Assigned to
 -   Requests: Requested for
 
-**Note:** For this functionality to work, ensure that you copy the flow **Manager Change - Journeys** and activate it. To activate a flow, see [Activate a flow](https://www.servicenow.com/docs/access?context=flow-activate&version=australia&pubname=australia-build-workflows&ft:locale=en-US). Also note that email notifications are sent to the old manager, new manager, assigned agent, and the user updating the manager in `sys_user`.
+**Note:** For this functionality to work, ensure that you copy the flow **Manager Change - Journeys** and activate it. To activate a flow, see [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-activate.md). Also note that email notifications are sent to the old manager, new manager, assigned agent, and the user updating the manager in `sys_user`.
 
 </td></tr><tr><td>
 

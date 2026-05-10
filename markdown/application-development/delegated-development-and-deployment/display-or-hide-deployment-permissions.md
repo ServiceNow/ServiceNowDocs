@@ -29,7 +29,7 @@ System properties control the visibility of the **Publish To Update Set** and **
 
     The entire list of properties in the System Properties \[sys\_properties\] table appears.
 
-    **Note:** For details on how to add and enable system properties, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+    **Note:** For details on how to add and enable system properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 2.  Enable or disable specific deployment permissions by adding or updating the following system properties.
 

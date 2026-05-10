@@ -22,7 +22,7 @@ Using the Manage Microsoft 365 group members agentic workflow, add or remove nam
 
 **Important:**
 
--   To enable the Manage Microsoft 365 group members agentic workflow, you must install the Microsoft Entra ID spoke. For more information, see [Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://www.servicenow.com/docs/access?context=microsoft-azure-ad-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+-   To enable the Manage Microsoft 365 group members agentic workflow, you must install the Microsoft Entra ID spoke. For more information, see [Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/microsoft-azure-ad-spoke.md).
 -   After you add or remove users to the group using the Microsoft 365 agentic workflow, follow the instructions listed in the table.
 
 <table id="table_xvf_npv_w2c"><thead><tr><th>
@@ -39,11 +39,11 @@ You want the workflow output of adding or removing users to go through an approv
 
 </td><td>
 
-1.  [Add the **sn\_itsm\_aia.office\_365\_group\_member\_approval.required** system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+1.  [Add the **sn\_itsm\_aia.office\_365\_group\_member\_approval.required** system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Note:** This property is set to **true** by default.
 
-2.  [Add the **sn\_itsm\_aia.office\_365\_group\_member\_approval.group\_id** system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+2.  [Add the **sn\_itsm\_aia.office\_365\_group\_member\_approval.group\_id** system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 3.  Add the sys\_id of the group that you want to use for approvals as the value of the **sn\_itsm\_aia.office\_365\_group\_member\_approval.group\_id** system property.
 4.  Add users that you'd like to approve the output for this agentic workflow in the **Office 365 Approval** group.
 
@@ -60,7 +60,7 @@ Set the **sn\_itsm\_aia.office\_365\_group\_member\_approval.required** system p
 </table>
 **Note:** The Manage Microsoft 365 group members agentic workflow doesn’t have a trigger and is invoked manually.
 
-To modify the Manage Microsoft 365 group members agentic workflow, [duplicate it](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), and adjust the settings according to your requirements.
+To modify the Manage Microsoft 365 group members agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 

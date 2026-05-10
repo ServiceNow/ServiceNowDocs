@@ -33,7 +33,7 @@ Role required: Admin
 
 4.  On the record, update the fields.
 
-    To customize the UI Builder pages, see [Customize UI Builder pages using components](https://www.servicenow.com/docs/access?context=work-components&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    To customize the UI Builder pages, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md).
 
     To configure the UIB Now Assist context menu component, see [Now Assist context menu UIB Setup](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/sn-now-assist-context-menu/uib-setup).
 

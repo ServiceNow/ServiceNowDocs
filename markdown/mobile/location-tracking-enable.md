@@ -15,7 +15,7 @@ Learn how to enable location tracking for the Mobile Agent and select the locati
 
 ## Before you begin
 
-Enable geolocation features on your instance by activating the Geolocation plugin \[com.snc.geolocation\]. The Geolocation plugin gives you access to the manual tracking option. You must purchase a subscription before activating the plugin. For details on plugin activation, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US). For more details, see [ServiceNow plugins](https://www.servicenow.com/docs/access?context=c_ServiceNowPlugins&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Enable geolocation features on your instance by activating the Geolocation plugin \[com.snc.geolocation\]. The Geolocation plugin gives you access to the manual tracking option. You must purchase a subscription before activating the plugin. For details on plugin activation, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md). For more details, see [ServiceNow plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ServiceNowPlugins.md).
 
 To enable the action-based location tracking option, ensure that you have the Mobile Location Tracking plugin \[com.glide.sg.location.tracking\] installed. For more information about action-based location tracking and its settings, see [Configuring action-based location tracking](location-tracking-action-config.md).
 
@@ -31,15 +31,15 @@ Role required: admin
 
 4.  Select the lock icon \(![Lock icon.](../image/lock-icon.png)\) in the **Location Tracking Options** field to edit the field, and select from the following location tracking options.
 
-<table id="choicetable_dn4_2vy_2wb"><thead><tr><th align="left" id="d46216e127">
+<table id="choicetable_dn4_2vy_2wb"><thead><tr><th align="left" id="d46220e127">
 
 Tracking options
 
-</th><th align="left" id="d46216e130">
+</th><th align="left" id="d46220e130">
 
 Behavior in the Mobile Agent
 
-</th></tr></thead><tbody><tr><td id="d46216e139">
+</th></tr></thead><tbody><tr><td id="d46220e139">
 
 **Manual tracking**
 
@@ -49,7 +49,7 @@ Displays the manual location tracking option to the user.**Note:** Manual locati
 
  ![Manual tracking option.](../image/location-tracking-manual.png)
 
-</td></tr><tr><td id="d46216e164">
+</td></tr><tr><td id="d46220e164">
 
 **Action-based tracking**
 
@@ -59,7 +59,7 @@ Displays the action-based location tracking option.**Note:** Action-based locati
 
  ![Action-based tracking option.](../image/location-tracking-action.png)
 
-</td></tr><tr><td id="d46216e189">
+</td></tr><tr><td id="d46220e189">
 
 **Action-based and manual tracking option**
 

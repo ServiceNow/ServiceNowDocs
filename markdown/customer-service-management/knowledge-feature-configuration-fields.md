@@ -31,7 +31,7 @@ Article category that is shown on the home page of the messenger. You can select
 
 -   Featured articles: Articles that are based on the keywords that are associated with the articles.
 
-For information on displaying articles in the Featured content section, see [Add a knowledge article to featured content](https://www.servicenow.com/docs/access?context=t_PinAnArticle&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For information on displaying articles in the Featured content section, see [Add a knowledge article to featured content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_PinAnArticle.md).
 
 -   Most viewed articles: Articles that have the highest view among the articles of your knowledge base.
 

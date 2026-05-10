@@ -23,7 +23,7 @@ Enable the following plugins.
 -   com.snc.cti
 -   com.sn\_openframe
 
-For more information about installing and enabling a plugin, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information about installing and enabling a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 Role required: admin
 
@@ -31,9 +31,9 @@ Role required: admin
 
 The CTI integration helps an agent call a user using the phone number in the user profile and contact cards. The ServiceNow application uses the OpenFrame API when an agent initiates a call. The OpenFrame API helps the ServiceNow AI Platform® communicate with the connectors, such as an Amazon connector, already configured in the application.
 
-For more information about CTI integration, see [Integrating with Computer Telephony Integration \(CTI\)](https://www.servicenow.com/docs/access?context=cti-csm-integration&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+For more information about CTI integration, see [Integrating with Computer Telephony Integration \(CTI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/cti-csm-integration.md).
 
-For more information on the various OpenFrame APIs, see [openFrameAPI - Client](https://www.servicenow.com/docs/access?context=c_openFrameAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For more information on the various OpenFrame APIs, see [openFrameAPI - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_openFrameAPI.md).
 
 ## Procedure
 

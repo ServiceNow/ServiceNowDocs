@@ -23,7 +23,7 @@ Role required: personalize\_dictionary
 
 ## Procedure
 
-1.  Open the [Dictionary attributes](https://www.servicenow.com/docs/access?context=c_DictionaryAttributes&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for the field.
+1.  Open the [Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md) for the field.
 
 2.  Add `tree_picker=true` to the **Attributes** field.
 

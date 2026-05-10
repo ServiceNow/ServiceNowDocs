@@ -39,7 +39,7 @@ You can use the KB generation skill in either Core UI or Agent Workspace for HR 
 
 **Note:** The KB generation skill is supported in Now Assist panel for the HR Case records \[sn\_hr\_core\_case\] table, but not on its extended table records.
 
-You can make a copy of this skill to configure it to meet your business needs. For more information, see [Make a copy of a Now Assist skill](https://www.servicenow.com/docs/access?context=make-a-copy-of-a-now-assist-skill&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+You can make a copy of this skill to configure it to meet your business needs. For more information, see [Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
 
 ## Procedure
 
@@ -59,15 +59,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 7.  Select one of the following in the **Use AI to draft this article?** modal.
 
-<table id="choicetable_cql_m25_vcc"><thead><tr><th align="left" id="d378129e227">
+<table id="choicetable_cql_m25_vcc"><thead><tr><th align="left" id="d381929e227">
 
 Option
 
-</th><th align="left" id="d378129e230">
+</th><th align="left" id="d381929e230">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d378129e236">
+</th></tr></thead><tbody><tr><td id="d381929e236">
 
 **Yes, draft with Now Assist**
 
@@ -75,7 +75,7 @@ Description
 
 Use Now Assist to draft an article based on task details.You can review and edit the article before it is published.
 
-</td></tr><tr><td id="d378129e247">
+</td></tr><tr><td id="d381929e247">
 
 **No, write it myself**
 
@@ -128,5 +128,5 @@ Draft the article manually.
 
 [Analyze sentiments in Now Assist for HR Service Delivery \(HRSD\)](analyze-sentiments-now-assist.md)
 
-[Now Assist in Knowledge Management](https://www.servicenow.com/docs/access?context=now-assist-knowledge-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/now-assist-knowledge-management.md)
 

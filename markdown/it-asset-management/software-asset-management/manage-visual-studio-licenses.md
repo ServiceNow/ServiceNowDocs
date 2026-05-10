@@ -17,7 +17,7 @@ Manage your Visual Studio subscriptions with the Software Asset Management publi
 
 ## Before you begin
 
-Set up ServiceNow [Discovery](https://www.servicenow.com/docs/access?context=r-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) to find Microsoft software installations on your network. By using Discovery, you can view license compliance information by comparing your purchased licenses with actual installations.
+Set up ServiceNow [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-discovery.md) to find Microsoft software installations on your network. By using Discovery, you can view license compliance information by comparing your purchased licenses with actual installations.
 
 You must set up the environment on the Configuration Management Database \(CMDB\) before you begin. Setting up of development, production, or test environment helps Software Asset Management Professional to apply licenses correctly. You should use the  Environment field  on the configuration item \(CI\).
 
@@ -55,7 +55,7 @@ First, set up software models and entitlements to track your Visual Studio subsc
 
     You can import user allocations using an import set and transform map. Import into the User Allocation \[alm\_entitlement\_user\] table. In the transform map, map the **Assigned to** field to the User table \[sys\_user\]. Use the **Asset tag** field from the entitlement record to link the allocations to the correct entitlements. For the coalesced value, use a two-attribute coalesce on the entitlement and the user.
 
-    For more information, see [Import sets](https://www.servicenow.com/docs/access?context=import-sets-landing-page&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For more information, see [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md).
 
     Additionally, you can change the inference percent of the Visual Studio software models. The inference percent specifies what percentage of the components must be installed for the suite. It can be 0% in most cases. Also, verify that the Visual Studio community edition is free. For more details on adding inference percent and product licensability at the edition level, see [Create a software model in the Software Asset Workspace](create-swmodels-workspace.md).
 

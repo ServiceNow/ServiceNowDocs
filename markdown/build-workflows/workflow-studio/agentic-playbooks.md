@@ -30,7 +30,7 @@ Agentic Playbooks bring the following benefits:
 
 ## AI agents and their skills
 
-Agentic Playbooks are powered by the **Playbook Activity Assist** agentic workflow \(See: [Now Assist agentic workflows](https://www.servicenow.com/docs/access?context=sn-aia-use-cases-list&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)\). The workflow contains a range of AI agents designed to enhance user experience and productivity. These agents are categorized based on their functionality and the tasks they perform.
+Agentic Playbooks are powered by the **Playbook Activity Assist** agentic workflow \(See: [Now Assist agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-aia-use-cases-list.md)\). The workflow contains a range of AI agents designed to enhance user experience and productivity. These agents are categorized based on their functionality and the tasks they perform.
 
 -   **Playbook data gathering agent**
 
@@ -50,7 +50,7 @@ Knowledge Graph TextToResult API Crawler
 
 </td><td>
 
-Gathers data by using ServiceNow Knowledge Graph.You can also use a custom knowledge graph schema for the agent. To know more about knowledge graphs, see [Exploring Knowledge Graph](https://www.servicenow.com/docs/access?context=exploring-knowledge-graph&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+Gathers data by using ServiceNow Knowledge Graph.You can also use a custom knowledge graph schema for the agent. To know more about knowledge graphs, see [Exploring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/exploring-knowledge-graph.md)
 
 </td></tr><tr><td>
 
@@ -107,7 +107,7 @@ Uses web search tools to assist users in resolving issues by analyzing problems 
     |Playbook slot filling script|Fetches the relevant schema required to understand and execute the playbook based on the playbook activity context ID and saves the agent response back to the activity context using the activity context ID. It also consolidates activity form fields and UI visible fields under the schema.|
 
 
-For more information about Now Assist AI agents and their capabilities, refer to [Now Assist AI agents](https://www.servicenow.com/docs/access?context=na-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information about Now Assist AI agents and their capabilities, refer to [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
 
 ## User personas
 

@@ -69,7 +69,7 @@ The discussion highlights several crucial guidelines for defining and configurin
     -   The overarching principle is to make intents as clear and unambiguous as possible to guide the LLM effectively.
     -   The system is a framework; its effectiveness depends on how wisely intents are configured.
 
-For more general guidelines, see [General guidelines for creating AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=gg-creating-aia&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more general guidelines, see [General guidelines for creating AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-creating-aia.md).
 
 ## Important Considerations
 

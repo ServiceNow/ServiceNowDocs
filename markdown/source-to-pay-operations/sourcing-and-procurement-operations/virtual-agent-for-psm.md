@@ -17,7 +17,7 @@ ServiceNow® Virtual Agent for Sourcing and Procurement Operations enables shopp
 
 **Important:** Check your entitlements to determine whether you have access to Virtual Agent.
 
-For more information on Virtual Agent in general, its components, benefits, and basic user interface, see [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For more information on Virtual Agent in general, its components, benefits, and basic user interface, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md).
 
 -   **[Sourcing and Procurement Operations Virtual Agent conversations and topic blocks](shoppinghub-virtual-agent-topics-and-topic-blocks.md)**  
 A topic conversation defines the dialog between the Virtual Agent \(chat support bot\) and the user, which enables you to gather information for a specific business need.

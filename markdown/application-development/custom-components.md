@@ -25,7 +25,7 @@ Developing custom components lets you:
 -   Make your employees more effective and reduce context switching with quick access to important data and information.
 -   Accommodate your company's unique omni-channel environment using APIs to consolidate your data.
 
-For example, you might want to create a component that displays the cases associated with an SLA, or that tracks the active chats in a particular queue. You can use the Next Experience UI Framework and the ui-component extension to develop the component you need, and access data from your platform using the [Http Effect API](https://developer.servicenow.com/dev.do#!/reference/next-experience/xanadu/ui-framework/api-reference/effect-http). You can also query platform data using GraphQL by creating a custom schema. For more information, see [Scripted GraphQL](https://www.servicenow.com/docs/access?context=scripted-graph-ql&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For example, you might want to create a component that displays the cases associated with an SLA, or that tracks the active chats in a particular queue. You can use the Next Experience UI Framework and the ui-component extension to develop the component you need, and access data from your platform using the [Http Effect API](https://developer.servicenow.com/dev.do#!/reference/next-experience/xanadu/ui-framework/api-reference/effect-http). You can also query platform data using GraphQL by creating a custom schema. For more information, see [Scripted GraphQL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/scripted-graph-ql.md).
 
 ## What to know before you begin
 

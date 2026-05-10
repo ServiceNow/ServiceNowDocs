@@ -23,7 +23,7 @@ Role required: sam\_admin
 
 Reclaiming software involves a workflow to remove software for a user. You can reclaim software for multiple reasons such as low usage, optimization generated due to consolidation, or overlapping subscriptions. The reclamation process can be managed manually through the creation of tasks or automatically using the Client Software Distribution \(CSD 2.0\) capabilities.
 
-You can select **Show Workflow** at any point of time in the reclamation workflow to see the current stage the workflow is in. For information on CSD 2.0, see [Client Software Distribution 2.0 application](https://www.servicenow.com/docs/access?context=csd-app-2&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+You can select **Show Workflow** at any point of time in the reclamation workflow to see the current stage the workflow is in. For information on CSD 2.0, see [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-app-2.md).
 
 Starting from the Australia release, the reclamation workflow can also be completed using the Software Reclamation Flow in the Flow Designer application along with additional error handling functionality.
 

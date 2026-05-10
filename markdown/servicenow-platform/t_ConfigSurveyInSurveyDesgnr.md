@@ -59,7 +59,7 @@ Role required: survey\_creator, survey\_admin, or admin
 
 [Publish a survey in the Survey Designer](t_PublishASurveyInSurveyDesigner.md)
 
-[Event scheduling](https://www.servicenow.com/docs/access?context=c_ScheduleEvents&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Event scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_ScheduleEvents.md)
 
 [Create an assessment signature](../../assessments/task/t_CreateAnAssessmentSignature.md)
 

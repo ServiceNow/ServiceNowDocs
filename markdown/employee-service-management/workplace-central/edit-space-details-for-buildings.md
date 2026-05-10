@@ -87,7 +87,7 @@ Role required: sn\_wsd\_spcmgmt.space\_planner
 
         You can also use Related list conditions to apply filtering on related tables. Make sure to set the Greater than or equal to operator value to 1 for accurate results.
 
-        For more information about conditions, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+        For more information about conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
     2.  After the selection, to edit the spaces, on the right pane, select the **Edit Space** option under the **Space details** section.
 

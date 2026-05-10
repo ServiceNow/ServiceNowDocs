@@ -18,7 +18,7 @@ Generate a summary of a TPRM issue to support efficient triaging, remediation, a
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 Role required: sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer
 
@@ -44,15 +44,15 @@ The summary for a TPRM issue is generated based on all the information captured 
 
 4.  Review the summary and complete any of the following options.
 
-<table><thead><tr><th align="left" id="d380180e189">
+<table><thead><tr><th align="left" id="d384722e189">
 
 Option
 
-</th><th align="left" id="d380180e192">
+</th><th align="left" id="d384722e192">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d380180e198">
+</th></tr></thead><tbody><tr><td id="d384722e198">
 
 **Share to work notes**
 
@@ -60,7 +60,7 @@ Description
 
 Select the **Share to work notes** button to launch the summarized result in an editor window. You can modify or review the summary and make any necessary corrections to improve its accuracy and completeness.
 
-</td></tr><tr><td id="d380180e213">
+</td></tr><tr><td id="d384722e213">
 
 **View more**
 
@@ -68,7 +68,7 @@ Select the **Share to work notes** button to launch the summarized result in an 
 
 Select this link to expand the summary.
 
-</td></tr><tr><td id="d380180e222">
+</td></tr><tr><td id="d384722e222">
 
 **View less**
 
@@ -76,7 +76,7 @@ Select this link to expand the summary.
 
 Select this link to collapse the summary.
 
-</td></tr><tr><td id="d380180e231">
+</td></tr><tr><td id="d384722e231">
 
 **Provide feedback**
 
@@ -86,7 +86,7 @@ Select the helpful icon ![](../../grc-common/image/icon-helpful.png) for positiv
 
  **Note:** Feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d380180e257">
+</td></tr><tr><td id="d384722e257">
 
 **Copy the summary**
 
@@ -94,7 +94,7 @@ Select the helpful icon ![](../../grc-common/image/icon-helpful.png) for positiv
 
 Select the copy icon ![](../../grc-common/image/icon-copy.png) to copy the summary to the clipboard.
 
-</td></tr><tr><td id="d380180e274">
+</td></tr><tr><td id="d384722e274">
 
 **Regenerate the summary**
 

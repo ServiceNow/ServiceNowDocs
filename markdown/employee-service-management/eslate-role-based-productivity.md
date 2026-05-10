@@ -39,10 +39,10 @@ From the moment you sign in to the moment the task is done, everything runs from
 
 |Action|ResponsibilityEmployee Slate|
 |------|----------------------------|
-|Ask|Ask a question in natural language to Moveworks or Now Assist Chat.|
+|Ask|Ask a question in natural language to Moveworks or Now Assist chat.|
 |Discover|Find answers across enterprise knowledge sources, such as SharePoint, Drive, and Slack.|
 |Act|Submit catalog requests through the conversational catalog without leaving the chat.|
-|Track|See approvals, tasks, and updates in one timeline in the inbox.|
+|Track|View approvals, tasks, and updates in one timeline in the inbox.|
 |Stay current|Receive targeted notifications and announcements across web and mobile browser.|
 
 ## Content manager journey

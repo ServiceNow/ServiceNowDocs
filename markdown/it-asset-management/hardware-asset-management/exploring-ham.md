@@ -47,5 +47,5 @@ Hardware Asset Management enables you to track and manage the end-to-end life-cy
 
 ## Using Guided Setup to implement Hardware Asset Management
 
-Hardware Asset Management Guided Setup provides a sequence of tasks that help you configure Hardware Asset Management on your ServiceNow instance. To open Hardware Asset Management guided setup, navigate to **App** &gt; **Guided Setup**. For more information about using the Guided Setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Hardware Asset Management Guided Setup provides a sequence of tasks that help you configure Hardware Asset Management on your ServiceNow instance. To open Hardware Asset Management guided setup, navigate to **App** &gt; **Guided Setup**. For more information about using the Guided Setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
 

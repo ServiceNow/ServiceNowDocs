@@ -19,7 +19,7 @@ Agents and technicians can receive push notifications about tasks on their mobil
 
 Push notifications for work order tasks use the **ServiceNow Mobile Application** push application. Use this application to send notifications to both individual users and assignment groups.
 
-Users with the system administrator role can enable and configure push notifications. See [Push notifications](https://www.servicenow.com/docs/access?context=c_PushNotifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+Users with the system administrator role can enable and configure push notifications. See [Push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_PushNotifications.md) for more information.
 
 ## Push notifications for task assignment
 

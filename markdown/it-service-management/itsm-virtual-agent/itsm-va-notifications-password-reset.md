@@ -21,7 +21,7 @@ You must activate this notification in Workflow Studio. For details, see [Set up
 
 Virtual Agent notifies the user when their password is about to expire. Users can reset passwords and unlock accounts even if they are not logged in. When users are logged in, they can perform all actions, such as changing passwords. After changing or resetting a password, the user can’t change or reset the password for the next 24 hours.
 
-For more information about configuring password expiration, see [Configure password expiration reminder](https://www.servicenow.com/docs/access?context=password-reset-expiration-setup&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information about configuring password expiration, see [Configure password expiration reminder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-expiration-setup.md).
 
 **Parent Topic:**[ITSM Virtual Agent pre-built actionable notifications](../concept/itsm-actionable-notifications.md)
 

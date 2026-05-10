@@ -60,7 +60,7 @@ Access the DocIntel Admin experience through the Task Intelligence Admin Console
 For more information, see the following topics:
 
 -   [Create a Document Intelligence use case](csm-task-intel-create-di-use-case.md)
--   [Monitor Document Intelligence performance](https://www.servicenow.com/docs/access?context=doc-intel-monitor-performance&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+-   [Monitor Document Intelligence performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/doc-intel-monitor-performance.md)
 
 .
 
@@ -77,20 +77,20 @@ Each use case has an MLUC ID number that is automatically assigned when the use 
 
 ## Document classification
 
-With the system administrator role, you can create [document classification use cases](https://www.servicenow.com/docs/access?context=set-up-document-classification-use-cases&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) and define the classes or categories for the AI to detect and apply to documents. This process is useful in situations where there are multiple types of documents that must be evaluated.
+With the system administrator role, you can create [document classification use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/set-up-document-classification-use-cases.md) and define the classes or categories for the AI to detect and apply to documents. This process is useful in situations where there are multiple types of documents that must be evaluated.
 
 Set up a document classification use case in the following steps.
 
-1.  [Create a document classification use case.](https://www.servicenow.com/docs/access?context=set-up-document-classification-use-cases&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+1.  [Create a document classification use case.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/set-up-document-classification-use-cases.md)
 
     Define the name and properties for the use case.
 
-2.  [Create a document class.](https://www.servicenow.com/docs/access?context=create-document-classes&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+2.  [Create a document class.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/create-document-classes.md)
 
     Define the classes or categories that the AI learns to detect and apply to documents.
 
-3.  [Create a document task](https://www.servicenow.com/docs/access?context=upload-documents-for-extraction&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for document classification and upload sample documents for each class.
-4.  [Train a use case.](https://www.servicenow.com/docs/access?context=train-a-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+3.  [Create a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/upload-documents-for-extraction.md) for document classification and upload sample documents for each class.
+4.  [Train a use case.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/train-a-use-case.md)
 
     Initiate a training job to provide user inputs from completed document tasks to the AI for continuous improvement.
 
@@ -103,7 +103,7 @@ Document Intelligence for Customer Service performs a series of steps to extract
 **Related topics**  
 
 
-[Document Intelligence](https://www.servicenow.com/docs/access?context=document-intelligence-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-landing.md)
 
 [Configure Document Intelligence for Customer Service](csm-doc-intel-configuring-.md)
 

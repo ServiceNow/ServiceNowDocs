@@ -45,7 +45,7 @@ The following provides an overview of the base translation workflow. The admin f
 
     The Content manager can view the status of the localization request item from the **Localization Framework** &gt; **My Requested Items** list.
 
-3.  The user with the localization\_fulfiller role performs the translation. For more details, see [Fulfill a localization task](https://www.servicenow.com/docs/access?context=fulfill-localization-task&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+3.  The user with the localization\_fulfiller role performs the translation. For more details, see [Fulfill a localization task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/fulfill-localization-task.md).
 4.  When the localization request item has a `Closed complete` state, the Content manager can schedule the content for publishing, see [Create a publish plan for your content](../task/ec-content-library-publish2.md). The system uses the same content schedule for the original and translated content.
 
 ## Changing the Content Library interface language

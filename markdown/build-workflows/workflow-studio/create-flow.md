@@ -26,7 +26,7 @@ Create a flow with Workflow Studio
 
 Users with the flow\_designer or admin role should know the application table structure and be aware of any existing business logic associated with the target tables of a flow or subflow. Be sure to disable any conflicting business rules or workflows before creating a flow or subflow.
 
-Creating a custom application to contain your Workflow Studio content enables you to [deploy](https://www.servicenow.com/docs/access?context=c_SharingApplications&version=australia&pubname=australia-application-development&ft:locale=en-US) the application using the application repository or the ServiceNow Store.
+Creating a custom application to contain your Workflow Studio content enables you to [deploy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_SharingApplications.md) the application using the application repository or the ServiceNow Store.
 
 ## Procedure
 
@@ -49,7 +49,7 @@ Creating a custom application to contain your Workflow Studio content enables yo
     |Flow name|Name to uniquely identify your flow. The system converts the flow name into an internal name by replacing space characters with underscore characters.|
     |Description|Description of your flow.|
     |Application|Application scope to create your flow in. Global is the default. The application scope determines what data your flow can access and what data it can share.|
-    |Domain|Domain scope of the flow. For more information about domain separation, see [Domain separation explained](https://www.servicenow.com/docs/access?context=bp-what-is-domain-separation&version=australia&pubname=australia-platform-security&ft:locale=en-US).|
+    |Domain|Domain scope of the flow. For more information about domain separation, see [Domain separation explained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-what-is-domain-separation.md).|
 
 <table id="table_ltx_mlf_b1c"><thead><tr><th>
 
@@ -77,7 +77,7 @@ Option to specify the user that runs the flow. You can select the system user or
 
  **Note:** By default, flows run as the user who initiates the session.
 
- To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see [OAuth 2.0 credentials](https://www.servicenow.com/docs/access?context=oauth-2-credentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+ To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/oauth-2-credentials.md).
 
  When flows run as the user who initiates the session, the system limits flow actions by user ACL restrictions. Ensure that security restrictions don't prevent users who trigger the flow from performing flow actions. Flows run by the initiating user also respect user-specific settings such as date/time formats.
 
@@ -165,7 +165,7 @@ Action
 
 </td><td>
 
-Select the desired action. Workflow Studio includes [Workflow Studio actions](../concept/flow-actions.md) that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The [Integration Hub](https://www.servicenow.com/docs/access?context=integrationhub&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) and [Spokes](../concept/spokes.md) plugins install additional actions.
+Select the desired action. Workflow Studio includes [Workflow Studio actions](../concept/flow-actions.md) that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md) and [Spokes](../concept/spokes.md) plugins install additional actions.
 
  To add draft actions from the More Actions menu, set **Show draft actions** to **true**.
 
@@ -212,8 +212,8 @@ Select a published subflow and define the input values. In addition to adding a 
     **Note:** The system only triggers activated flows.
 
 -   Deploy or transfer your flow to another instance.
-    -   [Deploy](https://www.servicenow.com/docs/access?context=c_SharingApplications&version=australia&pubname=australia-application-development&ft:locale=en-US) your flow from the application repository when your application is complete and ready for release.
-    -   [Transfer](https://www.servicenow.com/docs/access?context=update-set-transfers&version=australia&pubname=australia-application-development&ft:locale=en-US) your flow from an update set XML file when you want to test the flow on another instance. When you save a flow, Workflow Studio generates a single update set file containing its subflows and actions.
+    -   [Deploy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_SharingApplications.md) your flow from the application repository when your application is complete and ready for release.
+    -   [Transfer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/update-set-transfers.md) your flow from an update set XML file when you want to test the flow on another instance. When you save a flow, Workflow Studio generates a single update set file containing its subflows and actions.
 
 -   **[Create a flow with Now Assist](create-flow-now-assist.md)**  
 Use generative AI to create a flow from text directionsand images.

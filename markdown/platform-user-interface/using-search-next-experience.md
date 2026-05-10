@@ -26,7 +26,7 @@ The search results page reports the total number of records that matched your se
 
 ![Global search results page showing results for an email permissions search query.](../image/pol-search-results-page.png)
 
-For more details on the contents of the Next Experience search results page, see [Search results page in Next Experience](https://www.servicenow.com/docs/access?context=global-search-polaris-ui&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more details on the contents of the Next Experience search results page, see [Search results page in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/global-search-polaris-ui.md).
 
 ## Narrow your search by source on the search results page
 
@@ -64,5 +64,5 @@ For example, if the context menu in the illustration was available after you per
 
 Exact matches open in the selected workspace application. For example, if you selected **CSM/FSM Configurable Workspace**, entered a record number, and selected the record preview in the search results, the record would open in CSM/FSM Configurable Workspace.
 
-For information adding a workspace to the Unified Navigation search menu, see [Add a workspace application to the Unified Navigation search context menu](https://www.servicenow.com/docs/access?context=add-app-search-context-polaris-ui&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For information adding a workspace to the Unified Navigation search menu, see [Add a workspace application to the Unified Navigation search context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/add-app-search-context-polaris-ui.md).
 

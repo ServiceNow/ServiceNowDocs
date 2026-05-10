@@ -35,7 +35,7 @@ Remember the following information before getting started with the integration:
 
 -   Approvals hub integration with SAP Concur is supported with Employee Center Utah patch 3 as the minimum supported release for the functionality to work on Utah.
 -   Understand how Enterprise Service Management Integrations Framework works, see [Using Enterprise Service Management Integrations Framework](../../human-resources/task/use-integrations-framework.md) and [View tasks of a third-party system](../../human-resources/task/display-todos.md)
--   Integrate [Approvals hub integration with SAP Concur](x-concur-sa-integration.md) with ServiceNow, create credential records, and create connection records as explained in [SAP Concur Spoke](https://www.servicenow.com/docs/access?context=sap-concur-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+-   Integrate [Approvals hub integration with SAP Concur](x-concur-sa-integration.md) with ServiceNow, create credential records, and create connection records as explained in [SAP Concur Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sap-concur-spoke.md).
 -   Understand the basics of [SAP Concur](https://api.sap.com/products/SAPConcur/overview) integrations and business processes.
 
 **Note:** The RCAs that are generated after the installation are in the **Requested** state and you must manually mark the RCAs as **Allowed**, which can be time-consuming. To automate the RCA approvals for any record, you can run the EC bulk RCAs approval script where the source scope is one of the Employee Experience applications.

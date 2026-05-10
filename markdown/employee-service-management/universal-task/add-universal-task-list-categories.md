@@ -33,7 +33,7 @@ Due to the deprecation of the old service operations workspace, the Universal Ta
 
 3.  On the form, fill in the fields.
 
-    For more information, see [UX List Category form](https://www.servicenow.com/docs/access?context=ux-list-category-form&version=australia&pubname=australia-it-business-management&ft:locale=en-US).
+    For more information, see [UX List Category form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/ux-list-category-form.md).
 
 4.  Select **Submit**.
 

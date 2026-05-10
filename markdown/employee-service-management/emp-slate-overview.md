@@ -1,6 +1,6 @@
 ---
 title: Employee Slate overview
-description: Access services, tasks, and announcements from a role-based dashboard that helps with your daily work.
+description: Access services, tasks, and announcements from a role-based dashboard that helps you with your daily work.
 locale: en-US
 release: australia
 topic_type: concept
@@ -11,7 +11,7 @@ breadcrumb: [Employee Slate, Employee Service Management]
 
 # Employee Slate overview
 
-Access services, tasks, and announcements from a role-based dashboard that helps with your daily work.
+Access services, tasks, and announcements from a role-based dashboard that helps you with your daily work.
 
 Employee Slate is an employee engagement layer that combines intelligent assistance, employee communication, organizational navigation, task management, and other employee services to boost productivity.
 

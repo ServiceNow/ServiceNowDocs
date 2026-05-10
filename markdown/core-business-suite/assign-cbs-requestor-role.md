@@ -39,7 +39,7 @@ Role required: admin, sn\_cbs.admin
     2.  Select **New**.
     3.  On the form, fill in the fields and select **Submit**.
 
-        For more information to fill a new member form, see [New member form](https://www.servicenow.com/docs/access?context=new-member-form&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+        For more information to fill a new member form, see [New member form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/new-member-form.md).
 
 7.  On the manage requester role page, select **Mark as configured**.
 

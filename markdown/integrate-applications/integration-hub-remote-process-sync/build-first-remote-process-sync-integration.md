@@ -43,9 +43,9 @@ In the following example, you will step through how to link two ServiceNow insta
 
 3.  While still on the User form, select **Set Password** to set a password.
 
-    For details, see steps four and five in [Configure password for a user](https://www.servicenow.com/docs/access?context=reset-your-password&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    For details, see steps four and five in [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/reset-your-password.md).
 
-4.  [Reset the password](https://www.servicenow.com/docs/access?context=c_EnrollInPasswordReset&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for RPS API User for Instance A.
+4.  [Reset the password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_EnrollInPasswordReset.md) for RPS API User for Instance A.
 
 5.  Navigate back to **System Security** &gt; **Users and Groups** &gt; **Users** and select the User record that you just created.
 
@@ -72,9 +72,9 @@ In the following example, you will step through how to link two ServiceNow insta
 
 7.  While still on the User form, select **Set Password** to set a password.
 
-    For details, see steps four and five in [Configure password for a user](https://www.servicenow.com/docs/access?context=reset-your-password&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    For details, see steps four and five in [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/reset-your-password.md).
 
-8.  [Reset the password](https://www.servicenow.com/docs/access?context=c_EnrollInPasswordReset&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for RPS Run as User A.
+8.  [Reset the password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_EnrollInPasswordReset.md) for RPS Run as User A.
 
 9.  Navigate back to **System Security** &gt; **Users and Groups** &gt; **Users** and select the User record that you just created.
 
@@ -105,9 +105,9 @@ In the following example, you will step through how to link two ServiceNow insta
 
 12. While still on the User form, select **Set Password** to set a password.
 
-    For details, see steps four and five in [Configure password for a user](https://www.servicenow.com/docs/access?context=reset-your-password&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    For details, see steps four and five in [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/reset-your-password.md).
 
-13. [Reset the password](https://www.servicenow.com/docs/access?context=c_EnrollInPasswordReset&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for RPS API User for Instance B.
+13. [Reset the password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_EnrollInPasswordReset.md) for RPS API User for Instance B.
 
 14. Navigate back to **System Security** &gt; **Users and Groups** &gt; **Users** and select the User record that you just created.
 
@@ -134,9 +134,9 @@ In the following example, you will step through how to link two ServiceNow insta
 
 16. While still on the User form, select **Set Password** to set a password.
 
-    For details, see steps four and five in [Configure password for a user](https://www.servicenow.com/docs/access?context=reset-your-password&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    For details, see steps four and five in [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/reset-your-password.md).
 
-17. [Reset the password](https://www.servicenow.com/docs/access?context=c_EnrollInPasswordReset&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for RPS Run as User B from Instance B.
+17. [Reset the password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_EnrollInPasswordReset.md) for RPS Run as User B from Instance B.
 
 18. Navigate back to **System Security** &gt; **Users and Groups** &gt; **Users** and select the User record that you just created.
 

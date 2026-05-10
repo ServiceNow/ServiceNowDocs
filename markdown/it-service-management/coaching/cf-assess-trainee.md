@@ -25,9 +25,9 @@ A trainee can view any field on the coaching assessment form and add comments to
 
 When an assessment is generated, all users in the Coach group receive a notification. Assessments are generated automatically \(as the result of a coaching opportunity\) or created manually. You can provide feedback for your trainees using a survey at any time during the coaching assessment.
 
-You can create a coaching assessment from incidents, problems, change requests, or any other table that extends the [task table](https://www.servicenow.com/docs/access?context=c_TaskTable&version=australia&pubname=australia-platform-administration&ft:locale=en-US). Enable the display of the **Create Coaching Assessment** button and create your assessments using that button.To enable display of the button:
+You can create a coaching assessment from incidents, problems, change requests, or any other table that extends the [task table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_TaskTable.md). Enable the display of the **Create Coaching Assessment** button and create your assessments using that button.To enable display of the button:
 
--   Configure the [UI actions](https://www.servicenow.com/docs/access?context=c_UIActions&version=australia&pubname=australia-platform-administration&ft:locale=en-US) on the record.
+-   Configure the [UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UIActions.md) on the record.
 -   In the sn\_coaching.CoachingExtensionPoint extension point, make sure the getCreateAssessmentUITables method is implemented to return the name of the tables.
 
 ## Procedure
@@ -66,7 +66,7 @@ You can create a coaching assessment from incidents, problems, change requests, 
 
 6.  Review the skills applicable to the trainee in the **Trainee Skillset** related list.
 
-    See [Skills Management](https://www.servicenow.com/docs/access?context=skills-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+    See [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skills-management.md) for more information.
 
 7.  Add [assigned training content](cf-identify-learning-content.md) in the **Assigned course items** related list.
 

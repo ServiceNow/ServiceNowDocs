@@ -47,15 +47,15 @@ Role required: admin
     -   You don’t need to add the header and footer of the sitemap XML. These are added automatically when the sitemap is generated.
 6.  In the **Type** field of the UX Sitemap Definition form, select one of the following options to define the contents of the sitemap either with a script or by specifying static URL elements.
 
-<table id="choicetable_fff_fps_gtb"><thead><tr><th align="left" id="d117896e211">
+<table id="choicetable_fff_fps_gtb"><thead><tr><th align="left" id="d126519e211">
 
 Type
 
-</th><th align="left" id="d117896e214">
+</th><th align="left" id="d126519e214">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d117896e220">
+</th></tr></thead><tbody><tr><td id="d126519e220">
 
 **Script**
 
@@ -65,7 +65,7 @@ Dynamically generate the content from a script.
 
  **Note:** If special characters such as &lt;,&gt;, &amp;, or " are included in URLs, you must replace them with their equivalent escape characters.
 
-</td></tr><tr><td id="d117896e235">
+</td></tr><tr><td id="d126519e235">
 
 **Static**
 
@@ -114,7 +114,7 @@ The approximate frequency at which the page is updated.
 
     **Note:** This URL accesses the latest sitemap or, if the sitemap is paginated, the latest sitemap index. It doesn’t execute scripts on the fly to regenerate the sitemap.
 
-    For information about using Google Search Console, see [Manage your sitemaps using the Sitemaps report](https://support.google.com/webmasters/answer/7451001) in the Google documentation. For information about the Google Custom Search integration, see [ServiceNow provided integrations](https://www.servicenow.com/docs/access?context=r_ServiceNowProvidedintegrations&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For information about using Google Search Console, see [Manage your sitemaps using the Sitemaps report](https://support.google.com/webmasters/answer/7451001) in the Google documentation. For information about the Google Custom Search integration, see [ServiceNow provided integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ServiceNowProvidedintegrations.md).
 
 12. Review any portals URLs that were excluded from the sitemap because they aren't publicly accessible.
 

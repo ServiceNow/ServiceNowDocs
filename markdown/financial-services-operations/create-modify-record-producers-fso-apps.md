@@ -15,7 +15,7 @@ Review the record producers that are installed with Financial Services Operation
 
 ## Before you begin
 
-Ensure that the scope is selected for the application for which you are creating a record producer. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Ensure that the scope is selected for the application for which you are creating a record producer. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: Based on the application that you are configuring, you need the following roles:
 
@@ -41,7 +41,7 @@ For information on record producers that are available with Financial Services O
 
     -   To create a record producer, click **New**.
     -   To customize a predefined record producer, open the record producer that you want to customize.
-    For information about the record producer form fields, see [Create a record producer](https://www.servicenow.com/docs/access?context=t_DefRecProdInSCat&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For information about the record producer form fields, see [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefRecProdInSCat.md).
 
 3.  On the form, fill in the fields.
 
@@ -144,11 +144,11 @@ Name of the catalog category in which the record producer should appear.
 
 5.  In the Variables or Variable Sets related lists, configure variables as appropriate.
 
-    Variables collect information from the user when the user submits a request through the record producer. Variables also map predefined answers to the fields. You can add as many variables as you need to the record producer. For more information, see [Create a service catalog variable](https://www.servicenow.com/docs/access?context=t_CreateAVariableForACatalogItem&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    Variables collect information from the user when the user submits a request through the record producer. Variables also map predefined answers to the fields. You can add as many variables as you need to the record producer. For more information, see [Create a service catalog variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAVariableForACatalogItem.md).
 
 6.  In the Available For and Not Available For related lists, configure the user criteria to grant or deny users access to the record producer.
 
-    For more information, see [Set up the user criteria](https://www.servicenow.com/docs/access?context=t_CreateAUserCriteriaRecord&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For more information, see [Set up the user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAUserCriteriaRecord.md).
 
 7.  Click **Update**.
 

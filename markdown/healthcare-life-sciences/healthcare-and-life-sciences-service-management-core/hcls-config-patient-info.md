@@ -15,7 +15,7 @@ breadcrumb: [Set up your Healthcare Workspace, Healthcare and Life Sciences Serv
 
 You can configure the Patient information related list in Healthcare workspace used by healthcare agents.
 
-Healthcare workspace used by healthcare agents is a CSM Configurable Workspace. As a user with the admin role, you can configure the Patient information related list by using UI Builder. For more information, see [Explore CSM Configurable Workspace](https://www.servicenow.com/docs/access?context=exploring-configurable-workspace&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+Healthcare workspace used by healthcare agents is a CSM Configurable Workspace. As a user with the admin role, you can configure the Patient information related list by using UI Builder. For more information, see [Explore CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/exploring-configurable-workspace.md).
 
 By default, patient information is displayed on interactions associated with patients. You can configure the CSM Configurable Workspace to display patient information for a healthcare case. Also, you can configure the Patient information related list for a specific healthcare case and user role. For more information, see [Display patient information on a healthcare case type in Healthcare workspace](hcls-enable-viewing-patient-info.md).
 

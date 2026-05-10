@@ -17,11 +17,11 @@ Leverage the Microsoft Teams application through the Sidebar configuration to se
 
 ## About Sidebar
 
-Messaging from the Sidebar in Dispatcher Workspace is a ServiceNow AI Platform® capability. For more information on configuring the Sidebar for messaging, see [Configuring Sidebar](https://www.servicenow.com/docs/access?context=configure-sidebar&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Messaging from the Sidebar in Dispatcher Workspace is a ServiceNow AI Platform® capability. For more information on configuring the Sidebar for messaging, see [Configuring Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/configure-sidebar.md).
 
-For more information on how the Sidebar works, see: [Exploring Sidebar](https://www.servicenow.com/docs/access?context=exploring-sidebar&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For more information on how the Sidebar works, see: [Exploring Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/exploring-sidebar.md).
 
-For more information on using the Sidebar to communicate, see [Using Sidebar](https://www.servicenow.com/docs/access?context=using-sidebar&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For more information on using the Sidebar to communicate, see [Using Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/using-sidebar.md).
 
 ## About Sidebar for the Field Service Mobile Agent application
 

@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-Ensure that you have activated the com.snc.external\_user\_self\_registration plugin. For more information, see [Activate External User Self-Registration](https://www.servicenow.com/docs/access?context=external-user-registration-plugin&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Ensure that you have activated the com.snc.external\_user\_self\_registration plugin. For more information, see [Activate External User Self-Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/external-user-registration-plugin.md).
 
 ## Procedure
 
@@ -31,7 +31,7 @@ Ensure that you have activated the com.snc.external\_user\_self\_registration pl
 
 2.  On the User Registration Configuration form, fill in the fields.
 
-    For more information about the form fields and descriptions, see [Create a user registration configuration for external users](https://www.servicenow.com/docs/access?context=external-user-configuration&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    For more information about the form fields and descriptions, see [Create a user registration configuration for external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/external-user-configuration.md).
 
 3.  From the form context menu, select **Save**.
 
@@ -80,7 +80,7 @@ Ensure that you have activated the com.snc.external\_user\_self\_registration pl
 
     **Note:**
 
-    -   The **Supplier name** field has been added in the Xanadu December 2024 upgrade. To enable and register this field, customize the registration form by adding the new supplier field with field label: Supplier name and column name: u\_supplier\_name. For more information, see [Configure a user registration configuration for external users](https://www.servicenow.com/docs/access?context=external-user-configuration&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    -   The **Supplier name** field has been added in the Xanadu December 2024 upgrade. To enable and register this field, customize the registration form by adding the new supplier field with field label: Supplier name and column name: u\_supplier\_name. For more information, see [Configure a user registration configuration for external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/external-user-configuration.md).
     -   If you need to add a supplier contact whose email domain differs from the supplier's domain, you must also [Enable M2M mapping between supplier contact and suppliers](enable-m2m-supplier-contacts.md).
 17. In the Variables related list, select and open the **First name**, **Last name**, **Email**, and **Supplier name** records individually.
 

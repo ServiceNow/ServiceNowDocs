@@ -25,7 +25,7 @@ The **sn\_sow\_collab.user\_presence\_refresh\_duration** property specifies the
 
 For example, consider the following scenario where the user presence refresh duration is defined individually for Microsoft Teams and also for all collaboration channels in Service Operations Workspace.
 
--   The **sn\_tcm\_collab\_hook.teams.presence\_status\_cache\_invalidate\_duration** property value is set to 240 secs. For information about defining the user presence refresh duration for Microsoft Teams, see [Configure cache duration for the user presence status](https://www.servicenow.com/docs/access?context=configure-cache-duration&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+-   The **sn\_tcm\_collab\_hook.teams.presence\_status\_cache\_invalidate\_duration** property value is set to 240 secs. For information about defining the user presence refresh duration for Microsoft Teams, see [Configure cache duration for the user presence status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-cache-duration.md).
 -   The **sn\_sow\_collab.user\_presence\_refresh\_duration** property value is set to 180 secs.
 
 In this case, the value specified for the **sn\_tcm\_collab\_hook.teams.presence\_status\_cache\_invalidate\_duration** property is considered to refresh the user presence in Microsoft Teams.

@@ -39,7 +39,7 @@ Map the topics with deflection patterns of the **HR VA Default** deflection trac
     |-----|-----|
     |Deflection Configuration|HR VA Default|
     |Deflection Pattern|**HR VA-Self-Resolving:** When the node in the topic indicates that Virtual Agent is able to resolve the user problem completely without creating an IT ticket \(incident or request\) and consequently contributing to the Self-solved KPIs.|
-    |Activity Table|Table where the deflection activity occurs. This table is associated with the primary activity table. For more information, see [Create deflection configurations and patterns](https://www.servicenow.com/docs/access?context=set-up-deflection-settings-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).|
+    |Activity Table|Table where the deflection activity occurs. This table is associated with the primary activity table. For more information, see [Create deflection configurations and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/set-up-deflection-settings-va.md).|
     |Activity Ids|List of comma-separated activity system IDs.|
 
 6.  Select **Save**.
@@ -47,18 +47,18 @@ Map the topics with deflection patterns of the **HR VA Default** deflection trac
 
 ## What to do next
 
-Set up the fulfillment automation level of the HR catalog items, see [Set fulfillment automation level of catalog item](https://www.servicenow.com/docs/access?context=set-fulfillment-automation-level-sdb&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+Set up the fulfillment automation level of the HR catalog items, see [Set fulfillment automation level of catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/set-fulfillment-automation-level-sdb.md).
 
 You may also configure the dashboard indicators KPIs, add contributing indicators, or update the More information card, as required.
 
-1.  For more information on configuring the Success Dashboard indicators KPIs, see [Configure Success Dashboard indicators KPIs](https://www.servicenow.com/docs/access?context=config-kpis-sdb&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
-2.  For more information on adding contributing indicators, see [Add contributing indicators](https://www.servicenow.com/docs/access?context=add-contributing-indicators&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
-3.  For more information on updating the More information card, see [Update more information cards](https://www.servicenow.com/docs/access?context=update-sidepanel-more&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+1.  For more information on configuring the Success Dashboard indicators KPIs, see [Configure Success Dashboard indicators KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/config-kpis-sdb.md).
+2.  For more information on adding contributing indicators, see [Add contributing indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/add-contributing-indicators.md).
+3.  For more information on updating the More information card, see [Update more information cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/update-sidepanel-more.md).
 
 **Related topics**  
 
 
-[Tracking deflections using deflection topic blocks](https://www.servicenow.com/docs/access?context=deflections-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+[Tracking deflections using deflection topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/deflections-virtual-agent.md)
 
-[Create deflection configurations and patterns](https://www.servicenow.com/docs/access?context=set-up-deflection-settings-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+[Create deflection configurations and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/set-up-deflection-settings-va.md)
 

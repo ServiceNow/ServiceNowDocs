@@ -6,7 +6,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 5
 breadcrumb: [Discovery for AWS, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -114,7 +114,7 @@ For more information on AWS Management Console configuration, see the [Amazon SS
 
 -   **Enable MID Server capability**
 
-    You must enable the new MID Server capability for AWS SSM so the MID Server can support running SSM discovery. By default, this capability is included if you're using the **ALL** capability. However, if you're using individual capabilities, you must manually add the new **AWS SSM** capability to your MID Servers. For information about adding a capability, see [Configure MID Server capabilities](https://www.servicenow.com/docs/access?context=t_ConfigureCapabilities&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    You must enable the new MID Server capability for AWS SSM so the MID Server can support running SSM discovery. By default, this capability is included if you're using the **ALL** capability. However, if you're using individual capabilities, you must manually add the new **AWS SSM** capability to your MID Servers. For information about adding a capability, see [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md).
 
 
 ## Cloud Discovery schedule configuration

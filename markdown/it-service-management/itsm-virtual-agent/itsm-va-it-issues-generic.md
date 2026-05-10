@@ -66,7 +66,7 @@ When the user requests help with admin access, Virtual Agent asks the user to se
 
 Requirements:
 
--   [Agent Client Collector spoke](https://www.servicenow.com/docs/access?context=acc-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) \(com.sn.acc.spoke\)
+-   [Agent Client Collector spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/acc-spoke.md) \(com.sn.acc.spoke\)
 -   Applies to macOS users only
 
     If the user selects another operating system, Virtual Agent provides relevant KB articles.

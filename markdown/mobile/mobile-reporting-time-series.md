@@ -34,7 +34,7 @@ Scroll along the lines to display the number of records contained in your select
 
     Mobile dashboards support the following time series report types:
 
-    -   [Line](https://www.servicenow.com/docs/access?context=c_CreateLineCharts&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
-    -   [Spline](https://www.servicenow.com/docs/access?context=c_CreateAreaAndSplineCharts&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
-    -   [Step line](https://www.servicenow.com/docs/access?context=step-reports&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+    -   [Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_CreateLineCharts.md)
+    -   [Spline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_CreateAreaAndSplineCharts.md)
+    -   [Step line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/step-reports.md)
 

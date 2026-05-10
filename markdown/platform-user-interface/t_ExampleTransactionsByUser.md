@@ -29,7 +29,7 @@ The new relationship creates a list of task records opened by the current user.
 
 3.  Create a relationship with the following values.
 
-<table id="choicetable_inp_1qj_5r"><tbody><tr><td id="d123866e84">
+<table id="choicetable_inp_1qj_5r"><tbody><tr><td id="d132706e84">
 
 **Name**
 
@@ -37,7 +37,7 @@ The new relationship creates a list of task records opened by the current user.
 
 Last 20 transactions
 
-</td></tr><tr><td id="d123866e93">
+</td></tr><tr><td id="d132706e93">
 
 **Applies to table**
 
@@ -45,7 +45,7 @@ Last 20 transactions
 
 User \[sys\_user\]
 
-</td></tr><tr><td id="d123866e102">
+</td></tr><tr><td id="d132706e102">
 
 **Queries from table**
 
@@ -53,7 +53,7 @@ User \[sys\_user\]
 
 Task \[task\]
 
-</td></tr><tr><td id="d123866e111">
+</td></tr><tr><td id="d132706e111">
 
 **Queries with**
 
@@ -96,5 +96,5 @@ Notes and limitations:
 **Related topics**  
 
 
-[Add a related list to a form](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&section=t_AddARelatedList&ft:locale=en-US)
+[Add a related list to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md)
 

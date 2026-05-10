@@ -25,15 +25,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Veracode.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d281386e93">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d281637e93">
 
 Option
 
-</th><th align="left" id="d281386e96">
+</th><th align="left" id="d281637e96">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d281386e102">
+</th></tr></thead><tbody><tr><td id="d281637e102">
 
 **Homepage**
 
@@ -43,7 +43,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Veracode from the **Security** category.
 
 
-</td></tr><tr><td id="d281386e129">
+</td></tr><tr><td id="d281637e129">
 
 **Applications module**
 
@@ -55,7 +55,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Veracode from the **Security** category.
 
 
-</td></tr><tr><td id="d281386e178">
+</td></tr><tr><td id="d281637e178">
 
 **Tools module**
 

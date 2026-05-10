@@ -17,11 +17,11 @@ Sidebar enables stakeholders to collaborate with others by getting into discussi
 
 You can start a Sidebar discussion by selecting **Discuss** on a supplier case in the Source-to-Pay Workspace. Other stakeholders are notified when you add them to a discussion. They can join the discussion by selecting the Sidebar discussions icon \(![Sidebar chat icon.](../image/sidebar-chat-icon.png)\).
 
-For more information on what Sidebar is, see [Sidebar](https://www.servicenow.com/docs/access?context=sidebar-landing&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For more information on what Sidebar is, see [Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/sidebar-landing.md).
 
-To learn more about how to use Sidebar, see [Using Sidebar](https://www.servicenow.com/docs/access?context=using-sidebar&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+To learn more about how to use Sidebar, see [Using Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/using-sidebar.md).
 
-For information on activity stream in Sidebar is, see [Activity stream in Sidebar](https://www.servicenow.com/docs/access?context=activity-stream-sidebar&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For information on activity stream in Sidebar is, see [Activity stream in Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/activity-stream-sidebar.md).
 
 **Parent Topic:**[Manage supplier cases from the Source-to-Pay Workspace](managing-cases.md)
 

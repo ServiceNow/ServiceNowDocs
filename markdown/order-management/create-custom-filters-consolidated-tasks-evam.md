@@ -33,7 +33,7 @@ Role required: admin or evam\_admin
 
 5.  In the **EVAM Datasource M2Ms** tab, add or remove a data source.
 
-    -   Create and Link: Define a new data source and then link this data source to your EVAM definition. For more information, see [Define a data source](https://www.servicenow.com/docs/access?context=define-evam-datasource&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    -   Create and Link: Define a new data source and then link this data source to your EVAM definition. For more information, see [Define a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-evam-datasource.md).
 
         **Note:** When specifying a condition to define how the data is filtered from the selected table, select the operator as **is not empty** for the business entity you're adding. For example, **\[Quote\]\[is not empty\]**.
 
@@ -43,7 +43,7 @@ Role required: admin or evam\_admin
 
 7.  In the **EVAM View Config Bundle M2Ms** tab, add or remove a configuration bundle.
 
-    -   Create and Link: Define a new configuration bundle and then link this bundle to your EVAM definition. For more information, see [Defining an EVAM configuration bundle](https://www.servicenow.com/docs/access?context=define-view-configuration-bundle&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and [Defining an EVAM view template](https://www.servicenow.com/docs/access?context=define-evam-template&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    -   Create and Link: Define a new configuration bundle and then link this bundle to your EVAM definition. For more information, see [Defining an EVAM configuration bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-view-configuration-bundle.md) and [Defining an EVAM view template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-evam-template.md).
     -   Link Existing: Add a predefined configuration bundle to your EVAM definition.
     -   Unlink Selected: Remove the view config bundle for entities you don't want to display.
 8.  Add more data filter options on the Tasks tab of the sales process dashboard.
@@ -68,5 +68,5 @@ Role required: admin or evam\_admin
 **Related topics**  
 
 
-[Create an EVAM definition](https://www.servicenow.com/docs/access?context=define-composite-dataset&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-composite-dataset.md)
 

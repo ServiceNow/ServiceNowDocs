@@ -53,7 +53,7 @@ The Activity Designer contains common steps which are applicable to all the acti
 
 6.  Click **Continue** to open the Execution Command form, then fill out the **Execution Command** step based on the corresponding execution templates:
 
-    -   [Create a SOAP web service activity](https://www.servicenow.com/docs/access?context=t_CreateASOAPWebServiceActivity&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+    -   [Create a SOAP web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateASOAPWebServiceActivity.md)
     -   [Create a JDBC activity](t_CreateAJDBCActivity.md#)
     -   [Create a JavaScript Probe activity](t_CreateAJavaScriptProbeActivity.md#)
     -   [Create a PowerShell activity](t_CreateAPowershellActivity.md#)
@@ -73,7 +73,7 @@ The Activity Designer contains common steps which are applicable to all the acti
 
 9.  Use one of the options to assign values to Outputs.
 
-<table id="choicetable_lh4_h3j_4y"><tbody><tr><td id="d608539e339">
+<table id="choicetable_lh4_h3j_4y"><tbody><tr><td id="d610852e339">
 
 **Parsing rule**
 
@@ -81,7 +81,7 @@ The Activity Designer contains common steps which are applicable to all the acti
 
 You can create a parsing rule and map them to the output fields by dragging and dropping the variables into the [parsing rules](t_CreateAParsingRule.md#) structure. The REST, SOAP, and JDBC templates provide auto-mapping to create the parsing rules automatically. If available from the test inputs form, auto-mapping should be used when possible.
 
-</td></tr><tr><td id="d608539e355">
+</td></tr><tr><td id="d610852e355">
 
 **[Post-processing](t_CreateAParsingRule.md#)**
 

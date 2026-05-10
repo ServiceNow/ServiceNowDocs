@@ -23,7 +23,7 @@ Role required: admin
 
 Update the table configuration using to get the required search results.
 
-To create a table configuration, see [Configure table for a contextual search](https://www.servicenow.com/docs/access?context=t_DefineContextualSearchForForm&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+To create a table configuration, see [Configure table for a contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/t_DefineContextualSearchForForm.md).
 
 **Important:** If you are on version which is prior to 4.0, [Edit the table configuration for Agent Assist in Service Operations Workspace](edit-the-table-configuration-for-agent-assist-in-service-operations-workspace.md).
 

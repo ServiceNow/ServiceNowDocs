@@ -38,5 +38,5 @@ Role required: sn\_customerservice.consumer\_agent, sn\_customerservice\_manager
 
 ## What to do next
 
-If necessary, you can create a consumer record for a guest user and create a consumer service case from the conversation to track the issue. You can also transfer the conversation to a different agent or queue, or escalate the conversation to a higher priority queue. For more information, see [Connect Support](https://www.servicenow.com/docs/access?context=c_ConnectSupport&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+If necessary, you can create a consumer record for a guest user and create a consumer service case from the conversation to track the issue. You can also transfer the conversation to a different agent or queue, or escalate the conversation to a higher priority queue. For more information, see [Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_ConnectSupport.md).
 

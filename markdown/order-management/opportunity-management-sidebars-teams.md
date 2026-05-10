@@ -17,7 +17,7 @@ Initiate a discussion with internal and external stakeholders, such as sales age
 
 Role required: sales\_agent or sales\_manager
 
-Before using the sidebar integration, you must first complete configuring the sidebar integration with your opportunity. To learn more, see [Configuring Sidebar](https://www.servicenow.com/docs/access?context=configure-sidebar&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Before using the sidebar integration, you must first complete configuring the sidebar integration with your opportunity. To learn more, see [Configuring Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/configure-sidebar.md).
 
 ## Procedure
 

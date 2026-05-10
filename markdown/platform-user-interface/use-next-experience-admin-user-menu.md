@@ -38,7 +38,7 @@ Impersonate user
 
 </td><td>
 
-Option to impersonate other authenticated users for testing purposes and to view impersonation logs. For more information, see [Impersonate a user](https://www.servicenow.com/docs/access?context=c_ImpersonateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Option to impersonate other authenticated users for testing purposes and to view impersonation logs. For more information, see [Impersonate a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ImpersonateAUser.md).
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ Elevate role
 
 </td><td>
 
-Option to elevate to a privileged role to gain access to the features of High Security Settings for the current session. For more information, see [Elevated privilege roles](https://www.servicenow.com/docs/access?context=c_ElevatedPrivilege&version=australia&pubname=australia-platform-security&ft:locale=en-US).**Note:** Users granted the admin role can't elevate to a privileged role. Only the base system admin can be elevated.
+Option to elevate to a privileged role to gain access to the features of High Security Settings for the current session. For more information, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ElevatedPrivilege.md).**Note:** Users granted the admin role can't elevate to a privileged role. Only the base system admin can be elevated.
 
 </td></tr><tr><td>
 

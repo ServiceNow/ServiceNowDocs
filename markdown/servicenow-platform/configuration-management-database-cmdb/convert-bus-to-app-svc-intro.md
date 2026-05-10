@@ -146,7 +146,7 @@ Select this check box to convert the business service into an application servic
     4.  Click the **Affected CIs** tab and then click **Add** to add an affected CI to the change request.
     5.  Open the form context menu and select **Refresh Impacted Services**.
     6.  Click the **Impacted Services/CIs** tab to see any dynamic services that are associated with the affected CI and that are impacted by the change request.
-    For more information about affected CIs on a change request, see [Associated CIs on a change request](https://www.servicenow.com/docs/access?context=c_AffectedCIsAndImpactedServices&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+    For more information about affected CIs on a change request, see [Associated CIs on a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md).
 
 
 ## Convert an individual business service to an application service

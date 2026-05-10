@@ -106,7 +106,7 @@ Functional impact
 This remediation enforces a combination of authentication methods, in the form of basic authentication and system level access control. -   It performs this authentication while processing RSS requests on the instance.
 -   It restricts any guest users who are currently accessing this data. If applicable, you may need to create a new account for users who need access to this content, with necessary access control permissions.
 
- To learn more, see [RSS feed generator](https://www.servicenow.com/docs/access?context=c_RSSFeedGenerator&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+ To learn more, see [RSS feed generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_RSSFeedGenerator.md).
 
 </td></tr><tr><td>
 

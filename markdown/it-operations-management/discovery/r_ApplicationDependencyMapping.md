@@ -235,7 +235,7 @@ glide.discovery.adme.base\_dir\_unix
 
 </td><td>
 
-ADME - Unix Base Dir: An existing directory on the target UNIX machines to be used as a workspace. Must be an absolute path to the directory. The [UNIX and Linux credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) that you use to connect to the device must also be able to access this folder.-   Type: string
+ADME - Unix Base Dir: An existing directory on the target UNIX machines to be used as a workspace. Must be an absolute path to the directory. The [UNIX and Linux credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md) that you use to connect to the device must also be able to access this folder.-   Type: string
 -   Default value: /tmp
 
 

@@ -15,7 +15,7 @@ breadcrumb: [Master data table for Accounts Payable Operations, Reference, Accou
 
 Cost centers are a commonly used reference between financial systems and IT. Cost center records represent business entities and have a related list of CI Cost Center Relationships that measure the cost center's consumption of business services.
 
-For more information on cost centers and how it is referenced within financial systems, see [Cost Management](https://www.servicenow.com/docs/access?context=r_CostManagement&version=australia&pubname=australia-it-business-management&ft:locale=en-US).
+For more information on cost centers and how it is referenced within financial systems, see [Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/r_CostManagement.md).
 
 ## cmn\_cost center table
 

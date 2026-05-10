@@ -27,7 +27,7 @@ Role required: admin
 
 1.  Create a script in global scope to delete roles.
 
-    For details, see [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+    For details, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md)
 
     **Note:** You may use `hiringdeleteroles.xml`, an existing script to delete roles.
 

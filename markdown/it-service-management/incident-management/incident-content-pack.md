@@ -19,7 +19,7 @@ Platform Analytics Solutions and in-form analytics contain preconfigured dashboa
 
 Starting in Xanadu release, the Incident Management Platform Analytics Solutions dashboards are deprecated. Users can use [Incident management dashboard](performance-analytics/incident.md) to view the actionable data visualizations that help in improving the business processes and practices.
 
-Platform Analytics data visualizations use Performance Analytics [indicator](https://www.servicenow.com/docs/access?context=now-platform-glossary&version=australia&pubname=australia-glossary&section=gloss-indicator&ft:locale=en-US) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
+Platform Analytics data visualizations use Performance Analytics [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
 
 The Platform Analytics Solution for Incident Management is available by default as part of Complimentary Performance Analytics for Incident Management.
 
@@ -45,5 +45,5 @@ View the current information about open incidents as a list, or as a heatmap or 
 **Related topics**  
 
 
-[Activate your Performance Analytics subscription](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md)
 

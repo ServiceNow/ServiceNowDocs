@@ -47,7 +47,7 @@ Now Assist for App Engine can include additional data sources when generating a 
 
 For each related table or relationship that you add, you must provide the fields and field descriptions that you want Now Assist to include in summaries. Activities, such as emails and attachments, don't have fields that you can select and configure. If you select either email or attachment as an additional data source to include in a summary, Now Assist attempts to fetch that data at the time that the summary is generated. If an email or attachment is present within the record, Now Assist includes that information in the summary that it generates. Otherwise, the summary is generated without the email or attachment.
 
-**Important:** Record summarization that includes an attachment has a greater assist usage. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Important:** Record summarization that includes an attachment has a greater assist usage. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
 
 ## Display options
 

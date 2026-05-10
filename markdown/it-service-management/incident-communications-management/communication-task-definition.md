@@ -15,7 +15,7 @@ breadcrumb: [Managing Incident Communications, Incident Communications Managemen
 
 Each communication plan involves a series of communication tasks. A communication task definition helps you to specify the mode of communication \(channel\) and the frequency at which the communication must be carried out.
 
-For information on how to create a communication task definition, refer to [Create communication task definition](https://www.servicenow.com/docs/access?context=create-comm-task-definition&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For information on how to create a communication task definition, refer to [Create communication task definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/create-comm-task-definition.md).
 
 **Parent Topic:**[Managing Incident Communications](working-with-inci-comm-mgmt.md)
 

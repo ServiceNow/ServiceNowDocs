@@ -29,7 +29,7 @@ Because secondary model content is only a translated copy of its primary model c
 
 If you create a model group in NLU Workbench, you can specify the primary language. If you create a model from within Virtual Agent Designer, the primary language is determined by the user session language. For example, if you create a new model in a German user session, the primary language of the model group will be German.
 
-Model groups make it easier to maintain your topics. For more information about NLU model groups, see [Multilingual model management](https://www.servicenow.com/docs/access?context=multilingual-model-managent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Model groups make it easier to maintain your topics. For more information about NLU model groups, see [Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/multilingual-model-managent.md).
 
 **Note:** If a model contains only a single language, that language is considered to be the primary language. The topic is mapped to the model and specified intent only. If more than one language has been activated in NLU Settings, those languages are not mapped to the model. To use the topic in other languages, map them to other models manually on the **Languages** tab. For more information, see [Map a topic to a secondary NLU model](../task/map-nlu-language-model.md).
 
@@ -39,7 +39,7 @@ If an intent for the primary language within the model group is disabled, the pr
 
 ![The NLU Intent mapping area on the Languages tab indicates that the mapped French intent is not available because it was disabled in NLU Workbench.](../images/nlu-languages-disabled-intent.png "Topic with a disabled French intent on the Languages tab")
 
-To allow topic discovery for the language, enable the intent in NLU Workbench. For more information, see [Enable or disable a secondary model intent](https://www.servicenow.com/docs/access?context=enable-disable-secondary-model-intent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+To allow topic discovery for the language, enable the intent in NLU Workbench. For more information, see [Enable or disable a secondary model intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/enable-disable-secondary-model-intent.md).
 
 ## Avoiding model conflicts
 

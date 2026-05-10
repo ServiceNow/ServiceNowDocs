@@ -26,15 +26,15 @@ AI agents are autonomous systems that interact with their environment to gather 
 
 1.  View the available AI agents in AI Agent Studio.
 
-<table id="choicetable_lzk_2kw_s2c"><thead><tr><th align="left" id="d90787e77">
+<table id="choicetable_lzk_2kw_s2c"><thead><tr><th align="left" id="d91137e77">
 
 Current location
 
-</th><th align="left" id="d90787e80">
+</th><th align="left" id="d91137e80">
 
 Navigation option
 
-</th></tr></thead><tbody><tr><td id="d90787e86">
+</th></tr></thead><tbody><tr><td id="d91137e86">
 
 **AI Agent Studio Overview page**
 
@@ -42,7 +42,7 @@ Navigation option
 
 Select the **Explore all** button in the Ready-made agentic workflow and AI agents section, and then select the **AI agents** tab.
 
-</td></tr><tr><td id="d90787e103">
+</td></tr><tr><td id="d91137e103">
 
 **AI Agent Studio Overview page**
 
@@ -50,7 +50,7 @@ Select the **Explore all** button in the Ready-made agentic workflow and AI agen
 
 View the Recent agentic workflows and AI agents activity section on the **AI agents** tab to see the most recently added or changed agents.**Note:** You see a list of the AI agents only when there's recent activity of the AI agents on your instance.
 
-</td></tr><tr><td id="d90787e119">
+</td></tr><tr><td id="d91137e119">
 
 **Anywhere else**
 

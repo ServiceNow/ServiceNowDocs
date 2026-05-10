@@ -19,7 +19,7 @@ Generate and distribute scheduled reports via email.
 
 Roles required: system\_scheduler\_admin
 
-A user with the report\_scheduler role can also create a scheduled report through a different navigation path. For more information, see [Schedule emails of Core UI reports](https://www.servicenow.com/docs/access?context=t_ScheduleAReport&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+A user with the report\_scheduler role can also create a scheduled report through a different navigation path. For more information, see [Schedule emails of Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_ScheduleAReport.md).
 
 ## About this task
 
@@ -269,7 +269,7 @@ Condition
 
 </td><td>
 
-A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. For more information about scripts on the ServiceNow platform, see [Scripts](https://www.servicenow.com/docs/access?context=c_Script&version=australia&pubname=australia-api-reference&ft:locale=en-US).**Warning:** Conditional scripts for scheduled emails are executed in the sandbox. Therefore, function definitions are not allowed. Some API calls and keywords are also not allowed. For more information, see Script sandbox property.
+A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. For more information about scripts on the ServiceNow platform, see [Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md).**Warning:** Conditional scripts for scheduled emails are executed in the sandbox. Therefore, function definitions are not allowed. Some API calls and keywords are also not allowed. For more information, see Script sandbox property.
 
 </td></tr><tr><td>
 

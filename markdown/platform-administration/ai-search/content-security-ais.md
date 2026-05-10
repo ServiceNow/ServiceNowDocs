@@ -21,12 +21,12 @@ Content security is automatically enabled and isn't configurable.
 
 When indexing records from ServiceNow AI Platform® tables, AI Search preserves the following access control settings:
 
--   Role-based field-level [access control list rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=australia&pubname=australia-platform-security&ft:locale=en-US) \(ACLs\)
+-   Role-based field-level [access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md) \(ACLs\)
 -   Non-scripted conditional ACLs
 -   Scripted table-level ACLs
--   [Before Query business rules](https://www.servicenow.com/docs/access?context=bp-before-query-business-rules&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+-   [Before Query business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-before-query-business-rules.md)
 -   [Domain separation](ai-search-domain-separation.md)
--   [User criteria](https://www.servicenow.com/docs/access?context=t_CreateAUserCriteriaRecord&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for records indexed from the Knowledge \[kb\_knowledge\] and Catalog Item \[sc\_cat\_item\] tables
+-   [User criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAUserCriteriaRecord.md) for records indexed from the Knowledge \[kb\_knowledge\] and Catalog Item \[sc\_cat\_item\] tables
 
 AI Search doesn't support scripted field-level ACLs or conditional field-level ACLs.
 
@@ -60,7 +60,7 @@ Late binding
 
 </td><td>
 
-More computationally expensive alternate content security implementation that post-filters search query results. The system applies security filters to the search query just as early binding security does. After retrieving records that match the filtered query, it invokes the [GlideRecord.canRead\(\)](https://www.servicenow.com/docs/access?context=c_GlideRecordScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) method for each record. To appear in the search results, records must match the search query, pass all security filters, and return **true** for the API method.
+More computationally expensive alternate content security implementation that post-filters search query results. The system applies security filters to the search query just as early binding security does. After retrieving records that match the filtered query, it invokes the [GlideRecord.canRead\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) method for each record. To appear in the search results, records must match the search query, pass all security filters, and return **true** for the API method.
 
  Late binding security supports all indexed security features.
 

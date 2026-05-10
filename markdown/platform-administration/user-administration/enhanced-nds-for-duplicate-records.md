@@ -82,7 +82,7 @@ Role required: nds\_admin
 
     3.  On the form, fill in the fields.
 
-        For a description of the field values, see [Account form](https://www.servicenow.com/docs/access?context=customer-service-account-form&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+        For a description of the field values, see [Account form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-account-form.md).
 
     4.  Select **Submit**.
 

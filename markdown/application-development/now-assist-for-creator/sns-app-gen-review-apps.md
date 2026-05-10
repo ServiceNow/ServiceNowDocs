@@ -128,7 +128,7 @@ Role required: now\_assist\_panel\_user
 
         For example, select **Questions**, hover over a specific question, and select the Edit icon. Confirm that the question type and options are correct. Make any changes as needed.
 
-        For more information about record producers, see [Record Producer](https://www.servicenow.com/docs/access?context=c_RecordProducer&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+        For more information about record producers, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md).
 
     3.  Close the record producer tab.
 
@@ -168,7 +168,7 @@ Role required: now\_assist\_panel\_user
 
         For example, add or change triggers, actions, or subflows.
 
-        For more information about using Workflow Studio, see [Exploring flows](https://www.servicenow.com/docs/access?context=exploring-flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+        For more information about using Workflow Studio, see [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flows.md).
 
     3.  Close the Workflow Studio tab.
 

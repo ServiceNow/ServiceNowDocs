@@ -20,7 +20,7 @@ Configure the HR service that you want to use for creating HR cases for injuries
 Ensure that the following conditions are met:
 
 -   The Human Resources Scoped App: Core \(com.sn\_hr\_core\) plugin is installed on your ServiceNow instance. For more information on activating it, see [Activate Case and Knowledge Management](../../human-resources/task/activate-case-and-knowledge-management-scoped.md).
--   The application scope is selected as Health and Safety Case Management. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+-   The application scope is selected as Health and Safety Case Management. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: sn\_hs\_cm.case\_manager and sn\_hr\_core.admin
 

@@ -19,8 +19,8 @@ Configure connection between the MID server of Microsoft Exchange On-Premises an
 
 Ensure the following:
 
--   Install [Microsoft Exchange Server Spoke](https://www.servicenow.com/docs/access?context=msexchangeserver-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
--   [Set up the Microsoft Exchange Server spoke](https://www.servicenow.com/docs/access?context=setup-msexchange&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+-   Install [Microsoft Exchange Server Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/msexchangeserver-spoke.md).
+-   [Set up the Microsoft Exchange Server spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-msexchange.md)
 -   You must have the Microsoft Exchange Server login credentials.
 -   A user is configured in the ServiceNow® instance with the role mid\_server.
 

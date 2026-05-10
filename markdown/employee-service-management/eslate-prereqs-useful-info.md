@@ -35,7 +35,7 @@ Before you use Employee Slate, verify the following prerequisites:
 
 -   You can sign in to Employee Slate with your ServiceNow identity.
 -   You use a supported desktop browser or a mobile browser.
--   Use the admin configured the AI-driven capabilities — AI summaries, prioritization, conversational filters, and chat-driven actions — Moveworks or Now Assist that are active on the instance.
+-   Use the admin configured AI-driven capabilities — AI summaries, prioritization, conversational filters, and chat-driven actions — Moveworks or Now Assist that are active on the instance.
 
 ## Content and communications prerequisites
 

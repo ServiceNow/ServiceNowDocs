@@ -21,7 +21,7 @@ Alternatively, you can also create a custom spoke. In addition to your account c
 
 Also listed in the Translator Configurations table is a default record for the **ServiceNow** translator. This translator can be used for language detection only, not for translation, so its **Mark as default for translation** check box is not selectable. This optional language detection service is included in your Dynamic Translation subscription.
 
-**Note:** If you activate dynamic translation in the Generative AI Controller, a fully preconfigured spoke to [Microsoft Azure OEM](https://www.servicenow.com/docs/access?context=dynamic-translation-na-ms-azure-oem&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) Translator Service is added as a row in Translator Configurations.
+**Note:** If you activate dynamic translation in the Generative AI Controller, a fully preconfigured spoke to [Microsoft Azure OEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/dynamic-translation-na-ms-azure-oem.md) Translator Service is added as a row in Translator Configurations.
 
 -   **[Integrate with a translation service provider](../task/integrate-translation-service-provider.md)**  
 Integrate with a third-party translation provider of your choice for machine translation of user-generated text.

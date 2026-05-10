@@ -36,7 +36,7 @@ Role required: admin
 
             Enables you to create a simplified and task-oriented view of your process.
 
-            For more information, see [Process Automation Designer](https://www.servicenow.com/docs/access?context=process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US) platform feature.
+            For more information, see [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md) platform feature.
 
 
 ## Procedure

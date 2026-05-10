@@ -68,7 +68,7 @@ Windows: Control+Shift+F
 
 5.  Select any additional search criteria.
 
-<table id="choicetable_anv_2xz_bs"><tbody><tr><td id="d151943e246">
+<table id="choicetable_anv_2xz_bs"><tbody><tr><td id="d151947e246">
 
 **Select a table to search**
 
@@ -76,7 +76,7 @@ Windows: Control+Shift+F
 
 Search for matches only within the selected file type.
 
-</td></tr><tr><td id="d151943e255">
+</td></tr><tr><td id="d151947e255">
 
 **Search in all applications**
 

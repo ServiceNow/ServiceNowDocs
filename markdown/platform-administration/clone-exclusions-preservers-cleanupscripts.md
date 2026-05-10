@@ -41,7 +41,7 @@ All cleanup scripts run in the global scope irrespective of the scope in which y
 
 |Script|Description|
 |------|-----------|
-|Bad MID Server credentials after clone|Runs a script include called BadMIDCredentialAfterClone on a cloned instance to detect [bad MID Server user credentials](https://www.servicenow.com/docs/access?context=mid-post-clone-issue-resolution&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US). This script include creates scheduled jobs that log MID Servers in the **Down** state to the MID Server Issue \[ecc\_agent\_issue\] table after an instance clone.|
+|Bad MID Server credentials after clone|Runs a script include called BadMIDCredentialAfterClone on a cloned instance to detect [bad MID Server user credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-post-clone-issue-resolution.md). This script include creates scheduled jobs that log MID Servers in the **Down** state to the MID Server Issue \[ecc\_agent\_issue\] table after an instance clone.|
 |Clear scheduled job node association|Resets any scheduled jobs that were active on the source instance to the **Ready** state. This script also clears the value of the **System ID** and **Claimed by** fields on all scheduled jobs.|
 |Configure Email Accounts|Migrates email accounts that existed on the source instance to the target instance if they aren’t enabled there. This script also migrates the email properties to the target instance.|
 |Disable emails|Disables email on the target instance. A default data preserver maintains other email settings from the target instance.|

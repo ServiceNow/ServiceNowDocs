@@ -96,7 +96,7 @@ Email Templates
 
 </td><td>
 
-The Email Templates tab provides access to available email templates. These templates contain default values for fields that agents can add to email messages. These default values can include recipients \(email addresses in To, Cc, and Bcc\), sender, subject, and text for the message body.For more information, see [Email Templates](https://www.servicenow.com/docs/access?context=configure-email-templates&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+The Email Templates tab provides access to available email templates. These templates contain default values for fields that agents can add to email messages. These default values can include recipients \(email addresses in To, Cc, and Bcc\), sender, subject, and text for the message body.For more information, see [Email Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-email-templates.md).
 
 </td></tr><tr><td>
 

@@ -21,7 +21,7 @@ Role required: virtual\_agent\_admin or admin
 
 ## Procedure
 
-1.  Install the Agent Client Collector Spoke plugin on the instance according to the [Agent Client Collector installation](https://www.servicenow.com/docs/access?context=acc-installation&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) instructions.
+1.  Install the Agent Client Collector Spoke plugin on the instance according to the [Agent Client Collector installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-installation.md) instructions.
 
 2.  Update the sudoers file of the macOS devices with the following entry.
 
@@ -41,7 +41,7 @@ Role required: virtual\_agent\_admin or admin
 
 5.  Duplicate and activate the Local Admin Access topic in the ITSM scope.
 
-    To view, duplicate, preview, or publish IT Service Management topics in the Virtual Agent Designer, see [Getting started with Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    To view, duplicate, preview, or publish IT Service Management topics in the Virtual Agent Designer, see [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
 
 **Parent Topic:**[Setting up ITSM Virtual Agent](../concept/setting-up-itsm-va.md)

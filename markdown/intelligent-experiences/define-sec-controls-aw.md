@@ -44,7 +44,7 @@ See [Security for AI agents](../concept/aia-security-implementation.md) for more
 
     The two options are **Dynamic user** and **AI user**. The dynamic user is the user invoking the agentic workflow. An AI user is a dedicated user that has its own specified roles that allow access, which could be more than the dynamic user.
 
-    If you do not have an AI user but want to use the **AI user** identity, you need to create a new record on the User table. See [Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US). Select **AI user** as the identity type.
+    If you do not have an AI user but want to use the **AI user** identity, you need to create a new record on the User table. See [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md). Select **AI user** as the identity type.
 
     If you select **Dynamic user**, you can select the **Approved roles** that the AI agent runs with. By default, an AI agent runs as a dynamic user and has the roles of the invoking user. Select the approved roles to limit the data access that an AI agent could have. Role masking must be applied for all AI agents and agentic workflows set to run as dynamic users.
 

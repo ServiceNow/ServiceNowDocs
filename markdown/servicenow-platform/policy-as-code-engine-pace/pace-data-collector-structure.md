@@ -23,7 +23,7 @@ When you create a data collector, you can add inputs and outputs in the Javascri
 
 The following image shows a sample data collector:
 
-To debug the data collector script, select the Debugger script icon ![Debugger icon](../image/pace-debug-icon.jpg). For more information, see [Script Debugger API](https://www.servicenow.com/docs/access?context=scriptdebugger-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+To debug the data collector script, select the Debugger script icon ![Debugger icon](../image/pace-debug-icon.jpg). For more information, see [Script Debugger API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/scriptdebugger-api.md).
 
 The following table lists the data collector function parameters and how they can be used in the script.
 

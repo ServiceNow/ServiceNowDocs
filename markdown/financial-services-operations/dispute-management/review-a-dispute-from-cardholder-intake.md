@@ -43,15 +43,15 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 6.  Under the **Review** playbook stage, review the submitted information and make any necessary adjustments.
 
-<table id="choicetable_fwv_5cd_1cc"><thead><tr><th align="left" id="d111882e173">
+<table id="choicetable_fwv_5cd_1cc"><thead><tr><th align="left" id="d112220e173">
 
 Activity
 
-</th><th align="left" id="d111882e176">
+</th><th align="left" id="d112220e176">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d111882e182">
+</th></tr></thead><tbody><tr><td id="d112220e182">
 
 **Review intake**
 
@@ -71,7 +71,7 @@ Review the disputed transactions and the reason for dispute.
 
  **Note:** In case of integration with Visa and Mastercard APIs, if an error displays, refer to the **Activity stream** to see the error cause, resolve it and then select **Continue** to be able to proceed to the next activity.
 
-</td></tr><tr><td id="d111882e239">
+</td></tr><tr><td id="d112220e239">
 
 **Additional questions**
 
@@ -79,7 +79,7 @@ Review the disputed transactions and the reason for dispute.
 
 Provide answers to any additional questions not answered by the customer and update any additional questions as required. If the dispute category changes, the system will produce a questionnaire for the newly selected category, which you must fill out. Select **Continue** when you have finished the questionnaire.
 
-</td></tr><tr><td id="d111882e251">
+</td></tr><tr><td id="d112220e251">
 
 **Customer signature required**
 
@@ -95,7 +95,7 @@ For compliance purposes, inform the customer to sign a written statement for the
 
  **Note:** In order for users to view the Written Statement of Unauthorized Debit \(WSUD\) document, the Document Templates \[sn\_doc\] plugin must be activated.
 
-</td></tr><tr><td id="d111882e278">
+</td></tr><tr><td id="d112220e278">
 
 **Submit for investigation**
 

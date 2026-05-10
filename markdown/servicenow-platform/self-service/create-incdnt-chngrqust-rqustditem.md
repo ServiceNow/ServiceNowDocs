@@ -17,7 +17,7 @@ You can quickly open an incident or a change request from a requested item. It a
 
 ## Before you begin
 
-The administrator must enable the **Create Change** and **Create Incident** UI actions for the Requested Item \[sc\_req\_item\] table. The administrator must set the **Active** field to `true` when [editing these UI actions](https://www.servicenow.com/docs/access?context=t_EditingAUIAction&version=australia&pubname=australia-platform-administration&ft:locale=en-US) .
+The administrator must enable the **Create Change** and **Create Incident** UI actions for the Requested Item \[sc\_req\_item\] table. The administrator must set the **Active** field to `true` when [editing these UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md) .
 
 Role required: itil
 

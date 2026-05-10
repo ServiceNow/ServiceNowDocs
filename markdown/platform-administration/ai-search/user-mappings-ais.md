@@ -15,7 +15,7 @@ breadcrumb: [External content security, Indexing and searching external content,
 
 AI Search external user mappings enable you to configure externally defined user and group aliases for ServiceNow AI Platform users. AI Search uses these aliased security principals to apply content security filters that control user access to search results indexed from external documents.
 
-You can use mapped external user and group names when defining access permissions for external documents that you ingest for indexing via the [External Content Ingestion API](https://www.servicenow.com/docs/access?context=external-content-ingestion-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+You can use mapped external user and group names when defining access permissions for external documents that you ingest for indexing via the [External Content Ingestion API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/external-content-ingestion-api.md).
 
 ## External content security user mapping overview
 
@@ -26,7 +26,7 @@ To configure user mappings for external content security, you must perform the f
 
     **Note:** If no mapping is found for the current ServiceNow AI Platform user, AI Search only allows the user to view search results for external documents that have the **everyone** permission set to **true**. This can occur if no user mapping table is linked to a search result's indexed source, or if no mapping for the current ServiceNow AI Platform user exists in the indexed source's linked user mapping table.
 
-3.  Import user mappings into your user mapping tables with the [AI Search External User Mapping API](https://www.servicenow.com/docs/access?context=ext-user-mapping-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+3.  Import user mappings into your user mapping tables with the [AI Search External User Mapping API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ext-user-mapping-api.md).
 
 Users with the ais\_high\_security\_admin role can review history records for import operations to verify that user mappings imported correctly. For instructions on this procedure, see [View history records for user mapping import operations](user-mappings-ais.md#).
 
@@ -90,7 +90,7 @@ All user mapping tables extend the AI Search External Search User Mapping Base \
 
 ### What to do next
 
-Import user mappings into your new user mapping table. For an overview of this process, see [Importing user mappings](user-mappings-ais.md#). For details on the relevant API endpoint, see [AI Search External User Mapping API](https://www.servicenow.com/docs/access?context=ext-user-mapping-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Import user mappings into your new user mapping table. For an overview of this process, see [Importing user mappings](user-mappings-ais.md#). For details on the relevant API endpoint, see [AI Search External User Mapping API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ext-user-mapping-api.md).
 
 ## Link a user mapping table to an external content indexed source
 
@@ -139,7 +139,7 @@ To define a user mapping for import, you need the following information:
 -   The list of externally defined groups that you want to alias to the ServiceNow AI Platform user. This list can be empty.
 -   The list of externally defined users that you want to alias to the ServiceNow AI Platform user. This list can be empty.
 
-For more information on importing user mappings, see [AI Search External User Mapping API](https://www.servicenow.com/docs/access?context=ext-user-mapping-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For more information on importing user mappings, see [AI Search External User Mapping API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ext-user-mapping-api.md).
 
 ## View history records for user mapping import operations
 
@@ -151,7 +151,7 @@ Role required: ais\_admin, ais\_high\_security\_admin, and import\_transformer.
 
 ### About this task
 
-AI Search creates an import set for each batch of user mappings that you import via the [AI Search External User Mapping API](https://www.servicenow.com/docs/access?context=ext-user-mapping-api&version=australia&pubname=australia-api-reference&ft:locale=en-US). The transform histories for these import sets provide insight into the results of your user mapping import operations.
+AI Search creates an import set for each batch of user mappings that you import via the [AI Search External User Mapping API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ext-user-mapping-api.md). The transform histories for these import sets provide insight into the results of your user mapping import operations.
 
 ### Procedure
 

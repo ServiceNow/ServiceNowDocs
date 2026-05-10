@@ -33,8 +33,8 @@ Applications, such as Discovery and Orchestration, can specify an IP range or th
 These applications use IP ranges as follows:
 
 -   **Orchestration**: Use the IP address of the target machine \(together with the capability\) to select the correct MID Server for Orchestration activities. See the procedure in this topic to configure the IP address.
--   **Service Mapping**: Select the MID Server whose IP address range matches the IP in the discovery request. See [MID Server configuration for Service Mapping](https://www.servicenow.com/docs/access?context=configure-mid-service-mapping&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) for more information.
--   **Discovery**: Can select an IP address range using the same criteria as Service Mapping. Discovery can also use a [quick IP range](https://www.servicenow.com/docs/access?context=discovery-ip-address-configuration&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) that you specify in the Discovery schedule.
+-   **Service Mapping**: Select the MID Server whose IP address range matches the IP in the discovery request. See [MID Server configuration for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/configure-mid-service-mapping.md) for more information.
+-   **Discovery**: Can select an IP address range using the same criteria as Service Mapping. Discovery can also use a [quick IP range](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-ip-address-configuration.md) that you specify in the Discovery schedule.
 
 **Tip:** You can also use the **ALL** IP range, which allows the MID Server to be used with any range of IP addresses that an application specifies. This only allows the MID Server to access IP ranges, it does not mean that the MID Server can actually reach all of the IP ranges. To function with an application, the MID server must have access to the IP ranges that the application needs.
 
@@ -127,7 +127,7 @@ The MID Servers that can use this IP address range.
 </td></tr></tbody>
 </table>4.  Click **Save**.
 
-    **Important:** IP ranges assigned manually prior to using auto-assignment in the [Discovery Quick Start](https://www.servicenow.com/docs/access?context=discovery-quick-start&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) are affected as follows:
+    **Important:** IP ranges assigned manually prior to using auto-assignment in the [Discovery Quick Start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-quick-start.md) are affected as follows:
 
     -   Individual IP ranges are retained and appended to the ranges assigned automatically by the system for the designated MID Server.
     -   If the MID Server was configured with the **ALL** ranges selection, the auto-assignment feature overwrites that designation with the ranges it finds.

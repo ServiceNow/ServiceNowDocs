@@ -17,12 +17,12 @@ These integrations are considered part of the platform and are provided at no ad
 
 |Integration|Type|Integration Point|
 |-----------|----|-----------------|
-|Altiris \(version 6.5\)|[MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|CMDB|
-|Google Maps|[Web services](https://www.servicenow.com/docs/access?context=r_AvailableWebServices&version=australia&pubname=australia-api-reference&ft:locale=en-US)|Varies|
-|Google Custom Search|[Web services](https://www.servicenow.com/docs/access?context=r_AvailableWebServices&version=australia&pubname=australia-api-reference&ft:locale=en-US)|Knowledge|
-|Integration — IBM Watson Conversation Service|[Web services](https://www.servicenow.com/docs/access?context=r_AvailableWebServices&version=australia&pubname=australia-api-reference&ft:locale=en-US)|Varies|
-|Microsoft SMS / SCCM|[MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|CMDB|
-|Verizon eBonding|[Web services](https://www.servicenow.com/docs/access?context=r_AvailableWebServices&version=australia&pubname=australia-api-reference&ft:locale=en-US)|Incident|
+|Altiris \(version 6.5\)|[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md)|CMDB|
+|Google Maps|[Web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_AvailableWebServices.md)|Varies|
+|Google Custom Search|[Web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_AvailableWebServices.md)|Knowledge|
+|Integration — IBM Watson Conversation Service|[Web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_AvailableWebServices.md)|Varies|
+|Microsoft SMS / SCCM|[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md)|CMDB|
+|Verizon eBonding|[Web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_AvailableWebServices.md)|Incident|
 
 -   **[Set up Google Maps API](../../../administer/navigation-and-ui/task/set-up-google-maps-api.md)**  
 You enable the geolocation feature using the appropriate entries from a Google Maps API for Business license, or a Google Maps JavaScript API Key.

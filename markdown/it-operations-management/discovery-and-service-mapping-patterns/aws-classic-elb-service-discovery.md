@@ -33,7 +33,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   https://elasticloadbalancing.&lt;REGION&gt;.amazonaws.com/?Action=DescribeLoadBalancers&amp;Version=2012-06-01&amp;LoadBalancerNames.member.1=&lt;LB\_NAME&gt;
     -   https://ec2.&lt;REGION&gt;.amazonaws.com/?Action=DescribeInstances&amp;Version=2016-11-15&amp;Filter.1.Name=instance-state-name&amp;Filter.1.Value=running&amp;Filter.2.Name=instance-id&amp;Filter.2.Value=&lt;INSTANCE\_ID&gt; \(to create relation between LB and EC2 instance\)
 -   For Cloud Discovery, download the Discovery and Service Mapping Patterns from the ServiceNow Store.
--   When installing the MID Server, ensure that the host machine meets or exceeds the [MID Server system requirements](https://www.servicenow.com/docs/access?context=r_MIDServerSystemRequirements&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) published on the ServiceNow documentation site.
+-   When installing the MID Server, ensure that the host machine meets or exceeds the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md) published on the ServiceNow documentation site.
 
 ## Verify the REST API Permissions
 

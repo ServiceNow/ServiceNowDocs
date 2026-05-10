@@ -18,7 +18,7 @@ If Sidebar is integrated with the activity stream, you can create links to discu
 
 **Note:** Sidebar and discussion tiles are available only with Next Experience and not in Core UI.
 
-When a Sidebar discussion is created, a corresponding Sidebar discussion tile is automatically added to the activity stream. Users who have access to the record can also access the discussion from the activity stream. Sidebar users can post messages from discussions into the activity stream as Sidebar posted messages. These messages can be posted to the activity stream as editable entries that can be added and removed as necessary. For generalized information about activity streams, see [Activity streams](https://www.servicenow.com/docs/access?context=c_activity-streams&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+When a Sidebar discussion is created, a corresponding Sidebar discussion tile is automatically added to the activity stream. Users who have access to the record can also access the discussion from the activity stream. Sidebar users can post messages from discussions into the activity stream as Sidebar posted messages. These messages can be posted to the activity stream as editable entries that can be added and removed as necessary. For generalized information about activity streams, see [Activity streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_activity-streams.md).
 
 When you start a Sidebar discussion, a tile corresponding to the discussion is automatically added to the activity stream.
 

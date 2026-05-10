@@ -49,7 +49,7 @@ Role required: admin
 
         **Note:** Requires the phone number to match and also for end user to identify user's personal Soft Pin registered with the customer’s ServiceNow record, in addition to have the end user authenticate using MFA.
 
-    To set up your end users with Soft PIN or MFA, see [Configure your Password Reset process to auto-enroll users](https://www.servicenow.com/docs/access?context=configure-auto-enroll-for-pwd-reset&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    To set up your end users with Soft PIN or MFA, see [Configure your Password Reset process to auto-enroll users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/configure-auto-enroll-for-pwd-reset.md).
 
 8.  Provide the authentication details as per the selected authentication style.
 
@@ -69,7 +69,7 @@ Role required: admin
 
         **Note:** This option is only available for Phone + Soft PIN and Phone + Soft PIN + MFA.
 
-    Changing the values or messages updates the record on the Password Reset verification record. For more information, see [Configure your Password Reset process to auto-enroll users](https://www.servicenow.com/docs/access?context=configure-auto-enroll-for-pwd-reset&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+    Changing the values or messages updates the record on the Password Reset verification record. For more information, see [Configure your Password Reset process to auto-enroll users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/configure-auto-enroll-for-pwd-reset.md)
 
 9.  Click **Save**.
 

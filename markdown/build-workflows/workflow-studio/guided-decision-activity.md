@@ -21,7 +21,7 @@ This activity is available with a subscription to App Engine or Customer Service
 
 ## Inputs
 
-Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://www.servicenow.com/docs/access?context=dot-walking-examples&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dot-walking-examples.md).
 
 <table id="table_ajt_sr3_plb"><thead><tr><th>
 
@@ -106,7 +106,7 @@ After configuring the required inputs for your activity, you can also choose to 
 
 |Input|Type|Description|
 |-----|----|-----------|
-|Decision Tree|Reference|The Decision Tree \[ga\_decision\_tree\] record whose decision inputs and guidance you want to show to agents in the Workspace playbook. For more information on how to set up the Guided Decisions framework, see [Configuring Guided Decisions](https://www.servicenow.com/docs/access?context=setting-up-guided-decisions&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).|
+|Decision Tree|Reference|The Decision Tree \[ga\_decision\_tree\] record whose decision inputs and guidance you want to show to agents in the Workspace playbook. For more information on how to set up the Guided Decisions framework, see [Configuring Guided Decisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-guided-decisions.md).|
 |Task|Reference|The triggering Case \[sn\_customerservice\_case\] record.|
 
 ## Outputs

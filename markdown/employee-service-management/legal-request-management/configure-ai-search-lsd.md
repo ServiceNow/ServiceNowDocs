@@ -43,11 +43,11 @@ Role required: admin
 
     4.  In the **Search Application** field, select **Legal Service Portal Default Search Application**.
 
-        A search application configuration defines search experience settings, such as the search engine, search results limit, and suggestions limit. A search application configuration is selected by default, but you can change it as needed. For more information on defining a search application configuration, see [Search application configurations](https://www.servicenow.com/docs/access?context=defining-search-app-cfgs-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+        A search application configuration defines search experience settings, such as the search engine, search results limit, and suggestions limit. A search application configuration is selected by default, but you can change it as needed. For more information on defining a search application configuration, see [Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-app-cfgs-ais.md).
 
     5.  In the **Search Results Configuration** field, select **Legal Portal Search**.
 
-        A search results configuration defines how search results are displayed. A search results configuration is selected by default, but you can change it as needed. For more information on defining a search results configuration, see [Create an EVAM definition](https://www.servicenow.com/docs/access?context=define-composite-dataset&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+        A search results configuration defines how search results are displayed. A search results configuration is selected by default, but you can change it as needed. For more information on defining a search results configuration, see [Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-composite-dataset.md).
 
     6.  Click **Update**.
 

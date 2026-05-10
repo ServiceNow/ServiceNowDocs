@@ -53,7 +53,7 @@ State of the subflow. Possible values are:-   completed: All steps are complete.
 -   failed: At least one step failed because of invalid configurations such as missing subflow or step configurations.
 
 </td></tr></tbody>
-</table>For information about subflow field types, see [Field types](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+</table>For information about subflow field types, see [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
 
 If your organization has processes to be run before or after the service fulfillment steps, create a flow and ensure that it is configured as a step-based service fulfillment flow.
 
@@ -63,7 +63,7 @@ If your organization has processes to be run before or after the service fulfill
 
     Ensure that the Service Fulfillment Steps base flow subflow is called from this flow.
 
-    For information about creating a flow with Service Catalog trigger type, see [Create a flow with a Service Catalog trigger](https://www.servicenow.com/docs/access?context=create-sc-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For information about creating a flow with Service Catalog trigger type, see [Create a flow with a Service Catalog trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-sc-flow.md).
 
 2.  Register the flow as service fulfillment flow.
 

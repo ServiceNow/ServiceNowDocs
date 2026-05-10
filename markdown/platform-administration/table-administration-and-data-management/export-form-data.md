@@ -33,7 +33,7 @@ A PDF is generated only if the form has been submitted. An unsubmitted form gene
 
 3.  Select an export option.
 
-    **Note:** For export to PDF, when the accessibility property is enabled, users will get a pop up when they export to PDF where they can specify whether to create an accessible PDF or not. For more information, see [PDF generation and accessibility](https://www.servicenow.com/docs/access?context=pdf-generation-accessibility&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    **Note:** For export to PDF, when the accessibility property is enabled, users will get a pop up when they export to PDF where they can specify whether to create an accessible PDF or not. For more information, see [PDF generation and accessibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/pdf-generation-accessibility.md).
 
     -   To export the form data to PDF in portrait mode, select **Export** &gt; **PDF** &gt; **Portrait**, select **Export**.
     -   To export the form data to PDF in landscape mode, select **Export** &gt; **PDF** &gt; **Landscape**, select **Export**.

@@ -17,7 +17,7 @@ Users can only find translated dashboards under certain configurations. You can 
 
 ## Before you begin
 
-On instances with language plugins enabled, the application first determines the database behind the instance. If the database is MySQL, then it looks for the user's session language and searches for the translated dashboard. For more information about language plugins, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+On instances with language plugins enabled, the application first determines the database behind the instance. If the database is MySQL, then it looks for the user's session language and searches for the translated dashboard. For more information about language plugins, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 
 The search function only works for translated dashboards when the instance uses the MySQL database and the dashboard translation is provided.
 

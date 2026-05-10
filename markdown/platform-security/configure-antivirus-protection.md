@@ -27,15 +27,15 @@ Antivirus Scanning is active by default in your instance, where it automatically
 
 2.  As you configure the feature, consider the following.
 
-<table id="choicetable_ezd_bvf_2gb"><thead><tr><th align="left" id="d121625e80">
+<table id="choicetable_ezd_bvf_2gb"><thead><tr><th align="left" id="d121837e80">
 
 Option
 
-</th><th align="left" id="d121625e83">
+</th><th align="left" id="d121837e83">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d121625e89">
+</th></tr></thead><tbody><tr><td id="d121837e89">
 
 **Enable Antivirus scanning**
 
@@ -43,7 +43,7 @@ Description
 
 Antivirus scanning is active and enabled on the instance by default, its toggle is set to the on position and appears green. **Note:** To set the property to be `false` contact customer support.
 
-</td></tr><tr><td id="d121625e106">
+</td></tr><tr><td id="d121837e106">
 
 **Allow attachments to be downloaded when Antivirus scanner is unavailable**
 
@@ -51,7 +51,7 @@ Antivirus scanning is active and enabled on the instance by default, its toggle 
 
 If this option is set to the on position, antivirus scanning is bypassed if the scanner times out, and a response can’t be obtained. In this situation, the file download proceeds without completing the scan. If the option is set to off, the file download is prohibited until the scan can complete successfully.
 
-</td></tr><tr><td id="d121625e115">
+</td></tr><tr><td id="d121837e115">
 
 **List of Tables Excluded**
 

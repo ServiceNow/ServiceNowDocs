@@ -119,7 +119,7 @@ The decision table is provided with the Technology Product Support Case applicat
 
  To enable the diagnostic activity in the troubleshoot stage, select the case category in the decision table as Issue, the diagnostic activity field is field is updated to True.
 
- The status can be changed to False by the agent. For more details on updating decision tables, see [Decision Tables](https://www.servicenow.com/docs/access?context=decision-table&version=australia&pubname=australia-application-development&ft:locale=en-US).
+ The status can be changed to False by the agent. For more details on updating decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-tables/decision-table.md).
 
  The agent can view and do the following actions in these tabs:
 
@@ -276,7 +276,7 @@ The Technology Product Case Troubleshoot recommended actions rule:
     -   **Start discussion**: starts a Sidebar discussion.
     -   **Dismiss**: dismisses the recommendation card.
 
-For more information, see [Recommended Actions](https://www.servicenow.com/docs/access?context=configure-nba&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+For more information, see [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-nba.md).
 
 **Parent Topic:**[Technology Product Support Case playbook](tech-product-support-playbook.md)
 

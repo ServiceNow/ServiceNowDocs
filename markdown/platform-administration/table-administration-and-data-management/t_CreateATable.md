@@ -25,7 +25,7 @@ Check your custom table entitlements before creating custom tables. See [Managin
 
 ServiceNow AI Platform application subscriptions include custom table entitlements. You can create custom tables for any purpose, up to the entitlement limit in the subscription. To learn more about how your usage administrator maps the custom tables that you create to subscriptions, see [Map custom tables to a product subscription in Subscription Management](../../subscription-management/task/allocate-custom-table-subsc-app-v2.md).
 
-**Note:** It is best to create tables when building applications with tools. To learn more, see [Building applications](https://www.servicenow.com/docs/access?context=build-applications&version=australia&pubname=australia-application-development&ft:locale=en-US). To minimize the existence of unneeded and extraneous tables in an instance, don't overdo table creation. Create only those tables you need to minimize administration tasks and shorten upgrade times. Do not extend the \[sys\_choice\] table. Extending the \[sys\_choice\] table is not supported.
+**Note:** It is best to create tables when building applications with tools. To learn more, see [Building applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-applications.md). To minimize the existence of unneeded and extraneous tables in an instance, don't overdo table creation. Create only those tables you need to minimize administration tasks and shorten upgrade times. Do not extend the \[sys\_choice\] table. Extending the \[sys\_choice\] table is not supported.
 
 ## Procedure
 
@@ -93,9 +93,9 @@ Option to designate this table as a remote table. A remote table is a table to w
 
  **Note:** To learn more about scriptable tables, see:
 
--   [Retrieving and caching external data using remote tables](https://www.servicenow.com/docs/access?context=remote-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Create a remote table](https://www.servicenow.com/docs/access?context=create-remote-table&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Create a script definition for a remote table](https://www.servicenow.com/docs/access?context=create-remote-table-script&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   [Retrieving and caching external data using remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-tables.md)
+-   [Create a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/create-remote-table.md)
+-   [Create a script definition for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/create-remote-table-script.md)
 
 
 </td></tr><tr><td>
@@ -199,7 +199,7 @@ Indicate whether this field is the [Display values](../../field-administration/c
 
 6.  In the **Application Access** section, define the scope protection for the table.
 
-    For more information, see [Application access settings](https://www.servicenow.com/docs/access?context=c_ApplicationAccessSettings&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    For more information, see [Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationAccessSettings.md).
 
 <table id="table_xwp_pny_wt"><thead><tr><th>
 
@@ -269,7 +269,7 @@ Allow access to this table via web services
 
 </td><td>
 
-Select the check box to enable users to make inbound [Web services](https://www.servicenow.com/docs/access?context=r_AvailableWebServices&version=australia&pubname=australia-api-reference&ft:locale=en-US) web service queries to this table. This option offers both design-time and runtime protection. The user performing the query must have the correct permissions to access this table, even when this check box is selected.
+Select the check box to enable users to make inbound [Web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_AvailableWebServices.md) web service queries to this table. This option offers both design-time and runtime protection. The user performing the query must have the correct permissions to access this table, even when this check box is selected.
 
  Clear the check box to prevent users from making web service queries to this table.
 

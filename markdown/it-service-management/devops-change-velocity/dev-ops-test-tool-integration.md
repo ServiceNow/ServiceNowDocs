@@ -17,7 +17,7 @@ Test tool integration lets you view test results in DevOps for Jenkins, Azure De
 
 For GitLab and Jenkins, only JUnit test type integration is supported.
 
-**Note:** For other test types, use the [DevOps - POST /devops/tool/\{capability\}](https://www.servicenow.com/docs/access?context=devops-api&version=australia&pubname=australia-api-reference&ft:locale=en-US) endpoint of the [DevOps API](https://www.servicenow.com/docs/access?context=devops-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+**Note:** For other test types, use the [DevOps - POST /devops/tool/\{capability\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/devops-api.md) endpoint of the [DevOps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/devops-api.md).
 
 -   Selenium tests run and published using TestNG are reported by the Jenkins plugin for ServiceNow DevOps.
 -   Test type categorization is supported.

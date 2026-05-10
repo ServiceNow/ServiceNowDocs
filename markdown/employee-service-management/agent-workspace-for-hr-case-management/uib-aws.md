@@ -15,7 +15,7 @@ breadcrumb: [Setting up Agent Workspace for HR Case Management, Agent Workspace,
 
 Use UI Builder to build pages in Agent Workspace for HR Case Management using Next Experience and custom web components.
 
-For more information about UI Builder, see [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For more information about UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
 
 -   **[Create a landing page variant](../task/configure-report-aws.md)**  
 Create a variant of your landing page to build a custom portal experience for your users.

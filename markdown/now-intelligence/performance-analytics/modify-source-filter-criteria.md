@@ -49,5 +49,5 @@ The interactive analysis updates with the new source filter. The **Filter Info**
 **Related topics**  
 
 
-[Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md)
 

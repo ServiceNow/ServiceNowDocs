@@ -21,7 +21,7 @@ Role required: sn\_imt\_tracing.badge\_manager
 
 ## About this task
 
-You can also import your badge reader data from an Excel spreadsheet. For more information, see [Easy import data from a list](https://www.servicenow.com/docs/access?context=c_EasyImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+You can also import your badge reader data from an Excel spreadsheet. For more information, see [Easy import data from a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/easy-import/c_EasyImport.md).
 
 ## Procedure
 

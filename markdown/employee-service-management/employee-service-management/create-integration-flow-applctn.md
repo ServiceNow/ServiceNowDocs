@@ -14,7 +14,7 @@ Create the integration flow with your preferred ATS to pull in data.
 
 ## Use Integration Hub
 
-Use the Integration Hub to integrate Talent Acquisition with your preferred ATS to receive the data on the application and applicant details. For more information, see [Integration Hub spokes](https://www.servicenow.com/docs/access?context=spokes-list&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+Use the Integration Hub to integrate Talent Acquisition with your preferred ATS to receive the data on the application and applicant details. For more information, see [Integration Hub spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/spokes-list.md).
 
 ## Supporting actions
 

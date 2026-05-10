@@ -19,7 +19,7 @@ The ServiceNow® retail applications streamline frontline operations and custome
 -   Schedule and manage recurring tasks such as daily store opening procedures with parent cases for store-level tracking.
 -   Fulfillment of store case and task for regional managers and store teams through Retail mobile app.
 
-See [Retail](https://www.servicenow.com/docs/access?context=rahi-retail-operations-overview&version=australia&pubname=australia-retail-industry&ft:locale=en-US) for more information.
+See [Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-overview.md) for more information.
 
 **Important:** Retail is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -27,7 +27,7 @@ See [Retail](https://www.servicenow.com/docs/access?context=rahi-retail-operatio
 
 This section describes new features and enhancements in this release.
 
--   **[Manage store plans](https://www.servicenow.com/docs/access?context=rahi-retail-manage-store-plans&version=australia&pubname=australia-retail-industry&ft:locale=en-US)**
+-   **[Manage store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-store-plans.md)**
 
     Store plans provide new capabilities for HQ and regional managers to create operational plans, schedule recurring tasks, and fulfill the tasks through the Retail mobile application.
 
@@ -48,11 +48,11 @@ Install the Retail applications by requesting them from the ServiceNow Store. Vi
 
 ## Related ServiceNow applications and features
 
--   **[Customer Service Management](https://www.servicenow.com/docs/access?context=c_CustomerServiceManagement&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)**
 
     The ServiceNow ® Customer Service Management \(CSM\) application provides the foundation for the Retail Core application. Leverage the functionality of CSM applications to provide support to customers as well as retail sites.
 
--   **[Field Service Management](https://www.servicenow.com/docs/access?context=fsm-application-landing-page&version=australia&pubname=australia-field-service-management&ft:locale=en-US)**
+-   **[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md)**
 
     The ServiceNow ® Field Service Management application aligns with Retail Core by providing capabilities such as work orders for use by each retail location that uses the Retail Core application.
 

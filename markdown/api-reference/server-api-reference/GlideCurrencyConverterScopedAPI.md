@@ -20,7 +20,7 @@ You can instantiate the GlideCurrencyConverter object and define the source and 
 The GlideCurrencyConverter API also provides optional methods that enable you to:
 
 -   Set the date and time for which to perform the conversion, setDateTime\(\). By setting the date and time, the rate that is used in the conversion calculation is that for the specified date and time, instead of the default of the current date and time.
--   Set the rate table to use in the conversion, setRateTable\(\). By default the conversion uses the fx\_system\_rate table however, you can define custom rate tables for your instance. For additional information on creating rate tables, see [Add conversion rates using a custom rate table](https://www.servicenow.com/docs/access?context=custom-rate-table&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Set the rate table to use in the conversion, setRateTable\(\). By default the conversion uses the fx\_system\_rate table however, you can define custom rate tables for your instance. For additional information on creating rate tables, see [Add conversion rates using a custom rate table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/custom-rate-table.md).
 
 This API is provided within the `sn_currency` namespace.
 
@@ -226,7 +226,7 @@ var conv = new sn_currency.GlideCurrencyConverter().setFromCurrency('FRA');
 
 Defines the rate table to use in the currency conversion.
 
-If this method is not called before the GlideCurrencyConverter.convert\(\) method is called, the conversion is performed using the fx\_system\_rate table. All custom rate tables must extend the fx\_conversion\_rate table. For additional information on creating rate tables, see [Add conversion rates using a custom rate table](https://www.servicenow.com/docs/access?context=custom-rate-table&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+If this method is not called before the GlideCurrencyConverter.convert\(\) method is called, the conversion is performed using the fx\_system\_rate table. All custom rate tables must extend the fx\_conversion\_rate table. For additional information on creating rate tables, see [Add conversion rates using a custom rate table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/custom-rate-table.md).
 
 |Name|Type|Description|
 |----|----|-----------|

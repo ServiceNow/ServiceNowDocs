@@ -21,7 +21,7 @@ Role required: sn\_cmdb\_admin or admin
 
 ## About this task
 
-The icons used in Dependency Views maps are listed in the Map Icons module. Records in the **Map Icons** list are arranged by CI classes, such as cmdb\_ci\_linux\_server. The path to the default image files is https://&lt;instance name&gt;.service-now.com/images/app.ngbsm/&lt;image name.svg&gt;. For information about uploading images to the database, see [Storing images in the database](https://www.servicenow.com/docs/access?context=c_StoringImagesInTheDatabase&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+The icons used in Dependency Views maps are listed in the Map Icons module. Records in the **Map Icons** list are arranged by CI classes, such as cmdb\_ci\_linux\_server. The path to the default image files is https://&lt;instance name&gt;.service-now.com/images/app.ngbsm/&lt;image name.svg&gt;. For information about uploading images to the database, see [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md).
 
 Role required: admin or cmdb\_admin roles are required to access the records in this table \[ngbsm\_icon\] to upload new icons.
 

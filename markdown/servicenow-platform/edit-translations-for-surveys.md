@@ -15,7 +15,7 @@ Edit the translations for surveys, and after you make the changes, you can publi
 
 ## Before you begin
 
-You must install the Localization Framework Installer plugin \(com.glide.localization\_framework.installer\) before you begin to edit the translations for a survey. To know more, see [Localization Framework](https://www.servicenow.com/docs/access?context=localization-framework-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+You must install the Localization Framework Installer plugin \(com.glide.localization\_framework.installer\) before you begin to edit the translations for a survey. To know more, see [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-framework-landing.md).
 
 Role required: localization\_editor
 
@@ -30,7 +30,7 @@ Role required: localization\_editor
     You can do the following actions while editing translations:
 
     -   Edit translations manually.
-    -   Use machine translation \(if you have configured in Localization Framework settings\) to translate the fields, which are not translated. For more information about machine translation, see [Create a translator configuration](https://www.servicenow.com/docs/access?context=create-custom-translator&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    -   Use machine translation \(if you have configured in Localization Framework settings\) to translate the fields, which are not translated. For more information about machine translation, see [Create a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-custom-translator.md).
     -   Export files for translation. To export files, click **Export Source File**, choose the file type, and then click **Export File**.
     -   Import translated files to update the translations. To import files, from the **Export Source File** list, select **Import Translated File**.
 4.  After your changes are completed, click **Publish Translations**.

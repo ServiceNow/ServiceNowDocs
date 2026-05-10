@@ -56,7 +56,7 @@ If the **Email notification** and **Now Mobile Push notification** check boxes a
                 }
         ```
 
-        For information about JavaScript APIs for GlideRecord, see [GlideRecord - Scoped](https://www.servicenow.com/docs/access?context=c_GlideRecordScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+        For information about JavaScript APIs for GlideRecord, see [GlideRecord - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
     3.  Click **Submit**.
 
@@ -85,7 +85,7 @@ If the **Email notification** and **Now Mobile Push notification** check boxes a
 
     1.  Create a subflow to use in the outreach notification.
 
-        For information about creating, publishing, and testing subflows, see [Subflows](https://www.servicenow.com/docs/access?context=subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+        For information about creating, publishing, and testing subflows, see [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
 
         Use the following inputs in the subflow that you create:
 

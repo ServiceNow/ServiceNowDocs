@@ -35,7 +35,7 @@ Scoring for probable root causes is determined by the following criteria, in the
 4.  Change on a related CI/change on an application service/change on software.
 5.  Alert on the CI that originates from topology.
 
-To disable the Probable Root Cause Analysis feature, you must create the property **sa\_analytics.disable\_prc** and set the value to `true`. For more information on how to create a property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To disable the Probable Root Cause Analysis feature, you must create the property **sa\_analytics.disable\_prc** and set the value to `true`. For more information on how to create a property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 -   **[Customize RCA settings](../task/set-rca-change-query-filters.md)**  
 Modify default settings that determine RCA behavior.

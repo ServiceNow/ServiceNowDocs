@@ -23,7 +23,7 @@ Role required: sn\_imt\_core.admin
 
 Use health and safety requirements to define the requirements that employees must fulfill before they can return to the workplace, or that visitors must fulfill before entering the workplace. Create separate requirements for employees and visitors. A requirement must apply to either employees or visitors, not both. Employee Readiness Core provides some [pre-built requirements](../reference/included-health-safety-requirements.md). However, you can create additional requirements using data from any of the Safe Workplace suite or Emergency Response Management apps.
 
-Health and safety requirements are built with [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=australia&pubname=australia-application-development&ft:locale=en-US). Before creating a requirement, make sure that you're familiar with the basics of ServiceNow® Workflow Studio.
+Health and safety requirements are built with [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md). Before creating a requirement, make sure that you're familiar with the basics of ServiceNow® Workflow Studio.
 
 The following steps show how to create a requirement using the pre-built Employee Health Verification Requirement as an example.
 

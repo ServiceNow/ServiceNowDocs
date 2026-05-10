@@ -252,7 +252,7 @@ You can add a longer, detailed description after the HR case is created. Use the
 
         You can add comments or work notes to the case to provide details about the case. **Work notes** are not visible to the **Subject person**.
 
-        **Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see [Dynamic translation](https://www.servicenow.com/docs/access?context=dynamic-translation-overview&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+        **Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see [Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md).
 
         If your company uses templated snippets and depending on the conditions defined, the **Responses** button appears in the form header:
 

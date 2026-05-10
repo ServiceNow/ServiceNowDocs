@@ -18,7 +18,7 @@ Learn how you can configure Advanced Work Assignment to automatically route case
 Before you begin:
 
 -   Activate the Skills Management \(com.snc.skills\_management\) plugin.
--   A basic understanding of the [Skills Management](https://www.servicenow.com/docs/access?context=skills-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) feature is required.
+-   A basic understanding of the [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skills-management.md) feature is required.
 -   To have skills automatically assigned to cases, consider activating the Skill Determination \(com.snc.skill\_determination\) plugin.
 -   Create a group of users who work in customer support.
 -   Assign the awa\_agent and workspace\_agent roles to the customer support group.

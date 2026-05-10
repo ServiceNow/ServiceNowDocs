@@ -20,7 +20,7 @@ To reuse a script across multiple email notifications or templates, add an `${ma
 
 When you manually enter a mail script enclosed in `<mail_script>` and `</mail_script>` tags in the body of a new or converted email notification or template and save the record, a message asks whether to convert the mail script. Often, an unconverted mail script fails to run from inside the HTML editor. If you select **Yes**, the script is added to the Email Script \[sys\_script\_email\] table and is automatically replaced in the body with an embedded script tag \(`${mail_script:script_name}`\).
 
-If you enter a mail script inside `${{mail_script:script name}}` and the HTML sanitizer is configured, the output of the mail script is HTML sanitized. For more information about HTML sanitizer, see [HTML Sanitizer.](https://www.servicenow.com/docs/access?context=c_HTMLSanitizer&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+If you enter a mail script inside `${{mail_script:script name}}` and the HTML sanitizer is configured, the output of the mail script is HTML sanitized. For more information about HTML sanitizer, see [HTML Sanitizer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HTMLSanitizer.md)
 
 -   **[JavaScript in emails](c_UseJavaScriptInEmails.md)**  
 Create mail scripts in **System Notifications** &gt; **Email** &gt; **Notification Email Script**, and refer to them by using `${mail_script:script name}` in the script field.

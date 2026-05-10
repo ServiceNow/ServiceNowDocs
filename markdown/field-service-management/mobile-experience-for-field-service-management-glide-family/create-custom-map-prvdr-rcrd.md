@@ -17,7 +17,7 @@ Configure map providers to identify buildings agents can view indoor maps for.
 
 ## Before you begin
 
-Ensure Indoor Maps are set up. For more information, see [Indoor Mapping](https://www.servicenow.com/docs/access?context=Indoor-mapping&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+Ensure Indoor Maps are set up. For more information, see [Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/Indoor-mapping.md).
 
 Role required: admin, or wm\_admin
 

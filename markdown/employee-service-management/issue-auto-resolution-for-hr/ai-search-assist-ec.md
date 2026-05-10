@@ -21,5 +21,5 @@ You can find both Service Catalog items and Knowledge Base articles as recommend
 
 The feature is available with the Australia release and onwards.
 
-For more information on how to configure the enhanced AI Search assist functionality, see [Configure AI Search Assist for a record producer](https://www.servicenow.com/docs/access?context=configure-ai-search-assist&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information on how to configure the enhanced AI Search assist functionality, see [Configure AI Search Assist for a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configure-ai-search-assist.md).
 

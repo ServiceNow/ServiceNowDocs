@@ -17,15 +17,15 @@ The ServiceNow® Import and Export applications enable you to import and export 
 -   Enable large exports with parallel export sets. Exporting data in parallel can enable your integrations to finish in less time and create less of an impact on other tasks.
 -   Configure a separate connection alias for JDBC data sources. Configuring the connection alias separately enables you to reuse it rather than having to reconfigure it with each JDBC data source.
 
-See [Imports](https://www.servicenow.com/docs/access?context=imports-overview-page&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) and [Exports](https://www.servicenow.com/docs/access?context=exports-overview-page&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for more information.
+See [Imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/imports-overview-page.md) and [Exports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/exports-overview-page.md) for more information.
 
 ## New in the Australia release
 
--   **[Enable large exports with parallel export sets](https://www.servicenow.com/docs/access?context=parallel-exports&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **[Enable large exports with parallel export sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-export-sets/parallel-exports.md)**
 
     Export data with multiple small attachments in parallel. Exporting data in parallel can enable your integrations to finish in less time and create less of an impact on other tasks.
 
--   **[Use a connection alias for a JDBC data source](https://www.servicenow.com/docs/access?context=r_JDBCTypeDataSource&version=australia&pubname=australia-integrate-applications&section=create-import-connection-alias&ft:locale=en-US)**
+-   **[Use a connection alias for a JDBC data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_JDBCTypeDataSource.md)**
 
     Configure a separate connection alias for JDBC data sources. Configuring the connection alias separately enables you to reuse it rather than having to reconfigure it with each JDBC data source.
 

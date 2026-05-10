@@ -41,7 +41,7 @@ The Now Assist for HRSD application includes the generative AI skills and featur
     -   Live Agent to Live Agent handoff summary: Summarizes the conversation when a live agent hands off a chat to another live agent and displays the summary in the Active Chat window. An agent can view a summary of the actions that were taken by a customer before hand off to another live agent.
     -   Chat wrap up summary: Accelerates the wrap-up time by populating the full chat summary when a conversation ends.
     -   Chat wrap up short description: Accelerates the wrap-up time by populating the short description that summarizes the requester issues when the conversation ends​.
-    For information on activating the chat summarization skill, see [Configure chat summarization and chat reply recommendation skills in the Now Assist Admin console](https://www.servicenow.com/docs/access?context=configure-chat-summarization-in-the-now-assist-admin-console&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US). For information on how to use the skill on Agent Workspace for HR Case Management, see [Summarize a chat conversation using Now Assist for HR Service Delivery \(HRSD\)](../task/now-assist-hrsd-chat.md).
+    For information on activating the chat summarization skill, see [Configure chat summarization and chat reply recommendation skills in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-chat-summarization-in-the-now-assist-admin-console.md). For information on how to use the skill on Agent Workspace for HR Case Management, see [Summarize a chat conversation using Now Assist for HR Service Delivery \(HRSD\)](../task/now-assist-hrsd-chat.md).
 
     The following example shows an AI-generated chat summary.
 
@@ -55,7 +55,7 @@ The Now Assist for HRSD application includes the generative AI skills and featur
 
     Provides an agent with a concise summary of a case, including the issue, actions that were taken, SLA, attachment summary and resolution information, depending on the state of the case. An agent can view a case summary to understand the case context, refresh the summary, and post the summary to the case work notes.
 
-    For information on activating the case summarization skill, see [Configure case or incident summarization in the Now Assist Admin console](https://www.servicenow.com/docs/access?context=configure-case-or-incident-summarization-in-the-now-assist-admin-console&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US). For information on how to use the skill on Agent Workspace for HR Case Management or Core UI, see [Summarize an HR case using Now Assist for HRSD](../task/now-assist-hrsd-summarize-case.md).
+    For information on activating the case summarization skill, see [Configure case or incident summarization in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md). For information on how to use the skill on Agent Workspace for HR Case Management or Core UI, see [Summarize an HR case using Now Assist for HRSD](../task/now-assist-hrsd-summarize-case.md).
 
     The following example shows an AI-generated case summary.
 

@@ -50,7 +50,7 @@ After adding or updating rate lines in a file created using the [export function
 
 6.  Click **Run Transform** to import the data.
 
-    For more information, see [Run an import](https://www.servicenow.com/docs/access?context=t_RunImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For more information, see [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_RunImport.md).
 
 
 ## Result

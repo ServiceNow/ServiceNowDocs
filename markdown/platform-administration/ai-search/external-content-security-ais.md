@@ -54,7 +54,7 @@ A user mapping specifies externally defined user and group aliases for a Service
 -   To learn about the set of externally defined security principal types supported in user mappings, see [External user mapping security principal types](user-mappings-ais.md#).
 -   For instructions on creating a table to store your user mappings, see [Create a user mapping table](user-mappings-ais.md#).
 -   For instructions on linking your user mapping tables to external content indexed sources, see [Link a user mapping table to an external content indexed source](user-mappings-ais.md#).
--   To learn about importing user mappings via the [AI Search External User Mapping API](https://www.servicenow.com/docs/access?context=ext-user-mapping-api&version=australia&pubname=australia-api-reference&ft:locale=en-US), see [Importing user mappings](user-mappings-ais.md#).
+-   To learn about importing user mappings via the [AI Search External User Mapping API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ext-user-mapping-api.md), see [Importing user mappings](user-mappings-ais.md#).
 -   For instructions on viewing user mapping import history records to confirm that user mappings imported correctly, see [View history records for user mapping import operations](user-mappings-ais.md#).
 
 </td></tr></tbody>

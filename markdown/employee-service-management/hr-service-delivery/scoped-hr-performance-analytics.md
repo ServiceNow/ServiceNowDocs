@@ -30,7 +30,7 @@ To configure the Performance Analytics \(PA\) dashboard, assign the Performance 
 
 **Note:** Only the System Administrator \[admin\] can assign PA roles to employees.
 
-See [Performance Analytics roles](https://www.servicenow.com/docs/access?context=r_PARoles&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+See [Performance Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/r_PARoles.md).
 
 Contact your account manager for more information.
 
@@ -44,5 +44,5 @@ Platform Analytics Solutions contain preconfigured dashboards. These dashboards 
 **Related topics**  
 
 
-[Performance Analytics](https://www.servicenow.com/docs/access?context=pa-overview&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-overview.md)
 

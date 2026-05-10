@@ -21,7 +21,7 @@ Role required: admin or atf\_test\_admin
 
 ## About this task
 
-For more information about the ATF test configuration, see [Build and run your first automated test](https://www.servicenow.com/docs/access?context=atf-tut-build-first&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For more information about the ATF test configuration, see [Build and run your first automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-tut-build-first.md).
 
 ## Procedure
 
@@ -80,7 +80,7 @@ For more information about the ATF test configuration, see [Build and run your f
 
 ## Result
 
-Return to your test configuration page on your instance, refresh the page, and you can see the test step you just configured added to the Test Steps tab. For more information, see [Build and run your first automated test](https://www.servicenow.com/docs/access?context=atf-tut-build-first&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Return to your test configuration page on your instance, refresh the page, and you can see the test step you just configured added to the Test Steps tab. For more information, see [Build and run your first automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-tut-build-first.md).
 
 ## What to do next
 

@@ -17,7 +17,7 @@ Administrators control the data presented to end users in a list, the controls t
 
 ## Get started
 
-**Note:** For information about using lists, see [Lists](https://www.servicenow.com/docs/access?context=c_UseLists&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+**Note:** For information about using lists, see [Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UseLists.md).
 
 <table id="table_tfh_j4w_g2c" class="nav-card presentation"><tbody><tr><td>
 

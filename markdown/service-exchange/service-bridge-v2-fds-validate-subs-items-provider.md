@@ -59,7 +59,7 @@ Description
 A message is displayed stating that you're about to navigate to the ETL Transform Map Assistant guided setup.
 
 2.  Confirm your choice by selecting **OK**.
-3.  Use the guided setup to complete the mapping to integrate the consumer's data into your CMDB. For details, see [IntegrationHub ETL](https://www.servicenow.com/docs/access?context=integrationhub-etl&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+3.  Use the guided setup to complete the mapping to integrate the consumer's data into your CMDB. For details, see [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md).
 
 The system creates a basic field mappings based on matching field names. Review and customize the mappings as needed for your instance.
 
@@ -79,7 +79,7 @@ The system creates a basic field mappings based on matching field names. Review 
 A message is displayed stating that you're about to navigate to the Transform Map to complete the configuration.
 
 2.  Confirm your choice by selecting **OK**.
-3.  Complete the configuration. For details on working with transform maps, see [Create a transform map](https://www.servicenow.com/docs/access?context=t_CreateATransformMap&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+3.  Complete the configuration. For details on working with transform maps, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md).
 4.  Close the browser tab to return to the Subscription Item page.
 
 

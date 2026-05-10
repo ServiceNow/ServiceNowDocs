@@ -37,7 +37,7 @@ This task helps you to understand how to execute relevant preconfigured diagnost
 
 5.  Diagnose the service to identify the root-cause of the problem.
 
-    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see [Decision Tables](https://www.servicenow.com/docs/access?context=decision-table&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-tables/decision-table.md).
 
     1.  To generate the test results, select **Run diagnostics** from the contextual panel.
 
@@ -45,11 +45,11 @@ This task helps you to understand how to execute relevant preconfigured diagnost
 
         The drop-down list shows the current product inventory and all the child inventories.
 
-        To set up test definitions, see [Setting up test definitions](https://www.servicenow.com/docs/access?context=settingup-test-specifications&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US).
+        To set up test definitions, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/settingup-test-specifications.md).
 
     3.  Expand the cards in **Available test suite**.
 
-        To set up test group, see [Setting up a test group](https://www.servicenow.com/docs/access?context=setting-test-group&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US).
+        To set up test group, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/setting-test-group.md).
 
     4.  In the manual test, select single/multiple tests.
 

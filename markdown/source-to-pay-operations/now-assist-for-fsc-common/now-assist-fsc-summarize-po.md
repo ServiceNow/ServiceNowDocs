@@ -55,15 +55,15 @@ You can use these record summarization skill in either Core UI or Source-to-Pay 
     -   **Next steps**: Lists the actions that the fulfillers need to take next.
 8.  When you finish summarizing a record, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d103035e211">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d102734e211">
 
 Option
 
-</th><th align="left" id="d103035e214">
+</th><th align="left" id="d102734e214">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d103035e220">
+</th></tr></thead><tbody><tr><td id="d102734e220">
 
 **Save the summary information by adding it to the record work notes**
 
@@ -74,7 +74,7 @@ Procedure
 3.  Select **Save to work notes**.![Save work notes for purchase order summarization.](../image/purchase-order-share-notes.png)
 
 
-</td></tr><tr><td id="d103035e252">
+</td></tr><tr><td id="d102734e252">
 
 **Expand or collapse the summary**
 
@@ -82,7 +82,7 @@ Procedure
 
 Select the expand card icon \(![Expand card icon.](../image/icon-expand.png)\) or the collapse card icon \(![Collapse card icon.](../image/icon-collapse.png)\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d103035e273">
+</td></tr><tr><td id="d102734e273">
 
 **Provide feedback for the summary**
 
@@ -90,7 +90,7 @@ Select the expand card icon \(![Expand card icon.](../image/icon-expand.png)\) o
 
 If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../image/icon-helpful.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d103035e296">
+</td></tr><tr><td id="d102734e296">
 
 **Copy the record summary**
 
@@ -98,7 +98,7 @@ If you think that the summary was helpful, select the helpful icon \(![Helpful i
 
 Select the copy to clipboard icon \(![Copy to clipboard icon.](../../supplier-lifecycle-operations/image/icon-copy.png)\) to use the record summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d103035e312">
+</td></tr><tr><td id="d102734e312">
 
 **View the information about the record summary**
 
@@ -106,7 +106,7 @@ Select the copy to clipboard icon \(![Copy to clipboard icon.](../../supplier-li
 
 If you want to check some details about the summary, select the more info icon \(![More info icon.](../image/icon-more-info.png)\).
 
-</td></tr><tr><td id="d103035e327">
+</td></tr><tr><td id="d102734e327">
 
 **Refresh the record summary**
 

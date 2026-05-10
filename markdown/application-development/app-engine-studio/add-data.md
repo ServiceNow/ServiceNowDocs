@@ -39,7 +39,7 @@ Many organizations create extensible standardized tables for their citizen devel
 
 To make a table in your application extensible, select **Make extensible** during table creation. After extending an existing table, you can further customize the new table by adding more columns.
 
-The following table provides a list of commonly extended tables in the ServiceNow AI Platform. For more information on commonly extended tables and models for extension, see [Table extension and classes](https://www.servicenow.com/docs/access?context=table-extension-and-classes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The following table provides a list of commonly extended tables in the ServiceNow AI Platform. For more information on commonly extended tables and models for extension, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/table-extension-and-classes.md).
 
 <table id="table_o5c_hmf_25b"><thead><tr><th>
 

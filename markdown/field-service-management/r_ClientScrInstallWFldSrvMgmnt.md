@@ -47,7 +47,7 @@ Expense Line\[fm\_expense\_line\]
 
 </td><td>
 
-Automatically populates the short description of expense lines with the work order short description when expense lines are manually created from work orders. [Cost Management](https://www.servicenow.com/docs/access?context=r_CostManagement&version=australia&pubname=australia-it-business-management&ft:locale=en-US) must be activated.
+Automatically populates the short description of expense lines with the work order short description when expense lines are manually created from work orders. [Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/r_CostManagement.md) must be activated.
 
 </td></tr><tr><td>
 

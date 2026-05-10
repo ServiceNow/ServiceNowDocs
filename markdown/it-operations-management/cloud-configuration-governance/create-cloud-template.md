@@ -39,7 +39,7 @@ You can update a template as often as needed. With each update, a new version of
 
 3.  Specify the **Ingestion method**.
 
-<table id="choicetable_nck_fyq_cgb"><tbody><tr><td id="d288350e141">
+<table id="choicetable_nck_fyq_cgb"><tbody><tr><td id="d293401e141">
 
 **Import from URL**
 
@@ -47,7 +47,7 @@ You can update a template as often as needed. With each update, a new version of
 
 Import a template by specifying a public URL where the template resides. Select this option and then click the lock icon \(![Lock image](../image/icon_lock.png)\) to unlock the **Cloud template URL** field. Enter the public URL in this field.**Note:** For the public URL, we support only HTTP and HTTPS protocols, and do not support FTP. Ensure that the size of the template does not exceed the default value of 3 MB. You can change the default value of the file size by changing the value in the **sn\_cmp.template\_content\_size\_supported\_inbytes** property in the sys\_properties table. Enter the file size in bytes. There's also a default time-out of five minutes for an HTTP request. You can change the time-out value in the **sn\_cmp.template\_url\_import\_http\_timeout** property in the sys\_properties table. Enter the new value in milliseconds.
 
-</td></tr><tr><td id="d288350e168">
+</td></tr><tr><td id="d293401e168">
 
 **Upload a file**
 
@@ -55,7 +55,7 @@ Import a template by specifying a public URL where the template resides. Select 
 
 Upload a template from your local workstation.
 
-</td></tr><tr><td id="d288350e177">
+</td></tr><tr><td id="d293401e177">
 
 **Use template body**
 
@@ -78,7 +78,7 @@ Paste the contents of the template file in the **Body** field.
 
 6.  Open each parameter with a **Decision** value of **Pending**, select a value, and then click the check mark ![Check mark](../image/icon-check-mark.png).
 
-<table id="choicetable_o1l_h5r_cgb"><tbody><tr><td id="d288350e268">
+<table id="choicetable_o1l_h5r_cgb"><tbody><tr><td id="d293401e268">
 
 **Skip Update**
 
@@ -86,7 +86,7 @@ Paste the contents of the template file in the **Body** field.
 
 Discards the updates to the template.
 
-</td></tr><tr><td id="d288350e277">
+</td></tr><tr><td id="d293401e277">
 
 **Use template**
 

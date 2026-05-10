@@ -29,7 +29,7 @@ Each report provides both a summary of an important business metric and access t
 
 -   By default, many reports display data for the last 30 days. Select the **Date** icon \(![Date icon](../image/devops-date-range-filter-pill.png)\) to configure a custom date range.
 -   Point to a specific data point in a chart to view detailed data.
--   Select a specific data point to view the key performance indicator \(KPI\) details for the report in a separate tab. You can then use the powerful data-management tools in the [Performance Analytics](https://www.servicenow.com/docs/access?context=pa-overview&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) application to drill deeply into the data.
+-   Select a specific data point to view the key performance indicator \(KPI\) details for the report in a separate tab. You can then use the powerful data-management tools in the [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-overview.md) application to drill deeply into the data.
 -   To apply any filter other than the date filter, select the filter icon and then move filter categories from the **Available** list to the **Applied** list.
 -   Filters appear at the top of the tab. For each report, the Applied filter icon \(![Applied filter icon](../image/devops-icon-filter-insights.png)\) displays the number of filters that are currently applied to a report. Select the icon to view and configure the filters that are applied to a widget.
 

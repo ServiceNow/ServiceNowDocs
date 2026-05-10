@@ -19,7 +19,7 @@ Role required: the role necessary to update the record that contains the HTML fi
 
 ## About this task
 
-**Note:** Administrators and users with the image\_admin role manage the image library at **System UI** &gt; **Images**. See [Storing images in the database](https://www.servicenow.com/docs/access?context=c_StoringImagesInTheDatabase&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) .
+**Note:** Administrators and users with the image\_admin role manage the image library at **System UI** &gt; **Images**. See [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md) .
 
 ## Procedure
 

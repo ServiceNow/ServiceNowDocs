@@ -39,7 +39,7 @@ Role required: admin
     -   Icon - Icon type of the tag.
     -   Labels - Label name of the tag.
     -   Tables - Table to which the tag is applied such as incident or interaction.
-    For more information on how to use the correct values to customize the tags, see [Configure tags for the Activity stream](https://www.servicenow.com/docs/access?context=tags-activity-stream-admin&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information on how to use the correct values to customize the tags, see [Configure tags for the Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tags-activity-stream-admin.md).
 
 6.  Select **Update**.
 

@@ -44,7 +44,7 @@ Microsoft implies both Microsoft OneDrive and Microsoft SharePoint.
 -   **Establish a connection with cloud hosting services**
     -   **Connection with Microsoft OneDrive**
 
-        You must first set up the Microsoft OneDrive to perform actions in Microsoft OneDrive from ServiceNow. For more information, see [Setup Microsoft OneDrive for Document Services](https://www.servicenow.com/docs/access?context=configure-ms-onedrive-doc-services&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+        You must first set up the Microsoft OneDrive to perform actions in Microsoft OneDrive from ServiceNow. For more information, see [Setup Microsoft OneDrive for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/configure-ms-onedrive-doc-services.md).
 
         **Note:** To set up connection you require the following delegated Microsoft Azure App permissions:
 
@@ -55,7 +55,7 @@ Microsoft implies both Microsoft OneDrive and Microsoft SharePoint.
         -   User.Read: Allows the application to retrieve the signed-in user’s basic profile details. This is required for assigning or validating file permissions specific to that user during redlining activities.
     -   **Connection with Microsoft SharePoint**
 
-        You must first set up the Microsoft SharePoint to perform actions in Microsoft SharePoint site from ServiceNow. For more information, see [Setup Microsoft OneDrive for Document Services](https://www.servicenow.com/docs/access?context=configure-ms-onedrive-doc-services&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+        You must first set up the Microsoft SharePoint to perform actions in Microsoft SharePoint site from ServiceNow. For more information, see [Setup Microsoft OneDrive for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/configure-ms-onedrive-doc-services.md).
 
         The Microsoft OneDrive setup configured in ServiceNow is the same as that is done for Microsoft SharePoint as well. However, the Microsoft Azure App permissions are required for Microsoft SharePoint.
 
@@ -72,9 +72,9 @@ Microsoft implies both Microsoft OneDrive and Microsoft SharePoint.
 
         To set up Google Drive as a cloud hosting service and to create or update the policy text document that resides in Google Drive, you must:
 
-        1.  [Set up Google Drive spoke](https://www.servicenow.com/docs/access?context=setup-gdrive&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) account.
-        2.  Integrate the Document Services with Google Drive. For more information, see [Document Services Framework for Google Drive](https://www.servicenow.com/docs/access?context=google-drive-spoke-document-services&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
-        3.  To manage documents in Google Docs from your ServiceNow instance, you must integrate the ServiceNow instance with Google docs. For more information, see [Set up the Google Docs](https://www.servicenow.com/docs/access?context=setup-gdocs&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+        1.  [Set up Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gdrive.md) account.
+        2.  Integrate the Document Services with Google Drive. For more information, see [Document Services Framework for Google Drive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/google-drive-spoke-document-services.md).
+        3.  To manage documents in Google Docs from your ServiceNow instance, you must integrate the ServiceNow instance with Google docs. For more information, see [Set up the Google Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gdocs.md).
 
 ## Setting up system properties to connect with cloud hosting services
 

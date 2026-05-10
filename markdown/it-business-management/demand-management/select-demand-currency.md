@@ -27,15 +27,15 @@ Role required: admin
 
 2.  Select a currency option for managing your demands from the Demand currency setup list.
 
-<table id="choicetable_lc1_qht_dnb"><thead><tr><th align="left" id="d154726e82">
+<table id="choicetable_lc1_qht_dnb"><thead><tr><th align="left" id="d155349e82">
 
 Demand currency preference
 
-</th><th align="left" id="d154726e85">
+</th><th align="left" id="d155349e85">
 
 Currency Option
 
-</th></tr></thead><tbody><tr><td id="d154726e91">
+</th></tr></thead><tbody><tr><td id="d155349e91">
 
 **Manage demands using the functional currency**
 
@@ -43,7 +43,7 @@ Currency Option
 
 Select the **Follow functional currency** option to manage your demands using the functional currency of your organization. The project currency is carried over to the Project form when you create a project from the demand in the future. ​You can change the project currency for managing your projects later.For example, if the functional currency of your organization is USD, then USD is set as the currency for both demands and projects.
 
-</td></tr><tr><td id="d154726e106">
+</td></tr><tr><td id="d155349e106">
 
 **Manage demands using the same currency as the project currency**
 
@@ -51,7 +51,7 @@ Select the **Follow functional currency** option to manage your demands using th
 
 Select the **Drive project currency** option to manage your demands and projects using the same currency. This currency can be your functional currency or any other currency. For example, if you want to manage your demand and project in a local currency, say GBP, then you would select this option and specify GBP as your demand currency​. The **Project Currency** field in the demand form is automatically populated with GBP as your project currency on saving the form.
 
-</td></tr><tr><td id="d154726e124">
+</td></tr><tr><td id="d155349e124">
 
 **Manage demands and projects in different currencies**
 

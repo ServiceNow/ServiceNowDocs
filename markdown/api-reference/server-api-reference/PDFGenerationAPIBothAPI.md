@@ -17,7 +17,7 @@ The PDFGenerationAPI provides support for PDF conversion and handling PDF fields
 
 This API is part of the ServiceNow PDF Generation Utilities plugin \(com.snc.apppdfgenerator\) and is provided within the `sn_pdfgeneratorutils` namespace. The plugin is activated by default.
 
-Use the **glide.pdf.url.whitelist** property to add an extra layer of validation to ensure whether any external URL introduced should be included in the generated PDF. If the system property glide.pdf.url.whitelisting.enabled is set to true, the PDF does not process URL content unless it is listed in the Value field of the com.snc.pdf.whitelisted\_urls system property. These properties are listed in the System Properties \[sys\_properties\] table. For more information, see [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Use the **glide.pdf.url.whitelist** property to add an extra layer of validation to ensure whether any external URL introduced should be included in the generated PDF. If the system property glide.pdf.url.whitelisting.enabled is set to true, the PDF does not process URL content unless it is listed in the Value field of the com.snc.pdf.whitelisted\_urls system property. These properties are listed in the System Properties \[sys\_properties\] table. For more information, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Note:** The maximum PDF size is 50 MB.
 
@@ -2640,7 +2640,7 @@ Applies redaction to a PDF document based on the given rectangle coordinates, se
 
 **Note:**
 
--   Redaction results might include an unexpected white redacted text block that overwrites text not intended to be redacted. If this event occurs, you can manually select the content for redaction using the **highlightedSections** property or the PDF Generation Utilities plugin. For more information, see [Redact data from documents](https://www.servicenow.com/docs/access?context=redact-sensitive-data&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   Redaction results might include an unexpected white redacted text block that overwrites text not intended to be redacted. If this event occurs, you can manually select the content for redaction using the **highlightedSections** property or the PDF Generation Utilities plugin. For more information, see [Redact data from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/redact-sensitive-data.md).
 -   This method doesn’t support redaction in PDFs containing JBIG2 images.
 
 <table id="table_drx_h3k_34b" class="parameters"><thead><tr><th>

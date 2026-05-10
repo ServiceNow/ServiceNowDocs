@@ -33,5 +33,5 @@ The KPIs in the HR Benchmarks application are performance analytics indicators t
 
 The participating customer count for each cohort bucket in Industry Category, User Size, and regions aggregates are large enough to calculate monthly benchmarks values and to maintain full anonymity. To further verify data anonymity, the HR Benchmarks user interface enables you to use only one filter at a time.
 
-**Important:** To learn more about the Benchmark features, see the [Benchmarks](https://www.servicenow.com/docs/access?context=r_Benchmarks&version=australia&pubname=australia-it-service-management&ft:locale=en-US) documentation.
+**Important:** To learn more about the Benchmark features, see the [Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/r_Benchmarks.md) documentation.
 

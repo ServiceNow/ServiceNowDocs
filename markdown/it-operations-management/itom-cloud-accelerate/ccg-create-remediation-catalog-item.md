@@ -95,7 +95,7 @@ Status of the catalog item.The copied catalog item is active by default.
 
     2.  On the form, fill in the fields.
 
-        For more information on catalog variables, see [Service catalog variables](https://www.servicenow.com/docs/access?context=c_ServiceCatalogVariables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+        For more information on catalog variables, see [Service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogVariables.md).
 
     3.  Save the form.
 
@@ -121,13 +121,13 @@ Status of the catalog item.The copied catalog item is active by default.
 
     4.  Refer to the cloud provider documentation and implement the &lt;Catalog item name&gt;\_Action per the business needs of your organization.
 
-        For more information on building Integration Hub actions, see [Building custom actions](https://www.servicenow.com/docs/access?context=actions&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+        For more information on building Integration Hub actions, see [Building custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/actions.md).
 
     5.  Save the updated &lt;Catalog item name&gt;\_Action.
 
     6.  Test the &lt;Catalog item name&gt;\_Action.
 
-        For more information, see [Test an action](https://www.servicenow.com/docs/access?context=test-action&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+        For more information, see [Test an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md).
 
     7.  Publish the &lt;Catalog item name&gt;\_Action.
 

@@ -27,7 +27,7 @@ Role required: sn\_dex\_desktop.admin
 
 2.  On the Desktop Assistant page, select the **Virtual agent enabled** check box.
 
-    For information on how to configure Virtual Agent, see [Configuring Virtual Agent](https://www.servicenow.com/docs/access?context=configure-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    For information on how to configure Virtual Agent, see [Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-virtual-agent.md).
 
 3.  Select **Update**.
 
@@ -35,6 +35,6 @@ Role required: sn\_dex\_desktop.admin
 
 4.  To open the chat window, select the Virtual Agent or chat icon ![](../image/icon-virtual-agent.png) from the Desktop Assistant header.
 
-    For information on how to configure chat branding, see [Set up your Virtual Agent bot's branding](https://www.servicenow.com/docs/access?context=ac-configure-chat-branding&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    For information on how to configure chat branding, see [Set up your Virtual Agent bot's branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-chat-branding.md).
 
 

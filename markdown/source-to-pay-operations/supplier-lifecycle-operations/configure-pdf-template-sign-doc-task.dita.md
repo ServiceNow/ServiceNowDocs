@@ -61,11 +61,11 @@ To configure an HTML document template:
 2.  In the **Table** field, select **Supplier Task \[sn\_slm\_task\]**.
 3.  On the form, fill in the fields.
 
-For a description of the field values, see [Configure an HTML document template](https://www.servicenow.com/docs/access?context=configure-HTML-doc-template&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+For a description of the field values, see [Configure an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-HTML-doc-template.md).
 
 4.  Select **Submit** or **Save**.
-5.  Select the Participants related list to create participants for the PDF document template. For more information, see [Create participants for an HTML document template](https://www.servicenow.com/docs/access?context=create-participants-html&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
-6.  Insert signatures in an HTML document template by selecting participants from the list. For more information, see [Insert signatures](https://www.servicenow.com/docs/access?context=insert-signatures&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+5.  Select the Participants related list to create participants for the PDF document template. For more information, see [Create participants for an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-participants.md.md).
+6.  Insert signatures in an HTML document template by selecting participants from the list. For more information, see [Insert signatures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/insert-signatures.md).
 7.  Select **Publish**.
 
 
@@ -81,17 +81,17 @@ To configure a PDF document template:
 2.  In the **Table** field, select **Supplier Task \[sn\_slm\_task\]**.
 3.  On the form, fill in the fields.
 
-For a description of the field values, see [Configure a PDF document template](https://www.servicenow.com/docs/access?context=configure-editable-pdf&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+For a description of the field values, see [Configure a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-editable-pdf.md).
 
 4.  Select **Submit** or **Save**.
 5.  Select the **Parse PDF** related link to automatically parse information on the PDF and store that information in the PDF Mapping table for reuse.
-6.  Select the Participants related list to create participants for the PDF document template. For more information, see [Create participants for a PDF document template](https://www.servicenow.com/docs/access?context=create-participant&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
-7.  Select the Template Mappings related list to define the PDF field mappings. For more information, see [Define a PDF field mapping](https://www.servicenow.com/docs/access?context=edit-pdf-mappings&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+6.  Select the Participants related list to create participants for the PDF document template. For more information, see [Create participants for a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-participant.md).
+7.  Select the Template Mappings related list to define the PDF field mappings. For more information, see [Define a PDF field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/edit-pdf-mappings.md).
 8.  Select the Mark signatures related list to choose participants and specify the area in the PDF document where you want to collect the signatures of those participants.
 
 **Note:** You can mark signatures only if you have defined participants and mapped users to those participants.
 
-For more information, see [Mark a signature block](https://www.servicenow.com/docs/access?context=mark-signature-doctemp&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+For more information, see [Mark a signature block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/mark-signature-doctemp.md).
 
 9.  Select **Publish**.
 

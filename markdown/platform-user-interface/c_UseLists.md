@@ -37,7 +37,7 @@ Lists can have sublists in a hierarchy that can also be accessed in list view. T
 
 ![Hierarchical list](../image/HierarchicalList.png "Hierarchical list")
 
-Administrators can enable hierarchical lists for a table. For more information, see [Enable a hierarchical list](https://www.servicenow.com/docs/access?context=t_EnableAHierarchicalList&version=australia&pubname=australia-platform-administration&ft:locale=en-US) .
+Administrators can enable hierarchical lists for a table. For more information, see [Enable a hierarchical list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/t_EnableAHierarchicalList.md) .
 
 ## Detail rows
 
@@ -47,7 +47,7 @@ Detail rows, when enabled, appear below the field row for each record and displa
 
 ![Detail rows](../image/400px-Detail_rows.png "Detail rows")
 
-Administrators can enable detail rows and add them to lists. For more information, see [Administer detail rows](https://www.servicenow.com/docs/access?context=t_EnableDetailRows&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Administrators can enable detail rows and add them to lists. For more information, see [Administer detail rows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/t_EnableDetailRows.md).
 
 -   **[List fields](../reference/r_Fields.md)**  
 Fields display data and provide certain functions.

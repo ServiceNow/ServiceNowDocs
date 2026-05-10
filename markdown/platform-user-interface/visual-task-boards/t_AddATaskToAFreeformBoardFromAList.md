@@ -29,7 +29,7 @@ You can add cards from multiple task tables, such as Incident or Problem, to the
 
 2.  Perform either of the following actions.
 
-<table id="choicetable_vpk_rrn_jq"><tbody><tr><td id="d52107e84">
+<table id="choicetable_vpk_rrn_jq"><tbody><tr><td id="d55380e84">
 
 **Add one task**
 
@@ -37,7 +37,7 @@ You can add cards from multiple task tables, such as Incident or Problem, to the
 
 Right-click a record and select **Add to Visual Task Board**.
 
-</td></tr><tr><td id="d52107e96">
+</td></tr><tr><td id="d55380e96">
 
 **Add multiple tasks**
 

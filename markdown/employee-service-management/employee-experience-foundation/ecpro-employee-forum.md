@@ -24,5 +24,5 @@ Employee Forums integrate with campaigns and content publishing so that:
 -   Content managers can create and schedule content to a forum or topic from Content Publishing.
 -   Campaign managers can build campaigns that include forum content. Community or forum content can include blog posts, events, videos, or links to posts or other content.
 
-Before content managers can use Employee Forums, an admin must first configure Communities, including forums and topics. These features serve as publishing destinations for managers creating content via Content Publishing. For information on communities, see [Communities](https://www.servicenow.com/docs/access?context=servicenow-communities&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+Before content managers can use Employee Forums, an admin must first configure Communities, including forums and topics. These features serve as publishing destinations for managers creating content via Content Publishing. For information on communities, see [Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/servicenow-communities.md).
 

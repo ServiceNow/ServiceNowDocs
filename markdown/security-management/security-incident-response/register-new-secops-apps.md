@@ -39,7 +39,7 @@ Role required: sn\_si.write
 
     ![Application creator](../image/app-creator.png)
 
-    **Note:** The options that display depend on the applications you have activated. For detailed information on creating new applications, see [Building applications](https://www.servicenow.com/docs/access?context=build-applications&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    **Note:** The options that display depend on the applications you have activated. For detailed information on creating new applications, see [Building applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-applications.md).
 
 4.  After the application has been generated, you can create scripts for setting up on-demand orchestration.
 

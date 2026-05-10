@@ -71,7 +71,7 @@ Now Assist \(Generative AI\) for Spoke Generation
 
 </td><td>
 
-Uses AI to automatically create Integration Hub spokes from natural language descriptions, OpenAPI specifications, Postman collections, and API documentation. This dramatically reduces the manual coding needed to build integrations.For more information, see [Building spokes using Spoke Generator](https://www.servicenow.com/docs/access?context=spoke-builder&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Uses AI to automatically create Integration Hub spokes from natural language descriptions, OpenAPI specifications, Postman collections, and API documentation. This dramatically reduces the manual coding needed to build integrations.For more information, see [Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spoke-builder.md).
 
 </td></tr><tr><td>
 
@@ -79,7 +79,7 @@ AI-Powered RPA Bot Generation
 
 </td><td>
 
-Generative AI can automatically generate robotic process automation bots from process diagrams and documentation, converting visual workflows into executable automation scripts without traditional development.For more information, see [Robotic Process Automation \(RPA\) bot generation](https://www.servicenow.com/docs/access?context=rpa-bot-generation&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+Generative AI can automatically generate robotic process automation bots from process diagrams and documentation, converting visual workflows into executable automation scripts without traditional development.For more information, see [Robotic Process Automation \(RPA\) bot generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md).
 
 </td></tr><tr><td>
 
@@ -95,7 +95,7 @@ Document Intelligence
 
 </td><td>
 
-Built-in AI capabilities extract meaningful data from unstructured files like scanned documents and PDFs, making them actionable within automated workflows. This turns static documents into structured data that can trigger automations.For more information, see [Document Intelligence](https://www.servicenow.com/docs/access?context=document-intelligence-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Built-in AI capabilities extract meaningful data from unstructured files like scanned documents and PDFs, making them actionable within automated workflows. This turns static documents into structured data that can trigger automations.For more information, see [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-landing.md).
 
 </td></tr><tr><td>
 
@@ -103,7 +103,7 @@ Knowledge Graph with AI
 
 </td><td>
 
-Uses AI to cluster data insights, translate raw data into meaningful visualizations, and discover relationships between different data points across your enterprise. This contextualizes data so AI agents understand how information relates across systems.For more information, see [Knowledge Graph](https://www.servicenow.com/docs/access?context=knowledge-graph-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Uses AI to cluster data insights, translate raw data into meaningful visualizations, and discover relationships between different data points across your enterprise. This contextualizes data so AI agents understand how information relates across systems.For more information, see [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md).
 
 </td></tr><tr><td>
 
@@ -111,7 +111,7 @@ AI Agent Execution on Connected Data
 
 </td><td>
 
-ServiceNow AI Agents leverage the unified data withinWorkflow Data Fabric to autonomously execute multi-step tasks. They use advanced reasoning to understand context from multiple systems, make decisions, and take actions like creating tickets, assigning work, or triggering scripts—all automatically based on real-time data.For more information, see [Now Assist AI agents](https://www.servicenow.com/docs/access?context=na-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+ServiceNow AI Agents leverage the unified data withinWorkflow Data Fabric to autonomously execute multi-step tasks. They use advanced reasoning to understand context from multiple systems, make decisions, and take actions like creating tickets, assigning work, or triggering scripts—all automatically based on real-time data.For more information, see [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
 
 </td></tr><tr><td>
 
@@ -119,7 +119,7 @@ Predictive Intelligence and AIOps
 
 </td><td>
 
-Machine learning algorithms analyze patterns in the connected data to predict issues before they occur, automatically route work to the right teams, and proactively resolve incidents.For more information, see [Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Machine learning algorithms analyze patterns in the connected data to predict issues before they occur, automatically route work to the right teams, and proactively resolve incidents.For more information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence-landing.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Overview of building apps in ServiceNow](overview-building-apps-in-servicenow.md)

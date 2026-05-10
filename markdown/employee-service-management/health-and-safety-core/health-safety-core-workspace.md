@@ -75,8 +75,8 @@ Application admin
 
 Configures the workspace as per business requirements.For more information, see these links:
 
--   [Configure a workspace in Workspace Builder](https://www.servicenow.com/docs/access?context=configure-workspace-builder&version=australia&pubname=australia-application-development&ft:locale=en-US)
--   [Next Experience UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US)
+-   [Configure a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/configure-workspace-builder.md)
+-   [Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)
 
 </td></tr></tbody>
 </table>## Accessing the workspace

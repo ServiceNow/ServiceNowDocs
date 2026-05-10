@@ -31,7 +31,7 @@ Role required: pki\_admin or admin
 
 3.  Fill out the following fields
 
-<table><tbody><tr><td id="d100853e83">
+<table><tbody><tr><td id="d100939e83">
 
 **Field**
 
@@ -39,7 +39,7 @@ Role required: pki\_admin or admin
 
 Value
 
-</td></tr><tr><td id="d100853e92">
+</td></tr><tr><td id="d100939e92">
 
 **Notification alias**
 
@@ -47,7 +47,7 @@ Value
 
 Name of your notification
 
-</td></tr><tr><td id="d100853e101">
+</td></tr><tr><td id="d100939e101">
 
 **Event**
 
@@ -55,7 +55,7 @@ Name of your notification
 
 Expiring \| Expired
 
-</td></tr><tr><td id="d100853e110">
+</td></tr><tr><td id="d100939e110">
 
 **Team**
 
@@ -63,7 +63,7 @@ Expiring \| Expired
 
 The group in your organization creating the notification
 
-</td></tr><tr><td id="d100853e119">
+</td></tr><tr><td id="d100939e119">
 
 **Microsoft Teams Channel Link**
 
@@ -71,7 +71,7 @@ The group in your organization creating the notification
 
 The URL link to your MS Teams channel **Note:** You can find this link on MS Teams while you are in the channel.
 
-</td></tr><tr><td id="d100853e131">
+</td></tr><tr><td id="d100939e131">
 
 **Microsoft Channel Name**
 
@@ -79,7 +79,7 @@ The URL link to your MS Teams channel **Note:** You can find this link on MS Tea
 
 Name of your channel inside the team \(optional\)
 
-</td></tr><tr><td id="d100853e140">
+</td></tr><tr><td id="d100939e140">
 
 **Microsoft Team Name**
 

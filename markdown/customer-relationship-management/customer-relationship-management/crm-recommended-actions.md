@@ -75,11 +75,11 @@ Recommended Actions is available across the CRM solution, with each product cont
 **Related topics**  
 
 
-[Recommended Actions](https://www.servicenow.com/docs/access?context=configure-nba&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-nba.md)
 
-[Configuring the Recommended Actions application](https://www.servicenow.com/docs/access?context=configure-recommended-actions&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Configuring the Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-recommended-actions.md)
 
-[Configuring AI search in Recommended Actions](https://www.servicenow.com/docs/access?context=ra-configuring-ai-search&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Configuring AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-configuring-ai-search.md)
 
-[Example configurations of recommended actions](https://www.servicenow.com/docs/access?context=recommended-actions-use-case&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Example configurations of recommended actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/recommended-actions-use-case.md)
 

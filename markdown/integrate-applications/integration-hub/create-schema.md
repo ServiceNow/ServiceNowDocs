@@ -126,7 +126,7 @@ Columns of the schema as a JSON array. For each column, specify column name and 
 ]
 ```
 
-. For more information, see [Create a data gathering action for a dynamic template](https://www.servicenow.com/docs/access?context=create-data-gathering-action-dynamic-template&version=australia&pubname=australia-build-workflows&ft:locale=en-US).**Note:** Ensure that you surround the key and value with quotation marks.
+. For more information, see [Create a data gathering action for a dynamic template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-data-gathering-action-dynamic-template.md).**Note:** Ensure that you surround the key and value with quotation marks.
 
 </td></tr></tbody>
 </table>4.  Click **Submit**.

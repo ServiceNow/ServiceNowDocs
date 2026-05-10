@@ -64,8 +64,8 @@ For example, an agent may have the Open Cases list open and receive a link to a 
 
 ## Additional information
 
-For more information about working with lists, see the following topics in the [Configurable Workspace UI](https://www.servicenow.com/docs/access?context=workspace-landing-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) documentation:
+For more information about working with lists, see the following topics in the [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md) documentation:
 
--   [Administering lists for Configurable Workspace](https://www.servicenow.com/docs/access?context=administer-lists-configurable-workspace&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
--   [Using lists in Configurable Workspace](https://www.servicenow.com/docs/access?context=using-lists-configurable-workspace&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+-   [Administering lists for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/administer-lists-configurable-workspace.md)
+-   [Using lists in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/using-lists-configurable-workspace.md)
 

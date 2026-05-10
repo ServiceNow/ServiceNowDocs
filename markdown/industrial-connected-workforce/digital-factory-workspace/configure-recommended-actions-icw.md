@@ -55,9 +55,9 @@ From the list of contexts, select the Industrial standard task context and make 
 
 </td><td>
 
-Create a context and within it rules and recommendations, as explained in:-   [Create a context in Recommended Actions](https://www.servicenow.com/docs/access?context=ra-csm-contexts-create&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
--   [Create a rule in Recommended Actions](https://www.servicenow.com/docs/access?context=ra-csm-rules-create&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
--   [Create a recommendation in Recommended Actions](https://www.servicenow.com/docs/access?context=ra-csm-recommendations-create&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+Create a context and within it rules and recommendations, as explained in:-   [Create a context in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-contexts-create.md)
+-   [Create a rule in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-rules-create.md)
+-   [Create a recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-recommendations-create.md)
 
 
 </td></tr></tbody>

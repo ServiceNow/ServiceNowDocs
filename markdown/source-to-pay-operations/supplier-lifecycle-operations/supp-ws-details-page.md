@@ -727,7 +727,7 @@ The **Risk** tab displays third-party name and process information, summary repo
 
 The **Risk** tab is displayed only if you have installed the Third-party Risk Management \[com.sn\_vdr\_risk\_asmt\] and GRC: Vendor Risk Management Workspace \(com.sn\_vdr\_risk\_asmt\_workspace\) plugins.
 
-To know more about the information displayed on the **Risk** tab, see [Viewing summarized risk information for a third party](https://www.servicenow.com/docs/access?context=tprm-ws-tab-tp-risk-overview&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+To know more about the information displayed on the **Risk** tab, see [Viewing summarized risk information for a third party](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-tab-tp-risk-overview.md).
 
 ## Performance
 

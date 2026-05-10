@@ -106,5 +106,5 @@ Dot-walking references a field by building a chain of field names separated by d
 **Related topics**  
 
 
-[Dot-walking examples](https://www.servicenow.com/docs/access?context=dot-walking-examples&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dot-walking-examples.md)
 

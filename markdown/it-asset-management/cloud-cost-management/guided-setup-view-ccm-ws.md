@@ -29,7 +29,7 @@ Guided Setup provides a sequence of tasks that help you configure Cloud Cost Man
 
 To open Cloud Cost Management Guided Setup for AWS, Microsoft Azure, and GCP, navigate to **Workspaces** &gt; **Cloud Cost Management Workspace** &gt; **Admin** &gt; **Create integrations** &gt; **Integrate**.
 
-For more information, see [Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For more information, see [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 Find the following steps on the Admin view for Guided Setup:
 

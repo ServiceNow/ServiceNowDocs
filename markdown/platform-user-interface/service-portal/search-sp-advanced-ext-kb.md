@@ -6,7 +6,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 3
 breadcrumb: [Define a search source, Zing search in Service Portal, Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -45,7 +45,7 @@ In this integration, you will:
 
     1.  Define the search function to be executed by the instance.
 
-        This example uses a [Recordless RESTMessageV2 example](https://www.servicenow.com/docs/access?context=r_RecordlessRESTMessageV2Example&version=australia&pubname=australia-api-reference&ft:locale=en-US), but you can modify this example to use a pre-configured [Outbound REST web service](https://www.servicenow.com/docs/access?context=c_OutboundRESTWebService&version=australia&pubname=australia-api-reference&ft:locale=en-US) if needed, or create a more secure authentication profile.
+        This example uses a [Recordless RESTMessageV2 example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_RecordlessRESTMessageV2Example.md), but you can modify this example to use a pre-configured [Outbound REST web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundRESTWebService.md) if needed, or create a more secure authentication profile.
 
         ```
         (function(query) {  
@@ -63,7 +63,7 @@ In this integration, you will:
         })(query);
         ```
 
-        **Note:** In the preceding example, `ws.setBasicAuth` requires a username and password for the remote instance. For more detail, see [RESTMessageV2 - Scoped, Global](https://www.servicenow.com/docs/access?context=c_RESTMessageV2API&version=australia&pubname=australia-api-reference&ft:locale=en-US) .
+        **Note:** In the preceding example, `ws.setBasicAuth` requires a username and password for the remote instance. For more detail, see [RESTMessageV2 - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_RESTMessageV2API.md) .
 
     2.  Add an if statement to the data fetch script to decode the JSON object being returned, iterate over each result, and set expected fields.
 

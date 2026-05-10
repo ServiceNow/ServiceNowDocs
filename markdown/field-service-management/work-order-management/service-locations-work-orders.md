@@ -33,7 +33,7 @@ Google map
 
 The address information is entered in the text field or by dragging and dropping the marker. The fields auto-populate based on the address entered in the search field on a map.
 
- The Google Maps API key or client ID must be set to use the Google Maps API for Business. For more information, see [Set up Google Maps API](https://www.servicenow.com/docs/access?context=set-up-google-maps-api&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+ The Google Maps API key or client ID must be set to use the Google Maps API for Business. For more information, see [Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-google-maps-api.md).
 
 </td></tr><tr><td>
 

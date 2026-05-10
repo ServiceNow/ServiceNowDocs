@@ -44,15 +44,15 @@ Access to a contract document is based on the following user roles and condition
 
 6.  Download the contract document.
 
-<table id="choicetable_chr_vty_2zb"><thead><tr><th align="left" id="d439203e163">
+<table id="choicetable_chr_vty_2zb"><thead><tr><th align="left" id="d443573e163">
 
 External integration status
 
-</th><th align="left" id="d439203e166">
+</th><th align="left" id="d443573e166">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d439203e172">
+</th></tr></thead><tbody><tr><td id="d443573e172">
 
 **Active and published**
 
@@ -60,7 +60,7 @@ Action
 
 Select the link in the Signed Contract list in the **Details** tab
 
-</td></tr><tr><td id="d439203e184">
+</td></tr><tr><td id="d443573e184">
 
 **Not available**
 

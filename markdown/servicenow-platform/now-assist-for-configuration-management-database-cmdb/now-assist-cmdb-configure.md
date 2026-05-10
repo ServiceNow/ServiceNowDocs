@@ -41,7 +41,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 5.  Install the Now Assist for CMDB plugin.
 
-    For instructions on the installation process, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For instructions on the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 6.  Confirm that Now Assist for CMDB is installed.
 
@@ -80,7 +80,7 @@ To start using Now Assist for CMDB skills, see [Using Now Assist skills in Now A
 
 To deactivate a skill, select the menu icon ![](../image/menu-icon.png)for the skill and then select **Deactivate skill**.
 
-Admins might be interested in Query Generation. Query Generation is an AI-powered service that translates user questions into an executable query. An executable query contains the data source, filter, aggregation, and visualization instructions that best answer the user's question. For more information, see [Exploring Query Generation](https://www.servicenow.com/docs/access?context=exploring-query-generation&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+Admins might be interested in Query Generation. Query Generation is an AI-powered service that translates user questions into an executable query. An executable query contains the data source, filter, aggregation, and visualization instructions that best answer the user's question. For more information, see [Exploring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/exploring-query-generation.md).
 
 **Parent Topic:**[Configuring Now Assist for CMDB](../concept/now-assist-cmdb-configuring.md)
 

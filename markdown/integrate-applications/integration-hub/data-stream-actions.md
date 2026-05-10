@@ -40,7 +40,7 @@ There are two ways to run a Data Stream action.
 
 -   **From a script**
 
-    You can start a Data Stream using the executeDataStreamAction\(\) method in the FlowAPI class. For more information, see [FlowAPI](https://www.servicenow.com/docs/access?context=ScriptableFlowAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    You can start a Data Stream using the executeDataStreamAction\(\) method in the FlowAPI class. For more information, see [FlowAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ScriptableFlowAPI.md).
 
 
 ## Action outline
@@ -55,15 +55,15 @@ Data Stream actions follow a set structure. Follow prompts to add and remove ste
 
 ## Action error evaluation
 
-Use [error evaluation](https://www.servicenow.com/docs/access?context=action-error-evaluation&version=australia&pubname=australia-build-workflows&ft:locale=en-US) to catch step errors and specify the error behavior of each step you add to a data stream action. You can also create your own error conditions by specifying when an action returns an error state as well as the status codes and messages they return.
+Use [error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-error-evaluation.md) to catch step errors and specify the error behavior of each step you add to a data stream action. You can also create your own error conditions by specifying when an action returns an error state as well as the status codes and messages they return.
 
 ## Action Preprocessing
 
 Use the Action Preprocessing category to retrieve connection and credential details or to run a preprocessing script.
 
-Select **Retrieve connection info** to retrieve connection and credential details to use in your action. Selecting this option adds the Get Connection Info step as the first step in the action preprocessing. For more information, see [Get Connection Info step](https://www.servicenow.com/docs/access?context=get-connection-info-action-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Select **Retrieve connection info** to retrieve connection and credential details to use in your action. Selecting this option adds the Get Connection Info step as the first step in the action preprocessing. For more information, see [Get Connection Info step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/get-connection-info-action-designer.md).
 
-Select **Enable preprocessing script** to run a preprocessing script before the action sends the initial API request. For example, validate action inputs or set default values. Selecting this option adds a script step to the Data Stream action. For more information, see [Script step](https://www.servicenow.com/docs/access?context=javascript-step-action-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Select **Enable preprocessing script** to run a preprocessing script before the action sends the initial API request. For example, validate action inputs or set default values. Selecting this option adds a script step to the Data Stream action. For more information, see [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/javascript-step-action-designer.md).
 
 Preprocessing executes once per action, before the first API request.
 
@@ -89,7 +89,7 @@ Use the Request category to configure how the action sends API requests. The Req
 
 -   **Script step**
 
-    Run a script before every request for the next page of results. Use this script for data validation and transformation when calling a paginated API. For example, generate a JSON payload for the next page request. Selecting this option adds a script step to the Data Stream action. For more information, see [Script step](https://www.servicenow.com/docs/access?context=javascript-step-action-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    Run a script before every request for the next page of results. Use this script for data validation and transformation when calling a paginated API. For example, generate a JSON payload for the next page request. Selecting this option adds a script step to the Data Stream action. For more information, see [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/javascript-step-action-designer.md).
 
     This is an optional Request component that runs on either the instance or a MID Server.
 
@@ -115,7 +115,7 @@ Use the Parsing category to configure how the action separates data stream eleme
 
 ![Splitting and parsing a stream of user records.](../images/data-stream-split-parse.png)
 
-For more information about complex data, see [Complex data](https://www.servicenow.com/docs/access?context=complex-data&version=australia&pubname=australia-build-workflows&ft:locale=en-US). Parsing components provide these configuration options.
+For more information about complex data, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/complex-data.md). Parsing components provide these configuration options.
 
 -   **Splitter step**
 
@@ -154,7 +154,7 @@ The JDBC step generates a complex object for each of the retrieved record. Hence
 
 When designing a Data Stream action, you must create a single output of type Object or Dynamic Object. The Script Parser step maps items in the stream to this object using the `targetObject` global object.
 
-At runtime, the system splits and parses the stream of response data according to the Data Stream configuration. Each item in the stream maps to the complex object structure defined by the Script Parser step and the object output, resulting in a large series of complex objects. For more information about complex data, see [Complex data](https://www.servicenow.com/docs/access?context=complex-data&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+At runtime, the system splits and parses the stream of response data according to the Data Stream configuration. Each item in the stream maps to the complex object structure defined by the Script Parser step and the object output, resulting in a large series of complex objects. For more information about complex data, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/complex-data.md).
 
 ## Data Stream outputs in JDBC step
 
@@ -189,7 +189,7 @@ View the configuration and runtime results for each item processed by a Data Str
 
 ## Execution details in JDBC step
 
-Construction of the output complex object schema isn't needed for the JDBC data stream action. You can test the query and see the query result. See [Test JDBC step](../../flow-designer/task/test-jdbc-step.md) for more information. Configure the MID Server properties **mid.jdbc.datastream.max.record.size** and **mid.jdbc.datastream.fail.when.attachement.limit.exceeded** to retrieve data as per your requirement. See [MID Server properties](https://www.servicenow.com/docs/access?context=r_MIDServerProperties&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+Construction of the output complex object schema isn't needed for the JDBC data stream action. You can test the query and see the query result. See [Test JDBC step](../../flow-designer/task/test-jdbc-step.md) for more information. Configure the MID Server properties **mid.jdbc.datastream.max.record.size** and **mid.jdbc.datastream.fail.when.attachement.limit.exceeded** to retrieve data as per your requirement. See [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md) for more information.
 
 -   **[Data Stream action design considerations](data-stream-design.md)**  
 Follow these considerations when creating a Data Stream action and when adding a Data Stream action to a flow to prevent errors and performance issues.

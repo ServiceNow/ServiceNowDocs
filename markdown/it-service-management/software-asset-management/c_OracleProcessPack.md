@@ -15,7 +15,7 @@ breadcrumb: [Legacy Software Asset Management plugin, ITSM Software Asset Manage
 
 The legacy Oracle process pack is an add-on to the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin that provides the ability to manage software licensed under the Oracle licensing model.
 
-**Important:** The legacy Oracle Process Pack is not required for tracking and managing Oracle licenses through the Software Asset Management publisher pack for Oracle, which is available as part of the Software Asset Management Professional \(com.snc.samp\) plugin. The Oracle publisher pack includes all capabilities that are required for tracking and managing Oracle licenses. See [Software Asset Management publisher pack for Oracle](https://www.servicenow.com/docs/access?context=oracle-publisher-pack&version=australia&pubname=australia-it-asset-management&ft:locale=en-US) for more information on the Oracle publisher pack.
+**Important:** The legacy Oracle Process Pack is not required for tracking and managing Oracle licenses through the Software Asset Management publisher pack for Oracle, which is available as part of the Software Asset Management Professional \(com.snc.samp\) plugin. The Oracle publisher pack includes all capabilities that are required for tracking and managing Oracle licenses. See [Software Asset Management publisher pack for Oracle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-publisher-pack.md) for more information on the Oracle publisher pack.
 
 Administrators can use this feature to perform the following functions.
 

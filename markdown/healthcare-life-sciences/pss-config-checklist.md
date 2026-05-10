@@ -32,7 +32,7 @@ With the Patient Support Services application, the following checklists are avai
 -   Eligibility Checklist: A sample checklist for determining the eligibility of a patient for a Patient Support Services program.
 -   Nurse educator checklist: A sample checklist for conducting a training task. By default, this checklist is assigned to the Nurse Training Support group.
 
-Alternatively, you can create a checklist using the Checklist formatter. For more information, see [Create a checklist](https://www.servicenow.com/docs/access?context=t_CreateAChecklist&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Alternatively, you can create a checklist using the Checklist formatter. For more information, see [Create a checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateAChecklist.md).
 
 ## Procedure
 

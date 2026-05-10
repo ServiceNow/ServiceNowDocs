@@ -29,20 +29,20 @@ After enabling the plugin, you can view the following read-only intents for the 
 -   Show Nearby Tasks
 -   Debrief Tasks
 
-To use these intents, you must train and publish the predefined Field Service NLU for VA model. For more information, see [Train your NLU model](https://www.servicenow.com/docs/access?context=test-train-nlu-model&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) and [Publish your NLU model](https://www.servicenow.com/docs/access?context=publish-nlu-model&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+To use these intents, you must train and publish the predefined Field Service NLU for VA model. For more information, see [Train your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/test-train-nlu-model.md) and [Publish your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/publish-nlu-model.md).
 
 ## Procedure
 
 1.  Enable ServiceNow NLU in Virtual Agent.
 
-    For more information, see [Configure Natural Language Understanding in Virtual Agent](https://www.servicenow.com/docs/access?context=configure-nlu-settings&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    For more information, see [Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-nlu-settings.md).
 
 2.  Customize an intent by importing an existing intent from the Field Service NLU for Virtual Agent model.
 
-    For more information, see [Import an NLU intent](https://www.servicenow.com/docs/access?context=import-nlu-intent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more information, see [Import an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/import-nlu-intent.md).
 
 3.  Link the NLU model with associated intents in the Virtual Agent topics.
 
-    For more information, see [Natural Language Understanding in Virtual Agent](https://www.servicenow.com/docs/access?context=va-NLU&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    For more information, see [Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-NLU.md).
 
 

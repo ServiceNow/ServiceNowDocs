@@ -19,7 +19,7 @@ Implement Health Log Analytics on your ServiceNow instance.
 **Important:**
 
 -   Install Health Log Analytics on your instance before implementation. For more information, see [Install Health Log Analytics \(HLA\)](../task/install-health-log-analytics.md).
--   Regardless of how you implement Health Log Analytics, you must configure [MID Server system requirements](https://www.servicenow.com/docs/access?context=r_MIDServerSystemRequirements&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and ensure that the MID Server log ingestion capability is enabled.
+-   Regardless of how you implement Health Log Analytics, you must configure [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md) and ensure that the MID Server log ingestion capability is enabled.
 
     For MID Server proxy requirements, see [MID Server proxy preconditions for streaming logs to Health Log Analytics](../reference/hla-mid-proxy-configure.md).
 

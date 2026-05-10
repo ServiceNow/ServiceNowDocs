@@ -25,11 +25,11 @@ Role required: connection\_admin or admin
 
 2.  Locate the alias you want to add a connection to and select **Add Connection**.
 
-    If there isn't an **Add Connection** option, the alias doesn't have a configuration template. To add a connection through the dashboard, the parent alias must have a template. Not all aliases have templates. Templates were first introduced in the Orlando release, so aliases from previous versions may not have them yet. If yours doesn't, you can set up your alias through the platform user interface instead. Select the **Advanced Setup** option to get started. For more information, see [Create a Connection and Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US). To learn more about templates, see [Connection and Credential configuration templates](https://www.servicenow.com/docs/access?context=spoke-configuration-template&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    If there isn't an **Add Connection** option, the alias doesn't have a configuration template. To add a connection through the dashboard, the parent alias must have a template. Not all aliases have templates. Templates were first introduced in the Orlando release, so aliases from previous versions may not have them yet. If yours doesn't, you can set up your alias through the platform user interface instead. Select the **Advanced Setup** option to get started. For more information, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md). To learn more about templates, see [Connection and Credential configuration templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/spoke-configuration-template.md).
 
 3.  On the form, fill in the fields.
 
-    The fields that appear on the form depend on which configuration template the parent alias has. For details on each specific template, visit [Connection and Credential configuration templates](https://www.servicenow.com/docs/access?context=spoke-configuration-template&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    The fields that appear on the form depend on which configuration template the parent alias has. For details on each specific template, visit [Connection and Credential configuration templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/spoke-configuration-template.md).
 
 4.  To submit the form, click **Create Connection**.
 

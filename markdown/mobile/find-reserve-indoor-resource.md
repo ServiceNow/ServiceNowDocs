@@ -28,7 +28,7 @@ Use interactive maps of your building to locate and reserve available resources 
 ![Indoor wayfinding map on a mobile device.](../image/indoor-wayfind-map.png)
 
 </td></tr></tbody>
-</table>For more information about reserving an indoor map resource, see [Make a reservation using the Now Mobile app](https://www.servicenow.com/docs/access?context=make-a-reservation-on-mobile&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+</table>For more information about reserving an indoor map resource, see [Make a reservation using the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/make-a-reservation-on-mobile.md)
 
 ## Procedure
 

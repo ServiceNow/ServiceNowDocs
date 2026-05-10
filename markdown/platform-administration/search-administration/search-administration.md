@@ -36,7 +36,7 @@ These search plugins offer specialized search experiences for particular search 
 
     The Contextual Search plugin enables search that focuses on query context and user intent to fetch the most relevant set of results. Contextual search displays related results within a form or record producer based on the text you enter in a field.
 
--   **[Intelligent Search for CMDB](https://www.servicenow.com/docs/access?context=intelligent-search-cmdb&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **[Intelligent Search for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/intelligent-search-cmdb.md)**
 
     Intelligent Search for CMDB enables users to query for a set of Configuration Items in the CMDB. Complex queries open in CMDB Query Builder, where you can refine them or run them.
 
@@ -49,23 +49,23 @@ These are search fields and widgets offered in the ServiceNow AI Platform UI or 
 
     Global search in the Next Experience UI allows you to search multiple tables from a single search field.
 
--   **[Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md)**
 
     The Service Portal framework displays search data within a widget on the search page.
 
--   **[Service Portal search widgets](https://www.servicenow.com/docs/access?context=search-widgets&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **[Service Portal search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/search-widgets.md)**
 
     Service Portal includes widgets for multiple forms of search.
 
--   **[Now Mobile app](https://www.servicenow.com/docs/access?context=now-mobile-app&version=australia&pubname=australia-mobile&ft:locale=en-US)**
+-   **[Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/now-mobile-app.md)**
 
     The Now® Mobile app provides global search, voice search, and photo search.
 
--   **[Mobile Agent](https://www.servicenow.com/docs/access?context=mobile-experience&version=australia&pubname=australia-mobile&ft:locale=en-US)**
+-   **[Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-experience.md)**
 
     The Mobile Agent app enables service desk agents to promptly manage and resolve end user issues from their mobile devices.
 
--   **[Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)**
+-   **[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md)**
 
     The Virtual Agent platform uses search to help parse user statements and intents in chats.
 

@@ -46,11 +46,11 @@ Optionally, set up one or more additional request task management configurations
 **Related topics**  
 
 
-[Change the location of a request](https://www.servicenow.com/docs/access?context=t_ChangeTheLocationOfARequest&version=australia&pubname=australia-service-management-for-the-enterprise&ft:locale=en-US)
+[Change the location of a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_ChangeTheLocationOfARequest.md)
 
-[Request approvals](https://www.servicenow.com/docs/access?context=c_RequestApprovals&version=australia&pubname=australia-service-management-for-the-enterprise&ft:locale=en-US)
+[Request approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_RequestApprovals.md)
 
-[Collaborate on a request](https://www.servicenow.com/docs/access?context=t_CollaborateOnARequest&version=australia&pubname=australia-service-management-for-the-enterprise&ft:locale=en-US)
+[Collaborate on a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_CollaborateOnARequest.md)
 
-[Close a request](https://www.servicenow.com/docs/access?context=t_CloseARequest&version=australia&pubname=australia-service-management-for-the-enterprise&ft:locale=en-US)
+[Close a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_CloseARequest.md)
 

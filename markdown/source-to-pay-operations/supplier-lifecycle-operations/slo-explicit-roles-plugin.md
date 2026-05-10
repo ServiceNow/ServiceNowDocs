@@ -21,7 +21,7 @@ Groups and role containment structures also cannot include both roles, as this w
 
 You must install the Explicit Roles \[com.glide.explicit\_roles\] plugin while installing Supplier Case Management. Supplier Case Management is dependent on the Explicit Roles \[com.glide.explicit\_roles\] plugin.
 
-For more information about ServiceNow AI Platform explicit roles, see [Explicit Roles](https://www.servicenow.com/docs/access?context=explicit-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information about ServiceNow AI Platform explicit roles, see [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explicit-roles.md).
 
 **Parent Topic:**[Install Supplier Case Management](../task/install-supp-mgmt.md)
 

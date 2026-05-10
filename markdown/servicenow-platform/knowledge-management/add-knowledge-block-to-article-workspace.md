@@ -41,7 +41,7 @@ Role required: agent\_workspace\_user and knowledge
 
 5.  Search for the article to which you want to add the knowledge block.
 
-    To use condition builder with advanced search, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    To use condition builder with advanced search, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 6.  Click **Insert** to add the knowledge block to the article.
 

@@ -36,15 +36,15 @@ However, any existing milestones of the project are visible on the roadmap if yo
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d256845e139">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d257737e139">
 
 Roadmap type
 
-</th><th align="left" id="d256845e142">
+</th><th align="left" id="d257737e142">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d256845e148">
+</th></tr></thead><tbody><tr><td id="d257737e148">
 
 **Portfolio plan roadmap**
 
@@ -54,7 +54,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d256845e169">
+</td></tr><tr><td id="d257737e169">
 
 **Free-form roadmap**
 

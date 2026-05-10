@@ -57,5 +57,5 @@ Each business calendar record \(Week, Month, Quarter, and Year\) also shows whic
 **Related topics**  
 
 
-["Indicators with business calendars" in Create an automated indicator](https://www.servicenow.com/docs/access?context=t_CreateAnAutomatedIndicator&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+["Indicators with business calendars" in Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md)
 

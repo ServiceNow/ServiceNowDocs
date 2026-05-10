@@ -36,7 +36,7 @@ Administrators in charge of Discovery can establish a recurring schedule for Pal
 
 2.  Enter the Panorama API key.
 
-    For more information, see [Credential aliases for Discovery](https://www.servicenow.com/docs/access?context=discovery-credential-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    For more information, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/discovery-credential-alias.md).
 
 3.  To create a Discovery schedule, perform the following steps.
 

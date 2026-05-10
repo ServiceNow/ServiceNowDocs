@@ -17,15 +17,15 @@ The ServiceNow® Developer Sandboxes application enables your administrators and
 -   Upgrading an instance recreates sandboxes and backs up any update sets.
 -   A new plugin supports clone preservation when cloning an instance with sandboxes.
 
-See [Developer Sandboxes](https://www.servicenow.com/docs/access?context=sandboxes-landing&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.
+See [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/sandboxes-landing.md) for more information.
 
 ## New in the Australia release
 
--   **[New granular roles for administration](https://www.servicenow.com/docs/access?context=dsb-installed-with&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[New granular roles for administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dsb-installed-with.md)**
 
     Several new granular roles enable developers to complete administrative and configuration tasks without requiring the full admin role.
 
--   **[Support for separate indices for AI Search](https://www.servicenow.com/docs/access?context=exploring-sandboxes&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[Support for separate indices for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/exploring-sandboxes.md)**
 
     AI Search \(AIS\) now maintains separate indices for each sandbox environment, ensuring development activities that rely on AIS are correctly supported.
 
@@ -34,34 +34,34 @@ See [Developer Sandboxes](https://www.servicenow.com/docs/access?context=sandbox
 
 ## UI changes
 
--   **[Clarified sandbox initialization status](https://www.servicenow.com/docs/access?context=allocating-sandboxes&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[Clarified sandbox initialization status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/allocating-sandboxes.md)**
 
     An error status message now appears on the instance home page when there’s an initialization error when allocating a sandbox.
 
--   **[Developer Sandboxes home page hidden when product is inactive](https://www.servicenow.com/docs/access?context=dev-sbx-entitlements&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[Developer Sandboxes home page hidden when product is inactive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dev-sbx-entitlements.md)**
 
     The Developer Sandboxes home page is unavailable when Developer Sandboxes is inactive on an instance.
 
 
 ## Changed in this release
 
--   **[Upgrade enhancements](https://www.servicenow.com/docs/access?context=dev-sbx-clone-upgrade-info&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[Upgrade enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dev-sbx-clone-upgrade-info.md)**
 
     After an upgrade, Developer Sandboxes now recreates the sandboxes on an instance and automatically backs up update sets to the base instance.
 
--   **[Queuing for successive sandbox creation](https://www.servicenow.com/docs/access?context=allocating-sandboxes&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[Queuing for successive sandbox creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/allocating-sandboxes.md)**
 
     To improve performance, Developer Sandboxes has implemented queuing when multiple sandboxes are created in succession.
 
--   **[SSO support for vanity URLs](https://www.servicenow.com/docs/access?context=dev-sbx-general-guidelines&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[SSO support for vanity URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dev-sbx-general-guidelines.md)**
 
     Instances with vanity URLs can now support Single Sign-On \(SSO\).
 
--   **[Schema change for shared tables isolates the table](https://www.servicenow.com/docs/access?context=dsb-installed-with&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[Schema change for shared tables isolates the table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dsb-installed-with.md)**
 
     To ensure configuration consistency, if you make a schema change, such as adding a column, to a shared table, the table now becomes an isolated table on the sandbox that initiated the schema change.
 
--   **[New vibe coding documentation](https://www.servicenow.com/docs/access?context=vibe-coding-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[New vibe coding documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-landing.md)**
 
     Documentation is now available that introduces vibe coding, which is a natural language approach to application development in ServiceNow, including how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.
 
@@ -83,7 +83,7 @@ Contact your ServiceNow account manager to install Developer Sandboxes.
 
 ## Plugin information
 
--   **[New plugin](https://www.servicenow.com/docs/access?context=dev-sbx-installing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[New plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dev-sbx-installing.md)**
 
     The following plugin is new in Australia:
 
@@ -92,19 +92,19 @@ Contact your ServiceNow account manager to install Developer Sandboxes.
 
 ## Related ServiceNow applications and features
 
--   **[ServiceNow IDE](https://www.servicenow.com/docs/access?context=servicenow-ide-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-landing.md)**
 
     Create and develop scoped applications in source code in an integrated development environment \(IDE\) on the ServiceNow AI Platform to improve collaboration across development teams and accelerate application development.
 
--   **[ServiceNow SDK](https://www.servicenow.com/docs/access?context=servicenow-sdk-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-sdk-landing.md)**
 
     The ServiceNow SDK is used in the background of the ServiceNow IDE as the application packaging service that builds applications and provides the ServiceNow Fluent APIs for developing applications in source code. Scoped applications created or converted with the ServiceNow IDE or ServiceNow SDK can be developed with either application.
 
--   **[ServiceNow Studio](https://www.servicenow.com/docs/access?context=servicenow-studio-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md)**
 
     ServiceNow Studio provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps with ease.
 
--   **[Workflow Studio](https://www.servicenow.com/docs/access?context=workflow-studio&version=australia&pubname=australia-build-workflows&ft:locale=en-US)**
+-   **[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md)**
 
     Integrate workflow authoring, configuring, and monitoring into a single-page experience.
 

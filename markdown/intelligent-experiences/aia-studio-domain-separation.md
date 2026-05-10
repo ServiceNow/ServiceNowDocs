@@ -33,7 +33,7 @@ When an agentic conversation is triggered on demand, the domain visibility is ap
 
 **Note:** The **sys\_domain** field is added to all AI agent tables to achieve domain separation in Now Assist AI agents. The sys\_domain\_path, which is available for domain separation, is enabled on your instance.
 
-To understand more about the ServiceNow domain separation, see [Exploring domain separation](https://www.servicenow.com/docs/access?context=c_DomainSeparation&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+To understand more about the ServiceNow domain separation, see [Exploring domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md).
 
 ## How domain separation works in Now Assist AI Agent Studio
 
@@ -57,5 +57,5 @@ Domain separation in Now Assist AI agents supports:
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

@@ -17,7 +17,7 @@ Use the Search function in Retail Mobile to find cases or tasks based on relevan
 
 Role required: sn\_rtl\_instore\_ops.manager or sn\_rtl\_instore\_ops.associate
 
-**Note:** This requires AI search to be enabled within the Retail Mobile instance. For more information, see [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** This requires AI search to be enabled within the Retail Mobile instance. For more information, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md).
 
 ## Procedure
 

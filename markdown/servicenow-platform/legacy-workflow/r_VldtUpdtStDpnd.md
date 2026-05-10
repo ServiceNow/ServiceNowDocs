@@ -17,7 +17,7 @@ The **ValidateUpdateSetDependencies** validator identifies all the subflows call
 
 This warning informs the user that this workflow and one or more of its dependencies are being actively modified in a way that will not deploy concurrently to another instance without additional effort.
 
-For information about update sets, see [Create and select an update set](https://www.servicenow.com/docs/access?context=create-select-update-set&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For information about update sets, see [Create and select an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/create-select-update-set.md).
 
 ## Validation summary
 

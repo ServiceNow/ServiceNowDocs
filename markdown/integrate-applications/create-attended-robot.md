@@ -33,15 +33,15 @@ An attended robot is mapped to only one user.
 
 2.  Create a robot by doing one of the following actions.
 
-<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d342427e109">
+<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d343059e109">
 
 Option
 
-</th><th align="left" id="d342427e112">
+</th><th align="left" id="d343059e112">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d342427e118">
+</th></tr></thead><tbody><tr><td id="d343059e118">
 
 **From the list icon**
 
@@ -52,7 +52,7 @@ Action
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d342427e157">
+</td></tr><tr><td id="d343059e157">
 
 **From the plus icon**
 
@@ -136,5 +136,5 @@ Create a bot process. For more information, see [Configuring a bot process recor
 
 [Retire a robot in RPA Hub](retire-robot.md)
 
-[View Audit History](https://www.servicenow.com/docs/access?context=c_HistorySets&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[View Audit History](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistorySets.md)
 

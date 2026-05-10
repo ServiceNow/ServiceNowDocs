@@ -218,7 +218,7 @@ credentials\_debug
 
 </td><td>
 
-Displays a &lt;credentials\_debug&gt; section in the ECC queue, which can help you troubleshoot credentials. If you set this property to true, credential troubleshooting information is output to the ECC queue, even if the credentials succeed. See [Credentials Troubleshooting](https://www.servicenow.com/docs/access?context=r_CredentialTroubleshooting&version=australia&pubname=australia-platform-security&ft:locale=en-US) for more information.
+Displays a &lt;credentials\_debug&gt; section in the ECC queue, which can help you troubleshoot credentials. If you set this property to true, credential troubleshooting information is output to the ECC queue, even if the credentials succeed. See [Credentials Troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_CredentialTroubleshooting.md) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[SSHCommand probe](../concept/c_SSHCommandProbe.md)

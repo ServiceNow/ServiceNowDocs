@@ -28,9 +28,9 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Authentication**
 
-    The WebSEAL authentication process includes HTTP header authentication with basic credentials [Basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    The WebSEAL authentication process includes HTTP header authentication with basic credentials [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md).
 
-    If you’re running discovery for the first time, configure Credential affinity for Discovery and Orchestration [Credential affinity for Discovery and Orchestration](https://www.servicenow.com/docs/access?context=c_CredentialAffinity&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    If you’re running discovery for the first time, configure Credential affinity for Discovery and Orchestration [Credential affinity for Discovery and Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CredentialAffinity.md).
 
     **Note:** Credential affinity isn’t available In debug mode.
 

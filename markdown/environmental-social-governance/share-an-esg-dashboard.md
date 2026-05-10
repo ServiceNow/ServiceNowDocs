@@ -4,7 +4,7 @@ description: Share a dashboard with other users, groups, or roles to create a sh
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 2
 breadcrumb: [Monitoring assessment data using Operational Sustainability Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -45,7 +45,7 @@ Only admins can see roles in the Sharing panel.
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d24257e123">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d24261e123">
 
 **Add as viewer**
 
@@ -53,7 +53,7 @@ Only admins can see roles in the Sharing panel.
 
 Grant only viewing permissions to the users, groups, or roles you’re sharing the dashboard with. They can’t edit it.
 
-</td></tr><tr><td id="d24257e132">
+</td></tr><tr><td id="d24261e132">
 
 **Add as editor**
 

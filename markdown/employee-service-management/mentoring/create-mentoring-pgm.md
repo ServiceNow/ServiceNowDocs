@@ -37,7 +37,7 @@ Role required: sn\_ecn.mentoring\_admin
     |Minimum duration|The minimum number of moths that the mentoring program lasts.|
     |Maximum duration|The maximum number of months that the mentoring program lasts.|
     |Default duration|The default number of months that the mentoring program lasts.|
-    |User criteria|Records that contain lists of users that can participate in a mentoring program. See, [Create User Criteria Records](https://www.servicenow.com/docs/access?context=create-user-criteria-record-in-knowledge-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).|
+    |User criteria|Records that contain lists of users that can participate in a mentoring program. See, [Create User Criteria Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-user-criteria-record-in-knowledge-management.md).|
     |Auto complete overdue mentoring|When selected, a mentoring program is automatically closed when it’s overdue.|
     |Auto complete grace period|The number of months to wait before auto-completing overdue program.|
     |Short description|A brief description of a mentoring program that is visible in the UI that lists the program.|

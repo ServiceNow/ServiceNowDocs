@@ -27,7 +27,7 @@ Role required: sn\_imt\_core.privacy\_consent\_user
 
     -   If you are adding an attachment, such as proof of vaccination, add the attachment and then click **Update**.
 
-        **Note:** For information on managing attachments, see [Manage attachments](https://www.servicenow.com/docs/access?context=t_ManagingAttachments&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+        **Note:** For information on managing attachments, see [Manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ManagingAttachments.md).
 
     -   If you are reviewing the record, review the record and click **Back** to return to the list of vaccine responses.
 

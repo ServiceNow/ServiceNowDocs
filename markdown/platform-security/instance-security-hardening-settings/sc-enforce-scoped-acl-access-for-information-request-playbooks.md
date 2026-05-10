@@ -99,8 +99,8 @@ References
 
 </td><td>
 
--   [Using Information Request Playbook](https://www.servicenow.com/docs/access?context=psds-using-ir-playbooks&version=australia&pubname=australia-government-industry&ft:locale=en-US)
--   [Configure Information Requests service channel](https://www.servicenow.com/docs/access?context=awa-psds-overview&version=australia&pubname=australia-government-industry&section=psds-awa-configure-ir&ft:locale=en-US)
+-   [Using Information Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-ir-playbooks.md)
+-   [Configure Information Requests service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/awa-psds-overview.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Access control](sc-access-control.md)

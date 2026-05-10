@@ -27,7 +27,7 @@ This feature is deprecated, meaning it is in maintenance mode and is no longer b
 
 A latest score visualization shows the latest score and both the absolute and percentage change between this score and a previous score. This visualization is similar to a **Chart** view in an Analytics Hub. You can choose how many scores back to compare to the latest score. You can also display a trend line of absolute or percentage changes in scores.
 
-**Note:** This data visualization is supported on the mobile platform. For more information, see [Displaying KPI Details for the mobile dashboard](https://www.servicenow.com/docs/access?context=mobile-reporting-pa-widgets&version=australia&pubname=australia-mobile&ft:locale=en-US) and [Mobile dashboard preview](https://www.servicenow.com/docs/access?context=mobile-dashboard-preview&version=australia&pubname=australia-mobile&ft:locale=en-US).
+**Note:** This data visualization is supported on the mobile platform. For more information, see [Displaying KPI Details for the mobile dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-reporting-pa-widgets.md) and [Mobile dashboard preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-dashboard-preview.md).
 
 ![Latest score visualization of the percentage of incidents resolved without reassignment](../image/latest-score-widget.png "Latest score visualization")
 

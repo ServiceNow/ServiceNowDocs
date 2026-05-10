@@ -62,15 +62,15 @@ You can create a catalog request in Agent Workspace to join the Service Catalog 
 
 1.  Initiate a catalog request using any of the following options.
 
-<table id="choicetable_khj_fll_zdb"><thead><tr><th align="left" id="d201979e121">
+<table id="choicetable_khj_fll_zdb"><thead><tr><th align="left" id="d202161e121">
 
 Option
 
-</th><th align="left" id="d201979e124">
+</th><th align="left" id="d202161e124">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d201979e130">
+</th></tr></thead><tbody><tr><td id="d202161e130">
 
 **From an incident using the Create Request UI action**
 
@@ -82,7 +82,7 @@ Steps
 
 **Note:** You can only order items from the catalogs that are accessible.
 
-</td></tr><tr><td id="d201979e162">
+</td></tr><tr><td id="d202161e162">
 
 **From an incident using Agent Assist**
 
@@ -94,7 +94,7 @@ Steps
 4.  Click **Order**.
 
 
-</td></tr><tr><td id="d201979e198">
+</td></tr><tr><td id="d202161e198">
 
 **From an interaction record**
 

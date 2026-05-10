@@ -25,13 +25,13 @@ After activating HR Performance Analytics, the collection job runs daily by defa
 
     -   \[PA HR Case\] Daily Data Collection
     -   \[PA HR Case\] Historic Data Collection
-    See [Create or schedule a data collection job](https://www.servicenow.com/docs/access?context=t_CreatASchedDataCollJob&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    See [Create or schedule a data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreatASchedDataCollJob.md).
 
 -   **Indicators**
 
     Each job has indicators to make data collection efficient and defines what data to collect.
 
-    See [Configure a job indicator](https://www.servicenow.com/docs/access?context=configure-job-indicator&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    See [Configure a job indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/configure-job-indicator.md).
 
 -   **View dashboards**
 
@@ -89,7 +89,7 @@ The **Performance Analytics** dashboard provides the following reports.
 -   More info: A description of the logic that generates the report, how often the job runs, and when the data was last collected.
 -   If a menu icon appears when you point your cursor to a chart, you can click the icon to export the chart to an image file.
 
-For more information about performance analytics and how to develop and modify widgets for your organization, see [Performance Analytics concepts](https://www.servicenow.com/docs/access?context=c_PerformanceAnalytics&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) .
+For more information about performance analytics and how to develop and modify widgets for your organization, see [Performance Analytics concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PerformanceAnalytics.md) .
 
 **Parent Topic:**[Performance Analytics for HR Service Delivery](../concept/scoped-hr-performance-analytics.md)
 

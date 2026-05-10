@@ -29,25 +29,25 @@ Role required: sn\_prd\_pm.product-catalog\_manager
 
     The manner in which you create a version of a product offering is similar to how you created its initial version with the following exceptions.
 
-    **Note:** For information about the remaining field descriptions, see [Product Offering Versions form](https://www.servicenow.com/docs/access?context=field-descriptions-product-offering-form&version=australia&pubname=australia-order-management&ft:locale=en-US)
+    **Note:** For information about the remaining field descriptions, see [Product Offering Versions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/field-descriptions-product-offering-form.md)
 
 4.  To reflect the engineering changes that were made to the physical product, update the product offering version:
 
     1.  To update the characteristics that are associated with your product offering, use the Product Offering Characteristics related list.
     2.  To update the product visuals for your versioned product offering, use the Product Visuals related lists.
-    3.  **Note:** To learn more, see [Create and publish your product offerings to a catalog](https://www.servicenow.com/docs/access?context=order-mgt-product-offerings&version=australia&pubname=australia-order-management&ft:locale=en-US).
+    3.  **Note:** To learn more, see [Create and publish your product offerings to a catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-product-offerings.md).
 
 5.  When you finish creating the product offering version, do one of the following actions.
 
-<table id="choicetable_product_offering"><thead><tr><th align="left" id="d27696e134">
+<table id="choicetable_product_offering"><thead><tr><th align="left" id="d27700e134">
 
 Action
 
-</th><th align="left" id="d27696e137">
+</th><th align="left" id="d27700e137">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d27696e143">
+</th></tr></thead><tbody><tr><td id="d27700e143">
 
 **Publish**
 
@@ -57,7 +57,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 -   After you publish a product offering, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d27696e161">
+</td></tr><tr><td id="d27700e161">
 
 **Update**
 
@@ -65,7 +65,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 
 Update the product offering with the new data that you added, but don't publish it for use in a product catalog.
 
-</td></tr><tr><td id="d27696e170">
+</td></tr><tr><td id="d27700e170">
 
 **Copy**
 

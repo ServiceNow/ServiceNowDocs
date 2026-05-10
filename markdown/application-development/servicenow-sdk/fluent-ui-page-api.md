@@ -17,7 +17,7 @@ The UI Page API defines custom user interface \(UI\) pages \[sys\_ui\_page\] tha
 
 **Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
-A UI page displays as a web page and can be added to a widget for use in dashboards. For general information about UI pages, see [UI pages](https://www.servicenow.com/docs/access?context=r_UIPages&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+A UI page displays as a web page and can be added to a widget for use in dashboards. For general information about UI pages, see [UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_UIPages.md).
 
 You can develop a simple React application with the UI Page API. In the `src/client` directory, add static content files that define the HTML, client script, and styling of the page. From the UiPage object, refer to the page's HTML entry point \(`index.html`\). For more information, see [User interface development with React](../concept/ui-development-react.md).
 

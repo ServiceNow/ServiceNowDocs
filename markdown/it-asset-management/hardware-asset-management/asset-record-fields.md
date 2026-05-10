@@ -134,7 +134,7 @@ Parent
 
 </td><td>
 
-Parent asset of the asset. For example, a monitor or peripheral can have a workstation as their parent asset. When a parent link is defined, the fields related to the assignment and state of the child assets is set to read-only and are populated based on the parent assignment and state fields. For more information, see [Bundled models](https://www.servicenow.com/docs/access?context=c_CreatingBundledModels&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+Parent asset of the asset. For example, a monitor or peripheral can have a workstation as their parent asset. When a parent link is defined, the fields related to the assignment and state of the child assets is set to read-only and are populated based on the parent assignment and state fields. For more information, see [Bundled models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_CreatingBundledModels.md).
 
 </td></tr><tr><td>
 

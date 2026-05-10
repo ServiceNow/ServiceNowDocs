@@ -47,7 +47,7 @@ Condition
 
 </td><td>
 
-Required service organization condition.To learn more about the Service Organization Criteria, see [Create the criteria for a service organization](https://www.servicenow.com/docs/access?context=create-service-organization-criteria&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+Required service organization condition.To learn more about the Service Organization Criteria, see [Create the criteria for a service organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-service-organization-criteria.md).
 
 </td></tr></tbody>
 </table>4.  Select **Save**.
@@ -58,5 +58,5 @@ Required service organization condition.To learn more about the Service Organiza
 **Related topics**  
 
 
-[Associate service organizations with a service](https://www.servicenow.com/docs/access?context=associate-services-to-service-organization&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Associate service organizations with a service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-services-to-service-organization.md)
 

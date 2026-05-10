@@ -49,5 +49,5 @@ To view a discussion, select **Discuss**, then select **Open record** for the di
 **Related topics**  
 
 
-[Create a Sidebar discussion for a record](https://www.servicenow.com/docs/access?context=sidebar-discussions-record&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+[Create a Sidebar discussion for a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/sidebar-discussions-record.md)
 

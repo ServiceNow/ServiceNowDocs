@@ -25,15 +25,15 @@ Review [Stages and activities](../concept/process-automation-designer-lanes-acti
 
 1.  Add an activity.
 
-<table id="choicetable_e2d_3mv_21c"><thead><tr><th align="left" id="d176949e73">
+<table id="choicetable_e2d_3mv_21c"><thead><tr><th align="left" id="d178173e73">
 
 View
 
-</th><th align="left" id="d176949e76">
+</th><th align="left" id="d178173e76">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d176949e82">
+</th></tr></thead><tbody><tr><td id="d178173e82">
 
 **Diagram**
 
@@ -45,7 +45,7 @@ Steps
 
 **Note:** Select the application first, and then the activity from the resulting list.
 
-</td></tr><tr><td id="d176949e114">
+</td></tr><tr><td id="d178173e114">
 
 **Board**
 
@@ -94,7 +94,7 @@ Choose when you want your activity to start running. Options include:-   **When 
 
         **Warning:** Changing the advanced property fields of an activity can potentially break your automation. Make sure you understand how the playbook and its activities flow before you make changes.
 
-<table id="choicetable_n4l_ydt_vlb"><tbody><tr><td id="d176949e269">
+<table id="choicetable_n4l_ydt_vlb"><tbody><tr><td id="d178173e269">
 
 **Display order**
 
@@ -102,7 +102,7 @@ Choose when you want your activity to start running. Options include:-   **When 
 
 Define the order in which this activity will appear during a playbook run.
 
-</td></tr><tr><td id="d176949e281">
+</td></tr><tr><td id="d178173e281">
 
 **Run condition**
 
@@ -110,7 +110,7 @@ Define the order in which this activity will appear during a playbook run.
 
 After the activity starts, the activity runs only if specific conditions are met.
 
-</td></tr><tr><td id="d176949e290">
+</td></tr><tr><td id="d178173e290">
 
 **Start with delay**
 
@@ -118,7 +118,7 @@ After the activity starts, the activity runs only if specific conditions are met
 
 Specify a duration of time to wait before running an activity whose start rule and conditions have been met. For more information, see [Start with delay input properties](../reference/start-with-delay-properties.md).
 
-</td></tr><tr><td id="d176949e310">
+</td></tr><tr><td id="d178173e310">
 
 **Restart rules**
 
@@ -148,7 +148,7 @@ For more information, see [Configure restart for Playbooks](enable-define-restar
 
 4.  Under the **Inputs** section, define the values of the activity's inputs.
 
-    Configure inputs with a hardcoded value, or by [dot-walking to a data pill](https://www.servicenow.com/docs/access?context=c_DotWalking&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) \(![Data pill picker icon](../images/data-pill-picker-icon.png)\) to use data from previous activities, the playbook trigger, from the playbook parent table, or from the playbook inputs.
+    Configure inputs with a hardcoded value, or by [dot-walking to a data pill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md) \(![Data pill picker icon](../images/data-pill-picker-icon.png)\) to use data from previous activities, the playbook trigger, from the playbook parent table, or from the playbook inputs.
 
     **Tip:** You can use both text and multiple pills in any other rich text or HTML input fields.
 
@@ -176,7 +176,7 @@ For more information, see [Configure restart for Playbooks](enable-define-restar
 
     3.  Fill in the following fields.
 
-<table id="choicetable_cf4_jqb_g5b"><tbody><tr><td id="d176949e553">
+<table id="choicetable_cf4_jqb_g5b"><tbody><tr><td id="d178173e553">
 
 **Label**
 
@@ -184,7 +184,7 @@ For more information, see [Configure restart for Playbooks](enable-define-restar
 
 Enter a unique, user-facing name for your activity. This name appears to agents and fulfillers during runtime of your playbook.
 
-</td></tr><tr><td id="d176949e565">
+</td></tr><tr><td id="d178173e565">
 
 **Accessible From**
 
@@ -192,7 +192,7 @@ Enter a unique, user-facing name for your activity. This name appears to agents 
 
 Where the activity is accessible from. Make the activity accessible to other applications by setting the **Accessible from** field to **All application scopes**. Restrict access by setting the field to **This Application Scope Only**.
 
-</td></tr><tr><td id="d176949e583">
+</td></tr><tr><td id="d178173e583">
 
 **Table**
 
@@ -200,7 +200,7 @@ Where the activity is accessible from. Make the activity accessible to other app
 
 Optionally, set to the table associated with the activity.
 
-</td></tr><tr><td id="d176949e592">
+</td></tr><tr><td id="d178173e592">
 
 **Application**
 
@@ -208,7 +208,7 @@ Optionally, set to the table associated with the activity.
 
 Read-only field that indicates which applications can use this activity.
 
-</td></tr><tr><td id="d176949e601">
+</td></tr><tr><td id="d178173e601">
 
 **Description**
 
@@ -216,7 +216,7 @@ Read-only field that indicates which applications can use this activity.
 
 Optionally, enter some descriptive details about your activity.
 
-</td></tr><tr><td id="d176949e611">
+</td></tr><tr><td id="d178173e611">
 
 **Automation Plan**
 
@@ -224,7 +224,7 @@ Optionally, enter some descriptive details about your activity.
 
 Select the subflow or action that you want to use to automate your activity.
 
-</td></tr><tr><td id="d176949e620">
+</td></tr><tr><td id="d178173e620">
 
 **Activity Experience**
 

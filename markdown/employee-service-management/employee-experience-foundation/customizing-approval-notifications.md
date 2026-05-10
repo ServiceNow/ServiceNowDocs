@@ -19,7 +19,7 @@ You can customize the approval notification fields by creating the methods in a 
 
 Actionable Notifications are sent for approval and comments on tickets. You can customize the fields displayed in the approval notifications by creating methods in the `sn_now_teams.ApprovalsVAUtil()` script include. These methods override the ones in the `sn_now_teams.ApprovalsVAUtilSNC()` script include.
 
-For information about script includes, see [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For information about script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
 ## Creating the method
 

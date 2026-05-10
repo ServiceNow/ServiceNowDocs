@@ -66,5 +66,5 @@ Use the Work Queue form to create a queue. A queue lists the work items that you
 
 [Unassign a bot process from a queue in RPA Hub](unassign-botprocess-queue.md)
 
-[View Audit History](https://www.servicenow.com/docs/access?context=c_HistorySets&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[View Audit History](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistorySets.md)
 

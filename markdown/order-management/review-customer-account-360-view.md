@@ -170,7 +170,7 @@ State
 
 </td><td>
 
-State of the customer service case. To learn more, see [Case states](https://www.servicenow.com/docs/access?context=r_CustomerServiceCaseStates&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+State of the customer service case. To learn more, see [Case states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_CustomerServiceCaseStates.md).
 
 </td></tr></tbody>
 </table>7.  In the Product Inventory section, review the product inventory items for the selected account.

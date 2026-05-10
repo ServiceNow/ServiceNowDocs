@@ -81,7 +81,7 @@ ServiceNow
 
 </td></tr><tr><td>
 
-[Add a decision table entry with API path and subflow mapping](https://www.servicenow.com/docs/access?context=using-decision-builder&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Add a decision table entry with API path and subflow mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
 
 </td><td>
 
@@ -105,7 +105,7 @@ ServiceNow
 
 </td></tr><tr><td>
 
-[Define a REST message HTTP method](https://www.servicenow.com/docs/access?context=t_DefineAnHTTPMethod&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[Define a REST message HTTP method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_DefineAnHTTPMethod.md)
 
 </td><td>
 

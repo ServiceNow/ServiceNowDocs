@@ -19,13 +19,13 @@ The ServiceNow® IT Service Management application provides simplified and autom
 -   Enable employees to find answers, order items, create incidents, and check status on the Employee Center portal through an AI-first, multi-channel experience.
 -   Enable fulfillers to experience simplified incident and request management through an AI-first experience with IT support.
 
-See [Simplified IT Service Management](https://www.servicenow.com/docs/access?context=ai-native-it-service-desk-landing-page&version=australia&pubname=australia-it-service-management&ft:locale=en-US) for more information.
+See [Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/ai-native-it-service-desk-landing-page.md) for more information.
 
 **Important:** Simplified IT Service Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## IT Service Management features
 
--   **[Simplified employee experience](https://www.servicenow.com/docs/access?context=employee-experience-native-ai-itsm&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
+-   **[Simplified employee experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/employee-experience-native-ai-itsm.md)**
 
     Simplify meeting employee needs by leveraging the automated self-service and browsing experience in the Employee Center portal. The following capabilities are available as part of the employee experience:
 
@@ -33,7 +33,7 @@ See [Simplified IT Service Management](https://www.servicenow.com/docs/access?co
     -   Prebuilt catalog items for common IT issues and requests.
     -   Requester surveys for incidents and requested items.
     -   Multi-channel support through Employee Center, email, Microsoft Teams, and Slack.
--   **[Simplified fulfiller experience](https://www.servicenow.com/docs/access?context=fulfiller-experience-ai-native-itsm&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
+-   **[Simplified fulfiller experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/fulfiller-experience-ai-native-itsm.md)**
 
     Provide an efficient IT support experience for incident and request management by leveraging AI recommendations for the following:
 
@@ -43,13 +43,13 @@ See [Simplified IT Service Management](https://www.servicenow.com/docs/access?co
     -   Recommended actions such as linking similar incidents or ordering catalog items
     A role-based manager dashboard with key service desk metrics, date-range filtering, and agent-level filtering is available.
 
--   **[Automated and guided administrator experience](https://www.servicenow.com/docs/access?context=configuring-ai-native-itsm&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
+-   **[Automated and guided administrator experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-ai-native-itsm.md)**
 
     Set up multiple ITSM workflows \(incident management and request management\) by leveraging the guided and conversational setup process. The following capabilities are available for administrators:
 
     -   Default configuration settings that are automatically applied to installed products or modules. You can review and modify these settings.
     -   A guided configuration experience.
-    -   AI agents to configure ITSM workflows from a single admin UI page using natural language. See [Conversational AI Agents for configurations](https://www.servicenow.com/docs/access?context=agents-ai-native-it-service-desk&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+    -   AI agents to configure ITSM workflows from a single admin UI page using natural language. See [Conversational AI Agents for configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
 
 ## Activation information
 
@@ -61,15 +61,15 @@ IT Service Management is available as a ServiceNow Store application.
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist for Setup](https://www.servicenow.com/docs/access?context=ia-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Now Assist for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md)**
 
     Provides a modular and personalized Admin Home dashboard that centralizes instance management and helps with faster completion of critical tasks. It supports context-aware insights and recommended next actions.
 
--   **[Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     Provides the generative AI capabilities embedded throughout Simplified IT Service Management such as chat summarization, resolution notes generation, and agentic workflows for IT teams.
 
--   **[Enterprise Service Management Foundation](https://www.servicenow.com/docs/access?context=esm-foundation&version=australia&pubname=australia-better-together&ft:locale=en-US)**
+-   **[Enterprise Service Management Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/esm-foundation.md)**
 
     Unifies IT, HR, Finance, Procurement, Legal, and Workplace services on one AI platform, delivering a simplified and unified implementation, service delivery, and requester experience for mid-size companies.
 

@@ -39,7 +39,7 @@ Role required: sn\_wsd\_la.workplace\_central\_user, sn\_wsd\_la.manager or sn\_
 
     2.  On the Create New Documents form, fill in the fields.
 
-        For a description of the field values, see [Create New Documents form](https://www.servicenow.com/docs/access?context=create-new-doc-form&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)
+        For a description of the field values, see [Create New Documents form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-new-doc-form.md)
 
     3.  Select **Submit**.
 

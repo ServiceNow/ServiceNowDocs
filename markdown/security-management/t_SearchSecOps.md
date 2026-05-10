@@ -31,7 +31,7 @@ Role required: sn\_si.read or higher
 **Related topics**  
 
 
-[Introduction to searching](https://www.servicenow.com/docs/access?context=c_IntroductionToSearching&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Introduction to searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_IntroductionToSearching.md)
 
-[Zing text search](https://www.servicenow.com/docs/access?context=c_ZingTextSearch&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Zing text search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_ZingTextSearch.md)
 

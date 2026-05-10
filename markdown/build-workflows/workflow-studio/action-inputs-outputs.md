@@ -33,9 +33,9 @@ Workflow Studio does not display action input variables in the data pane. The ou
 
 ## Supported variable data types
 
-Workflow Studio supports variable data types to store ServiceNow AI Platform record data and complex data. Variables that store record data must have a data type matching the ServiceNow AI Platform [field type](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=australia&pubname=australia-platform-administration&ft:locale=en-US) of the source data. Variables for [complex data](../concept/complex-data.md) must match the type of complex data stored, either an array or an object.
+Workflow Studio supports variable data types to store ServiceNow AI Platform record data and complex data. Variables that store record data must have a data type matching the ServiceNow AI Platform [field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md) of the source data. Variables for [complex data](../concept/complex-data.md) must match the type of complex data stored, either an array or an object.
 
-**Note:** This reference documentation doesn't list all possible ServiceNow AI Platform data types available to actions and flows. Instead, the reference information focuses on the data types used by ServiceNow provided actions and flows. For a list and descriptions of available ServiceNow AI Platform data types, see [field type](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** This reference documentation doesn't list all possible ServiceNow AI Platform data types available to actions and flows. Instead, the reference information focuses on the data types used by ServiceNow provided actions and flows. For a list and descriptions of available ServiceNow AI Platform data types, see [field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
 
 -   **[Approval rules data type](approval-rules-data.md)**  
 Store the conditions for approving or rejecting an approval requests.

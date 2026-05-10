@@ -69,7 +69,7 @@ Update the types of records that appear in a list
 
 </td><td>
 
-For example, you can select **Urgency** as the field and **High** as the value to have the list show only urgent records. For more information, see [Create a condition statement using the condition builder](https://www.servicenow.com/docs/access?context=create-cond-state-using-cond-build&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).1.  Select **Modify conditions** in the Filtered list details panel.
+For example, you can select **Urgency** as the field and **High** as the value to have the list show only urgent records. For more information, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-cond-state-using-cond-build.md).1.  Select **Modify conditions** in the Filtered list details panel.
 2.  Use the condition builder to update what types of records the list should contain.
 3.  Save the update by selecting the **Apply** button.
 

@@ -54,7 +54,7 @@ Users with the admin or virtual\_agent\_admin role can activate the required plu
 
 5.  Select **Publish** to publish the topic.
 
-    **Note:** For details about activating and publishing conversation topics, see [Getting started with Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    **Note:** For details about activating and publishing conversation topics, see [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
 6.  Test an active, published conversation topic, by selecting the topic you want to test in Virtual Agent Designer and selecting **Test**.
 

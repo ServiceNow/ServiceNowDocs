@@ -22,10 +22,10 @@ The UI Components for Customer Portals plugin must have been activated. For more
 You must have the following setup in order to add, update, and use this widget:
 
 -   The page to which you want to add the widget. For more information, see [Create a page for Configurable Portal widgets](create-page-configurable-portal-widget.md)
--   A taxonomy to map your content. For more information, see [Create taxonomy](https://www.servicenow.com/docs/access?context=create-taxonomy-content&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+-   A taxonomy to map your content. For more information, see [Create taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-taxonomy-content.md).
 -   At least one taxonomy associated with your portal. For more information, see [Add a taxonomy to your portal](add-taxo-to-portal.md).
--   At least one topic associated with the taxonomy. For more information, see [Create and associate topics](https://www.servicenow.com/docs/access?context=create-topics-for-taxonomy&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
--   Topics associated with knowledge categories and catalog categories. For more information, see [Associate content categories to topics](https://www.servicenow.com/docs/access?context=associate-knowledge-categories-to-topics-in-bulk&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) and [Associate content from catalog categories to a topic](https://www.servicenow.com/docs/access?context=associate-catalog-categories-to-topics-in-bulk&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+-   At least one topic associated with the taxonomy. For more information, see [Create and associate topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-topics-for-taxonomy.md).
+-   Topics associated with knowledge categories and catalog categories. For more information, see [Associate content categories to topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/associate-knowledge-categories-to-topics-in-bulk.md) and [Associate content from catalog categories to a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/associate-catalog-categories-to-topics-in-bulk.md).
 
 Role required: sp\_admin
 

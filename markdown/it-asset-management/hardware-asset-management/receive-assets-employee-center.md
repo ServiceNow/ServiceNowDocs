@@ -19,7 +19,7 @@ After receiving hardware or consumable assets that were in transit and reserved 
 
 Role required: Log in as an employee.
 
-To view the **My Assets** option on the global header navigation bar of the Employee Center portal, the value of the **enable\_assets** option must be set to **true** on the Additional options, JSON format field of the Employee Center menu record. For more details, see [Enable or disable global header options](https://www.servicenow.com/docs/access?context=config-global-header-components&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+To view the **My Assets** option on the global header navigation bar of the Employee Center portal, the value of the **enable\_assets** option must be set to **true** on the Additional options, JSON format field of the Employee Center menu record. For more details, see [Enable or disable global header options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-global-header-components.md).
 
 **Note:** The **My Assets** option requires the Hardware Asset Management application to be activated.
 
@@ -68,15 +68,15 @@ Select **My Assets** in the global header navigation bar of the Employee Center 
 
 2.  Acknowledge after you receive the asset.
 
-<table id="choicetable_rv3_cx5_jfc"><thead><tr><th align="left" id="d95241e214">
+<table id="choicetable_rv3_cx5_jfc"><thead><tr><th align="left" id="d95245e214">
 
 Asset
 
-</th><th align="left" id="d95241e217">
+</th><th align="left" id="d95245e217">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d95241e223">
+</th></tr></thead><tbody><tr><td id="d95245e223">
 
 **Hardware**
 
@@ -96,7 +96,7 @@ Action
     -   Any receive task associated with that asset is automatically closed.
  **Note:** If the details of the asset that you received don't match the information shown in the Receive Asset dialog box, you can raise an issue by selecting the **Raise issue** option. For more details, see [Raise issue related to your asset on the Employee Center portal](report-asset-issue-attestation.md).
 
-</td></tr><tr><td id="d95241e336">
+</td></tr><tr><td id="d95245e336">
 
 **Consumables**
 

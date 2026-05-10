@@ -33,7 +33,7 @@ Role required: sn\_cim.improvement\_manager, sn\_cim.improvement\_coordinator
 
     1.  On the Improvement Initiative form, unlock the **Strategies** field to access your company strategic objectives, then select the lookup list.
 
-    2.  Select the [enterprise strategy](https://www.servicenow.com/docs/access?context=overview-business-planning&version=australia&pubname=australia-it-business-management&ft:locale=en-US) aligned with the improvement request.
+    2.  Select the [enterprise strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/overview-business-planning.md) aligned with the improvement request.
 
         **Note:** Only the Improvement Manager can create a strategy.
 

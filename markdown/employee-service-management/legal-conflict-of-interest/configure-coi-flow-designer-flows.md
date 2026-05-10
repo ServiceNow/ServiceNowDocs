@@ -28,7 +28,7 @@ Legal Conflict of Interest uses the following flows:
 -   COI Approval flow: Triggers multi-level approvals when an employee submits a conflict of interest request
 -   Scheduled Flow to Deactivate COI: Triggers to validate and deactivate any existing conflict of interest disclosure record that has the end date before the current date. The flow triggers at a scheduled time.
 
-The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with the [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=australia&pubname=australia-application-development&ft:locale=en-US) basics.
+The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md) basics.
 
 ## Procedure
 
@@ -38,13 +38,13 @@ The flows are built using ServiceNow Workflow Studio, so make sure you’re fami
 
 3.  Modify the trigger to set the conditions for the flow to trigger, and actions to add or update the approval levels.
 
-    For information on how to create or modify flows, see [Create a flow](https://www.servicenow.com/docs/access?context=create-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For information on how to create or modify flows, see [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
 
 4.  Click **Save**.
 
 5.  Test the flow by clicking **Test**.
 
-    For more information, see [Test a flow](https://www.servicenow.com/docs/access?context=flow-test&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md).
 
 6.  If not already active, click **Activate** to enable the flow.
 

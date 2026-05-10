@@ -19,7 +19,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_gsm.agen
 
 ## About this task
 
-Selecting the response templates icon ![Response template icon.](../image/response-template-icon.png) shows the reusable messages that you can copy and paste into cases and case tasks. For information on how to create response templates, see [Create or modify a response template](https://www.servicenow.com/docs/access?context=create-modify-templated-snippet&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Selecting the response templates icon ![Response template icon.](../image/response-template-icon.png) shows the reusable messages that you can copy and paste into cases and case tasks. For information on how to create response templates, see [Create or modify a response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-modify-templated-snippet.md).
 
 ## Procedure
 

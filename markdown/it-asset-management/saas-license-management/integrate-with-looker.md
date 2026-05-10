@@ -56,7 +56,7 @@ The Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_
 
 ServiceNow Role required: sam\_integrator
 
-**Important:** You must select the **Looker Spoke** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **Looker Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
 
 ### About this task
 
@@ -66,15 +66,15 @@ If you’re using Software Asset Workspace, the option to create the Looker inte
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d162562e341">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d162566e341">
 
 Interface
 
-</th><th align="left" id="d162562e344">
+</th><th align="left" id="d162566e344">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d162562e350">
+</th></tr></thead><tbody><tr><td id="d162566e350">
 
 **Core UI**
 
@@ -85,7 +85,7 @@ Action
 3.  Select **Looker Integration Profile**.
 
 
-</td></tr><tr><td id="d162562e392">
+</td></tr><tr><td id="d162566e392">
 
 **Software Asset Workspace**
 

@@ -23,41 +23,41 @@ A Performance Analytics administrator may need to reschedule the [data collectio
 
 ## Configuration Management Database applications
 
-[CSDM and CMDB Data Foundations dashboards](https://www.servicenow.com/docs/access?context=csdm-cmdb-foundations-dashboards&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[CSDM and CMDB Data Foundations dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md)
 
 ## Customer Service applications
 
--   [Conversational Analytics dashboard in Platform Analytics experience](https://www.servicenow.com/docs/access?context=VA-dashboard-landing-page-pae&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
--   [Workforce Optimization for Customer Service Management](https://www.servicenow.com/docs/access?context=configurable-wfo-cs&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+-   [Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/VA-dashboard-landing-page-pae.md)
+-   [Workforce Optimization for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-wfo-cs.md)
 
 ## DevOps applications
 
-[DevOps Insights](https://www.servicenow.com/docs/access?context=insights-dashboard-dev-ops&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[DevOps Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/insights-dashboard-dev-ops.md)
 
 ## Employee Service Management
 
-[Safe Workplace dashboard](https://www.servicenow.com/docs/access?context=safe-workplace-dashboard&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+[Safe Workplace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-dashboard/safe-workplace-dashboard.md)
 
 ## IT Asset Management applications
 
-[Cloud Insights](https://www.servicenow.com/docs/access?context=cloud-insights-landing-page&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
+[Cloud Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/cloud-insights-landing-page.md)
 
 ## Strategic Portfolio Management applications
 
-[Strategic Spend Tracking for PPM](https://www.servicenow.com/docs/access?context=ppm-strategic-spend-tracking-dashboard&version=australia&pubname=australia-it-business-management&ft:locale=en-US)
+[Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-dashboard.md)
 
 ## IT Operations Management applications
 
-[Firewall Audits and Reporting](https://www.servicenow.com/docs/access?context=firewall-audit-reporting&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+[Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/firewall-audit-reporting.md)
 
 ## IT Service Management applications
 
 -   Coaching
--   [On-Call Scheduling](https://www.servicenow.com/docs/access?context=viewing-performance-report-oncall&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+-   [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/viewing-performance-report-oncall.md)
 
 ## AI Experience applications
 
-[NLU Workbench](https://www.servicenow.com/docs/access?context=nlu-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-landing.md)
 
 **Parent Topic:**[Platform Analytics solutions](../concept/content-packs-in-form-analytics-published.md)
 

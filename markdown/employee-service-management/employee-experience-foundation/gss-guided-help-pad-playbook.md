@@ -17,7 +17,7 @@ Create a visual playbook flow of activities so that employees can find informati
 
 ## Before you begin
 
-Understand the basics of playbooks and workflow studio [Building Playbooks](https://www.servicenow.com/docs/access?context=building-a-process&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Understand the basics of playbooks and workflow studio [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-a-process.md).
 
 Review the information from [Guided Self-Service reference](../reference/gss-guided-self-service-reference-info.md).
 
@@ -25,7 +25,7 @@ Role required: sn\_hr\_sp.esc\_admin, playbook.write
 
 ## Procedure
 
-1.  Follow the instructions available in [Create an activity definition](https://www.servicenow.com/docs/access?context=create-activity-definition&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+1.  Follow the instructions available in [Create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-activity-definition.md).
 
 2.  On the Workflow Studio, use the existing questionnaire activity available from **Add activity** &gt; **Common Activities** &gt; **Questionnaire** for authoring question and answer flow.
 
@@ -52,7 +52,7 @@ Role required: sn\_hr\_sp.esc\_admin, playbook.write
 
     **Note:** Ensure you configure the Restart operation for every activity in the flow. When only one activity has the restart operation, it won't work.
 
-    Based on the security access and user permissions, the catalog items and KBs appear. For more information, see [Create a playbook](https://www.servicenow.com/docs/access?context=create-process-definition&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    Based on the security access and user permissions, the catalog items and KBs appear. For more information, see [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-process-definition.md).
 
     **Note:** The Activity Definition \[sys\_pd\_activity\_definition\] table lists the definitions for the activities that you can add to a playbook in **Workflow Studio**.
 

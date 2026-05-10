@@ -33,15 +33,15 @@ You can also accept the policies on the Workplace Services Kiosk during the visi
 
 2.  Accept or decline the visitor policies based on your preference.
 
-<table id="choicetable_if1_vtw_tfc"><thead><tr><th align="left" id="d126532e84">
+<table id="choicetable_if1_vtw_tfc"><thead><tr><th align="left" id="d127082e84">
 
 Choice
 
-</th><th align="left" id="d126532e87">
+</th><th align="left" id="d127082e87">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d126532e93">
+</th></tr></thead><tbody><tr><td id="d127082e93">
 
 **Accept the policies**
 
@@ -55,7 +55,7 @@ The Visitor Policies page opens with details about all visitor policies.
 
 Based on the configuration set by the admin, you might have to add a signature to agree to the policies.
 
-</td></tr><tr><td id="d126532e121">
+</td></tr><tr><td id="d127082e121">
 
 **Decline the policies**
 

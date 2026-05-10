@@ -41,6 +41,6 @@ The following tasks are included in the guided setup.
 4.  Add **Agile Team** as the type for existing SAFe groups. See [Add Agile Team type to SAFe groups for EAP migration](../task/change-safe-groups-type-to-agile-team.md).
 5.  Assign the EAP roles sn\_apw\_advanced.eap\_read\_only, sn\_apw\_advanced.eap\_user, and sn\_apw\_advanced.eap\_admin to your SAFe groups or to individual users in your teams.
 
-    See [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US) or [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    See [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md) or [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
 

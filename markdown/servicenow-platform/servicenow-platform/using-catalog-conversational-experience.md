@@ -33,7 +33,7 @@ The **Update catalog items conversational status** scheduled job pulls conversat
 **Related topics**  
 
 
-[Configure Now Assist in Conversational Catalog Request](https://www.servicenow.com/docs/access?context=configure-gen-ai-catalog-item&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+[Configure Now Assist in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-gen-ai-catalog-item.md)
 
 [View the conversational catalog overview dashboard using Catalog Builder](using-catalog-conversational-experience.md#)
 

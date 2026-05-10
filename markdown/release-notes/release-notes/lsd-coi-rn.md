@@ -16,19 +16,19 @@ The ServiceNow® Legal Conflict of Interest enables you to manage the disclosure
 
 Disclose conflicts of interest using natural language from Now Assist in Virtual Agent rather than having to fill out intake forms. The risk assessment utility then automatically evaluates each submission and routes it to the appropriate approval workflow, enabling faster resolution.
 
-See [Legal Conflict of Interest](https://www.servicenow.com/docs/access?context=legal-conflict-of-interest-landing-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) for more information.
+See [Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/legal-conflict-of-interest-landing-page.md) for more information.
 
 **Important:** Legal Conflict of Interest is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Configure risk assessment](https://www.servicenow.com/docs/access?context=lsd-coi-config-risk-fac&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **[Configure risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/lsd-coi-config-risk-fac.md)**
 
     The risk assessment utility evaluates conflict of interest disclosures against predefined risk factors to calculate a risk score and determine the risk level \(Low, Medium, or High\). The risk level automatically triggers the appropriate approval workflow. The utility supports three evaluation types: Condition, Subflow, and AI skill.
 
     **Note:** AI skill evaluation is available once you have installed and configured Now Assist for Legal Service Delivery \(LSD\).
 
--   **[Submit COI request using Now Assist conversational intake](https://www.servicenow.com/docs/access?context=now-assist-lsd-convi&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **[Submit COI request using Now Assist conversational intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-convi.md)**
 
     Using natural language to submit a conflict of interest request from Now Assist in the Virtual Agent interface reduces the effort required to fill in form fields because details provided in natural language are automatically populated into the intake form. Achieve faster resolution due to automated risk assessment that routes requests to the appropriate approval workflow based on calculated risk scores.
 
@@ -50,11 +50,11 @@ Install Legal Conflict of Interest by requesting it from the ServiceNow Store. V
 
 ## Related ServiceNow applications and features
 
--   **[Legal Service Delivery Practice Applications](https://www.servicenow.com/docs/access?context=lsd-practice-app-landing&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **[Legal Service Delivery Practice Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-practice-app-landing.md)**
 
     Legal practice applications in the Legal Service Delivery suite provide solutions for the specific needs of different legal practice areas.
 
--   **[Now Assist for Legal Service Delivery \(LSD\)](https://www.servicenow.com/docs/access?context=now-assist-lsd-landing&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **[Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)**
 
     Summarize a legal request or legal matter to understand its context, refresh its summary, and post the summary to work notes.
 

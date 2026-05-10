@@ -17,7 +17,7 @@ To configure a theme, you create one or more styles with overrides to the defaul
 
 **Note:**
 
-Usually, you are working with the Compositional Theme. The exceptions are when the experience you are configuring does not have a parent app or it uses an app shell UI other than the Breadcrumb App Shell or the Agent Workspace App Shell. If you are configuring a theme for one of these exceptions, see [Manage the visual style of UI Builder experiences](https://www.servicenow.com/docs/access?context=manage-the-visual-style-of-ui-builder-experiences&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Usually, you are working with the Compositional Theme. The exceptions are when the experience you are configuring does not have a parent app or it uses an app shell UI other than the Breadcrumb App Shell or the Agent Workspace App Shell. If you are configuring a theme for one of these exceptions, see [Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.md).
 
 -   **[Create a custom theme by cloning a Theme Builder theme record](create-custom-theme-using-theme-builder-record.md)**  
 Create a custom theme in the Next Experience more efficiently using a published Theme Builder theme record.

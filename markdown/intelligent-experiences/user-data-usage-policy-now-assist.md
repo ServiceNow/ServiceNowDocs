@@ -30,7 +30,7 @@ Further, to confirm quality of service, ServiceNow might use Azure-hosted GPUs f
 
 ## Mask sensitive data
 
-Sensitive data can be masked before sending it to LLMs using Now Assist for Data Privacy. To learn more, see [Configuring Data Privacy for Now Assist](https://www.servicenow.com/docs/access?context=configure-now-assist-data-privacy&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Sensitive data can be masked before sending it to LLMs using Now Assist for Data Privacy. To learn more, see [Configuring Data Privacy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/configure-now-assist-data-privacy.md).
 
 After you enable the plugin, it’s designed to mask sensitive data before it’s sent to the LLM, but could result in less accurate results because the specific data isn’t included within the prompt.
 

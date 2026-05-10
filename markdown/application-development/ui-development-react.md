@@ -44,7 +44,7 @@ The following list is a high-level overview of the process to develop a React ap
 
 -   The UI page HTML should be modified only in source code. Changes to the HTML of a UI page \[sys\_ui\_page\] on an instance aren't synchronized into source code and are likely to result in unintended behavior.
 -   Audio, video, and WASM content types aren't supported.
--   The maximum file size of uploaded attachments is limited by the size configured with **com.glide.attachment.max\_size** system property. For more information, see [Minimize Allowed Attachment Size](https://www.servicenow.com/docs/access?context=sc-max-allowed-attachment-size&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   The maximum file size of uploaded attachments is limited by the size configured with **com.glide.attachment.max\_size** system property. For more information, see [Minimize Allowed Attachment Size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-max-allowed-attachment-size.md).
 -   Output paths must be deterministic.
 -   Pre-loading content linked from HTML isn't supported \(`rel="preload"`\).
 -   Relative style sheets linked from HTML aren't supported \(`rel="stylesheet"`\). Import style sheets into code instead \(`@import 'path/to/style-sheet'`\).

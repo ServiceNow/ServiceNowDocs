@@ -64,7 +64,7 @@ Role required: admin
 
 12. If you have run the job for HRSD, select the **Change The State to Allowed for the following records** link on the Restricted Caller Access Privileges screen.
 
-    **Note:** The following sub-steps can only be completed when in the Human Resources: Core application scope. For more information on changing application scopes, see [Select an application from the application picker](https://www.servicenow.com/docs/access?context=t_SelectAnAppFromTheAppPicker&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    **Note:** The following sub-steps can only be completed when in the Human Resources: Core application scope. For more information on changing application scopes, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md).
 
     1.  Change the Status column from `Requested` to `Allowed` on the Restricted Caller Access Privileges table, and then go back to the guided setup.
 

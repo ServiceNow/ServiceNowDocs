@@ -19,13 +19,13 @@ After you've imported your entitlements, use ServiceNow Discovery or Microsoft S
 
 While you may use Discovery Home for datacenters and Microsoft SCCM for desktop environments, you can integrate other third-party discovery solutions with CMDB to support Software Asset Management. To integrate a different discovery solution, add it manually, or you can download an application, from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). For more information about integrating a discovery source manually, see the [Customer Success Center](https://www.servicenow.com/success.html).
 
-To learn more about collecting data after you've integrated with both Discovery and SCCM, see [Collect software data with either SCCM or Discovery](https://www.servicenow.com/docs/access?context=c_DiscoveryAndSCCMTogether&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+To learn more about collecting data after you've integrated with both Discovery and SCCM, see [Collect software data with either SCCM or Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryAndSCCMTogether.md).
 
 ## Discovery integration
 
 ServiceNow Discovery is used to automatically populate the Software Installations table so the software can be normalized and reconciled.
 
-**Note:** To use Discovery, the [Discovery plugin](https://www.servicenow.com/docs/access?context=t_ActivateTheDiscoveryPlugin&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) must be activated.
+**Note:** To use Discovery, the [Discovery plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md) must be activated.
 
 Discovery uses patterns in the discovery process that can be created or customized. The base system contains a wide range of patterns that cover most industry standard network devices and applications. The following are some of the base system patterns used by Software Asset Management.
 
@@ -36,7 +36,7 @@ Discovery uses patterns in the discovery process that can be created or customiz
 -   Microsoft Exchange Server
 -   Oracle Database Server
 
-You can also customize other patterns for Software Asset Management. For more information, see [Create or modify patterns](https://www.servicenow.com/docs/access?context=t_CreatePatternPatDef&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+You can also customize other patterns for Software Asset Management. For more information, see [Create or modify patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreatePatternPatDef.md).
 
 Discovered software is stored in the Software Installations \[cmdb\_sam\_sw\_install\] table.
 
@@ -47,7 +47,7 @@ When software install records are written to the Software Installations table, a
 
 After discovery, normalization is run.
 
-For more information on Discovery, see [Discovery with Software Asset Management](https://www.servicenow.com/docs/access?context=c_DiscoSWAssetMgmtTableSchema&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+For more information on Discovery, see [Discovery with Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_DiscoSWAssetMgmtTableSchema.md).
 
 ## SCCM integration
 
@@ -69,7 +69,7 @@ Microsoft SCCM Software Usage plugins:
 
 The Integration — Microsoft SCCM 2016 plugin is compatible with SCCM versions 1606, 1906, 1910, and 2002.
 
-**Important:** These Microsoft SCCM plugins will be deprecated in the Tokyo release. If you are integrating with SCCM for the first time, request and install the Service Graph connector for Microsoft SCCM application from the [ServiceNow Store](https://store.servicenow.com/) instead. If you have already activated one of the Microsoft SCCM plugins on your ServiceNow instance, use the Migration Readiness Tool for Service Graph Connector for SCCM store application to prepare your instance for migration from the Microsoft SCCM plugin to the Service Graph connector. See [Service Graph connector for Microsoft SCCM](https://www.servicenow.com/docs/access?context=cmdb-integration-sccm&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information on the Service Graph connector.
+**Important:** These Microsoft SCCM plugins will be deprecated in the Tokyo release. If you are integrating with SCCM for the first time, request and install the Service Graph connector for Microsoft SCCM application from the [ServiceNow Store](https://store.servicenow.com/) instead. If you have already activated one of the Microsoft SCCM plugins on your ServiceNow instance, use the Migration Readiness Tool for Service Graph Connector for SCCM store application to prepare your instance for migration from the Microsoft SCCM plugin to the Service Graph connector. See [Service Graph connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-sccm.md) for more information on the Service Graph connector.
 
 For more information on SCCM and how to import your data into your instance, see [Microsoft SCCM software usage](sccm-software-usage.md).
 

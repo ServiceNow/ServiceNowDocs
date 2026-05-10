@@ -20,7 +20,7 @@ Reporting is installed with roles that limit report creation. Access control lis
 -   Users must have the report\_user role to see the **Reports** module on the application navigator \(left navigation pane\).
 -   Users with any reporting role or the itil role can access the following report options for all reports that are visible to them: **Insert**, **Insert and Stay**, **Add to Dashboard**, and **Export to PDF**.
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 In the following table, the term manage indicates access to the following report options: **Update**, **Delete**, and **Export settings**.
 

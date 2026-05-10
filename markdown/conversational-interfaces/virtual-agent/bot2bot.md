@@ -28,7 +28,7 @@ The ServiceNow secondary bot uses a standard request and response through REST e
 
 ## Properties for bot-to-bot integrations
 
-You can [add system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) to configure the following:
+You can [add system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) to configure the following:
 
 -   Number of times that the Virtual Agent bot tries to get a response
 -   Bot normalization score

@@ -15,7 +15,7 @@ There are different plugins that activate CSS themes support.
 
 Activate the following plugins to use themes, based on the version of the UI you use.
 
-**Core UI:** CSS Theme support See [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Core UI:** CSS Theme support See [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 **Parent Topic:**[CSS theme support](../concept/c_CSSThemeSupport.md)
 

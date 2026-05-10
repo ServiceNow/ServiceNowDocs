@@ -64,7 +64,7 @@ When you add an inbound email action to send email, Event Management uses inboun
 
 5.  From the instance, send an email that contains matching data, and then confirm that the event or alert information appears in Event Management.
 
-    For more information sending email messages to create an instance, see [Inbound email actions](https://www.servicenow.com/docs/access?context=c_InboundEmailActions&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information sending email messages to create an instance, see [Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_InboundEmailActions.md).
 
     **Note:** Ensure that the user who sends the email has the role **evt\_mgmt\_integration**.
 

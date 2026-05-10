@@ -22,7 +22,7 @@ Email accounts are configured in the **System Mailboxes** &gt; **Administration*
 
 Email diagnostics are available from the **System Mailboxes** &gt; **Email Diagnostics** module.
 
-**Note:** To learn more about the security properties that affect email processing, see [SMTP authentication \(deprecated\)](https://www.servicenow.com/docs/access?context=smtp-authentication&version=australia&pubname=australia-platform-security&ft:locale=en-US) in Instance Security Hardening Settings.
+**Note:** To learn more about the security properties that affect email processing, see [SMTP authentication \(deprecated\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/smtp-authentication.md) in Instance Security Hardening Settings.
 
 -   **[Outbound email configuration](../reference/r_OutboundMailConfiguration.md)**  
 The **Outbound Email Configuration** section of the Email Properties page contains properties for sending email.

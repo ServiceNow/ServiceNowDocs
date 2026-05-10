@@ -19,7 +19,7 @@ Use the product release email communication agentic workflow to automatically dr
 
 To access the agentic workflow and product release content generator skill, install the plugin AI Agents for Customer Success Management \(sn\_cust\_succ\_ai\_ag\) in your instance.
 
-**Important:** In the Now Assist skills page, make sure to Activate the product release content generator skill to trigger the agentic workflow. See [Activate a skill](https://www.servicenow.com/docs/access?context=activate-skill&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more details.
+**Important:** In the Now Assist skills page, make sure to Activate the product release content generator skill to trigger the agentic workflow. See [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/activate-skill.md) for more details.
 
 ## Product release email communication agentic workflow overview
 
@@ -31,9 +31,9 @@ The agentic workflow automatically drafts, refine, and publish release announcem
 
 This agentic workflow is delivered as part of the out-of-the-box \(OOB\) product offering and is preconfigured to operate with the Digital Product Release \(DPR\) application. This enables customers to get started quickly using the default setup. However, the workflow is designed with flexibility in mind and isn’t limited to DPR. Organizations using alternative release management or related systems can seamlessly adopt this capability by integrating their existing applications with minimal customization. That ensures the workflow can be adapted to diverse system landscapes and specific business requirements.
 
-When the DPR \(sn\_dpr\_model\_release\) record moves to the completed state, the agentic workflow triggers automatically. For more information about DPR, see [Digital Product Release](https://www.servicenow.com/docs/access?context=dpr-landing-page&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+When the DPR \(sn\_dpr\_model\_release\) record moves to the completed state, the agentic workflow triggers automatically. For more information about DPR, see [Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-landing-page.md).
 
-To modify the Product release email communication agentic workflow, [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), and adjust the settings according to your requirements.
+To modify the Product release email communication agentic workflow, [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 The CSM can trigger this agentic workflow manually only for assigned product releases.
 
@@ -46,7 +46,7 @@ To access the use case:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Product Release Email Communication**.
 
-To create a new use case, see [Create an agentic workflow](https://www.servicenow.com/docs/access?context=configure-use-case-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+To create a new use case, see [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md).
 
 ## AI agent used in the Product release email communication
 
@@ -71,5 +71,5 @@ AI agent automates product release communications by retrieving the latest updat
 The AI agent is invoked only when the product release is marked completed by release manager.
 
 </td></tr></tbody>
-</table>To create an AI agent, see [Create an AI agent](https://www.servicenow.com/docs/access?context=configure-next-best-action-agent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+</table>To create an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 

@@ -47,7 +47,7 @@ For more information on modifying an agentic workflow, see [Configuring agentic 
 
 To learn about the Help resolve friendly fraud disputes agentic workflow, see [Help resolve friendly fraud disputes agentic workflow](friendly-fraud-agentic-ai-workflow.md).
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 
 -   **[Help resolve friendly fraud disputes agentic workflow](friendly-fraud-agentic-ai-workflow.md)**  
 Use this agentic workflow to assist human agents with analyzing friendly fraud cases, selecting a course of action, and drafting a decision response to customers.

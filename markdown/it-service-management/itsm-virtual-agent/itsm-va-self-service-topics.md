@@ -19,7 +19,7 @@ Self-Service topic conversations are designed to give users to access IT-related
 
 Users can book a conference room in Microsoft Exchange Online using Virtual Agent.
 
-Requirement: [Microsoft Exchange Online spoke](https://www.servicenow.com/docs/access?context=ms-exch-online-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) \(sn\_ex\_online\_spke\)
+Requirement: [Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/ms-exch-online-spoke.md) \(sn\_ex\_online\_spke\)
 
 This topic uses the Create Incident [topic block](itsm-va-topic-blocks.md).
 
@@ -47,7 +47,7 @@ Basic flow:
 
 Users can book a conference room in on-premises Microsoft Exchange Server using Virtual Agent.
 
-Requirement: [Microsoft Exchange Server spoke](https://www.servicenow.com/docs/access?context=msexchangeserver-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) \(sn\_exchange\_spoke\)
+Requirement: [Microsoft Exchange Server spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/msexchangeserver-spoke.md) \(sn\_exchange\_spoke\)
 
 This topic uses the Create Incident [topic block](itsm-va-topic-blocks.md).
 
@@ -95,7 +95,7 @@ This topic is deprecated. Use [Reset Password](../concept/itsm-password-manageme
 
 Users can access a password reset link when system lockout occurs or when passwords are forgotten. When a user enters keywords related to password reset, Virtual Agent provides a link to the password reset process. If a user is not authenticated in the system, Virtual Agent requests the user's email address. If a user is not enrolled in Password Reset, Virtual Agent provides a link to **Password Enrollment**.
 
-**Note:** An admin must properly configure the password reset process with a valid verification type for this topic to work as described. For details, see [Configure your Password Reset process](https://www.servicenow.com/docs/access?context=t_CreateAPasswordResetProcess&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Note:** An admin must properly configure the password reset process with a valid verification type for this topic to work as described. For details, see [Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md).
 
 ## Get Zoom Meeting Recording
 
@@ -103,8 +103,8 @@ Users can get a recording of a Zoom meeting that they hosted in Microsoft Exchan
 
 Requirements:
 
--   [Microsoft Exchange Online spoke](https://www.servicenow.com/docs/access?context=ms-exch-online-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) \(com.sn.msexchange.spoke\)
--   [Zoom spoke](https://www.servicenow.com/docs/access?context=zoom-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) \(com.sn.zoom.spoke\)
+-   [Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/ms-exch-online-spoke.md) \(com.sn.msexchange.spoke\)
+-   [Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/zoom-spoke.md) \(com.sn.zoom.spoke\)
 -   User email address must be configured in the User \[sys\_user\] table
 -   User email address must match the address in Microsoft Exchange Online and Zoom
 
@@ -148,7 +148,7 @@ This topic uses the following [topic blocks](itsm-va-topic-blocks.md):
 -   Contextual Search
 -   Create Incident
 
-When creating an incident, if you also want to create an associated Universal Request and display the Universal Request card in Virtual Agent instead of the incident, the [Universal Request plugin](https://www.servicenow.com/docs/access?context=setup-configure-ur&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) \(com.snc.universal\_request\) must be active, and the **Create Universal Request with incident** system property \(**com.snc.create\_universal\_request\_with\_incident**\) must be set to **Yes** \(the default is Yes\).
+When creating an incident, if you also want to create an associated Universal Request and display the Universal Request card in Virtual Agent instead of the incident, the [Universal Request plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/setup-configure-ur.md) \(com.snc.universal\_request\) must be active, and the **Create Universal Request with incident** system property \(**com.snc.create\_universal\_request\_with\_incident**\) must be set to **Yes** \(the default is Yes\).
 
 **Note:** Locate the property within the **Incident Properties** module, in the **Incident VA Conversation** category. Users with the itil\_admin role have read and write permissions.
 
@@ -180,7 +180,7 @@ Users can access all known outage information. When a user asks if a particular 
 
 Users can set an automatic out-of-office reply for Microsoft Exchange Server using Virtual Agent. The user selects the start and end time using their current local time zone. This topic recognizes date-range entities and intents. The message is hard-coded and is the same for internal and external recipients.
 
-Requirement: [Microsoft Exchange Server spoke](https://www.servicenow.com/docs/access?context=msexchangeserver-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) \(sn\_exchange\_spoke\)
+Requirement: [Microsoft Exchange Server spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/msexchangeserver-spoke.md) \(sn\_exchange\_spoke\)
 
 This topic uses the Create Incident [topic block](itsm-va-topic-blocks.md).
 
@@ -188,11 +188,11 @@ This topic uses the Create Incident [topic block](itsm-va-topic-blocks.md).
 
 ## Submit a request \(deprecated\)
 
-**Note:** While you can use the Submit a request topic to search for and request catalog items, the recommended method is to use the [Fallback setup topic](https://www.servicenow.com/docs/access?context=working-setup-topics&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+**Note:** While you can use the Submit a request topic to search for and request catalog items, the recommended method is to use the [Fallback setup topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/working-setup-topics.md).
 
 Users can submit a request by choosing from all available options. For example, when a user is requesting an item, the Virtual Agent prompts the user to enter a search keyword. After the user enters the keyword, Virtual Agent responds with available choices in a carousel view.
 
-This topic uses the following [Service Catalog topic blocks](https://www.servicenow.com/docs/access?context=request-topic-blocks-va&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US):
+This topic uses the following [Service Catalog topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va.md):
 
 -   Request Catalog Item
 -   Search Catalog Item
@@ -205,8 +205,8 @@ When the user selects the required item, the following scenarios are possible:
 
 -   A user can submit a request in a popup or a window.
 
-    -   In case of a popup, Virtual Agent provides a link for the user to submit the request in a popup without navigating to a new tab. A non-conversational catalog item can be rendered as a popup only if it does not have any Custom, Custom with label, or UI Page variables. For more information, see [Service Catalog topic blocks in Virtual Agent](https://www.servicenow.com/docs/access?context=request-topic-blocks-va&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
-    -   In case of a window, Virtual Agent provides a link for the user to submit the request in the Service Portal defined in the **sn\_itsm\_va.com.snc.itsm.virtualagent.portal\_url** property. A non-conversational item will be rendered as a window it has a Custom, Custom with label, or UI Page variable. For more information, see [Service Catalog topic blocks in Virtual Agent](https://www.servicenow.com/docs/access?context=request-topic-blocks-va&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    -   In case of a popup, Virtual Agent provides a link for the user to submit the request in a popup without navigating to a new tab. A non-conversational catalog item can be rendered as a popup only if it does not have any Custom, Custom with label, or UI Page variables. For more information, see [Service Catalog topic blocks in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va.md).
+    -   In case of a window, Virtual Agent provides a link for the user to submit the request in the Service Portal defined in the **sn\_itsm\_va.com.snc.itsm.virtualagent.portal\_url** property. A non-conversational item will be rendered as a window it has a Custom, Custom with label, or UI Page variable. For more information, see [Service Catalog topic blocks in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va.md).
     **Note:** Now Mobile opens the item in Mobile Employee Service Portal \(mesp\).
 
     ![Submit a Request virtual agent chatbot dialogue.](../../service-catalog-management/image/SubmitaRequest.png)
@@ -230,7 +230,7 @@ Users can request a Microsoft 365 Cloud PC for themselves through a Virtual Agen
 
 Requirements:
 
--   [Microsoft Azure Active Directory spoke](https://www.servicenow.com/docs/access?context=microsoft-azure-ad-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) \(com.sn.azure\_ad.spoke\)
+-   [Microsoft Azure Active Directory spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/microsoft-azure-ad-spoke.md) \(com.sn.azure\_ad.spoke\)
 -   Integration with the Microsoft service via ServiceNow® Integration Hub and Workflow Studio
 
 This topic uses the Create Incident [topic block](itsm-va-topic-blocks.md).

@@ -19,7 +19,7 @@ By default, the data visualization uses the colors that are set in the UX Theme 
 -   A default color palette
 -   A default spectrum of shades for a color range
 
-You can create a theme and select it either for a specific user or set it as the default theme for an instance. For more information, see [Working with themes in Next Experience](https://www.servicenow.com/docs/access?context=next-experience-theming&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+You can create a theme and select it either for a specific user or set it as the default theme for an instance. For more information, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
 
 In a specific visualization, you can override the colors set in the UX theme. Set colors in the Colors subsection of the Presentation section in the visualization's configuration panel. The available options are described in the "Create a..." topic for each visualization type.
 
@@ -75,7 +75,7 @@ If you group by a value in a visualization based on a Table data source, you hav
 **Related topics**  
 
 
-[Working with themes in Next Experience](https://www.servicenow.com/docs/access?context=next-experience-theming&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md)
 
 ## Create coloring rules for data visualizations
 

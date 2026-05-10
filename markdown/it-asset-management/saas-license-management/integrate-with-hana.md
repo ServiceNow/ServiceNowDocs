@@ -36,7 +36,7 @@ Create a communication system and an inbound user to enable access to the SAP S/
 
 ### Before you begin
 
-The SAP S/4HANA Public Cloud Integration Hub spoke must be active. For more information, see [SAP S4 HANA Public Cloud Spoke](https://www.servicenow.com/docs/access?context=sap-s4-hana-cloud-spk&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+The SAP S/4HANA Public Cloud Integration Hub spoke must be active. For more information, see [SAP S4 HANA Public Cloud Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sap-s4-hana-cloud-spk.md).
 
 SAP S/4HANA Role required: Business user
 
@@ -132,7 +132,7 @@ For publishing the integration profile, change the application scope to **Global
 
 ServiceNow Role required: sam\_integrator
 
-**Important:** You must select the **Software Asset Management integration with SAP S4Hana Cloud** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **Software Asset Management integration with SAP S4Hana Cloud** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
 
 ### About this task
 
@@ -142,15 +142,15 @@ If you’re using Software Asset Workspace, the option to create the SAP S/4HANA
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d52771e658">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d52775e658">
 
 Interface
 
-</th><th align="left" id="d52771e661">
+</th><th align="left" id="d52775e661">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d52771e667">
+</th></tr></thead><tbody><tr><td id="d52775e667">
 
 **Core UI**
 
@@ -161,7 +161,7 @@ Action
 3.  Select **SAP S4Hana Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d52771e709">
+</td></tr><tr><td id="d52775e709">
 
 **Software Asset Workspace**
 

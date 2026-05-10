@@ -15,7 +15,7 @@ breadcrumb: [Testing NLU/Keyword topics, Getting started with Virtual Agent Desi
 
 Automated testing for your Virtual Agent topic flows uses the ServiceNow Automated Test Framework product through Assistant Designer. You can create and run automated tests through the Automated Test Framework to confirm that your topic flow works after making a change.
 
-Create topic test cases through a topic's **Test** &gt; **Create test case** preview and view the topic's test cases through the Asset library's **Manage NLU/keyword test cases** button. Only run automated tests on a development, test, or other non-production instance to avoid data corruption and outage. For more information, see the [Automated Test Framework](https://www.servicenow.com/docs/access?context=automated-test-framework&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Create topic test cases through a topic's **Test** &gt; **Create test case** preview and view the topic's test cases through the Asset library's **Manage NLU/keyword test cases** button. Only run automated tests on a development, test, or other non-production instance to avoid data corruption and outage. For more information, see the [Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/automated-test-framework.md).
 
 Working with test cases is only available if you have:
 

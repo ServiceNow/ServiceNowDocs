@@ -58,7 +58,7 @@ Be sure you are in Virtual Agent API application scope.
     |Name|Name of the HTTP Method. Enter `postMessage`.|
     |HTTP method|Select **POST**.|
     |Endpoint|Enter the response endpoint of the primary bot.|
-    |Authentication Type|Configure Basic or OAuth 2.0 authentication as per your requirement. For details about configuring basic authentication, see [Configure a REST message with basic auth](https://www.servicenow.com/docs/access?context=t_ConfigureRESTMsgBasicAuth&version=australia&pubname=australia-api-reference&ft:locale=en-US). For information about configuring OAuth 2.0, see [Configure a REST message with OAuth](https://www.servicenow.com/docs/access?context=t_ConfigureARESTMessageWithOAuth&version=australia&pubname=australia-api-reference&ft:locale=en-US).|
+    |Authentication Type|Configure Basic or OAuth 2.0 authentication as per your requirement. For details about configuring basic authentication, see [Configure a REST message with basic auth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfigureRESTMsgBasicAuth.md). For information about configuring OAuth 2.0, see [Configure a REST message with OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfigureARESTMessageWithOAuth.md).|
 
 10. To use the newly created provider application, pass the Inbound Id of the provider application in the **appInboundId** parameter of the Virtual Agent API request.
 

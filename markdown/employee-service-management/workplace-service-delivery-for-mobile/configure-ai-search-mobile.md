@@ -19,7 +19,7 @@ Install and configure AI search with Workplace Service Delivery for Mobile. User
 
 Role required: admin
 
-**Note:** To enable AI search for Workplace Service Delivery for Mobile, you need to request for AI search and activate AI search. For more information about how to install and configure AI Search, see [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** To enable AI search for Workplace Service Delivery for Mobile, you need to request for AI search and activate AI search. For more information about how to install and configure AI Search, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md).
 
 ## Procedure
 

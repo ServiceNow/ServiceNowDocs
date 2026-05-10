@@ -77,7 +77,7 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
 10. In the sequence diagram, configure sequence steps in the Configure sequence activities stage.
 
-    Use this stage to configure activities you want to make available to the sales representative as guided sequence steps during runtime. For more information, see [Add and configure an activity in a playbook](https://www.servicenow.com/docs/access?context=add-configure-activity&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    Use this stage to configure activities you want to make available to the sales representative as guided sequence steps during runtime. For more information, see [Add and configure an activity in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-configure-activity.md).
 
     You can add any number of activities to this stage in your sequence. For example, for telesales workflows, you might want to add a schedule call activity. For more information, see [Add a schedule call activity to a telesales workflow sequence](add-schedule-call-activity.md).
 
@@ -87,7 +87,7 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
 12. Add a stage for the new branch you created and repeat the steps to add more activities as needed, including the schedule call activity as needed.
 
-    For information about adding new stages, see [Add and configure a stage in a playbook](https://www.servicenow.com/docs/access?context=add-configure-stage&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For information about adding new stages, see [Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-configure-stage.md).
 
 13. Update the sequence task record by selecting the **Customer Engagement Sequences** &gt; **Update sequence task** activity from the activity picker.
 
@@ -126,11 +126,11 @@ Use permission sets to control access to sequence records such as sequence tasks
 **Related topics**  
 
 
-[Stages and activities](https://www.servicenow.com/docs/access?context=process-automation-designer-lanes-activities&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
 
-[Triggers](https://www.servicenow.com/docs/access?context=process-automation-designer-triggers&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-triggers.md)
 
-[Table extension and classes](https://www.servicenow.com/docs/access?context=table-extension-and-classes&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/table-extension-and-classes.md)
 
-[Enabling playbook restart](https://www.servicenow.com/docs/access?context=restart&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Enabling playbook restart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/restart.md)
 

@@ -22,7 +22,7 @@ The ticket page provides an on-demand summary. When the requester selects Summar
 **Related topics**  
 
 
-[Now Assist in Standard Ticket Page](https://www.servicenow.com/docs/access?context=now-assist-in-standard-ticket-page&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[Now Assist in Standard Ticket Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-in-standard-ticket-page.md)
 
-[Configure the standard ticket page](https://www.servicenow.com/docs/access?context=configure-st-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-st-page.md)
 

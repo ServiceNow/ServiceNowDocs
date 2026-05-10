@@ -13,11 +13,11 @@ breadcrumb: [Setting up ServiceNow Voice, ServiceNow Voice, Manage people and wo
 
 You can use the APIs in the ServiceNow Voice framework to create a seamless voice call experience for your callers and agents.
 
-The CTIOperationRequest API provides methods to set and get data on the current CTIOperationRequest object. For information on this API, see [CTIOperationRequest - Scoped, Global](https://www.servicenow.com/docs/access?context=CTIOperationRequestAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+The CTIOperationRequest API provides methods to set and get data on the current CTIOperationRequest object. For information on this API, see [CTIOperationRequest - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md).
 
-The CTIOperationResponse API provides methods to set and get data on the current CTIOperationResponse object. For information on this API, see [CTIOperationResponse - Scoped, Global](https://www.servicenow.com/docs/access?context=CTIOperationResponseAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+The CTIOperationResponse API provides methods to set and get data on the current CTIOperationResponse object. For information on this API, see [CTIOperationResponse - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationResponseAPI.md).
 
-The CTI API provides REST resources that enable Computer Telephony Integration \(CTI\) providers to interact with the Voice framework. For information about this API, see [CTI API](https://www.servicenow.com/docs/access?context=cti-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+The CTI API provides REST resources that enable Computer Telephony Integration \(CTI\) providers to interact with the Voice framework. For information about this API, see [CTI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/cti-api.md).
 
 -   **[Provider configuration in Voice](provider-configuration-ccc.md)**  
 For both inbound and outbound calls, a provider configuration contains settings about the involved components and message transformers for a specific third-party phone system provider. Any request from that phone system provider is handled within ServiceNow based on these settings.

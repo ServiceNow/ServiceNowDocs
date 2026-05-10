@@ -71,8 +71,8 @@ Taxonomy Loader configuration field when the default taxonomy configuration opti
 -   Custom script: Use Custom script if the taxonomy import needs custom logic.
  For Data source: Update the following fields:
 
--   Data source: Data source to be defined such as Azure AD, Auth0. For more information, refer to, [Create a data source](https://www.servicenow.com/docs/access?context=c_CreateNewDataSource&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
--   Scheduled data import: The import job that runs the data source frequently. For more information, refer to [Schedule a data import](https://www.servicenow.com/docs/access?context=t_ScheduleADataImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+-   Data source: Data source to be defined such as Azure AD, Auth0. For more information, refer to, [Create a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_CreateNewDataSource.md).
+-   Scheduled data import: The import job that runs the data source frequently. For more information, refer to [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md).
  For Custom script: Update the following fields:
 
 -   Taxonomy file required: Select the check box if the data to be imported via the selected mode needs a file to be attached.

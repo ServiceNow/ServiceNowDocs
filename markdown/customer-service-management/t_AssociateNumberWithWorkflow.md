@@ -46,7 +46,7 @@ Role required: admin
 **Related topics**  
 
 
-[Numbers and number groups](https://www.servicenow.com/docs/access?context=c_NumberGroups&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Numbers and number groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NumberGroups.md)
 
-[Configure Notify with\\n Twilio](https://www.servicenow.com/docs/access?context=t_ConfigureNotifyWithTwilio&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Configure Notify with\\n Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md)
 

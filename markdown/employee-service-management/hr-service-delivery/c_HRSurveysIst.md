@@ -27,9 +27,9 @@ HR managers and administrators can review responses by question and see a scorec
 
 With trigger conditions, the system generates a survey instance each time a specific action occurs on a given table, such as when an HR request closes. You can choose to send a survey every time the condition is met. Or, you can set a probability for the system to send a survey at random when the condition is met. Trigger conditions are ideal for sending surveys to measure satisfaction with a recent experience, such as closing an HR request.
 
-When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
-For more detailed information about working with surveys, trigger conditions, and survey questions, see [Get started with Survey Management](https://www.servicenow.com/docs/access?context=r_SurveyManagementLandingPage&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more detailed information about working with surveys, trigger conditions, and survey questions, see [Get started with Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyManagementLandingPage.md).
 
 -   **[Add or modify an HR survey](../task/t_CreateOrModifyAnHRSurvey.md)**  
 You can modify the predefined HR satisfaction surveys to suit the needs of the organization, and create HR surveys.

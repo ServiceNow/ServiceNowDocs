@@ -23,7 +23,7 @@ Set up your implementation for Health and Safety Contractor Management by instal
 
 -   Assign \[snc\_external\] role to contractor workers
 
-    For more information on this role, see [Explicit Roles](https://www.servicenow.com/docs/access?context=explicit-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    For more information on this role, see [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explicit-roles.md).
 
 -   [Assign Health and Safety profile to contractor workers](../task/hs-assign-hs-user-profile-contract-worker.md)
 

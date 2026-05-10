@@ -103,7 +103,7 @@ Start with delay
 
 </td><td>
 
-Toggle to specify that the ServiceNow AI Platform waits for a duration of time before running the decision after the start rule is met. For more information on how to specify the delay duration, see [Start with delay input properties](https://www.servicenow.com/docs/access?context=start-with-delay-properties&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Toggle to specify that the ServiceNow AI Platform waits for a duration of time before running the decision after the start rule is met. For more information on how to specify the delay duration, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Restart rules
 What the decision does when a playbook is restarted. The options are:-   **Skip on restart**: Skip this decision when the playbook run is due to a restart.
 -   **Run always**: Always run this decision, including first runs.
 -   **Skip on first run**: Skip this decision during the first run.
-For more information, see [Restart a playbook](https://www.servicenow.com/docs/access?context=restart-a-playbook&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+For more information, see [Restart a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/restart-a-playbook.md).
 
 </td></tr></tbody>
 </table>9.  Create the conditions for each branch, or possible outcome for the decision on the **Branches** tab of the Decision properties panel.
@@ -129,7 +129,7 @@ For more information, see [Restart a playbook](https://www.servicenow.com/docs/a
         2.  Select the form's question to use as the condition from the **Question** field.
         3.  Specify the condition **Operator** and the answer's **Value**.
         4.  Select **Apply** when you're done defining the condition.
-        For details on working with conditions, see [Create a condition statement using the condition builder](https://www.servicenow.com/docs/access?context=create-cond-state-using-cond-build&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+        For details on working with conditions, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
 
     3.  Select the **Add new branch** button and add as many branches as needed.
 

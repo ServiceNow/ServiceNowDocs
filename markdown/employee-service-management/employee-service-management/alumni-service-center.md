@@ -42,7 +42,7 @@ You can perform this transition for individuals or in bulk. To access the Alumni
 
 **Note:**
 
--   You can add the alumni roles \(sn\_asc.admin\) and \(sn\_asc.manager\) to any user. For more information, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   You can add the alumni roles \(sn\_asc.admin\) and \(sn\_asc.manager\) to any user. For more information, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 -   To be able to login and access all the alumni features, you must be a user in the Alumni table \(sn\_asc\_user\) and not in the User table \(sys\_user\).
 
 ## Verify that alumni aren't included in your UU licensing counts
@@ -55,7 +55,7 @@ When an employee transitions to an alumnus, and you're using Unrestricted User \
 
 -   If you have HRSD Professional, with HR or unrestricted users, and are providing alumni services outside of Alumni Center, to help avoid former employees from being included in the UU count, you must create a custom alumni table. The custom alumni table extends the \[sys\_user\] table. When an employee leaves the organization, you can change the user class of the employee in the \[sys\_user\] table from **User** to the sys class name that corresponds to the custom alumni table.
 
-    **Note:** Creating a custom alumni table to service alumni outside of Alumni Center is considered a custom implementation. Refer to [Create a table](https://www.servicenow.com/docs/access?context=t_CreateATable&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+    **Note:** Creating a custom alumni table to service alumni outside of Alumni Center is considered a custom implementation. Refer to [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_CreateATable.md) for more information.
 
 
 For additional information, see the [DEF1000205 \| HR User \[KB1125071\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1125071) article in the Now Support Knowledge Base.

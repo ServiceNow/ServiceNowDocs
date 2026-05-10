@@ -92,7 +92,7 @@ Robotic Process Automation \(RPA\) Hub provides an integration with the Workflow
 
 ## Key Management Framework
 
-RPA Hub uses the ServiceNow® Key Management Framework for all the sensitive data that is stored on the application. For more information, see [Understanding the Key Management Framework](https://www.servicenow.com/docs/access?context=understanding-kmf&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+RPA Hub uses the ServiceNow® Key Management Framework for all the sensitive data that is stored on the application. For more information, see [Understanding the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/understanding-kmf.md).
 
 ## Important information for upgrading RPA Hub to Australia
 
@@ -102,7 +102,7 @@ Ensure that you upgrade the current installed Microsoft Software Installers \(MS
 
 Based on the number of records in the application file table, you could experience a potential delay while upgrading the RPA Hub applications from Tokyo or before to Australia.
 
-Before upgrading RPA Hub to Australia, you must set the value of the **glide.rollback.blacklist.TableParentChange.change** system property to **false**. If this property doesn't exist in the System Property \[sys\_properties\] table, [add the property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) and set its value to false.
+Before upgrading RPA Hub to Australia, you must set the value of the **glide.rollback.blacklist.TableParentChange.change** system property to **false**. If this property doesn't exist in the System Property \[sys\_properties\] table, [add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) and set its value to false.
 
 After you upgrade to the Australia, the bot process definitions change to the new structure, that is, the bot process configuration. Although the bot process configuration doesn't replace the bot process completely. Most fields are moved from bot process to bot process configuration.
 

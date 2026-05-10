@@ -17,5 +17,5 @@ Agent assist provides agents with automatic search results that show possible so
 
 **Note:** You may need to log in to the Developer Site to see the content.
 
-For more information about using contextual search for Agent Assist, see [Contextual search](https://www.servicenow.com/docs/access?context=c_ContextualSearch&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information about using contextual search for Agent Assist, see [Contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/c_ContextualSearch.md).
 

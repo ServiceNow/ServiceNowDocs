@@ -4,7 +4,7 @@ description: Learn how to use list and list page features in Configurable Worksp
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

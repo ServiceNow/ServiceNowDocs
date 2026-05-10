@@ -26,7 +26,7 @@ The states are grouped into different categories as shown below:
 |4|Closed Incomplete|Closed|
 |7|Closed Skipped|Closed|
 
-The category information for the states is declared in [dictionary override](https://www.servicenow.com/docs/access?context=c_DictionaryOverrides&version=australia&pubname=australia-platform-administration&ft:locale=en-US) of State column in Planned task \(`planned_task`\) table in **Attributes** field. Planned task is the parent table for project and project task tables.
+The category information for the states is declared in [dictionary override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryOverrides.md) of State column in Planned task \(`planned_task`\) table in **Attributes** field. Planned task is the parent table for project and project task tables.
 
 The start and end dates are displayed based on the project or task status:
 

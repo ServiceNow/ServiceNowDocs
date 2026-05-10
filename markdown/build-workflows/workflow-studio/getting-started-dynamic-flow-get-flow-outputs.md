@@ -243,7 +243,7 @@ Role required: flow\_designer or admin
 
 7.  Select the tab for your **Process Cloud Provisioning Requests** flow and close the Test Flow modal.
 
-8.  In the Flow header, select **Activate** to make your flow accessible within the Cloud Instance Provisioning [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US).
+8.  In the Flow header, select **Activate** to make your flow accessible within the Cloud Instance Provisioning [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).
 
 
 ### Result

@@ -44,7 +44,7 @@ An administrator must set a default LLM provider before the skill can be used. T
 -   Now LLM Service LTS
 -   Google Gemini
 
-To set a default provider for the GRC case summarization skill, see [Manage model providers](https://www.servicenow.com/docs/access?context=edit-model-providers&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+To set a default provider for the GRC case summarization skill, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-model-providers.md).
 
 ## Components of a compliance case summary
 

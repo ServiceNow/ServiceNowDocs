@@ -105,7 +105,7 @@ Specifies the template used for this work plan. The available options are:
 
 **Note:** The work orders created for the work plan are automatically linked to their corresponding schedule occurrence. Administrators can configure the form layout of the work order to add the **Schedule occurrence** field.
 
--   **Task plan template**– The work plan creates tasks like cases and incidents based on the linked task plan template. For more information on the creation and usage of task plans, see [Task Plan Templates](https://www.servicenow.com/docs/access?context=task-plan-templates&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+-   **Task plan template**– The work plan creates tasks like cases and incidents based on the linked task plan template. For more information on the creation and usage of task plans, see [Task Plan Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task-plan-templates.md).
 **Note:**
 
 -   Activate the Task Plan Templates \(com.sn\_task\_plan\_templates\) plugin from the ServiceNow Store and configure the extension point sn\_fsm\_planned\_wm.TaskPlanTemplateOutputTasks to attach task plan templates to the work plan. For more details about the extension point, see [Extension points in Field Service Management](../reference/extension-points-field-service.md).

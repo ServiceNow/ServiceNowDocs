@@ -28,7 +28,7 @@ The **Subject** field is auto-populated with the case number and the invoice cas
 
 In the email client, you can select a quick message to fill the email body with the content that is specified in the quick message. After you define one or more quick messages, the Quick Messages contextual pane appears in the email client so that you can draft an email with a quick message of your choice.
 
-For more information on how to create a quick message, see [Define a quick message](https://www.servicenow.com/docs/access?context=t_QuickMessages&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information on how to create a quick message, see [Define a quick message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_QuickMessages.md).
 
 ## Using response templates
 
@@ -36,7 +36,7 @@ Resolve cases faster and more efficiently with response templates. Response temp
 
 Open the response template that you want to use for your email and select **Copy to clipboard**. You can now paste the contents of this template at the location of the cursor. It doesn't replace the content that you created before selecting the response template. To replace existing content with a response template content, highlight the text to replace and then select a response template.
 
-For more information on how to work with response templates, see [Create or modify a response template](https://www.servicenow.com/docs/access?context=create-modify-templated-snippet&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information on how to work with response templates, see [Create or modify a response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-modify-templated-snippet.md).
 
 -   **[Communicate using emails from the Source-to-Pay Workspace](../task/send-emails-apm-ws.md)**  
 Compose and send emails directly from an invoice inquiry case or an invoice processing case in the Source-to-Pay Workspace.

@@ -18,13 +18,13 @@ The ServiceNow® MCP Server Console application enables secure and governed acce
 -   Create MCP Server Console servers and tools based on various categories including Now Assist skills for different use cases.
 -   Connect to any MCP Server Console client using OAuth 2.0 authentication.
 
-See [MCP Server Console](https://www.servicenow.com/docs/access?context=mcp-platform-manager-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information.
+See [MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-platform-manager-landing.md) for more information.
 
 **Important:** MCP Server Console is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## MCP Server Console features
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
     The ServiceNow AI Platform now brings you an AI native experience with three licensing tiers available:
 
@@ -32,14 +32,14 @@ See [MCP Server Console](https://www.servicenow.com/docs/access?context=mcp-plat
     -   Advanced: AI agents and skills to boost productivity across relevant use cases
     -   Prime: Act autonomously with all AI agents and skills, and create your own
 
--   **[Create tools from additional capabilities for use with ServiceNow MCP clients](https://www.servicenow.com/docs/access?context=create-tool-mcp-server&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Create tools from additional capabilities for use with ServiceNow MCP clients](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-tool-mcp-server.md)**
 
     With this release, you can now create tools from additional categories like, Knowledge graph, Subflow, Action, and REST APIs in addition to Now Assist skills.
 
 
 ## Activation information
 
-MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://www.servicenow.com/docs/access?context=installing-generative-ai-controller&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) and [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/installing-generative-ai-controller.md) and [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 ## Plugin information
 
@@ -52,15 +52,15 @@ MCP Server Console is available with activation of a Now Assist application. For
 
 ## Related ServiceNow applications and features
 
--   **[AI Control Tower](https://www.servicenow.com/docs/access?context=ai-control-tower-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md)**
 
     AI Control Tower enables enterprises to manage, optimize, govern, secure, and measure the value of their AI investments. AI Gateway in AI Control Tower is a registry for MCP Server Console servers and provides observability and metrics for servers and their tools.
 
--   **[Model Context Protocol Client](https://www.servicenow.com/docs/access?context=mcp-client&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Model Context Protocol Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-client.md)**
 
     The ServiceNow® Model Context Protocol Client enables you to access the Model Context Protocol tools that are hosted externally and published using an MCP server in AI Agent Studio.
 
--   **[Machine Identity Console](https://www.servicenow.com/docs/access?context=machine-identity-console&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
+-   **[Machine Identity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/machine-identity-console.md)**
 
     Create and manage OAuth inbound integrations to connect MCP Server Console clients to servers in Machine Identity Console.
 

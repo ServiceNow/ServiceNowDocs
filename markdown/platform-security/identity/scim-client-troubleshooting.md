@@ -98,7 +98,7 @@ The following are some of the areas that can be checked for troubleshooting erro
     |Status|Status of the log as a success or failure|
     |Message|Success or error message. The error message can be from the SCIM provider or because of configuration issues in the SCIM Client.|
 
--   Check the request body by configuring and viewing outbound calls. To learn more, see [Outbound web services logging](https://www.servicenow.com/docs/access?context=outbound-request-logging&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+-   Check the request body by configuring and viewing outbound calls. To learn more, see [Outbound web services logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/outbound-request-logging.md).
 -   Update log levels by adding the content-type, testing the sample, and navigating to corresponding the HTTP Method form in the REST message of the corresponding provider.
 -   If the request body is truncated, then increase the limit by using system property **glide.outbound\_http.content.max\_limit**.
 

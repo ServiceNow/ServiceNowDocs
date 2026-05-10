@@ -36,7 +36,7 @@ The XML file of your model downloads to your browser.
 
 ## What to do next
 
-You can use the XML file to transfer the model to another instance using update sets. For more information update sets, see [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US).
+You can use the XML file to transfer the model to another instance using update sets. For more information update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md).
 
 **Parent Topic:**[Managing Task Intelligence for ITSM models](../concept/using-task-intelligence-itsm.md)
 

@@ -20,11 +20,11 @@ The ServiceNow® Configurable Workspace application provides tools to agents, ca
 -   Edit or delete Activity stream posts, and add knowledge base links from recommended actions.
 -   Implement declarative actions without assuming page ownership, and override attributes without altering the base action.
 
-See [Configurable Workspace UI](https://www.servicenow.com/docs/access?context=workspace-landing-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) for more information.
+See [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md) for more information.
 
 ## New in the Australia release
 
--   **[UI interactions for declarative actions](https://www.servicenow.com/docs/access?context=configure-da-ui-interactions&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **[UI interactions for declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-da-ui-interactions.md)**
 
     Combine logic, script, and configurable UI with a UI interaction, and apply it from any page event or declarative action. When you use a declarative action to apply a UI interaction, you can extend a page without taking ownership.
 
@@ -82,15 +82,15 @@ See [Configurable Workspace UI](https://www.servicenow.com/docs/access?context=w
     -   Catalog variables and questions are supported as list columns.
     -   Open lists in multiple session tabs from the list menu.
     -   Customize gallery list card layouts including images, icons, text placement, and sizing.
--   **[AI filter assist](https://www.servicenow.com/docs/access?context=use-ai-filter-assist&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **[AI filter assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/use-ai-filter-assist.md)**
 
     Convert everyday language into an encoded query with AI filter assist.
 
--   **[Track record list changes](https://www.servicenow.com/docs/access?context=use-ai-list-tracker&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **[Track record list changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/use-ai-list-tracker.md)**
 
     Get an AI-generated summary of recent changes made to a list without manually reviewing each record.
 
--   **[Grouping for related lists](https://www.servicenow.com/docs/access?context=configure-related-list-grouping&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **[Grouping for related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-related-list-grouping.md)**
 
     Configure related lists to persist selections for the Group by filter.
 
@@ -102,11 +102,11 @@ See [Configurable Workspace UI](https://www.servicenow.com/docs/access?context=w
     -   Configure a simple filtering mechanism.
     -   Use a search term for filtering panel definitions.
     -   Configure fixed queries.
--   **[Hierarchical queries](https://www.servicenow.com/docs/access?context=data-hierarchies&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Hierarchical queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/data-hierarchies.md)**
 
     Configure a record hierarchy to create filter queries that traverse levels of hierarchy.
 
--   **[Dynamic queries](https://www.servicenow.com/docs/access?context=working-with-dynamic-schema&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Dynamic queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/working-with-dynamic-schema.md)**
 
     Configure dynamic attributes and dynamic categories to create filter queries that use the dynamic schema field type.
 
@@ -118,35 +118,35 @@ See [Configurable Workspace UI](https://www.servicenow.com/docs/access?context=w
     -   Display an indicator dot on unsaved fields.
     -   Add a background color to unsaved fields to make them more noticeable.
     -   Add an address field to forms that searches, validates, and automatically fills an address.
--   **[AI indicator](https://www.servicenow.com/docs/access?context=c_FormFields&version=australia&pubname=australia-platform-user-interface&section=ai-indicator&ft:locale=en-US)**
+-   **[AI indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_FormFields.md)**
 
     The AI indicator is a visual cue that identifies form fields in configurable workspace and Core UI that have been updated with AI-generated content, providing a consistent and clear indication of AI involvement across the platform.
 
--   **[Unsaved field indicator](https://www.servicenow.com/docs/access?context=configure-unsaved-field-indicator&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **[Unsaved field indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-unsaved-field-indicator.md)**
 
     Configure the unsaved field indicator for your entire workspace experience instead of individual pages.
 
--   **[Background color for unsaved fields](https://www.servicenow.com/docs/access?context=configure-background-color-unsaved-indicator&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **[Background color for unsaved fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-background-color-unsaved-indicator.md)**
 
     Configure a background color to display on unsaved fields for your entire workspace experience instead of individual pages.
 
--   **[Background color for highlighted values](https://www.servicenow.com/docs/access?context=configure-background-color-highlighted-values&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **[Background color for highlighted values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-background-color-highlighted-values.md)**
 
     Configure a background color for fields with highlighted values.
 
--   **[Text commands for journal fields](https://www.servicenow.com/docs/access?context=configure-journal-fields-keyboard-shortcuts&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **[Text commands for journal fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-journal-fields-keyboard-shortcuts.md)**
 
     Configure text commands that can be applied by keyboard shortcuts within journal fields.
 
--   **[HTML editor toolbar](https://www.servicenow.com/docs/access?context=configure-html-editor-toolbar&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **[HTML editor toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure.md-editor-toolbar.md)**
 
     Configure toolbar options for the HTML editor within journal input fields.
 
--   **[Inline validation for string fields](https://www.servicenow.com/docs/access?context=format-regex-pattern-string-fields&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **[Inline validation for string fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/format-regex-pattern-string-fields.md)**
 
     Configure inline validation for string fields that formats inputs automatically, persists guidance text as a placeholder, and restricts unsupported characters.
 
--   **[Watch lists](https://www.servicenow.com/docs/access?context=configure-watch-list&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **[Watch lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-watch-list.md)**
 
     Add and remove yourself and multiple records from a watch list.
 
@@ -162,7 +162,7 @@ See [Configurable Workspace UI](https://www.servicenow.com/docs/access?context=w
 
     -   Edit and delete Activity stream posts after submitting.
     -   Add knowledge base links from recommended actions to Activity stream posts.
--   **[Keyboard shortcuts for emails](https://www.servicenow.com/docs/access?context=add-response-templates-shortcut&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **[Keyboard shortcuts for emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/add-response-templates-shortcut.md)**
 
     Use keyboard shortcuts to open drafts, email templates, and response templates.
 
@@ -174,11 +174,11 @@ See [Configurable Workspace UI](https://www.servicenow.com/docs/access?context=w
     -   Customize the attachment header, upload instructions, and menu actions in both the full and compact modes.
     -   Display the loading skeleton as a spinner or as three cards.
     -   Enable a visible drop zone for file uploads in the compact mode.
--   **[Form action layout groups for declarative actions](https://www.servicenow.com/docs/access?context=configure-da-layout-group&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **[Form action layout groups for declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-da-layout-group.md)**
 
     Upgrade form action layout groups to customize the order, label, and icons for declarative actions without altering the base action.
 
--   **[Declarative actions and UI actions on public pages](https://www.servicenow.com/docs/access?context=using-web-embeddables&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **[Declarative actions and UI actions on public pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/using-web-embeddables.md)**
 
     Non-logged in users may access specified declarative actions and UI actions on embedded web pages while maintaining integrity with security guidance and access control list permissions.
 
@@ -202,7 +202,7 @@ Configurable Workspace doesn’t support mobile devices, Internet Explorer, or M
 
 ## Accessibility information
 
--   **[Screen Summarization](https://www.servicenow.com/docs/access?context=use-screen-summarization&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **[Screen Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/use-screen-summarization.md)**
 
     Screen Summarization is a feature that supports visually impaired and low-vision users by providing AI-generated summaries of workspace pages and their sections. The summaries can be read aloud with a screen reader to help reduce navigation and comprehension time.
 
@@ -211,7 +211,7 @@ Configurable Workspace doesn’t support mobile devices, Internet Explorer, or M
 
 ## Related ServiceNow applications and features
 
--   **[UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)**
 
     Use UI Builder to build your Configurable Workspace experience.
 

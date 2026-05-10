@@ -14,7 +14,7 @@ breadcrumb: [Reference, Now Assist Center, Enable AI experiences]
 
 Before getting started with Now Assist Center, it is important to understand some key concepts used in the application.
 
-For more helpful terminology, see [ServiceNow AI Platform glossary](https://www.servicenow.com/docs/access?context=now-platform-glossary&version=australia&pubname=australia-glossary&ft:locale=en-US) glossary.
+For more helpful terminology, see [ServiceNow AI Platform glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) glossary.
 
 **Parent Topic:**[Now Assist Center reference](../reference/now-assist-center-reference.md)
 

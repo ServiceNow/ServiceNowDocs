@@ -154,7 +154,7 @@ Full description of the catalog item. This description appears in the service ca
     |Action|Description|
     |------|-----------|
     |Export Catalog Item|Exports all the components \(such as blueprints, resource blocks, rules\) of the catalog item from one environment to the other. See [Moving Cloud Provisioning and Governance content across environments](../concept/move-content-intro.md).|
-    |Item Diagnostic|Identifies possible issues with the catalog item data and configuration. See [Item diagnostic report](https://www.servicenow.com/docs/access?context=c_ItemDiagnostic&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|
+    |Item Diagnostic|Identifies possible issues with the catalog item data and configuration. See [Item diagnostic report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ItemDiagnostic.md)|
     |Manage Attributes|See [Manage operation attributes](manage-attributes.md).|
     |Reset Catalog Item|Resets \(to the last change you made\) any customizations that you've made to the catalog item.|
 

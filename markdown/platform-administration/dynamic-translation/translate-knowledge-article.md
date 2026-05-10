@@ -18,7 +18,7 @@ Start translating articles once they are published and assigned to you for trans
 ## Before you begin
 
 -   Activate the Dynamic Translation plugin \(com.glide.dynamic\_translation\).
--   Enable the **glide.knowman.translation.enable\_translation\_task** property. For more information, see [Translation management](https://www.servicenow.com/docs/access?context=translation-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   Enable the **glide.knowman.translation.enable\_translation\_task** property. For more information, see [Translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/translation-management.md).
 
 Role required: admin, knowledge\_admin, or knowledge
 

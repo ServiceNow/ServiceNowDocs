@@ -21,5 +21,5 @@ To access Agent Workspace for HR Case Management Guided Setup, navigate to **HR 
 
 In the Agent Workspace for HR Case Management Guided Setup page, you will see a list of different categories. Select the **Get Started** button under each category to start the configuration.
 
-For more information on **Guided Setup**, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For more information on **Guided Setup**, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
 

@@ -4,7 +4,7 @@ description: Configure the Deal registration line \(sn\_prm\_dr\_deal\_registrat
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Configure Deal Registration table, Data model for Deal Registration Management, Deal Registration, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---

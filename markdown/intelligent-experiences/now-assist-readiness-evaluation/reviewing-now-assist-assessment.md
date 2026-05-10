@@ -35,7 +35,7 @@ After reviewing the summary, select the individual assessment links to be redire
 -   Assessment \[sn\_assess\_assessment\] table
 -   Assessment Run \[sn\_assess\_assessment\_run\] table
 
-For more information about how to search for tables in the navigation filter, see [Navigate directly to a table](https://www.servicenow.com/docs/access?context=t_NavigateDirectlyToATable&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For more information about how to search for tables in the navigation filter, see [Navigate directly to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_NavigateDirectlyToATable.md).
 
 The assessments include visual indicators to guide you on non-blocker and blocker results. The following list details the descriptions of the assessment's visual indicators:
 

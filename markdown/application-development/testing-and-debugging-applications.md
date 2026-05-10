@@ -19,26 +19,26 @@ Verify the application meets your business requirements. Your testing should cov
 
     Create and run automated tests to confirm that your instance works after making a change. Review failed test results to identify the changes that caused the failure and the changes that you should review.
 
--   **[Debugging scripts](https://www.servicenow.com/docs/access?context=script-debug-overview&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debug-overview.md)**
 
     Debug scripts using session logs and ServiceNow AI Platform debugging tools, such as a walk-through script debugger and error messages that display in the UI.
 
--   **[Script Debugger and Session Log](https://www.servicenow.com/docs/access?context=script-debugger&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md)**
 
     The Script Debugger enables users with the script\_debugger role to debug server-side JavaScript, while the Session Log enables you to view and download required logs.
 
--   **[Script Tracer and debugging scripts](https://www.servicenow.com/docs/access?context=script-tracer&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **[Script Tracer and debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-tracer.md)**
 
     Use the Script Tracer to filter your debugging search and quickly narrow down script problems. Finding specific lines of scripts, rather than doing a wide search, helps save time and improves productivity.
 
 
 ## Related ServiceNow applications and features
 
--   **[Test Management 2.0](https://www.servicenow.com/docs/access?context=test-management2-landing-page&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **[Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/test-management2-landing-page.md)**
 
     The ServiceNow® Test Management 2.0 application streamlines the management of testing processes to help you deliver software products more efficiently and with fewer errors. You can create multiple versions of a test and integrate with Agile Development 2.0.
 
--   **[Impersonate a user](https://www.servicenow.com/docs/access?context=t_ImpersonateAUserInUI16&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Impersonate a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_ImpersonateAUserInUI16.md)**
 
     Administrators can impersonate other authenticated users for testing purposes and view impersonation logs. When impersonating another user, the administrator has access to exactly what that user can access in the system, including the same menus and modules.
 

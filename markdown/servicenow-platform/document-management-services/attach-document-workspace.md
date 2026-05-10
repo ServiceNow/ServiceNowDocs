@@ -40,15 +40,15 @@ The file picker opens from within the Document Management component and provides
     -   To create a folder first, select **Create Folder**, name the folder, select it, then select **Select docs/folders**.
 5.  Browse and select documents from your preferred source.
 
-<table id="choicetable_yqn_nrf_m3c"><thead><tr><th align="left" id="d77945e126">
+<table id="choicetable_yqn_nrf_m3c"><thead><tr><th align="left" id="d78141e126">
 
 Source
 
-</th><th align="left" id="d77945e129">
+</th><th align="left" id="d78141e129">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d77945e135">
+</th></tr></thead><tbody><tr><td id="d78141e135">
 
 **Search**
 
@@ -56,7 +56,7 @@ Description
 
 Use the search bar to find specific documents.
 
-</td></tr><tr><td id="d77945e144">
+</td></tr><tr><td id="d78141e144">
 
 **Workspace documents**
 
@@ -69,7 +69,7 @@ Filter the document list by selecting a view:
 -   **Shared with me**: Documents others have shared with you
  **Note:** This option does not appear when you're adding a document within a folder.
 
-</td></tr><tr><td id="d77945e177">
+</td></tr><tr><td id="d78141e177">
 
 **External drive**
 
@@ -82,7 +82,7 @@ Select the cloud storage provider you want to browse:
 -   Microsoft SharePoint
 
 
-</td></tr><tr><td id="d77945e204">
+</td></tr><tr><td id="d78141e204">
 
 **Local drive**
 

@@ -45,7 +45,7 @@ The following are the audit filters:
 
 3.  Fill in the fields.
 
-    For more guidance, see [Create a filter](https://www.servicenow.com/docs/access?context=t_CreatingFilters&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For more guidance, see [Create a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreatingFilters.md).
 
 4.  Add the filter conditions.
 

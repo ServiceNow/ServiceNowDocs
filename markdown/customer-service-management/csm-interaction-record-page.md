@@ -28,7 +28,7 @@ The user presence component displays an icon in the form header that shows the u
 -   Hover over an icon to see more information about a user.
 -   Click the number icon to see more information about the additional users.
 
-For more information about this feature, see [User presence](https://www.servicenow.com/docs/access?context=c_UserPresence&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For more information about this feature, see [User presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPresence.md).
 
 ## Thin compose modeless dialogs
 

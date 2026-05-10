@@ -15,7 +15,7 @@ Limit end-user access to your ServiceNow® instance by opting in to Zero Trust A
 
 Session states can either be relegated with limited user access or restored with full user access. If a user’s mobile session when logging in to their mobile app meets the security policy conditions set by Zero Trust Access, a banner appears that explains that the user’s access may be limited. This can help protect against unauthorized access and data breaches, even when high-privileged users access applications from untrusted devices or locations.
 
-For more information, see [Zero Trust Access \(ZTA\)](https://www.servicenow.com/docs/access?context=session-access&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/session-access.md).
 
 ![Banner notifying the user that their access may be limited because they are not on a trusted network.](../image/mobile-zero-trust-access.png)
 

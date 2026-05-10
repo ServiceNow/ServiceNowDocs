@@ -51,13 +51,13 @@ Product data is a foundational layer of the CRM portfolio. It is the mechanism t
 **Related topics**  
 
 
-[Data models](https://www.servicenow.com/docs/access?context=data-models&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Data models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/data-models.md)
 
-[Product models](https://www.servicenow.com/docs/access?context=product-models&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Product models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/product-models.md)
 
-[Create service contracts](https://www.servicenow.com/docs/access?context=create-csm-service-contracts&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Create service contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-csm-service-contracts.md)
 
-[Configure entitlements](https://www.servicenow.com/docs/access?context=configure-csm-entitlements&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Configure entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-entitlements.md)
 
-[Configure install base](https://www.servicenow.com/docs/access?context=configure-install-base&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Configure install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-install-base.md)
 

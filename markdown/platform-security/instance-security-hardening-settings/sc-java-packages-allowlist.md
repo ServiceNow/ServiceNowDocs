@@ -109,7 +109,7 @@ Security risk rating
 8.2
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 -   **[Packages call removal tool](sc-packages-call-removal-tool.md)**  
 Activate and run the Packages Call Removal Tool \(**com.glide.script.packages\_call\_removal**\) plugin, and then consider whether each of the proposed changes should be completed or rejected.

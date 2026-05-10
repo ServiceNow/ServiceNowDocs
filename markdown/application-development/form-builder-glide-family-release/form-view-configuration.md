@@ -238,7 +238,7 @@ See [Create form annotations in Table Builder](../task/create-form-annotations.m
 
 A **Formatter** is a read-only element in a form that displays additional information about the selected table record. Unlike fields, formatters are not editable.
 
-See [Using formatters](https://www.servicenow.com/docs/access?context=c_Formatters&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+See [Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Formatters.md).
 
 By using Table Builder, you can visually drag any of the displayed formatters onto the form editor and arrange them.
 

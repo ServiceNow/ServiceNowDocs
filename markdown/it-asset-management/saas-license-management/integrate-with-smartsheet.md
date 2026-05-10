@@ -63,7 +63,7 @@ To create a Smartsheet integration profile, request the Software Asset Managemen
 
 ServiceNow Role required: sam\_integrator
 
-**Important:** You must select the **Smartsheet Spoke** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **Smartsheet Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
 
 ### About this task
 
@@ -73,15 +73,15 @@ If you’re using Software Asset Workspace, the option to create the Smartsheet 
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d234794e384">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d234908e384">
 
 Interface
 
-</th><th align="left" id="d234794e387">
+</th><th align="left" id="d234908e387">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d234794e393">
+</th></tr></thead><tbody><tr><td id="d234908e393">
 
 **Core UI**
 
@@ -92,7 +92,7 @@ Action
 3.  Select **Smartsheet Integration Profile**.
 
 
-</td></tr><tr><td id="d234794e435">
+</td></tr><tr><td id="d234908e435">
 
 **Software Asset Workspace**
 

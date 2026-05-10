@@ -93,6 +93,6 @@ You can use Voice AI agents to get answers to your questions or resolve issues u
 For Voice AI agents to search knowledge base articles:
 
 1.  Define the knowledge base articles.
-2.  Define the search profile in AI search to search the knowledge base articles. For information on AI search, see [Search profiles in AI Search](https://www.servicenow.com/docs/access?context=defining-search-profiles-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
-3.  Create the search retrieval tool to use the search profile in the Voice AI agent. For information on search retrieval, see [Add a search retrieval to an AI agent](https://www.servicenow.com/docs/access?context=add-retriever-ai-agent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+2.  Define the search profile in AI search to search the knowledge base articles. For information on AI search, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-profiles-ais.md)
+3.  Create the search retrieval tool to use the search profile in the Voice AI agent. For information on search retrieval, see [Add a search retrieval to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-retriever-ai-agent.md)
 

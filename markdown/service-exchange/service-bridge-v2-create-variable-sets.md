@@ -132,6 +132,6 @@ Description of the variable set.
 
     Repeat the above steps to create additional variable sets for the same remote record producer.
 
-    For more information on variable sets and the layout, see [Variable set layout](https://www.servicenow.com/docs/access?context=c_DefineVariableSetLayout&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For more information on variable sets and the layout, see [Variable set layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_DefineVariableSetLayout.md).
 
 

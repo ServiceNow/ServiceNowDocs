@@ -34,7 +34,7 @@ Role required: admin
 
 4.  On the Survey Designer Configuration form, fill in the fields.
 
-    For a description of the field values, see [Survey Designer Configuration form](https://www.servicenow.com/docs/access?context=survey-design-config-form&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For a description of the field values, see [Survey Designer Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/survey-design-config-form.md).
 
     **Note:**
 

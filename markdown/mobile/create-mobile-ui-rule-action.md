@@ -270,7 +270,7 @@ Record Summarization
 
 </td><td>
 
-Enables record summarization using Now Assist.**Note:** This operation requires Now Assist to be configured. For more information, see [Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Enables record summarization using Now Assist.**Note:** This operation requires Now Assist to be configured. For more information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
 </td><td>
 

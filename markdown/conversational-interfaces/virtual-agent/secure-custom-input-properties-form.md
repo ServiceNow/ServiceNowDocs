@@ -68,7 +68,7 @@ Invoke Workflow Studio asset
 
 The Workflow Studio action or subflow that secure inputs from the custom control can be passed into.
 
- For more information about Workflow Studio actions and subflows, see [Actions](https://www.servicenow.com/docs/access?context=flow-actions&version=australia&pubname=australia-build-workflows&ft:locale=en-US) and [Subflows](https://www.servicenow.com/docs/access?context=subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+ For more information about Workflow Studio actions and subflows, see [Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md) and [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ Spoke
 
 Name of the scoped application that contains Workflow Studio content that is dedicated to a particular application or record type.
 
- For a list of default spokes, see [Spokes](https://www.servicenow.com/docs/access?context=spokes&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+ For a list of default spokes, see [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md).
 
 </td></tr><tr><td>
 
@@ -158,9 +158,9 @@ No-code condition statement or low-code script that specifies a condition for le
 </table>**Related topics**  
 
 
-[Workflow Studio Actions](https://www.servicenow.com/docs/access?context=flow-actions&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Workflow Studio Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
 
-[Workflow Studio Subflows](https://www.servicenow.com/docs/access?context=subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Workflow Studio Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md)
 
-[Password \(2 Way Encrypted\) design considerations](https://www.servicenow.com/docs/access?context=password-2-data&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Password \(2 Way Encrypted\) design considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/password-2-data.md)
 

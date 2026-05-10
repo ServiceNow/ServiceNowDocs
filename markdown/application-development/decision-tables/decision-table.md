@@ -15,11 +15,11 @@ breadcrumb: [Builder library, Developing your application, Building applications
 
 Use decision tables to decouple decision logic from your code by creating and maintaining decision rules.
 
-**Important:** Try creating decision tables in Workflow Studio instead. Workflow Studio integrates workflow authoring, configuring, and monitoring into a single page experience. For more information, see [Create decision tables in Workflow Studio](https://www.servicenow.com/docs/access?context=create-decision-table-in-decision-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+**Important:** Try creating decision tables in Workflow Studio instead. Workflow Studio integrates workflow authoring, configuring, and monitoring into a single page experience. For more information, see [Create decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-decision-table-in-decision-designer.md).
 
 Use decisions tables to help you reach outcomes that depend on multiple factors. In these tables, each factor is a decision input. For example, if you are trying to make a decision about car insurance coverage, your inputs might include the location where the insured person lives, the age and accident history of the insured person, the car make, the car model, and the car year. This logic can save time and present a more organized, readable format than using a script. Decision tables provide a single point where you can create, view, and modify decisions.
 
-To interact with Decision Tables in script, use the [DecisionTableAPI - Scoped, Global](https://www.servicenow.com/docs/access?context=DecisionTableAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+To interact with Decision Tables in script, use the [DecisionTableAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DecisionTableAPI.md).
 
 ## Components of a decision
 

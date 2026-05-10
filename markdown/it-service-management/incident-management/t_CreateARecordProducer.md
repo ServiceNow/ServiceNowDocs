@@ -29,7 +29,7 @@ The following example demonstrates how to create a record producer to request a 
 
 1.  Navigate to **All** &gt; **Service Catalog** &gt; **Catalog Definitions** &gt; **Record Producers**.
 
-2.  Select **New** and complete the steps in [Create a record producer](https://www.servicenow.com/docs/access?context=t_DefRecProdInSCat&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) using the following information:
+2.  Select **New** and complete the steps in [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefRecProdInSCat.md) using the following information:
 
     |Field|Entry|
     |-----|-----|

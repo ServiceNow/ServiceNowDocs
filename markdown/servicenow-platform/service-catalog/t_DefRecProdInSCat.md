@@ -33,7 +33,7 @@ An overview of record producers in the Service Catalog: what they are, and how t
 
     For more information about the fields and their descriptions on the Record Producer form, see [Record Producer form](../reference/record-producer-form.md).
 
-4.  To add attachments such as information and instruction documentation to the catalog item, see [Add an attachment](https://www.servicenow.com/docs/access?context=t_AddingAnAttachment&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) .
+4.  To add attachments such as information and instruction documentation to the catalog item, see [Add an attachment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_AddingAnAttachment.md) .
 
 5.  Click **Submit**.
 

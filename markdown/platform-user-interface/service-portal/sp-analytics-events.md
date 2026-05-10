@@ -116,7 +116,7 @@ Tracks how users attach files to records from portal pages: by navigating the fi
  Use these analytics to optimize how users can attach files to records from portal pages.
 
 </td></tr></tbody>
-</table>You can create custom events to be triggered. For more information, see [SNAnalytics - Client](https://www.servicenow.com/docs/access?context=SNAnalyticsClientAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+</table>You can create custom events to be triggered. For more information, see [SNAnalytics - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/SNAnalyticsClientAPI.md)
 
 **Parent Topic:**[Usage Insights for Service Portal](../concept/sp-analytics.md)
 

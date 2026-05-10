@@ -20,7 +20,7 @@ This API requires the Configuration Data Management \(CDM\) plugin to be activat
 -   CDM Editor Role
 -   CDM Admin Role
 
-For additional information on shared libraries and shared components, see [Sharing components among applications — Component libraries](https://www.servicenow.com/docs/access?context=cdm-component-libraries&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+For additional information on shared libraries and shared components, see [Sharing components among applications — Component libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-component-libraries.md).
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 
@@ -606,7 +606,7 @@ output.publish\_option
 
 </td><td>
 
-Value of the publish option passed in the associated upload call. For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://www.servicenow.com/docs/access?context=cdm-snapshot-publish&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+Value of the publish option passed in the associated upload call. For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
 
  Data type: String
 
@@ -1459,7 +1459,7 @@ Valid values:
 -   publish\_new\_and\_unpublish\_old: Publish the new snapshot created after the commit and unpublish the existing snapshot.
 -   publish\_none: Don't publish any snapshots.
 
-For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://www.servicenow.com/docs/access?context=cdm-snapshot-publish&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
 
 Data type: String
 
@@ -1728,7 +1728,7 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the [changeset](https://www.servicenow.com/docs/access?context=cdm-changesets-version-control&version=australia&pubname=australia-it-service-management&ft:locale=en-US) associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
+String that uniquely identifies the [changeset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-changesets-version-control.md) associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
 
 Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) results.
 

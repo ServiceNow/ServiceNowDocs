@@ -39,6 +39,6 @@ Role required: evt\_mgmt\_admin
 
 4.  Select **Update &amp; Retrain**.
 
-    For more information on ML solutions, see [Reviewing your ML solution training jobs](https://www.servicenow.com/docs/access?context=reviewing-ml-solution-training-jobs&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more information on ML solutions, see [Reviewing your ML solution training jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/reviewing-ml-solution-training-jobs.md).
 
 

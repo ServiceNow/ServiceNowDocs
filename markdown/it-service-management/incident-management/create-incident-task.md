@@ -29,7 +29,7 @@ Role required: itil, sn\_incident\_write, or admin
 
 3.  In the **Incident Tasks** related list, click **New**.
 
-    If you don't see the **Incident Tasks** related list, you need to add it. For information on how to add a related list, see [Add a related list to a form](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&section=t_AddARelatedList&ft:locale=en-US).
+    If you don't see the **Incident Tasks** related list, you need to add it. For information on how to add a related list, see [Add a related list to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
     Alternatively, you can also right-click on the header form and on the context menu, and then select **Create Incident Task**.
 

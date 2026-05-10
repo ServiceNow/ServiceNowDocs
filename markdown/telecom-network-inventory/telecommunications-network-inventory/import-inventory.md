@@ -6,7 +6,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 2
 breadcrumb: [Import, Explore, Telecommunications Network Inventory]
 ---
@@ -23,7 +23,7 @@ The import model feature lets you import equipment models and their hierarchical
 
 When you submit an import model request, the system processes each row in the Excel file and creates the following records in a single operation: equipment models, equipment holder models, card models, and network interface models based on the model class and model category specified in each row; and model relationships between these models based on the relationship type, parent entity ID, and root entity ID values in the spreadsheet. Model relationships are created only for the rows where the relationship type, parent entity ID, and root entity ID are defined in the Excel file. Any model relationships not defined in the spreadsheet must be created manually. To learn more, see [Model relationships](inventory-modeling-process.md). If a model already exists in the system, the record is matched and updated so that duplicates are not created.
 
-During the import, the Integration Commons for CMDB plugin runs in the background, and normalization rules are applied to manufacturer and company names to keep your data clean and standardized. The normalization rules are applied only if the Normalization Data Service Client is installed. To learn more, see [Normalization data services](https://www.servicenow.com/docs/access?context=c_NormalizationOverview&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+During the import, the Integration Commons for CMDB plugin runs in the background, and normalization rules are applied to manufacturer and company names to keep your data clean and standardized. The normalization rules are applied only if the Normalization Data Service Client is installed. To learn more, see [Normalization data services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_NormalizationOverview.md).
 
 ![The image displays the export model flow](../image/import-model-flow.png)
 

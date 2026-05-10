@@ -51,7 +51,7 @@ The benefits of knowledge articles include the following.
     |Published|When this knowledge article was published. This value is set when the article is created, and updated when the article is published.|
     |Valid to|When this knowledge article expires. This article will not appear in search results after this date or if a date is not selected.|
     |Image|An image that appears beside the article when searching from the legacy knowledge portal.|
-    |Workflow|\[Read-Only\] The publication state of the article, such as Draft or Published. When [inserting a new article](https://www.servicenow.com/docs/access?context=t_EditingInForms&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) from an existing article, the state of the new article is reset to **Draft**.|
+    |Workflow|\[Read-Only\] The publication state of the article, such as Draft or Published. When [inserting a new article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_EditingInForms.md) from an existing article, the state of the new article is reset to **Draft**.|
     |Source|The task this knowledge article was created in response to, if any. This field is set automatically when you create the knowledge article from a task record.|
     |Attachment link|Check box for downloading an attached file automatically when a user accesses the article, instead of opening the article view. Add an attachment to the article to use this option.|
     |Display attachments|Check box for displaying attachments to users viewing this knowledge article. Attachments appear below the article text. Add one or more attachments to the article to use this option.|
@@ -65,7 +65,7 @@ The benefits of knowledge articles include the following.
 
 ## What to do next
 
-Any additional steps required to publish the article, such as approvals, depend on the [publishing workflow](https://www.servicenow.com/docs/access?context=r_KnowledgeWorkflows&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for the knowledge base.
+Any additional steps required to publish the article, such as approvals, depend on the [publishing workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md) for the knowledge base.
 
 **Related topics**  
 

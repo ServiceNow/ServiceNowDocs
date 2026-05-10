@@ -29,7 +29,7 @@ Role required: admin, or another role that can be elevated.
 
 4.  Select the **security\_admin** role.
 
-    The security\_admin role grants modification access to high security settings, and allows you to modify the access control list \(ACL\). For more information, see [Elevated privilege roles](https://www.servicenow.com/docs/access?context=c_ElevatedPrivilege&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    The security\_admin role grants modification access to high security settings, and allows you to modify the access control list \(ACL\). For more information, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ElevatedPrivilege.md).
 
     ![Elevate to the security admin role to change roles and access control lists.](../image/sn-studio-security-admin.png)
 

@@ -27,7 +27,7 @@ The code looks for an ending field with the same name as the start date field, e
 
 ## Procedure
 
-1.  Follow the steps in [Add and customize a field in a table](https://www.servicenow.com/docs/access?context=t_CreatingNewFields&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+1.  Follow the steps in [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingNewFields.md).
 
 2.  Enter the following values in the form to create the start date span field.
 

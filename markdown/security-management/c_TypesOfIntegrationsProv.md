@@ -32,7 +32,7 @@ Resources:
 
 [Security Incident event management support documentation](../../security-incident-response/concept/c_ScIncdUseAlrts.md)
 
-[Event Management documentation](https://www.servicenow.com/docs/access?context=c_EM&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+[Event Management documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EM.md)
 
 ## Security Incident Response - Import Set API integration
 
@@ -50,7 +50,7 @@ Automatic CI matching on Security Incident creation based on IP, NetBIOS, or ful
 
 Resources:
 
-[Platform Import Set API documentation](https://www.servicenow.com/docs/access?context=c_ImportSetAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[Platform Import Set API documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_ImportSetAPI.md)
 
 [Security Incident Web Service Import Set documentation](../../security-incident-response/concept/c_3rdPartyAlertMonToolInteg.md)
 

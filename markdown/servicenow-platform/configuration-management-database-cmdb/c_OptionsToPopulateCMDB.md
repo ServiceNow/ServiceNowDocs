@@ -22,14 +22,14 @@ Related ServiceNow® Store apps and reference information:
 -   [CMDB schema model](c_ConfigurationManagementDatabase.md): A collection of class diagrams and class attributes for key CMDB classes.
 -   [CMDB tables descriptions](../reference/cmdb-tables-details.md): Descriptions of key CMDB tables in the base system.
 -   [CMDB CI Class Models](cmdb-ci-class-models.md): A ServiceNow Store app that adds class models that extend the base CMDB class hierarchy. This includes class descriptions, identification rules, identifier entries, and dependent relationships if applicable. You can then use the added classes as any other CMDB base class.
--   [Discovery patterns](https://www.servicenow.com/docs/access?context=c_MappingPatternsCustomization&version=australia&pubname=australia-it-operations-management&ft:locale=en-US): A ServiceNow Store app that provides a library of Discovery patterns for discovering specific devices and applications in the industry.
+-   [Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md): A ServiceNow Store app that provides a library of Discovery patterns for discovering specific devices and applications in the industry.
 -   [Getting started with Service Graph Connectors](cmdb-sgc-intro.md): ServiceNow Store apps that provide pre-defined integrations for importing and integrating common third-party data into CMDB classes. Also includes the [IntegrationHub ETL](integrationhub-etl.md) wizard for creating new ETL transform maps.
 
 ## ITIL configuration management auto-discovery
 
 The key to any configuration management business practice is the initial and on-going inventory or discovery of what you own. The ServiceNow platform provides three options for auto-discovery:
 
--   The separate and highly robust [Discovery](https://www.servicenow.com/docs/access?context=r-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) product.
+-   The separate and highly robust [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-discovery.md) product.
 -   For organizations that want to leverage the discovery technologies they already have deployed \(SMS, Tally NetCensus, LanDesk, and so on\), the ServiceNow platform supports integrations to those technologies via web services. Scanned data can be mapped directly into the CMDB.
 
 For further information on designing, constructing, and maintaining the CMDB, see the [CMDB Design &amp; Configuration](https://support.servicenow.com/kb_view.do?sysparm_article=KB0552861) white paper.
@@ -40,8 +40,8 @@ The Discovery product automatically populates the CMDB. Discovery searches the n
 
 For more information about Discovery see:
 
--   [ITOM Visibility](https://www.servicenow.com/docs/access?context=itom-visibility-landing-page&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
--   [Discovery basics](https://www.servicenow.com/docs/access?context=c_GetStartedWithDiscovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+-   [ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/itom-visibility-landing-page.md)
+-   [Discovery basics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_GetStartedWithDiscovery.md)
 
 ## Integrate third-party data using IntegrationHub ETL
 
@@ -51,7 +51,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Import data from another source using Import Sets
 
-You can import data to the CMDB using Import Sets. [Import sets](https://www.servicenow.com/docs/access?context=import-sets-landing-page&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) find files of information \(in formats such as XML, Excel, or CSV\), import them, and transform them onto the required table. This process can be scheduled or performed on demand.
+You can import data to the CMDB using Import Sets. [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md) find files of information \(in formats such as XML, Excel, or CSV\), import them, and transform them onto the required table. This process can be scheduled or performed on demand.
 
 To import relationships between CIs, use import sets to populate the table \[cmdb\_rel\_ci\] with information on the parent, the child, and the nature of the relationship. The \[cmdb\_rel\_ci\] table displays a list of all CI relationships and is useful when importing CI data.
 
@@ -59,7 +59,7 @@ To import relationships between CIs, use import sets to populate the table \[cmd
 
 ## CMDB instance API
 
-Use the [CMDB instance API](https://www.servicenow.com/docs/access?context=cmdb-instance-api&version=australia&pubname=australia-api-reference&ft:locale=en-US) to populate the CMDB by creating or updating CMDB tables.
+Use the [CMDB instance API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/cmdb-instance-api.md) to populate the CMDB by creating or updating CMDB tables.
 
 ## Manually create a CI
 

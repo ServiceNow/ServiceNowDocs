@@ -59,5 +59,5 @@ Role required: admin or sn\_sec\_cmn.write
 **Related topics**  
 
 
-[Create and edit filters](https://www.servicenow.com/docs/access?context=t_EditingSavedFilters&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[Create and edit filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_EditingSavedFilters.md)
 

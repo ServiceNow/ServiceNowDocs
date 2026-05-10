@@ -52,7 +52,7 @@ The variable action logger displays the chronology of actions that happen on all
 
 6.  Review the results of the variable action logger.
 
-<table id="choicetable_f5q_mwb_5bb"><tbody><tr><td id="d264237e185">
+<table id="choicetable_f5q_mwb_5bb"><tbody><tr><td id="d266074e185">
 
 **Search**
 
@@ -60,7 +60,7 @@ The variable action logger displays the chronology of actions that happen on all
 
 To search for a variable or script, use the **Search** field.
 
-</td></tr><tr><td id="d264237e197">
+</td></tr><tr><td id="d266074e197">
 
 **Collapse All**
 
@@ -68,7 +68,7 @@ To search for a variable or script, use the **Search** field.
 
 To collapse variable logs within a group, click **Collapse All**.
 
-</td></tr><tr><td id="d264237e209">
+</td></tr><tr><td id="d266074e209">
 
 **Expand All**
 
@@ -76,7 +76,7 @@ To collapse variable logs within a group, click **Collapse All**.
 
 To expand variable logs within a group, click **Expand All**.
 
-</td></tr><tr><td id="d264237e221">
+</td></tr><tr><td id="d266074e221">
 
 **Filter**
 
@@ -84,7 +84,7 @@ To expand variable logs within a group, click **Expand All**.
 
 To filter variable logs, click the Filter icon \(![Filter icon](../image/Filter.png)\) and select the required options.
 
-</td></tr><tr><td id="d264237e236">
+</td></tr><tr><td id="d266074e236">
 
 **Clear Logs**
 
@@ -92,7 +92,7 @@ To filter variable logs, click the Filter icon \(![Filter icon](../image/Filter.
 
 To clear variable logs, click the Actions icon \(![Icon to clear variable logs](../image/Actions.png)\) and select **Clear Logs**.
 
-</td></tr><tr><td id="d264237e255">
+</td></tr><tr><td id="d266074e255">
 
 **Export to CSV**
 
@@ -100,7 +100,7 @@ To clear variable logs, click the Actions icon \(![Icon to clear variable logs](
 
 To export the variable logs to a .csv file, click the Actions icon \( ![Actions icon](../image/Actions.png)\) and select **Export to CSV**.
 
-</td></tr><tr><td id="d264237e273">
+</td></tr><tr><td id="d266074e273">
 
 **Print Logs**
 

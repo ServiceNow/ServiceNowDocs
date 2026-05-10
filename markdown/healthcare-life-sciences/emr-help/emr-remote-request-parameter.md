@@ -19,7 +19,7 @@ The Remote Request Parameter \[sn\_ind\_rmt\_help\_request\_param\] table stores
 
 The Remote Request Parameter \[sn\_ind\_rmt\_help\_request\_param\] table has the following features:
 
--   Extends the Application File \[sys\_metadata\] table that uses the update\_synch dictionary attribute to enable customizations. For more information, see [Customizations tracked by update sets](https://www.servicenow.com/docs/access?context=customizations-tracked-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US).
+-   Extends the Application File \[sys\_metadata\] table that uses the update\_synch dictionary attribute to enable customizations. For more information, see [Customizations tracked by update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/customizations-tracked-update-sets.md).
 -   Models a request parameter originating from an EMR system.
 
 Role required to configure the table: sn\_ind\_rmt\_help.admin.

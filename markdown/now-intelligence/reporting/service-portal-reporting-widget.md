@@ -19,7 +19,7 @@ When you edit a portal, add the **Report** widget. Use the widget options to spe
 
 ![Report widget opened in the Service Portal Designer](../image/service-portal-report-widget2.png "Report widget")
 
-With the report widget, you can show all report types on your portal except for list reports. Use the [Simple List Widget](https://www.servicenow.com/docs/access?context=simple-list-widget&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) instead.
+With the report widget, you can show all report types on your portal except for list reports. Use the [Simple List Widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/simple-list-widget.md) instead.
 
 **Parent Topic:**[Using reporting](c_GenerateReports.md)
 
@@ -70,5 +70,5 @@ Core Service Portal functionality.
 **Related topics**  
 
 
-[List of plugins](https://www.servicenow.com/docs/access?context=list-of-plugins&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

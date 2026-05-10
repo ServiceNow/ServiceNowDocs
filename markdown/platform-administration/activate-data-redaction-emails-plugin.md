@@ -36,13 +36,13 @@ Role required: admin
 
 ## What to do next
 
-[Activating Data Discovery](https://www.servicenow.com/docs/access?context=activate-data-discovery&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[Activating Data Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/activate-data-discovery.md)
 
 **Note:** Data Discovery application does not require a paid subscription when used along with sensitive data redaction for inbound emails plugin.
 
 **Data Discovery patterns**
 
-[Default regular expression data patterns](https://www.servicenow.com/docs/access?context=default-data-patterns&version=australia&pubname=australia-platform-security&ft:locale=en-US) are used to filter table entries for further classification. The Data Discovery pattern defines the regular expression used to match data against a target table. For more information, see [Configure Data Discovery patterns](https://www.servicenow.com/docs/access?context=configure-data-discovery-patterns&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+[Default regular expression data patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/default-data-patterns.md) are used to filter table entries for further classification. The Data Discovery pattern defines the regular expression used to match data against a target table. For more information, see [Configure Data Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/configure-data-discovery-patterns.md).
 
 **Parent Topic:**[Sensitive data redaction](../concept/sensitive-data-redaction.md)
 

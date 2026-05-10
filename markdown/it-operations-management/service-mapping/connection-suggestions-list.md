@@ -113,7 +113,7 @@ Decision changed by
 
 </td><td>
 
-The user who changed the decision last time.If the decision was changed by a rule, this field shows the MID Server user. For more information about setting up MID Server user role, see [Create the MID Server user and grant the role](https://www.servicenow.com/docs/access?context=t_SetupMIDServerRole&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+The user who changed the decision last time.If the decision was changed by a rule, this field shows the MID Server user. For more information about setting up MID Server user role, see [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md).
 
  This field appears only when you access connection suggestions by navigating to **Service Mapping** &gt; **Administration** &gt; **Connection Suggestions**.
 

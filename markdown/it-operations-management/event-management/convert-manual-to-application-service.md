@@ -26,7 +26,7 @@ During the conversion process:
 -   The configuration items \(CIs\) of the manual service are retained in the application services after the conversion.
 -   The system queries the CMDB for the latest CI changes and applies CI impact rules.
 
-The maximum number of CI connections added to application services during this operation is controlled by the [sa.service.max\_ci\_service\_population](https://www.servicenow.com/docs/access?context=components-installed-app-services&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) property. By default, the value is 1,000 \(one thousand connections\). Increasing the number of CI connections may cause performance issues. To adjust the maximum number of added CI connections, add the sa.service.max\_ci\_service\_population property, as described in [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+The maximum number of CI connections added to application services during this operation is controlled by the [sa.service.max\_ci\_service\_population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/components-installed-app-services.md) property. By default, the value is 1,000 \(one thousand connections\). Increasing the number of CI connections may cause performance issues. To adjust the maximum number of added CI connections, add the sa.service.max\_ci\_service\_population property, as described in [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 Attempting to process more CIs than the value specified in the sa.service.max\_ci\_service\_population property causes the operation to fail.
 
@@ -70,5 +70,5 @@ var res = bsManager.migrateManualToApplicationService("451047c6c0a8016400de0ae6d
 **Related topics**  
 
 
-[BusinessServiceManager - Global](https://www.servicenow.com/docs/access?context=BusinessServiceManagerAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[BusinessServiceManager - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/BusinessServiceManagerAPI.md)
 

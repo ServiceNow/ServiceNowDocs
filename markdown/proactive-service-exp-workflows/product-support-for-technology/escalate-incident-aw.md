@@ -19,7 +19,7 @@ Escalate an incident to continue the investigation and diagnosis of that inciden
 
 This task assumes that you have been working on an incident and you must escalate it to the next escalation group.
 
-**Note:** Be sure that the administrator has assigned this role to the escalation groups. For information about how administrators assign roles, see [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** Be sure that the administrator has assigned this role to the escalation groups. For information about how administrators assign roles, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
 
 Role required: sn\_ind\_tsm\_core.noc\_agent
 

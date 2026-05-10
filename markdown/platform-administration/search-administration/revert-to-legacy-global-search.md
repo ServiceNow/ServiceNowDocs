@@ -160,5 +160,5 @@ In this sample exact match, the system displays the matching article and an info
 </table>**Related topics**  
 
 
-[User preferences](https://www.servicenow.com/docs/access?context=c_UserPreferences&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md)
 

@@ -40,21 +40,21 @@ You can view a list of all actions taken when your device was offline and the ti
     -   Tap **Offline**.
 4.  To automatically download the scheduled cache in background, tap the **Enable** button.
 
-    For more information, see [Scheduled offline caching](https://www.servicenow.com/docs/access?context=scheduled-offline-caching&version=australia&pubname=australia-mobile&ft:locale=en-US).
+    For more information, see [Scheduled offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/scheduled-offline-caching.md).
 
     Scheduled offline caching automatically downloads your cache according to your work schedule. Scheduled caching works in the background, so you can continue to use the application while the download completes. You can also enable **Wi-Fi only** to download cache when you are connected to Wi-Fi. This provides seamless synchronization when the device turns online.
 
 5.  Do one of the following to download data and go offline.
 
-<table id="choicetable_yld_hym_wfb"><thead><tr><th align="left" id="d48664e209">
+<table id="choicetable_yld_hym_wfb"><thead><tr><th align="left" id="d48668e209">
 
 To
 
-</th><th align="left" id="d48664e212">
+</th><th align="left" id="d48668e212">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d48664e218">
+</th></tr></thead><tbody><tr><td id="d48668e218">
 
 **Take the app offline when the data is downloaded.**
 
@@ -64,7 +64,7 @@ Do this
 2.  Tap **Download cache &amp; go offline**.
  The app takes a few minutes to download the data and then takes the app offline. You can click **cancel** if you do not want to download data and go offline.
 
-</td></tr><tr><td id="d48664e249">
+</td></tr><tr><td id="d48668e249">
 
 **Manually download the data and then choose to take the app offline.**
 
@@ -85,15 +85,15 @@ Do this
     -   To clear the cache, tap **Clear cache**.
 7.  Synchronize updated records.
 
-<table id="choicetable_ufz_wr3_zfb"><thead><tr><th align="left" id="d48664e319">
+<table id="choicetable_ufz_wr3_zfb"><thead><tr><th align="left" id="d48668e319">
 
 To
 
-</th><th align="left" id="d48664e322">
+</th><th align="left" id="d48668e322">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d48664e328">
+</th></tr></thead><tbody><tr><td id="d48668e328">
 
 **Synchronize the data when your mobile device is offline**
 
@@ -104,7 +104,7 @@ Do this
 3.  Tap **Go Online &amp; Sync**.
 
 
-</td></tr><tr><td id="d48664e359">
+</td></tr><tr><td id="d48668e359">
 
 **Synchronize the data after your mobile device is connected online**
 
@@ -121,7 +121,7 @@ Do this
 **Related topics**  
 
 
-[Updating records without internet connection](https://www.servicenow.com/docs/access?context=offline-end-user&version=australia&pubname=australia-mobile&ft:locale=en-US)
+[Updating records without internet connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-end-user.md)
 
 ## Working with tasks when your mobile device is offline
 
@@ -195,5 +195,5 @@ Agents and dispatchers can close work-order SLAs when their mobile application i
 **Related topics**  
 
 
-[Repair SLAs](https://www.servicenow.com/docs/access?context=c_RepairSLAs&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[Repair SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_RepairSLAs.md)
 

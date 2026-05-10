@@ -58,7 +58,7 @@ The values in any tables related to users or crews that are part of your deploym
 
 **Warning:** You must be a professional developer and a service now administrator to set this up.
 
-For more information, see [Working with database views for reporting](https://www.servicenow.com/docs/access?context=c_DatabaseViews&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information, see [Working with database views for reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DatabaseViews.md).
 
 ## Resource filter configuration
 

@@ -18,7 +18,7 @@ Configure a UI Builder page variant to pass from a workspace modal into the vari
 Complete the following actions:
 
 -   [Create a form action](create-a-new-form-action.md)
--   Open your record page in UIB or [create a page variant in UIB](https://www.servicenow.com/docs/access?context=create-variant&version=australia&pubname=australia-application-development&ft:locale=en-US)
+-   Open your record page in UIB or [create a page variant in UIB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md)
 
 Role required: admin
 

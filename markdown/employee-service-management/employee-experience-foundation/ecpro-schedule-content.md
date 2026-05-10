@@ -155,7 +155,7 @@ Who you want to approve the content before it is available.Only users with the C
 
  After adding approvers, click **Update** or **Save**.
 
- You can send email notifications to approvers requesting their approval. See [Notifications](https://www.servicenow.com/docs/access?context=notifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [Email templates](https://www.servicenow.com/docs/access?context=c_EmailTemplates&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ You can send email notifications to approvers requesting their approval. See [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notifications.md) and [Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailTemplates.md).
 
 **Note:** If **Yes** is the value in the **sn\_cd.all\_must\_approve** Content Delivery property, all approvers must approve before campaign publication. If **No** is the value, you only need one approver.
 
@@ -311,11 +311,11 @@ Taxonomy
 
 Filters what topics you can schedule your content to. Taxonomy is a collection of hierarchical topics that brings together different content types, like requests, articles, quick links, and employee communications. For example, you can set up separate taxonomies for HR and IT so you can group specific topics under each.
 
- For this field to appear, select a page that has Taxonomy \(sn\_ex\_sp\_taxonomy\) entered in the Choices tab for the dictionary entry for the Category table of the page. For more information, see [Create a table](https://www.servicenow.com/docs/access?context=t_CreateATable&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ For this field to appear, select a page that has Taxonomy \(sn\_ex\_sp\_taxonomy\) entered in the Choices tab for the dictionary entry for the Category table of the page. For more information, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_CreateATable.md).
 
  For more information on taxonomy for the Employee Center, see [Unified Taxonomy for Employee Center](../concept/config-taxonomy.md).
 
- For child topics to appear on your Employee Center, you must add it to the Portal form under Service Portal. For more information, see [Create a portal](https://www.servicenow.com/docs/access?context=create-a-portal&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+ For child topics to appear on your Employee Center, you must add it to the Portal form under Service Portal. For more information, see [Create a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-a-portal.md).
 
 </td></tr><tr><td>
 
@@ -335,7 +335,7 @@ The topics you want your content to appear in under a taxonomy. For more informa
 
 </td><td>
 
-The following fields appear when **Community Content** is the content type for content selected. For more information, see [Community content types](https://www.servicenow.com/docs/access?context=c_communities-content-types&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+The following fields appear when **Community Content** is the content type for content selected. For more information, see [Community content types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/c_communities-content-types.md).
 
 </td><td>
 
@@ -351,7 +351,7 @@ Forum
 
 </td><td>
 
-The forum you want to post the community content.For more information on forums, see [Create a forum](https://www.servicenow.com/docs/access?context=create-forum&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+The forum you want to post the community content.For more information on forums, see [Create a forum](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/create-forum.md).
 
 </td></tr><tr><td>
 
@@ -365,7 +365,7 @@ Topics
 
 The area of interest that users can discuss.Click to select a topic that is within the forum.
 
- For more information on topics, see [Create a topic](https://www.servicenow.com/docs/access?context=create-topic&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+ For more information on topics, see [Create a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/create-topic.md).
 
 </td></tr><tr><td>
 

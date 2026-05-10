@@ -39,7 +39,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
     When configuring the Applicative Credentials, make sure you specify `Sybase Instance [cmdb_ci_db_syb_instance]` as the CI type.
 
-    For more information on Applicative Credentials, see [Applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+    For more information on Applicative Credentials, see [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/applicative-creds.md)
 
 -   **Verify that the user have permission to run the following commands**
 

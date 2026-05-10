@@ -39,7 +39,7 @@ Role required: virtual\_agent\_admin or admin
 
 5.  Associate entities with words in utterances.
 
-    Entities represent the context for the action. For example, common industry terms can be defined as entities to clarify the context. Universal system entities may include known elements like date and time or currency. NLU can match defined entities with user input to slot-fill the values. There are five types of entities you can define. For detailed information, see [NLU entities](https://www.servicenow.com/docs/access?context=entities&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    Entities represent the context for the action. For example, common industry terms can be defined as entities to clarify the context. Universal system entities may include known elements like date and time or currency. NLU can match defined entities with user input to slot-fill the values. There are five types of entities you can define. For detailed information, see [NLU entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/entities.md).
 
 6.  Select **Save** in the header bar.
 

@@ -31,7 +31,7 @@ You can create topics either by manually typing the external message details or 
 
 2.  Select **New**.
 
-    If you’ve integrated with an external system, you can select **Get Topics** to get the available topics automatically. This action triggers the Event Alarm Notification API subflow. To learn more about the functions that enable you to query and manipulate records in the topic, see [TopicUtilOOB - Scoped](https://www.servicenow.com/docs/access?context=TopicUtilOOBAPIScoped&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    If you’ve integrated with an external system, you can select **Get Topics** to get the available topics automatically. This action triggers the Event Alarm Notification API subflow. To learn more about the functions that enable you to query and manipulate records in the topic, see [TopicUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TopicUtilOOBAPIScoped.md).
 
 3.  On the form, fill in the fields.
 

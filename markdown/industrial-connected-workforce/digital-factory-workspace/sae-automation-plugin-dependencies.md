@@ -45,7 +45,7 @@ Post Assessment Actions for Smart Assessments \(com.sn\_smart\_imp\_auto\)
 
 </td><td>
 
-This plugin bundles the back-end logic.**Note:** For the detailed instructions on installing the required SAE plugins, see [Configuring Smart Assessment Engine](https://www.servicenow.com/docs/access?context=smart-assessment-engine-cf-config&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+This plugin bundles the back-end logic.**Note:** For the detailed instructions on installing the required SAE plugins, see [Configuring Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-config.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Configuring Industrial Guided Tasks](../concept/configuring-industrial-guided-tasks.md)

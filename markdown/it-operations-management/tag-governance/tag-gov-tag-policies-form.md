@@ -179,7 +179,7 @@ Policy Criteria
 
 </td><td>
 
-Other policy criteria that you can configure using dynamically populated reference lookup lists. The Configuration Item \[cmdb\_ci\] table populates the data for this lookup list. For more information, see the [Reference lookup](https://www.servicenow.com/docs/access?context=c_ReferenceLookup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Other policy criteria that you can configure using dynamically populated reference lookup lists. The Configuration Item \[cmdb\_ci\] table populates the data for this lookup list. For more information, see the [Reference lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceLookup.md).
 
 </td></tr><tr><td>
 

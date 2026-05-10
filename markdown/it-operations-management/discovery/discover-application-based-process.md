@@ -187,7 +187,7 @@ The name of the process that was excluded from discovery using the **Ignore** ac
 **Related topics**  
 
 
-[Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md)
 
 [Application Fingerprints dashboard](../../../use/dashboards/application-content-packs/discovery-application-fingerprint-dashboard.md)
 

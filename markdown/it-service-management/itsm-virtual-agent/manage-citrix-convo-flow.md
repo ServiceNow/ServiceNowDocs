@@ -33,7 +33,7 @@ When requesting an application, Virtual Agent sends a link to the Service Portal
 
 Virtual Agent sends an actionable notification to the user to inform them once the desktop or application has been provisioned, or if the provisioning was unsuccessful.
 
-This topic uses the Request Catalog Item [Service Catalog topic block](https://www.servicenow.com/docs/access?context=request-topic-blocks-va&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+This topic uses the Request Catalog Item [Service Catalog topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va.md).
 
 ## Reset Citrix Sessions
 

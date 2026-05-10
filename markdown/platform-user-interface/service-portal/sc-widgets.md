@@ -24,7 +24,7 @@ The Service Portal - Service Catalog v2 plugin \(com.glideapp.servicecatalog.por
 -   Requests and Approvals \(ID: sc\_request\_and\_approvals\)
 -   Recent &amp; Popular Items \(ID: sc-recent-popular\)
 
-Most of the configuration for the Service Catalog widgets takes place in the Service Catalog application of the platform. For more information on Service Catalog, see [Service Catalog](https://www.servicenow.com/docs/access?context=service-catalog&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Most of the configuration for the Service Catalog widgets takes place in the Service Catalog application of the platform. For more information on Service Catalog, see [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md).
 
 -   **[Catalog Content widget](catalog-content-widget.md)**  
 The Catalog Content widget is part of the Service Catalog and includes a tiled list of all the content items available in the catalog. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
@@ -66,5 +66,5 @@ Use this widget to add catalog items or record producers to the wish list so tha
 **Related topics**  
 
 
-[Service Catalog in Service Portal](https://www.servicenow.com/docs/access?context=catalog-on-portal&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Service Catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-on-portal.md)
 

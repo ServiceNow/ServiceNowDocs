@@ -42,21 +42,21 @@ While domain separation provides multi-tenancy support, multi-tenancy is still c
 
 Perform the following tasks to set up your domain-separated instance:
 
--   -   **[Create a domain.](https://www.servicenow.com/docs/access?context=t_CreateADomain&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
+-   -   **[Create a domain.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateADomain.md)**
     -   You can create as many domains as needed, but make sure that you don't create unnecessary domains on the instance. A large number of domains on the instance can impact performance. Before you create new domains, check the domain hierarchy under **Domain Admin** &gt; **Domain Map**. Check whether you actually need to create a new domain, or an existing domain hierarchy can work instead.
 
-        Select a primary domain to indicate the top-level domain in the domain map. The Top domain represents a single common parent domain, which acts as a single parent node, for the Service Provider domains. For more information, see [Select a primary domain](https://www.servicenow.com/docs/access?context=t_SelectAPrimaryDomain&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+        Select a primary domain to indicate the top-level domain in the domain map. The Top domain represents a single common parent domain, which acts as a single parent node, for the Service Provider domains. For more information, see [Select a primary domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_SelectAPrimaryDomain.md).
 
-    -   Create the SP domain under the top domain and set the domain as default. Keeping your domains organized is a crucial part of the domain separation process. Ensure that you are aware of the importance of setting a default. The system automatically assigns task and user records that are not already assigned to a domain to the default domain. For more information, see [Make a domain the default](https://www.servicenow.com/docs/access?context=t_MakeAnMSPDomainTheDefault&version=australia&pubname=australia-platform-security&ft:locale=en-US) for instructions on how to make a default domain.
+    -   Create the SP domain under the top domain and set the domain as default. Keeping your domains organized is a crucial part of the domain separation process. Ensure that you are aware of the importance of setting a default. The system automatically assigns task and user records that are not already assigned to a domain to the default domain. For more information, see [Make a domain the default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_MakeAnMSPDomainTheDefault.md) for instructions on how to make a default domain.
 
-    -   Create a domain hierarchy. For more information, see [Create Domain hierarchy](https://www.servicenow.com/docs/access?context=bp-domain-hierarchy&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    -   Create a domain hierarchy. For more information, see [Create Domain hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-hierarchy.md).
 
         Create a domain hierarchy that mirrors organization structures for grouping under the top domain. Because you can perform discovery and provisioning only from the leaf domain, set up leaf domains in the hierarchy that represent concrete entities and organizations.
 
         Based on the domain hierarchy, users have access to data in their home domain and any child domains. The process flows down and the data bubbles up. You can assign user records with a domain value that represents the user’s home domain. While users have no access to data in parent domains, peer domains, or domains in other branches of the hierarchy. A process that is setup in a parent domain is applicable to all child domains. For more information, see
 
-        -   [Service provider reference architecture](https://www.servicenow.com/docs/access?context=bp-sp-reference-arch-ds&version=australia&pubname=australia-platform-security&ft:locale=en-US)
-        -   [Domain separation architecture data](https://www.servicenow.com/docs/access?context=bp-what-is-domain-separation&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+        -   [Service provider reference architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-sp-reference-arch-ds.md)
+        -   [Domain separation architecture data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-what-is-domain-separation.md)
         Customer data is affected based on domain hierarchies:
 
         -   Parent/child: Process and data affected
@@ -71,7 +71,7 @@ Perform the following tasks to set up your domain-separated instance:
 
                 **Note:** Use sparingly, as Visibility can allow complete access that you may not intend.
 
-    -   [Add a new company](https://www.servicenow.com/docs/access?context=t_AddANewCompany&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+    -   [Add a new company](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AddANewCompany.md)
 
         You can add companies that represent vendors, manufacturers, or customers with whom you do business. These companies provide a way to categorize users, groups, and assets.
 
@@ -79,27 +79,27 @@ Perform the following tasks to set up your domain-separated instance:
 
         **Important:** When you create a company for each domain, use a prefix with a unique identifier, such as "COMPANY\_" or "ORG\_".
 
-        To customize the ServiceNow instance for each company, you can enter contact phone numbers, street addresses, and additional notes. You can also customize the company logo and banner text that your end users see at the top of each page. For more information see [Create a new company profile](https://www.servicenow.com/docs/access?context=t_CreateACompanyProfile&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+        To customize the ServiceNow instance for each company, you can enter contact phone numbers, street addresses, and additional notes. You can also customize the company logo and banner text that your end users see at the top of each page. For more information see [Create a new company profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateACompanyProfile.md).
 
 -   Create user groups and assign roles and domain to the users of each new company. You assign users to companies to associate them with domains. Associate a company with a user to map the user to a domain.
-    1.  Navigate to **Organizations** &gt; **Company,** and click **New** to create new users. For more information on creating users, see, [Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+    1.  Navigate to **Organizations** &gt; **Company,** and click **New** to create new users. For more information on creating users, see, [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md)
 
         **Note:** Don’t use the manual-managed domain option to choose the domain for users.
 
-    2.  Create groups and assign roles to the groups. Users that are assigned to the group inherit the roles. You can create cloud user portal users for a company in the leaf domain. For more information on creating groups, see [Create a user group](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    2.  Create groups and assign roles to the groups. Users that are assigned to the group inherit the roles. You can create cloud user portal users for a company in the leaf domain. For more information on creating groups, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAGroup.md).
     3.  Create these users in each of the leaf domains:
         -   MID Server user for each leaf domain and company. Assign the mid\_server role to MID Server users.
         -   Domain admin for each leaf domain and company. Assign the sn\_cmp.cmp\_root\_admin role to cloud \(domain\) administrators.
         -   Domain user for each leaf domain. Assign the sn\_cmp.cloud\_service\_user role to cloud users.
         -   \(Optional\) Create users for additional roles in leaf domains \(roles like designer, governor\).
 
-            To provide limited visibility for certain domains to certain users, add them via groups. For more information, see [Grant visibility domains to an individual user](https://www.servicenow.com/docs/access?context=t_GrVisDomIndUser&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+            To provide limited visibility for certain domains to certain users, add them via groups. For more information, see [Grant visibility domains to an individual user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_GrVisDomIndUser.md).
 
     4.  Create a "contains" domain relationship between the SP domain and the TOP domain.
 
         **Note:** By creating a "contains" relationship, you allow all the administrators in the Service Provider domain to have access to all the domain data. Users of global domain are unable to see data from card layout as by default expand domain scope is not allowed.
 
-        For more information on how to control what specific users and what an entire domain of users can view, see [Visibility domains and Contains domains](https://www.servicenow.com/docs/access?context=c_DomainVisibility&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+        For more information on how to control what specific users and what an entire domain of users can view, see [Visibility domains and Contains domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainVisibility.md).
 
 
 ## Next Steps
@@ -109,7 +109,7 @@ For more information on onboarding customers or companies in a domain-separated 
 **Related topics**  
 
 
-[Domain Separation](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[Domain Separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 
-[Understanding Domain Separation](https://www.servicenow.com/docs/access?context=c_DomainSeparation&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[Understanding Domain Separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md)
 

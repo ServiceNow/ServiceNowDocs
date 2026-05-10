@@ -19,7 +19,7 @@ This API requires the DevOps Config application and is provided within the `sn_d
 
 For DELETE, PATCH, and POST operations, the calling user must have the sn\_devops\_config.admin role. For GET operations, the calling user must have the sn\_devops\_config.viewer or sn\_devops\_config.admin role.
 
-Use the DevOps Config API for application life cycle management. For more information about managing applications with DevOps Config, see [Configuring DevOps Config](https://www.servicenow.com/docs/access?context=setting-up-devops-config-validation&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+Use the DevOps Config API for application life cycle management. For more information about managing applications with DevOps Config, see [Configuring DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/setting-up-devops-config-validation.md).
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 

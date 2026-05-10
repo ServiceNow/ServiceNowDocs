@@ -40,5 +40,5 @@ See [Configuring the Business Portal](../concept/order-management-configure-busi
 
 ## What to do next
 
-Customize the Business Portal to match your organization's branding and user experience requirements. For more information, see [Setup Business and Consumer Portal](https://www.servicenow.com/docs/access?context=customize-business-portals&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+Customize the Business Portal to match your organization's branding and user experience requirements. For more information, see [Setup Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/customize-business-portals.md).
 

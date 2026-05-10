@@ -6,7 +6,7 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-09"
 reading_time_minutes: 2
 breadcrumb: [Advanced configuration, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -20,11 +20,11 @@ Switch Agent Client Collector \(ACC\) to a different instance.
 Confirm you have installed the Agent Client Collector \(ACC\) and set up the ACC registration key. For information on how to set up and install, see:
 
 -   [Create an ACC registration key](setup-acc.md).
--   [Install the Agent Client Collector on a Windows machine manually](https://www.servicenow.com/docs/access?context=acc-install-windows&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) or [Manually install Agent Client Collector on macOS](https://www.servicenow.com/docs/access?context=acc-install-macOS-manual&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+-   [Install the Agent Client Collector on a Windows machine manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-install-windows.md) or [Manually install Agent Client Collector on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-install-macOS-manual.md).
 
 Role required: agent\_admin and agent\_client\_collector\_admin
 
-For more information on roles, see [Agent Client Collector user roles](https://www.servicenow.com/docs/access?context=acc-users&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+For more information on roles, see [Agent Client Collector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-users.md).
 
 ## About this task
 

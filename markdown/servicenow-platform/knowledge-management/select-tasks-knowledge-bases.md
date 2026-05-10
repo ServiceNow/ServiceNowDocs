@@ -32,7 +32,7 @@ A scheduled job for each task type runs business rules and then executes the sim
 **Note:** For task types other than customer service cases and incidents, a user with the admin role must also perform the following tasks:
 
 -   Assign the sn\_km\_ml.knowledge\_curation\_user role and the appropriate roles for the task type to the users performing the knowledge gap analysis. To assign roles, perform the Assign knowledge curator roles guided setup task, which are available in the Knowledge Demand Insights section of the Knowledge Management guided setup.
--   Create a demand insights dashboard for the task type. To create a dashboard, see [Create or configure a responsive dashboard](https://www.servicenow.com/docs/access?context=t_CreateADashboard&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+-   Create a demand insights dashboard for the task type. To create a dashboard, see [Create or configure a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateADashboard.md).
 
 ## Procedure
 
@@ -50,7 +50,7 @@ A scheduled job for each task type runs business rules and then executes the sim
     |-----|-----------|
     |Curation table|Name of the table you want the data to pull information from. For example, for customer service cases, select Case \[sn\_customerservice\_case\] and for incidents select Incident \[incident\].|
     |Fields|Fields in the curation table that include the ID of knowledge articles, for example, the knowledge article ID KB07276660 in the field resolution notes,|
-    |Query condition|Conditions for filtering the number of tasks from the curation table. You can create conditions using the condition builder \(see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)\).|
+    |Query condition|Conditions for filtering the number of tasks from the curation table. You can create conditions using the condition builder \(see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md)\).|
     |Similarity solution definition|Similarity solution definition for your task type. For example, for customer service cases, select **Demand Insights: Similar Cases and Knowledge**.|
     |Clustering solution definition|Clustering solution definition for your task type. For example, for customer service cases, select **Demand Insights: Case Clusters Need Knowledge**.|
 

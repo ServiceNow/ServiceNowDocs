@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-**Note:** The Time Card Management plugin also gets activated as part of [PPM Standard](https://www.servicenow.com/docs/access?context=t_ActivateProjectPortfolioSuiteWithFinancials&version=australia&pubname=australia-it-business-management&ft:locale=en-US) plugin \(com.snc.financial\_planning\_pmo\).
+**Note:** The Time Card Management plugin also gets activated as part of [PPM Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/t_ActivateProjectPortfolioSuiteWithFinancials.md) plugin \(com.snc.financial\_planning\_pmo\).
 
 ## Procedure
 

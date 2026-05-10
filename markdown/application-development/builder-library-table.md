@@ -29,7 +29,7 @@ Use case\(s\)
 
 </th></tr></thead><tbody><tr><td>
 
-[Exploring Decision Tables](https://www.servicenow.com/docs/access?context=decision-designer-overview&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/decision-designer-overview.md)
 
 </td><td>
 
@@ -43,7 +43,7 @@ Determine a customer discount rate for a product given two inputs \(number of un
 
 </td></tr><tr><td>
 
-[Flow Template Builder](https://www.servicenow.com/docs/access?context=flow-template&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Flow Template Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-template.md)
 
 </td><td>
 
@@ -57,7 +57,7 @@ Create a flow template to use as the basis for all request approvals within an I
 
 </td></tr><tr><td>
 
-[Integration with Performance Analytics](https://www.servicenow.com/docs/access?context=integrate-pa&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[Integration with Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integrate-pa.md)
 
 </td><td>
 
@@ -71,7 +71,7 @@ Visualize the execution of processes or a customer journey, show insight into ad
 
 </td></tr><tr><td>
 
-[Mobile App Builder](https://www.servicenow.com/docs/access?context=mab-concept&version=australia&pubname=australia-mobile&ft:locale=en-US)
+[Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md)
 
 </td><td>
 
@@ -85,7 +85,7 @@ Streamline mobile configurations by organizing records in a hierarchical layout 
 
 </td></tr><tr><td>
 
-[Mobile Card Builder](https://www.servicenow.com/docs/access?context=mobile-card-builder&version=australia&pubname=australia-mobile&ft:locale=en-US)
+[Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-card-builder.md)
 
 </td><td>
 
@@ -99,7 +99,7 @@ Create cards for launcher screen record sections, calendar screens, form screens
 
 </td></tr><tr><td>
 
-[NLU Workbench](https://www.servicenow.com/docs/access?context=model-management-phases&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/model-management-phases.md)
 
 </td><td>
 
@@ -113,7 +113,7 @@ Configure a Virtual Agent Designer conversation flow to consume an NLU model so 
 
 </td></tr><tr><td>
 
-[Platform analytics for workspaces](https://www.servicenow.com/docs/access?context=par-workspace&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[Platform analytics for workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/par-workspace.md)
 
 </td><td>
 
@@ -127,7 +127,7 @@ Configure the ability for users to ask natural language questions and be shown t
 
 </td></tr><tr><td>
 
-[Reports](https://www.servicenow.com/docs/access?context=reporting-landing-page&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/reporting-landing-page.md)
 
 </td><td>
 
@@ -141,7 +141,7 @@ Show the number of open incidents at an organization that also displays the prio
 
 </td></tr><tr><td>
 
-[Service Portal Designer](https://www.servicenow.com/docs/access?context=create-a-portal&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-a-portal.md)
 
 </td><td>
 
@@ -169,7 +169,7 @@ Create an online food order form in an food delivery application for customers. 
 
 </td></tr><tr><td>
 
-[Themes in Theme Builder](https://www.servicenow.com/docs/access?context=next-experience-theming&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[Themes in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md)
 
 </td><td>
 
@@ -197,7 +197,7 @@ Create a new standard record page variant to show specific incident records, edi
 
 </td></tr><tr><td>
 
-[Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+[Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 
 </td><td>
 

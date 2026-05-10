@@ -459,7 +459,7 @@ Enter a colon-separated list of sys\_id values to specify which indicators, brea
 
 The parameter must begin with the sys\_id of an indicator record. Optionally, you can append the sys\_id values of a breakdown and breakdown element to group the response based on the breakdown, and the sys\_id of an aggregate to apply that aggregate. You can use a breakdown with an aggregate, or use only one.
 
-For information about obtaining the sys\_id values of records, see [Unique record identifier \(sys\_id\)](https://www.servicenow.com/docs/access?context=c_UniqueRecordIdentifier&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For information about obtaining the sys\_id values of records, see [Unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UniqueRecordIdentifier.md).
 
 **Note:** If an indicator is configured to use a **Default time series**, all Analytics Hub values for that indicator use that time series aggregation.
 
