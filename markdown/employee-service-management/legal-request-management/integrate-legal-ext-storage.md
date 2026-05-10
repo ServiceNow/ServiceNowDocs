@@ -19,25 +19,25 @@ Configure an external storage system to store documents attached to legal reques
 
 Ensure that the administrator has installed and set up spokes for the external storage system you want to configure for legal apps.
 
--   **Box spoke v3.1.0 or later version**
+-   **[Box spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/box-spoke.md) v3.1.0 or later version**
 
-    For more information on the setup and creating the Box account, see Set up Box spoke.
+    For more information on the setup and creating the Box account, see [Set up Box spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-box-spoke.md).
 
--   **Google Drive spoke v1.3.0 or later version**
+-   **[Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/googledrive-spoke.md) v1.3.0 or later version**
 
-    For more information on the setup and creating the Google Drive account, see Set up Google Drive spoke.
+    For more information on the setup and creating the Google Drive account, see [Set up Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gdrive.md).
 
--   **Microsoft OneDrive spoke v2.1.0 or later version**
+-   **[Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/onedrive-spoke.md) v2.1.0 or later version**
 
-    For more information on the setup and creating the Microsoft OneDrive account, see Set up Microsoft OneDrive spoke.
+    For more information on the setup and creating the Microsoft OneDrive account, see [Set up Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-msonedrive.md).
 
--   **Microsoft SharePoint spoke v2.2.0 or later version**
+-   **[Microsoft SharePoint spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sharepoint-online-spoke.md) v2.2.0 or later version**
 
-    For more information on setting up Microsoft SharePoint, see Configure Microsoft SharePoint Online connection record.
+    For more information on setting up Microsoft SharePoint, see [Configure Microsoft SharePoint Online connection record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-microsoft-sharepoint-online-and-connection-record.md).
 
--   **iManage Spoke spoke v1.0.0**
+-   **[iManage Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/imanage-spoke.md) spoke v1.0.0**
 
-    For more information on the setup and creating the iManage account, see Set up iManage spoke.
+    For more information on the setup and creating the iManage account, see [Set up iManage spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-imanage-spoke.md).
 
     **Important:** After setting up the spoke, give the iManage spoke user \[sn\_imanage\_spk.user\] role to users accessing iManage external storage.
 
@@ -179,7 +179,7 @@ Attributes
 
 Additional configuration items based on your Microsoft SharePoint and iManage configuration. Add the following details:**Microsoft SharePoint**
 
--   **Tenant**: Add the sys\_id of the Microsoft SharePoint tenant record.
+-   **Tenant**: Add the sys\_id of the [Microsoft SharePoint tenant record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-tenant.md).
 -   **Site\_Name**: Add the name of the site in the tenant.
 -   **Document Library**: Add the document library set up in the site where all documents related to legal requests and legal matters are stored.
 For more information on managing Microsoft SharePoint tenants, sites, and document libraries, see the Microsoft documentation.

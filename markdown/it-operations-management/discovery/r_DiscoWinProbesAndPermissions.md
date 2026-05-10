@@ -21,7 +21,7 @@ Most probes require access to Windows classes, properties, and registry entries.
 
 Windows administrative shares are hidden server resources that Discovery uses to store temporarily the results of processes run by specific probes. The MID Server script file **LaunchProc.psm1** launches the process, writes its output to the administrative share on the machine, and then retrieves the results for the MID Server. Access to administrative shares is restricted to users with administrative rights to the target. For example: Users, local or on the domain, who belong to the local administrators group.
 
-With the New York release, all Windows probes using the WMI protocol call the **LaunchProc.psm1** script file and write to the admin$ share folder as default. If another network share is mounted on each Windows target, the folder could be changed by updating the MID Server property **mid.powershell.target\_base\_dir**.
+With the New York release, all Windows probes using the WMI protocol call the **LaunchProc.psm1** script file and write to the admin$ share folder as default. If another network share is mounted on each Windows target, the folder could be changed by updating the [MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md) **mid.powershell.target\_base\_dir**.
 
 ## Windows Classes
 

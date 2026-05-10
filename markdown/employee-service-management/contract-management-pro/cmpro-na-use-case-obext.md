@@ -84,7 +84,7 @@ Language of the files
 
 </td><td>
 
-Language of the contract documents from which you want to extract the obligations.For more information on supported languages, see Languages supported by Document Intelligence.
+Language of the contract documents from which you want to extract the obligations.For more information on supported languages, see [Languages supported by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/languages-supported-by-document-intelligence.md).
 
 </td></tr><tr><td>
 
@@ -162,7 +162,7 @@ Target field
 This field should be left empty.
 
 </td></tr></tbody>
-</table>        For more information on the field form, see Question form for use case setup.
+</table>        For more information on the field form, see [Question form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/document-qna-single-field-form.md).
 
         ![Field information for contract obligation extraction.](../image/cmpro-ob-ext-field.png "Field page for contract obligation extraction")
 

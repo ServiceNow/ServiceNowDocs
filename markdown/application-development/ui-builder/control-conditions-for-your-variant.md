@@ -132,7 +132,7 @@ The number, text, or option input that you want to compare with the parameter.
 
         The **Edit variant conditions** screen displays the encoded query field, where the conditions you previously set are shown in encoded query form: `table=task^sysId=abcd1234`.
 
-        For example, by adding the following 'OR' condition \(`^ORsysId=efgh5678`\), you set the page variant to display when you access a record from the Task table with a sys\_id of either abcd1234 or efgh5678. For more information on writing encoded queries, see Encoded query strings.
+        For example, by adding the following 'OR' condition \(`^ORsysId=efgh5678`\), you set the page variant to display when you access a record from the Task table with a sys\_id of either abcd1234 or efgh5678. For more information on writing encoded queries, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
         ![Edit variant conditions screen displaying encoded query 'table=task^sysId=abcd1234^ORsysId=efgh5678' in the field.](../image/control-conditions-or.png)
 

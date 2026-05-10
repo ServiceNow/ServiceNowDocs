@@ -95,7 +95,7 @@ Conditions the Assign HR Roles business rule uses to automatically assign a role
 -   Part Time Employee or
 -   Temporary Employee and
 -   Employment start date is after Today
- **Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
+ **Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr></tbody>
 </table>6.  Click **Submit** or **Update**.

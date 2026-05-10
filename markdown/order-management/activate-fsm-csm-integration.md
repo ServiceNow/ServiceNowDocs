@@ -25,7 +25,7 @@ Role required: admin
 
 3.  Click **Install**.
 
-    For more info, see Activate a plugin.
+    For more info, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 
 ## Result

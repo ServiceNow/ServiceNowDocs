@@ -29,7 +29,7 @@ For associating the **View Complete Report** button with your customized post in
 
 2.  Create a UI page.
 
-    For information on how to create a UI page, refer UI pages.
+    For information on how to create a UI page, refer [UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_UIPages.md).
 
 3.  Navigate to **Incident** &gt; **Major Incident Properties**.
 

@@ -41,15 +41,15 @@ You can create apps using the following procedure, or you can use Build Agent to
 
     **Note:** If you need some inspiration for your app, select **Explore the App Gallery**. After signing in with your ServiceNow credentials, you have access to a library of apps and app files that can help you create your application.
 
-<table id="choicetable_tgq_ryl_m3c"><thead><tr><th align="left" id="d296530e200">
+<table id="choicetable_tgq_ryl_m3c"><thead><tr><th align="left" id="d296548e200">
 
 How to create
 
-</th><th align="left" id="d296530e203">
+</th><th align="left" id="d296548e203">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d296530e209">
+</th></tr></thead><tbody><tr><td id="d296548e209">
 
 **On your own**
 
@@ -57,7 +57,7 @@ Description
 
 Create the application on your own, adding content and files of your choosing.Select **On your own** &gt; **Continue**, and continue with step 5 in this procedure.
 
-</td></tr><tr><td id="d296530e229">
+</td></tr><tr><td id="d296548e229">
 
 **With Now Assist, which opens Build Agent**
 
@@ -67,7 +67,7 @@ Begin a conversation with Build Agent to create your application.Select **With N
 
 For more information, see [Create an application using Build Agent](../../build-agent/tasks/create-a-new-application-using-build-agent.md).
 
-</td></tr><tr><td id="d296530e280">
+</td></tr><tr><td id="d296548e280">
 
 **With Creator Studio**
 
@@ -96,7 +96,7 @@ For more information, see [Building apps with Creator Studio](../../creator-stud
 
 6.  Define user access to the app by adding roles.
 
-    ServiceNow Studio automatically defines default admin and user roles. You can remove the predefined roles or add more roles. For more information about roles, see Managing roles.
+    ServiceNow Studio automatically defines default admin and user roles. You can remove the predefined roles or add more roles. For more information about roles, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md).
 
     1.  Select **Add a role**.
 

@@ -19,11 +19,11 @@ Reference topics provide additional information about components installed and l
 
     Reference for user roles that are installed with activation of the sn\_ti\_admin plugin.
 
--   **Reference for Task Intelligence for ITSM**
+-   **[Reference for Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/task-intelligence-itsm-reference.md)**
 
     Reference topics provide additional information about components installed with Task Intelligence for ITSM.
 
--   **View Task Intelligence Analytics**
+-   **[View Task Intelligence Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-case-monitoring.md)**
 
     View Task Intelligence for Customer Service analytics and see how your machine learning models are working.
 

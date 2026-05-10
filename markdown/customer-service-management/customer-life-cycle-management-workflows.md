@@ -15,7 +15,7 @@ Manage the life cycle of your sold products by activating the Customer Life Cycl
 
 ## Overview of workflows
 
-The Customer Life Cycle Management Workflows \(com.snc.customer\_lifecycle\_mgmt\_workflows\) application enables you to update the existing configurations, and to modify, suspend, resume, or disconnect the sold products and their complete hierarchy. The workflows are built and composed by using the lead-to-cash transactional operations like Effect, Create Instance, Delta, and Commit Instance. To learn more about the transactional operations of the Lead to Cash Core \(com.snc.l2c\_core\) plugin, see Lead to Cash Core.
+The Customer Life Cycle Management Workflows \(com.snc.customer\_lifecycle\_mgmt\_workflows\) application enables you to update the existing configurations, and to modify, suspend, resume, or disconnect the sold products and their complete hierarchy. The workflows are built and composed by using the lead-to-cash transactional operations like Effect, Create Instance, Delta, and Commit Instance. To learn more about the transactional operations of the Lead to Cash Core \(com.snc.l2c\_core\) plugin, see [Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-to-cash.md).
 
 ## Plugins for the Customer Life Cycle Management Workflows
 
@@ -43,7 +43,7 @@ Product Catalog Management\(com.sn\_prd\_pm\)
 
 </td><td>
 
-Enables companies to define the products and services they market, sell, and deliver to customers.To learn more about product catalogs, see Product Catalog Management.
+Enables companies to define the products and services they market, sell, and deliver to customers.To learn more about product catalogs, see [Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md).
 
 </td></tr><tr><td>
 
@@ -51,7 +51,7 @@ Lead to Cash Core\(com.snc.l2c\_core\)
 
 </td><td>
 
-Enables customers to compose and build the workflows for various entities. To learn more about the Lead to Cash Core plugin, see Lead to Cash Core.
+Enables customers to compose and build the workflows for various entities. To learn more about the Lead to Cash Core plugin, see [Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-to-cash.md).
 
 </td></tr></tbody>
 </table>## Life Cycle workflows and configurations
@@ -118,7 +118,7 @@ Change order to sold product
 
 </td><td>
 
-After an order is marked completed, this flow triggers and thus entire product hierarchy shows the updated configuration made by the customer, along with the associated pricing adjustments that were processed through the Sold Product to order flow. For more information on pricing management, see Components installed with Pricing Management.
+After an order is marked completed, this flow triggers and thus entire product hierarchy shows the updated configuration made by the customer, along with the associated pricing adjustments that were processed through the Sold Product to order flow. For more information on pricing management, see [Components installed with Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-with-pricing-management.md).
 
  **Note:** The **\[sn\_ind\_tmt\_orm.enable\_prod\_invt\_for\_order\_management \]**property is set to **False** by default with the Order Management \(com.sn\_ind\_tmt\_orm\) plugin. However, if the Order Management for Telecommunications, Media, and Technology \(com.sn\_om\_tmt\) plugin is installed, the property value is set to **True**.
 
@@ -162,7 +162,7 @@ Configurations are a set of end-to-end flows that enable the data to flow from o
 |Sold product to Order|sn\_l2c-cust\_flows\_sp\_to\_order|Sold product|Order|
 |Order to Sold Product|sn\_l2c\_cust\_flows\_order\_to\_sp|Order|Sold product|
 
-To learn more about the configurations, see Entity configuration and mapping.
+To learn more about the configurations, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/entity-configuration-and-mapping.md).
 
 **Related topics**  
 

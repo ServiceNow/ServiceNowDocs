@@ -97,5 +97,5 @@ The credential for use with the vRealize connector is created.
 **Related topics**  
 
 
-[bundle-psec.r-credentials]
+[Credentials and connection information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md)
 

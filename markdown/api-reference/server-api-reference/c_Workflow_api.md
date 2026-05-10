@@ -23,9 +23,9 @@ Use these methods to manipulate workflows.
 
 Sends the specified event \(message\) into the workflow context to pass along to the executing activities.
 
-Typical use of this method is to enable activities that wait for some action to occur before proceeding. For additional information on using broadcastEvent, refer to Workflow event-specific functions.
+Typical use of this method is to enable activities that wait for some action to occur before proceeding. For additional information on using broadcastEvent, refer to [Workflow event-specific functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/r_WorkflowEventSpecificFunctions.md).
 
-For a list of the available OOB events, refer to Workflow events in the base system.
+For a list of the available OOB events, refer to [Workflow events in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/r_WorkflowEventsInTheBaseSystem.md).
 
 |Name|Type|Description|
 |----|----|-----------|

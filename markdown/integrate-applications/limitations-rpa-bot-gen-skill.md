@@ -16,7 +16,7 @@ The limitations of the RPA bot generation skill are as follows.
 
 -   **AI Search and LLM timeout**
 
-    The RPA bot generation skill relies on AI Search and large language models \(LLM\) to understand the user instructions and flow creation. The timeout limits and rate-limiting behavior of these APIs collectively apply to the RPA bot generation skill. For more information about AI search system properties, see AI Search system properties. For more information about API rate limits, see Inbound REST API rate limiting. For more information about configuring rate limiting for providers, see Configure rate limiting for providers.
+    The RPA bot generation skill relies on AI Search and large language models \(LLM\) to understand the user instructions and flow creation. The timeout limits and rate-limiting behavior of these APIs collectively apply to the RPA bot generation skill. For more information about AI search system properties, see [AI Search system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/system-properties-ais.md). For more information about API rate limits, see [Inbound REST API rate limiting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/inbound-REST-API-rate-limiting.md). For more information about configuring rate limiting for providers, see [Configure rate limiting for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-rate-limit.md).
 
 -   **Component scope in Yokohama release**
 

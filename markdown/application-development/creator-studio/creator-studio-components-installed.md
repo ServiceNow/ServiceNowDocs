@@ -15,7 +15,7 @@ breadcrumb: [Install, Configure, Creator Studio, Building no-code applications, 
 
 When you activate the Creator Studio plugin, various components like tables and user roles are automatically installed.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 ## What plugins are required to activate Creator Studio?
 
@@ -32,7 +32,7 @@ You must install the following plugins for Creator Studio:
 
     -   Type: string
     -   Default value: 211f71ca73202010ae42d31ee2f6a785
-    -   Hide additional templates by adding their system values \(sys\_id for the template\), separated by commas, in the **Value** field. For more information on the sys\_id, see Unique record identifier \(sys\_id\).
+    -   Hide additional templates by adding their system values \(sys\_id for the template\), separated by commas, in the **Value** field. For more information on the sys\_id, see [Unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UniqueRecordIdentifier.md).
     For more information, see [Show the AES template](../task/creator-studio-unhide-template.md).
 
 -   **sn\_creatorstudio.history\_record\_limit**

@@ -53,7 +53,7 @@ HREF/URL
 
 </td><td>
 
-The URL that opens an internal web page or a portal page in the same tab and an external page or a portal in a new tab.**Note:** For more information about linking to a page within a portal, see Page navigation in Service Portal by URL.
+The URL that opens an internal web page or a portal page in the same tab and an external page or a portal in a new tab.**Note:** For more information about linking to a page within a portal, see [Page navigation in Service Portal by URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/navigate-by-portal-url.md).
 
 </td></tr><tr><td>
 

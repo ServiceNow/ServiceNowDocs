@@ -144,7 +144,7 @@ Navigate to **All** &gt; **Procurement** &gt; **Orders** &gt; **Purchase Orders*
 
         If the assets that you are receiving belong to model categories linked to a CI class with identification rules defined for fields like the Asset tag, Serial number, or MAC address, you should provide details for at least one of these fields. For example, if identification rules are defined for the Serial number and MAC address, you should provide a value for either of these fields to proceed. The Capture asset tags dialog box will display a message indicating the specific field values you should provide.
 
-        The identification rules for a CI class are defined in the CMDB Identification and Reconciliation engine \(IRE\). For more details, see Identification rules and Create a CI identification rule. These rules help to uniquely identify the asset through these required fields and maintain accurate asset records.
+        The identification rules for a CI class are defined in the CMDB Identification and Reconciliation engine \(IRE\). For more details, see [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_IdentificationRules.md) and [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.md). These rules help to uniquely identify the asset through these required fields and maintain accurate asset records.
 
     8.  From the **Reserved for** list, select the user for whom the item was ordered.
 

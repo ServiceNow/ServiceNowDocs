@@ -41,5 +41,5 @@ You would analyze the work order process flow and suggest ways to improve the pr
 **Related topics**  
 
 
-[bundle-fsm.process-opt-fsm]
+[Process Mining for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/process-opt-fsm.md)
 

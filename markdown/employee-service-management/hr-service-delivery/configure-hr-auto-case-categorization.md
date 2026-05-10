@@ -43,7 +43,7 @@ Solution Capability Definition
 
 Name of the solution definition.-   To create or select a solution definition, click the **Lookup** button.
 -   To update or train a solution definition, click the **Preview** button to open the solution definition record.
--   For further information on creating and training a solution definition, see Create and train a solution definition.
+-   For further information on creating and training a solution definition, see [Create and train a solution definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-solution-definition.md).
 
 
 </td></tr><tr><td>

@@ -55,9 +55,9 @@ This procedure demonstrates how to approve or reject a budget using the account 
 
 ## What to do next
 
-To test the policy, see Test updates to a PaCE policy version.
+To test the policy, see [Test updates to a PaCE policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-test-policy-version.md).
 
-To publish the policy, see Publish a PaCE policy version.
+To publish the policy, see [Publish a PaCE policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-publish-policy-version.md).
 
-To add a new approval step in the flow designer, see Exploring Workflow Studio.
+To add a new approval step in the flow designer, see [Exploring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-workflow-studio.md).
 

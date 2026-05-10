@@ -49,7 +49,7 @@ To support large commits, perform these actions:
 
 -   Install the ServiceNow IntegrationHub Action Template - Data Stream \(com.glide.hub.action\_type.datastream\) plugin.
 -   For optimal performance, disable flow logging by setting the Workflow Studio **com.snc.process\_flow.reporting.level** property to **Off**.
--   For MID Server settings, view the MID Server support for Data Stream actions section.
+-   For MID Server settings, view the [MID Server support for Data Stream actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/dsa-on-mid.md) section.
 
 The Azure DevOps data stream can currently process up to 8000-9000 commits per code push. The number of run commits listed for a task execution are limited to 200.
 

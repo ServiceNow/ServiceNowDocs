@@ -23,11 +23,11 @@ Domain separation is supported for Operational Technology. Domain separation ena
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Operational Technology domain separation overview
 
-Operational Technology inherits the domain separation features of the dependency applications. As each application can have its own domain separation relationship, there is no one specific support level to associate with Operational Technology. To learn more, see Domain separation and Workflow Studio.
+Operational Technology inherits the domain separation features of the dependency applications. As each application can have its own domain separation relationship, there is no one specific support level to associate with Operational Technology. To learn more, see [Domain separation and Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-domain-separation.md).
 
 The following table describes the domain separation support levels and use cases for each Operational Technology application.
 
@@ -44,5 +44,5 @@ The following table describes the domain separation support levels and use cases
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

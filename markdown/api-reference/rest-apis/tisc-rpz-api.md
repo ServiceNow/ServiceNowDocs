@@ -19,7 +19,7 @@ Use this API to retrieve filtered threat intelligence data in RPZ format for use
 
 This API requires the Threat Intelligence Security Center application, which is available on the ServiceNow Store.
 
-For additional information about TISC, see Threat Intelligence Security Center.
+For additional information about TISC, see [Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-landing-page.md).
 
 This API runs in the `sn_sec_tisc` namespace. The calling user must have the sn\_sec\_tisc.api\_obs\_read\_access role.
 
@@ -196,7 +196,7 @@ observable\_filters.filters.operator
 
 </td><td>
 
-Operator to use for the filter.For more information about operators, see Operators available for filters and queries.
+Operator to use for the filter.For more information about operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
 The data type of the filter field determines the valid operators. The following operators are valid for each data type.
 

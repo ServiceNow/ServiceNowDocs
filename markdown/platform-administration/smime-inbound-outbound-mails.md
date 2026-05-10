@@ -48,7 +48,7 @@ A key pair can be used to
 
 S/MIME digital signatures and encryption require each sender and recipient to have it enabled. They also need to send or exchange public keys though digital certificates to identify each other.
 
-For more information about key management and cryprographic module, see Key Management Framework Reference.
+For more information about key management and cryprographic module, see [Key Management Framework Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/understanding-kmf.md).
 
 ## Digital certificates
 

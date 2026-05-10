@@ -17,7 +17,7 @@ MID Server capabilities define the specific functions of a MID Server within an 
 
 ## Nmap capability
 
-The **Nmap** capability is only assigned to MID Servers for which the Network Mapper \(Nmap\) scanner has been installed for credential-less Discovery. This capability cannot be added to or removed from any MID Server manually. For instructions on installing or uninstalling Nmap, see Install and uninstall Nmap on a MID Server
+The **Nmap** capability is only assigned to MID Servers for which the Network Mapper \(Nmap\) scanner has been installed for [credential-less Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/nmap-credential-less-discovery.md). This capability cannot be added to or removed from any MID Server manually. For instructions on installing or uninstalling Nmap, see [Install and uninstall Nmap on a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/install-nmap-on-mid-server.md)
 
 ## MID Server capability values
 

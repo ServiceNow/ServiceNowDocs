@@ -4,7 +4,7 @@ description: Install the Segment Management plugin \(com.snc.segment\_mgmt\), al
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 2
 breadcrumb: [Configure Segment Management, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -30,7 +30,7 @@ The following items are installed with the Segment Management application \(com.
 -   Roles
 -   Tables
 
-For more information on viewing components that are installed with an application, see Find components installed with an application.
+For more information on viewing components that are installed with an application, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 ## Procedure
 

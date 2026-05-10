@@ -42,7 +42,7 @@ Add rows to the Product Order Fulfillment Policy decision table to specify which
 
 ## Result
 
-A list of subflows appear in the results section. These sub flows create the fulfillment tasks for an order line item during the fulfillment process. For more information, see Decision Builder user interface.
+A list of subflows appear in the results section. These sub flows create the fulfillment tasks for an order line item during the fulfillment process. For more information, see [Decision Builder user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/decision-builder-user-interface.md).
 
 **Parent Topic:**[Configuring Order Management](../concept/order-mgt-configuring.md)
 

@@ -15,7 +15,7 @@ Create an Operational Sustainability Management narrative disclosure for your or
 
 ## Before you begin
 
-Ensure that you follow the procedure to integrate the ServiceNow® instance and Microsoft OneDrive. Refer to Setup Microsoft OneDrive for Document Services and [Connecting to Microsoft Sharepoint \[KB1646310\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1646310%20) article in the Now Support Knowledge Base.
+Ensure that you follow the procedure to integrate the ServiceNow® instance and Microsoft OneDrive. Refer to [Setup Microsoft OneDrive for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/configure-ms-onedrive-doc-services.md) and [Connecting to Microsoft Sharepoint \[KB1646310\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1646310%20) article in the Now Support Knowledge Base.
 
 Role required: sn\_esg.reporting\_disclosure\_manager or sn\_esg.program\_manager
 

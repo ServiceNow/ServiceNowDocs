@@ -21,9 +21,9 @@ Role required: skill\_admin
 
 ## About this task
 
-Use the UserSkillAnalyzer API to analyze the skills and skill levels of users and the UserSkillRanking API to rank and assign them to tasks. For example, when you use the Field Service Management application to assign agents to tasks, you can analyze and rank them based on their skills and skill levels using these APIs and use dynamic scheduling to assign them to tasks.
+Use the [UserSkillAnalyzer API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/UserSkillAnalyzerAPI.md) to analyze the skills and skill levels of users and the [UserSkillRanking API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/UserSkillRankingAPI.md) to rank and assign them to tasks. For example, when you use the Field Service Management application to assign agents to tasks, you can analyze and rank them based on their skills and skill levels using these APIs and use dynamic scheduling to assign them to tasks.
 
-**Note:** You must add the Matching Skill Level Gap for Dynamic Scheduling criterion to the task filter to rank agents assessed based on skill gaps. For more information on adding this criterion, see Create a task filter.
+**Note:** You must add the Matching Skill Level Gap for Dynamic Scheduling criterion to the task filter to rank agents assessed based on skill gaps. For more information on adding this criterion, see [Create a task filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md).
 
 ## Procedure
 
@@ -41,7 +41,7 @@ Use the UserSkillAnalyzer API to analyze the skills and skill levels of users an
     2.  Verifies if a work item requires a skill that has a level type defined but does not have the skill level defined.
     3.  Verifies if a work item requires a skill that has the skill level defined, but the agent does not have the skill level defined. If the skill level is mandatory to complete the task, the user who does not have those skill levels will not be assigned to those tasks.
     4.  Verifies whether a user has all skill levels that are mandatory, but not optional, to perform a task.
-2.  Rank users qualified to complete work items using UserSkillRanking API.
+2.  Rank users qualified to complete work items using [UserSkillRanking API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/UserSkillRankingAPI.md).
 
     The API retrieves a list of qualified users based on matching and mandatory skills and skill levels.
 
@@ -51,5 +51,5 @@ Use the UserSkillAnalyzer API to analyze the skills and skill levels of users an
 **Related topics**  
 
 
-[bundle-fsm.dynamic-scheduling]
+[Dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/dynamic-scheduling.md)
 

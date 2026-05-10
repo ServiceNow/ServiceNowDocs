@@ -58,7 +58,7 @@ MID Server
 
 </td><td>
 
-Acts as a secure bridge between your ServiceNow instance and the external network system. For more information, see IntegrationHub ETL.
+Acts as a secure bridge between your ServiceNow instance and the external network system. For more information, see [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md).
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ IntegrationHub ETL \(3.2\)
 
 </td><td>
 
-Provides a guided UI for creating, testing, and managing ETL transform maps.For more information, see MID Server.
+Provides a guided UI for creating, testing, and managing ETL transform maps.For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Robust Transform Engine \(RTE\)
 
 </td><td>
 
-Transforms staged source data into CMDB-compliant records using defined ETL logic. For more information, see Create a robust import set transformer.
+Transforms staged source data into CMDB-compliant records using defined ETL logic. For more information, see [Create a robust import set transformer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/create-robust-import-set-transformer.md).
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ Identification and Reconciliation Engine \(IRE\)
 
 </td><td>
 
-Ensures data consistency and prevents duplicates by identifying and reconciling CIs.For more information, see the CMDB Identification and Reconciliation \(IRE\).
+Ensures data consistency and prevents duplicates by identifying and reconciling CIs.For more information, see the [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md).
 
 </td></tr><tr><td>
 

@@ -76,7 +76,7 @@ The `Run clean upgrade for ITSM Mobile Agent` script action upgrade script then 
 **Note:**
 
 -   Custom button instance flows \(UI Params\) that are not available by default continues to function but may not support Next Experience theme and accessibility compliance. Customers must migrate them to input form screens for better experience.
--   For custom button instance flows \(UI Params\) that are available by default, customers must manually review the legacy default **sys\_sg\_button\_instance** records that are still active and move their customizations to the new **sys\_sg\_button\_instance** flow \(refer to the map sn\_itsm\_mobile\_agt.MobileInputFormScreenMigrationConstants\). For configuring Input form screens on mobile, see Input form screen.
+-   For custom button instance flows \(UI Params\) that are available by default, customers must manually review the legacy default **sys\_sg\_button\_instance** records that are still active and move their customizations to the new **sys\_sg\_button\_instance** flow \(refer to the map sn\_itsm\_mobile\_agt.MobileInputFormScreenMigrationConstants\). For configuring Input form screens on mobile, see [Input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-input-screen.md).
 -   If customized UI parameters are not migrated to the new input form screens, then users will have a mixed experience that may not be fully compatible with the new Next Experience theme and can lead to accessibility issues.
 
 ## Migration of item views to new mobile cards
@@ -96,6 +96,6 @@ The `Run clean upgrade for ITSM Mobile Agent` script action upgrade script then 
 **Note:**
 
 -   Custom item views that are not available by default will continue to function but may not support Next Experience theme and accessibility compliance. Customers must migrate them to input form screens for better experience.
--   For custom icon sections that are available by default, customers must manually review the old default flows which are still active and move their customizations to the new flow. For information about configuring cards on mobile, see Customize a screen using Mobile Card Builder.
+-   For custom icon sections that are available by default, customers must manually review the old default flows which are still active and move their customizations to the new flow. For information about configuring cards on mobile, see [Customize a screen using Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mcb-customize-item-view.md).
 -   If customized item views are not migrated to new mobile cards, then users will have a mixed experience that may not be fully compatible with the new Next Experience theme and can lead to accessibility issues.
 

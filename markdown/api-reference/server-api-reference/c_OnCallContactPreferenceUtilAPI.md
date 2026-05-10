@@ -15,7 +15,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The OnCallContactPreferenceUtil script include provides methods for handling contact preferences.
 
-For contact preference configuration, see Configure contact preferences.
+For contact preference configuration, see [Configure contact preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/config-my-contact-prefs-oncall.md).
 
 This script include supports the [OnCallRotation](../../OnCallRotation/concept/c_OnCallRotationAPI.md#) script include.
 

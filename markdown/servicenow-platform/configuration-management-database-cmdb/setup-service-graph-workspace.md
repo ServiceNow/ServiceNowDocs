@@ -63,7 +63,7 @@ To populate Service Graph Workspace dashboards with demo data:
     -   Required \(activated by default\): CMDB CSDM Support \(com.snc.cmdb.csdm\)
     -   Required \(activated by default\): CMDB Page Templates \(sn\_cmdb\_pg\_templts\)
     -   Required \(activated by default\): CMDB NLQ Search Connected \(sn-cmdb-nlq-search\)
-    For details about activating a plugin, see Activate a plugin.
+    For details about activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 -   Roles: To access the Service Graph Workspace, you must, at a minimum, have one of the following roles, which are essential for interacting with the Service Graph Workspace. Depending on which of these roles is assigned to you, you might only have access to some of the features available in the Service Graph Workspace:
 

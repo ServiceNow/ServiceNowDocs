@@ -32,7 +32,7 @@ Role required: now\_assist\_panel\_user, admin
 
 3.  Use the search icon ![Search icon](../../../common/image/List_SearchIcon.png) and select **Inquiry resolution provider**.
 
-    To modify this AI agent, refer to Modify an AI agent. Adjust the settings for your specific needs and activate the duplicated version of the agentic workflow after you duplicate it.![Invoice resolution provider](../image/apo-agent-ai.png)
+    To modify this AI agent, refer to [Modify an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-ai-agent.md). Adjust the settings for your specific needs and activate the duplicated version of the agentic workflow after you duplicate it.![Invoice resolution provider](../image/apo-agent-ai.png)
 
 4.  Review the information in the **Define the specialty** page, and then select **Continue**.
 

@@ -39,7 +39,7 @@ The following are examples on how you can use the Service Graph Connector for di
 
 Before you begin the upgrade process, complete the following tasks:
 
--   If there are any customizations, delete the records associated with the Service Graph Connector for AWS from the Customer Updates \[sys\_update\_xml\] table. See Customer Updates table.
+-   If there are any customizations, delete the records associated with the Service Graph Connector for AWS from the Customer Updates \[sys\_update\_xml\] table. See [Customer Updates table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_CustomerUpdatesTable.md).
 -   Upgrade any dependencies.
 
 After you've installed the latest version of the Service Graph Connector for AWS:

@@ -40,7 +40,7 @@ You can view a list of all actions taken when your device was offline and the ti
     -   Tap **Offline**.
 4.  To automatically download the scheduled cache in background, tap the **Enable** button.
 
-    For more information, see Scheduled offline caching.
+    For more information, see [Scheduled offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/scheduled-offline-caching.md).
 
     Scheduled offline caching automatically downloads your cache according to your work schedule. Scheduled caching works in the background, so you can continue to use the application while the download completes. You can also enable **Wi-Fi only** to download cache when you are connected to Wi-Fi. This provides seamless synchronization when the device turns online.
 
@@ -121,7 +121,7 @@ Do this
 **Related topics**  
 
 
-[bundle-mobile.offline-end-user]
+[Updating records without internet connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-end-user.md)
 
 ## Working with tasks when your mobile device is offline
 
@@ -195,5 +195,5 @@ Agents and dispatchers can close work-order SLAs when their mobile application i
 **Related topics**  
 
 
-[bundle-itsm.c_RepairSLAs]
+[Repair SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_RepairSLAs.md)
 

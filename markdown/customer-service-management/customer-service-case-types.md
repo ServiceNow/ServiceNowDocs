@@ -81,7 +81,7 @@ Case Playbook for Complaints\(sn\_csm\_complaint\)
 Provides a complaint case type to capture the details for a customer complaint and a playbook that provides step-by-step guidance through the lifecycle of the complaint.
 
 </td></tr></tbody>
-</table>For more information, see Install a ServiceNow Store application.
+</table>For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
 
 **Note:** These applications have dependencies on the following plugins:
 

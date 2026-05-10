@@ -15,7 +15,7 @@ breadcrumb: [Install and configure Security Incident Response, Security Incident
 
 Several types of components are installed when you download and activate the Security Incident Response application, including user roles, tables, properties, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 

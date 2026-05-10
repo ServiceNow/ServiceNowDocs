@@ -76,5 +76,5 @@ User who do not have the itil role can view an incident only if the user is the 
 ## Automatically generated incidents
 
 -   Incidents can be automatically generated using business rules. Business rules use JavaScript to generate an incident if pre-defined conditions are met.
--   Incidents can be generated from outside the platform with SOAP messaging. For more information, refer to SOAP messaging .
+-   Incidents can be generated from outside the platform with SOAP messaging. For more information, refer to [SOAP messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_DirectWebServices.md) .
 

@@ -54,7 +54,7 @@ Configure the form layout or personalize the list layout of your custom table to
 **Related topics**  
 
 
-[bundle-platux.t_PersonalizeAList]
+[Personalise a v2 list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_PersonalLists.md)
 
-[bundle-platadm.configure-form-layout]
+[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md)
 

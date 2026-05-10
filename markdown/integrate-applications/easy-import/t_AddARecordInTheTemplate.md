@@ -29,7 +29,7 @@ Role required: admin.
 
 1.  Add a row for each record you want to add to the table.
 
-    Each column corresponds to a field in the target table. Use the UI Field administration to learn about the purpose and content of the field.
+    Each column corresponds to a field in the target table. Use the UI [Field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_IntroductionToFields.md) to learn about the purpose and content of the field.
 
     The template validates values as you enter them and highlights cells containing invalid data. While you do not have a provide a value for every column, certain fields may fail validation if you do not provide a value.
 

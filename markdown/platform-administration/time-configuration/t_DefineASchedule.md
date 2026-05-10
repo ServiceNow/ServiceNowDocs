@@ -42,7 +42,7 @@ Alternately, you can also use the Business Calendar functions to create schedule
 
     **Note:**
 
-    -   In the Related link, select **Show Schedule** to view the schedule in the calendar using the Next Experience user interface. For more information on this framework, see Next Experience UI. To create schedule entries in the Next Experience UI, refer to [Create schedule entries in the Schedule calendar](create-events-next-experience-ui.md).
+    -   In the Related link, select **Show Schedule** to view the schedule in the calendar using the Next Experience user interface. For more information on this framework, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md). To create schedule entries in the [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md), refer to [Create schedule entries in the Schedule calendar](create-events-next-experience-ui.md).
 
         To use the [classic schedule calendar](../concept/schedule-calendar.md), you can add the **glide.schedule.enable\_classic\_calendar** property and set it to **true**. For information on how to add a system property, see [Add a system property](../../reference-pages/reference/r_AvailableSystemProperties.md#).
 

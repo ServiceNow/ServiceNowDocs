@@ -41,15 +41,15 @@ Service Mapping, if deployed, tracks and shows all changes to a CI including con
 
 3.  On the history timeline, set the time range of changes that you want to view.
 
-<table id="choicetable_dnx_mtk_51b"><thead><tr><th align="left" id="d489857e186">
+<table id="choicetable_dnx_mtk_51b"><thead><tr><th align="left" id="d489292e186">
 
 Option
 
-</th><th align="left" id="d489857e189">
+</th><th align="left" id="d489292e189">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d489857e195">
+</th></tr></thead><tbody><tr><td id="d489292e195">
 
 **To set the time range of the history timeline**
 
@@ -57,7 +57,7 @@ Action
 
 Click the hour, day, week, or month icons.![Click Hours, Days, Weeks, or Months to set the time range of the history scale.](../image/MapHistoryTimeRangeIcons.png)
 
-</td></tr><tr><td id="d489857e210">
+</td></tr><tr><td id="d489292e210">
 
 **To increase or decrease the time range**
 
@@ -65,7 +65,7 @@ Click the hour, day, week, or month icons.![Click Hours, Days, Weeks, or Months 
 
 Click the zoom in and zoom out icons.![Click Zoom in and Zoom out to change the time range.](../image/MapHistoryPlusMinusIcons.png)
 
-</td></tr><tr><td id="d489857e225">
+</td></tr><tr><td id="d489292e225">
 
 **To change the upper limit on your history range**
 

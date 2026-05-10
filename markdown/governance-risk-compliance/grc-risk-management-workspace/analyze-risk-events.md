@@ -466,7 +466,7 @@ Option to provide work notes for reference. Work notes are not visible to the ri
 
     The **Gross loss** field reflects the total loss incurred by the event.
 
-    The currency conversion rates impact the values displayed in the Summary related list. For example, if you enter a value of **300** Japanese Yen as the recovery amount, you see the amount in the concurrent USD value of **2756** in the Summary related list. This conversion occurs because the currency conversion rates are applied from the Exchange Rate table. For more information on how the values in the exchange rate table are calculated, see Use your own currency-conversion rates.
+    The currency conversion rates impact the values displayed in the Summary related list. For example, if you enter a value of **300** Japanese Yen as the recovery amount, you see the amount in the concurrent USD value of **2756** in the Summary related list. This conversion occurs because the currency conversion rates are applied from the Exchange Rate table. For more information on how the values in the exchange rate table are calculated, see [Use your own currency-conversion rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/t_UseYourOwnConversionTable.md).
 
 3.  To send the risk event for approval, click **Request Approval**.
 

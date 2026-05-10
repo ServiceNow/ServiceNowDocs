@@ -80,6 +80,8 @@ The discovery and mapping process consists of the following interactions:
 **Related topics**  
 
 
+[Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/application-services.md)
+
 [The ECC queue for Discovery](../../discovery/reference/r_DiscoveryStatusECCQueue.md)
 
 [Horizontal discovery process flow with probes and sensors](../../discovery/concept/c_DiscoProcessFlows.md)

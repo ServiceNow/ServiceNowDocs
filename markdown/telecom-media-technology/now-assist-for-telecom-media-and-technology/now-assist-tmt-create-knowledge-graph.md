@@ -62,7 +62,7 @@ Role required: sn\_sprb\_mgmt\_admin
     -   Node Description
     ![service summary graph.](../image/summary-graph-node-details.png)
 
-    To manage the nodes in the Knowledge Graph schema, see Manage nodes in a Knowledge Graph schema.
+    To manage the nodes in the Knowledge Graph schema, see [Manage nodes in a Knowledge Graph schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/add-or-delete-nodes-from-a-knowledge-graph-schema.md).
 
 8.  In the Columns that can be queried section, search for and select the desired columns and select **Save**.
 
@@ -70,7 +70,7 @@ Role required: sn\_sprb\_mgmt\_admin
 
     To edit the Knowledge Graph, you must copy the Knowledge Graph and adjust the settings according to your requirements.
 
-    To edit the Knowledge Graph schema, see Edit a Knowledge Graph schema.
+    To edit the Knowledge Graph schema, see [Edit a Knowledge Graph schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/editing-a-knowledge-graph-schema.md).
 
 
 **Parent Topic:**[Generate service summary for a product inventory using Now Assist for Telecommunications, Media and Technology \(TMT\)](now-assist-tmt-summarize-knowledge-graph.md)

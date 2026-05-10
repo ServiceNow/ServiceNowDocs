@@ -24,15 +24,15 @@ Role required: sn\_align\_core.apw\_user
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d307510e93">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d307514e93">
 
 Roadmap type
 
-</th><th align="left" id="d307510e96">
+</th><th align="left" id="d307514e96">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d307510e102">
+</th></tr></thead><tbody><tr><td id="d307514e102">
 
 **Portfolio plan roadmap**
 
@@ -42,7 +42,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d307510e123">
+</td></tr><tr><td id="d307514e123">
 
 **Free-form roadmap**
 

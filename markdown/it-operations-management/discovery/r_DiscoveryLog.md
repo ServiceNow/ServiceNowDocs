@@ -21,7 +21,7 @@ For horizontal discovery the system generates logs of the following types:
 
     The logs for probe-based horizontal discovery cover classification failures, CMDB updates, and authentication failures. A Discovery Log record is created for each action associated with a discovery status.
 
-    **Note:** The Discovery log also displays errors that occur during identification by taking log entries from the Identification Engine log. See Examine run logs for more information about the identification engine and possible errors.
+    **Note:** The Discovery log also displays errors that occur during identification by taking log entries from the Identification Engine log. See [Examine run logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/identification-simulation.md) for more information about the identification engine and possible errors.
 
 -   **Pattern-based**
 
@@ -80,7 +80,7 @@ Role required: discovery\_admin
 **Related topics**  
 
 
-[bundle-platcap.ire]
+[Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md)
 
 [KB0854603: Pattern Debugger Session Timed Out](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0854603)
 

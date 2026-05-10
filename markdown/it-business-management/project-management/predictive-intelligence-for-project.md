@@ -35,7 +35,7 @@ Activate the following plugins before using the Predictive Intelligence Workbenc
 
 ## Solution definitions for Predictive Intelligence for Project Management
 
-The solution definition for Predictive Intelligence for Project Management capability is available in the Predictive Intelligence for PPM plugin \(com.snc.ppm\_ml\). For more information about Predictive Intelligence, see Predictive Intelligence and Contextual search.
+The solution definition for Predictive Intelligence for Project Management capability is available in the Predictive Intelligence for PPM plugin \(com.snc.ppm\_ml\). For more information about Predictive Intelligence, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md) and [Contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/c_ContextualSearch.md).
 
 <table id="table_bdh_nzs_kbc"><thead><tr><th>
 
@@ -69,7 +69,7 @@ View similar projects based on the **Project Name** and **Description** fields. 
 </table>**Related topics**  
 
 
-[bundle-platai.predictive-intelligence]
+[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md)
 
 [Train the similarity solution for Project Management to find similar projects](../task/train-similarity-solution-pm.md)
 

@@ -50,5 +50,5 @@ The following ServiceNow products gain value from Enterprise Architecture:
 **Related topics**  
 
 
-[bundle-platcap.csdm-content-frame-exploring]
+[Exploring the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-exploring.md)
 

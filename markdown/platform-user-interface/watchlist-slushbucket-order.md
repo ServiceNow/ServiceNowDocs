@@ -45,5 +45,5 @@ By default, the order buttons on the right are not displayed. Follow the procedu
 **Related topics**  
 
 
-[bundle-platadm.c_DictionaryAttributes]
+[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)
 

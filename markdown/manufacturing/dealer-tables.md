@@ -122,7 +122,7 @@ Service Organization Member Responsibility\[sn\_csm\_svc\_org\_member\_responsib
 Configure the responsibilities of the staff working at service organizations or its extended entities.
 
 </td></tr></tbody>
-</table>To learn more about the Service Model Foundation, see Configuring Customer Service Management.
+</table>To learn more about the Service Model Foundation, see [Configuring Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-customer-service.md).
 
 **Parent Topic:**[Dealer data model](dealer-data-model-overview.md)
 

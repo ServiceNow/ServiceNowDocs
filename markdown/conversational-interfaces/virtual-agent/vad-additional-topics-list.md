@@ -15,7 +15,7 @@ breadcrumb: [Assistant Designer interface reference, Virtual Agent reference, Vi
 
 When you install pre-built conversations, such as ITSM Virtual Agent, some topics may not appear on the home page unless you install their dependent plugins. This page shows the additional topics that are available.
 
-For more information about ITSM pre-built topics, see ITSM Virtual Agent.
+For more information about ITSM pre-built topics, see [ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-virtual-agent.md).
 
 <table id="table_lrr_c4j_ywb"><thead><tr><th>
 

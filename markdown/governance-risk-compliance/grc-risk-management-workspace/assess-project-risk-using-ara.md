@@ -29,7 +29,7 @@ If the Project Risk integration Configuration form has **Stakeholders** selected
 
 2.  Select the project for risk assessment.
 
-    Ensure that risks for this project are present. See Add risks for a project.
+    Ensure that risks for this project are present. See [Add risks for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-risks-for-project.md).
 
 3.  Click the Risks related list.
 

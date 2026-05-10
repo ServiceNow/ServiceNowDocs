@@ -21,7 +21,7 @@ This API can also be used to enrich SIEM alerts with threat intelligence context
 
 This API requires the Threat Intelligence Security Center application, which is available on the ServiceNow Store.
 
-For additional information about TISC, see Threat Intelligence Security Center.
+For additional information about TISC, see [Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-landing-page.md).
 
 This API runs in the `sn_sec_tisc` namespace.
 
@@ -35,7 +35,7 @@ For information about API authentication, see the REST API security section in [
 
 Adds observable source records to the Threat Intelligence Security Center \(TISC\) application.
 
-The observable source records are created in the Observable Source \[sn\_sec\_tisc\_observable\_source\] table and are processed through de-duplication and aggregation in the TISC data flow.
+The [observable source records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-observables-source-records.md) are created in the Observable Source \[sn\_sec\_tisc\_observable\_source\] table and are processed through de-duplication and aggregation in the [TISC data flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-data-processing-functional-flow.md).
 
 **Note:** Observable source records can't be directly updated using this endpoint. Only new records can be created. Therefore, even if only a few fields require an update, all fields must still be included in the request.
 
@@ -1945,7 +1945,7 @@ Retrieves observables data, including relationships between observables and othe
 
 Observables returned in the response are sorted by **sys\_id** in ascending order.
 
-For more information about observables and STIX objects, see IoC Repository.
+For more information about observables and STIX objects, see [IoC Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ioc-repository.md).
 
 To access this endpoint, the caller must have the sn\_sec\_tisc.api\_obs\_read\_access role, which by default is included in the Threat Intelligence administrator role \(sn\_sec\_tisc.admin\).
 
@@ -2394,7 +2394,7 @@ observable\_filters.filters.operator
 
 </td><td>
 
-Operator to use for the filter.For more information about operators, see Operators available for filters and queries.
+Operator to use for the filter.For more information about operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
 The data type of the filter field determines the valid operators. The following operators are valid for each data type.
 

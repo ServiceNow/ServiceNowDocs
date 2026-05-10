@@ -17,7 +17,7 @@ Notifications in CBS provide multi-faceted and timely communication when a reque
 
 As an employee or a supplier when you raise a request on the CBS application, a portal notification is triggered acknowledge the submission. You receive a notification when your request is commented on, a task is assigned to you, or the request is closed.
 
-You can open the request on the portal and add your comments, add any supporting attachments, or respond to any query from the agent assigned to your support ticket. You can also view the details of your case as an employee or a supplier who has raised the request. For more information, see Notification configurations.
+You can open the request on the portal and add your comments, add any supporting attachments, or respond to any query from the agent assigned to your support ticket. You can also view the details of your case as an employee or a supplier who has raised the request. For more information, see [Notification configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/service-creator/c_ConfiguringNotifications.md).
 
 **Important:**
 
@@ -38,7 +38,7 @@ The requester and the agent both receive email notifications when a request is r
 
 You can view the request details along with a **View request** or **View case** button that opens either in the portal or the workspace depending on the persona.
 
-For more information on email notifications, see Email Notifications.
+For more information on email notifications, see [Email Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-email-notifications.md).
 
 **Parent Topic:**[Using Core Business Suite](cbs-using-parent.md)
 

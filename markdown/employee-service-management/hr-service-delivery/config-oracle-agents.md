@@ -29,7 +29,7 @@ Role required: flow\_designer, decision\_table\_admin, sn\_hr\_integr\_fw.admin,
 
 2.  Activate the \[Enterprise Service Management Integrations Framework\] application from the ServiceNow® Store.
 
-3.  Configure the Oracle HCM Cloud Spoke to pull data from Oracle system.
+3.  Configure the [Oracle HCM Cloud Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/oracle-hcm.md) to pull data from Oracle system.
 
 4.  Create subflows aligning with Template Integration Gateway.
 
@@ -43,7 +43,7 @@ Role required: flow\_designer, decision\_table\_admin, sn\_hr\_integr\_fw.admin,
 
 6.  Duplicate AI agents available for Oracle to run them autonomously.
 
-    For more information, see Duplicate an AI agent.
+    For more information, see [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md).
 
     **Note:** In the Toggle display section, ensure the toggle beside Virtual Agent is enabled.
 

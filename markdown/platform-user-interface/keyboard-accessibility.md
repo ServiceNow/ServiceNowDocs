@@ -4,7 +4,7 @@ description: Accessibility features include keyboard navigation, color and style
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 6
 breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -111,7 +111,7 @@ There are several ways to search for information in the user interface.
 -   List views include a **Go to** search field in the list title bar. Using the \* wildcard character in the search text allows you to perform a **contains** search rather than a **starts with** search. This type of query may take longer to run but can save keystrokes. You can also use several other wildcards with list searches.
 -   The navigation filter in the application navigator filters the applications and modules that appear in the navigator based on the entered text. Tab through or use skip links to navigate directly to the navigation filter. To open a module, click the module name, or press the Down Arrow to highlight the module name, and then press Enter.
 
-See Available search options for more information about these search methods.
+See [Available search options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_IntroductionToSearching.md) for more information about these search methods.
 
 ## View card details in a Visual Task Board
 

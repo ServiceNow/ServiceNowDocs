@@ -48,7 +48,7 @@ Role required: none
 
 ### About this task
 
-Administrators can enable the **Insert** function for task records. For more information, see Allow insert options on task records.
+Administrators can enable the **Insert** function for task records. For more information, see [Allow insert options on task records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/advanced-form-administration.md).
 
 ### Procedure
 

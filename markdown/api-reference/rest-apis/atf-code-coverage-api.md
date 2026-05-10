@@ -17,11 +17,11 @@ The ATF Code Coverage API provides endpoints to compute code coverage from Autom
 
 ATF code coverage is a tool that enables you to determine what percentage of code in a deployment request is covered by ATF test suites.
 
-By default, if ATF test suites cover less than 70% of the code in a deployment request, ReleaseOps transitions the deployment request to the Reconciling state and a test failure task is automatically created. You can adjust the ATF code coverage threshold in the deployment request assessment playbook. For more information, see Set Automated Test Framework \(ATF\) code coverage.
+By default, if ATF test suites cover less than 70% of the code in a deployment request, ReleaseOps transitions the deployment request to the Reconciling state and a test failure task is automatically created. You can adjust the ATF code coverage threshold in the deployment request assessment playbook. For more information, see [Set Automated Test Framework \(ATF\) code coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/set-atf-code-coverage-threshold.md).
 
-For information on ATF and Performance Analyzer, see Testing and debugging applications
+For information on ATF and Performance Analyzer, see [Testing and debugging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/testing-and-debugging-applications.md)
 
-Deployment analyzer in ReleaseOps
+[Deployment analyzer in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/deployment-analyzer.md)
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 

@@ -3013,7 +3013,7 @@ Types of information that a business application or any other entity handles.
 
  For example: 'Employee Salary Data', Employee Personal Data', and 'Sales Data'.
 
- For more information, see [CSDM implementation stage — Fly](../../csdm-implementation/concept/csdm-implement-fly-stage.md) and Enterprise Architecture and CSDM tables.
+ For more information, see [CSDM implementation stage — Fly](../../csdm-implementation/concept/csdm-implement-fly-stage.md) and [Enterprise Architecture and CSDM tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/apm-use-case.md).
 
 </td></tr><tr><td>
 
@@ -5657,7 +5657,7 @@ Service classification
 
 Designates the type of the service. -   Application Service \(For more information, see [Service instances \(Application services\)](../concept/application-services.md)\)
 -   Technical Service \(For more information, see [Service instances \(Application services\)](../concept/application-services.md) and [Use the Dynamic CI Group method to populate application services](../task/populate-app-service-dynamic-group.md)\)
--   Service Offering \(For more information, see Service Portfolio Management service offerings\)
+-   Service Offering \(For more information, see [Service Portfolio Management service offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-service-offerings.md)\)
 -   Shared Service \(For more information, see IT shared services\)
 -   Billable Service \(To represents a service that is billed, or that is cost managed\)
 

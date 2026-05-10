@@ -53,7 +53,7 @@ Use Virtual Agent Designer controls and reusable conversational elements to crea
 
     If you're using Natural Language Understanding \(NLU\), consider scenarios where a user might want to switch topics during a conversation session. For example, a user might want to change topics entirely. Or a user might get sidetracked and ask a question that seems out of context, maybe to engage in "small talk" with the virtual agent. Determine whether you want to let the user resume the original conversation after switching topics during the conversation.
 
-    Consider setting small talk filters to redirect user statements in LLM conversations, or creating small talk topics in both LLM and NLU/keyword conversations. For more information, see Configure small talk filters and [Create a small talk topic](../task/create-small-talk.md).
+    Consider setting small talk filters to redirect user statements in LLM conversations, or creating small talk topics in both LLM and NLU/keyword conversations. For more information, see [Configure small talk filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-small-talk-filters.md) and [Create a small talk topic](../task/create-small-talk.md).
 
     You can also review the pre-built setup topics, conversation topics, and topic blocks \(reusable subflows that perform certain design steps and logic\). Determine whether you can use these pre-built items and consider customizing them as needed.
 
@@ -91,7 +91,7 @@ With this goal in mind, the topic needs the following elements:
 -   A prompt for the user to enter a comment
 -   A utility control to add the user input as a comment in the incident
 
-There are extra considerations when creating topics for LLM conversations. For more information, see [LLM description and instruction guidelines for Virtual Agent topics](va-llm-instruction-guidelines.md) and General guidelines for writing instructions for generative AI large language models \(LLMs\).
+There are extra considerations when creating topics for LLM conversations. For more information, see [LLM description and instruction guidelines for Virtual Agent topics](va-llm-instruction-guidelines.md) and [General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/llm-instruction-guidelines.md).
 
 ## Build the conversation flow with Virtual Agent controls
 

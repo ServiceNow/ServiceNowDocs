@@ -25,7 +25,7 @@ Due to the migration with Performance Analytics, each indicator of the OT Progre
 
 **Note:** If you don't have the admin or pa\_admin role and the records exceed 1 million after running the \[PA OTPSC\] Monthly Data Collection job, an error message directs you to contact an administrator for help.
 
-If you have the admin or pa\_admin role, you can check the job logs related list from the link in the error message and filter out the information to see which indicator source has the error. After you find the indicator source with the error, you can change the indicator sources for a larger number of records and override the indicator source data. Then, an error message no longer appears for the other users and the data is shown for the indicator source. For more information about the indicator sources, see Indicator sources.
+If you have the admin or pa\_admin role, you can check the job logs related list from the link in the error message and filter out the information to see which indicator source has the error. After you find the indicator source with the error, you can change the indicator sources for a larger number of records and override the indicator source data. Then, an error message no longer appears for the other users and the data is shown for the indicator source. For more information about the indicator sources, see [Indicator sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_IndicatorSources.md).
 
 **Note:** If you need to create new indicators, you must use the site breakdown included in the Industrial Workspace Common. The site breakdown part of the Operational Technology Manager application is deprecated.
 

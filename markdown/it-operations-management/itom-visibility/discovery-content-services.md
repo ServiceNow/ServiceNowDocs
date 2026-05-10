@@ -38,7 +38,7 @@ ITAM Software Asset Management \(SAM\) users benefit from the integration with I
 -   ITOM Content Service compliments Software Asset Management in cases of services that don't require installation, for example, an Oracle database that runs as a service and isn’t installed. In cases like this, ITOM Content Service creates the installed software record based on combining the process fingerprint data with the data discovered by SAM. Without ITOM Content Service, you can’t gain this kind of visibility.
 -   Using file-based discovery capabilities, ITOM Content Service can discover a running system file that is identified with an app. For example, ITOM Content Service can match an installed software record to an Apache Kafka running an `exe` file. For more information, see [File-based Discovery](file-based-discovery.md).
 
-For more information on Software Asset Management, see Software Asset Management Content Service.
+For more information on Software Asset Management, see [Software Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMContentService.md).
 
 ## Benefits of using Service Mapping with ITOM Content Service
 

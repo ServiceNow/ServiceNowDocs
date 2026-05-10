@@ -282,7 +282,7 @@ Indicates whether automated backups are enabled and the retention period.
 
 [AWS discovery using patterns](data-discovered-aws-patterns.md)
 
-[bundle-platcap.cmdb-integration-aws-sg]
+[Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-aws-sg.md)
 
 [Agent Client Collector Discovery](../../agent-client-collector/concept/acc-discovery.md)
 

@@ -62,7 +62,7 @@ Learn how to create a page variant in UI Builder. A page variant is based on you
 
 9.  Declare conditions for when to display the page by either using the provided dropdown menus or writing an encoded query string.
 
-    To learn more about declaring conditions, see [Control the conditions for a page variant](control-conditions-for-your-variant.md). For more information on writing encoded queries, see Encoded query strings.
+    To learn more about declaring conditions, see [Control the conditions for a page variant](control-conditions-for-your-variant.md). For more information on writing encoded queries, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 10. If creating a page from scratch, select **Continue** and then select the **Build responsive** option \(default\).
 

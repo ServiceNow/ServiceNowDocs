@@ -53,7 +53,7 @@ The administrator can view questionnaire records from the Questionnaire list and
 
     The Survey Designer tool opens in a new window.
 
-6.  To create the questions or checklist items that appear on the questionnaire, use the Survey designer tool.
+6.  To create the questions or checklist items that appear on the questionnaire, use the [Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md) tool.
 
 7.  Select **Save** and close the Survey Designer window.
 

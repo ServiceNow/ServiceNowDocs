@@ -19,7 +19,7 @@ Set up a document template for PDF using a Common Access Card \(CAC\) or Persona
 
 Adobe Acrobat Reader must be installed on your desktop.
 
-The Document Templates application must be installed. For more information, see Configuring Document Templates.
+The Document Templates application must be installed. For more information, see [Configuring Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-doc-temp.md).
 
 Role required: sn\_doc.admin, sn\_doc.reader, or admin
 
@@ -27,15 +27,15 @@ Role required: sn\_doc.admin, sn\_doc.reader, or admin
 
 1.  Create a document template.
 
-    1.  Configure a PDF document template.
+    1.  [Configure a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-editable-pdf.md).
 
         **Note:** The **Signing type** field should be **Digital Signature Smart Cards**.
 
-    2.  Map fields for the PDF document template
+    2.  [Map fields for the PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/edit-pdf-mappings.md)
 
     3.  Select **Edit Document Preview** to define the label and placement of the button to submit the signature.
 
-    4.  Create participants for the PDF document template.
+    4.  [Create participants for the PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-participant.md).
 
     5.  To map templates to participants, go to the **Template Mapping** tab, select the field name, and add the participant name, and to map fields, select the field from the **Mapping field** drop-down menu.
 
@@ -45,7 +45,7 @@ Role required: sn\_doc.admin, sn\_doc.reader, or admin
 
     7.  Select **Publish**.
 
-2.  Set up Certificate-based authentication.
+2.  [Set up Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md).
 
 3.  Configure your browser settings to automatically open the downloaded PDF documents in Adobe Acrobat Reader.
 

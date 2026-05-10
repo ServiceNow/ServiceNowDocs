@@ -15,7 +15,7 @@ breadcrumb: [Example widgets, Widget library, Using portal widgets, Configuring 
 
 You can add, edit, or delete documents associated with records based on user permissions through the Documents widget. You can use this widget in your portal or clone and customize it.
 
-**Note:** The Documents widget is available with the Multi Provider Document Services Framework plugin \(com.snc.multiprovider\_documents\). For more information, see Multi Provider Document Services Framework.
+**Note:** The Documents widget is available with the Multi Provider Document Services Framework plugin \(com.snc.multiprovider\_documents\). For more information, see [Multi Provider Document Services Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/mp-document-services-framework-landing.md).
 
 Add, edit, and delete documents related to a record with the Documents widget. You can drag and drop multiple files at a time, including editing and adding new versions. The default version shown is the latest version.
 

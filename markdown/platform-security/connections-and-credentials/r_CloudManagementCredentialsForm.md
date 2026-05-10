@@ -17,7 +17,7 @@ Cloud credential types manage access to cloud-based applications, including Amaz
 
 ## AWS Identity and Access Management \(IAM\) roles
 
-If you have a MID Server installed on Amazon EC2 in an AWS cloud, and if that MID Server is configured to discover resources within the cloud, you can use security credentials provided by AWS Identity and Access Management \(IAM\) roles rather than credentials managed on your instance. These AWS credentials grant permissions in the cloud through an instance profile, based on roles. These credentials are temporary and rotate automatically on a configurable interval. When an IAM role is defined on the MID server. For details, see Configure the MID Server for AWS IAM roles.
+If you have a MID Server installed on Amazon EC2 in an AWS cloud, and if that MID Server is configured to discover resources within the cloud, you can use security credentials provided by AWS Identity and Access Management \(IAM\) roles rather than credentials managed on your instance. These AWS credentials grant permissions in the cloud through an instance profile, based on roles. These credentials are temporary and rotate automatically on a configurable interval. When an IAM role is defined on the MID server. For details, see [Configure the MID Server for AWS IAM roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/config-mid-iam-roles.md).
 
 Discovery ignores any credentials stored on the instance in favor of the credentials granted by the role in the instance profile. For more information on AWS instance profiles, see [IAM Roles for Amazon EC2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html).
 

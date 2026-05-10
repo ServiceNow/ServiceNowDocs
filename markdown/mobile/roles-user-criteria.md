@@ -19,7 +19,7 @@ User roles control access to features and components within mobile apps for defi
 
 After access has been granted to a role, all the groups or users assigned to the role are granted the access. Use role inheritance to group related permissions, making it easier to manage and assign roles. For example, if an employee has been promoted to a sales manager position, you can allocate additional roles to the employee to reflect their new position.
 
-User role records are stored in the Roles \[sys\_user\_role\] table. For more information, see Managing roles.
+User role records are stored in the Roles \[sys\_user\_role\] table. For more information, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md).
 
 For a list of all the components where you can define user roles and user criteria, see [Mobile components where user roles and user criteria permissions apply](../reference/components-roles-criteria.md). Some components apply to both user roles and user criteria, whereas others are mutually exclusive.
 

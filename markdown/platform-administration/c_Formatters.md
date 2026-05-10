@@ -69,7 +69,7 @@ CI relations formatter
 
 Displays on the CI form a toolbar for viewing the relationships between the current CI and related CIs.
 
- For an example of CI relations formatter icons, see CI relations formatter.
+ For an example of CI relations formatter icons, see [CI relations formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationsFormatterNG.md).
 
 </td></tr></tbody>
 </table>**Note:** Formatter elements cannot be exported to PDF. When exporting PDF data from a form, any formatter elements added to the form are not displayed in the PDF output.

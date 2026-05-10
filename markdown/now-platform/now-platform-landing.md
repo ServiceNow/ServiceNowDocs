@@ -16,35 +16,35 @@ Choose one of these tiles to get started.
 
 <table id="table_btj_11r_r5b" class="nav-card"><tbody><tr><td>
 
-Administer the ServiceNow AI Platform ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about the platform and how to configure core features, perform day to day administrator tasks, and upgrade your instance.
+[Administer the ServiceNow AI Platform ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about the platform and how to configure core features, perform day to day administrator tasks, and upgrade your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/intro-now-platform-landing.md)
 
 </td><td>
 
-Configure user experiences ![](../../../reuse/icons/brand-icons/bus-management-console.svg) Set up and customize user interfaces, like the Next Experience and Core UI, workspaces, the Service Catalog, conversational interfaces, and in-product assistance.
+[Configure user experiences ![](../../../reuse/icons/brand-icons/bus-management-console.svg) Set up and customize user interfaces, like the Next Experience and Core UI, workspaces, the Service Catalog, conversational interfaces, and in-product assistance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_NavigationAndTheUserInterface.md)
 
 </td><td>
 
-Analyze and optimize business processes ![](../../../reuse/icons/brand-icons/bus-improve-it-costs.svg) Measure and accelerate performance with purpose-built analytics solutions.
+[Analyze and optimize business processes ![](../../../reuse/icons/brand-icons/bus-improve-it-costs.svg) Measure and accelerate performance with purpose-built analytics solutions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_performanceAnalyticsAndReporting.md)
 
 </td></tr><tr><td>
 
-Secure your instance ![](../../../reuse/icons/brand-icons/bus-block.svg)Platform security provides capabilities to secure the instance.
+[Secure your instance ![](../../../reuse/icons/brand-icons/bus-block.svg)Platform security provides capabilities to secure the instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-landing.md)
 
 </td><td>
 
-Extend ServiceNow AI Platform capabilities ![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg) Utilize additional applications built into the ServiceNow AI Platform to manage people, work routing, services, and the Configuration Management Database \(CMDB\).
+[Extend ServiceNow AI Platform capabilities ![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg) Utilize additional applications built into the ServiceNow AI Platform to manage people, work routing, services, and the Configuration Management Database \(CMDB\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/capabilities-bundle-landingpage.md)
 
 </td><td>
 
-Enable AI experiences ![](../../../reuse/icons/brand-icons/bus-artificial-intelligence.svg) Increase productivity with AI-based applications. Use Natural Language Understanding \(NLU\) to enable the ServiceNow AI Platform to learn and respond to human-expressed intent.
+[Enable AI experiences ![](../../../reuse/icons/brand-icons/bus-artificial-intelligence.svg) Increase productivity with AI-based applications. Use Natural Language Understanding \(NLU\) to enable the ServiceNow AI Platform to learn and respond to human-expressed intent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md)
 
 </td></tr><tr><td>
 
-Conversational Interfaces![](../../../reuse/icons/brand-icons/bus-community.svg)Learn how users can engage with live agents and virtual agents and how generative AI can enhance these interactions.
+[Conversational Interfaces![](../../../reuse/icons/brand-icons/bus-community.svg)Learn how users can engage with live agents and virtual agents and how generative AI can enhance these interactions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/convint-landing-page.md)
 
 </td><td>
 
-Configure mobile experiences ![](../../../reuse/icons/brand-icons/bus-mobile-native.svg) Access your instance on-demand anywhere in the world with multiple ServiceNow mobile apps.
+[Configure mobile experiences ![](../../../reuse/icons/brand-icons/bus-mobile-native.svg) Access your instance on-demand anywhere in the world with multiple ServiceNow mobile apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-config-navigation.md)
 
 </td><td>
 

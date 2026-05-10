@@ -39,7 +39,7 @@ Role required: admin.
 
 6.  Transfer the update set to the target instance using standard update set functionality.
 
-    For more information, see Retrieve an update set.
+    For more information, see [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_RetrieveAnUpdateSet.md).
 
 7.  Repeat this task for all update set preview problems that have this error.
 

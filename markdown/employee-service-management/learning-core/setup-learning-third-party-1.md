@@ -43,7 +43,7 @@ Do this
 
 </td><td>
 
-Use an API key to authenticate the ServiceNow requests. Follow the steps in Set up the Pluralsight spoke to perform the integration.
+Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set up the Pluralsight spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-pluralsight-spk.md) to perform the integration.
 
 </td></tr><tr><td id="d81040e116">
 
@@ -51,7 +51,7 @@ Use an API key to authenticate the ServiceNow requests. Follow the steps in Set 
 
 </td><td>
 
-Register an OAuth application in Cornerstone OnDemand application and authenticate requests from ServiceNow instance. Follow the steps in Set up the Cornerstone spoke to perform the integration.
+Register an OAuth application in Cornerstone OnDemand application and authenticate requests from ServiceNow instance. Follow the steps in [Set up the Cornerstone spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-cornerstone.md) to perform the integration.
 
 </td></tr><tr><td id="d81040e134">
 
@@ -59,7 +59,7 @@ Register an OAuth application in Cornerstone OnDemand application and authentica
 
 </td><td>
 
-Integrate your Udemy application with your ServiceNow instance. For more information, see Set up the Udemy spoke
+Integrate your Udemy application with your ServiceNow instance. For more information, see [Set up the Udemy spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-udemy-spk.md)
 
  **Note:** You must manually configure fields such as logos and course reassignments in the learning system configuration table.
 
@@ -69,7 +69,7 @@ Integrate your Udemy application with your ServiceNow instance. For more informa
 
 </td><td>
 
-Integrate your Sumtotal application with your ServiceNow instance. For more information, see Set up the Sumtotal spoke.
+Integrate your Sumtotal application with your ServiceNow instance. For more information, see [Set up the Sumtotal spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-sumtotal.md).
 
 </td></tr><tr><td id="d81040e177">
 
@@ -77,7 +77,7 @@ Integrate your Sumtotal application with your ServiceNow instance. For more info
 
 </td><td>
 
-Integrate your Saba application with your ServiceNow instance. For more information, see Set up Saba spoke .
+Integrate your Saba application with your ServiceNow instance. For more information, see [Set up Saba spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/saba-spoke.md) .
 
 </td></tr><tr><td id="d81040e197">
 
@@ -85,7 +85,7 @@ Integrate your Saba application with your ServiceNow instance. For more informat
 
 </td><td>
 
-Integrate your Workday Learning application with your ServiceNow instance. For more information, see Set up Workday spoke .
+Integrate your Workday Learning application with your ServiceNow instance. For more information, see [Set up Workday spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/saba-spoke.md) .
 
 </td></tr><tr><td id="d81040e217">
 
@@ -93,7 +93,7 @@ Integrate your Workday Learning application with your ServiceNow instance. For m
 
 </td><td>
 
-Integrate your SuccessFactors Learning application with your ServiceNow instance. For more information, see Set up SuccessFactors Learning spoke .
+Integrate your SuccessFactors Learning application with your ServiceNow instance. For more information, see [Set up SuccessFactors Learning spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/successfactors-learning-setup.md) .
 
 </td></tr></tbody>
 </table>    The records from the third-party content are pulled into your ServiceNow instance using an API call. To successfully run this API call, you must configure the **com.glide.transform.json.max-partial-length** and **com.snc.process\_flow.reporting.serialized.val\_size\_limit** properties. For more information on these system properties, see [Configure properties for Learning Core](config-ln-prop.md) .

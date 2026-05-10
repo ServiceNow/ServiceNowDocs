@@ -15,9 +15,9 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Push Metrics API provides endpoints that enable you to push raw Metric Intelligence data from an external source to the MID Server.
 
-This API is based on client-side tools that push the raw data from the external source to the MID Server. The Metric Intelligence extension is required to be configured with the **Enable REST Listener** option enabled. For more information on setting up the MID Server, see Get started with Metric Intelligence.
+This API is based on client-side tools that push the raw data from the external source to the MID Server. The Metric Intelligence extension is required to be configured with the **Enable REST Listener** option enabled. For more information on setting up the MID Server, see [Get started with Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/get-started-metrics.md).
 
-For information on authentication requirements, see Configure the MID Web Server extension.
+For information on authentication requirements, see [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md).
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 

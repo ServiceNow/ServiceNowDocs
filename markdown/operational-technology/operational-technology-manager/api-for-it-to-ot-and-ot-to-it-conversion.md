@@ -32,9 +32,9 @@ The Convert IT to OT Asset API is used in refresh workflows where an OT configur
 
 The Convert OT to IT Asset API is used if an asset needs to be replaced. The API deletes the OT entity record of the passed CI.
 
-For more information about Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets, see Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets.
+For more information about Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets, see [Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asset-ci-sync-ot-assets.md).
 
-For more information about OT Asset Management, see OT Asset Management.
+For more information about OT Asset Management, see [OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/ot-asset-management.md).
 
 **Parent Topic:**[Operational Technology Manager reference](operational-technology-manager-reference.md)
 

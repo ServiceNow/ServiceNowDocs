@@ -15,11 +15,11 @@ If you've installed Service Portal, you can use the My Assessments and Surveys w
 
 ## Surveys in Service Portal
 
-To create an intuitive interface for your users, you can set up surveys in Service Portal . Activate Service Portal to view the My Assessments and Surveys widget, which appears on the Service Portal home page.
+To create an intuitive interface for your users, you can set up surveys in [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md) . Activate Service Portal to view the My Assessments and Surveys widget, which appears on the Service Portal home page.
 
-To learn more about activating Service Portal, see Activate Service Portal.
+To learn more about activating Service Portal, see [Activate Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/activate-service-portal.md).
 
-To learn more about configuring a widget, see configure widget instances .
+To learn more about configuring a widget, see [configure widget instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ConfigureWidgetInstances.md) .
 
 To configure a survey widget on a Service Portal page, press the CTRL key, right-click the widget heading, and select **Instance Options**.
 
@@ -150,9 +150,9 @@ Pass these URI parameters through the createAssessment\(\) API to store their va
 
 [Legacy survey migration](c_MigrateSurveys.md)
 
-[bundle-platux.c_ServicePortal]
+[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md)
 
-[bundle-platux.t_ConfigureAPage]
+[Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md)
 
 [Survey designer](c_SurveyDesigner.md)
 

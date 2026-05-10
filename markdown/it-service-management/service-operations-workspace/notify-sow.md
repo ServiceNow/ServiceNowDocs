@@ -15,7 +15,7 @@ breadcrumb: [Collaboration in Service Operations Workspace, Managing IT services
 
 Notify in Service Operations Workspace provides support for SMS, telephone, and the service providers on the ServiceNow AI Platform for communicating internally with team members and externally with customers and contractors.
 
-For more information about configuring Notify, see Notify.
+For more information about configuring Notify, see [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-landing-page.md).
 
 -   **[Use Twilio to make conference calls in Service Operations Workspace](telephony-sow.md)**  
 Use Twilio to schedule conference calls with stakeholders to resolve incidents in Service Operations Workspace.

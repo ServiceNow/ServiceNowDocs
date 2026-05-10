@@ -27,7 +27,7 @@ Role required: none
 
 4.  Fill in the fields on the form, as appropriate.
 
-    **Note:** Some request forms do not contain every field described here. For more information, see Forms.
+    **Note:** Some request forms do not contain every field described here. For more information, see [Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingForms.md).
 
 <table id="table_gj5_llf_xq"><thead><tr><th>
 

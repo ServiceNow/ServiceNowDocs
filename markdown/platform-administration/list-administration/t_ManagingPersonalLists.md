@@ -29,5 +29,5 @@ Role required: admin
 **Related topics**  
 
 
-[bundle-platux.c_PersonalLists]
+[Personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_PersonalLists.md)
 

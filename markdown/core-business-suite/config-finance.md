@@ -48,7 +48,7 @@ Role required: admin, sn\_cbs.admin
     |General finance request|Submit general finance questions or request finance services.|
 
     -   To customize an existing intake forms, select the **Edit** icon.
-    -   To create an intake form, select **Create new**. For more information, see Catalog Builder.
+    -   To create an intake form, select **Create new**. For more information, see [Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-builder.md).
 
         **Note:** Create intake forms directly in the new instance. Moving intake forms configurations to a new instance using an update set isn’t supported.
 
@@ -94,8 +94,8 @@ Role required: admin, sn\_cbs.admin
     5.  On the role assignment page, select **Mark as configured**.
 8.  Configure notifications sent through Email, Portal, and Workspace to users about submitted or assigned finance requests.
 
-    -   To create an email notification, see Create an email notification.
-    -   To create Portal or Workspace notification, see Trigger conditions form.
+    -   To create an email notification, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
+    -   To create Portal or Workspace notification, see [Trigger conditions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/notif-trigger-form.md).
     -   After configuring notifications, select **Mark as configured**.
 
 **Parent Topic:**[Configure Core Business Suite using guided setup](../concept/config-cbs-using-guided-setup.md)

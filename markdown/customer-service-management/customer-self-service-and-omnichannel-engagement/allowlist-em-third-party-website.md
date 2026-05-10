@@ -17,7 +17,7 @@ Configure a custom URL for the ServiceNow instance that helps prevent web browse
 
 ## Before you begin
 
-You must activate the Custom URL \(com.snc.customurl\) plugin. For more information, see Activate custom URLs.
+You must activate the Custom URL \(com.snc.customurl\) plugin. For more information, see [Activate custom URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/activate-custom-url-plugin.md).
 
 Role required: admin
 
@@ -78,9 +78,9 @@ The following code includes a sample URL that contains `support.acme.com` as a c
 **Related topics**  
 
 
-[bundle-psec.configure-custom-url]
+[Set a custom URL as the instance URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-custom-url.md)
 
-[bundle-psec.custom-url]
+[Custom URLs association to your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/custom-url.md)
 
-[bundle-psec.custom-url-error-fix]
+[Custom URL errors and fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/custom-url-error-fix.md)
 

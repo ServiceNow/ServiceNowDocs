@@ -41,5 +41,5 @@ Role required: admin
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

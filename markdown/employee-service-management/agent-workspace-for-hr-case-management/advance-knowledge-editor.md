@@ -19,7 +19,7 @@ The Knowledge Center article editor has editing tools that help in formatting kn
 
 The toolbar within the article editor contains an array of icons that enable you to edit and format the text content of your knowledge article. You can use the editor to also add images, links, audio, and video to the knowledge article. You can also use Now Assist to create or enhance knowledge article content from within the Knowledge Center article editor.
 
-For more information on the Knowledge Center article editor, see Knowledge Center article editor.
+For more information on the Knowledge Center article editor, see [Knowledge Center article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-article-editor.md).
 
-You can use the Article Optimization tool to scan your knowledge articles and get instant, actionable feedback. For more information, see Knowledge Center Article Optimization.
+You can use the Article Optimization tool to scan your knowledge articles and get instant, actionable feedback. For more information, see [Knowledge Center Article Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-center-article-optimization.md).
 

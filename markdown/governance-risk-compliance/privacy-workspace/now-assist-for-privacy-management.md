@@ -16,7 +16,7 @@ breadcrumb: [Privacy Management, Governance, Risk, and Compliance]
 
 Now Assist for Privacy Management is a GenAI‑powered capability that streamlines privacy workflows by summarizing risk assessments, condensing issue details, and identifying redundant control objectives for rationalization into a common control objective.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 Privacy teams and approvers often wade through lengthy assessments, complex issue histories, and overlapping control objectives. Now Assist reduces this overhead by producing concise, actionable summaries and recommendations.
 

@@ -74,7 +74,7 @@ Utilize record producers to create a custom set of questions to ask Shoppers dur
 
 [Configure sourcing checkout](configure-sourcing-checkout.md)
 
-[bundle-platcap.c_RecordProducer]
+[Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md)
 
-[bundle-platcap.t_DefRecProdInSCat]
+[Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefRecProdInSCat.md)
 

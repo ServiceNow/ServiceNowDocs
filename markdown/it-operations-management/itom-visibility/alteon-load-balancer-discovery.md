@@ -19,7 +19,7 @@ Discovery identifies and classifies information about Alteon load balancers.
 
 ## Credentials
 
-Configure SNMP credentials.
+Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md).
 
 ## Classifier, pattern, and probe
 

@@ -17,7 +17,7 @@ Translate the messages used by client scripts.
 
 ## Before you begin
 
-Create a client script that contains messages. For information about creating client scripts, see Client scripts.
+Create a client script that contains messages. For information about creating client scripts, see [Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/client-scripts.md).
 
 Role required: admin
 

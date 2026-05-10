@@ -28,38 +28,38 @@ To maximize its impact, Now Assist in AI Search should be activated before Now A
 
     See:
 
-    -   Configuring AI Search
-    -   Enable AI Search in supported ServiceNow AI Platform® applications
+    -   [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ais.md)
+    -   [Enable AI Search in supported ServiceNow AI Platform® applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/explore-now-platform-apps-ais.md)
 -   **2. Review search sources**
 
     Configure search sources to determine what data will be searched by user queries.
 
     See:
 
-    -   Control access to searchable content using search sources
-    -   Create a search source for AI Search
+    -   [Control access to searchable content using search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/explore-search-sources-ais.md)
+    -   [Create a search source for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-search-source-ais.md)
 -   **3. Configure search sources for external content**
 
     Allows Now Assist Q&amp;A search to include external content.
 
     See:
 
-    -   Indexing and searching external content in AI Search
-    -   Create an indexed source
-    -   Configuring External Content Connectors
+    -   [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/external-content-ais.md)
+    -   [Create an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-indexed-source-ais.md)
+    -   [Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ext-cont-connectors.md)
 -   **4. Enable AI Search on one or more portals**
 
     Display AI Search results in the portals on your instance.
 
     See:
 
-    -   Search application configurations
-    -   Enabling and configuring AI Search in ServiceNow AI Platform® applications
+    -   [Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-app-cfgs-ais.md)
+    -   [Enabling and configuring AI Search in ServiceNow AI Platform® applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enable-configure-apps-ais.md)
 -   **5. Install Now Assist in AI Search**
 
     Install a Now Assist product in the Now Assist Admin console.
 
-    See: Install Now Assist in AI Search
+    See: [Install Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/install-now-assist-ais.md)
 
 -   **6. Enable Now Assist Q&amp;A Genius Results in AI Search portals**
 
@@ -67,16 +67,16 @@ To maximize its impact, Now Assist in AI Search should be activated before Now A
 
     See:
 
-    -   Enable Now Assist Genius Results in AI Search portals and mobile applications
-    -   Now Assist Q&amp;A Genius Results
+    -   [Enable Now Assist Genius Results in AI Search portals and mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enable-now-assist-gr-ais-apps.md)
+    -   [Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-qna-genius-results.md)
 -   **7. Verify AI Search widget customizations**
 
     Customized AI Search widgets may not correctly show Q&amp;A search results even when configured for Now Assist, since customizations get skipped during upgrades.
 
-    See: AI Search Genius Results widget options
+    See: [AI Search Genius Results widget options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ais-genius-results-widget-options.md)
 
 
-The ServiceNow AI Platform® offers a variety of search tools, which may return different answers for the same or similar searches. This disparity in results is expected. For more information, see Search result disparities between AI Search and Now Assist search features.
+The ServiceNow AI Platform® offers a variety of search tools, which may return different answers for the same or similar searches. This disparity in results is expected. For more information, see [Search result disparities between AI Search and Now Assist search features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-disparities-ai-search-now-assist.md).
 
 **Tip:** For more information, see [Now Assist in AI Search FAQ](https://www.servicenow.com/community/now-assist-articles/now-assist-in-ai-search-faq/ta-p/2686538) in ServiceNow Community.
 

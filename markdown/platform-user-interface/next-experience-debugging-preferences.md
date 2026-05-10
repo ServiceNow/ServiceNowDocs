@@ -37,7 +37,7 @@ Script Debugger
 
 </td><td>
 
-Opens a JavaScript debugger with a script tracer and a session log. For more information, see Debugging scripts.
+Opens a JavaScript debugger with a script tracer and a session log. For more information, see [Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debug-overview.md).
 
 </td></tr><tr><td>
 
@@ -53,7 +53,7 @@ Automated Test Framework Page Inspector
 
 </td><td>
 
-Enables you to identify and inspect pages created in classic custom UI pages using the page inspector. For more information, see Page Inspector.
+Enables you to identify and inspect pages created in classic custom UI pages using the page inspector. For more information, see [Page Inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-page-inspector.md).
 
 </td></tr><tr><td>
 

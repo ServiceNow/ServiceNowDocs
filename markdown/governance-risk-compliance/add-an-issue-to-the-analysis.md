@@ -27,15 +27,15 @@ Role required: sn\_oper\_res.manager
 
     **Note:** If you’ve associated an open issue with your scenario analysis, you can still request an approval for the scenario analysis. It isn’t required to close the open issues for requesting an approval for the scenario analysis.
 
-<table id="choicetable_am1_gr2_bwb"><thead><tr><th align="left" id="d372952e89">
+<table id="choicetable_am1_gr2_bwb"><thead><tr><th align="left" id="d372959e89">
 
 Step
 
-</th><th align="left" id="d372952e92">
+</th><th align="left" id="d372959e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d372952e98">
+</th></tr></thead><tbody><tr><td id="d372959e98">
 
 **Select __Add__.**
 
@@ -43,7 +43,7 @@ Description
 
 Add an existing issue to the analysis. The following example shows how to add an existing issue to the analysis.![Add an existing issue to the analysis.](../image/add-issue.png "Add an existing issue to the analysis")
 
-</td></tr><tr><td id="d372952e122">
+</td></tr><tr><td id="d372959e122">
 
 **Select __New__.**
 

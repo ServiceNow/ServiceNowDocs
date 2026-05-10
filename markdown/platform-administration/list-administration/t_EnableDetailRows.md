@@ -68,7 +68,7 @@ true
 **Related topics**  
 
 
-[bundle-platux.c_UseLists]
+[Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UseLists.md)
 
 [Altering tables and fields using dictionary attributes](../../reference-pages/concept/c_DictionaryAttributes.md)
 

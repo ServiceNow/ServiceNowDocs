@@ -1128,7 +1128,7 @@ Data type: Array of Objects
 ]
 ```
 
- For more information on Install Base Items Configure install base.
+ For more information on Install Base Items [Configure install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-install-base.md).
 
 </td></tr><tr><td>
 

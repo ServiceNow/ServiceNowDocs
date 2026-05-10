@@ -19,8 +19,8 @@ Submit a request to the GraphQL REST API endpoint to retrieve search suggestions
 
 Ensure that the following conditions are met in your instance:
 
--   The Domain Separation plugin isn't activated. For details on this plugin, see Domain separation plugin.
--   The Explicit Roles plugin \(com.glide.explicit\_roles\) is activated. To learn more about this plugin, see Explicit Roles.
+-   The Domain Separation plugin isn't activated. For details on this plugin, see [Domain separation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-plugin.md).
+-   The Explicit Roles plugin \(com.glide.explicit\_roles\) is activated. To learn more about this plugin, see [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explicit-roles.md).
 -   External users with the snc\_external role have submitted searches in search applications that generate search suggestions, such as ServiceNow® Service Portal, Now Mobile, or ServiceNow® Virtual Agent.
 -   The **glide.search.suggestions.allow\_guest\_user** system property is set to **true**. For details on setting a system property value, see [Add a system property](../../reference-pages/reference/r_AvailableSystemProperties.md#).
 

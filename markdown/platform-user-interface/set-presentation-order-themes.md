@@ -20,7 +20,7 @@ Set the order of your Theme Builder themes to configure how they’re displayed 
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see Granular admin roles.
+For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
 
 ## About this task
 

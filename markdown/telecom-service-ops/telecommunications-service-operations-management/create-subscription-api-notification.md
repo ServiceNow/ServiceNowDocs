@@ -26,7 +26,7 @@ Role required: admin, sn\_api\_notif\_mgmt.subscription\_creator
 
 You subscribe to the available topics for the incoming notifications from the external system, based on the customer preference. You generate the callback URL to share with the customers. When a request from an external system hits the callback URL, it initiates the creation of an event in the Event Management application.
 
-Additionally, you register the topic subscription to start receiving the incoming notifications. When you create a topic subscription, it creates a record in the Topic Subscription \[sn\_api\_notif\_mgmt\_subscription\] table. To learn more about the methods to query and manipulate records in the Topic Subscription, see TopicSubscriptionUtilOOB - Scoped.
+Additionally, you register the topic subscription to start receiving the incoming notifications. When you create a topic subscription, it creates a record in the Topic Subscription \[sn\_api\_notif\_mgmt\_subscription\] table. To learn more about the methods to query and manipulate records in the Topic Subscription, see [TopicSubscriptionUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TopicSubscriptionUtilAPIScoped.md).
 
 ## Procedure
 

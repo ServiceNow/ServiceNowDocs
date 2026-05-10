@@ -15,7 +15,7 @@ breadcrumb: [Service Operations Workspace for ITSM, IT Service Management]
 
 Reference topics provide additional information about ServiceNow Service Operations Workspace.
 
-For information about components installed with Service Operations Workspace for ITOM, see Service Operations Workspace for ITOM reference.
+For information about components installed with Service Operations Workspace for ITOM, see [Service Operations Workspace for ITOM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/sow-reference-itom.md).
 
 -   **[Terminology in Service Operations Workspace for ITSM](terminology-used-in-sow-for-itsm.md)**  
 

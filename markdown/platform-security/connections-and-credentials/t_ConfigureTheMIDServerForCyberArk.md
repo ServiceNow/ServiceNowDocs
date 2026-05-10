@@ -23,7 +23,7 @@ Before starting this procedure, import the `JavaPasswordSDK.jar` file into the i
 
 ## Procedure
 
-1.  Manually configure the MID Server Add a MID Server parameter file with these parameters.
+1.  Manually configure the MID Server [Add a MID Server parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md) file with these parameters.
 
     This configuration cannot be done from the instance.
 

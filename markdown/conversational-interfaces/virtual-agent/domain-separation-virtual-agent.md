@@ -25,7 +25,7 @@ Domain separation is supported in the Virtual Agent application. Domain separati
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 Domain separation allows you to partition your organization's data and administrative control into separate domains. This lets you isolate the data and control access to it, which is particularly important in environments where multiple tenants share a common platform.
 
@@ -47,11 +47,11 @@ Domain separation is best for customers with any of the following requirements:
 
 When domain separation is used, guest users are restricted to the domain used in the session. For custom chat channels, the domain of the [provider application](../task/create-channel-id-va-cccif.md) is used. For the chat widget, you can associate a domain ID with the chat portal. For details, see [Associate a domain ID with a chat portal](../task/associate-domain-id-chat-portal.md).
 
-For more information, see Domain scope.
+For more information, see [Domain scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainScope.md).
 
 ## Requirements
 
-All domain support features require the Domain Support - Domain Extensions Installer \[com.glide.domain.msp\_extensions.installer\] plugin. For details, see Request domain separation.
+All domain support features require the Domain Support - Domain Extensions Installer \[com.glide.domain.msp\_extensions.installer\] plugin. For details, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md).
 
 ## Configuring Virtual Agent with domain separation
 
@@ -127,5 +127,5 @@ The Service Portal platform is not domain-separated, but you can create differen
 
 [Latency feedback in Virtual Agent](../reference/latency-feedback.md)
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

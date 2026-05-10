@@ -48,7 +48,7 @@ By default, Now Assist Q&amp;A Genius Results only support English-language sear
 
 Knowledge articles that are boosted or promoted by result improvement rules are more likely to appear as Now Assist Q&amp;A Genius Results, but aren't guaranteed to appear.
 
-**Note:** The Knowledge search property settings don't affect Now Assist Q&amp;A Genius Results. For more information on these settings, see Knowledge search properties.
+**Note:** The Knowledge search property settings don't affect Now Assist Q&amp;A Genius Results. For more information on these settings, see [Knowledge search properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
 
 If you have the External Content Connectors ServiceNow® Store application installed, Now Assist Q&amp;A Genius Results exclude search results retrieved from external content source systems when generating answers.
 

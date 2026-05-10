@@ -21,7 +21,7 @@ For searchable field values indexed through multiple dot-walk reference levels, 
 
 To bypass all ACLs and allow users to search for all searchable referenced table field values, you can set the **glide.ais.query.allow\_indexlookup\_for\_dotwalk** system property to true. This bypasses ACL evaluation for field values indexed via the **dot\_walk\_fields** and **searchable\_dot\_walk\_fields** field settings.
 
-For more details on ACL types and configuration, see Access control list rules.
+For more details on ACL types and configuration, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).
 
 **Parent Topic:**[Field settings for AI Search](field-settings-ais.md)
 

@@ -27,15 +27,15 @@ Set up the following monitoring capabilities on the day of go-live:
 
 -   **Now Assist Analytics**
 
-    Monitor overall usage, performance, and adoption of your Now Assist skills and AI agents. See Analyzing Now Assist performance.
+    Monitor overall usage, performance, and adoption of your Now Assist skills and AI agents. See [Analyzing Now Assist performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics.md).
 
 -   **AI Agent Analytics dashboard**
 
-    Track AI agent use, efficiency gain, time to resolution, and task closure trends specific to your deployed agents. See AI Agent Analytics dashboard.
+    Track AI agent use, efficiency gain, time to resolution, and task closure trends specific to your deployed agents. See [AI Agent Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-dashboard.md).
 
 -   **Now Assist Guardian analytics**
 
-    Monitor guardrail performance to track how often offensive content, prompt injection attempts, and sensitive subject detections occur in production. See Now Assist Guardian analytics.
+    Monitor guardrail performance to track how often offensive content, prompt injection attempts, and sensitive subject detections occur in production. See [Now Assist Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-guardian-analytics.md).
 
 
 ## Establish your baseline

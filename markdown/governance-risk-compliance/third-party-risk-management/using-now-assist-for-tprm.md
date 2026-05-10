@@ -18,7 +18,7 @@ If you have the TPR assessor \[sn\_vdr\_risk\_asmt.vendor\_assessor\] role, you 
 
 **Important:** After installing Now Assist for TPRM, all Now Assist for TPRM skills are activated by default.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 -   **[Generate a summary of a TPRM issue](../task/create-a-summary-of-issue.md)**  
 Generate a summary of a TPRM issue to support efficient triaging, remediation, and reporting using the TPRM issue summarization skill. Summarized issues help risk assessors and analysts quickly review issue content and take informed action.

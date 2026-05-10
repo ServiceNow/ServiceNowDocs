@@ -42,7 +42,7 @@ Unified map is a visualization tool that is used to understand the enterprise ar
 
 ## Result
 
-In the EA Workspace version 2.1.1, the unified map for the selected business application is opened in the CMDB Workspace. For more details on the unified map, see Unified Map.
+In the EA Workspace version 2.1.1, the unified map for the selected business application is opened in the CMDB Workspace. For more details on the unified map, see [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/cmdb-workspace-unified-map.md).
 
 ![Business Application Dependency View](../../image/eaw-image/open-map.png "Business Application Dependency View")
 

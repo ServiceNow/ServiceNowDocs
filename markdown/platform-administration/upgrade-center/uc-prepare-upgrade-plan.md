@@ -39,7 +39,7 @@ Role required: admin
 
 4.  Apply an existing upgrade plan to an instance anytime, without being limited to during upgrades only.
 
-    You can now also export the upgrade plan in a batch install format by using the **Export** button. See CI/CD - POST /sn\_cicd/app/batch/install for more information.
+    You can now also export the upgrade plan in a batch install format by using the **Export** button. See [CI/CD - POST /sn\_cicd/app/batch/install](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/cicd-api.md) for more information.
 
 5.  Select **Reinstall** to reinstall the failed items in an upgrade plan, after the upgrade completes.
 

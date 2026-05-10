@@ -55,7 +55,7 @@ Descriptions of the tables provided by the File-based Discovery \[com.snc.discov
     -   Platform
     -   Language
 
-**Note:** A feature in Software Asset Management Professional \(SAMP\) allows signature data in this table to be shared with Content Data Services \(CDS\). When you enable data sharing, the system automatically uploads records from the Unidentified File Set \[cmdb\_unidentified\_file\_set\] table to CDS when you provide the missing information. Uploading the identified files makes them available to improve future file matching. For details, see Add a custom software product.
+**Note:** A feature in Software Asset Management Professional \(SAMP\) allows signature data in this table to be shared with Content Data Services \(CDS\). When you enable data sharing, the system automatically uploads records from the Unidentified File Set \[cmdb\_unidentified\_file\_set\] table to CDS when you provide the missing information. Uploading the identified files makes them available to improve future file matching. For details, see [Add a custom software product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddACustomProduct.md).
 
 For a full reference of File-based Discovery system properties and script includes, see the [File Based Discovery](https://support.servicenow.com/now/nav/ui/classic/params/target/kb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0813350) Now Support Knowledge Base article.
 

@@ -36,12 +36,12 @@ AI Search in ITSM Mobile Agent offers the following features:
 
 ![Screenshot for ITSM Mobile Agent](../image/itsm-mobile-agent.png "ITSM Mobile Agent")
 
-For information about AI search, see AI Search.
+For information about AI search, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md).
 
-For information about AI search in mobile, see AI Search in mobile.
+For information about AI search in mobile, see [AI Search in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/text-search-advanced-now.md).
 
 The following configurations are added for AI search experience in ITSM Mobile Agent:
 
--   A search application configuration, \[AIS\] ITSM Mobile Agent Search Configuration. For information about search application configurations, see Search application configurations.
--   A search profile, ITSM Mobile Agent Search Profile. For information about search profiles, see Search profiles.
+-   A search application configuration, \[AIS\] ITSM Mobile Agent Search Configuration. For information about search application configurations, see [Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-app-cfgs-ais.md).
+-   A search profile, ITSM Mobile Agent Search Profile. For information about search profiles, see [Search profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-profiles-ais.md).
 

@@ -23,9 +23,9 @@ Role required: it\_project\_manager
 
 -   To add journal fields to a project form:
 
-    1.  Configure any project form to show **Comments** and **Work notes**.
+    1.  [Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) any project form to show **Comments** and **Work notes**.
 
--   To add live feed to a project form:
+-   To add [live feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_GetStartedWithLiveFeed.md) to a project form:
 
     1.  Navigate to **All** &gt; **System Definition** &gt; **Dictionary**.
 

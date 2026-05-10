@@ -25,7 +25,7 @@ Role required: admin
 
 2.  Check the following items on your app if they've changed from the original request:
 
-    -   App has the correct name, icon, splash screen, branding, and theming. For more information, see Create a theme with Theme Builder.
+    -   App has the correct name, icon, splash screen, branding, and theming. For more information, see [Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-theme.md).
     -   App uses the default instance you specified for login if you selected the instance pre-fill option when you requested the branded app.
     -   EULA and privacy policy listed in the mobile app **Settings** tab under **Legal** link to the policies you specified.
 3.  Set up your Android app:

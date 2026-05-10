@@ -17,7 +17,7 @@ Virtual Agent and Agent Chat conversations that are abandoned by requesters rema
 
 The default timeout period for abandoned Virtual Agent and live agent conversations is two hours \(7200 seconds\). The **Time Out Abandoned VA Conversations** job runs hourly to find and close any conversations that have been open longer than the default \(or configured\) timeout period.
 
-As admins, you can change the default timeout period for closing Virtual Agent and live agent conversations by adding the system property **com.glide.cs.conversation\_idle\_timeout**. The timeout value that you specify in this property applies to all conversations in supported Virtual Agent and live agent channels, including chat channels \(such as Microsoft Teams, Slack, and Workplace from Facebook\) and messaging channels \(such as SMS\). For details, see [Change the timeout period for Virtual Agent and live agent conversations](va-open-conversations.md#section_sjj_wy2_cmb).
+As admins, you can change the default timeout period for closing Virtual Agent and live agent conversations by [adding the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) **com.glide.cs.conversation\_idle\_timeout**. The timeout value that you specify in this property applies to all conversations in supported Virtual Agent and live agent channels, including chat channels \(such as Microsoft Teams, Slack, and Workplace from Facebook\) and messaging channels \(such as SMS\). For details, see [Change the timeout period for Virtual Agent and live agent conversations](va-open-conversations.md#section_sjj_wy2_cmb).
 
 If you're using Virtual Agent and Agent Chat on multiple chat channels, you can add a channel-level idle timeout value that overrides the timeout value set in the **com.glide.cs.conversation\_idle\_timeout** property for chat channels. For details, see [Override the conversation timeout period by channel](va-open-conversations.md#section_yd3_fgp_14b).
 
@@ -99,7 +99,7 @@ To change the time that this hourly scheduled job runs or to make other adjustme
 1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs** and open the Time Out Abandoned VA Conversations record.
 2.  In the Scheduled Script Execution form, change the **Time** at which the scheduled job runs. Or, depending on how you want to adjust the timing, change other fields in the form as needed.
 
-    For example, to change the interval at which the job runs, in the **Run** field, select **Periodically**. You then specify the **Repeat Interval** \(**Days** and **Hours**\) that the job runs and the **Starting** date for the interval. For a description of the other fields that you can change in this form, see Automatically run a script of your choosing.
+    For example, to change the interval at which the job runs, in the **Run** field, select **Periodically**. You then specify the **Repeat Interval** \(**Days** and **Hours**\) that the job runs and the **Starting** date for the interval. For a description of the other fields that you can change in this form, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ScheduleAScriptExecution.md).
 
 3.  Click **Update**.
 

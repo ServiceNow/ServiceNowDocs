@@ -19,7 +19,7 @@ This external audit data may come for external systems such as SAP, SmartRecruit
 
 To access this API, the Process Mining for external data \(sn\_po\_extdata\) plugin must be installed and the calling entity must have the sn\_process\_optimization\_admin role.
 
-For additional information on external audit records and Process Mining, see Process Mining.
+For additional information on external audit records and Process Mining, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining.md).
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 
@@ -29,7 +29,7 @@ Marks the specified record in the External dataset \[sn\_po\_extdata\_dataset\] 
 
 Before calling this method, the external audit data must have already been imported into the External dataset table.
 
-You can choose your desired method of importing this data, such as by Integration Hub or Workflow Studio. You can schedule this import on some fixed interval such as weekly, monthly, or quarterly. For additional information, see Working with external datasets.
+You can choose your desired method of importing this data, such as by Integration Hub or Workflow Studio. You can schedule this import on some fixed interval such as weekly, monthly, or quarterly. For additional information, see [Working with external datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/external-dataset.md).
 
 After the data is imported, you call this method to set the state field in the specified External dataset record to "Scheduled." This setting indicates that the specified external dataset record is ready for processing. When processed, the data within the external dataset record is used to create audit and case records. The names of these audit and case records appear in the associated External dataset record.
 

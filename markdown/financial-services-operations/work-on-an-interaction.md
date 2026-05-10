@@ -67,7 +67,7 @@ The interaction is closed.
 
 [Request AI agent support in the Interaction page](../../fso-now-assist/task/request-ai-agent-interaction-workspace.md)
 
-[bundle-platcap.interaction-wrap-up-state]
+[Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/interaction-wrap-up-state.md)
 
-[bundle-csm.ai-generated-wrap-up-codes-and-notes-summary]
+[Use AI to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ai-generated-wrap-up-codes-and-notes-summary.md)
 

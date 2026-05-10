@@ -20,7 +20,7 @@ Configure the Dynatrace connector instance to receive Metric Intelligence raw da
 To activate metric collection, ensure that the MID Server that retrieves metrics is configured with the Metric Intelligence extension and that the extension is in **Started** mode. See [Manually configure the Metric Intelligence extension](configure-itoa-metric-extension.md).
 
 -   Create an access token in Dynatrace with Read Metrics \(metrics.read\) scope permissions, to enable fetching metric data. This token is used in the connector to call the Dynatrace REST API.
--   Configure the Service graph connector for Dynatrace. This is configured in the instance and discovers Dynatrace CIs. For details on configuring this connector, see Configure Service Graph Connector for Observability - Dynatrace using guided setup.
+-   Configure the Service graph connector for Dynatrace. This is configured in the instance and discovers Dynatrace CIs. For details on configuring this connector, see [Configure Service Graph Connector for Observability - Dynatrace using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-dynatrace-integration.md).
 
 Role required: evt\_mgmt\_admin
 

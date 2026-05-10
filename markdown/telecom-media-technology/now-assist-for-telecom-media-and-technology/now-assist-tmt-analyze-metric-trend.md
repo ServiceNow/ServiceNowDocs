@@ -21,7 +21,7 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## About this task
 
-Collects and analyzes metric data for an engagement and determines if a risk signal is to be created. The [Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection monitor engagement health agentic workflow](../concept/now-assist-tmt-monitor-health.md) uses the metric data to monitor the health score and generates risk signals when the Poor and Neutral range thresholds defined in the Color Banding table are exceeded. You can view the status of the metric collection in the Now Assist panel.
+Collects and analyzes metric data for an engagement and determines if a risk signal is to be created. The [Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection monitor engagement health agentic workflow](../concept/now-assist-tmt-monitor-health.md) uses the metric data to monitor the health score and generates risk signals when the Poor and Neutral range thresholds defined in the Color Banding table are exceeded. You can view the status of the metric collection in the [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## Procedure
 

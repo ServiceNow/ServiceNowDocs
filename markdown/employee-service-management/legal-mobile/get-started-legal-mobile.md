@@ -33,7 +33,7 @@ After you [install the Legal Mobile](install-legal-mobile.md) app in your instan
 
     -   As a member of the legal department, download the Mobile Agent mobile app for working on legal requests.
 
-        For more information on using this mobile app, see Agent mobile app.
+        For more information on using this mobile app, see [Agent mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-experience.md).
 
 2.  Add your ServiceNow instance to the mobile app.
 

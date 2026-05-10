@@ -15,7 +15,7 @@ Disable Document Viewer at the instance level to disable it or at table level to
 
 ## Before you begin
 
-Ensure the Add a system property \(com.snc.documentviewer.enable\_document\_viewer\) exists in your instance.
+Ensure the [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) \(com.snc.documentviewer.enable\_document\_viewer\) exists in your instance.
 
 Role required: admin
 

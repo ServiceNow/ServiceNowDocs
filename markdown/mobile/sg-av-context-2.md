@@ -61,7 +61,7 @@ Role required: admin
 
 ## What to do next
 
-The UI parameters that you created are available to your Virtual Agent topics within the `vaContext` object. You can access these parameters in Virtual Agent Designer by entering `vaContext.` followed by the name of your UI parameter. For example, you can access the `incident_caller` UI parameter by entering `vaContext.incident_caller`. For more details on using context variables in Virtual Agent, see Virtual Agent scripts.
+The UI parameters that you created are available to your Virtual Agent topics within the `vaContext` object. You can access these parameters in Virtual Agent Designer by entering `vaContext.` followed by the name of your UI parameter. For example, you can access the `incident_caller` UI parameter by entering `vaContext.incident_caller`. For more details on using context variables in Virtual Agent, see [Virtual Agent scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-scripts.md).
 
 **Parent Topic:**[Configure a contextual link to Virtual Agent](sg-av-context-action.md)
 

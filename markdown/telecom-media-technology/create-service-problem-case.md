@@ -33,11 +33,11 @@ Role required: sn\_sprb\_mgmt.agent
 
     **Note:** The fibre broadband service definition as been shipped as a part of the demo data.
 
-    For more information about service definition, see Service definitions.
+    For more information about service definition, see [Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-service-definitions.md).
 
 7.  Select **Create case**.
 
-    In service definition, when you select **Create case** a playbook record generator form appears. Fill the playbook record generator form. For more information about the playbook record generator, see Set up a record generator for case type.
+    In service definition, when you select **Create case** a playbook record generator form appears. Fill the playbook record generator form. For more information about the playbook record generator, see [Set up a record generator for case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-record-generator-for-case-type.md).
 
 8.  On the intake form of verify issue, fill in the fields.
 

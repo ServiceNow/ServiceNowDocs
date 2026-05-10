@@ -43,7 +43,7 @@ Rules are triggered when the Virtual Agent is available.
 
 -   Live Agent only
 
-Rules are triggered when the web client is configured to live agent only. You can configure the web client to live agent only from the Service Portal. For instructions, see Configure Agent Chat in a portal.
+Rules are triggered when the web client is configured to live agent only. You can configure the web client to live agent only from the Service Portal. For instructions, see [Configure Agent Chat in a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-va-in-sp.md).
 
 
 </td></tr><tr><td>
@@ -137,7 +137,7 @@ Conditions
 
 </td><td>
 
-Conditions that must be met for the trigger type to run as defined by the admin. Conditions vary by trigger type. Specify the Proactive Triggers conditions that you want to use.For more information about using conditions, see Condition builder.
+Conditions that must be met for the trigger type to run as defined by the admin. Conditions vary by trigger type. Specify the Proactive Triggers conditions that you want to use.For more information about using conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
  **Note:** Rule conditions are case-sensitive and must match. For example, if you want to use the name of a catalog item, such as the iPhone condition, entering "iphone" doesn't give you the results that you want.
 

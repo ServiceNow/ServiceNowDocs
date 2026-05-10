@@ -25,7 +25,7 @@ Smart detection streamlines and simplifies CI attestation. With smart detection 
 
 The following conditions must be met to enable smart detection:
 
--   Discovery is enabled in your organization or [Getting started with Service Graph Connectors](cmdb-sgc-intro.md) are implemented.
+-   [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-discovery.md) is enabled in your organization or [Getting started with Service Graph Connectors](cmdb-sgc-intro.md) are implemented.
 -   The system property **sn\_cmdb\_ws.attestation.smart\_detection.disabled** is set to **false** \(default value\).
 
 In addition, smart detection uses the following system properties as filters when creating a list of CIs that are candidates for auto-attestation. To be included as candidates for auto-attestation, CIs must be discovered:
@@ -58,7 +58,7 @@ Disables smart detection.
 -   Values:
     -   **true**: Disable smart detection.
     -   **false**: Enable smart detection.
--   Location: Add to System Properties \[sys\_properties\] table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 -   Learn more: [Review attestation tasks in CMDB Workspace or in Service Graph Workspace](../task/review-data-manager-attes-task.md)
 
 </td></tr><tr><td>

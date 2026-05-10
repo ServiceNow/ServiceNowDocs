@@ -45,7 +45,7 @@ The following table lists the input fields in the Create Logical Connection with
 |A End Interface Name|Starting interface name.|String|
 |Z End Interface Name|Ending interface name.|String|
 
-To learn more about the variable data types, see Flow Designer input and output data variables.
+To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md).
 
 ## Output
 

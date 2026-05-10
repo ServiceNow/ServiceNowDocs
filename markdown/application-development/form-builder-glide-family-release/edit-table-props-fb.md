@@ -25,7 +25,7 @@ Role required: none
 
 By editing table properties, you can relabel your table, make your table extensible, or add record numbers. You can also set application access settings.
 
-Making a table extensible means that you are enabling new tables to share columns from your table. For example, if you created an "Office location" column in your table, you can allow new tables to use the "Office location" column also. For more information on table extensions, see Table extension and classes.
+Making a table extensible means that you are enabling new tables to share columns from your table. For example, if you created an "Office location" column in your table, you can allow new tables to use the "Office location" column also. For more information on table extensions, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/table-extension-and-classes.md).
 
 Adding record numbers means that a tracking number is created automatically for each new table entry. For example, a new entry to the Travel Requests table would get a record number like TRV1234567. You can use this number to find table records more easily.
 

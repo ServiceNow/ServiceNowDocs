@@ -15,7 +15,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The SPWidgetAccessControl script include provides methods that allow administrators to check whether a provided table is granted public access to a widget and is securely accessed by an intended audience.
 
-For details and instructions about using the SPWidgetAccessControl API in your server script, see Configure widget security \(Restrict which tables public widgets can access for guest users\).
+For details and instructions about using the SPWidgetAccessControl API in your server script, see [Configure widget security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-widget-security.md) \(Restrict which tables public widgets can access for guest users\).
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 

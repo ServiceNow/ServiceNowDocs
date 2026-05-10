@@ -22,7 +22,7 @@ This table lists the connectors that are provided with Event Management.
 **Note:**
 
 -   The Azure Metrics and AWS CloudWatch Metrics connectors display in the base system only when the Operational Intelligence plugin \(com.snc.sa.metric\) is activated.
--   All connectors support external credential storage solutions. For details on configuring external credential storage, see External credential storage configuration.
+-   All connectors support external credential storage solutions. For details on configuring external credential storage, see [External credential storage configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/external_cred_storage_configuration.md).
 
 <table id="table_lzz_dcm_s1c"><thead><tr><th>
 

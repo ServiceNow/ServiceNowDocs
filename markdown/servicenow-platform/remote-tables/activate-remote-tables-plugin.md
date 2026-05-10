@@ -68,5 +68,5 @@ Supports use of Transform APIs that are associated with the remote tables.
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

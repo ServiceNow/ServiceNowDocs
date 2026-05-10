@@ -79,7 +79,7 @@ When a new item is submitted, the item finally moves to the Published state. Thi
 
 Catalog Builder is designed to support the most common and simple use cases so that it can easily be used by business users, while the complex functionality can be added to the item in ServiceNow AI Platform by catalog administrators.
 
-When creating a record producer in a specific scope, you can select tables in that scope and tables in other scope if the objects from the other application scope are given read and create access for selecting a record submission table. For more information on making a table accessible to other applications, see Table design and runtime settings.
+When creating a record producer in a specific scope, you can select tables in that scope and tables in other scope if the objects from the other application scope are given read and create access for selecting a record submission table. For more information on making a table accessible to other applications, see [Table design and runtime settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/r_TableApplicationAccessFields.md).
 
 Catalog Builder does not allow creation and editing of the following entities, but they can be set in ServiceNow AI Platform either for a draft item or a published item that has not been checked out.
 

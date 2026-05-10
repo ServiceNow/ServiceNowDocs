@@ -17,7 +17,7 @@ When content in your primary NLU model is updated, you can import the updates di
 
 ## Before you begin
 
--   Activate the Localization Framework \(com.glide.localization\_framework.installer\) plugin. See Localization Framework.
+-   Activate the Localization Framework \(com.glide.localization\_framework.installer\) plugin. See [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-framework-landing.md).
 -   For Virtual Agent or AI Search models, create or use an existing primary model that has at least one secondary model.
 -   Role required: nlu\_admin or admin.
 

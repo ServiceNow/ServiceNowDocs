@@ -15,7 +15,7 @@ breadcrumb: [Understand Security Incident Response Orchestration workflows and w
 
 Workflow templates are provided with Security Incident Response Orchestration to allow you to perform basic security operation-related analysis procedures. The templates can be used as is or you can customize them to create workflows to better suit your specific needs. The workflow templates are deactivated by default.
 
-Only users with the sn\_sec\_cmn.admin role can Workflow editor.
+Only users with the sn\_sec\_cmn.admin role can [Workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/workflow-editor.md).
 
 -   **[Security Incident Confidential Data Exposure workflow template](../task/si-confidential-data-exposure-template.md)**  
 The Security Incident - Confidential Data Exposure - Template allows you to perform a series of tasks designed to handle the exposure of sensitive data.

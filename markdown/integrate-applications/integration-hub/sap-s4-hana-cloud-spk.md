@@ -36,7 +36,7 @@ This spoke was built for SAP S4 HANA 2023.
 -   SAP S4 HANA Public Cloud account
 -   Configure the value of this system property:
 
-    **com.snc.process\_flow.reporting.serialized.val\_size\_limit**: This property serializes JSON objects and ensures that the data is in the required format. Specify the number of bytes as per your requirement. For more information, see Workflow Studio system properties.
+    **com.snc.process\_flow.reporting.serialized.val\_size\_limit**: This property serializes JSON objects and ensures that the data is in the required format. Specify the number of bytes as per your requirement. For more information, see [Workflow Studio system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-system-properties.md).
 
 
 ## Spoke dependencies

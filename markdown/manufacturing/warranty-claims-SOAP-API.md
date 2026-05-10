@@ -4,7 +4,7 @@ description: The Warranty Claims SOAP API handles incoming repair orders from de
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 10
 breadcrumb: [MCO Integration APIs, Reference, Manufacturing Commercial Operations]
 ---

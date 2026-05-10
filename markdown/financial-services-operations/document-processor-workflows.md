@@ -25,7 +25,7 @@ The following predefined workflows for Document Processor are available with the
 |Generate DocIntel Document task|
 |Generate DocIntel Use case|
 
-These workflows are built using Flow Designer. The application admin can review and customize these predefined flows that are based on the business needs of an organization.
+These workflows are built using [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md). The application admin can review and customize these predefined flows that are based on the business needs of an organization.
 
 ## General workflow for Document Processor
 

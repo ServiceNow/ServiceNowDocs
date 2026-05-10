@@ -13,7 +13,7 @@ breadcrumb: [Getting started with Customer Service Management, Set up your envir
 
 After Customer Service Management is activated, you can activate additional plugins that provide demo data and enable various features.
 
-You must have the admin role to activate these additional plugins. For details, see Activate a plugin.
+You must have the admin role to activate these additional plugins. For details, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 <table id="table_wp2_h15_2v"><thead><tr><th>
 

@@ -4,7 +4,7 @@ description: You can select one or more product inventory records to update thei
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---

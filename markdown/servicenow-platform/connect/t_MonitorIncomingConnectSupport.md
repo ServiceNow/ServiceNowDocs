@@ -62,7 +62,7 @@ Under **Cases**, click **Accept** by a transfer request.![The transfer request c
 
 5.  Initiate a Zoom meeting to help resolve customer issues faster.
 
-    For more information, see Initiate Zoom meetings from chats.
+    For more information, see [Initiate Zoom meetings from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/initiate-chat-zoom.md).
 
 
 **Related topics**  

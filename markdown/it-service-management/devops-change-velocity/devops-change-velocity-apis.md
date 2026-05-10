@@ -15,7 +15,7 @@ breadcrumb: [Reference, DevOps Change Velocity, IT Service Management]
 
 The DevOps Change Velocity APIs provides endpoints that enable the interaction with external DevOps tools.
 
-For more information, see DevOps API.
+For more information, see [DevOps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/devops-api.md).
 
 **Parent Topic:**[DevOps Change Velocity reference](devops-change-velocity-reference.md)
 

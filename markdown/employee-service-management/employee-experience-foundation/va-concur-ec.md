@@ -20,7 +20,7 @@ Manage Concur expense approvals using Virtual Agent actionable notifications in 
 -   The Virtual Agent integration is supported only for users who have a user record in your ServiceNow instance. Users must link their accounts to Microsoft Teams and enable Virtual Agent notifications.
 -   Install the Approvals hub integration with the SAP Concur \(sn\_ex\_cnc\) plugin.
 
-For more information on receiving notifications, see Conversational Integration with Microsoft Teams and Enable Virtual Agent notifications. For more information on Virtual Agent, see Virtual Agent.
+For more information on receiving notifications, see [Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/teams-conv-integration.md) and [Enable Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-va-notifications.md). For more information on Virtual Agent, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md).
 
 Role required: approver\_user
 

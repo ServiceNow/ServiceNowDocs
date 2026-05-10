@@ -109,7 +109,7 @@ safe\_scrum\_user
 
     Indicates the committed scope \(in number of story points\) of the sprint. Together with the adjacent Scope widget, these widgets let you see difference between the scope committed at the start of the sprint and the current scope of the sprint.
 
-    **Note:** This widget is not visible by default. You can add it from Reports to your dashboard. For more information, see Edit a responsive dashboard.
+    **Note:** This widget is not visible by default. You can add it from Reports to your dashboard. For more information, see [Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_EditADashboard.md).
 
 -   **Blocked Work**
 

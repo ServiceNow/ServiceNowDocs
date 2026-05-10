@@ -26,13 +26,13 @@ The form context menu includes the following options.
 |Insert|Saves the data as a new record and returns to the previously viewed page.|
 |Insert and Stay|Saves and displays the new record. For more information about inserting records, see [Edit a form](../task/t_EditingInForms.md#).|
 |Configure|Provides administrative functions, such as configuring forms.|
-|Export|Exports data to PDF. Administrators can also export to XML. For more information, see Export data.|
+|Export|Exports data to PDF. Administrators can also export to XML. For more information, see [Export data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_ExportData.md).|
 |View|Changes fields to a predefined layout. Switching views submits the form, which saves all changes. Administrators can customize views.|
 |Create Favorite|\(Core UI only\) Adds the current record to your favorites list, represented by a star icon on the tab.|
 |Copy URL|Copies to the clipboard the URL for the form view of the record. Follow browser instructions if browser security measures restrict this function.|
 |Copy sys\_id|Administrators only. Copies to the clipboard the sys\_id of the record. Follow browser instructions if browser security measures restrict this function.|
 |Show XML|Administrators only. Displays record data in XML format.|
-|History|Administrators only. Displays audit history for the record, which must be enabled for the table. For more information, see Enable auditing for a table.|
+|History|Administrators only. Displays audit history for the record, which must be enabled for the table. For more information, see [Enable auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_EnableAuditingForATable.md).|
 |Reload Form|Reloads information from the database to refresh the form view.|
 
 **Parent Topic:**[Forms in the classic environment](c_UsingForms.md)
@@ -40,5 +40,5 @@ The form context menu includes the following options.
 **Related topics**  
 
 
-[bundle-platadm.c_UIActions]
+[UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UIActions.md)
 

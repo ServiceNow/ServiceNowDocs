@@ -67,7 +67,7 @@ Role required: admin
 
         -   sn\_lg\_investigate.fulfiller, for users in the Legal department
         -   sn\_hr\_er.case\_writer, for users in the HR department
-    For more information, see Create a user group.
+    For more information, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAGroup.md).
 
 3.  If you configured an assignment group other than the base system assignment group, make it the default assignment group for ethics complaint requests by updating the system property.
 

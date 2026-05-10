@@ -15,7 +15,7 @@ Document Intelligence for Customer Service performs a series of steps to extract
 
 ## Use cases
 
-A use case, previously known as a task definition, is a template that is used to define the structure of a type of document you want to process. A use case is made up of the use case record and its related fields, field groups, integrations, flows, and all the related machine learning \(ML\) models. For more information, see Set up document extraction use cases.
+A use case, previously known as a task definition, is a template that is used to define the structure of a type of document you want to process. A use case is made up of the use case record and its related fields, field groups, integrations, flows, and all the related machine learning \(ML\) models. For more information, see [Set up document extraction use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/set-up-document-extraction-use-cases.md).
 
 <table id="table_cdv_trj_h5b"><thead><tr><th>
 
@@ -160,7 +160,7 @@ If yes, the feature:
 -   If the extraction mode in the use case is set to Fully automated, the extracted values are added to the case.
 -   If the extraction mode is set to Autofill or Recommendation, the agent can validate the extracted values in the Document Intelligence workspace.
 
-The agent can open a case and review the predicted fields or review the prediction task by selecting **Review in DocIntel** and opening the Document Intelligence workspace interface in a separate tab. From this interface, agents can:
+The agent can open a case and review the predicted fields or review the prediction task by selecting **Review in DocIntel** and opening the [Document Intelligence workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/doc-intel-workspace.md) interface in a separate tab. From this interface, agents can:
 
 -   Review each predicted field.
 -   Confirm correctly predicted values.

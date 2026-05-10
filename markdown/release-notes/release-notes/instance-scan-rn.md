@@ -18,26 +18,26 @@ The ServiceNow® Instance Scan engine is used to interrogate your instance for c
 -   Experience the new scan\_check\_writer role to write checks in the Instance Scan table.
 -   Execute scans on inactive and base system records by enabling certain system properties.
 
-See Instance Scan for more information.
+See [Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-landing-page.md) for more information.
 
 ## New in the Australia release
 
--   **Parallel execution of scans**
+-   **[Parallel execution of scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-parallel-scan.md)**
 
     Enable parallel execution of scans instead of sequential processing, eliminating bottlenecks and significantly reducing completion times.
 
--   **New role to write checks in Instance Scan**
+-   **[New role to write checks in Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-getting-started.md)**
 
     Experience the new scan\_check\_writer role that has the privilege to write checks on the scan\_check table.
 
--   **Instance Scan extension for IDE**
+-   **[Instance Scan extension for IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-is-ide.md)**
 
     You can now access Instance Scan from integrated development environment \(IDE\) on the ServiceNow AI Platform.
 
 
 ## Changed in this release
 
--   **Scan execution of inactive and base system checks**
+-   **[Scan execution of inactive and base system checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-sys-properties.md)**
 
     You can now execute scans on inactive checks by setting the glide.scan.inactive\_records property to true. Add and enable glide.scan.base\_system\_records property to execute scans on base system checks.
 

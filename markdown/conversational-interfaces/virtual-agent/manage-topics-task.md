@@ -48,7 +48,7 @@ The options you select automatically update the corresponding property in the To
 
 ![Topics table view with Is Topic Discoverable and Is Topic Visible values highlighted.](../images/active-props-table.png "Is Topic Discoverable option in the Topics table")
 
-**Note:** If the fields are not visible, you can configure the form layout to show them.
+**Note:** If the fields are not visible, you can [configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) to show them.
 
 ## Procedure
 

@@ -27,7 +27,7 @@ Before integrating Employee Center with your Microsoft Teams tenant, ensure that
 
 1.  Activate the IT Service Management integration with Microsoft Teams plugin \(sn\_now\_teams\_it\).
 
-    **Note:** For more information on activating plugins, see Activate a plugin.
+    **Note:** For more information on activating plugins, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 2.  [Register and configure the Request-based chat application on the Microsoft Azure portal](../task/register-app-req-based-chats.md).
 3.  [Add permissions to the Microsoft Azure application](../task/authenticate-users-req-based-chat.md).

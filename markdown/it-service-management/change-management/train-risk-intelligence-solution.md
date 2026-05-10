@@ -31,7 +31,7 @@ Role required: admin
     -   If the **Solution type** is `Classification`, you can see the default, **Change Risk** solution.
 3.  Customize the default solution.
 
-    For more information, see Create and train a similarity solution and Create and train a classification solution.
+    For more information, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md) and [Create and train a classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-solution-definition.md).
 
 4.  Click **Update**.
 

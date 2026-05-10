@@ -27,7 +27,7 @@ Role required: service\_mapping\_admin
 
 ## About this task
 
-Review Unified Map to learn more about the Unified Map feature.
+Review [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/cmdb-workspace-unified-map.md) to learn more about the Unified Map feature.
 
 **Note:** The Unified Map feature offers limited Service Mapping functionality.
 
@@ -57,9 +57,9 @@ Review Unified Map to learn more about the Unified Map feature.
 **Related topics**  
 
 
-[bundle-platcap.unified-map-show-attributes]
+[View the attributes of a CI or a relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-show-attributes.md)
 
-[bundle-platcap.unified-map-show-app-service]
+[View service instances for a CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-show-app-service.md)
 
-[bundle-platcap.unified-map-show-ci-changes]
+[View historical changes for a CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-show-ci-changes.md)
 

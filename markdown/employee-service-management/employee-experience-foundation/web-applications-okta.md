@@ -18,7 +18,7 @@ Using OOTB integration with Okta, you can automatically sync the registered appl
 ## Before you begin
 
 -   The app launcher sync of applications from Okta is only compatible with the latest Okta Spoke version. Ensure you upgrade the existing Okta spoke to sync the apps on to your web applications.
--   Integrate Okta spoke with ServiceNow, Inc., create credential records, and create connection records as explained in Okta spoke setup.
+-   Integrate Okta spoke with ServiceNow, Inc., create credential records, and create connection records as explained in [Okta spoke setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/okta-v2-spoke.md).
 
 Role required: sp\_admin, taxonomy admin, or taxonomy manager
 

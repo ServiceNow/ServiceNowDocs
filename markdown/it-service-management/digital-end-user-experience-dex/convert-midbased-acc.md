@@ -6,7 +6,7 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 2
 breadcrumb: [Advanced configuration, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Verify that the ACC registration key was set up and the ACC was installed. For m
 
 Role required: agent\_admin and agent\_client\_collector\_admin
 
-For more information, see Agent Client Collector user roles.
+For more information, see [Agent Client Collector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-users.md).
 
 ## Procedure
 

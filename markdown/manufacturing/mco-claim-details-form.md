@@ -28,7 +28,7 @@ The Claim details form enables the dealer to enter the claim details for the rep
 **Related topics**  
 
 
-[bundle-omgmt.roles-and-components-of-partner-relationship-management]
+[Roles and components of Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/roles-and-components-of-partner-relationship-management.md)
 
 [Submit a repair claim for warranty](../task/mco-submit-repair-claim.md)
 

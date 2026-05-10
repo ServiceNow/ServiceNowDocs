@@ -21,7 +21,7 @@ Set up your Dispute Management implementation by installing the required plugins
 
     Set up your implementation for Financial Services Card Operations by installing the application, importing financial services data, and reviewing and configuring the application's components.
 
--   Set up Visa Spoke
+-   [Set up Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-visa-spoke.md)
 
     Install Visa Spoke if Visa is your card payment network provider. Use the spoke to manage card disputes with Visa Resolve Online \(VROL\). Leverage Visa Spoke actions to perform transaction inquiry, order insight digital, collaborate with merchants, and perform other functions with enhanced security.
 
@@ -33,15 +33,15 @@ Set up your Dispute Management implementation by installing the required plugins
 
     Dispute Rules Content Pack for Visa provides the questionnaire for intake of a dispute and dispute categorization rules as per Visa guidelines. Run chargeback eligibility rules based on Visa Core Rules and Visa Product and Service Rules.
 
--   Set up Verifi Spoke
+-   [Set up Verifi Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-verifi-spoke.md)
 
     Use Verifi Spoke to integrate with the Verifi CDRN API suite and perform API calls to perform early dispute resolution.
 
--   Set up Mastercard spoke
+-   [Set up Mastercard spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-mastercard-spoke.md)
 
     Install Mastercard Spoke if Mastercard is your card payment network provider. Use the spoke to manage card disputes with Mastercard. Leverage Mastercard spoke actions, to perform transaction inquiry, order insight digital, collaborate with merchants, and perform other functions with enhanced security.
 
--   Set up Ethoca spoke
+-   [Set up Ethoca spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-ethoca-spoke.md)
 
     Use the Ethoca spoke to integrate with Ethoca Consumer Clarity APIs.
 

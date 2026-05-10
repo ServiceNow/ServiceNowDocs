@@ -15,7 +15,7 @@ Set the order of your workspaces and control how they appear in the Unified Navi
 
 ## Before you begin
 
-To enable ordering of your workspaces, you must create a system property **glide.ui.next\_experience.workspace\_sorting** and set the value to **Order**. For more information, see Add a system property.
+To enable ordering of your workspaces, you must create a system property **glide.ui.next\_experience.workspace\_sorting** and set the value to **Order**. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 Role required: admin
 

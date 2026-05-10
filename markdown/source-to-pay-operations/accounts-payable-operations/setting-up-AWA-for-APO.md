@@ -25,7 +25,7 @@ Set up the following components for AWA in Accounts Payable Operations
 -   Agent availability- States that indicate whether an agent is busy, available or offline. AWA uses agent availability to determine if an agent is able to receive work.
 -   Inbox layout- A configuration tied to a service channel that defines which fields of a record representing a work item are shown in agent inboxes. A layout defines what the agent sees in Account Payable Operations workspace.
 
-For more information about AWA components, refer Exploring Advanced Work Assignment.
+For more information about AWA components, refer [Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md).
 
 **Parent Topic:**[Advanced Work Assignment in Accounts Payable Operations](advanced-work-assignment.md)
 

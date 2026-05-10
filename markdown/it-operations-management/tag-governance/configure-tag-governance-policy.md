@@ -40,5 +40,5 @@ You can specify filters that narrow the scope of an audit, for example, to audit
 
 -   Select the **Show Audit Results** related link to view all audit results.
 -   Select the **Run Point Scan** related link to execute all applicable checks against the record.
--   For more information see, Flows and Subflows.
+-   For more information see, [Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md) and [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
 

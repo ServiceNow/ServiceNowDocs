@@ -19,7 +19,7 @@ You can create a transfer order directly from a request to source hardware items
 
 Role required: procurement\_admin or procurement\_user
 
-**Important:** If the Field Service Management application is also activated on your ServiceNow instance, then a workflow in this application processes the transfer orders. For more information, see Move an asset through the transfer process.
+**Important:** If the Field Service Management application is also activated on your ServiceNow instance, then a workflow in this application processes the transfer orders. For more information, see [Move an asset through the transfer process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/create-transfer-order-line-task.md).
 
 ## Procedure
 
@@ -109,5 +109,5 @@ Navigate to **All** &gt; **Procurement** &gt; **Requests** &gt; **Requests**.
 
 [Add an assignment from a request](t_AddingAssignmentsFromReq.md)
 
-[bundle-fsm.c_TransferOrders]
+[Manage transfer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/c_TransferOrders.md)
 

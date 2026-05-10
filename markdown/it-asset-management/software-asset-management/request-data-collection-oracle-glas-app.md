@@ -58,5 +58,5 @@ Install the application according to the instructions in the email.
 **Related topics**  
 
 
-[bundle-itom.oracle-glas-discovery]
+[Oracle Global License Advisory Services \(GLAS\) data collection using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.md)
 

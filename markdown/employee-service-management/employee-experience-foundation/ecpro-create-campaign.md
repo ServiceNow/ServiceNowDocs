@@ -75,7 +75,7 @@ Approvers
 
 Users responsible for approving content before the campaign is published. When you click the Lookup using list icon, only users with the Campaign Approver sn\_ca.campaign\_approver role appear.
 
-The approvers receive an email notification that you require their approval. For more information, see Notifications and Email templates.
+The approvers receive an email notification that you require their approval. For more information, see [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notifications.md) and [Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailTemplates.md).
 
 </td></tr><tr><td>
 

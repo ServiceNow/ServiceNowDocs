@@ -23,7 +23,7 @@ If you create your own device or process classifier and you want to use patterns
 
 When Discovery uses patterns to find certain devices like load balancers, large amounts of data could be sent to the ECC Queue. To better handle large amounts of data, the horizontal pattern probe can split the payload into chunks, and then create multiple ECC Queue records.
 
-Control how the MID Server splits payloads and handles payloads using properties. See MID Server properties for more information.
+Control how the MID Server splits payloads and handles payloads using properties. See [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md) for more information.
 
 **Parent Topic:**[List of Discovery probes](r_ListOfDiscoveryProbes.md)
 

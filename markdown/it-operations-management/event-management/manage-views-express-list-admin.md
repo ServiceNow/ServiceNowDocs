@@ -136,15 +136,15 @@ Add an alert tag filter condition
 
 5.  Assign users and groups to the Express List view.
 
-<table id="choicetable_lyp_4hp_k1c"><thead><tr><th align="left" id="d652015e355">
+<table id="choicetable_lyp_4hp_k1c"><thead><tr><th align="left" id="d651453e355">
 
 Task
 
-</th><th align="left" id="d652015e358">
+</th><th align="left" id="d651453e358">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d652015e364">
+</th></tr></thead><tbody><tr><td id="d651453e364">
 
 **Assign a user to the selected Express List view**
 
@@ -156,7 +156,7 @@ Procedure
 4.  Select the save icon ![Save icon.](../../itom-cloud-accelerate/image/save-icon.png).
 
 
-</td></tr><tr><td id="d652015e408">
+</td></tr><tr><td id="d651453e408">
 
 **Assign a user group to the selected Express List view**
 

@@ -33,7 +33,7 @@ When an agent proposes a solution, buttons to accept or reject it appear in the 
 
 5.  Select one of the following from **Actions**.
 
-<table id="choicetable_ntm_ly1_1w"><tbody><tr><td id="d187852e128">
+<table id="choicetable_ntm_ly1_1w"><tbody><tr><td id="d187859e128">
 
 **Accept Solution**
 
@@ -41,7 +41,7 @@ When an agent proposes a solution, buttons to accept or reject it appear in the 
 
 Accepts the solution proposed by the agent and changes the case state to **Closed**.
 
-</td></tr><tr><td id="d187852e140">
+</td></tr><tr><td id="d187859e140">
 
 **Reject Solution**
 

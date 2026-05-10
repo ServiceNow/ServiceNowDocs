@@ -15,7 +15,7 @@ breadcrumb: [Integrating Service Catalog, Service Catalog, Manage service capabi
 
 Use Service Portal to configure an improved version of Catalog. You can customize Service Portal where your customers can request catalog items such as service and product offerings. You can use the Service Catalog widgets to build a catalog for your portal.
 
-**Note:** If you’re an existing customer using Service Portal we recommend that you migrate to the Employee Center for a better experience. For more information on Employee Center, see Employee Center
+**Note:** If you’re an existing customer using Service Portal we recommend that you migrate to the Employee Center for a better experience. For more information on Employee Center, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md)
 
 The Catalog landing page provides an interface from where you can access the catalog items, requests, approvals, popular items, recent items, and saved bundles. This page is available by default for zBoot users.
 
@@ -61,7 +61,7 @@ Use the SC Order Guide widget on Service Portal to request an order guide with s
 **Related topics**  
 
 
-[bundle-platux.sc-widgets]
+[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
 
-[bundle-platux.c_CMSAndSP]
+[Content Management and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_CMSAndSP.md)
 

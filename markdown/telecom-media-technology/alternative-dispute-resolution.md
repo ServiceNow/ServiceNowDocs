@@ -31,7 +31,7 @@ The ADR workflow begins when a customer raises a complaint regarding a product, 
 
 ## ADR stages and activities
 
-The ADR case record uses the Case Playbook for Complaints feature to capture the details and execute the workflow. To learn more about the Case Playbook for Complaints, see Case Playbook for Complaints. The following table lists the stages and activities that agents can use to resolve customer issues in the ADR case record.
+The ADR case record uses the Case Playbook for Complaints feature to capture the details and execute the workflow. To learn more about the Case Playbook for Complaints, see [Case Playbook for Complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-complaint-overview.md). The following table lists the stages and activities that agents can use to resolve customer issues in the ADR case record.
 
 <table id="table_nrj_z2s_llb"><thead><tr><th>
 
@@ -185,5 +185,5 @@ To learn more about how to use ADR case, see [Using alternative dispute resoluti
 **Related topics**  
 
 
-[bundle-csm.customer-service-case-types]
+[Customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-types.md)
 

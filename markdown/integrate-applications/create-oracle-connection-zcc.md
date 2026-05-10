@@ -124,7 +124,7 @@ Option to use OAuth authentication.
 
  OAuth authentication requires an OAuth entity profile configured in the Application Registries \[oauth\_entity\] table with your Oracle or IdP credentials. Oracle supports only the Access Token credential type.
 
- This option keeps credentials within the instance and uses the ServiceNow AI Platform OAuth framework for token lifecycle management. For details on creating an OAuth entity profile, see Use a third-party OAuth provider. When configuring the profile, select **Client Credentials** as the grant type. If your OAuth provider requires scopes, add them on the OAuth Entity Scopes tab. Consult your data source or identity provider documentation for the required scope values.
+ This option keeps credentials within the instance and uses the ServiceNow AI Platform OAuth framework for token lifecycle management. For details on creating an OAuth entity profile, see [Use a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_UseAThirdPartyOAuthProvider.md). When configuring the profile, select **Client Credentials** as the grant type. If your OAuth provider requires scopes, add them on the OAuth Entity Scopes tab. Consult your data source or identity provider documentation for the required scope values.
 
  Select the OAuth entity profile for your Oracle or IdP service principal.
 

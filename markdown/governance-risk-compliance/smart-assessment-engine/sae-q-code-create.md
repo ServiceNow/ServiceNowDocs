@@ -40,15 +40,15 @@ Role required: sn\_smart\_asmt.template\_manager or sn\_smart\_asmt.assessment\_
 
 5.  Specify any number of attributes for the question.
 
-<table id="choicetable_afm_5mq_mbc"><thead><tr><th align="left" id="d367972e145">
+<table id="choicetable_afm_5mq_mbc"><thead><tr><th align="left" id="d367979e145">
 
 Attribute
 
-</th><th align="left" id="d367972e148">
+</th><th align="left" id="d367979e148">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d367972e154">
+</th></tr></thead><tbody><tr><td id="d367979e154">
 
 **Required**
 
@@ -56,7 +56,7 @@ Description
 
 If the assessor must answer the question to submit the assessment, select **Required**. The assessor sees the \* \(asterisk\) character to indicate that a response is required.
 
-</td></tr><tr><td id="d367972e171">
+</td></tr><tr><td id="d367979e171">
 
 **Conditionally visible**
 
@@ -70,7 +70,7 @@ A setting on any question type that lets template builders control when a questi
 
  You specify the section, subsection \(if available\), question, and, optionally, the response. Together, the values that you specify define the conditions that must be met for the question to appear in the assessment.
 
-</td></tr><tr><td id="d367972e200">
+</td></tr><tr><td id="d367979e200">
 
 **Justification**
 
@@ -82,7 +82,7 @@ A setting that lets template builders request additional text comments \(justifi
 
  In the assessment, the \* \(asterisk\) character appears on the field for a required justification.
 
-</td></tr><tr><td id="d367972e226">
+</td></tr><tr><td id="d367979e226">
 
 **Attachments**
 
@@ -96,7 +96,7 @@ Request the attachments for the specific responses. You can specify that the att
 
 Use the condition builder to specify the conditions. The values that you specify define the conditions that must be met to enable the assessor to add the attachments.
 
-</td></tr><tr><td id="d367972e263">
+</td></tr><tr><td id="d367979e263">
 
 **Set character limit**
 
@@ -108,7 +108,7 @@ Option for the code type question.
 
  Default: 4000.
 
-</td></tr><tr><td id="d367972e281">
+</td></tr><tr><td id="d367979e281">
 
 **Specify preferred answers**
 
@@ -123,7 +123,7 @@ A setting on choice-type questions that lets template builders define which answ
 
 7.  If you want to add content that helps the assessor answer this question, select **Add additional content**.
 
-<table id="choicetable_up4_xqd_mbc"><tbody><tr><td id="d367972e330">
+<table id="choicetable_up4_xqd_mbc"><tbody><tr><td id="d367979e330">
 
 **Question description**
 
@@ -135,7 +135,7 @@ Enter the descriptive text that follows the question when the assessor accesses 
 
  ![Confirmation of the description text. You can update the text.](../image/sae-q-description-confirmation.png)
 
-</td></tr><tr><td id="d367972e355">
+</td></tr><tr><td id="d367979e355">
 
 **Guidance**
 

@@ -19,7 +19,7 @@ The ServiceNow®Financial Services Operations Integration with Verifi applicatio
 -   Reduced chargeback exposure for merchants.
 -   Seamless API integration.
 
-See Financial Services Operations Integration with Verifi for more information.
+See [Financial Services Operations Integration with Verifi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-verifi-cdrn-integration-app-landing-page.md) for more information.
 
 **Important:** Financial Services Operations Integration with Verifi is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -56,15 +56,15 @@ The system property sn\_bom\_credit\_card.is\_verifi\_integration\_enabled must 
 
 ## Related ServiceNow applications and features
 
--   **Financial Services Card Operations**
+-   **[Financial Services Card Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-card-operations/card-ops-landing-page.md)**
 
     The ServiceNow® Financial Services Card Operations application digitizes and automates the card operations of your financial institution, enabling quick processing of credit card applications and card transaction disputes.
 
--   **Integration Hub**
+-   **[Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md)**
 
     Automate integration tasks by using ServiceNow components for ServiceNow® Workflow Studio, or develop custom integrations. A separate subscription is required.
 
--   **Integration Hub spokes**
+-   **[Integration Hub spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/spokes-list.md)**
 
     Activate spokes to improve your Workflow Studio experience with integration-specific content. Use prebuilt flows and actions to automate your integrations or create your own integration automation.
 

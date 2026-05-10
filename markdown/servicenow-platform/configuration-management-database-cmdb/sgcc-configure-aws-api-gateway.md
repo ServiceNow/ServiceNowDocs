@@ -17,7 +17,7 @@ Set up scheduled import jobs to pull in AWS API Gateway data into your CMDB.
 
 ## Before you begin
 
-Install API Service Graph Connector for AWS API Gateway version 1.0.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see Install a ServiceNow Store application.
+Install API Service Graph Connector for AWS API Gateway version 1.0.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/installing-applications-in-application-manager.md).
 
 The authentication mechanism used by the connector is AWS Signature Type \(HMAC Authentication Technique\) with AWS Security Token Service \(STS\) token. For information about permissions, see the [API Service Graph Connector for AWS API Gateway - Setup Instructions \[KB1962734\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB1962734) article in the Now Support Knowledge Base.
 
@@ -32,7 +32,7 @@ Role required: The following table shows the roles required for each stage of th
 
 ## About this task
 
-The playbook experience for onboarding connectors is activated with SGC Central in the CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](../concept/sgcc-configuring.md) and for more information on how to interact with a playbook, see Interact with Playbook.
+The playbook experience for onboarding connectors is activated with SGC Central in the CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](../concept/sgcc-configuring.md) and for more information on how to interact with a playbook, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md).
 
 **Note:** Alternatively, you can configure a default connection already available from the installed or draft connections in SGC Central. Go to **All** &gt; **Service Graph Connectors**, then select **Setup** for the connector from the menu. To learn about installed and draft connections, see [Managing connections added for Service Graph Connectors in SGC Central](../concept/sgcc-managing-connection.md).
 
@@ -156,7 +156,7 @@ Secret access key that corresponds to the Access key ID required for authenticat
 
     3.  In the Configure import schedule dialog box, select the **Active** check box, and then fill in the run schedule and time details.
 
-        For more information, see Schedule a data import.
+        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
     4.  Select **Save**.
 

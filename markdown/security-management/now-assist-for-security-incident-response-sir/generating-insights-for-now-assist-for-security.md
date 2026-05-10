@@ -34,7 +34,7 @@ The correlation insights generation skill must be activated before you can see t
 
 The correlation insights generation skill must be activated before you can see the **Generate correlation insights** option in the Now Assist panel.
 
-If you do not see the Now Assist panel, you must activate it. For more information, see Activate the Now Assist panel standard chat.
+If you do not see the Now Assist panel, you must activate it. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 -   You can generate correlation insights from a security incident record in any state in the Security Incident Response Workspace or in the legacy UI \(UI16\).
 -   By default, correlation insights search for matching records from the last 30 days.

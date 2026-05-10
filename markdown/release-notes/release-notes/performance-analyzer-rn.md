@@ -18,7 +18,7 @@ The ServiceNow® Performance Analyzer application enables you to access page loa
 -   Filter client interaction lists to investigate user-specific performance issues.
 -   View a waterfall with macroponent server-side calls.
 
-See Performance Analyzer for more information.
+See [Performance Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/performance-analyzer/performance-analyzer-landing.md) for more information.
 
 **Important:** Performance Analyzer is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 

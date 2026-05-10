@@ -18,7 +18,7 @@ The ServiceNow® Encryption Key Management application protects your data by usi
 -   Admins can share module keys between instances offline to facilitate instance clones between on-premise instances using KMF.
 -   The signing and verification processes for JWTs are now integrated as operation types in the existing KMFCryptoOperation class.
 
-See Key Management Framework for more information.
+See [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md) for more information.
 
 ## Important information for upgrading to Australia
 
@@ -29,7 +29,7 @@ See Key Management Framework for more information.
 
 ## New in the Australia release
 
--   **Added SHA512 support for message digests**
+-   **[Added SHA512 support for message digests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDigestScopedAPI.md)**
 
     GlideDigest has been updated to allow creation and verification of message digests using the SHA512 cryptographic hash function.
 
@@ -37,7 +37,7 @@ See Key Management Framework for more information.
 
     Admins can share module keys between instances offline to facilitate instance clones between on-premise instances using KMF.
 
--   **Sign and verify JSON web tokens \(JWT\) through KMFCryptoOperation**
+-   **[Sign and verify JSON web tokens \(JWT\) through KMFCryptoOperation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/KMFCryptoOperationBothAPI.md)**
 
     The signing and verification processes for JWTs are now integrated as operation types in the existing KMFCryptoOperation class.
 
@@ -56,11 +56,11 @@ See Key Management Framework for more information.
 
 ## Changed in this release
 
--   **Updated workflow for creating cryptographic modules**
+-   **[Updated workflow for creating cryptographic modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/create-cryptographic-module.md)**
 
     Use the streamlined workflow designed for faster, easier creation of cryptographic modules.
 
--   **SecurityUtils Enhancements**
+-   **[SecurityUtils Enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideSecurityUtilsScopedAPI.md)**
 
     The SecurityUtils API has been enhanced to help prevent cross-site scripting attacks, including methods to sanitize and escape input.
 
@@ -69,7 +69,7 @@ See Key Management Framework for more information.
 
 The Platform Encryption subscription bundle is a group commercial entitlement that includes Field Encryption Enterprise and Cloud Encryption.
 
-Field Encryption Enterprise is the unlimited license of Field Encryption. The Enterprise plugin is available with the activation of the com.glide.now.platform.encryption plugin. For details, see Encryption and Key Management subscription bundle.
+Field Encryption Enterprise is the unlimited license of Field Encryption. The Enterprise plugin is available with the activation of the com.glide.now.platform.encryption plugin. For details, see [Encryption and Key Management subscription bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/encryption-sku.md).
 
 **Parent Topic:**[ServiceNow AI Platform security release notes](now-platform-security-rn-landing.md)
 

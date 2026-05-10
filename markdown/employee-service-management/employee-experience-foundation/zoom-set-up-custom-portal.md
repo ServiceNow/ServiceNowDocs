@@ -128,7 +128,7 @@ Description for the HTTP response header.
 </td></tr></tbody>
 </table>    4.  Select **Submit**.
 
-        For more information about adding a header, see Configure HTTP response headers.
+        For more information about adding a header, see [Configure HTTP response headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-http-response-header.md).
 
 
 **Parent Topic:**[Employee Center for Zoom](zoom-ec-create-app.md)

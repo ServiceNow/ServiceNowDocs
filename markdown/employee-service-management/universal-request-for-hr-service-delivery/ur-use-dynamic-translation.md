@@ -29,7 +29,7 @@ As of now, you can only translate the short description, description and work no
 
 2.  Select the language.
 
-    **Note:** Only the languages that have been configured will be displayed. To activate a language, see Activate a Language
+    **Note:** Only the languages that have been configured will be displayed. To activate a language, see [Activate a Language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md)
 
 3.  Navigate to **Universal Requests** &gt; **All**.
 

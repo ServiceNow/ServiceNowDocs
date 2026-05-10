@@ -15,7 +15,7 @@ You can create a unique checklist for each task record. You can quickly create a
 
 ## Before you begin
 
-The Checklist formatter must be added to the form by a user with the personalize\_form role.
+The Checklist formatter must be [added to the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_FormDesign.md) by a user with the personalize\_form role.
 
 Role required: for the write role, read role, and delete role, the logged in user must be sys\_created\_by.
 

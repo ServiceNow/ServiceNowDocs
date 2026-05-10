@@ -119,7 +119,7 @@ Develop applications in source code with ServiceNow Fluent, create JavaScript mo
 
     Enhance App Engine applications with AI agents, skill, and agentic workflows that users can leverage at runtime with Now Assist for App Engine.
 
--   **Generate code with AI-powered code generation**
+-   **[Generate code with AI-powered code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/generate-scripts-from-text.md)**
 
     Generate scripts from text, code, or a combination of both with AI-powered code generation.
 
@@ -143,7 +143,7 @@ Build low-code apps quickly, with more creators and less complexity. Safely scal
 
     Empower business and IT to collaborate, manage, and govern low-code app development.​  Set development guardrails, apply standards, and check for compliance, all in one place.
 
--   **Engage your users**
+-   **[Engage your users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md)**
 
     Captivate users with a modern unified experience that’s easy to understand. Build mobile-first experiences using an intuitive, low-code designer.
 

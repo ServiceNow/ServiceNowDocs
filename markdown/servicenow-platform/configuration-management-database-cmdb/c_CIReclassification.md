@@ -54,7 +54,7 @@ However, with the following property settings, IRE updates the attributes but sk
 
 ## Configure automatic CI reclassification in input payloads
 
-You can use flags which correspond to the system properties, in the input payload of the CreateOrUpdateCIEnhanced\(\) or the createOrUpdateCI\(\)​ APIs. In the payload, set these flags to **true** or **false** to temporarily override the respective system property settings, at the payload item level.
+You can use flags which correspond to the system properties, in the input payload of the [CreateOrUpdateCIEnhanced\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/IdentificationEngineScopedAPI.md) or the [createOrUpdateCI\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_IdentEngineScriptAPI.md)​ APIs. In the payload, set these flags to **true** or **false** to temporarily override the respective system property settings, at the payload item level.
 
 For the following payload flags that control reclassification behavior, if any is set, the setting has precedence regardless of the setting of the corresponding **glide.class.xxx.enabled** property:
 
@@ -68,7 +68,7 @@ For the following payload flags that control reclassification behavior, the syst
 -   `updateWithoutDowngrade`
 -   `updateWithoutSwitch`
 
-Also, you can pass payload level settings \(which apply to all items within a payload\), per data source, by specifying CI reclassification properties on the Robust Import Set Transformers form. For more information, see Robust import set transformer properties.
+Also, you can pass payload level settings \(which apply to all items within a payload\), per data source, by specifying CI reclassification properties on the Robust Import Set Transformers form. For more information, see [Robust import set transformer properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/robust-import-set-xform-props.md).
 
 The following sample JSON payload enables automatic reclassification for the specified CI:
 

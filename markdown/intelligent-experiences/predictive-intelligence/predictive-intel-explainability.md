@@ -24,7 +24,7 @@ Analyze the importance of each input field to your model's predictions using mod
 
 Model explainability helps identify the key features that influence the model's predictions during training.
 
-**Note:** Explainability can't be added to an existing model. This method uses a script to create and train a new Workflow Classification model. For more information about scripting the creation of Classification solutions, see ClassificationSolution - Global.
+**Note:** Explainability can't be added to an existing model. This method uses a script to create and train a new Workflow Classification model. For more information about scripting the creation of Classification solutions, see [ClassificationSolution - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionAPI.md).
 
 The script provided in the procedure creates and trains a model with explainability set to true. On the new model's solution form, an additional tab labeled **Feature Importance** appears. This tab offers a graph of the relative contribution of each input to the prediction.![On the Solution form, the Feature Importance tab is highlighted. In the output (predicted) field, the value Global is selected, and an example graph is displayed.](../images/predictive-intel-explainability1.png)
 
@@ -117,7 +117,7 @@ Consider dropping input fields with low importance scores. Retrain your model af
 
 [Using Machine Learning APIs](../concept/using-ml-apis.md#)
 
-[bundle-crapiref.ClassificationSolutionAPI]
+[ClassificationSolution - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionAPI.md)
 
 [Create and train a classification solution](create-solution-definition.md)
 

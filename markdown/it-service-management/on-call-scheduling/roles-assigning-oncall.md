@@ -54,12 +54,12 @@ Shift manager \[rota\_manager\]
 
 The Shift manager role is for the manager of a group. The purpose of the role is to distinguish a member that has been delegated the role of managing shifts of a group. The role cannot be used to manage all groups on the instance.
 
- The role can be delegated to the members of a group. See Delegating roles .
+ The role can be delegated to the members of a group. See [Delegating roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_DelegateRoles.md) .
 
  A user with the Shift manager role that meets any of the following requirements can manage shifts for their group:
 
  -   The user is the manager of the group.
--   The user was delegated the rota\_manager role. For information on delegating the shift manager role, see [Delegate the shift manager \[rota\_admin\] role](../task/delegate-shift-mgr-role-oncall.md). For information on role delegation, see Delegate roles .
+-   The user was delegated the rota\_manager role. For information on delegating the shift manager role, see [Delegate the shift manager \[rota\_admin\] role](../task/delegate-shift-mgr-role-oncall.md). For information on role delegation, see [Delegate roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_DelegateRoles.md) .
 
 **Note:** When a user is delegated a role on behalf of a group, the user can manage the shifts only for that group.
 
@@ -95,11 +95,11 @@ DEPRECATED: roster\_admin
 **Related topics**  
 
 
-[bundle-platadm.base-system-roles]
+[System roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/base-system-roles.md)
 
-[bundle-platadm.r_BaseSystemRoles]
+[Base system Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md)
 
-[bundle-platadm.t_AssignRoleToGroup]
+[Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md)
 
-[bundle-platadm.t_AssignARoleToAUser]
+[Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md)
 

@@ -19,7 +19,7 @@ Activate the **GRC case summarization** skill from the Now Assist Admin console 
 
 Role required: sn\_nowassist\_admin.nsa\_admin and sn\_nowassist\_admin.user
 
-**Note:** The skill is turned on by default if you have Now Assist for IRM or Now Assist for Privacy Management installed. The skill is automatically available to appropriate role users for the applications. For more information, see Now Assist skills, agents, and agentic workflows on by default.
+**Note:** The skill is turned on by default if you have Now Assist for IRM or Now Assist for Privacy Management installed. The skill is automatically available to appropriate role users for the applications. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 ## Procedure
 

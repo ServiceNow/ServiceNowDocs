@@ -55,7 +55,7 @@ A procedure request case is based on a healthcare case that instead is based on 
 
 **Note:** The **Patient** field is mandatory for a procedure request case.
 
-For more information on tabs available for a customer service case, see Customer service case form.
+For more information on tabs available for a customer service case, see [Customer service case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_CustomerServiceCaseForm.md).
 
 ## What to do next
 

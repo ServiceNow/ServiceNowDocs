@@ -38,9 +38,9 @@ Document Services Framework for Google Drive enables a flow designer to:
 
 ## Spoke requirements
 
--   Google Drive Spoke
--   Google Directory Spoke
--   Google Docs Spoke
+-   [Google Drive Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/googledrive-spoke.md)
+-   [Google Directory Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/gdirectory-spoke.md)
+-   [Google Docs Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/gdocs-spoke.md)
 
 ## Spoke dependencies
 

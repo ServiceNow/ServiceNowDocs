@@ -31,9 +31,9 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
     The work configuration card displays in Work scheduler in manager workspace.
 
-    For information on setting up a work configuration, see Set up a work configuration.
+    For information on setting up a work configuration, see [Set up a work configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-work-scheduler.md).
 
-    For information on creating the work scheduler card, see Create a Work Scheduler card using UI Builder.
+    For information on creating the work scheduler card, see [Create a Work Scheduler card using UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/create-workscheduler-card-wfo-itsm.md).
 
 
 **Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](create-workscheduler-card-wfo-cs.md)

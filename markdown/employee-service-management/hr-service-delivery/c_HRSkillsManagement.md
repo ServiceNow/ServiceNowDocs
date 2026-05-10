@@ -21,7 +21,7 @@ Skills are also a way to ensure that HR cases are assigned to the correct group 
 
 When an HR case is opened:
 
--   Matching rules are used to determine case assignment by matching criteria. Refer to Matching rules for case assignment .
+-   Matching rules are used to determine case assignment by matching criteria. Refer to [Matching rules for case assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-assignment-matching-rules.md) .
 -   An HR template is applied based on the HR Service selected.
 -   An HR template assigns the skill required for the case or task.
 -   The skill determines which group or individual is assigned to the case.

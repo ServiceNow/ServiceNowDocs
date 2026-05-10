@@ -28,7 +28,7 @@ Use models as the foundation for ERP apps. These models include ERP system data 
 
 Zero Copy Connector for ERP content packs are sets of predefined models and process extensions that are useful examples for developers with little or no SAP domain knowledge. Content packs accelerate the work so that building uses cases involving SAP data becomes a faster process that more developers can accomplish. For more information, see [Zero Copy Connector for ERP content packs](erp-canvas-content-packs.md).
 
-**Note:** For information about new and updated features in the Australia release, see Zero Copy Connector for ERP release notes.
+**Note:** For information about new and updated features in the Australia release, see [Zero Copy Connector for ERP release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/zero-copy-connector-for-erp-rn.md).
 
 <table id="table_iwv_lpv_klb1" class="nav-card"><tbody><tr><td>
 

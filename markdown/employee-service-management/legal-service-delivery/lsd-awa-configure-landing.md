@@ -25,7 +25,7 @@ Configure the Advanced Work Assignment for Legal Service Delivery.
 
     Configure various components, such as service channels, work item queues, and assignment rules that determine how a legal request should be routed to an agent.
 
--   **Activate Skills Management**
+-   **Activate [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skills-management.md)**
 
     If you are going to use skill determination rules to map a skill to an legal request, activate Skills Management \[com.snc.skills\_management\].
 

@@ -30,7 +30,7 @@ The following items are installed with Service Exchange Order Management for Pro
 -   Scheduled jobs
 -   Tables
 
-For more information, see Find components installed with an application. .
+For more information, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md). .
 
 ## Procedure
 

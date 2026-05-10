@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-In addition to the manual option **Generate Time Cards**, a scheduled job can be run to automatically generate the time cards for project tasks. A job can be scheduled to run every week, for example, on every Sunday to generate time sheets for all users for the next week. You can configure when to run the scheduled job based on the business process of the organization. By default, the scheduled job is turned off. For more information, see Schedule a script execution .
+In addition to the manual option **Generate Time Cards**, a scheduled job can be run to automatically generate the time cards for project tasks. A job can be scheduled to run every week, for example, on every Sunday to generate time sheets for all users for the next week. You can configure when to run the scheduled job based on the business process of the organization. By default, the scheduled job is turned off. For more information, see [Schedule a script execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ScheduleAScriptExecution.md) .
 
 **Note:** The scheduled job auto-generates time cards only for those users who have the **Auto create time cards every week** option set to true in their assigned [time sheet policy](create-time-sheet-policy.md#time_sheet_policy_form).
 

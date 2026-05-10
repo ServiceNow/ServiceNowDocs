@@ -15,7 +15,7 @@ breadcrumb: [Integration with ServiceNow applications, Legal Service Delivery, L
 
 Use Advanced Work Assignment for Legal Service Delivery feature to automatically assign legal requests to agents from the legal department \(a paralegal staff or lawyer\) based on availability, capacity, and optionally skills.
 
-To route legal requests using skills, you need to set up Skills Management. For more information, see Skills Management
+To route legal requests using skills, you need to set up Skills Management. For more information, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skills-management.md)
 
 **Note:** If you're using skill management, ensure you have the right subscription.
 

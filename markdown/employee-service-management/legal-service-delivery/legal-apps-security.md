@@ -32,7 +32,7 @@ When you define cross-scope access to an application resource, use the following
     This setting is recommended for the production phase after development is complete.
 
 
-For more information, refer to Define cross-scope access to an application resource.
+For more information, refer to [Define cross-scope access to an application resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/set-RCA-level.md).
 
 ## Encryption for Legal Service Delivery
 
@@ -46,15 +46,15 @@ For more information on encryption, see Field Encryption.
 
 ServiceNow® Edge Encryption ™ encrypts sensitive data on your company premises before sending it over the internet to your ServiceNow instance \(encrypted in flight\), where it remains encrypted at rest.
 
-For more information, see Understanding Edge Encryption.
+For more information, see [Understanding Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EdgeEncryptionOverview.md).
 
-Because edge encryption is enabled on a proxy server on your side of the network, there is significant planning, network administration and management, and setup required. For more information, see Planning for Edge Encryption.
+Because edge encryption is enabled on a proxy server on your side of the network, there is significant planning, network administration and management, and setup required. For more information, see [Planning for Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EdgeEncryptionPlanning.md).
 
-To install edge encryption, see Edge Encryption installation.
+To install edge encryption, see [Edge Encryption installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md).
 
-To configure edge encryption, see Edge Encryption configuration.
+To configure edge encryption, see [Edge Encryption configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-config.md).
 
-You can encrypt columns \(fields\) or attachments associated with tables. See Encrypt fields using encryption configurations.
+You can encrypt columns \(fields\) or attachments associated with tables. See [Encrypt fields using encryption configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_ConfigureCloudEdge.md).
 
-**Note:** There are limitations when using edge encryption. See Edge Encryption limitations.
+**Note:** There are limitations when using edge encryption. See [Edge Encryption limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-encryption-limitations.md).
 

@@ -56,7 +56,7 @@ If you haven't configured your playbook for ServiceNow® mobile in UI Builder ye
 
     /now/playbook-mobile/playbook/interaction/-1/params/view/stages​​​​​​​?web\_controller\_spinner=on
 
-10. If you have any roles you want to limit this screen to, or any other configurations you would like to learn more about, see Configure a mobile web screen.
+10. If you have any roles you want to limit this screen to, or any other configurations you would like to learn more about, see [Configure a mobile web screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-url-screen.md).
 
 11. **Save** the screen.
 

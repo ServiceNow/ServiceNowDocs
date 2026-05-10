@@ -37,15 +37,15 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   Higher-level role, for example: SELECT ANY TABLE.
 -   **Configure applicative credentials**
 
-    Configure applicative credentials for the Oracle instance \[cmdb\_ci\_db\_ora\_instance\] CI type. For more information, see Applicative credentials.
+    Configure applicative credentials for the Oracle instance \[cmdb\_ci\_db\_ora\_instance\] CI type. For more information, see [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/applicative-creds.md).
 
 -   **Configure Windows credentials for Windows operating system \(OS\)**
 
-    For more information, see Windows credentials.
+    For more information, see [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md).
 
 -   **Configure UNIX credentials for UNIX OS**
 
-    For more information, see SSH credentials.
+    For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
 
 
 ## Data collected by Discovery during horizontal discovery

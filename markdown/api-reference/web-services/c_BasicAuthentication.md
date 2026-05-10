@@ -36,5 +36,5 @@ Some older browsers, such as Microsoft IE 7 do not support direct URL authentica
 
 [http://support.microsoft.com/kb/834489](http://support.microsoft.com/kb/834489)
 
-[bundle-psec.sc-rss-request-authorization]
+[RSS request authorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-rss-request-authorization.md)
 

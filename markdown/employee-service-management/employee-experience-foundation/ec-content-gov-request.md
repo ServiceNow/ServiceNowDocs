@@ -253,7 +253,7 @@ The type of content you want communicated. The type of content depends on what t
 -   Email
 -   SMS Text
 
-**Note:** Requires integration with Notify. For more information, see Notify.
+**Note:** Requires integration with Notify. For more information, see [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-landing-page.md).
 
 -   Other
 
@@ -395,7 +395,7 @@ The person assigned to create the content from the content request.**Note:** Aft
 
 The group assigned to create the content from the content request. If you select an assignment group, the Assigned to person must be a member or the selected group.
 
- **Note:** For more information, see Manage ownership groups.
+ **Note:** For more information, see [Manage ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-edit-ownership-group.md).
 
  When you enter an assignment group in this field, it automatically appears in the **Assignment group** field for a Content Request Item. You can only enter members of that group to the **Assigned to** field for a Content Request Item.
 
@@ -575,7 +575,7 @@ The person assigned to create the content from the content request.This field is
 
 The group assigned to create the content from the content request. If you select an assignment group, the Assigned to person must be a member or the selected group.
 
- **Note:** For more information, see Manage ownership groups.
+ **Note:** For more information, see [Manage ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-edit-ownership-group.md).
 
  When an assignment group is entered in the **Assignment group** field for a Content Request, it automatically appears in this field.
 

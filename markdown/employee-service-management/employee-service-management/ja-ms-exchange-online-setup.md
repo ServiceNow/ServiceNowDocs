@@ -22,11 +22,11 @@ Some integrations and related plugins require activation by ServiceNow® personn
 
 ## Journey Accelerator v2
 
--   **Microsoft AD Spoke \[com.sn.ad.spoke\]**
+-   **[Microsoft AD Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/microsoft-ad-spoke.md) \[com.sn.ad.spoke\]**
 
     Provides communication between Journey Accelerator and Microsoft Active Directory to manage objects such as users, groups, and computers.
 
--   **Microsoft Azure AD spoke \[com.sn.azure\_ad.spoke\]**
+-   **[Microsoft Azure AD spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/microsoft-azure-ad-spoke.md) \[com.sn.azure\_ad.spoke\]**
 
     Provides security requirements to Journey Accelerator so that users, security groups, and office groups are appropriately managed.
 
@@ -62,5 +62,5 @@ For detailed steps, see [Update system properties for Microsoft Exchange Online 
 **Related topics**  
 
 
-[bundle-crint.request-ih-overview]
+[Request IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md)
 

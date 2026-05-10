@@ -101,7 +101,7 @@ The fields in the CMDB Class \[cmdb\_ci\_computer\] table that identify the Wi-F
 
 </td><td>
 
-The CMDB Class table to look up to identify the device and owner matching the Wi-Fi Bluetooth LE \(BLE\) client in the Wi-Fi access logs. The default value is cmdb\_ci\_wearable.**Note:** The Wearable Technology table \[cmdb\_ci\_wearable\] is installed with the CMDB CI Class Models application available through the ServiceNow Store. For more information, see CMDB CI Class Models.
+The CMDB Class table to look up to identify the device and owner matching the Wi-Fi Bluetooth LE \(BLE\) client in the Wi-Fi access logs. The default value is cmdb\_ci\_wearable.**Note:** The Wearable Technology table \[cmdb\_ci\_wearable\] is installed with the CMDB CI Class Models application available through the ServiceNow Store. For more information, see [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-iot.md).
 
 </td></tr><tr><td>
 

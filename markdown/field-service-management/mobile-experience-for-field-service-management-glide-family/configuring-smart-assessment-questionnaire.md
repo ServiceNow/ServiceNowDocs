@@ -24,7 +24,7 @@ Use the Smart Assessment Engine template designer to do the following:
 -   Configure conditional questions based on responses of all other types of questions and across sections.
 -   Allow additional comments or attachments on a question's response.
 
-For more information, see Smart Assessment Engine.
+For more information, see [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md).
 
 **Important:** Usage of Smart Assessment questionnaire can't be disabled once enabled.
 

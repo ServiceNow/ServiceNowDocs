@@ -19,7 +19,7 @@ Use this API to create up to 5,000 monitors per request. For smaller batch opera
 
 Monitors can be created using data in JSON or CSV format. For more information about using JSON or CSV files with Postman or Terminal, see the [Synthetic Monitoring Developer Guide](../../guides/SyntheticMonitoring/concept/synth-monitor_dev-guide.md#).
 
-This API requires the Synthetic monitoring application \(com.snc.uib.sow\_synthetics\), which is available on the ServiceNow Store. Before calling this API, at least one MID Server location must be configured for synthetic monitoring. For instructions, see Create synthetic monitoring locations. Additionally, configuration items \(CIs\) for the endpoints being monitored must exist in the Configuration Management Database \(CMDB\).
+This API requires the [Synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/synthetic-monitoring-landing-page.md) application \(com.snc.uib.sow\_synthetics\), which is available on the ServiceNow Store. Before calling this API, at least one MID Server location must be configured for synthetic monitoring. For instructions, see [Create synthetic monitoring locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitoring-locations.md). Additionally, configuration items \(CIs\) for the endpoints being monitored must exist in the [Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ITILConfigurationManagement.md).
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 

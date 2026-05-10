@@ -23,7 +23,7 @@ Role required: admin
 
 2.  Add the **glide.activity.show\_tile\_icons** system property.
 
-    For more information on adding system property, see Add a system property.
+    For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 3.  Set the Value to **true**.
 

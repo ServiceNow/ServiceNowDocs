@@ -32,7 +32,7 @@ Use the ServiceNow Localization Framework to standardize and track the translati
     -   Auto translation and publication
     -   Approval required for translation and publication
 
-To learn more, see Localization Framework. To learn more about localization roles, see [Localization roles for Virtual Agent](../reference/localization-roles-va.md#).
+To learn more, see [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-framework-landing.md). To learn more about localization roles, see [Localization roles for Virtual Agent](../reference/localization-roles-va.md#).
 
 ## Localizing topics
 
@@ -44,7 +44,7 @@ The localization process flow depends on the method of topic discovery that you 
 
 -   Natural Language Understanding \(NLU\) topic discovery
 
-    If your topics use NLU, both the topic and the model group must be localized. When you request a translation from Virtual Agent Designer, the topic and any optional keywords are translated. You must request translation for model groups from NLU Workbench. For more information about that process, see Translate a multilingual model.
+    If your topics use NLU, both the topic and the model group must be localized. When you request a translation from Virtual Agent Designer, the topic and any optional keywords are translated. You must request translation for model groups from NLU Workbench. For more information about that process, see [Translate a multilingual model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/translate-multilingual-model.md).
 
     Once the topic and secondary models are localized, you may need to [map the models to the topic](../task/map-nlu-language-model.md) before publishing them.
 
@@ -57,17 +57,17 @@ Do the following before you begin managing translations:
 
 -   Activate the ServiceNow plugin for each language you want to support.
 
-    The Localization Framework is also installed by default. For more information, see Activate a language.
+    The Localization Framework is also installed by default. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 
 -   Configure the translation mode that you want to use in the Localization Framework.
 
-    You can configure machine translation, a translation management system \(TMS\), or send via email. For more information, see Translation modes.
+    You can configure machine translation, a translation management system \(TMS\), or send via email. For more information, see [Translation modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/translation-modes.md).
 
 -   If you are using Natural Language Understanding \(NLU\), enable languages in Virtual Agent settings.
 
     For more information, see [Enable NLU languages in Virtual Agent settings](../task/enable-langs-va-gen-settings.md).
 
--   If necessary, add secondary languages to your NLU model group. For more information, see Multilingual model management.
+-   If necessary, add secondary languages to your NLU model group. For more information, see [Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/multilingual-model-managent.md).
 -   Assign localization roles to team member groups.
 
     Users are assigned different roles based on their responsibilities for the translation process. For more information, see [Localization roles for Virtual Agent](../reference/localization-roles-va.md#).

@@ -4,7 +4,7 @@ description: Request policy exceptions using the GRC policy exception management
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Configure Exception Management for Security Exposure Management, Implement, Unified Security Exposure Management, Security Operations]
 ---

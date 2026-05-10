@@ -19,7 +19,7 @@ Administrators can enable conversational features by setting up the Now Assist p
 
 Workplace users can leverage the Now Assist Panel-Platform by configuring the Now Assist for WSD. Now Assist for Workplace Service Delivery \(WSD\) can be configured to handle queries about reservations, connectors, and utilization. The Now Assist Panel Platform application provides conversational experiences for Workplace Service Delivery flows.
 
-For more information about Now Assist in Virtual Agent, see Now Assist in Virtual Agent.
+For more information about Now Assist in Virtual Agent, see [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md).
 
 ## Before you begin
 

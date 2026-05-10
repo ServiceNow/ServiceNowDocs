@@ -17,5 +17,5 @@ You can manage the process of self-registration for your patients on the Patient
 
 As a user with the admin role, you can create a service portal page to define the fields for the page from where patients can create an account on the Patient Portal and then embed the page in the Patient Portal.
 
-By default, the **patient\_registration** service portal page is available for creating an account on the Patient Portal. You can use the default page to add more fields or create your own page. For more information, see Service Portal pages.
+By default, the **patient\_registration** service portal page is available for creating an account on the Patient Portal. You can use the default page to add more fields or create your own page. For more information, see [Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_Pages.md).
 

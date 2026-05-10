@@ -17,12 +17,12 @@ Confirm required applications are installed to enable legal users to submit a Co
 
 Role required: admin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see Now Assist skills, agents, and agentic workflows on by default.
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 -   Confirm you have installed and configured the following applications for the conversational intake for COI.
     -   Now Assist in Conversational Catalog Request \(sn\_now\_assist\_cr\)
     -   Catalog Conversational CoverageApp id \(sn\_catalog\_con\_cov\)
--   Confirm AI Search is enabled. For more information, see Configuring AI Search.
--   Confirm the Now Assist panel is turned on. For more information, see Activate the Now Assist panel standard chat.
--   Confirm Now Assist in Virtual Agent is configured. For more information, see .
+-   Confirm AI Search is enabled. For more information, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ais.md).
+-   Confirm the Now Assist panel is turned on. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+-   Confirm Now Assist in Virtual Agent is configured. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md)
 

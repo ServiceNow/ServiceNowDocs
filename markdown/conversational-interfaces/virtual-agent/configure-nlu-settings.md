@@ -31,7 +31,7 @@ Role required: virtual\_agent\_admin or admin
 
 The NLU-enabled topics that you preview, create, or update in Virtual Agent Designer must use NLU models created in the NLU service that you select here. For example, if you specify ServiceNow as the service provider, you can view and access topics that use ServiceNow NLU model groups.
 
-Similarly, to work on NLU topics in multiple languages, the languages must be enabled in your NLU service and added to your model groups. For more information, see Multilingual model management.
+Similarly, to work on NLU topics in multiple languages, the languages must be enabled in your NLU service and added to your model groups. For more information, see [Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/multilingual-model-managent.md).
 
 ## Procedure
 

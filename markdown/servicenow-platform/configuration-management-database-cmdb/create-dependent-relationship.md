@@ -58,7 +58,7 @@ The class for which you create dependent relationship rule, must have a [depende
 
 You can click **Reset to derived** and then confirm the operation to delete all dependent relationship rules that were added specifically for the selected class. Only dependent relationships that are derived from a parent class, remain.
 
-For more information about child and parent classes, see Table extension and classes.
+For more information about child and parent classes, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/table-extension-and-classes.md).
 
 ## Create or edit a collection of containment rules
 

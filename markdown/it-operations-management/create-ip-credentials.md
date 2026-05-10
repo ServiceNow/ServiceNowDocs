@@ -28,7 +28,7 @@ Role required: discovery\_admin
 
 IP credentials store the authentication information that Discovery needs to access devices in your network. When Discovery runs, it tries each credential in the order you specify until it finds one that works for a given device. Set the credential order to control which credentials Discovery tries first. This is especially important when security policies lock out users after failed login attempts.
 
-For more information about credential types and requirements, see Create and test your credentials.
+For more information about credential types and requirements, see [Create and test your credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/t_CreateCredential.md).
 
 ## Procedure
 
@@ -42,20 +42,20 @@ For more information about credential types and requirements, see Create and tes
 
     |Credential type|Description|
     |---------------|-----------|
-    |Applicative Credentials|Credentials for discovering applications running on host machines.|
-    |Basic Auth Credentials|Credentials that use basic authentication with a user name and password.|
-    |CIM Credentials|Credentials for devices that use the Common Information Model protocol.|
+    |[Applicative Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/applicative-creds.md)|Credentials for discovering applications running on host machines.|
+    |[Basic Auth Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md)|Credentials that use basic authentication with a user name and password.|
+    |[CIM Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_CIMCredentialsForm.md)|Credentials for devices that use the Common Information Model protocol.|
     |Kubernetes Credentials|Credentials for discovering Kubernetes clusters and resources.|
     |oVirt Credentials|Credentials for oVirt virtualization environments.|
     |Secondary Bot Hash Token Credential|Token credentials for secondary bot integrations that use existing tokens.|
     |Secondary Bot Static Token Credential|Static token credentials for secondary bot integrations.|
-    |SNP Community Credentials \(Password Only\)|Credentials that use an SNMP community string for network devices.|
-    |SNMPv3 Credentials|Credentials that use the SNMPv3 protocol with authentication and privacy options.|
-    |SSH Credentials|Credentials for Linux, UNIX, and other SSH-enabled devices.|
-    |SSH Private Key Credentials|Credentials that use an SSH private key for authentication instead of a password.|
+    |[SNP Community Credentials \(Password Only\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md)|Credentials that use an SNMP community string for network devices.|
+    |[SNMPv3 Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md)|Credentials that use the SNMPv3 protocol with authentication and privacy options.|
+    |[SSH Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md)|Credentials for Linux, UNIX, and other SSH-enabled devices.|
+    |[SSH Private Key Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md)|Credentials that use an SSH private key for authentication instead of a password.|
     |SSL Keystore Credentials|Credentials that use an SSL keystore for secure communication.|
-    |VMWare Credentials|Credentials for VMware vCenter environments.|
-    |Windows Credentials|Credentials for Windows devices that use WMI or WinRM protocols.|
+    |[VMWare Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_VMwareCredentialsForm.md)|Credentials for VMware vCenter environments.|
+    |[Windows Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md)|Credentials for Windows devices that use WMI or WinRM protocols.|
 
 4.  Select **Create new**.
 
@@ -122,5 +122,5 @@ Enter the sequence in which Discovery tries this credential when it attempts to 
 **Related topics**  
 
 
-[bundle-psec.credentials-getting-started]
+[Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-getting-started.md)
 

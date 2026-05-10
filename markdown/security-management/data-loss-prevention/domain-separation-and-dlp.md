@@ -24,7 +24,7 @@ You can use domain separation with DLP Incident Response to separate the data, p
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## How domain separation works with DLP Incident Response
 

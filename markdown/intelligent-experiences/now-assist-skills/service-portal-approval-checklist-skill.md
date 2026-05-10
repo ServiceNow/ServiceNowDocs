@@ -55,5 +55,5 @@ The output is presented in a two-step format: Criteria \(what is required\) and 
     The Requester Approval Checklist respects the approval configuration to provide flexibility and control.
 
 
-For more information, see [Platform Approval assistance AI agent](../../now-assist-ai-agents/concept/platform-approval-aia.md) and Configure Service Portal Approval Configuration record.
+For more information, see [Platform Approval assistance AI agent](../../now-assist-ai-agents/concept/platform-approval-aia.md) and [Configure Service Portal Approval Configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-approval-assistance-ai-agent.md).
 

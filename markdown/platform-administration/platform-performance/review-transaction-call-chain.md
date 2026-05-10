@@ -27,7 +27,7 @@ Role required: admin
 
     For a description of the field values in the Transaction Call Chain form, see [Transaction call chain form](../reference/transaction-call-chain-form.md).
 
-    **Note:** You can view transaction log detail by selecting the **Transaction Log** field for the selected call chain component or script. To learn more, see Transaction logs.
+    **Note:** You can view transaction log detail by selecting the **Transaction Log** field for the selected call chain component or script. To learn more, see [Transaction logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_TransactionLogs.md).
 
 
 **Parent Topic:**[Transaction call chains](../concept/transaction-call-chains.md)

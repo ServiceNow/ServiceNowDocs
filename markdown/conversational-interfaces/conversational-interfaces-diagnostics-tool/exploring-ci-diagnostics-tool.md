@@ -41,7 +41,7 @@ For example, the diagnostic workflow does the following:
 -   Gives you the option of downloading diagnostic support information.
 -   Lets you select another issue to solve.
 
-The diagnostic workflow and the options and prompts you see correspond to the issue you are trying to diagnose and solve. The diagnostic workflow uses an AI Search filter as part of the diagnosis. For more information about AI Search and how to configure it, see Configuring AI Search.
+The diagnostic workflow and the options and prompts you see correspond to the issue you are trying to diagnose and solve. The diagnostic workflow uses an AI Search filter as part of the diagnosis. For more information about AI Search and how to configure it, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ais.md).
 
 The diagnostic topic block workflow also includes solutions for messaging integrations, such as Microsoft Teams. It also helps with Advanced Work Assignment configuration issues.
 

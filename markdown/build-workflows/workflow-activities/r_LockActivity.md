@@ -61,7 +61,7 @@ Key
 
 </td><td>
 
-A unique mutex key. The Unlock activity activity uses this key to release the lock.
+A unique mutex key. The [Unlock activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/r_UnlockActivity.md) activity uses this key to release the lock.
 
 </td></tr><tr><td class="subhead" colspan="2">
 

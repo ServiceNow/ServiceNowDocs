@@ -25,9 +25,9 @@ Several types of components are installed with the activation of the Skills Foun
 
 You can assign these roles to the appropriate roles, groups, or users in your application.
 
--   For information about how to assign a role to another role, see Add a role to an existing role.
--   For information about how to assign a role to a group, see Assign a role to a group.
--   For information about how to assign a role to a user, see Assign a role to a user.
+-   For information about how to assign a role to another role, see [Add a role to an existing role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AddARoleToAnExistingRole.md).
+-   For information about how to assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
+-   For information about how to assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
 ## Tables installed
 

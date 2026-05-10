@@ -19,7 +19,7 @@ With the embedded task automation feature, you can trigger attended bot processe
 
 ## Attended Robot authentication journey in Embedded Task Automation
 
-After you install the Attended Robot application in a Windows machine, it registers a URL schema 'snrdaforms' with Attended Robot, starting from the Washington DC release. This URL schema is used whenever a redirect occurs from OAuth. For more information about OAuth, see OAuth Inbound and Outbound authentication.
+After you install the Attended Robot application in a Windows machine, it registers a URL schema 'snrdaforms' with Attended Robot, starting from the Washington DC release. This URL schema is used whenever a redirect occurs from OAuth. For more information about OAuth, see [OAuth Inbound and Outbound authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/api-inbound-and-outbound.md).
 
 RPA assisted user selects the form action and this action redirects the user to the OAuth authentication.
 

@@ -17,32 +17,32 @@ The ServiceNow® Card data security application helps you tokenize sensitive dat
 -   Display sensitive documents, and mask or reveal PANs in the FSO workspace with the Card data security container.
 -   View external documents from card networks, acquirers, and merchants at the transaction level of a dispute in an updated Attachments view.
 
-See Card Data Security for more information.
+See [Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/card-data-security.md) for more information.
 
 **Important:** Card data security is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **View documents in the tokenizer service vault**
+-   **[View documents in the tokenizer service vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/card-data-security-component.md)**
 
     Use the Card data security container to display documents in the tokenizer service vault without storing sensitive documents in your ServiceNow instance.
 
--   **PAN display**
+-   **[PAN display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/reveal-a-pan-using-card-data-security.md)**
 
     Display, mask, or redact PAN values in the workspace with the Card data security container.
 
--   **Updated attachment panel**
+-   **[Updated attachment panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md)**
 
     View external documents from card networks, acquirers, and merchants at the transaction level of a dispute, which are stored in the tokenizer service vault.
 
--   **Mastercard and Visa integration updates**
+-   **[Mastercard and Visa integration updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/spokes.md)**
 
     Updated Mastercard and Visa actions and integrations to support document download in Card data security.
 
 
 ## UI changes
 
--   **Attachments panel**
+-   **[Attachments panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md)**
 
     A UI builder page has been added to display external documents from card networks, acquirers, and merchants at the transaction level when Card data security is installed.
 
@@ -53,15 +53,15 @@ Install Card data security by requesting it from the ServiceNow Store. Visit the
 
 ## Related ServiceNow applications and features
 
--   **Dispute Management**
+-   **[Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-management.md)**
 
     Use Card data security to provide secure access to PCI data in your disputes workflow.
 
--   **Financial Services Operations Integration with Visa**
+-   **[Financial Services Operations Integration with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-integration-with-visa-landing-page.md)**
 
     Integrate with Visa to receive attachments containing PCI data from this card network.
 
--   **Financial Services Operations Integration with Mastercard**
+-   **[Financial Services Operations Integration with Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-integration-with-mastercard-landing-page.md)**
 
     Integrate with Mastercard to receive attachments containing PCI data from this card network.
 

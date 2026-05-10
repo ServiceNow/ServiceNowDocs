@@ -19,9 +19,9 @@ Use the ServiceNow Advanced Work Assignment for Legal Service Delivery feature t
 
 Advanced Work Assignment for Legal Service Delivery routes legal request to qualified agents from the legal department \(a paralegal staff or lawyer\) using work item queues, routing conditions, and assignment criteria that you define. The base system has configuration available for General Legal Request and Ethics Complaint. You can define your own configuration for other types of legal requests.
 
-For more information, see Exploring Advanced Work Assignment.
+For more information, see [Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md).
 
-If you want to use skills as one of the criteria for routing legal requests, ensure you have activated Skills Management \[com.snc.skills\_management\]. For more information, see Skills Management
+If you want to use skills as one of the criteria for routing legal requests, ensure you have activated Skills Management \[com.snc.skills\_management\]. For more information, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skills-management.md)
 
 **Note:** If you're using skill management, ensure you have the right subscription.
 
@@ -40,7 +40,7 @@ If you want to use skills as one of the criteria for routing legal requests, ens
 |-------|-------|-----|
 |Automatic assignment of legal request based on availability, capacity and skills.|Advanced Work Assignment|Legal fulfiller|
 
-For more information on the benefits of Advanced Work Assignment, see Exploring Advanced Work Assignment
+For more information on the benefits of Advanced Work Assignment, see [Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md)
 
 ## What to explore next
 

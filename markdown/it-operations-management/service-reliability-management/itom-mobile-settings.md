@@ -19,5 +19,5 @@ Learn about ITOM Mobile Agent settings. You can view the app version, give feedb
 
 ITOM Mobile Agent auto-integrates with ITSM Mobile Agent, letting you manage alerts, incidents, and on-call schedules from the same mobile app. Visit the following ITSM Mobile Agent documentation to learn more about your mobile app settings.
 
-Settings
+[Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/settings-mobile.md)
 

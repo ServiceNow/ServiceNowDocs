@@ -60,5 +60,5 @@ Schedule when to run the deflection configuration to generate the activities tha
 **Related topics**  
 
 
-[bundle-csm.ssa-cs-dashboard]
+[Self-Service Analytics dashboard for customer service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analytics-and-reporting-solutions-for-customer-service/ssa-cs-dashboard.md)
 

@@ -22,7 +22,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 You must have already added the create or update operation before you can add an entity to it. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](erpc-manage-models-read-op.md).
 
-Explore the API for interacting with Zero Copy Connector for ERP models. For detailed information and examples for using the API, see sn\_erp\_integration API - Scoped, Global.
+Explore the API for interacting with Zero Copy Connector for ERP models. For detailed information and examples for using the API, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
 
 ## Procedure
 

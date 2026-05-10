@@ -4,7 +4,7 @@ description: Perform the Disconnect operation on single or multiple product inve
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Product inventory configurations, Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---

@@ -147,7 +147,7 @@ Connection to Infoblox server
 
 ## MID Server requirements
 
-These actions use REST calls, which must run on a MID Server. Use the connection record associated with the Infoblox alias to configure where actions run as well as set MID Server selection attributes. For more information, see MID server.
+These actions use REST calls, which must run on a MID Server. Use the connection record associated with the Infoblox alias to configure where actions run as well as set MID Server selection attributes. For more information, see [MID server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
 
 To set up the MID Server for this spoke, see [Set up MID Server for a spoke](../task/config-adv-mid-settings-for-oauth-on-mid.md).
 

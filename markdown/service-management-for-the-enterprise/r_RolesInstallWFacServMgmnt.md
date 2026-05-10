@@ -15,7 +15,7 @@ Roles control access to features and capabilities in Facilities Service Manageme
 
 Facilities Service Management adds the following roles.
 
-**Note:** You must add the Notify viewer \(notify\_view\) role to employees you want to view notify \(conference calls and SMS messages\) content. For more information, see Roles installed with Notify.
+**Note:** You must add the Notify viewer \(notify\_view\) role to employees you want to view notify \(conference calls and SMS messages\) content. For more information, see [Roles installed with Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/r_NotifyRoles.md).
 
 <table id="table_b4f_jcp_yq"><thead><tr><th>
 

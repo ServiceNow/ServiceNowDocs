@@ -59,15 +59,15 @@ When you want to block an observable that you have determined is malicious, or a
 
     ![No matching observable exists.](../image/4-30-notexisting-obsv-url.png)
 
-<table id="choicetable_r4s_ryh_vdb"><thead><tr><th align="left" id="d326609e195">
+<table id="choicetable_r4s_ryh_vdb"><thead><tr><th align="left" id="d326613e195">
 
 Field
 
-</th><th align="left" id="d326609e198">
+</th><th align="left" id="d326613e198">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d326609e204">
+</th></tr></thead><tbody><tr><td id="d326613e204">
 
 **Observable type**
 
@@ -75,7 +75,7 @@ Description
 
 Observable type that is supported from the dialog.
 
-</td></tr><tr><td id="d326609e213">
+</td></tr><tr><td id="d326613e213">
 
 **EDL name**
 
@@ -83,7 +83,7 @@ Observable type that is supported from the dialog.
 
 EDL you want to attach the entry to. **Note:** Select the EDL want to attach the entry to prior to setting the Expiration period.
 
-</td></tr><tr><td id="d326609e225">
+</td></tr><tr><td id="d326613e225">
 
 **Enable override \(default is selected\)**
 
@@ -91,7 +91,7 @@ EDL you want to attach the entry to. **Note:** Select the EDL want to attach the
 
 Lookup result or source. When configured, permits you to enter a **Lookup result** and the source used to find the results. These fields are typically populated when a security incident record is created. In this case, there is no lookup result or source, and you fill in these fields in manually.
 
-</td></tr><tr><td id="d326609e237">
+</td></tr><tr><td id="d326613e237">
 
 **Lookup result**
 
@@ -99,7 +99,7 @@ Lookup result or source. When configured, permits you to enter a **Lookup result
 
 Select **Unknown** or **Malicious**.
 
-</td></tr><tr><td id="d326609e253">
+</td></tr><tr><td id="d326613e253">
 
 **Source**
 
@@ -107,7 +107,7 @@ Select **Unknown** or **Malicious**.
 
 Source that performs a threat lookup on the EDL entry, for example, ThreatCrowd, etc.
 
-</td></tr><tr><td id="d326609e262">
+</td></tr><tr><td id="d326613e262">
 
 **Expiration period**
 
@@ -128,15 +128,15 @@ The expiration period inherited from the EDL by default. You can override this v
 
 9.  Choose one option to configure the expiration period.
 
-<table id="choicetable_mrw_213_vdb"><thead><tr><th align="left" id="d326609e318">
+<table id="choicetable_mrw_213_vdb"><thead><tr><th align="left" id="d326613e318">
 
 Option
 
-</th><th align="left" id="d326609e321">
+</th><th align="left" id="d326613e321">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d326609e327">
+</th></tr></thead><tbody><tr><td id="d326613e327">
 
 **Yes**
 
@@ -144,7 +144,7 @@ Description
 
 Confirms your expiration override, saves the record, and returns you to the **Palo Alto Networks Firewall External Dynamic List Entries** list. If you have email approval configured in your workflow, an approval email request is sent.
 
-</td></tr><tr><td id="d326609e339">
+</td></tr><tr><td id="d326613e339">
 
 **No**
 

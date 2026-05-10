@@ -47,7 +47,7 @@ The output of your NLU models can be consumed by the ServiceNow applications Vir
 
 ## NLU Models for Virtual Agent
 
-For more information on Virtual Agent, see Virtual Agent.
+For more information on Virtual Agent, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md).
 
 -   The tab for Virtual Agent displays a list of models. Select a model name to open an overview page for that model.
 -   The **Show Prebuilt Models** toggle is off by default. Switch this toggle on to display read-only models that can be copied and used as the basis for your custom models.
@@ -62,7 +62,7 @@ Fewer functions and columns are displayed for IAR than for the other application
 -   The **Create new model** button is not displayed because the prebuilt model is used directly.
 -   The section **Boost your model performance** is not displayed.
 
-For more information on setting up IAR, see Using Issue Auto Resolution.
+For more information on setting up IAR, see [Using Issue Auto Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/auto-resolution-va.md).
 
 ## NLU Models for AI Search
 
@@ -73,7 +73,7 @@ For more information on setting up IAR, see Using Issue Auto Resolution.
 
 For an introduction to managing AI Search in the NLU Workbench, watch the following video. A video on how to manage AI Search in the NLU Workbench.
 
-For more information, see the AI Search landing page.
+For more information, see the [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md) landing page.
 
 ## What you can do next
 

@@ -21,7 +21,7 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 
 ## Before you begin
 
-Set the application scope to Pre-Visit Management using the application picker. For more information, see Application picker.
+Set the application scope to Pre-Visit Management using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: sn\_previsit.admin, sn\_hcls.admin, or admin
 
@@ -142,6 +142,6 @@ sn\_previsit.case\_creator
 
 -   Assign roles to users and groups using the ServiceNow AI Platform user administration feature.
 
-    -   To assign a role to a user, see Assign a role to a user.
-    -   To assign a role to a group, see Assign a role to a group.
+    -   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
+    -   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
 

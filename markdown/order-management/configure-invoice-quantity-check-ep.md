@@ -38,7 +38,7 @@ The demo data for the Manage Invoice Operations application includes a sample im
 
 6.  On the Script Include form, fill in the fields.
 
-    For a description of the Script Include form fields, see Script includes.
+    For a description of the Script Include form fields, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
 7.  Override the functions in the script to implement your logic for validating the customer's quantity dispute claim.
 
@@ -128,7 +128,7 @@ Input:
 **Related topics**  
 
 
-[bundle-crapiref.extension-points]
+[Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md)
 
-[bundle-crapiref.impl-scripted-ext-pts-base-code]
+[Creating and adding a scripted extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/impl-scripted-ext-pts-base-code.md)
 

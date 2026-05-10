@@ -103,7 +103,7 @@ Data source
 
 Defines the location from which the indicator receives data.
 
- -   **Performance Analytics**: Collects scores from indicators created in Performance Analytics. See Performance Analytics indicators.
+ -   **Performance Analytics**: Collects scores from indicators created in Performance Analytics. See [Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_Indicators.md).
 -   **Custom Script**: Allows you to write a script that collects data from another application. Beneath the **Data Source** field, a sample script appears. Customize the script as needed. An example custom script is:
 
     ```

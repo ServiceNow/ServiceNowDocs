@@ -62,7 +62,7 @@ Role required: sn\_aia.viewer and update\_set\_admin
 
 3.  On the update set record page, select **Generate description**.
 
-    **Important:** Each time you generate a description using the release lifecycle documentation AI agent, the operation counts as an assist that is tracked by your Now Assist subscription. To track your Now Assist usage, see Monitoring Now Assist usage in Subscription Management.
+    **Important:** Each time you generate a description using the release lifecycle documentation AI agent, the operation counts as an assist that is tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
 
     The release lifecycle documentation AI agent generates the update set description, which might take several minutes. Once a description has been generated, the description is automatically added to the update set record.
 

@@ -15,7 +15,7 @@ breadcrumb: [Reference section for Incident Management, Incident Management, IT 
 
 Help prevent unauthorized access to incident-related tables using Deny-Unless ACLs. A Deny-Unless authentication ACL restricts access for a non-authenticated user.
 
-The enhanced security model implements Deny-Unless ACLs to restrict access for a non-authenticated user, such as a public role user. Without access, the user can't perform any actions on incident-related tables, including reading, writing, deleting, creating, or accessing the report view. This ensures that only authorized or approved user roles can access the incident tables. For more information on Deny-Unless ACLs, see Deny-Unless ACL.
+The enhanced security model implements Deny-Unless ACLs to restrict access for a non-authenticated user, such as a public role user. Without access, the user can't perform any actions on incident-related tables, including reading, writing, deleting, creating, or accessing the report view. This ensures that only authorized or approved user roles can access the incident tables. For more information on Deny-Unless ACLs, see [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/acl-denial-behavior.md).
 
 This model is activated by default and applicable on the following incident-related tables:
 

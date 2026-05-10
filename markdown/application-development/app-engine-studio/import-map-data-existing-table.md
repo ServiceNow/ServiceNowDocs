@@ -53,7 +53,7 @@ This video shows you how to create a data integration.
     3.  Use the **Source type** menu to select a data source type.
 
         -   To choose an Excel or CSV file, select **AD-HOC** &gt; **** &gt; **File**, then either **Excel** or **CSV**. In the File upload section, upload an XLSX, XLS, CSV, or ZIP file.
-        -   To choose a Data Stream action, select **Spokes**. Active Data Streams are organized by spoke and listed alphabetically. In the Connection section, select the connection alias. For Data Stream actions that use a connection alias, you can override the default connection alias with any of its children's aliases. For more information, see Create a Connection and Credential alias.
+        -   To choose a Data Stream action, select **Spokes**. Active Data Streams are organized by spoke and listed alphabetically. In the Connection section, select the connection alias. For Data Stream actions that use a connection alias, you can override the default connection alias with any of its children's aliases. For more information, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
     4.  Configure the data source.
 
         -   To configure an Excel spreadsheet, specify which sheet to use and which row number to use for the header. Only one sheet and one header can be specified.
@@ -76,7 +76,7 @@ This video shows you how to create a data integration.
         |-----|-----------|
         |Target table|Name of the table to transform your data to.|
         |Run table's business rules when importing|Option to run the target table's business rules when you import the data.|
-        |Run the import synchronously|Option to run the import synchronously. When data is transformed in parallel, and there are multiple source records with a specific coalesce value, checking this option ensures that only one record with that coalesce value is inserted at a time. For more information, see the Synchronized inserts section on the Concurrent imports page.|
+        |Run the import synchronously|Option to run the import synchronously. When data is transformed in parallel, and there are multiple source records with a specific coalesce value, checking this option ensures that only one record with that coalesce value is inserted at a time. For more information, see the Synchronized inserts section on the [Concurrent imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/concurrent-imports.md) page.|
 
     3.  Select **Save**.
 
@@ -131,7 +131,7 @@ This video shows you how to create a data integration.
         4.  Select **Done**.
     6.  Change or modify your data by applying transform functions.
 
-        For example, you can use the Uppercase transform function to change an input string to all uppercase characters. For more information, see Transform functions.
+        For example, you can use the Uppercase transform function to change an input string to all uppercase characters. For more information, see [Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/transform-functions.md).
 
         **Note:** Not all the transform functions available while creating flows and subflows are available in Integration Hub - Import.
 
@@ -146,7 +146,7 @@ This video shows you how to create a data integration.
 
     -   To import the data set you uploaded now, select **Run Import**.
     -   To set up a future import of the data, select **Schedule an import**.
-    See Run or schedule a data import.
+    See [Run or schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/run-schedule-data-imports.md).
 
 16. If you ran the import, preview the table and ensure it appears with the additional content by returning to the target table, refreshing your browser screen, and clicking **Preview**.
 

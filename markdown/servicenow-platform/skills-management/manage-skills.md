@@ -15,7 +15,7 @@ breadcrumb: [Using Skills Management, Skills Management, Manage people and work 
 
 Manage skill assignment efficiently by assigning skills to users and analyze the skill coverage of your teams.
 
-**Note:** The **Manage skills** page uses the Next Experience user interface. For more information on Next Experience, see Next Experience UI.
+**Note:** The **Manage skills** page uses the Next Experience user interface. For more information on Next Experience, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md).
 
 You can analyze your teams' skills based on a department. For example, if you select Finance as the department, the page displays all skills that contain Finance skill. When you select a department, the page displays all users from that department. You can also display all users and their skills based on the groups you manage.
 

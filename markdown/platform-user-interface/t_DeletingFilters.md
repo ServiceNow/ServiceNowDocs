@@ -45,5 +45,5 @@ Role required: admin
 
 [Personal lists](../concept/c_PersonalLists.md#)
 
-[bundle-platadm.t_ConfigureTheListLayout]
+[Configure the list layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/t_ConfigureTheListLayout.md)
 

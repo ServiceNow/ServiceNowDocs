@@ -23,7 +23,7 @@ Role required: The sn\_prm\_gen\_ai.user role must be assigned manually to your 
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see Now Assist skills, agents, and agentic workflows on by default.
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 Privacy Managers can generate the risk assessment summary and save the summary in the **Risk assessment summary field** only when they are submitting the assessment. After submission, both assessors and approvers can generate the summary and share it in the work notes. You can also summarize the assessment for object based assessments.
 

@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-See Global domain configurations for more information on Field Service Management configurations.
+See [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ConfigureFieldService.md) for more information on Field Service Management configurations.
 
 ## Procedure
 

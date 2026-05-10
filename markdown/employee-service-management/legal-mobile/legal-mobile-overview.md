@@ -33,5 +33,5 @@ These apps run on the ServiceNow® mobile platform. You can download these mobil
 
 ## Default style for the Legal Mobile app
 
-Legal Mobile app interfaces now match the ServiceNow AI Platform application. For more information on Next Experience in Mobile, see Next Experience in Mobile.
+Legal Mobile app interfaces now match the ServiceNow AI Platform application. For more information on Next Experience in Mobile, see [Next Experience in Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/next-experience-mobile.md).
 

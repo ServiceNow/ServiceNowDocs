@@ -47,11 +47,11 @@ Flows and subflows each run with their own roles. Subflows don't inherit roles f
 
 ## Access control lists
 
-Assigning a role to a flow doesn't guarantee that the flow can access a record or table. While roles are an important part of access control lists \(ACLs\), they are just one possible condition. If a flow cannot access the records you expect it to, review the record ACL rules for the table and fields. The ACL rules might require additional criteria to grant access. For more information, see access control list rules.
+Assigning a role to a flow doesn't guarantee that the flow can access a record or table. While roles are an important part of access control lists \(ACLs\), they are just one possible condition. If a flow cannot access the records you expect it to, review the record ACL rules for the table and fields. The ACL rules might require additional criteria to grant access. For more information, see [access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).
 
 ## Flow roles override AI agent roles
 
-A flow always runs using the roles it has been configured to run with in Workflow Studio. Flow roles override any roles inherited by an AI agent from a dynamic user or a specific AI user. If you want a flow to only run with the roles inherited from a user, remove flow roles. For information about adding roles to an AI agent, see Define security controls for an AI agent.
+A flow always runs using the roles it has been configured to run with in Workflow Studio. Flow roles override any roles inherited by an AI agent from a dynamic user or a specific AI user. If you want a flow to only run with the roles inherited from a user, remove flow roles. For information about adding roles to an AI agent, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md).
 
 **Parent Topic:**[Building flows](flows.md)
 

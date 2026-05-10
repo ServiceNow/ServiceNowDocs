@@ -27,15 +27,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard JFrog.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d386188e121">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d386213e121">
 
 Option
 
-</th><th align="left" id="d386188e124">
+</th><th align="left" id="d386213e124">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d386188e130">
+</th></tr></thead><tbody><tr><td id="d386213e130">
 
 **Homepage**
 
@@ -45,7 +45,7 @@ Steps
 2.  On the  Connect to a tool  modal, select JFrog from the **Artifact** category.
 
 
-</td></tr><tr><td id="d386188e157">
+</td></tr><tr><td id="d386213e157">
 
 **Applications module**
 
@@ -57,7 +57,7 @@ Steps
 4.  On the  Connect to a tool  modal, select JFrog from the **Artifact** category.
 
 
-</td></tr><tr><td id="d386188e206">
+</td></tr><tr><td id="d386213e206">
 
 **Tools module**
 
@@ -89,7 +89,7 @@ Steps
 
     4.  Select the MID Server option and enter its details if your JFrog instance is attached to a MID Server.
 
-        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see MID Server selection.
+        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
 
     ![Connect to the JFrog tool - Enter instance details screen](../image/jfrog-workspace-connect-2.png)
 

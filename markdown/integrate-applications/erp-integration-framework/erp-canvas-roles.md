@@ -18,9 +18,9 @@ Administrators assign roles to give team members permission to configure or use 
 
 **Important:** When you assign Zero Copy Connector for ERP \(Enterprise Resource Planning\) roles to a user, you must include the scope. For example, assign the `sn_erp_integration.erp_admin` role, not just `erp_admin`.
 
-For more on assigning roles, see Assign a role to a user.
+For more on assigning roles, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
-To learn more about product-specific \(granular\) admin roles, see Platform security granular admin roles.
+To learn more about product-specific \(granular\) admin roles, see [Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-granular-roles.md).
 
 ## Zero Copy Connector for ERP roles
 
@@ -50,7 +50,7 @@ Grants the user access to updating the application setup.
 
 Granular admin role for Zero Copy Connector for ERP that contains the sn\_erp\_integration.erp\_user role.
 
- For more information on working with granular roles, see Platform security granular admin roles.
+ For more information on working with granular roles, see [Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-granular-roles.md).
 
 </td></tr><tr><td>
 

@@ -23,15 +23,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Navigate to the employee presence dashboard from one of the following locations.
 
-<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d762953e57">
+<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d762957e57">
 
 Location
 
-</th><th align="left" id="d762953e60">
+</th><th align="left" id="d762957e60">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d762953e66">
+</th></tr></thead><tbody><tr><td id="d762957e66">
 
 **Workplace Service Portal**
 
@@ -51,7 +51,7 @@ The portal homepage opens.
 3.  Select **Employee Presence**.
 
 
-</td></tr><tr><td id="d762953e136">
+</td></tr><tr><td id="d762957e136">
 
 **Employee Center**
 

@@ -13,7 +13,7 @@ breadcrumb: [ServiceNow Voice reference, ServiceNow Voice, Manage people and wor
 
 Several types of components are installed with installation of the Amazon Connect Integration with Voice application \(sn\_cti\_amzn\_cct\), including user roles, plugins, and operation handlers.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 ## Roles installed
 

@@ -24,7 +24,7 @@ Role required:
 -   now.assist.creator
 -   flow\_designer or admin
 
-Turn on the flow summarization skill. See Turn on the flow summarization skill.
+Turn on the flow summarization skill. See [Turn on the flow summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/turn-on-the-flow-summarization-skill.md).
 
 ## Procedure
 

@@ -26,7 +26,7 @@ The following plugins must be installed and configured:
 -    \(sn\_ext\_conn\)
 -    SharePoint Online \(sn\_ext\_conn\_spo\)
 
-**Tip:** For more information about configuring  for Microsoft SharePoint Online or another external content repository, see Configuring External Content Connectors.
+**Tip:** For more information about configuring  for Microsoft SharePoint Online or another external content repository, see [Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ext-cont-connectors.md).
 
 In the journey configuration for which you want to enable agentic offboarding, the following fields must be configured:
 

@@ -29,7 +29,7 @@ When employees search for topic pages, such interactions influence and improve f
 
 ## Procedure
 
-1.  Understand the basics of search events and suggestions from Analyze search relevancy.
+1.  Understand the basics of search events and suggestions from [Analyze search relevancy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-suggestions/improve-search-results.md).
 
 2.  Navigate to **All** &gt; **Search Suggestions** &gt; **Search Events**.
 

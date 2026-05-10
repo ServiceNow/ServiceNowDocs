@@ -38,5 +38,5 @@ Expense lines can also be imported from external systems or generated from scrip
 
 [Use a scripted allocation](../task/t_UseAScriptedAllocation.md)
 
-[bundle-platcap.t_CreateCIRelationship]
+[Create or edit a CI relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIRelationship.md)
 

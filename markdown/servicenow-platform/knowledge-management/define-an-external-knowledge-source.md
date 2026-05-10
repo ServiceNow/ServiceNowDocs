@@ -17,7 +17,7 @@ Before you import content, create and configure the connection between the a Web
 
 ## Before you begin
 
-Define Basic authentication credentials and Getting started with connections to the external source.
+Define [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md) and [Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-information.md) to the external source.
 
 **Caution:**
 

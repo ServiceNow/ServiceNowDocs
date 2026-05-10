@@ -93,7 +93,7 @@ Bar![Bar icon.](../../../use/performance-analytics/image/column-icon.png)
 Number of expiring contracts that you have executed. The contracts are grouped by the number of days before the contract expires.
 
 </td></tr></tbody>
-</table>The Contract Workspace is built through the configurable UI Builder application. For more information, see UI Builder.
+</table>The Contract Workspace is built through the configurable UI Builder application. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
 
 Access to the Contract Workspace requires activation of the Contract Workspace plugin. For more information, see [Activate Contract Workspace](../task/cncore-activate-contract-workspace-plugin.md).
 

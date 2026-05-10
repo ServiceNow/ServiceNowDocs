@@ -19,7 +19,7 @@ Transfer a request to another department with or without resolution to fulfill t
 
 Role required: itil, routing agent, sn\_request\_write, or sn\_hr\_core\_case\_writer
 
-Configure the sn\_uni\_req.transfer\_type property in the Universal Request properties page to determine how to handle the request transfers. For more information, see Universal Request properties.
+Configure the sn\_uni\_req.transfer\_type property in the Universal Request properties page to determine how to handle the request transfers. For more information, see [Universal Request properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-properties.md).
 
 The agent can transfer a request with one of the following reasons:
 
@@ -90,7 +90,7 @@ Option to copy the comments and attachments of the request while transferring. T
 
 ## Result
 
-The request item is transferred to the selected department. The request is transferred based on the direct transfer mappings in mapping configuration and transfer type configurations. For more information on configuring routing, see Transfer configuration.
+The request item is transferred to the selected department. The request is transferred based on the direct transfer mappings in mapping configuration and transfer type configurations. For more information on configuring routing, see [Transfer configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/configure-route-state.md).
 
 **Parent Topic:**[Request Management integration with Universal Request](../concept/request-mgmt-integration-ur.md)
 

@@ -19,7 +19,7 @@ Prior to using Security Incident Response Orchestration, perform steps to set up
 
 Role required: admin
 
-To use Security Incident Response, you need a fully populated CMDB with domain names. For more information, see Discovery.
+To use Security Incident Response, you need a fully populated CMDB with domain names. For more information, see [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-discovery.md).
 
 ## About this task
 
@@ -27,9 +27,9 @@ To use Security Incident Response, you need a fully populated CMDB with domain n
 
 1.  Activate Security Incident Response plugin.
 
-2.  Configuring MID Servers.
+2.  [Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md).
 
-3.  Configure Windows MID Server service credentials.
+3.  [Configure Windows MID Server service credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md).
 
 
 **Parent Topic:**[Security Incident Response Orchestration](../concept/c_SecIncRespOrchestration.md)

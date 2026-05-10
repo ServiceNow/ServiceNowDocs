@@ -17,7 +17,7 @@ Map custom fields from Microsoft Project to ServiceNow fields before importing a
 
 ## Before you begin
 
-Create custom fields in your ServiceNow instance before mapping them with Microsoft Project. For more information, see Add and customize a field in a table.
+Create custom fields in your ServiceNow instance before mapping them with Microsoft Project. For more information, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingNewFields.md).
 
 Role required: it\_pps\_admin
 
@@ -77,7 +77,7 @@ The supported data types for field mapping between Microsoft Project and Service
 ## What to do next
 
 -   Import the Microsoft Project file. For more information, see [Import a Microsoft Project file with the Import module](t_ImportMicrosoftProjectFiles.md).
--   Configure the Project form to add the custom fields that you want to see. For more information, see Form configuration.
+-   Configure the Project form to add the custom fields that you want to see. For more information, see [Form configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/basic-form-administration.md).
 
 **Parent Topic:**[Importing and exporting projects](../concept/c_ProjectImportAndExport.md)
 

@@ -35,7 +35,7 @@ Role required: portfolio\_admin or service\_editor
 
 4.  Configure the service catalog for the end user.
 
-    All the data created in the previous steps display on the service catalog page for a service. The layout is not configurable, but an administrator can control how the service is categorized and who can view the service in the catalog. For more information, see Service Catalog administration.
+    All the data created in the previous steps display on the service catalog page for a service. The layout is not configurable, but an administrator can control how the service is categorized and who can view the service in the catalog. For more information, see [Service Catalog administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_ServiceCatalogAdministration.md).
 
 5.  Subscribe to service offerings.
 

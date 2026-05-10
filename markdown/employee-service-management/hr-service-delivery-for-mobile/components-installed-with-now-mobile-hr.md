@@ -15,7 +15,7 @@ breadcrumb: [Activate HR Service Delivery for mobile, HR Service Delivery for mo
 
 Several types of components install with the activation of the Now Mobile for HR Service Delivery plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature. Load demo data at the time of the plugin installation, or add the demo data using the repair feature for plugin installations. See [Now Mobile app demo](../../../administer/tablet-mobile-ui/concept/sg-mobile-demo.md).
 

@@ -16,11 +16,11 @@ Configure Agentic Contact Center for Banking by integrating your CCaaS provider,
 
 ## Configuration overview
 
--   Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations
+-   [Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-icc-for-ccaas.md)
 
-    Integrate your CCaaS provider with Agentic Contact Center for Banking. For more information, see Integrating with contact centers.
+    Integrate your CCaaS provider with Agentic Contact Center for Banking. For more information, see [Integrating with contact centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contactcenter-integration.md).
 
--   Configure Interaction wrap-up codes and AI skills
+-   [Configure Interaction wrap-up codes and AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-ai-wrap-up-code-and-notes-summary-generation.md)
 
     Set up wrap-up codes and activate the Wrap Up Completion skill to enable AI-generated call summaries for your agents.
 
@@ -48,7 +48,7 @@ Configure Agentic Contact Center for Banking by integrating your CCaaS provider,
 
     Review and configure the knowledge graph tags for each customer type to define the data sources for your AI agents.
 
--   Create a knowledge article
+-   [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-knowledge-article.md)
 
     If required, create knowledge base articles that define any business rules or knowledge you want the AI agents to use as source information.
 

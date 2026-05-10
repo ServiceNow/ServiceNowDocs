@@ -27,7 +27,7 @@ For Now Assist panel – Platform assistant, new customers and upgraded instance
 
 **Note:** Premium chat does not apply to instances in regulated markets \(Government Cloud Community\), instances that use domain separation, or regional data routing.
 
-For more information about premium chat, see Premium chat, otherwise, proceed to step 1.
+For more information about premium chat, see [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-premium.md), otherwise, proceed to step 1.
 
 Due to the premium chat upgrade, legacy messages \(chat messages\) and legacy fallbacks \(chat fallbacks\) settings haven't been migrated and you must review, configure, and customize them in premium messages and premium fallbacks. See [Manage an assistant chat experience](manage-assistant-chat-experience.md). If you need help, contact Support.
 

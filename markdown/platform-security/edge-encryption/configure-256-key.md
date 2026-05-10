@@ -29,15 +29,15 @@ If you’re updating an SSL certificate on an Edge proxy server, see [Update SSL
 
 1.  Select the encryption key location.
 
-<table id="choicetable_ech_hb2_hfb"><thead><tr><th align="left" id="d158236e93">
+<table id="choicetable_ech_hb2_hfb"><thead><tr><th align="left" id="d158240e93">
 
 Option
 
-</th><th align="left" id="d158236e96">
+</th><th align="left" id="d158240e96">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d158236e102">
+</th></tr></thead><tbody><tr><td id="d158240e102">
 
 **File Store**
 
@@ -45,7 +45,7 @@ Description
 
 Use a file to store a single encryption key. You can use an existing file in the `/keys` directory, or you can generate a new file. To generate a new file, enter an alias and select **Generate**. A file containing an encryption key is created.**Note:** This choice designates both the storage location and the encryption key. If you select **File Store**, select **Next** and go to [step 5](configure-256-key.md#use-256-bit-encryption).
 
-</td></tr><tr><td id="d158236e130">
+</td></tr><tr><td id="d158240e130">
 
 **Create New Java KeyStore**
 
@@ -53,7 +53,7 @@ Use a file to store a single encryption key. You can use an existing file in the
 
 Create a keystore to store the encryption key.
 
-</td></tr><tr><td id="d158236e139">
+</td></tr><tr><td id="d158240e139">
 
 **Java KeyStore File**
 
@@ -66,15 +66,15 @@ Store the encryption key in an existing Java KeyStore file.
 
 3.  Select or create the encryption key.
 
-<table id="choicetable_x1n_4b2_hfb"><thead><tr><th align="left" id="d158236e166">
+<table id="choicetable_x1n_4b2_hfb"><thead><tr><th align="left" id="d158240e166">
 
 Option
 
-</th><th align="left" id="d158236e169">
+</th><th align="left" id="d158240e169">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d158236e175">
+</th></tr></thead><tbody><tr><td id="d158240e175">
 
 **New Key**
 
@@ -82,7 +82,7 @@ Description
 
 Create an encryption key and alias.**Note:** You must use lowercase letters and numbers for the alias name \(key name, key alias\), according to Java KeyStore requirements. To find out more about the keytool utility, see the [Java SE Documentation](http://docs.oracle.com/javase/6/docs/technotes/tools/windows/keytool.html).
 
-</td></tr><tr><td id="d158236e191">
+</td></tr><tr><td id="d158240e191">
 
 **Use Existing Key**
 
@@ -90,7 +90,7 @@ Create an encryption key and alias.**Note:** You must use lowercase letters and 
 
 Use an existing encryption key in the selected keystore.
 
-</td></tr><tr><td id="d158236e200">
+</td></tr><tr><td id="d158240e200">
 
 **Import Existing Key**
 

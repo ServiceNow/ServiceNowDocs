@@ -29,7 +29,7 @@ Automation Center provides an integration with the ServiceNow® RPA Hub applicat
 
 ## Integration with Document Intelligence
 
-Automation Center integrates with Document Intelligence enabling you to get the Document Intelligence data into ServiceNow® instance. You can analyze the data from Document Intelligence using Automation Center. For more information, see Document Intelligence.
+Automation Center integrates with Document Intelligence enabling you to get the Document Intelligence data into ServiceNow® instance. You can analyze the data from Document Intelligence using Automation Center. For more information, see [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-landing.md).
 
 ## Integration with UiPath
 
@@ -41,11 +41,11 @@ Automation Center integrates with third-party vendors enabling you to get their 
 
 ## Automation Center API
 
-The Automation Center API enables you to create and update processes, robots, and execution jobs. For more information, see Automation Center API.
+The Automation Center API enables you to create and update processes, robots, and execution jobs. For more information, see [Automation Center API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/auto-api.md).
 
 ## Integration with Task Mining
 
-Automation Center integrates with Task Mining enabling you to create automations from Task Mining workspace. For more information, see Task Mining.
+Automation Center integrates with Task Mining enabling you to create automations from Task Mining workspace. For more information, see [Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/task-mining.md).
 
 ## Get started
 

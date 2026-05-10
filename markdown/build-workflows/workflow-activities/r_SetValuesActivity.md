@@ -36,5 +36,5 @@ Set these values
 From the list on the left, select the field on the current record whose value you want to set when the workflow quiesces or ends. In the user-input field to the right, select or enter the value to which you want that field set.**Note:** Avoid setting the same fields from different **Set Value** activities. The workflow only sets the value specified by the last **Set Values** activity run before quiescing or ending.
 
 </td></tr></tbody>
-</table>**Note:** Using the **Set Values** activity to set the **Approval** field on a task does not cancel pending approvals. To approve a task in a workflow, use the **Approval Action** activity instead.
+</table>**Note:** Using the **Set Values** activity to set the **Approval** field on a task does not cancel pending approvals. To approve a task in a workflow, use the [**Approval Action**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/r_ApprovalAction.md) activity instead.
 

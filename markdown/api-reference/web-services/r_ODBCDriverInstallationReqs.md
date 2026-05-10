@@ -135,7 +135,7 @@ End User License Agreement
 Read the End User License Agreement for the ServiceNow ODBC driver.
 
 </td></tr></tbody>
-</table>For more information, see Application access settings.
+</table>For more information, see [Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationAccessSettings.md).
 
 ## Supported software
 

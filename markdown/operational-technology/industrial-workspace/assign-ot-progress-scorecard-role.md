@@ -34,8 +34,8 @@ Users with the role that are listed in the following table can use the OT Progre
 
     |Task|User administration feature|
     |----|---------------------------|
-    |**Assign a role to a user**|See Assign a role to a user.|
-    |**Assign a role to a group**|See Assign a role to a group.|
+    |**Assign a role to a user**|See [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).|
+    |**Assign a role to a group**|See [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).|
 
 
 **Parent Topic:**[Setting up the Operational Technology Progress Scorecard](../concept/setting-up-the-ot-progress-scorecard.md)

@@ -67,7 +67,7 @@ REST API Trigger Body field
 
 </td><td>
 
-Parse an inbound REST API request into a complex data object and use the values in a flow. See REST API trigger.
+Parse an inbound REST API request into a complex data object and use the values in a flow. See [REST API trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/rest-trigger.md).
 
 </td></tr></tbody>
 </table>## Benefits

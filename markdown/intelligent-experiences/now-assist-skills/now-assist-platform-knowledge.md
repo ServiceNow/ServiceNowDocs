@@ -20,5 +20,5 @@ The Now Assist Knowledge content recommendation is a Platform skill that is enab
 
 ![Use Now Assist to elaborate or shorten content in the knowledge article.](../../../product/knowledge-management/image/NA-elaborate-shorten-content-1.png "The Now Assist context menu in Knowledge Management")
 
-For more information, see Edit an article using the Now Assist context menu.
+For more information, see [Edit an article using the Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-using-context-menu.md).
 

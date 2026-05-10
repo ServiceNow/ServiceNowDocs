@@ -21,24 +21,24 @@ By embedding workflow automation into customer success management, Customer Succ
 
 <table id="table_ggl_tml_ccc" class="nav-card presentation"><tbody><tr><td>
 
-Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about the key features and benefits of Customer Success Management
+[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about the key features and benefits of Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-explore.md)
 
 </td><td>
 
-Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Plan and customize Customer Success Management to meet your needs
+[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Plan and customize Customer Success Management to meet your needs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-events-landing-page.md)
 
 </td></tr><tr><td>
 
-Use![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Use Customer Success Management to manage the account lifecycle
+[Use![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Use Customer Success Management to manage the account lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-customer-success-landing-page.md)
 
 </td><td>
 
-Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg)Get information about the data model and installed components
+[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg)Get information about the data model and installed components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the Customer Success Management release notes.
+-   Learn more about what's new and changed, see the [Customer Success Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/account-lifecycle-rn.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Customer Success Management features at [Now Create](https://learning.servicenow.com/nowcreate).
 -   Access real time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [ServiceNow Impact](https://www.servicenow.com/industries/telecom.html).

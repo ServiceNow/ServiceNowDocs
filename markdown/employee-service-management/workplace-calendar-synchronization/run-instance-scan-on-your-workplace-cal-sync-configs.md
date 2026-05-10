@@ -23,7 +23,7 @@ Role required: sn\_wsd\_rsvsync.admin
 
 Run the instance scan using the Instance Scan application to check if there are any incorrect configurations while configuring the Microsoft Exchange Online calendar provider. The scan runs and notifies about any incorrectness.
 
-The ph keyref="var.workplace-calendar-sync"/&gt; application provides you the **Workplace Calendar Synchronization Configurations** suite in the Instance Scan application. For more information about Instance scan, refer to Instance Scan. You can run the suite at any time to diagnose the configurations. The suite runs the following configuration checks:
+The ph keyref="var.workplace-calendar-sync"/&gt; application provides you the **Workplace Calendar Synchronization Configurations** suite in the Instance Scan application. For more information about Instance scan, refer to [Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-landing-page.md). You can run the suite at any time to diagnose the configurations. The suite runs the following configuration checks:
 
 -   **Reservable Sync Configurations Check**: Checks if the reservation sync configurations are correct.
 -   **Calendar Sync Active Providers Check**: Checks if there are no active providers as the sync can’t be configured.

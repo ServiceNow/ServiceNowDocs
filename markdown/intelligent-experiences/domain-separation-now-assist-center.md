@@ -22,7 +22,7 @@ Domain separation allows you to separate data, processes, and administrative tas
 -   In the application, the user interface, cache keys, reporting, rollups, aggregations, and so on, all use domain at production run time.
 -   The owner of the instance must be able to set up the application to function across multiple tenants.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Domain separation uses in Now Assist Center
 

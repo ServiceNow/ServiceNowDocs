@@ -93,11 +93,11 @@ The update set is an XML file with the following name convention: sys\_remote\_u
 
         The customization is now available as a retrieved update set with state Loaded.
 
-3.  Preview the imported update set.
+3.  [Preview the imported update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_PreviewARemoteUpdateSet.md).
 
     The system scans and validates the update set and displays its contents on the **Customer Updates** tab.
 
-4.  Commit the update set.
+4.  [Commit the update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_CommitAnUpdateSet.md).
 
 5.  Click **Close** in the success message.
 
@@ -123,5 +123,5 @@ The update set is an XML file with the following name convention: sys\_remote\_u
 **Related topics**  
 
 
-[bundle-cadev.system-update-sets]
+[System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md)
 

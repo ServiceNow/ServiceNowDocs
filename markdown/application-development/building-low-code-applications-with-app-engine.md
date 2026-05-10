@@ -25,7 +25,7 @@ Create and manage custom applications in a simple, low-code environment.
 
     Use Creator Studio to quickly create a request/fulfill app based on Service Catalog using helpful templates.
 
--   **ERP Semantic Mining**
+-   **[ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erp-customization-mining-overview.md)**
 
     Use Zero Copy Connector for ERP to connect to an ERP \(Enterprise Resource Planning\) system, create an ERP model, and extract data from the ERP system, such as sales orders, data records, and purchase documents. You can then use the ERP data when building low-code apps on the ServiceNow AI Platform.
 
@@ -103,7 +103,7 @@ Develop applications in source code with ServiceNow Fluent, create JavaScript mo
 </td></tr></tbody>
 </table>## Related applications and features
 
--   **Exploring Decision Tables**
+-   **[Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/decision-designer-overview.md)**
 
     Use Decision Builder to create and manage decision tables. Embed business logic into a series of if-then decision rules.
 
@@ -111,7 +111,7 @@ Develop applications in source code with ServiceNow Fluent, create JavaScript mo
 
     ServiceNow Studio gives developers access to app development builders and tools, all in one place.
 
--   **Flows in Workflow Studio**
+-   **[Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flows.md)**
 
     Workflow Studio automates processes and repetitive work to improve efficiency and experience.
 
@@ -123,7 +123,7 @@ Develop applications in source code with ServiceNow Fluent, create JavaScript mo
 
     Use UI Builder to build web user interfaces for CSM Configurable Workspace, App Engine Studio generated workspaces and portals, or custom web experiences using Next Experience Components and custom web components.
 
--   **Workflow Studio**
+-   **[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md)**
 
     Integrate workflow authoring, configuring, and monitoring into a single page experience.
 

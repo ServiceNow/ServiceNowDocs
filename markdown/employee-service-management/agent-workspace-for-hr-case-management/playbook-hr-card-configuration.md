@@ -61,7 +61,7 @@ Condition
 
 </td><td>
 
-The conditions that determine if the type values render to an HR Playbook card.**Note:** When defining conditions like case sensitivity or null values, see APIGlideFilter - Scoped, Global.
+The conditions that determine if the type values render to an HR Playbook card.**Note:** When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr><tr><td>
 

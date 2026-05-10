@@ -22,7 +22,7 @@ Use the Non-monetary Benefit Breakdown form to update the estimated and actual n
 |Measure|Measure type specified in the benefit plan.|
 |Actual benefit|Actual benefit that is incurred from the project or demand.|
 |Benefit plan|Benefit plan to which the benefit plan breakdown belongs.|
-|Fiscal period|Fiscals generated at the period level. For information on periods, see fiscal calendars.|
+|Fiscal period|Fiscals generated at the period level. For information on periods, see [fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_FiscalCalendar.md).|
 |Entered benefit|Benefit in entered value.|
 |Variance|The difference between the estimated and actual benefit.|
 

@@ -35,11 +35,11 @@ As an administrator, review the installed components and modify them or add new 
 
     For chat response templates, you can specify a short name that can be used as a shortcut to present the response message to a user quickly.
 
--   **Create an email notification**
+-   **[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md)**
 
     Create or modify email notifications that are sent when specific events occur,for example, when a request is assigned, closed, or canceled, or a message has been posted to request additional information.
 
--   **Configuring the form layout**
+-   **[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md)**
 
     To track dispositions from Legal Simple Privacy requests, add the Legal Disposition \[sn\_lg\_ops\_legal\_disposition\] table as a related list to any Legal Simple Privacy Request form.
 

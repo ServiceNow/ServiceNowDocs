@@ -41,7 +41,7 @@ Asset Management\(com.snc.asset\_management\)
 
 </td><td>
 
-Provides functionalities to integrate the physical, technological, contractual, and financial aspects of information technology assets. See Asset Management for more information on asset management.
+Provides functionalities to integrate the physical, technological, contractual, and financial aspects of information technology assets. See [Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/asset-management/c_AssetManagement.md) for more information on asset management.
 
 </td></tr><tr><td>
 
@@ -57,7 +57,7 @@ Field Service Management \(com.snc.work\_management\)
 
 </td><td>
 
-Provides the capability to manage work orders and related tasks. See Field Service Management for more information on Field Service Management.
+Provides the capability to manage work orders and related tasks. See [Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md) for more information on Field Service Management.
 
 </td></tr><tr><td>
 
@@ -81,7 +81,7 @@ SM Planned Maintenance\(com.snc.planned\_maintenance\)
 
 </td><td>
 
-Provides the capability to manage regular preventative maintenance of assets. See Planned Maintenance for more information on Planned Maintenance.
+Provides the capability to manage regular preventative maintenance of assets. See [Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/planned-maintenance-family/c_SMPlanMaint.md) for more information on Planned Maintenance.
 
 </td></tr><tr><td>
 
@@ -157,7 +157,7 @@ CMDB CI Class Models
 
 </td><td>
 
-Adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and dependent relationships. See CMDB CI Class Models store app for more information on this application.
+Adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and dependent relationships. See [CMDB CI Class Models store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md) for more information on this application.
 
 </td></tr><tr><td>
 
@@ -173,7 +173,7 @@ GRC: Risk Heatmap
 
 </td><td>
 
-Provides a heatmap component that enables you to visualize the risk posture of your organization. See Risk heatmap for classic risk assessment or Operational risk heatmap for Advanced Risk Assessment in the Risk Workspace for more information on risk heatmaps.
+Provides a heatmap component that enables you to visualize the risk posture of your organization. See [Risk heatmap for classic risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-heatmap-classic-risk-assessment.md) or [Operational risk heatmap for Advanced Risk Assessment in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-heatmaps-in-ws.md) for more information on risk heatmaps.
 
 </td></tr><tr><td>
 

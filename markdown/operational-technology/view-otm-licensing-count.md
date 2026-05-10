@@ -4,7 +4,7 @@ description: Generate a list of currently countable CIs for each of the OTM appl
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology Management licensing and subscriptions, Operational Technology]
 ---

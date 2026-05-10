@@ -17,7 +17,7 @@ Utilize the new table-based configuration to align with the Service Operations W
 
 These configuration options allow users to define how the Dynamic Overview pages render throughout the change life cycle. This includes configuration options for overview pages, contextual sidebar and activity stream behavior for each state.
 
-**Note:** To create a custom section, add new change overview cards. For information on modify the layout and formatting of the sections, see UI Builder tutorial.
+**Note:** To create a custom section, add new change overview cards. For information on modify the layout and formatting of the sections, see [UI Builder tutorial.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/uib-tutorial.md)
 
 With this you can configure the following components in the workspace configuration:
 

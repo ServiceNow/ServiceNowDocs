@@ -100,15 +100,15 @@ Individual consumers can have multiple profiles for different needs. Consumer pr
 **Related topics**  
 
 
-[bundle-csm.user-management]
+[User management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/user-management.md)
 
-[bundle-csm.customer-data]
+[Customer data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-data.md)
 
-[bundle-csm.csm-workspaces-configure]
+[CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)
 
-[bundle-csm.awa-csm-overview]
+[AWA for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/awa-csm-overview.md)
 
-[bundle-csm.set-up-self-service]
+[Set up self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/set-up-self-service.md)
 
-[bundle-csm.r_RolesInstalledWithCustomerService]
+[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)
 

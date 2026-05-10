@@ -23,7 +23,7 @@ Role required: admin
 
 2.  Create the system property **com.glide.par.unified\_analytics.enabled**.
 
-    For more information, see Add a system property.
+    For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 3.  Set the value of the property to `false`.
 

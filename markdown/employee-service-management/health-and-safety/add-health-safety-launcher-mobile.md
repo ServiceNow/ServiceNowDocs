@@ -25,10 +25,10 @@ Role required: sn\_ohs\_im.admin and admin
 
     The demo data for this application includes the launcher required to open it in the Now Mobile app.
 
--   The Now Mobile app is built using ServiceNow Mobile App Builder, so make sure you’re familiar with the Mobile App Builder basics.
+-   The Now Mobile app is built using ServiceNow Mobile App Builder, so make sure you’re familiar with the [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md) basics.
 
 
-For more information about configuring a tab on the navigation bar of Now Mobile app, see Configure the navigation bar and navigation tabs.
+For more information about configuring a tab on the navigation bar of Now Mobile app, see [Configure the navigation bar and navigation tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-sg-application-menu.md).
 
 ## Procedure
 

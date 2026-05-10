@@ -29,7 +29,7 @@ Role required: ecmdb\_admin
 
 4.  Modify the Configuration Types, CI Filters, and Relationship Types related lists as needed.
 
-    For more information about how to modify these related lists, see Create a predefined filter.
+    For more information about how to modify these related lists, see [Create a predefined filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/create-predefined-filter.md).
 
 5.  Select **Update**.
 

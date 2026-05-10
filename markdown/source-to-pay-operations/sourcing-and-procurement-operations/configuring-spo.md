@@ -15,7 +15,7 @@ breadcrumb: [Sourcing and Procurement Operations, Finance and Supply Chain]
 
 Plan and configure your implementation for Sourcing and Procurement Operations.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 -   **[Install Sourcing and Procurement Operations](../task/activate-finance-spend-central.md)**  
 Install Sourcing and Procurement Operations and its dependent applications from the ServiceNow Store.

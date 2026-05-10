@@ -35,7 +35,7 @@ Role required: sn\_si.admin
     |Active|Option to set the filter active.|
     |Table|The table on this filter is to be applicable.|
     |Order|Controls the display order of this filter. Lower sequence numbers appear first.|
-    |Conditions|Use the condition builder to define the criteria to be filtered.|
+    |Conditions|Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to define the criteria to be filtered.|
 
 5.  Select **Save**.
 

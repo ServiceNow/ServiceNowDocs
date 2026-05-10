@@ -19,18 +19,18 @@ The ServiceNow® Manufacturing Commercial Operations enables manufacturers, agen
 -   Enable the recall manager to plan and execute phases and sub-phases recall campaigns using the plan and execute recall campaign phases and sub-phases AI agent.
 -   Enable a non-conformance description to verify that the requirements are clearly stated.
 
-See Manufacturing Commercial Operations for more information.
+See [Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-overview.md) for more information.
 
 **Important:** Manufacturing Commercial Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **FSM integration**
+-   **[FSM integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-fsm-integration.md)**
 
     QIM integrates with FSM to support quality actions that require on-site intervention. When an NC or QI record identifies a need for field verification, containment, or remediation action, you can create an FSM work order directly from within QIM.
 
 
--   **ServiceNow product tiers**
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -40,7 +40,7 @@ See Manufacturing Commercial Operations for more information.
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
--   **Summarize fraudulent claim detection using agents**
+-   **[Summarize fraudulent claim detection using agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-summarize-fraudulent-claim-detection.md)**
 
     Use the detect potential fraudulent claims to analyze dealer warranty claims for duplicate claims, mismatched parts and supporting documents/images, reused images/documents, similar claims within specified periods or for same end customers across assets, and product usage inconsistencies.
 
@@ -51,32 +51,32 @@ Install Manufacturing Commercial Operations by requesting it from the ServiceNow
 
 ## Browser requirements
 
-ServiceNow workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in Browser support.
+ServiceNow workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/browser-support.md).
 
 ## Related ServiceNow applications and features
 
--   **Order management.**
+-   **[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md).**
 
     Optimize the lead-to-cash cycle with Order Management for Manufacturing Commercial Operations.
 
     The following applications are supported for Manufacturing Commercial Operations:
 
-    -   Product Catalog Management enables you to create and manage product catalogs for commercial and technical product offerings.
-    -   Order management enables you to capture and fulfill product and service orders to create a seamless ordering experience for your customers.
-    -   Pricing Management enables you to set the pricing for your products.
--   **Customer Service Management**
+    -   [Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md) enables you to create and manage product catalogs for commercial and technical product offerings.
+    -   [Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md) enables you to capture and fulfill product and service orders to create a seamless ordering experience for your customers.
+    -   [Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/pricing-management.md) enables you to set the pricing for your products.
+-   **[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)**
 
     The Customer Service Management enables you to provide the service and support that your external customers need.
 
--   **Field Service Management**
+-   **[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md)**
 
     The ServiceNow Field Service Management application enables you to manage work orders and related tasks, resources, skills, assets, and locations.
 
--   **Service Exchange**
+-   **[Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)**
 
     ServiceNow® Service Exchange connects multiple ServiceNow instances to provide seamless support and service experiences across the ecosystem, from enterprise customers to suppliers and system integrators. Service Exchange provides a frictionless experience that makes it easy to collaborate and process requests while giving users the convenience of working in their own ServiceNow instance
 
--   **Strategic Portfolio Management**
+-   **[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_ITBusinessManagement.md)**
 
     Align work with strategy to deliver products and services in a way that supports your business goals and priorities. The ServiceNow Strategic Portfolio Management \(SPM\) application enables you to use digital transformation to drive customer value.
 

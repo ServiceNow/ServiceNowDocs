@@ -163,7 +163,7 @@ Type of condition to use. Create conditions to limit when the smart button appea
 
  The following condition types appear if **Context** is set to **Record** and a **Table** is selected:
 
- -   **Declarative**: Adds a condition builder to the form. For more information, see Condition builder.
+ -   **Declarative**: Adds a condition builder to the form. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 -   **Script**: Adds a script condition field to the form.
 
 

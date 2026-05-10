@@ -19,7 +19,7 @@ Create a flow using the Flow object. For more information, see [Flow object](flu
 
 Create a subflow using the Subflow object. For more information, see [Subflow object](fluent-flow-api.md#).
 
-For general information about flows, see Exploring flows. For general information about subflows, see Exploring subflows.
+For general information about flows, see [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flows.md). For general information about subflows, see [Exploring subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-subflows.md).
 
 **Parent Topic:**[ServiceNow Fluent API reference](servicenow-fluent-api-reference.md)
 
@@ -128,7 +128,7 @@ String
 
 </td><td>
 
-Specify the roles that the flow uses while running. For more information about running a flow with roles, see Flow roles.
+Specify the roles that the flow uses while running. For more information about running a flow with roles, see [Flow roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-roles.md).
 
 </td></tr><tr><td>
 
@@ -906,7 +906,7 @@ The following types of action instances are supported:
 
 .
 
-For more information about available actions, see Workflow Studio flow trigger types.
+For more information about available actions, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-triggers.md).
 
 <table id="table_tjy_23k_xhc" class="parameters"><thead><tr><th>
 
@@ -1061,7 +1061,7 @@ The following types of action instances are supported:
 
 .
 
-For more information about available actions, see Workflow Studio actions.
+For more information about available actions, see [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md).
 
 <table id="table_zyb_kqj_xhc" class="parameters"><thead><tr><th>
 
@@ -1277,7 +1277,7 @@ The following types of flow logic instances are supported:
 
 .
 
-For more information about available flow logic, see Workflow Studio flow logic.
+For more information about available flow logic, see [Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md).
 
 <table id="table_nbq_m5j_xhc" class="parameters"><thead><tr><th>
 
@@ -1660,7 +1660,7 @@ String
 
 </td><td>
 
-Required. Data type of the data such as string, boolean, integer, or reference. For a list of available field data types, see Field types reference.
+Required. Data type of the data such as string, boolean, integer, or reference. For a list of available field data types, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
 
 </td></tr></tbody>
 </table>This example uses an unbound email record to create either an incident or a task based on the values of the inbound email. This example uses the params object to refer to data in the trigger. This example also defines the constants sender, senderManager, p3Incident, and attachments to store the output of actions and flow logic for use in later wfa.dataPill functions.

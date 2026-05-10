@@ -109,7 +109,7 @@ Digital Product
 
 Plan, prioritize, and roadmap work for digital products.
 
- If the ServiceNow® Digital Product Release Workspace is installed, the planning items associated with the product enhancement appear in the **Planning items** tab of the Release scope page in Digital Product Release Workspace. For details, see Scope of a release.
+ If the ServiceNow® Digital Product Release Workspace is installed, the planning items associated with the product enhancement appear in the **Planning items** tab of the Release scope page in Digital Product Release Workspace. For details, see [Scope of a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-scope.md).
 
 </td></tr><tr><td>
 
@@ -200,7 +200,7 @@ Enterprise architect
 
 </td><td>
 
-Plan, prioritize, and roadmap the work based on your business capabilities or business applications.This lens can be used only if the ServiceNow® Enterprise Architecture Workspace is installed.
+Plan, prioritize, and roadmap the work based on your business capabilities or business applications.This lens can be used only if the [ServiceNow® Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-workspace.md) is installed.
 
 </td></tr><tr><td>
 

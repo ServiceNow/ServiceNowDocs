@@ -37,7 +37,7 @@ The following table lists the input fields in the Create CI From Template functi
 |Stockroom Location|Name of the stockroom location where the asset is located.|String|
 |Asset|Name of the asset that is associated with this record.|String|
 
-To learn more about the variable data types, see Flow Designer input and output data variables.
+To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md).
 
 ## Output
 

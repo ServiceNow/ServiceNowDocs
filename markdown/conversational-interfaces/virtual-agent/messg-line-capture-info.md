@@ -24,7 +24,7 @@ Users must opt in to receive notifications. No notifications can be delivered un
 There are two ways for users to grant consent to receive notifications:
 
 -   The user can enter `Notification` into the LINE chat with your business. The user gets a bot response with the option to subscribe or unsubscribe from receiving notifications for your business on LINE.
--   As an administrator, you can set up the option for users to subscribe or unsubscribe from notifications from your portal. See Subscription-based notifications for more information.
+-   As an administrator, you can set up the option for users to subscribe or unsubscribe from notifications from your portal. See [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SubscriptionBasedNotifications.md) for more information.
 
 ## User input controls
 

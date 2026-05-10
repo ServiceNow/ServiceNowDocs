@@ -248,7 +248,7 @@ Auto Flush data retention policies are available for the File and File Set table
 -   When the file records in the File table are deleted, the corresponding file line records in the File Line table are also deleted.
 -   When the file set records in the File Set table are deleted, the corresponding file mapping records in the File Mapping table are also deleted.
 
-To modify the data retention policy, change the value of **Age in seconds** in the Auto Flush form of the required table. For more information, see Autoflush form.
+To modify the data retention policy, change the value of **Age in seconds** in the Auto Flush form of the required table. For more information, see [Autoflush form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-auto-flush.md).
 
 ## Connection and credential alias requirements
 
@@ -256,12 +256,12 @@ This spoke doesn't require configuration of connection and credential alias. For
 
 ## MID Server requirements
 
-These actions use REST calls that can run either on an instance or, optionally, through a MID Server. For more information, see MID server.
+These actions use REST calls that can run either on an instance or, optionally, through a MID Server. For more information, see [MID server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
 
 **Note:**
 
 -   The Build Zip action in the spoke requires at least one MID Server with the capability IntegrationHub Utilities or ALL. To set up and configure the MID Server, user must have the role sn\_utility\_spoke.utility\_actions\_admin role.
--   Create a MID Server property with **Value** as `*.service-now.com`.
+-   [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md) with **Value** as `*.service-now.com`.
 
 To set up the MID Server for this spoke, see [Set up MID Server for a spoke](../task/config-adv-mid-settings-for-oauth-on-mid.md).
 

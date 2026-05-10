@@ -47,11 +47,11 @@ The script must set the **csdExtensionResult** object with these attributes:
 **Related topics**  
 
 
-[bundle-crapiref.extension-points]
+[Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md)
 
-[bundle-crapiref.scripted-extension-points]
+[Using scripted extension points in server-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/scripted-extension-points.md)
 
-[bundle-crapiref.ui-extension-points]
+[Using UI extension points in server-side UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/ui-extension-points.md)
 
-[bundle-crapiref.client-extension-points]
+[Using client extension points in client-side UI scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/client-extension-points.md)
 

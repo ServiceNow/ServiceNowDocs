@@ -22,13 +22,13 @@ The ServiceNow® Advanced Risk application enables you to identify, analyze, eva
 
 Review the updated AI experience with three licensing tiers.
 
-See Advanced Risk Assessment for more information.
+See [Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-assessment.md) for more information.
 
 **Important:** Advanced Risk is available in the ServiceNow Store. For details, see the Activation information section of these release notes.
 
 ## New in the Australia release
 
--   **Risk event response template enhancements**
+-   **[Risk event response template enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-risk-event-response-template.md)**
 
     After upgrading to version 22.0.x, users with the Risk Manager \[sn\_risk.manager\] or Risk Admin \[sn\_risk.admin\] role can configure risk event response templates using dynamic, entity‑driven assignments. These changes enable assignments to be derived from entity data alongside existing static user or group selection.
 
@@ -37,18 +37,18 @@ See Advanced Risk Assessment for more information.
     -   Risk event owner assignment
     -   Issue creation and assignment
     -   Risk event approvers
--   **Risk Suggestion AI Agent enhancements**
+-   **[Risk Suggestion AI Agent enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/identify-risks-for-entity.md)**
 
     After upgrading the Now Assist for Integrated Risk Management \(IRM\) application to version 22.x, the Risk Suggestion AI Agent supports a more context‑aware and conversational workflow. After selecting risk types, you can provide additional context to refine search results, with the agent dynamically asking follow‑up questions when needed. Before adding risks to the suggested risk section, you can review and modify suggested risks by updating descriptions, renaming risks, or removing items from the list.
 
--   **Control Objective workflow**
+-   **[Control Objective workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-control-objective-ws.md)**
 
     After upgrading to version 22.0.x, you can use a defined workflow to update control objectives. Changes can be drafted and reviewed without changing the current active version, which helps avoid unintended changes to related controls, and risk records. Only approved updates become active. The workflow also sets clear responsibility for making updates and helps keep control objective information consistent and up to date.
 
 
 ## Changed in this release
 
--   **ServiceNow product tiers**
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -64,11 +64,11 @@ Install Advanced Risk by requesting it from the ServiceNow Store. Visit the [Ser
 
 ## Related ServiceNow applications and features
 
--   **GRC Risk Management**
+-   **[GRC Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-risk-overview.md)**
 
     Use the Risk Management application with the ServiceNow® Advanced Risk application to identify and monitor high-impact risks, improve your risk-based decision-making, and reduce reaction time.
 
--   **GRC Risk Workspace**
+-   **[GRC Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-workspace.md)**
 
     Using Risk Workspace with the ServiceNow® Advanced Risk application provides a simplified user experience with a single-pane view for all your risk-related activities.
 

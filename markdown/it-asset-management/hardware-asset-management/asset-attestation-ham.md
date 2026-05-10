@@ -43,7 +43,7 @@ Asset Attestation has a dependency on the following ServiceNow Store application
 -   Employee Center \(sn\_ex\_sp\)
 -   Employee Profile \(sn\_employee\)
 
-For more details, see Employee Center and Employee profile.
+For more details, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md) and [Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-portal.md).
 
 If you plan to audit your assets by using Asset Attestation, then consider the following points:
 

@@ -50,7 +50,7 @@ The Hardware Vulnerability Assessment menu provides information of all vulnerabi
     -   **New**
     -   **Match not found**
     -   **Publisher normalized**
-    **Important:** Enable the Opt-in feature in Enterprise Asset Management, which enables OT devices to be available for normalization. For more information, see Opt-in to Enterprise Asset Management Content Service.
+    **Important:** Enable the Opt-in feature in Enterprise Asset Management, which enables OT devices to be available for normalization. For more information, see [Opt-in to Enterprise Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/optin-cs-eam.md).
 
 
 **Parent Topic:**[Using the Industrial Workspace](../../operational-technology-management/concept/using-industrial-workspace.md)

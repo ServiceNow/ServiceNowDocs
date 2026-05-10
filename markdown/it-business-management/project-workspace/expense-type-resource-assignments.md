@@ -28,7 +28,7 @@ Role required: admin
     3.  Select the **Active** option to activate the schedule job.
     4.  Edit the fields on the Scheduled Script Execution form to customize the job and meet your requirements.
 
-        For more information about the field description and scripts, see Automatically run a script of your choosing.
+        For more information about the field description and scripts, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ScheduleAScriptExecution.md#t_ScheduleScriptExecution).
 
     5.  Select **Execute Now** to execute the scheduled job or select **Update** to save your changes.
 2.  Enable expense type on resource assignments.

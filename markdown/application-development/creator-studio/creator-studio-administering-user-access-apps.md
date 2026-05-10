@@ -21,11 +21,11 @@ Applications must be deployed to the production instance, which is where you ass
 
 Users with the agent role are fulfillers, and should automatically get access to apps built in Creator Studio.
 
-Assign users the agent role for the app's scope, for example, `x_snc_jd_it_fulf_0.agent` for an app with the scope `x_snc_jd_it_fulf_0`. For details on assigning roles to users, see Managing roles.
+Assign users the agent role for the app's scope, for example, `x_snc_jd_it_fulf_0.agent` for an app with the scope `x_snc_jd_it_fulf_0`. For details on assigning roles to users, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md).
 
 ## Restricting user access to forms
 
-By default, all users on the production instance get access to forms built in Creator Studio, but Creator Studio developers can choose from existing access criteria if they want to restrict access. The **Available For** and **Not Available For** form settings are lists of User Criteria Records. For more information, see Set security for items and categories.
+By default, all users on the production instance get access to forms built in Creator Studio, but Creator Studio developers can choose from existing access criteria if they want to restrict access. The **Available For** and **Not Available For** form settings are lists of User Criteria Records. For more information, see [Set security for items and categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogAccessControls.md).
 
 Developers can work with admins to define new access criteria for their app's forms to define the proper access from within Creator Studio. For more information, see [Edit the settings for a form in Creator Studio](../task/creator-studio-edit-form-settings.md).
 

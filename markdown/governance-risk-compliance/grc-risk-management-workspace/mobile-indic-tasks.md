@@ -55,15 +55,15 @@ Assign an Indicator Task from the list of records. Alternatively, view the detai
 
 9.  With the fields on the record displayed, choose one in the following table to continue.
 
-<table id="choicetable_qrs_kqz_13b"><thead><tr><th align="left" id="d381657e191">
+<table id="choicetable_qrs_kqz_13b"><thead><tr><th align="left" id="d381664e191">
 
 Option
 
-</th><th align="left" id="d381657e194">
+</th><th align="left" id="d381664e194">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d381657e200">
+</th></tr></thead><tbody><tr><td id="d381664e200">
 
 **Details tab**
 
@@ -71,7 +71,7 @@ Description
 
 With the Details tab selected, to assign the record, at the top right of the screen, tap the menu icon \(![Menu icon](../../grc-common/image/mobile-top-menu.png)\). Follow the steps described in the preceding table.
 
-</td></tr><tr><td id="d381657e215">
+</td></tr><tr><td id="d381664e215">
 
 **Activity Stream tab**
 
@@ -81,7 +81,7 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 -   At the top right of the screen, tap the menu icon \(![Top menu icon.](../../grc-common/image/mobile-top-menu.png)\). Tap Assign. On the screen that is displayed, tap a user. Alternatively, enter text in the Search field. Tap the send icon \(![Send icon.](../../grc-common/image/mobile_instances_send_droid.png)\) or **Submit** to save and submit your changes.
 
 
-</td></tr><tr><td id="d381657e254">
+</td></tr><tr><td id="d381664e254">
 
 **Tap a screen icon at the bottom of the screen.**
 

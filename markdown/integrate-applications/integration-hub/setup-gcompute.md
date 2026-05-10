@@ -22,7 +22,7 @@ Integrate the ServiceNow instance and Google Compute Engine spoke by using OAuth
 -   Access to Google Cloud Platform.
 -   Role required: admin.
 
-**Note:** This procedure outlines steps to configure the custom app using OAuth. You can also configure the custom app using Service Account associated with JWT tokens. For more information about setting up the spoke using JWT tokens, see [Choosing an Authentication Method - Service accounts](https://cloud.google.com/endpoints/docs/openapi/authentication-method#service_accounts) and Set up OAuth provider with JWT Bearer grant type.
+**Note:** This procedure outlines steps to configure the custom app using OAuth. You can also configure the custom app using Service Account associated with JWT tokens. For more information about setting up the spoke using JWT tokens, see [Choosing an Authentication Method - Service accounts](https://cloud.google.com/endpoints/docs/openapi/authentication-method#service_accounts) and [Set up OAuth provider with JWT Bearer grant type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/JWT-Bearer-token-support.md).
 
 ## Configure the Google Compute Engine application
 

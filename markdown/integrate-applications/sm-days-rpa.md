@@ -31,7 +31,7 @@ With the scheduled maintenance days on the robot calendar, you get the following
 
 ## Workflow
 
-In RPA Hub, a Change Request \(CR\) with details of planned start and end dates along with time is created. This CR reflects as a scheduled maintenance day on the robot calendar, only when the change request is either in Scheduled, Implement, or Review states. For more information about the CR states, see Legacy: State model and transitions.
+In RPA Hub, a Change Request \(CR\) with details of planned start and end dates along with time is created. This CR reflects as a scheduled maintenance day on the robot calendar, only when the change request is either in Scheduled, Implement, or Review states. For more information about the CR states, see [Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ChangeStateModel.md).
 
 An associated SM event card appears on the robot calendar to display the scheduled maintenance days.
 

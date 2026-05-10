@@ -98,7 +98,7 @@ You can configure these secondary values by navigating to **UX Header Configurat
 
 ![UX header configuration.](../image/alert-header.png)![New record for a secondary value.](../image/alert-sec-value.png)
 
-For information on the form headers, see Configure a form header for a workspace.
+For information on the form headers, see [Configure a form header for a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-ws-form-header.md).
 
 The 'Assets at Risk' section is displayed on the **Details** tab of an alert. The **Response Tasks** tab shows secondary values such as the Response task number, Title, State, Assigned to, Created. The 'Assets at Risk' section, as shown in the example, provides an overview of all assets associated with an alert. You can view the at-risk assets by selecting each element definition, to monitor which assets are at risk for a specific alert.
 

@@ -25,7 +25,7 @@ When you delete a direct integration profile, all subscriptions, scheduled jobs,
 
 When you delete an SSO integration profile, all SSO applications, subscriptions, and scheduled jobs for the integration are also deleted. Open reclamation candidates are updated to Closed Skipped. Reclamation rules are not deleted.
 
-An SSO integration is created using a directory integration. When you delete an SSO integration profile, the directory integration \(including directory jobs, directory users, and directory groups\) is not deleted. Before deleting a directory integration, make sure it is not being used by additional connections, such as Microsoft Azure AD integration for new hire onboarding. The sn\_remote\_dir\_sync.admin role is required to delete directory integrations.
+An SSO integration is created using a directory integration. When you delete an SSO integration profile, the directory integration \(including directory jobs, directory users, and directory groups\) is not deleted. Before deleting a directory integration, make sure it is not being used by additional connections, such as [Microsoft Azure AD integration for new hire onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-journey-management/azure-active-directory-integration-for-new-hire-onboarding.md). The sn\_remote\_dir\_sync.admin role is required to delete directory integrations.
 
 **Parent Topic:**[SaaS License Management](sam-subscription-management.md)
 

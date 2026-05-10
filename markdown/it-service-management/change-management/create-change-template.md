@@ -28,15 +28,15 @@ You must have a role with the following access with regard to the change model t
 
 1.  Access the Create a new change template form.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d411410e65">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d411441e65">
 
 Source
 
-</th><th align="left" id="d411410e68">
+</th><th align="left" id="d411441e68">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d411410e74">
+</th></tr></thead><tbody><tr><td id="d411441e74">
 
 **Change Model**
 
@@ -48,7 +48,7 @@ Description
 
 **Note:** You can propose a new template only if you have access to the change model.
 
-</td></tr><tr><td id="d411410e111">
+</td></tr><tr><td id="d411441e111">
 
 **Create a change request page**
 
@@ -68,7 +68,7 @@ Description
 6.  Select **Create a new template**.
 
 
-</td></tr><tr><td id="d411410e168">
+</td></tr><tr><td id="d411441e168">
 
 **Templates tab**
 

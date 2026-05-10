@@ -58,7 +58,7 @@ To use OAuth 2.0 authentication with the ServiceNow IDE, you must register the O
 
 3.  On the form, fill in the fields.
 
-    For additional information about fields on the form, see Connect to a third-party OAuth provider.
+    For additional information about fields on the form, see [Connect to a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/connect-3rd-party-oauth-provider.md).
 
 <table id="table_sgc_qqv_yq"><thead><tr><th>
 

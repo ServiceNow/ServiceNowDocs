@@ -18,7 +18,7 @@ The AI Enhanced Recommended Actions for Operational Technology Service Managemen
 
 AI Enhanced Recommended Actions for OTSM leverages the external content connector to collect data from an external source. This feature currently supports using Microsoft SharePoint Online as the external source.
 
-**Note:** The external content connector is part of the existing ServiceNow AI Platform capabilities. For more information about the external content connector, see External Content Connectors.
+**Note:** The external content connector is part of the existing ServiceNow AI Platform capabilities. For more information about the external content connector, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ext-cont-connectors-landing-page.md).
 
 ## Using the AI Enhanced Recommended Actions for OTSM for your recommended actions
 

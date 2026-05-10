@@ -28,7 +28,7 @@ AI voice agents are associated with voice assistants, which act as a virtual hel
 To get started with AI voice agents, perform the following steps.
 
 1.  [Install Now Assist AI voice agents](../task/install-ai-voice-agents-plugins.md)
-2.  Configure user identification and authentication
+2.  [Configure user identification and authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configuring-authentication-factors-for-ai-voice-agents.md)
 3.  [Create an AI voice assistant](create-an-ai-voice-service.md)
 4.  [Create an AI voice agent](create-a-voice-enabled-ai-agent.md)
 5.  [Test AI voice agents](test-ai-voice-agents.md)
@@ -54,7 +54,7 @@ By using this feature, you confirm that your use \(including use by your service
 **Related topics**  
 
 
-[bundle-emplsm.now-assist-hrsd-voice-ai-agents]
+[HR AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-voice-ai-agents.md)
 
-[bundle-itsm.now-assist-itsm-aiagents-voice]
+[Agentic AI in the Voice application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-voice.md)
 

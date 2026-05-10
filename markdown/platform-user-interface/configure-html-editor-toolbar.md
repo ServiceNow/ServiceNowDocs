@@ -27,7 +27,7 @@ Role required: admin
 
     1.  Add a system property named **glide.ui.journal.html.plugins**.
 
-        For more information on adding system property, see Add a system property.
+        For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
     2.  Select **Submit**.
 
@@ -35,7 +35,7 @@ Role required: admin
 
     1.  Add a system property named **glide.ui.journal.html.toolbar**.
 
-        For more information on adding system property, see Add a system property.
+        For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
     2.  Select **Submit**.
 

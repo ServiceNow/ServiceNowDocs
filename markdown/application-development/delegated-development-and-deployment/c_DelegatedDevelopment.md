@@ -77,9 +77,9 @@ As a system administrator, you want to assign Abel Tuter certain developer and d
 
 [Application files](c_ApplicationFiles.md)
 
-[bundle-platadm.t_InstallApplications]
+[Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md)
 
-[bundle-platadm.t_InstallUpdates]
+[Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallUpdates.md)
 
 [Application sharing](c_SharingApplications.md)
 

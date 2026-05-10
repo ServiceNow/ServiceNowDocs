@@ -40,7 +40,7 @@ The following legacy risk assessment components are migrated:
 
 1.  Create an update set and set it as the current set.
 
-    For more information, see Create and select an update set as the current set.
+    For more information, see [Create and select an update set as the current set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/create-select-update-set.md).
 
 2.  Navigate to **Change** &gt; **Risk Assessment \(legacy\)**.
 
@@ -61,7 +61,7 @@ After all the legacy risk assessments are migrated, reach out to the support tea
 disable_legacy_change_risk_assessment.js
 ```
 
-Capture the results in the update set created and later mark the update set as closed complete. For more information, see Mark an update set complete.
+Capture the results in the update set created and later mark the update set as closed complete. For more information, see [Mark an update set complete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_CompleteUpdateSets.md).
 
 **Note:** The given procedure is a suggested practice. Alternatively, you can capture each migrated Change Risk Assessment in their own update set. You can also capture the results of disabling of the Change Management - Risk Assessment \[Legacy\] using `disable_legacy_change_risk_assessment.js` in a separate update set.
 

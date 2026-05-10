@@ -15,7 +15,7 @@ breadcrumb: [DevOps test tool integration, User created, Integrate, DevOps Chang
 
 Add test report xmls as attachments to DevOps change requests using the attachment API.
 
-For more information about the API, see Attachment - POST /now/attachment/file.
+For more information about the API, see [Attachment - POST /now/attachment/file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_AttachmentAPI.md).
 
 The attachment API URL is:
 
@@ -29,8 +29,8 @@ The attachment API URL is:
 
 **Prerequisites**
 
--   Create an active user with the option **Web service access only** selected. For information on how to create a user, see Create a user.
--   Assign the role **sn\_change\_write** to the user. For information on how to assign the role, see Assign a role to a user.
+-   Create an active user with the option **Web service access only** selected. For information on how to create a user, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md).
+-   Assign the role **sn\_change\_write** to the user. For information on how to assign the role, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
     ![Create user.](../image/attachment-api-01.png)
 

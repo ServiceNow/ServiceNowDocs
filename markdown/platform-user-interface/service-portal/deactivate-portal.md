@@ -54,7 +54,7 @@ If you selected an alternate portal, users attempting to access the inactive por
 
 ![Message for users who attempt to visit an inactive portal and are redirected to an alternate portal.](../image/inactive-portal-message.png)
 
-If you don’t specify an alternate portal, users receive a message that the portal has been deactivated. You can customize these messages from the Message \[sys\_ui\_message\] table. For more information see, Message table.
+If you don’t specify an alternate portal, users receive a message that the portal has been deactivated. You can customize these messages from the Message \[sys\_ui\_message\] table. For more information see, [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_MessageTable.md).
 
 To reactivate a portal, clear the **Inactive** option.
 

@@ -39,7 +39,7 @@ You can apply multiple transform functions to the same data pill. The system app
 
 You can find out which transform functions are applied to a data pill by looking at the Applied Transforms list. When you are designing or creating a flow or action, point to or tab into the data pill and select the **f\(x\)** \(![function icon selected](../images/fx-applied-icon.png)\) icon. You can also view applied transform functions in the [flow execution details](flow-execution-details.md).
 
-**Note:** The output values for applied transform functions are field values, not Display values.
+**Note:** The output values for applied transform functions are field values, not [Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md).
 
 When a data pill is dropped into certain types of inputs, the system automatically suggests a transform function category that is related to the input. For example, the system suggests transform functions to escape special characters in SQL statements, prevent script injection in shell scripts, and validate API or operation requests. Currently, the system suggests transform function categories for these inputs:
 

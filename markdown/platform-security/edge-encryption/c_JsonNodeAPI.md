@@ -102,7 +102,7 @@ Calling this method on a JSON property tells the proxy that the value for this p
 
 Specifies that the value of the JSON property is an encoded query for the specified table.
 
-Calling this function on a JSON node tells the proxy that the value is an Encoded query strings for the specified table. The proxy parses the encoded query and encrypts the values for fields in the encoded query that must be encrypted.
+Calling this function on a JSON node tells the proxy that the value is an [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md) for the specified table. The proxy parses the encoded query and encrypts the values for fields in the encoded query that must be encrypted.
 
 |Name|Type|Description|
 |----|----|-----------|

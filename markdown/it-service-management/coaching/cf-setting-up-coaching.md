@@ -32,9 +32,9 @@ You can obtain feedback for both the coach and the trainee by creating surveys t
 -   Survey taken by trainee to provide feedback on the coach
 -   Survey taken by coach to provide feedback on the trainee
 
-Access the Survey designer for Coaching by navigating to **Survey** &gt; **Survey Designer**.
+Access the [Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md) for Coaching by navigating to **Survey** &gt; **Survey Designer**.
 
-Access the Coaching Survey definitions by navigating to **Coaching** &gt; **Coaching Surveys**.
+Access the Coaching [Survey definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDefinitions.md) by navigating to **Coaching** &gt; **Coaching Surveys**.
 
 -   **[Create a survey and associate with a Coaching opportunity](../task/cf-create-survey-coaching-opportunity.md)**  
 Create a survey for coaches or trainees to assess the training quality. Add a question bank to the survey. Associate the survey with a coaching opportunity to provide feedback when the coach completes the coaching assessment.

@@ -36,7 +36,7 @@ The different UI Builder Component names for Sentiment analysis dashboard are OO
 
     For example, open **Sentiment by Channel Insight**. Make a clone if needed.
 
-3.  Duplicate **Sentiment by Channel Insight**
+3.  [Duplicate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/duplicate-components.md) **Sentiment by Channel Insight**
 
 4.  Rename all components to your desired field \(for example, Consumer\) or create a generalized component name.
 
@@ -76,7 +76,7 @@ The different UI Builder Component names for Sentiment analysis dashboard are OO
 
 18. Select **Save**.
 
-    Now add the newly created component to any base system dashboard page or your own custom page, using other nearby insights as reference for the correct event handler and optimization setup.
+    Now [add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md) the newly created component to any base system dashboard page or your own custom page, using other nearby insights as reference for the correct event handler and optimization setup.
 
     The sentiment analysis insight now uses the specified field to display data and the associated Now Assist skill has been properly configured.
 

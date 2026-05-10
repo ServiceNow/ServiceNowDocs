@@ -15,7 +15,7 @@ breadcrumb: [Install Supplier Collaboration Portal, Configure, Supplier Lifecycl
 
 After installing the Supplier Collaboration Portal application, you can activate additional plugins to enable additional features.
 
-You must have the admin role to activate these additional plugins. For details, see Activate a plugin.
+You must have the admin role to activate these additional plugins. For details, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 <table id="table_dk2_j2q_ssb"><thead><tr><th>
 

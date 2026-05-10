@@ -6,7 +6,7 @@ release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: concept
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 4
 breadcrumb: [Connections and Credentials, Access Management]
 ---
@@ -64,14 +64,14 @@ The following features use connections, credentials, and aliases:
 You can set up aliases on the ServiceNow AI Platform in one of two ways:
 
 -   Using the Connections and Credentials module. See [Create a Connection &amp; Credential alias](../task/connection-alias.md).
--   In the Connections dashboard of Integration Hub. See Add a connection.
+-   In the Connections dashboard of Integration Hub. See [Add a connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/dashboard-add-connection.md).
 
-    **Note:** Integration Hub requires a separate subscription. For more information, see Request Integration Hub.
+    **Note:** Integration Hub requires a separate subscription. For more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md).
 
 
 ## Credential synchronization on MID Servers
 
-Each MID Serverin your network synchronized with the instance keeps a copy of every credential that you create. The Management, Instrumentation, and Discovery \(MID\) Server is a Java application that enables communication and the movement of data between a ServiceNow instance and external applications, data sources, and services. This synchronization speeds up the reading of credentials when applications like Discovery or Service Mapping need to access multiple devices on the network. The MID Servers synchronize when they find a **credentials\_reload** job in the ECC Queue. The reload job instructs the MID Server to make a SOAP call to the instance to get the entire list of credentials in the Credentials \[discovery\_credentials\] table, including all the field values. To learn more, see MID Server.
+Each MID Serverin your network synchronized with the instance keeps a copy of every credential that you create. The Management, Instrumentation, and Discovery \(MID\) Server is a Java application that enables communication and the movement of data between a ServiceNow instance and external applications, data sources, and services. This synchronization speeds up the reading of credentials when applications like Discovery or Service Mapping need to access multiple devices on the network. The MID Servers synchronize when they find a **credentials\_reload** job in the ECC Queue. The reload job instructs the MID Server to make a SOAP call to the instance to get the entire list of credentials in the Credentials \[discovery\_credentials\] table, including all the field values. To learn more, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
 
 The SOAP response that your instance sends to each MID Server also includes custom fields that you added to any credential form that you customized. If you added reference fields, the data in the referenced table is also sent as part of the SOAP response. This can lead to performance issues when credential synchronization occurs with multiple MID Servers. To control this, manually add these properties to the System Properties \[sys\_properties\] table:
 

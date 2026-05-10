@@ -27,7 +27,7 @@ Role required: admin
 
     3.  Create a variable.
 
-        For more information about the different types of variables and how to configure them, see Creating variables.
+        For more information about the different types of variables and how to configure them, see [Creating variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_CreatingVariablesForFieldTypes.md).
 
     4.  Click **Submit**.
 
@@ -35,12 +35,12 @@ Role required: admin
 
     6.  Add the variable to the client script as a consumer or contact field.
 
-        For more information on client scripts, see Client scripts.
+        For more information on client scripts, see [Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/client-scripts.md).
 
 2.  Navigate to **Activity Subscriptions** &gt; **Script Includes**.
 
     1.  Add the variables to the **HealthScreeningUtil** script include.
 
-        For more information on script includes, see Script includes.
+        For more information on script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
 

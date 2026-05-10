@@ -15,7 +15,7 @@ breadcrumb: [Active Directory activity pack, Orchestration activity packs, Class
 
 The Is AD Account Locked activity determines whether an Active Directory user account is locked.
 
-An account may be locked automatically if a user enters an incorrect password more times than allowed by the Active Directory security policy. You can unlock an account using the Unlock AD User Account activity.
+An account may be locked automatically if a user enters an incorrect password more times than allowed by the Active Directory security policy. You can unlock an account using the [Unlock AD User Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md) activity.
 
 To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Active Directory**.
 

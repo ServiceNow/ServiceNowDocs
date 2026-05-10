@@ -100,5 +100,5 @@ Web  embeddables  include nine components that cover knowledge, catalog, cas
 **Related topics**  
 
 
-[bundle-csm.using-web-embeddables]
+[Configure Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/using-web-embeddables.md)
 

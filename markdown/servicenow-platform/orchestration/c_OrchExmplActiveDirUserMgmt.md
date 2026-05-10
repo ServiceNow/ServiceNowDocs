@@ -132,7 +132,7 @@ Updates the user's account in Active Directory, if the user exists. In this exam
 
     At this point, the workflow takes a ServiceNow user record as input and updates the First Name, Last Name, and Title of the corresponding Active Directory account. If the account does not exist in Active Directory, the workflow fails.
 
-    **Note:** In a normal workflow, some type of alternate action is desirable upon failure. For example, you might send an Email and SMS notifications if the workflow failed to update the record.
+    **Note:** In a normal workflow, some type of alternate action is desirable upon failure. For example, you might send an [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md) if the workflow failed to update the record.
 
 12. To prevent the workflow from failing, add a Create AD Object activity to the transition lines between Begin and the Update AD Object activity.
 

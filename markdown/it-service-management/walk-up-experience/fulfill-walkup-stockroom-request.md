@@ -51,7 +51,7 @@ When a walk-up queue requester requests a consumable, such as a computer monitor
 
     Alternatively, you can click **Close** to complete the interaction.
 
-    If you cannot fulfill the request from the associated stockroom, click the **Create Request** related link from the interaction form to access the Service Catalog. Refer to Create a request through a catalog to order an item for the requester.
+    If you cannot fulfill the request from the associated stockroom, click the **Create Request** related link from the interaction form to access the Service Catalog. Refer to [Create a request through a catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_CreateARequestThroughTheCatalog.md) to order an item for the requester.
 
 
 **Parent Topic:**[View Walk-up Experience location stockroom and assets](view-walkup-location-stockroom.md)

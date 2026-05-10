@@ -19,7 +19,7 @@ In Service Exchange, you can apply scripts to an RRP by:
 
 -   Creating catalog client scripts: You can create catalog item scripts to customize an RRP. For details, see [Create catalog client scripts](../task/service-bridge-v2-create-client-script.md).
 -   Adding scripts in variables: You can add scripts in a variable and use the variable in the RRP. For details see [Create variables for remote record producers in Service Exchange for Providers](../task/service-bridge-v2-assign-variables-ser-defn.md).
--   Adding scripts in UI policies: You can add scripts in a UI policy and apply the UI policy on an RRP. For details, see Service catalog UI policy.
+-   Adding scripts in UI policies: You can add scripts in a UI policy and apply the UI policy on an RRP. For details, see [Service catalog UI policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogUIPolicy.md).
 
 **Parent Topic:**[Using Service Exchange for providers](service-bridge-v2-administer.md)
 

@@ -20,7 +20,7 @@ Add the AllSites.FullControl SharePoint API delegated permission to your Externa
 
 The Now Assist in AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install Now Assist in AI Search](install-now-assist-ais.md).
 
-You need to have an OAuth 2.0 application configured in Microsoft Azure portal for External Content Q&amp;A Genius Results. For details on this procedure, see Configure OAuth application in Microsoft Azure.
+You need to have an OAuth 2.0 application configured in Microsoft Azure portal for External Content Q&amp;A Genius Results. For details on this procedure, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
 
 You must have permissions to change the OAuth 2.0 application's settings in Microsoft Azure portal.
 
@@ -44,7 +44,7 @@ Role required: admin
 
         ![Microsoft Azure portal with search term and matching application display name highlighted.](../image/azure-portal-app-srch.png)
 
-        To learn how to configure an OAuth 2.0 application for External Content Q&amp;A Genius Results, see Configure OAuth application in Microsoft Azure.
+        To learn how to configure an OAuth 2.0 application for External Content Q&amp;A Genius Results, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
 
 2.  Add an AllSites.FullControl SharePoint API delegated permission to your OAuth 2.0 application.
 

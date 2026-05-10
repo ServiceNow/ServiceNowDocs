@@ -15,9 +15,9 @@ breadcrumb: [Integrating Task Mining, Explore, Task Mining, Platform Analytics]
 
 Create automation requests for your tasks directly from Task Mining.
 
-You must install and configure the Automation Center plugin before using the integration. See Install Automation Center for more information.
+You must install and configure the Automation Center plugin before using the integration. See [Install Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/install-automation-center.md) for more information.
 
-To use the Now Assist feature in the integration, you must install Now Assist for Platform and activate the User Task Step Summarization skill. For more information, see Install Automation Center.
+To use the Now Assist feature in the integration, you must install Now Assist for Platform and activate the User Task Step Summarization skill. For more information, see [Install Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/install-automation-center.md).
 
 ## Initiate an automation request from the Task timeline analysis
 

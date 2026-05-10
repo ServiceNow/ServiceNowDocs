@@ -31,7 +31,7 @@ Provides debugging tips for troubleshooting Service Portal configuration issues.
 
     The following tips can help determine the cause of performance issues in portals:
 
-    -   Determine if the issue is related to the portal or platform-wide by comparing the functionality in both interfaces. For more information about platform performance issues, see Platform performance.
+    -   Determine if the issue is related to the portal or platform-wide by comparing the functionality in both interfaces. For more information about platform performance issues, see [Platform performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/platform-performance-landing.md).
     -   Determine if the issue affects the entire portal or specific pages. If all pages in the portal are slow, check if scripted menu items in the header menu or themes with large font or image files could be the cause. If a specific page is slow, use the browser developer console to determine which widget could be the cause.
     -   Check the Log \[syslog\] table for warnings related to large JSON objects causing slowness. If these warnings are appear with the action that causes slowness, this indicates that a widget is using too much data.
     For more information, see the [Six common performance pitfalls in Service Portal and how to avoid them \[KB0634588\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0634588) article in the Now Support Knowledge Base.
@@ -82,7 +82,7 @@ Logs output to the Service Portal Log Entries \[sp\_log\] table, when the logged
 
 </td></tr><tr><td>
 
-gs.log\(\)
+[gs.log\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSystemAPI.md)
 
 </td><td>
 
@@ -94,7 +94,7 @@ Logs output to the Log \[syslog\] table.**Note:** gs.log creates records on the 
 
 </td></tr><tr><td>
 
-gs.warn\(\)
+[gs.warn\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSystemScopedAPI.md)
 
 </td><td>
 
@@ -106,7 +106,7 @@ Produces warning level output in the Log \[syslog\] table.
 
 </td></tr><tr><td>
 
-gs.error\(\)
+[gs.error\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSystemScopedAPI.md)
 
 </td><td>
 
@@ -118,7 +118,7 @@ Produces error level output in the Log \[syslog\] table.
 
 </td></tr><tr><td>
 
-gs.addInfoMessage\(\)
+[gs.addInfoMessage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSystemScopedAPI.md)
 
 </td><td>
 
@@ -130,7 +130,7 @@ Displays a green information message at the top of the browser window.
 
 </td></tr><tr><td>
 
-gs.addErrorMessage\(\)
+[gs.addErrorMessage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSystemScopedAPI.md)
 
 </td><td>
 
@@ -142,7 +142,7 @@ Displays a red error message at the top of the browser window.
 
 </td></tr><tr><td>
 
-spUtil.addErrorMessage\(\)
+[spUtil.addErrorMessage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
 
 </td><td>
 
@@ -154,7 +154,7 @@ Displays an error message within the browser window.
 
 </td></tr><tr><td>
 
-spUtil.addInfoMessage\(\)
+[spUtil.addInfoMessage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
 
 </td><td>
 
@@ -166,7 +166,7 @@ Displays an Info message within the browser window.
 
 </td></tr><tr><td>
 
-spUtil.addTrivialMessage\(\)
+[spUtil.addTrivialMessage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
 
 </td><td>
 
@@ -178,7 +178,7 @@ Displays a message which automatically disappears after a short time.
 
 </td></tr><tr><td>
 
-debugger
+[debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md)
 
 </td><td>
 
@@ -203,7 +203,7 @@ This code can be added to the HTML code of a page to output the data object to t
 </td></tr></tbody>
 </table>-   **Check for security restrictions**
 
-    Often, widget display issues are caused by access rules or user criteria rather than the widget script. Check the user criteria for records and verify that any records that are not accessible within a widget are accessible using the platform UI. Use the ACL debugger to ensure that your users have the expected access to records used by your widgets. For more detail on the debugger, see ACL debugging tools.
+    Often, widget display issues are caused by access rules or user criteria rather than the widget script. Check the user criteria for records and verify that any records that are not accessible within a widget are accessible using the platform UI. Use the ACL debugger to ensure that your users have the expected access to records used by your widgets. For more detail on the debugger, see [ACL debugging tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/c_AccessControlRulesDebug.md).
 
     Service Catalog items can also be restricted to not appear in Service Portal. If you get a `You are either not authorized or record is not valid` error message for a Service Catalog widget, check that the item is not hidden from Service Portal.
 

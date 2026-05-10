@@ -75,7 +75,7 @@ Table
 
 </td><td>
 
-Table that determines the records tracked by the SLA. SLAs can be defined for any table that extends the task table, including incident, change request, and service catalog tasks. **Note:** Starting with the Helsinki release, you can and create an SLA definition for configuration items and business services for Event Management.
+Table that determines the records tracked by the SLA. SLAs can be defined for any table that extends the task table, including incident, change request, and service catalog tasks. **Note:** Starting with the Helsinki release, you can and [create an SLA definition for configuration items and business services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMSLAsForBSAndCIs.md) for Event Management.
 
 </td></tr><tr><td>
 

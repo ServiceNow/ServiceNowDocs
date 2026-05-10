@@ -40,7 +40,7 @@ Role required: sn\_compliance.attestation\_creator
     |State|The publish state of the assessment: **Draft** or **Published**.|
     |Enforce condition|When selected, all records that do not meet the conditions defined are deleted.|
     |Roles|Roles that have Read access to the information in the assessment.|
-    |Condition|Conditions for selecting records from the selected table to be assessed. For more information, see Condition builder.|
+    |Condition|Conditions for selecting records from the selected table to be assessed. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).|
     |Description|A description for this exception questionnaire.|
 
 4.  Save the questionnaire record.

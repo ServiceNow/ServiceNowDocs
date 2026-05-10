@@ -61,7 +61,7 @@ list\_view
 
 </td><td>
 
-The name of the view that defines the list of columns or fields to appear on the widget.For more information on these views, see Create and delete views.
+The name of the view that defines the list of columns or fields to appear on the widget.For more information on these views, see [Create and delete views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-delete-view.md).
 
 If no value is provided, all columns are shown.
 

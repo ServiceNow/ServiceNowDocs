@@ -19,7 +19,7 @@ Add or update DevOps change request attributes using the changeInfo REST API, th
 
 Use one of the following methods to specify change request attributes:
 
--   DevOps - PUT /devops/orchestration/changeInfo/\{changeInfo\} to update fields within a specified change request.
+-   [DevOps - PUT /devops/orchestration/changeInfo/\{changeInfo\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/devops-api.md) to update fields within a specified change request.
 
     **Note:**
 

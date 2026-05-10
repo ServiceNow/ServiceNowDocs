@@ -21,7 +21,7 @@ Install and activate the ServiceNow Document Designer with Word \(sn\_grc\_doc\_
 
 Confirm that you have the templates configured. For more information, see [Configure templates for Document Designer](configure-template-for-document-designer.md).
 
-If you want to insert and update reporting content, set up Microsoft 365 reporting. For more information see, Set up Microsoft 365 reporting configuration and Add additional reporting configuration filters for a Microsoft 365 configuration record.
+If you want to insert and update reporting content, set up Microsoft 365 reporting. For more information see, [Set up Microsoft 365 reporting configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-o365-reporting-configs.md) and [Add additional reporting configuration filters for a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-additional-reporting-filters.md).
 
 Role required: sn\_audit.manager and sn\_grc\_doc\_design.reader
 
@@ -141,9 +141,9 @@ Role required: sn\_audit.manager and sn\_grc\_doc\_design.reader
 **Related topics**  
 
 
-[bundle-esgv.configure-o365-reporting-configs]
+[Set up Microsoft 365 reporting configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-o365-reporting-configs.md)
 
-[bundle-esgv.add-additional-reporting-filters]
+[Add additional reporting configuration filters for a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-additional-reporting-filters.md)
 
-[bundle-esgv.add-related-fields-0365]
+[Add related fields to a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-related-fields-0365.md)
 

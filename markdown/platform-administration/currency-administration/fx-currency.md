@@ -35,7 +35,7 @@ Use the FX Currency field type in place of the standard currency fields when you
     To learn more about currency conversions, see [Understanding how FX Currency field conversions work](fx-currency-conversions.md).
 
 -   Provide greater transparency into currency conversion calculations. You can view and configure the calculation components, including conversion dates, reference currency, and number of displayed decimals.
--   Build query conditions using FX Currency field values. For available query conditions, see Operators available for filters and queries.
+-   Build query conditions using FX Currency field values. For available query conditions, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 -   Access FX Currency fields through richer scriptable APIs.
 -   Aggregate currency values as entered by users, or aggregate them in selected reference currencies, for reporting purposes.
 -   Use the three-digit ISO 4217 numeric currency code for a currency with Numeric code field on the Currency \[fx\_currency\] table and the ScriptableCurrencyCode API. For more information, see .

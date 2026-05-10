@@ -56,8 +56,8 @@ By default, a TPRM issue in the Third-party Risk Management application shows th
 
         You can perform the following actions on Now Assist skills if you have the sn\_generative\_ai.nsa\_admin role:
 
-        -   Edit a Now Assist skill.
-        -   Troubleshoot a Now Assist skill.
+        -   [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-a-now-assist-skill.md).
+        -   [Troubleshoot a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/troubleshoot-a-now-assist-skill.md).
 6.  Select **Save and continue**.
 
 7.  View the details of the skill by selecting **Review and activate**.

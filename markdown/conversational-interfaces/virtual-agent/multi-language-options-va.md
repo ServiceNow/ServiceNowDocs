@@ -21,7 +21,7 @@ If your chat audience is diverse, you want to support them in their own language
 
 -   **[Direct language support \(professional localization\)](localize-va-topic.md)**
 
-    A direct language strategy employs an expert linguist to configure entities, intents, strings, keywords, and vocabulary, which are then used to match user utterances with configured content. Since an expert provides translations that directly match the conversation's content, the accuracy of the translated content will be high. In addition to the translations themselves, experts can use the NLU vocabulary feature to further define words and phrases that it may encounter from your users. For example, a user may enter an acronym such as `MS`, which you can define as the vocabulary item `Microsoft`.
+    A direct language strategy employs an expert linguist to configure entities, intents, strings, keywords, and vocabulary, which are then used to match user utterances with configured content. Since an expert provides translations that directly match the conversation's content, the accuracy of the translated content will be high. In addition to the translations themselves, experts can use the [NLU vocabulary feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/using-nlu-vocabulary.md) to further define words and phrases that it may encounter from your users. For example, a user may enter an acronym such as `MS`, which you can define as the vocabulary item `Microsoft`.
 
     Professional translations are implemented directly in Virtual Agent Designer. For details, see [Localizing Virtual Agent conversations](localize-va-topic.md).
 
@@ -122,7 +122,7 @@ In the following example, French, German, and Spanish are professionally localiz
 
 You can view dynamic translation and localization insights from the Virtual Agent Designer page. Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**, and select **Localization Insights**from the list of links in the side panel.
 
-For more information, see Localization Insights dashboard.
+For more information, see [Localization Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-insights-dashboard.md).
 
 -   **[Using language detection and dynamic machine translation in Virtual Agent enhanced chat conversations](dynamic-lang-detection-translation-enhanced-chat.md)**  
 Enable a combination of language detection and machine translation for Virtual Agent to improve the chat experience for diverse users. You can designate fallback languages for locales or dynamically translate languages that are not professionally localized or are not supported in topic discovery.

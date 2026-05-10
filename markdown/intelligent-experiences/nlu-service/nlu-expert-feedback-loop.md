@@ -27,13 +27,13 @@ Expert Feedback Loop is part of the NLU Workbench - Advanced Features app availa
 
 To use Expert Feedback Loop, ensure that the NLU Workbench - Advanced Features \(sn\_nlu\_workbench\) plugin is active on your instance. For more information, see [Install NLU Workbench - Advanced Features](../task/install-nlu-workbench-adv-features.md) and [Activate the NLU Workbench](../task/activate-nlu-workbench.md).
 
-Because Expert Feedback Loop relies on the data from VA chat logs, make sure that the Glide Virtual Agent \(com.glide.cs.chatbot\) plugin is also active. See Activate Virtual Agent.
+Because Expert Feedback Loop relies on the data from VA chat logs, make sure that the Glide Virtual Agent \(com.glide.cs.chatbot\) plugin is also active. See [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/activate-virtual-agent.md).
 
 ## Importing expert feedback loop data between instances
 
 Before you start an import, make sure you have access to the data in your instance and have enough data to proceed with your feedback.
 
-If you're working in a sub-production instance, you must import the feedback data from the **open\_nlu\_predict\_intent\_feedback** table in your production instance to your sub-production instance. For guidance on how to import, see Importing from another ServiceNow instance.
+If you're working in a sub-production instance, you must import the feedback data from the **open\_nlu\_predict\_intent\_feedback** table in your production instance to your sub-production instance. For guidance on how to import, see [Importing from another ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportingFromAnotherSNInstance.md).
 
 Here are a few data scenarios regarding the system behavior for the NLU models that house the feedback loop utterances.
 

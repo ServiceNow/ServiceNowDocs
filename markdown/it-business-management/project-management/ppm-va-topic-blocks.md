@@ -24,7 +24,7 @@ The following predefined reusable topic blocks are available:
 -   Resource Topic for PPM VA
 -   RIDAC Topic for PPM VA
 
-To view just the reusable topic functions, access the Topics page in Virtual Agent Designer and select the **Topic Blocks** tab. For detailed information, see Reusable topic blocks.
+To view just the reusable topic functions, access the Topics page in Virtual Agent Designer and select the **Topic Blocks** tab. For detailed information, see [Reusable topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topic-blocks-overview.md).
 
 **Related topics**  
 

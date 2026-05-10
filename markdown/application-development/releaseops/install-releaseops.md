@@ -36,7 +36,7 @@ Because ReleaseOps involves a multi-instance ecosystem, you must complete this p
 
 6.  Run the installation on your instance, and accept all of the plugins.
 
-    For more information about installing a ServiceNow® Store application on your instance, see Install an application or plugin.
+    For more information about installing a ServiceNow® Store application on your instance, see [Install an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/installing-applications-in-application-manager.md).
 
 
 ## Result

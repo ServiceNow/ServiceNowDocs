@@ -271,7 +271,7 @@ Description
 
 \[The number of incidents and requests created using Virtual Agent \] / \[Total numbers of incidents and requests created\]
 
- The number of times, in percentage, the incident, or request was submitted using Virtual Agent. This is determined by the deflection pattern added in the Virtual Agent topic.
+ The number of times, in percentage, the incident, or request was submitted using Virtual Agent. This is determined by the [deflection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/deflections-virtual-agent.md) pattern added in the Virtual Agent topic.
 
 </td></tr><tr><td>
 
@@ -281,7 +281,7 @@ Description
 
 \[The number of incidents auto-resolved by Virtual Agent \] / \[Total number of incidents resolved\]
 
- The number of times, in percentage, incidents were automatically resolved using automated workflows or by Issue Auto Resolution.
+ The number of times, in percentage, incidents were automatically resolved using automated workflows or by [Issue Auto Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/auto-resolution-va.md).
 
 </td></tr></tbody>
 </table><table id="table_yws_1qy_fbb"><thead><tr><th>
@@ -707,7 +707,7 @@ Instances where ServiceNow capabilities like NLU, LLM, Knowledge Article, Walk-u
 
 ## Strategic Portfolio Management KPIs
 
-Benchmarks supports Strategic Portfolio Management KPIs. You must install the Strategic Portfolio Management application to access the respective Benchmarks KPIs. For more information about the , see SPM Benchmarking KPIs.
+Benchmarks supports Strategic Portfolio Management KPIs. You must install the [Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/it-business-management-bu-level.md) application to access the respective Benchmarks KPIs. For more information about the , see [SPM Benchmarking KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/benchmarks-for-strategic-portfolio-management/spm-benchmarking-kpis.md).
 
 -   **[Configure KPI participation](../task/t_EnableABenchKPI.md)**  
 Review and configure Benchmarks KPI participation by opting in or out of categorized KPIs.

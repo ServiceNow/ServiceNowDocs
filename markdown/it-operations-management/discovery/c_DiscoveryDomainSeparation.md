@@ -24,7 +24,7 @@ Domain separation is supported in Discovery. Domain separation enables you to se
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Domain separation overview
 
@@ -56,7 +56,7 @@ By default, all records in these tables are members of the global domain. A user
 
 **Note:** Attachments on MIB or JAR file records might not appear as they did in a non-domain separated environment. The attachments do not appear because the **Attachments** \[sys\_attachment\] table is data separated. When data is separated between domains, a record in a child domain cannot access records in a parent domain.
 
-See MID Server domain separation for instructions on setting up domain separation through the MID Server.
+See [MID Server domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerDomainSeparation.md) for instructions on setting up domain separation through the MID Server.
 
 ## Domain-separated tables
 
@@ -81,9 +81,9 @@ Configuring the "Run as" user in a Discovery schedule directs discovered Configu
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 
-[bundle-psec.bp-domain-sep-recommended]
+[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
 
 [Discovery behaviors](c_DiscoveryBehaviors.md)
 

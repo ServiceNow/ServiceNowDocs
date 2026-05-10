@@ -15,13 +15,13 @@ Turn on the theme creation workflow to generate themes using the Now Assist pane
 
 ## Before you begin
 
-Install the Now Assist for Creator application. See Install Now Assist for Creator.
+Install the Now Assist for Creator application. See [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md).
 
-Turn on the Now Assist panel. See Activate the Now Assist panel standard chat
+Turn on the Now Assist panel. See [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md)
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see Granular admin roles.
+For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
 
 ## About this task
 

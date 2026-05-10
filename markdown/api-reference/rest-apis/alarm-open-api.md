@@ -1629,7 +1629,7 @@ Creates an alarm record in the Events \[em\_event\] table.
 
 When the alarm record is created, an ID for the alarm is added in the **Message key** field.
 
-An alert record might also be created based on Alert management rules.
+An alert record might also be created based on [Alert management rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-management-rule.md).
 
 This endpoint writes the response body to the **Additional Info** field of the event record in the Events \[em\_event\] table.
 

@@ -17,7 +17,7 @@ Include knowledge articles in your sitemap by activating the sitemap configurati
 
 ## Before you begin
 
--   Activate Sitemap Generator
+-   [Activate Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/sitemap-generator/activate-sitemap-generator.md)
 -   Verify that an unauthenticated user can access the knowledge base article by accessing it as a guest user.
 -   Verify that the Public option is selected on the Knowledge Article View form.
 

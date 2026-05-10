@@ -32,15 +32,15 @@ Role required: sn\_cm\_obligation.obligation\_fulfiller
 
 1.  Open an executed contract from the your workspace.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d701396e83">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d701400e83">
 
 Method
 
-</th><th align="left" id="d701396e86">
+</th><th align="left" id="d701400e86">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d701396e92">
+</th></tr></thead><tbody><tr><td id="d701400e92">
 
 **Contract Workspace**
 
@@ -53,7 +53,7 @@ Steps
 5.  Select an active contract repository record.
 
 
-</td></tr><tr><td id="d701396e140">
+</td></tr><tr><td id="d701400e140">
 
 **Workspace used by your application**
 

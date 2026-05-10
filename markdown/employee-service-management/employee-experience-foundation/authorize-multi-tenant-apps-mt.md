@@ -17,7 +17,7 @@ Authorize the required pre-published apps to enable your ServiceNow instance to 
 
 ## Before you begin
 
-Install Virtual Agent Lite or Virtual Agent. For more information see Virtual Agent integration with messaging apps.
+Install Virtual Agent Lite or Virtual Agent. For more information see [Virtual Agent integration with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
 
 To connect your ServiceNow instance to your Microsoft 365 tenant and to authorize apps, you must have both the external\_app\_install\_admin role and the Global Administrator role in Microsoft 365. For information about the related Microsoft roles, see [Azure AD built-in roles](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#available-roles).
 

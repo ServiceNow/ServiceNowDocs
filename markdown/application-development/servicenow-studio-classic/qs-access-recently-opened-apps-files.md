@@ -25,15 +25,15 @@ Role required: admin or delegated\_developer
 
 2.  Open a recently accessed app or file from one of the following locations.
 
-<table id="choicetable_ncs_cfb_qcc"><thead><tr><th align="left" id="d139081e111">
+<table id="choicetable_ncs_cfb_qcc"><thead><tr><th align="left" id="d139093e111">
 
 Location in ServiceNow Studio
 
-</th><th align="left" id="d139081e116">
+</th><th align="left" id="d139093e116">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d139081e122">
+</th></tr></thead><tbody><tr><td id="d139093e122">
 
 **ServiceNow Studio home page**
 
@@ -48,7 +48,7 @@ Steps
 
 ![On the Recents tab, select an app or file under the Label column to open it.](../image/sn-studio-recents-label-column.png)
 
-</td></tr><tr><td id="d139081e182">
+</td></tr><tr><td id="d139093e182">
 
 **Navigator panel**
 

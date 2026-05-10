@@ -41,7 +41,7 @@ Role required: admin
 
 8.  You can customize the subflow by doing one of the following:
 
-    -   Integrate with a third-party system by adding an action with a spoke from the Integration Hub \(for more information, see Spokes\)
-    -   Use a REST action step and call the external endpoint \(for more information, see REST step\).
-    -   Call a REST message in the subflow itself \(for more information, see Outbound REST Web Service\).
+    -   Integrate with a third-party system by adding an action with a spoke from the Integration Hub \(for more information, see [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md)\)
+    -   Use a REST action step and call the external endpoint \(for more information, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/rest-request-action-designer.md)\).
+    -   Call a REST message in the subflow itself \(for more information, see [Outbound REST Web Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundRESTWebService.md)\).
 

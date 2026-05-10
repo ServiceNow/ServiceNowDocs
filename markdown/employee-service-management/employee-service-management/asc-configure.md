@@ -17,11 +17,11 @@ The following plugins must be activated prior to activating the Alumni Center \(
 -   Human Resources Scoped App: Core \(com.sn\_hr\_core\)
 -   Employee Center \(sn\_ex\_sp\)
 
-For more information on requesting activation of a plugin, see Request a plugin.
+For more information on requesting activation of a plugin, see [Request a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_RequestAPlugin.md).
 
 To set up Alumni Center, you must request activation for the following: Explicit Roles \(com.glide.explicit\_roles\). The Alumni Center uses this plugin to help segregate external users from internal users.
 
-**Note:** The Explicit Roles \(com.glide.explicit\_roles\) plugin must be activated before activating the Alumni Center \(sn\_asc\). For information on installing a ServiceNow Store application, see Install a ServiceNow Store application.
+**Note:** The Explicit Roles \(com.glide.explicit\_roles\) plugin must be activated before activating the Alumni Center \(sn\_asc\). For information on installing a ServiceNow Store application, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
 
 -   **Roles installed**
 
@@ -114,7 +114,7 @@ Content Delivery manager \[sn\_cd.content\_manager\]
 
 -   **Load data**
 
-    To add alumni users in bulk, use **System Import Sets**. For more information, see Import sets key concepts.
+    To add alumni users in bulk, use **System Import Sets**. For more information, see [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportSetsKeyConcepts.md).
 
     At a minimum, the file you upload must have a header and the personal email for each alumnus.
 

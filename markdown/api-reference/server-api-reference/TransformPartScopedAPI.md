@@ -171,7 +171,7 @@ Can be:-   AVG
 -   MIN
 -   STDDEV
 
- For definitions of these options, see MetricBase transforms.
+ For definitions of these options, see [MetricBase transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/metricbase-transforms.md).
 
 </td></tr><tr><td>
 

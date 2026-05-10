@@ -55,7 +55,7 @@ The sourcing event playbook, also known as the negotiation setup playbook, enabl
 
 The playbook stages and activities of sourcing requests and sourcing events can be modified by the customer from Playbooks. ​The Declarative Actions can be edited or newly created, and their mappings modified in the Activity Definition section. The look and feel of the activities can also be configured from Activity Experience in the Activity Definition section.​
 
-For details on how administrators, agents, and fulfillers can configure playbooks, see Running Playbooks. For more information on Playbooks stages and activities, see Stages and activities.
+For details on how administrators, agents, and fulfillers can configure playbooks, see [Running Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md). For more information on Playbooks stages and activities, see [Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md).
 
 ## Troubleshooting
 

@@ -19,28 +19,28 @@ The ServiceNow® Service Exchange application, formerly known as Service Bridge,
 -   Get enhanced visibility into your instances with the Service Exchange center.
 -   Reduce onboarding complexity for consumers with auto-onboarding.
 
-See Service Exchange for more information.
+See [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/tmt-service-bridge-both-landing-page.md) for more information.
 
 **Important:** Service Exchange is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Service Exchange features
 
--   **Consumer outbound FDS**
+-   **[Consumer outbound FDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-explore-foundation-data-sync.md)**
 
     Reduce manual effort and eliminate the need to share data externally by sharing selected foundational data types with your provider on a scheduled cadence. This data transfer supports the service life cycle by providing foundational data context for operational workflows.
 
--   **Service Exchange center**
+-   **[Service Exchange center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/se-se-center.md)**
 
     Detect problems early, understand connection status, and resolve issues efficiently with the Service Exchange center, a centralized interface that provides real-time visibility into scan check issues, connection health and statuses, and access to all Service Exchange scan suites. Service Exchange admins can access their respective centers through the Provider and Consumer center links in the navigation menu.
 
--   **Auto-onboarding**
+-   **[Auto-onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-register.md)**
 
     Reduce onboarding complexity for consumers with automated onboarding. This feature autonomously manages onboarding workflows, establishes secure connections, synchronizes settings, and continuously monitors for errors to ensure reliable, efficient integrations with minimal manual effort.
 
 
 ## UI changes
 
--   **Health dashboard**
+-   **[Health dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/se-se-center.md)**
 
     The Health dashboard has been relocated to the Service Exchange Center. Access a more holistic view of system health that includes a resolution center, connection health, and built-in scan suites providing centralized visibility and faster troubleshooting of integration issues.
 
@@ -68,11 +68,11 @@ Install Service Exchange by requesting it from the ServiceNow Store. Visit the [
 
 ## Related ServiceNow applications and features
 
--   **Sales Customer Relationship Management**
+-   **[Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-overview.md)**
 
     The Sales Customer Relationship Management applications enable you to manage the product sales life cycle in your organization, including pre-sales opportunities, sales quote generation, order capture, order fulfillment, and post-sales engagement.
 
--   **Supporting information for HR Service Delivery**
+-   **[Supporting information for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-delivery-overview.md)**
 
     Improve the employee service experience by automating HR interactions and providing a single platform for all HR services. Replace manual and siloed processes with cross-functional digital workflows for increased efficiency. Align business goals with employee needs, including onboarding, career growth, and other transitions.
 

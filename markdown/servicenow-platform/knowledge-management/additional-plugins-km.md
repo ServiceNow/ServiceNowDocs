@@ -15,7 +15,7 @@ breadcrumb: [Knowledge Management reference, Knowledge Management, Manage conten
 
 After Knowledge Management is activated, you can activate additional plugins that provide access to various additional Knowledge Management features.
 
-You must have the admin role to activate these additional plugins. For details, see Activate a plugin.
+You must have the admin role to activate these additional plugins. For details, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 **Note:**
 

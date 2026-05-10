@@ -58,7 +58,7 @@ The framework of the Cloud Cost Management Infra Stack application enables paral
 
 You must fulfill these requirements to process billing jobs.
 
--   Map all the provider-specific credentials of your billing download jobs to the corresponding credential alias. For example, if you have two AWS credentials, map them to ccm\_aws\_alias so that the billing download job completes successfully. For more details on mapping credentials to aliases, see Credential aliases for Discovery.
+-   Map all the provider-specific credentials of your billing download jobs to the corresponding credential alias. For example, if you have two AWS credentials, map them to ccm\_aws\_alias so that the billing download job completes successfully. For more details on mapping credentials to aliases, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/discovery-credential-alias.md).
 
     **Note:** If you’re upgrading from an earlier version to Cloud Cost Management version 10.0 and have installed the Cloud Cost Management Infra Stack application, the mapping of credentials to alias happens automatically for all active billing download jobs. However, for any new job, you should do the mapping manually.
 

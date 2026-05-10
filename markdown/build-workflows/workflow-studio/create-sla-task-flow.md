@@ -100,7 +100,7 @@ Option to specify the user that runs the flow. You can select the system user or
 
     Once behaving as desired, activate the flow.
 
-8.  Create an SLA definition
+8.  [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/t_CreateAnSLADefinition.md)
 
     1.  In the **Flow** field, select the SLA Task flow you previously created.
 

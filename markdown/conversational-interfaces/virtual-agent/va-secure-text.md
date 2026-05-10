@@ -60,7 +60,7 @@ Text format that is validated when a user enters certain text items. When the in
 -   URL: Web address format.
 -   Custom: A script that provides a validation rule for a custom text format. The script should include related error messages that are displayed when the expected format isn’t entered.
 
- For phone and IP address format examples, see E.164 phone formats and IP address field types.
+ For phone and IP address format examples, see [E.164 phone formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ConfigureE.164PhoneNumberFields.md) and [IP address field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r-IPAddressFieldType.md).
 
 </td></tr><tr><td>
 

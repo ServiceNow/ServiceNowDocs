@@ -383,9 +383,9 @@ View the time taken for the breached records of the team.The Procurement Special
 Data for this widget is derived from the Task SLA table that is fed by SLA definitions created on the active fields of PSM record types.
 
 </td></tr></tbody>
-</table>For information on how to work with dashboards in configurable workspaces, see Dashboards in Platform Analytics.
+</table>For information on how to work with dashboards in configurable workspaces, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md).
 
-For information on how to work with widgets and data visualizations in configurable workspaces, see Data visualizations in Platform Analytics.
+For information on how to work with widgets and data visualizations in configurable workspaces, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md).
 
 **Parent Topic:**[Performance Analytics for Sourcing and Procurement Operations](performance-analytics-for-spo.md)
 

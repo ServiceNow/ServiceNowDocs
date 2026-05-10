@@ -30,7 +30,7 @@ The Telecommunications Customer 360 application provides a unified interface tha
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about the key features, see Telecommunications Customer 360 release notes.
+-   Learn more about the key features, see [Telecommunications Customer 360 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/telecom-customer-360-rn.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Telecommunications Customer 360 features at [Now Create](https://learning.servicenow.com/nowcreate).
 -   Access real time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

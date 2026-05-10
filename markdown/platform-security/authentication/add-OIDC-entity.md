@@ -23,7 +23,7 @@ Role required: oauth\_admin
 
 The ServiceNow AI Platform supports OpenID Connect \(OIDC\) through the external Single Sign-On \(SSO\) implementation in addition to inbound API calls.
 
-For an example of an OIDC provider configuration, see Set up Microsoft Entra ID spoke. For an SSO-specific example of an OIDC provider configuration, see [Create an OpenID Connect \(OIDC\) configuration for Single Sign-On \(SSO\)](../../../integrate/single-sign-on/task/create-OIDC-configuration-SSO.md).
+For an example of an OIDC provider configuration, see [Set up Microsoft Entra ID spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-azure.md). For an SSO-specific example of an OIDC provider configuration, see [Create an OpenID Connect \(OIDC\) configuration for Single Sign-On \(SSO\)](../../../integrate/single-sign-on/task/create-OIDC-configuration-SSO.md).
 
 ## Procedure
 
@@ -129,7 +129,7 @@ To learn more, see [Configure client type for OAuth and SSO records](../../../in
 
 6.  Go to the related list on the record User Provisioning to enable automatic user provisioning.
 
-<table id="choicetable_wzq_2cc_l2b"><tbody><tr><td id="d265136e305">
+<table id="choicetable_wzq_2cc_l2b"><tbody><tr><td id="d265140e305">
 
 **Automatically provision users**
 
@@ -137,7 +137,7 @@ To learn more, see [Configure client type for OAuth and SSO records](../../../in
 
 Option to enable force authentication for users.
 
-</td></tr><tr><td id="d265136e314">
+</td></tr><tr><td id="d265140e314">
 
 **Provision data source**
 
@@ -145,7 +145,7 @@ Option to enable force authentication for users.
 
 The data source to use to transform an OIDC token to a ServiceNow user. Use the **Lookup list** to select the predefined data source template, then open the record to configure the Transformed table mapping. When configuring the Transform mapping, the source fields are from the **JWT token**, the target fields are from the **sys\_user** table.
 
-</td></tr><tr><td id="d265136e335">
+</td></tr><tr><td id="d265140e335">
 
 **User roles applied to provisioned users**
 

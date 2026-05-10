@@ -6,7 +6,7 @@ release: australia
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---

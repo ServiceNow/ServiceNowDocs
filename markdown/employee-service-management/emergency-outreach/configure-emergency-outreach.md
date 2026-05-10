@@ -47,7 +47,7 @@ The Emergency Outreach notification feature supports the following applications 
 
     For information about selecting the survey, see .
 
-    For information about creating a survey, see Survey administration and Survey designer.
+    For information about creating a survey, see [Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md) and [Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md).
 
 7.  Configure and send outreach email, mobile, and SMS notifications to your employees.
 

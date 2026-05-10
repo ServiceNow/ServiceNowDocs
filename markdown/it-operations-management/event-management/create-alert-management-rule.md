@@ -171,7 +171,7 @@ No
 </td></tr></tbody>
 </table>If your instance was upgraded from Kingston, the alert action rules that were provided with the Kingston base system are available to you. However, if you modified any of the rules, the changes made are not carried over.
 
-Alert management rules run 5 seconds after an alert is updated, resetting the timer if updates occur within that window. This delay ensures remediation actions, such as incident creation, are triggered only when the issue is clear and stable, reducing duplicates and unnecessary noise. To change the default 5-second delay, create the **evt\_mgmt.alert\_rule\_delay** property on the **All** &gt; **System Properties** &gt; **All Properties** and change the value. To know how to create a property, see Add a system property.
+Alert management rules run 5 seconds after an alert is updated, resetting the timer if updates occur within that window. This delay ensures remediation actions, such as incident creation, are triggered only when the issue is clear and stable, reducing duplicates and unnecessary noise. To change the default 5-second delay, create the **evt\_mgmt.alert\_rule\_delay** property on the **All** &gt; **System Properties** &gt; **All Properties** and change the value. To know how to create a property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 ## Procedure
 
@@ -286,7 +286,7 @@ Conditions
 
 </td><td>
 
-Conditions that, if fulfilled, cause the filter to be applied. For more information about building conditions, see Using the condition builder.To add another condition, click **New Criteria**.
+Conditions that, if fulfilled, cause the filter to be applied. For more information about building conditions, see [Using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-cond-state-using-cond-build.md).To add another condition, click **New Criteria**.
 
 **Note:** The **Created on** condition is not invoked when running the **Event Management - Evaluate Alert Management Rules** job. Instead, use the **Updated on** condition, as the job detects alerts based on the time they were updated and not on the time they were created.
 
@@ -298,7 +298,7 @@ Related List Conditions
 
 Conditions to include a relationship with another table in the filter.1.  Click **Table** and select the required table.
 2.  Specify the conditions for this filter.
-For more information about creating related lists, see Add related list conditions.
+For more information about creating related lists, see [Add related list conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-related-list-query.md).
 
 </td></tr></tbody>
 </table>4.  Click **Actions**.

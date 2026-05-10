@@ -17,7 +17,7 @@ Establish a zero copy connection to a remote ServiceNow instance in Zero Copy Co
 
 Work with your remote instance administrator to complete the following tasks on each remote instance that you want to connect to:
 
--   Create an OAuth endpoint on the remote instance. For more information, see Create an endpoint for clients to access the instance.
+-   Create an OAuth endpoint on the remote instance. For more information, see [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_CreateEndpointforExternalClients.md).
 -   Create a user account with read access to the tables that you want to query. This account acts as the service account in the zero copy connection.
 -   Obtain the OAuth Client ID and OAuth Client Secret from the OAuth application registry record on the remote instance.
 

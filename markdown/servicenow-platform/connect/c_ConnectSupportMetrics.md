@@ -57,7 +57,7 @@ Provides in-form analytics for Connect Support. These analytics are available as
 **Related topics**  
 
 
-[bundle-par.c_PerformanceAnalytics]
+[Performance Analytics concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PerformanceAnalytics.md)
 
 ## Use the Connect Support homepage
 
@@ -123,5 +123,5 @@ The Performance Analytics - Context Sensitive Analytics for Chat plugin \(com.sn
 **Related topics**  
 
 
-[bundle-par.c_PerformanceAnalytics]
+[Performance Analytics concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PerformanceAnalytics.md)
 

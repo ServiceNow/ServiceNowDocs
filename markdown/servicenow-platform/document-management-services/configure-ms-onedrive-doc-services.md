@@ -18,7 +18,7 @@ Integrate the ServiceNow instance and Microsoft OneDrive for Document Services b
 ## Before you begin
 
 -   Request an Integration Hub subscription.
--   Set up and connect Microsoft Entra ID Spoke, see Set up Microsoft Entra ID spoke and Microsoft OneDrive Spoke.
+-   Set up and connect Microsoft Entra ID Spoke, see [Set up Microsoft Entra ID spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-azure.md) and [Microsoft OneDrive Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/onedrive-spoke.md).
 
 Microsoft OneDrive requirements:
 
@@ -74,7 +74,7 @@ Complete these steps from your [Azure](https://docs.microsoft.com/en-us/azure/) 
 
         Application permissions enable the application to run as a background service or daemon without a signed-in user.
 
-        You must mention these API permissions in the **OAuth Entity scopes** tab while configuring the application registry.
+        You must mention these API permissions in the **OAuth Entity scopes** tab while configuring the [application registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-msonedrive.md).
 
     4.  Ensure that required API permissions are provided for your custom app.
 

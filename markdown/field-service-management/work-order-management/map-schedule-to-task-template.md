@@ -53,7 +53,7 @@ Template
 
 </td><td>
 
-Task plan template to be associated with the planned work schedule. For more information on the creation and usage of task plans, see Task Plan Templates.
+Task plan template to be associated with the planned work schedule. For more information on the creation and usage of task plans, see [Task Plan Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task-plan-templates.md).
 
 </td></tr><tr><td>
 

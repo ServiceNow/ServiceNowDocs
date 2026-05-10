@@ -25,7 +25,7 @@ CSDM is the data model standard for all products that use the Configuration Mana
 -   The CSDM data model supports multiple configuration strategies and includes guidelines for using base-system tables and relationships.
 -   You can use the CMDB query builder to create reports showing CMDB configuration items \(CIs\) and their relationships.
 
-For more information, see Common Service Data Model.
+For more information, see [Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md).
 
 -   **[Automation Center product view](product-view.md)**  
 Use the ServiceNow® Automation Center application to govern your end-to-end multi-vendor automation life cycles from one place. By using real-time dashboards, you can manage and measure the health of the automation and prevent automation failures across multiple vendors​.

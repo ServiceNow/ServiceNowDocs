@@ -29,7 +29,7 @@ This Generative AI large language model was pre-trained with internal ServiceNow
 
 ![Flow preference to show recommendations](../images/flow-recommendations-preference.png "Flow preferences")
 
-By default, Workflow Studio shows flow recommendations as you build a flow. You can hide these recommendations on a flow by flow basis by turning off the Show recommendations flow preference. See User preferences for flows for more information.
+By default, Workflow Studio shows flow recommendations as you build a flow. You can hide these recommendations on a flow by flow basis by turning off the Show recommendations flow preference. See [User preferences for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-preferences.md) for more information.
 
 ## Recommendations in diagramming view
 

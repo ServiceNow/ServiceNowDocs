@@ -15,7 +15,7 @@ For both inbound and outbound calls, a provider configuration contains settings 
 
 To view the available provider configurations, navigate to **ServiceNow Voice - Core** &gt; **Provider Configurations**.
 
-Any request from a third-party phone system is passed into a ServiceNow instance through the CTI Operation endpoint of the CTI API. For information about this API, see CTI API. Based on the provider and the component specified in the endpoint, the corresponding message transformers are invoked to perform the following:
+Any request from a third-party phone system is passed into a ServiceNow instance through the CTI Operation endpoint of the CTI API. For information about this API, see [CTI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/cti-api.md). Based on the provider and the component specified in the endpoint, the corresponding message transformers are invoked to perform the following:
 
 -   Transform the request from the third-party phone system before passing the request to an operation handler.
 -   Transform the response from the operation handler before passing it on to the third-party phone system.
@@ -48,7 +48,7 @@ For each node that can be used an integration point between Amazon services and 
 |Get Customer Input|sn\_aws\_connect\_lex\_intent\_processor\_component|AWS - Lex - Intent - Message Transformer \(SN Proxy\)|
 |Invoke AWS Lambda Function|sn\_aws\_connect\_lambda\_proxy\_component|AWS - Connect - Lambda - Message Transformer|
 
-When a customer dials using a phone number, a call is placed through the Amazon Connect 's phone system. Using one of its components, Amazon Connect provides the request to the ServiceNow instance through the CTI Operation endpoint of the CTI API. For information about this API, see CTI API. Based on the provider and the component specified here, the corresponding message transformers are invoked to perform the following:
+When a customer dials using a phone number, a call is placed through the Amazon Connect 's phone system. Using one of its components, Amazon Connect provides the request to the ServiceNow instance through the CTI Operation endpoint of the CTI API. For information about this API, see [CTI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/cti-api.md). Based on the provider and the component specified here, the corresponding message transformers are invoked to perform the following:
 
 -   Transform the request from Amazon Connect before passing the request to an operation handler.
 -   Transform the response from the operation handler before passing it on to Amazon Connect.

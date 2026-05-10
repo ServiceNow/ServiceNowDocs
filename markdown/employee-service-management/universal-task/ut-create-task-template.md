@@ -33,7 +33,7 @@ A task template can have static and dynamic mappings. In static mappings, the va
 
 3.  Select **Schedule** to create a scheduled job to create records based on this template.
 
-    For detailed instructions, see Create records based on a template.
+    For detailed instructions, see [Create records based on a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ScheduleATemplate.md).
 
 4.  Click **Submit**.
 

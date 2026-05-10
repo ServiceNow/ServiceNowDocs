@@ -35,7 +35,7 @@ With the Time Card Management feature:
 
 -   The time card admin can create and manage [time sheet policies](../task/create-time-sheet-policy.md#time_sheet_policy_form), and can also approve or reject by exception and process the time sheets. Time card admin can also create or edit time cards of any users if the time cards are in Pending or Rejected state.
 
-**Note:** The [Time Card Management plugin](../task/t_ActivateTimeCardManagement.md) is required to use time cards. Some of the procedures require the project management feature, which activates time cards automatically. For more information, see Project Management \(com.snc.financial\_planning\_pmo\).
+**Note:** The [Time Card Management plugin](../task/t_ActivateTimeCardManagement.md) is required to use time cards. Some of the procedures require the project management feature, which activates time cards automatically. For more information, see [Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectApplicationOverview.md) \(com.snc.financial\_planning\_pmo\).
 
 ## Domain separation in Time Card Management
 

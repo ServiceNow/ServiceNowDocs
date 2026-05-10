@@ -30,7 +30,7 @@ The following table lists the input fields in the TNI Design Assign IP Address V
 |Change Task|The change task that is associated with Define IP address activity.|Reference.Change Task|
 |Ignore Validation Error|Ignores any validation errors.|True/False|
 
-To learn more about the variable data types, see Flow Designer input and output data variables.
+To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md).
 
 ## Output
 

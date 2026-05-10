@@ -34,11 +34,11 @@ The application development process starts with planning. Consider how the appli
 
     Delegated development enables designated users without a system admin role to develop or deploy applications on the ServiceNow AI Platform.
 
--   **Schema map for tables**
+-   **[Schema map for tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_SchemaMapForTables.md)**
 
     The schema map displays the details of tables and their relationships in a visual way, enabling administrators to view and easily access different parts of the database schema.
 
--   **Table Administration**
+-   **[Table Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_TableAdministration.md)**
 
     Administrators can use Table Administration to view and modify the database structure.
 
@@ -53,7 +53,7 @@ The application development process starts with planning. Consider how the appli
 
     By default, when application administration is enabled for a scoped application, access control \(ACL\) rules for the scoped application are applied. If no ACL rules for the scoped application are found, global ACL rules can apply.
 
--   **Security: Edge Encryption**
+-   **[Security: Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-encryption.md)**
 
     ServiceNow® Edge Encryption encrypts sensitive data on your company premises before sending it over the internet to your ServiceNow instance \(encrypted in flight\), where it remains encrypted at rest.
 
@@ -61,11 +61,11 @@ The application development process starts with planning. Consider how the appli
 
     Set up the security and roles for your UI Builder instance. Security and roles in UI Builder are controlled through your application's scope, domain separation, and protection policy settings.
 
--   **Security: UI policies**
+-   **[Security: UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUIPolicy.md)**
 
     Create a UI policy to define custom process flows for tasks.
 
--   **Security: Users and groups**
+-   **[Security: Users and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-users-groups.md)**
 
     Create users and groups using the ServiceNow AI Platform user administration feature.
 

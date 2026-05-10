@@ -20,7 +20,7 @@ The UI Policy API defines user interface \(UI\) policies \[sys\_ui\_policy\] tha
 
 UI Policies can make fields mandatory, read-only, visible, hidden, or cleared when certain conditions are met. You can also use client scripts to perform all of these actions, but for faster load times use UI policies when possible.
 
-For general information about UI policies, see Using UI policies.
+For general information about UI policies, see [Using UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUIPolicy.md).
 
 **Parent Topic:**[ServiceNow Fluent API reference](servicenow-fluent-api-reference.md)
 
@@ -167,7 +167,7 @@ String
 
 </td><td>
 
-A filter query that specifies the fields and values that must be true for users to access the object. For more information, see Operators available for filters and queries. To set conditions using a script, use a client script instead.Conditions are only rechecked if a user manually changes a field on a form. If the change is made by a UI action, context menu action, or through the list editor, it isn’t evaluated.
+A filter query that specifies the fields and values that must be true for users to access the object. For more information, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md). To set conditions using a script, use a client script instead.Conditions are only rechecked if a user manually changes a field on a form. If the change is made by a UI action, context menu action, or through the list editor, it isn’t evaluated.
 
 </td></tr><tr><td>
 

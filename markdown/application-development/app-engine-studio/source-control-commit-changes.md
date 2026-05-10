@@ -60,7 +60,7 @@ Commit changes made in your application in App Engine Studio \(AES\) to a linked
 
     -   The system identifies all local changes.
     -   The system commits all local changes to the remote repository.
-    **Note:** For list of known files that don’t have customer update records and are untracked, see Customer Updates table.
+    **Note:** For list of known files that don’t have customer update records and are untracked, see [Customer Updates table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_CustomerUpdatesTable.md).
 
 
 **Parent Topic:**[Work with changes in Git](../concept/work-changes-in-git.md)

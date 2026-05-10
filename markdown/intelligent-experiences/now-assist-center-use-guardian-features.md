@@ -37,7 +37,7 @@ Now Assist Guardian provides safety and governance controls for AI-generated con
 
 In Now Assist Center, the integration of Now Assist Guardian includes multi-tabbing support for working with safety and governance controls without leaving the application context.
 
-For more information on Now Assist Guardian, see Now Assist Guardian.
+For more information on Now Assist Guardian, see [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md).
 
 ## Procedure
 
@@ -69,7 +69,7 @@ This guardrail attempts to override LLM instructions or expose restricted inform
 
  Select **Prompt injection** to open the Prompt injection tab.
 
- For more information on how to configure this guardrail, see Configure prompt injection attack protection.
+ For more information on how to configure this guardrail, see [Configure prompt injection attack protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-prompt-injection-attack-protection.md).
 
 </td></tr><tr><td id="d167112e260">
 
@@ -81,7 +81,7 @@ This guardrail detects offensive or harmful content in AI inputs and outputs. It
 
  Select **Offensiveness** to open the Offensiveness tab.
 
- For more information on how to configure this guardrail, see Activate offensiveness protection for generative AI.
+ For more information on how to configure this guardrail, see [Activate offensiveness protection for generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-offensiveness-protection-for-generative-ai.md).
 
 </td></tr><tr><td id="d167112e288">
 
@@ -93,7 +93,7 @@ This guardrail filters subjects not suited for AI responses, such as workplace s
 
  Select **Sensitive Filters** to open the Filters tab.
 
- For more information on how to configure this guardrail, see Configure sensitive topic filters.
+ For more information on how to configure this guardrail, see [Configure sensitive topic filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-sensitive-topic-filters.md).
 
 </td></tr></tbody>
 </table>

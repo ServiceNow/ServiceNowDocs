@@ -21,7 +21,7 @@ To identify the DRAC, Discovery uses the **SNMP – DRAC** probe. This probe use
 
 -   **Create SNMP credentials**
 
-    SNMP credentials are required to discover DRAC devices. For more information, see SNMP credentials.
+    SNMP credentials are required to discover DRAC devices. For more information, see [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md).
 
 -   **Run network discovery**
 

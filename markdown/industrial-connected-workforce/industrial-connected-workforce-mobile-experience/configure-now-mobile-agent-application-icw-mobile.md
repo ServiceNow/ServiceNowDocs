@@ -67,15 +67,15 @@ Configure push notifications for task assignments
 
 </td><td>
 
-Configuring push notifications for task assignment
+[Configuring push notifications for task assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/push-notifications-tasks-slas.md)
 
 </td></tr><tr><td>
 
-Configure scheduled offline caching**Note:** In offline mode, reference fields are limited to a maximum of 1,000 records. If the referenced dataset exceeds this limit, only the first 1,000 records are available, which may impact data completeness and look-up functionality. For more details, see Reference field attributes for input form screens in offline mode.
+Configure scheduled offline caching**Note:** In offline mode, reference fields are limited to a maximum of 1,000 records. If the referenced dataset exceeds this limit, only the first 1,000 records are available, which may impact data completeness and look-up functionality. For more details, see [Reference field attributes for input form screens in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/reference-fields-offline-attributes.md).
 
 </td><td>
 
-Configure scheduled offline caching
+[Configure scheduled offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-scheduled-offline-caching.md)
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Configure the recently closed work order tasks list
 
 </td><td>
 
-Configure the recently closed work order tasks list
+[Configure the recently closed work order tasks list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-recently-closed-di.md)
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ Configure special handling notes
 
 </td><td>
 
-Configure special handling notes for the Now Mobile Agent application
+[Configure special handling notes for the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-shn-fsm-mobile.md)
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ Enable chat
 
 </td><td>
 
-Enable chat in the Now Mobile Agent application
+[Enable chat in the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/enable-chat-in-fsm-mobile.md)
 
 </td></tr><tr><td>
 
@@ -107,7 +107,7 @@ Location tracking
 
 </td><td>
 
-Location tracking for mobile
+[Location tracking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/mobile-location-tracking.md)
 
 </td></tr><tr><td>
 
@@ -115,7 +115,7 @@ Enable dark theme
 
 </td><td>
 
-Enable dark theme in the Now Mobile Agent application
+[Enable dark theme in the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/dark-theme-mobile.md)
 
 </td></tr></tbody>
 </table>

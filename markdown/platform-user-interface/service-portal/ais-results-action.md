@@ -61,7 +61,7 @@ AI Search Source
 
 </td><td>
 
-Content that portal users can search on, including tables in your instance or external data sources. For more information, see Defining search sources.
+Content that portal users can search on, including tables in your instance or external data sources. For more information, see [Defining search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-sources-ais.md).
 
 </td></tr><tr><td>
 

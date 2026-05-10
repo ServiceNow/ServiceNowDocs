@@ -25,11 +25,11 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to Create a theme with Theme Builder.
+1.  Navigate to [Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-theme.md).
 
     Follow the instructions to create your theme.
 
-2.  Navigate to Publish your themes with Theme Builder.
+2.  Navigate to [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
 
     Follow the instructions to publish your theme.
 

@@ -30,5 +30,5 @@ After you enable the property, existing reports aren't affected. Columns are onl
 **Related topics**  
 
 
-[bundle-psec.acl-rule-types]
+[ACL rule types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/acl-rule-types.md)
 

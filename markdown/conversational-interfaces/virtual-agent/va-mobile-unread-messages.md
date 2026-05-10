@@ -22,7 +22,7 @@ Now Mobile users might need to leave an active conversation for various reasons.
 
 To receive Virtual Agent mobile push notifications, your users must enable push notifications for the Now Mobile app on their iOS or Android devices.
 
-In base system instances, the Virtual Agent Message Push notification is automatically enabled for all Now Mobile users. Users can modify their notification preferences by navigating to **All** &gt; **Self-Service** &gt; **My Notification Preferences**.
+In base system instances, the Virtual Agent Message Push notification is automatically enabled for all Now Mobile users. Users can modify their [notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-notifications-preferences.md) by navigating to **All** &gt; **Self-Service** &gt; **My Notification Preferences**.
 
 ![In Notifications settings, users can toggle the Push option to turn on or turn off mobile push notifications.](../images/va-mobile-push-notif-pref.png)
 

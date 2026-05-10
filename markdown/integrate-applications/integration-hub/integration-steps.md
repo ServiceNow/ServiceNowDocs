@@ -23,7 +23,7 @@ Steps that perform operations on record data run on the instance, while steps th
 
 ## Available integration steps
 
-These integration steps are available from Workflow Studio - Building custom actions.
+These integration steps are available from [Workflow Studio - Building custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/actions.md).
 
 <table id="table_ypl_5zs_rcb"><thead><tr><th>
 
@@ -144,15 +144,15 @@ Complete a step-by-step training on using the REST step in the [REST in Integrat
 
 ## Connection attributes
 
-Define connection-specific variables that you can use in Integration Hub integration steps. When using an integration step, you must establish a connection with an external system. Use a Connection &amp; Credential alias instead of defining the connection inline. An alias enables you to update the connection details once without having to reconfigure every action. Any action step that uses an alias inherits the attributes associated with it. Workflow Studio displays attributes as data pills that you can drag into your action step. For example, you can create a page size attribute that becomes a REST step query parameter. For more information about connection attributes, see Create connection attributes for IntegrationHub.
+Define connection-specific variables that you can use in Integration Hub integration steps. When using an integration step, you must establish a connection with an external system. Use a Connection &amp; Credential alias instead of defining the connection inline. An alias enables you to update the connection details once without having to reconfigure every action. Any action step that uses an alias inherits the attributes associated with it. Workflow Studio displays attributes as data pills that you can drag into your action step. For example, you can create a page size attribute that becomes a REST step query parameter. For more information about connection attributes, see [Create connection attributes for IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-connection-attributes.md).
 
 ## MID Server connection aliases
 
-Action designers can set MID Server selection attributes using a connection record associated with an alias and associate the alias with an integration step. When the flow runs, the system uses the attributes to determine which MID Server runs the step. Learn more about Introduction to credentials, connections, and aliases.
+Action designers can set MID Server selection attributes using a connection record associated with an alias and associate the alias with an integration step. When the flow runs, the system uses the attributes to determine which MID Server runs the step. Learn more about [Introduction to credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-connections-alias.md).
 
 ## MID Server and MID Cluster selection
 
-For most integration steps, you can specify a MID Server or MID Cluster for the step to use when it runs. For a MID Server, you can select one you've configured or have the system choose one by selecting **Auto-Select MID Server** from the step's MID Selection list. To learn more about how a MID Server is selected during runtime, see MID Server selection. For MID Clusters, you can select a load-balancing or fail-over cluster for the step. For more information on MID Clusters, see Configure a MID Server cluster. The Payload Builder step and XML Parser step do not support MID Server selection.
+For most integration steps, you can specify a MID Server or MID Cluster for the step to use when it runs. For a MID Server, you can select one you've configured or have the system choose one by selecting **Auto-Select MID Server** from the step's MID Selection list. To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md). For MID Clusters, you can select a load-balancing or fail-over cluster for the step. For more information on MID Clusters, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md). The Payload Builder step and XML Parser step do not support MID Server selection.
 
 When specifying a MID Server, Flow designers should avoid shifting the execution environment from one MID Server to another when a flow runs. Either configure each MID Server to perform operations on multiple endpoints, or provide multiple capabilities to each MID Server in your network. You may need a user with the connection\_admin role to update the connection records associated with an action, or a network administrator to update the MID Server network configuration.
 

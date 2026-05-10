@@ -19,7 +19,7 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure the OT Manager Foundation. This console contains everything that you must install the plugins and configure the generative AI skills. For additional information, see Overview tab in Now Assist Admin.
+Use the Now Assist Admin console to configure the OT Manager Foundation. This console contains everything that you must install the plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
 The following table lists the features and skills that you can access from the Now Assist Admin console.
 
@@ -32,7 +32,7 @@ The following table lists the features and skills that you can access from the N
 1.  Install the OT Manager Foundation plugin \(sn\_otm\_gen\_ai\).
 
     -   For information about the application dependencies, see [Supporting information for OT Manager Foundation](../concept/supporting-information-for-now-assist-otm.md).
-    -   For information about the installation process, see Install Now Assist plugins.
+    -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **Now Assist Admin**.
 
 3.  Select the **Now Assist Skills** tab.
@@ -41,13 +41,13 @@ The following table lists the features and skills that you can access from the N
 
 5.  On the Analytics Query Generator tile, select **Turn on**.
 
-    **Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see Now Assist skills, agents, and agentic workflows on by default.
+    **Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 6.  In the Turn on skill confirmation window, select **Turn on** to activate the skill.
 
 7.  Enable the Search CMDB agentic workflow in the Now Assist panel.
 
-    **Important:** This agentic workflow is turned on by default. For more information, see Now Assist skills, agents, and agentic workflows on by default.
+    **Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
     1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 

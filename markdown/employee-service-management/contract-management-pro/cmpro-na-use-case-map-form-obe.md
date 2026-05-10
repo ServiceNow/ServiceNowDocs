@@ -95,7 +95,7 @@ Request conditions
 
 Conditions under which the use case applies on the request table.The field appears only when the request table is selected.
 
-For more information on using the condition builder, see Create a condition statement using the condition builder.
+For more information on using the condition builder, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
 
 The field appears only when the **Contracts created from contract request** check box and the request table are selected.
 
@@ -107,7 +107,7 @@ Repository conditions
 
 Conditions under which the use case applies on the repository table. The field appears only when a table is selected in the **Contract repository table** field.
 
-For more information on using the condition builder, see Create a condition statement using the condition builder.
+For more information on using the condition builder, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Map a use case for contract obligation extraction](../task/cmpro-na-map-usecase-obext.md)

@@ -44,9 +44,9 @@ Discovery creates or updates a CMDB record when it detects an instance of an Ora
 
 ## Credentials
 
--   Applicative credentials
--   Windows credentials
--   SSH credentials
+-   [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/applicative-creds.md)
+-   [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md)
+-   [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md)
 
 ## Classifier, pattern, and probes
 

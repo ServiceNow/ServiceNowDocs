@@ -232,9 +232,9 @@ The [Cloud Cost Management](../../cloud-insights/reference/cloud-insights-landin
 -   [Enterprise Asset Management](../../enterprise-asset-management/concept/enterprise-asset-management.md)
 -   [Cloud Cost Management](../../cloud-insights/reference/cloud-insights-landing-page.md)
 -   [Asset Audit Response](../../asset-audit-response/concept/asset-audit-response.md)
--   Contract Management
--   Procurement
--   Product Catalog
+-   [Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/c_ContractManagement.md)
+-   [Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_Procurement.md)
+-   [Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_ProductCatalog.md)
 -   [IT Asset Management content request](content-request-itam.md)
 -   [Licensing for IT Asset Management](../../hardware-asset-management/concept/subscription-itam-licensing.md)
 

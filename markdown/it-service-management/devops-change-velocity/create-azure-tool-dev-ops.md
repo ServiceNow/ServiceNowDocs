@@ -111,7 +111,7 @@ In the **Tool credential** field, select an OAuth 2.0 tool credential record.**N
 
 3.  If your Azure DevOps instance is attached to a MID Server, select the **Use MID Server** option and enter its details.
 
-    For more information about MID server, see MID Server selection
+    For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md)
 
 4.  Select **Submit**.
 

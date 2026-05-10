@@ -32,9 +32,9 @@ Scheduled job runs more frequently when the task SLA is closer to being breached
 **Related topics**  
 
 
-[bundle-platadm.c_ScheduleEvents]
+[Event scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_ScheduleEvents.md)
 
-[bundle-platadm.t_CreateAScheduledJob]
+[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_CreateAScheduledJob.md)
 
 [SLA engine properties](../task/t_ConfigureSLAProperties.md#)
 

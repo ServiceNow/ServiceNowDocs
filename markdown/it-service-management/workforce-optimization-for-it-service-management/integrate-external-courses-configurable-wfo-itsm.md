@@ -45,5 +45,5 @@ You must integrate Coaching with third-party learning management systems. For in
 **Related topics**  
 
 
-[bundle-emplsm.setup-learning-third-party-1]
+[Integrating Learning Core with third-party learning management systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/setup-learning-third-party-1.md)
 

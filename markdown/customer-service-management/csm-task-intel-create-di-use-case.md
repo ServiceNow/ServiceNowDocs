@@ -138,7 +138,7 @@ Field Type
 
 The type of field \(for example, a text field or a check box option\).Field type is read-only if you add this field to a field group. The field type is whatever is designated for the group.
 
-Some field types convert the extracted value into a standard format. See Data normalization.
+Some field types convert the extracted value into a standard format. See [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/data-normalization.md).
 
 </td></tr><tr><td>
 
@@ -209,7 +209,7 @@ Document tasks include attached documents that are used to train the model to id
 
     -   When the extraction process is complete, the **Is Processed** field is set to true.
     -   When the values have been extracted from the document, the **Status** field is set to Done.
-9.  Open the task and select **Open in Document Intelligence** to view the task in the Document Intelligence Workspace.
+9.  Open the task and select **Open in Document Intelligence** to view the task in the [Document Intelligence Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/doc-intel-workspace.md).
 10. Train the extracted fields to identify the correct values.
     1.  If a field value is correct: put your cursor in the field and press Return to confirm the value.
     2.  If a field value is missing: select the value from the list and press Return to confirm the value.
@@ -253,7 +253,7 @@ General settings determine how the Document Intelligence feature displays inform
 6.  Set the **Default width of the thumbnail panel**.
 7.  Select the **Default document fit for the image panel**.
 
-For more information about the general settings, see Configure Document Intelligence.
+For more information about the general settings, see [Configure Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/doc-intel-administration.md).
 
 ## Configure the data extraction mode
 

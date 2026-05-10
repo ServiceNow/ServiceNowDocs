@@ -53,7 +53,7 @@ From the Instance Security Center homepage, you can view the security compliance
 
 To use the Instance Security Center, you must have the admin or security\_dashboard\_user role.
 
-To learn more about managing per-user subscriptions, see Managing per-user subscriptions in Subscription Management and contact your account representative.
+To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 <table id="table_td4_gmj_fzb"><thead><tr><th>
 
@@ -204,7 +204,7 @@ For example, if you want to find all current logins from a specific type of brow
 
 -   Click a user name to access the user profile record. You can modify the user profile only if you have an assigned admin role.
 
-**Note:** To learn more about user profiles, see Create a user.
+**Note:** To learn more about user profiles, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md).
 
 
 </td></tr><tr><td>
@@ -431,7 +431,7 @@ It enables you to perform the following tasks:
 
 **Note:** To learn more about how to use and activate the Virtual Agent, see:
 
--   Virtual Agent
+-   [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md)
 -   [Activate the ISC Virtual Agent interface](../task/activating-virtual-agent-interface.md)
 
 -   **[Instance Security Center to ServiceNow Security Center migration](../../security-center/concept/instance-security-center-to-security-center-migration.md)**  

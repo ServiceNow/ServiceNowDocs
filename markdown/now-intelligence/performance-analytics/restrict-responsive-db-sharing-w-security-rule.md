@@ -17,7 +17,7 @@ You can configure the users, roles, and groups that users can see on the **Share
 
 ## Before you begin
 
-Role required: admin. To modify the Access Control List, the admin must elevate to the security\_admin role. For information, see Elevate to a privileged role.
+Role required: admin. To modify the Access Control List, the admin must elevate to the security\_admin role. For information, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
 
 ## About this task
 
@@ -29,7 +29,7 @@ Users who can see the **Share** icon based on the configuration of **List of rol
 
 2.  Select the box labeled **Apply security rules to the list of users, user groups, and roles that are visible when sharing dashboards** to apply security rules to what is visible in the **Share** panel.
 
-    The existing security rule configuration for users, user groups and roles is described in their associated read access control list at the platform level. For more information, see Access control list rules.
+    The existing security rule configuration for users, user groups and roles is described in their associated read access control list at the platform level. For more information, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).
 
 
 ## Result

@@ -92,7 +92,7 @@ In this task, you create a UI interaction and define its behavior using the diag
 
 The UI interaction is created and ready to be attached to a component or page event. Once attached, it runs its configured steps whenever the specified event occurs. See [Trigger a UI interaction from a page event](trigger-ui-interaction-from-page-event.md).
 
-To trigger this UI interaction from a form or list button using a declarative action, see Trigger a UI interaction from a declarative action.
+To trigger this UI interaction from a form or list button using a declarative action, see [Trigger a UI interaction from a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-da-ui-interactions.md).
 
 **Parent Topic:**[UI interactions](../concept/uib-ui-interactions.md)
 

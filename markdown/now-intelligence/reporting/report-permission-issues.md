@@ -35,7 +35,7 @@ The ACL is considered for each list row that might be displayed in a report. For
 
 Graphical reports \(defined as any non-list type report\) may show an incomplete set of data for one user, as compared to another user reviewing that same report.
 
-This issue is caused by the fact that Before Query business rules are performed on the data from the source table before a report is generated and rendered. Business rules, found on a report's source tables, limit the data based on permissions or similar criteria. Any records that don’t fulfill the rule's criteria aren’t included in the report. Therefore, users with differing permission levels \(due to group or role permissions mainly\) see the same report showing different results. For more information, see Before Query business rules.
+This issue is caused by the fact that Before Query business rules are performed on the data from the source table before a report is generated and rendered. Business rules, found on a report's source tables, limit the data based on permissions or similar criteria. Any records that don’t fulfill the rule's criteria aren’t included in the report. Therefore, users with differing permission levels \(due to group or role permissions mainly\) see the same report showing different results. For more information, see [Before Query business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-before-query-business-rules.md).
 
 ## Reports no longer public
 

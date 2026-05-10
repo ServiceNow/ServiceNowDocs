@@ -64,7 +64,7 @@ Build the foundation
 
 </td><td>
 
-ITSM Success Dashboard indicators
+[ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/success-dashboard-indicator-landing.md)
 
 </td><td>
 
@@ -72,7 +72,7 @@ Use ITSM Success Dashboard to get an insight to the IT leadership team and proce
 
 </td><td>
 
-Roles installed with ITSM Success Dashboard indicators
+[Roles installed with ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/success-roles.md)
 
 </td><td>
 
@@ -84,7 +84,7 @@ Build the foundation
 
 </td><td>
 
-Employee Center
+[Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md)
 
 </td><td>
 
@@ -92,11 +92,11 @@ Use the Employee Center portal to experience a standard multi-department, dynami
 
 </td><td>
 
-Roles installed with Employee Center
+[Roles installed with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-personas.md)
 
 </td><td>
 
--   Employee Center limitations and support
+-   [Employee Center limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/explore-emp-center.md)
 -   [Employee Center \(ServiceNow Community](https://www.servicenow.com/community/employee-center/ct-p/employee-center)
 -   [Employee Center success story](https://www.servicenow.com/success/success-map/employee-center.html)
 -   [Employee Center implementation success story](https://www.servicenow.com/success/success-map/employee-center/implement.html)
@@ -107,7 +107,7 @@ Build the foundation
 
 </td><td>
 
-Configure Walk-up Experience for Customer Service Management
+[Configure Walk-up Experience for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-walk-up-csm.md)
 
 </td><td>
 
@@ -115,11 +115,11 @@ Use the Walk-up Experience application to create and manage an on-site IT walk-u
 
 </td><td>
 
-Roles installed with Walk-up Experience
+[Roles installed with Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-walkup-experience-dashboard.md)
 
 </td><td>
 
-Walk-up Experience limitations and support
+[Walk-up Experience limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-experience-landing-page.md)
 
 </td></tr><tr><td>
 
@@ -127,7 +127,7 @@ Build the foundation
 
 </td><td>
 
-Service Operations Workspace for ITSM
+[Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-landing-page.md)
 
 </td><td>
 
@@ -135,11 +135,11 @@ Use the Service Operations Workspace interface to unify and configure your agent
 
 </td><td>
 
-Roles installed with Service Operations Workspace for ITSM
+[Roles installed with Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/components-installed-with-sow-itom.md)
 
 </td><td>
 
--   Service Operations Workspace limitations and support
+-   [Service Operations Workspace limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/explore-sow.md)
 -   [Service Operations Workspace overview](https://www.servicenow.com/products/service-operations-workspace.html)
 
 </td></tr><tr><td>
@@ -148,7 +148,7 @@ Build the foundation
 
 </td><td>
 
-Survey Management
+[Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/assessments-surveys-landing-page.md)
 
 </td><td>
 
@@ -156,11 +156,11 @@ Use the Assessments and Surveys application to create, send, and collect respons
 
 </td><td>
 
-Roles installed with Survey Management
+[Roles installed with Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyManagementRoles.md)
 
 </td><td>
 
--   Survey Management limitations and support
+-   [Survey Management limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyServicePortal.md)
 -   [Survey Management overview](https://www.servicenow.com/products/survey-assessment.html)
 
 </td></tr><tr><td>
@@ -169,7 +169,7 @@ Build the foundation
 
 </td><td>
 
-Benchmarks
+[Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/r_Benchmarks.md)
 
 </td><td>
 
@@ -177,11 +177,11 @@ Use the Benchmarks application to compare the performance of your organization w
 
 </td><td>
 
-Roles installed with Benchmarks
+[Roles installed with Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/c_BenchRoles.md)
 
 </td><td>
 
-Benchmarks limitations and support
+[Benchmarks limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/c_BenchOverview.md)
 
 </td></tr><tr><td>
 
@@ -189,7 +189,7 @@ Build the foundation
 
 </td><td>
 
-Incident Management
+[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentManagement.md)
 
 </td><td>
 
@@ -197,11 +197,11 @@ Use the Incident Management application to enrich IT experience by restoring nor
 
 </td><td>
 
-incident\_manager and Roles installed with Incident Management
+incident\_manager and [Roles installed with Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/request-itsm-roles-rm.md)
 
 </td><td>
 
--   Incident Management limitations and support
+-   [Incident Management limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentManagement.md)
 -   [Automate change and incident management Playbook](https://www.servicenow.com/success/playbook/change-and-incident-management.html)
 -   [Incident Management Overview \(video\)](https://youtu.be/ryxjWBOq3sQ)
 
@@ -211,7 +211,7 @@ Build the foundation
 
 </td><td>
 
-Knowledge Management
+[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management.md)
 
 </td><td>
 
@@ -219,12 +219,12 @@ Use the Knowledge Management application to share information in knowledge bases
 
 </td><td>
 
-Roles installed with Knowledge Management
+[Roles installed with Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeRoles.md)
 
 </td><td>
 
 -   [Knowledge Management \(ServiceNow Community\)](https://www.servicenow.com/community/knowledge-management/ct-p/knowledge-management)
--   Knowledge Management limitations and support
+-   [Knowledge Management limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/exploring-knowledge-management.md)
 
 </td></tr><tr><td>
 
@@ -232,7 +232,7 @@ Build the foundation
 
 </td><td>
 
-Service Catalog
+[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md)
 
 </td><td>
 
@@ -240,11 +240,11 @@ Use the Service Catalog application to self-create service catalogs contributing
 
 </td><td>
 
-Roles installed with Service Catalog
+[Roles installed with Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_ServiceCatalogManagementTermsandRoles.md)
 
 </td><td>
 
--   Service Catalog limitations and support
+-   [Service Catalog limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/scoping-support-catalog.md)
 -   [Service Catalog success story](https://www.servicenow.com/success/playbook/service-catalog-design.html)
 
 </td></tr><tr><td>
@@ -274,7 +274,7 @@ Build the foundation
 
 </td><td>
 
-Legacy: Performance Analytics ITSM Dashboards
+[Legacy: Performance Analytics ITSM Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-dashboards-content-pack.md)
 
 </td><td>
 
@@ -282,7 +282,7 @@ Use the Performance Analytics ITSM Dashboards content pack to access the preconf
 
 </td><td>
 
-Roles installed with Performance Analytics ITSM Dashboard
+[Roles installed with Performance Analytics ITSM Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/success-roles.md)
 
 </td><td>
 
@@ -294,7 +294,7 @@ Build the foundation
 
 </td><td>
 
-Service Portal
+[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md)
 
 </td><td>
 
@@ -302,11 +302,11 @@ Use Service Portal to build a mobile-friendly self-service portal experience for
 
 </td><td>
 
-Roles installed with Service Portal
+[Roles installed with Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_CustomerServicePortalUserRoles.md)
 
 </td><td>
 
--   Service Portal limitations and support
+-   [Service Portal limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/unsupported-features-sp.md)
 -   [Service Portal \(ServiceNow Community\)](https://www.servicenow.com/community/service-portal/ct-p/service-portal)
 
 </td></tr><tr><td>
@@ -315,7 +315,7 @@ Enhance the experience
 
 </td><td>
 
-Virtual Agent
+[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md)
 
 </td><td>
 
@@ -323,11 +323,11 @@ Unlock your enterprise productivity with ServiceNow® Virtual Agent. Provide you
 
 </td><td>
 
-Roles installed with Virtual Agent
+[Roles installed with Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/localization-roles-va.md)
 
 </td><td>
 
--   Virtual Agent limitations and support
+-   [Virtual Agent limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/exploring-virtual-agent.md)
 -   [Virtual Agent success story](https://www.servicenow.com/success/success-map/itsm-intelligent-automation/virtual-agent.html#csc-hub)
 
 </td></tr><tr><td>
@@ -336,7 +336,7 @@ Enhance the experience
 
 </td><td>
 
-Predictive Intelligence Workbench ITSM content
+[Predictive Intelligence Workbench ITSM content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence-landing.md)
 
 </td><td>
 
@@ -377,7 +377,7 @@ Enhance the experience
 
 </td><td>
 
-ITSM Virtual Agent Conversations
+[ITSM Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/manage-citrix-convo-flow.md)
 
 </td><td>
 
@@ -389,7 +389,7 @@ Uses bases system roles. See [Base system roles](../../roles/reference/r_BaseSys
 
 </td><td>
 
-ITSM Virtual Agent Conversations support
+[ITSM Virtual Agent Conversations support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-conversation-settings.md)
 
 </td></tr><tr><td>
 
@@ -397,7 +397,7 @@ Optimize the functionality
 
 </td><td>
 
-Implement NLU in Virtual Agent
+[Implement NLU in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/implement-nlu-va.md)
 
 </td><td>
 
@@ -409,7 +409,7 @@ virtual\_agent\_admin
 
 </td><td>
 
-NLU support
+[NLU support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-language-support.md)
 
 </td></tr><tr><td>
 
@@ -417,7 +417,7 @@ Add advanced features
 
 </td><td>
 
-Discovery
+[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-discovery.md)
 
 </td><td>
 
@@ -429,7 +429,7 @@ discovery\_admin
 
 </td><td>
 
-Discovery limitations and support
+[Discovery limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/database-encryption-with-customer-controlled-switch/db-full-disk-encryption.md)
 
 </td></tr><tr><td>
 
@@ -437,7 +437,7 @@ Add advanced features
 
 </td><td>
 
-Automation Discovery
+[Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/automation-discovery.md)
 
 </td><td>
 
@@ -445,11 +445,11 @@ Automation Discovery helps you identify automation opportunities for your workfl
 
 </td><td>
 
-Roles installed with Automation Discovery and nlu\_admin
+[Roles installed with Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/installed-with-automation-discovery.md) and nlu\_admin
 
 </td><td>
 
--   Automation Discovery limitations and support
+-   [Automation Discovery limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/automation-discovery.md)
 -   [Automation Discovery overview](https://www.servicenow.com/products/automation-discovery.html)
 
 </td></tr><tr><td>
@@ -458,7 +458,7 @@ Add advanced features
 
 </td><td>
 
-Intent Discovery
+[Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/intent-discovery.md)
 
 </td><td>
 

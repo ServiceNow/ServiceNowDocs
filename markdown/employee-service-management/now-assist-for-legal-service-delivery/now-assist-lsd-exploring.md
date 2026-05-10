@@ -38,7 +38,7 @@ For information on activating the Legal Request summarization skill or the Legal
 
 Q&amp;A Genius Results use the Now LLM Service to generate search results from knowledge article results in Employee Center, Legal Counsel Center, and global search.
 
-The answer card shows a topic snippet and an answer snippet that was extracted from a knowledge article, with direct access to the full article for additional context. For more information, see Genius Results.
+The answer card shows a topic snippet and an answer snippet that was extracted from a knowledge article, with direct access to the full article for additional context. For more information, see [Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-results-ais.md).
 
 It is enabled when both AI Search and Now Assist for Legal Service Delivery \(LSD\) are activated.
 
@@ -54,7 +54,7 @@ After submission, the system evaluates the COI request to determine risk. Low‑
 
 For more information on COI application and the risk assessment, see [Legal Conflict of Interest](../../legal-conflict-of-interest/reference/legal-conflict-of-interest-landing-page.md) and [Exploring Legal Conflict of Interest](../../legal-conflict-of-interest/concept/conflict-of-interest-overview.md).
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see Large language models on the ServiceNow AI Platform®.
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
 
 ## Now Assist for Legal Service Delivery \(LSD\) users
 

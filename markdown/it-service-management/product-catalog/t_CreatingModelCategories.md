@@ -110,7 +110,7 @@ Allow pre-allocation
 
 </td><td>
 
-Add and track items in this category asCreate pre-allocated assets.
+Add and track items in this category as[Create pre-allocated assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_CreatingPreAllocatedAssets.md).
 
 </td></tr><tr><td>
 
@@ -153,5 +153,5 @@ Prevents the system from automatically creating assets in a specific model categ
 
 [Delete model categories](t_DeletingModelCategories.md)
 
-[bundle-itom.r-discovery]
+[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-discovery.md)
 

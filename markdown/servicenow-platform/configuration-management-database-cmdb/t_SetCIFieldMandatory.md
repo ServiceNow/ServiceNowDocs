@@ -38,7 +38,7 @@ When a field is configured as mandatory, then if the **required** metric is enab
 
     The next time the form is opened, a field status indicator appears next to the field label, indicating that a value is mandatory.
 
-    **Note:** Mandatory fields are global. The field is marked as mandatory everywhere it appears on a form. Also, mandatory fields do not appear correctly when using Service Mapping tag-based discovery. For more information, see Tag-based discovery in Service Mapping.
+    **Note:** Mandatory fields are global. The field is marked as mandatory everywhere it appears on a form. Also, mandatory fields do not appear correctly when using Service Mapping tag-based discovery. For more information, see [Tag-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag-based-mapping.md).
 
 
 **Related topics**  
@@ -46,5 +46,5 @@ When a field is configured as mandatory, then if the **required** metric is enab
 
 [CMDB Health Dashboard for Helsinki \| Overview](https://youtu.be/CvMRT3NExIo)
 
-[bundle-platadm.t_MakingAFieldMandatory]
+[Make a field mandatory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_MakingAFieldMandatory.md)
 

@@ -144,9 +144,9 @@ Agents can receive notifications in the Customer Service mobile application when
 
 [Get started with the Customer Service mobile application](../task/install-customer-service-mobile-app.md)
 
-[bundle-mobile.sg-mobile-applet-launcher]
+[Applet launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-applet-launcher.md)
 
-[bundle-mobile.sg-mobile-tab-bar]
+[Navigation bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-tab-bar.md)
 
-[bundle-mobile.sg-mobile-push-notifications]
+[Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-push-notifications.md)
 

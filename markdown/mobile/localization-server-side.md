@@ -13,7 +13,7 @@ breadcrumb: [Localization, Before implementation, Configuration detail, Configur
 
 Server-side localization works the same way as desktop web localization, using either the server system language or user preferences set on the server. Localized components on the server include things like field labels, web content, and other data stored on the server in a translated field.
 
-You can customize translations that use server-side localization the same way you do on the desktop. Translate these elements using the translated name/field table on your instance. For more details on this table, see Translated Name/Fields table
+You can customize translations that use server-side localization the same way you do on the desktop. Translate these elements using the translated name/field table on your instance. For more details on this table, see [Translated Name/Fields table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_TranslatedNameFieldTable.md)
 
 This series of screenshots shows a mobile app on a mobile device with Spanish set as its native language. The device is connected to a ServiceNow instance where the instance language is set to English. The user's mobile device translates the Spanish portions of the text according to the device's user preferences.
 

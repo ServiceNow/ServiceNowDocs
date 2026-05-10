@@ -19,7 +19,7 @@ The DPM plan-build-run life cycle surfaces data from other ServiceNow® products
 
 Listen to an overview of the DPM team, the application, and how it works for solution owners in the plan-build-run life cycle: [TechBytes, Episode 63](https://www.youtube.com/watch?v=73J2e5FuRwc&t=153s).
 
-The life-cycle management phases come standard with DPM but all records are fully configurable to match how you work. For information on how Admins can control the configuration in DPM, see [Configure the Digital Portfolio Management experience](../task/dpm-configure-experience.md). For information about other configurations, see UI Builder.
+The life-cycle management phases come standard with DPM but all records are fully configurable to match how you work. For information on how Admins can control the configuration in DPM, see [Configure the Digital Portfolio Management experience](../task/dpm-configure-experience.md). For information about other configurations, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
 
 <table id="table_wrf_jmf_gsb"><thead><tr><th>
 

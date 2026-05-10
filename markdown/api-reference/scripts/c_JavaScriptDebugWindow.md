@@ -15,7 +15,7 @@ breadcrumb: [Debugging scripts, Scripting, API implementation, API implementatio
 
 The JavaScript debug window appears in a bottom pane of the user interface when an administrator turns on debugging.
 
-**Note:** The JavaScript debug window is not supported with Next Experience. For more information about supported features in Next Experience, see Considerations for activating Next Experience.
+**Note:** The JavaScript debug window is not supported with Next Experience. For more information about supported features in Next Experience, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
 
 Use the debug window to access these tools.
 

@@ -19,10 +19,10 @@ Help employees access information easily by sending required information as an S
 
 Ensure you set up the email and SMS notifications first.
 
--   Configure email as explained in Create an email notification.
--   Configure SMS notification with Twilio as explained in Configure Notify with Twilio.
+-   Configure email as explained in [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
+-   Configure SMS notification with Twilio as explained in [Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md).
 
-    **Important:** Work with the notify\_admin user for Twilio **Account SID** and **Auth Token** to set up Notify with Twilio. Follow the instructions from Configure Notify with Twilio and verify [Verified Caller IDs](https://www.twilio.com/console/phone-numbers/verified).
+    **Important:** Work with the notify\_admin user for Twilio **Account SID** and **Auth Token** to set up Notify with Twilio. Follow the instructions from [Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md) and verify [Verified Caller IDs](https://www.twilio.com/console/phone-numbers/verified).
 
 
 Role required: sn\_hr\_sp.esc\_admin

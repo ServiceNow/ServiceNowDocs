@@ -24,9 +24,9 @@ The solution setup-to-training flow is as follows:
 3.  Add the solution object to the clustering solution store using the [ClusteringSolutionStore - add\(\)](../../ClusteringSolutionStore/concept/ClusteringSolutionStoreAPI.md#) method.
 4.  Train the solution using the [submitTrainingJob\(\)](ClusteringSolutionAPI.md#) method. This creates a version of the object that you can manage using the [ClusteringSolutionVersion](../../ClusteringSolutionVersion/concept/ClusteringSolutionVersionAPI.md#) API.
 
-**Note:** This API runs with full privileges before the Vancouver Patch 7 Hotfix 2b and Washington DC Patch 7 releases. With later releases, grant access using ACLs. For more information see Query ACLs.
+**Note:** This API runs with full privileges before the Vancouver Patch 7 Hotfix 2b and Washington DC Patch 7 releases. With later releases, grant access using ACLs. For more information see [Query ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/query-acl-rule.md).
 
-For usage guidelines, refer to Using ML APIs.
+For usage guidelines, refer to [Using ML APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/using-ml-apis.md).
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 
@@ -251,7 +251,7 @@ String
 
 </td><td>
 
-Optional. Domain name associated with this dataset. See Domain separation and Predictive Intelligence. Default: Current domain, for example, `"global"`.
+Optional. Domain name associated with this dataset. See [Domain separation and Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/domain-separation-predictive-intelligence.md). Default: Current domain, for example, `"global"`.
 
 </td></tr><tr><td>
 
@@ -370,7 +370,7 @@ Array
 
 </td><td>
 
-Optional. Preset list of strings that the system automatically generates based on the **language** property setting. For details, see Create a custom stopwords list. Default: English Stopwords
+Optional. Preset list of strings that the system automatically generates based on the **language** property setting. For details, see [Create a custom stopwords list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-custom-stopwords-list.md). Default: English Stopwords
 
 </td></tr><tr><td>
 
@@ -825,7 +825,7 @@ Machine-learning field type. Data type: String.
 
 </td><td>
 
-Encoded query string in standard Glide format. See Encoded query strings. Data type: String.
+Encoded query string in standard Glide format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md). Data type: String.
 
 </td></tr><tr><td>
 
@@ -833,7 +833,7 @@ Encoded query string in standard Glide format. See Encoded query strings. Data t
 
 </td><td>
 
-Domain name associated with this dataset. See Domain separation and Predictive Intelligence. Data type: String.
+Domain name associated with this dataset. See [Domain separation and Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/domain-separation-predictive-intelligence.md). Data type: String.
 
 </td></tr><tr><td>
 
@@ -911,7 +911,7 @@ Object scope. Currently the only valid value is `global`.Data type: String
 
 </td><td>
 
-Optional. Preset list of strings that the system automatically generates based on the **language** property setting. For details, see Create a custom stopwords list. Data type: Array.
+Optional. Preset list of strings that the system automatically generates based on the **language** property setting. For details, see [Create a custom stopwords list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-custom-stopwords-list.md). Data type: Array.
 
 </td></tr><tr><td>
 

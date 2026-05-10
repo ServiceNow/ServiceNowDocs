@@ -32,8 +32,8 @@ You can configure the problem record overview tab and its UI elements in the Ser
 
 You can optionally enable the following shortcuts, accessible from both the header and **Tasks \(problem and fix\)** drop-down menus:
 
--   **Create defect** \(for more information and requirements, see Agile Development 2.0\)
--   **Create enhancement** \(for more information and requirements, see Agile Development 2.0\)
+-   **Create defect** \(for more information and requirements, see [Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-landing-page.md)\)
+-   **Create enhancement** \(for more information and requirements, see [Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-landing-page.md)\)
 -   **Create improvement initiative** \(for more information and requirements, see [Continual Improvement Management](../../continual-improvement-management/concept/cim-landing-page.md)\)
 
 For all other configuration options, see [Configuring Problem Management in Service Operations Workspace](configuring-problem-management-sow.md).

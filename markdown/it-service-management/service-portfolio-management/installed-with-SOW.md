@@ -15,7 +15,7 @@ breadcrumb: [Configure, Service Portfolio Management, IT Service Management]
 
 Service Portfolio Management Premium installs the following components.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 ## Service Portfolio Management Premium
 

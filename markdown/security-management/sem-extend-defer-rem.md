@@ -4,7 +4,7 @@ description: As a remediation owner, you’re no longer required to wait until t
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Exception Management Overview, Use, Unified Security Exposure Management, Security Operations]
 ---

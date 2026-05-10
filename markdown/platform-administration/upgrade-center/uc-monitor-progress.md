@@ -25,7 +25,7 @@ If you have the ATF Test Generator and Cloud Runner store application installed,
 -   The instance is not a fed instance.
 -   The instance is not a self-hosted instance.
 
-**Note:** You can now confidently upgrade your instance by using the [ATF Test Generator and Cloud Runner](https://store.servicenow.com/sn_appstore_store.do#!/store/application/db1676d7421441106f046193880e0b37) store app. See Exploring ATF Test Generator and Cloud Runner for more information.
+**Note:** You can now confidently upgrade your instance by using the [ATF Test Generator and Cloud Runner](https://store.servicenow.com/sn_appstore_store.do#!/store/application/db1676d7421441106f046193880e0b37) store app. See [Exploring ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-landing.md) for more information.
 
 Once the database upgrade starts, the following details show up. ![Image showing the status of an in-progress upgrade](../image/uc-upgrade-progress.png)
 

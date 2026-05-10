@@ -35,16 +35,16 @@ Roles required:
 
 ### Procedure
 
-1.  Create a Connection &amp; Credential alias
+1.  [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md)
 
     -   You can use the connection alias \(sn\_jira\_int.Jira\) that is available by default.
     -   You must create a connection alias for every Jira instance that you use.
     -   For Jira server \(on-prem\) users, ensure that the **server\_type** and **server\_version** connection attributes are present.
-2.  Create Basic authorization credentials.
+2.  Create [Basic authorization credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md).
 
     Ensure that the user for whom the basic authorization credentials are created has access to all Jira projects.
 
-3.  Create an HTTP\(s\) connection.
+3.  [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md).
 
 
 ## Create a Jira Instance for integration with Agile Development 2.0

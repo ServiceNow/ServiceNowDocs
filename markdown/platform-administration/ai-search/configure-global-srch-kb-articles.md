@@ -29,7 +29,7 @@ To enable users to search for knowledge articles in any language, you can define
 
 ![Diagram showing de user session language and * globally searchable articles in any language.](../image/diagram-globally-searchable.png "Search result languages with globally searchable articles")
 
-**Note:** To generate knowledge article query strings for your encoded query, you can navigate to **All** &gt; **Knowledge** &gt; **Articles** &gt; **All** and follow the steps found in Generate an encoded query string through a filter. For descriptions of encoded query syntax and operators, see Encoded query strings and Operators available for filters and queries.
+**Note:** To generate knowledge article query strings for your encoded query, you can navigate to **All** &gt; **Knowledge** &gt; **Articles** &gt; **All** and follow the steps found in [Generate an encoded query string through a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_GenEncodQueryStringFilter.md). For descriptions of encoded query syntax and operators, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md) and [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
 ## Procedure
 

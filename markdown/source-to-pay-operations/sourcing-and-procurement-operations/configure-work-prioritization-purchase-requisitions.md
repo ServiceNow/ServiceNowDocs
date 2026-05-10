@@ -52,7 +52,7 @@ Any field on the purchase requisition or purchase line record can be used as a c
 
     -   To set a condition, select the operator cell and choose an operator, then select the condition value cell and enter a value. For amount fields, enter a numeric value. For category or supplier fields, use the reference field lookup to select the correct records.
     -   To set the result, select the result value cell and choose the priority level to assign when the rule matches.
-    For detailed information about working with decision table cells, conditions, and results in Workflow Studio, see Modify decision table rules in Workflow Studio.
+    For detailed information about working with decision table cells, conditions, and results in Workflow Studio, see [Modify decision table rules in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/modify-decision-table-rules.md).
 
 6.  In the **Rank** column, set the evaluation sequence for each rule.
 

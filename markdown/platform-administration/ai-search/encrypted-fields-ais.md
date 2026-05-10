@@ -21,7 +21,7 @@ When dealing with an encrypted source record field, AI Search has the following 
 -   You can't create a facet using the encrypted field.
 -   If a search query attempts to filter on the encrypted field, such as when applying an access control list \(ACL\) filter, the search query fails. An `Encrypted Field is not supported` error message is logged.
 
-For detailed descriptions of the encryption options available for source records, see Encryption.
+For detailed descriptions of the encryption options available for source records, see [Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md).
 
 **Parent Topic:**[Administering AI Search](administer-ais.md)
 

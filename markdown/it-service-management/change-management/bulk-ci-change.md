@@ -36,5 +36,5 @@ When the change moves to the Implement state, the required update for each CI re
 
 [Legacy: State model and transitions](c_ChangeStateModel.md)
 
-[bundle-platadm.configure-form-layout]
+[Configure a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md)
 

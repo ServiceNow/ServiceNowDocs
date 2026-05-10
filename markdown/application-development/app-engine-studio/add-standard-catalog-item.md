@@ -83,9 +83,9 @@ Questions
 
 </td><td>
 
-Questions for the standard catalog item.From the **Insert new question** list, you can include additional question sets, questions, deactivated questions, single-column container, two-column container, and line break. For information on creating a question and supported question types, see Create a question for a catalog item in Catalog Builder.
+Questions for the standard catalog item.From the **Insert new question** list, you can include additional question sets, questions, deactivated questions, single-column container, two-column container, and line break. For information on creating a question and supported question types, see [Create a question for a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-question-cat-builder.md).
 
- You can also add dynamic form behavior for a question. For information on adding dynamic form behavior, see Edit a question in Catalog Builder.
+ You can also add dynamic form behavior for a question. For information on adding dynamic form behavior, see [Edit a question in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/edit-question-cat-builder.md).
 
  **Note:**
 
@@ -130,7 +130,7 @@ Fulfillment
 
 </td><td>
 
-Flow with which you can associate the standard catalog item. The flow defines the fulfillment process for the standard catalog item. For more information on flows, see Flows.
+Flow with which you can associate the standard catalog item. The flow defines the fulfillment process for the standard catalog item. For more information on flows, see [Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md).
 
 </td></tr><tr><td>
 

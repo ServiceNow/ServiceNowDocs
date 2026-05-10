@@ -21,7 +21,7 @@ To access this API, the caller must have the sn\_wsd\_core.workplace\_user role.
 
 This API runs in the `sn_wsd_rsv` namespace. To access this API, the Workplace Reservation Management \(sn\_wsd\_rsv\) plugin must be activated.
 
-For additional information on Workplace Reservation Management, see Workplace Reservation Management.
+For additional information on Workplace Reservation Management, see [Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/workplace-rsv-mgmt-feat.md).
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 
@@ -70,7 +70,7 @@ include\_flexible\_services
 
 </td><td>
 
-Flag that indicates whether to return the flexible services associated with the reservable in to the response.A flexible service is an additional provision available with a reservable workplace item when a reservation is made. For example, Classroom style - Rows of tables arranged with all participants facing towards the front of the room. For additional information on flexible services, see Create a flexible service.
+Flag that indicates whether to return the flexible services associated with the reservable in to the response.A flexible service is an additional provision available with a reservable workplace item when a reservation is made. For example, Classroom style - Rows of tables arranged with all participants facing towards the front of the room. For additional information on flexible services, see [Create a flexible service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/add-flexible-service.md).
 
 Valid values:
 
@@ -87,7 +87,7 @@ include\_standard\_​services
 
 </td><td id="include_standard_services-reserv-entry">
 
-Flag that indicates whether to return the standard services information in the response. This information is located in the Standard Service \[sn\_wsd\_rsv\_standard\_service\] table.A standard service describes basic provisions available with a reservable workplace item when the reservation is made, such as white boards, additional monitors, and similar services. For additional information on standard services, see Standard services.
+Flag that indicates whether to return the standard services information in the response. This information is located in the Standard Service \[sn\_wsd\_rsv\_standard\_service\] table.A standard service describes basic provisions available with a reservable workplace item when the reservation is made, such as white boards, additional monitors, and similar services. For additional information on standard services, see [Standard services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/standard-service.md).
 
 Valid values:
 
@@ -140,7 +140,7 @@ reservable\_module\_sys\_id
 
 Required. Sys\_id of the reservable module, for example: desk, meeting room, etc.A reservable module groups similar types of workplace items.
 
-For additional information on reservable modules, see Configure a reservable module.
+For additional information on reservable modules, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 Data type: String
 
@@ -514,7 +514,7 @@ result.employee\_override\_privacy
 
 </td><td>
 
-Flag that indicates whether users can override the privacy setting for the associated reservable.For additional information on these privacy settings, see Location privacy settings and impact.
+Flag that indicates whether users can override the privacy setting for the associated reservable.For additional information on these privacy settings, see [Location privacy settings and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/location-privacy-settings-and-impact.md).
 
  Valid values:
 
@@ -542,7 +542,7 @@ result.enable\_reservation\_privacy
 
 Flag that indicates the default setting for reservation privacy.
 
- For additional information on these privacy settings, see Location privacy settings and impact.
+ For additional information on these privacy settings, see [Location privacy settings and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/location-privacy-settings-and-impact.md).
 
  Possible values:
 

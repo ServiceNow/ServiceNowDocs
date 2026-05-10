@@ -17,8 +17,8 @@ After you clone an instance, your secrets groups and client secrets groups may r
 
 |Secrets group origin|Behavior after a clone|
 |--------------------|----------------------|
-|Original instance secrets groups from the target instance|Works as expected after manually importing the missing cryptographic module. See Exporting and importing data via XML.|
-|Original client secrets groups from target instance|Works as expected after manually importing the missing cryptographic module. See Exporting and importing data via XML.|
+|Original instance secrets groups from the target instance|Works as expected after manually importing the missing cryptographic module. See [Exporting and importing data via XML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_ExportAndImportXMLFiles.md).|
+|Original client secrets groups from target instance|Works as expected after manually importing the missing cryptographic module. See [Exporting and importing data via XML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_ExportAndImportXMLFiles.md).|
 |Cloned instance secrets groups from source instance|Doesn’t work unless manually set up|
 |Cloned client secrets groups from source instance|Work if manually config sg/identity group/alias/mid|
 

@@ -25,13 +25,13 @@ The support level is Standard but has some exceptions or special conditions.
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Domain separation and Contact Tracing Overview
 
 Service providers need to be able to manage multiple customers in a single instance to deliver their services via Contact Tracing in the [Safe Workplace](../../human-resources/concept/safe-workplace.md) suite. Beginning with the Paris release, scheduled jobs introduced support for domain separation at the Standard level.
 
-Admins must install the Domain separation plugin before working with the Contact Tracing tables.
+Admins must install the [Domain separation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md) before working with the Contact Tracing tables.
 
 See [Domain separation and Safe Workplace suite](../../workplace-safety-mgmt/concept/domain-separation-safe-workplace.md) to learn how to set up Contact Tracing with domain separation.
 
@@ -40,5 +40,5 @@ See [Domain separation and Safe Workplace suite](../../workplace-safety-mgmt/con
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

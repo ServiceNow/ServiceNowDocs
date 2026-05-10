@@ -45,7 +45,7 @@ If multiple inactivity monitors do match a task record, one of the inactivity mo
 
     At least one condition must be specified for the inactivity monitor to work.
 
-    -   If you are using incident auto-close, add a Reset condition because, if you don't, auto-close won't work properly. To prevent this reset, set a **Reset Condition** on your inactivity monitor. To learn more about Incident auto-close, see Configure incidents to close automatically.
+    -   If you are using incident auto-close, add a Reset condition because, if you don't, auto-close won't work properly. To prevent this reset, set a **Reset Condition** on your inactivity monitor. To learn more about Incident auto-close, see [Configure incidents to close automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/configure-incident-auto-close.md).
     -   All conditions need to be True per user update for the Inactivity Monitor to start running. For example, Set this condition only works if the due date is earlier than the current date when user updates the task.
 6.  Specify an Order if multiple inactivity monitors might have their conditions met for a given record - the one with the lowest order is used.
 

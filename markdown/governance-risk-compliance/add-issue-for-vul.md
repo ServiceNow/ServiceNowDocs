@@ -29,15 +29,15 @@ While addressing the Operational vulnerability, an issue can be in the open stat
 
 3.  Select the Issues related list and add or create an issue.
 
-<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d272191e108">
+<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d272198e108">
 
 Option
 
-</th><th align="left" id="d272191e111">
+</th><th align="left" id="d272198e111">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d272191e117">
+</th></tr></thead><tbody><tr><td id="d272198e117">
 
 **To add an existing issue**
 
@@ -48,7 +48,7 @@ Action
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d272191e143">
+</td></tr><tr><td id="d272198e143">
 
 **To create an issue**
 

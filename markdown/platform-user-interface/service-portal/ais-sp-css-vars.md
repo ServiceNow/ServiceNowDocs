@@ -15,7 +15,7 @@ breadcrumb: [Override AI Search theming, AI Search in Service Portal, Configurin
 
 You can customize the look and feel of the AI Search experience in Service Portal by updating the relevant CSS variables.
 
-The following CSS variables control the look and feel of the AI Search features in Service Portal. For more information about AI Search features, see Using AI Search.
+The following CSS variables control the look and feel of the AI Search features in Service Portal. For more information about AI Search features, see [Using AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/use-ais.md).
 
 You can edit these variables in the **CSS variables** field of a Theme \[sp\_theme\] record. You can also configure these variables with a CSS Include associated with a portal's theme. For more information, see the following topics:
 
@@ -586,7 +586,7 @@ Text background color for title highlights in search results.**Note:** For this 
 }
 ```
 
-To learn about configuring settings in EVAM view templates, see Define an EVAM view template.
+To learn about configuring settings in EVAM view templates, see [Define an EVAM view template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-evam-template.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Create a CSS include to override theming for AI Search in Service Portal](../task/css-override-ais-theming-sp.md)

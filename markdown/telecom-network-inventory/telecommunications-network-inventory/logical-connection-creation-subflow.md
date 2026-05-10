@@ -37,7 +37,7 @@ The following table lists the input fields in the Logical Connection Creation su
 |Connection Type|Type of connection. This field information updates the product model that is associated with the physical connection.|Reference.Logical Connection Model|
 |Connection elements|Connection elements that are added for the logical connections. Select the add icon \(![Add icon.](../image/add-icon-1.png)\) to add a connection element.|Array.String|
 
-To learn more about the variable data types, see Flow Designer input and output data variables.
+To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md).
 
 ## Output
 

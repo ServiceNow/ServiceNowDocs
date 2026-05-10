@@ -17,7 +17,7 @@ For Care Team Operations for Biomed to create work orders from Healthcare Biomed
 
 This plugin provides all roles and features needed for the healthcare biomed case to synchronize with work orders.
 
-For information on fulfilling work orders, see Manage work orders.
+For information on fulfilling work orders, see [Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/c_ManageWorkOrders.md).
 
 **If the Field Service Management \[com.snc.work\_management\] plugin isn’t installed:**
 

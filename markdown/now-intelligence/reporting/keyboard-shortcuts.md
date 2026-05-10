@@ -29,5 +29,5 @@ You can use the following keyboard shortcuts.
 **Related topics**  
 
 
-[bundle-platux.r_KeyboardShortcuts]
+[Keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_KeyboardShortcuts.md)
 

@@ -25,7 +25,7 @@ Domain separation is supported in Service Mapping. Domain separation enables you
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## How domain separation works in Service Mapping
 
@@ -62,7 +62,7 @@ For more context, refer to [Discovery patterns used by ITOM Visibility](c_Mappin
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 
-[bundle-psec.bp-domain-sep-recommended]
+[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
 

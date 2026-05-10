@@ -15,7 +15,7 @@ breadcrumb: [Change Management, IT Service Management]
 
 You can configure various aspects of Change Management based on the specific requirements of your organization.
 
-The ITSM guided setup provides a sequence of tasks that help you configure Change Management on your ServiceNow instance. To open ITSM guided setup, navigate to **Guided Setup** &gt; **ITSM Guided Setup**. For more information about using the guided setup interface, see Using guided setup.
+The ITSM guided setup provides a sequence of tasks that help you configure Change Management on your ServiceNow instance. To open ITSM guided setup, navigate to **Guided Setup** &gt; **ITSM Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 -   **[Change Management plugins](change-plugins.md)**  
 You can activate one or more of the Change Management plugins if they are not already active. Some plugins include demo data.

@@ -84,7 +84,7 @@ Administrators
 
 </td><td>
 
-Admins must elevate to a security\_admin role to work with collaboration features. For more information, see Elevated privilege roles.
+Admins must elevate to a security\_admin role to work with collaboration features. For more information, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ElevatedPrivilege.md).
 
 Administrators can:
 

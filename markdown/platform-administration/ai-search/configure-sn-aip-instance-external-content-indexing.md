@@ -20,7 +20,7 @@ Create and configure a non-interactive service user account on your ServiceNow A
 
 Role required: admin and security\_admin
 
-**Note:** The security\_admin role is an elevated privilege role. To learn more about elevated privilege roles, see Elevated privilege roles. For details on the security\_admin elevated privilege role, see Security\_admin role.
+**Note:** The security\_admin role is an elevated privilege role. To learn more about elevated privilege roles, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ElevatedPrivilege.md). For details on the security\_admin elevated privilege role, see [Security\_admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-admin-role.md).
 
 ## About this task
 
@@ -42,7 +42,7 @@ Perform all of these steps on the ServiceNow AI Platform instance that you want 
 
 2.  On your source instance, generate and copy a strong password for your new user.
 
-    1.  Generate a strong password for your new user by following the steps from Configure password for a user.
+    1.  Generate a strong password for your new user by following the steps from [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/reset-your-password.md).
 
     2.  Store the copied password in a secure location.
 
@@ -137,7 +137,7 @@ Insert a new row with the name of your new custom role.
         |-----|---------|-----|
         |Sys ID|is|ee3ebfdc9f4112108647e8c40b0a1cb0|
 
-        For details on creating and applying filters to limit records shown in a table's list view, see Create a filter in List.
+        For details on creating and applying filters to limit records shown in a table's list view, see [Create a filter in List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreatingFilters.md).
 
         This filter should display a single Access Control record with Decision Type **Deny Unless**.
 
@@ -155,11 +155,11 @@ Insert a new row with the name of your new custom role.
 
         |Role|Description|
         |----|-----------|
-        |access\_analyzer\_admin|Grants the user access to tables relating to access control in your source instance, including the Access Control \[sys\_security\_acl\], Role \[sys\_user\_role\], and Table \[sys\_db\_object\] tables. To learn more about access control, see Access Control List Rules.|
+        |access\_analyzer\_admin|Grants the user access to tables relating to access control in your source instance, including the Access Control \[sys\_security\_acl\], Role \[sys\_user\_role\], and Table \[sys\_db\_object\] tables. To learn more about access control, see [Access Control List Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).|
         |catalog\_manager|Grants the user access to Service Catalog items in your source instance. For more details on this base system role, see [Base system roles](../../roles/reference/r_BaseSystemRoles.md).|
         |itil|Grants the user access to incidents and user criteria in your source instance. For more details on this base system role, see [Base system roles](../../roles/reference/r_BaseSystemRoles.md).|
         |knowledge\_admin|Grants the user access to KB articles in your source instance. For more details on this base system role, see [Base system roles](../../roles/reference/r_BaseSystemRoles.md).|
-        |snc\_platform\_rest\_api\_access|Grants the user access to Platform Rest APIs in your source instance. The ServiceNow instance external content connector uses the Attachment API and Table API to access your source instance during crawls. For more details on this base system role, see [Base system roles](../../roles/reference/r_BaseSystemRoles.md).|
+        |snc\_platform\_rest\_api\_access|Grants the user access to Platform Rest APIs in your source instance. The ServiceNow instance external content connector uses the [Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_AttachmentAPI.md) and [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_TableAPI.md) to access your source instance during crawls. For more details on this base system role, see [Base system roles](../../roles/reference/r_BaseSystemRoles.md).|
         |snc\_read\_only|Restricts the user to read-only access on all tables that it has access to. For more details on this base system role, see [Read-only role](../../user-administration/concept/c_ReadOnlyRole.md#).|
 
 

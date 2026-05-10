@@ -26,7 +26,7 @@ Elements of the Service Portal platform such as settings, portals, pages and wid
 
 ## Procedure
 
-1.  Create a new domain and assign roles to the domain as needed.
+1.  [Create a new domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateADomain.md) and assign roles to the domain as needed.
 
 2.  Copy the domain's sys ID.
 
@@ -40,7 +40,7 @@ Elements of the Service Portal platform such as settings, portals, pages and wid
 
 3.  Navigate to **All** &gt; **Service Portal** &gt; **Agent Chat**.
 
-4.  Select the name of the portal that you want to restrict to a domain, or create a new one.
+4.  Select the name of the portal that you want to restrict to a domain, or [create a new one](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-a-portal.md).
 
     If prompted, open the record for editing.
 

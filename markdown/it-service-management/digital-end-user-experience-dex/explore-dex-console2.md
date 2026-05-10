@@ -158,7 +158,7 @@ Having a positive digital experience can lead to numerous benefits, including th
 
     Use the DEX issue diagnosis and resolution agentic workflow to resolve detected issues with automated root cause analysis, targeted resolution plans, and documentation of resolution summary in incident records. For more information, see [DEX issue diagnosis and resolution agentic workflow](../../now-assist-itsm/concept/now-assist-itsm-dex-diagnosis-resolution-workflow.md).
 
--   **Software Asset Management**
+-   **[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)**
 
     Unifying the experience of DEX application with Software Asset Management \(SAM\) software enables you to access SAM-normalized software content. This integration provides software metering data from DEX to integrate with SAM for software licensing reclamation and, in turn, reduce software license costs. For more information, see [Using DEX or SAM for application monitoring](using-dex-or-sam-for-app-monitoring.md).
 

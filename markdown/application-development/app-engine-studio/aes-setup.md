@@ -22,7 +22,7 @@ Configure App Engine Studio \(AES\) by installing the application on your develo
 -   [Installing App Engine Studio](../task/install-aes.md)
 -   [Configure App Engine Studio](configure-aes.md)
 
-**Note:** If you plan on cloning your production instance to one or more non-production instances, you should also install the AES product on your production instance prior to cloning. For more information, see Create a clone preserver and [Cloning instances with AES](cloning-aes-applications.md).
+**Note:** If you plan on cloning your production instance to one or more non-production instances, you should also install the AES product on your production instance prior to cloning. For more information, see [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-new-clone-preserver.md) and [Cloning instances with AES](cloning-aes-applications.md).
 
 ## Configuring related applications
 

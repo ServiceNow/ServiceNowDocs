@@ -26,7 +26,7 @@ Domain separation is supported for Now Assist for Financial Services Operations 
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Domain separation overview
 
@@ -40,7 +40,7 @@ Now Assist for Financial Services Operations \(FSO\) works with domain separatio
 
 If you're a service provider that hosts multiple clients in the same instance, you can set up domain separation to separate tenant data, processes, and administrative tasks. However, Now Assist for Financial Services Operations \(FSO\) consumption is tracked according to the instance without differentiating between tenants. You can track your Now Assist for Financial Services Operations \(FSO\) usage in the Subscription Management dashboard.
 
-If you want a domain to have a different version of an existing skill, you can reconfigure and activate the skill or create a variant in the preferred domain. See Domain separation in the Now Assist Admin console.
+If you want a domain to have a different version of an existing skill, you can reconfigure and activate the skill or create a variant in the preferred domain. See [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md).
 
 ## Use cases
 
@@ -53,5 +53,5 @@ For example, you can grant certain roles access to the Now Assist panel in one d
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

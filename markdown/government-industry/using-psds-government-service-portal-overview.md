@@ -186,5 +186,5 @@ Business contacts have the same functionality as a constituent user, with a few 
 
 ## Customizing the Government Service Portal
 
-To customize this portal, navigate to **Service Portal** &gt; **Portals** and select Government Service. See Service Portal for more information about creating a custom interface.
+To customize this portal, navigate to **Service Portal** &gt; **Portals** and select Government Service. See [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md) for more information about creating a custom interface.
 

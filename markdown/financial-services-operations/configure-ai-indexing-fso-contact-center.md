@@ -49,9 +49,9 @@ AI indexing is configured for Agentic Contact Center for Banking.
 **Related topics**  
 
 
-[bundle-platadm.indexed-source-form-ais]
+[Indexed Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-source-form-ais.md)
 
-[bundle-platadm.index-single-source-ais]
+[Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-single-source-ais.md)
 
-[bundle-platadm.publish-search-profile-ais]
+[Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/publish-search-profile-ais.md)
 

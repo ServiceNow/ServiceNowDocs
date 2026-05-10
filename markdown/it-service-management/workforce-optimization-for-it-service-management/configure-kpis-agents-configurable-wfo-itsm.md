@@ -50,7 +50,7 @@ The KPI scores are automatically refreshed at an interval of 30 seconds. However
 
     2.  Fill in the details.
 
-        For more information, see Create a single score report.
+        For more information, see [Create a single score report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_SingleScoreCharts.md).
 
     3.  Click **Save**.
 
@@ -66,7 +66,7 @@ The KPI scores are automatically refreshed at an interval of 30 seconds. However
 
     7.  Select the KPI report's table name and field name.
 
-        For more information, see Create a reference field interactive filter.
+        For more information, see [Create a reference field interactive filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/interactive-filters/t_CreateAReferenceFieldPublisher.md).
 
     8.  Click **Submit**.
 

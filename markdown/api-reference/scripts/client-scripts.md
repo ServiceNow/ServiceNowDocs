@@ -32,7 +32,7 @@ Client scripts are intended to optimize the user experience on a form. Client sc
 
 To prevent unwanted access to data, ensure that sensitive fields are hidden or read-only through ACLs or data policies.
 
-For more information, see Access Control List Rules or Data policy.
+For more information, see [Access Control List Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md) or [Data policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DataPolicy.md).
 
 ## Where client scripts run
 
@@ -174,7 +174,7 @@ Messages
 
 </td><td>
 
-Text string \(one per line\) available to the client script as localized messages using getmessage\('\[message\]'\). For additional information, see Translate a client script message.
+Text string \(one per line\) available to the client script as localized messages using getmessage\('\[message\]'\). For additional information, see [Translate a client script message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_TranslateAClientScriptMessage.md).
 
 </td></tr><tr><td>
 

@@ -95,7 +95,7 @@ This tab shows the renewal details for all contracts associated with the engagem
 
     **Note:** The date used to plot the x-axis on the graph is based on one of the following:
 
-    -   If Sales Customer Relationship Management is installed, an opportunity is created for each contract. For opportunities with type **Renew**, the stage of the contract is set to **Closed won** or **Closed lost** indicating whether the contract had been renewed. The Actual Closed Date in the Opportunity record is used to plot the X axis. For more details, see Opportunity Management.
+    -   If Sales Customer Relationship Management is installed, an opportunity is created for each contract. For opportunities with type **Renew**, the stage of the contract is set to **Closed won** or **Closed lost** indicating whether the contract had been renewed. The Actual Closed Date in the Opportunity record is used to plot the X axis. For more details, see [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md).
     -   Date specified in the **Renewal finalized on** field in the Contracts table. The Renewals won and Renewals lost bar charts show the month in which the renewal was either approved or rejected.
 -   Engagements with lost contracts: List of engagements with contracts that were rejected or not renewed.
 -   YTD total contract value by month: Monthly breakdown of total contract value, year-to-date.

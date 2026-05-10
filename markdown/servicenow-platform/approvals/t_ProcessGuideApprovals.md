@@ -15,7 +15,7 @@ breadcrumb: [Approval rules, Classic approvals, Exploring Service Administration
 
 Process guides work similarly to approval rules in that their execution is controlled via a condition.
 
-**Important:** Classic approval rules have been replaced by the Workflow Studio Ask for Approval action. Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 ## Before you begin
 

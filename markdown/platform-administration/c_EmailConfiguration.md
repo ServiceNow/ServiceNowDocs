@@ -38,11 +38,11 @@ For instructions on creating and sending custom emails when events on the instan
 
 ## Instance-to-instance communication via email
 
-Use Web services to communicate between two instances.
+Use [Web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_AvailableWebServices.md) to communicate between two instances.
 
 ## Designate untrusted and trusted email domains
 
-Using Instance Security Center, you can monitor the blocked and allowed incoming email metrics for your instance. For more information, see Designate untrusted and trusted email domains.
+Using Instance Security Center, you can monitor the blocked and allowed incoming email metrics for your instance. For more information, see [Designate untrusted and trusted email domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/designate-untrusted-trusted-email-domains.md).
 
 ## Next steps after enabling email
 

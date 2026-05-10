@@ -57,7 +57,7 @@ You can create record producers for external users to submit requests through th
 
 6.  For the record producer to be available in the catalog, configure ACLs for tables referenced from the record producers.
 
-    For more information, see Configure an ACL rule.
+    For more information, see [Configure an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_CreateAnACLRule.md).
 
 
 ## Result

@@ -43,5 +43,5 @@ A record hierarchy based on the specified reference field is created. The Servic
 
 ## What to do next
 
-Build queries in condition builder using the \[is in hierarchy\] or \[is in hierarchy \(dynamic\)\] operators. See Operators available for filters and queries.
+Build queries in condition builder using the \[is in hierarchy\] or \[is in hierarchy \(dynamic\)\] operators. See [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 

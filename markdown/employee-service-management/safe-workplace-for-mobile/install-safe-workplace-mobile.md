@@ -90,7 +90,7 @@ See the [Commercial downloads for the Emergency Response Management and Safe Wor
 
 7.  Control access to the application by creating a group and assigning roles to the group or individual users.
 
-    For more information, see Roles.
+    For more information, see [Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
 
 
 **Parent Topic:**[Safe Workplace for mobile](../concept/mobile-emergency-response.md)

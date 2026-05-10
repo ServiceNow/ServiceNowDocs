@@ -21,7 +21,7 @@ Maintain your ServiceNow apps.
 
 </td><td>
 
-Service Mapping ![Service Mapping.](../image/icon-service-mapping.png) The ServiceNow® Service Mapping application discovers all application services in your organization and builds a comprehensive map of all devices, applications, and configuration profiles used in these application services.
+[Service Mapping ![Service Mapping.](../image/icon-service-mapping.png) The ServiceNow® Service Mapping application discovers all application services in your organization and builds a comprehensive map of all devices, applications, and configuration profiles used in these application services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md)
 
 </td></tr></tbody>
 </table>

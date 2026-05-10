@@ -20,7 +20,7 @@ Client software distribution uses the following methods for detecting software i
 -   **Discovery**: CSD is configured to leverage Discovery to detect software installations. You can run Discovery manually at any time, or by a scheduled job.
 -   **Microsoft SCCM Integration**: You can import SCCM data into the CMDB using the features in the Integration - Microsoft SCCM plugin if Discovery is not active on the instance.
 
-The instance uses the data gathered by Discovery or the SCCM integration plugin to populate the Software Installation \[cmdb\_sam\_sw\_install\] table. To validate installations using this data, CSD runs a scheduled job called Reconcile Requested Software that uses Properties installed settings. This process reconciles the software installation data accumulated in the CMDB and makes these status updates:
+The instance uses the data gathered by Discovery or the SCCM integration plugin to populate the Software Installation \[cmdb\_sam\_sw\_install\] table. To validate installations using this data, CSD runs a scheduled job called Reconcile Requested Software that uses [Properties installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-prop-installed.md) settings. This process reconciles the software installation data accumulated in the CMDB and makes these status updates:
 
 -   **Not installed** to **Installed**: The user has installed the requested software within the time limit configured in the **sn\_client\_sf\_dist.softwareInstallExpDays** property.
 -   **Not installed** to **Status check expired**: The time limit has expired for the user to install the requested software. The system stops checking for installation when the time limit expires.

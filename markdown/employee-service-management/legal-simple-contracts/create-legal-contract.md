@@ -77,6 +77,6 @@ The legal support for a contract request works based on a workflow, so you must 
 
     6.  Repeat steps 5c-5e for the **Preview** tab configuration.
 
-    For more information, see Configure the standard ticket page
+    For more information, see [Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-st-page.md)
 
 

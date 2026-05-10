@@ -23,7 +23,7 @@ See for more information.
 
 ## New in the Australia release
 
--   **AI Agent for Domain Visibility Management**
+-   **[AI Agent for Domain Visibility Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-sep-aia.md)**
 
     Use the new AI agent to manage domain visibility through natural language conversations. Domain administrators can ask the agent to query visibility by user, validate that visibility is not redundant or oversized, and take direct actions to add or remove visibility settings. The agent supports end-to-end workflows so administrators can complete multistage visibility management tasks without leaving the conversational interface. Install the Domain Separation AI Agent plugin to enable this capability.
 
@@ -49,7 +49,7 @@ See for more information.
 
 ## Activation information
 
-Domain Separation is a ServiceNow AI Platform feature available with activation of the `com.glide.domain.activation_utility` plugin. For details, see Domain separation plugin.
+Domain Separation is a ServiceNow AI Platform feature available with activation of the `com.glide.domain.activation_utility` plugin. For details, see [Domain separation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-plugin.md).
 
 **Parent Topic:**[ServiceNow AI Platform security release notes](now-platform-security-rn-landing.md)
 

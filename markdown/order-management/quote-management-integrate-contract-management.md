@@ -29,13 +29,13 @@ Role required: admin
 
 4.  Complete the initial configuration steps to set up this integration.
 
-    For more information on setting up Contract Management Pro, see Configuring Contract Management Pro.
+    For more information on setting up Contract Management Pro, see [Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-cmpro.md).
 
 
 **Related topics**  
 
 
-[bundle-emplsm.cncore-config-cmpro]
+[Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-cmpro.md)
 
 [Initiate a contract request](quote-management-create-contract.md)
 

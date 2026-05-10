@@ -24,7 +24,7 @@ You can create any number of branding configurations for an instance. These bran
 
 **Note:** Branding for bots in the Conversational Integration with Microsoft Teams is available through the Microsoft Teams app customization feature. For details, see [MS Teams branding for the conversational integration](https://community.servicenow.com/community?id=community_article&sys_id=3b4f487edbe17490904fa9fb1396195b) in Now Community. For information about branding bots in Slack, see [Configure branding for your Virtual Agent bot in Slack](../../virtual-agent/task/slack-branding-overview.md).
 
-The default branding configuration includes the Virtual Agent bot, which has a ServiceNow avatar. If you want additional branded bots, create a user profile for each bot in the User \[sys\_user\] table. Give your bot a unique user ID, name \(for example, Acme\), upload the photo \(image\) for your bot avatar, and make your bot active. For details on adding users to your instance, see Create a user.
+The default branding configuration includes the Virtual Agent bot, which has a ServiceNow avatar. If you want additional branded bots, create a user profile for each bot in the User \[sys\_user\] table. Give your bot a unique user ID, name \(for example, Acme\), upload the photo \(image\) for your bot avatar, and make your bot active. For details on adding users to your instance, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md).
 
 Once created, you then select the bot to be used in a configuration. A branded bot can be used in a single configuration or in multiple branding configurations.
 

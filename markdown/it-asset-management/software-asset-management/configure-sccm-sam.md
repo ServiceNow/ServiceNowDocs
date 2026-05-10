@@ -23,7 +23,7 @@ Role required: sn\_client\_sf\_dist.csd\_admin or admin
 
 ## Procedure
 
-1.  Activate the SCCM integration plugin for your version of SCCM.
+1.  [Activate the SCCM integration plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/activate-microsoft-sccm-plugin.md) for your version of SCCM.
 
     -   Integration — Microsoft SCCM 2012 v2 \(com.snc.integration.sccm2012v2\)
     -   Integration — Microsoft SCCM 2016 \(com.snc.integration.sccm2016\)
@@ -31,13 +31,13 @@ Role required: sn\_client\_sf\_dist.csd\_admin or admin
 
     -   Integration — Microsoft SCCM 2012 v2 Software Usage \(com.snc.samp\_usage\_sccm\) plugin
     -   Integration — Microsoft SCCM 2016 Software Usage \(com.snc.samp.usage\_sccm\_2016\) plugin
-    **Important:** These Microsoft SCCM plugins will be deprecated in the Tokyo release. If you are integrating with SCCM for the first time, request and install the Service Graph connector for Microsoft SCCM application from the[ServiceNow Store](https://store.servicenow.com/) instead. If you have already activated one of the Microsoft SCCM plugins on your ServiceNow instance, use the Migration Readiness Tool for Service Graph Connector for SCCM store application to prepare your instance for migration from the Microsoft SCCM plugin to the Service Graph connector. See Service Graph connector for Microsoft SCCM for more information on the Service Graph connector.
+    **Important:** These Microsoft SCCM plugins will be deprecated in the Tokyo release. If you are integrating with SCCM for the first time, request and install the Service Graph connector for Microsoft SCCM application from the[ServiceNow Store](https://store.servicenow.com/) instead. If you have already activated one of the Microsoft SCCM plugins on your ServiceNow instance, use the Migration Readiness Tool for Service Graph Connector for SCCM store application to prepare your instance for migration from the Microsoft SCCM plugin to the Service Graph connector. See [Service Graph connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-sccm.md) for more information on the Service Graph connector.
 
 2.  If you want to reclaim unused and underused software, set up SCCM for Client Software Distribution \(CSD\).
 
-    1.  Request the Client Software Distribution \(com.snc.orchestration.client\_sf\_distribution\) plugin.
+    1.  Request the [Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_ActivateClientSWDistribution.md) \(com.snc.orchestration.client\_sf\_distribution\) plugin.
 
-        Client Software Distribution requires a subscription to Orchestration.
+        Client Software Distribution requires a subscription to [Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r-orchestration.md).
 
     2.  In SCCM, create an application, install collection, and uninstall collection for any software that you have not already created these items for.
 
@@ -47,11 +47,11 @@ Role required: sn\_client\_sf\_dist.csd\_admin or admin
 
         **Note:** If you installed software using an SCCM legacy package, you can use [Microsoft Package Conversion Manager](https://docs.microsoft.com/en-us/configmgr/apps/pcm/package-conversion-manager) to create the application.
 
-3.  Setup the MID Server.
+3.  [Setup the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-installation.md).
 
-4.  Configure SCCM and the ServiceNow AI Platform.
+4.  [Configure SCCM and the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_RetrieveSCCMDataClientSWDist.md).
 
-5.  To offer an application from the Service Catalog, create a catalog item.
+5.  To offer an application from the Service Catalog, [create a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateCatItemSCCMApp.md).
 
 
 ## What to do next

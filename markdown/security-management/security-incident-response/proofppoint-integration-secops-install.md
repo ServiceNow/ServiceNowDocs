@@ -23,7 +23,7 @@ Role required: sn\_si\_admin
 
 1.  Download the  Proofpoint Integration for Security Operations application from the  ServiceNow® Store and install it.
 
-    For more information, see Install a ServiceNow Store application.
+    For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
 
 2.  Navigate to **Security Operations** &gt; **Integrations ** &gt; **Integration Configurations**.
 

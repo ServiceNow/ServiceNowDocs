@@ -27,7 +27,7 @@ The Personalize Form menu \(![](../image/icon-personalize-form.png)\) in the for
 
 2.  Add a system property named **glide.ui.personalize\_form**.
 
-    For more information on adding a system property, see Add a system property.
+    For more information on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 3.  Set the Value to **false**.
 

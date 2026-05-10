@@ -90,7 +90,7 @@ Encoded query
 
 Create an encoded query string using a filter on the extraction table list and paste the string into this field. For example:![Sample encoded query.](../image/erpc-schedule-extraction-encoded-query.png)
 
-For more information, see Encoded query strings.
+For more information, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 </td></tr><tr><td>
 
@@ -133,7 +133,7 @@ When to run the extraction.-   **Daily**: Specify the next scheduled start in ho
 -   **Business Calendar:Entry Start**: Runs on the starting entry dates for the business calendar that you select in the Business Calendar field. A scheduled job runs for the starting date of each of the business entries that you defined for the business calendar. For example, if the business calendar represents a fiscal year, and the starting date of each entry is a fiscal month, the scheduled job runs on the first day of each month.
 -   **Business Calendar:Entry End**: Runs for the ending date for the business calendar that you select in the **Business Calendar** field. This selection runs in the same manner as **Business Calendar:Entry Start**, but for the end dates of the associated business calendar entries.
 
-**Note:** To learn more about creating and using business calendars and defining business calendar entries, see Creating business calendars.
+**Note:** To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/business-calendars.md).
 
 
 </td></tr><tr><td>

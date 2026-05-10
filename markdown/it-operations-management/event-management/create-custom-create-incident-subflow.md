@@ -21,7 +21,7 @@ Role required: evt\_mgmt\_admin, flow\_designer
 
 ## About this task
 
-Copy an existing subflow, and then customize it. Publish the custom subflow so that it is available to be used to resolve any alert. For more information, see Create a subflow.
+Copy an existing subflow, and then customize it. Publish the custom subflow so that it is available to be used to resolve any alert. For more information, see [Create a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow.md).
 
 **Note:** If your ServiceNow instance uses domain separation, you must ensure that the new custom subflow that you created operates only on the data of the designated domain.
 
@@ -90,5 +90,5 @@ Include the modified subflow in an alert management rule to resolve alerts accor
 **Related topics**  
 
 
-[bundle-crworkflow.subflows]
+[Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md)
 

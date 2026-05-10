@@ -6,7 +6,7 @@ release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 2
 breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
 ---
@@ -21,7 +21,7 @@ This tab helps you track and monitor AI-related work across various sections—S
 
 The Strategy section helps you monitor and track your AI strategic priorities, goals, and targets associated with these goals.
 
-Strategic priorities with the **Type** field set to **Artificial Intelligence** and goals with the **Category** field set to **Artificial Intelligence** in the Goal Framework application appear in the Strategy section in the AI Control Tower workspace, enabling you to monitor their progress effectively. For details, see Create a strategic priority for a strategic plan and Create a goal in Strategic Planning.
+Strategic priorities with the **Type** field set to **Artificial Intelligence** and goals with the **Category** field set to **Artificial Intelligence** in the Goal Framework application appear in the Strategy section in the AI Control Tower workspace, enabling you to monitor their progress effectively. For details, see [Create a strategic priority for a strategic plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/create-strategic-priority.md) and [Create a goal in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-goal-egm.md).
 
 ![Strategy in the AI Control Tower workspace.](../image/ai-strategy-tab-strategy.png "Strategy in AI strategy")
 
@@ -29,7 +29,7 @@ Strategic priorities with the **Type** field set to **Artificial Intelligence** 
 
 The Costs section helps you track the costs of your AI planning items—such as projects, epics, and demands—by comparing planned cost, budgeted cost, and actual cost.
 
-Planning items with the **Investment type** field set to **Artificial Intelligence** in the Strategic Planning Workspace appear in the Costs section in the AI Control Tower workspace, enabling you to monitor their progress effectively. For details, see Add planning items to Prioritization.
+Planning items with the **Investment type** field set to **Artificial Intelligence** in the Strategic Planning Workspace appear in the Costs section in the AI Control Tower workspace, enabling you to monitor their progress effectively. For details, see [Add planning items to Prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/add-new-items-to-backlog-alignment-planner-workspace.md).
 
 ![Costs in the AI Control Tower workspace.](../image/ai-strategy-tab-costs.png "Costs in AI strategy")
 
@@ -37,7 +37,7 @@ Planning items with the **Investment type** field set to **Artificial Intelligen
 
 The Prioritized AI work section helps you track your projects, epics, demands being planned and done around AI.
 
-Planning items with the **Investment type** field set to **Artificial Intelligence** and the **State** field set to **Prioritized** in the Strategic Planning Workspace appear in the Prioritized AI work section in the AI Control Tower workspace, enabling you to monitor their progress effectively. For details, see Add planning items to Prioritization and Prioritize work.
+Planning items with the **Investment type** field set to **Artificial Intelligence** and the **State** field set to **Prioritized** in the Strategic Planning Workspace appear in the Prioritized AI work section in the AI Control Tower workspace, enabling you to monitor their progress effectively. For details, see [Add planning items to Prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/add-new-items-to-backlog-alignment-planner-workspace.md) and [Prioritize work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/prioritize-planning-items-strategic-planning-workspace.md).
 
 ![Prioritized AI work in the AI Control Tower workspace.](../image/ai-strategy-tab-priorotized-ai-work.png "Prioritized AI work in AI strategy")
 
@@ -47,9 +47,9 @@ The AI RIDAC section helps you monitor key project risks, issues, decisions, act
 
 Projects that meet any of the following criteria appear in the AI RIDAC section in the AI Control Tower workspace, enabling you to monitor their progress effectively:
 
--   Projects with the **Investment type** field set to **Artificial Intelligence** in PPM Standard \(Project Management or Project Workspace\). For details, see Create a project from Project Workspace and Add a RIDAC record to a project in Project Workspace.
--   The **Category** field on the associated primary goal record is set to **Artificial Intelligence** in Goal Framework or Strategic Planning Workspace. For details, see Create a goal in Goal Framework and Create a goal in Strategic Planning.
--   The **Type** field on the strategic priority of the associated primary goal is set to **Artificial Intelligence** in Goal Framework or Strategic Planning Workspace. For details, see Create a strategic priority for a strategic plan.
+-   Projects with the **Investment type** field set to **Artificial Intelligence** in PPM Standard \(Project Management or Project Workspace\). For details, see [Create a project from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-project-from-project-workspace.md) and [Add a RIDAC record to a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/add-risk-project-project-workspace.md).
+-   The **Category** field on the associated primary goal record is set to **Artificial Intelligence** in Goal Framework or Strategic Planning Workspace. For details, see [Create a goal in Goal Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/create-goal.md) and [Create a goal in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-goal-egm.md).
+-   The **Type** field on the strategic priority of the associated primary goal is set to **Artificial Intelligence** in Goal Framework or Strategic Planning Workspace. For details, see [Create a strategic priority for a strategic plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/create-strategic-priority.md).
 
 ![AI RIDAC in the AI Control Tower workspace.](../image/ai-strategy-tab-ridac.png "AI RIDAC in AI strategy")
 

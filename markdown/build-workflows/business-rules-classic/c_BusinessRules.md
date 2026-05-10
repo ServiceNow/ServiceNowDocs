@@ -393,6 +393,11 @@ Shows all versions of the business rule. Use this list to compare versions or to
 
 If you run into issues with your business rule, see the [Business Rule FAQ \[KB0965707\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0965707) article in the Now Support Knowledge Base.
 
+**Related topics**  
+
+
+[How business rules work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/business-rules-classic/c_BusinessRules.md)
+
 ## Global variables in business rules
 
 Predefined global variables are available for use in business rules.
@@ -404,7 +409,7 @@ Use the following predefined global variables to reference the system in a busin
 |*current*|Current state of the record being referenced. See "Prevent null pointer exceptions" below to check for nulls before using this variable.|
 |*previous*|State of the referenced record prior to any updates made during the execution context, where the execution context begins with the first update or delete operation and ends after the script and any referenced business rules are executed. If multiple updates are made to the record within one execution context, *previous* will continue to hold the state of the record before the first update or delete operation. Available on update and delete operations only. Not available on async operations. See "Prevent null pointer exceptions" below to check for nulls before using this variable.|
 |*g\_scratchpad*|Scratchpad object is available on display rules, and is used to pass information to the client to be accessed from client scripts.|
-|*gs*|References to GlideSystem functions.|
+|*gs*|References to [GlideSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSystemScopedAPI.md) functions.|
 
 The variables *current*, *previous*, and *g\_scratchpad* are global across all business rules that run for a transaction.
 

@@ -22,7 +22,7 @@ Role required: Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn
 
 ## About this task
 
-Guided Tours help train and onboard users within the RPA Hub user interface \(UI\). Each tour contains a series of interactive steps that help you complete a specific task or a process within the same browser window. If needed, administrators can create more tours. For more information, see Guided Tours.
+Guided Tours help train and onboard users within the RPA Hub user interface \(UI\). Each tour contains a series of interactive steps that help you complete a specific task or a process within the same browser window. If needed, administrators can create more tours. For more information, see [Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tours.md).
 
 When you visit a page that has a guided tour for the first time, a welcome screen appears. You can choose to either begin the tour or skip the tour.
 

@@ -58,7 +58,7 @@ Perform the following tasks for configuring RPA Hub:
 
 Guided Setup provides a sequence of tasks that help you configure RPA Hub on your ServiceNow® instance. With Guided Setup, keep track of what you have completed, so you can stop and start again where you left off. To open Guided Setup for RPA Hub, navigate to **All** &gt; **Robotic Process Automation** &gt; **Administration** &gt; **Guided Setup**.
 
-For more information about using the guided setup interface, see Using guided setup.
+For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 ## Using Guided Tours to get help related to a configuration task
 

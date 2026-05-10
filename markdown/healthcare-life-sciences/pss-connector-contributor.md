@@ -30,9 +30,9 @@ The sn\_patientservice.agent\_connector and sn\_patientservice.contributor roles
 
 An agent connector within the Patient Support Services application acts as a fulfiller who can create, update, and close enrollment cases and tasks.
 
-As a user with the admin role, you can determine who can act as an agent connector for the enrollment cases by assigning the sn\_patientservice.agent\_connector role and other agent-specific roles to a group, and then assigning the group to the user with the agent connector profile. To assign roles to a group, see Assign a role to a group.
+As a user with the admin role, you can determine who can act as an agent connector for the enrollment cases by assigning the sn\_patientservice.agent\_connector role and other agent-specific roles to a group, and then assigning the group to the user with the agent connector profile. To assign roles to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
 
-The following table describes the location agent profile within the Patient Support Services application scope that you can refer to as an example for combining the sn\_patientservice.agent\_connector role with the industry data model roles in the CSM application.
+The following table describes the location agent profile within the Patient Support Services application scope that you can refer to as an example for combining the sn\_patientservice.agent\_connector role with the [industry data model roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-roles.md) in the CSM application.
 
 <table id="table_n1p_spx_ztb"><thead><tr><th>
 
@@ -65,9 +65,9 @@ sn\_patientservice.agent\_connector and sn\_customerservice.svc\_location\_consu
 
 A contributor within the Patient Support Services application acts as a requester who can create and read enrollment cases.
 
-As a user with the admin role, you can determine who can act as a contributor to the enrollment cases by assigning the sn\_patientservice.contributor role and other contributor roles to a group, and then assigning the group to the user with the contributor profile. To assign roles to a group, see Assign a role to a group.
+As a user with the admin role, you can determine who can act as a contributor to the enrollment cases by assigning the sn\_patientservice.contributor role and other contributor roles to a group, and then assigning the group to the user with the contributor profile. To assign roles to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
 
-The following table describes different contributor profiles within the Patient Support Services application scope that you can refer to as an example for combining the sn\_patientservice.contributor role with the contributor roles in the CSM application.
+The following table describes different contributor profiles within the Patient Support Services application scope that you can refer to as an example for combining the sn\_patientservice.contributor role with the [contributor roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-contributor-user-roles.md) in the CSM application.
 
 <table id="table_uvh_kmw_ztb"><thead><tr><th>
 
@@ -87,7 +87,7 @@ Relationship contributor
 
 </td><td>
 
-Creates enrollment cases for only those patients with whom a relationship is established. For more information, see Create relationships.
+Creates enrollment cases for only those patients with whom a relationship is established. For more information, see [Create relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-data-model-relationships.md).
 
 **Note:** To create enrollment cases for a patient, a user with the relationship contributor profile must have a relationship with the patient included in the Consumer Team Member \[sn\_customer\_rel\_consumer\_to\_user\_list\] table and the **Relationship Manager** responsibility type.
 

@@ -23,9 +23,9 @@ Role required: sn\_hr\_core.admin, or sn\_hr\_core.manager
 
 Trigger conditions are ideal for sending surveys to measure satisfaction with a recent experience, such as closing an HR request.Some descriptions use the Incident table as an example. Substitute HR case information to create an HR survey trigger condition.
 
-See Survey administration.
+See [Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md).
 
-See Survey trigger conditions.
+See [Survey trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_TriggerConditions.md).
 
 To create a trigger condition:
 
@@ -40,7 +40,7 @@ To create a trigger condition:
 
 3.  Complete the form.
 
-    For details about the fields, see Trigger Condition form for surveys
+    For details about the fields, see [Trigger Condition form for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/trigger-condition-form.md)
 
 4.  Click **Submit**.
 

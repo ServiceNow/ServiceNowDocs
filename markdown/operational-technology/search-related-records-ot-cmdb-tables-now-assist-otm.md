@@ -15,7 +15,7 @@ Search for Operational Technology \(OT\) configuration items \(CIs\) and OT devi
 
 ## Before you begin
 
--   The Now Assist panel must be activated. For more information, see Activate the Now Assist panel standard chat.
+-   The Now Assist panel must be activated. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 -   You must be assigned the now\_assist\_panel\_user role to have access to the Now Assist panel.
 -   You must be assigned appropriate roles to search the relevant OT CMDB tables, such as cmdb\_ot\_viewer or cmdb\_ot\_isa\_viewer.
 
@@ -27,11 +27,11 @@ The OT CMDB search feature leverages the following:
 
 -   Now Assist for CMDB's Search CMDB agentic workflow
 
-    **Important:** This agentic workflow is turned on by default. For more information, see Now Assist skills, agents, and agentic workflows on by default.
+    **Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 -   ServiceNow AI Platform's Analytics Query Generator skill
 
-    **Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see Now Assist skills, agents, and agentic workflows on by default.
+    **Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 
 ## Procedure

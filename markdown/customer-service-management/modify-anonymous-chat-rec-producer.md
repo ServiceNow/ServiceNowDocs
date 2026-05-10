@@ -29,7 +29,7 @@ This record producer requests information from a guest user on the Consumer Serv
 
 3.  Modify the record producer as necessary, including the variables in the **Variables** related list.
 
-    For more information, see Create a record producer to log incidents.
+    For more information, see [Create a record producer to log incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/t_CreateARecordProducer.md).
 
 4.  Click **Update**.
 

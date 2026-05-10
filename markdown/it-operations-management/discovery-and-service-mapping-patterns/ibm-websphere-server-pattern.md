@@ -48,7 +48,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   `cell.xml`
 -   **Create Windows credentials**
 
-    For more information, see Windows credentials.
+    For more information, see [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md).
 
 -   **Schedule a horizontal discovery**
 
@@ -83,7 +83,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   `cell.xml`
 -   **Create SSH credentials**
 
-    For more information, see SSH credentials.
+    For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
 
 -   **Verify elevated rights for IBM WebSphere Application Server commands**
 

@@ -44,12 +44,12 @@ Role required: sn\_hr\_core.case\_reader
     Depending on the case, different options are visible at the top.
 
     -   **Discuss**: Opens a sidebar discussion where agents can discuss the case with users who have access to the record.
-    -   **Follow**: Track activity on the case or follow a record in Connect Chat to track activity as it happens. For more information, see Follow a record in Connect.
+    -   **Follow**: Track activity on the case or follow a record in Connect Chat to track activity as it happens. For more information, see [Follow a record in Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_StartARecordConversation.md).
     -   **Update**: Save and update the record. Takes you back to the list form.
     -   **Suspend**: Suspends an HR case that does not have a state of closed or canceled. You can suspend the timing specified in the service level agreement \(SLA\) to perform additional research.
     -   **Cancel**: Cancels the case.
     -   **Responses**: Appears for inquiry cases and enables agents to copy a response template.
-    -   **Associate Interaction**: Select to associate an interaction to the case. Interactions are requests for assistance through a given channel, for example, a call or a chat. For more information, see Interaction Management.
+    -   **Associate Interaction**: Select to associate an interaction to the case. Interactions are requests for assistance through a given channel, for example, a call or a chat. For more information, see [Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/interaction-management.md).
     -   Ready for Work: Select to change the state of the case to Ready and assign an agent.
     -   **Close Complete**: Close the case and change the state to Complete.
     -   **Close Incomplete**: Close the case and change the state to Incomplete.

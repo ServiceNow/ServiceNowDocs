@@ -116,7 +116,7 @@ getScreenLink is used to link into any list screens, including both parameterize
 
 </td><td>
 
-getSSOPrefillLink generates a link that uses the identity provider \(IdP\) that is identified by the `sys_id` parameter. This link can be used to authenticate end users that use different IdPs. For example, pre-hires might use Microsoft Azure as their IdP, and on-boarded employees might use Okta as their IdP. A common use of these SSO \(single sign-on\) pre-filled links is to embed them in emails sent to employees. These emails contain a link that can be used to log in securely to a ServiceNow instance using their mobile apps.**Important:** You must activate the Multi-Provider SSO plugin and have an active IdP to use this method. For more information, see Activate Multi-Provider SSO plugin
+getSSOPrefillLink generates a link that uses the identity provider \(IdP\) that is identified by the `sys_id` parameter. This link can be used to authenticate end users that use different IdPs. For example, pre-hires might use Microsoft Azure as their IdP, and on-boarded employees might use Okta as their IdP. A common use of these SSO \(single sign-on\) pre-filled links is to embed them in emails sent to employees. These emails contain a link that can be used to log in securely to a ServiceNow instance using their mobile apps.**Important:** You must activate the Multi-Provider SSO plugin and have an active IdP to use this method. For more information, see [Activate Multi-Provider SSO plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_ActivateMultipleProviderSSO.md)
 
 </td><td>
 

@@ -105,5 +105,5 @@ Assists employees with tasks related to travel expenses, including submitting ex
 
 [Configure HR AI voice agents](../task/configure-voice-agents.md)
 
-[bundle-platai.deploy-ai-agents-for-voice]
+[Deploy AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/deploy-ai-agents-for-voice.md)
 

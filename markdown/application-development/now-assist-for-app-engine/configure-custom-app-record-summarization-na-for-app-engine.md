@@ -60,7 +60,7 @@ You must have the custom app record summarization skill activated to configure t
 
 8.  Test that the summaries Now Assist for App Engine generates are satisfactory.
 
-    **Important:** Each time that you test the output that Now Assist for App Engine generates, the operation counts as an assist that is tracked by your Now Assist subscription. To track your Now Assist usage, see Monitoring Now Assist usage in Subscription Management.
+    **Important:** Each time that you test the output that Now Assist for App Engine generates, the operation counts as an assist that is tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
 
     1.  On the Test summary output page, in the **Base input table** field, select the table that you want to test from the list.
 
@@ -80,7 +80,7 @@ You must have the custom app record summarization skill activated to configure t
 
     1.  To adjust which roles have access to the skill, select the edit icon \(![](../../../administer/ui-builder/image/crs-edit-pencil-icon-purple.png)\).
 
-    2.  Follow the instructions outlined in Configure security controls for a skill to control who has access to the skill.
+    2.  Follow the instructions outlined in [Configure security controls for a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/nask-access-control.md) to control who has access to the skill.
 
     3.  When finished, select **Save and continue**.
 

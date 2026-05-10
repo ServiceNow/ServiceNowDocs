@@ -21,7 +21,7 @@ Orchestrated solutions aide collaboration among teams by providing reusable data
 
 ## Orchestration tools
 
-Orchestration can make calls outside of a ServiceNow instance, directly to web services or through a MID Server to systems within corporate firewall. Orchestration also enables the creation reusable activities that wrapper Java Script functions for manipulating things inside the platform. Orchestration extends the Workflow editor by providing these features:
+Orchestration can make calls outside of a ServiceNow instance, directly to web services or through a MID Server to systems within corporate firewall. Orchestration also enables the creation reusable activities that wrapper Java Script functions for manipulating things inside the platform. Orchestration extends the [Workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/workflow-editor.md) by providing these features:
 
 -   [Activity packs](../../../administer/orchestration-activities/concept/c_OrchestrationActivityPacks.md) containing ready-to-use activities.
 -   [Activity Designer](../../../administer/orchestration-activity-designer/concept/c_WorkflowActivityDesigner.md), which enables developers to create custom activities without an over dependence to create scripts to orchestrate to third-party systems.
@@ -63,7 +63,7 @@ If Orchestration does not provide the activities you need for an integration, cr
 
 ## Orchestration workflow
 
-When an Orchestration activity starts within a workflow, Orchestration launches a Discovery probes and sensors and writes a probe record to the ECC Queue. The workflow pauses as the MID Server picks up the request and executes the probe. When the probe reports back, the workflow resumes as the results are analyzed. The workflow can exit or continue at this point.
+When an Orchestration activity starts within a workflow, Orchestration launches a [Discovery probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryProbesAndSensors.md) and writes a probe record to the ECC Queue. The workflow pauses as the MID Server picks up the request and executes the probe. When the probe reports back, the workflow resumes as the results are analyzed. The workflow can exit or continue at this point.
 
 ![Orchestration workflow](../image/OrchestrationWorkflow.png "Orchestration workflow")
 

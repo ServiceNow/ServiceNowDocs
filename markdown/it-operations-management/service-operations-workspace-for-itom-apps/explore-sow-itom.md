@@ -39,7 +39,7 @@ Service Operations Workspace for ITOM provides powerful AIOps Experience capabil
 
 When setting up the Service Operations Workspace, it's crucial to configure both IT Operations Management \(ITOM\) for managing alerts and IT Service Management \(ITSM\) for resolving incidents and delivering services. This integrated setup ensures access to the full range of features, facilitating comprehensive management of IT operations and service quality.
 
-For more information, see Exploring Service Operations Workspace for ITSM.
+For more information, see [Exploring Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/explore-sow.md).
 
 ![Service Operations Workspace overview](../image/final-sow-overview.png)
 
@@ -123,5 +123,5 @@ Manages the lifecycle of alerts, including performing basic operations such as v
 **Related topics**  
 
 
-[bundle-platux.list-of-workspaces]
+[List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/list-of-workspaces.md)
 

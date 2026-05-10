@@ -15,7 +15,7 @@ breadcrumb: [Assistant Designer bot responses, Assistant Designer interface refe
 
 Use the Link bot response control in a Virtual Agent topic to present a bot response. The response contains a header prompt with either a single URL link to an item or multiple URL links for up to three items.
 
-**Note:** If you are using the link bot response control for Virtual Agent conversations on Now mobile apps, web links open in the mobile browser. If you want links to open in a native mobile screen within the mobile app, create deep links for items in your conversation topics. For details about deep linking in mobile apps, see the MobileDeepLinkGenerator - Global API.
+**Note:** If you are using the link bot response control for Virtual Agent conversations on Now mobile apps, web links open in the mobile browser. If you want links to open in a native mobile screen within the mobile app, create deep links for items in your conversation topics. For details about deep linking in mobile apps, see the [MobileDeepLinkGenerator - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/MobileDeepLinkGeneratorAPI.md) API.
 
 ## Link bot response control properties
 

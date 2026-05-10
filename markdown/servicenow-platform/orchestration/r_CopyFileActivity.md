@@ -26,7 +26,7 @@ The Copy File activity copies a file from an SFTP server \(source host\) to anot
 |targetPort|Port number to use to communicate with the target server. The default port number is **22**.|
 |targetFilePath|Full path to the copied file on the target host.|
 |tempFileSuffix|Temporary suffix to use when moving a file. If this field contains a value, the activity deletes the duplicate target file, if it exists, and then copies the source file to a temporary file using **targetFilePath + tempFileSuffix** as the name. Upon completion, the activity renames the file to the actual target file name. If this field is blank, the activity copies the source file directly to the target file and overwrites it, if it already exists.|
-|sourceCredentialTag|Specific Credential aliases for Orchestration activities this activity must use to run SSH commands on the source host.|
+|sourceCredentialTag|Specific [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_AssignCredsOrchActivities.md) this activity must use to run SSH commands on the source host.|
 |targetCredentialTag|Specific credential tag this activity must use to run SSH commands on the target host.|
 
 ## Output variables

@@ -6,7 +6,7 @@ release: australia
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 5
 breadcrumb: [Configuring the classic Software Asset Management Foundation plugin, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
@@ -100,7 +100,7 @@ Metric group
 </td><td>
 
 Select the metric group for the software. Each metric group has a set of license metrics that are specific to the publisher. -   Common
--   Add a custom license metric
+-   [Add a custom license metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/add-custom-license-metric.md)
 
 
 </td></tr><tr><td>

@@ -37,7 +37,7 @@ By default, this endpoint can be used to store data about the following types of
 -   Data Center \[cmdb\_ci\_datacenter\]
 -   Data Center Zone \[cmdb\_ci\_zone\]
 
-To use this endpoint with additional CI types, create metric definitions and implement the scripted extension point TNIDCIMFeedParser.
+To use this endpoint with additional CI types, [create metric definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/set-up-data-monitoring.md) and implement the scripted extension point TNIDCIMFeedParser.
 
 ### URL format
 

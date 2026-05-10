@@ -15,7 +15,7 @@ breadcrumb: [Reference, Instance Data Replication, Manage instance data sources,
 
 Instance Data Replication \(IDR\) is installed with these roles.
 
-To learn more about managing subscriptions, see Managing per-user subscriptions in Subscription Management and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 **Parent Topic:**[Instance Data Replication reference](../concept/reference-instance-data-replication.md)
 

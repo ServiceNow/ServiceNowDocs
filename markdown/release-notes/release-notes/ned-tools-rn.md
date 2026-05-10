@@ -48,7 +48,7 @@ Next Experience Developer Tools requires Google Chrome.
 
 ## Related ServiceNow applications and features
 
--   **Performance Analyzer**
+-   **[Performance Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/performance-analyzer/performance-analyzer-landing.md)**
 
     Performance Analyzer is a ServiceNow Store application that enables you to access page load time data, trends, and waterfall visualizations directly from your instance. It also helps you to identify page performance issues and bottlenecks in UX framework pages independently.
 

@@ -25,7 +25,7 @@ Role required: evt\_mgmt\_admin
 
 Metrics have an expiration date. You can continue receiving data without interruption when a metric’s expiration date arrives by pushing ahead the expiration date. For details, contact customer support.
 
-Metric Intelligence guided setup provides a sequence of tasks that help you configure Metric Intelligence on your ServiceNow instance. To open Metric Intelligence guided setup, navigate to **Guided Setup** &gt; **ITOM Guided Setup**, and click **Continue**. Then scroll to **Metric Intelligence**, and click **Continue**. For more information about using the guided setup interface, see Using guided setup.
+Metric Intelligence guided setup provides a sequence of tasks that help you configure Metric Intelligence on your ServiceNow instance. To open Metric Intelligence guided setup, navigate to **Guided Setup** &gt; **ITOM Guided Setup**, and click **Continue**. Then scroll to **Metric Intelligence**, and click **Continue**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 Alternatively, you can complete the following procedure.
 

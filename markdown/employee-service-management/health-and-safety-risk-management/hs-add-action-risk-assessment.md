@@ -27,15 +27,15 @@ Role required: sn\_hs\_rm.risk\_assessment\_manager or sn\_hs\_rm.risk\_assessme
 
 3.  Create an action from a risk assessment record or the Risk actions list.
 
-<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d749830e81">
+<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d749834e81">
 
 Option
 
-</th><th align="left" id="d749830e84">
+</th><th align="left" id="d749834e84">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d749830e90">
+</th></tr></thead><tbody><tr><td id="d749834e90">
 
 **From a Risk assessment record \(Scheduled actions\)**
 
@@ -49,7 +49,7 @@ For more information, see [Create a Health and Safety action schedule](../../ohs
 
  The action schedule creates actions in the **Risk actions** tab and auto-assigns them to individuals using the condition builder.
 
-</td></tr><tr><td id="d749830e135">
+</td></tr><tr><td id="d749834e135">
 
 **From the Risk actions list**
 

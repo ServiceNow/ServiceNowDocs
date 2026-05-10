@@ -17,7 +17,7 @@ Integrate your core systems using the ServiceNow Financial Services Remote Table
 
 Financial institutions manage a large volume of account and transaction data through external core applications. To address the challenge of synchronizing this data within the Financial Services Operations application, the Financial Services Remote Tables application has been introduced. This solution enables real-time record lookup into external financial applications without the need to store the data permanently.
 
-Remote tables are a ServiceNow AI Platform functionality that has been integrated with the Financial Services Operations banking applications. For more details on working with remote tables, see Remote tables.
+Remote tables are a ServiceNow AI Platform functionality that has been integrated with the Financial Services Operations banking applications. For more details on working with remote tables, see [Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-tables.md).
 
 ## Key features
 
@@ -56,9 +56,9 @@ Several types of components are installed with the installation of the Financial
 **Related topics**  
 
 
-[bundle-platcap.create-remote-table-script]
+[Create script definitions for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/create-remote-table-script.md)
 
-[bundle-platux.create-a-new-form-action]
+[Create a form action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-a-new-form-action.md)
 
 [FSO Look Up Client action](fso-look-up-client-action.md)
 

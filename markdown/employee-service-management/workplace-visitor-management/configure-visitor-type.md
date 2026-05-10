@@ -36,7 +36,7 @@ Role required: sn\_wsd\_visitor.admin
 
 4.  In the **Available if** field, add conditions for when the visitor type is available.
 
-    For more information about conditions, see Condition builder.
+    For more information about conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
     To include workplace locations within a parent location, you must add conditions to dot-walk from the nested locations to the parent location.
 

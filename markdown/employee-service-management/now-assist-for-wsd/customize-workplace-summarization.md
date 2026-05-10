@@ -55,7 +55,7 @@ You can edit basic information about the skill like the name, workflow, LLM, and
 
 You can select the fields to be included as an input for the summarization skill. For example, you can add the start and end time fields as an input to the summary.You can customize inputs for every state of the case like new, work in progress, or resolved.
 
-For more information about customizing the input fields, see Configure case or incident summarization in the Now Assist Admin console.
+For more information about customizing the input fields, see [Configure case or incident summarization in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md).
 
 </td></tr><tr><td id="d521183e137">
 
@@ -63,7 +63,7 @@ For more information about customizing the input fields, see Configure case or i
 
 </td><td>
 
-You can add or remove sections that are included in the generated summary. You can customize the prompts for every state of the case like new, work in progress, or resolved.For more information about customizing the prompt output, see Configure case or incident summarization in the Now Assist Admin console.
+You can add or remove sections that are included in the generated summary. You can customize the prompts for every state of the case like new, work in progress, or resolved.For more information about customizing the prompt output, see [Configure case or incident summarization in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md).
 
 </td></tr><tr><td id="d521183e152">
 
@@ -79,7 +79,7 @@ You can select the table, fields for the requester and fulfiller, and fulfiller 
 
 </td><td>
 
-You can customize whether the skill is available by default, or only available based on the configured conditions. For more information about the availability, see Activate a Now Assist skill
+You can customize whether the skill is available by default, or only available based on the configured conditions. For more information about the availability, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md)
 
 </td></tr><tr><td id="d521183e174">
 
@@ -95,7 +95,7 @@ You can add roles to provide access to summarize a case. For example, `sn_wsd_co
 
 </td><td>
 
-You can configure where the case summarization feature is displayed. For more information about configuring the display, see Activate a Now Assist skill
+You can configure where the case summarization feature is displayed. For more information about configuring the display, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md)
 
 </td></tr></tbody>
 </table>6.  After you make your changes, save the skill and exit.

@@ -21,7 +21,7 @@ A business rule script specifies the actions that the business rule takes. Scrip
 
 Type: Before update/insert business rule.
 
-Description: A business duration calculates the open to close duration on an incident based on the particular Creating and using schedules. If there is no schedule specified, the script will simply use the first schedule returned by the query.
+Description: A business duration calculates the open to close duration on an incident based on the particular [Creating and using schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md). If there is no schedule specified, the script will simply use the first schedule returned by the query.
 
 Script example:
 

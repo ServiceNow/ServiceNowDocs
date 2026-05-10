@@ -39,7 +39,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Verify the configuration of the credentials**
 
-    For more information, see Applicative credentials.
+    For more information, see [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/applicative-creds.md).
 
 <table id="table_uzm_pxs_lyb"><tbody><tr><td>
 

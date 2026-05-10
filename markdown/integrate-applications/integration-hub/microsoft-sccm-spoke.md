@@ -44,7 +44,7 @@ The Microsoft System Center Configuration Management \(SCCM\) spoke spoke provid
 |Is User In Collection|Checks if a specified user exists in a user collection.|
 |Remove From User Collection|Removes a user from a user collection.|
 
-To see inputs and outputs for these activities, see SCCM activity pack.
+To see inputs and outputs for these activities, see [SCCM activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_SCCMActivityPack.md).
 
 ## Connection and credential alias requirements
 
@@ -60,7 +60,7 @@ For information about setting up the spoke, see [Set up the Microsoft SCCM spoke
 
 ## MID server requirements
 
-To use these actions, your instance must have a MID Server set up and configured to use PowerShell. For more information about running actions on the MID Server, see [Integration steps](integration-steps.md). For information, see MID Server.
+To use these actions, your instance must have a MID Server set up and configured to use PowerShell. For more information about running actions on the MID Server, see [Integration steps](integration-steps.md). For information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
 
 To set up the MID Server for this spoke, see [Set up MID Server for a spoke](../../integrationhub-store-spokes/task/config-adv-mid-settings-for-oauth-on-mid.md).
 

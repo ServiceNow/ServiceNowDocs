@@ -24,7 +24,7 @@ Early Availability
 -   Streamline complex maintenance activities across assets, asset groups, or locations with unified work order plans.
 -   Streamline inventory asset management with the expanded and efficient inventory auditing process.
 
-See Enterprise Asset Management for more information.
+See [Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/enterprise-asset-management.md) for more information.
 
 **Important:** The following applications are available in the ServiceNow Store:
 
@@ -40,15 +40,15 @@ For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **Automate enterprise asset sourcing by using an agentic workflow**
+-   **[Automate enterprise asset sourcing by using an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-manage-enterprise-asset-requests-workflow.md)**
 
     Use the help manage enterprise asset requests agentic workflow to automate the process of sourcing assets for your enterprise asset requests. The workflow uses AI agents to fulfill these requests by allocating assets from local stockrooms, creating transfer orders to move assets between stockrooms, or generating purchase orders for the requested assets.
 
--   **Automatically generate instructions for enterprise asset repairs by using an agentic workflow**
+-   **[Automatically generate instructions for enterprise asset repairs by using an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md)**
 
     Use the help repair enterprise assets agentic workflow, which is driven by AI agents, to automatically generate step-by-step troubleshooting, diagnostics, and repair instructions for your enterprise asset repairs in real time.
 
--   **ServiceNow product tiers**
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -58,7 +58,7 @@ For details, see the "Activation information" section of these release notes.
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
--   **Define, schedule, and track complex asset-centric work tasks through work order plans**
+-   **[Define, schedule, and track complex asset-centric work tasks through work order plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-work-order-plans.md)**
 
     Manage complex asset-centric work tasks with unified work order plans that can be applied across assets, asset groups, or locations. The work order plans offer the following benefits:
 
@@ -66,15 +66,15 @@ For details, see the "Activation information" section of these release notes.
     -   Organize sequential operations—shutdowns, safety inspections, calibrations, asset conditions, and restarts—using the structured playbook.
     -   Assign, schedule, and track work order tasks for technicians within the playbook.
     -   Enable technicians to receive assigned work order tasks and update task status through the ServiceNow Mobile Agent application.
--   **Manage multimedia production equipment models and assets**
+-   **[Manage multimedia production equipment models and assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-model-eam.md)**
 
     Create, track, and manage multimedia production equipment models and assets in the Enterprise Asset Workspace. Get a comprehensive view of these models and assets so that you can manage them effectively throughout their life cycles.
 
--   **Replace broad admin checks with granular admin roles and ACL updates**
+-   **[Replace broad admin checks with granular admin roles and ACL updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-roles.md)**
 
     Manage admin access precisely with granular admin roles. Instead of giving full admin privileges to the users, you can assign specific roles based on the tasks they perform.
 
--   **Enhanced and unified enterprise asset inventory auditing experience**
+-   **[Enhanced and unified enterprise asset inventory auditing experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/audit-eam-assetinventory.md)**
 
     Streamline and improve your inventory auditing experience with the enhanced and unified enterprise asset inventory process:
 
@@ -86,36 +86,36 @@ For details, see the "Activation information" section of these release notes.
 
 ## UI changes
 
--   **Work order plan reports in the Work management view**
+-   **[Work order plan reports in the Work management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/work-management-overview-eam.md)**
 
     The Work management view of the Enterprise Asset Workspace includes work order plan status and task reports.
 
--   **Work order plan tabs in the Work management view**
+-   **[Work order plan tabs in the Work management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/work-management-overview-eam.md)**
 
     The Work management view of the Enterprise Asset Workspace includes two new tabs:
 
     -   Work order plans- View existing work order plans and create plans
     -   Work order plan templates- Access available templates and create reusable templates
--   **Affected assets tab in work orders and work order tasks**
+-   **[Affected assets tab in work orders and work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/work-management-overview-eam.md)**
 
     The **Affected assets** tab provides a comprehensive view of all assets associated with a work order. When a work order includes an asset group, the tab lists every asset belonging to that group.
 
 
 ## Changed in this release
 
--   **Multiple assets and asset groups in a work order**
+-   **[Multiple assets and asset groups in a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-work-order-task.md)**
 
     A work order and work order task can now be created for asset groups in addition to individual assets. Additionally, the sn\_eam.enterprise\_asset\_manager role can add more assets to tasks while they're in the draft stage. When technicians start the task, they can take action on all included assets. The Deploy Asset, Swap Asset, and Remove Asset actions within work order tasks support multiple assets and asset groups.
 
--   **Shutdown and Startup work types**
+-   **[Shutdown and Startup work types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-work-order-task.md)**
 
     The **Shutdown** and **Startup** work types available in the work order tasks enable you to manage asset shutdown and restart tasks.
 
--   **Multiple calibration playbooks**
+-   **[Multiple calibration playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/complete-eam-work-order.md)**
 
     When a calibration work order is created for multiple assets or an asset group, the system generates a separate calibration playbook for each asset in the Affected assets list.
 
--   **Multiple condition lines**
+-   **[Multiple condition lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/perform-condition-assessment-webui.md)**
 
     When an asset condition work order is created for multiple assets or an asset group, the system generates a separate condition line for each asset in the Affected assets list. All condition lines must be evaluated before the work order can be completed.
 
@@ -136,15 +136,15 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Related ServiceNow applications and features
 
--   **Field Service Management**
+-   **[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md)**
 
     The ServiceNow® Field Service Management application enables your organization to manage location-based work more efficiently and safely.
 
--   **Contract Management**
+-   **[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/c_ContractManagement.md)**
 
     The ServiceNow® Contract Management application enables you to track and manage your contracts.
 
--   **Procurement**
+-   **[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_Procurement.md)**
 
     The ServiceNow® Procurement application helps you create purchase orders and obtain items for fulfilling service catalog requests.
 

@@ -13,7 +13,7 @@ breadcrumb: [Landing pages, CSM Configurable Workspace features, CSM Configurabl
 
 The CSM Landing Page provides users with lists of assigned cases and case tasks as well as agent, group, and organization metrics.
 
-Customer service agents and managers can use the CSM Landing Page to quickly scan and prioritize work, access records, and track performance. Administrators can customize landing pages in UI Builder to meet their unique business needs.
+Customer service agents and managers can use the CSM Landing Page to quickly scan and prioritize work, access records, and track performance. Administrators can customize landing pages in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-builder.md) to meet their unique business needs.
 
 The CSM Landing Page includes components that display case information, plus visualizations that further break down the component data. Each of the visualizations is connected to a data source. For example, the **High priority cases** component includes visualizations for P1 and escalated cases, plus cases that need attention.
 

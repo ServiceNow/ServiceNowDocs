@@ -34,5 +34,5 @@ Role required: sn\_hr\_core.admin or sn\_hr\_core.case\_reader
 
 ## What to do next
 
-If you need to retrain and review your predictive model, see Create and train a solution definition and Review classification solution statistics.
+If you need to retrain and review your predictive model, see [Create and train a solution definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-solution-definition.md) and [Review classification solution statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/review-solution-statistics.md).
 

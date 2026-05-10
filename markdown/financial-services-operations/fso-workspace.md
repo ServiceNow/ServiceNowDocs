@@ -13,7 +13,7 @@ breadcrumb: [Explore, Financial Services Operations \(FSO\)]
 
 The Financial Services Operations \(FSO\) workspace provides a single location for agents to process cases and tasks. Agents can use it to respond to all task types, view the full context of an issue, and get relevant recommendations to resolve issues.
 
-FSO uses CSM Configurable Workspace that agents can use. To learn more about the features available in the CSM Configurable Workspace, see CSM workspace features.
+FSO uses CSM Configurable Workspace that agents can use. To learn more about the features available in the CSM Configurable Workspace, see [CSM workspace features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-feature-overview.md).
 
 ## Workspace users
 

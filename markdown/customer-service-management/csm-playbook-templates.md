@@ -38,7 +38,7 @@ The Case playbook: Vertical stages page template includes a vertical stage picke
 
 ## Playbook page template components
 
-The playbook page templates include modular components that enable you to quickly build playbook pages in UI Builder.
+The playbook page templates include modular components that enable you to quickly build playbook pages in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
 
 <table id="table_rvn_hs3_1xb"><thead><tr><th>
 
@@ -188,7 +188,7 @@ The contextual side panel component includes different tools that agents can use
 -   [Related Items](csm-playbook-related-items-component.md)
 -   Attachments
 -   Response Templates
--   Email Templates
+-   [Email Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-email-templates.md)
 -   Templates
 -   Record Information
 
@@ -226,5 +226,5 @@ With this feature, page authors can:
 -   Enhance record pages with custom component bundles that include a form controller.
 -   Incorporate modals containing forms into record pages, facilitating the transmission of notifications and form updates back to the main page.
 
-For more information about using multiple form controllers, see Add forms to UI Builder pages.
+For more information about using multiple form controllers, see [Add forms to UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-forms-to-ui-builder-pages.md).
 

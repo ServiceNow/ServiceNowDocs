@@ -20,7 +20,7 @@ View and manage conversational subflows through Assistant Designer.
 
 When you have the admin or virtual\_agent\_admin role, you can work with conversational subflows in Assistant Designer.
 
-Conversational subflows currently can't be created in Assistant Designer. You can only view and edit them in Assistant Designer. Conversational subflows can be created, tested, and deleted only in Workflow Studio. For more details on creating subflows, see Create a subflow in Workflow Studio.
+Conversational subflows currently can't be created in Assistant Designer. You can only view and edit them in Assistant Designer. Conversational subflows can be created, tested, and deleted only in Workflow Studio. For more details on creating subflows, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow.md).
 
 When you open a subflow in Assistant Designer, a tab is displayed in the navigation header bar. This tab opens the subflow in Workflow Studio within the Assistant Designer environment. The following columns appear by default:
 
@@ -47,8 +47,8 @@ Use the row actions icon ![](../images/kebab-menu.png) to work with visibility s
 
 Conversational subflows and actions only appear to users during a Virtual Agent conversation if the Subflows and actions skill is turned on in Now Assist Admin. Conversational subflows and actions appear in Now Assist Panel as long as the Subflows and action skill is active.
 
--   For more information on the Now Assist Panel, see Now Assist panel.
--   For more information on conversational subflows, see Conversational subflows.
+-   For more information on the Now Assist Panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+-   For more information on conversational subflows, see [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/conversational-subflows.md).
 -   For more information on integrating subflows that are not conversational into Assistant Designer assets, see [Integrating Virtual Agent with Workflow Studio workflows](va-flow-designer-integration.md).
 
 **Parent Topic:**[Getting started with Virtual Agent Designer](../reference/conversation-designer-virtual-agent.md)

@@ -42,7 +42,7 @@ Subscriptions and Activity Feed Framework\[com.snc.activity\_subscriptions\]
 Provides a generic set of artifacts to handle subscriptions for any defined subscribable object. Any entity can be defined as a subscribable object and a set of subscribers can subscribe to the objects. When a event occurs related to the subscribable object, activities can be tracked and subscribers can be notified.
 
 </td></tr></tbody>
-</table>**Note:** The Self-Service Analytics Core plugin is also installed when you activate the Platform Analytics Solution for Self-Service Analytics for Customer Service. For more information, see Activate the Platform Analytics Solution for Self-Service Analytics for Customer Service.
+</table>**Note:** The Self-Service Analytics Core plugin is also installed when you activate the Platform Analytics Solution for Self-Service Analytics for Customer Service. For more information, see [Activate the Platform Analytics Solution for Self-Service Analytics for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ssa-solution-install-init.md).
 
 ## Procedure
 

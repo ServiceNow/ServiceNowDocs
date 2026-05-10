@@ -41,7 +41,7 @@ Employee Center application ships a default **EC theme** that has the best visua
 
     3.  Edit the **CSS variables** field to customize the text and the background colors of your portal.
 
-        For a description of the field values to create a portal theme, see Create a portal theme.
+        For a description of the field values to create a portal theme, see [Create a portal theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_CustomCSS.md).
 
 4.  Navigate to **Service Portal** &gt; **Portals** &gt; **Employee Center**, click **Try it** to preview Employee Center.
 
@@ -55,5 +55,5 @@ Employee Center application ships a default **EC theme** that has the best visua
 
 [Enhanced chat in Employee Center](../concept/nass-now-assissist-self-service.md)
 
-[bundle-platux.c_BrandingEditor]
+[Configure portal branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_BrandingEditor.md)
 

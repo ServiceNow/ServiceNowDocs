@@ -63,7 +63,7 @@ Credential TTL in seconds \[credential\_ttl\_seconds\]
 
 Time in seconds for the temporary security credentials to live.Default: Calculated as follows:
 
-1.  Retrieve the value in the **mid.aws.sts.assume\_role.credential\_ttl\_minutes** MID Server property.
+1.  Retrieve the value in the **mid.aws.sts.assume\_role.credential\_ttl\_minutes** [MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md).
 2.  Constrain this value to be between 15 and 720 minutes. If the setting in the property is less than 15 minutes, the system enters 15 minutes. If the setting is greater than 720 minutes, the system enters 720 minutes.
 3.  Convert the resulting value into seconds.
 

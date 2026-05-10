@@ -37,7 +37,7 @@ These functions include:
 -   Update the search page. [spUtil - setSearchPage\(String searchPage\)](spUtilAPI.md#)
 -   Update the data object on the server within a given scope. [spUtil - update\(Object $scope\)](spUtilAPI.md#)
 
-For additional information on widgets, see Service Portal widgets.
+For additional information on widgets, see [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-portal-widgets.md).
 
 **Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
 
@@ -107,7 +107,7 @@ Create a unique identifier.
 
 Embeds a widget model in a widget client script.
 
-The callback function returns the full widget model. For additional information on widgets, see Service Portal widgets.
+The callback function returns the full widget model. For additional information on widgets, see [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-portal-widgets.md).
 
 |Name|Type|Description|
 |----|----|-----------|

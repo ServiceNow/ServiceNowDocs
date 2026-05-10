@@ -31,7 +31,7 @@ The following predefined workflows for business and personal deposit account ser
 | |Remove financial account relationship|
 | |Modify financial account relationship|
 
-These workflows are built using Process Automation Designer and Flow Designer. The deposit admin can review and customize these workflows according to the needs of their organization.
+These workflows are built using [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md) and [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md). The deposit admin can review and customize these workflows according to the needs of their organization.
 
 ## General workflow for Deposit Operations
 

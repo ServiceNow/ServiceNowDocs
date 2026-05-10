@@ -18,7 +18,7 @@ Customize and manage your theme and styling in a time and cost efficient way. Af
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see Granular admin roles.
+For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
 
 ## Procedure
 

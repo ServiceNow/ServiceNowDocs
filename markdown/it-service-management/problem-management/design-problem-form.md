@@ -27,7 +27,7 @@ Form design is an alternative to configuring forms that combines several configu
 
 1.  In the form context menu, select **Configure** &gt; **Form Design** to open the form designer in a new browser tab.
 
-2.  Follow the directions in Form design to customize elements in the problem form.
+2.  Follow the directions in [Form design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_FormDesign.md) to customize elements in the problem form.
 
 
 **Parent Topic:**[Configure the problem form](problem-configure-forms.md)

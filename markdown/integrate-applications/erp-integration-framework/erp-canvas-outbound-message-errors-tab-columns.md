@@ -18,7 +18,7 @@ The outbound message error tab in Zero Copy Connector for ERP \(Enterprise Resou
 
 For process details, see [View and troubleshoot IDoc messages](../task/view-and-troubleshoot-idoc-messages.md).
 
-Explore the API for interacting with Zero Copy Connector for ERP models. For detailed information and examples for using the API, see sn\_erp\_integration API - Scoped, Global.
+Explore the API for interacting with Zero Copy Connector for ERP models. For detailed information and examples for using the API, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
 
 |Field|Description|
 |-----|-----------|

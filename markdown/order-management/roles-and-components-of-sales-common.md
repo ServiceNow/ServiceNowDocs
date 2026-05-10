@@ -4,7 +4,7 @@ description: The Sales Common for Channel Partners plugin \(com.snc.partner\_rel
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Install Sales Common for Partner Relationship Management, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---

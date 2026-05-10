@@ -103,7 +103,7 @@ Type of quick action that you want to create.
 
  To create a quick action that opens a Service Catalog item, select **URL**.
 
-For more information about function types, see Configure a smart button.
+For more information about function types, see [Configure a smart button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-config-smart-button.md).
 
 </td></tr><tr><td>
 
@@ -270,7 +270,7 @@ Icon
 
 </td><td>
 
-Icon to display next to the label. For more details on mobile icons, see Mobile icons.**Note:** Not all listed icons work with quick actions. To see a list of compatible icons, filter your list where the **Icons** field contains `now-mobile-icons-buttons`.
+Icon to display next to the label. For more details on mobile icons, see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-icon.md).**Note:** Not all listed icons work with quick actions. To see a list of compatible icons, filter your list where the **Icons** field contains `now-mobile-icons-buttons`.
 
  **Note:** The **Icons** field is not on the icon list by default. To add the **Icon** field to your list, right-click the list header and select **Configure** &gt; **List Layout**. Then, add the Icon field to the selected list. You should see the icon field on your reference field list.
 

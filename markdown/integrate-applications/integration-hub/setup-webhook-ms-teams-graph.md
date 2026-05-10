@@ -86,7 +86,7 @@ Role required: admin
 
     Subscription for the required channel is created.
 
-    See Building subflows for more information about testing subflows.
+    See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md) for more information about testing subflows.
 
 
 ## Customize a spoke subflow
@@ -119,7 +119,7 @@ Role required: admin
 
 7.  Customize the subflow according to your requirement and publish it.
 
-    See Building subflows for more information about creating and using subflows.
+    See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md) for more information about creating and using subflows.
 
 
 ## Configure Microsoft Teams Graph webhook decision policy

@@ -274,7 +274,7 @@ Password Reset verification types that are available.
 
 **Note:** Only the user with the following roles can have access to Password Reset tables. The deny unless authenticated ACLs restrict access to the Password Reset tables for any unauthenticated role such as public role user.
 
-For more information, see Deny-Unless ACL.
+For more information, see [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/acl-denial-behavior.md).
 
 <table id="table_vqc_jvj_sr"><thead><tr><th>
 

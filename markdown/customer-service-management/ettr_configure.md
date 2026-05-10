@@ -21,7 +21,7 @@ Role required: admin, ml\_admin
 
 The Estimated Time to Resolve a Case definition is available by default. You can train this available definition to complete a solution and make predictions. You can change some of the default settings such as the fields, a filter, and the training frequency. For more information on creating and training a solution, see the following.
 
-Create and train a regression solution.
+[Create and train a regression solution.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-regression-solution.md)
 
 ## Procedure
 

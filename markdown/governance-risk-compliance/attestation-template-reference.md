@@ -66,7 +66,7 @@ Metric categories
 
 </td><td>
 
-Category that represents a theme for evaluating assessable records in a given metric type. It displays the name of the template, description of the category, its weight, order, and so on. For information on Weight categories and metrics in the Assessments application, see Assessment metric categories.
+Category that represents a theme for evaluating assessable records in a given metric type. It displays the name of the template, description of the category, its weight, order, and so on. For information on Weight categories and metrics in the Assessments application, see [Assessment metric categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetricCategories.md).
 
 </td></tr></tbody>
 </table>

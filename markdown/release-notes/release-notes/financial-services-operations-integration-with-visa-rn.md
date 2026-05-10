@@ -16,13 +16,13 @@ The ServiceNow® Financial Services Operations Integration with Visa application
 
 Use updated subflows to help prevent storage or transmission of Payment Card Industry \(PCI\) data for card disputes within your ServiceNow instance.
 
-See Financial Services Operations Integration with Visa for more information.
+See [Financial Services Operations Integration with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-integration-with-visa-landing-page.md) for more information.
 
 **Important:** Financial Services Operations Integration with Visa is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Changed in this release
 
--   **Updated subflows**
+-   **[Updated subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/components-installed-with-the-financial-services-operations-integration-with-visa.md)**
 
     The following subflows have been updated to support integration with the Card data security application:
 
@@ -38,15 +38,15 @@ Install Financial Services Operations Integration with Visa by requesting it fro
 
 ## Related ServiceNow applications and features
 
--   **Financial Services Card Operations**
+-   **[Financial Services Card Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-card-operations/card-ops-landing-page.md)**
 
     The ServiceNow® Financial Services Card Operations application digitizes and automates the card operations of your financial institution, enabling quick processing of credit card applications and card transaction disputes.
 
--   **Integration Hub**
+-   **[Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md)**
 
     Automate integration tasks by using ServiceNow components for ServiceNow® Workflow Studio, or develop custom integrations. A separate subscription is required.
 
--   **Integration Hub spokes**
+-   **[Integration Hub spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/spokes-list.md)**
 
     Activate spokes to improve your Workflow Studio experience with integration-specific content. Use prebuilt flows and actions to automate your integrations or create your own integration automation.
 

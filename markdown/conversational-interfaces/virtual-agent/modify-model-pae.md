@@ -21,7 +21,7 @@ Role required: Chat Analytics Admin
 
 ## About this task
 
-Many ServiceNow products, such as ITSM, HRSD, and CSM include NLU models for Virtual Agent \(VA\) topics. The NLU plugin contains entities that are common across all products. You can modify those models. To learn how to train and test the models used for VA conversations, see Natural Language Understanding.
+Many ServiceNow products, such as ITSM, HRSD, and CSM include NLU models for Virtual Agent \(VA\) topics. The NLU plugin contains entities that are common across all products. You can modify those models. To learn how to train and test the models used for VA conversations, see [Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-landing.md).
 
 ## Procedure
 
@@ -33,7 +33,7 @@ Many ServiceNow products, such as ITSM, HRSD, and CSM include NLU models for Vir
 
     ![NLU Workbench dashboard list of NLU models.](../images/dashboard-list-of-models-2.png)
 
-3.  If none of the models contain intents and utterances you'd like in your setup, select **Create Model** and follow the instructions in Create an NLU model.
+3.  If none of the models contain intents and utterances you'd like in your setup, select **Create Model** and follow the instructions in [Create an NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-nlu-modelx.md).
 
 4.  Click a model to display the intents the model predicts.
 

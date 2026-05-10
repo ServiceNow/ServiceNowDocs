@@ -42,7 +42,7 @@ See also [setFilter\(\)](GlideListClientAPINEx.md#).
 
 |Name|Type|Description|
 |----|----|-----------|
-|filter|String|Encoded query string in standard Glide format. See Encoded query strings.|
+|filter|String|Encoded query string in standard Glide format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).|
 
 |Type|Description|
 |----|-----------|
@@ -481,7 +481,7 @@ See also [addFilter\(\)](GlideListClientAPINEx.md#).
 
 |Name|Type|Description|
 |----|----|-----------|
-|filter|String|Encoded query string in standard Glide format. See Encoded query strings.|
+|filter|String|Encoded query string in standard Glide format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).|
 
 |Type|Description|
 |----|-----------|

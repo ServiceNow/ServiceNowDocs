@@ -77,7 +77,7 @@ After completing the CI lifecycle operations, the requestor should call the unre
 
 ## Integration with Incident Management and Problem Management
 
-A base instance includes the pre-defined CI action **CreateTask** used for creating a task for a CI. New instances have a pre-defined Not Allowed CI Action, specifying that the 'CreateTask' action is not allowed for any CI with a **Retired** operational state. This restriction is integrated with Incident Management and with Problem Management to prevent the creation of incident or problem tasks for retired CIs. The 'CreateTask' CI action is used as a reference qualifier to the **Configuration Item** field of the Incident/Problem tables. In a new incident or problem, CIs in which **Operational Status** is 'Retired' — are filtered out from the **Configuration Item** list on the form. For more information about reference qualifiers, see Reference qualifiers .
+A base instance includes the pre-defined CI action **CreateTask** used for creating a task for a CI. New instances have a pre-defined Not Allowed CI Action, specifying that the 'CreateTask' action is not allowed for any CI with a **Retired** operational state. This restriction is integrated with Incident Management and with Problem Management to prevent the creation of incident or problem tasks for retired CIs. The 'CreateTask' CI action is used as a reference qualifier to the **Configuration Item** field of the Incident/Problem tables. In a new incident or problem, CIs in which **Operational Status** is 'Retired' — are filtered out from the **Configuration Item** list on the form. For more information about reference qualifiers, see [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceQualifiers.md) .
 
 ## Integration with Asset Management
 
@@ -91,7 +91,7 @@ In a base system, a CI's **Operational Status** field and the **Status**/**Hardw
 
 Whenever CI’s **Status**/**Hardware Status** changes, it is synchronized to the CI’s corresponding **Asset State** field, and vice versa — keeping the CI’s **Operational Status** and the CI’s corresponding **Asset State** synchronized.
 
-For more information about mapping **Asset State** and **Substate** fields to a CI's **Status**/**Hardware Status** \(if its hardware\) field, see Map asset state and CI hardware status. And for more information about retiring assets, see Retire assets.
+For more information about mapping **Asset State** and **Substate** fields to a CI's **Status**/**Hardware Status** \(if its hardware\) field, see [Map asset state and CI hardware status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/c_ManagingAssets.md). And for more information about retiring assets, see [Retire assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/c_ManagingAssets.md).
 
 -   **[Get started with CI Lifecycle Management](../task/get-started-cilifecyclemgmt.md)**  
 Follow these high level steps to get started and to track activities of the CI Lifecycle Management module of the CMDB application.

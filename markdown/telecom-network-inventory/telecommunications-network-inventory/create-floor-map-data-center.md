@@ -30,33 +30,33 @@ Each place is marked with a title, making it easy to identify on the map. Once t
 
 1.  Create a campus with buildings and floors.
 
-    To learn more, see Create a campus with buildings and floors.
+    To learn more, see [Create a campus with buildings and floors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/create-a-campus-building-and-floor.md).
 
     **Note:** Make sure the campus and datacenter names that you want to map are the same.
 
 2.  Use the boundary editor to map your campus on the global map.
 
-    You can adjust the boundaries to show the location of your campus and buildings. Boundaries are used to differentiate between outdoor maps and indoor mapped areas. To learn more, see Working with boundary editor.
+    You can adjust the boundaries to show the location of your campus and buildings. Boundaries are used to differentiate between outdoor maps and indoor mapped areas. To learn more, see [Working with boundary editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/working-with-boundary-editor.md).
 
 3.  Upload your floor plan's CAD or raster file.
 
-    You can use the floor plan to make configuration changes and preview the CAD design layout. To learn more, see Import CAD files to Map Studio. If you're uploading a raster file, then see Import Raster files for more details.
+    You can use the floor plan to make configuration changes and preview the CAD design layout. To learn more, see [Import CAD files to Map Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/CAD-file-import.md). If you're uploading a raster file, then see [Import Raster files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/import-raster-files.md) for more details.
 
 4.  Import outdoor elements such as a logo or an outdoor cafeteria that you want to display on the indoor map.
 
-    To learn more, see Import outdoor elements.
+    To learn more, see [Import outdoor elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/import-outdoor-elements.md).
 
 5.  Add places, icons, and place types to locate your network assets and facilities on a floor.
 
-    To learn more, see Manage places.
+    To learn more, see [Manage places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/manage-buildings.md).
 
-    To create a place type, see Create Indoor Mapping icons and place types. To learn about available place types, see [Data center place types](../reference/place-types-floor-map.md).
+    To create a place type, see [Create Indoor Mapping icons and place types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/place-icons-place-type.md). To learn about available place types, see [Data center place types](../reference/place-types-floor-map.md).
 
 6.  Use the **Map Preview** to display maps and test directions that you have created.
 
 7.  Export the updated CAD changes to your CAD file.
 
-    Exporting the updated changes creates a copy of the modified CAD file in Indoor Mapping. To learn more about, see Export CAD configuration.
+    Exporting the updated changes creates a copy of the modified CAD file in Indoor Mapping. To learn more about, see [Export CAD configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/export-cad-config.md).
 
 
 ## Result
@@ -78,5 +78,5 @@ After you create your Indoor Mapping campus record, do the following to view the
 **Related topics**  
 
 
-[bundle-emplsm.Indoor-mapping]
+[Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/Indoor-mapping.md)
 

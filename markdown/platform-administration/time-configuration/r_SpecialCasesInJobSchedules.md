@@ -99,5 +99,5 @@ You can optionally export and import data records via XML. However, to prevent u
 
 [Set a system time zone](../task/t_SetASystemTimeZone.md)
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

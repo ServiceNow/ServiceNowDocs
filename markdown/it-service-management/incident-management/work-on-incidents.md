@@ -17,11 +17,11 @@ Working on incidents involves diagnosing and investigating the incident, recordi
 
 Initial diagnosis of incidents is largely a human process. The service desk agent looks at the details of the incident and communicates with the user to diagnose the issue.
 
-To aid in the diagnosis, the service desk agent can query the configuration management database, or CMDB. The CMDB contains information about hardware and software within a network and the relationships between them. The CMDB can be populated by: Discovery . Discovery is available as a separate product.
+To aid in the diagnosis, the service desk agent can query the configuration management database, or CMDB. The CMDB contains information about hardware and software within a network and the relationships between them. The CMDB can be populated by: [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-discovery.md) . Discovery is available as a separate product.
 
 ## Incident investigation
 
-Incident investigation is also a human process. The service desk continues to use the information in the Incident form as well as the CMDB to solve the issue. Work notes are added to the incident as the service desk evaluates the incident, facilitating communication between the concerned parties. Work notes and other updates can be communicated to the concerned parties through email notifications.
+Incident investigation is also a human process. The service desk continues to use the information in the Incident form as well as the CMDB to solve the issue. Work notes are added to the incident as the service desk evaluates the incident, facilitating communication between the concerned parties. Work notes and other updates can be communicated to the concerned parties through [email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md).
 
 One way to investigate incidents is to determine whether related records exist, using one of the following features.
 
@@ -62,7 +62,7 @@ There are two escalation methods the platform uses to track and report on incide
 
     SLAs monitor the progress of an incident according to a set of agreements between a service provider and customer that define the scope, quality, and speed of the services being provided. As time passes, the SLA escalates the priority of the incident and leaves a marker as to its progress. SLAs are also used as a performance indicator for the service desk.
 
--   **Inactivity monitor**
+-   **[Inactivity monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_SetAnInactivityMonitor.md)**
 
     The inactivity monitor generates an event to prevent incidents from going unnoticed. When a certain amount of time has passed without an update to the incident, the event creates an email notification or triggers a script.
 

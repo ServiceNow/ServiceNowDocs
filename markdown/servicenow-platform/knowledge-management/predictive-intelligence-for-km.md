@@ -43,7 +43,7 @@ Similarity
 
 Suggests related articles based on the short description of articles. You can see the results in the following places:-   The Knowledge results section on the Knowledge form when creating an article in the Knowledge Management Service Portal.
 
-If the Knowledge results section isn't displayed on the Knowledge form, you may need to configure the form, to add the **Contextual Search Results** field. For more information, see Configuring the form layout.
+If the Knowledge results section isn't displayed on the Knowledge form, you may need to configure the form, to add the **Contextual Search Results** field. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
 -   The Related Articles section on the knowledge article view page in the Knowledge Management Service Portal and Now Mobile applications.
 -   The Agent assist in Agent Workspace when the **Similar Articles \(ML\)** option is selected.

@@ -63,15 +63,15 @@ To create record conversations, users must have access to the **Follow** button 
 
 2.  Perform the appropriate action for the list version.
 
-<table id="choicetable_g3c_qhc_mv"><thead><tr><th align="left" id="d540781e267">
+<table id="choicetable_g3c_qhc_mv"><thead><tr><th align="left" id="d540785e267">
 
 Version
 
-</th><th align="left" id="d540781e270">
+</th><th align="left" id="d540785e270">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d540781e276">
+</th></tr></thead><tbody><tr><td id="d540785e276">
 
 **List v3**
 
@@ -81,7 +81,7 @@ Action
 2.  In the Configure window, click **Dictionary**.
 
 
-</td></tr><tr><td id="d540781e300">
+</td></tr><tr><td id="d540785e300">
 
 **List v2**
 
@@ -118,7 +118,7 @@ Right-click any column header and select **Configure** &gt; **Dictionary**.
 **Related topics**  
 
 
-[bundle-platadm.c_DictionaryAttributes]
+[Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)
 
 ## Prevent users from following records in Connect for all tables
 
@@ -180,7 +180,7 @@ To disable record conversations for a specific table, prevent the **Follow** but
 **Related topics**  
 
 
-[bundle-platadm.c_DictionaryAttributes]
+[Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)
 
 ## Disable Connect Chat
 

@@ -24,7 +24,7 @@ As a knowledge administrator, manager of a knowledge base, or owner of a knowled
 
 Try to use only user criteria, which were introduced in Knowledge Management v3, to control access to knowledge articles. Roles were used for this purpose in Knowledge Management v2. If no user criteria is selected for a knowledge base, all users can read and all users with roles can contribute to that knowledge base.
 
-**Note:** By default, when contribute access isn't provided for a knowledge base, a user must meet both roles and user criteria conditions for read access. However, you can override roles set for a knowledge article and provide access through user criteria only by setting the **glide.knowman.search.apply\_role\_based\_security** system property to `false`. Because this property isn't available by default, you must add it. For more information, see Add a system property.
+**Note:** By default, when contribute access isn't provided for a knowledge base, a user must meet both roles and user criteria conditions for read access. However, you can override roles set for a knowledge article and provide access through user criteria only by setting the **glide.knowman.search.apply\_role\_based\_security** system property to `false`. Because this property isn't available by default, you must add it. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 ## User criteria for knowledge access
 
@@ -143,13 +143,13 @@ Explicit roles \(snc\_external and snc\_internal\) are added to your instance wh
 -   **Users with 'snc\_internal' role** – Added to the Can Read user criteria enabling only users with the snc\_internal role have read access to the knowledge base.
 -   **Users with snc\_internal' and another role** – Added to the Can Contribute user criteria enabling only users with the snc\_internal role and at least one additional role have contribute access to the knowledge base.
 
-When you upgrade to product versions \(from Rome onwards\) that offer the Explicit Roles plugin \(com.glide.explicit\_roles\), the predefined user criteria **Users with 'snc\_internal' role** and **Users with 'snc\_internal' and another role** aren't automatically added to any existing knowledge bases created prior to the activation of the Explicit Roles plugin. To add these predefined user criteria to an existing knowledge base, run the Fix unsecured knowledge bases fix script. For more information about explicit roles and fix scripts, see Explicit Roles and Fix scripts.
+When you upgrade to product versions \(from Rome onwards\) that offer the Explicit Roles plugin \(com.glide.explicit\_roles\), the predefined user criteria **Users with 'snc\_internal' role** and **Users with 'snc\_internal' and another role** aren't automatically added to any existing knowledge bases created prior to the activation of the Explicit Roles plugin. To add these predefined user criteria to an existing knowledge base, run the Fix unsecured knowledge bases fix script. For more information about explicit roles and fix scripts, see [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explicit-roles.md) and [Fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_FixScripts.md).
 
 ## Determining contribute access to a knowledge base and its articles using user criteria
 
 The flowchart in this section illustrates the user criteria checks that determine contribute access at the knowledge base and article levels.
 
-**Note:** In order for an unauthenticated user to view knowledge articles within the knowledge base, ensure that the audience for the Knowledge Management Service Portal pages is set to public; that is, the page can be accessed without the need for authentication. For more information, see Create and edit a page using the Service Portal Designer.
+**Note:** In order for an unauthenticated user to view knowledge articles within the knowledge base, ensure that the audience for the Knowledge Management Service Portal pages is set to public; that is, the page can be accessed without the need for authentication. For more information, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md).
 
 ![Flowchart showing how contribute access to a knowledge base and its article using user criteria is evaluated](../image/contribute_access.png "Contribute access to a knowledge base and its article flowchart")
 

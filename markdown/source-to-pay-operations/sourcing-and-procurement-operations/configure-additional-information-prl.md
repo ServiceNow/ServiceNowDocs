@@ -23,7 +23,7 @@ Role required: sn\_shop.procurement\_administrator
 
 Plugin required: Shopping Hub \(sn\_spend\_uib\)
 
-Use a record producer to create a custom set of questions to ask shoppers during the quick and full checkout for specific products or product categories. Build this record producer in Catalog Builder using the **ShoppingHub: Additional information on supplier products or product models or product categories** template. For information on how to create a record producer, see Create a catalog item using a template.
+Use a record producer to create a custom set of questions to ask shoppers during the quick and full checkout for specific products or product categories. Build this record producer in Catalog Builder using the **ShoppingHub: Additional information on supplier products or product models or product categories** template. For information on how to create a record producer, see [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-item-cat-builder.md).
 
 ![ShoppingHub additional information for supplier product.](../image/sh-addl-catalog.png)
 
@@ -50,7 +50,7 @@ Shopping Hub checks for the existence of the record producer used for the additi
 
     This record producer is used to store additional information from a shopper specific to a purchase.
 
-    **Note:** For information on how to create a record producer, see Create a catalog item using a template.
+    **Note:** For information on how to create a record producer, see [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-item-cat-builder.md).
 
 5.  Navigate to **ShoppingHub** &gt; **Administration** &gt; **ShoppingHub Configuration**.
 

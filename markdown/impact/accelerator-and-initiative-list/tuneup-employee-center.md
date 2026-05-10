@@ -19,7 +19,7 @@ The TuneUp Your Employee Center Accelerator provides guidance on maintaining and
 
 TuneUp Your Employee Center provides Impact customers with an assessment of their current Employee Center implementation. Through careful analysis, we offer valuable insights and recommendations to enhance the health of their implementation while providing an opportunity to understand untapped value where enhanced capabilities are not yet deployed. Additionally, this Accelerator equips our customers with essential ServiceNow resources and leading practices guides on how to best increase adoption and usage of Employee Center.
 
-For additional information, see Employee Center.
+For additional information, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md).
 
 This feature is available for packages such as Impact Advanced and Impact Total along with the Impact Guided package and Strategic Value or Platform Governance, as add-on.
 

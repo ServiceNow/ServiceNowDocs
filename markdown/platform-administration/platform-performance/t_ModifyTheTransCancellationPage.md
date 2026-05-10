@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-Knowledge of [Apache Jelly](http://commons.apache.org/jelly/) is highly recommended when modifying the UI page. See Extensions to Jelly syntax for more information.
+Knowledge of [Apache Jelly](http://commons.apache.org/jelly/) is highly recommended when modifying the UI page. See [Extensions to Jelly syntax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ExtensionsToJellySyntax.md) for more information.
 
 ## Procedure
 

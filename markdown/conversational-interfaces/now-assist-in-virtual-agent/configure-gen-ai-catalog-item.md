@@ -51,7 +51,7 @@ When the generative AI experience is configured for catalog item request submiss
 
     2.  Select a catalog item that must be requested in the conversation mode.
 
-        For information about catalog items that are supported in the conversation mode, see Topic blocks to request catalog items through conversational experience.
+        For information about catalog items that are supported in the conversation mode, see [Topic blocks to request catalog items through conversational experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va-llm.md).
 
     3.  On the catalog item form, confirm that the **Make the item non-conversational in VA** check box isn’t selected.
 
@@ -62,7 +62,7 @@ When the generative AI experience is configured for catalog item request submiss
         **Note:**
 
         -   If you want the catalog item non-conversational, then select the **Make the item non-conversational in VA** check box. But if the catalog item contains some sensitive information that you don’t want to send to LLM, then select the **Turn off Now Assist \(LLM\)** check box.
-        -   If you clear the **Make the item non-conversational in VA** check box, the item will become conversational only if all the conditions are met for making an item conversational. For more information about such conditions, see Topic blocks to request catalog items through conversational experience.
+        -   If you clear the **Make the item non-conversational in VA** check box, the item will become conversational only if all the conditions are met for making an item conversational. For more information about such conditions, see [Topic blocks to request catalog items through conversational experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va-llm.md).
     5.  Select **Update**.
 
 3.  Confirm that the fallback record producer is configured in the **Fetch generic ticket producer for conversational catalog request** subflow.
@@ -101,7 +101,7 @@ Description
 
 </td><td>
 
-1.  Create a subflow to return the sys\_id of a record producer. For information about Flow Designer subflows, see Building subflows.
+1.  Create a subflow to return the sys\_id of a record producer. For information about Flow Designer subflows, see [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
 2.  Navigate to **sys\_properties.list**.
 3.  Select the **sn\_nowassist\_va.now.assist.generic.ticket.fallback.subflow** property.
 4.  In the **Value** field, enter the scope and internal name of the subflow. For example, **global.subflow\_name**. Locate the **Internal name** field in the list of Flow Designer subflows.
@@ -124,7 +124,7 @@ Description
 **Related topics**  
 
 
-[bundle-platcap.request-topic-blocks-va]
+[Service Catalog topic blocks in Virtual Agent powered by NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va.md)
 
-[bundle-platcap.request-topic-blocks-va-llm]
+[Topic blocks to request catalog items through conversational experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va-llm.md)
 

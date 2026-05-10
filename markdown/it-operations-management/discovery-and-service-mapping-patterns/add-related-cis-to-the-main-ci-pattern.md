@@ -17,8 +17,8 @@ Add related items to the patterns to perform horizontal discovery of configurati
 
 ## Before you begin
 
-1.  \(Optional\) Check if the CI is dependent: The system uses the identification rules to identify the CI independently of other CIs. Refer to Create or edit a CI identification rule.
-2.  \(Optional\) To understand the model better, check dependent relationship rules which define the dependency structure of the CI types and the relationship types in these service definitions. For example, you can discover a Tomcat server with Tomcat WARs belonging to it. For more information, refer to Dependent relationship rules.
+1.  \(Optional\) Check if the CI is dependent: The system uses the identification rules to identify the CI independently of other CIs. Refer to [Create or edit a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.md).
+2.  \(Optional\) To understand the model better, check dependent relationship rules which define the dependency structure of the CI types and the relationship types in these service definitions. For example, you can discover a Tomcat server with Tomcat WARs belonging to it. For more information, refer to [Dependent relationship rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ServiceRulesMetadata.md).
 
     ![Checking hosting rules under Metadata Editor](../image/metadata-rules-tomcat-war-eg.png "Example of the Containment rule for Tomcat WAR")
 

@@ -29,7 +29,7 @@ Role required: admin
 
 2.  Open the Visa Resolve Online or Mastercom record.
 
-    Create a new REST Message record if you don't see one for your Third-Party System. For more information, see Create a REST message.
+    Create a new REST Message record if you don't see one for your Third-Party System. For more information, see [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md).
 
 3.  For the **Endpoint** field in the REST message form, enter the connection's base URI from the tokenizer service.
 

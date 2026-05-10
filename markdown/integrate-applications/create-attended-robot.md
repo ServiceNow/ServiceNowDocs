@@ -136,5 +136,5 @@ Create a bot process. For more information, see [Configuring a bot process recor
 
 [Retire a robot in RPA Hub](retire-robot.md)
 
-[bundle-psec.c_HistorySets]
+[View Audit History](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistorySets.md)
 

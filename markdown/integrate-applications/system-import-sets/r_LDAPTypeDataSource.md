@@ -44,9 +44,9 @@ In this example, the LDAP server **Query field** is **preferredIdentity**. The i
 **Related topics**  
 
 
-[bundle-psec.c_LDAPIntegration]
+[LDAP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/c_LDAPIntegration.md)
 
-[bundle-psec.t_SpecifyLDAPAttributes]
+[Specify LDAP attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/t_SpecifyLDAPAttributes.md)
 
-[bundle-psec.t_DefineLDAPOrganizationalUnits]
+[Define LDAP organizational units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/t_DefineLDAPOrganizationalUnits.md)
 

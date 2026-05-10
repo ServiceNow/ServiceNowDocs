@@ -29,15 +29,15 @@ For F5 Global Traffic Manager \(GTM\) BIG-IP load balancers, Discovery can resol
 
 -   To successfully discover the load balancer pool members, set the **display service names** option \(**bigpipe.displayservicenames**\) of the load balancer to **false** on the F5 load balancer.
 -   For F5 Load Balancer pattern:
-    -   Configure SNMP credentials on the ServiceNow AI Platform.
-    -   \(Optional\) If there are iRules or SNMP community credentials are not enough for discovering outgoing connections, configure SSH credentials.
+    -   Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md) on the ServiceNow AI Platform.
+    -   \(Optional\) If there are iRules or SNMP community credentials are not enough for discovering outgoing connections, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
 
         **Note:** If you do not want to use SSH credentials, you can use the REST API to create a connection to F5 BIG-IP devices.
 
         Service Mapping uses the SSH credentials to retrieve connections that are not from CMDB. Discovering connections using the SSH protocol is a failover mechanism for the SNMP-based discovery.
 
 -   For F5 Load Balancer SSH pattern:
-    -   Configure SSH credentials.
+    -   Configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
     -   Verify permissions for the following SSH commands:
         -   `list auth partition all`
         -   `list sys global-settings`
@@ -77,7 +77,7 @@ For F5 Global Traffic Manager \(GTM\) BIG-IP load balancers, Discovery can resol
         -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip"`
         -   `"https://" + $ipAddress + "/mgmt/tm/cm/traffic-group/"`
         -   `"https://" + $ipAddress + "/mgmt/tm/cm/device"`
-    -   Create basic authentication credentials.
+    -   Create [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md) credentials.
 -   For F5 REST OAuth 2.0 authentication pattern:
     -   Verify read-only permission for the following APIs:
         -   `"https://" + $ipAddress + "/mgmt/shared/authn/login"`
@@ -95,15 +95,15 @@ For F5 Global Traffic Manager \(GTM\) BIG-IP load balancers, Discovery can resol
         -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip"`
         -   `"https://" + $ipAddress + "/mgmt/tm/cm/traffic-group/"`
         -   `"https://" + $ipAddress + "/mgmt/tm/cm/device"`
-    -   Create basic authentication credentials.
-    -   Create a credential alias for the basic authentication credential.
+    -   Create [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md) credentials.
+    -   Create [a credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/discovery-credential-alias.md) for the basic authentication credential.
     -   Create a [serverless discovery schedule](../../service-mapping/task/create-serverless-sched-f5-rest-oauth.md).
 -   For top-down discovery using Service Mapping, provide permissions to run the following APIs:
 
     -   `https://" get_attr {"managementIP"}"/mgmt/tm/ltm/"get_attr {"irule"}`
     -   `https://" get_attr {"managementIP"}"/mgmt/tm/ltm/virtual/~Common~"get_attr {"vip_name"}`
     -   `https://" get_attr {"computer_system.managementIP"}"/mgmt/tm/ltm/pool/"get_attr {"pool_name"}"/members?`
--   \(Optional\) For top-down discovery with Service Mapping, configure applicative credentials.
+-   \(Optional\) For top-down discovery with Service Mapping, configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/applicative-creds.md).
 -   \(Optional\) For top-down discovery with Service Mapping, provide a user with permissions to run the following commands:
     -   bigpipe commands \(for BIG-IP LTM F5 or BIG-IP GTM F5 version 9\)
     -   bigpipe and Traffic Management Shell \(TMSH\) commands \(for BIG-IP LTM F5 or BIG-IP GTM F5 version 10\)

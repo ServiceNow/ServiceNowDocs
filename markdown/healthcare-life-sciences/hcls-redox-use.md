@@ -48,5 +48,5 @@ As a user with the sn\_hcls.admin role, you can receive and update healthcare da
 
 For a full list of supported Redox data models, see [Supported data models and event types for Redox Inbound Integration](../reference/hcls-redox-supported-dm.md).
 
-In addition, you can also use the Redox Electronic Health Record Spoke to send and update healthcare data from an external healthcare system. For more information, see Redox Electronic Health Record Spoke.
+In addition, you can also use the Redox Electronic Health Record Spoke to send and update healthcare data from an external healthcare system. For more information, see [Redox Electronic Health Record Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/redox-spoke.md).
 

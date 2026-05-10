@@ -21,7 +21,7 @@ Role required: discovery\_admin or sn\_cmp.cloud\_admin \(for Cloud Provisioning
 
 ## Procedure
 
-1.  For IP-based discovery, Installing the MID Server on a server inside the cloud environment, inside a Virtual Private Cloud \(VPC\).
+1.  For IP-based discovery, [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-installation.md) on a server inside the cloud environment, inside a Virtual Private Cloud \(VPC\).
 
     For example, if you are configuring access to AWS service accounts using IAM roles, install the MID Server at the Amazon EC2 instance.
 
@@ -58,7 +58,7 @@ Role required: discovery\_admin or sn\_cmp.cloud\_admin \(for Cloud Provisioning
 
 5.  If you're using an authenticated proxy server, configure the MID Server parameters in the `config.xml` file.
 
-    For a description of the parameter values, see the **Proxy server parameters** section in MID Server parameters.
+    For a description of the parameter values, see the **Proxy server parameters** section in [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md).
 
 
 **Parent Topic:**[Access to cloud environments for ITOM products](../reference/accessing-cloud-itom.md)

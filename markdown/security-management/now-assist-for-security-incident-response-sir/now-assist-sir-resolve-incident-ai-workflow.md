@@ -19,7 +19,7 @@ Chat with an AI agent in the Now Assist panel to help you create a resolution pl
 
 Use the Resolve security incident agentic workflow to fetch the incident details, fetch the knowledge articles and similar closed security incidents, get a resolution plan, and resolve the security incident.
 
-If you want to modify this agentic workflow, you can duplicate it, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+If you want to modify this agentic workflow, you can [duplicate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md) it, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
 
 ## Agents used in the Resolve security incident agentic workflow
 

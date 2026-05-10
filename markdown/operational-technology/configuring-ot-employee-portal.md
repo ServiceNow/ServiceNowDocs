@@ -20,7 +20,7 @@ Configure the Employee Center for Operational Technology \(OT\) so that you and 
 
     Users must be assigned the **cmdb\_ot\_viewer** role to access the **Industrial services** tab of the Employee Center and successfully submit a request.
 
-    For more information about how to assign roles, see Assign a role to a user.
+    For more information about how to assign roles, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
 2.  Install and configure the Operational Technology Incident Management.
 
@@ -30,7 +30,7 @@ Configure the Employee Center for Operational Technology \(OT\) so that you and 
 
 3.  Add more connected content to the Employee Center for OT.
 
-    You can optionally add content to the Industrial services topic page as needed for your organization. For more information about how to add content in the Employee Center, see Add menu items to primary navigation.
+    You can optionally add content to the Industrial services topic page as needed for your organization. For more information about how to add content in the Employee Center, see [Add menu items to primary navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/add-menu-items.md).
 
 
 **Parent Topic:**[Employee Center for OT](ot-employee-portal-landing.md)

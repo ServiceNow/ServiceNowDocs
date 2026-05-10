@@ -25,7 +25,7 @@ Role required: admin
 
 2.  Open the relevant catalog item or category.
 
-3.  Configure the form to add the appropriate **Available** or **Not available** lists.
+3.  [Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) to add the appropriate **Available** or **Not available** lists.
 
     ![access control](../image/AccessControl.png "Access Control")
 
@@ -56,7 +56,7 @@ Administrators can grant or deny access to a service catalog item or category ba
 
 3.  Add the required roles to the **Roles** field.
 
-    You can, if needed, Configure the form or change to **Default View** to see the **Roles** field.
+    You can, if needed, [Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) or change to **Default View** to see the **Roles** field.
 
     ![roles granted](../image/RolesGranted.png "Roles Granted")
 
@@ -75,7 +75,7 @@ Role required: admin
 
 2.  Open the relevant catalog item or category.
 
-3.  Configure the form to add the **Entitlement Script** field.
+3.  [Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) to add the **Entitlement Script** field.
 
     ![entitlement script](../image/EntitlementScript.png "Entitlement Script")
 

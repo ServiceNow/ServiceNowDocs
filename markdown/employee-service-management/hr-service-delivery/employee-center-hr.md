@@ -32,7 +32,7 @@ To use the Employee Center with HR Service Delivery:
 
     -   [Unified taxonomy for Employee Center](../../employee-center/concept/config-taxonomy.md)
     -   [Associate connected content to a topic](../../employee-center/task/associate-content-to-topics.md)
-    -   Associate a knowledge article with a taxonomy category
+    -   [Associate a knowledge article with a taxonomy category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/associate-knowledge-article-with-taxonomy-topic.md)
 
 ## Employee Center widgets
 
@@ -40,10 +40,10 @@ The following are optional widgets that can be configured:
 
 -   Start Date widget: This widget only appears to new hires prior to their start date for onboarding cases only. When using the base system layout, place the widget on the Employee Center home page, in the right-hand pane above the My Items widget. For more information on Lifecycle Events and onboarding and configuring the widget, see
     -   [Lifecyle events for enterprise](../reference/enterprise-onboarding-transitions-landing-page.md)
-    -   Service Portal widgets
+    -   [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-portal-widgets.md)
 -   Parental Leave Guide: Provides a link to the Parental Leave Guide portal page. For more information, see
     -   [Now Assist Virtual Agent topics for Journey designer](jd-va-topic.md)
-    -   Service Portal widgets
+    -   [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-portal-widgets.md)
 
 **Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](integrate-hr-platform-apps.md)
 

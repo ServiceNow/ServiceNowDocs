@@ -33,7 +33,7 @@ To continue using the classic Software Asset Management Foundation plugin applic
 
 If you later decide to use the Software Asset Workspace, you need to activate the Software Asset Workspace \(sn\_sam\_workspace\) store application.
 
-For detailed information on configuring and using the classic Software Asset Management Foundation plugin application, refer to [Configuring the classic Software Asset Management Foundation plugin](samf-plugin-configuration.md) and Using Software Asset Management classic.
+For detailed information on configuring and using the classic Software Asset Management Foundation plugin application, refer to [Configuring the classic Software Asset Management Foundation plugin](samf-plugin-configuration.md) and [Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md).
 
 -   **[Software Asset Management Foundation plugin roles](../reference/r_SAMRolesSAMF.md)**  
 Software Asset Management Foundation plugin adds the following roles.

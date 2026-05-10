@@ -21,7 +21,7 @@ Use the Performance Analytics widgets on the dashboard to visualize data over ti
 
 **Note:** Solutions include some dashboards that are inactive by default. You can activate these dashboards to make them visible to end users according to your business needs.
 
-For unlimited access to all features of this Platform Analytics Solution, purchase a Performance Analytics subscription. For more information, see Activating your Performance Analytics subscription.
+For unlimited access to all features of this Platform Analytics Solution, purchase a Performance Analytics subscription. For more information, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
 
 The Performance Analytics - Content Pack - Software Asset Management classic is enabled automatically when ServiceNow activates Software Asset Professional on your instance.
 
@@ -43,5 +43,5 @@ Monitor and gain insights into your engineering applications license position an
 **Related topics**  
 
 
-[bundle-par.c_PremiumPerformanceAnalytics]
+[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md)
 

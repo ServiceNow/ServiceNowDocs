@@ -17,5 +17,5 @@ The ServiceNow Field Service Management for Telecommunications \(FSMT\) applicat
 
 The ServiceNow Field Service Management for Telecommunications \(FSMT\) application integrates with the Field Service Management \(FSM\) to manage and streamline field service workflows for the telecommunications industry. The FSMT supports the TM Forum-aligned Open APIs and their functionalities that enable an open digital ecosystem. These APIs promote faster integration with Field Service Management to manage appointment booking, service delivery, and assurance processes.
 
-To learn more about Field Service Management application, see Field Service Management.
+To learn more about Field Service Management application, see [Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md).
 

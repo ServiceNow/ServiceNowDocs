@@ -51,7 +51,7 @@ Stashing changes removes them from the current application and saves them for a 
 -   Close dialog
 -   [Legacy - Manage stashes](t_ManageStashes.md)
 
-To learn more see Getting started with credentials
+To learn more see [Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-getting-started.md)
 
 **Parent Topic:**[Legacy - Source Control integration](../concept/c_SourceControlIntegration.md)
 

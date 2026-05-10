@@ -48,7 +48,7 @@ All software deployed by CSD requires users to specify the beginning date for th
 
 If the catalog item is configured for revocation \(uninstall\), the form displays the **Lease end** field, which allows the requester to define an end date and time for the lease. The system validates user input in these fields to ensure that the dates selected define a future window. The **Lease end** field is not mandatory and can be left blank to order software with no end date.
 
-**Note:** For systems deploying software from Microsoft System Center Configuration Management \(SCCM\), the **Lease end** field is only available if the Define an SCCM configuration specifies an uninstall collection.
+**Note:** For systems deploying software from Microsoft System Center Configuration Management \(SCCM\), the **Lease end** field is only available if the [Define an SCCM configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_ConfigureSCCMCollections.md) specifies an uninstall collection.
 
 ### Software offered only to the logged in user
 

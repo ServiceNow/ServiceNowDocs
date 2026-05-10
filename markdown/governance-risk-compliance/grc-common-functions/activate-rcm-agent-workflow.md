@@ -32,13 +32,13 @@ If you have the RCM user \[sn\_grc\_reg\_change.user\] role and the sn\_grc\_com
 
 This workflow uses web search to enhance alert context, summarizes the alert, and recommends potential impacts on citations, policies, and control objectives to support faster and more accurate compliance decisions. The regulatory alert must be in the New or In Progress state to generate analysis.
 
-**Note:** You can add or remove AI agents from this workflow by making a copy and customizing it. For more information, about copying agentic workflows, see Duplicate an agentic workflow.
+**Note:** You can add or remove AI agents from this workflow by making a copy and customizing it. For more information, about copying agentic workflows, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md).
 
 You can perform the following actions on Now Assist workflows if you have the sn\_generative\_ai.nsa\_admin role:
 
--   Duplicate an agentic workflow
--   Modify an agentic workflow
--   Delete an agentic workflow
+-   [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md)
+-   [Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aia-use-case.md)
+-   [Delete an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/delete-aia-use-case.md)
 
 ## Procedure
 
@@ -181,22 +181,22 @@ Approved role\(s\)
 
     Triggers can include record conditions, schedules, or inbound email.
 
-    For more information, see Add a trigger to an agentic workflow.
+    For more information, see [Add a trigger to an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aw.md).
 
 6.  Define where alerts and summaries are delivered \(for example, the Now Assist panel or Regulatory alert record\) by selecting **Channels and status**.
 
-    For more information, see Select channels and access for an agentic workflow.
+    For more information, see [Select channels and access for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/channels-access-aw.md).
 
 7.  Select **Save and test**.
 
 
 ## What to do next
 
-Use the **Testing** playground to test your new agentic workflow using example utterances.
+Use the **Testing** playground to [test your new agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md) using example utterances.
 
 Verify that the enriched insights and recommendations are generated. If activation fails, check roles and skill configuration.
 
 After confirming the workflow performs as expected, you can get started by selecting **Get analysis** from the Ask Now Assist action menu on a regulatory alert page or by selecting **Get Regulatory Analysis** from the Now Assist panel. The regulatory alert must be New or In Progress to generate analysis.
 
-If you have not already set up the Now Assist panel, for more information see, Activate the Now Assist panel standard chat.
+If you have not already set up the Now Assist panel, for more information see, [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 

@@ -51,7 +51,7 @@ A filter is used to restrict the records that are listed in the slushbucket that
 
 [Add fields to selections in a related list](t_AddingFieldsToARelatedList.md)
 
-[bundle-platadm.t_ConfigureReferenceQualifiers]
+[Configure reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfigureReferenceQualifiers.md)
 
 [Condition builder](../../../use/common-ui-elements/concept/c_ConditionBuilder.md)
 

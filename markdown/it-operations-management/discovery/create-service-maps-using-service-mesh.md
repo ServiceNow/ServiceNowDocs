@@ -29,15 +29,15 @@ If you use a service mesh, a pod running on every node \(Informer\) communicates
 
 -   Set parameters either during Helm chart archive installation or by modifying the Kubernetes YAML file provided by ServiceNow.
 
-<table id="choicetable_cc2_2vk_bgc"><thead><tr><th align="left" id="d485084e89">
+<table id="choicetable_cc2_2vk_bgc"><thead><tr><th align="left" id="d484519e89">
 
 Method
 
-</th><th align="left" id="d485084e92">
+</th><th align="left" id="d484519e92">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d485084e98">
+</th></tr></thead><tbody><tr><td id="d484519e98">
 
 **During Helm installation**
 
@@ -59,7 +59,7 @@ If your Prometheus server URL is not the default one, use the following paramete
 --set connectionsDiscovery.prometheusUrl
 ```
 
-</td></tr><tr><td id="d485084e124">
+</td></tr><tr><td id="d484519e124">
 
 **Modify the `k8s_informer.yaml` script**
 

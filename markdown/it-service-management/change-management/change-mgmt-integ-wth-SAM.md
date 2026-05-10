@@ -32,7 +32,7 @@ For a more detailed breakdown of the license change projections, a related list 
 **Related topics**  
 
 
-[bundle-platcap.c_ProposedChanges]
+[Managing proposed changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ProposedChanges.md)
 
 [Mass Update CI](bulk-ci-change.md)
 

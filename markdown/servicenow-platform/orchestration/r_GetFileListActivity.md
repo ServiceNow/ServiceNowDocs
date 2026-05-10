@@ -25,7 +25,7 @@ The Get File List activity returns a list of files from a given directory and it
 |sourceFiles|List of target files to return. This is a comma separated list that accepts wildcards, such as **\*.txt**.|
 |excludedFiles|List of target files to exclude. This is a comma separated list that accepts wildcards, such as **\*.txt**.|
 |includeSubfolders|True/false variable that determines if files from subfolders are included in the list. The default value for this variable is **false**.|
-|sourceCredentialTag|Specific Credential aliases for Orchestration activities this activity must use to run SSH commands on the host.|
+|sourceCredentialTag|Specific [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_AssignCredsOrchActivities.md) this activity must use to run SSH commands on the host.|
 
 ## Output variables
 

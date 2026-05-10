@@ -28,9 +28,9 @@ A universal request is not created for the following scenarios:
 -   Cart with multiple catalog items is checked out
 -   Order guide is submitted
 
-For information on creating a catalog item, see Create or edit a catalog item.
+For information on creating a catalog item, see [Create or edit a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefineACatalogItem.md).
 
-For information on creating a record producer, see Create a record producer.
+For information on creating a record producer, see [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefRecProdInSCat.md).
 
 ## Procedure
 
@@ -79,5 +79,5 @@ Option to automatically select the **Needs resolution review** check box on the 
 
 [Automatically create universal request from an inbound email](../../universal-request/concept/create-ur-from-inbound-email.md)
 
-[bundle-platcap.ur-catalog-config]
+[Service Catalog configuration for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/ur-catalog-config.md)
 

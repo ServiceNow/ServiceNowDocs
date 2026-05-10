@@ -43,7 +43,7 @@ To use the appointment booking feature, administrators must create a configurati
     -   To modify an existing rule, select the configuration from the list.
 5.  On the Service Configuration Rule form, fill in the fields and click **Submit**.
 
-    For more information on the fields, see Create appointment booking service configuration rules.
+    For more information on the fields, see [Create appointment booking service configuration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-appt-booking-service-config-rules.md).
 
     **Note:** The **Task Table** and **Task Conditions** fields are not applicable for Walk-up Experience.
 
@@ -53,7 +53,7 @@ To use the appointment booking feature, administrators must create a configurati
     -   To modify an existing configuration, select the configuration from the list.
 7.  On the **Advance Configurations** form, fill in the fields and click **Submit**.
 
-    For more information on the fields, see Create appointment booking advanced configuration.
+    For more information on the fields, see [Create appointment booking advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/appintment-booking-day-level-config.md).
 
 8.  Click **Submit**.
 

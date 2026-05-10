@@ -17,7 +17,7 @@ Train the Similar Projects solution definition included within the Predictive In
 
 ## Before you begin
 
-Ensure that the Predictive Intelligence for Contextual Search plugin \(com.snc.contextual\_search\_ml\), PPM Standard plugin \(com.snc.financial\_planning\_pmo\), and Predictive Intelligence for PPM plugin \(com.snc.ppm\_ml\) are activated. For more information about Predictive Intelligence, see Predictive Intelligence.
+Ensure that the Predictive Intelligence for Contextual Search plugin \(com.snc.contextual\_search\_ml\), PPM Standard plugin \(com.snc.financial\_planning\_pmo\), and Predictive Intelligence for PPM plugin \(com.snc.ppm\_ml\) are activated. For more information about Predictive Intelligence, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md).
 
 Role required: admin
 
@@ -29,7 +29,7 @@ Role required: admin
 
 3.  On the Similarity Definition form, verify the default field values for projects.
 
-    For more information about the Similarity Definition form fields, see Create and train a similarity solution.
+    For more information about the Similarity Definition form fields, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md).
 
 4.  Click **Update &amp; Retrain**.
 
@@ -53,7 +53,7 @@ When the solution is complete, the similar projects appear in the Similar projec
 **Related topics**  
 
 
-[bundle-platai.predictive-intelligence]
+[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md)
 
 [Predictive Intelligence for Project Management](../concept/predictive-intelligence-for-project.md)
 

@@ -36,7 +36,7 @@ Role required: admin or sp\_admin
         **Note:**
 
         -   If no catalogs are selected, all active catalogs accessible to the requester are available in Service Portal.
-        -   Irrespective of the catalogs associated with the portal, items are searched for only in the catalogs configured in the search source in AI Search. For information on configuring AI-based catalog search experience, see Configure AI-based catalog search experience.
+        -   Irrespective of the catalogs associated with the portal, items are searched for only in the catalogs configured in the search source in AI Search. For information on configuring AI-based catalog search experience, see [Configure AI-based catalog search experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/config-ai-search-cat.md).
 4.  To edit the label for a catalog, perform the following steps.
 
     1.  For the **Main menu** field, click **Open Record**.
@@ -60,5 +60,5 @@ Automates the deployment and provisioning of the AWS CloudFormation services usi
 **Related topics**  
 
 
-[bundle-platcap.catalog-on-portal]
+[Service Catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-on-portal.md)
 

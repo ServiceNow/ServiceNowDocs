@@ -186,7 +186,7 @@ Preview text displayed on the article template selector. Empty value will displa
 
 ## What to do next
 
-If you want to search for duplicate articles when creating an article from a new template, you must configure the article template table for contextual search. On the Table Configuration form, the **Search context** field must be set to **Knowledge ML Search**. For more information, see Configure table for a contextual search.
+If you want to search for duplicate articles when creating an article from a new template, you must configure the article template table for contextual search. On the Table Configuration form, the **Search context** field must be set to **Knowledge ML Search**. For more information, see [Configure table for a contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/t_DefineContextualSearchForForm.md).
 
 **Parent Topic:**[Configure knowledge article templates](../concept/configure-knowledge-article-templates.md)
 

@@ -45,11 +45,11 @@ Addresses your procurement needs by offering product recommendations, guided che
 </td></tr></tbody>
 </table>To run the AI agents autonomously, you must activate the agentic workflow. For more information, see [Enable AI agents for the Conversational intake for sourcing and procurement agentic workflow in the Now Assist panel](../task/activate-fulfill-pr-agentic-workflow.md).
 
-For more information about the AI agents, see Now Assist AI agents.
+For more information about the AI agents, see [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
 
 **Important:** By default, all agentic workflows and AI agent records are read-only.
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 
 -   **[Conversational intake for sourcing and procurement agentic workflow](spo-help-fulfill-pr-agentic.md)**  
 The Conversational intake for sourcing and procurement agentic workflow addresses your procurement needs by providing product recommendations, guided checkout, off-catalog processes, and detailed product information. It also answers questions and tracks related records.

@@ -110,8 +110,8 @@ Map an application service containing an Oracle Tuxedo platform and verify that 
 
 ### Before you begin
 
--   On the ServiceNow AI Platform, configure SSH credentials.
--   \(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
+-   On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
+-   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/enable-winRM-MID-servers.md).
 -   \(If hosted on Unix\) Provide a user with the elevated rights for running commands described in [Service Mapping commands requiring a privileged user](../reference/r_CommandsnCredentials.md).
 
 Role required: service\_mapping\_admin

@@ -78,7 +78,7 @@ You can `POST` the following data types directly into tables:
 -   Excel
 -   JSON
 
-The file headers must match the field columns in the targeted table. For more information, see Post CSV or Excel files directly to an import set.
+The file headers must match the field columns in the targeted table. For more information, see [Post CSV or Excel files directly to an import set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_PostCSVOrExcelFilesToImportSet.md).
 
 **Parent Topic:**[Inbound web services](../../web-services/concept/inbound-web-services.md)
 

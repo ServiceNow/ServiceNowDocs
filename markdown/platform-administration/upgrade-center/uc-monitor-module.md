@@ -21,7 +21,7 @@ If you log in with the admin role while an upgrade is underway, the system autom
 
 ## How the Upgrade Monitor fits into the upgrade process
 
-**Note:** For detailed information about the upgrade process, see Upgrade your instance.
+**Note:** For detailed information about the upgrade process, see [Upgrade your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-overview.md).
 
 The Upgrade Monitor concerns only part of the larger upgrade process:
 

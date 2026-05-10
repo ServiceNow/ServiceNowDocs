@@ -15,7 +15,7 @@ Send emails to customers and stakeholders directly from a touchpoint record with
 
 ## Before you begin
 
-The User Mailbox Integration plugin \(com.glide.email.user\_mailbox.integration\) must be installed on your ServiceNow instance to enable agents to send emails from the touchpoint record. For setup instructions, see Personal corporate mailbox.
+The User Mailbox Integration plugin \(com.glide.email.user\_mailbox.integration\) must be installed on your ServiceNow instance to enable agents to send emails from the touchpoint record. For setup instructions, see [Personal corporate mailbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/personal-corporate-mailbox.md).
 
 Role required: sn\_crm\_touchpoint.touchpoint\_writer
 

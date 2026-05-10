@@ -35,7 +35,7 @@ A search application configuration's **Genius Results Limit** field value specif
 
 3.  In the Genius Results related list, edit the **Order** field values for Genius Result configurations linked to the search profile.
 
-    For details on editing field values in the related list, see Use the list editor.
+    For details on editing field values in the related list, see [Use the list editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_UseTheListEditor.md).
 
 
 ## What to do next

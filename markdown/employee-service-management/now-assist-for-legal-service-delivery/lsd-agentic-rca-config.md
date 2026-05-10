@@ -17,7 +17,7 @@ Create restricted caller access \(RCA\) privileges to ensure authorized access t
 
 ## Before you begin
 
-Set the application scope to **Legal Request Management** in the application picker. For more information, see Application picker.
+Set the application scope to **Legal Request Management** in the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: admin
 

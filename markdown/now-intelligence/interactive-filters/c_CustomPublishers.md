@@ -23,7 +23,7 @@ Role required: hp\_publisher\_admin and report\_admin. The hp\_publisher\_admin 
 
 **Note:** The exposed API for custom interactive filters is limited and does not provide parity with standard interactive filters. Before implementing any custom interactive filters, review the [Custom interactive filter limitations](../reference/custom-if-limitations.md).
 
-Access control lists on the Table API may restrict the records shown when a dashboard is filtered. To alleviate this problem, add users or roles to the Table API access control list. For more information, see Access control list rules.
+Access control lists on the Table API may restrict the records shown when a dashboard is filtered. To alleviate this problem, add users or roles to the Table API access control list. For more information, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).
 
 The code that publishes the filter must call the SNC.canvas.interactiveFilters.setDefaultValue\(\) method and it must call the dashboardMessageHandler.publishFilter\(\) method to publish the filter.
 

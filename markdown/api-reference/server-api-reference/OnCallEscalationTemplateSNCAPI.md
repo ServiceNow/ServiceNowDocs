@@ -15,7 +15,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The OnCallEscalationTemplateSNC script include provides methods to apply escalation policy templates to escalation sets.
 
-For more information about the escalation process, see Defining On-Call Scheduling escalation process.
+For more information about the escalation process, see [Defining On-Call Scheduling escalation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/defining-escalation-process-and-template.md).
 
 This script include requires the On-Call Scheduling plugin \(com.snc.on\_call\_rotation\).
 

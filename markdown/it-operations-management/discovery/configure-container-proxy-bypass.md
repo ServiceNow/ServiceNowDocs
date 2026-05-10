@@ -19,7 +19,7 @@ Configure a proxy bypass to allow container image scans to reach specific intern
 ## Before you begin
 
 -   Verify that you have at least version 1.30.2 of Discovery and Service Mapping Patterns.
--   Verify that you have configured a proxy on the MID Server. For more information, see MID Server parameters.
+-   Verify that you have configured a proxy on the MID Server. For more information, see [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md).
 
 Role required: discovery\_admin
 

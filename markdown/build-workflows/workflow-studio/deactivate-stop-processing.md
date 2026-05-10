@@ -27,7 +27,7 @@ Although you can process an inbound email with multiple inbound email actions, y
 
 ## Procedure
 
-1.  Add a property with the following settings:
+1.  [Add a property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) with the following settings:
 
     -   Name: **glide.hub.flow.inbound\_email\_trigger.show\_advanced**
     -   Type: true \| false

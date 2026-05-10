@@ -17,11 +17,11 @@ The ServiceNow® Incident Management application helps you to restore normal ser
 -   Perform the incident, major incident, task outage, and related communication features configurations using granular admin roles.
 -   Enhance communication capabilities with the form channel added to response templates.
 
-See Incident Management for more information.
+See [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentManagement.md) for more information.
 
 ## New in the Australia release
 
--   **Introduction of granular admin roles**
+-   **[Introduction of granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/req-itsm-roles-inci-mgmt.md)**
 
     Configure all the incident, major incident, task outage and related communication features for both UI16 and SOW using the following granular admin roles:
 
@@ -31,7 +31,7 @@ See Incident Management for more information.
     -   sn\_iam\_admin: Configure all Incident Communications Management features including creating, editing, or canceling incident communication plan, communication task, and managing contact information. Additionally, this role can administrate all Incident Communications Management capabilities."
     -   sn\_contact\_admin: Configure all Contact Management features including creating and editing contact definitions, contact responsibilities, configuration of MI users, recipient lists, and groups.
     -   sn\_task\_outage\_admin: Configure all Task Outage features including the mapping between the Task \[task\] table and the Outage \[cmdb\_ci\_outage\] table.
--   **Form channel for response templates**
+-   **[Form channel for response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/working-incident-record-form.md)**
 
     The form channel is added to the Need more information and Schedule meeting response templates. The channel enables you to access the response templates from the incident record, copy the response templates texts to the clipboard from the incident form to be shared in the work notes, comments or other communication channels.
 

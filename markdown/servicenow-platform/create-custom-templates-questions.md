@@ -36,7 +36,7 @@ You can use the Custom Metric Type module for surveys to create the custom metri
     **Note:**
 
     -   Updating or deleting existing values in the **Macro**, **Widget**, and **Result type** fields might cause inconsistent effects.
-    -   The custom metric type that you created doesn’t appear for the public surveys. To make it visible for the public surveys, open the Service Portal configuration and configure your survey widget to make it public. For more information about configuring widget security, see Configure widget security.
+    -   The custom metric type that you created doesn’t appear for the public surveys. To make it visible for the public surveys, open the Service Portal configuration and configure your survey widget to make it public. For more information about configuring widget security, see [Configure widget security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-widget-security.md).
     -   If the custom metric type is inactive or deleted, the question is not rendered on the survey form.
     -   If the value in the **Macro** or **Widget** field is updated, the updated value is used to render a survey form even if an instance was created before updating the values for macros or widgets.
 

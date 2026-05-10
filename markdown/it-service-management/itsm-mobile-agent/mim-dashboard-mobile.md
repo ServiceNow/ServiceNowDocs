@@ -23,6 +23,6 @@ Tap on any of the areas to open a detailed graphical representation of the assoc
 
 **Note:**
 
--   The data visualization changes for Major incident dashboard are available in the base system for both the new or upgrade customers. You can also view mobile analytics in Platform analytics workspace to configure or create new data visualization. For more information, see Create a mobile analytics preview.
+-   The data visualization changes for Major incident dashboard are available in the base system for both the new or upgrade customers. You can also view mobile analytics in Platform analytics workspace to configure or create new data visualization. For more information, see [Create a mobile analytics preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-dashboard-preview.md).
 -   For the upgrade customers who have already customized the analytics sections, the data visualizations changes are not available by default. You can enable the new analytics section records from the Mobile Agent section of the Mobile App Builder to view the visualized changes.
 

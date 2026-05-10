@@ -84,7 +84,7 @@ Category of the assessment template. This value should be **Field Service**.
 
  **Note:**
 
--   **Field Service** is the only **Purpose** available in Field Service Management for smart assessments. However, you can create and customize additional purposes, as required. For more information, see Create an assessment template category.
+-   **Field Service** is the only **Purpose** available in Field Service Management for smart assessments. However, you can create and customize additional purposes, as required. For more information, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
 -   To view and use any template from the newly created purpose, ensure that you have access to the correct role associated with it.
 
 
@@ -101,7 +101,7 @@ Table to be assessed. Selecting multiple tables makes the scope a combination of
 
 5.  Fill in the template with overall instructions, questions, optional guidance for responding to a question, and sections that group the related questions.
 
-    For more information, see Add instructions and questions to an assessment template.
+    For more information, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).
 
 6.  Select **Save**.
 

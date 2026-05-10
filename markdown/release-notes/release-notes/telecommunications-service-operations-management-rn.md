@@ -18,7 +18,7 @@ The ServiceNow® Telecommunications Service Operations Management \(TSOM\) appli
 -   Extend discovery pattern capabilities with support for switch stacks, card models, lifecycle attributes, and improved error handling.
 -   Monitor SD-WAN health in real-time with new Telecom Event and Metric connectors that enable intelligent event categorization, correlation, and KPI aggregation.
 
-See Telecommunications Service Operations Management for more information.
+See [Telecommunications Service Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecommunications-service-operations-management.md) for more information.
 
 **Important:** Telecommunications Service Operations Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -41,12 +41,12 @@ See Telecommunications Service Operations Management for more information.
 
 ## Changed in this release
 
--   **SD-WAN Discovery connectors SD-WAN data model**
+-   **SD-WAN Discovery connectors [SD-WAN data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/sd-wan-data-model.md)**
 
     Enable comprehensive SD-WAN visibility by leveraging new Telecom Discovery connectors. Standardize data processing through the SD-WAN Data Model integrated into the Telecom Discovery Builder Framework ETL pipeline.
 
 
--   **Discrepancy identification – types of discrepancies**
+-   **[Discrepancy identification – types of discrepancies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/discrepancy-identification-types-of-discrepancies.md)**
 
     Enhance discovery accuracy and data quality with SD-WAN-specific discrepancy audits that validate discovery results against the CMDB. Reconcile discrepancies manually or automatically using the remediation engine. When the audit detects a newly discovered CI not present in the CMDB, a single follow-on task is created at the equipment level for streamlined resolution.
 
@@ -57,7 +57,7 @@ Install Telecommunications Service Operations Management applications and plugin
 
 ## Plugin information
 
--   **New plugins**
+-   **[New plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configuring-tsom.md)**
 
     The following plugins are new in Australia:
 
@@ -65,7 +65,7 @@ Install Telecommunications Service Operations Management applications and plugin
 
     -   TSOM Event Management Core \(sn\_tsom\_em\_core\): TSOM AssuranceCore features
 
--   **Renamed or changed plugins**
+-   **[Renamed or changed plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configuring-tsom.md)**
 
     The following plugins were renamed or changed in Australia:
 
@@ -74,7 +74,7 @@ Install Telecommunications Service Operations Management applications and plugin
 
 ## Related ServiceNow applications and features
 
--   **ITOM AIOps**
+-   **[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-health-landing-page.md)**
 
     The ServiceNow®ITOM AIOps application includes the ServiceNow® Event Management and ServiceNow® Metric Intelligence applications, which help you track and maintain the health of services in your organization.
 

@@ -104,7 +104,7 @@ Routing policy in the Plivo WebHook Routing Policy module triggers the subflows 
 
 4.  Customize the subflow as per your requirement and publish it.
 
-    See Building subflows for more information about creating and using subflows, and [Plivo Spoke](../concept/plivo-spoke.md) for information about the supported fields.
+    See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md) for more information about creating and using subflows, and [Plivo Spoke](../concept/plivo-spoke.md) for information about the supported fields.
 
 5.  Navigate to **Plivo Spoke** &gt; **Plivo WebHook Routing Policy**.
 

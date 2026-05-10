@@ -32,7 +32,7 @@ Create or customize a playbook record page
 A record page provides the base structure for how a record is displayed in CSM Configurable Workspace. The following playbook record pages are available with the Playbooks for Customer Service Management application \[com.sn\_csm\_playbook\]:-   [Case playbook: horizontal stages page](csm-playbook-horizontal-stages.md)
 -   [Case playbook: vertical stages page](csm-playbook-vertical-stages.md)
 
-For more information, see Manage UI Builder pages and page variants.
+For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md).
 
 </td></tr><tr><td>
 
@@ -126,7 +126,7 @@ Configure optional playbook activities so that agents and fulfillers can insert 
 </td></tr></tbody>
 </table>## Playbook experiences
 
-Playbook experiences are used to customize the look and feel of a playbook. Settings in a playbook experience control how UI Builder renders a playbook in the CSM workspaces. System administrators can configure settings in the playbook experience record that determine the playbook stage and activity visibility.
+Playbook experiences are used to customize the look and feel of a playbook. Settings in a playbook experience control how [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md) renders a playbook in the CSM workspaces. System administrators can configure settings in the playbook experience record that determine the playbook stage and activity visibility.
 
 Within UI Builder, system administrators can configure playbook component settings such as:
 

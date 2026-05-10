@@ -83,7 +83,7 @@ Add these properties to the System Property \[sys\_properties\] table before the
 
     Prevents users from downloading and using virus-infected files that are attached to inbound emails.
 
-    The system detects infected files in an email by checking the ServiceNow virus header. If there are multiple email attachments, the system scans the files via Antivirus Scanning. All attachments that are found to be infected are made unavailable for use.
+    The system detects infected files in an email by checking the ServiceNow virus header. If there are multiple email attachments, the system scans the files via [Antivirus Scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/antivirus-protection.md). All attachments that are found to be infected are made unavailable for use.
 
     -   Type: true \| false
     -   Default value: true
@@ -155,7 +155,7 @@ Add these properties to the System Property \[sys\_properties\] table before the
 
     Prevents users from sending emails that contain virus-infected files.
 
-    If an outbound email contains an attachment that was previously marked as infected via Antivirus Scanning, then the system doesn't send the email. An event is created to indicate that the email attachment is not available for use.
+    If an outbound email contains an attachment that was previously marked as infected via [Antivirus Scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/antivirus-protection.md), then the system doesn't send the email. An event is created to indicate that the email attachment is not available for use.
 
     -   Type: true \| false
     -   Default value: true

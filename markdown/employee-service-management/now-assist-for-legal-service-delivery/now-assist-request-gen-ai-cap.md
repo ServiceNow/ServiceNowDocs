@@ -18,7 +18,7 @@ Use the contextual generative AI capabilities, such as a request summary by usin
 
 ## Before you begin
 
-Make sure that Next Experience is enabled in the instance. For more information, see Next Experience UI.
+Make sure that Next Experience is enabled in the instance. For more information, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md).
 
 Role required: sn\_lg\_gen\_ai.request\_fulfiller
 
@@ -26,7 +26,7 @@ Role required: sn\_lg\_gen\_ai.request\_fulfiller
 
 You can use the Now Assist panel to request a summary.
 
-For more information about the Now Assist panel, see Now Assist panel. For information about activating the Now Assist panel, see Activate the Now Assist panel standard chat.
+For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md). For information about activating the Now Assist panel, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 ## Procedure
 

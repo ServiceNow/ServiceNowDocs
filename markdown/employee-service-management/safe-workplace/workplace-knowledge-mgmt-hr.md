@@ -15,7 +15,7 @@ breadcrumb: [Workplace Core, Safe Workplace, Health and Safety, Employee Service
 
 As a workplace admin, you can create knowledge base articles for employees. In the articles, provide information to your employees about workplace services, such as workplace updates, self-help, troubleshoot, and others.
 
-With the Workplace Service Delivery application, you can create knowledge base articles and display them as wiki pages or HTML pages. The Workplace Service Delivery Knowledge Management is the same as the ServiceNow AI Platform Knowledge Management, for more information, see Configuring Knowledge Management.
+With the Workplace Service Delivery application, you can create knowledge base articles and display them as wiki pages or HTML pages. The Workplace Service Delivery Knowledge Management is the same as the ServiceNow AI Platform Knowledge Management, for more information, see [Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md).
 
 You can perform the following actions on a knowledge base article:
 

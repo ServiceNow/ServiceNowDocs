@@ -49,7 +49,7 @@ To configure smart links to open in a pop-up or Microsoft Teams tab, admins must
 
     ![SSO Configuration opening dialog box.](../images/msteams-sso-confirm.png)
 
-    For more information about configuring Single Sign-On, see Grant permissions to required Microsoft Azure apps.
+    For more information about configuring Single Sign-On, see [Grant permissions to required Microsoft Azure apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/authorize-multi-tenant-apps-mt.md).
 
     **Note:**
 

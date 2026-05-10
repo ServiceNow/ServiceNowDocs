@@ -23,7 +23,7 @@ Enable or disable user preferences for flow to change options available to Workf
 |Show advanced connection options|Option to show advanced connection properties for actions that use connection aliases or inline connections. By default, this option is disabled.|
 |Show flows as diagrams|Option to show all flows in the flow diagramming view. By default this option is disabled, and all flows open in the descriptive text view.|
 |Auto Refresh Tests|Option to create an Asynchronous Message Bus \(AMB\) channel for test runs of flows and actions. The AMB channel listens for state changes of execution details that are in a waiting state. When the execution details are done, the AMB channel closes and sets the state to complete. By default, this option is disabled, and you must manually update execution details.|
-|Show recommendations|Option to show flow recommendations to build a flow. The system generates recommendations based on the current position in the flow and the flow component names listed before. By default, this option is enabled. For more information about flow recommendations, see Flow recommendations.|
+|Show recommendations|Option to show flow recommendations to build a flow. The system generates recommendations based on the current position in the flow and the flow component names listed before. By default, this option is enabled. For more information about flow recommendations, see [Flow recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/flow-recommendations-landing.md).|
 
 **Parent Topic:**[Flows, subflows, and actions reference](flow-designer-reference.md)
 

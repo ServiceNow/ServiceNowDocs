@@ -15,9 +15,9 @@ breadcrumb: [User created, Integrate, DevOps Change Velocity, IT Service Managem
 
 For user-created integrations, create a DevOps Workflow Studio subflow to collect and transform data from the tool you are integrating.
 
-ServiceNow Flow Designer is a ServiceNow AI Platform feature your integration developer can use to automate processes using a sequence of actions. Trigger conditions start the flow, and variables pass information between actions.
+ServiceNow [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md) is a ServiceNow AI Platform feature your integration developer can use to automate processes using a sequence of actions. Trigger conditions start the flow, and variables pass information between actions.
 
-See Flow Designer Subflows for information on how to create a subflow.
+See [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md) [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md) for information on how to create a subflow.
 
 ## Notification capability subflow
 
@@ -269,7 +269,7 @@ Label: current
 
 Outputs
 
- See subflow outputs.
+ See [subflow outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
 
 </td><td>
 
@@ -326,7 +326,7 @@ Label: current
 
 Outputs
 
- See subflow outputs.
+ See [subflow outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
 
 </td><td>
 

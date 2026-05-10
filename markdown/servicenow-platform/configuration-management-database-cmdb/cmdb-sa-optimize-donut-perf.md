@@ -17,7 +17,7 @@ Improve the performance of the CMDB success advisor dashboards for large dataset
 
 ## Before you begin
 
-Set the application scope to CMDB success advisor using the application picker. For more information, see Application picker.
+Set the application scope to CMDB success advisor using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: admin
 

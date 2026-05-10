@@ -75,5 +75,5 @@ To run the AI agents autonomously, you must first [duplicate the agentic workflo
 -   Activate all agents within the workflow.
 -   Activate the trigger to invoke the agentic workflow automatically. If you prefer to invoke it manually, activating the trigger isn't necessary.
 
-There may be AI agents installed with the Now Assist application that aren’t used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
+There may be AI agents installed with the Now Assist application that aren’t used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 

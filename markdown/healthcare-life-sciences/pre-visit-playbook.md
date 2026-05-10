@@ -19,7 +19,7 @@ Starting with the Yokohama release, Pre-Visit Management is being prepared for f
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-The playbook experience provides fulfillers with visibility into cross-business workflows and the actionable activities used to complete these workflows. When the playbook experience is activated with Workspace in Pre-Visit Management, the **Playbook** tab appears for a procedure request case. For more information on how to interact with a playbook, see Interact with Playbook.
+The playbook experience provides fulfillers with visibility into cross-business workflows and the actionable activities used to complete these workflows. When the playbook experience is activated with Workspace in Pre-Visit Management, the **Playbook** tab appears for a procedure request case. For more information on how to interact with a playbook, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md).
 
 As a patient service representative with the sn\_previsit.patient\_service\_agent role assigned to you, you can use the playbook to complete all pre-visit activities for a patient. You can access the **Playbook** tab on your Workspace when a procedure request case is assigned to you. The Pre-Visit Management workflow populates the case data for all launched activities on the **Playbook** tab. You can select a stage in the playbook to complete the activities associated with the stage.
 

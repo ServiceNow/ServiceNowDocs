@@ -78,11 +78,11 @@ The following example shows the functions that are available in the Workflow Stu
 
 ![Infographic displaying all default options of Network Inventory Advanced.](../image/tni-flow-action-list.png "Network Inventory Function Catalog Location")
 
-You can also use these functions as Workflow Studio actions in the Telecommunications Network Inventory workflow because the Design and Assign is a series of actions. The reusable Workflow Studio actions can automate repetitive work, such as creating a logical connection in the workflow. To learn more about Workflow Studio actions, see Flow Designer.
+You can also use these functions as Workflow Studio actions in the Telecommunications Network Inventory workflow because the Design and Assign is a series of actions. The reusable Workflow Studio actions can automate repetitive work, such as creating a logical connection in the workflow. To learn more about Workflow Studio actions, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md).
 
 ## Telecommunications Network Inventory subflows
 
-In Workflow Studio, you can give the inputs and outputs to pass the data to and from the subflow while you’re performing the Design and Assign process. If necessary, you can add more fields in the subflows. To learn more about working with the subflows, see Building subflows. To learn more about the Workflow Studio, see Flow Designer.
+In Workflow Studio, you can give the inputs and outputs to pass the data to and from the subflow while you’re performing the Design and Assign process. If necessary, you can add more fields in the subflows. To learn more about working with the subflows, see [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md). To learn more about the Workflow Studio, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md).
 
 The Telecommunications Network Inventory application has the following subflows:
 

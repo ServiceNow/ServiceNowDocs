@@ -77,7 +77,7 @@ Install the MID Servers to enable the movement of data between the Discovery app
 
 </td><td>
 
-Installing the MID Server
+[Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-installation.md)
 
 </td></tr><tr><td>
 
@@ -104,7 +104,7 @@ Discover the service accounts, the credentials for accessing the accounts, and t
 </td><td>
 
 -   [Using the Cloud Discovery application](aws-discovery-cloudin.md)
--   Using the Service Graph Connectors
+-   [Using the Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-available.md)
 
 </td></tr><tr><td>
 

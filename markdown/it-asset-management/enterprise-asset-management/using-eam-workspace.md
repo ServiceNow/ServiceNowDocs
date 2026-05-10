@@ -19,7 +19,7 @@ Use the Enterprise Asset Workspace to get a comprehensive view of all your asset
 
 The Enterprise Asset Workspace is a unified medium with multiple views. The views give you visibility into all your assets, models, stockroom and stockroom types. You can also create multiple workflows such as transfer orders, disposal orders, and also provides access to analytics via dashboards.
 
-**Note:** Include the **Enterprise Asset Classes** and **Enterprise Model Classes** properties from the Asset Properties table in update sets whenever you move any changes from one environment to another. For details on update sets, see Update Sets transfer.
+**Note:** Include the **Enterprise Asset Classes** and **Enterprise Model Classes** properties from the Asset Properties table in update sets whenever you move any changes from one environment to another. For details on update sets, see [Update Sets transfer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/update-set-transfers.md).
 
 You can navigate to the Enterprise Asset Workspace in the following two ways:
 

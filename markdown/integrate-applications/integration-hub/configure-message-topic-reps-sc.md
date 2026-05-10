@@ -20,9 +20,9 @@ Set up message and topic replications to replicate data between your Apache Kafk
 -   Role required: message\_replication\_admin
 -   This feature requires a subscription. For more information, see [Using Stream Connect for Apache Kafka](../concept/stream-connect-apache-kafka.md).
 -   Verify the Hermes Messaging Service and Instance PKI Certificate Generator are working.
-    -   Check the status of and connection to the Hermes Kafka cluster.
-    -   Check the Key Management Framework Health to verify that all three items in the Instance PKI section are operational.
--   Configure and start a MID Server or MID Server cluster. For more information, see Configuring MID Servers and Configure a MID Server cluster.
+    -   [Check the status of and connection to the Hermes Kafka cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/run-hermes-messaging-service-diagnostics.md).
+    -   Check the [Key Management Framework Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/kmf_diagnostics.md) to verify that all three items in the Instance PKI section are operational.
+-   Configure and start a MID Server or MID Server cluster. For more information, see [Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md) and [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md).
 
     The MID Server must be able to access Hermes endpoints through the firewall. Work with your network administrator to make sure that the following port ranges are open.
 
@@ -31,7 +31,7 @@ Set up message and topic replications to replicate data between your Apache Kafk
     -   Consumer2: 4200–4250
     If you're using a MID Server cluster, it must have a cluster type of **Load Balance**. The **Failover** cluster type is not supported.
 
--   Stream Connect Message Replication uses a Connection &amp; Credential alias to connect to your local Kafka. Create a Connection &amp; Credential alias with a **Connection type** of **Kafka**. A Connection &amp; Credential alias requires a [Kafka Connection](configure-kafka-connection.md) and a [Kafka Credential](create-kafka-ssl-credentials.md).
+-   Stream Connect Message Replication uses a Connection &amp; Credential alias to connect to your local Kafka. [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md) with a **Connection type** of **Kafka**. A Connection &amp; Credential alias requires a [Kafka Connection](configure-kafka-connection.md) and a [Kafka Credential](create-kafka-ssl-credentials.md).
 -   Stream Connect Message Replication requires the ServiceNow Stream Connect Installer \[com.glide.hub.stream\_connect.installer\] plugin.
 
 ## About this task
@@ -151,9 +151,9 @@ Each Kafka Topic Replication record also has a related list named Message Replic
 
 ## What to do next
 
-If you're replicating messages from your local Kafka into ServiceNow, you can configure a [Script](configure-script-consumer.md), [ETL](configure-etl-consumer.md), or [Transform Map](configure-transform-map-consumer.md) consumer to process the messages or set up a Kafka Message trigger to start a flow.
+If you're replicating messages from your local Kafka into ServiceNow, you can configure a [Script](configure-script-consumer.md), [ETL](configure-etl-consumer.md), or [Transform Map](configure-transform-map-consumer.md) consumer to process the messages or set up a [Kafka Message trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow-kafka.md) to start a flow.
 
-If you're replicating messages from ServiceNow to your local Kafka, you can use a Kafka Producer step in Workflow Studio or use the ProducerV2 API to publish messages to the Hermes topic and your local Kafka.
+If you're replicating messages from ServiceNow to your local Kafka, you can use a [Kafka Producer step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/kafka-producer-action-designer.md) in Workflow Studio or use the [ProducerV2 API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ProducerV2ScopedAPI.md) to publish messages to the Hermes topic and your local Kafka.
 
 **Parent Topic:**[Stream Connect Message Replication](../concept/stream-connect-message-replication.md)
 

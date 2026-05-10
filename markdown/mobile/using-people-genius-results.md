@@ -19,7 +19,7 @@ To search for a user, enter their name into a Now Assist enabled search bar. Thi
 
 Select a person’s name to view their user profile. The profile displays information such as the person’s manager, work location, email address, phone number, and any shared files. You can also view the person’s place in your company’s organizational chart if your organization has configured it.
 
-For information on configuring People Genius results for mobile, see Activate People Genius Results.
+For information on configuring People Genius results for mobile, see [Activate People Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/activate-people-genius-results-ais.md).
 
 **Parent Topic:**[Using Now Assist for Mobile](using-now-assist-mobile.md)
 

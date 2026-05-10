@@ -15,7 +15,7 @@ breadcrumb: [ITSM Software Asset Management, Asset Management, IT Service Manage
 
 The Software Asset Management Foundation plugin activates the ITSM Software Asset Management feature provided with the Asset Management application.
 
-For documentation on the full fledged Software Asset Management product \(also known as Software Asset Management professional\), see Software Asset Management.
+For documentation on the full fledged Software Asset Management product \(also known as Software Asset Management professional\), see [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md).
 
 Software Asset Management Foundation plugin systematically tracks, evaluates, and manages software licenses and compliance. Functionality consists of these main features.
 

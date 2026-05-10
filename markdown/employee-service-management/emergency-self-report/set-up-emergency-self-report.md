@@ -111,7 +111,7 @@ The Emergency Self Report application is installed on your instance.
 
 Several types of components are installed with Emergency Self Report, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -223,7 +223,7 @@ Complete the following configurations as needed.
 
         Enables group members, such as HR or Global Security team members, to manage the reported health alerts.
 
-    For information about how to assign roles to groups, see Roles.
+    For information about how to assign roles to groups, see [Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
 
 2.  Navigate to **Emergency Self Report** &gt; **UI Configuration**, set the desired message values, and then click **Update**.
 

@@ -157,5 +157,5 @@ Each product within the CRM suite uses omnichannel to connect customers with age
 **Related topics**  
 
 
-[bundle-csm.enable-comm-channels]
+[Enable communication channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-comm-channels.md)
 

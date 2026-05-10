@@ -38,7 +38,7 @@ You retire or archive service and resource specification versions in the same ma
 
 4.  Navigate to the **Versions \(n\)** tab to view the previous versions that are related to this specification.
 
-    Here, n represents the number of base and previous versions for this specification. For detailed information about the field descriptions, see Specification Versions form.
+    Here, n represents the number of base and previous versions for this specification. For detailed information about the field descriptions, see [Specification Versions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/field-descriptions-specification-versions-form.md).
 
 5.  Retire or archive one or more specification versions.
 

@@ -17,7 +17,7 @@ You can use response templates with HR Service Delivery to resolve cases faster 
 
 Response templates \(formerly known as templated snippets\) are reusable messages. You can copy these messages created from these templates to an HR case, task, email, or chat to provide quick and consistent messages to employees. For example, a response template for a payroll discrepancy case enables HR agents to use a standardized message when responding to that case type.
 
-**Note:** For more information on response templates, see Response templates.
+**Note:** For more information on response templates, see [Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/response-templates-templated-snippets.md).
 
 ## Response template channels
 
@@ -35,13 +35,13 @@ To create a universal response template that is available for all channels, assi
 
 ## Activation information
 
-The response templates feature automatically activates when Case and Knowledge Management activates. See Activate response templates.
+The response templates feature automatically activates when Case and Knowledge Management activates. See [Activate response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/activate-templated-snippets.md).
 
 To use response templates in a chat in Agent Workspace for HR Service Delivery, activate: Advanced Work Assignment for HRSD \(com.sn\_hr\_awa\) plugin.
 
 For more information, see  and Setting up Workspace Agent Chat.
 
-For more information on setting up chat in Virtual Agent, see Virtual Agent.
+For more information on setting up chat in Virtual Agent, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md).
 
 ## How to use response templates with form \(HR case or task\)
 
@@ -59,7 +59,7 @@ For Agent Workspace for HR Service Delivery, the Response Templates icon \(![Res
 
 Several types of components are installed with activation of the Templated Responses \(com.sn\_templated\_snip\) plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -120,11 +120,11 @@ None
 </td></tr></tbody>
 </table>You can assign these roles to the appropriate roles, groups, or users in your application.
 
--   To assign a role to another role, see Add a role to an existing role.
--   To assign a role to a group, see Assign a role to a group.
--   To assign a role to a user, see Assign a role to a user.
+-   To assign a role to another role, see [Add a role to an existing role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AddARoleToAnExistingRole.md).
+-   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
+-   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
-For further information on user administration and how to manage users, see User administration.
+For further information on user administration and how to manage users, see [User administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_UserAdministration.md).
 
 ### Tables installed
 
@@ -169,7 +169,7 @@ Note Template for Table\[sn\_m2m\_note\_template\_for\_table\]
 Maps notes to response templates.
 
 </td></tr></tbody>
-</table>For further information on table administration and how to manage data, see Table administration.
+</table>For further information on table administration and how to manage data, see [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_TableAdministration.md).
 
 ## Create or modify an HR Service Delivery response template
 
@@ -235,7 +235,7 @@ Condition
 
 </td><td>
 
-Conditions that determine when the response template is available for use.When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
+Conditions that determine when the response template is available for use.When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
  **Note:** The conditions available depend on the table you select. For chat response templates, specify the condition: **\[Type\] \[is\] \[Chat\]**
 

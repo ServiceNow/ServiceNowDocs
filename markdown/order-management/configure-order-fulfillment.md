@@ -19,9 +19,9 @@ You can define the order fulfillment processes that you require and then configu
 
 |Task|Description|
 |----|-----------|
-|Configure subflows for order fulfillment|Subflows define the task flow for fulfillment agents to fulfill customer orders. You can copy a subflow from the base system and change your business needs. For more information on configuring subflows, see Building Subflows.|
-|Configure decision tables for order fulfillment|Decision tables define the conditions for triggering the order fulfillment subflow. The Order Management for Telecommunications, Media, and Technology application uses the Order fulfillment Policy decision table. For more information on configuring decision tables, see Decision tables.|
-|Configure order assignment rules to route tasks to agents, based on their skill sets|For more information on assignment rules, see Create an assignment rule.|
+|Configure subflows for order fulfillment|Subflows define the task flow for fulfillment agents to fulfill customer orders. You can copy a subflow from the base system and change your business needs. For more information on configuring subflows, see [Building Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).|
+|Configure decision tables for order fulfillment|Decision tables define the conditions for triggering the order fulfillment subflow. The Order Management for Telecommunications, Media, and Technology application uses the Order fulfillment Policy decision table. For more information on configuring decision tables, see [Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-tables/decision-table.md).|
+|Configure order assignment rules to route tasks to agents, based on their skill sets|For more information on assignment rules, see [Create an assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_AssignmentModuleRule.md).|
 
 -   **[Flow actions for fulfillment subflow definition](../reference/order-mgt-flow-actions-fulfillment-subflows.md)**  
 If you define your own fulfillment subflows in Workflow Studio, you can use the standard flow actions that are available in the ServiceNow AI Platform. Each action deals with different aspects of the fulfillment or inventory maintenance that provides some consistency in retrieving and updating data.

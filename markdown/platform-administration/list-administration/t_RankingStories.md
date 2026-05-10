@@ -47,5 +47,5 @@ A product owner or release planner uses this tool to establish the order in whic
 **Related topics**  
 
 
-[bundle-itbm.agile-development]
+[Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-development.md)
 

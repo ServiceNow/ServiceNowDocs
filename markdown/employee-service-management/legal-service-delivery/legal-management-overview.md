@@ -143,7 +143,7 @@ For more information, see [Legal Mobile](../../legal-mobile/concept/legal-mobile
 
 ## Domain separation for Legal Service Delivery applications
 
-The Legal Service Delivery applications support domain separation at the Basic level. For more information, see [Domain separation and Legal Service Delivery](legal-domain-separation.md). For more information on support levels, see Application support for domain separation.
+The Legal Service Delivery applications support domain separation at the Basic level. For more information, see [Domain separation and Legal Service Delivery](legal-domain-separation.md). For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Helpful resources
 

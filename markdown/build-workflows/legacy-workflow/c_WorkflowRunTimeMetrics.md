@@ -23,12 +23,12 @@ You can monitor the results of these metrics on the Workflow Operations Dashboar
 
 The functionality found in homepages, arranging information from your instance to tell a story about your data, is found in dashboards on new instances. On upgraded instances with Next Experience enabled, users can view existing homepages if they have a direct URL, but they can't create or edit them. Responsive dashboards and Analytics Overview dashboards take over homepage functionality.
 
-Use the Homepage deprecation help tool to convert the homepages on your instance to responsive dashboards.
+Use the [Homepage deprecation help tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/homepage-deprecation-help-tool.md) to convert the homepages on your instance to responsive dashboards.
 
 For more information, see:
 
--   Dashboards in the Analytics Center.
--   Working with responsive dashboards.
+-   [Dashboards in the Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md).
+-   [Working with responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ResponsiveDashboards.md).
 
 **Parent Topic:**[Workflow administration](../../workflow/concept/c_WorkflowAdministration.md)
 
@@ -116,7 +116,7 @@ If a workflow has an outlying run time, it appears in any outlier workflow gauge
 
 When a workflow runs within the outlier range, its estimated run time is automatically updated.
 
-The estimated run time is updated with the cumulative moving average of the latest run time value in relation to previous run times. The computed value is rounded to the nearest second and stored as a GlideDateTime.
+The estimated run time is updated with the cumulative moving average of the latest run time value in relation to previous run times. The computed value is rounded to the nearest second and stored as a [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/p_GlideServerAPIs.md).
 
 For example:
 

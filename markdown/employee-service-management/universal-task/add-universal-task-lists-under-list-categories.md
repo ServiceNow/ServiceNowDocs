@@ -29,7 +29,7 @@ Role required: admin
 
 3.  On the form, fill in the fields.
 
-    For more information, see UX List form.
+    For more information, see [UX List form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/ux-list-form.md).
 
 4.  Select **Submit**.
 

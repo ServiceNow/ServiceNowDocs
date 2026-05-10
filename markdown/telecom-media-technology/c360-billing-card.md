@@ -24,7 +24,7 @@ You can do the following:
 -   Filter: Specify filters in the drop down list to view parent and child accounts.
 -   View all: 5 invoices are displayed by default. Select **View all** to view additional invoices.
 -   Select the ![](../../../reuse/icons/product-icons/open-link-right-outline-24.svg) to drill down to the invoice record page.
--   Select **Create invoice case** to create an invoice case for the billing account. See Create an invoice case for details.
+-   Select **Create invoice case** to create an invoice case for the billing account. See [Create an invoice case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/invoice-ops-create-invoice-case.md) for details.
 -   Select the Refresh icon to refresh the invoice list to reflect any newly added records or any changes made to the invoices.
 
 You can configure variables such as tables, display fields, and query conditions. See [Configure the billing card variables](../task/c360-configure-billing-card.md) for details.

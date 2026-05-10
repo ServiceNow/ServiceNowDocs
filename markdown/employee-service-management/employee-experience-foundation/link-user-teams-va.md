@@ -37,7 +37,7 @@ The authentication step occurs in your instance or in a Service Portal set by yo
 
     **Note:**
 
-    The administrator can auto-link the ServiceNow user accounts to Microsoft Teams. For more information, see Account linking in pre-built messaging integrations.
+    The administrator can auto-link the ServiceNow user accounts to Microsoft Teams. For more information, see [Account linking in pre-built messaging integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-adapter-autolinking.md).
 
 5.  On the confirmation dialog, select Confirm to link your account.
 

@@ -17,13 +17,13 @@ Use table cleaners on the inbound events table to purge event data records beyon
 
 ## Data management
 
-The data management feature allows you to enable archiving and purging of inbound event data. Database rotation and table cleanup configurations are enabled to ensure that eight weeks of event data is retained. Instance performance is preserved using ServiceNow AI Platform features such as Database rotation, table rotation, and table cleanup. A scheduled job is auto-enabled two weeks after you upgrade.
+The data management feature allows you to enable archiving and purging of inbound event data. Database rotation and table cleanup configurations are enabled to ensure that eight weeks of event data is retained. Instance performance is preserved using ServiceNow AI Platform features such as Database rotation, [table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableRotation.md), and [table cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/table-cleanup.md). A scheduled job is auto-enabled two weeks after you upgrade.
 
 ## Table rotation on processed inbound events table
 
 The DevOps processed inbound events \[sn\_devops\_processed\_inbound\_event\_list.do\] table contains copies of event data from the DevOps inbound events \[sn\_devops\_inbound\_list.do\] table, that is in state '**processed**' and '**ignored**'.
 
-The processed inbound events table has the table rotation feature enabled. In all, there are eight preconfigured shards, each containing a week's event data from the DevOps inbound event table. By default, once you have 56 days \(7 days\) \(Duration\) \*8 shards \(Rotations\) of data in the processed inbound table, table rotation is activated. For more information on applying table rotation, see Apply table rotation
+The processed inbound events table has the table rotation feature enabled. In all, there are eight preconfigured shards, each containing a week's event data from the DevOps inbound event table. By default, once you have 56 days \(7 days\) \(Duration\) \*8 shards \(Rotations\) of data in the processed inbound table, table rotation is activated. For more information on applying table rotation, see [Apply table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ApplyTableRotation.md)
 
 **Tip:** To modify table rotation configuration, navigate to **System Definitions** &gt; **Table Rotation** and open the record for DevOps processed inbound events table.
 

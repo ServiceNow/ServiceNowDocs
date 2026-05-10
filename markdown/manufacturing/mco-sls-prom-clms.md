@@ -51,7 +51,7 @@ Use the following to configure, use, and manage the sales promotions in MCO.
 Review the entities and relationships within the [Sales promotion campaign data model](../reference/sales-promotion-campaign-claims.md) application, including tables added or modified by the sales promotion plugin.
 
 1.  Configure the sales promotion: Complete the following tasks to set up sales promotion in your environment.
-    1.  Install Sales promotion claim management \[sn\_sls\_prm\_clm\_mgt\]: Installing applications, plugins, and products.
+    1.  Install Sales promotion claim management \[sn\_sls\_prm\_clm\_mgt\]: [Installing applications, plugins, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/installing-apps-app-manager.md).
     2.  Set up product models and parts: [Configuring product models](mco-product-models.md)
     3.  Set up assets and install base items: [Configuring assets](mco-assets.md) and [Create an install base item](mco-create-install-base-item.md)
     4.  Set up dealers: [Set up dealer](set-up-dealer.md)

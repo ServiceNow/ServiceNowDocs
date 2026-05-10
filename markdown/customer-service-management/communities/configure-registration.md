@@ -19,8 +19,8 @@ Community administrators perform the following tasks to configure external user 
 
 -   Configure the [external user registration properties](../reference/communities-properties.md).
 -   [Configure moderation filters](../task/configure-moderation-filters.md) to enter banned words for the user name.
--   Configure the required strength for passwords.
--   Create an email template and content. The email template that you can change is **communities.ext.regn.confirm**.
+-   [Configure the required strength for passwords](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/config-pwd-strength-rqmts.md).
+-   [Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnEmailTemplate.md) and content. The email template that you can change is **communities.ext.regn.confirm**.
 -   If not already configured, [create community terms and conditions](../task/create-terms-conditions.md) that each community user must review and accept. Communities delivers preconfigured Terms and Conditions that you can modify according to your needs.
 -   To enable external users to update their time zone when registering, add ACLs to external users in the User table \[sys\_user\].
 

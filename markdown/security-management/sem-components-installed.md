@@ -29,7 +29,7 @@ USEM also depends on components provided by some existing security operations ap
 -   [Components installed with Container Vulnerability Response](../../container-vulnerability-response/reference/installed-with-cvr-data.md#)
 -   [Components installed with Configuration Compliance](../../vulnerability-config-compliance/reference/installed-with-config-compliance.md)
 
-To view the full list of installed components, use the Application Files table. For instructions, see Find components installed with an application.
+To view the full list of installed components, use the Application Files table. For instructions, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 ## Deprecated Components
 

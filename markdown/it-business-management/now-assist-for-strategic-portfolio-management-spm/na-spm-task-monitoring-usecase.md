@@ -32,7 +32,7 @@ The email summary includes the following sections:
 -   RIDAC insights
 -   Financial insights
 
-If you want to change this agentic workflow, you can duplicate it, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+If you want to change this agentic workflow, you can [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
 
 ## Monitor project tasks agentic workflow
 
@@ -54,14 +54,14 @@ The following AI agents are used for the Monitor project tasks agentic workflow:
 
 ## Other agentic workflow
 
-For more information on other agentic workflow that are associated with the Platform workflow, see Platform agentic workflows.
+For more information on other agentic workflow that are associated with the Platform workflow, see [Platform agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-use-cases.md).
 
 **Related topics**  
 
 
-[bundle-platai.na-ai-agents]
+[Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md)
 
-[bundle-platai.install-ai-agents-plugins]
+[Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md)
 
-[bundle-platai.ai-agent-studio]
+[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)
 

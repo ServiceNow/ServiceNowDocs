@@ -13,7 +13,7 @@ breadcrumb: [Configuring the Mobile Platform, Mobile Platform]
 
 Define external users to have availability to access your instance, but without access to all the capabilities allocated to internal users. External users are usually third parties, contractors, or external agents. External users are not employees of your organization.
 
-External users can perform tasks like view knowledge base articles, create, edit and manage incidents, and use Virtual Agent chat, without affecting the security of the instance. The snc\_external role is assigned to external users and specifies that such users have fewer privileges. For more information on the snc\_external role and how it is defined, see External roles in self-registration and Explicit roles in CSM.
+External users can perform tasks like view knowledge base articles, create, edit and manage incidents, and use Virtual Agent chat, without affecting the security of the instance. The snc\_external role is assigned to external users and specifies that such users have fewer privileges. For more information on the snc\_external role and how it is defined, see [External roles in self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/external-roles-self-registration.md) and [Explicit roles in CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/explicit-roles-in-csm.md).
 
 ## Functionality not available to mobile external users
 

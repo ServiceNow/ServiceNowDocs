@@ -25,5 +25,5 @@ Several of the additional contextual search resources used by the similar case/r
 **Related topics**  
 
 
-[bundle-platai.create-similarity-solution]
+[Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md)
 

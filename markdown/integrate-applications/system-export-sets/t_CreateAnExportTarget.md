@@ -21,7 +21,7 @@ Role required: export\_set\_admin
 
 ## About this task
 
-You must use a MID Server as the export destination. For more information on MID Server configuration, see MID Server.
+You must use a MID Server as the export destination. For more information on MID Server configuration, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
 
 ## Procedure
 

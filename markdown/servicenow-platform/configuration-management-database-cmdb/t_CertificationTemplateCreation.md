@@ -65,7 +65,7 @@ Activate the Certification Core plugin to enable the Compliance functionality. S
 
         The **Show Related Fields** item supports dot-walking, enabling you to include referenced fields in a certification attribute condition. Select **Show Related Fields** or **Remove Related Fields** to add or remove referenced fields \(in the form of &lt;field&gt; =&gt; &lt;field&gt;\). Select a referenced field to drill down to the next level of referenced fields.
 
-        See Dot walking.
+        See [Dot walking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md).
 
     -   **Certification CI Relationship Conditions**: \[Desired State audit types\] Define the CI relationships to certify, such as Runs on or Depends on.
     -   **Certification User Relationship Conditions**: \[Desired State audit types\] Select the desired user relationship for this configuration item. The relationship provided in the base system is Log reviewed by.

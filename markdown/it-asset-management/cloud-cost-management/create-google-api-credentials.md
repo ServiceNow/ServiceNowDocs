@@ -44,5 +44,5 @@ Role required: insights\_admin \[sn\_clin\_core.insights\_admin\] or admin
 **Related topics**  
 
 
-[bundle-psec.r_CloudManagementCredentialsForm]
+[Cloud credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_CloudManagementCredentialsForm.md)
 

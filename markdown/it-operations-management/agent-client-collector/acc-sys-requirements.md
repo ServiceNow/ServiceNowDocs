@@ -18,7 +18,7 @@ System requirements are the fundamental specifications and configuration needed 
 Before installing the Agent Client Collector, you must do the following:
 
 -   When working with a MID Server:
-    -   Ensure that one or more MID Servers are properly registered and validated with your instance, to be available for an agent connection request. For details, see Configuring MID Servers. In a staging environment, you need only one MID Server. However, in a production environment, configure at least two MID Servers to support zero-touch configuration and ensure that a MID Server is always available if one fails.
+    -   Ensure that one or more MID Servers are properly registered and validated with your instance, to be available for an agent connection request. For details, see [Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md). In a staging environment, you need only one MID Server. However, in a production environment, configure at least two MID Servers to support zero-touch configuration and ensure that a MID Server is always available if one fails.
     -   Ensure that there's a validated connection from the designated server where you're installing the agent to the MID Server.
     -   Ensure that the MID Server port on which the Agent Client Collector listener runs is accessible.
 -   When working with MID-less deployment, follow the instructions described in [Configuring MID-less Agent Client Collector](acc-configuring-without-mid.md).

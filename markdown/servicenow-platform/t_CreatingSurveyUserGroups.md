@@ -57,5 +57,5 @@ By default, the Survey Creators user group is available. When you add a user to 
 
 [Allow recipients to retake a survey](t_AllowRecipientsToRetakeASurvey.md)
 
-[bundle-sm4e.t_CreateAGroup]
+[Create a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_CreateAGroup.md)
 

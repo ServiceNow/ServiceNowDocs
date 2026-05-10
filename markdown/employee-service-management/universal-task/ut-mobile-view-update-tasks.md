@@ -31,15 +31,15 @@ Role required: Requester
 
 4.  Go to each tab to do the following.
 
-<table id="choicetable_wlp_5xs_d4b"><thead><tr><th align="left" id="d585412e114">
+<table id="choicetable_wlp_5xs_d4b"><thead><tr><th align="left" id="d585416e114">
 
 Tab
 
-</th><th align="left" id="d585412e117">
+</th><th align="left" id="d585416e117">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d585412e123">
+</th></tr></thead><tbody><tr><td id="d585416e123">
 
 **To-Do**
 
@@ -52,7 +52,7 @@ View and complete the tasks that are assigned to you. -   If the task type is Up
 -   If the task type is Collect Employee Input, tap the ![View employee form icon](../images/icon-view-empform.png) to open the employee form. After you submit the form, the task is marked complete. If you leave the form midway, your responses are saved. You can complete and submit the form later.
 
 
-</td></tr><tr><td id="d585412e159">
+</td></tr><tr><td id="d585416e159">
 
 **Learn More**
 
@@ -60,7 +60,7 @@ View and complete the tasks that are assigned to you. -   If the task type is Up
 
 View task details.
 
-</td></tr><tr><td id="d585412e168">
+</td></tr><tr><td id="d585416e168">
 
 **Updates**
 

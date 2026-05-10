@@ -38,7 +38,7 @@ Displaying the most recent reply in the Activity stream relies on two types of c
 
 2.  Add a system property named **glide.activity.last\_viewed\_timestamp.local\_storage\_limit**.
 
-    For more information on adding a system property, see Add a system property.
+    For more information on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 3.  Set the Value to the maximum number of timestamps to store locally for displaying the most recent reply.
 

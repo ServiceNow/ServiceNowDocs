@@ -26,7 +26,7 @@ Employee Center Pro provides a robust suite of features to create, publish, and 
     -   [Modify the News feed widget](../task/modify-news-feed-widget-display.md)
     To view all the widgets installed with Content Publishing, see the widgets section of [Components installed with Content Publishing](../reference/installed-with-content-delivery.md).
 
-    For information on translating custom widgets, see Translate a client script message
+    For information on translating custom widgets, see [Translate a client script message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_TranslateAClientScriptMessage.md)
 
     To publish content to a custom widget, you must define the content type and associate it with your custom widget: [Add or modify content type for Content Publishing](../task/ecpro-manage-content-types.md)
 

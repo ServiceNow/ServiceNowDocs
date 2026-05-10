@@ -17,7 +17,7 @@ Set up and get started with IT Service Management \(ITSM\) on your instance.
 
 Role required: admin
 
--   Request for the entitlement of the Now Assist for Setup application \(sn\_ia\) from [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) and install it. See Set up Now Assist with Now Assist for Setup and Understand the Configuration page flow in Now Assist for Setup.
+-   Request for the entitlement of the Now Assist for Setup application \(sn\_ia\) from [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) and install it. See [Set up Now Assist with Now Assist for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-setup-now-assist.md) and [Understand the Configuration page flow in Now Assist for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-configure-il.md).
 -   Request for entitlement of the IT Service Management application \(sn\_ai\_itsm\_cont\) from [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
 ## About this task

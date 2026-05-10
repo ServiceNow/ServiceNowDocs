@@ -31,7 +31,7 @@ Several types of components are installed with the Facilities Service Management
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 
 [Activate Facilities Move Management](../../facilities-move-management/task/t_ActivateFacMoveMgmt.md)
 

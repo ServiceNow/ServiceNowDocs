@@ -51,11 +51,11 @@ Service Graph Connector for AWS
 
 </td><td>
 
-Service Graph Connector for AWS
+[Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-aws-sg.md)
 
 </td><td>
 
-Configure Service Graph Connector for AWS using the guided setup
+[Configure Service Graph Connector for AWS using the guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-aws-integration.md)
 
 </td></tr></tbody>
 </table>**Note:**

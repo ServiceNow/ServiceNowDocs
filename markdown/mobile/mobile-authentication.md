@@ -13,7 +13,7 @@ breadcrumb: [Configuring the Mobile Platform, Mobile Platform]
 
 Users are required to log in to an instance on their mobile device. Depending on how you configure authentication for mobile devices, users may be required to enter additional information.
 
-For more information on configuring authentication for mobile devices, see Set up OAuth.
+For more information on configuring authentication for mobile devices, see [Set up OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_SettingUpOAuth.md).
 
 **Important:** ServiceNow mobile apps support platform authentication using OAuth 2.0. Authentication mechanisms include multi provider SSO, MFA, LDAP, Local DB, and Digest. For more information, see [Mobile security](mobile-security-landing.md) and [Identity and access management](sg-mobile-ID-access-mgmt.md).
 

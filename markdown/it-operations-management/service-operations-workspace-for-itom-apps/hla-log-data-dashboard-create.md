@@ -19,7 +19,7 @@ Build Health Log Analytics log data dashboards and visualizations in real time f
 
 This functionality is supported in the Service Operations Workspace Log Analytics application, Version 21.2.7 - November 2022 and later, and has a dependency on the Platform Analytics Workspace, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
-For detailed information about creating and working with dashboards, see Dashboards in the Analytics Center.
+For detailed information about creating and working with dashboards, see [Dashboards in the Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md).
 
 **Note:** As an alternative to defining your own dashboard, you can use the AIOps dashboards, which offer comprehensive visualizations of critical operational data. For more information, see [AIOps Dashboards in Service Operations Workspace for ITOM](../../service-operations-workspace-itom/concept/aiops-dashboards-sow-itom.md).
 
@@ -47,7 +47,7 @@ Role required: evt\_mgmt\_operator or viz\_admin
     3.  Select **Create new dashboard**.
 4.  Add an element to the dashboard.
 
-    Various elements are available to help you organize and populate the information on the dashboard. For more information, see Analytics Center dashboard elements.
+    Various elements are available to help you organize and populate the information on the dashboard. For more information, see [Analytics Center dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ac-elements.md).
 
     1.  Select **Add new element**.
 
@@ -69,7 +69,7 @@ Role required: evt\_mgmt\_operator or viz\_admin
 
         You can choose from various types of graphs and charts.
 
-        For detailed information, see Data visualizations in the Analytics Center.
+        For detailed information, see [Data visualizations in the Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md).
 
     3.  In the Data section, select **+ Add data source**.
 
@@ -99,7 +99,7 @@ Role required: evt\_mgmt\_operator or viz\_admin
         2.  Specify the start and end date for the absolute period in the appropriate calendars.
     9.  Adjust the other settings of the visualization as needed.
 
-        For detailed information on settings for all the visualization types, select the link for the relevant type in Data visualizations in the Analytics Center.
+        For detailed information on settings for all the visualization types, select the link for the relevant type in [Data visualizations in the Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md).
 
     10. Add more elements as needed.
 
@@ -113,5 +113,5 @@ Role required: evt\_mgmt\_operator or viz\_admin
 **Related topics**  
 
 
-[bundle-par.share-db-in-ac]
+[Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/share-db-in-ac.md)
 

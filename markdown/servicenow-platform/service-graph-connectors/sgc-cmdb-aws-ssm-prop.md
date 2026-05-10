@@ -19,7 +19,7 @@ When the SG-AWS-Software-Inventory data source is being used, enable the **sn\_a
 
 **Important:** The **sn\_aws\_integ.is\_software\_inventory\_enabled** system property is not supported in Service Graph Connector for AWS version 2.10.0 and later.
 
-Set the application scope to Service Graph Connector for AWS using the application picker. For more information, see Application picker.
+Set the application scope to Service Graph Connector for AWS using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: admin
 

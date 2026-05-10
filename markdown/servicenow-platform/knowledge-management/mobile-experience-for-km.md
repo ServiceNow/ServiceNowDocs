@@ -19,11 +19,11 @@ To access articles from the Information applet on the Now Mobile app, you must f
 
 ![Now Mobile Information applet](../image/km-articles.png "Now Mobile Information applet")
 
-Make sure your administrator has activated the Now Mobile app. For more information, see Now Mobile app.
+Make sure your administrator has activated the Now Mobile app. For more information, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md).
 
 After you access an article, you can view the author, published date, number of views, and the overall rating details of the article. In addition, you can respond to and evaluate articles and view related items, related articles, and attachments.
 
-Using Now Mobile app, even external users can access and provide feedback to the knowledge articles. For more information about external user functionalities and capabilities, see Mobile external users.
+Using Now Mobile app, even external users can access and provide feedback to the knowledge articles. For more information about external user functionalities and capabilities, see [Mobile external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/external-user-mobile.md).
 
 ## Activation information
 
@@ -45,9 +45,9 @@ You can contribute to feedback on knowledge articles by rating an article, marki
 **Related topics**  
 
 
-[bundle-emplsm.configure-kbs]
+[Configure knowledge bases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/configure-kbs.md)
 
-[bundle-emplsm.mobile-employee-experience]
+[Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md)
 
 [View the most popular or recently viewed articles in the Now Mobile Information applet](../task/access-articles-now-mobile.md)
 

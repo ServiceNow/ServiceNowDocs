@@ -33,7 +33,7 @@ Set the **Enable to auto-restrict requests with sensitive information** property
 
 3.  On the form, verify the default field values and customize the solution as required.
 
-    For more information about the Classification Definition form fields, see Create and train classification solution.
+    For more information about the Classification Definition form fields, see [Create and train classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-solution-definition.md).
 
 
 **Parent Topic:**[Predictive Intelligence for Universal Request](../concept/predictive-intelligence-ur.md)

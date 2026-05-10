@@ -38,7 +38,7 @@ The homepage uses the Article List widget to display different lists of articles
     |Title|The title of the article list.|
     |Bootstrap color|The color of the widget.|
     |Glyph|An icon that appears in the widget.|
-    |CSS|Custom configurations that determine the look and feel of the elements in the widget. For more information, see Service Portal SCSS Primer.|
+    |CSS|Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/scss-primer.md).|
     |Table|The table that stores the list articles.|
     |Display Field|The title displayed for each article in the list. By default, this is the article short description.|
     |Secondary Fields|Additional information displayed for each article in the list below the title. By default, this information includes the author, view count, the date that the article was last modified, and the article rating.|

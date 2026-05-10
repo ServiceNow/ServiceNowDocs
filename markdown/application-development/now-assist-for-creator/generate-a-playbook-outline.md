@@ -89,7 +89,7 @@ Application scope that you want your playbook to run in. Selecting **Global** le
 
 8.  If you're ready to generate your playbook outline, select **Save and edit playbook**.
 
-    **Note:** Generating or regenerating a playbook preview counts as 10 assists. To track your Now Assist usage, see Monitoring Now Assist usage in Subscription Management. Opening a playbook does not count as an assist.
+    **Note:** Generating or regenerating a playbook preview counts as 10 assists. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md). Opening a playbook does not count as an assist.
 
 9.  To view the prompt that was used to generate a playbook, navigate to **More actions menu** &gt; **Properties** &gt; **General** &gt; **Now Assist directions**.
 
@@ -99,7 +99,7 @@ Application scope that you want your playbook to run in. Selecting **Global** le
 
 10. Configure your trigger.
 
-    For more information about triggers, see Configure your trigger.
+    For more information about triggers, see [Configure your trigger.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-configure-trigger.md)
 
 11. Configure placeholder activities by manually selecting the placeholder activity.
 
@@ -117,15 +117,15 @@ Application scope that you want your playbook to run in. Selecting **Global** le
 
     4.  In the activity picker, search for the activity, subflow, or action to add.
 
-        **Note:** Select the application first, and then the activity from the resulting list. For more information about subflows or actions, see subflow, or action.
+        **Note:** Select the application first, and then the activity from the resulting list. For more information about subflows or actions, see [subflow, or action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/automation-assets.md).
 
     5.  Configure the activity inputs.
 
-        For more information about common activities and their inputs, see Playbooks reference.
+        For more information about common activities and their inputs, see [Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-reference.md).
 
 12. If you don't see the activity that you want to add in the activity picker, create an activity definition.
 
-    For more information, see create an activity definition.
+    For more information, see [create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-activity-definition.md).
 
 13. After you configure all your stages and activities, select **Activate** in the header.
 
@@ -135,16 +135,16 @@ Application scope that you want your playbook to run in. Selecting **Global** le
 
     To publish any new changes to your playbook, select **Activate** again.
 
-    For more information, see Playbook statuses and activation states.
+    For more information, see [Playbook statuses and activation states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-status-activation-state.md).
 
 
 ## Result
 
-When your playbook's trigger conditions are met, your playbook runs. As a result, the system creates a Process Execution record and renders user-facing configurations for Playbook Experience. For an example of how to digitize a manual business process that renders as a playbook, see Create a sample playbook.
+When your playbook's trigger conditions are met, your playbook runs. As a result, the system creates a Process Execution record and renders user-facing configurations for Playbook Experience. For an example of how to digitize a manual business process that renders as a playbook, see [Create a sample playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/design-automated-process.md).
 
 ## What to do next
 
-Design the Playbook Experience for your agents and fulfillers in UI Builder. To learn how to design and customize the runtime playbook experience in UI Builder, see Customizing the Playbook Experience.
+Design the Playbook Experience for your agents and fulfillers in UI Builder. To learn how to design and customize the runtime playbook experience in UI Builder, see [Customizing the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-customize-playbook.md).
 
 **Parent Topic:**[Playbook generation](../concept/playbook-assist-landing.md)
 

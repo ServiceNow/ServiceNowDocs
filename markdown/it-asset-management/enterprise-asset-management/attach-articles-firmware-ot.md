@@ -43,5 +43,5 @@ Role required: sn\_otam.ot\_asset\_manager
 
 [Create a knowledge article for Enterprise Asset Management](create-eam-knowledge-article.md)
 
-[bundle-platcap.knowledge-management]
+[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management.md)
 

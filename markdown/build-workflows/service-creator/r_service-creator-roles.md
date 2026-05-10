@@ -15,7 +15,7 @@ breadcrumb: [Activate Service Creator, Service Creator, Build workflows]
 
 The Service Creator application uses the specific roles.
 
-To learn more about managing per-user subscriptions, see Managing per-user subscriptions in Subscription Management and contact your account representative.
+To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 |Role Title \[Name\]|Description|
 |-------------------|-----------|

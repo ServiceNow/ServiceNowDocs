@@ -53,7 +53,7 @@ Supported characters include digits \(0-9\), letters \(A-Z, a-z\), and the follo
 
 Choose the **UXR Base Experience Shell**.
 
- The app shell is the wrapper of the page contents, which is similar to the functionality of a web page. The app shell can show things like the logo of your company, user preferences, and the search icon. To learn more about the app shell options, see Define UI experiences using app shells.
+ The app shell is the wrapper of the page contents, which is similar to the functionality of a web page. The app shell can show things like the logo of your company, user preferences, and the search icon. To learn more about the app shell options, see [Define UI experiences using app shells](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/app-shells-uibuilder.md).
 
 </td></tr><tr><td id="d75084e139">
 
@@ -155,7 +155,7 @@ View mode used to render Playbook activities in stacked or focused mode.
 The tab that your page opens to by default.
 
 </td></tr></tbody>
-</table>10. Setup your default page variant.
+</table>10. Setup your default [page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md).
 
 <table id="table_frz_wd3_q1c"><tbody><tr><td>
 

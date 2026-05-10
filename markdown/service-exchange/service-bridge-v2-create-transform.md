@@ -149,7 +149,7 @@ When Type field is set to **Virtual Inbound** or **Virtual Outbound**, this fiel
         |Customer label|Option that designates the customer's choice label. For example, Progress.|
         |Customer value|Option that designates the customer's choice value. For example, 2.|
 
-        **Note:** You can generate transform mappings between provider and consumer tables automatically using the Transform Mapping Assist feature. For more information, see Automate transforms with Now Assist for TMT.
+        **Note:** You can generate transform mappings between provider and consumer tables automatically using the Transform Mapping Assist feature. For more information, see [Automate transforms with Now Assist for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-transform-maps.md).
 
     2.  **Advanced**: Use a script to define the outbound and inbound labels and values as shown in the following example:
 

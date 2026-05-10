@@ -33,8 +33,8 @@ approval\_summarizer can only be used on approval forms in the global scope.
 
 4.  Complete the rest of the form and click **Submit**.
 
-5.  Create a formatter and add it to a form and add it to the appropriate form.
+5.  [Create a formatter and add it to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAFormatter.md) and add it to the appropriate form.
 
-    To learn more about activity formatters, see Activity formatter.
+    To learn more about activity formatters, see [Activity formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ActivityFormatter.md).
 
 

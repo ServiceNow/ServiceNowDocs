@@ -64,13 +64,13 @@ View a list of all the data fabric tables that data stewards have created on the
 
 -   **Analyzing data and generating AI-guided insights using AI Data Explorer**
 
-    Create visualizations and analyses of fetched data through a conversational interface in AI Data Explorer. For more information, see Use AI to explore data with AI Data Explorer.
+    Create visualizations and analyses of fetched data through a conversational interface in AI Data Explorer. For more information, see [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-explorer.md).
 
-    **Note:** You must first add the relevant data fabric tables to the Semantic Table Configuration \[sn\_query\_gen\_table\_config\] table in Query Generation. See Add a table to the semantic data layer.
+    **Note:** You must first add the relevant data fabric tables to the Semantic Table Configuration \[sn\_query\_gen\_table\_config\] table in Query Generation. See [Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-table-semantic-layer.md).
 
 -   **Enhancing the performance of AI experiences using the Knowledge Graph**
 
-    Enhance the performance of Now Assist Virtual Agent, AI agents, and generative AI skills by leveraging data fabric tables in the Knowledge Graph application. For more information, see Knowledge Graph.
+    Enhance the performance of Now Assist Virtual Agent, AI agents, and generative AI skills by leveraging data fabric tables in the Knowledge Graph application. For more information, see [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md).
 
 
 ## Differences between data fabric tables and remote tables

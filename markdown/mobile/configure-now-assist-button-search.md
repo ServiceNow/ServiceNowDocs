@@ -17,7 +17,7 @@ Add a conversational chat button to standard catalog search results in mobile. T
 
 Role required: admin
 
-Verify that Now Assist in AI Search and Now Assist Self Service Enhanced Chat are enabled for the catalog items you want to display the chat button on. See Now Assist in AI Search and Display your chat assistant on a portal, channel, or mobile app for more information.
+Verify that Now Assist in AI Search and Now Assist Self Service Enhanced Chat are enabled for the catalog items you want to display the chat button on. See [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-ais.md) and [Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md) for more information.
 
 ## Procedure
 

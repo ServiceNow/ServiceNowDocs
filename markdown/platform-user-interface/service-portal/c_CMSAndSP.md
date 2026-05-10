@@ -37,7 +37,7 @@ Service Portal is an alternative to CMS based on more modern technologies. Major
 
     -   Any scripts used in Service Portal can only use APIs supported in a mobile environment. For example, some APIs used in your Service Catalog client scripts may not be supported. For a list of supported APIs, see [Service Portal and client scripts](unsupported_client_scripts.md).
     -   Service Portal forms support a maximum of two-columns. As a result, any highly customized Service Catalog forms, such as catalog items and record producers that use containers and variable sets, must be simplified to work in a two-column layout.
-    If transitioning to Service Portal, review the following resource: Mobile client GlideForm \(g form\) scripting and migration.
+    If transitioning to Service Portal, review the following resource: [Mobile client GlideForm \(g form\) scripting and migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_MobilePlatformMigrationImpacts.md).
 
 
 To understand how core CMS components are configured in Service Portal, refer to the following table.

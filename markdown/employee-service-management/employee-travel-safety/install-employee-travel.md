@@ -106,7 +106,7 @@ See the [Commercial downloads for the Emergency Response Management and Safe Wor
 
 Several types of components are installed with Employee Travel Safety, including user roles and tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 ### Roles installed
 

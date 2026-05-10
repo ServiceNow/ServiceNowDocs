@@ -164,7 +164,7 @@ Use the step-by-step guidance provided by playbooks to complete tasks and resolv
 
 </td><td>
 
-Interact with playbooks
+[Interact with playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md)
 
 </td></tr><tr><td>
 

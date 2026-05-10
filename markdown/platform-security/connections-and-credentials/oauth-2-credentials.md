@@ -6,7 +6,7 @@ release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: reference
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 3
 breadcrumb: [Create and test your credentials, Get started with credentials, Connections and Credentials, Access Management]
 ---
@@ -76,9 +76,9 @@ Ensure that you are aware of these considerations if you have selected the **Con
 -   Ensure that there is at least one MID Server \(in the MID Servers selected in **Applies to**\) with these configurations:
     -   The value of the **Status** field is **Up**.
     -   The value of the **Validated** field is **Yes**.
-    -   The capability of the MID Server is set to **REST** or **ALL**. To learn how to configure the MID server, see .![MID Server status.](../image/MidServerDashbardGaugeOAuth2.0.png)
+    -   The capability of the MID Server is set to **REST** or **ALL**. To learn how to configure the MID server, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/configure-capabilities.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/configure-capabilities.md).![MID Server status.](../image/MidServerDashbardGaugeOAuth2.0.png)
 
-To learn more about these statuses, see MID Server dashboard.
+To learn more about these statuses, see [MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerDashboard.md).
 
 
 </td></tr><tr><td>

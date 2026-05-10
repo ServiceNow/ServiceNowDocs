@@ -19,7 +19,7 @@ The \[AppSec\] Daily Data Management job is a regularly scheduled job that runs 
     -   If you entered a valid user into the **Run As** field, the job continues processing. A valid user is one that is not locked out of the instance and has an assigned admin role.
     -   If you entered an invalid user, an error message appears above the rotating security banner in the Instance Security Center.
 
-        **Note:** To learn more about updating the assigned user when running scheduled jobs, see Create or schedule a data collection job.
+        **Note:** To learn more about updating the assigned user when running scheduled jobs, see [Create or schedule a data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreatASchedDataCollJob.md).
 
 2.  Executes business logic to set the compliance state for the security properties you configure in the Hardening Compliance Configuration page. To learn more, see [Check the daily compliance score and configure security property settings](instance-sec-center-hardening.md).
 3.  Runs the \[PA AppSec\] Daily Data Collection performance analytics job to collect compliance data and update the Daily Compliance Score.

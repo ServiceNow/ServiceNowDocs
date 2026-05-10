@@ -30,7 +30,7 @@ For details on configuring MCP connections in Build Agent, see [Connect Build Ag
 
 Build Agent can use any MCP connection that's available in an instance's registry, though you must manually authenticate the connection the first time you want to use it with Build Agent.
 
-For details on adding a new MCP connection in Workflow Data Fabric, see Model Context Protocol connectors.
+For details on adding a new MCP connection in Workflow Data Fabric, see [Model Context Protocol connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/model-context-protocol-connector.md).
 
 An example prompt could be something like the following: `Let's create a new project to track my baby's sleep and create issues in Linear based on inputs from the tracker`.
 

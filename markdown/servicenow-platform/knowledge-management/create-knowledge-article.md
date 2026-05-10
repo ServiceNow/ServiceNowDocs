@@ -120,7 +120,7 @@ The date this knowledge article expires. Articles don’t appear in search resul
 
  On the first day of each month, the application sends an email notification to a list of authorized recipients to remind them about articles that are expire in the next month. The recipient can then extend the **Valid to** date to continue using the article. For more information, see [Managing email notifications in Knowledge Management](../concept/email-notifications-km.md).
 
- **Note:** If the system date format or user preferences is set to use `yy` year format, you might face issues when the **Valid to** date is set to the default date. Contact your administrator or modify the user preferences to use a date format with the `yyyy` year format. For more information, see Global date and time field format and Personalize the system date format topics.
+ **Note:** If the system date format or user preferences is set to use `yy` year format, you might face issues when the **Valid to** date is set to the default date. Contact your administrator or modify the user preferences to use a date format with the `yyyy` year format. For more information, see [Global date and time field format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_FormatDateAndTimeFields.md) and [Personalize the system date format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_PersonalizeTheSystemDateFormat.md) topics.
 
 </td></tr><tr><td>
 
@@ -218,7 +218,7 @@ Meta
 
 </td><td>
 
-Tags for optimizing search from external search engines. Separate multiple entries by commas. You may need to configure the form to add this field. For more information, see Configuring the form layout.**Note:** If AI Search is enabled for the Knowledge Management Service Portal, the tags you add to the **Meta** field aren't indexed. To fine-tune AI Search results, your administrator can configure result improvement rules. For more information, see AI Search in Service Portal.
+Tags for optimizing search from external search engines. Separate multiple entries by commas. You may need to configure the form to add this field. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).**Note:** If AI Search is enabled for the Knowledge Management Service Portal, the tags you add to the **Meta** field aren't indexed. To fine-tune AI Search results, your administrator can configure result improvement rules. For more information, see [AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/ai-search.md).
 
 </td></tr></tbody>
 </table>    **Note:** The **Confidence** and **Governance** fields appear when the Knowledge Management KCS Capabilities plugin \(com.snc.knowledge\_kcs\_capabilities\) is activated. For more information, see [Managing KCS article states](../concept/managing-kcs-article-states.md).

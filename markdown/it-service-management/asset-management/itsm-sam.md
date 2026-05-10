@@ -17,7 +17,7 @@ The software asset management features of the ITSM suite can be activated using 
 
 **Note:** These features support IT service management processes related to software assets.
 
-For the Software Asset Management product \(requires a separate subscription\), see Software Asset Management.
+For the Software Asset Management product \(requires a separate subscription\), see [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMOverview.md).
 
 **Note:** The Software Asset Management product is a standalone application supporting advanced use cases for software asset management.
 

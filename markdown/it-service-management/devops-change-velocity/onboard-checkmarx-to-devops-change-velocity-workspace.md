@@ -29,15 +29,15 @@ Checkmarx has two types of tools - Checkmarx SAST and Checkmarx One.
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Checkmarx.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d309621e81">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d309643e81">
 
 Option
 
-</th><th align="left" id="d309621e84">
+</th><th align="left" id="d309643e84">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d309621e90">
+</th></tr></thead><tbody><tr><td id="d309643e90">
 
 **Homepage**
 
@@ -47,7 +47,7 @@ Steps
 2.  On the  Connect to a tool  modal, select **Checkmarx One** or **Checkmarx SAST** from the **Security** category.
 
 
-</td></tr><tr><td id="d309621e120">
+</td></tr><tr><td id="d309643e120">
 
 **Applications module**
 
@@ -59,7 +59,7 @@ Steps
 4.  On the  Connect to a tool  modal, select **Checkmarx One** or **Checkmarx SAST** from the **Security** category.
 
 
-</td></tr><tr><td id="d309621e172">
+</td></tr><tr><td id="d309643e172">
 
 **Tools module**
 
@@ -76,15 +76,15 @@ Steps
 
 3.  On the instance details playbook activity section, enter the following credentials based on whether you are connecting to Checkmarx One or Checkmarx SAST.
 
-<table id="choicetable_e1f_tgd_xyb"><thead><tr><th align="left" id="d309621e243">
+<table id="choicetable_e1f_tgd_xyb"><thead><tr><th align="left" id="d309643e243">
 
 Tool
 
-</th><th align="left" id="d309621e246">
+</th><th align="left" id="d309643e246">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d309621e252">
+</th></tr></thead><tbody><tr><td id="d309643e252">
 
 **Checkmarx SAST**
 
@@ -95,7 +95,7 @@ Steps
 3.  In the **API key** field, enter the API key of your Checkmarx SAST instance.
 
 
-</td></tr><tr><td id="d309621e287">
+</td></tr><tr><td id="d309643e287">
 
 **Checkmarx One**
 

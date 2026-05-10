@@ -31,17 +31,17 @@ Activation
 
 </th></tr></thead><tbody><tr><td>
 
-Customer Service Virtual Agent conversations
+[Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-virtual-agent-chatbot.md)
 
 </td><td>
 
 Plugin name: com.sn\_csm.virtualagent
 
- For more information about activating a plugin, see Activate a plugin.
+ For more information about activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 </td></tr><tr><td>
 
-Field Service Virtual Agent Conversations
+[Field Service Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/fsm-va-conversation.md)
 
 </td><td>
 
@@ -51,7 +51,7 @@ Request the Field Service Virtual Agent Conversations and Field Service NLU Mode
 
 </td></tr><tr><td>
 
-Human Resources Virtual Agent conversations
+[Human Resources Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.md)
 
 </td><td>
 
@@ -61,7 +61,7 @@ Request the HR Service Delivery Virtual Agent Conversations app from the Service
 
 </td></tr><tr><td>
 
-ITSM Virtual Agent Conversations
+[ITSM Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-virtual-agent.md)
 
 </td><td>
 
@@ -71,7 +71,7 @@ Request ITSM Virtual Agent and the ITSM NLU Model for Virtual Agent Conversation
 
 </td></tr><tr><td>
 
-Legal Virtual Agent Conversations
+[Legal Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-va-conversations.md)
 
 </td><td>
 
@@ -90,7 +90,7 @@ Virtual Agent Platform topics and topic blocks
 
 Plugin name: com.glide.cs.chatbot
 
- For more information about activating a plugin, see Activate a plugin.
+ For more information about activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 </td></tr></tbody>
 </table>**Note:** The plugins for the CSM, HR Service Delivery, and ITSM predefined conversations also install their prebuilt ServiceNow NLU models and topic blocks. The Glide Virtual Agent plugin installs the prebuilt NLU model for setup topics, as well as platform topic blocks.
@@ -107,7 +107,7 @@ For details on creating, testing \(previewing\), duplicating, and publishing a t
 ## Working with prebuilt ServiceNow NLU models in ServiceNow NLU Workbench
 
 -   Reviewing a prebuilt NLU model – After you install the plugins for predefined topics, you can view the prebuilt models in NLU Workbench. The prebuilt NLU models for ServiceNow applications define the intents, entities, and utterances used for the predefined topics. These models are also trained and published. You can also review the utterances for a prebuilt model in Virtual Agent Designer. However to copy a prebuilt model, you use NLU Workbench.
--   Duplicating prebuilt NLU models – Although prebuilt NLU models are read only and can't be edited, you can Duplicate an NLU model prebuilt NLU models to create your own NLU models and Import an NLU intent from prebuilt models or other NLU models that you create in NLU Workbench.
+-   Duplicating prebuilt NLU models – Although prebuilt NLU models are read only and can't be edited, you can [Duplicate an NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/clone-nlu-model.md) prebuilt NLU models to create your own NLU models and [Import an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/import-nlu-intent.md) from prebuilt models or other NLU models that you create in NLU Workbench.
 
-For details on creating, training, and publishing ServiceNow NLU models, see Natural Language Understanding.
+For details on creating, training, and publishing ServiceNow NLU models, see [Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-landing.md).
 

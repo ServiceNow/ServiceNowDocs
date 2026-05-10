@@ -21,7 +21,7 @@ The following plugins are activated when you enable the Public Sector Digital Se
 -   Customer Service Portal \(com.glide.service-portal.customer-portal\)
 -   Customer Service Install Base Management \(com.snc.install\_base\)
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 

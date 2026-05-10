@@ -29,7 +29,7 @@ Roles required:
     -   Resource types for which you want to track the configuration change
 -   ServiceNow roles:
     -   discovery\_admin
-    -   sn\_cmp.cloud\_event\_integration: The access credentials of a ServiceNow user with the sn\_cmp.cloud\_event\_integration role is required to subscribe the instance to the SNS notifications. For more information, see Create a user and Assign a role to a user.
+    -   sn\_cmp.cloud\_event\_integration: The access credentials of a ServiceNow user with the sn\_cmp.cloud\_event\_integration role is required to subscribe the instance to the SNS notifications. For more information, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md) and [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
 ## About this task
 

@@ -15,7 +15,7 @@ breadcrumb: [Portal performance optimization, Admin configurations, Configuring 
 
 Learn more about the heavy-load and high-traffic scenarios and ways to optimize the user experience and portal performance.
 
-The Service Portal Designer **Defer widget loading** option helps configure the widgets load in a skeleton view. For more information, see Create and edit a page using the Service Portal Designer. The key benefits are:
+The Service Portal Designer **Defer widget loading** option helps configure the widgets load in a skeleton view. For more information, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md). The key benefits are:
 
 -   Improve performance and reduce initial load times.
 -   Enhance the user experience with skeleton loaders.

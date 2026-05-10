@@ -39,7 +39,7 @@ The integration of Intelligent Search for CMDB with the CMDB Query Builder is co
 
 ## AI Search and CMDB
 
-NLQ Genius Results for AI Search use natural language queries to find CMDB tables that match your search without leaving a portal or workspace. For more information, see NLQ Genius Results.
+NLQ Genius Results for [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md) use natural language queries to find CMDB tables that match your search without leaving a portal or workspace. For more information, see [NLQ Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-result-nlq-ais.md).
 
 **Note:** AI Search is a complementary search experience that allows you to surface CMDB records in your normal flow of work, without having to access the CMDB Query Builder. It doesn't replace intelligent Search for CMDB, which is purpose-built and integrated into CMDB Query Builder.
 

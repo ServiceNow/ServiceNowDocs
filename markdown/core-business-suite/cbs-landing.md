@@ -24,7 +24,7 @@ Provide suppliers in your organization an easy resolution for the following requ
 -   Raise a general inquiry from the supplier catalog.
 -   Raise an invoice request on Accounts Payable Operations.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 Choose one of these tiles to get started.
 

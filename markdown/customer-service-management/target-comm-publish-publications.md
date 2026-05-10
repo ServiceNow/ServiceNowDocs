@@ -21,7 +21,7 @@ Role required: sn\_publications.author or sn\_publications.admin
 
 Publications are automatically published at the date and time selected in the **Publish Date** field on the Publication form. When creating a publication, set the **Publish Date** and the **Expiry Date** fields to control when the publication is automatically published and expired.
 
-**Note:** A UI action to manually publish a publication is not available out of box. If needed, the system administrator can Create a UI action and add it to the Publication form.
+**Note:** A UI action to manually publish a publication is not available out of box. If needed, the system administrator can [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md) and add it to the Publication form.
 
 When creating a publication, you can also include an optional email notification that is sent to all recipients in the recipients list when the publication is published. In this email notification, all recipients are included in a **bcc** list to maintain privacy.
 

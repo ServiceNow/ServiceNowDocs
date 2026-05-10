@@ -23,7 +23,7 @@ Role required: admin
 
 Update the SPSEOHeaderTagsArticleView script include to add canonical URLs and**hreflang** tags to the knowledge article view page. You can also add custom header tags to the knowledge article view page by implementing the generateCustomTagsForSEO function.
 
-**Note:** The metatags will be added to the Knowledge Article View \[kb\_article\_view\] only when viewed by the user agents mentioned in **glide.knowman.serviceportal.seo\_user\_agent** system property. For more information, see Create and edit a page using the Service Portal Designer.
+**Note:** The metatags will be added to the Knowledge Article View \[kb\_article\_view\] only when viewed by the user agents mentioned in **glide.knowman.serviceportal.seo\_user\_agent** system property. For more information, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md).
 
 For information about the default behavior of canonical URLs and **hreflang** tags for the knowledge article view page, see [SEO for canonical URLs and localized versions of knowledge articles](../concept/seo-knowledge.md).
 
@@ -78,7 +78,7 @@ Return a SEO optimized HTML content for SEO bots
 Modify the generateSEOTags function to return the SEO optimized HTML content in items.customSEOHTML.
 
 </td></tr></tbody>
-</table>    For more information about configuring script includes, see Script includes.
+</table>    For more information about configuring script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
 5.  Click **Update**.
 

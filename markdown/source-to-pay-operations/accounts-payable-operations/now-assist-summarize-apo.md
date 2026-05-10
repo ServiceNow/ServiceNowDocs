@@ -34,15 +34,15 @@ You can use these record summarization skills in either Core UI or Source-to-Pay
 
 3.  Generate a summary for either an invoice case record or an inquiry case record.
 
-<table id="choicetable_x5b_1vk_pdc"><thead><tr><th align="left" id="d84926e108">
+<table id="choicetable_x5b_1vk_pdc"><thead><tr><th align="left" id="d84616e108">
 
 Option
 
-</th><th align="left" id="d84926e111">
+</th><th align="left" id="d84616e111">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d84926e117">
+</th></tr></thead><tbody><tr><td id="d84616e117">
 
 **Generate a summary for the invoice case record.**
 
@@ -53,7 +53,7 @@ Procedure
 3.  Open an invoice record and select **Cases**.
 
 
-</td></tr><tr><td id="d84926e155">
+</td></tr><tr><td id="d84616e155">
 
 **Generate a summary for the inquiry case record.**
 
@@ -84,15 +84,15 @@ Procedure
     -   **Next steps**: Lists the actions that the AP fulfillers must take next.
 6.  When you finish summarizing a record, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d84926e264">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d84616e264">
 
 Option
 
-</th><th align="left" id="d84926e267">
+</th><th align="left" id="d84616e267">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d84926e273">
+</th></tr></thead><tbody><tr><td id="d84616e273">
 
 **Save the summary information by adding it to the recorded work notes**
 
@@ -103,7 +103,7 @@ Procedure
 3.  Select **Save to work notes**.![Save to work notes dialog box.](../image/sharetoworknotes-apo.png)
 
 
-</td></tr><tr><td id="d84926e305">
+</td></tr><tr><td id="d84616e305">
 
 **Expand or collapse the summary**
 
@@ -111,7 +111,7 @@ Procedure
 
 Select the expanded card icon \(![Expand card icon.](../../sourcing-procurement-operations/image/icon-expand.png)\) or the collapse card icon \(![Collapse card icon.](../../sourcing-procurement-operations/image/icon-collapse.png)\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d84926e326">
+</td></tr><tr><td id="d84616e326">
 
 **Provide feedback for the summary**
 
@@ -119,7 +119,7 @@ Select the expanded card icon \(![Expand card icon.](../../sourcing-procurement-
 
 If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../../sourcing-procurement-operations/image/icon-helpful.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../../sourcing-procurement-operations/image/icon-not-helpful.png)\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d84926e349">
+</td></tr><tr><td id="d84616e349">
 
 **Copy the record summary**
 
@@ -127,7 +127,7 @@ If you think that the summary was helpful, select the helpful icon \(![Helpful i
 
 Select the copy to clipboard icon \(![Copy to clipboard icon.](../../supplier-lifecycle-operations/image/icon-copy.png)\) to use the record summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d84926e365">
+</td></tr><tr><td id="d84616e365">
 
 **View the information about the record summary**
 

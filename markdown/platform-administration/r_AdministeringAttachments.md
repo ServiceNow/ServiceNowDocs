@@ -17,7 +17,7 @@ Administrators can configure system properties for how files are uploaded and at
 
 When you store an attachment to any table, a record is created in the Attachment \[sys\_attachment\] table that contains attachment metadata. The file data is stored in the Attachment Document \[sys\_attachment\_doc\] table, in 4k chunks. For example, if you attach a 12k file called **My\_attachment.pdf**, then there is an Attachment entry with three related Attachment Document entries.
 
-To learn how to upload attachments to records, see Add and manage attachments.
+To learn how to upload attachments to records, see [Add and manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_AddingAnAttachment.md).
 
 ## Activity stream thumbnail scaling
 

@@ -15,7 +15,7 @@ breadcrumb: [Lifecycle Events reference, Lifecycle Events, Employee Journey Mana
 
 Several types of components install with the activation of the Human Resources Scoped App: Lifecycle Events \[com.sn\_hr\_lifecycle\_events\] plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature, and it’s used in some related example tasks.
 
@@ -150,11 +150,11 @@ The Lifecycle Events administrator \(sn\_hr\_le.admin\) role with the Delegated 
 
 You can assign these roles to the appropriate roles, groups, or users in your application.
 
--   To assign a role to another role, see Add a role to an existing role.
--   To assign a role to a group, see Assign a role to a group.
--   To assign a role to a user, see Assign a role to a user.
+-   To assign a role to another role, see [Add a role to an existing role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AddARoleToAnExistingRole.md).
+-   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
+-   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
-For further information on user administration and how to manage users, see User administration.
+For further information on user administration and how to manage users, see [User administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_UserAdministration.md).
 
 ## Tables installed
 
@@ -275,7 +275,7 @@ Future To-dos\[sn\_hr\_le\_future\_todo\]
 Tracks details about activities waiting to be triggered.
 
 </td></tr></tbody>
-</table>For further information on table administration and how to manage data, see Table administration.
+</table>For further information on table administration and how to manage data, see [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_TableAdministration.md).
 
 **Parent Topic:**[Lifecycle Events reference](../concept/lifecycle-events-reference.md)
 

@@ -29,6 +29,6 @@ Role required: admin
 
 4.  In Application Manager, review the entitlements and install a connector.
 
-    For more information, see Application Manager.
+    For more information, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md).
 
 

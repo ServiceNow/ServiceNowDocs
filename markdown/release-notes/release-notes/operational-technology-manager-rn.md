@@ -17,13 +17,13 @@ The ServiceNow® Operational Technology Manager application enables you to aggre
 -   Get a deeper look into your OT network with the OT network map in the Industrial Workspace, where you can view a site, its subnets, and the OT devices in each subnet.
 -   Keep your OT device data updated by using the Configuration Management Database \(CMDB\) OT class model updates and UI enhancements.
 
-See for Operational Technology Manager more information.
+See for [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/operational-technology-manager.md) more information.
 
 **Important:** Operational Technology Manager is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **ServiceNow product tiers**
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -33,11 +33,11 @@ See for Operational Technology Manager more information.
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
--   **Operational Technology Network Map**
+-   **[Operational Technology Network Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/utilizing-ot-network-map.md)**
 
     Use the OT network map available in the Industrial Workspace to view the subnets of a site and the OT devices in each subnet.
 
--   **CMDB OT class model updates**
+-   **[CMDB OT class model updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-operation-technology.md)**
 
     Configure for your OT devices with the following CMDB OT class model updates:
 
@@ -90,34 +90,34 @@ See for Operational Technology Manager more information.
 
 ## UI changes
 
--   **Automated IT OT Bulk Conversion name change**
+-   **[Automated IT OT Bulk Conversion name change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/automatically-convert-it-records-to-ot-devices.md)**
 
     The Automated IT OT Bulk Conversion menu item was replaced with Automated IT OT Bulk Contextualization on the ServiceNow AI Platform.
 
--   **Banner messages for the Bulk Update Ruleset for Reassigning IT to OT feature**
+-   **[Banner messages for the Bulk Update Ruleset for Reassigning IT to OT feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/automatically-convert-it-records-to-ot-devices.md)**
 
     A banner message was modified during the Bulk Update Ruleset for Reassigning IT to OT feature process to reflect the correct information when you use this feature.
 
--   **IP Network Subnets related list**
+-   **[IP Network Subnets related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/ot-assets-related-links-and-lists.md)**
 
     The IP Network Subnets list was added for OT devices so you can see all subnets the selected OT device is associated with.
 
--   **VLAN related list**
+-   **[VLAN related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/ot-assets-related-links-and-lists.md)**
 
     The VLAN related list was added to the OT device form view to show the VLANs associated with a device.
 
 
 ## Changed in this release
 
--   **Use CMDB groups to add OT context to IT CIs**
+-   **[Use CMDB groups to add OT context to IT CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/use-cmdb-groups-it-ot-conversion.md)**
 
     When you use CMDB groups to add OT context to IT CIs, you can no longer create an Automated IT OT Bulk Contextualization record with more than one CMDB group.
 
--   **Automated IT OT Bulk Contextualization - Using CMDB groups scheduled job**
+-   **[Automated IT OT Bulk Contextualization - Using CMDB groups scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/use-cmdb-groups-it-ot-conversion.md)**
 
     The **Automated IT OT Bulk Contextualization - Using CMDB groups** scheduled job can only process 10,000 CIs at one time. If you have more than 10,000 CIs, the remaining CIs will be processed in the next job run.
 
--   **Admin role dependency**
+-   **[Admin role dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md)**
 
     Several new granular admin roles were added to enable developers to complete administrative configuration tasks without requiring the full admin role.
 
@@ -136,7 +136,7 @@ Install Operational Technology Manager by requesting it from the ServiceNow Stor
 
 ## Related ServiceNow applications and features
 
--   **CMDB CI Class Models app**
+-   **[CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md)**
 
     The CMDB CI Class Models store application enables Operational Technology Manager to import and classify device data in ServiceNow. The Operational Technology Manager application automatically installs the latest version of the OT extension classes, available in the CMDB CI Class Models application in the ServiceNow Store.
 

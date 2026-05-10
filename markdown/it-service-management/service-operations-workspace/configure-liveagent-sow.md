@@ -15,7 +15,7 @@ breadcrumb: [Operating IT services in your organization, Service Operations Work
 
 Service Operations Workspace enables agents to work on any incident created using Live Agent chat.
 
-An application admin can integrate the Live Agent into the ServiceNow application by installing the com.glide.interaction.awa plugin. For more information about installing and enabling a plugin, see Activate a plugin.
+An application admin can integrate the Live Agent into the ServiceNow application by installing the com.glide.interaction.awa plugin. For more information about installing and enabling a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 After the plugin installation, an inbox icon ![Inbox icon.](../../configurable-workforce-optimization-itsm/image/inbox-icon.jpg) appears in the sidebar of the Service Operations Workspace window.
 
@@ -29,7 +29,7 @@ Once the agent accepts the chat, the Inbox is hidden, allowing the agent to focu
 
 ![](../image/chat-hidden-ims.png)
 
-For more information about Live Agent chat integration, see Move from Connect Support to Advanced Work Assignment and Agent Chat.
+For more information about Live Agent chat integration, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/migrate-from-connect-support.md).
 
 **Parent Topic:**[Operating IT services in your organization](enhancing-services-operations-in-organization.md)
 

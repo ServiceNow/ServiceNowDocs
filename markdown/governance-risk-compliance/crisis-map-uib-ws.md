@@ -24,7 +24,7 @@ The Crisis map displays real‑time alerts from integrated threat feeds. Users c
 
     To enable the search functionality in Crisis map, you must set the **sn\_bcm\_map.use\_google\_places\_lib** system property. For more information on setting the property, see [Properties installed with BCM](../reference/properties-bcm.md).
 
-    To enable Crisis map functionality in the GRC: Crisis map application, you must set up Google maps. For more information, see Set up Google Maps API.
+    To enable Crisis map functionality in the GRC: Crisis map application, you must set up Google maps. For more information, see [Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-google-maps-api.md).
 
 -   Asset and task details for assessing risk and acting on alerts
 

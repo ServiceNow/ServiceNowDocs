@@ -19,7 +19,7 @@ You must have the admin role to activate these additional plugins for AWA.
 
 ## Targeted routing capabilities plugins
 
-Install the following plugins from the AWA Home experience's Get targeted routing capabilities section or the Available Plugins section. If you'd rather search for each plugin individually, see Activate a plugin.
+Install the following plugins from the AWA Home experience's Get targeted routing capabilities section or the Available Plugins section. If you'd rather search for each plugin individually, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 <table id="table_n1y_ml5_rfb"><thead><tr><th>
 
@@ -56,7 +56,7 @@ Enables base system configuration data supporting routing, queuing, and assignme
 </td></tr></tbody>
 </table>## Popular plugins
 
-Install the following plugins from the AWA Home experience's Get the most popular plugins section or the Available Plugins section. If you'd rather search for each plugin individually, see Activate a plugin.
+Install the following plugins from the AWA Home experience's Get the most popular plugins section or the Available Plugins section. If you'd rather search for each plugin individually, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 <table id="table_oys_rs3_rvb"><thead><tr><th>
 

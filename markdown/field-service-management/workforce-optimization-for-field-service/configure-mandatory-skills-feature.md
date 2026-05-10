@@ -28,7 +28,7 @@ To configure the mandatory skills feature for use with Customer Service Manageme
         **Note:** The Case form should use either the **Skills** field or the Task Skills table, but not both.
 
 -   \[Optional\] For existing cases that have data populated in the **Skills** field on the Case form, run the **Migrate Skills to Task Skill M2M** script to move this data to the Task Skills table. By default, this fix script migrates the skills from existing entries in the Case, Work Order, and Work Order Task tables to the Task Skills table. For more information, see [Migrate skills to the Task Skill table](../../field-service-management/task/migrate-skills-m2m-table.md).
--   If you are using the assignment workbench, replace the **Matching Skills** matching criteria with the **Matching Skills - Mandatory Skills Support** matching criteria. For more information, see Matching rules for case assignment.
+-   If you are using the [assignment workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-assignment-workbench.md), replace the **Matching Skills** matching criteria with the **Matching Skills - Mandatory Skills Support** matching criteria. For more information, see [Matching rules for case assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-assignment-matching-criteria.md).
 
 ## Field Service Management configuration
 

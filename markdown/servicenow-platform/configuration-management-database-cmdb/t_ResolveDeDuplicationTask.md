@@ -153,5 +153,5 @@ Analyze de-duplication tasks to determine which CIs should remain active and whi
 
 [Relation qualifier](../concept/c_RelationQualifier.md)
 
-[bundle-platadm.t_CreatingADocumentIDField]
+[Document ID field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingADocumentIDField.md)
 

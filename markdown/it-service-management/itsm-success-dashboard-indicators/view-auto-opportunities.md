@@ -31,7 +31,7 @@ Role required: sn\_sd.success\_dashboard\_details\_read
 
 5.  Select **View in Automation Discovery**.
 
-    For more information on Automation Discovery, refer Automation Discovery.
+    For more information on Automation Discovery, refer [Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/automation-discovery.md).
 
 
 **Parent Topic:**[Configuring ITSM Success Dashboard indicators](../concept/configure-success-dashboards.md)

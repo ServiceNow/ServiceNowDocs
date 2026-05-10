@@ -19,7 +19,7 @@ Role required: admin
 
 Individuals performing entitlement must have a Now Support account and have permission to request applications for the instances under consideration.
 
-**Note:** This process applies only to applications downloaded to production instances. If you are downloading applications to sub-production or development instances, it is not necessary to get entitlements. Proceed to Activate a ServiceNow Store application.
+**Note:** This process applies only to applications downloaded to production instances. If you are downloading applications to sub-production or development instances, it is not necessary to get entitlements. Proceed to [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-entitled-store-app.md).
 
 ## Procedure
 

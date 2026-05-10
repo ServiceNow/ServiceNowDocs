@@ -25,7 +25,7 @@ You can move the following content entities across environments:
 -   Resource blocks
 -   Cloud APIs
 
-Use the update sets to move the content entities. Update sets, which are XML files, group all the content into named sets and then moves these sets, as a unit, to other systems for testing or deployment. For information on how system update sets work, see System update sets .
+Use the update sets to move the content entities. Update sets, which are XML files, group all the content into named sets and then moves these sets, as a unit, to other systems for testing or deployment. For information on how system update sets work, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md) .
 
 ## Content entity dependencies
 

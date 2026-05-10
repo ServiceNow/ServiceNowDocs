@@ -144,5 +144,5 @@ The dashboards include the following visualizations:
 **Related topics**  
 
 
-[bundle-par.dashboards-landing-page]
+[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dashboards-landing-page.md)
 

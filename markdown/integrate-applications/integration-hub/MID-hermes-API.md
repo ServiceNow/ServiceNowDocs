@@ -15,7 +15,7 @@ breadcrumb: [Using Stream Connect for Apache Kafka, Import and stream data, Inte
 
 MID Hermes API is a MID Server extension that enables communication to Hermes via a MID Server.
 
-Send message payloads to a Hermes topic with MID script includes and the MID Hermes Producer API. MID script includes push data to Hermes through a scriptable API interface, so Stream Connect isn't required. Activate the ServiceNow MID Hermes API \(com.glide.mid.hermes\_api\) plugin to use this extension.
+Send message payloads to a Hermes topic with MID script includes and the [MID Hermes Producer API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/MIDHermesProducerAPI.md). MID script includes push data to Hermes through a scriptable API interface, so Stream Connect isn't required. Activate the ServiceNow MID Hermes API \(com.glide.mid.hermes\_api\) plugin to use this extension.
 
 ## Extension context records
 

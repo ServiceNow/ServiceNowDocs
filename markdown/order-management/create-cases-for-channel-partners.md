@@ -4,7 +4,7 @@ description: Create customer service cases for channel partners to manage custom
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Partner Workspace, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -29,7 +29,7 @@ Role required: sn\_prm.enterprise\_partner\_rel\_manager or sn\_prm.enterprise\_
 
 4.  On the form, fill in the fields.
 
-    To learn more about the fields on the case form, see Case form.
+    To learn more about the fields on the case form, see [Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_CustomerServiceCaseForm.md).
 
 5.  Select **Save**.
 

@@ -19,7 +19,7 @@ Receive a notification when an attempt to access Hermes is received from an unau
 
 Submit a request to Customer Service and Support to enable IP address filtering in the Hermes cluster.
 
-Configure access rules in the IP Address Access Control module. See IP Address Access Control.
+Configure access rules in the IP Address Access Control module. See [IP Address Access Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_AccessControl.md).
 
 Role required: admin
 

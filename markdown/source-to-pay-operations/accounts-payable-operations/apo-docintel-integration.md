@@ -19,7 +19,7 @@ Accounts Payable Operations integration with Document Intelligence uses the capa
 
 **Note:** Accounts Payable Operations integration with Document Intelligence supports invoice documents that are in PDF, PNG, and JPEG format.
 
-For more information, see Exploring Document Intelligence.
+For more information, see [Exploring Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/exploring-docintel.md).
 
 **Parent Topic:**[Explore Accounts Payable Operations](explore-acc-pay-mgmt.md)
 

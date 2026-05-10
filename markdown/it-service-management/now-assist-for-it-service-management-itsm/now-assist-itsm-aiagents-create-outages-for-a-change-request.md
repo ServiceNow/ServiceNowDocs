@@ -22,7 +22,7 @@ The create outages for a change request agentic workflow lets users quickly crea
 
 The workflow first examines the current change record to determine if any outages are already linked to it. If no outages are found, it retrieves the planned start and end dates from the change request. In cases where these dates aren’t specified in the change request, the workflow prompts the user to input the necessary dates. Next, the workflow creates an outage record for the change request. If a configuration item \(CI\) is present, it attaches the affected CIs to the outage record. The workflow then checks whether there’s an impacted service associated with the change record. If a service exists, it asks the user if the impacted service should be linked to the affected configuration items within the outage record. This conversational and automated approach helps streamline the process, enabling users to associate outages with change requests while recording relevant data.
 
-To modify the create outages for a change request agentic workflow, duplicate it, and adjust the settings according to your requirements.
+To modify the create outages for a change request agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 **Note:** The workflow can be accessed by the itil role.
 

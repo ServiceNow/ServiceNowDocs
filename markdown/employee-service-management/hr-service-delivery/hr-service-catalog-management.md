@@ -48,5 +48,5 @@ HR catalog items are the HR services that your organization makes available for 
 **Related topics**  
 
 
-[bundle-platcap.service-catalog]
+[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md)
 

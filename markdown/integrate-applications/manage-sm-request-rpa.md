@@ -17,12 +17,12 @@ Track scheduled maintenance days on the **Robot Calendar** tab to manage your cu
 
 Ensure you’re familiar with scheduled maintenance days concepts. For more information, see [Scheduled maintenance days in RPA Hub](../concept/sm-days-rpa.md).
 
-Create a change request from the **Change** module. For more information, see Create a change request. Ensure to do the following tasks while creating a change request:
+Create a change request from the **Change** module. For more information, see [Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateAChange.md). Ensure to do the following tasks while creating a change request:
 
 -   On the Change Request \(CR\) form, in the **Configuration item** field, select the associated bot process, robot, or machine \(for which the robot is associated when a machine name look up is enabled\). Also, select an assignment group.
 -   On the Schedule tab, enter the planned scheduled maintenance start and end dates along with time, in **Planned start date** and **Planned end date** fields, respectively. Ensure that the **Planned start date** is not empty.
 -   After you save the change request, select **Request Approval** to move it to the Assess state.
--   Next, approve the change request. For more information, see Process a change request. To view the scheduled maintenance on a robot calendar, the change request can either be in either Scheduled, Implement, or Review states.
+-   Next, approve the change request. For more information, see [Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ProcessAChangeRequest.md). To view the scheduled maintenance on a robot calendar, the change request can either be in either Scheduled, Implement, or Review states.
 
 Ensure to enable the **sn\_rpa\_fdn.enable\_unattended\_robot\_machine\_name\_lookup** system property, to map the robot to the virtual machine.
 

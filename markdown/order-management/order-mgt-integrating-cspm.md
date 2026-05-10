@@ -18,6 +18,6 @@ Install these plugins:
 -   Sales Customer Relationship Management plugin
 -   Service test management plugin
 
-    For more information about service test management, see Setting up a test group and Setting up test definitions.
+    For more information about service test management, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/setting-test-group.md) and [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/settingup-test-specifications.md).
 
 

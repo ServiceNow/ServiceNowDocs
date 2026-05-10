@@ -15,7 +15,7 @@ The Financial Services Operations Process Mining Content Pack has preconfigured 
 
 **Important:** Starting with the Vancouver release, the Process Optimization application has been renamed to Process Mining.
 
-For information about enabling the FSO Process Mining Content Pack, see Content pack for Financial Services Operations.
+For information about enabling the FSO Process Mining Content Pack, see [Content pack for Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integration-fso-process-opt.md).
 
 ## Optimization projects
 
@@ -37,7 +37,7 @@ The content pack adds pre-built Process Mining project model definitions for the
 -   Personal Lines Claims
 -   Intelligent Servicing for Fraud
 
-You can also configure a new process project that is based on a pre-built project. For more information, see Create a project or template using Project Builder.
+You can also configure a new process project that is based on a pre-built project. For more information, see [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/define-workflow-model.md).
 
 ## Roles
 

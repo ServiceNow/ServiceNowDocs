@@ -51,7 +51,7 @@ A record producer is created.
 **Related topics**  
 
 
-[bundle-platcap.c_RecordProducer]
+[Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md)
 
 [Configuring Design and Assign function for your network services](../concept/configure-playbooks-design-assign-function.md)
 

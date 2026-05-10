@@ -19,13 +19,13 @@ Virtual Agent enhances the employee experience by addressing queries immediately
 
 At any time during a virtual chat, the employee can request to interact with a live HR agent.
 
-For more information, see Virtual Agent.
+For more information, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md).
 
 ## Predefined Virtual Agent topics for HR Service Delivery
 
-The base system provides the predefined Virtual Agent topics \(chatbot conversations\) designed to help your customers complete common self-service HR tasks. These topics are not published and found under the Virtual Agent Designer. For more information, see Virtual Agent Designer.
+The base system provides the predefined Virtual Agent topics \(chatbot conversations\) designed to help your customers complete common self-service HR tasks. These topics are not published and found under the Virtual Agent Designer. For more information, see [Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
-For more information on predefined virtual agent topics, see Prebuilt Virtual Agent topics, topic blocks, and ServiceNow NLU models.
+For more information on predefined virtual agent topics, see [Prebuilt Virtual Agent topics, topic blocks, and ServiceNow NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/prebuilt-topics-ITSM.md).
 
 The following predefined, HR Service Delivery Virtual Agent topics are available:
 
@@ -60,7 +60,7 @@ The following predefined, HR Service Delivery Virtual Agent topics are available
 
 A topic defines the dialog between the Virtual Agent \(chat support bot\) and user to accomplish a specific goal. The information exchanged during the conversation flow \(user inputs and bot responses\) enables the chatbot to fulfill a user request or assist a user in completing a task.
 
-For more information, see Designing a Virtual Agent topic.
+For more information, see [Designing a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/design-va-topic.md).
 
 ## Custom portals and ticket page
 
@@ -72,15 +72,15 @@ If your company has created a custom portal and/or ticket page, and you want the
 -   Value: /escServiceNow?id= new\_ticket\_page&amp;sys\_id=\{\{data.sys\_id\}\}
 -   Application: Global
 
-**Note:** See Add a system property.
+**Note:** See [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 ## Natural Language Understanding \(NLU\) support
 
 You can set up HR Service Delivery Virtual Agent to use Natural Language Understanding \(NLU\) to understand word meanings and word contexts to infer user or system actions.
 
-For more information about NLU and the NLU Workbench, see Natural Language Understanding and Activate the NLU Workbench.
+For more information about NLU and the NLU Workbench, see [Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-landing.md) and [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/activate-nlu-workbench.md).
 
-Also, see Natural Language Understanding in Virtual Agent.
+Also, see [Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-NLU.md).
 
 **Note:** This feature is only available with the HR Professional and HR Enterprise packages.
 
@@ -105,25 +105,25 @@ The following predefined, reusable topic blocks are:
 -   Search Catalog Item
 -   Pause
 
-The Topics page in Virtual Agent Designer features a sort tab called **Topic Blocks** for viewing just the reusable topic functions. For detailed information about HR Service Delivery Virtual Agent, refer to Prebuilt Virtual Agent topics, topic blocks, and ServiceNow NLU models.
+The Topics page in Virtual Agent Designer features a sort tab called **Topic Blocks** for viewing just the reusable topic functions. For detailed information about HR Service Delivery Virtual Agent, refer to [Prebuilt Virtual Agent topics, topic blocks, and ServiceNow NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/prebuilt-topics-ITSM.md).
 
 ## Integration with messaging applications
 
 Your employees can hold Virtual Agent conversations using Slack, a third-party messaging application.
 
-For more information, see Virtual Agent integration with messaging apps.
+For more information, see [Virtual Agent integration with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
 
-For information on configuring Virtual Agent notifications for certain channels such as Slack, see Setting up Virtual Agent notifications.
+For information on configuring Virtual Agent notifications for certain channels such as Slack, see [Setting up Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configuring-va-notifications.md).
 
 ## Topic Recommendations for HR Service Delivery Virtual Agent
 
-Get pre-built topics or create new topics from the recommended topics for HR Service Delivery Virtual Agent using the default configuration sn\_hr\_core\_case in the Topic Recommendations settings. For more information, see Topic Recommendations settings.
+Get pre-built topics or create new topics from the recommended topics for HR Service Delivery Virtual Agent using the default configuration sn\_hr\_core\_case in the Topic Recommendations settings. For more information, see [Topic Recommendations settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/tr-settings-page.md).
 
 ![Topic recommendation setting.](../image/topic-recom-setting.png)
 
-For HR Cases, this default setting is shipped with Taxonomy preselected to HRSD and the Filtered by setting set to display the cases created after the last 90 days. For more information on Topic Recommendations, see Using Virtual Agent Topic Recommendations.
+For HR Cases, this default setting is shipped with Taxonomy preselected to HRSD and the Filtered by setting set to display the cases created after the last 90 days. For more information on Topic Recommendations, see [Using Virtual Agent Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-topic-recommendations.md).
 
-In the Topic Recommendations page, under Get new recommendations, select **HR Cases** and click on **Get new recommendations**. Once the new recommendations are available, select your preferred recommendations and add them to the Virtual Agent using the **Add to VA** option. For more information, see Topic Recommendations page.
+In the Topic Recommendations page, under Get new recommendations, select **HR Cases** and click on **Get new recommendations**. Once the new recommendations are available, select your preferred recommendations and add them to the Virtual Agent using the **Add to VA** option. For more information, see [Topic Recommendations page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topic-recommendations-page.md).
 
 **Note:** The system takes around 15 minutes to provide the new topic recommendations.
 
@@ -189,7 +189,7 @@ Role required: admin, virtual\_agent\_admin
 
 The base system provides predefined Virtual Agent and Virtual Agent NLU topics \(chatbot conversations\).
 
-**Note:** You cannot edit the provided topics. You can duplicate a provided topic and then edit it. You can also create additional topics. See Virtual Agent Designer.
+**Note:** You cannot edit the provided topics. You can duplicate a provided topic and then edit it. You can also create additional topics. See [Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
 After performing the activation steps, the **Chat** link replaces the **Chat with HR** link on the Employee Center or service portal.
 
@@ -254,7 +254,7 @@ Role required: virtual\_agent\_admin or admin
 
 5.  On the Custom Greetings and Setup form, fill in the fields.
 
-    For field descriptions and more details, see Configure a Virtual Agent chat experience.
+    For field descriptions and more details, see [Configure a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-default-chat-experience.md).
 
     **Note:** Define the custom experience in the **Provide the context** section of the Custom Greetings and Setup record. Configure the **Condition Mode** field to **Advanced** and customize the condition logic in the **Script** field with JavaScript that specifies the context.
 

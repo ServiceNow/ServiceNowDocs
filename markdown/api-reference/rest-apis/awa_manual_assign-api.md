@@ -15,7 +15,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The AWA Manual Assignment API provides an endpoint to manually assign available work items to available Advanced Work Assignment \(AWA\) agents.
 
-A work item is a single piece of work handled by an AWA agent from start to finish. For example, one chat or one case is an object that can be routed and assigned to agents. For more information, refer to Advanced Work Assignment.
+A work item is a single piece of work handled by an AWA agent from start to finish. For example, one chat or one case is an object that can be routed and assigned to agents. For more information, refer to [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md).
 
 This API requires the Advanced Work Assignment \(com.glide.awa\) plugin. To call this API, you must have either the awa\_manager or awa\_integration\_user role.
 
@@ -25,7 +25,7 @@ This API requires the Advanced Work Assignment \(com.glide.awa\) plugin. To call
 
 Assigns an available work item to an available Advanced Work Assignment \(AWA\) agent.
 
-The primary use case for this endpoint is to enable external routing systems to route work items. If Advanced Work Assignment is configured to use external routing, work items in the queue are assigned using external routing and not AWA. You can assign the work item task by calling this endpoint. For more information, refer to Use external routing.
+The primary use case for this endpoint is to enable external routing systems to route work items. If Advanced Work Assignment is configured to use external routing, work items in the queue are assigned using external routing and not AWA. You can assign the work item task by calling this endpoint. For more information, refer to [Use external routing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-external-routing-overview.md).
 
 ### URL format
 
@@ -59,7 +59,7 @@ work\_item\_sys\_id
 
 </td><td>
 
-Sys\_id of the work item to assign to an available agent. The work item must be unassigned and in the **Pending Accept** or **Queued** state. For more information, refer to Check unassigned task work items.
+Sys\_id of the work item to assign to an available agent. The work item must be unassigned and in the **Pending Accept** or **Queued** state. For more information, refer to [Check unassigned task work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-unassigned-task-work-items.md).
 
 Data type: String
 
@@ -86,7 +86,7 @@ after\_timeout\_presence
 
 Sys\_id of the presence state that the agent switches to if the **timeout** parameter expires.If the **timeout** parameter isn't passed, this parameter is ignored.
 
-For additional information on presence states, see Configure agent presence states.
+For additional information on presence states, see [Configure agent presence states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-configure-agent-presence.md).
 
 Data type: String
 
@@ -100,7 +100,7 @@ agent\_sys\_id
 
 </td><td>
 
-Required. Sys\_id of the available agent to receive the work item. Agents are users with the awa\_agent role.For information on how to determine if an agent is available, refer to Agent Inbox controls.
+Required. Sys\_id of the available agent to receive the work item. Agents are users with the awa\_agent role.For information on how to determine if an agent is available, refer to [Agent Inbox controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/agent-experience.md).
 
 Data type: String
 
@@ -260,10 +260,10 @@ Exceptions:
 
 -   "&lt;work\_item\_sys\_id&gt; is not a valid work item" – Provided work item sys\_id does not exist.
 -   "Caller &lt;API\_caller\_sys\_id&gt; does not have the awa\_manager or awa\_integration\_user role" – The authenticated user making the API request must have either the awa\_manager or awa\_integration\_user role.
--   "Work item &lt;work\_item\_sys\_id&gt; cannot be assigned" – Work item provided cannot be assigned because it is in **Accepted** or **Canceled** state. Refer to Check work items and AWA events.
+-   "Work item &lt;work\_item\_sys\_id&gt; cannot be assigned" – Work item provided cannot be assigned because it is in **Accepted** or **Canceled** state. Refer to [Check work items and AWA events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-work-items-all.md).
 -   "&lt;agent\_sys\_id&gt; is not a valid agent" – Agent does not have the awa\_agent role.
 -   "Work Item is already assigned to &lt;agent\_sys\_id&gt;" – Provided work item is assigned to another agent.
--   "Agent is not available" – Agent is not in the **Available** state in AWA. Refer to Agent Inbox controls.
+-   "Agent is not available" – Agent is not in the **Available** state in AWA. Refer to [Agent Inbox controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/agent-experience.md).
 -   "Timeout value cannot be negative" – Provided timeout value cannot be a negative value.
 -   "&lt;presence\_state\_sys\_id&gt; is not a valid presence state” – Provided presence state sys\_id doesn't exist in the AWA Presence State \[awa\_presence\_state\] table.
 -   "Offered time \(&lt;offered\_on\_timestamp&gt;\) must be in the following format: yyyy-MM-dd'T'HH:mm:ss.SSS" – Provided **offered\_on** timestamp must be in the specified format.

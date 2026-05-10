@@ -81,7 +81,7 @@ View
 
 </td><td>
 
-Select the name of the view that has the set of columns to display for this list. For information on how to create a view, see Configure the list layout.
+Select the name of the view that has the set of columns to display for this list. For information on how to create a view, see [Configure the list layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/t_ConfigureTheListLayout.md).
 
 </td></tr><tr><td>
 

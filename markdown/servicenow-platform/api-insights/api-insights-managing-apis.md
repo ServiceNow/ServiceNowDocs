@@ -53,7 +53,7 @@ Within the API Insights workspace, you can:
 
     Associate APIs with relevant configuration items \(CIs\) to ensure accurate mappings between APIs and the configuration items they support.
 
--   [Automate creating tag-based relationships](../../../Chunk1664715710.md#).
+-   [Automate creating tag-based relationships](../../../Chunk770148849.md#).
 
     Configure and automate creating CMDB relationships between APIs and application services or business applications based on API tags.
 

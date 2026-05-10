@@ -46,7 +46,7 @@ Role required: admin, sn\_appclient.app\_client\_user, or sn\_appclient.app\_cli
 
 5.  If you have available application customizations, use the **Customized ver.** drop-down menu to select which customization to use.
 
-    Your customizations might not be compatible with a new application version. Update the application in a non-production instance, then make any necessary changes to your customization and validate compatibility before making updates in production instances. For more information about managing customizations, see Manage customizations to applications.
+    Your customizations might not be compatible with a new application version. Update the application in a non-production instance, then make any necessary changes to your customization and validate compatibility before making updates in production instances. For more information about managing customizations, see [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/manage-customizations-store-apps.md).
 
 6.  Include demo data if it's desired and available.
 
@@ -62,15 +62,15 @@ Role required: admin, sn\_appclient.app\_client\_user, or sn\_appclient.app\_cli
 
 8.  Install the application now or schedule installation for a later time.
 
-<table id="choicetable_rdn_4qs_tgc"><thead><tr><th align="left" id="d65528e294">
+<table id="choicetable_rdn_4qs_tgc"><thead><tr><th align="left" id="d65550e294">
 
 Installation option
 
-</th><th align="left" id="d65528e297">
+</th><th align="left" id="d65550e297">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d65528e303">
+</th></tr></thead><tbody><tr><td id="d65550e303">
 
 **Install now**
 
@@ -80,7 +80,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d65528e327">
+</td></tr><tr><td id="d65550e327">
 
 **Install later**
 

@@ -19,7 +19,7 @@ You can follow a record in Connect Chat to track activity as it happens, in a fa
 
 **Important:**
 
-Core UI is required to use Connect Chat. Connect Chat is not supported in Next Experience. If you turn on Next Experience, Connect Chat will no longer work. See Next Experience UI for more information.
+Core UI is required to use Connect Chat. Connect Chat is not supported in Next Experience. If you turn on Next Experience, Connect Chat will no longer work. See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md) for more information.
 
 Role required: whichever role is required to access the record you want to follow in Connect
 
@@ -37,7 +37,7 @@ Any record conversation you create in Connect becomes a record feed in Live Feed
 
 2.  Do one of the following actions.
 
-<table id="choicetable_dbk_2s2_wt"><tbody><tr><td id="d450578e94">
+<table id="choicetable_dbk_2s2_wt"><tbody><tr><td id="d450799e94">
 
 **Follow the record**
 
@@ -47,7 +47,7 @@ In the form header, click **Follow**.
 
  The system adds you as a member of the record conversation, but does not open the conversation. You can open the conversation from the Connect sidebar.
 
-</td></tr><tr><td id="d450578e112">
+</td></tr><tr><td id="d450799e112">
 
 **Follow the record and open a chat mini window**
 
@@ -57,7 +57,7 @@ In the form header, click **Follow**.
 2.  Select **Open Connect Mini**.
  The system adds you as a member of the record conversation and opens it in a Connect mini window.
 
-</td></tr><tr><td id="d450578e139">
+</td></tr><tr><td id="d450799e139">
 
 **Follow the record and open the Connect workspace**
 

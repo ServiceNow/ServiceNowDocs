@@ -33,7 +33,7 @@ Topic Recommendations page is blank
 
 </td><td>
 
-No analysis reports have been configured.[Configure an analysis report](../task/define-tr-settings.md). You can also install or activate ITSM Virtual Agent Conversations, which will add default configurations to Topic Recommendations. For more information, see Set up ITSM Virtual Agent.
+No analysis reports have been configured.[Configure an analysis report](../task/define-tr-settings.md). You can also install or activate ITSM Virtual Agent Conversations, which will add default configurations to Topic Recommendations. For more information, see [Set up ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setup-itsm-virtual-agent.md).
 
 </td></tr><tr><td>
 
@@ -55,7 +55,7 @@ Reports have intent matches, but no pre-built topic matches
 
 </td><td>
 
-Make sure ITSM Virtual Agent Conversations is installed and activated for the instance. If the app is installed, then none of the pre-built topics address the issues found in your reports. For more information, see Set up ITSM Virtual Agent.
+Make sure ITSM Virtual Agent Conversations is installed and activated for the instance. If the app is installed, then none of the pre-built topics address the issues found in your reports. For more information, see [Set up ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setup-itsm-virtual-agent.md).
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ Check the status in the Discovery Report Definitions table:1.  Navigate to **All
 2.  Sort the table on the Created column, and then find the name of the affected analysis definition.
 3.  If the Status column is empty, the analysis failed. Try running it again.
 
- You can also navigate to **NLU Workbench** &gt; **Intent Discovery** to see if something went wrong in the intent discovery process. For more information, see Intent Discovery.
+ You can also navigate to **NLU Workbench** &gt; **Intent Discovery** to see if something went wrong in the intent discovery process. For more information, see [Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/intent-discovery.md).
 
 </td></tr><tr><td>
 

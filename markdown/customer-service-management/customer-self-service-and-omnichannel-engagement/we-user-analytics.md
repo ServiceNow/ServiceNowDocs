@@ -91,7 +91,7 @@ Filters
 
 </td><td>
 
-Default filters you can use to limit the data, including Date Range, User type, and location. Use the **Add Filter** option to add more filters to the page. For more information, see Filter data in Usage Insights.
+Default filters you can use to limit the data, including Date Range, User type, and location. Use the **Add Filter** option to add more filters to the page. For more information, see [Filter data in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/filter-user-list.md).
 
 </td></tr><tr><td>
 
@@ -189,10 +189,10 @@ You can view basic application usage and event details for all applications with
 
 |Module|Description|
 |------|-----------|
-|Retention|Visualize new users and their rates of return and periods between visits. For more information, see User retention.|
-|Cohort analysis|Create and analyze custom cohorts or groups of users separated from other users by similar traits or actions. Analyze how many users perform specific sequences of actions, and how often they return to perform specified actions over a given time. For more information, see Cohort analysis in Usage Insights.|
-|Conversion funnel|Create funnel reports to analyze user completion rates for a specific task. View conversion rates, the number of users progressing from one step to the next and the average time for users to advance to each step and complete the funnel. For more information, seeFunnel reports in Usage Insights.|
-|Navigation paths|Visualize users' journeys through your application, discovering the most and least popular paths. For more information, see Navigation paths.|
+|Retention|Visualize new users and their rates of return and periods between visits. For more information, see [User retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/view-retention-analytics.md).|
+|Cohort analysis|Create and analyze custom cohorts or groups of users separated from other users by similar traits or actions. Analyze how many users perform specific sequences of actions, and how often they return to perform specified actions over a given time. For more information, see [Cohort analysis in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-cohorts.md).|
+|Conversion funnel|Create funnel reports to analyze user completion rates for a specific task. View conversion rates, the number of users progressing from one step to the next and the average time for users to advance to each step and complete the funnel. For more information, see[Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/funnel-reports-uxa.md).|
+|Navigation paths|Visualize users' journeys through your application, discovering the most and least popular paths. For more information, see [Navigation paths](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/view-navigation-paths.md).|
 
 |Module| |
 |------|---|
@@ -273,13 +273,13 @@ The global code generated for Web Embeddables includes key identifiers that enab
 
 ## Enable Usage Insights
 
-Usage Insights is enabled by default for Web Embeddables. When you create a module, it registers with Usage Insights and begins to track component events. Sometimes it can take several hours for the module to get registered. This automatic registration ensures that usage data collection starts from the moment of deployment and allows you to monitor user interactions without additional configuration. For more information, see Enable Usage Insights.
+Usage Insights is enabled by default for Web Embeddables. When you create a module, it registers with Usage Insights and begins to track component events. Sometimes it can take several hours for the module to get registered. This automatic registration ensures that usage data collection starts from the moment of deployment and allows you to monitor user interactions without additional configuration. For more information, see [Enable Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/enable-user-experience-analytics.md).
 
 You can also turn off the module by navigating to **Platform Analytics Administration** &gt; **Usage Insights Apps** &gt; **Settings**. Search and select your module, and uncheck the **Active** checkbox.
 
 ## User consent for Usage Insights advanced tracking
 
-Users can opt in or opt out of Usage Insights advanced tracking at any time through their user preferences. This setting gives users control over the collection of detailed interaction data, such as clicks, page views, and component usage patterns. For more information, see User privacy, tracking, and user consent management in Usage Insights.
+Users can opt in or opt out of Usage Insights advanced tracking at any time through their user preferences. This setting gives users control over the collection of detailed interaction data, such as clicks, page views, and component usage patterns. For more information, see [User privacy, tracking, and user consent management in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-exp-analytics-track-options.md).
 
 **Related topics**  
 

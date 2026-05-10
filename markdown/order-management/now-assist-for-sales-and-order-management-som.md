@@ -34,7 +34,7 @@ Now Assist for Sales Force Automation \(SFA\) application packages ServiceNow® 
 [Use![](../../../reuse/icons/brand-icons/bus-community.svg)Use the Now Assist for SFA AI agents to complete tasks autonomously](using-agentic-worklflows-in-lead-management.md)
 
 </td></tr></tbody>
-</table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
+</table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Troubleshoot and get help
 
@@ -52,7 +52,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 -   **[Exploring Now Assist for SFA](exploring-now-assist-for-som.md)**  
 With the Now Assist for Sales Force Automation \(SFA\) application, sales agents can manage the lifecycle of leads by automating outreach, follow-up communications, demo bookings, and handling lead disinterest or opt-outs. It can operate independently or under human supervision, thereby streamlining engagement and demo scheduling.

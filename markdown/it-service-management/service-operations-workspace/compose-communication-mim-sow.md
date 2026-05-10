@@ -31,7 +31,7 @@ The **Communicate** tab displays the list of communication tasks with various op
 You must configure the communication plans and tasks in one of the following ways:
 
 -   For major incidents, you must configure communication plans and tasks for Major Incident Management in Admin Center. For more information, see [Configure a communication plan in Major Incident Management](configure-comm-plan-mim-sow.md).
--   For incidents, you must activate and then configure communication plans and tasks in Task Communications Management. For more information, see Task Communications Management.
+-   For incidents, you must activate and then configure communication plans and tasks in Task Communications Management. For more information, see [Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/tcm-landing-page.md).
 
 Role required: major\_incident\_manager, ia\_admin, itil, or admin
 

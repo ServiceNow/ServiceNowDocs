@@ -44,7 +44,7 @@ By default, the report provides the following information:
 
     4.  In the **MID Selection Method** and **MID Server** fields, select the preferred options.
 
-        For more information, see MID Server selection.
+        For more information, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
 
     5.  Select **Run discovery**.
 

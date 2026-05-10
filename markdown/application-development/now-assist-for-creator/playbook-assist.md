@@ -17,7 +17,7 @@ Use Now Assist to generate playbook outlines from text or image inputs. For exam
 
 Now Assist for Creator activates the playbook generation skill. Playbook generation gives generative AI capabilities to playbook authors.
 
-Playbook authors can provide text directions to create multi-stage playbooks with placeholder activities \(![placeholder activity icon.](../images/placeholder-activity-icon.png)\).
+Playbook authors can provide text directions to create multi-stage playbooks with [placeholder activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/placeholder-activity.md) \(![placeholder activity icon.](../images/placeholder-activity-icon.png)\).
 
 **Note:** Playbook generation uses placeholder activities in your playbook. [Configure each activity](../task/generate-a-playbook-outline.md) before activating your playbook.
 
@@ -146,7 +146,7 @@ The following examples can help you to generate playbook outlines:
     ```
 
 
-**Note:** Generating or regenerating a playbook preview counts as 10 assists. To track your Now Assist usage, see Monitoring Now Assist usage in Subscription Management.
+**Note:** Generating or regenerating a playbook preview counts as 10 assists. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
 
 **Parent Topic:**[Playbook generation](playbook-assist-landing.md)
 

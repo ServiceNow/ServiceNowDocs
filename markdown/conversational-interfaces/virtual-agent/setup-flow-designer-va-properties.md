@@ -22,7 +22,7 @@ If you don't already have a Virtual Agent topic, create one. For more informatio
 
 Become familiar with the following features:
 
--   Workflow Studio concepts and tasks. For more information, see Workflow Studio.
+-   Workflow Studio concepts and tasks. For more information, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md).
 -   Assistant Designer utilities, such as the Lookup utility, and the Script Action utility.
 
     Use these utilities to control the actions within the Virtual Agent conversation. For more information about these utilities, see [Assistant Designer utilities](../reference/va-utilities.md).
@@ -36,7 +36,7 @@ Become familiar with the following features:
     For more information, see [Assistant Designer controls](../concept/virtual-agent-controls.md).
 
 
-**Note:** If you have turned on and set up Now Assist in Virtual Agent, you can work with conversational actions and subflows from the home page. For more information on conversational actions and subflows, see Conversational actions and Conversational subflows. You can still integrate actions and subflows that are not conversational from Workflow Studio into Virtual Agent topics via . The following content is only relevant to actions or subflows that can't be made conversational in Workflow Studio.
+**Note:** If you have turned on and set up Now Assist in Virtual Agent, you can work with conversational actions and subflows from the home page. For more information on conversational actions and subflows, see [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/conversational-actions.md) and [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/conversational-subflows.md). You can still integrate actions and subflows that are not conversational from Workflow Studio into Virtual Agent topics via . The following content is only relevant to actions or subflows that can't be made conversational in Workflow Studio.
 
 Role required: virtual\_agent\_admin or admin
 
@@ -86,7 +86,7 @@ Spoke
 
 Name of the scoped application that contains Workflow Studio content that is dedicated to a particular application or record type.
 
- For a list of default spokes, see Spokes.
+ For a list of default spokes, see [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md).
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Input mapping
 
 Specifies the variables to be used as input to the selected action. The contents of this area change according to the action that you selected. Options may include string input, referenced records, scripts, and so on. For options that require a password, enable the **Include a password input** toggle switch to prompt the user for a password. Secure inputs must use the password2 data type. Input is securely masked and not viewable by others.
 
- **Note:** The **Array.Reference** input data type in Virtual Agent Designer corresponds to the **List.\[Table\]** input data type in Workflow Studio. For more information, see Action input and output data types.
+ **Note:** The **Array.Reference** input data type in Virtual Agent Designer corresponds to the **List.\[Table\]** input data type in Workflow Studio. For more information, see [Action input and output data types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md).
 
 </td></tr><tr><td>
 

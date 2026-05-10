@@ -15,34 +15,34 @@ Use specific keyword formatting, powered by ServiceNow® Zing, to quickly locate
 
 ## How Zing search works
 
-Dispatcher Workspace uses ServiceNow® Zing, ServiceNow®'s text indexing and search engine, to deliver fast results ranked by relevance. Zing search engine logic yields fast results and emphasizes relevancy scoring. Relevancy scores include frequency and proximity weighting. Scores also include weighting for specific indexed fields such as title, short description, and metadata. For more information on Zing, see Zing text indexing and search engine.
+Dispatcher Workspace uses ServiceNow® Zing, ServiceNow®'s text indexing and search engine, to deliver fast results ranked by relevance. Zing search engine logic yields fast results and emphasizes relevancy scoring. Relevancy scores include frequency and proximity weighting. Scores also include weighting for specific indexed fields such as title, short description, and metadata. For more information on Zing, see [Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_ZingTextSearch.md).
 
 ## Indexing scope and prerequisites
 
-Before relying on keyword search, review how your instance indexes tables, attributes, and values and confirm that the required tables are included. For more information, see Configure a table for indexing and searching.
+Before relying on keyword search, review how your instance indexes tables, attributes, and values and confirm that the required tables are included. For more information, see [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-single-table-for-indexing.md).
 
-Some fields are excluded from text indexing. For more information see the “Fields excluded from text indexing” table in Configure a table for indexing and searching.
+Some fields are excluded from text indexing. For more information see the “Fields excluded from text indexing” table in [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-single-table-for-indexing.md).
 
 If you use Territory planning then navigate to **All** &gt; **System Definitions** &gt; **Text index** and verify that you see the following tables:
 
 -   `sn_tp_territory`
 -   `sn_tp_territory_membership_override`
 
-If you're using Territory planning and don't see the tables listed above, then complete Step 5e in Configure a table for indexing and searching.
+If you're using Territory planning and don't see the tables listed above, then complete Step 5e in [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-single-table-for-indexing.md).
 
 ## Language and punctuation considerations
 
-Zing indexes words based on the language of your content. Review the rules for how Zing indexes words in Zing indexes words.
+Zing indexes words based on the language of your content. Review the rules for how Zing indexes words in [Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/zing-indexes-words.md).
 
-Zing indexes some punctuation marks as part of some words to improve search results for common search terms. For more information, see Zing indexes punctuation as part of some words.
+Zing indexes some punctuation marks as part of some words to improve search results for common search terms. For more information, see [Zing indexes punctuation as part of some words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_PunctuationForSearchResults.md).
 
 ## Supported keyword features in Dispatcher Workspace
 
 Zing keywords in Dispatcher Workspace supports the following:
 
--   Boolean operators, like AND and OR, but they must be used in capital letters. There are more Boolean operators used as well, for more information, see Boolean operators allow conditional search results.
--   Exact phrase searches denoted by quotation marks. For more information, see Quotation marks allow exact phrase searches.
--   Single-character and multiple-character wildcards, denoted by characters like %. For more information, see Wildcard characters allow searching for patterns and variations.
+-   Boolean operators, like AND and OR, but they must be used in capital letters. There are more Boolean operators used as well, for more information, see [Boolean operators allow conditional search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_BooleanOperators.md).
+-   Exact phrase searches denoted by quotation marks. For more information, see [Quotation marks allow exact phrase searches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_PhraseSearches.md).
+-   Single-character and multiple-character wildcards, denoted by characters like %. For more information, see [Wildcard characters allow searching for patterns and variations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_Wildcards.md).
 
 The table below shows what tables Zing searches when you use keywords based on the setting or configuration you have.
 

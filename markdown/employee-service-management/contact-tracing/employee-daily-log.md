@@ -21,9 +21,9 @@ The employee daily contact log in the Contact Tracing application works with the
 
 A user with the sn\_imt\_checkin.checkin\_admin role for Emergency Outreach can review and modify the outreach notification for the daily contact log. For more information, see [Configure an Emergency Outreach notification for the daily contact log](../task/configure-outreach-notif-daily-log.md).
 
-An administrator can modify the schedule associated with the outreach notification to configure the timing to send notifications to employees. For more information, see Configure a scheduled job.
+An administrator can modify the schedule associated with the outreach notification to configure the timing to send notifications to employees. For more information, see [Configure a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ScheduleAScriptExecution.md).
 
-**Note:** If you are using Service Portal using a URL suffix other than the default `/sp`, update the same in the Daily Log form for it to work properly. You must associate the form with the service catalog. For more information on Service Portal, see Create a portal and for Service Portal page navigation, see Page navigation by URL.
+**Note:** If you are using Service Portal using a URL suffix other than the default `/sp`, update the same in the Daily Log form for it to work properly. You must associate the form with the service catalog. For more information on Service Portal, see [Create a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-a-portal.md) and for Service Portal page navigation, see [Page navigation by URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/navigate-by-portal-url.md).
 
 -   **[Send an Outreach notification for the daily contact log](../task/send-outreach-notif-daily-log.md)**  
 Send an Emergency Outreach notification, on demand, to employees to ask them to submit a list of co-workers whom they have interacted with on a given day.

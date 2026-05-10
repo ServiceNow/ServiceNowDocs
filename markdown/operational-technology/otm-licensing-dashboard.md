@@ -4,7 +4,7 @@ description: Use the OTM Licensing dashboard to assess resource consumption and 
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 2
 breadcrumb: [OTM SU Licensing References, Operational Technology Management licensing and subscriptions, Operational Technology]
 ---

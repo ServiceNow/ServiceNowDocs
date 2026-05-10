@@ -23,7 +23,7 @@ Plugin required: Integration Hub Starter
 
 To test a connection alias with a test action, the connection alias must be associated with a configuration template. You can check if an alias already has a configuration template by navigating to **All** &gt; **Integration Hub** &gt; **Connection &amp; Credential Aliases**, selecting the alias record from the list, and checking the **Configuration Template** field.
 
-If you don't have a connection alias or an associated configuration template, you can create them. For step-by-step instructions on setting up a configuration template, see Create a configuration template. After you create a configuration template, you can Create a Connection &amp; Credential alias and associate it with the template by adding the template name to the **Configuration Template** field.
+If you don't have a connection alias or an associated configuration template, you can create them. For step-by-step instructions on setting up a configuration template, see [Create a configuration template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-template.md). After you create a configuration template, you can [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md) and associate it with the template by adding the template name to the **Configuration Template** field.
 
 ## About this task
 

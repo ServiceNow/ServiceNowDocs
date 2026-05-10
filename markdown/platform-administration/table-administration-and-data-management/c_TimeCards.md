@@ -19,9 +19,9 @@ The time card management feature works with the Task table to record time worked
 
 Task assignees can record time worked in the Time worked field on a task record or enter hours directly into their time card. Some tables support automatic time card creation based on start and end date fields.
 
-Track the activities of a time card, such as who submitted or approved a time card, in the Activities section on the Time Card form. This time card activity audit is useful for tracking when you delegate responsibility for your time sheet processing to another user. To track the activities, enable the **State** field of the Time Card \[time\_card\] table for auditing the time card activities, if it isn't already enabled. For more information, see Include a table field in auditing.
+Track the activities of a time card, such as who submitted or approved a time card, in the Activities section on the Time Card form. This time card activity audit is useful for tracking when you delegate responsibility for your time sheet processing to another user. To track the activities, enable the **State** field of the Time Card \[time\_card\] table for auditing the time card activities, if it isn't already enabled. For more information, see [Include a table field in auditing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-whitelist-audit-field.md).
 
-You can associate time cards for the project tasks and other task categories, such as meeting and training, with relevant resource plans.
+You can associate time cards for the project tasks and other task categories, such as meeting and training, with relevant [resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_AssocATimeCardWithAResourcePlan.md).
 
 When you approve a time card, the time logged in the time card is saved day-wise in the Time Card Daily \[time\_card\_daily\] table. Using daily time logged data, you can generate time card reports by days for any period irrespective of the time sheet period to which the time cards belong. For example, you can create a monthly time card report that includes time cards from the first day to the last day of the month.
 

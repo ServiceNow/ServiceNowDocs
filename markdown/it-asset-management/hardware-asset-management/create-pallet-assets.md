@@ -17,7 +17,7 @@ Create a pallet asset from the Asset estate view in the Hardware Asset Workspace
 
 ## Before you begin
 
-You must create a model for a pallet asset. For more information, see Models.
+You must create a model for a pallet asset. For more information, see [Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_Models.md).
 
 Role required: asset
 

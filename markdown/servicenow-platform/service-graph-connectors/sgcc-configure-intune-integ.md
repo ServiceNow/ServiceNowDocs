@@ -17,7 +17,7 @@ Use the playbook available with the SGC Central application to set up the Servic
 
 ## Before you begin
 
-Install Service Graph Connector for Microsoft Intune version 2.5.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see Install a ServiceNow Store application.
+Install Service Graph Connector for Microsoft Intune version 2.5.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/installing-applications-in-application-manager.md).
 
 Obtain the following information from your Microsoft Intune administrator:
 
@@ -36,7 +36,7 @@ Dependencies and requirements:
 -   The [Integration Commons for CMDB](../../configuration-management/concept/integration-commons-for-cmdb.md) store app, which is automatically installed.
 -   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](../../configuration-management/concept/cmdb-ci-class-models.md).
 -   Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
--   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see Request Discovery.
+-   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md).
 -   ServiceNow IntegrationHub Zip step \(com.glide.hub.action\_step.zip\), which is automatically installed.
 -   ServiceNow IntegrationHub JSON Parser step \(com.glide.hub.action\_step.jsonparser\), which is automatically installed.
 -   The SGC Central application \(sn\_sgc\_central\), which is automatically installed.
@@ -52,7 +52,7 @@ Role required: The following table shows the roles required for each stage of th
 
 ## About this task
 
-The playbook experience for onboarding connectors is activated with SGC Central in the Service Graph Workspace or CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](../concept/sgcc-configuring.md) and for more information on how to interact with a playbook, see Interact with Playbook.
+The playbook experience for onboarding connectors is activated with SGC Central in the Service Graph Workspace or CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](../concept/sgcc-configuring.md) and for more information on how to interact with a playbook, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md).
 
 For more details on permissions, see [Service Graph Connector for Microsoft Intune - Troubleshooting connection issues](https://community.servicenow.com/community?id=community_blog&sys_id=a405ef9bdbbd7018bb4a474d13961903) on ServiceNow Community and [Microsoft Graph permissions reference](https://learn.microsoft.com/en-us/graph/permissions-reference) on the Microsoft documentation site.
 
@@ -251,7 +251,7 @@ MID Server for the connection.This field appears only when you select the **Use 
 
     3.  Select the **Active** check box, and then fill in the run schedule and time details.
 
-        For more information, see Schedule a data import.
+        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
     4.  Select **Save**.
 

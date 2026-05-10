@@ -49,11 +49,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
         -   `/api/1.4/network-interfaces` – Retrieves information about network interfaces.
 -   **Configure SSH credentials**
 
-    On the ServiceNow AI Platform, configure SSH credentials for the OS user. For more information, see SSH credentials.
+    On the ServiceNow AI Platform, configure SSH credentials for the OS user. For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
 
 -   **Configure applicative credentials**
 
-    On the ServiceNow AI Platform, configure applicative credentials for the OS user. The password field is not relevant; you can enter any value for the password or leave it empty. For more information, see Applicative credentials.
+    On the ServiceNow AI Platform, configure applicative credentials for the OS user. The password field is not relevant; you can enter any value for the password or leave it empty. For more information, see [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/applicative-creds.md).
 
 -   **Access to the port used for REST calls**
 

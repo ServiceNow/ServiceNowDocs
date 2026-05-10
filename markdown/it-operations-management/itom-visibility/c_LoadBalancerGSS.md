@@ -25,7 +25,7 @@ Discovery uses the Cisco GSS Load Balancer classifier, which contains the condit
 
 Discovery uses several probes, including an SNMP probe to discover the specific GSS device and a **Serial Number** probe to identify the serial number of the device. See the table below for the list of related probes.
 
-**Warning:** You must have SNMP and SSH credentials configured correctly for the GSS load balancers on your network.
+**Warning:** You must have SNMP and [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md) configured correctly for the GSS load balancers on your network.
 
 The following probes are triggered after classification:
 

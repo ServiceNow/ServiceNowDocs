@@ -26,7 +26,7 @@ This feature considers domain separation and user criteria to determine the user
 
 ## Activation information
 
-The user criteria diagnostics feature is activated with the Knowledge Management v3 plugin \(com.snc.knowledge3\). For more information, see Activate a plugin.
+The user criteria diagnostics feature is activated with the Knowledge Management v3 plugin \(com.snc.knowledge3\). For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 **Note:**
 

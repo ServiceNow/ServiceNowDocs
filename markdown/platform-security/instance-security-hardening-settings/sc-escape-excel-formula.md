@@ -33,9 +33,9 @@ Set the **glide.export.escape\_formulas** system property to **true** to escape 
 |Functional impact|Maliciously crafted formulas can be used for hijacking the user's computer by exploiting vulnerabilities in the spreadsheet software.|
 |Security risk|\(Moderate\) Malicious formulae pose a risk even when the embedding spreadsheet doesn't contain any sensitive information, as they can be used to compromise the viewer's computer.|
 |Workaround|As an alternative consider stripping all trailing white spaces where possible, and limiting all client-supplied data to alpha-numeric characters.|
-|References|Available system properties|
+|References|[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md)|
 
-To learn more about adding or creating a system property, see Add a system property.
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
 

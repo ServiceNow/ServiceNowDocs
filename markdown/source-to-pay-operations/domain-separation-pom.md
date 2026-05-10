@@ -18,7 +18,7 @@ Domain separation is unsupported for Purchase Order Management. Domain separatio
 -   The domain field may exist on data tables but there is no business logic to manage the data.
 -   This level is not considered domain-separated.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 **Parent Topic:**[Configure Purchase Order Management](configure-purch-order-mgmt.md)
 
@@ -31,5 +31,5 @@ For more information on support levels, see Application support for domain separ
 
 [Assigning purchase order exceptions to buyers](assigning-po-exceptions-to-buyers.md)
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

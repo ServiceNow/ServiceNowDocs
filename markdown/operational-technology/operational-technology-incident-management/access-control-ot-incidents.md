@@ -23,7 +23,7 @@ The following table describes the roles and permissions for the users that have 
 |sn\_ot\_incident\_read|Can only read OT incidents.|
 |sn\_ot\_incident\_admin|Can create, view, edit, and delete incident records for any equipment model entity.|
 
-For more information about access control rules, see Access control rules in application administration apps.
+For more information about access control rules, see [Access control rules in application administration apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ACL-access-checks.md).
 
 **Parent Topic:**[Using Operational Technology Incident Management](../concept/using-operational-technology-incident-mgt.md)
 

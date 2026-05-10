@@ -17,7 +17,7 @@ Generate a summary from the fields that you selected on the safety incident and 
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see Now Assist skills, agents, and agentic workflows on by default.
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 Verify that the Health and Safety incident summarization skill is enabled. For more information, see [Activate a Now Assist for Health and Safety skill](now-assist-hs-activate-skill.md).
 
@@ -31,7 +31,7 @@ The incident summarization skill is available in Health and Safety Workspace and
 
 -   In Health and Safety Workspace, use the Health and Safety incident summary by Now Assist component to generate a summary. This component appears above the activity stream.
 
-    **Note:** You can also generate a summary on demand from the Now Assist panel. For more information, see Standard chat.
+    **Note:** You can also generate a summary on demand from the Now Assist panel. For more information, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-standard.md).
 
 -   In the Core UI, select the **Summarize** button on the incident record to generate a summary.
 
@@ -113,6 +113,6 @@ If you want to check details about the summary, select the more info icon \(![Mo
 
     The **Email** tab appears only when the following conditions are met:
 
-    -   The email client is enabled for the Health and Safety incident \[sn\_ohs\_im\_incident\] table on your ServiceNow instance. For more information, see Enable the email client for a table.
-    -   The user sending the email has the Email composer \[email\_composer\] role. For more information, see Email composer \[email\_composer\].
+    -   The email client is enabled for the Health and Safety incident \[sn\_ohs\_im\_incident\] table on your ServiceNow instance. For more information, see [Enable the email client for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enable-email-client.md).
+    -   The user sending the email has the Email composer \[email\_composer\] role. For more information, see [Email composer \[email\_composer\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-client-roles-2.md).
 

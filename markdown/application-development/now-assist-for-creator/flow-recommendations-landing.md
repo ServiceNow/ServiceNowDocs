@@ -27,7 +27,7 @@ Select the next component in your flow from a list of AI-generated recommendatio
 
 </td></tr><tr><td>
 
-Generate![](../../../reuse/icons/brand-icons/bus-start-developing.svg)Create a flow using Now Assist
+[Generate![](../../../reuse/icons/brand-icons/bus-start-developing.svg)Create a flow using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow-now-assist.md)
 
 </td><td>
 

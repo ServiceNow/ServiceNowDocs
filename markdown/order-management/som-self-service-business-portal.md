@@ -92,8 +92,8 @@ The following topics provide more information about configuring and using the Bu
 
 -   [Configuring the Business Portal](order-management-configure-business-portal.md)
 -   [Customer self-service using the Business Portal](order-mgt-business-portal.md)
--   Getting started with the Business Portal: Configure Business and Consumer Portal
+-   Getting started with the Business Portal: [Configure Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal.md)
 -   [Business Portal reference for Sales Customer Relationship Management](../reference/som-business-portal-reference.md)
--   Using the Business Portal
--   Business Portal user roles
+-   [Using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-the-business-portal.md)
+-   [Business Portal user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_BusinessPortalUserRoles.md)
 

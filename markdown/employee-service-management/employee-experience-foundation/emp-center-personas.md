@@ -15,7 +15,7 @@ breadcrumb: [Admin configurations, Configuring Employee Center, Employee Center,
 
 Employee Center plugins include necessary roles for configuring and using the features. Learn more about the roles and the tasks they can perform.
 
-Users and roles are configured at the platform level. For information, see Assign a role to a user.
+Users and roles are configured at the platform level. For information, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
 ## Employee Center
 

@@ -13,13 +13,13 @@ breadcrumb: [Configure accessibility preferences, Preferences, Working in Next E
 
 Learn more about the Enable voice input for the Now Assist panel accessibility preference.
 
-**Note:** Voice input is automatically activated when the Now Assist panel is activated. As of the Zurich Patch 4 release, voice input is configured in the Additional chat features and not with this option.
+**Note:** Voice input is automatically activated when the Now Assist panel is activated. As of the Zurich Patch 4 release, voice input is configured in the [Additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md) and not with this option.
 
 ![Enable voice input for the Now Assist panel.](../image/pol-pref-voice-input.png)
 
 The purpose of this preference is to provide an alternative input method.
 
-**Note:** This preference appears only if your system administrator has enabled Now Assist voice input for your instance. For more information, see Enable voice input for Now Assist panel.
+**Note:** This preference appears only if your system administrator has enabled Now Assist voice input for your instance. For more information, see [Enable voice input for Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
 
 Learn more about this preference from the following tutorial:
 

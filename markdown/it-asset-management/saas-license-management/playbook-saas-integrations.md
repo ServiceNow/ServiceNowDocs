@@ -66,5 +66,5 @@ Integrate your ServiceNow instance with the Salesforce customer relationship man
 
 [Subscription exclusions for SaaS and SSO applications](subscription-exclusions.md#)
 
-[bundle-crworkflow.playbook-ui]
+[Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md)
 

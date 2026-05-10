@@ -53,7 +53,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **MID Server**
 
-    When installing the MID Server, ensure that the host machine meets or exceeds the MID Server system requirements.
+    When installing the MID Server, ensure that the host machine meets or exceeds the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md).
 
 -   **Discovery schedule**
 

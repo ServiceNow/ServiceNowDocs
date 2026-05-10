@@ -144,7 +144,7 @@ User verification flow
 
 </td><td>
 
-The subflow used to verify the identity of the user. The subflow triggers only when you enable user verification.The **External User Verification** subflow is available by default. You can create a copy of the default subflow in Workflow Studio and modify it according to your requirements. For more information, seeFlow Designer .
+The subflow used to verify the identity of the user. The subflow triggers only when you enable user verification.The **External User Verification** subflow is available by default. You can create a copy of the default subflow in Workflow Studio and modify it according to your requirements. For more information, see[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md) .
 
  **Note:** To preview the **External User Verification** subflow in a new tab use the following shortcuts:
 
@@ -165,7 +165,7 @@ The number of hours after which an activation link expires. The default value is
 
 6.  Configure the **Transformation** tab to map self-registered users and activated users.
 
-    There are two transformation maps \(u\_reg\_xmap\_\[number\]\) which automatically map the registered users from the User Acti Req \[number\] table to the Self Registered User \[number\] table. You can create a copy of these default transformation maps and modify the map according to your requirements. For more information, see Transform maps.
+    There are two transformation maps \(u\_reg\_xmap\_\[number\]\) which automatically map the registered users from the User Acti Req \[number\] table to the Self Registered User \[number\] table. You can create a copy of these default transformation maps and modify the map according to your requirements. For more information, see [Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_CreatingNewTransformMaps.md).
 
     ![Transformation tab of User Registration Configuration](../images/transf_tab_eu_self-reg.png "Transformation tab")
 

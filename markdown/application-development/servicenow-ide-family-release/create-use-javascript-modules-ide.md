@@ -27,7 +27,7 @@ Role required: admin
 
 To learn about support for using JavaScript modules in scoped applications, including some limitations, see [JavaScript modules and third-party libraries](../../servicenow-sdk/concept/javascript-modules-third-party-libraries.md). For general information about the syntax used to create JavaScript modules, see the [JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) page on the MDN Web Docs website.
 
-**Note:** With Now Assist for Code, you can use the Code autocomplete skill to generate code suggestions for module scripts. For more information, see Generate code with autocomplete.
+**Note:** With Now Assist for Code, you can use the Code autocomplete skill to generate code suggestions for module scripts. For more information, see [Generate code with autocomplete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/generate-code-with-autocomplete.md).
 
 ## Procedure
 
@@ -65,15 +65,15 @@ To learn about support for using JavaScript modules in scoped applications, incl
 
 7.  Use code from the exported module in other modules or server-side scripts.
 
-<table id="choicetable_kjx_xnm_pzb"><thead><tr><th align="left" id="d167819e200">
+<table id="choicetable_kjx_xnm_pzb"><thead><tr><th align="left" id="d167831e200">
 
 File
 
-</th><th align="left" id="d167819e203">
+</th><th align="left" id="d167831e203">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d167819e209">
+</th></tr></thead><tbody><tr><td id="d167831e209">
 
 **Module**
 
@@ -94,7 +94,7 @@ import { feature } from "path/to/module";
 3.  Call the module code from this module to reuse it.
 
 
-</td></tr><tr><td id="d167819e248">
+</td></tr><tr><td id="d167831e248">
 
 **Server-side script in source code**
 
@@ -121,7 +121,7 @@ script: `
 
 For more information about server-side scripts in source code, see [ServiceNow Fluent API reference](../../servicenow-sdk/reference/servicenow-fluent-api-reference.md).
 
-</td></tr><tr><td id="d167819e308">
+</td></tr><tr><td id="d167831e308">
 
 **Server-side script record**
 

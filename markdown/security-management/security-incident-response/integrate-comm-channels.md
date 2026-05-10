@@ -25,7 +25,7 @@ The SIR Conference Call integration with third-party communication channels such
 
 Verify you’ve installed the following Integration Hub plugins on your ServiceNow instance.
 
--   Notify plugin \(com.snc.notify\). For more information, see Configuring Notify
+-   Notify plugin \(com.snc.notify\). For more information, see [Configuring Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/configuring-notify.md)
 -   Notify UI Components for Configurable Workspaces
 -   For integrating Microsoft Teams as a communication channel:
     -   Microsoft Teams Communications spoke plugin \(sn\_msteams\_com\_spk\).
@@ -37,19 +37,19 @@ Verify you’ve installed the following Integration Hub plugins on your ServiceN
     -   Notify Cisco Webex Connector \(sn\_notify\_webex\)
     -   Cisco Webex Teams Spoke \(sn\_cisco\_teams\_spk\)
 
-For more information, see Request Integration Hub.
+For more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md).
 
 ## Configuration
 
 Perform the following configuration for the communication channels you want use:
 
--   To configure the Conference Call Cisco Webex integration using the Notify communication channel, see Configure Notify Cisco Webex Connector.
+-   To configure the Conference Call Cisco Webex integration using the Notify communication channel, see [Configure Notify Cisco Webex Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/setup-cisco-webex-notify.md).
 
--   To configure the Conference Call Zoom integration using the Notify communication channel, see Configure Notify Zoom connector in Notify.
+-   To configure the Conference Call Zoom integration using the Notify communication channel, see [Configure Notify Zoom connector in Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/configure-notify-zoom-connector.md).
 
--   To configure the Conference Call Microsoft Teams integration using the pre-configured app, see Integrate Notify connector pre-published app with Microsoft Teams.
+-   To configure the Conference Call Microsoft Teams integration using the pre-configured app, see [Integrate Notify connector pre-published app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-multi-tenant.md).
 
--   To configure the Conference Call Microsoft Teams integration using the self-configured app, see Integrating Notify connector self-configured app with Microsoft Teams.
+-   To configure the Conference Call Microsoft Teams integration using the self-configured app, see [Integrating Notify connector self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-single-tenant.md).
 
 
 **Parent Topic:**[Security Incident Response conference call integration](../concept/sir-conf-call-capability.md)

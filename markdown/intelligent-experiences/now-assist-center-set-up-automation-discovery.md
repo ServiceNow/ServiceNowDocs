@@ -75,7 +75,7 @@ Analyzes case records to identify common customer service patterns.
 
     2.  Use conditions to select certain properties as a filter.
 
-        For more information on how conditions work, see OR conditions.
+        For more information on how conditions work, see [OR conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingORConditions.md).
 
     3.  Select **Apply filter**.
 

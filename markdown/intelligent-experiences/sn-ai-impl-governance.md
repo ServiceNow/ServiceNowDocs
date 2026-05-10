@@ -26,7 +26,7 @@ The following policy considerations shape how AI is deployed, monitored, and mai
     -   Encryption standards for data in transit and at rest.
     -   Data residency and sovereignty restrictions, which determine where data can be stored and processed.
     -   Retention and deletion policies that govern how long data is kept and when it must be purged.
-    Admins can configure Data Privacy for Now Assist to mask sensitive fields and control what is shared with third-party models. For details, see Data Privacy for Now Assist.
+    Admins can configure Data Privacy for Now Assist to mask sensitive fields and control what is shared with third-party models. For details, see [Data Privacy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/now-assist-for-data-privacy-landing.md).
 
 -   **Compliance and regulations**
 

@@ -29,15 +29,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner in DevOps Change Veloc
 
     **Note:** You can also select the a Project, Plan, or Repository record and configure the corresponding webhooks for them specifically.
 
-<table id="choicetable_wsy_mkv_w1c"><thead><tr><th align="left" id="d232785e95">
+<table id="choicetable_wsy_mkv_w1c"><thead><tr><th align="left" id="d232789e95">
 
 Options
 
-</th><th align="left" id="d232785e98">
+</th><th align="left" id="d232789e98">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d232785e104">
+</th></tr></thead><tbody><tr><td id="d232789e104">
 
 **Auto configure with existing token**
 
@@ -45,7 +45,7 @@ Description
 
 Configures a webhook with your existing token.
 
-</td></tr><tr><td id="d232785e113">
+</td></tr><tr><td id="d232789e113">
 
 **Auto configure with new token**
 
@@ -53,7 +53,7 @@ Configures a webhook with your existing token.
 
 Configures a webhook with a new token.**Note:** The SN\_DEVOPS\_INTEGRATION\_TOKEN secret must be manually updated with the new token to ensure successful authentication.
 
-</td></tr><tr><td id="d232785e124">
+</td></tr><tr><td id="d232789e124">
 
 **Configure manually**
 

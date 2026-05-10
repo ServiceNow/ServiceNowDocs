@@ -25,16 +25,16 @@ The support level is Standard but has some exceptions or special conditions.
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Overview
 
-In general, IntegrationHub inherits the domain separation features of Workflow Studio. As each spoke \(application\) can have its own domain separation relationship, there is no one specific support level to associate with IntegrationHub. To learn more, see Domain separation and Flow Designer.
+In general, IntegrationHub inherits the domain separation features of Workflow Studio. As each spoke \(application\) can have its own domain separation relationship, there is no one specific support level to associate with IntegrationHub. To learn more, see [Domain separation and Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-domain-separation.md).
 
 **Parent Topic:**[Integration Hub reference](integration-hub-reference.md)
 
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

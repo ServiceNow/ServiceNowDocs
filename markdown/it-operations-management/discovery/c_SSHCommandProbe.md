@@ -20,7 +20,7 @@ Discovery supports Bourne Shell \(sh\) and Bourne-again Shell \(bash\) commands.
 -   The SSH engine is active by default on new instances.
 -   Customers on upgraded instances can manually enable ServiceNow SSH for a particular probe by setting the use\_snc\_ssh parameter to true. Alternatively, enable it for all probes on the MID Server by setting the MID Server parameter mid.ssh.use\_snc to true.
 
-**Note:** To discover network devices, such as routers and switches, use SNMP credentials credentials, not SSH credentials.
+**Note:** To discover network devices, such as routers and switches, use [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md) credentials, not SSH credentials.
 
 -   **[SSHCommand parameters](../reference/r_Parameters.md)**  
 Several parameters are available for the SSHCommand probe.

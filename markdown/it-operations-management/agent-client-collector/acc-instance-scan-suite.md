@@ -92,9 +92,9 @@ Ensures the records in the sn\_agent\_ci\_extended\_info and sn\_agent\_cmdb\_ci
 </td></tr></tbody>
 </table>For details on importing the `global.ACCInstanceScanUtil` script include, see the [Script Include ACCInstanceScanUtil \[KB1630132\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1630132) article in the Now Support Knowledge Base.
 
-For details on instance scans, see Instance Scan.
+For details on instance scans, see [Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-landing-page.md).
 
-For details on executing the Agent Client Collector health instance scan suite, see Execute a suite scan.
+For details on executing the Agent Client Collector health instance scan suite, see [Execute a suite scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hc-execute-suite-scan.md).
 
 **Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](acc-shared-deployment.md)
 

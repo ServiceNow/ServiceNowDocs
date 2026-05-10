@@ -19,7 +19,7 @@ Role required: admin
 
 ## About this task
 
-The Customer Service Management \(CSM\) landing page gives agents an overview of their new, assigned, and high-priority cases, plus the cases assigned to their groups. Replace certain fields in the landing page with fields relevant to Public Sector Digital Services. You can also add or change other fields as needed. For more information on using UI Builder to modify pages, see Work with pages.
+The Customer Service Management \(CSM\) landing page gives agents an overview of their new, assigned, and high-priority cases, plus the cases assigned to their groups. Replace certain fields in the landing page with fields relevant to Public Sector Digital Services. You can also add or change other fields as needed. For more information on using UI Builder to modify pages, see [Work with pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md).
 
 ## Procedure
 

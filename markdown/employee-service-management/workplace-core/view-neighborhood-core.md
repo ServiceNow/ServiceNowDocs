@@ -62,7 +62,7 @@ Filter
 
 Filter to show the number of matching records that match the conditions in the condition builder.The space planner can assign spaces in a neighborhood based on department, business unit, cost center, or group.
 
-For more information about filters, see Filter condition builder.
+For more information about filters, see [Filter condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
 
 </td></tr><tr><td>
 

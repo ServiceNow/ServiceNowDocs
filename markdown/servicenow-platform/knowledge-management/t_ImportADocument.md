@@ -41,7 +41,7 @@ You can import Microsoft Word documents in the .doc and .docx file formats.
 
 **Note:** The file extension must be lowercase.
 
-When you import a document, text content from the document is used to create the knowledge article. The articles support all editing functions supported by the TinyMCE editor. All HTML supported by TinyMCE such as tables, lists, and links, as well as styling such as bold and italics, are preserved. Images from the document are added as attachments to the knowledge article and embedded in the article body.
+When you import a document, text content from the document is used to create the knowledge article. The articles support all editing functions [supported by the TinyMCE editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_EditingFunctions.md). All HTML supported by TinyMCE such as tables, lists, and links, as well as styling such as bold and italics, are preserved. Images from the document are added as attachments to the knowledge article and embedded in the article body.
 
 **Note:**
 

@@ -25,7 +25,7 @@ Domain separation is supported for Contract Management Pro. Domain separation en
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Overview of Contract Management Pro domain separation
 
@@ -37,7 +37,7 @@ With basic domain separation support, all Contract Management Pro data tables ar
 
 When a user who belongs to a specific domain creates a contract request in Contract Management Pro, the record is created in the domain of the user. Contract users and fulfillers can access only the records that exist within their domain or within child domains, based on the basic domain separation rules.
 
-Domain separation in Contract Management Pro is enabled through the Domain Separation plugin. For more information, see Request domain separation.
+Domain separation in Contract Management Pro is enabled through the Domain Separation plugin. For more information, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md).
 
 All Contract Management Pro data tables support domain separation.
 
@@ -53,5 +53,5 @@ Contract templates, clauses, e-signature provider configurations, external stora
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

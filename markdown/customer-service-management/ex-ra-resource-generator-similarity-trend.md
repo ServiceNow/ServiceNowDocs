@@ -15,9 +15,9 @@ Configure a resource generator of type similarity with trend that provides a sim
 
 ## Before you begin
 
--   Ensure Predictive Intelligence is active and set up on your instance. See Install Predictive Intelligence.
+-   Ensure Predictive Intelligence is active and set up on your instance. See [Install Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/install-predictive-intelligence.md).
 -   Ensure you have a Predictive Intelligence subscription.
--   Train the Major issue detector similarity solution with the existing customer cases. For more information, see Create and train a similarity solution.
+-   Train the Major issue detector similarity solution with the existing customer cases. For more information, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md).
 -   Create a trend definition with the name Major issue trends to define how many records that have something in common constitute a trend, for example, six or more records with common field values.
 
 Role required: sn\_nb\_action.next\_best\_action\_author, sn\_nb\_action.resource\_generator\_author, admin

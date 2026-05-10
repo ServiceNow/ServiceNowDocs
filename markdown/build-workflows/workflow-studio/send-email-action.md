@@ -43,7 +43,7 @@ Provide a value for each input that your flow needs. To add dynamic values, you 
 
     To send email to a group, you must provide a **Group email** address. To send email to group members, the group must have the **Include members** option enabled.
 
-    **Note:** The number of email recipients must be equal to or less than the maximum number set by the glide.email.smtp.max\_recipients system property. See Minimize SMTP Recipient Quantity for information about setting this value.
+    **Note:** The number of email recipients must be equal to or less than the maximum number set by the glide.email.smtp.max\_recipients system property. See [Minimize SMTP Recipient Quantity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-max-smtp-recipients.md) for information about setting this value.
 
 -   **CC**
 

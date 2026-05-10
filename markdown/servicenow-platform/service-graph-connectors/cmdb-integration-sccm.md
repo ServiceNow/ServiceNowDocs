@@ -35,14 +35,14 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 The following ServiceNow applications have features that interact with the Service Graph Connector:
 
--   IT Operations Management \(ITOM\) Visibility
+-   [IT Operations Management \(ITOM\) Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/itom-visibility-landing-page.md)
     -   Ability to get visibility into your infrastructure.
     -   Detailed hardware and software inventory tracking. The tracking can be done with or without Software Asset Management \(SAM\).
     -   Ability to detect delta changes for efficient incremental imports from SCCM to the ServiceNow AI Platform.
--   IT Service Management \(ITSM\)
+-   [IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_ITServiceManagement.md)
     -   Incidents, problems, and changes on discovered configuration items \(CI\).
     -   Automatic device ownership assignment.
--   Software Asset Management \(SAM\) and IT Asset Management \(ITAM\)
+-   [Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md) and [IT Asset Management \(ITAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/it-asset-management.md)
     -   Tight integration with Software Asset Management Professional and client software distribution workflows.
     -   Inventory Software package and installation tracking.
     -   Software Usage tracking.

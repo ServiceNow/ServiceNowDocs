@@ -26,21 +26,21 @@ Use the following base system catalog item templates installed with Legal Reques
 -   Legal request intake form template: For creating a record producer for legal requests
 -   Legal matter intake form template: For creating a record producer for legal matters
 
-For more information about catalog item templates and catalog items, see Catalog Builder.
+For more information about catalog item templates and catalog items, see [Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-builder.md).
 
 ## Procedure
 
 1.  Open Catalog Builder from the application navigator or from an intake form.
 
-<table id="choicetable_umx_jtg_cvb"><thead><tr><th align="left" id="d592696e97">
+<table id="choicetable_umx_jtg_cvb"><thead><tr><th align="left" id="d592700e97">
 
 Option
 
-</th><th align="left" id="d592696e100">
+</th><th align="left" id="d592700e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d592696e106">
+</th></tr></thead><tbody><tr><td id="d592700e106">
 
 **From an Intake form**
 
@@ -50,7 +50,7 @@ Steps
 2.  Click the **Edit in Catalog Builder** related link.
 
 
-</td></tr><tr><td id="d592696e133">
+</td></tr><tr><td id="d592700e133">
 
 **From the application navigator**
 
@@ -67,7 +67,7 @@ Steps
 </td></tr></tbody>
 </table>2.  Based on how each step is defined in the template, specify the required information.
 
-    For more information, see Create a catalog item using a template.
+    For more information, see [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-item-cat-builder.md).
 
     In addition to entering other details, make sure to provide the following information for a record producer for a legal service:
 
@@ -119,7 +119,7 @@ Select users with specific roles who are granted access to the record producer.
 -   **Not available for**: Select users with specific roles who are denied access to the record producer.
  **Note:** If you don’t specify a user criteria in any option, access is granted to everyone.
 
- For more information on creating a user criteria, see Set up the user criteria.
+ For more information on creating a user criteria, see [Set up the user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAUserCriteriaRecord.md).
 
 </td></tr></tbody>
 </table>3.  To save your changes in each step, click **Save**.

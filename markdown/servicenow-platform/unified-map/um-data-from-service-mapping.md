@@ -17,12 +17,12 @@ Service instances that are populated using Service Mapping methods are included 
 
 ## Considerations
 
-If Service Mapping is installed and the **sn\_sm\_scoped\_app.sa.unified\_map.enabled** system property is enabled, you can access Unified Map from the Service Mapping workspace. For more information, see Access the Unified Map feature from the Service Mapping Workspace.
+If Service Mapping is installed and the **sn\_sm\_scoped\_app.sa.unified\_map.enabled** system property is enabled, you can access Unified Map from the Service Mapping workspace. For more information, see [Access the Unified Map feature from the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/view-unified-map-sm-workspace.md).
 
 If Service Mapping is not installed, only service instances that are populated by CMDB methods appear on maps. Unified Map traverses the CMDB hierarchical data both up and down using user-specified levels.
 
 **Related topics**  
 
 
-[bundle-itom.service-mapping-setup]
+[Configuring Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-setup.md)
 

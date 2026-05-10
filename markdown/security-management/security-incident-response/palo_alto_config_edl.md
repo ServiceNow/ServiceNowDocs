@@ -23,7 +23,7 @@ Role required: sn\_si.admin
 
 Create the EDL on your ServiceNow AI Platform instance so that the firewall can import objects — IP addresses, URLs, domains — included in the list and enforce policy. To enforce policy on the EDL entries, the list is referenced in a policy rule or profile.
 
-The figures in the following section are shown with **Tabbed forms** cleared in System Settings. For more information about selecting and clearing tabbed forms, see the "Display tabbed forms" section in Configuring the form layout.
+The figures in the following section are shown with **Tabbed forms** cleared in System Settings. For more information about selecting and clearing tabbed forms, see the "Display tabbed forms" section in [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
 ## Procedure
 

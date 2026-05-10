@@ -25,15 +25,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard GitHub.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d357437e97">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d357462e97">
 
 Option
 
-</th><th align="left" id="d357437e100">
+</th><th align="left" id="d357462e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d357437e106">
+</th></tr></thead><tbody><tr><td id="d357462e106">
 
 **Homepage**
 
@@ -43,7 +43,7 @@ Steps
 2.  From the Connect to a tool modal, select the tool from the appropriate category \(Orchestration, Code, Plan, or Software quality\). For example, if you want to connect to GitHub as coding tool, you'd select the **Coding tools** category.
 
 
-</td></tr><tr><td id="d357437e133">
+</td></tr><tr><td id="d357462e133">
 
 **Applications module**
 
@@ -55,7 +55,7 @@ Steps
 4.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to GitHub as coding tool, select GitHub under the **Code** category.
 
 
-</td></tr><tr><td id="d357437e188">
+</td></tr><tr><td id="d357462e188">
 
 **Tools module**
 
@@ -153,7 +153,7 @@ For the installation id, go to Install App section in your GitHub App configurat
 
     4.  If your GitHub instance is attached to a MID Server, select the **MID Server** option and enter its details.
 
-        For more information about MID server, see MID Server selection.
+        For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
 
         **Note:** The OAuth Authorization Code &amp; JWT grant types are supported for GitHub &amp; GitHub Enterprise with MID server.
 

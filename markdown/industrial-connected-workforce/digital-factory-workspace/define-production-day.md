@@ -27,7 +27,7 @@ Role required: sn\_icw.application\_admin or sn\_icw.admin
 
 3.  On the Schedule Entry form, fill in the fields.
 
-    -   For the detailed description of schedule entry fields, see Schedule entry fields.
+    -   For the detailed description of schedule entry fields, see [Schedule entry fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_ScheduleEntryFields.md).
     -   Set the end time to one second less than a full hour to avoid overlap.
     -   The expected value for **Repeats** is **Daily**.
 4.  Select **Submit**.

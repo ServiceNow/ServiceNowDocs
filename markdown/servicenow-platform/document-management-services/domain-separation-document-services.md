@@ -24,7 +24,7 @@ Domain separation is supported for Document Management. Domain separation enable
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Overview
 
@@ -73,5 +73,5 @@ For example, if the document owner, User A \(Domain: D1\) is changed to User B \
 
 [Granular admin roles in Document Management](../reference/granular-admin-roles-dms.md)
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

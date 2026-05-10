@@ -17,7 +17,7 @@ Define a custom AI Search experience in a conversation using the AI Search topic
 
 ## Before you begin
 
-Create the search profile that defines the search experience to be used in the search application configuration. For details, see Search profiles and Search application configurations.
+[Create the search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-search-profile-ais.md) that defines the search experience to be used in the search application configuration. For details, see [Search profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-profiles-ais.md) and [Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-app-cfgs-ais.md).
 
 Role required: virtual\_agent\_admin or admin with the search application administrator \[search\_application\_admin\] role
 
@@ -33,7 +33,7 @@ A search application configuration specifies the AI Search profile used by the R
 
 2.  On the form, fill in the fields.
 
-    For more information, see Search Application Configuration form.
+    For more information, see [Search Application Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-app-config-form-ais.md).
 
 3.  Select **Submit**.
 

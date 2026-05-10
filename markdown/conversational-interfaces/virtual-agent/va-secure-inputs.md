@@ -35,7 +35,7 @@ If you enable this toggle switch, you see messages about clients that are suppor
 
 These password input type fields are dynamic in the sense that the fields you see map to the fields set for the action when it was created in Workflow Studio. Some of the password2 fields may also be read-only.
 
-For password-related design considerations in Workflow Studio, see Password \(2 Way Encrypted\) design considerations .
+For password-related design considerations in Workflow Studio, see [Password \(2 Way Encrypted\) design considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/password-2-data.md) .
 
 Note the following points about how password-related inputs are handled securely:
 

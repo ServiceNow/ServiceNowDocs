@@ -338,7 +338,7 @@ Connect
 
 Selecting Connect indicates your company is using ServiceNow Connect messaging. After you select Queue, the Queue field appears below it. Select a chat queue you want to support the task you are creating. You can further filter by selecting specific skills.In previous releases, this field was labelled Queue.
 
- **Note:** The Connect support \(com.glide.connect.support\) plugin was deprecated. For more information, see Activate Connect Support.
+ **Note:** The Connect support \(com.glide.connect.support\) plugin was deprecated. For more information, see [Activate Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_ActivateConnectSupport.md).
 
 </td></tr><tr><td>
 
@@ -412,7 +412,7 @@ Additional comments \(Customer visible\)
 
 </td><td colspan="2">
 
-Enter comments, updates, or information about the task that is visible to the **Subject person** on the case.**Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see Dynamic translation.
+Enter comments, updates, or information about the task that is visible to the **Subject person** on the case.**Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see [Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md).
 
 </td></tr><tr><td>
 
@@ -420,7 +420,7 @@ Work notes
 
 </td><td colspan="2">
 
-Enter notes about the case to correspond with other HR agents. These notes are not visible to the **Subject person**. **Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see Dynamic translation.
+Enter notes about the case to correspond with other HR agents. These notes are not visible to the **Subject person**. **Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see [Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md).
 
 </td></tr></tbody>
 </table>4.  You can:

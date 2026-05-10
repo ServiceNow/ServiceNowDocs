@@ -28,13 +28,13 @@ To create an import set in ServiceNow Fluent code, you must define the required 
 
 2.  Define the data source \[sys\_data\_source\] using the Record API. The data source must reference the staging table from its import\_set\_table\_name property. For more information, see [Record API - ServiceNow Fluent](record-api-now-ts.md#).
 
-    The data source defines the connection to external systems \(files, databases, APIs\) and how to load data into import staging tables. For more information, see Data sources.
+    The data source defines the connection to external systems \(files, databases, APIs\) and how to load data into import staging tables. For more information, see [Data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_DataSources.md).
 
 3.  Define the transform map \[sys\_transform\_map\] using the Import Sets API. The transform map must reference the staging table from its sourceTable property.
 
 **Important:** The string `NULL` is a reserved word. It shouldn’t be used as a field value in import set transform maps or anywhere in the **First name** or **Last name** fields. The reserved word is `NULL` in all capital letters. A field with the value `Null` or `null`, for example, is acceptable. `NULL` should be used only to clear out a particular field.
 
-For general information about import sets, see Import sets.
+For general information about import sets, see [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md).
 
 **Parent Topic:**[ServiceNow Fluent API reference](servicenow-fluent-api-reference.md)
 
@@ -47,7 +47,7 @@ For general information about import sets, see Import sets.
 
 Create a transform map \[sys\_transform\_map\] to define the relationships between fields in an import set table and fields in an existing table.
 
-For general information about creating transform maps, see Create a transform map.
+For general information about creating transform maps, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md).
 
 <table id="table_kms_pjc_xhc" class="parameters"><thead><tr><th>
 
@@ -333,7 +333,7 @@ Define field mappings \[sys\_transform\_entry\] from the source fields of an imp
 
 Use the fields object within the ImportSet object. In the fields object, each key for the target field name must be unique to avoid mapping conflicts.
 
-For general information about creating field maps, see Create a field map.
+For general information about creating field maps, see [Create a field map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_CreatingAFieldMap.md).
 
 <table id="table_i5c_fsc_xhc" class="parameters"><thead><tr><th>
 
@@ -413,7 +413,7 @@ String
 
 </td><td>
 
-The format for transformations when the target field is a Date or Date/Time field.**Note:** To learn more about allowable date formats, see Global date and time field format.
+The format for transformations when the target field is a Date or Date/Time field.**Note:** To learn more about allowable date formats, see [Global date and time field format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_FormatDateAndTimeFields.md).
 
 Format: `'dd-MM-yyyy'`, `'yyyy-MM-dd'`, `'yyyy-dd-MM'`, `'MM-dd-yyyy HH:mm:ss z'`, `'yyyy-MM-dd HH:mm:ss'`, `'HH:mm:ss'`, `'MM-dd-yyyy HH:mm:ss'`, `'dd-MM-yyyy HH:mm:ss z'`, `'MM-dd-yyyy'`, or `'dd-MM-yyyy HH:mm:ss'`
 
@@ -427,7 +427,7 @@ String
 
 </td><td>
 
-The reference value field when the target field is a reference field. The transform map needs a way to match incoming source values to existing records in the reference field's source table. Because most imports don’t provide a 32-character sys\_id value, you must specify a column from the reference field's source table that contains values that match the incoming source values. For more information, see Create a field map.
+The reference value field when the target field is a reference field. The transform map needs a way to match incoming source values to existing records in the reference field's source table. Because most imports don’t provide a 32-character sys\_id value, you must specify a column from the reference field's source table that contains values that match the incoming source values. For more information, see [Create a field map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_CreatingAFieldMap.md).
 
 </td></tr><tr><td>
 
@@ -439,7 +439,7 @@ Boolean
 
 </td><td>
 
-Flag that indicates whether the field is used for record matching. Configuring a target field to coalesce causes the import set to treat the field as a unique key. For more information, see Create a field map.Default: false
+Flag that indicates whether the field is used for record matching. Configuring a target field to coalesce causes the import set to treat the field as a unique key. For more information, see [Create a field map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_CreatingAFieldMap.md).Default: false
 
 </td></tr><tr><td>
 
@@ -549,7 +549,7 @@ String
 
 </td><td>
 
-The stage of the import process in which to execute the script. For more information, see Map with transformation event scripts.Valid values: onBefore, onAfter, onReject, onStart, onForeignInsert, onComplete, onChoiceCreate
+The stage of the import process in which to execute the script. For more information, see [Map with transformation event scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_MapWithTransformationEventScripts.md).Valid values: onBefore, onAfter, onReject, onStart, onForeignInsert, onComplete, onChoiceCreate
 
 Default: onAfter
 

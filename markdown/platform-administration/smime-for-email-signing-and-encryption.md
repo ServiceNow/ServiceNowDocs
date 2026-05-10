@@ -46,7 +46,7 @@ If the system fails to decrypt a message, no inbound actions will run on the ema
 
 To set up the system to ignore inbound signed emails if the signature cannot be verified or is invalid, admins can create the **email.inbound.smime.ignore\_unverified\_emails** and set it to true.
 
-For more information about key management and cryprographic module, see Key Management Framework Reference.
+For more information about key management and cryprographic module, see [Key Management Framework Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/understanding-kmf.md).
 
 -   **[Import an S/MIME key pair](../task/import-smime-key-pair.md)**  
 Import an S/MIME key pair consisting of the private key and certificate to sign outbound emails or decrypt emails.

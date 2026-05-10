@@ -25,9 +25,9 @@ You have defined a communication plan and its related tasks.
 
 -   The modes of communication available are: email, SMS, conference, and Slack.
 -   For the incident table, the functionality for SMS and conference appears only if you activate the Notify plugin \(com.snc.notify\) and the **com.snc.iam.notify\_number** property value is set to the registered notify number. The notify number is registered while configuring the Twilio account.
--   For the incident table, the functionality for Slack appears only if you activate the Collaboration Services for Task Communications Management plugin \(sn\_tcm\_collab\_hook\). To activate the Collaboration Services for Task Communications Management plugin, navigate to [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) and install the Collaboration Services for Task Communications Management application. For more information, refer Collaboration services for Task Communications Management.
+-   For the incident table, the functionality for Slack appears only if you activate the Collaboration Services for Task Communications Management plugin \(sn\_tcm\_collab\_hook\). To activate the Collaboration Services for Task Communications Management plugin, navigate to [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) and install the Collaboration Services for Task Communications Management application. For more information, refer [Collaboration services for Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/collaboration-services/collab-services-tcm.md).
 
-    **Note:** For information on how to configure Slack, refer to Configure Slack workspace .
+    **Note:** For information on how to configure Slack, refer to [Configure Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-slack.md) .
 
 -   **Add Channel – Conference** is mutually exclusive to **Add Channel – SMS** and **Add Channel – Email**. If you select **Add Channel – Conference**, you cannot select **Add Channel – Email** or **Add Channel – SMS**.
 

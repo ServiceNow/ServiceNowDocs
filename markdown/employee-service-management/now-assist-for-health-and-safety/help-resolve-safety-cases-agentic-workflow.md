@@ -26,7 +26,7 @@ To access the agentic workflow:
 
 3.  Select **Continue** or select **Define trigger** to review the trigger factor for this agentic workflow.
 
-    **Note:** Confirm that the application scope is selected as **AI agents for Health and Safety** to enable the **Save** option when you change the trigger status to Active. For more information on changing the application scope, see Application picker.
+    **Note:** Confirm that the application scope is selected as **AI agents for Health and Safety** to enable the **Save** option when you change the trigger status to Active. For more information on changing the application scope, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 4.  Enable the Now Assist panel from the **Select display** option.
 

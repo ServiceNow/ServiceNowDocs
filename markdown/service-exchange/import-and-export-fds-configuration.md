@@ -45,7 +45,7 @@ You can export ETL configurations from one instance and import them into another
 
     3.  Complete the update sets and export it.
 
-        For more information on update sets, see General guidelines for planning the update process.
+        For more information on update sets, see [General guidelines for planning the update process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/get-started-update-sets.md).
 
 2.  Import the ETL configuration to another instance.
 
@@ -53,7 +53,7 @@ You can export ETL configurations from one instance and import them into another
 
     2.  After a subscription is created for your FDS request, and the request is in awaiting validation state, import the configuration that you have exported in Step 1.
 
-        If you have any errors in the update sets, you can skip those files and commit the remaining files. Your configuration won't be affected. For more information on update sets, see General guidelines for planning the update process.
+        If you have any errors in the update sets, you can skip those files and commit the remaining files. Your configuration won't be affected. For more information on update sets, see [General guidelines for planning the update process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/get-started-update-sets.md).
 
     3.  Open the subscription and the subscription item.
 
@@ -63,6 +63,6 @@ You can export ETL configurations from one instance and import them into another
 
     5.  Verify all the steps in ETL configuration to make sure everything is mapped correctly, and run the integration and perform rollback.
 
-        For details, see IntegrationHub ETL.
+        For details, see [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md).
 
 

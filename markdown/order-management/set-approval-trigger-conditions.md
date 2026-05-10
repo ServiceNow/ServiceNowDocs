@@ -17,7 +17,7 @@ Define one or more conditions that apply company policies, such as legal guideli
 
 Before creating conditions, consider the business thresholds that determine when an approval is required, such as a certain discount percentage for quote line items or a minimum deal size amount.
 
-Verify that you have the associated items \(fields\) that represent the business thresholds in the entity table for the approval configuration, such as the Quote \[sn\_quote\_mgmt\_core\_quote\] table or through dynamic attributes defined in a Dynamic Schema. For more information on dynamic attributes, see Dynamic Schema.
+Verify that you have the associated items \(fields\) that represent the business thresholds in the entity table for the approval configuration, such as the Quote \[sn\_quote\_mgmt\_core\_quote\] table or through dynamic attributes defined in a Dynamic Schema. For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 Role required: sn\_adv\_appr\_mgmt.approval\_rule\_admin, sn\_adv\_appr\_mgmt.approval\_rule\_writer
 
@@ -55,7 +55,7 @@ Conditions are based on attributes for a Sales Customer Relationship Management 
 
     Specify a condition by selecting the **Field** and **Operator**, and entering a value for the operator. For example, you can specify a condition that requires approvals when the discount for a quote line item is 20% or higher: **\[Discount percentage\] \[greater than or is\] \[20\]**
 
-    For basic information on setting conditions, see Condition builder. For more information on the available operators, see Operators available for filters and queries.
+    For basic information on setting conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md). For more information on the available operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
 8.  If you have the admin role and want to specify trigger conditions using scripts, turn on the **Advanced condition** field.
 

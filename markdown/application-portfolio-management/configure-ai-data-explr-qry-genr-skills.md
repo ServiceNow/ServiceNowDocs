@@ -15,7 +15,7 @@ You can configure the AI Data Explorer and Query Generation skills to provide AI
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 Role required:
 
@@ -30,7 +30,7 @@ Configuring AI Data Explorer and Query Generation skills enables you to use a co
 
 1.  AI Data Explorer skills.
 
-    For information on how to activate AI Data Explorer skills, see Activate AI Data Explorer skills.
+    For information on how to activate AI Data Explorer skills, see [Activate AI Data Explorer skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activate-now-ass-explorer.md).
 
     **Note:**
 
@@ -42,7 +42,7 @@ Configuring AI Data Explorer and Query Generation skills enables you to use a co
     -   **Data visualization generation**
 2.  Activate Query Generation skills.
 
-    For information on how to Activate Query Generation skills, see Query Generation skills.
+    For information on how to Activate Query Generation skills, see [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-query-generation.md).
 
     **Note:** Activate the following skills for Enterprise Architecture Workspace dashboard insights:
 
@@ -50,7 +50,7 @@ Configuring AI Data Explorer and Query Generation skills enables you to use a co
     -   **Analytics hidden insights generation**
 3.  Configure AI Search.
 
-    For information on how to configure AI Search, see Configuring AI Search
+    For information on how to configure AI Search, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ais.md)
 
 
 **Parent Topic:**[Configure Now Assist for Enterprise Architecture \(EA\)](configure-now-assist-ea.md)

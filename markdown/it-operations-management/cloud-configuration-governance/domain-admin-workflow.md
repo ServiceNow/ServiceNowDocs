@@ -30,7 +30,7 @@ Strong universal process standards, data-driven process design, strict governanc
     **Note:**
 
     -   Cloud Provisioning and Governance does not support the expand and collapse domain scope capability.
-    -   For more information on what a user can and cannot access, see Domain Scope
+    -   For more information on what a user can and cannot access, see [Domain Scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainScope.md)
     A service account is a secure record on your instance that stores the credential and access information for your provider account. Discovery uses the information to access your provider account to get data on each resource in each specified datacenter. A cloud account is the logical representation in Cloud Provisioning and Governance of all or part of your managed cloud infrastructure. A cloud account can include multiple service accounts — even service accounts from different providers. For each service account, you specify which datacenters to include in the cloud account.
 
     Ensure that management keys and service account credentials are unique to each domain and are not shared. To set up cloud accounts and service accounts for multiple cloud providers, perform Day 1 Setup actions:

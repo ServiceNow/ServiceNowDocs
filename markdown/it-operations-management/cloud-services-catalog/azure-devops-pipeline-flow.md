@@ -17,7 +17,7 @@ Provision the Microsoft Azure DevOps catalog by using the Microsoft Azure DevOps
 
 ## Before you begin
 
-To use Microsoft Azure DevOps for Cloud Services Catalog, assign Azure DevOps and Cloud Management capabilities to the MID Server. For more information, see Configure MID Server capabilities.
+To use Microsoft Azure DevOps for Cloud Services Catalog, assign Azure DevOps and Cloud Management capabilities to the MID Server. For more information, see [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md).
 
 Set the deploymentID as variables in the AWS pipelines that you want to discover. The subscriptionID isn’t required for Microsoft Azure pipelines.
 

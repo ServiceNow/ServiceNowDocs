@@ -425,7 +425,7 @@ Requires Additional Review
 
 </td><td>
 
-Option to automatically select the **Needs resolution review** check box on the corresponding universal request. For information about the universal request fields, see Universal Request form.The **Requires Additional Review** field appears only when the **UR certified/enabled item** check box is selected.
+Option to automatically select the **Needs resolution review** check box on the corresponding universal request. For information about the universal request fields, see [Universal Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/new-ur-record-form.md).The **Requires Additional Review** field appears only when the **UR certified/enabled item** check box is selected.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

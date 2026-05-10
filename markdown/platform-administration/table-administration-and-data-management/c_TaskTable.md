@@ -31,7 +31,7 @@ These tools can be run on any table which extends Task.
 
 -   Approvals
 
-    Approvals can be generated to a list of Approvers, either manually or automatically, according to Approval Rules. Approvals can be incorporated into workflows or can stand alone. For more information, see Process approvals.
+    Approvals can be generated to a list of Approvers, either manually or automatically, according to Approval Rules. Approvals can be incorporated into workflows or can stand alone. For more information, see [Process approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/c_ProcessApprovals.md).
 
     Approvals can be used on tables that do not extend Task.
 
@@ -49,7 +49,7 @@ These tools can be run on any table which extends Task.
 
 -   Workflow Studio
 
-    A process owner can design a flow for tasks that meet certain conditions. After a task is created that meets the conditions, the flow applies an automated process to the task. The process is defined in Workflow Studio. For more information, see Flow Designer.
+    A process owner can design a flow for tasks that meet certain conditions. After a task is created that meets the conditions, the flow applies an automated process to the task. The process is defined in Workflow Studio. For more information, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md).
 
 
 ## Modifying the Task table

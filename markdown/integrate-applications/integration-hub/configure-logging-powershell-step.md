@@ -17,7 +17,7 @@ Add log messages to the scripts in your PowerShell step. Use log levels for impr
 
 ## Before you begin
 
-To add log messages to your script, you will need to use the Write-SNCLog function. This function is defined in the IH\\Logging.psm1 module. Use PSScript.ps1 to import this module so inline scripts have access to Write-SNCLog. For more information, see MID Server PowerShell files.
+To add log messages to your script, you will need to use the Write-SNCLog function. This function is defined in the IH\\Logging.psm1 module. Use PSScript.ps1 to import this module so inline scripts have access to Write-SNCLog. For more information, see [MID Server PowerShell files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/mid-server-powershell-files.md).
 
 Role required: admin
 
@@ -27,7 +27,7 @@ Role required: admin
 
 2.  Set **mid.property.powershell.log\_info** to **true**.
 
-    This property enables or disables logging. For more information, see PowerShell log property.
+    This property enables or disables logging. For more information, see [PowerShell log property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/powershell-log-property.md).
 
 3.  Set **mid.property.powershell.ih.log\_level** to the desired log level.
 
@@ -97,9 +97,9 @@ Specify the message to log. Entered as a string. This parameter is required.
 
 ## What to do next
 
-The new logs are available in the MID agent log and can be downloaded from the MID Server. For more information, see Download the MID Server files.
+The new logs are available in the MID agent log and can be downloaded from the MID Server. For more information, see [Download the MID Server files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_DownloadMIDServerFiles.md).
 
-If you set the system property to view the logs in the instance, you can see them in the **Flow engine log entries** tab of the Flow engine context record. For more information, see Flow execution details.
+If you set the system property to view the logs in the instance, you can see them in the **Flow engine log entries** tab of the Flow engine context record. For more information, see [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-details.md).
 
 **Parent Topic:**[PowerShell step](../../flow-designer/reference/powershell-step-action-designer.md)
 

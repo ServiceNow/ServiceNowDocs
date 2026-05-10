@@ -31,7 +31,7 @@ Create this case template for use when a user's approval or rejection is require
 
     -   If you are creating a new template, click **New**.
     -   If you are modifying an existing template, open the desired template.
-    For information about the template form fields, see Create a template.
+    For information about the template form fields, see [Create a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateATemplateUsingTheTmplForm.md).
 
 3.  In the **Table** field, select the **Workplace case \[sn\_wsd\_case\_workplace\_case\]** table.
 

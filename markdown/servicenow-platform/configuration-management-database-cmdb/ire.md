@@ -25,7 +25,7 @@ ServiceNow® applications such as Service Mapping, horizontal discovery, and pat
 Additional information:
 
 -   About properties that affect some functions of IRE: See [Properties for Identification and Reconciliation](../reference/properties-id-reconciliation.md).
--   About using IRE APIs: See IdentificationEngine - Scoped.
+-   About using IRE APIs: See [IdentificationEngine - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/IdentificationEngineScopedAPI.md).
 -   About enabling debugging and checking on issues with a payload: See [How to log the payload sent to IRE and check the issues with the payload \[KB0750382\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB0750382).
 -   About the steps that IRE performs illustrating how IRE works, such as validating the payload, applying reconciliation, and committing the data to the CMDB: See [\[CMDB - IRE\] How the CMDB Identification and Reconciliation Engine works when passing a CI \(as payload\) to the createOrUpdateCI\(\) \[KB0750386\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB0750386).
 -   About how to run a payload through IRE: See [\[CMDB IRE\] How to run the CI identification on demand using the payload \[KB0750383\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB0750383).
@@ -90,7 +90,7 @@ You can also use the following system properties to modify how IRE uses the **so
 
 ## Enhanced IRE features
 
-The CreateOrUpdateCIEnhanced\(\)​​ and identifyCIEnhanced scriptable APIs provides the functionality for the following enhanced IRE features, which can be enabled or disabled as needed:
+The [CreateOrUpdateCIEnhanced\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/IdentificationEngineScopedAPI.md)​​ and [identifyCIEnhanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_IdentEngineScriptAPI.md) scriptable APIs provides the functionality for the following enhanced IRE features, which can be enabled or disabled as needed:
 
 -   **Partial payloads**
 
@@ -196,7 +196,7 @@ The computer in the partial payload and the server in the new payload match beca
 
 There is a limit on the number of items per partial payload, which is set by the [glide.identification\_engine.partial\_payload\_items\_max\_size](../reference/properties-id-reconciliation.md) property \(1000 by default\). Storing associated relationships, references, and dependent items, in one partial payload, can result in reaching that limit, in which case, the payload is split into multiple partial payloads.
 
-For more information about partial payloads, see CreateOrUpdateCIEnhanced\(\)​​.
+For more information about partial payloads, see [CreateOrUpdateCIEnhanced\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/IdentificationEngineScopedAPI.md)​​.
 
 ## Incomplete items
 
@@ -218,7 +218,7 @@ Use the **relations** object in the payload to add or update relationships by re
 -   Relation \(parent Index, child Index, Relation Type\)
 -   Relation \(parent Internal Id, child Internal Id, Relation Type\)​
 
-For more information and for code samples, see CreateOrUpdateCIEnhanced\(\)​​.
+For more information and for code samples, see [CreateOrUpdateCIEnhanced\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/IdentificationEngineScopedAPI.md)​​.
 
 ## Adding references between payload items
 
@@ -226,11 +226,11 @@ Add references between two payload items by using the optional JSON **internal\_
 
 Use the **referenceItems** block to add or update references. You can add references between any two items, including main items, lookup items, and related items, in a single payload.
 
-For more information and for code samples, see CreateOrUpdateCIEnhanced\(\)​​.
+For more information and for code samples, see [CreateOrUpdateCIEnhanced\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/IdentificationEngineScopedAPI.md)​​.
 
 ## CI reclassification
 
-Use the **updateWithoutUpgrade**, **updateWithoutDowngrade**, and **updateWithoutSwitch** flags in the settings block in a payload, to prevent unintentional updates to CIs' class. These flags prevent upgrading, downgrading, or switching the class of a CI that multiple data sources unintentionally might attempt while updating the same CI. For more information and for code samples, see CreateOrUpdateCIEnhanced\(\)​​.
+Use the **updateWithoutUpgrade**, **updateWithoutDowngrade**, and **updateWithoutSwitch** flags in the settings block in a payload, to prevent unintentional updates to CIs' class. These flags prevent upgrading, downgrading, or switching the class of a CI that multiple data sources unintentionally might attempt while updating the same CI. For more information and for code samples, see [CreateOrUpdateCIEnhanced\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/IdentificationEngineScopedAPI.md)​​.
 
 Reclassification flags have precedence over any other system settings for [Configure CI reclassification during IRE processing](c_CIReclassification.md#).
 

@@ -27,7 +27,7 @@ Role required: sn\_icw\_igt.standard author
 
 3.  One the Assessment template form, fill in the fields.
 
-    For a description of the field values, see Create assessment template form. The Purpose field lets you select from the list of assessment template categories.
+    For a description of the field values, see [Create assessment template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/create-assessment-template-form.md). The Purpose field lets you select from the list of assessment template categories.
 
     **Note:**
 
@@ -43,7 +43,7 @@ Role required: sn\_icw\_igt.standard author
 
 5.  In the **Questions** tab, fill in the template.
 
-    For a description of the field values, see Add instructions and questions to an assessment template.
+    For a description of the field values, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).
 
     **Note:** The following controls are to be kept as is:
 

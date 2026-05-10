@@ -20,7 +20,7 @@ Agent Client Collector setup automatically creates an ACC data input for streami
 -   The Agent Client Collector Log Analytics application has a dependency on the following ServiceNow applications, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home):
     -   Health Log Analytics, Version 22.0.12 - December 2021 and later releases.
     -   Agent Client Collector -Framework, Version 2.7.0 - December 2021 and later releases.
--   Verify that a MID Server is installed and configured. For more information, see MID Server system requirements.
+-   Verify that a MID Server is installed and configured. For more information, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md).
 -   The MID Server must be configured to work with the Agent Client Collector. For more information, see [Enable Agent Client Collector monitoring on the MID Server](../../agent-client-collector/task/acc-monitoring-setup.md).
 
 **Important:** Health Log Analytics does not support IPv6. To work with the application, configure the MID Server to IPv4.

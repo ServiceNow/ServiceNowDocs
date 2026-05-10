@@ -141,5 +141,5 @@ In contrast, in sys\_choice inheritance definitions in child tables override the
 
 [Asset status values aligned to CSDM life cycle values](csdm-lifecycle-map-csdm-to-asset.md)
 
-[bundle-itam.c_ManagingAssets]
+[Asset and CI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/c_ManagingAssets.md)
 

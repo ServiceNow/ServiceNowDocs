@@ -28,7 +28,7 @@ As an administrator, you must activate geolocation tracking for your  users by
 
 **Note:** To install the Mobile Location Tracking plugin \(com.glide.sg.location.tracking\), you must first install the Geolocation plugin \(com.snc.geolocation\).
 
-For details on plugin activation, see Activate a plugin.
+For details on plugin activation, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 ## Location tracking and your users
 

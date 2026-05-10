@@ -124,7 +124,7 @@ Communities \(com.sn\_communities\)
 
 The Communities plugin supports [Employee Forums](ecpro-employee-forum.md), where employees can connect, engage, and collaborate with each other.Requires Content Publishing \(sn\_sd\) and Content Experiences \(sn\_ca\)
 
-Activate Communities plugins
+[Activate Communities plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/activate-communities.md)
 
 </td></tr><tr><td>
 
@@ -147,5 +147,5 @@ Content Governance provides a streamlined way for employees to request content t
 [Activate Content Governance](../task/ec-install-content-gov.md)
 
 </td></tr></tbody>
-</table>For more information, see the List of plugins \(Australia\).
+</table>For more information, see the [List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md).
 

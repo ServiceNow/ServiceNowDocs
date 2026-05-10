@@ -21,7 +21,7 @@ Starting with the Yokohama release, Redox Inbound Integration is being prepared 
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
--   Set the application scope to Redox Inbound Integration using the application picker. For more information, see Application picker.
+-   Set the application scope to Redox Inbound Integration using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 -   [Create a user for Redox Inbound Integration](hcls-redox-create-user.md).
 
 Role required: sn\_hcls.admin or admin
@@ -51,6 +51,6 @@ Administers who can access the Redox Inbound Integration application.
 
 -   Assign the sn\_hcls.admin role to the user for the Redox Inbound Integration application.
 
-    For more information, see Assign a role to a user.
+    For more information, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
 

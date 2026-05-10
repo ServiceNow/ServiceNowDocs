@@ -129,5 +129,5 @@ Detailed description for the record producer.
 
 The remote catalog item is now created, and will create a provider task in the provider instance. For more information on how to configure remote provider task definitions, see [Create remote task definitions in Service Exchange for Providers in Public Sector Digital Services](../task/psds-servicebridge-config-create-remote-task-def.md).
 
-For more information on record producers in Service Exchange, see Remote record producers in Service Exchange
+For more information on record producers in Service Exchange, see [Remote record producers in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-remote-record.md)
 

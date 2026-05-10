@@ -27,7 +27,7 @@ The identified table must already be configured for indexing and searching. For 
 
 Role required: admin
 
-**Note:** If the **glide.script\_processor.admin** system property's value has been changed from the default value, you need the role specified by that property value. For details on this property value and its effects, see Restrict access to background script.
+**Note:** If the **glide.script\_processor.admin** system property's value has been changed from the default value, you need the role specified by that property value. For details on this property value and its effects, see [Restrict access to background script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-restrict-access-to-background-script.md).
 
 ## About this task
 
@@ -41,7 +41,7 @@ You can use this method to quickly determine whether text indexing is the cause 
 
 2.  Navigate to **All** &gt; **System Definition** &gt; **Scripts - Background**.
 
-    **Note:** If the **glide.script\_processor.admin** system property's value is set to security\_admin, you must elevate to that privileged role to access this module. For more information on elevating privileges, see Elevated privilege roles.
+    **Note:** If the **glide.script\_processor.admin** system property's value is set to security\_admin, you must elevate to that privileged role to access this module. For more information on elevating privileges, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ElevatedPrivilege.md).
 
 3.  In the **Run script \(JavaScript executed on server\)** text field, enter the following script, replacing `TABLE_NAME` with the name of the table containing the identified record and `SYS_ID` with the record's sys\_id that you copied in step [1](regenerate-text-index-one-record.md#copy-sys-id-step):
 

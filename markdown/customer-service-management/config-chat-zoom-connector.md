@@ -25,15 +25,15 @@ This task provides general steps to set up the Chat Zoom Connector application f
 
 1.  Integrate the Zoom account of your company with your ServiceNow instance using the Zoom spoke.
 
-    For more information, see Set up the Zoom spoke.
+    For more information, see [Set up the Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-zoom.md).
 
 2.  Set up the Notify Zoom connector in Zoom for associating the Notify communication channel with Zoom meetings.
 
-    The conference call details of the Zoom meetings are stored in the Notify Conference Calls \[notify\_conference\_call\] table. For more information, see Set up Notify Zoom connector.
+    The conference call details of the Zoom meetings are stored in the Notify Conference Calls \[notify\_conference\_call\] table. For more information, see [Set up Notify Zoom connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/setup-notify-zoom-connector.md).
 
 3.  Install the Chat Zoom Connector application.
 
-    For more information, see Install a ServiceNow Store application.
+    For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
 
     **Note:** The Chat Zoom Connector application installs the CSMZoomInteractionImpl script include, which is preconfigured for the Customer Service application. It also installs the sn\_chat\_zoom.ZoomInteractionExtPoint extension point, which enables the copying of any application-specific fields from the parent chat interaction record to the Zoom interaction record. For more information, see [Configure application-specific field values for Zoom interactions](config-chat-zoom-ext-pt.md).
 

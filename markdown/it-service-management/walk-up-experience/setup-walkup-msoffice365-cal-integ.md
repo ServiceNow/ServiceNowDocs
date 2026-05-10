@@ -21,7 +21,7 @@ Logging into the Microsoft Azure Portal \([https://portal.azure.com](https://por
 
 Also required is that you have a Microsoft Office 365 subscription linked to an existing tenant. For details regarding this, refer to [Set up a Microsoft 365 developer subscription](https://docs.microsoft.com/en-us/office/developer-program/microsoft-365-developer-program-get-started).
 
-See the required permissions for Microsoft Azure client setup at Set up Microsoft Exchange Online spoke Set up Microsoft Exchange Online spoke.
+See the required permissions for Microsoft Azure client setup at [Set up Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-ms-exch-ol.md) [Set up Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-ms-exch-ol.md).
 
 ![Video icon](../../itsm-virtual-agent/image/icon-video-link.png) [Virtual Agent Academy: Get service faster with Virtual Agent and Walk-Up Experience](https://www.youtube.com/watch?v=hE5weOQVFe4&list=PLkGSnjw5y2U79gjQuQW-2GBqzEccwFkWH) \(video from the Virtual Agent Academy\)
 
@@ -76,7 +76,7 @@ Role required: admin
 
     1.  Create a new test user in the system.
 
-        Refer to Create a user for details.
+        Refer to [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md) for details.
 
         **Note:** Provide a user ID, first name, last name, password and email for the test user.
 

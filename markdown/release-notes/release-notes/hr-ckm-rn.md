@@ -17,30 +17,30 @@ The ServiceNow® Case and Knowledge Management application enables you to standa
 -   Restrict access to HR data with Granular admin roles in Case and Knowledge Management.
 -   Find users who can access HR cases in an instance based on COE security policies, using the COE Security Diagnostics tool.
 
-See Case and Knowledge Management for more information.
+See [Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/case-knowledge-management-landing-page.md) for more information.
 
 ## New in the Australia release
 
--   **Granular roles**
+-   **[Granular roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/components-installed-with-case-and-knowledge-management.md)**
 
     Provide tighter security to HR data using the granular admin roles in Case and Knowledge Management.
 
--   **Use COE Security Diagnostics**
+-   **[Use COE Security Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/coe-diagnostics-tool.md)**
 
     Enable HR administrators to determine which users have access to HR cases within an instance based on COE security policies. HR administrators can also review the specific COE security policies that restrict user access.
 
--   **ER Consolidated List in HR Agent Workspace**
+-   **[ER Consolidated List in HR Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-dashboards.md)**
 
     Get a holistic view of all related tables for all the ER cases using the ER cases consolidated view in the Employee relations dashboard.
 
 
 ## Activation information
 
-Case and Knowledge Management is available with activation of the Human Resources Scoped app: Core \[com.sn\_hr\_core\]. See Activate Case and Knowledge Management for more information.
+Case and Knowledge Management is available with activation of the Human Resources Scoped app: Core \[com.sn\_hr\_core\]. See [Activate Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/activate-case-and-knowledge-management-scoped.md) for more information.
 
 ## Related ServiceNow applications and features
 
--   **Agent Workspace for HR Case Management**
+-   **[Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-landing-page.md)**
 
     The ServiceNow® Agent Workspace for HR Case Management application enables you to interact with employees, respond to inquiries, and resolve issues quickly.
 

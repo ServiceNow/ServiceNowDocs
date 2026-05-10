@@ -75,17 +75,17 @@ The following roles are required to initiate, view, and manage contract executio
 
 ## Requirements for integrating Sales Customer Relationship Management and Contract Management Pro
 
-1.  Install Quote Management.
+1.  [Install Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/installing-quote-management.md).
 2.  [Install Contract Management Pro](../task/cncore-install-cmpro.md).
-3.  Integrate with Contract Management Pro.
+3.  [Integrate with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-integrate-contract-management.md).
 
-For more information, see Quote Management integration with Contract Management Pro.
+For more information, see [Quote Management integration with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-int-contracts-pro.md).
 
 ## Get started with initiating contract request
 
 Get started with initiating contract request by completing these tasks:
 
-1.  Configuring Sales Customer Relationship Management applications.
+1.  [Configuring Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-configuring.md).
 2.  Configure Contract Management Pro
     -   **[Create a contract type](../task/cncore-create-contract-type.md)**
 
@@ -123,5 +123,5 @@ Get started with initiating contract request by completing these tasks:
 
         Role:contract configurator.
 
-3.  Initiate a contract request
+3.  [Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-create-contract.md)
 

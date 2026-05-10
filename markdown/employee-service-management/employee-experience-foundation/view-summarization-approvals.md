@@ -47,7 +47,7 @@ Role required:approver\_user, sn\_request\_read, sn\_write
 
 ## What to do next
 
-Proceed to [Manage approvals with Now Assist Approval Assistance AI agent](manage-approvals-with-approvals-agent.md). Review how to set up and use the Approval Assistance AI agent. For more information, see Platform Approval assistance AI agent.
+Proceed to [Manage approvals with Now Assist Approval Assistance AI agent](manage-approvals-with-approvals-agent.md). Review how to set up and use the Approval Assistance AI agent. For more information, see [Platform Approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-approval-aia.md).
 
 **Note:** Ensure the portal approval record is configured as explained in 
 

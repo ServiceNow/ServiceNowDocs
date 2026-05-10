@@ -84,15 +84,15 @@ To generate a summary for the following records:-   Negotiation
     -   **Next steps**: Lists the actions that the fulfillers need to take next.
 7.  When you finish summarizing a record, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d198424e296">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d198419e296">
 
 Option
 
-</th><th align="left" id="d198424e299">
+</th><th align="left" id="d198419e299">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d198424e305">
+</th></tr></thead><tbody><tr><td id="d198419e305">
 
 **Save the summary information by adding it to the record work notes**
 
@@ -103,7 +103,7 @@ Procedure
 3.  Select **Save to work notes**.![Save work notes for procurement record summarization.](../../source-to-pay-operations/image/record-summarization-copy-notes-spo.png)
 
 
-</td></tr><tr><td id="d198424e337">
+</td></tr><tr><td id="d198419e337">
 
 **Expand or collapse the summary**
 
@@ -111,7 +111,7 @@ Procedure
 
 Select the expand card icon \(![Expand card icon.](../image/icon-expand.png)\) or the collapse card icon \(![Collapse card icon.](../image/icon-collapse.png)\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d198424e358">
+</td></tr><tr><td id="d198419e358">
 
 **Provide feedback for the summary**
 
@@ -119,7 +119,7 @@ Select the expand card icon \(![Expand card icon.](../image/icon-expand.png)\) o
 
 If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../image/icon-helpful.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d198424e381">
+</td></tr><tr><td id="d198419e381">
 
 **Copy the record summary**
 
@@ -127,7 +127,7 @@ If you think that the summary was helpful, select the helpful icon \(![Helpful i
 
 Select the copy to clipboard icon \(![Copy to clipboard icon.](../image/icon-copy-spo.png)\) to use the record summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d198424e397">
+</td></tr><tr><td id="d198419e397">
 
 **View the information about the record summary**
 
@@ -135,7 +135,7 @@ Select the copy to clipboard icon \(![Copy to clipboard icon.](../image/icon-cop
 
 If you want to check some details about the summary, select the more info icon \(![More info icon.](../image/icon-more-info.png)\).
 
-</td></tr><tr><td id="d198424e412">
+</td></tr><tr><td id="d198419e412">
 
 **Refresh the record summary**
 

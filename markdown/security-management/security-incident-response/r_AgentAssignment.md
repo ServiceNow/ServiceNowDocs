@@ -51,7 +51,7 @@ For an example of how the weighting properties affect agent ratings, see [Agent 
 
 ### On-call scheduling
 
-The On-Call Scheduling application helps you to ensure that dedicated support team members are available to resolve issues as they arise. You can set up on-call schedules, roster rotations, and escalation policies, escalate notifications for a group, and determine the current contact for an escalation. The application identifies the assigned and available member of a support group, for example, when assigning an incident. See On-Call Scheduling for more information. On-call scheduling for Security Incident Response works the same way.
+The On-Call Scheduling application helps you to ensure that dedicated support team members are available to resolve issues as they arise. You can set up on-call schedules, roster rotations, and escalation policies, escalate notifications for a group, and determine the current contact for an escalation. The application identifies the assigned and available member of a support group, for example, when assigning an incident. See [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/c_OnCallScheduling.md) for more information. On-call scheduling for Security Incident Response works the same way.
 
 ### Agent auto assignment using location
 
@@ -172,5 +172,5 @@ In this example, Agent A is auto-assigned the task.
 
 ### Agent assignment using Advanced Work Assignment \(AWA\)
 
-You can configure Advanced Work Assignment to automatically assigns security incidents to your security analysts, based on their availability, capacity, and optionally, skills. AWA pushes work to qualified security analysts using work item queues, routing conditions, and assignment criteria that you define.
+You can configure [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-application-landing-page.md) to automatically assigns security incidents to your security analysts, based on their availability, capacity, and optionally, skills. AWA pushes work to qualified security analysts using work item queues, routing conditions, and assignment criteria that you define.
 

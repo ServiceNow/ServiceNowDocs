@@ -17,7 +17,7 @@ Validate the NIDS to import the devices from the ETL that were detected by the s
 
 ## Before you begin
 
-It's recommended that you have the Common Service Data Model plugin installed. The Service Graph Connector aligns with the life cycle data models as per the Configuration Management Database \(CMDB\) standards. For more information, see Implementing the CSDM framework in stages.
+It's recommended that you have the Common Service Data Model plugin installed. The Service Graph Connector aligns with the life cycle data models as per the Configuration Management Database \(CMDB\) standards. For more information, see [Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md).
 
 Role required: cmdb\_nids\_admin
 

@@ -19,7 +19,7 @@ Workflow Studio offers a selection of preconfigured subflows that are available 
 
 ## Automatic skill activation
 
-This Platform workflow skill is automatically activated when you install a Now Assist product. For more information about Platform workflow skill activation, see Now Assist skills in the Platform workflow.
+This Platform workflow skill is automatically activated when you install a Now Assist product. For more information about Platform workflow skill activation, see [Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md).
 
 ## User role access
 
@@ -29,7 +29,7 @@ Give personnel an appropriate role to access conversational subflows. See [User 
 
 To make a subflow conversation compatible, you must perform the following steps.
 
--   Turn on the subflows and actions skill. See Turn on the subflows and actions skill.
+-   Turn on the subflows and actions skill. See [Turn on the subflows and actions skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/turn-on-the-subflows-and-actions-skill.md).
 -   Give personnel an appropriate role to access conversational subflows. See [User roles for conversational subflows and actions](../reference/user-roles-for-conversational-subflows-and-actions.md).
 -   Choose subflow inputs that are compatible with Conversational Interfaces. See [Supported input data types for conversational subflows and actions](../reference/supported-input-data-types-for-conversational-subflows-and-actions.md).
 -   Add tooltip hint text to all subflow inputs.

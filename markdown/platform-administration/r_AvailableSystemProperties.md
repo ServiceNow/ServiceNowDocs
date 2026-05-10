@@ -13,7 +13,7 @@ breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow 
 
 Some properties are available on a system properties form, but some lesser-used properties are available only from the System Property \[sys\_properties\] table. Sometimes, the property does not exist in a base instance, but can be added if you change the value.
 
-**Note:** The Instance Security Hardening Settings content contains detailed descriptions, and compliance values, for the security-related system properties and plugins in the ServiceNow AI Platform. To learn more about each of these properties, see Instance Security Hardening Settings.
+**Note:** The Instance Security Hardening Settings content contains detailed descriptions, and compliance values, for the security-related system properties and plugins in the ServiceNow AI Platform. To learn more about each of these properties, see [Instance Security Hardening Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/update-security-hardening-params.md).
 
 -   **cdu.record.watcher.timeout**
 
@@ -111,7 +111,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: System Property \[sys\_properties\] table
 -   **com.glide.csp.self\_script\_src\_svg**
 
-    WHen enabled, prevents malicious file attachments that store cross site scripting \(XSS\) attacks from running in an instance. For more information, see Set safe content security policy for SVG files.
+    WHen enabled, prevents malicious file attachments that store cross site scripting \(XSS\) attacks from running in an instance. For more information, see [Set safe content security policy for SVG files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-set-safe-content-security-policy-for-svg-files.md).
 
     -   Type: true \| false
     -   Default: true
@@ -181,7 +181,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     When false, **Go to data** chart interactions for visualizations of tables open the Platform Analytics list of table records. Redirections in general that open lists or charts open Platform Analytics lists and charts.
 
-    For more information, see Chart interactions in a data visualization.
+    For more information, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dv-chart-interactions.md).
 
     -   Type: true \| false \(Boolean\)
     -   Default value: true
@@ -329,14 +329,14 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: [Add the property](r_AvailableSystemProperties.md#) to the System Property \[sys\_properties\] table.
 -   **com.snc.pa.dc.batch\_score\_insert**
 
-    When true, Performance Analytics data collection jobs insert indicator scores to the database in batches. When false, indicator scores are inserted one by one. Even when true, batch score insertion is performed only as a fallback when nested data collection \(com.snc.pa.dc.nested\_collection\) has been disabled.
+    When true, Performance Analytics [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) insert indicator scores to the database in batches. When false, indicator scores are inserted one by one. Even when true, batch score insertion is performed only as a fallback when nested data collection \(com.snc.pa.dc.nested\_collection\) has been disabled.
 
     -   Type: Boolean true \| false
     -   Default value: true
     -   Location: System Properties \[sys\_properties\] table
 -   **com.snc.pa.dc.flush\_snapshot\_count**
 
-    Maximum number of Performance Analytics snapshots to store in the memory during data collection. When this number is reached, the snapshots are offloaded to the database, freeing memory.
+    Maximum number of Performance Analytics [snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) to store in the memory during data collection. When this number is reached, the snapshots are offloaded to the database, freeing memory.
 
     -   Type: integer
     -   Default value: 1000
@@ -350,7 +350,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: [Add the property](r_AvailableSystemProperties.md#) to the System Property \[sys\_properties\] table.
 -   **com.snc.pa.dc.max\_breakdown\_elements\_limit**
 
-    Maximum number of breakdown elements retrieved by data collection for each breakdown source. This property is handled differently depending on whether nested collection is enabled. If nested collection is enabled, only those elements that have non-null scores count against this limit. If nested collection is disabled, such as under optimized data collection, all elements on the breakdown source count against the limit. When a breakdown source exceeds this limit, breakdown scores are not collected from that source.
+    Maximum number of [breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) retrieved by data collection for each [breakdown source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/breakdown-sources.md). This property is handled differently depending on whether nested collection is enabled. If nested collection is enabled, only those elements that have non-null scores count against this limit. If nested collection is disabled, such as under optimized data collection, all elements on the breakdown source count against the limit. When a breakdown source exceeds this limit, breakdown scores are not collected from that source.
 
     -   Type: integer
     -   Default value: 10000
@@ -371,14 +371,14 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: System Property \[sys\_properties\] table
 -   **com.snc.pa.dc.max\_row\_count\_indicator\_source**
 
-    Maximum number of rows that are allowed to be fetched from an indicator source. This property only applies to jobs that do not use Optimized data collection.
+    Maximum number of rows that are allowed to be fetched from an [indicator source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md). This property only applies to jobs that do not use [Optimized data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/optimized-data-collection.md).
 
     -   Type: integer
     -   Default value: 50000
     -   Location: System Property \[sys\_properties\] table
 -   **com.snc.pa.dc.hsql.max\_row\_count\_indicator\_source**
 
-    Maximum number of rows that are allowed to be fetched from an Indicator Source. This property only applies to jobs that use Optimized data collection.
+    Maximum number of rows that are allowed to be fetched from an Indicator Source. This property only applies to jobs that use [Optimized data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/optimized-data-collection.md).
 
     -   Type: integer
     -   Default value: 1 million
@@ -429,7 +429,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: System Property \[sys\_properties\] table
 -   **com.snc.pa.formula\_indicator\_valid\_breakdown**
 
-    Controls whether users can apply a breakdown to a formula indicator when not all contributing indicators in the formula use that breakdown. When true, all contributing indicators must use the formula. When false, a breakdown can be applied when at least one of the contributing indicators uses it.
+    Controls whether users can apply a breakdown to a [formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) when not all [contributing indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) in the formula use that breakdown. When true, all contributing indicators must use the formula. When false, a breakdown can be applied when at least one of the contributing indicators uses it.
 
     -   Type: Boolean true \| false
     -   Default value: true
@@ -443,7 +443,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Maximum: 10,000
 -   **com.snc.pdf.whitelisted\_urls**
 
-    Stores a list of URLs allowed to be rendered in a PDF generated by the PDFGenerationAPI - Scoped, Global. This list is only verified if the glide.pdf.url.whitelisting.enabled property is set to true.
+    Stores a list of URLs allowed to be rendered in a PDF generated by the [PDFGenerationAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md). This list is only verified if the glide.pdf.url.whitelisting.enabled property is set to true.
 
     -   Type: string
     -   Location: System Property \[sys\_properties\] table
@@ -920,7 +920,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: System Property \[sys\_properties\] table
 -   **glide.cms.dashboards.sharing\_with\_secure\_search**
 
-    When enabled, the list of users, user groups, and roles that are visible in the sharing panel is restricted. The restriction is based on the configuration of the sys\_user, sys\_user\_group, and sys\_user\_role ACLs. For more information, see Access control list rules.
+    When enabled, the list of users, user groups, and roles that are visible in the sharing panel is restricted. The restriction is based on the configuration of the sys\_user, sys\_user\_group, and sys\_user\_role ACLs. For more information, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).
 
     There is a performance penalty associated with enabling this property. Performance degradation may be based on the number and complexity of business rules and ACLs on your instance.
 
@@ -1094,7 +1094,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: string
     -   Default value: none
     -   Location: [Add the property](r_AvailableSystemProperties.md#) to the System Property \[sys\_properties\] table.
-    -   Instance Security Hardening Settings: Restrict performance monitoring access
+    -   Instance Security Hardening Settings: [Restrict performance monitoring access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-performance-monitoring-acl.md)
 -   **glide.db.aggregates.trend.use\_iso\_week**
 
     If set to true, reports weekly trend by data according to ISO weeks. If false, data trended per week reports according to the first day of the week set by glide.ui.date\_format.first\_day\_of\_week.
@@ -1110,7 +1110,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: System Property \[sys\_properties\] table
 -   **glide.db.forced.chunk.threshold**
 
-    Sets the threshold above which to forces chunk record deletions and updates. Chunking helps to prevent non-primary key deletions on huge tables from causing replication problems. Use this property to set a force chunk threshold when using the GlideRecord – UpdateMultiple methods.
+    Sets the threshold above which to forces chunk record deletions and updates. Chunking helps to prevent non-primary key deletions on huge tables from causing replication problems. Use this property to set a force chunk threshold when using the [GlideRecord – UpdateMultiple](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) methods.
 
     -   Type: integer
     -   Default value: 100000000 \(100 million\)
@@ -1654,15 +1654,15 @@ Some properties are available on a system properties form, but some lesser-used 
 
     The functionality found in homepages, arranging information from your instance to tell a story about your data, is found in dashboards on new instances. On upgraded instances with Next Experience enabled, users can view existing homepages if they have a direct URL, but they can't create or edit them. Responsive dashboards and Analytics Overview dashboards take over homepage functionality.
 
-    Use the Homepage deprecation help tool to convert the homepages on your instance to responsive dashboards.
+    Use the [Homepage deprecation help tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/homepage-deprecation-help-tool.md) to convert the homepages on your instance to responsive dashboards.
 
     For more information, see:
 
-    -   Dashboards in the Analytics Center.
-    -   Working with responsive dashboards.
+    -   [Dashboards in the Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md).
+    -   [Working with responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ResponsiveDashboards.md).
 -   **glide.hosts.allowlist**
 
-    Enables control over what hosts that a Fetch action can access. This affects HTTP APIs, like RESTMessageV2 - Scoped, Global and Fetch Fetch - Scoped, Global. Features of `glide.hosts.allowlist`:
+    Enables control over what hosts that a Fetch action can access. This affects HTTP APIs, like [RESTMessageV2 - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_RESTMessageV2API.md) and Fetch [Fetch - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/FetchAPI.md). Features of `glide.hosts.allowlist`:
 
     -   Supports a comma-separated list of URLs or IPs.
     -   Allows "\*" for all.
@@ -1693,7 +1693,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: true
     -   Location: System Property \[sys\_properties\] table
-    -   Instance Security Hardening Settings: HTML sanitizer \(instance security hardening\)
+    -   Instance Security Hardening Settings: [HTML sanitizer \(instance security hardening\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc.md-sanitizer.md)
 -   **glide.http.connection\_timeout**
 
     Specifies the maximum number of milliseconds an outbound HTTP request \(such as Web Services\) waits to establish a connection.
@@ -1705,7 +1705,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     Specifies the number of seconds that RESTMessageV2 and SOAPMessageV2 APIs wait for a response from a synchronous call. The maximum value is 30 seconds.
 
-    To define a timeout longer than 30 seconds, set the **glide.http.outbound.max\_timeout.enabled** system property to **false** and use the waitForResponse\(\) method to set the timeout. For example, see Asynchronous SOAPMessageV2 example. If**glide.http.outbound.max\_timeout.enabled** is set to true and a value is passed in the waitForResponse\(\) method, the system uses the smallest value from either the waitForResponse\(\) method or the **glide.http.outbound.max\_timeout** system property.
+    To define a timeout longer than 30 seconds, set the **glide.http.outbound.max\_timeout.enabled** system property to **false** and use the waitForResponse\(\) method to set the timeout. For example, see [Asynchronous SOAPMessageV2 example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_AsyncronousSOAPMessageV2Example.md). If**glide.http.outbound.max\_timeout.enabled** is set to true and a value is passed in the waitForResponse\(\) method, the system uses the smallest value from either the waitForResponse\(\) method or the **glide.http.outbound.max\_timeout** system property.
 
     -   Type: integer
     -   Default value: 30
@@ -1714,7 +1714,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     Enables setting a timeout in the **glide.http.outbound.max\_timeout** system property.
 
-    To define a timeout longer than 30 seconds, set the **glide.http.outbound.max\_timeout.enabled** system property to **false** and use the waitForResponse\(\) method to set the timeout. For example, see Asynchronous SOAPMessageV2 example. If**glide.http.outbound.max\_timeout.enabled** is set to true and a value is passed in the waitForResponse\(\) method, the system uses the smallest value from either the waitForResponse\(\) method or the **glide.http.outbound.max\_timeout** system property.
+    To define a timeout longer than 30 seconds, set the **glide.http.outbound.max\_timeout.enabled** system property to **false** and use the waitForResponse\(\) method to set the timeout. For example, see [Asynchronous SOAPMessageV2 example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_AsyncronousSOAPMessageV2Example.md). If**glide.http.outbound.max\_timeout.enabled** is set to true and a value is passed in the waitForResponse\(\) method, the system uses the smallest value from either the waitForResponse\(\) method or the **glide.http.outbound.max\_timeout** system property.
 
     -   Type: boolean
     -   Default value: true
@@ -2350,7 +2350,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: [Add the property](r_AvailableSystemProperties.md#) to the System Property \[sys\_properties\] table.
 -   **glide.pdf.url.whitelisting.enabled**
 
-    Enables or disables whether external URLs provided should be rendered in the PDF output generated by the PDFGenerationAPI - Scoped, Global. Verifies against the allowed URLs listed in the com.snc.pdf.whitelisted\_urls property.
+    Enables or disables whether external URLs provided should be rendered in the PDF output generated by the [PDFGenerationAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md). Verifies against the allowed URLs listed in the com.snc.pdf.whitelisted\_urls property.
 
     -   Type: true \| false
     -   Default value: false
@@ -2766,7 +2766,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: false
     -   Location: System Property \[sys\_properties\] table
-    -   Instance Security Hardening Settings: CSRF strict validation \(instance security hardening\)
+    -   Instance Security Hardening Settings: [CSRF strict validation \(instance security hardening\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-csrf-strict-validation.md)
 -   **glide.security.diag\_txns\_acl**
 
     Controls who can view the stats.do, threads.do, and replication.do pages. If **true**, only administrators or users from a known IP address are allowed to view the pages. If **false**, all users have access to the pages.
@@ -2774,7 +2774,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: false
     -   Location: [Add the property](r_AvailableSystemProperties.md#) to the System Property \[sys\_properties\] table.
-    -   Instance Security Hardening Settings: Performance monitoring \(ACL\) \(instance security hardening\)
+    -   Instance Security Hardening Settings: [Performance monitoring \(ACL\) \(instance security hardening\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-performance-monitoring-acl.md)
 -   **glide.security.disable\_ui\_pages\_sysparm\_client\_script**
 
     The system does not evaluate client scripts that are passed in URL parameters in UI pages. If you use URL parameters to load client scripts, you can add and disable this system property. Use this property only while you change the implementation to no longer depend on clients being passed in by URL parameters. Do not keep the system property disabled.
@@ -2789,7 +2789,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: false
     -   Location: System Property \[sys\_properties\] table
-    -   Instance Security Hardening Settings: Restrict uploaded MIME types
+    -   Instance Security Hardening Settings: [Restrict uploaded MIME types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-upload-mime-type-restriction.md)
 -   **glide.security.granular.create**
 
     Requires users to have write access on all individual fields on a table before they can create a record in that table.
@@ -2799,7 +2799,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: System Property \[sys\_properties\] table
 -   **glide.security.manager**
 
-    Enables more advanced contextual security manager compared with role-based simple security manager. Contextual security manager is aware of system table hierarchy and record context. It better protects data by controlling CRUD via ACL rules on table and field levels. For more information, see Enable the hardened java security manager
+    Enables more advanced contextual security manager compared with role-based simple security manager. Contextual security manager is aware of system table hierarchy and record context. It better protects data by controlling CRUD via ACL rules on table and field levels. For more information, see [Enable the hardened java security manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enable-the-hardened-java-security-manager.md)
 
     -   Type: string
     -   Default: com.glide.sys.security.ContextualSecurityManager
@@ -2821,7 +2821,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: For new instances, this property is available on the System Property \[sys\_properties\] table. For upgrades, [Add the property](r_AvailableSystemProperties.md#) to the System Property \[sys\_properties\] table.
 -   **glide.security.use\_csrf\_token**
 
-    Enables usage or a secure token to identify and validate incoming requests. This token is used to prevent Cross Site Request Forgery \(CSRF\) attacks. For more information, see Enable Anti-CSRF token \[New in Security Center 1.3, updated in 1.5, and removed in 2.0\].
+    Enables usage or a secure token to identify and validate incoming requests. This token is used to prevent Cross Site Request Forgery \(CSRF\) attacks. For more information, see [Enable Anti-CSRF token \[New in Security Center 1.3, updated in 1.5, and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-anti-csrf-token.md).
 
     -   Type: true \| false
     -   Default: true
@@ -2837,7 +2837,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: true
     -   Location: System Property \[sys\_properties\] table
-    -   Instance Security Hardening Settings: Implement the x-frame-options: SAMEORIGIN security header
+    -   Instance Security Hardening Settings: [Implement the x-frame-options: SAMEORIGIN security header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-x-frame-options-sameorigin.md)
 -   **glide.short\_poll\_delay**
 
     \(Chat plugin\) Sets the short polling delay, in milliseconds, for XMPP requests. Polling is the method by which the browser gets information from the server to send instant messages in chat.
@@ -2963,14 +2963,14 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: [Add a system property](r_AvailableSystemProperties.md#) to the System Property \[sys\_properties\] table.
 -   **glide.stax.allow\_entity\_resolution**
 
-    Determines whether XML entities can be expanded during parsing by the streaming parser. For more information, see Disable Entity Expansion within the XMLDocument2 Streaming Parser.
+    Determines whether XML entities can be expanded during parsing by the streaming parser. For more information, see [Disable Entity Expansion within the XMLDocument2 Streaming Parser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-disable-entity-expansion.md).
 
     -   Type: true \| false
     -   Default: false
     -   Location: System Property \[sys\_properties\] table
 -   **glide.stax.whitelist\_enabled**
 
-    Enables definition of allowed external entities when entity expansion is needed for customizations. If **glide.stax.allow\_entity\_resolution** is set to true, set **glide.stax.whitelist\_enabled** to true and define a listing of comma-delimited FQDN in the **glide.xml.entity.whitelist** property. For more information, see Require XMLdoc2 entity validation with allowlist.
+    Enables definition of allowed external entities when entity expansion is needed for customizations. If **glide.stax.allow\_entity\_resolution** is set to true, set **glide.stax.whitelist\_enabled** to true and define a listing of comma-delimited FQDN in the **glide.xml.entity.whitelist** property. For more information, see [Require XMLdoc2 entity validation with allowlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-xmldoc2-entity-validation-with-entity-expansion.md).
 
     -   Type: true \| false
     -   Default: true
@@ -3191,7 +3191,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: true for new instances, false for upgraded instances
     -   Location: System Property \[sys\_properties\] table
-    -   Instance Security Hardening Settings: Restrict Downloadable MIME types
+    -   Instance Security Hardening Settings: [Restrict Downloadable MIME types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-downloadable-mime-type-denylist.md)
 -   **glide.ui.audit\_deleted\_tables**
 
     Comma-separated list of system tables for which the audit history tracks deletions.
@@ -3344,7 +3344,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: [Add the property](r_AvailableSystemProperties.md#) to the System Property \[sys\_properties\] table.
 -   **glide.ui.encode\_module\_uri**
 
-    Enables \(**true**, the default\) or disables \(**false**\) encoding of module URIs in the navigation pane. For information about how ServiceNow encodes module URIs, see Encoding module URIs.
+    Enables \(**true**, the default\) or disables \(**false**\) encoding of module URIs in the navigation pane. For information about how ServiceNow encodes module URIs, see [Encoding module URIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-app-navigator-category.md).
 
 -   **glide.ui.escape\_form\_message**
 
@@ -3521,14 +3521,14 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: System Property \[sys\_properties\] table
 -   **glide.ui.jelly.js\_interpolation.protect**
 
-    Enables or disables interpolation protection. If enabled, potentially dangerous Jelly expressions are wrapped with a filter that escapes the results or generates a SecurityException for possible security issues. For more information, see Enable Jelly JS Interpolation Protection.
+    Enables or disables interpolation protection. If enabled, potentially dangerous Jelly expressions are wrapped with a filter that escapes the results or generates a SecurityException for possible security issues. For more information, see [Enable Jelly JS Interpolation Protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enable-jelly-js-interpolation-protection.md).
 
     -   Type: true \| false
     -   Default value: true
     -   Location: **System Properties** &gt; **All Properties**
 -   **glide.ui.jelly.js\_interpolation.protect\_nested\_expressions**
 
-    Enables or disables interpolation protection specifically for nested Jelly expressions. For more information, see Enable Jelly JS interpolation protection for nested expressions.
+    Enables or disables interpolation protection specifically for nested Jelly expressions. For more information, see [Enable Jelly JS interpolation protection for nested expressions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enable-jelly-js-interpolation-protection-for-nested-expressions.md).
 
     -   Type: true \| false
     -   Default: true
@@ -3626,7 +3626,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: System Property \[sys\_properties\] table
 -   **glide.ui.polaris.experience**
 
-    Enables the Next Experience user interface, landing page, and Unified Navigation. For more information, see Next Experience UI.
+    Enables the Next Experience user interface, landing page, and Unified Navigation. For more information, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md).
 
     This property does not affect anything in workspaces, such as Platform Analytics Components. Workspaces, UI Builder, and related features are always enabled.
 
@@ -4029,7 +4029,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: **Orchestration** &gt; **MID Server Properties**
 -   **mid.version.override**
 
-    Sets an override condition for the current version for all MID Servers in your environment. For more information on version control, see MID Server version control properties.
+    Sets an override condition for the current version for all MID Servers in your environment. For more information on version control, see [MID Server version control properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_UpgradeAndTestMIDServer.md).
 
     -   Type: string
     -   Default value: none \(If this property is left empty, the MID Servers get their version information from the mid.buildstamp property.\)
@@ -4487,7 +4487,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: Integer
     -   Default value: 5
     -   Location: System Property \[sys\_properties\] table
-    -   Learn more: Extended analysis
+    -   Learn more: [Extended analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/hidden-insights.md)
 -   **sn\_query\_gen.segments.disable.filter**
 
     When set to true, excludes all segments from sys\_filter from AI Data Explorer search results. During the next Sync Segments Job, all segments of that type are deactivated in the Segment table.
@@ -4495,7 +4495,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: Boolean \(true/false\)
     -   Default value: false
     -   Location: System Property \[sys\_properties\] table
-    -   Learn more: Segments in the Query Generation semantic layer
+    -   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
 -   **sn\_query\_gen.segments.disable.manual\_segment**
 
     When set to true, excludes all segments from sn\_query\_gen\_segment\_table\_config \(manual segments\) from AI Data Explorer search results. During the next Sync Segments Job, all segments of that type are deactivated in the Segment table.
@@ -4505,7 +4505,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: Boolean \(true/false\)
     -   Default value: false
     -   Location: System Property \[sys\_properties\] table
-    -   Learn more: Segments in the Query Generation semantic layer
+    -   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
 -   **sn\_query\_gen.segments.disable.report\_sources**
 
     When set to true, excludes all segments from sys\_report\_source from AI Data Explorer search results. During the next Sync Segments Job, all segments of that type are deactivated in the Segment table.
@@ -4513,7 +4513,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: Boolean \(true/false\)
     -   Default value: false
     -   Location: System Property \[sys\_properties\] table
-    -   Learn more: Segments in the Query Generation semantic layer
+    -   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
 -   **sn\_query\_gen.segments.disable.sys\_app\_module**
 
     When set to true, excludes all segments from sys\_app\_module from AI Data Explorer search results. During the next Sync Segments Job, all segments of that type are deactivated in the Segment table.
@@ -4521,7 +4521,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: Boolean \(true/false\)
     -   Default value: false
     -   Location: System Property \[sys\_properties\] table
-    -   Learn more: Segments in the Query Generation semantic layer
+    -   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
 -   **sn\_query\_gen.segments.disable.pa\_cubes**
 
     When set to true, excludes all segments from indicator sources \(pa\_cubes\) from AI Data Explorer search results. During the next Sync Segments Job, all segments of that type are deactivated in the Segment table.
@@ -4529,7 +4529,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: Boolean \(true/false\)
     -   Default value: false
     -   Location: System Property \[sys\_properties\] table
-    -   Learn more: Segments in the Query Generation semantic layer
+    -   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
 -   **sn\_query\_gen.segments.disable.report**
 
     When set to true, excludes all segments from sys\_report from AI Data Explorer search results. During the next Sync Segments Job, all segments of that type are deactivated in the Segment table.
@@ -4537,10 +4537,10 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: Boolean \(true/false\)
     -   Default value: false
     -   Location: System Property \[sys\_properties\] table
-    -   Learn more: Segments in the Query Generation semantic layer
+    -   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
 -   **sn\_query\_gen.segments.indicator.inactivity\_threshold\_multiplier**
 
-    Applies a multiplier to how long ago an indicator value can have changed for that indicator to be "recently changed." The \[Query Generation\] Sync Segments job deactivates segments based on indicators that have not recently changed. The value that is multiplied differs by indicator frequency \(see Segments in the Query Generation semantic layer\).
+    Applies a multiplier to how long ago an indicator value can have changed for that indicator to be "recently changed." The \[Query Generation\] Sync Segments job deactivates segments based on indicators that have not recently changed. The value that is multiplied differs by indicator frequency \(see [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)\).
 
     -   Type: Integer
     -   Default value: 1
@@ -4757,5 +4757,5 @@ Role required: admin
 
 ### What to do next
 
-If you want to include additional parameters for the list of system properties module, see Create a module.
+If you want to include additional parameters for the list of system properties module, see [Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-app-navigator-category.md).
 

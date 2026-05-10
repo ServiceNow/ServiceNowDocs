@@ -109,7 +109,7 @@ References
 
 </td><td>
 
-Service catalog variables
+[Service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogVariables.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Access control](sc-access-control.md)

@@ -21,7 +21,7 @@ Role required: None \(must be a member of the Approver group\)
 
 ## About this task
 
-**Note:** Only one Approver group member needs to approve the improvement before moving to the next state. To require additional approvers, configure the CIM Approval workflow in Flow Designer.
+**Note:** Only one Approver group member needs to approve the improvement before moving to the next state. To require additional approvers, configure the CIM Approval workflow in [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md).
 
 The default expiration period for approval requests is seven business days. Pending approval requests are automatically canceled after seven days but can be resubmitted for approval.
 

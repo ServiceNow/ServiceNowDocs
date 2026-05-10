@@ -265,7 +265,7 @@ Optional. Timeout in milliseconds. This value overrides the 30 second default ti
 
 Runs a Data Stream action synchronously from a server-side script and returns a ScriptableDataStream object.
 
-For more information about Data Stream actions, see Data Stream actions and pagination.
+For more information about Data Stream actions, see [Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/data-stream-actions.md).
 
 **Note:** This API is replaced by [ScriptableFlowRunner - Scoped](../../ScriptableFlowRunnerScoped/concept/ScriptableFlowRunnerScopedAPI.md#), which deprecates the existing methods used to build objects and execute Workflow Studio flows and actions. Use the getRunner\(\) method in the FlowAPI class to return a ScriptableFlowRunner object and use the associated methods. Use the ScriptableFlowRunner methods if you need to support domain separation.
 
@@ -1408,7 +1408,7 @@ Output:
 
 Checks if a flow within a give scope contains any Ask for Approval actions.
 
-The hasApprovals\(\) method determines if a flow within a given scope contains any Ask for Approval actions. This method also checks if any Ask for Approval actions within the flow are nested under If flow logic blocks. For more information, see Ask for Approval actions.
+The hasApprovals\(\) method determines if a flow within a given scope contains any Ask for Approval actions. This method also checks if any Ask for Approval actions within the flow are nested under If flow logic blocks. For more information, see [Ask for Approval actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/ask-approval-flow-designer.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1617,8 +1617,8 @@ Send a specific message and payload response to a flow that is paused and waitin
 
 |Name|Type|Description|
 |----|----|-----------|
-|contextSysID|String|The sys\_id value of the flow or subflow that is paused and waiting for a specific message to resume. The flow or subflow must include a Wait for Message action. See Wait For Message action.|
-|message|String|The text string to send to the waiting flow or subflow. If this message value matches the message value listed in the Wait for Message action, then the flow or subflow resumes running. See Wait For Message action.|
+|contextSysID|String|The sys\_id value of the flow or subflow that is paused and waiting for a specific message to resume. The flow or subflow must include a Wait for Message action. See [Wait For Message action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/wait-for-message-action.md).|
+|message|String|The text string to send to the waiting flow or subflow. If this message value matches the message value listed in the Wait for Message action, then the flow or subflow resumes running. See [Wait For Message action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/wait-for-message-action.md).|
 |payload|String|The text string output value to send to the waiting flow. The flow or subflow can use the payload as an input when it resumes running. For example, you could specify a reason why a record was reopened or that a new approval was required.|
 
 |Type|Description|

@@ -39,7 +39,7 @@ Role required: adaptive\_auth\_admin
 
 5.  Create a condition for a specific role using the Condition Builder.
 
-    For example, you can create a condition that allows only users with admin, itil, or snc\_internal roles. For more information about Condition Builder, see Create a condition statement using the condition builder.
+    For example, you can create a condition that allows only users with admin, itil, or snc\_internal roles. For more information about Condition Builder, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
 
     **Note:**
 

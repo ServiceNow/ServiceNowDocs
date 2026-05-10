@@ -41,7 +41,7 @@ Attachment
 
 </td><td>
 
-Add and manage attachments a file to the record and import that file in an import set.
+[Add and manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_AddingAnAttachment.md) a file to the record and import that file in an import set.
 
 </td></tr><tr><td>
 
@@ -178,7 +178,7 @@ CSV files are used as a cross-compatible file format for transferring files acro
 "fred.luddy","Fred Luddy","fred.luddy@yourcompany.com","2004-05-01 17:00:00","true"
 ```
 
-When using CSV files, you can specify the encoding charset using the **Properties** field on the Data Source form. You may need to Configuring the form layout the Data Source form to see this field. For example, to use utf-8 encoding, enter **charset=utf-8**.
+When using CSV files, you can specify the encoding charset using the **Properties** field on the Data Source form. You may need to [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) the Data Source form to see this field. For example, to use utf-8 encoding, enter **charset=utf-8**.
 
 ## Data in single column
 

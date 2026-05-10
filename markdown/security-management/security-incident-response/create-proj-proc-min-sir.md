@@ -45,7 +45,7 @@ Role required: sn\_process\_optimization\_analyst and sn\_si\_read
 
 9.  Select **Select improvement opportunities** and configure the improvements for your security incidents.
 
-    A list of improvement opportunities displays. For information about configuring improvement opportunities, see Setting improvement opportunities.
+    A list of improvement opportunities displays. For information about configuring improvement opportunities, see [Setting improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/working-with-imp-opp.md).
 
 10. Select **Review and mine** and then select **Mine project**.
 

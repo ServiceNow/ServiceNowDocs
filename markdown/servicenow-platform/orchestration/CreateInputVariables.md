@@ -169,7 +169,7 @@ Credential tag
 
 </td><td>
 
-Specific Credential aliases for Orchestration activities this activity must use to run Powershell commands on the host. If this field is left blank, the MID Server tries all the available credentials until it finds a valid one, ending with the MID Server service account. If a credential alias is defined, the MID Server tries the credentials for that alias only and does not try the MID Server service account. This field is not available when the **Use MID service account** check box is selected.
+Specific [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_AssignCredsOrchActivities.md) this activity must use to run Powershell commands on the host. If this field is left blank, the MID Server tries all the available credentials until it finds a valid one, ending with the MID Server service account. If a credential alias is defined, the MID Server tries the credentials for that alias only and does not try the MID Server service account. This field is not available when the **Use MID service account** check box is selected.
 
 </td></tr><tr><td>
 

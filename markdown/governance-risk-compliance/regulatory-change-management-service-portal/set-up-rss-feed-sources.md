@@ -30,9 +30,9 @@ Role required: admin
     |Field|Description|
     |-----|-----------|
     |Name|Name of the website that generates and provides the RSS feed. For example, `Consumer Financial Protection Bureau Alerts`.|
-    |Connection|Connection that has the details from which the feed would be obtained. For more information, refer to Create an HTTP\(s\) connection.|
+    |Connection|Connection that has the details from which the feed would be obtained. For more information, refer to [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md).|
     |Active|Option to denote if the source is active. Only active sources are able to fetch the feeds.|
-    |Provider|Service or platform that generates and distributes RSS feeds for websites or content creators. For more information, refer to, Create a connection Alias for third-party provider.|
+    |Provider|Service or platform that generates and distributes RSS feeds for websites or content creators. For more information, refer to, [Create a connection Alias for third-party provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/create-cnctn-alias.md).|
 
 4.  Select **Submit**.
 

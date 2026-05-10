@@ -83,7 +83,7 @@ Starting with Vulnerability Response v20.0, you can categorize the unmatched clo
 **Related topics**  
 
 
-[bundle-platcap.cmdb-ci-class-models]
+[CMDB CI Class Models store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md)
 
-[bundle-platcap.ire]
+[Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md)
 

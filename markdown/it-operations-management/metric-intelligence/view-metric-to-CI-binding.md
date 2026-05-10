@@ -165,7 +165,7 @@ Non-Host CI Duplicate
 
 </td><td>
 
-Use the Duplicate CI Remediator to remediate the duplication.
+Use the [Duplicate CI Remediator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md) to remediate the duplication.
 
 </td></tr><tr><td>
 
@@ -173,7 +173,7 @@ Dependent CI Duplicate
 
 </td><td>
 
-Use the Duplicate CI Remediator to remediate the duplication.
+Use the [Duplicate CI Remediator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md) to remediate the duplication.
 
 </td></tr><tr><td>
 

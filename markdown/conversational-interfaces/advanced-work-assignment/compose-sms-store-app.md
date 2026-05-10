@@ -50,7 +50,7 @@ As an agent, you can compose and send an SMS to an ongoing interaction which is 
 
 5.  Click **Attach file**, browse, select the file and attach.
 
-    **Note:** You can attach only image files to the message. For more information about the REST API for uploading attachments, see Attachment - POST /now/attachment/upload.
+    **Note:** You can attach only image files to the message. For more information about the REST API for uploading attachments, see [Attachment - POST /now/attachment/upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_AttachmentAPI.md).
 
 6.  Click **Send**.
 

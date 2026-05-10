@@ -33,7 +33,7 @@ This tab provides a list view of the records associated with the interaction, fo
 
 From this section, you can view record information, requester information, add attachments, and create templates for reuse.
 
-For information about Interaction Management, see Interaction Management.
+For information about Interaction Management, see [Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/interaction-management.md).
 
 -   **[Create an interaction in Service Operations Workspace](../task/create-interaction-sow.md)**  
 Track an interaction that is a centralized location for all communication channels. Each interaction represents a request for assistance through a communication channel, for example, a phone call or a chat.

@@ -16,7 +16,7 @@ The knowledge base is the engine that enables Now Assist to deliver intelligent,
 
 When users ask questions, Now Assist taps into your knowledge articles to generate answers that reflect your organization’s expertise and policies. This means the quality, clarity, and structure of your knowledge content directly influence the effectiveness of AI responses. Outdated, inconsistent, or poorly written articles can lead to incorrect outputs and user frustration. That’s why maintaining a clean, well-organized knowledge base is critical—not just for documentation, but for enabling reliable AI performance.
 
-The Knowledge Management Overview dashboard is a powerful tool for assessing AI readiness. It provides key usage metrics such as article views, helpfulness ratings, and feedback trends, helping content owners identify high-performing articles and prioritize updates to low-usage or outdated content. For more information, see Knowledge Management Overview dashboard.
+The Knowledge Management Overview dashboard is a powerful tool for assessing AI readiness. It provides key usage metrics such as article views, helpfulness ratings, and feedback trends, helping content owners identify high-performing articles and prioritize updates to low-usage or outdated content. For more information, see [Knowledge Management Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/km-overview-dash.md).
 
 ## High-level checklist
 
@@ -26,7 +26,7 @@ The Knowledge Management Overview dashboard is a powerful tool for assessing AI 
 
     Why? To scope clean-up and identify high-priority content.
 
-    See: Knowledge Management Overview dashboard
+    See: [Knowledge Management Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/km-overview-dash.md)
 
 -   **2. Review the structural formatting of KB articles**
 
@@ -38,8 +38,8 @@ The Knowledge Management Overview dashboard is a powerful tool for assessing AI 
 
     See:
 
-    -   Knowledge article templates
-    -   Activate the Knowledge Management Advanced plugin
+    -   [Knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-templates.md)
+    -   [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md)
 -   **3. Ensure metadata completeness in KB articles**
 
     Make sure that fields such as Meta, Meta Description, Category, Author, and Validity are populated.
@@ -48,7 +48,7 @@ The Knowledge Management Overview dashboard is a powerful tool for assessing AI 
 
     See:
 
-    -   Create a knowledge article
+    -   [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-knowledge-article.md)
     -   [Best practices to use your knowledge articles with Now Assist \(generative AI\)](https://www.servicenow.com/community/knowledge-management-articles/best-practices-to-use-your-knowledge-articles-with-now-assist/ta-p/2824219) \(ServiceNow Community\)
 -   **4. Perform maintenance audits**
 
@@ -58,15 +58,15 @@ The Knowledge Management Overview dashboard is a powerful tool for assessing AI 
 
     See:
 
-    -   Knowledge Management Overview dashboard
-    -   Retire a knowledge article
-    -   Identify and review duplicate Knowledge articles \(requires Now Assist in Knowledge Management\)
+    -   [Knowledge Management Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/km-overview-dash.md)
+    -   [Retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/c_RetiredKnowledgeArticles.md)
+    -   [Identify and review duplicate Knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-identify-and-review-duplicate-articles.md) \(requires Now Assist in Knowledge Management\)
 -   **5. Review top searched queries**
 
     Identify search queries and articles for optimization, and limit Now Assist Q&amp;A functionality to high-quality, optimized KB articles.
 
     Why? This prevents low-value content from surfacing in answers.
 
-    See: Knowledge Management dashboard
+    See: [Knowledge Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management-dashboard.md)
 
 

@@ -29,7 +29,7 @@ A versioned product offering is the customer-facing entity of a product. It cont
 
 3.  On the form, fill in the fields.
 
-    For information about the field descriptions, see the Product offerings form fields section in Product catalog forms.
+    For information about the field descriptions, see the Product offerings form fields section in [Product catalog forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/field-descriptions-for-product-catalog-fields.md).
 
 4.  Select **Submit**.
 

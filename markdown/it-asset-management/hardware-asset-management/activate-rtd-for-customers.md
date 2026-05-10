@@ -17,7 +17,7 @@ Activate the remote task definitions published by the provider on your instance 
 
 ## Before you begin
 
-The Service Exchange application must be installed on your instance. For more information, see Install Service Bridge for customers.
+The Service Exchange application must be installed on your instance. For more information, see [Install Service Bridge for customers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/install-service-bridge-v2-customer.md).
 
 Before you can activate a remote task definition on your ServiceNow instance, your provider must create and publish it. For more information, see [Trigger the assignment of a remote task](create-rtd-for-providers.md).
 

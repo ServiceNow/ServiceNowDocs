@@ -37,7 +37,7 @@ All columns of the app's associated table are available as fields on the record 
 
 4.  Make any additional changes to how the record appears, such as moving the fields around.
 
-    Check out Important Task table fields for a list of the most commonly used fields that you can work with and their definitions.
+    Check out [Important Task table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/r_ImportantTaskTableFields.md) for a list of the most commonly used fields that you can work with and their definitions.
 
 5.  Select **Save**.
 

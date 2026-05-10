@@ -44,7 +44,7 @@ Role required: sn\_bom\_payment.inquiry\_agent or sn\_bom\_payment.inquiry\_agen
 -   A pre-configured email notification about the case resolution is sent to the customer.
 -   If there's a Customer or Consumer Service Portal for customers, they get a notification for the proposed solution on the portal. Buttons for accepting or rejecting the solution appear in the section of the form that shows the consumer actions on the portal.
 
-    For more information, see Accept or reject a case solution from the Consumer Service Portal.
+    For more information, see [Accept or reject a case solution from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/resolve-cases-consumer-portal.md).
 
     **Note:** To use the Consumer Service Portal, activate the Consumer Service Portal plugin \(com.glide.service-portal.consumer-portal\).
 

@@ -48,7 +48,7 @@ Role required: admin
 
     3.  Close the dialog and resolve the errors in the **Update Set Preview Problems** related list.
 
-        For more information, see Preview a remote update set.
+        For more information, see [Preview a remote update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_PreviewARemoteUpdateSet.md).
 
         You can ignore errors that start with 'Could not find a record in \[table\]' for the following tables:
 

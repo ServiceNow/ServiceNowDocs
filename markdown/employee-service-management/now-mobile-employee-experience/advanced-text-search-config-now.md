@@ -17,7 +17,7 @@ Configure the Now Mobile search bar to use the AI Search search engine.
 
 ## Before you begin
 
-To enable the AI Search capability to search for people and customers, ensure that you have the Employee Center Pro plugin \[com.snc.employee\_center\_pro\] installed. For more information, see [Install Employee Center Pro](../../../product/employee-center/task/install-ec-pro.md). You must purchase a subscription before activating the plugin. For more details, see ServiceNow plugins.
+To enable the AI Search capability to search for people and customers, ensure that you have the Employee Center Pro plugin \[com.snc.employee\_center\_pro\] installed. For more information, see [Install Employee Center Pro](../../../product/employee-center/task/install-ec-pro.md). You must purchase a subscription before activating the plugin. For more details, see [ServiceNow plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ServiceNowPlugins.md).
 
 Make sure you are working in a scoped application where you can add new item configurations.
 

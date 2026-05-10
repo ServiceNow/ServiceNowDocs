@@ -26,7 +26,7 @@ The AI Search components are described in detail on the [ServiceNow® Developer 
 -   [Search results](https://developer.servicenow.com/dev.do#!/reference/now-experience/vancouver/shared-components/sn-search-results-container/overview)
 -   [Tab filter](https://developer.servicenow.com/dev.do#!/reference/now-experience/vancouver/shared-components/sn-tab-filter/overview)
 
-For details on adding components to your pages in UI Builder, see Add and configure components.
+For details on adding components to your pages in UI Builder, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md).
 
 ## Entity View Action Mapping \(EVAM\) definitions
 
@@ -36,7 +36,7 @@ AI Search provides EVAM configurations that you can use to customize display of 
 
 You can customize EVAM settings to display AI Search results as a card grid view or as a list view. Users can page through large data sets of search results and see different views based on filtering.
 
-For details on EVAM definitions, configurations, templates, and configuration bundles, see Entity View Action Mapping \(EVAM\).
+For details on EVAM definitions, configurations, templates, and configuration bundles, see [Entity View Action Mapping \(EVAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/exploring-entity-view-action-mapper.md).
 
 ## Service Portal record producer integration
 

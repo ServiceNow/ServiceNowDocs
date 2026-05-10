@@ -45,7 +45,7 @@ A variable set for service definitions is available with the Customer Service Ca
 **Related topics**  
 
 
-[bundle-platcap.c_IntroductionToCatalogItems]
+[Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md)
 
-[bundle-platcap.t_DefineACatalogItem]
+[Create or edit a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefineACatalogItem.md)
 

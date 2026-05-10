@@ -24,13 +24,13 @@ Global domain is the default domain, and all new domains are created under it. N
 
 Do the following task to set up domain separation:
 
-1.  Request domain separation. For more information, see Request domain separation.
+1.  Request domain separation. For more information, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md).
 2.  Create a domain by creating an account for CSM
 3.  Configure skills in the domain for Now Assist for CSM.
 
 ## More information
 
--   Domain separation setup and administration. See Domain separation setup and administration.
--   Benefits of domain separation. See Benefits of domain separation.
+-   Domain separation setup and administration. See [Domain separation setup and administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparationSetup.md).
+-   Benefits of domain separation. See [Benefits of domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-advantages-dom-sep.md).
 -   Domain separation and Customer Service Management \(CSM\). See [Domain separation and Customer Service Management](domain-separation-customer-service.md).
 

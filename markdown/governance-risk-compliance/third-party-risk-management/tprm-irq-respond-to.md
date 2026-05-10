@@ -31,15 +31,15 @@ When someone in your organization creates a due diligence request, the owner of 
 
 2.  Respond to an internal assessment by performing one of the following.
 
-<table id="choicetable_zqw_522_yfc"><thead><tr><th align="left" id="d118278e133">
+<table id="choicetable_zqw_522_yfc"><thead><tr><th align="left" id="d118282e133">
 
 Option
 
-</th><th align="left" id="d118278e136">
+</th><th align="left" id="d118282e136">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d118278e142">
+</th></tr></thead><tbody><tr><td id="d118282e142">
 
 **Respond to an IRQ or Internal questionnaire using the Classic engine**
 
@@ -47,7 +47,7 @@ Description
 
 In the My active items pane, select **Surveys** and In the My Assessments and Surveys section, select the assessment you want to respond to.
 
-</td></tr><tr><td id="d118278e154">
+</td></tr><tr><td id="d118282e154">
 
 **Respond to an IRQ or internal questionnaire using the Smart Assessment Engine**
 

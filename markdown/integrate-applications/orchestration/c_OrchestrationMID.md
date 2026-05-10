@@ -15,12 +15,12 @@ breadcrumb: [Classic Orchestration, Workflow Data Fabric]
 
 Orchestration automatically selects an appropriate MID Server based on the capabilities that you configure in activities, the IP addresses of target devices, and the application that the MID Server is allowed to use.
 
-To allow a MID Server to work with Orchestration, it must have the **Orchestration** application or the **ALL** application assigned to it. See Configure a default MID Server for each application for instructions.
+To allow a MID Server to work with Orchestration, it must have the **Orchestration** application or the **ALL** application assigned to it. See [Configure a default MID Server for each application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SpecifyMIDServerApplications.md) for instructions.
 
 You can have MID Servers focus on different capabilities and separate sections of your network. See:
 
--   MID Server capabilities
--   Map an IP address to a DNS name
+-   [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md)
+-   [Map an IP address to a DNS name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_MapIPAddressToDNSName.md)
 
 You can also specify a default MID Server to use if no MID Servers meet the capability and IP range criteria for an activity. See [Select the default MID Server for Orchestration](../../mid-server/concept/c_MIDServerSelectionCriteria.md).
 
@@ -38,5 +38,5 @@ Enable debug messages to display from PowerShell.
 **Related topics**  
 
 
-[bundle-platcap.r_MIDServerCapabilities]
+[MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md)
 

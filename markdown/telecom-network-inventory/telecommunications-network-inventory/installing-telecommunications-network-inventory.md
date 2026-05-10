@@ -39,7 +39,7 @@ The following items are installed with Telecommunications Network Inventory:
 -   Roles
 -   Tables
 
-For more information on viewing components that are installed with an application, see Find components installed with an application.
+For more information on viewing components that are installed with an application, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 ## Procedure
 

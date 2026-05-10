@@ -48,10 +48,10 @@ The Now Assist for Integration Hub application requires these subscriptions:
 
 After installing the Now Assist for Integration Hub application, you can use the available AI agents and configure the available conversational spoke actions.
 
--   See Now Assist AI agents to learn about AI agents.
--   See Conversational subflows to learn more about configuring the conversational settings.
--   See Conversational actions to learn more about creating and configuring the conversational skill from Workflow Studio.
--   See  in Now Assist skills in the Platform workflow to learn more about conversation experience and skills.
+-   See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) to learn about AI agents.
+-   See [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/conversational-subflows.md) to learn more about configuring the conversational settings.
+-   See [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/conversational-actions.md) to learn more about creating and configuring the conversational skill from Workflow Studio.
+-   See  in [Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md) to learn more about conversation experience and skills.
 
 ## Available AI agents
 
@@ -61,7 +61,7 @@ Available AI agent includes, [Meeting scheduler AI agent](../reference/meeting-s
 
 ## Role masking
 
-Agentic workflows and their AI agents use role masking to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 **Parent Topic:**[Building integrations in Integration Hub](building-integrations-ih.md)
 

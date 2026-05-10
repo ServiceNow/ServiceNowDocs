@@ -31,7 +31,7 @@ After the build successfully completes and your app is ready for testing:
 
     Use TestFlight to check the following:
 
-    -   App has the correct name, icon, splash screen, branding, and theming. For more information, see Configuring Next Experience with Theme Builder.
+    -   App has the correct name, icon, splash screen, branding, and theming. For more information, see [Configuring Next Experience with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configuring-next-experience-with-theme-builder.md).
     -   App uses the default instance you specified for login if you selected the instance pre-fill option when requesting the branded app.
     -   EULA and privacy policy listed in the mobile app **Settings** tab under **Legal** link to the policies you specified.
     See [Apple documentation](https://developer.apple.com/testflight/) for information about using TestFlight.

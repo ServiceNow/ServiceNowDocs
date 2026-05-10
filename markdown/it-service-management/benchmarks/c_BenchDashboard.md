@@ -32,7 +32,7 @@ Features include:
 -   Ability to view six months of historical KPI data.
 -   Ability to display time values in hours or days \(using the **sn\_bm\_client.dashboard\_display\_unit** system property\).
 
-**Note:** Service Portal must be installed to view the Benchmarks dashboard.
+**Note:** [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md) must be installed to view the Benchmarks dashboard.
 
 ![Benchmarks Dashboard](../image/BenchmarksDashboard.png)
 

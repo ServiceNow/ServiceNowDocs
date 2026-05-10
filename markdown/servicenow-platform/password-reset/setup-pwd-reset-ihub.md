@@ -30,11 +30,11 @@ Role required: admin, password\_reset\_admin, or password\_reset\_credential\_ma
 
 1.  Use Workflow Studio to create password reset actions like user unlock, change password, and get user status.
 
-    For more information about Workflow Studio, see Action Designer.
+    For more information about Workflow Studio, see [Action Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/actions.md).
 
 2.  Use Workflow Studio to create the following subflows.
 
-    Use the specified names, inputs, and outputs for the subflows. For more information about the subflows, see Subflows.
+    Use the specified names, inputs, and outputs for the subflows. For more information about the subflows, see [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
 
 <table id="table_en2_pll_b3b"><thead><tr><th>
 

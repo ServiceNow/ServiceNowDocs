@@ -19,13 +19,13 @@ Role required: admin
 
 ## Procedure
 
-1.  Activate Notify \(com.snc.notify\).
+1.  [Activate Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ActivateNotify.md) \(com.snc.notify\).
 
 2.  Set up a Twilio Voice account.
 
     You can create an account at `https://www.twilio.com`.
 
-3.  Configure Notify with Twilio.
+3.  [Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md).
 
 4.  [Activate the CTI Softphone plugin \(com.snc.cti\)](../reference/r_CustServMgmtAddtlPluginsTable.md).
 

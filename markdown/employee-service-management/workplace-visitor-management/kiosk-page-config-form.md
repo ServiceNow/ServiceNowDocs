@@ -93,7 +93,7 @@ Primary authentication option
 
 </td><td>
 
-Authentication option that opens by default on the authentication page. This field appears only if the page type is **Authentication**.**Note:** If the **Primary authentication option** field is not visible on the form, you must add it to the form layout. For more information about form layouts, see Configuring the form layout.
+Authentication option that opens by default on the authentication page. This field appears only if the page type is **Authentication**.**Note:** If the **Primary authentication option** field is not visible on the form, you must add it to the form layout. For more information about form layouts, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
 </td></tr></tbody>
 </table>## Self-registration record producer configuration

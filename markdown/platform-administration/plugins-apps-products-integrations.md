@@ -28,7 +28,7 @@ An app is a standalone piece of code that implements a collection of features on
 
 After getting an app from the ServiceNow Store, install it using the Application Manager. For more information, see [Application Manager](../../application-manager/concept/application-manager.md).
 
-You can also create your own apps. For more information about creating apps for your ServiceNow AI Platform instance, see Building applications.
+You can also create your own apps. For more information about creating apps for your ServiceNow AI Platform instance, see [Building applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-applications.md).
 
 ## Integrations
 

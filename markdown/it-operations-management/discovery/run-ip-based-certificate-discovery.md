@@ -75,7 +75,7 @@ Role required: Certificate administrator, discovery\_admin, or admin
 
     3.  Enter your Target IP into the **Target IP** field.
 
-        **Warning:** Make sure that your IP address is accessible to the MID Server you’re using. If it doesn’t, you have to set Credential aliases for Discovery.
+        **Warning:** Make sure that your IP address is accessible to the MID Server you’re using. If it doesn’t, you have to set [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/discovery-credential-alias.md).
 
     4.  Select **OK**.
 

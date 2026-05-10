@@ -135,7 +135,7 @@ Secondary information displayed for the request.**Note:**
 **Related topics**  
 
 
-[bundle-platux.my-request-widget-portal]
+[My Requests widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/my-request-widget-portal.md)
 
-[bundle-platux.config-pageroutemap-stpage]
+[Activate the page route map for the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/config-pageroutemap-stpage.md)
 

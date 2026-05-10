@@ -22,8 +22,8 @@ Safety inspections and audits within the Health and Safety Workspace enhance the
 The safety inspections and audits feature provides the following capabilities:
 
 -   **Build and manage safety inspections and audits**
-    -   Use smart assessment templates available with the application or build new ones with the Smart Assessment Engine. For more information, see Smart assessment template designer.
-    -   Use available surveys or design new ones with the Survey designer. For more information, see Survey designer.
+    -   Use smart assessment templates available with the application or build new ones with the Smart Assessment Engine. For more information, see [Smart assessment template designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-template-designer.md).
+    -   Use available surveys or design new ones with the Survey designer. For more information, see [Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md).
 -   **Schedule inspections and audits**
 
     Schedule inspections and audits to be completed at regular intervals with the Inspection Scheduler and Audit Scheduler.

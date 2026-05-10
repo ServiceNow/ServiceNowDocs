@@ -14,24 +14,24 @@ The ServiceNow® Partner Relationship Management application provides a unified 
 
 ## Partner Relationship Management highlights for the Australia release
 
-Use the CSM Configurable Workspace to enable your enterprise administrators to view all the details related to their partners and enable channel partners to track opportunities. See Partner Relationship Management for more information.
+Use the CSM Configurable Workspace to enable your enterprise administrators to view all the details related to their partners and enable channel partners to track opportunities. See [Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management.md) for more information.
 
 **Important:** CSM Configurable WorkspacePartner Relationship Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **Install Opportunity Management for Channel Partners**
+-   **[Install Opportunity Management for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-opportunity-management-for-channel-partners.md)**
 
     Install the Opportunity Management for Channel Partners plugin \(com.snc.partner\_relationship\_management\_oppty\) to enable channel partners to track opportunities with channel partners.
 
 
 ## Activation information
 
-Install Partner Relationship Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html). Partner Relationship Management is available with activation of the Partner Relationship Management plugin. For details, see Activate the Return Merchandise Authorization plugin.
+Install Partner Relationship Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html). Partner Relationship Management is available with activation of the Partner Relationship Management plugin. For details, see [Activate the Return Merchandise Authorization plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activate-return-merchandise-authorization-plugin.md).
 
 ## Related ServiceNow applications and features
 
--   **Exploring Customer Service Management**
+-   **[Exploring Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/exploring-csm.md)**
 
     Learn how the Customer Service Management \(CSM\) application can help your organization resolve customer issues and requests for your customers. By adopting a proactive customer service approach, you can increase your customer satisfaction and retention.
 

@@ -21,9 +21,9 @@ Role required: admin
 
 If you have a custom search source or portal, consider whether you want to use the base system **portal\_index\_group** text index group, or create your own text index group. The base system text index group includes the Catalog items and Knowledge tables. When a user searches for an item in Service Portal, they see combined results from these tables.
 
-**Note:** Index tables before adding them to a text index group. To learn more about text indexing, see Configure a table for indexing and searching.
+**Note:** Index tables before adding them to a text index group. To learn more about text indexing, see [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-single-table-for-indexing.md).
 
-Text index groups are a ServiceNow AI Platform feature. To learn more, see Configure multiple tables for indexing and searching.
+Text index groups are a ServiceNow AI Platform feature. To learn more, see [Configure multiple tables for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/index-multiple-tables.md).
 
 ## About this task
 

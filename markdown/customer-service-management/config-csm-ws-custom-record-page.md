@@ -47,9 +47,9 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
     For more information, see the following UI Builder topics:
 
-    -   Work with pages
-    -   Work with components
-    -   Layouts in UI Builder
+    -   [Work with pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md)
+    -   [Work with components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md)
+    -   [Layouts in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-layouts.md)
 8.  To delete a page variant:
 
     1.  Locate the page variant to be deleted in the **Pages and variants** list.

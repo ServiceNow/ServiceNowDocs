@@ -17,7 +17,7 @@ Orchestration provides customizable activity templates to create and manage cust
 
 You create and update different types of Orchestration activities with the Activity Designer using activity templates for SSH, PowerShell, REST, SOAP, JMS, SFTP, JDBC, JavaScript Probes, and Probes.
 
-Hundreds of workflows can share these activities simultaneously. Before you change an activity, you should check the workflows that they are part of by clicking the form menu icon \(![form menu icon](../../../common/image/Form_MenuIcon.png)\) and selecting **Used In**. Any central change to a versioned activity automatically updates across workflows unless you have pinned that activity.
+Hundreds of workflows can share these activities simultaneously. Before you change an activity, you should check the workflows that they are part of by clicking the form menu icon \(![form menu icon](../../../common/image/Form_MenuIcon.png)\) and selecting **Used In**. Any central change to a versioned activity automatically updates across workflows unless you have [pinned that activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-activities/c_ActivityPinning.md).
 
 All the Orchestration Core activities are built using the Activity Designer in scoped applications. Custom activities can be developed in the global scope or their own application scope even if that scope is different from the scope of the workflow. Use [Activity scoping](c_ActivityScoping.md) when build your own activity packs.
 

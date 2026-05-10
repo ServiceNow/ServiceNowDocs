@@ -17,7 +17,7 @@ Software deployed by SCCM can be revoked, but only when the status of software i
 
 ## Before you begin
 
--   Create an Define an SCCM configuration for the application that names an appropriate uninstall collection.
+-   Create an [Define an SCCM configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_ConfigureSCCMCollections.md) for the application that names an appropriate uninstall collection.
 -   Associate the [CSD catalog item](create-cat-item-ihub.md) for the application with the SCCM configuration that specifies the uninstall collection.
 
 Role required: sn\_client\_sf\_dist.csd\_admin or admin

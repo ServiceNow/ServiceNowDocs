@@ -20,7 +20,7 @@ You can summarize contracts, generate frequently asked questions \(FAQs\), and r
 
 To enable this feature in Contract Management Pro, do the following:
 
-1.  Activate the smart documents skill in Now Assist in Document Management. For more information, see Configure the Smart Documents Skill for Now Assist in Document Management.
+1.  Activate the smart documents skill in Now Assist in Document Management. For more information, see [Configure the Smart Documents Skill for Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-skill-smart-documents.md).
 2.  To enable contract summarization for contract documents, supporting documents, and signed contracts, add the following tables in the **Define availability** tab of smart documents skill.
     -   Contract \[ast\_contract\]
     -   Contract Document Revision \[sn\_cm\_core\_document\_revision\]
@@ -35,7 +35,7 @@ To enable this feature in Contract Management Pro, do the following:
     -   Legal contract fulfiller \[sn\_lg\_cnt.contract\_fulfiller\]
     -   Legal contract administrator \[sn\_lg\_cnt.contract\_admin\]
     -   Legal contract owner \[sn\_lg\_cnt.contract\_owner\]
-4.  Enable the Now Assist panel for your instance. For more information, see Activate the Now Assist panel standard chat.
+4.  Enable the Now Assist panel for your instance. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 **Parent Topic:**[Configure additional features in Contract Management Pro](../concept/cmpro-additional-feature.md)
 

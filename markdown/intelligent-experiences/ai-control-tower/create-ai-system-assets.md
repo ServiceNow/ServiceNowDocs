@@ -322,7 +322,7 @@ Additional use and purpose details
 Additional information or context that helps clarify the specific use and purpose of the AI system.
 
 </td></tr></tbody>
-</table>    For more information on classifying AI systems based on regulatory risk at intake by applying a configured Risk Assessment Methodology \(RAM\), see Assessment templates and risk assessment methodologies and Request an AI use case.
+</table>    For more information on classifying AI systems based on regulatory risk at intake by applying a configured Risk Assessment Methodology \(RAM\), see [Assessment templates and risk assessment methodologies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/assessment-templates-rams.md) and [Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/request-ai-system.md).
 
 10. Select **Submit for review**.
 

@@ -15,7 +15,7 @@ breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT 
 
 File-based discovery finds files on UNIX or Windows servers and processes them with an established set of rules that enhance the identification of installed software. Use the results to monitor specific file types on network servers for security purposes or to manage your software licenses with the File Signature Normalization plugin for Software Asset Management - Professional \(SAMP\).
 
-For more information on the file-based discovery, see the File-based Discovery.
+For more information on the file-based discovery, see the [File-based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/file-based-discovery.md).
 
 **Note:** The information provided in this page only covers the features available with the File Signature Normalization \(com.snc.file\_signature\_normalization\) plugin.
 

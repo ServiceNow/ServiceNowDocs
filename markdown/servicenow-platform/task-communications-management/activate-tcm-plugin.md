@@ -73,5 +73,5 @@ Several types of components are installed with the Task Communications Managemen
 
 [Install Collaboration Services for Task Communications Management](install-collab-services-for-tcm.md)
 
-[bundle-platadm.list-of-plugins]
+[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

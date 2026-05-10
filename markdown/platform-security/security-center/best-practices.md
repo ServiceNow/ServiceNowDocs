@@ -87,7 +87,7 @@ Consider limiting file attachments, uploads, and downloads
 
 Restrict attachment uploads by role, file extension, MIME type, or size to help prevent potentially malicious files being stored and delivered from your instance. You can also control which file types can be downloaded, including by MIME type, and prevent image access by unauthenticated users.
 
- These attachment restrictions are controlled by system properties on your instance. For details on their configuration, see Configure attachment system properties.
+ These attachment restrictions are controlled by system properties on your instance. For details on their configuration, see [Configure attachment system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DisablingTheDragAndDropFeature.md).
 
 </td></tr><tr><td>
 
@@ -153,7 +153,7 @@ Ensure automatic account creation
 
 Use this feature to create user accounts by email dynamically. Activate this feature only if necessary for your business needs, only after you have defined a list of trusted domains from which accounts can be created. You can also control how passwords are assigned to new accounts created this way.
 
- For details on automatic user creation, see Enable automatic user creation.
+ For details on automatic user creation, see [Enable automatic user creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EnablingAutomaticUserCreation.md).
 
 </td></tr><tr><td>
 
@@ -163,7 +163,7 @@ Ensure Secure Access to knowledge bases
 
 Manage access to knowledge bases and articles to help ensure secure and efficient information sharing. You can determine whether certain users or categories of users can access knowledge bases and knowledge articles by controlling contribute and read access.
 
- The specific configuration depends on your business needs. Learn about your options for configuring knowledge access at Managing access to knowledge bases and knowledge articles.
+ The specific configuration depends on your business needs. Learn about your options for configuring knowledge access at [Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/user-access-knowledge.md).
 
 </td></tr><tr><td>
 
@@ -213,7 +213,7 @@ Install patches and platform updates as soon as possible help ensure the highest
 
  Security fixes are routinely released for the Now Platform via the patches and hot fixes that accompany product feature updates. Upgrading when new patches and hot fixes are available helps reduce the risk of potential vulnerabilities.
 
- Information about Now Platform releases, patches, and hot fixes can be found in the Release Notes section of the product documentation. For more information, see Phase 1 -.
+ Information about Now Platform releases, patches, and hot fixes can be found in the Release Notes section of the product documentation. For more information, see [Phase 1 -](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-1.md).
 
 </td></tr><tr><td>
 
@@ -281,7 +281,7 @@ Monitor login failure rates and create alerts
 
 Monitor for unusual activity such as high numbers of failed logins, especially within short time frames. You can create alerts to send emails when a threshold you define is exceeded.
 
- Learn how to configure these thresholds at Indicator thresholds.
+ Learn how to configure these thresholds at [Indicator thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-threshold.md).
 
 </td></tr><tr><td>
 
@@ -372,7 +372,7 @@ Archive your log data to retain it beyond the default 21-day log rotation period
 
  Use the following resources to learn more about these methods:
 
- -   Web services
+ -   [Web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_AvailableWebServices.md)
 -   [Exploring Log Export Service \(LES\)](../../log-export-service/concept/les-landing-page.md)
 
 </td></tr><tr><td>
@@ -428,7 +428,7 @@ Create email filters to filter out messages marked as suspicious by ServiceNow A
 
  Learn more about ServiceNow's antivirus feature at [Antivirus Scanning](../../security/concept/antivirus-protection.md).
 
- Learn how to configure email filters on your instance at Email filters.
+ Learn how to configure email filters on your instance at [Email filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailFilters.md).
 
 </td></tr><tr><td>
 
@@ -438,7 +438,7 @@ Use the Syslog Probe to send logs to your SIEM
 
 Use the ServiceNow syslog probe to send log messages from your instance to a Security Information and Event Manager \(SIEM\). An SIEM is third-party software or service that can be used for activity monitoring and identifying security events.
 
- Learn more about ServiceNow syslog probe configuration at Syslog probe.
+ Learn more about ServiceNow syslog probe configuration at [Syslog probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_SyslogProbe.md).
 
 </td></tr><tr><td>
 

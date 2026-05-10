@@ -19,18 +19,18 @@ Find more information about the Operational Technology \(OT\) extension classes 
 
 The extension classes help you understand how Operational Technology Management works with the Configuration Management Database \(CMDB\).
 
--   **Operational Technology \(OT\) extension classes**
+-   **[Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-operation-technology.md)**
 
     The CMDB updates classes for OT.
 
 
 ## Related applications
 
--   **Request Management**
+-   **[Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/c_RequestManagement.md)**
 
     Request Management allows catalog items to be requested and fulfilled based on defined flows.
 
--   **IT Service Management**
+-   **[IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_ITServiceManagement.md)**
 
     The ServiceNow IT Service Management application enables engineers to resolve OT device and production process issues quickly.
 

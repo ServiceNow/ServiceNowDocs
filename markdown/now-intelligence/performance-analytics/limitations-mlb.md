@@ -19,7 +19,7 @@ Several features of indicators and breakdowns are not supported with Data snapsh
 
 |Limitation or unsupported feature|Notes|
 |---------------------------------|-----|
-|Database requirements|Only instances with the RaptorDB Professional \(PostgreSQL\) database are supported, not Oracle or MariaDB/MySQL. \(Checked when plugin is activated.\)|
+|Database requirements|Only instances with the [RaptorDB Professional \(PostgreSQL\) database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/raptordb.md) are supported, not Oracle or MariaDB/MySQL. \(Checked when plugin is activated.\)|
 |Domain separation|Domain-separated instances are not supported.|
 
 ## Table-level limitations

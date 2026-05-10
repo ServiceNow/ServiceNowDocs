@@ -121,5 +121,5 @@ When you enable this property, Cloud Configuration Governance writes the logs to
 **Related topics**  
 
 
-[bundle-platadm.t_AssignARoleToAUser]
+[Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md)
 

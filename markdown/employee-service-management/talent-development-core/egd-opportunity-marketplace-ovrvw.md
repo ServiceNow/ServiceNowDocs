@@ -191,10 +191,10 @@ Employees and opportunity owners experience the benefit of generating more sophi
 
 For more information on AI search and Zing search features, refer to the following topics to help your organization determine which search engine to implement and use:
 
--   Exploring AI Search
--   Features of Zing text indexing and search engine
+-   [Exploring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/explore-ais.md)
+-   [Features of Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/features-zing.md)
 
-For more information on AI search and how to enable it, refer to AI Search.
+For more information on AI search and how to enable it, refer to [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md).
 
 **Parent Topic:**[Exploring Talent Development Core](egd-explore.md)
 

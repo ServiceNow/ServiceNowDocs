@@ -101,11 +101,11 @@ Taxonomy
 
 Filters what topics you can schedule your content to. Taxonomy is a collection of hierarchical topics that brings together different content types, like requests, articles, quick links, and employee communications. For example, you can set up separate taxonomies for HR and IT so you can group specific topics under each.
 
- For this field to appear, select a page that has Taxonomy \(sn\_ex\_sp\_taxonomy\) entered in the Choices tab for the dictionary entry for the Category table of the page. For more information, see Create a table.
+ For this field to appear, select a page that has Taxonomy \(sn\_ex\_sp\_taxonomy\) entered in the Choices tab for the dictionary entry for the Category table of the page. For more information, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_CreateATable.md).
 
  For more information on taxonomy for the Employee Center, see [Unified Taxonomy for Employee Center](../concept/config-taxonomy.md).
 
- For child topics to appear on your Employee Center, you must add it to the Portal form under Service Portal. For more information, see Create a portal.
+ For child topics to appear on your Employee Center, you must add it to the Portal form under Service Portal. For more information, see [Create a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-a-portal.md).
 
 </td></tr><tr><td>
 

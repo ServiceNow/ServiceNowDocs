@@ -71,7 +71,7 @@ Follow these general guidelines when designing flows containing Password \(2 Way
 
 -   **Set up encryption modules for decryption**
 
-    Only users with a valid encryption module access can decrypt and view the contents of password2 variables. To specify the encryption algorithm and which roles can access encrypted data, see Password2 encryption with KMF .
+    Only users with a valid encryption module access can decrypt and view the contents of password2 variables. To specify the encryption algorithm and which roles can access encrypted data, see [Password2 encryption with KMF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/password-2way-encrypted-fields.md) .
 
 
 **Parent Topic:**[Workflow Studio input and output data variables](action-inputs-outputs.md)

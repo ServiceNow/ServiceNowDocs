@@ -40,7 +40,7 @@ Discovery requires a MID Server to securely detect and collect data from systems
 
 4.  Download the MID Server for the appropriate operating system.
 
-    For more information, see Install a MID Server on Linux and Install a MID Server on Windows.
+    For more information, see [Install a MID Server on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_InstallAMIDServerOnLinux.md) and [Install a MID Server on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md).
 
 5.  Select **X** to close the window and return to the Configuration Console.
 

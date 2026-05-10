@@ -51,10 +51,10 @@ The **Compose SMS** option is only enabled for active chat interactions. For mor
 
 6.  Compose the SMS message, add an attachment if necessary, and send to the employee.
 
-    You can also select the ![HR Agent Workspace - Quick action icon](../reference/images/quick-action-icon.png) quick action icon, or enter a back slash \(/\) in the chat area, to use quick actions for SMS messaging. See Agent Chat for more information.
+    You can also select the ![HR Agent Workspace - Quick action icon](../reference/images/quick-action-icon.png) quick action icon, or enter a back slash \(/\) in the chat area, to use quick actions for SMS messaging. See [Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-agent-chat-exploring.md) for more information.
 
     You will receive a confirmation when the SMS message is sent. Click the confirmation to view the interaction details,if desired.
 
-    **Note:** For complete details regarding initiating SMS conversations in Agent Workspace, refer to Agent initiated SMS conversation. For details about using Agent Workspace with HR Service Delivery, refer to .
+    **Note:** For complete details regarding initiating SMS conversations in Agent Workspace, refer to [Agent initiated SMS conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/agent-initiated-sms-store-app.md). For details about using Agent Workspace with HR Service Delivery, refer to .
 
 

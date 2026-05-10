@@ -19,7 +19,7 @@ As an HR agent, generate the PII report requested by the employee or alumni.
 
 Role required: HR agent \(sn\_hr\_core.basic\)
 
-PII in HR Core tables are manually identified and classified into categories called classes. For example, Contact information, Identification information, and so on. These classifications serve as a reference, you can also create your own classifications. For more information, see Data Classification.
+PII in HR Core tables are manually identified and classified into categories called classes. For example, Contact information, Identification information, and so on. These classifications serve as a reference, you can also create your own classifications. For more information, see [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-classification/data-classification.md).
 
 **Note:** The classes are available in the data classification module which is auto-installed with HR Core. The classified dictionary entries under each class are included in the HR Core plugin's demo data.
 

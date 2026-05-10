@@ -25,7 +25,7 @@ When you create metrics, consider the focus of the category and what characteris
 
 1.  Navigate in one of the following ways.
 
-<table id="choicetable_amk_2gr_z4"><tbody><tr><td id="d608144e69">
+<table id="choicetable_amk_2gr_z4"><tbody><tr><td id="d608151e69">
 
 **__Assessments__ &gt; __Metric Definition__ &gt; __Categories__**
 
@@ -35,7 +35,7 @@ Open a category, and locate the **Assessment Metrics** related list.
 
  This is the suggested navigation path, as the system links metrics to the category from which they are created.
 
-</td></tr><tr><td id="d608144e99">
+</td></tr><tr><td id="d608151e99">
 
 **__Assessments__ &gt; __Metric Definition__ &gt; __Metrics__**
 

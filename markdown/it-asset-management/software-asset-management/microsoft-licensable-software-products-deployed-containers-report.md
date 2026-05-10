@@ -15,7 +15,7 @@ breadcrumb: [SQL Server licensing in container deployments, Software Asset Manag
 
 You can use the Licensable Software Products Deployed on Containers report to gain visibility into the software products that are deployed across both on-premise and cloud environments using Docker containers.
 
-**Note:** To view this report, activate the Software Asset Management Professional plugin \(com.snc.samp\) and the Discovery and Service Mapping Patterns application.
+**Note:** To view this report, activate the Software Asset Management Professional plugin \(com.snc.samp\) and the [Discovery and Service Mapping Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/install-discovery-service-mapping-patterns.md) application.
 
 The Licensable Software Products Deployed on Containers report is available only in the Software Asset Workspace. To view this report, navigate to **All** &gt; **Software Asset** &gt; **Software Asset Workspace**. From the Software Asset Workspace, navigate to **License usage** &gt; **Reports** &gt; **Licensable Software Products Deployed on Containers**.
 

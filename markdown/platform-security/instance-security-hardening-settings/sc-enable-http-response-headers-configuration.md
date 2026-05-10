@@ -15,7 +15,7 @@ breadcrumb: [Configuration, Hardening settings, Platform Security]
 
 Reduce the risk of cookie/session-related hijacking of web apps using a system property.
 
-If the **glide.http.headers\_config.enabled** system property isn't set to **true**, then response header configurations defined in the HTTP Response Headers \[sys\_response\_header\] table aren't used. Security related HTTP response headers include Content Security Policy, which aids in XSS-related protections. For details on HTTP response headers, see http-response-header.
+If the **glide.http.headers\_config.enabled** system property isn't set to **true**, then response header configurations defined in the HTTP Response Headers \[sys\_response\_header\] table aren't used. Security related HTTP response headers include Content Security Policy, which aids in XSS-related protections. For details on HTTP response headers, see [http-response-header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/http-response-header.md).
 
 Ensure that the property **glide.http.headers\_config.enabled** is set to **true**.
 

@@ -17,13 +17,13 @@ A search application configuration specifies the search engine and settings to u
 
 A search application configuration contains a reference to a search profile, along with settings that affect how search results are displayed to users of the application. The search profile specifies settings that determine how AI Search generates search results for a given search. To learn more about search profile configuration settings, see [Search profiles in AI Search](defining-search-profiles-ais.md).
 
-Some ServiceNow AI Platform applications install their own AI Search application configurations when you activate them. For example, activating the Customer Service Management \(CSM\) application installs AI Search application configurations for the Customer Service Portal and Consumer Service Portal.
+Some ServiceNow AI Platform applications install their own AI Search application configurations when you activate them. For example, activating the [Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md) application installs AI Search application configurations for the Customer Service Portal and Consumer Service Portal.
 
 AI Search includes search application configurations for use in the following ServiceNow AI Platform applications:
 
--   Employee Center
--   Virtual Agent
--   Service Portal
+-   [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md)
+-   [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md)
+-   [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md)
 
 You can modify existing search application configurations, or create and configure your own search application configurations with AI Search specified as the search engine.
 

@@ -67,7 +67,7 @@ The following operations occur:
 -   The ServiceNow AI Platform identifies all local changes.
 -   The ServiceNow AI Platform commits all local changes to the remote repository.
 
-**Note:** For list of known files that don’t have customer update records and are untracked, see Customer Updates table.
+**Note:** For list of known files that don’t have customer update records and are untracked, see [Customer Updates table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_CustomerUpdatesTable.md).
 
 **Parent Topic:**[Work with changes in Git](../concept/sns-sc-work-with-changes-in-git.md)
 

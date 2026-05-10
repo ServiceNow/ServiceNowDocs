@@ -37,7 +37,7 @@ Service Mapping creates names for tag-based services using tag values discovered
 
 In domain-separated deployments, Service Mapping populates tag-based services based on this service family only with CIs belonging to the leaf domain to which the service family belongs.
 
-To map a single application service using tags without preliminary configuration, use the flow based on Common Service Data Model. For more information, see Populate application services using tags.
+To map a single application service using tags without preliminary configuration, use the flow based on Common Service Data Model. For more information, see [Populate application services using tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/populate-app-service-tags.md).
 
 **Note:** Starting with version 1.15.2, there is a limit of 200 application service candidates per family.
 

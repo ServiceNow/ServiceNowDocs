@@ -4,7 +4,7 @@ description: Configure authentication and permissions before running the collect
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 4
 keywords: [SQL Server Agent, Agent jobs, SQLAgentReaderRole, msdb database, SQL Server authentication, SQL Server login, username password, database permissions, SQL Server Agent, Agent jobs, SQLAgentReaderRole, msdb database]
 breadcrumb: [Microsoft SQL Server metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]

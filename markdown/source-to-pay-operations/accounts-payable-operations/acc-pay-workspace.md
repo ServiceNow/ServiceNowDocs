@@ -21,7 +21,7 @@ The Source-to-Pay Workspace provides a dashboard and tools that enable you to do
 -   View and respond to inquiries and requests​
 -   View and work with all the invoices, including the invoices that have exceptions​
 
-The Source-to-Pay Workspace supports global search, which enables you to search for information using keywords. The search results include all the items that the keyword appears in, for example, cases, tasks, short description, content, or attached files. For more information, see Using search in Next Experience.
+The Source-to-Pay Workspace supports global search, which enables you to search for information using keywords. The search results include all the items that the keyword appears in, for example, cases, tasks, short description, content, or attached files. For more information, see [Using search in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/using-search-next-experience.md).
 
 **Note:** The global search is available only for users with the Accounts Payable Specialist \[sn\_ap\_apm.accounts\_payable\_specialist\] role.
 

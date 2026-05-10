@@ -72,9 +72,9 @@ Approval with e-signature supports these types of user credential sources.
 -   A set of local User \[sys\_user\] records.
 -   A remote identity provider service accessed by the Multi-Provider Single Sign-On \(SSO\) integration.
 
-User credentials must be set up before enabling Approvals with e-signature. See Creating users to create local User records.
+User credentials must be set up before enabling Approvals with e-signature. See [Creating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-users.md) to create local User records.
 
-See Multi-Provider single sign-on \(SSO\) to create an integration to a Security Assertion Markup Language \(SAML\) 2.0 identity provider.
+See [Multi-Provider single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_MultipleProviderSingleSignOn.md) to create an integration to a Security Assertion Markup Language \(SAML\) 2.0 identity provider.
 
 -   **[Activate Approval with e-Signature plugin](../../../integrate/single-sign-on/task/activate-approval-esignature.md)**  
 The Approval with e-Signature plugin \(com.glide.e\_signature\_approvals\) allows users to approve requests by re-entering their login credentials.

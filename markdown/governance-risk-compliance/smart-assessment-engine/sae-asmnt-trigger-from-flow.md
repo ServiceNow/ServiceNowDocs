@@ -35,7 +35,7 @@ An example trigger condition might be that the state in the control table change
 
     The settings on the form are described in [Trigger Smart Assessment action form](../reference/sae-smart-asmnt-action-form.md).
 
-4.  Test the action as described in Building flows.
+4.  Test the action as described in [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md).
 
     For descriptions of all these settings, see [Settings in the Test action pop-up window](../reference/sae-test-action-popup.md).
 
@@ -51,9 +51,9 @@ Assessments are triggered.
 **Related topics**  
 
 
-[bundle-cadev.flow-designer]
+[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md)
 
-[bundle-crworkflow.flows]
+[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md)
 
-[bundle-crworkflow.create-flow]
+[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
 

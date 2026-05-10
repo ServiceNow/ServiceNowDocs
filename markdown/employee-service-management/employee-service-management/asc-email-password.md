@@ -21,5 +21,5 @@ The base system provides the following email notifications:
 
 You can customize the message to suite your company's requirements.
 
-For more information, refer to Email and SMS notifications.
+For more information, refer to [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md).
 

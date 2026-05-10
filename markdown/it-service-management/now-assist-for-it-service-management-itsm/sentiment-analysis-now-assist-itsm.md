@@ -24,15 +24,15 @@ Role required: itil
 
 1.  Navigate to the incident list or incident form in the Core UI or in Service Operations Workspace for ITSM.
 
-<table id="choicetable_svt_mlg_w2c"><thead><tr><th align="left" id="d374656e88">
+<table id="choicetable_svt_mlg_w2c"><thead><tr><th align="left" id="d374681e88">
 
 To
 
-</th><th align="left" id="d374656e91">
+</th><th align="left" id="d374681e91">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d374656e97">
+</th></tr></thead><tbody><tr><td id="d374681e97">
 
 **Navigate in Core UI**
 
@@ -52,9 +52,9 @@ The incident form view appears.
 
 ![Sentiment analysis Core UI form view that displays the reasons for the sentiment](../image/now-assist-itsm-sentiment-trend-coreui-form.png)
 
-**Note:** If the **Sentiment** field does not appear, you must configure the form layout. For more information, see Configuring the form layout and add the **Sentiment** field.
+**Note:** If the **Sentiment** field does not appear, you must configure the form layout. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) and add the **Sentiment** field.
 
-</td></tr><tr><td id="d374656e170">
+</td></tr><tr><td id="d374681e170">
 
 **Navigate in Service Operations Workspace for ITSM**
 
@@ -74,7 +74,7 @@ The Service Operations Workspace for ITSM form view appears.
 
 ![Sentiment analysis incident form view that displays the reasons for the sentiment](../image/now-assist-itsm-sentiment-trend-sow-form.png)
 
-**Note:** If the **Sentiment** field does not appear, you must configure the form layout. For more information, see Configuring the form layout and add the **Sentiment** field.
+**Note:** If the **Sentiment** field does not appear, you must configure the form layout. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) and add the **Sentiment** field.
 
 </td></tr></tbody>
 </table>2.  In the Core UI or in Service Operations Workspace for ITSM list view, you can sort the incidents based on the sentiment and the sentiment trend.

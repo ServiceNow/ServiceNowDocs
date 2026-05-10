@@ -4,7 +4,7 @@ description: Initiate outbound requests to manage service orders by interacting 
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Sales and Service API Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---

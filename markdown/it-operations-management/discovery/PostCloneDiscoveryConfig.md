@@ -23,7 +23,7 @@ For instructions on how to deactivate or cancel a Discovery schedule after creat
 
 ## Post-clone target configuration for IP-based Discovery schedules
 
-After completing the Request a clone process, post-clone configuration is determined by the MID Server selection method you chose in the Discovery schedule on the source instance.
+After completing the [Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_StartAClone.md) process, post-clone configuration is determined by the MID Server selection method you chose in the Discovery schedule on the source instance.
 
 <table id="table_yb1_v45_nfc"><thead><tr><th>
 
@@ -47,7 +47,7 @@ Cluster
 
 </td><td>
 
-Create the cluster, attach the MID Server to the cluster, and then update the cluster name in the Discovery schedule.Alternatively, remove the MID cluster \[ecc\_agent\_cluster\] record from the Clone Exclude Tables \[clone\_data\_exclude\]. For more information, see Exclude a table from cloning.
+Create the cluster, attach the MID Server to the cluster, and then update the cluster name in the Discovery schedule.Alternatively, remove the MID cluster \[ecc\_agent\_cluster\] record from the Clone Exclude Tables \[clone\_data\_exclude\]. For more information, see [Exclude a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ExcludeATableFromCloning.md).
 
 </td></tr><tr><td>
 
@@ -68,7 +68,7 @@ Verify all MID Servers on the target instance are set up with target IP ranges, 
 </td></tr></tbody>
 </table>## Post-clone target configuration for Cloud Discovery schedules
 
-After completing the Request a clone process, you must access the Cloud Service Account \[cmdb\_ci\_cloud\_service\_account\] table and update the service accounts with the proper reference to the Discovery credentials. You must also update the MID Servers for the Discovery schedule. Additional post-clone configuration is determined by the MID Server selection method that you chose in the original Discovery schedule.
+After completing the [Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_StartAClone.md) process, you must access the Cloud Service Account \[cmdb\_ci\_cloud\_service\_account\] table and update the service accounts with the proper reference to the Discovery credentials. You must also update the MID Servers for the Discovery schedule. Additional post-clone configuration is determined by the MID Server selection method that you chose in the original Discovery schedule.
 
 <table id="table_pkd_skl_kfc"><thead><tr><th>
 
@@ -92,7 +92,7 @@ Cluster
 
 </td><td>
 
-Create the cluster, attach the MID Server to the cluster, and then update the cluster name in the Discovery schedule.Alternatively, remove the MID cluster \[ecc\_agent\_cluster\] record from the Clone Exclude Tables \[clone\_data\_exclude\]. For more information, see Exclude a table from cloning.
+Create the cluster, attach the MID Server to the cluster, and then update the cluster name in the Discovery schedule.Alternatively, remove the MID cluster \[ecc\_agent\_cluster\] record from the Clone Exclude Tables \[clone\_data\_exclude\]. For more information, see [Exclude a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ExcludeATableFromCloning.md).
 
 </td></tr><tr><td>
 
@@ -124,5 +124,5 @@ Additionally, no MID Server related tables are cloned. For more details, see the
 **Related topics**  
 
 
-[bundle-platadm.using-instance-clone]
+[Managing Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/using-instance-clone.md)
 

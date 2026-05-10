@@ -29,7 +29,7 @@ In the manual metric definition, you can choose between a simple or advanced opt
 
 3.  On the form, fill in the fields.
 
-    For information about the fields, refer to Assignment Configuration New Record.
+    For information about the fields, refer to [Assignment Configuration New Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/assignment-configuration-new-record.md).
 
     **Note:** You cannot have more than one approval configuration applying to the table with the same priority.
 

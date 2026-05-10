@@ -53,7 +53,7 @@ List of the types of fields to return.Possible values:
 
 -   actualValues: Returns the values actually stored in each of the fields, including the sys\_ids for referenced records. Use this setting if dates need to be decoded in Codable models using Date.
 -   description: Returns the description of the parameter.
--   displayValues: Returns the display values, if available, for the selected fields. For example, user names typically contain a reference link \(sys\_id\) to the user record. If you request the display value, the person's name is returned instead of the sys\_id that is stored in the associated field.
+-   displayValues: Returns the [display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md), if available, for the selected fields. For example, user names typically contain a reference link \(sys\_id\) to the user record. If you request the display value, the person's name is returned instead of the sys\_id that is stored in the associated field.
 
 **Note:** Display values returned by a ServiceNow instance are formatted and internationalized based on the user profile configuration of the authenticated user. This may differ from the device language and locale settings on the device.
 
@@ -105,7 +105,7 @@ List of the types of fields to return.Possible values:
 
 -   actualValues: Returns the values actually stored in each of the fields, including the sys\_ids for referenced records. Use this setting if dates need to be decoded in Codable models using Date.
 -   description: Returns the description of the parameter.
--   displayValues: Returns the display values, if available, for the selected fields. For example, user names typically contain a reference link \(sys\_id\) to the user record. If you request the display value, the person's name is returned instead of the sys\_id that is stored in the associated field.
+-   displayValues: Returns the [display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md), if available, for the selected fields. For example, user names typically contain a reference link \(sys\_id\) to the user record. If you request the display value, the person's name is returned instead of the sys\_id that is stored in the associated field.
 
 **Note:** Display values returned by a ServiceNow instance are formatted and internationalized based on the user profile configuration of the authenticated user. This may differ from the device language and locale settings on the device.
 

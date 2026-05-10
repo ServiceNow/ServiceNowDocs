@@ -15,7 +15,7 @@ breadcrumb: [Data collection, Configure advanced features, Performance Analytics
 
 The optimized Performance Analytics data collector reduces the time, memory, and CPU usage for processing large data sets.
 
-The optimized data collector is active by default on all instances starting in Tokyo. It is activated upon upgrading. To deactivate the optimized collector, create the system property **com.snc.pa.dc.hsql** and set it to `false`. For more information, see Add a system property.
+The optimized data collector is active by default on all instances starting in Tokyo. It is activated upon upgrading. To deactivate the optimized collector, create the system property **com.snc.pa.dc.hsql** and set it to `false`. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Important:** Oracle databases are not supported. Other instances that still use the Performance Analytics Scores \[pa\_scores\] table are also not supported. The optimized data collector supports only instances where the indicator scores are on the two tables Scores Level 1 \[pa\_scores\_l1\] and Scores Level 2 \[pa\_scores\_l2\]. For more information, see [Migrating indicator scores](pa-scores-migration.md#).
 

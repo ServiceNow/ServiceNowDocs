@@ -33,7 +33,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   Discovery and Service Mapping Patterns \(version 1.0.72\)
 -   **Create SSH credentials**
 
-    Create SSH credentials for the Citrix NetScaler SDX device. For more information, see SSH credentials.
+    Create SSH credentials for the Citrix NetScaler SDX device. For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
 
 -   **Verify permissions for the following commands**
 

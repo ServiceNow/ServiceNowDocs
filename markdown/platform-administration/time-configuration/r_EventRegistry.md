@@ -31,7 +31,7 @@ For example:
 
 -   **Script Actions**
 
-    Scripts that trigger when an event is recorded in the log. You can set scripts to execute whenever a particular activity occurs in the platform, rather than at a particular time, such as scheduled jobs, or in response to particular conditions, such as Business rules.
+    Scripts that trigger when an event is recorded in the log. You can set scripts to execute whenever a particular activity occurs in the platform, rather than at a particular time, such as scheduled jobs, or in response to particular conditions, such as [Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/business-rules-classic/c_BusinessRules.md).
 
 -   **Notifications**
 

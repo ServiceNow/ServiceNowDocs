@@ -21,10 +21,10 @@ The CMDB Workspace is an efficient, central, and modernized way for you to work.
 
 ## General interaction and additional information
 
--   CMDB Workspace leverages many Performance Analytics capabilities and features, such as indicator sources. Throughout the CMDB Workspace views, you can select the various cards to drill down to Performance Analytics KPI Details panes that show trends for the associated data. On a KPI Details pane, you can modify different settings to change the scope of the data. You can also select **Show Records** to list the records associated with the chart.
+-   CMDB Workspace leverages many [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-overview.md) capabilities and features, such as indicator sources. Throughout the CMDB Workspace views, you can select the various cards to drill down to Performance Analytics KPI Details panes that show trends for the associated data. On a KPI Details pane, you can modify different settings to change the scope of the data. You can also select **Show Records** to list the records associated with the chart.
 -   Lists throughout the CMDB Workspace have a filter icon that you can select to show the filter definition used for the list.
--   You can open your Configurable Workspace experience in UI Builder to access and edit your CMDB Workspace experience.
--   See List of workspaces for a list of all Workspaces that ServiceNow® provides.
+-   You can [open your Configurable Workspace experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.md) to access and edit your CMDB Workspace experience.
+-   See [List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/list-of-workspaces.md) for a list of all Workspaces that ServiceNow® provides.
 -   CMDB Workspace doesn't support domain separation.
 
 ## CI details
@@ -71,8 +71,8 @@ When you drill down to CI details, how those details appear depends on system se
     -   Select **Save** to save any changes made to attributes for the CI record.
 
     -   Select the More Actions icon \(...\) for additional functions:
-        -   Select **Create Change** to create a new change request for the CI record.
-        -   Select **Create Incident** to create a new incident for the CI record.
+        -   Select **Create Change** to [create a new change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateAChange.md) for the CI record.
+        -   Select **Create Incident** to [create a new incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/create-an-incident.md) for the CI record.
         -   Select **Delete** to delete the CI record.
 <table id="table_cxt_nn4_mrb"><thead><tr><th>
 
@@ -139,7 +139,7 @@ Event Management \(com.glideapp.itom.snac\) plugin
 
  evt\_mgmt\_user role
 
- Set up Event Management
+ [Set up Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMConfiguration.md)
 
 </td></tr><tr><td>
 

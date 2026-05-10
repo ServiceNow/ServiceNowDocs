@@ -83,7 +83,7 @@ Upload configuration data depending on use case.
 
 </td><td>
 
-Administrate the full life cycle of PaCE policies and create your own.
+[Administrate the full life cycle of PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-managing-policies.md) and create your own.
 
 </td></tr><tr><td>
 

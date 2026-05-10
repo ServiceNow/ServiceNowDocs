@@ -17,9 +17,9 @@ Use the Import OT device spreadsheet into OT CMDB agentic workflow to automate t
 
 Using the Import OT device spreadsheet into OT CMDB agentic workflow, you can import the OT device inventory spreadsheet and map the spreadsheet data to the OT staging table. After importing and creating an OT staging table record, you can validate the staging record, remediate invalid records, and import all the validated records into the OT CMDB. For more information about how to use this agentic workflow, see [Upload, validate, and import the OT device inventory spreadsheet](../task/upload-import-validate-ot-device-inventory-spreadsheet.md).
 
-**Important:** This agentic workflow is turned on by default. For more information, see Now Assist skills, agents, and agentic workflows on by default.
+**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
-To modify the Import OT device spreadsheet into OT CMDB agentic workflow, duplicate it, and adjust the settings according to your requirements.
+To modify the Import OT device spreadsheet into OT CMDB agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 **Important:** When you modify an agentic workflow, AI agent, or a tool, make sure that you update all instructions accordingly.
 
@@ -42,7 +42,7 @@ To access the agentic workflow:
 
 The Import OT device spreadsheet into OT CMDB agentic workflow uses the OT Excel import task AI agent. Once you upload the device inventory spreadsheet, the agent processes the spreadsheet, creates an OT Excel SGC Import Task record, and maps the data to the SG OT Excel Stagings table. The agent then runs validations on the staging records, creates a remediation task for all invalid records, and imports the valid records into the OT CMDB.
 
-**Important:** This agent is turned on by default. For more information, see Now Assist skills, agents, and agentic workflows on by default.
+**Important:** This agent is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 -   **[Upload, validate, and import the OT device inventory spreadsheet](../task/upload-import-validate-ot-device-inventory-spreadsheet.md)**  
 Chat with an AI agent in the Now Assist panel to begin the process for uploading, validating, and importing your Operational Technology \(OT\) device data into the OT CMDB.

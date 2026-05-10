@@ -39,15 +39,15 @@ In the Splunk Enterprise console, you set an alert to trigger that is based on i
 
 2.  Choose one to schedule how and when alerts are pulled from the Splunk Enterprise console.
 
-<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d194402e130">
+<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d194406e130">
 
 Option
 
-</th><th align="left" id="d194402e133">
+</th><th align="left" id="d194406e133">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d194402e139">
+</th></tr></thead><tbody><tr><td id="d194406e139">
 
 **-   On-going Alert field selected
 -   One-Time Retrieval field cleared
@@ -57,7 +57,7 @@ Description
 
 On-going AlertBased on the default setting, the ServiceNow AI Platform instance pulls from the Splunk Enterprise server for new alerts every five minutes. Security incidents are created if triggered alerts are found and filtering criteria are matched. To balance alert ingestion against server load, and to pull the most current data, five minutes is the setting you may prefer. However, this value can be modified as needed.
 
-</td></tr><tr><td id="d194402e166">
+</td></tr><tr><td id="d194406e166">
 
 **-   On-going alert field cleared
 -   One-Time Retrieval field selected

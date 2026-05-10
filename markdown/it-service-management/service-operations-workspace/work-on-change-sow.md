@@ -36,15 +36,15 @@ Role required: itil
 
 4.  Perform any of the following actions on the change record page.
 
-<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d306992e117">
+<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d307014e117">
 
 Option
 
-</th><th align="left" id="d306992e120">
+</th><th align="left" id="d307014e120">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d306992e126">
+</th></tr></thead><tbody><tr><td id="d307014e126">
 
 **Create change tasks for delegation**
 
@@ -52,7 +52,7 @@ Description
 
 In the **Overview** tab, select **Add Task**. For more information about creating a change task, see [Create a change task in Service Operations Workspace](create-change-task-sow.md).
 
-</td></tr><tr><td id="d306992e148">
+</td></tr><tr><td id="d307014e148">
 
 **Compose an email from the change**
 
@@ -60,7 +60,7 @@ In the **Overview** tab, select **Add Task**. For more information about creatin
 
 Select the more actions icon \(![more actions icon](../../itsm-workspace/image/more-actions-icon.png)\) and select **Compose Email**.
 
-</td></tr><tr><td id="d306992e166">
+</td></tr><tr><td id="d307014e166">
 
 **Create outage**
 
@@ -68,7 +68,7 @@ Select the more actions icon \(![more actions icon](../../itsm-workspace/image/m
 
 Select the more actions icon \(![more actions icon](../../itsm-workspace/image/more-actions-icon.png)\) and select **Create Outage**.
 
-</td></tr><tr><td id="d306992e184">
+</td></tr><tr><td id="d307014e184">
 
 **View dependencies**
 
@@ -76,7 +76,7 @@ Select the more actions icon \(![more actions icon](../../itsm-workspace/image/m
 
 View the entities associated with the CI that can be impacted as a result of the change request.In the **Impact** section of the **Details** tab, select the Configuration item dependency view icon \( ![configuration item dependency view icon](../../incident-management/image/dependency-icon-r.png) \) displayed in the **Configuration item**, **Service offering**, or **Service** field, as applicable. The unified dependency Configuration Management Database \(CMDB\) map is displayed in a new tab within the workspace view.
 
-</td></tr><tr><td id="d306992e227">
+</td></tr><tr><td id="d307014e227">
 
 **Refresh impacted Services on a change request form**
 
@@ -84,7 +84,7 @@ View the entities associated with the CI that can be impacted as a result of the
 
 Select the more actions icon \(![more actions icon](../../itsm-workspace/image/more-actions-icon.png)\) and select **Refresh Impacted Services**. For information about refreshing impacted services, see [Refresh impacted services and CIs for Change](../../change-management/task/refresh-impacted-services-cis.md).
 
-</td></tr><tr><td id="d306992e252">
+</td></tr><tr><td id="d307014e252">
 
 **Cancel the change**
 
@@ -92,7 +92,7 @@ Select the more actions icon \(![more actions icon](../../itsm-workspace/image/m
 
 Select the more actions icon \(![more actions icon](../../itsm-workspace/image/more-actions-icon.png)\) and select **Cancel**.
 
-</td></tr><tr><td id="d306992e270">
+</td></tr><tr><td id="d307014e270">
 
 **Delete the change**
 
@@ -100,7 +100,7 @@ Select the more actions icon \(![more actions icon](../../itsm-workspace/image/m
 
 Select the more actions icon \(![more actions icon](../../itsm-workspace/image/more-actions-icon.png)\) and select select **Delete**.
 
-</td></tr><tr><td id="d306992e288">
+</td></tr><tr><td id="d307014e288">
 
 **Copy the record page URL to easily access the record**
 
@@ -108,7 +108,7 @@ Select the more actions icon \(![more actions icon](../../itsm-workspace/image/m
 
 Select the more actions icon \(![more actions icon](../../itsm-workspace/image/more-actions-icon.png)\) and select **Copy URL**.
 
-</td></tr><tr><td id="d306992e306">
+</td></tr><tr><td id="d307014e306">
 
 **View the record information such as SLAs**
 
@@ -116,7 +116,7 @@ Select the more actions icon \(![more actions icon](../../itsm-workspace/image/m
 
 From the contextual side panel, select the record Information icon \(![record Information icon](../image/record-info-icon.png)\).
 
-</td></tr><tr><td id="d306992e321">
+</td></tr><tr><td id="d307014e321">
 
 **Attach a record that helps in quick resolution of the change**
 
@@ -126,7 +126,7 @@ From the contextual side panel, select the record Information icon \(![record In
 2.  Search for a resource and perform the required action, for example, link the change to an incident.
 
 
-</td></tr><tr><td id="d306992e346">
+</td></tr><tr><td id="d307014e346">
 
 **Collaborate using Microsoft Teams**
 
@@ -134,7 +134,7 @@ From the contextual side panel, select the record Information icon \(![record In
 
 From the contextual side panel, select the collaborate icon \(![collaborate icon](../image/collaborate-sidebar.png)\).
 
-</td></tr><tr><td id="d306992e364">
+</td></tr><tr><td id="d307014e364">
 
 **Add attachments**
 
@@ -142,7 +142,7 @@ From the contextual side panel, select the collaborate icon \(![collaborate icon
 
 From the contextual side panel, select the attachments icon \(![attachments icon](../../itsm-workspace/image/attachment-icon.png)\).**Note:** The added attachments are displayed in the activity stream in the **Compose** section.
 
-</td></tr><tr><td id="d306992e385">
+</td></tr><tr><td id="d307014e385">
 
 **Create templates for reuse**
 
@@ -150,7 +150,7 @@ From the contextual side panel, select the attachments icon \(![attachments icon
 
 From the contextual side panel, select the templates icon \(![templates icon](../image/template-icon.png)\) and create a template or reuse an existing one.
 
-</td></tr><tr><td id="d306992e400">
+</td></tr><tr><td id="d307014e400">
 
 **Approve the change**
 
@@ -158,7 +158,7 @@ From the contextual side panel, select the templates icon \(![templates icon](..
 
 Select **Related records** tab, select **Approvers**.
 
-</td></tr><tr><td id="d306992e418">
+</td></tr><tr><td id="d307014e418">
 
 **Implement the change**
 
@@ -166,7 +166,7 @@ Select **Related records** tab, select **Approvers**.
 
 Select  **Implement**  to put the change request into action. The change request state changes to  **Implement**. The workflow creates two change tasks: **Implement**  and  **Post-implementation testing**. Review the change tasks and assign them to a user or group, as appropriate.
 
-</td></tr><tr><td id="d306992e442">
+</td></tr><tr><td id="d307014e442">
 
 **Review a change request**
 
@@ -176,7 +176,7 @@ Select  **Review**  after reviewing the details on the change request.
 
  The change request is moved to the  **Review**  state. All open change tasks are set to  **Canceled**.
 
-</td></tr><tr><td id="d306992e467">
+</td></tr><tr><td id="d307014e467">
 
 **Close a change request**
 

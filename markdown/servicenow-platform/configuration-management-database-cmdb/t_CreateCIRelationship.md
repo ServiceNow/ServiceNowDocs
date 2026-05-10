@@ -28,7 +28,7 @@ Role required:
 
     -   If inactive \(default\): sn\_cmdb\_editor, asset, or itil
     -   If active: sn\_cmdb\_editor, asset, or itil, and snc\_platform\_rest\_api\_access
-    For more information, see [CI relationship security](../concept/c_CIRelationshipSecurity.md), REST API, and Table API.
+    For more information, see [CI relationship security](../concept/c_CIRelationshipSecurity.md), [REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md), and [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_TableAPI.md).
 
 
 ## About this task

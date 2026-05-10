@@ -17,7 +17,7 @@ Set the conditions and decision rules for project oversight of order lines and a
 
 For example, in the Project Oversight Management for Order Line Item form, you use the decision table to add or change condition columns. You also specify the decision rules, including the project template, to be applied.
 
-For more information on adding or changing conditions in decision tables, see Decision Builder user interface.
+For more information on adding or changing conditions in decision tables, see [Decision Builder user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/decision-builder-user-interface.md).
 
 **Note:** If Order Management demo data is installed, the decision table for each project oversight form displays the condition columns and the decision rows added for demo data. You can add, change, or delete the condition columns and decision rows as needed.
 

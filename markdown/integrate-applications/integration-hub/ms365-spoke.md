@@ -63,7 +63,7 @@ The Microsoft Dynamics 365 spoke provides actions to automate Microsoft Dynamics
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see Set up Microsoft Dynamics 365 and Set up Microsoft Azure Active Directory.
+For information about setting up the spoke, see [Set up Microsoft Dynamics 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrating-with-microsoft365.md) and [Set up Microsoft Azure Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrating-with-microsoft365.md).
 
 This spoke requires the Integration Hub subscription. For details, see [Request Integration Hub](../../flow-designer/concept/request-ih-overview.md)
 
@@ -101,5 +101,5 @@ The Microsoft Dynamics 365 spoke provides actions to automate Microsoft 365 task
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see Set up Microsoft Dynamics 365.
+For information about setting up the spoke, see [Set up Microsoft Dynamics 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrating-with-microsoft365.md).
 

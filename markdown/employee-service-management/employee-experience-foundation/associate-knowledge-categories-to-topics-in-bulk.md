@@ -55,5 +55,5 @@ For more information, see [Taxonomy and connected content](../concept/track-new-
 
 [Taxonomy and connected content](../concept/track-new-content.md)
 
-[bundle-platcap.t_DefineAKnowledgeCategory]
+[Define a knowledge article category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_DefineAKnowledgeCategory.md)
 

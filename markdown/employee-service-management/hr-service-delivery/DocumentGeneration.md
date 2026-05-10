@@ -38,7 +38,7 @@ The document is made available for the subject person to sign. Only after the si
 
 Documents like offer letters can require multiple signatures. When all signatures are collected, the document is automatically generated.
 
-**Note:** For more information on setting this feature up, please see Advanced form configuration and [Advanced Forms Management in HR Service Delivery](https://community.servicenow.com/community?id=community_article&sys_id=a1676d67dba71410b1b102d5ca961941).
+**Note:** For more information on setting this feature up, please see [Advanced form configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/advanced-form-administration.md) and [Advanced Forms Management in HR Service Delivery](https://community.servicenow.com/community?id=community_article&sys_id=a1676d67dba71410b1b102d5ca961941).
 
 ## Preview, Sign, or Save
 

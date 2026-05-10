@@ -54,7 +54,7 @@ You can configure the Advanced filter to hide or show the Now Assist Context Men
 
     **Note:** The risk explanation that is presented in the dialogue box is assessed and calculated on the change request form.
 
-    For more information about risk assessment and calculation, see Risk assessment.
+    For more information about risk assessment and calculation, see [Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_RskAsmtCalc.md).
 
 -   **Content editing in Knowledge Base articles using the Now Assist content menu**
 
@@ -72,7 +72,7 @@ You can configure the Advanced filter to hide or show the Now Assist Context Men
 
     ![Insert the AI generated text into the Knowledge Base article.](../images/insert-nacm-ai-text.png)
 
-    For more information about generating Knowledge Base articles using the Now Assist context menu, see Edit an article using the Now Assist context menu.
+    For more information about generating Knowledge Base articles using the Now Assist context menu, see [Edit an article using the Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-using-context-menu.md).
 
 -   **Change Tone using Now Assist context menu**
 

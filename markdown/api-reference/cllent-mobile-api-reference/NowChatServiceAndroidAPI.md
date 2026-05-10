@@ -127,7 +127,7 @@ Map&lt;String, Any&gt;
 
 </td><td>
 
-Optional. Additional chat context variables to pass into the chat session.For additional information on chat context variables, see Live agent chat context variables.
+Optional. Additional chat context variables to pass into the chat session.For additional information on chat context variables, see [Live agent chat context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/live-agent-chat-context-vars.md).
 
 </td></tr><tr><td>
 

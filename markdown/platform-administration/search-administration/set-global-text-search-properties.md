@@ -44,7 +44,7 @@ Option to enable global search in Core UI and UI15.-   Type: Boolean
 -   Supported values:
     -   **true**: Global search is enabled in Core UI.
     -   **false**: Global search is disabled in Core UI.
-**Note:** When Next Experience is enabled, this system property has no effect. To enable or disable the Unified Navigation search field in Next Experience, set the **glide.ui.polaris.global\_search** system property described in Next Experience system properties.
+**Note:** When Next Experience is enabled, this system property has no effect. To enable or disable the Unified Navigation search field in Next Experience, set the **glide.ui.polaris.global\_search** system property described in [Next Experience system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/pol-sys-properties.md).
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ Background color for Catalog global text search results. This property only affe
 
 </td><td>
 
-Name of the form view that global text search uses to display exact match results. If no value is specified, global text search uses the default form view. For information on creating and managing views, see View management.
+Name of the form view that global text search uses to display exact match results. If no value is specified, global text search uses the default form view. For information on creating and managing views, see [View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-management-overview.md).
 
 -   Type: String
 -   Default value: \(empty\)
@@ -114,7 +114,7 @@ Name of the form view that global text search uses to display exact match result
 
 </td><td>
 
-Name of the list view that global text search uses to format results for each searched table. If no value is specified, global text search uses the default list view. For information on creating and managing views, see View management.
+Name of the list view that global text search uses to format results for each searched table. If no value is specified, global text search uses the default list view. For information on creating and managing views, see [View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-management-overview.md).
 
 -   Type: String
 -   Default value: **text\_search**

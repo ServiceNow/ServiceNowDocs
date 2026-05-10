@@ -35,7 +35,7 @@ You can manage and create demands for services or service offerings that you own
 
 4.  On the form, fill in the fields.
 
-    For more details on demand entries, see Create a demand.
+    For more details on demand entries, see [Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md).
 
     |Field Set|Description|
     |---------|-----------|

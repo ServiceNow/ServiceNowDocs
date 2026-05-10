@@ -21,11 +21,11 @@ You must opt-in to the ServiceNow® Benchmarks application.
 
 Role required: pa\_data\_collector, pa\_power\_user, admin
 
-**Note:** If you have the sn\_bm\_client.benchmark\_admin role, you can link Performance Analytics indicators to benchmark indicators through the Benchmarks Setup interface. For instructions about linking indicators through that interface, see Link or customize a benchmark KPI.
+**Note:** If you have the sn\_bm\_client.benchmark\_admin role, you can link Performance Analytics indicators to benchmark indicators through the Benchmarks Setup interface. For instructions about linking indicators through that interface, see [Link or customize a benchmark KPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/t_CustomBenchKPIConditions.md).
 
 ## About this task
 
-Used together, benchmarking and Performance Analytics enables you to measure your enterprise ITSM and ITOM against industry standards while driving improvements across all important metrics. For more information, see Benchmarks.
+Used together, benchmarking and Performance Analytics enables you to measure your enterprise ITSM and ITOM against industry standards while driving improvements across all important metrics. For more information, see [Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/benchmarks-landing.md).
 
 ## Procedure
 

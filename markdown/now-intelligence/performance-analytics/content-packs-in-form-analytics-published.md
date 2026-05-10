@@ -19,7 +19,7 @@ Prepackaged solutions featuring Platform Analytics dashboards with data visualiz
 
 ## Performance Analytics in your solutions
 
-Platform Analytics data visualizations use Performance Analytics indicator data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
+Platform Analytics data visualizations use Performance Analytics [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
 
 Platform Analytics Solutions provide all the configuration records required to analyze default applications. Customize these records for use in your production environment. For more information, see .
 

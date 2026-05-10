@@ -62,7 +62,7 @@ Provides Employee Center.
 
     To use Agent Workspace and Playbook with Lifecycle Events, you must request the Playbook plugin from the ServiceNow Store.
 
-    **Note:** For more information on requesting a ServiceNow Store plugin, see Install a ServiceNow Store application.
+    **Note:** For more information on requesting a ServiceNow Store plugin, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
 
 
 ## Procedure

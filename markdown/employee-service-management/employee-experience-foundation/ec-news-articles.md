@@ -115,7 +115,7 @@ For more information, see [Content templates](ec-content-templates.md).
 
 ## Customizing the News experience
 
-The News and Event and Article Detail pages support other Content Publishing widgets. For example, you can configure the News and Event page to display upcoming events. For information on configuring the portal pages, see Creating portal pages.
+The News and Event and Article Detail pages support other Content Publishing widgets. For example, you can configure the News and Event page to display upcoming events. For information on configuring the portal pages, see [Creating portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_Pages.md).
 
 To set a limit for the number of articles displayed in the News widget or to select different pages for the News and Event or Article display, see the News section of [Properties installed with Content Publishing](../reference/properties-with-content-delivery.md).
 

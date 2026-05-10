@@ -27,7 +27,7 @@ The JDBC activity template allows you to execute ANSI SQL statements or stored p
 
 ## Procedure
 
-1.  Create or verify your JDBC credential.
+1.  Create or verify your [JDBC credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_JDBCCredentialsForm.md).
 
     Your JDBC credentials must have permission for the target database and proper configuration for the corresponding JDBC connection. Credentials must be set up before you can create a JDBC activity.
 
@@ -157,7 +157,7 @@ Role required: activity\_admin, activity\_creator
 
 ### About this task
 
-JDBC credentials JDBC credentials are retrieved separately by the activity designer template and support external credential storage, such as CyberArk.
+[JDBC credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_JDBCCredentialsForm.md) [JDBC credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_JDBCCredentialsForm.md) are retrieved separately by the activity designer template and support external credential storage, such as [CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CyberArkCredStorageIntegrate.md).
 
 ### Procedure
 
@@ -360,7 +360,7 @@ The JDBC driver to use for this connection when it is not a default database. **
 **Related topics**  
 
 
-[bundle-psec.r_JDBCCredentialsForm]
+[JDBC credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_JDBCCredentialsForm.md)
 
 ## Auto-map JDBC activity output variables
 
@@ -416,7 +416,7 @@ There is support of multiple data types, with the following limitations:
 -   ResultSet is the first result set coming back from database server.
 -   MS-SQL does not support INOUT parameters. If you use INOUT parameters, the Activity Template transparently maps them to OUT parameters.
 
-**Note:** If you do not want to do a validation of data types in stored procedure parameters, like the legacy behavior, you set the glide.stored\_proc.data\_type.validation as false. See MID Server properties for more information.
+**Note:** If you do not want to do a validation of data types in stored procedure parameters, like the legacy behavior, you set the glide.stored\_proc.data\_type.validation as false. See [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md) for more information.
 
 <table id="table_vry_jqc_cz"><thead><tr><th>
 

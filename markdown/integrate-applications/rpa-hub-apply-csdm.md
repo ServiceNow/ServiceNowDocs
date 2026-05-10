@@ -23,7 +23,7 @@ CSDM is the data model standard for all products that use the Configuration Mana
 -   The CSDM data model supports multiple configuration strategies and includes guidelines for using base-system tables and relationships.
 -   You can use the CMDB query builder to create reports showing CMDB configuration items \(CIs\) and their relationships.
 
-For more information about the CSDM, see Common Service Data Model.
+For more information about the CSDM, see [Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md).
 
-For more information about implementing the CSDM framework in stages, see Implementing the CSDM framework in stages.
+For more information about implementing the CSDM framework in stages, see [Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md).
 

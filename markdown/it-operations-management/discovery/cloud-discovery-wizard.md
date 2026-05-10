@@ -81,7 +81,7 @@ ITOM Visibility supports several methods for cloud discovery, depending on the l
     -   Doesn't require OS credentials or MID Server firewall access
     -   Works with AWS, Azure, and GCP
     -   Supports continuous visibility for AWS
-    For more information, see Integrating third-party data into CMDB.
+    For more information, see [Integrating third-party data into CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-third-party-integrations.md).
 
 
 Each method has its own requirements and supports different use cases, depending on the cloud provider. For more information, see:

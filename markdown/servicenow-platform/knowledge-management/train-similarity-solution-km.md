@@ -31,7 +31,7 @@ Role required: admin
 
 3.  On the Similarity Definition form, verify the default field values for knowledge articles.
 
-    For more information about the Similarity Definition form fields, see Create and train a similarity solution.
+    For more information about the Similarity Definition form fields, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md).
 
     **Note:** If the application scope isn't set to Knowledge Management - Machine Learning, you cannot edit the form and a warning message appears. To make the form editable, click the word **here** at the end of the message.
 
@@ -49,11 +49,11 @@ Role required: admin
 
     2.  Review the similarity examples by clicking the **Similarity Examples** related link on the ML Solution form.
 
-        For more information, see Review solution similarity examples.
+        For more information, see [Review solution similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/review-similarity-examples.md).
 
     3.  In the Solution Statistics related list on the ML Solution form, enter the required value in the **Similarity Score Threshold** field, right-click the ML Solution form, and then click **Save**.
 
-        For more information, see Update your similarity score threshold.
+        For more information, see [Update your similarity score threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/update-similarity-threshold.md).
 
 
 ## Result

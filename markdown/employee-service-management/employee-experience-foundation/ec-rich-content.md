@@ -64,7 +64,7 @@ The Rich Content Editor supports many operating system and text formatting short
 
 With the **Rich Content Editor**, you can easily use your **keyboard** to select individual canvas components. You can add text and columns, create text sections within those columns, and update headings within each section to adjust the styling and fonts to your liking; it helps you customize your content in a simple and convenient way.
 
-See Next Experience keyboard shortcuts for additional information.
+See [Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-keyboard-shortcuts.md) for additional information.
 
 ## Searching for Rich content
 

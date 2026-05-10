@@ -94,7 +94,7 @@ See the [Commercial downloads for the Emergency Response Management and Safe Wor
 
 6.  Control access to the application by creating a group and assigning roles to the group or individual users.
 
-    For more information, see Roles.
+    For more information, see [Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
 
 
 -   **[Components installed with Emergency Exposure Management](../reference/emergency-exposure-installed-with.md)**  

@@ -207,6 +207,6 @@ Business rules now perform ongoing alignment of life-cycle data as described in 
 
 After the data has migrated successfully, you can start managing data following the CSDM model:
 
-1.  Activate the CSDM Activation \(com.snc.cmdb.csdm.activation\) plugin.
+1.  [Activate the CSDM Activation \(com.snc.cmdb.csdm.activation\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 2.  Use the [CMDB Data Manager](cmdb-data-management.md) to centrally govern the life cycle of CIs in bulk and in a standard and consistent way.
 

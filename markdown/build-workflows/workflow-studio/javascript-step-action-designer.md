@@ -19,7 +19,7 @@ Add custom JavaScript to execute within a reusable action. While most core actio
 
 Available as an Workflow Studio action step. Users with the action\_designer role can create a custom action with one or more action steps.
 
-**Note:** Integration Hub See Request Integration Hub for information about Integration Hub usage and subscriptions.
+**Note:** Integration Hub See [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md) for information about Integration Hub usage and subscriptions.
 
 ## Fields
 
@@ -42,10 +42,10 @@ Required Runtime
 The runtime environment required to support the script. Choices include:
 
 -   **Instance**: The action step runs the script from instance. Select this option when the script needs access to the ServiceNow API or instance data. This is the default value.
--   **MID**: The action step runs the script from the MID Server. Select this option when the script needs access to MID Server script files and APIs. Selecting this option displays the **Select MID Server Using** field.
+-   **MID**: The action step runs the script from the MID Server. Select this option when the script needs access to [MID Server script files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-script-attach.md) and APIs. Selecting this option displays the **Select MID Server Using** field.
 -   **Vanilla \(Core JavaScript\)**: The action step runs the script from either the instance or MID Server. Select this option when the script only needs the core JavaScript APIs and not the ServiceNow API or instance data.
 
- The runtime you select determines the JavaScript objects and methods displayed in the Context-sensitive help.
+ The runtime you select determines the JavaScript objects and methods displayed in the [Context-sensitive help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptingAssistance.md).
 
  **Note:** This field is only visible when Integration Hub is activated.
 
@@ -69,7 +69,7 @@ Connection Alias
 
 </td><td>
 
-Connection &amp; Credential alias record that the system uses to run the action step. Users with the flow\_designer or admin role can create or select an associated Connection record. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using an action in multiple environments. Likewise, if the connection information changes, you don't need to update your custom action. To learn more about connections and credentials, see credentials, connections, and aliases. Only aliases of connection type Basic are supported.**Note:** This field is only visible when Integration Hub is activated, and you select **Use Connection Alias** from **Select MID Server Using**.
+Connection &amp; Credential alias record that the system uses to run the action step. Users with the flow\_designer or admin role can create or select an associated Connection record. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using an action in multiple environments. Likewise, if the connection information changes, you don't need to update your custom action. To learn more about connections and credentials, see [credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-connections-alias.md). Only aliases of connection type Basic are supported.**Note:** This field is only visible when Integration Hub is activated, and you select **Use Connection Alias** from **Select MID Server Using**.
 
 </td></tr><tr><td>
 
@@ -89,7 +89,7 @@ Option to select a specific MID Server or MID Cluster. Choose any one of the fol
 -   **Specific MID Server**: Your ServiceNow instance uses MID Server that you specify.
 -   **Specific MID Cluster**: Your ServiceNow instance uses the MID Cluster that you specify.
 
-A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see Configure a MID Server cluster.
+A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md).
 
 
  This field is available when **MID** is selected from the Required Runtime list, and **Use Inline Selection** is selected from the Select MID Server Using list.
@@ -167,7 +167,7 @@ In general, don't create a variable that has the same name as a system field. Th
 
  Workflow Studio runs script from the domain from which it is triggered or initiated. See [Domain separation and Workflow Studio](../concept/flow-designer-domain-separation.md).
 
- For available classes and methods, see the JavaScript API context-sensitive help or the API reference.
+ For available classes and methods, see the [JavaScript API context-sensitive help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptingAssistance.md) or the [API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-reference.md).
 
 </td></tr><tr><td>
 

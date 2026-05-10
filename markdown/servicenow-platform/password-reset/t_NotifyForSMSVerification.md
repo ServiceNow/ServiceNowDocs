@@ -41,5 +41,5 @@ No other configuration is required. Users who request password change or passwor
 **Related topics**  
 
 
-[bundle-platadm.t_ActivateAPlugin]
+[Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md)
 

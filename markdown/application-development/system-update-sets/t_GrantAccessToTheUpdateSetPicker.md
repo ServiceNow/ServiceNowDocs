@@ -29,7 +29,7 @@ The update set picker appears when selecting the globe icon. The picker enables 
 
 1.  Grant the user role read access to the sys\_update\_set table.
 
-    For more information, see Grant the user role read access.
+    For more information, see [Grant the user role read access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_CreateAnACLRule.md).
 
 2.  Enable access to the update set picker when selecting the globe icon.
 
@@ -37,7 +37,7 @@ The update set picker appears when selecting the globe icon. The picker enables 
 
     2.  Set the value of glide.ui.update\_set\_picker.role to the role that you want to grant access to.
 
-    See Add a system property and [Update sets properties](../reference/update-sets-properties.md) for more information.
+    See [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) and [Update sets properties](../reference/update-sets-properties.md) for more information.
 
 
 **Parent Topic:**[Configuring System Update Sets](../concept/configure-system-update-sets.md)

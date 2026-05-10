@@ -27,7 +27,7 @@ Virtual Agent for Field Service Management enhances the agent experience by addr
 
 Implement Natural Language Understanding \(NLU\) for all your Field Service Virtual Agent Conversations topics. The system can more clearly comprehend word meanings and recognize word contexts to better infer user actions.
 
-Enable NLU on the Field Service Virtual Agent Conversations application and republish your existing conversation topics to optimize the user experience with this feature. For more information, see Natural Language Understanding in Virtual Agent.
+Enable NLU on the Field Service Virtual Agent Conversations application and republish your existing conversation topics to optimize the user experience with this feature. For more information, see [Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-NLU.md).
 
 **Related topics**  
 

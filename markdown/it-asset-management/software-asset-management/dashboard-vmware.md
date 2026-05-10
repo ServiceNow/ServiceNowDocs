@@ -25,7 +25,7 @@ The dashboard is updated whenever a new reconciliation result is available. You 
 
 Information from VMware vCenter software is discovered and used for VMware reconciliation. Discovery uses these probes and populates these tables:
 
--   vCenter probe VMware — vCenter ESX Hosts License
+-   [vCenter probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/vcenter-probes.md) VMware — vCenter ESX Hosts License
 -   VMware Discovered License Key \[samp\_vmware\_license\_key\] and VMware Discovered License Key Consumption \[samp\_vmware\_license\_key\_usage\] tables
 
 **Note:** The add-on VMware publisher pack \(com.sn\_samp\_vmware\) plugin must be installed to view the VMware dashboard tab.

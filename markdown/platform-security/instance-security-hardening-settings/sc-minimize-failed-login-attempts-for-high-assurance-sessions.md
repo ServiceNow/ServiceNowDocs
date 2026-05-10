@@ -35,7 +35,7 @@ Set the value of this system property to a low value \(such as 5\) to decrease t
 |Fallback value|5|
 |Recommended value|5|
 
-To learn more about adding or creating a system property, see Add a system property.
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Parent Topic:**[Authentication](sc-authentication.md)
 

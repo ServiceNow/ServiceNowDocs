@@ -4,7 +4,7 @@ description: You can install the Billing Account application \(com.snc.billing\_
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Configuring billing accounts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---

@@ -31,7 +31,7 @@ The ServiceNow AI Platform stores time values in Universal Coordinated Time. Tim
 
     By default, the field is empty. If you have not defined a time zone for this property, America/Los Angeles is the default.
 
-    For more information on setting the default time, see Configure Next Experience language and region preferences.
+    For more information on setting the default time, see [Configure Next Experience language and region preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-language-preferences.md).
 
 3.  Add a time zone in the format Country/City or using the name of a time zone \(for example, GMT\) and select **Save**.
 

@@ -37,7 +37,7 @@ Conflicts occur when there are multiple change versions of the same application 
 
 4.  Select how to resolve the conflict.
 
-<table id="choicetable_pqx_jdv_lv"><tbody><tr><td id="d215900e106">
+<table id="choicetable_pqx_jdv_lv"><tbody><tr><td id="d215912e106">
 
 **Select an action**
 
@@ -45,7 +45,7 @@ Conflicts occur when there are multiple change versions of the same application 
 
 Apply or discard all stashed changes. Go to step 3.
 
-</td></tr><tr><td id="d215900e115">
+</td></tr><tr><td id="d215912e115">
 
 **Manually merge changes**
 
@@ -56,7 +56,7 @@ Individually select which changes to apply. Go to step 6.
 </td></tr></tbody>
 </table>5.  If you want to apply or discard all stashed changes, select an **Action**.
 
-<table id="choicetable_wln_1bv_lv"><tbody><tr><td id="d215900e136">
+<table id="choicetable_wln_1bv_lv"><tbody><tr><td id="d215912e136">
 
 **Take Stashed Changes**
 
@@ -64,7 +64,7 @@ Individually select which changes to apply. Go to step 6.
 
 Applies the application file version from the stashed changes.
 
-</td></tr><tr><td id="d215900e145">
+</td></tr><tr><td id="d215912e145">
 
 **Discard Stashed Changes**
 

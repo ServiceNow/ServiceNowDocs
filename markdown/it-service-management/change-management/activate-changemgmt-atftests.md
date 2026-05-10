@@ -85,5 +85,5 @@ Change Management - ATF Tests \(com.snc.change\_management.atf\) loads ATF tests
 
 [Activate Change Management - Data Archiving](activate-data-retention-archive-rule.md)
 
-[bundle-platadm.list-of-plugins]
+[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

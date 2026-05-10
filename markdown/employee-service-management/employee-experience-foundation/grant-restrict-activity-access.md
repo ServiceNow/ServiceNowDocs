@@ -33,15 +33,15 @@ In the My active items widget, the activity that a user does not have access to 
 
 3.  Click the **Activity Access** tab.
 
-<table id="choicetable_bpj_pmm_1rb"><thead><tr><th align="left" id="d719750e83">
+<table id="choicetable_bpj_pmm_1rb"><thead><tr><th align="left" id="d719754e83">
 
 To
 
-</th><th align="left" id="d719750e86">
+</th><th align="left" id="d719754e86">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d719750e92">
+</th></tr></thead><tbody><tr><td id="d719754e92">
 
 **Add a new user criteria**
 
@@ -52,7 +52,7 @@ Do this
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d719750e127">
+</td></tr><tr><td id="d719754e127">
 
 **Edit an existing user criteria**
 

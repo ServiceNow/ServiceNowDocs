@@ -31,7 +31,7 @@ Configure the icon information using the Menu Items related list.
 |Parent menu Item|Nest menu items within a parent menu.|
 |Page|The page within Service Portal that the icon links to. Select **Page** from the Type list to enable this option.|
 |Type|Select the type of link you want the icon to have. You can link to pages within Service Portal, external URLs, KB articles, Service Catalog, or lists. Different fields will appear on the form depending on the option you select from the list.|
-|Condition|Determines what conditions are required for menu items to show in the header. For more information on what conditions to use in the **Condition** field, see Create a UI Action Create a UI action.|
+|Condition|Determines what conditions are required for menu items to show in the header. For more information on what conditions to use in the **Condition** field, see [Create a UI Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md) [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md).|
 |Glyph|Icon that you want to display in the icon menu list widget.|
 
 **Parent Topic:**[Example widgets](sp-example-widgets.md)

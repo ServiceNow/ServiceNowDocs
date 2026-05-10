@@ -23,7 +23,7 @@ Developers define this metadata in a few lines of code instead of through a form
 
 ServiceNow Fluent supports two-way synchronization, which allows changes to metadata to be synced from other ServiceNow AI Platform user interfaces into source code and changes to source code to be synced back to metadata across the instance.
 
-To get started using the ServiceNow IDE or ServiceNow SDK, see the ServiceNow IDE or ServiceNow SDK documentation.
+To get started using the ServiceNow IDE or ServiceNow SDK, see the [ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-landing.md) or [ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-sdk-landing.md) documentation.
 
 ## ServiceNow Fluent APIs
 
@@ -121,9 +121,9 @@ After building the application, this source code generates the following applica
 **Related topics**  
 
 
-[bundle-cadev.servicenow-fluent-api-reference]
+[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
 
-[bundle-cadev.define-metadata-code-fluent-ide]
+[Define application metadata in code with ServiceNow Fluent in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/define-metadata-code-fluent-ide.md)
 
-[bundle-cadev.define-metadata-code-fluent-sdk]
+[Define application metadata in code with ServiceNow Fluent and the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/define-metadata-code-fluent-sdk.md)
 

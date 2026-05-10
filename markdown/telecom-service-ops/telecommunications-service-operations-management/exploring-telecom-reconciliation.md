@@ -53,7 +53,7 @@ CMDB Compliance is a toolset that enables administrators to certify CMDB data fo
 -   CMDB Compliance runs audits as a post-processing rule, identifying anomalies \(discrepancies\) in the CMDB.
 -   CMDB Compliance creates a Follow-On Task for each Audit Record in a failed state \(the failed state is the result of an audit finding an anomaly or discrepancy in the CMDB\). A remediation flow can be designed and triggered for each Follow-On Task to address and resolve the discrepancy.
 
-The logic for Telecom Discrepancy Identification &amp; Reconciliation, as well as the example remediation subflows, are automatically with the TSOM Visibility plugin. For more information on the general CMDB Compliance toolset, see CMDB Compliance.
+The logic for Telecom Discrepancy Identification &amp; Reconciliation, as well as the example remediation subflows, are automatically with the TSOM Visibility plugin. For more information on the general CMDB Compliance toolset, see [CMDB Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_Compliance.md).
 
 ## Discrepancy Identification Scenarios \(using Compliance Audits\)
 
@@ -73,7 +73,7 @@ You can use the following audits to identify the discrepancies in the discovered
 -   Telecom Logical Connections Discrepancy Audit
 -   Telecom Network Topology Discrepancy Audit
 
-**Note:** For more information on the general compliance audits, see Certification audits.
+**Note:** For more information on the general compliance audits, see [Certification audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CertificationAudits.md).
 
 ## Automation and UI Integration
 
@@ -82,7 +82,7 @@ You can use the following audits to identify the discrepancies in the discovered
 -   Manual remediation can be initiated using a "Remediate" UI action button in the task form.
 -   Remediation steps are recorded in work notes for visibility and auditing.
 
-**Note:** For more information on how to build a subflow, see Building subflows.
+**Note:** For more information on how to build a subflow, see [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
 
 ## Follow-On Task types created for failed Audit Result Records
 

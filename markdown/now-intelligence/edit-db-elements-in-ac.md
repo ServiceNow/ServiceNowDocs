@@ -40,15 +40,15 @@ Role required: dashboard\_admin for all dashboards, or any role for dashboards t
 
 6.  Perform any of the following actions on the element.
 
-<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d89896e173">
+<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d89902e173">
 
 Action
 
-</th><th align="left" id="d89896e176">
+</th><th align="left" id="d89902e176">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d89896e182">
+</th></tr></thead><tbody><tr><td id="d89902e182">
 
 **Configure an element**
 
@@ -58,7 +58,7 @@ Focus on the element and select **Configure**. The configuration panel opens.Con
 
 **Note:** There are role and ownership requirements for editing a component that is shared from a library. If you aren’t allowed to edit an element, create a local version that is not linked to the library and edit that one. For more information, see [Edit a copy of a shared dashboard element](editing-local-copy-saved-dv.md).
 
-</td></tr><tr><td id="d89896e219">
+</td></tr><tr><td id="d89902e219">
 
 **Resize the element**
 
@@ -66,7 +66,7 @@ Focus on the element and select **Configure**. The configuration panel opens.Con
 
 Focus on the element. To increase its height, press **Resize**. To decrease its height, press Shift-**Resize**. To change its width or overall size, select a corner of the element and drag it.
 
-</td></tr><tr><td id="d89896e234">
+</td></tr><tr><td id="d89902e234">
 
 **Add an element to the Library**
 
@@ -83,7 +83,7 @@ Role required for data visualization: itil, report\_user, viz\_creator, or highe
 4.  Select **Add to library**.
 The data visualization is available in the Visualization library for use on other dashboards.
 
-</td></tr><tr><td id="d89896e280">
+</td></tr><tr><td id="d89902e280">
 
 **Delete an element from the dashboard**
 
@@ -96,7 +96,7 @@ The data visualization is available in the Visualization library for use on othe
 
  **Note:** There’s no confirmation message. The widget disappears from the dashboard.
 
-</td></tr><tr><td id="d89896e316">
+</td></tr><tr><td id="d89902e316">
 
 **Move an element between or above tabs**
 
@@ -110,7 +110,7 @@ When you have multiple tabs, you can move elements from tab to another or to the
 3.  When you choose **Move to a different tab**, choose the tab and select **Move**.
 
 
-</td></tr><tr><td id="d89896e359">
+</td></tr><tr><td id="d89902e359">
 
 **Configure a data visualization to follow or not follow filters**
 
@@ -118,7 +118,7 @@ When you have multiple tabs, you can move elements from tab to another or to the
 
 Data visualizations follow filters by default. A data visualization follows filters in the same tab as itself or above the tabs. Data visualizations either follow all such tabs that target their data sources, or none.For configuration instructions, see [Configure a data visualization to follow filters or not](../../par-for-workspace/task/configure-dv-follow-filters-or-not.md).
 
-</td></tr><tr><td id="d89896e377">
+</td></tr><tr><td id="d89902e377">
 
 **Set drilldown options**
 

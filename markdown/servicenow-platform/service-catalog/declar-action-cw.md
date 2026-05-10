@@ -250,7 +250,7 @@ The button type specified by the declarative action is overridden.
 
 8.  Use the **Configure declarative actions event mappings** action on the **Config** tab of UI Builder.
 
-    Configure declarative actions event mappings is applicable only to UXF Client Action type of declarative action. Create a page level event handler, then map the declarative action to the page level event handler and specify the payload. For more information on binding events to declarative actions in UI Builder, see Bind an event to a declarative action.
+    Configure declarative actions event mappings is applicable only to UXF Client Action type of declarative action. Create a page level event handler, then map the declarative action to the page level event handler and specify the payload. For more information on binding events to declarative actions in UI Builder, see [Bind an event to a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/bind-event-declarative-action.md).
 
 
 **Parent Topic:**[Creating a Service Catalog Wizard](catalog-wizard.md)

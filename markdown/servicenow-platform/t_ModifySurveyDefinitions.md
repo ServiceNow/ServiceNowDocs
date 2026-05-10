@@ -113,7 +113,7 @@ Assessment duration
 
 </td><td>
 
-The length of time to complete assigned survey instances, starting from the time the survey instance is generated. The assessment duration sets the Due date for each survey instance. The default duration is 14 days. Configure the form to view this field.
+The length of time to complete assigned survey instances, starting from the time the survey instance is generated. The assessment duration sets the Due date for each survey instance. The default duration is 14 days. [Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) to view this field.
 
 </td></tr><tr><td>
 
@@ -278,7 +278,7 @@ Show Benchmarks
 Opens the Benchmarks Dashboard that provides visibility into your key performance indicators \(KPIs\) and trends.**Note:**
 
 -   This related link is available only for survey\_admin, assessment\_admin and survey\_reader with bm\_viewer role.
--   You must opt in to Benchmarks to view the dashboard. See Enable Benchmarks
+-   You must opt in to Benchmarks to view the dashboard. See [Enable Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/t_EnableBench.md)
 -   This is applicable only for a published survey.
 
 
@@ -377,5 +377,5 @@ Recipients lists that are added to the survey.
 
 [Publish a survey](t_PublishASurvey.md)
 
-[bundle-platadm.c_ScheduleEvents]
+[Event scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_ScheduleEvents.md)
 

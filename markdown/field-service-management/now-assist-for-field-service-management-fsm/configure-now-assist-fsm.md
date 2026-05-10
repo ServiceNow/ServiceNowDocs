@@ -21,7 +21,7 @@ Role required: wm\_admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for FSM. This console contains everything that you need to install the plugins and configure the generative AI skills. For more information, Overview tab in Now Assist Admin.
+Use the Now Assist Admin console to configure Now Assist for FSM. This console contains everything that you need to install the plugins and configure the generative AI skills. For more information, [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
 The following table lists the features and skills that you can access from the Now Assist Admin console.
 
@@ -37,7 +37,7 @@ The ServiceNow® large language model \(Now LLM Service\) is currently the only 
 
 1.  If necessary, install the Now Assist for FSM plugin \(sn\_fsm\_gen\_ai\).
 
-    For information about the installation process, see Install Now Assist plugins.
+    For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Features** tab of the Now Assist Admin console.
 
@@ -83,7 +83,7 @@ The ServiceNow® large language model \(Now LLM Service\) is currently the only 
 **Related topics**  
 
 
-[bundle-platai.configuring-now-assist]
+[Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
 
-[bundle-platai.configuring-na-landing]
+[Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
 

@@ -136,7 +136,7 @@ Uses an integration with the KINEXON SafeZone API to identify potentially expose
 
 This tracing system is not active by default. To use this tracing system for identifying potentially exposed employees, activate it and also configure the corresponding data source in Field Service Management.
 
-For more information, see Emergency Exposure Management for field service agents.
+For more information, see [Emergency Exposure Management for field service agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/monitoring-analytics-fsm.md).
 
 |Tracing system|Query|
 |--------------|-----|

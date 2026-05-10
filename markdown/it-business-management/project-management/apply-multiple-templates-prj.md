@@ -31,15 +31,15 @@ When applying a template to a project, the project state is set to the default s
 
 1.  Apply project template to an existing project from any of the following locations.
 
-<table id="choicetable_fl1_dqc_mlb"><thead><tr><th align="left" id="d274358e67">
+<table id="choicetable_fl1_dqc_mlb"><thead><tr><th align="left" id="d274362e67">
 
 Location
 
-</th><th align="left" id="d274358e70">
+</th><th align="left" id="d274362e70">
 
 Step
 
-</th></tr></thead><tbody><tr><td id="d274358e76">
+</th></tr></thead><tbody><tr><td id="d274362e76">
 
 **From Project form**
 
@@ -52,7 +52,7 @@ Step
     -   If there are tasks or subprojects, select the **Apply Template** related link.
 
 
-</td></tr><tr><td id="d274358e126">
+</td></tr><tr><td id="d274362e126">
 
 **From Planning Console**
 

@@ -23,7 +23,7 @@ System administrators can configure both email and SMS notifications using the f
 -   appointment.cancel
 -   appointment.reschedule
 
-These templates come included with the appointment booking plugin. You can customize them to meet specific requirements. For more information, see Create an email notification.
+These templates come included with the appointment booking plugin. You can customize them to meet specific requirements. For more information, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
 
 **Note:** Ensure to install Customer Experience plugin to configure SMS. For more information, see [Activate Field Service Management Customer Experience](../concept/Configuring-cust-exp.md#).
 

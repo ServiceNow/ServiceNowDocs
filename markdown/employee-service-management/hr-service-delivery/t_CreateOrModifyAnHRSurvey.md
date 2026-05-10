@@ -23,7 +23,7 @@ Role required: sn\_hr\_core.admin or sn\_hr\_core.manager
 
 For example, to create an HR survey to gauge the employee satisfaction of HR processes or services.
 
-The following steps describe how to work with survey questions in the Survey Definition form. You can also click **Survey Designer** to open the survey and its questions in the survey designer. When you save the survey, the survey definition is automatically added. See Survey designer.
+The following steps describe how to work with survey questions in the Survey Definition form. You can also click **Survey Designer** to open the survey and its questions in the survey designer. When you save the survey, the survey definition is automatically added. See [Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md).
 
 ## Procedure
 
@@ -33,7 +33,7 @@ The following steps describe how to work with survey questions in the Survey Def
 
 3.  Complete the form.
 
-    **Note:** Some fields were eliminated for HR. See Modify a survey definition for more information.
+    **Note:** Some fields were eliminated for HR. See [Modify a survey definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ModifySurveyDefinitions.md) for more information.
 
 4.  Click **Submit**.
 

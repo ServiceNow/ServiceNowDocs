@@ -46,7 +46,7 @@ You can do the following:
     -   Disconnect: Disconnect a sold product and its services after fulfillment. Specify the **Start date and time**, the **Reason for disconnection**, and select **Disconnect**.
     **Note:** These actions are available only for customer accounts.
 
-    You can perform these actions for multiple sold products from the View all list. For more details about these actions and the required conditions, see Customer Life Cycle Management Workflows.
+    You can perform these actions for multiple sold products from the View all list. For more details about these actions and the required conditions, see [Customer Life Cycle Management Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-life-cycle-management-workflows.md).
 
 
 ## Run diagnostics
@@ -67,5 +67,5 @@ You can configure variables such as tables, display fields, and query conditions
 **Related topics**  
 
 
-[bundle-csm.config-csm-ws-create-page-variant]
+[Creating pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-create-page-variant.md)
 

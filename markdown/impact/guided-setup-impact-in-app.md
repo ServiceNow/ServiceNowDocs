@@ -25,7 +25,7 @@ Role required: impact app admin, admin
 
 1.  Navigate to **All** &gt; **Impact** &gt; **Guided Setup**.
 
-    The Impact Guided Setup overview page displays with additional information about the setup process and Pre-checklist information. For general information, see Guided Setup.
+    The Impact Guided Setup overview page displays with additional information about the setup process and Pre-checklist information. For general information, see [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 2.  Select **Get Started**.
 

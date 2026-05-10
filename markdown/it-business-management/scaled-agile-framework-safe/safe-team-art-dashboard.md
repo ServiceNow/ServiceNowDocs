@@ -55,7 +55,7 @@ The Team Dashboard visualizations are segregated into the following tabs:
 -   Sprint Performance: Reports of Velocity History and Sprint Variance
 -   Team Members: List of all the members of the team
 
-    **Note:** For existing customers who upgrade to the latest version, the list of the team members appears in both the Work item progress and Team Members tabs but only one of these locations would display the accurate information. You can remove this widget from the Work item progress tab to avoid this issue. For more information on how to remove a widget, see Edit a responsive dashboard.
+    **Note:** For existing customers who upgrade to the latest version, the list of the team members appears in both the Work item progress and Team Members tabs but only one of these locations would display the accurate information. You can remove this widget from the Work item progress tab to avoid this issue. For more information on how to remove a widget, see [Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_EditADashboard.md).
 
 -   Cycle Time: Report of the story cycle for the team.
 -   Program Predictability: Report of the team's historical performance in meeting the PI objectives.
@@ -175,7 +175,7 @@ Analyze the way your team's velocity changes over time and compare the team's st
 
  Data displayed in this report is of the past 10 sprints with the earliest sprint on the left.
 
- **Note:** This report is not available by default. You can add it from Scrum custom charts to your dashboard. For more information, see Edit a responsive dashboard.
+ **Note:** This report is not available by default. You can add it from Scrum custom charts to your dashboard. For more information, see [Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_EditADashboard.md).
 
 </td></tr><tr><td>
 

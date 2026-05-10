@@ -41,7 +41,7 @@ Role required: sn\_uni\_task.emp\_form\_admin or sn\_uni\_task.emp\_form\_creato
 
 6.  To build the questions for your employee form, use the survey designer.
 
-    For more information on the question types, see Survey designer elements.
+    For more information on the question types, see [Survey designer elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesignerElements.md).
 
 7.  Click **Save and Publish**.
 

@@ -25,7 +25,7 @@ Use the Telecom Discovery Builder framework when you want to do the following:
 
 -   Deploy a new Service Graph Connector in a telecom environment and want to avoid building the ETL from scratch.
 -   Maintain schema-aligned consistency across multiple connectors and platform instances.
--   Discovery payloads and CI relationships compliant with TNI \(Telecommunications Network Inventory\). For more information, see Telecommunications Network Inventory.
+-   Discovery payloads and CI relationships compliant with TNI \(Telecommunications Network Inventory\). For more information, see [Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecom-network-inventory.md).
 -   Work within an SGC \(Service Graph Connector\) application scope and want to customize ETL behavior without modifying core logic.
 -   Benefit from predefined mappings, validated JSON schema support, and a UI-driven configuration interface.
 

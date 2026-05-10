@@ -19,7 +19,7 @@ ITOM Visibility discovers IBM WebSphere DataPower. The Discovery feature uses th
 
 Configure the following credentials before discovering the IBM WebSphere DataPower devices:
 
--   **SNMP credentials**
+-   **[SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md)**
 
     SNMP credentials are necessary for using the following SNMP queries:
 
@@ -35,7 +35,7 @@ Configure the following credentials before discovering the IBM WebSphere DataPow
         -   1.3.6.1.2.1.1.1
         -   1.3.6.1.2.1.1.5
         -   1.3.6.1.4.1.14685.3.1.11.1
--   **Applicative credentials**
+-   **[Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/applicative-creds.md)**
 
     Together with SNMP credentials, applicative credentials are required to discover DataPower application domains, otherwise known as logical CIs.
 

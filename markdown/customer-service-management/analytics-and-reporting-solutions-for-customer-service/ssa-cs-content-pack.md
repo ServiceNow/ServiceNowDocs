@@ -26,5 +26,5 @@ The following roles and tasks are associated with this Solution:
 
 [Configure the Platform Analytics Solution for Self-Service Analytics for Customer Service](../../performance-analytics/task/ssa-solution-config.md)
 
-[bundle-platcap.self-service-analytics]
+[Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/self-service-analytics.md)
 

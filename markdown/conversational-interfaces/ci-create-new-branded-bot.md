@@ -26,7 +26,7 @@ If you want to create a new branded bot, create an active user profile for each 
 
 ## Procedure
 
-1.  Create a user for the bot.
+1.  [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md) for the bot.
 
     Include an image \(avatar\) for your bot when you create the user. Also ensure that the user is active.
 

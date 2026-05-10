@@ -17,16 +17,16 @@ Use Now Assist to generate themes from your brand image or brand guidelines. Thi
 
 This feature requires:
 
--   Now Assist for Creator installed. See Install Now Assist for Creator
+-   Now Assist for Creator installed. See [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
 -   A theme creation workflow enabled in AI Agent Studio. See [Turn on theme creation workflow for use in the Now Assist panel](turn-on-theme-creation-workflow.md).
--   Now Assist panel turned on. See Activate the Now Assist panel standard chat.
+-   Now Assist panel turned on. See [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 Roles required:
 
 -   ui\_builder\_admin
 -   now\_assist\_panel\_user
 
-For information on granular roles, see Granular admin roles.
+For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
 
 ## Procedure
 

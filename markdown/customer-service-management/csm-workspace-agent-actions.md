@@ -13,10 +13,10 @@ breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Or
 
 Use features available on CSM Configurable Workspace forms to view fields with unsaved changes, edit the text in the record header field, and view special handling notes.
 
-For more information about working with forms, see the following topics in the Configurable Workspace UI documentation:
+For more information about working with forms, see the following topics in the [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md) documentation:
 
--   Administering forms for Configurable Workspace
--   Using forms in Configurable Workspace
+-   [Administering forms for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/administer-forms-configurable-workspace.md)
+-   [Using forms in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/using-forms-configurable-workspace.md)
 
 ## Visual field indicators for unsaved changes
 

@@ -4,7 +4,7 @@ description: The Partner Relationship Management application uses roles to provi
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 3
 breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---

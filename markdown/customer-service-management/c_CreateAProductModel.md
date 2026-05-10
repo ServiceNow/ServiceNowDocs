@@ -42,7 +42,7 @@ Product models provide customer service agents and customers with a common under
     -   **Software**
 4.  Fill in the fields for the selected product model as appropriate.
 
-    See Model form fields for field descriptions.
+    See [Model form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/r_ModelFormFields.md) for field descriptions.
 
 5.  Select **Submit**.
 

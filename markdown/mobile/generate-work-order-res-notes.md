@@ -16,7 +16,7 @@ Generate resolution notes in your Mobile app that summarize your work order task
 
 Agents can generate resolution notes for work order tasks that are assigned to them. The work order task must be in the **Work in Progress** state and contain at least 50 words to generate a summary.
 
-For more information on how to generate work resolution notes, see Generate work order task closure summaries in ServiceNow Agent.
+For more information on how to generate work resolution notes, see [Generate work order task closure summaries in ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/generate-close-now-assist-fsm.md).
 
 **Parent Topic:**[Using Now Assist for Mobile](using-now-assist-mobile.md)
 

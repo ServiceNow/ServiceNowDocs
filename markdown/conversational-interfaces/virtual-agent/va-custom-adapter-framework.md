@@ -39,7 +39,7 @@ You can use any channels that support conversational interfaces, such as Web Por
 
 With a conversational custom chat integration, you can manage and control how your end users' chat experience. The framework helps transform messages from a chat client to VACS, and VACS back to the chat client in a format that renders well on your chat interface.
 
-The transformation is carried out through a set of Workflow Studio scripts. If you want more information on how to use Workflow Studio, see Workflow Studio.
+The transformation is carried out through a set of Workflow Studio scripts. If you want more information on how to use Workflow Studio, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md).
 
 ## Basic integration using conversational custom chat integration framework
 

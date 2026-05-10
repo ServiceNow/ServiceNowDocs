@@ -43,7 +43,7 @@ As you build your decision tree, for example after adding a decision node or a p
 
     5.  Select the type of answer for your question.
 
-        For a description of the answer types, see Answer types for questions.
+        For a description of the answer types, see [Answer types for questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/type-of-answer.md).
 
     6.  Add more questions.
 
@@ -61,7 +61,7 @@ Steps
 
 </th></tr></thead><tbody><tr><td id="d108962e182">
 
-**Determine the next node displayed in a decision tree**
+**[Determine the next node displayed in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-path-in-gdb.md)**
 
 </td><td>
 
@@ -69,7 +69,7 @@ Configure a path to set the conditions for when the next question is displayed i
 
 </td></tr><tr><td id="d108962e193">
 
-**Add a follow-up set of questions or instructions in a decision tree**
+**[Add a follow-up set of questions or instructions in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-decision-node-in-gdb.md)**
 
 </td><td>
 
@@ -92,7 +92,7 @@ Configure a guidance node, which identifies the product recommendation displayed
 
 </td></tr><tr><td id="d108962e255">
 
-**Activate a decision tree**
+**[Activate a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-guided-decision-tree.md)**
 
 </td><td>
 

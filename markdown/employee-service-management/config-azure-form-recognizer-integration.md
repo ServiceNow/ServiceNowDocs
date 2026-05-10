@@ -51,15 +51,15 @@ When you add your credentials to connect to the Azure Form Recognizer service, y
 
 3.  Add your connection credentials and trained model to the Azure Form Recognizer validator service.
 
-<table id="choicetable_gy1_qhr_4sb"><thead><tr><th align="left" id="d685442e219">
+<table id="choicetable_gy1_qhr_4sb"><thead><tr><th align="left" id="d685446e219">
 
 Trained model
 
-</th><th align="left" id="d685442e222">
+</th><th align="left" id="d685446e222">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d685442e228">
+</th></tr></thead><tbody><tr><td id="d685446e228">
 
 **ServiceNow model**
 
@@ -78,7 +78,7 @@ Steps
 
 **Note:** Contact ServiceNow Customer Service and Support or your account management team for "Vaccination Status – Azure Integration setup support". ServiceNow Customer Service and Support and your account management team can complete the steps required to add the trained model with you. Model copy authorizations only last for an hour.
 
-</td></tr><tr><td id="d685442e324">
+</td></tr><tr><td id="d685446e324">
 
 **Customer-trained model**
 

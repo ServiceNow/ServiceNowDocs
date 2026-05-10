@@ -17,7 +17,7 @@ Enable a Health and Safety table for report field mapping. You can then configur
 
 ## Before you begin
 
-Verify that the application scope is selected as Health and Safety Core. For more information, see Application picker.
+Verify that the application scope is selected as Health and Safety Core. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: sn\_ohs\_im.admin
 

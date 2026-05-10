@@ -4,7 +4,7 @@ description: If you have the admin role, you can install the Lead to Cash Core a
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Install and configure Lead to Cash Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---

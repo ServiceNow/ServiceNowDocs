@@ -88,7 +88,7 @@ User criteria
 
 </td><td>
 
-Audience criteria for this document. For example, you can create a permit intended for only Canadian residents.**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
+Audience criteria for this document. For example, you can create a permit intended for only Canadian residents.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr><tr><td>
 
@@ -201,7 +201,7 @@ Source template from which you created a copy of current template.
 
 7.  In the **PDF Template Mappings** related list, define additional PDF field mappings.
 
-    **Note:** The **PDF Template Mappings** related list is only available for an editable PDF. See Define a PDF field mapping for more information.
+    **Note:** The **PDF Template Mappings** related list is only available for an editable PDF. See [Define a PDF field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/edit-pdf-mappings.md) for more information.
 
 8.  Navigate to **Decision Management** &gt; **Decision Builder**.
 

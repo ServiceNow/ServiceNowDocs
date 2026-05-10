@@ -30,7 +30,7 @@ HR case creation has multiple steps:
 
 Using the **Case Creation Configuration** form you can control the information returned from a search and the required fields when creating an initial HR case.
 
-**Note:** Zing text search is used to search on indexed fields in the User \[sys\_user\], HR Profile \[sn\_hr\_core\_profile\], and HR Case \[sn\_hr\_core\_case\] tables. Refer to Zing text indexing and search engine.
+**Note:** Zing text search is used to search on indexed fields in the User \[sys\_user\], HR Profile \[sn\_hr\_core\_profile\], and HR Case \[sn\_hr\_core\_case\] tables. Refer to [Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_ZingTextSearch.md).
 
 ## Procedure
 

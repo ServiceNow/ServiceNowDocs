@@ -44,7 +44,7 @@ To learn more about AI Control Tower and other applications integrating with its
 
 -   [AI Control Tower dashboard](ai-governance.md)
 -   [Configure AI Control Tower](configuring-ai-governance.md)
--   AI Risk and Compliance
+-   [AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance.md)
 -   [Explore Now Assist AI asset discovery](now-assist-asset-discovery.md)
 -   [Enterprise AI discovery: Unlock Visibility, Governance &amp; Value](enterprise-ai-discovery.md)
 -   [AI Gateway](ai-gateway-overview.md)

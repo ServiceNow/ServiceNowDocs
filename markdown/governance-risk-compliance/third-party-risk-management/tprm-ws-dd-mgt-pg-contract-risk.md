@@ -149,5 +149,5 @@ Select **Browse** in the **Attachments** section to select and add an attachment
 **Related topics**  
 
 
-[bundle-itam.c_ContractManagement]
+[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/c_ContractManagement.md)
 

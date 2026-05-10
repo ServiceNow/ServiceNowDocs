@@ -67,10 +67,10 @@ Map an application service containing Tibco BusinessWorks and Enterprise Message
 
 ### Before you begin
 
--   \(If hosted on Unix\) Configure applicative credentials for the Tibco EMS.
--   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
--   \(If hosted on a Unix server\) On the ServiceNow AI Platform, configure SSH credentials.
--   \(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
+-   \(If hosted on Unix\) Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/applicative-creds.md) for the Tibco EMS.
+-   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md).
+-   \(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
+-   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/enable-winRM-MID-servers.md).
 
 Role required: service\_mapping\_admin
 

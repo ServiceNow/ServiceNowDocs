@@ -53,15 +53,15 @@ Use these applications right away, or customize them to suit your business needs
 
 -   **Mobile experience for Customer Service Management**
 
-    Manage customer service cases from a mobile device with the Customer Service Management mobile application. Stay connected and access information in real time to complete tasks quickly. For more detail, see Mobile experience for Customer Service Management.
+    Manage customer service cases from a mobile device with the Customer Service Management mobile application. Stay connected and access information in real time to complete tasks quickly. For more detail, see [Mobile experience for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-mobile-interface.md).
 
 -   **Mobile experience for Employee Experience Suite**
 
-    Approve catalog requests, requested items, or change requests from anywhere using the ITSM Mobile Agent app. For more detail, see ITSM Mobile agent.
+    Approve catalog requests, requested items, or change requests from anywhere using the ITSM Mobile Agent app. For more detail, see [ITSM Mobile agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/itsm-mobile-agent.md).
 
 -   **Mobile experience for Field Service Management**
 
-    Manage your field service tasks anywhere using the Field Service Management mobile application. With this application, you stay connected with your mobile device, can access important information, and complete your tasks quickly. For more detail, see Mobile experience for Field Service Management.
+    Manage your field service tasks anywhere using the Field Service Management mobile application. With this application, you stay connected with your mobile device, can access important information, and complete your tasks quickly. For more detail, see [Mobile experience for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-fsm.md).
 
 
 ## Create your own applications

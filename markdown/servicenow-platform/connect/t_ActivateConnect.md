@@ -23,7 +23,7 @@ Role required: admin
 
 If you used Collaboration in the Fuji release, the Connect plugin is activated automatically.
 
-**Important:** Connect is not supported in Next Experience. If you turn on Next Experience, Connect functionality will no longer work. See Next Experience.
+**Important:** Connect is not supported in Next Experience. If you turn on Next Experience, Connect functionality will no longer work. See [Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md).
 
 ## Procedure
 
@@ -43,7 +43,7 @@ If you used Collaboration in the Fuji release, the Connect plugin is activated a
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 
 ## Properties installed with Connect
 

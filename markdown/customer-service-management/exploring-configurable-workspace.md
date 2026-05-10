@@ -27,7 +27,7 @@ A page in a workspace is made up of components that enable your users to accompl
 
 You build out the functionality within the page by adding the components that you need for your user experience. Components are elements like buttons and data visualizations. UI Builder comes with a library of components you can add to the page.
 
-After the components are on your page, you can change the layout any way you want. For example, you can use themes to make a page match your company's styles and standards. For more information, see Manage the visual style of UI Builder experiences.
+After the components are on your page, you can change the layout any way you want. For example, you can use themes to make a page match your company's styles and standards. For more information, see [Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.md).
 
 Add an event mapping to a component. Event mapping is an important process within UI Builder. When you build pages with components, you need those pages to actually perform actions for users. For example, you can map a button to an event handler to perform a button action when a user selects that button. Another example may be adding a data resource such as a form. You could set up an event handler to notify a user when the page succeeds in loading the form.
 
@@ -40,5 +40,5 @@ For more information about configuring different features in CSM Configurable Wo
 **Related topics**  
 
 
-[bundle-cadev.ui-builder-overview]
+[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)
 

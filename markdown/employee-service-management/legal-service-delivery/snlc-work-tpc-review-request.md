@@ -47,15 +47,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, navigate to **Legal Requests** or **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d705681e170">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d705685e170">
 
 Option
 
-</th><th align="left" id="d705681e173">
+</th><th align="left" id="d705685e173">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d705681e179">
+</th></tr></thead><tbody><tr><td id="d705685e179">
 
 **As an assignee**
 
@@ -65,7 +65,7 @@ Steps
 2.  Select a contract request to work on.
 
 
-</td></tr><tr><td id="d705681e200">
+</td></tr><tr><td id="d705685e200">
 
 **As a collaborator**
 
@@ -156,15 +156,15 @@ Steps
         -   To indicate that the email should be sent later, select **Save as draft**.
 12. In the **Signatories** tab, add signatories to whom the contract will be sent for signature by selecting **Add**.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d705681e596">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d705685e596">
 
 Option
 
-</th><th align="left" id="d705681e599">
+</th><th align="left" id="d705685e599">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d705681e605">
+</th></tr></thead><tbody><tr><td id="d705685e605">
 
 **Internal**
 
@@ -174,7 +174,7 @@ Steps
 2.  In the **Order** field, enter the order in which the email should be sent to the signer. The order value should be unique
 
 
-</td></tr><tr><td id="d705681e638">
+</td></tr><tr><td id="d705685e638">
 
 **External**
 

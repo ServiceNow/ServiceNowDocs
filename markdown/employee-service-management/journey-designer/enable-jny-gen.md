@@ -40,7 +40,7 @@ Role required: sn\_jny.admin, sn\_nowassist\_admin.nsa\_admin
     You can select both in-product, Now Assist panel, or both.
 
     -   **In-product**: When selected, Now Assist skills are displayed on forms and workspaces.
-    -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see Activate the Now Assist panel standard chat.
+    -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
     Select the arrow near the toggle to select roles for those who can access the skill. You can add roles by entering the name of the role in the **User roles** field. You can remove existing roles by selecting the X icon in the role bubble. You must have at least one role specified, but you can add as many roles as you like.
 
 8.  Select **Review and activate** to review your choices.

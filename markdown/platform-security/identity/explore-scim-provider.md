@@ -34,5 +34,5 @@ To configure the SCIM Provider, perform the following tasks:
 
 ## Tables
 
-Two tables, sys\_user and sys\_group, contain the SCIM attributes that do not map to existing ServiceNow tables. To know more about the tables, see the SCIM-specific tables.
+Two tables, sys\_user and sys\_group, contain the SCIM attributes that do not map to existing ServiceNow tables. To know more about the tables, see the [SCIM-specific tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/scim-api.md).
 

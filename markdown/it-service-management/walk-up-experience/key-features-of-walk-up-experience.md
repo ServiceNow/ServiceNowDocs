@@ -34,7 +34,7 @@ Every employee or a guest can check in and get support at an established walk-up
 
         -   View upcoming walk-up appointments and current queue position by location using the Now® Mobile application **Services** tab on your mobile device. **Tech Lounge visits** appears if there is associated data. If no data exists, the section is hidden.
 
-            **Note:** Requires activation of the ServiceNow Mobile Request Native Application Screens and Applet Launcher plugin \(com.glide.mobile-employee\). See Mobile plugins and upgrades for more information. This plugin enables the Service Catalog functionality by default.
+            **Note:** Requires activation of the ServiceNow Mobile Request Native Application Screens and Applet Launcher plugin \(com.glide.mobile-employee\). See [Mobile plugins and upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/plugins-upgrades.md) for more information. This plugin enables the Service Catalog functionality by default.
 
         -   Schedule appointments for support and receive appointment reminders, as well as cancel or reschedule appointments from links in the reminder or from the online check-in interface.
         -   Schedule only one appointment for each walk-up location queue at a time.

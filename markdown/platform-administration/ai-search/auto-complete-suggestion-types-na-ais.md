@@ -16,7 +16,7 @@ breadcrumb: [Now Assist in AI Search reference, Now Assist in AI Search, Service
 
 Now Assist in AI Search includes an auto-complete suggestion type that displays suggested Now Assist in Virtual Agent conversational prompts.
 
-To learn more about how this auto-complete suggestion type appears to search and chat users, see Enhanced chat. For details on configuring and using auto-complete suggestion types in your search application configurations, see [Auto-complete suggestions in AI Search applications](../concept/auto-complete-ais.md#).
+To learn more about how this auto-complete suggestion type appears to search and chat users, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md). For details on configuring and using auto-complete suggestion types in your search application configurations, see [Auto-complete suggestions in AI Search applications](../concept/auto-complete-ais.md#).
 
 <table id="table_rc4_z2y_v2c"><thead><tr><th>
 
@@ -45,7 +45,7 @@ Displays Virtual Agent conversational prompts based on previous user searches \(
 
  When you create a new search application configuration, this suggestion reader group isn't linked to it by default. If you enable enhanced chat in a search portal, this suggestion reader group is linked to the search application configuration record that's shared between the portal and Virtual Agent.
 
- Conversational prompt suggestions are displayed in search portals by default. To make conversational prompt suggestions available in global and workspace search, you must enable Now Assist panel enhanced chat. For details on this procedure, see Activate Now Assist panel enhanced chat.
+ Conversational prompt suggestions are displayed in search portals by default. To make conversational prompt suggestions available in global and workspace search, you must enable Now Assist panel enhanced chat. For details on this procedure, see [Activate Now Assist panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-enhanced-activate.md).
 
  Default section header: `Ask Now Assist`
 

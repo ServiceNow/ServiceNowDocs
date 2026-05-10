@@ -197,9 +197,9 @@ After you create or update a policy, select **Apply policies** to apply the crea
 
 [Business hours](../concept/bh-cloudin.md)
 
-[bundle-itsm.c_ITILChangeManagement]
+[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ITILChangeManagement.md)
 
-[bundle-itsm.c_StandardChangeCatalogPlugin]
+[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_StandardChangeCatalogPlugin.md)
 
 [bundle-itsm.create-a-change-request-template]
 

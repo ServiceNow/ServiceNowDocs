@@ -39,7 +39,7 @@ When you define a quick message, you can add any of the following types of conte
 
 Assign the email\_client\_quick\_message\_author role to business managers so that they can create quick messages for users in their group.
 
-For more information on how to create a quick message, see Define a quick message.
+For more information on how to create a quick message, see [Define a quick message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_QuickMessages.md).
 
 ## Using response templates
 
@@ -58,7 +58,7 @@ By default, the following response templates are provided for these standard pro
 
 While users with the response template reader \[sn\_templated\_snip.template\_snippet\_reader\] role can only read response template content, those with the response template writer \[sn\_templated\_snip.template\_snippet\_writer\] role can read, create, update, and delete response template content.
 
-For more information on how to work with response templates, see Create or modify a response template.
+For more information on how to work with response templates, see [Create or modify a response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-modify-templated-snippet.md).
 
 ## Emailed message in activity log
 

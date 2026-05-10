@@ -23,7 +23,7 @@ Create a connected app in your Zoom account to enable OAuth 2.0 authentication w
 
 -   Ensure that you have an Integration Hub subscription.
 -   Ensure that Omnichannel Callback is installed on your instance.
--   Ensure that the Zoom spoke is activated. For more information, see Zoom spoke
+-   Ensure that the Zoom spoke is activated. For more information, see [Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/zoom-spoke.md)
 
 Role required: Zoom admin
 

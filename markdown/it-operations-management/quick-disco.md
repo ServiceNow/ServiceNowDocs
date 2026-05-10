@@ -68,5 +68,5 @@ Use quick discovery to run an on-demand, IP-based discovery without configuring 
 **Related topics**  
 
 
-[bundle-psec.credentials-getting-started]
+[Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-getting-started.md)
 

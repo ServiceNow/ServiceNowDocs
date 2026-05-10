@@ -44,7 +44,7 @@ The **Status** data pill contains the result of the SLA percentage timer.
 |Skipped|The timer did not run because the scheduled end date/time is in the past. Flow designers can build specific flow logic for this action status.|
 |Waiting|The timer is running and has yet to reach the scheduled end date/time.|
 
-Workflow Studio sets the action status when the SLA state matches an SLA condition or when certain UI actions are selected.
+Workflow Studio sets the action status when the SLA state matches an [SLA condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_SLAConditions.md) or when certain UI actions are selected.
 
 <table id="table_gqk_nvt_1jb"><thead><tr><th>
 
@@ -166,7 +166,7 @@ Follow these general guidelines when creating flows that contain Service Level A
 
 -   **Copy existing flows to make customizations**
 
-    Reduce development time by copying the default SLA flows and customizing the copies with your own logic. Select a customized flow to run from the SLA definition. See Create an SLA definition .
+    Reduce development time by copying the default SLA flows and customizing the copies with your own logic. Select a customized flow to run from the SLA definition. See [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/t_CreateAnSLADefinition.md) .
 
 
 **Parent Topic:**[Workflow Studio actions](../concept/flow-actions.md)

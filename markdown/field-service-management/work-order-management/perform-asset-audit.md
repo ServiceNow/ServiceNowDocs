@@ -36,7 +36,7 @@ Role required: wm\_agent
     -   Space fields are displayed.
     -   Users can select any stockroom.
 
-For more information, see Stockroom audit access by role.
+For more information, see [Stockroom audit access by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/stockroom-audit-access-eam.md).
 
 ## Procedure
 

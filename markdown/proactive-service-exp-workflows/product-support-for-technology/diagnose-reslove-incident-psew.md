@@ -58,7 +58,7 @@ The incident progresses through several stages from start to closure. It begins 
 
 6.  Diagnose the incident to identify the root-cause of the problem.
 
-    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see Decision Tables.
+    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-tables/decision-table.md).
 
     1.  To generate the test results, select **Run diagnostics** from the contextual panel.
 
@@ -68,9 +68,9 @@ The incident progresses through several stages from start to closure. It begins 
 
     3.  Expand the cards in the **Available test suite**.
 
-        To setup test definitions, see Setting up test definitions.
+        To setup test definitions, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/settingup-test-specifications.md).
 
-        To setup test group, see Setting up a test group.
+        To setup test group, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/setting-test-group.md).
 
     4.  In the manual test, select single/multiple tests.
 

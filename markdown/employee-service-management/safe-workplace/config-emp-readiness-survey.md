@@ -17,7 +17,7 @@ Review the default Employee workplace readiness survey installed with the Employ
 
 ## Before you begin
 
-Familiarize yourself with Survey administration. Then meet with other emergency response team stakeholders to plan the changes to the survey. Decide whether to edit the existing survey before you send it to employees, or to create one or more new surveys.
+Familiarize yourself with [Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md). Then meet with other emergency response team stakeholders to plan the changes to the survey. Decide whether to edit the existing survey before you send it to employees, or to create one or more new surveys.
 
 Role required: sn\_imt\_checkin.checkin\_admin, survey\_creator, survey\_admin, or admin
 
@@ -97,7 +97,7 @@ Role required: sn\_imt\_checkin.checkin\_admin, survey\_creator, survey\_admin, 
 
 ### About this task
 
-Consider how you want to begin to reopen your workplace, and what you must understand about the employees before you can begin. Work with a user with the survey\_admin role in your company to plan the types of questions and responses for the survey. For information about adding surveys, see Survey administration and Survey designer.
+Consider how you want to begin to reopen your workplace, and what you must understand about the employees before you can begin. Work with a user with the survey\_admin role in your company to plan the types of questions and responses for the survey. For information about adding surveys, see [Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md) and [Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md).
 
 ### Procedure
 

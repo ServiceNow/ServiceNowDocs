@@ -97,7 +97,7 @@ Common use cases:
 
 ## UI Builder
 
-Use UI Builder APIs when developing client scripts in the UI Builder. Client scripts are executed in response to something happening on a page, such as:
+Use UI Builder APIs when developing client scripts in the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md). Client scripts are executed in response to something happening on a page, such as:
 
 -   User interaction events/actions, such as a button click.
 -   Lifecycle events, such as a data broker execution started.

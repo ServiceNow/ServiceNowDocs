@@ -60,7 +60,7 @@ Number
 
 </td><td>
 
-Base number for the table. For more information, see Record numbering.
+Base number for the table. For more information, see [Record numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ManagingRecordNumbering.md).
 
 </td></tr><tr><td>
 
@@ -140,7 +140,7 @@ Work item routing condition
 
 Condition that applies to routing work items to this queue.
 
- Use the condition builder to select routing conditions. The fields available for selection are based on the selected service channel. For the chat service channel, you can specify chat context variables in the condition builder by dot-walking to related context fields.
+ Use the condition builder to select routing conditions. The fields available for selection are based on the selected service channel. For the chat service channel, you can specify chat context variables in the condition builder by [dot-walking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dot-walking-examples.md) to related context fields.
 
  For example, if you defined chat context variables that store pre-chat routing information, you can dot-walk to those chat context variables in the condition builder. You can use the variables in routing conditions to specify where chats are routed.
 

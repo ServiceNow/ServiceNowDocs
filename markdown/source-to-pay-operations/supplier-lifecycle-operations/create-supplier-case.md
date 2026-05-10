@@ -41,7 +41,7 @@ You must have the following plugin installed: Universal Request for Source-to-Pa
 
 8.  To request assistance from other departments in resolving the Universal Request simultaneously, select **Create Associated Ticket**.
 
-    For more information on creating associated tickets, see Create associated ticket for primary ticket of UR.
+    For more information on creating associated tickets, see [Create associated ticket for primary ticket of UR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/create-associated-ticket.md).
 
 
 ## Result

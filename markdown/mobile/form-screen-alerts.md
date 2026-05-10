@@ -57,13 +57,13 @@ Role required: admin
 
     4.  Select the **Dismiss Button** tab and enter a text that displays to the user in the **Dismiss button label** field. Examples are "Close" and "Dismiss".
 
-        These texts are translated field types associated with the Translated Name / Fields \[sys\_translated\] table, see Translated Name / Field table.
+        These texts are translated field types associated with the Translated Name / Fields \[sys\_translated\] table, see [Translated Name / Field table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_TranslatedNameFieldTable.md).
 
     5.  Select the **Primary Button** tab.
 
         1.  Enter a text in the **Primary button label** field that redirects the user to a screen. Examples are "View" and "Display".
 
-            These texts are translated field types associated with the Translated Name / Fields \[sys\_translated\] table, see Translated Name / Field table.
+            These texts are translated field types associated with the Translated Name / Fields \[sys\_translated\] table, see [Translated Name / Field table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_TranslatedNameFieldTable.md).
 
         2.  In the Primary button field, select the reference lookup icon and select the navigation function button you defined earlier.
     6.  Select **Submit**.

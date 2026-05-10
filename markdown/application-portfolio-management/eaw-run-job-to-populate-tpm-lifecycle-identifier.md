@@ -35,7 +35,7 @@ On selecting a TPM lifecycle record identifier, more information on the TPM life
 
 3.  Select  ** Execute Now**.
 
-    **Note:** You must verify that your application scope is set to Technology Portfolio Management. For information on how to change the application scope, see Select an application from the application picker
+    **Note:** You must verify that your application scope is set to Technology Portfolio Management. For information on how to change the application scope, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md)
 
 
 ## Result

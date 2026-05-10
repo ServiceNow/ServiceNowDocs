@@ -100,7 +100,7 @@ Virtual Agent API supports two file upload modes, such as Synchronous and Asynch
 
 To upload a file in synchronous mode, follow the below steps:
 
-1.  Upload the file by using Media API. For more information, see CCCIF Media Resource API.
+1.  Upload the file by using Media API. For more information, see [CCCIF Media Resource API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/cccif-api.md).
 
     Media API returns a url. An example of the response is:
 

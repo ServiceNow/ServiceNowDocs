@@ -17,7 +17,7 @@ Prior to using Threat Intelligence Orchestration, perform steps to set up variou
 
 Role required: admin
 
-To use Threat Intelligence Orchestration you need a fully populated CMDB with domain names. For more information, see Discovery.
+To use Threat Intelligence Orchestration you need a fully populated CMDB with domain names. For more information, see [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-discovery.md).
 
 ## About this task
 
@@ -25,9 +25,9 @@ To use Threat Intelligence Orchestration you need a fully populated CMDB with do
 
 1.  Activate the Threat Intelligence plugin.
 
-2.  Configure the MID Server
+2.  [Configure the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md)
 
-3.  Configure MID Server service credentials
+3.  [Configure MID Server service credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md)
 
     You are now ready to use Threat Intelligence Orchestration activities within a workflow.
 

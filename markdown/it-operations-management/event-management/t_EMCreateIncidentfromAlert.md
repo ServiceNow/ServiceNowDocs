@@ -53,5 +53,5 @@ The created incident appears in the **Task** field of the Alert form.
 **Related topics**  
 
 
-[bundle-security.c_ScIncdUseAlrts]
+[Security incidents created from events and alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/c_ScIncdUseAlrts.md)
 

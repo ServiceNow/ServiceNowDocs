@@ -220,7 +220,7 @@ VISC Get URL metrics
 </td></tr></tbody>
 </table>**Note:** Windows endpoint devices include devices that have a Windows operating system and belong to CI class: computer.
 
-See System properties for more details. For more details on policies, see [Checks and policies](../concept/checks-policies.md).
+See [System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) for more details. For more details on policies, see [Checks and policies](../concept/checks-policies.md).
 
 ## Check type
 

@@ -69,7 +69,7 @@ Steps
 
 1.  In the **Lists** tab, under **Interactions**, click **My Interactions**.
 2.  Click the interaction record that you want to create a claim from.
- For information on how to create an interaction, see Create an interaction.
+ For information on how to create an interaction, see [Create an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/create-interactions.md).
 
 </td></tr></tbody>
 </table>4.  Click **Create Payment Request**.

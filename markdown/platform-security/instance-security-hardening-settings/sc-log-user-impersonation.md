@@ -109,7 +109,7 @@ References
 
 </td><td>
 
-Impersonating users
+[Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ImpersonateAUser.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Error handling and logging](sc-error-handling-logging.md)

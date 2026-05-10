@@ -74,7 +74,7 @@ Configure a webhook to subscribe to Salesforce events with a ServiceNow callback
 
 7.  Configure the default subflows or create customsubflows.
 
-    These subflows are triggered when the required events occur in Salesforce instance. For more information, see Building subflows.
+    These subflows are triggered when the required events occur in Salesforce instance. For more information, see [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
 
 8.  Configure the webhook routing policy.
 

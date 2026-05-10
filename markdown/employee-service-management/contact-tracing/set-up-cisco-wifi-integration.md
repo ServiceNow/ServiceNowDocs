@@ -38,7 +38,7 @@ To specify which option to use, configure the **sn\_imt\_tracing.wifi\_log\_cisc
 
         -   USA region: `https://dnaspaces.io/integrations/servicenow`
         -   Europe region: `https://dnaspaces.eu/integrations/servicenow`
-        For more information on creating the OAuth application endpoint and description of other fields on the form, see Create an endpoint for clients to access the instance.
+        For more information on creating the OAuth application endpoint and description of other fields on the form, see [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_CreateEndpointforExternalClients.md).
 
     2.  Log in to the Cisco DNA Spaces portal to register and authenticate the application to complete the integration.
 
@@ -50,7 +50,7 @@ To specify which option to use, configure the **sn\_imt\_tracing.wifi\_log\_cisc
 
         The DiagnosticTaskImportUtil script include creates a data source from the attachment in a diagnostic request task and imports the data into the Wi-Fi Access Register \[sn\_imt\_tracing\_wifi\_access\_register\] table.
 
-        For more information, see Script includes.
+        For more information, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
 2.  Set system properties to use the Wi-Fi access data files imported from the SFTP server into the Wi-Fi Access Register table.
 

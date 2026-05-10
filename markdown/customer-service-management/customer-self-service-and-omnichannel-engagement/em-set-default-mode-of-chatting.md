@@ -38,7 +38,7 @@ Role required: sn\_csm\_ec.ec\_admin
     -   To enable synchronous chat to engage in real-time conversation through a chat window, select **Chat**.
     -   To enable asynchronous chat to engage in long-running conversations through messaging without being online concurrently, select **Messaging**.
 
-        For more information, see Configure asynchronous chat for the web channel.
+        For more information, see [Configure asynchronous chat for the web channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-async-web.md).
 
 7.  Select **Update**.
 

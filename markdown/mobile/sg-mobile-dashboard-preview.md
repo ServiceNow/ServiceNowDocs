@@ -17,7 +17,7 @@ Use a mobile analytic preview within a mobile dashboard to display data visualiz
 
 Role required: admin
 
-To display a data visualization in a launcher screen you need a chart or single score report. For information about creating data visualizations, see Platform Analytics overview and Data visualizations in Platform Analytics.
+To display a data visualization in a launcher screen you need a chart or single score report. For information about creating data visualizations, see [Platform Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center.md) and [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md).
 
 For details about data visualization settings and configurations that are available for display in the mobile platform, see [Data visualization fields available for display in mobile](../reference/data-visualization-mobile-fields.md).
 
@@ -87,7 +87,7 @@ Data Visualization
 
 Data visualization to be displayed in your chart preview.Click the arrow to display a list of all data visualizations hosted on the instance. If you select a data visualization not supported for mobile, when you open the launcher screen, a message displays which states that the content can't be shown.
 
-For more information, see Data visualizations in Platform Analytics. For information about the data displayed in data visualizations for mobile devices, see [Data visualization fields available for display in mobile](../reference/data-visualization-mobile-fields.md).
+For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md). For information about the data displayed in data visualizations for mobile devices, see [Data visualization fields available for display in mobile](../reference/data-visualization-mobile-fields.md).
 
 </td></tr><tr><td>
 

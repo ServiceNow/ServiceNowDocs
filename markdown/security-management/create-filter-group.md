@@ -91,7 +91,7 @@ Condition
 
 </td><td>
 
-Use the condition builder to define the criteria to be filtered.
+Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to define the criteria to be filtered.
 
 </td></tr></tbody>
 </table>4.  Select and hold \(or right-click\) the form header and select **Save**.

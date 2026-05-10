@@ -25,7 +25,7 @@ The task definition includes an extraction mode that determines how the system h
 
 1.  Open a case in CSM Configurable Workspace.
 
-2.  Select **Review in DocIntel** to open the Document Intelligence workspace in a separate tab and view the attachments and extracted values.
+2.  Select **Review in DocIntel** to open the [Document Intelligence workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/doc-intel-workspace.md) in a separate tab and view the attachments and extracted values.
 
     In this tab:
 

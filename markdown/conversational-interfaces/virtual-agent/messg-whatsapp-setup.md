@@ -31,7 +31,7 @@ Before you begin, do the following:
     -   Twilio spoke
     -   Conversational Integration with WhatsApp \(powered by Twilio\)
 -   [Connect your Twilio Number to your WhatsApp Business Profile](https://www.twilio.com/docs/sms/whatsapp/tutorial/connect-number-business-profile).
--   Set up Twilio spoke.
+-   [Set up Twilio spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-twilio.md).
 
 Role required: external\_app\_install\_admin or va\_admin
 

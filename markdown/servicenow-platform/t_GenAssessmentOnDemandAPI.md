@@ -21,7 +21,7 @@ Role required: assessment\_admin or admin
 
 ## Procedure
 
-1.  To generate an assessment, call the AssessmentCreation API from any script in the system, such as a business rule or client script.
+1.  To generate an assessment, call the [AssessmentCreation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_AssessmentCreation.md) from any script in the system, such as a business rule or client script.
 
 2.  Use the sys\_ids of these items:
 

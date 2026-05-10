@@ -13,7 +13,7 @@ breadcrumb: [Configure, Form administration, Forms, fields, and lists, Configure
 
 Administrators or users with the personalize\_form role can use the form design feature to quickly create new or change existing form views.
 
-**Important:** Starting with the Australia release, form designer is being prepared for future deprecation. Try configuring your forms with Form Builder instead. Form Builder has all of the Form Designer and Form Layout options. It also has other robust features that help you configure each aspect of the form. For more information, see Accessing Form Builder.
+**Important:** Starting with the Australia release, form designer is being prepared for future deprecation. Try configuring your forms with Form Builder instead. Form Builder has all of the Form Designer and Form Layout options. It also has other robust features that help you configure each aspect of the form. For more information, see [Accessing Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/access-form-builder.md).
 
 With form design, you can accomplish the same tasks that you can with form layout in a graphical tool called the form designer. You can also access field properties and add information from macros or previously scripted UI elements.
 

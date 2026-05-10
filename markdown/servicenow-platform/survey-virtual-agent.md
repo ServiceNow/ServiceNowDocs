@@ -13,7 +13,7 @@ breadcrumb: [Survey administration, Use surveys, Surveys, Assessments and Survey
 
 You can use surveys in ITSM Virtual Agent to collect survey responses from users through conversational questionnaires \(pre-chat and post-chat surveys\) in the chat client.
 
-A chat survey is available in ITSM Virtual Agent through the Provide Virtual Agent Feedback topic. The logic that renders the survey dynamically is called from the re-usable Survey topic block. It is common to use the Provide Virtual Agent Feedback topic as the survey setup topic in the general definitions of ITSM Virtual Agent, so that users automatically receive a survey at the end of their conversations. For information about the Survey topic block, see ITSM Virtual Agent.
+A chat survey is available in ITSM Virtual Agent through the Provide Virtual Agent Feedback topic. The logic that renders the survey dynamically is called from the re-usable Survey topic block. It is common to use the Provide Virtual Agent Feedback topic as the survey setup topic in the general definitions of ITSM Virtual Agent, so that users automatically receive a survey at the end of their conversations. For information about the Survey topic block, see [ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-virtual-agent.md).
 
 When you select the **Chat Survey** check box for a survey, the following conditions are validated for surveys on ITSM Virtual Agent.
 
@@ -83,5 +83,5 @@ After a survey is submitted in a Virtual Agent conversation, a survey instance i
 
 [Legacy survey migration](c_MigrateSurveys.md)
 
-[bundle-itsm.itsm-virtual-agent]
+[ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-virtual-agent.md)
 

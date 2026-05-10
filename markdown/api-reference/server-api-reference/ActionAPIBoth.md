@@ -15,7 +15,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The action API provides methods to handle data for URLs in a UI action script.
 
-Use this API to configure UI actions with which users can interact. Use these scripts in the UI Action \[sys\_ui\_action\] table. For information, see UI actions.
+Use this API to configure UI actions with which users can interact. Use these scripts in the UI Action \[sys\_ui\_action\] table. For information, see [UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md).
 
 Methods for this API are referred to by the variable name 'action' in any server-side JavaScript. To learn more, see [Creating interactions with UI actions](https://developer.servicenow.com/blog.do?p=/post/training-ui-action-101/).
 
@@ -103,7 +103,7 @@ Opens a page with a GlideRecord in the user view.
 |----|-----------|
 |void| |
 
-The following example shows how to include the caller name and incident description created from an interaction record. For more details, see Customizing Configurable Workspace with declarative actions.
+The following example shows how to include the caller name and incident description created from an interaction record. For more details, see [Customizing Configurable Workspace with declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/declarative-actions-landing.md).
 
 ```
 if(current.update()){
@@ -163,8 +163,8 @@ Sets the redirect URI for this transaction, which determines the next page the u
 For use cases:
 
 -   [Create a UI routing action](../../../../../script/useful-scripts/concept/useful-client-side-scripts.md#)
--   Create knowledge articles from HR cases
--   Task relationships with UI actions
+-   [Create knowledge articles from HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/ui-action-hrcase-article.md)
+-   [Task relationships with UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/r_UIActions.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -241,7 +241,7 @@ Sets the return URI for this transaction after a UI action is complete. You can 
 |----|-----------|
 |void| |
 
-The following example enables the user to select the UI action to create a change record using information from the problem record and the change template. After the change, the user returns to [current](../../../../../script/server-scripting/concept/c_ScriptableServiceCatalogVariables.md) view. For more information, see Scripted templates. For more use cases, see Task relationships with UI actions.
+The following example enables the user to select the UI action to create a change record using information from the problem record and the change template. After the change, the user returns to [current](../../../../../script/server-scripting/concept/c_ScriptableServiceCatalogVariables.md) view. For more information, see [Scripted templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ScriptedTemplates.md). For more use cases, see [Task relationships with UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/r_UIActions.md).
 
 ```
 var change = new GlideRecord("change_request");

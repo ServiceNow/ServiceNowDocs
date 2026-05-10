@@ -27,7 +27,7 @@ Role required: admin
 
 3.  To create your service-specific extension point script, click **Create Implementations** in the related list.
 
-    For more information, see Using extension points to extend application functionality.
+    For more information, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
 
 4.  Click **Update**.
 

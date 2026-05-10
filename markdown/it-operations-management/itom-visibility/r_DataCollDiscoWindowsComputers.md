@@ -58,7 +58,7 @@ The following device types haven’t been verified for IPv6 discovery:
 
 -   **Configure Windows credentials**
 
-    For more information, see Windows credentials.
+    For more information, see [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md).
 
 -   **Verify user access**
 

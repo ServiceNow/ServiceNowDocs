@@ -18,7 +18,7 @@ You can optimize their performance of AWS API Gateway data sources by setting th
 
 ## Before you begin
 
-Set the application scope to API Service Graph Connector for AWS API Gateway using the application picker. For more information, see Application picker.
+Set the application scope to API Service Graph Connector for AWS API Gateway using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: admin
 

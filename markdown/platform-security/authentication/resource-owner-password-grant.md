@@ -6,7 +6,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Inbound integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---

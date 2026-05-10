@@ -37,15 +37,15 @@ Email notifications can be sent for HR tasks with due dates and can be configure
 
 3.  Enter or edit the fields on the **Email Content** form.
 
-<table id="choicetable_yhq_hsr_mbb"><thead><tr><th align="left" id="d663035e107">
+<table id="choicetable_yhq_hsr_mbb"><thead><tr><th align="left" id="d663039e107">
 
 Field
 
-</th><th align="left" id="d663035e110">
+</th><th align="left" id="d663039e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d663035e116">
+</th></tr></thead><tbody><tr><td id="d663039e116">
 
 **Name**
 
@@ -53,7 +53,7 @@ Description
 
 Enter or edit the name of the email template.
 
-</td></tr><tr><td id="d663035e125">
+</td></tr><tr><td id="d663039e125">
 
 **Type**
 
@@ -63,7 +63,7 @@ Select the type of notification:-   Activity Notification
 -   HR Task Reminder
 
 
-</td></tr><tr><td id="d663035e143">
+</td></tr><tr><td id="d663039e143">
 
 **Subject**
 
@@ -71,7 +71,7 @@ Select the type of notification:-   Activity Notification
 
 Enter or edit the subject line of the reminder notification. The text appears in the subject line of the email sent as a reminder notification.
 
-</td></tr><tr><td id="d663035e152">
+</td></tr><tr><td id="d663039e152">
 
 **Message HTML**
 
@@ -79,7 +79,7 @@ Enter or edit the subject line of the reminder notification. The text appears in
 
 Enter or edit text that is the main body of the email notification. Use the formatting tools to format the text such as bold, italic, underline, font styling, justification, bullets, insert image, and numbers.
 
-</td></tr><tr><td id="d663035e162">
+</td></tr><tr><td id="d663039e162">
 
 **- +**
 
@@ -87,7 +87,7 @@ Enter or edit text that is the main body of the email notification. Use the form
 
 Click the - to delete lines from the message area or + to add lines.
 
-</td></tr><tr><td id="d663035e171">
+</td></tr><tr><td id="d663039e171">
 
 **Select variables**
 

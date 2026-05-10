@@ -20,7 +20,7 @@ Schema: `https://<baseURL>/nav_to.do?uri=<table name>.do?sys_id=-1&sysparm_query
 |Description|Example|
 |-----------|-------|
 |Opens a new Incident form in the standard interface with a priority of **1** and an incident state of **Awaiting Problem**.|`https://<instance name>.service-now.com/nav_to.do?uri=incident.do?sys_id=-1&sysparm_query=priority=1^incident_state=3`|
-|You can also use JavaScript to access GlideSystem methods. The following example creates the same type of incident as above, and also populates the caller ID with the current user ID.|`https://<instance name>.service-now.com/nav_to.do?uri=incident.do?sys_id=-1&sysparm_query=priority=1^incident_state=3^caller_id=javascript:gs.getUserID()`|
+|You can also use JavaScript to access [GlideSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/p_GlideServerAPIs.md) methods. The following example creates the same type of incident as above, and also populates the caller ID with the current user ID.|`https://<instance name>.service-now.com/nav_to.do?uri=incident.do?sys_id=-1&sysparm_query=priority=1^incident_state=3^caller_id=javascript:gs.getUserID()`|
 
 ## Open an existing record with preset values
 

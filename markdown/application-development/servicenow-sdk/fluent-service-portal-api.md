@@ -17,7 +17,7 @@ The Service Portal API defines custom widgets \[sp\_widget\] for portal pages.
 
 **Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
-For general information about portals, see Service Portal.
+For general information about portals, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md).
 
 **Parent Topic:**[ServiceNow Fluent API reference](servicenow-fluent-api-reference.md)
 
@@ -30,7 +30,7 @@ For general information about portals, see Service Portal.
 
 Create a custom widget \[sp\_widget\] to include on a portal page.
 
-For general information about creating custom widgets, see Developing custom widgets.
+For general information about creating custom widgets, see [Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-dev-guide.md).
 
 <table id="table_egv_ymg_kfc" class="parameters"><thead><tr><th>
 
@@ -190,7 +190,7 @@ String
 
 </td><td>
 
-The table in which to store widget instance options. To define a custom option schema, you can add fields to a table that extends the Widget Instance \[sp\_instance\] table and set your widget to use the extension table as a data source. For more information, see Store instance options in a table.Default: sp\_instance
+The table in which to store widget instance options. To define a custom option schema, you can add fields to a table that extends the Widget Instance \[sp\_instance\] table and set your widget to use the extension table as a data source. For more information, see [Store instance options in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_WidgetInstanceOptions.md).Default: sp\_instance
 
 </td></tr><tr><td>
 
@@ -315,7 +315,7 @@ Array
 
 </td><td>
 
-A list of parameters that a Service Portal administrator \(sp\_admin\) can configure for a widget instance. The widget option schema supports reusing a widget and uniquely configuring instances of the widget on different pages. For more information, see Widget option schema.```javascript
+A list of parameters that a Service Portal administrator \(sp\_admin\) can configure for a widget instance. The widget option schema supports reusing a widget and uniquely configuring instances of the widget on different pages. For more information, see [Widget option schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_WidgetInstanceOptions.md).```javascript
 optionSchema: [
   {
     name: 'String',
@@ -607,7 +607,7 @@ SPAngularProvider({
 
 Create a widget dependency \[sp\_dependency\] to link JavaScript and CSS files to widgets and use third-party libraries, external style sheets, or Angular modules.
 
-Dependencies are loaded asynchronously from the server when needed. Widgets can have as many or as few dependencies as needed. However, the more you add, the more content a widget must download to render on the page. Keep dependencies as small as possible for more efficient load times. For more information, see Create a widget dependency.
+Dependencies are loaded asynchronously from the server when needed. Widgets can have as many or as few dependencies as needed. However, the more you add, the more content a widget must download to render on the page. Keep dependencies as small as possible for more efficient load times. For more information, see [Create a widget dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-dependencies.md).
 
 <table id="table_egv_ymg_kfc" class="parameters"><thead><tr><th>
 
@@ -856,7 +856,7 @@ String
 
 </td><td>
 
-The URL to an external right-to-left \(RTL\) CSS file for mirroring the direction of a widget when the session language is a right-to-left language, such as Hebrew. For more information, see Styling for right-to-left languages in portals.
+The URL to an external right-to-left \(RTL\) CSS file for mirroring the direction of a widget when the session language is a right-to-left language, such as Hebrew. For more information, see [Styling for right-to-left languages in portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/styling-right-to-left-languages.md).
 
 </td></tr><tr><td>
 

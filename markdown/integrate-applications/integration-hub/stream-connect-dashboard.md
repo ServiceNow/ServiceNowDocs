@@ -178,7 +178,7 @@ The Consumers page has the following components.
 
     To **Create** a new consumer, select this button, then select the type of consumer you want to create, then fill in the fields on the consumer's form. For form field descriptions, see the [ETL consumer](../tasks/configure-etl-consumer.md), [Transform Map consumer](../tasks/configure-transform-map-consumer.md), or [Script consumer](../tasks/configure-script-consumer.md) page.
 
-    **Note:** If you're creating a Flow Trigger consumer, there isn't a form to fill out. Instead, the dashboard opens Workflow Studio so you can build your flow trigger there. For a detailed guide, see Create a flow with a Kafka Message trigger.
+    **Note:** If you're creating a Flow Trigger consumer, there isn't a form to fill out. Instead, the dashboard opens Workflow Studio so you can build your flow trigger there. For a detailed guide, see [Create a flow with a Kafka Message trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow-kafka.md).
 
 
 You can select a consumer from the list to view detailed information for that consumer.

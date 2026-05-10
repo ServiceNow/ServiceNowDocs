@@ -183,7 +183,7 @@ Outputs of the action, subflow, or flow that is driving the activity.
 
 ## Result
 
-The decision tree is added to the playbook. Depending on the context of the case, customer service agents can access the decision trees from cases on Agent Workspace. An agent can restart this activity by selecting the **Restart Activity** option in a playbook. For more information on how to restart an activity, see Restart a playbook.
+The decision tree is added to the playbook. Depending on the context of the case, customer service agents can access the decision trees from cases on Agent Workspace. An agent can restart this activity by selecting the **Restart Activity** option in a playbook. For more information on how to restart an activity, see [Restart a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/restart-a-playbook.md).
 
 **Related topics**  
 

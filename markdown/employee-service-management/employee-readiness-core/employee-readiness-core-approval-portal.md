@@ -41,7 +41,7 @@ You can perform the following tasks on the Approval Portal:
 -   View and approve or deny COVID-19 health test results. For more information, see [Confirm COVID-19 test results for a user](../../health-safety-testing/task/confirm-health-test-result.md).
 -   View and approve or deny an employee's vaccination status and dose details. For more information, see [Confirm the reported vaccination status for a user](../../vaccination-status/task/confirm-vaccine-response.md).
 -   View and approve or deny employee vaccination exemption requests. For more information, see [Confirm a vaccine exemption request for a user](../../vaccination-status/task/confirm-vaccine-exemption-request.md).
--   Review attachments and documentation submitted with the user's responses and requests. Supported documents open in the document viewer. For more information on supported formats, see Document Viewer.
+-   Review attachments and documentation submitted with the user's responses and requests. Supported documents open in the document viewer. For more information on supported formats, see [Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/Documentviewer.md).
 -   Review and add work notes to the records.
 
 The Employee readiness approvals page provides employee vaccine and health records in the tabs listed in the following table. You can filter the records that are displayed by selecting a record type from the **Record type** field list, using the search bar, or changing the **Sort** field list.

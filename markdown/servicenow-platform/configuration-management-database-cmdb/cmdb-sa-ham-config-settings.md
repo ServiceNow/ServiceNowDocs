@@ -37,5 +37,5 @@ Review the [CMDB success advisor](https://store.servicenow.com/store/app/db28ec5
 **Related topics**  
 
 
-[bundle-itam.ham-landing-page]
+[Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-landing-page.md)
 

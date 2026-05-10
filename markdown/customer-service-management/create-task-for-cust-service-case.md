@@ -59,7 +59,7 @@ Parent
 
 </td><td>
 
-The number of the parent record if the task is created from a type of record other than a case. This field is populated when a case task is created from a non-case record such as an incident, problem, change, or request. This field is a reference to the Task \[task\] table.**Note:** You may need to configure the case task record to display the **Parent** field. For more information about adding fields to a form, see Configuring the form layout.
+The number of the parent record if the task is created from a type of record other than a case. This field is populated when a case task is created from a non-case record such as an incident, problem, change, or request. This field is a reference to the Task \[task\] table.**Note:** You may need to configure the case task record to display the **Parent** field. For more information about adding fields to a form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
 </td></tr><tr><td>
 

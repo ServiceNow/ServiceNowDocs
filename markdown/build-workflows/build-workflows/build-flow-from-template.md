@@ -14,7 +14,7 @@ Step through an example of how to build, test, and activate a flow using a flow 
 
 ## Before you begin
 
-Create an application in App Engine Studio. Once your application is built, you can use flow templates to create flows. For more information, see Building applications in App Engine Studio.
+Create an application in App Engine Studio. Once your application is built, you can use flow templates to create flows. For more information, see [Building applications in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-creation.md).
 
 Role required: admin, flow\_designer, or delegated\_developer
 

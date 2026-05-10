@@ -20,7 +20,7 @@ Configure the Dynatrace analysis AI agent for the analyze alert impact agentic w
 
 Before configuring the Dynatrace analysis AI agent, you must do the following:
 
--   Install Now Assist for IT Operations Management \(ITOM\).
+-   [Install Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 -   [Integrate Dynatrace platform events with Event Management](../../event-management/concept/dynatrace-events-integration.md).
 -   Copy your Dynatrace connection URL and Dynatrace access token or personal access token.
 
@@ -39,15 +39,15 @@ Role required: connection\_admin and credential\_admin
 
 4.  On the form, fill in the fields.
 
-<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d497375e167">
+<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d496810e167">
 
 Field
 
-</th><th align="left" id="d497375e170">
+</th><th align="left" id="d496810e170">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d497375e176">
+</th></tr></thead><tbody><tr><td id="d496810e176">
 
 **Connection Name**
 
@@ -55,7 +55,7 @@ Description
 
 Name of your Dynatrace connection. This name helps you identify it later. For example, `Dynatrace analysis AI agent connection`.
 
-</td></tr><tr><td id="d497375e193">
+</td></tr><tr><td id="d496810e193">
 
 **Connection URL**
 
@@ -63,7 +63,7 @@ Name of your Dynatrace connection. This name helps you identify it later. For ex
 
 URL of your Dynatrace instance. Dynatrace URLs follow this format: `https://<your-resource-name>.live.dynatrace.com`.
 
-</td></tr><tr><td id="d497375e211">
+</td></tr><tr><td id="d496810e211">
 
 **Access token or personal access token \(must prefix with 'Api-Token '\)**
 
@@ -71,7 +71,7 @@ URL of your Dynatrace instance. Dynatrace URLs follow this format: `https://<you
 
 Dynatrace access token or personal access token. The token must begin with `Api-Token`, for example, `Api-Token dt0s01.STABCDEF12345.G3HIJKLMNOP`.
 
-</td></tr><tr><td id="d497375e228">
+</td></tr><tr><td id="d496810e228">
 
 **Header Name**
 

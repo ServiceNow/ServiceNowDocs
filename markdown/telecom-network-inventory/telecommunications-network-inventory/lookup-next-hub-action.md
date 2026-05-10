@@ -38,7 +38,7 @@ The following table lists the input fields in the Lookup Next Hub action and the
 |Network Interface|Network interface record.|Reference.Network Interface|
 |If multiple records are found action|Option to select the action when multiple records are found. You can select **Return only the first record** from the list to return the details of the first physical connection record.|Choice|
 
-To learn more about the variable data types, see Flow Designer input and output data variables.
+To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md).
 
 ## Output
 

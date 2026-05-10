@@ -43,7 +43,7 @@ Service Portal requires that the **UI Type** field be set to **All** or **Mobile
 
  Validate user input in a specific field type using a validation script. In new instances, Service Portal includes XML, Script, Script \(Plain\), Email, and Version validation scripts by default. If upgrading from a previous release, the Mobile and Service Portal version is not active by default. You must activate the Mobile and Service Portal version of the validation script to validate user input in the Service Portal. See [Activate Service Portal validation scripts](../task/activate-sp-validation-scripts.md).
 
- **Note:** To call a UI script within a Validation script, use the g\_ui\_scripts global object. For more information, see GlideUIScripts. Verify that the UI script has the **Global** field set to false and **UI Type** set to Mobile / Service Portal or All.
+ **Note:** To call a UI script within a Validation script, use the g\_ui\_scripts global object. For more information, see [GlideUIScripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GUIScriptsAPI.md). Verify that the UI script has the **Global** field set to false and **UI Type** set to Mobile / Service Portal or All.
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ Not supported as formatters use Jelly.
 
 Supported client scripting APIs for use in onLoad, onChange, and onSubmit client scripts.
 
-For detailed class and method information, see the Client API reference.
+For detailed class and method information, see the [Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md).
 
 <table id="table_skq_rjp_h1b"><thead><tr><th>
 

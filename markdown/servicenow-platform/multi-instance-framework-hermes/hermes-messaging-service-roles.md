@@ -15,7 +15,7 @@ breadcrumb: [Reference, Hermes Messaging Service, Manage service capabilities, E
 
 Hermes Messaging Service is installed with these roles.
 
-To learn more about managing subscriptions, see Managing per-user subscriptions in Subscription Management and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 **Parent Topic:**[Hermes Messaging Service reference](../concept/hermes-messaging-service-reference.md)
 

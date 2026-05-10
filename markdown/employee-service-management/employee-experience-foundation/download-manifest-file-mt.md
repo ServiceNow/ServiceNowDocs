@@ -21,7 +21,7 @@ Role required: external\_app\_install\_admin
 
 ## About this task
 
-You can connect multiple ServiceNow instances to one Microsoft Teams tenant. For more information, see Integrating multiple ServiceNow instances with a single Microsoft Teams tenant.
+You can connect multiple ServiceNow instances to one Microsoft Teams tenant. For more information, see [Integrating multiple ServiceNow instances with a single Microsoft Teams tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-single-teams.md).
 
 Only one pre-published app setup can be connected to the Microsoft Teams tenant.
 
@@ -126,7 +126,7 @@ Option to use the default images for branding.**Note:** If you want to customize
 
 7.  Configure the Virtual Agent in your instance.
 
-    For more information, see Conversational Integration with Microsoft Teams.
+    For more information, see [Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/teams-conv-integration.md).
 
 8.  In the **Configure Tab** section, fill in the fields.
 

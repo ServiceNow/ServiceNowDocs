@@ -16,7 +16,7 @@ Create and publish a base version of a service specification. A service specific
 ## Before you begin
 
 -   Create the characteristics and characteristic options for your product offerings
--   Create and associate specification categories with model categories
+-   [Create and associate specification categories with model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-associate-specification-categories.md)
 
 Role required: sn\_prd\_pm.product\_catalog\_manager
 
@@ -278,7 +278,7 @@ Catalog Hierarchy
 
 </td><td>
 
-View the complete hierarchy of a product offering and any associated specifications.Use the **Show specification** toggle to view the hierarchy of specifications.
+[View the complete hierarchy of a product offering and any associated specifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-catalog-hierarchy.md).Use the **Show specification** toggle to view the hierarchy of specifications.
 
 </td></tr><tr><td>
 
@@ -286,7 +286,7 @@ Specification Characteristics
 
 </td><td>
 
-Associate the characteristics and characteristic options with your specification.
+[Associate the characteristics and characteristic options with your specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-specification-characteristic.md).
 
 </td></tr><tr><td>
 
@@ -302,7 +302,7 @@ Versions
 
 </td><td>
 
-Create another version of the specification.
+[Create another version of the specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/creating-publishing-new-versions-specifications.md).
 
 </td></tr></tbody>
 </table>5.  When you are finished creating the specification version, do one of the following actions.

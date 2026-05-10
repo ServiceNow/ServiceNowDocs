@@ -35,5 +35,5 @@ The benefits to automating system responses to inbound emails in Workflow Studio
 -   Reduces upgrade costs, with upgrade-safe ServiceNow AI Platform logic replacing complex custom script.
 -   Reduces development costs by providing a library of reusable actions.
 
-For more information on creating inbound email flows in Workflow Studio, see Workflow Studio flow trigger types or follow the steps in Create a flow with an inbound email trigger. To view or manage your inbound email flows, navigate to **Flow Designer** &gt; **Inbound Email Flows**.
+For more information on creating inbound email flows in Workflow Studio, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-triggers.md) or follow the steps in [Create a flow with an inbound email trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-inbound-email-flow.md). To view or manage your inbound email flows, navigate to **Flow Designer** &gt; **Inbound Email Flows**.
 

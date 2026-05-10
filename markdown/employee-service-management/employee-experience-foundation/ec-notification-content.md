@@ -19,7 +19,7 @@ Create email, push, and SMS notifications to send messages directly to your empl
 
 To send email, push, or SMS notifications, perform the following tasks:
 
--   Activate the Notify \[com.snc.notify\] plugin: Activate Notify
+-   Activate the Notify \[com.snc.notify\] plugin: [Activate Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ActivateNotify.md)
 -   Ensure that the following system properties are configured:
 
 <table id="table_xvj_bmb_h1c"><thead><tr><th>
@@ -71,7 +71,7 @@ glide.notify.sms.max\_concatenation
 Notify supports the concept of SMS concatenation. The maximum length of a single SMS is 160 characters for plaintext or 70 characters for Unicode SMS messages. Up to 10 SMS messages are linked together when the maximum length is reached. This property configures the maximum number of SMS messages that are linked into one large SMS message. If the body length is exceeded the body truncates and a message logs. **Note:** The charges are per SMS, which means that 1600 character SMS is 10 times as expensive as a 160 character SMS. Also, not all providers support SMS concatenation.
 
 </td></tr></tbody>
-</table>-   Configure notifications to work with an SMS service provider or configure a Twilio account. See Configure Notify with Twilio.
+</table>-   Configure notifications to work with an SMS service provider or configure a Twilio account. See [Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md).
 -   Create notification content. See [Create email, SMS, or push notification content](../task/ecpro-manage-notification-content.md).
 -   Map SMS content to a campaign \(Content Experiences\). See [Create a campaign](../task/ecpro-manage-campaigns.md).
 -   Schedule content \(Content Experiences\). See [Create a campaign](../task/ecpro-manage-campaigns.md), [Create content for a campaign](../task/ecpro-manage-content.md), or [Create campaign bundles/stages](../task/ecpro-manage-campaign-bundles.md), or [Scheduling the delivery of content](../task/ecpro-schedule-content.md).
@@ -84,5 +84,5 @@ Notify supports the concept of SMS concatenation. The maximum length of a single
     -   Content Experiences: Add Non-Portal Campaign Content: Creates sn\_ca\_campaign\_item\_user\_records for sent emails. It does not send the email.
     -   Content Publishing: Send SMS notifications: Responsible for sending SMS notifications for Content Delivery. Default value is to run every hour.
 
-For more information, see: Email and SMS notifications, Notify, and Numbers and number groups.
+For more information, see: [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md), [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-landing-page.md), and [Numbers and number groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NumberGroups.md).
 

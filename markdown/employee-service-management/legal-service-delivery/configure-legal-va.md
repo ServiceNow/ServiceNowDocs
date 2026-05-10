@@ -23,7 +23,7 @@ Role required: admin or virtual\_agent\_admin
 
 The Legal Virtual Agent Conversations application installs various [virtual agent conversation topics](../concept/legal-va-conversations.md#section_legal_va_convo) for seeking legal services.
 
-These virtual agent conversation topics are built using ServiceNow Virtual Agent Designer, so make sure you’re familiar with the Virtual Agent Designer basics.
+These virtual agent conversation topics are built using ServiceNow Virtual Agent Designer, so make sure you’re familiar with the [Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md) basics.
 
 ## Procedure
 
@@ -33,15 +33,15 @@ These virtual agent conversation topics are built using ServiceNow Virtual Agent
 
     **Note:** All conversation topics for legal services are grouped under the Legal Service Delivery category.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d757443e114">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d757447e114">
 
 Options
 
-</th><th align="left" id="d757443e117">
+</th><th align="left" id="d757447e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d757443e123">
+</th></tr></thead><tbody><tr><td id="d757447e123">
 
 **Create a new virtual agent conversation topic**
 
@@ -49,9 +49,9 @@ Steps
 
 1.  In the Virtual Agent Designer page, click **+ Create.**.
 2.  On the form, fill in the fields.
-For more information on creating a conversation topic and description of fields on the form, see Create a Virtual Agent topic.
+For more information on creating a conversation topic and description of fields on the form, see [Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
 
-</td></tr><tr><td id="d757443e148">
+</td></tr><tr><td id="d757447e148">
 
 **Customize a predefined conversation topic**
 
@@ -62,7 +62,7 @@ For more information on creating a conversation topic and description of fields 
 
 **Tip:** You can also duplicate the topic and then make the required changes in the newly created topic. To duplicate the topic, click **Duplicate**.
 
-For more information, see duplicate the topic.
+For more information, see [duplicate the topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md).
 
 3.  \(Optional\) Preview and test the topic in a chat test window by clicking **Test**.
 
@@ -70,7 +70,7 @@ For more information, see duplicate the topic.
 </td></tr></tbody>
 </table>3.  Click **Publish** to make the conversation topic available to employees on the Virtual Agent client.
 
-    For more information, see Publish a Virtual Agent topic.
+    For more information, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md).
 
 
 **Parent Topic:**[Legal Virtual Agent Conversations](../concept/legal-va-conversations.md)

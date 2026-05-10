@@ -27,7 +27,7 @@ Role required: password\_reset\_admin
 
 There are two ways to request a plugin:
 
--   Access the Now Support Service Catalog directly by selecting **All** &gt; **Service Catalog** &gt; **Activate Plugin** on Now Support. For more information about the list of plugins, see List of Plugins.
+-   Access the Now Support Service Catalog directly by selecting **All** &gt; **Service Catalog** &gt; **Activate Plugin** on Now Support. For more information about the list of plugins, see [List of Plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md).
 -   Access the Now Support Service Catalog through the All Applications page on your instance by following these steps.
 
 ### Procedure

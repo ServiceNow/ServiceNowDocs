@@ -83,5 +83,5 @@ The widgets in the CI Health tile on the CI form show the aggregated health for 
 
 [Enable and configure a CMDB Health Dashboard job](t_EnableCMDBHealthDashboardJob.md)
 
-[bundle-psec.c_HistoryTimeline]
+[Timeline of CI changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistoryTimeline.md)
 

@@ -19,7 +19,7 @@ To view the Universal Request Process Overview dashboard, navigate to **Universa
 
 You can view the dashboard in the Next Experience UI Framework. Select any indicator widget to view it's details in a list view.
 
-Use the **Edit** button to modify the dashboard and the widgets with the in-line editor. For more information, see Edit Platform Analytics dashboards.
+Use the **Edit** button to modify the dashboard and the widgets with the in-line editor. For more information, see [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-in-ac.md).
 
 ![Universal Request Reporting Process overview tab.](../image/ur-process-overview.png "Process Overview tab")
 

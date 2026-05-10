@@ -34,7 +34,7 @@ Card configuration enables admins to tailor the display and functionality of spa
     |Field|Description|
     |-----|-----------|
     |Name|Name of the card configuration.|
-    |Template|UI template that is used for the card. You can use existing templates or create your own by using UI macros. For more information, see UI macros.|
+    |Template|UI template that is used for the card. You can use existing templates or create your own by using UI macros. For more information, see [UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UIMacros.md).|
     |Order|Order of the card configuration.|
     |Table|Table that is used to generate the fields on the card.|
     |Applications|Applications that use the card configuration. You can select Location Directory, Reservation, and Kiosk Indoor Mapping.|
@@ -43,7 +43,7 @@ Card configuration enables admins to tailor the display and functionality of spa
 
     The conditions determine where the card is displayed in the selected applications. For example, if the table is `Space [sn_wsd_core_space]` and the condition is `Active is true`, the card is displayed only for active spaces.
 
-    The fields in the condition builder are fetched from the selected table. For more information about the condition builder, see Condition builder.
+    The fields in the condition builder are fetched from the selected table. For more information about the condition builder, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 5.  Select **Submit**.
 

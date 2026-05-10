@@ -174,5 +174,5 @@ When creating user criteria for your system, consider the following recommendati
     -   Users in company Cloud Dimensions OR in Madrid
     -   Users belonging to the Group Development, IT, or Sales
     -   Users with role itil, asset\_manager, or catalog\_admin
--   Test user criteria on a development or test instance, and then transfer the records from the user criteria tables and catalog records to your production instance using update sets.
+-   Test user criteria on a development or test instance, and then transfer the records from the user criteria tables and catalog records to your production instance using [update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md).
 

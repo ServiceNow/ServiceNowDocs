@@ -186,13 +186,13 @@ If you select this option, the **Advanced MID Server Configuration** tab display
 
                 -   To filter this list based on MID Server capabilities, select the Unlock Capabilities icon \(![Unlock capabilities icon.](../image/unlock-icon.png)\) in the **Capabilities** field. After you unlock the field, select the Lookup using list icon \(![Lookup using list icon.](../image/search-icon.png)\) to search for and select the desired capabilities.
                 -   To filter this list based on MID Server applications, select the Lookup using list icon \(![Lookup using list icon.](../image/search-icon.png)\) in the **MID Application** field to search for and select the desired applications.
-See MID Server selection for more information on MID Server capabilities and applications.
+See [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md) for more information on MID Server capabilities and applications.
 
             -   **Specific MID Server**: Enables you to select a specific MID Server for the connection.
 
 If you select this option, the **Advanced MID Server Configuration** tab displays the **MID Server** field. Select the Lookup using list icon \(![Lookup using list icon.](../image/search-icon.png)\) in the **MID Server** field to search for and select the MID Server that you want to use for the connection.
 
-**Important:** To select a specific MID Server for the connection, you must deselect the **Included in application ALL** check box for any applications that are configured to use the specified MID Server. For more information on this check box, refer to the Select applications to include in the definition of ALL for a MID Server section of Configure a default MID Server for each application.
+**Important:** To select a specific MID Server for the connection, you must deselect the **Included in application ALL** check box for any applications that are configured to use the specified MID Server. For more information on this check box, refer to the Select applications to include in the definition of ALL for a MID Server section of [Configure a default MID Server for each application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SpecifyMIDServerApplications.md).
 
             -   **Specific MID Cluster**: Enables you to select a specific MID Server cluster for the connection.
 
@@ -203,7 +203,7 @@ If you select this option, the **Advanced MID Server Configuration** tab display
 
     Use one of the following options to set up the connection timeout:
 
-    -   **glide.http.outbound.max\_timeout.enabled system property**: The ServiceNow AI Platform **glide.http.outbound.max\_timeout.enabled** system property enables you to specify the number of seconds that RESTMessageV2 and SOAPMessageV2 APIs wait for a response from a synchronous call. You can configure this system property by opening a new tab or window and then navigating to **System Properties** &gt; **All Properties** &gt; **glide.http.outbound.max\_timeout.enabled**. If this system property is set to **true** or is not available on your ServiceNow instance, your instance uses a default timeout value of 30 seconds. If this system property is set to **false**, your ServiceNow instance uses a default timeout value 600 seconds. See Available system properties for more information on this system property.
+    -   **glide.http.outbound.max\_timeout.enabled system property**: The ServiceNow AI Platform **glide.http.outbound.max\_timeout.enabled** system property enables you to specify the number of seconds that RESTMessageV2 and SOAPMessageV2 APIs wait for a response from a synchronous call. You can configure this system property by opening a new tab or window and then navigating to **System Properties** &gt; **All Properties** &gt; **glide.http.outbound.max\_timeout.enabled**. If this system property is set to **true** or is not available on your ServiceNow instance, your instance uses a default timeout value of 30 seconds. If this system property is set to **false**, your ServiceNow instance uses a default timeout value 600 seconds. See [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) for more information on this system property.
     -   **Connection timeout field**: The **Connection timeout** field on the HTTP\(s\) Connection form enables you to specify the number of seconds that your ServiceNow instance waits to establish the given connection.
 
         **Important:** This option is applicable only in the San Diego and later releases. In the Rome and earlier releases, you must set up the connection timeout using only the **glide.http.outbound.max\_timeout.enabled** system property.

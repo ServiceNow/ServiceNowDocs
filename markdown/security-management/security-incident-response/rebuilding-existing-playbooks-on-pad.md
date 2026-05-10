@@ -21,8 +21,8 @@ You can customize each activity to render the required actions within them and h
 
 For more information, refer to the following sections.
 
--   Activity definitions
--   Process Automation Designer
+-   [Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activity-definitions.md)
+-   [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md)
 
 **Parent Topic:**[Using SIR Workspace](../../secops-analyst-workspace/reference/using-sir-workspace.md)
 

@@ -52,15 +52,15 @@ You can use the following elements to create or edit your dashboard.
 
 3.  From the dashboard header, select **Edit**.
 
-<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d275327e230">
+<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d275331e230">
 
 For this
 
-</th><th align="left" id="d275327e233">
+</th><th align="left" id="d275331e233">
 
 Perform these steps
 
-</th></tr></thead><tbody><tr><td id="d275327e239">
+</th></tr></thead><tbody><tr><td id="d275331e239">
 
 **Add a tab**
 
@@ -74,7 +74,7 @@ A new tab appears with the default name New Tab.
 3.  Press Enter to update the name of the tab.
 
 
-</td></tr><tr><td id="d275327e265">
+</td></tr><tr><td id="d275331e265">
 
 **Add a dashboard element**
 
@@ -111,7 +111,7 @@ The dashboard is updated with the latest changes.
 ## What to do next
 
 -   Add more elements and customize your dashboard as required.
--   For detailed instructions on editing a dashboard using the Platform Analytics experience in Portfolio Planning, see Edit Platform Analytics dashboards.
+-   For detailed instructions on editing a dashboard using the Platform Analytics experience in Portfolio Planning, see [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-in-ac.md).
 
 **Parent Topic:**[Create a dashboard](create-dashboard-ppw.md)
 

@@ -75,7 +75,7 @@ Enable or disable custom notifications.
 Enable or disable individual delivery channels.
 
 </td></tr></tbody>
-</table>    For more information about advanced notification preferences, see System and custom notification and delivery channel preferences in Next Experience.
+</table>    For more information about advanced notification preferences, see [System and custom notification and delivery channel preferences in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/advanced-notification-prefrences.md).
 
 4.  Select the **Next Experience** tab.
 

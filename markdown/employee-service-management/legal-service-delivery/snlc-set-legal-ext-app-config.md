@@ -23,8 +23,8 @@ The Legal Service Delivery applications use spokes from Integration Hub to integ
 
     The administrator can use the Integration Hub to install and configure the following external storage provider spokes for saving documents attached to legal contract requests and signed contract documents:
 
-    -   Google Drive spoke
-    -   Microsoft OneDrive spoke
+    -   [Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/googledrive-spoke.md)
+    -   [Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/onedrive-spoke.md)
 -   **Configure an external storage provider**
 
     The legal configurator can set up the external storage app integrations for legal apps from **Legal Integrations**. For more information, see [Configure an external storage system for legal requests and legal matters](../../legal-request-management/task/integrate-legal-ext-storage.md).
@@ -36,8 +36,8 @@ The Legal Service Delivery applications use spokes from Integration Hub to integ
 
     The administrator can use the Integration Hub to install and configure the following electronic signature provider spokes for contract documents:
 
-    -   Adobe Acrobat Sign spoke
-    -   Docusign spoke
+    -   [Adobe Acrobat Sign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/adobe-sign-spoke.md)
+    -   [Docusign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/docusign-spoke.md)
 -   **Set up the electronic signature provider app**
 
     The legal configurator can set up the electronic signature app integrations for legal apps from **Legal Integrations**. For more information, see [Configure an e-signature provider for legal contracts](../../legal-simple-contracts/task/integrate-legal-contracts-esign.md).

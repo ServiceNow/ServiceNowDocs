@@ -43,7 +43,7 @@ Role required: sp\_admin
 
 9.  On the Menu item form, fill in the fields.
 
-    For a description of the field values, see Menu Item form.
+    For a description of the field values, see [Menu Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/menu-item-form.md).
 
 10. Select **Update**.
 

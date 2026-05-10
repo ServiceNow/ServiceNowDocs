@@ -18,7 +18,7 @@ Configure a content processor to enable employees to view private videos without
 ## Before you begin
 
 -   Role required: sn\_cd.content\_admin and fd\_read\_flows
--   Create a subflow in Workflow Studio with the following inputs and outputs:
+-   [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow.md) with the following inputs and outputs:
 
     ![necessary inputs and outputs for the authorization subflow](../images/subflows-auth.png)
 

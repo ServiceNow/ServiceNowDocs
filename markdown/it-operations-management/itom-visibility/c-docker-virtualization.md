@@ -27,7 +27,7 @@ Discovery runs the Docker Engine process classifier in the network. If the class
 
     The user whose credentials are used to perform Docker Discovery must have privileges defined by one of these methods:
 
-    -   Provide a user with elevated rights for running commands, since the Docker daemon runs as the root user. The Docker pattern supports the use of privileged commands, such as **sudo** or **pbrun**, to run as the root user.
+    -   Provide a user with elevated rights for running commands, since the Docker daemon runs as the root user. The Docker pattern supports the use of [privileged commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_PrivilegedCommandsForMIDServer.md), such as **sudo** or **pbrun**, to run as the root user.
     -   Assigned to a group named **docker**, which has special privileges for running Docker commands. For instructions on setting up a group, see documentation on [Docker](https://www.docker.com/).
 -   **Latest patterns**
 
@@ -351,7 +351,7 @@ Discovery uses an application rule identifier to find the Docker engine and then
 
 -   **Containment and hosting rules**
 
-    Docker Discovery uses these Create or edit a collection of containment rules and Create or edit a collection of hosting rules rules to create configuration items \(CI\) from the data returned by the Docker Pattern. After Discovery identifies the Docker engine by its relationship to the Application \[cmdb\_ci\_appl\] table, it uses these rules to identify the specific CIs connected to that engine from their relationships to one another. By connecting the components to one another in this fashion, from the application down, starting with the engine, Discovery avoids creating duplicate CIs for components from other Docker engines that use the same name or image\_id.
+    Docker Discovery uses these [Create or edit a collection of containment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-dependent-relationship.md) and [Create or edit a collection of hosting rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-dependent-relationship.md) rules to create configuration items \(CI\) from the data returned by the Docker Pattern. After Discovery identifies the Docker engine by its relationship to the Application \[cmdb\_ci\_appl\] table, it uses these rules to identify the specific CIs connected to that engine from their relationships to one another. By connecting the components to one another in this fashion, from the application down, starting with the engine, Discovery avoids creating duplicate CIs for components from other Docker engines that use the same name or image\_id.
 
     |Parent|Child|Relationship|
     |------|-----|------------|

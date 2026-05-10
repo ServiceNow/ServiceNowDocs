@@ -17,7 +17,7 @@ Request an exception on policies that are dynamically mapped to conditions.
 
 ## Before you begin
 
-You need to have the Governance, Risk, and Compliance \(GRC\) application installed to have the Request Exception button to show up on the mappings list. If you don't have the GRC application, see the Download a GRC application from the ServiceNow Store for the first time topic.
+You need to have the Governance, Risk, and Compliance \(GRC\) application installed to have the Request Exception button to show up on the mappings list. If you don't have the GRC application, see the [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/download-grc-first-time.md) topic.
 
 Role required: sn\_pace.admin
 

@@ -35,15 +35,15 @@ Ensure that both the Now Assist for Setup and IT Service Management applications
 
 4.  From the Configure IT Service Management page, perform any of the following tasks.
 
-<table><thead><tr><th align="left" id="d460390e156">
+<table><thead><tr><th align="left" id="d460421e156">
 
 Choice
 
-</th><th align="left" id="d460390e159">
+</th><th align="left" id="d460421e159">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d460390e165">
+</th></tr></thead><tbody><tr><td id="d460421e165">
 
 **Configuration summary in the left navigation pane**
 
@@ -51,7 +51,7 @@ Description
 
 Provides the summary of configuration activity and progress.
 
-</td></tr><tr><td id="d460390e174">
+</td></tr><tr><td id="d460421e174">
 
 **Configure with Now Assist**
 
@@ -59,20 +59,20 @@ Provides the summary of configuration activity and progress.
 
 Configures Simplified IT Service Management using the Now Assist agent. It also displays all available AI agents in IT Service Management.
 
-</td></tr><tr><td id="d460390e192">
+</td></tr><tr><td id="d460421e192">
 
 **Configurations for Platform setup, employee, and fulfiller experiences in the left navigation pane**
 
 </td><td>
 
-For each module in the left navigation pane, view the default configurations \(if available\) and modify if necessary. -   Platform setup and integrations. See Platform module configuration in Now Assist for Setup.
+For each module in the left navigation pane, view the default configurations \(if available\) and modify if necessary. -   Platform setup and integrations. See [Platform module configuration in Now Assist for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md).
 -   Employee experience. See [Configuring the employee experience in Simplified IT Service Management](../concept/configuring-employee-experience-ai-native-itsm.md).
 -   Fulfiller experience. See [Configuring the fulfiller experience in Simplified IT Service Management](../concept/configuring-fulfiller-experience-ai-native-itsm.md).
-For information about configuration page options, see Understand the Configuration page flow in Now Assist for Setup.
+For information about configuration page options, see [Understand the Configuration page flow in Now Assist for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-configure-il.md).
 
 **Important:** For each configuration, use the guided configuration experience or the conversation AI agent \(if available\). You can use the conversation AI agent by selecting **Configure with Now Assist** on that configuration UI page. For information about AI agents for configurations, see [AI agents and agentic workflows in Simplified IT Service Management](../reference/agents-ai-native-it-service-desk.md).
 
-</td></tr><tr><td id="d460390e260">
+</td></tr><tr><td id="d460421e260">
 
 **Package and download**
 

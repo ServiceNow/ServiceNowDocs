@@ -72,7 +72,7 @@ Order of the visitor badge template. A template with a lower order is selected f
 </td></tr></tbody>
 </table>4.  In the **Apply if** field, add conditions for when the badge template is applicable.
 
-    For more information about conditions, see Condition builder.
+    For more information about conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
     For example, `Visitor type is Client` specifies that the badge is printed for clients.
 

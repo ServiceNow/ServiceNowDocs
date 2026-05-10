@@ -13,7 +13,7 @@ breadcrumb: [Customer Engagement Sequences reference, Lead and opportunity manag
 
 The Automation form enables you to configure properties and pull data from referenced tables for an automated call attempt.
 
-Dot-walking enables you to access columns from referenced tables so you can pull data beyond the current record into your configuration. For more information, see Dot-walking examples.
+Dot-walking enables you to access columns from referenced tables so you can pull data beyond the current record into your configuration. For more information, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dot-walking-examples.md).
 
 <table id="table_dmy_q1m_ghc"><thead><tr><th>
 

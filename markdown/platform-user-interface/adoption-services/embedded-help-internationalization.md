@@ -19,7 +19,7 @@ Existing embedded help content records are written in English by default. You ca
 
 ## Understanding localized embedded help content
 
-To translate English embedded help content into another language or to create embedded help content in a language other than English, your working session must be configured to the language in which you want to write. For example, you must be working in a French session if you want to write embedded help content in French. Refer to Localization settings for more information.
+To translate English embedded help content into another language or to create embedded help content in a language other than English, your working session must be configured to the language in which you want to write. For example, you must be working in a French session if you want to write embedded help content in French. Refer to [Localization settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/system-localization-landing.md) for more information.
 
 Configure embedded help content to display in the language of your choice by accessing the **Language** field on the Embedded Help Queue \[sys\_embedded\_help\_queue\] table. Depending on the foreign language translations activated on your instance, you can choose which language to display your embedded help content.
 

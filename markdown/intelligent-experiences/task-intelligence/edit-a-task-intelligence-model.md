@@ -15,19 +15,19 @@ breadcrumb: [Manage machine learning models with Task Intelligence, Task Intelli
 
 Retrain your machine learning models or edit what they predict to better align with your business goals.
 
--   **Edit a model to predict incident fields**
+-   **[Edit a model to predict incident fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/edit-your-model.md)**
 
     Edit the incident prediction model that has already been trained and deployed. Change the model configurations, view the updated training results, and redeploy the model.
 
--   **Create and edit a case field prediction model**
+-   **[Create and edit a case field prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-cat-solution.md)**
 
     Create, train, and edit a model to predict fields for customer service cases.
 
--   **Create a model to predict case sentiment**
+-   **[Create a model to predict case sentiment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-sentiment-solution.md)**
 
     Edit and test the pre-trained sentiment model to predict sentiment for customer service cases.
 
--   **Create a model to detect case language**
+-   **[Create a model to detect case language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-language-solution.md)**
 
     Edit and test the pre-trained model to detect the language used to create customer service cases.
 

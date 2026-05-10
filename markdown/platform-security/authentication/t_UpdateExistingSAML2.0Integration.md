@@ -46,7 +46,7 @@ Test the Update.
 
 ## Procedure
 
-1.  Add a system property called glide.authenticate.sso.saml2.debug with a value of true.
+1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) called glide.authenticate.sso.saml2.debug with a value of true.
 
 2.  Attempt SAML 2.0 login.
 

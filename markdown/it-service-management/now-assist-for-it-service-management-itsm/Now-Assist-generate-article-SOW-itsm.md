@@ -20,7 +20,7 @@ As an agent or knowledge writer, quickly generate knowledge articles from resolv
 
 You can generate a knowledge article in any incident state that is set by your administrator using the **com.snc.incident.create\_knowledge.multistate.enable** system property. The incident must also not have an existing knowledge article that is associated with it.
 
-The Knowledge generation skill is turned on by default. The skill will be automatically available to appropriate role users for the application. When new customers install a Now Assist product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see Now Assist skills, agents, and agentic workflows on by default.
+The Knowledge generation skill is turned on by default. The skill will be automatically available to appropriate role users for the application. When new customers install a Now Assist product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 **Important:**
 
@@ -75,7 +75,7 @@ Role required: itil
     **Note:**
 
     -   The **Create knowledge** UI action is only visible when an incident doesn't have an existing knowledge article that is associated with it.
-    -   When the **Create knowledge** action is initiated, it gets redirected to an interceptor page. The Knowledge article interceptor page displays only when the KCS integration for incident management \(com.snc.incident.knowledge\) plugin is not installed. A series of steps is then executed within the Knowledge Management application.
+    -   When the **Create knowledge** action is initiated, it gets redirected to an interceptor page. The Knowledge article interceptor page displays only when the KCS integration for incident management \(com.snc.incident.knowledge\) plugin is not installed. A series of steps is then executed within the [Knowledge Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management.md).
 
         This includes determining if the following actions must be done:
 
@@ -124,5 +124,5 @@ Role required: itil
 **Related topics**  
 
 
-[bundle-platcap.now-assist-knowledge-management]
+[Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/now-assist-knowledge-management.md)
 

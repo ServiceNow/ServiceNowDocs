@@ -15,7 +15,7 @@ breadcrumb: [Reference, Healthcare and Life Sciences Service Management Core, He
 
 Several types of components are installed with installation of the Healthcare and Life Sciences Service Management Core application, including user roles, tables, plugins, ServiceNow Store applications, and business rules.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -1636,5 +1636,5 @@ Before insert and update
 Sets subscriber to the patient if the relationship is set to Self. Validates the relationship field value if the subscriber is set.
 
 </td></tr></tbody>
-</table>**Note:** To learn about before query business rules, see Before Query business rules.
+</table>**Note:** To learn about before query business rules, see [Before Query business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-before-query-business-rules.md).
 

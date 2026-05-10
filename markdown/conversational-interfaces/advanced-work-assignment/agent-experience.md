@@ -29,8 +29,8 @@ AWA admins can define the presence states that agents choose in their inbox to i
 
 AWA developers with the awa\_integration\_user role can also use JavaScript or REST APIs to get or set agent presence and agent channel availability. For more information, see
 
--   Agent Presence API \(REST APIs\)
--   Agent - Global \(JavaScript APIs\)
+-   [Agent Presence API \(REST APIs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/agent-api.md)
+-   [Agent - Global \(JavaScript APIs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_AgentAPI.md)
 
 ## Agent rejection controls
 

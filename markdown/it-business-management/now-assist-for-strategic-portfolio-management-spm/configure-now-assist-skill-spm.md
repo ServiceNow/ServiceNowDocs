@@ -21,7 +21,7 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 ## About this task
 
-Activate the skills that are most relevant to your use cases and business needs. For a full list of available skills, see Now Assist skills. After the skills have been activated, they’re accessible across the ServiceNow AI Platform based on the availability and display settings you choose.
+Activate the skills that are most relevant to your use cases and business needs. For a full list of available skills, see [Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md). After the skills have been activated, they’re accessible across the ServiceNow AI Platform based on the availability and display settings you choose.
 
 ## Procedure
 
@@ -54,7 +54,7 @@ Activate the skills that are most relevant to your use cases and business needs.
     Options vary from skill to skill. Some options are only available for certain skills.
 
     -   **In-product desktop**: When selected, Now Assist skills are displayed on forms and workspaces.
-    -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see Activate the Now Assist panel standard chat.
+    -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
     -   **Core UI**: When selected, the Now Assist skill will display as a UI action in the Core UI.
     Select the down arrow next to the Display toggle to select the roles that can use the skill. Roles can be added by entering the name of the role in the User roles field. Existing roles can be removed by selecting the X icon in the role bubble. You must have at least one role specified, but you can add as many as you like.
 

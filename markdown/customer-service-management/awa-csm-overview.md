@@ -21,7 +21,7 @@ To use the shift-based assignment feature for customer service cases, you must e
 
 To use the chat feature with Advanced Work Assignment for CSM, you must also activate the Agent Chat plugin \(com.glide.interaction.awa\).
 
-For more information, see Activate related plugins for Advanced Work Assignment.
+For more information, see [Activate related plugins for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-related-plugins.md).
 
 ## Inbox layouts
 
@@ -42,14 +42,14 @@ Two case inbox layouts are included with the Case service channel.
 
 ## Variable work item sizing
 
-Organizations may like to size cases based on the complexity of the case, time and effort required to complete work. This helps in estimating agent utilization accurately. Advance work assignment currently treats every case as one unit of work. However, sometimes, certain cases may require more work than others. These cases may account for a greater share of an agent’s capacity. Work item sizing allows to size the case differently based on the case attributes. For more information, see Service channel capacity and utilization.
+Organizations may like to size cases based on the complexity of the case, time and effort required to complete work. This helps in estimating agent utilization accurately. Advance work assignment currently treats every case as one unit of work. However, sometimes, certain cases may require more work than others. These cases may account for a greater share of an agent’s capacity. Work item sizing allows to size the case differently based on the case attributes. For more information, see [Service channel capacity and utilization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-service-channel-capacity.md).
 
 ## Agent affinity
 
-Agent Affinity is an Advanced Work Assignment enhancement that enables you to streamline the routing of work items. Advanced Work Assignment automatically assigns work items based on historical, task-based, or account team affinity. For more information about agent affinity, see Using Agent Affinity.
+Agent Affinity is an Advanced Work Assignment enhancement that enables you to streamline the routing of work items. Advanced Work Assignment automatically assigns work items based on historical, task-based, or account team affinity. For more information about agent affinity, see [Using Agent Affinity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-agent-affinity-concept.md).
 
 **Related topics**  
 
 
-[bundle-convint.awa-overview]
+[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md)
 

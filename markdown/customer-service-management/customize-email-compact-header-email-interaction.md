@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-For more information on UI Builder, see UI Builder.
+For more information on UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
 
 **Note:** By default, **Show Email Compact Header** is enabled for Email Interaction for CSM.
 

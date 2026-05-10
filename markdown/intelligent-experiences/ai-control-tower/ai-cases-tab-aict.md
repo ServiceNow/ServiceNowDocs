@@ -61,7 +61,7 @@ You can drill down into the data on each of the following widgets to learn more 
 
 You can create AI cases and issues from the AI cases tab in both the AI Control Tower Workspace and the AI Risk and Compliance Workspace. The Create AI case button lets you initiate a new AI case record directly from the monitoring dashboard. Use this option to document, investigate, or track issues, risks, or compliance concerns related to AI models or datasets. Select the dropdown arrow next to Create AI case, and then select Create issue to create an issue related to an existing AI case.
 
-For more information, see Create an AI case in the AI Risk and Compliance workspace and Create an AI issue in the AI Risk and Compliance workspace.
+For more information, see [Create an AI case in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/create-ai-case-in-the-ai-risk-and-compliance-workspace.md) and [Create an AI issue in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/create-ai-issue-in-the-ai-risk-and-compliance-workspace.md).
 
 The following example shows the **AI cases** tab on the AI risk and compliance dashboard.
 
@@ -103,11 +103,11 @@ You can drill down into the data on each of the following widgets to learn more 
     -   Inquiries by business unit: You can see the distribution of inquiries across the various departments or functional areas of your organization. This distribution helps you to identify where most AI-related concerns originate so that you can plan on more targeted risk mitigation or awareness training.
     -   Open and closed inquiries: You can track the volume of inquiries that are initiated and resolved within a selected time range. This tracking enables you to track how your workflow is performing and to plan for future capacity.
 
-Use the **Create inquiry** button to initiate a new inquiry. You can make timely reports of AI-related concerns or clarification requests.
+Use the [**Create inquiry**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/raise-ai-inquiry.md) button to initiate a new inquiry. You can make timely reports of AI-related concerns or clarification requests.
 
 The following example shows the **Inquiries** tab on the AI risk and compliance dashboard.
 
 ![Inquiries tab on the AI risk and compliance dashboard. See the text in the previous section for descriptions of the different widgets on the dashboard.](../../../product/grc-ai-risk-compliance/image/ai-cases-inquiries-tab.png "Inquiries tab on the AI risk and compliance dashboard")
 
-For more information, see AI Risk and Compliance documentation.
+For more information, see [AI Risk and Compliance documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance.md).
 

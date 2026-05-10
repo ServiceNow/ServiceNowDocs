@@ -17,7 +17,7 @@ The **Get Newly Created Resource via REST API Test** test is provided with the A
 
 ## Before you begin
 
-Review the REST APIs and the [Send REST Request- Inbound- REST API Explorer](../reference/test-steps-rest-category.md#) configuration step information before creating this test.
+Review the [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md) and the [Send REST Request- Inbound- REST API Explorer](../reference/test-steps-rest-category.md#) configuration step information before creating this test.
 
 Role required: atf\_ws\_designer
 

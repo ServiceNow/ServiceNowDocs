@@ -16,7 +16,7 @@ Follow the Technical Editor option to create a dashboard using UI Builder. In UI
 
 ## Before you begin
 
-Creating dashboards in UI Builder is recommended for developers. For more information, see UI Builder.
+Creating dashboards in UI Builder is recommended for developers. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
 
 It isn’t possible to edit the dashboard's details in the Analytics Overview when you create a dashboard in the Technical Editor. However, you can share a technical dashboard from the Analytics Overview.
 
@@ -54,8 +54,8 @@ The technical editor lets you add any UI Builder component to your dashboard. Yo
 
     Layouts organize container content in patterns.
 
-    -   Choose **Grid** to specify the number of rows and columns in the selected container. For more information, see Using CSS Grid layouts to build a page.
-    -   Choose **Flexbox** for more flexibility in the layouts between containers. For more information, see Using Flexbox layouts in UI Builder.
+    -   Choose **Grid** to specify the number of rows and columns in the selected container. For more information, see [Using CSS Grid layouts to build a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/css-grid-uib.md).
+    -   Choose **Flexbox** for more flexibility in the layouts between containers. For more information, see [Using Flexbox layouts in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/flexbox-uib.md).
 8.  Add a component to the container.
 
     Select it from the **Components** menu on the left or click the Add content \(**+**\) icon in the staging area.

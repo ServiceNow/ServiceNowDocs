@@ -31,7 +31,7 @@ If ServiceNow Spotlight and Automation Center are installed, you get the followi
     /spotlight_groups.do?sys_id=e037711dc3a11110995486d91840dd03​
     ```
 
-    If you need a different criteria than the default criteria to set your execution priority, then you can customize the criteria to meet your requirements and create a new Spotlight group. For more information, see Create a Spotlight group
+    If you need a different criteria than the default criteria to set your execution priority, then you can customize the criteria to meet your requirements and create a new Spotlight group. For more information, see [Create a Spotlight group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/create-spotlight-group.md)
 
     For details about the default Spotlight criteria, see [Default criteria](default-spotlight-criteria.md).
 

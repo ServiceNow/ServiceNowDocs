@@ -70,6 +70,6 @@ Agentic Contact Center for Banking contains two Knowledge Graph tags records tha
 
 For more information, see the following:
 
--   Knowledge Graph
--   Tagging in Knowledge Graph Designer
+-   [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md)
+-   [Tagging in Knowledge Graph Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/tagging-in-knowledge-graph.md)
 

@@ -323,7 +323,7 @@ category
 
 [Microsoft Azure Cloud discovery using patterns](../../service-mapping/reference/azure-cloud-discovery-patterns.md)
 
-[bundle-platcap.cmdb-integration-azure]
+[Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-azure.md)
 
 [Agent Client Collector Discovery](../../agent-client-collector/concept/acc-discovery.md)
 

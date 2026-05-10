@@ -23,8 +23,8 @@ Export data from the ServiceNow AI Platform in a variety of formats.
 
 You can also export data from your instance using the following options:
 
--   Export multiple records from a table via a web services request. For example, you can create an external application or process to automate the retrieval of data from an instance via web services such as REST or SOAP. For more information, see Web services.
--   Push all the data that you want to export to an external file by creating an export set. For more information, see Export sets.
+-   Export multiple records from a table via a web services request. For example, you can create an external application or process to automate the retrieval of data from an instance via web services such as REST or SOAP. For more information, see [Web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_AvailableWebServices.md).
+-   Push all the data that you want to export to an external file by creating an export set. For more information, see [Export sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-export-sets/c_ExportSets.md).
 
 ## Associated roles
 

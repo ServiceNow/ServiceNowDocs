@@ -17,7 +17,7 @@ Use the onboarding catalog items as a self-service approach to onboard your DevO
 
 ## Onboarding tools and apps
 
-**Note:** This content pertains to the Classic Environment, which refers to working in lists of records and on record forms directly, not in the Configurable Workspace interface. You can work in the Classic Environment with Next Experience active, or with it inactive, which is referred to as Core UI, \(formerly known as UI16\).
+**Note:** This content pertains to the Classic Environment, which refers to working in lists of records and on record forms directly, not in the [Configurable Workspace interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md). You can work in the Classic Environment with Next Experience active, or with it inactive, which is referred to as Core UI, \(formerly known as UI16\).
 
 Use the ServiceNow Service Catalog to request the onboarding of tools and apps. Fill out the onboarding form details for a tool or an app and submit the request. You can also import the DevOps data for the app that you are creating for swifter and easier onboarding.
 
@@ -32,7 +32,7 @@ You can onboard DevOps tools and apps using self-service catalog items.
 -   Navigate to **All &gt; Service Catalog &gt; Catalog Definitions &gt; Maintain Items &gt; DevOps Tool Onboarding**, and set the **Active** state to **True** to activate the **DevOps Tool Onboarding** maintain item. By default the catalog items \(Tool Onboarding\) is turned off.
 -   To add the DevOps catalog items in the Service Catalog categories in Service Portal, set the category of these items to **DevOps** and add the **Service Catalog** catalog. If the **DevOps** category is not available, you must create a new category called **DevOps** from the catalog item record itself and assign the **DevOps Onboarding** catalog to it.
 -   To add the DevOps catalog items in Employee Service Center, add a new topic in the **Assigned Topics** related list with taxonomy as **Employee** in the **IT &gt; IT for IT** section. The Assigned Topics related list is not available in the Default view of the Catalog Item form. To add it, select **Additional icons &gt; Configure &gt; Related Lists** and move the **Connected Content → Catalog item** field to the selected section.
--   Navigate to **All &gt; Flow Designer &gt; Flows**, and activate the **Request for onboarding approval** flow, so that the tool or app onboarding requests are approved by default. If you want to request manual approval for onboarding catalog items \(i.e. from a user other than the DevOps system user\), you can update the rule set in the **Ask For Approval** action of the flow. You can configure manual request approval for such items by configuring the fulfillment process for the catalog item. For more information, see Service Catalog request fulfillment.
+-   Navigate to **All &gt; Flow Designer &gt; Flows**, and activate the **Request for onboarding approval** flow, so that the tool or app onboarding requests are approved by default. If you want to request manual approval for onboarding catalog items \(i.e. from a user other than the DevOps system user\), you can update the rule set in the **Ask For Approval** action of the flow. You can configure manual request approval for such items by configuring the fulfillment process for the catalog item. For more information, see [Service Catalog request fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-fulfillment.md).
 -   Customize roles for approvals of the request for onboarding approval flow from Flow Designer.
 
 ## Onboarding at scale
@@ -97,8 +97,8 @@ You can also use the onboarding APIs to onboard DevOps tools &amp; apps in bulk 
 }
 ```
 
--   Onboard DevOps apps at scale by using the DevOps app onboarding API. The POST/devops/onboarding/app request creates an onboarding app event that is asynchronously processed by the DevOps service. For more information, see POST/devops/onboarding/app.
--   Onboard DevOps tools at scale by using the DevOps tool onboarding API. The POST/devops/onboarding/tool request creates an onboarding tool event that is asynchronously processed by the DevOps service. For more information, see POST/devops/onboarding/tool.
+-   Onboard DevOps apps at scale by using the DevOps app onboarding API. The POST/devops/onboarding/app request creates an onboarding app event that is asynchronously processed by the DevOps service. For more information, see [POST/devops/onboarding/app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/devops-api.md).
+-   Onboard DevOps tools at scale by using the DevOps tool onboarding API. The POST/devops/onboarding/tool request creates an onboarding tool event that is asynchronously processed by the DevOps service. For more information, see [POST/devops/onboarding/tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/devops-api.md).
 
 -   **[Importing historical data for DevOps tools](import-historical-data-devops-catalog.md#)**  
 Use the service catalog to onboard a new app and import historical DevOps data for that app. Enable polling to import data that is mapped to associated plans, repositories and pipelines on a scheduled frequency.

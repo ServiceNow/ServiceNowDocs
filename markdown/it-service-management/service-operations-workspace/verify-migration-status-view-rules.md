@@ -47,7 +47,7 @@ At the end of the migration process, a confirmation message specifies if the mig
         -   SOW records open in the same view as ITSM Agent Workspace records.
     6.  To modify any view rule in SOW to match settings in **All** &gt; **sysrule\_view\_workspace.list**.
 
-        For more information about configuring view rules, see Create a view rule.
+        For more information about configuring view rules, see [Create a view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateAViewRule.md).
 
         **Note:** Preconfigured view rules for SOW might get turned off after the migration.
 

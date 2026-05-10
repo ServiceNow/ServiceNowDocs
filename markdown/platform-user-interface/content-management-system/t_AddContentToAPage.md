@@ -19,7 +19,7 @@ After you define the page settings, set the content of the page by adding conten
 
 Role required: content\_admin or admin
 
-**Note:** Do not add any type of report, such as a calendar, to iFrames. For more information on adding a report directly onto a page without using iFrames, see Embedding reports in Jelly.
+**Note:** Do not add any type of report, such as a calendar, to iFrames. For more information on adding a report directly onto a page without using iFrames, see [Embedding reports in Jelly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_EmbeddingReportsInJelly.md).
 
 ## Procedure
 

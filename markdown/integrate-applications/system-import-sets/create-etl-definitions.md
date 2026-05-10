@@ -120,7 +120,7 @@ In the onAfter script, the source and target data are both written to the import
 **Note:**
 
 -   For creating these definitions and mapping using a guided or step-by-step experience, refer to [Integration Hub - Import](../../integrationhub/concept/integrationhub-imports.md).
--   If your target table or application is related to CMDB, use the IntegrationHub ETL guided experience.
+-   If your target table or application is related to CMDB, use the [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) guided experience.
 
 **Related topics**  
 

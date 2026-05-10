@@ -15,7 +15,7 @@ breadcrumb: [Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, E
 
 If you have a sn\_hr\_core.case\_writer role, you can summarize a case, generate resolution notes, summarize the chat interactions with a requester, and propose resolutions more quickly with the Now Assist for HR Service Delivery \(HRSD\) application.
 
-**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see Now Assist skills, agents, and agentic workflows on by default.
+**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 -   **[Summarize a chat conversation using Now Assist for HR Service Delivery \(HRSD\)](../task/now-assist-hrsd-chat.md)**  
 Summarize a Virtual Agent chat history in the Now Assist for HR Service Delivery \(HRSD\) application. You can also summarize an interaction when the chat ends. The summary includes all points of the handoff, including the Virtual Agent conversation.

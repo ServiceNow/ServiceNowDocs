@@ -17,7 +17,7 @@ You can activate the Analytics Pack for Contract Management Pro plugin \(com.sn\
 
 ## Before you begin
 
-Activate the full, subscription version of Performance Analytics on the instance where you're activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see Activate your Performance Analytics subscription.
+Activate the full, subscription version of Performance Analytics on the instance where you're activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see [Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
 
 Review the [Analytics Pack for Contract Management Pro](https://store.servicenow.com/sn_appstore_store.do#!/store/application/88191096438402100a899afecab8f219) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 

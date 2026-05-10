@@ -43,7 +43,7 @@ The location is the site. Every user must set their location in the user profile
 
     3.  On the Equipment Model Entity form, enter the details.
 
-        Make sure that you select ISA 95 Default Template for the template and Site for the level.
+        Make sure that you select [ISA 95 Default Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/equipment-model-templates.md) for the template and Site for the level.
 
     4.  Select **Save**.
 
@@ -65,5 +65,5 @@ The functional location of the type site is available in the Digital Factory Wor
 **Related topics**  
 
 
-[bundle-optm.equipment-model-workspace]
+[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/equipment-model-workspace.md)
 

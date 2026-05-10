@@ -59,7 +59,7 @@ Fill in the description to provide further context about the purpose of the dash
 
 Mark the dashboard as certified to inform the user that the dashboard is for use across the organization.
 
- **Note:** You must have an admin role to mark a dashboard as certified. For more information, see Certify a Platform Analytics dashboard.
+ **Note:** You must have an admin role to mark a dashboard as certified. For more information, see [Certify a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/certify-db-ac.md).
 
 </td></tr><tr><td id="d35058e149">
 
@@ -75,7 +75,7 @@ View, add, or remove workspaces in which the dashboard can be viewed.**Note:** I
 
 </td><td>
 
-Specify one or more dashboard categories.**Note:** For more information, see Platform Analytics experience dashboard categories.
+Specify one or more dashboard categories.**Note:** For more information, see [Platform Analytics experience dashboard categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/db-categories.md).
 
 </td></tr><tr><td id="d35058e183">
 

@@ -130,7 +130,7 @@ The date this knowledge article expires. Articles do not appear in search result
 
  On the first day of each month, the application sends an email notification to a list of authorized recipients to remind them about articles that are about to expire in the next month. The recipient can then extend the **Valid to** date to continue using the article. For more information, see [Managing email notifications in Knowledge Management](../concept/email-notifications-km.md).
 
- **Note:** If the system date format or user preferences are set to use the `yy` year format, you might face issues when the **Valid to** date is set to the default date. Contact your system administrator or modify the user preferences to use a date format with the `yyyy` year format. For more information, see Global date and time field format and Personalize the system date format topics.
+ **Note:** If the system date format or user preferences are set to use the `yy` year format, you might face issues when the **Valid to** date is set to the default date. Contact your system administrator or modify the user preferences to use a date format with the `yyyy` year format. For more information, see [Global date and time field format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_FormatDateAndTimeFields.md) and [Personalize the system date format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_PersonalizeTheSystemDateFormat.md) topics.
 
 </td></tr><tr><td>
 

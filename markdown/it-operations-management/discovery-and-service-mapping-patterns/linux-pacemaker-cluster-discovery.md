@@ -25,7 +25,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Prerequisites
 
--   Configure SSH credentials for the Linux server.
+-   Configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md) for the Linux server.
 -   Provide a user with permissions to read the following files:
     -   `/etc/hosts`
     -   `/etc/corosync/corosync.conf`

@@ -31,15 +31,15 @@ Roles required: SPC Admin Group or SPC Analyst Group
 
 3.  Select one from the more options menu next to **Activate policy**.
 
-<table id="choicetable_mvf_ylm_dcc"><thead><tr><th align="left" id="d237403e120">
+<table id="choicetable_mvf_ylm_dcc"><thead><tr><th align="left" id="d237407e120">
 
 Option
 
-</th><th align="left" id="d237403e123">
+</th><th align="left" id="d237407e123">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d237403e129">
+</th></tr></thead><tbody><tr><td id="d237407e129">
 
 **Clone policy**
 
@@ -51,7 +51,7 @@ Select this option if you want to use the conditions of an existing policy as a 
 
  \(Optional\) Select Base policy and add one from the list for your new policy.
 
-</td></tr><tr><td id="d237403e147">
+</td></tr><tr><td id="d237407e147">
 
 **Create child policy**
 

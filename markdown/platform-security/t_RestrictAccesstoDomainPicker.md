@@ -31,7 +31,7 @@ Admins can grant access to users by creating a system property in the sys\_prope
 
 3.  Configure the property value as a comma-separated list of roles: **admin, itil**.
 
-    To learn more, see Configure Next Experience pickers
+    To learn more, see [Configure Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-pickers.md)
 
 
 **Parent Topic:**[Use domain selection menus](../concept/c_DisplayingDomainSelectionMenus.md)

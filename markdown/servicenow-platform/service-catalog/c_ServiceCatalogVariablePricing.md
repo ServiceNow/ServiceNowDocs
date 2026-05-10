@@ -38,7 +38,7 @@ Under the **Type Specifications** tab, you can specify the price in different cu
 -   Fixed
 -   Multiple
 
-For information on the pricing models, see Price fields .
+For information on the pricing models, see [Price fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/price-fields.md) .
 
 ## Multiple choice
 

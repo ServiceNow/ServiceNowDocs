@@ -105,7 +105,7 @@ sourceCredentialTag
 
 </td><td>
 
-Specific Credential aliases for Orchestration activities this activity must use to run SSH commands on the host.
+Specific [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_AssignCredsOrchActivities.md) this activity must use to run SSH commands on the host.
 
 </td></tr></tbody>
 </table>## Output variables

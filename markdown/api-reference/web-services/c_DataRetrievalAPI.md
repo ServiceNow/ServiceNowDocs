@@ -170,7 +170,7 @@ You can control the order that records appear in the JSON response. To set an or
 sysparm_query=active=true^ORDERBYnumber^ORDERBYDESCcategory
 ```
 
-filters all active records and orders the results in ascending order by number first, and then in descending order by category. For more information, see Encoded query strings.
+filters all active records and orders the results in ascending order by number first, and then in descending order by category. For more information, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 ## getKeys
 

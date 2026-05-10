@@ -25,8 +25,8 @@ For detailed information about roles that are installed with Data Catalog, see [
 
 -   Assign roles to users and groups using the Data Catalog feature.
 
-    -   Assign a role to a user
-    -   Assign a role to a group
+    -   [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md)
+    -   [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md)
 
 **Parent Topic:**[Configuring the data catalog](../../../build/workflow-data-fabric/concept/configure-data-catalog.md)
 

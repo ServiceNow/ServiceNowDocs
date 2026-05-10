@@ -31,7 +31,7 @@ After you have upgraded to the newer version, you can check the upgrade status.
 
 1.  Review all the updates from the upgrade center and select the data source files from the newer version.
 
-    You can access the upgrade history and review the updates from the Skipped Changes to Review related list. See Review skipped records using related lists.
+    You can access the upgrade history and review the updates from the Skipped Changes to Review related list. See [Review skipped records using related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-access-rl.md).
 
 2.  If you have customized the earlier version, select the changes that you need from the older file and migrate them to the new file.
 
@@ -49,7 +49,7 @@ After the upgrade, if there are changes to the SQL in the data source files or m
 
 For more information on resolving any conflicts, see the following topics:
 
--   Revert a customization
--   Resolve a skipped update and set a resolution status
--   Skipped Changes to Review related list
+-   [Revert a customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-revert-customization.md)
+-   [Resolve a skipped update and set a resolution status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-resolve-skipped-update.md)
+-   [Skipped Changes to Review related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-access-rl.md)
 

@@ -24,7 +24,7 @@ Domain separation is supported for Stream Connect. Domain separation enables you
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Message replication
 
@@ -45,7 +45,7 @@ A Kafka topic replication record has the same domain as its associated channel r
 
 You can use topic namespaces to configure which domains can access a Kafka topic on a domain-separated instance. In ServiceNow, Kafka topics are linked to a namespace. Namespaces can be linked to ServiceNow domains. When a namespace is assigned to a specific domain, all the topics created with that namespace are also assigned to the namespace's domain. Users can only see and interact with the topics they have access to, based on domain visibility and access control lists \(ACLs\).
 
-For more information, see Managing namespaces and topics in Hermes.
+For more information, see [Managing namespaces and topics in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/managing-namespaces-topics-hermes.md).
 
 ## Producers and consumers
 

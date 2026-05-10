@@ -21,7 +21,7 @@ Role required: user\_admin or admin
 
 ## About this task
 
-An administrator may need to configure the form to show all the fields listed in the steps. For more information see Personalize a form.
+An administrator may need to configure the form to show all the fields listed in the steps. For more information see [Personalize a form.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_PersonalizeAForm.md)
 
 ## Procedure
 

@@ -22,7 +22,7 @@ Role required: virtual\_agent\_admin or admin
 -   Make sure Virtual Agent is integrated with Facebook Messenger.
 -   Make sure you have the token and secret for the messenger.
 
-For information on integrating the Virtual Agent with Facebook Messenger and for retrieving the messenger token and secret, see Set up Virtual Agent integration for consumer messaging apps.
+For information on integrating the Virtual Agent with Facebook Messenger and for retrieving the messenger token and secret, see [Set up Virtual Agent integration for consumer messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
 
 ## About this task
 

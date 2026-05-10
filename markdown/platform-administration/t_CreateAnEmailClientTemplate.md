@@ -276,7 +276,7 @@ For integrating users or agents personal corporate mail boxes with ServiceNow to
 **Related topics**  
 
 
-[bundle-crapiref.c_ScriptIncludes]
+[Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md)
 
 ## Apply an email client template
 

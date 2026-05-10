@@ -21,7 +21,7 @@ Use ServiceNow Voice to facilitate inbound and outbound telephone calls for serv
 -   Display relevant data to assist the HR agent during the call.
 -   Analyze interactions between HR agents and employees via call recordings, metrics, and transcripts.
 
-For more information, see Integrating ServiceNow Voice for HR.
+For more information, see [Integrating ServiceNow Voice for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrate-voice-hr-agent.md).
 
 **Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](integrate-hr-platform-apps.md)
 

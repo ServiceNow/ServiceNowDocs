@@ -31,9 +31,9 @@ The Third-party Risk Management application includes support for risk intelligen
 **Related topics**  
 
 
-[bundle-stpop.complete-risk-assessments]
+[Complete a risk assessment from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/complete-risk-assessments.md)
 
-[bundle-stpop.simplify-risk-assessment-wf]
+[Streamlining the supplier risk assessment workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/simplify-risk-assessment-wf.md)
 
 [Manually add a control to a third party or engagement](../../grc-vendor-risk-implementation/task/tprm-add-controls-tp.md)
 

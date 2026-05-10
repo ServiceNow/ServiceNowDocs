@@ -26,7 +26,7 @@ Sensitive MID Server configuration data can be protected using several different
     -   **Default encryptor**: Default process for encrypting data in the MID Server **config.xml** file. See [Encrypt or decrypt MID Server configuration file values](../task/mid-server-manual-encryption.md) for details.
     -   **Windows Data Protection API \(DPAPI\)**: The operating system performs the data encryption, rather than the MID Server. DPAPI encryption is based on the logged in user's account. When this scheme is used, the data can only be decrypted by the same user account. If the account changes, the data must be re-encrypted.
     -   **Custom encryption**: Implement the [IMidServerEncrypter interface](mid-encrypter-interface.md) to create your own custom encryption scheme to manage sensitive **config.xml** data.
--   -   **CyberArk**: Data security is provided by CyberArk integration configuration, which moves sensitive data from the **config.xml** file to a secure CyberArk vault. This solution does not encrypt the data.
+-   -   **CyberArk**: Data security is provided by [CyberArk integration configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CyberArkIntegrationConfiguration.md), which moves sensitive data from the **config.xml** file to a secure CyberArk vault. This solution does not encrypt the data.
 -   **Custom external storage**: Implement the [ISecuredConfigProvider interface](mid-secured-config-interface.md) to create your own custom external storage system to manage sensitive **config.xml** data.
 
 ![Secured content and encryption schemes](../image/SecuredMIDConfigFileDiagram.png "Secured content and encryption schemes")

@@ -17,7 +17,7 @@ Deferred loading helps delay the loading of a resource or widget to improve the 
 
 ## Before you begin
 
-Ensure you understand the deferred load behavior. For more information, see Create and edit a page using the Service Portal Designer and Configure widget loading order in Service Portal.
+Ensure you understand the deferred load behavior. For more information, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md) and [Configure widget loading order in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-widget-loading-order.md).
 
 Role required: admin.
 
@@ -47,7 +47,7 @@ The deferred load is available for the following widgets.
 
 2.  Click the **Defer load** icon.
 
-3.  Fill in the following fields as explained in Configure widget loading order in Service Portal.
+3.  Fill in the following fields as explained in [Configure widget loading order in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-widget-loading-order.md).
 
     ![instance option defer widget](../images/defer-load-ec.png "Defer widget loading instance option")
 

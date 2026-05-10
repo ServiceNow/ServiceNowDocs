@@ -101,7 +101,7 @@ References
 
 </td><td>
 
-Add a system property
+[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Configuration](sc-configuration.md)

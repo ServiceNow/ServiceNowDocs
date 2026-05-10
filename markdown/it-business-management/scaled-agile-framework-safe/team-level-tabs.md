@@ -49,7 +49,7 @@ The **Sprint Tracking** tab provides the following views:
 
 -   **Story board**
 
-    Story board is built on visual task boards, which transform the navigation of lists and forms into an interactive graphical experience. The visual task board interface provides a graphic-rich environment suited for managing and collaborating records. To know more about the actions that can be performed in the board, see Visual Task Boards. In addition, you can:
+    Story board is built on visual task boards, which transform the navigation of lists and forms into an interactive graphical experience. The visual task board interface provides a graphic-rich environment suited for managing and collaborating records. To know more about the actions that can be performed in the board, see [Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoards.md). In addition, you can:
 
     -   Track all the stories of the current sprint across lanes.
     -   Move stories from one lane to another, which in turn updates the state of the stories.

@@ -20,7 +20,7 @@ The system supports Visual Task Boards on most modern browsers.
 -   The latest public release of Firefox or Firefox ESR
 -   The latest public release of Chrome
 -   Safari version 12
--   Access Visual Task Boards on your mobile device using either a browser or the native mobile app. For more information, see Tested devices and supported versions for ServiceNow mobile apps.
+-   Access Visual Task Boards on your mobile device using either a browser or the native mobile app. For more information, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-supported-devices.md).
 
 For more information, see [Browser support](../../../administer/navigation-and-ui/reference/browser-support.md).
 

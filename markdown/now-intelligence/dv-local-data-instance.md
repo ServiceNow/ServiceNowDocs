@@ -17,7 +17,7 @@ For finer grained control of the data source than you have with preconfigured da
 
 **Important:** This is an advanced procedure. Consider carefully whether you need a local data instance or can use a standard data source.
 
-Before proceeding, review Dynamically expose data in UI Builder pages \(advanced feature\).
+Before proceeding, review [Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/data-resources.md).
 
 Role required: ui\_builder\_admin, admin
 

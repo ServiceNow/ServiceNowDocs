@@ -74,7 +74,7 @@ Extension point used by the BadgeReaderScanProcessor script include.
  Use this frontage to manage the badge scan event.
 
 </td></tr></tbody>
-</table>For complete details about scripted extension points and how to create and use them, refer to Using extension points to extend application functionality and Creating and adding a scripted extension point.
+</table>For complete details about scripted extension points and how to create and use them, refer to [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md) and [Creating and adding a scripted extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/impl-scripted-ext-pts-base-code.md).
 
 **Parent Topic:**[Walk-up Experience Badge Reader Integration setup and configuration](walkup-badge-read-integ-config.md)
 

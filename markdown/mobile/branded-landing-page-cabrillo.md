@@ -13,7 +13,7 @@ breadcrumb: [Branded landing page, Mobile instances, Configuring the Mobile Plat
 
 Use  Cabrillo JS to build custom mobile experiences inside of native mobile apps. Certain Cabrillo JS functions are available for the pre-login branded landing page.
 
-For more information on Cabrillo JS, see Client mobile API reference.
+For more information on Cabrillo JS, see [Client mobile API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/api-client-mobile.md).
 
 The following table lists supported Cabrillo JS functionality on the pre-login branded landing page.
 
@@ -27,7 +27,7 @@ Supported Cabrillo JS functions for a branded landing page
 
 </th></tr></thead><tbody><tr><td>
 
-cabrillo.viewLayout - Client
+[cabrillo.viewLayout - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/cabrillo-viewLayout-namespace.md)
 
 </td><td>
 
@@ -42,7 +42,7 @@ cabrillo.viewLayout - Client
 
 </td></tr><tr><td>
 
-cabrillo.message - Client
+[cabrillo.message - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/cabrillo-messgage-namespace.md)
 
 </td><td>
 
@@ -50,7 +50,7 @@ showMessage
 
 </td></tr><tr><td>
 
-cabrillo.navigation - Client
+[cabrillo.navigation - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/cabrillo-navigation-namespace.md)
 
 </td><td>
 

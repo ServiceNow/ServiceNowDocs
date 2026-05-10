@@ -46,7 +46,7 @@ To specify a canonical URL for the page, update the `generateCanonicalURL` funct
 
 To specify custom header tags for the page, update the `generateCustomTagsForSEO` function in the script include.
 
-For an example of inserting custom SEO tags into the knowledge article view page, see Configure custom SEO tags for canonical URLs and localized knowledge articles.
+For an example of inserting custom SEO tags into the knowledge article view page, see [Configure custom SEO tags for canonical URLs and localized knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-seo-knowledge.md).
 
 **Parent Topic:**[Improving search engine optimization for portals](../concept/seo-sp.md)
 

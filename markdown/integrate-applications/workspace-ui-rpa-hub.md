@@ -87,5 +87,5 @@ Help Center provides users with the information they need, and tells users what 
 
 ## Dark theme
 
-Help alleviate eye strain by switching to a dark theme or mode available in the RPA Hub Workspace for RPA Hub landing page, Robot Calendar, Overview page, and RPA Hub system properties. For more information about the dark theme, see Exploring themes in Next Experience.
+Help alleviate eye strain by switching to a dark theme or mode available in the RPA Hub Workspace for RPA Hub landing page, Robot Calendar, Overview page, and RPA Hub system properties. For more information about the dark theme, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
 

@@ -19,11 +19,11 @@ For example, you can create a flow that starts when a third-party IT ticket trac
 
 Once you activate the flow, the endpoint that you created appears in the API explorer under the namespace you created. You can use this page to help define the webhook in your third-party system and to test your flow.
 
-To learn more about flow triggers, see Workflow Studio trigger types.
+To learn more about flow triggers, see [Workflow Studio trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-triggers.md).
 
 **Note:**
 
--   Use the REST API Trigger to start flows from REST calls from external systems. To start a flow from a script or API call from the same instance, use a subflow, code snippet, or Workflow Studio API. See API access to Workflow Studio and Create code snippets for flows, sub-flows, and actions.
+-   Use the REST API Trigger to start flows from REST calls from external systems. To start a flow from a script or API call from the same instance, use a subflow, code snippet, or Workflow Studio API. See [API access to Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/api-access-flow-designer.md) and [Create code snippets for flows, sub-flows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-design-code-snippet.md).
 -   ServiceNow has partnered with Boomi to deliver Boomi API Management, a cloud-based platform that enables customers to discover, manage, secure, and monetize their APIs. Boomi supports full lifecycle API management, including governance, analytics, and API security.
 
     Boomi provides [documentation](https://help.boomi.com/docs/Atomsphere/API%20Management/api-links) though their own portal, and customers requesting support with Boomi API Management will contact the Boomi support through their standard channels.
@@ -49,7 +49,7 @@ Depending on how you configure the endpoint, flow designers have access to these
 
 -   **Request Body**
 
-    Complex data object that defines the body structure of the inbound request. For more information on complex objects, see Complex data.
+    Complex data object that defines the body structure of the inbound request. For more information on complex objects, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/complex-data.md).
 
 
 When setting up the trigger, define what the inbound data will look like. You can then use the associated data pills within the actions in your flow. When the system receives an inbound request that starts the flow, it uses the runtime values sent in the request.
@@ -70,7 +70,7 @@ This feature requires an Integration Hub subscription. For more information, see
 
 1.  Open Workflow Studio and create a flow.
 
-    See Create a flow.
+    See [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
 
     Keep in mind that the scope of your flow is included in the REST endpoint you create.
 
@@ -107,7 +107,7 @@ This feature requires an Integration Hub subscription. For more information, see
 
 7.  In the **Body** field under the **Request Content** section, create a complex data object that defines the body structure of the inbound request.
 
-    For more information on building a complex object, see Complex data.
+    For more information on building a complex object, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/complex-data.md).
 
     **Note:** The **Request Content** section only appears when the **HTTP Method** is POST, PUT, or PATCH.
 
@@ -133,7 +133,7 @@ This feature requires an Integration Hub subscription. For more information, see
 
 11. Test and activate the flow.
 
-    For more information, see Test a flow and Activate a flow.
+    For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md) and [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-activate.md).
 
     Once activated, the endpoint displays in the REST API Explorer. You can use this page to further test your endpoint, or configure the request from your third-party system.
 
@@ -175,5 +175,5 @@ Copy the execution ID in the result and navigate to the Executions tab in Flow D
 
 ![](../images/rest-trigger-execution.png)
 
-To troubleshoot issues, you can debug the REST query or check the flow execution details. See Debug REST queries and Flow execution details.
+To troubleshoot issues, you can debug the REST query or check the flow execution details. See [Debug REST queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/debugging-rest-queries.md) and [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-details.md).
 

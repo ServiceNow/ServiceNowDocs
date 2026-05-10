@@ -73,7 +73,7 @@ An MRVS form changes dynamically based on the data in the catalog item form that
 -   Other rows of that MRVS
 -   Other variables outside of that MRVS on the catalog item form.
 
-For information about accessing data in a multi-row variable set \(MRVS\) when a dialog box is open, see g\_service\_catalog - Client.
+For information about accessing data in a multi-row variable set \(MRVS\) when a dialog box is open, see [g\_service\_catalog - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/g_service_catalogClientAPI.md).
 
 You can define catalog client scripts, catalog UI policies, and catalog data lookups for an MRVS. Visibility is honored just on the MRVS form and not in the list.
 

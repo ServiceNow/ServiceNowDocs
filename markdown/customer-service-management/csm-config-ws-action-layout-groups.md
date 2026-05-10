@@ -21,7 +21,7 @@ Customers can configure these action groups and arrange the order of the actions
 
 Action groups are stored in the UX Form Actions Layout Group table \[sys\_ux\_form\_action\_layout\_group\]. The actions included in a group are displayed in the **Form actions in group** related list on the UX Form Actions Layout Group form and are stored in the Sys Ux M2m Action Layout Group Actions table \[sys\_ux\_m2m\_action\_layout\_group\_action\].
 
-For more information about form action layout groups, see Declarative actions in the Configurable Workspace UI documentation.
+For more information about form action layout groups, see [Declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/declarative-actions-landing.md) in the [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md) documentation.
 
 ## Create action layout group
 

@@ -23,7 +23,7 @@ Generate outbound signing requests using these APIs in the following order:
 4.  HttpRequestAuthedData: Get information about the signed request.
 5.  GlideHTTPRequest: Send the signed request.
 
-Before using these APIs, you must configure an authentication algorithm to sign the request and associate it with the credential used to authenticate the request.
+Before using these APIs, you must [configure an authentication algorithm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/configure-authentication-algorithm.md) to sign the request and associate it with the credential used to authenticate the request.
 
 Use this API in scoped scripts with the `sn_auth` namespace identifier. You can instantiate this class using the constructor, or you can return an HttpRequestData object from the getHttpRequestData\(\) method in the RequestAuthAPI class.
 
@@ -124,7 +124,7 @@ Returns the sys\_id of the Connection &amp; Credential alias associated with the
 
 You can pass the sys\_id to the ConnectionInfoProvider API to retrieve information about the connection.
 
-**Note:** You can only use this method in an Integration Hub REST step. For more information, see REST step.
+**Note:** You can only use this method in an Integration Hub REST step. For more information, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/rest-request-action-designer.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -146,9 +146,9 @@ var connectionInfo = credential.getConnectionInfo(id);
 
 Returns the value of a connection attribute associated with the Connection &amp; Credential alias associated with Integration Hub REST step.
 
-**Note:** You can only use this method in an Integration Hub REST step. For more information, see REST step.
+**Note:** You can only use this method in an Integration Hub REST step. For more information, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/rest-request-action-designer.md).
 
-For more information about connection attributes, see Create connection attributes for Integration Hub.
+For more information about connection attributes, see [Create connection attributes for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-connection-attributes.md).
 
 |Name|Type|Description|
 |----|----|-----------|

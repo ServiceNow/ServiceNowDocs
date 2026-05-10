@@ -525,7 +525,7 @@ Array of strings where each string is the name of an externally defined group th
 
  This parameter takes precedence over **\[array\].principals.groups.read**. If the same user is mapped to external groups with both read and deny access permissions for a document, AI Search denies that user access to the indexed record.
 
- By default, **\[array\].principals.users.read** takes precedence over this parameter. To reverse this precedence order for an indexed source, see Change the precedence of user read and group deny permissions for an external content indexed source..
+ By default, **\[array\].principals.users.read** takes precedence over this parameter. To reverse this precedence order for an indexed source, see [Change the precedence of user read and group deny permissions for an external content indexed source.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-access-perms-ext-docs-ais.md).
 
  Data type: Array
 
@@ -624,7 +624,7 @@ Array of strings where each string is the name of an externally defined user tha
 
  **\[array\].principals.users.deny** takes precedence over this parameter. If the same user is mapped to external users with both read and deny access permissions for a document, AI Search denies that user access to the indexed record.
 
- By default, this parameter takes precedence over **\[array\].principals.groups.deny**. To reverse this precedence order for an indexed source, see Change the precedence of user read and group deny permissions for an external content indexed source..
+ By default, this parameter takes precedence over **\[array\].principals.groups.deny**. To reverse this precedence order for an indexed source, see [Change the precedence of user read and group deny permissions for an external content indexed source.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-access-perms-ext-docs-ais.md).
 
  Data type: Array
 
@@ -912,7 +912,7 @@ From highest precedence to lowest:
 2.  **\[array\].principals.users.deny**, **\[array\].principals.groups.deny**
 3.  **\[array\].principals.users.read**, **\[array\].principals.groups.read**
 
-**Note:** For instructions on setting this attribute value, see Change the precedence of user read and group deny permissions for an external content indexed source.
+**Note:** For instructions on setting this attribute value, see [Change the precedence of user read and group deny permissions for an external content indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-access-perms-ext-docs-ais.md).
 
 </td></tr></tbody>
 </table>### cURL request

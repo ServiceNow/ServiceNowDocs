@@ -22,7 +22,7 @@ The Inbound API Integration Usage dashboard contains visualizations that help yo
 |Chart or report|Description|
 |---------------|-----------|
 |Total Daily Usage|Shows the total number of API calls made for the current day and previous 30 days.|
-|API Usage by Application|Shows the number of calls made by an OAuth Inbound authentication application.|
+|API Usage by Application|Shows the number of calls made by an [OAuth Inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/oauth-inbound.md) authentication application.|
 |API Usage by Requestor \(Daily\)|Shows a timeline of the daily API usage statistics for each user account for the previous 30 days.|
 |API Usage by Resource|Shows the total number of requests for each resource for the previous 30 days.|
 |API Usage \(Monthly\)|Shows the total number of calls made in the previous 13 months.|

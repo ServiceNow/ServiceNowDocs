@@ -154,8 +154,8 @@ Relationship between the input table and the table field.
 
         **Note:**
 
-        -   You must have AI Search implemented to retrieve similar changes. For more information on AI Search, see AI Search.
-        -   The search criteria to retrieve similar changes is based on the conditions set in the Change Requests search source. For information on search source, see Search Source form.
+        -   You must have AI Search implemented to retrieve similar changes. For more information on AI Search, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md).
+        -   The search criteria to retrieve similar changes is based on the conditions set in the Change Requests search source. For information on search source, see [Search Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-source-form-ais.md).
         ![Similar changes for change risk explanation](../image/itsm-now-assist-change-similar-changes.png)
 
         The **Short description** field is available by default. You can edit or remove the following fields:
@@ -207,7 +207,7 @@ Relationship between the input table and the table field.
 
         -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see Activate the Now Assist panel standard chat.
+            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 

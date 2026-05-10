@@ -39,7 +39,7 @@ Upgraded instances cannot automatically follow the rules introduced in Quebec be
 **Related topics**  
 
 
-[bundle-platux.t_ConfigureAPage]
+[Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md)
 
 [Reports on Service Portal](../../reporting/concept/service-portal-reporting-widget.md#)
 
@@ -92,5 +92,5 @@ Core Service Portal functionality.
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

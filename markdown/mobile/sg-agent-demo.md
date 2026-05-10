@@ -78,7 +78,7 @@ The Mobile Agent app demo displays a launcher screen divided into sections. Tap 
 
     Once tasks are prioritized, your agents select their first work order and accept it. Thus acceptance provides visibility to the dispatcher and updating the agent’s location. With a swipe, they can track the parts needed to fix a problem or scan a barcode to consume an asset from inventory. As part of completing certain tasks, your agents can document conformance to a safety checklist, document equipment readings, or fill out an inspection questionnaire. These actions are done using forms specific to the type of work or equipment or even customer. Then agents can close their tasks, capturing a customer signature and adding any important work notes.
 
-    For more information on Field Service Management using mobile applications, see Mobile experience for Field Service Management.
+    For more information on Field Service Management using mobile applications, see [Mobile experience for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-fsm.md).
 
 
 ## Project Manager
@@ -112,7 +112,7 @@ The Mobile Agent app demo displays a launcher screen divided into sections. Tap 
 
 -   **Improve IT asset management accuracy**
 
-    Accurately scan and receive assets for a streamlined operation with automatic updates to your asset data. Scan multiple assets in a single batch upload. Quickly resolve discrepancies between ServiceNow information and audits. Instantly lookup info about any hardware asset. For more information on Hardware Asset Management using mobile applications, see Mobile app for Hardware Asset Management.
+    Accurately scan and receive assets for a streamlined operation with automatic updates to your asset data. Scan multiple assets in a single batch upload. Quickly resolve discrepancies between ServiceNow information and audits. Instantly lookup info about any hardware asset. For more information on Hardware Asset Management using mobile applications, see [Mobile app for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/mobile-my-asset.md).
 
 
 ## IT Operator
@@ -161,7 +161,7 @@ The Mobile Agent app demo displays a launcher screen divided into sections. Tap 
 
     Agents use the Mobile Agent app to engage and respond to major incidents. They can see proposed major incident candidates and quickly review and promote them. Collaborate by kicking off a conference call right from the app to serve as an in-person war room for the team.
 
-    For more information on incident management using mobile applications, see Mobile experience with ITSM Mobile agent ITSM Mobile Agent.
+    For more information on incident management using mobile applications, see Mobile experience with ITSM Mobile agent [ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/itsm-mobile-agent.md).
 
 
 ## Learn more about the Mobile Agent app

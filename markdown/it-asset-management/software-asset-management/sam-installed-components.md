@@ -51,7 +51,7 @@ Granular admin role that has full access to the Software Asset Management applic
 -   model\_manager
 -   contract\_manager
 
- **Note:** The sam\_spend\_import role is installed with Software Spend Detection. The it\_demand\_user role is no longer automatically installed with PPM Standard.
+ **Note:** The sam\_spend\_import role is installed with Software Spend Detection. The it\_demand\_user role is no longer automatically installed with [PPM Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuiteWithFinancials.md).
 
 </td></tr><tr><td>
 
@@ -166,7 +166,7 @@ Now Support Service Portal
 
 Required to gather software usage data from Microsoft SCCM \(System Center Configuration Manager\) 2012 v2.Automatically activates the Integration — Microsoft SCCM 2012 v2 \(com.snc.integration.sccm2012v2\) plugin if not already active.
 
- **Important:** This plugin will be deprecated in the Tokyo release. If you are integrating with SCCM for the first time, request and install the Service Graph connector for Microsoft SCCM application from the [ServiceNow Store](https://store.servicenow.com/) instead. If you have already activated this plugin on your ServiceNow instance, use the Migration Readiness Tool for Service Graph Connector for SCCM store application to prepare your instance for migration to the Service Graph connector. See Service Graph connector for Microsoft SCCM for more information on the Service Graph connector.
+ **Important:** This plugin will be deprecated in the Tokyo release. If you are integrating with SCCM for the first time, request and install the Service Graph connector for Microsoft SCCM application from the [ServiceNow Store](https://store.servicenow.com/) instead. If you have already activated this plugin on your ServiceNow instance, use the Migration Readiness Tool for Service Graph Connector for SCCM store application to prepare your instance for migration to the Service Graph connector. See [Service Graph connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-sccm.md) for more information on the Service Graph connector.
 
 </td></tr><tr><td>
 
@@ -180,7 +180,7 @@ Now Support Service Portal
 
 Required to gather software usage data from Microsoft SCCM \(System Center Configuration Manager\) 2016.Automatically activates the Integration — Microsoft SCCM 2016 \(com.snc.integration.sccm2016\) plugin if not already active.
 
- **Important:** This plugin will be deprecated in the Tokyo release. If you are integrating with SCCM for the first time, request and install the Service Graph connector for Microsoft SCCM application from the [ServiceNow Store](https://store.servicenow.com/) instead. If you have already activated this plugin on your ServiceNow instance, use the Migration Readiness Tool for Service Graph Connector for SCCM store application to prepare your instance for migration to the Service Graph connector. See Service Graph connector for Microsoft SCCM for more information on the Service Graph connector.
+ **Important:** This plugin will be deprecated in the Tokyo release. If you are integrating with SCCM for the first time, request and install the Service Graph connector for Microsoft SCCM application from the [ServiceNow Store](https://store.servicenow.com/) instead. If you have already activated this plugin on your ServiceNow instance, use the Migration Readiness Tool for Service Graph Connector for SCCM store application to prepare your instance for migration to the Service Graph connector. See [Service Graph connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-sccm.md) for more information on the Service Graph connector.
 
 </td></tr><tr><td>
 

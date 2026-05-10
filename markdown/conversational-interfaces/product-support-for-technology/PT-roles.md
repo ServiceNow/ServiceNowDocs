@@ -15,7 +15,7 @@ breadcrumb: [Components installed with the Proactive Triggers feature, Proactive
 
 Proactive Triggers adds the Proactive Triggers admin role.
 
-To learn more about managing subscriptions, see Managing per-user subscriptions in Subscription Management and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 ## Installed roles
 
@@ -75,7 +75,7 @@ Users assigned this role can access any related tables and records including pot
 
 Simplify user administration by creating groups that contain all the roles necessary for specific personas rather than to individual users. You can then assign individual users to those groups. When users transition to new roles, you can then re-assign their group memberships, and avoid scenarios where users retain unexpected roles.
 
-For details on the administration of users, groups, and roles, see User Administration.
+For details on the administration of users, groups, and roles, see [User Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_UserAdministration.md).
 
 **Parent Topic:**[Components installed with the Proactive Triggers feature](../concept/components-installed-with-proactive-triggers.md)
 

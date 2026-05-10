@@ -16,12 +16,12 @@ The ServiceNow® Authentication application supports many authentication mechani
 
 [Australia Patch 1](../quality/australia-patch-1.md)
 
--   **Knowledge-based factor enhancement for AI voice service**
+-   **[Knowledge-based factor enhancement for AI voice service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/knowledge-based-authentication.md)**
 
     Following are the knowledge-based authentication \(KBA\) enhancements:
 
-    -   Voice input support for KBA questions: Configure KBA questions to support Voice as an input type, allowing users to provide spoken responses during identification and authentication. When Voice input is enabled, you can configure the expected format, provide examples, and optionally define a validation pattern using regular expressions.
-    -   Script-based validation for external systems: Configure KBA answers to validate that are created against external systems using custom scripts through the Script Configuration field. When set to Identification mode, you can write scoped scripts that validate caller identity against external authentication systems instead of internal ServiceNow AI Platform tables.
+    -   [Voice input support for KBA questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-knowledge-based-questions.md): Configure KBA questions to support Voice as an input type, allowing users to provide spoken responses during identification and authentication. When Voice input is enabled, you can configure the expected format, provide examples, and optionally define a validation pattern using regular expressions.
+    -   [Script-based validation for external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-knowledge-based-answers.md): Configure KBA answers to validate that are created against external systems using custom scripts through the Script Configuration field. When set to Identification mode, you can write scoped scripts that validate caller identity against external authentication systems instead of internal ServiceNow AI Platform tables.
 
 Australia
 
@@ -30,26 +30,26 @@ Australia
 -   Use the granular roles to complete administrative configuration tasks for Authentication without requiring the full admin role.
 -   Use the enhanced Auth Scope for your Inbound Integrations.
 
-See Authentication for more information.
+See [Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_Authentication.md) for more information.
 
 ## New in the Australia release
 
--   **Authentication factors for AI voice service**
+-   **[Authentication factors for AI voice service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/authentication-factors.md)**
 
     Enable caller access to AI voice agents by configuring the required identification and authentication factors.
 
--   **Web Embeddables**
+-   **[Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/web-embeddables.md)**
 
     Secure the web embeddables feature for authenticating the ServiceNow®'s web components that are used in third-party portals.
 
--   **Granular admin roles**
+-   **[Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md)**
 
     The granular admin role enables developers and administrators to complete administrative configuration tasks for Authentication without requiring the full admin role.
 
 
 ## Changed in this release
 
--   **OAuth enhancements**
+-   **[OAuth enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/api-inbound-and-outbound.md)**
 
     Following are the OAuth enhancements:
 
@@ -78,9 +78,9 @@ Authentication is a ServiceNow AI Platform product that is active by default.
 
 ## Related ServiceNow applications and features
 
--   **Secure your instance**
+-   **[Secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-landing.md)**
 
-    Platform Security is built into all levels of the ServiceNow AI Platform. Implement the security features that are appropriate for your organization. Manage failed log in and encrypted password protection, access control rules, and audit logs.
+    [Platform Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-landing.md) is built into all levels of the ServiceNow AI Platform. Implement the security features that are appropriate for your organization. Manage failed log in and encrypted password protection, access control rules, and audit logs.
 
 
 **Parent Topic:**[ServiceNow AI Platform security release notes](now-platform-security-rn-landing.md)

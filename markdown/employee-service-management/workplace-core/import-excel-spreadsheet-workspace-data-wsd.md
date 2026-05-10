@@ -97,7 +97,7 @@ Complete [Configuring spreadsheets to import workplace data](../concept/importin
 
 [View workplace service usage analytics with Usage Insights](../reference/appsee-intergration-wsd.md)
 
-[bundle-crint.t_RunImport]
+[Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_RunImport.md)
 
-[bundle-crint.t_CreateATransformMap]
+[Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md)
 

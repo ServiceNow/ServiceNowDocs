@@ -29,7 +29,7 @@ Use Workflow Studio actions as building blocks to create Customer Service Manage
 **Related topics**  
 
 
-[bundle-cadev.flow-designer]
+[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md)
 
-[bundle-crworkflow.actions]
+[Action Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/actions.md)
 

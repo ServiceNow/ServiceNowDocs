@@ -31,7 +31,7 @@ Ensure that you have installed Predictive Intelligence \(com.glide.platform\_ml\
 
 3.  On the form, verify the default field values and customize the solution as required.
 
-    For more information about the Similarity Definition form fields, see Create and train a similarity solution.
+    For more information about the Similarity Definition form fields, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md).
 
 
 **Parent Topic:**[Predictive Intelligence for Universal Request](../concept/predictive-intelligence-ur.md)

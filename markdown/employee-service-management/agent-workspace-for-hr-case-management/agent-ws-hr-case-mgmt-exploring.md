@@ -81,7 +81,7 @@ Analytics Center
 
 </td><td>
 
-The Analytics Center provides an overview of your most important dashboards and data visualizations along with a place for you to ask questions about analytics. For more information, see Platform Analytics overview.
+The Analytics Center provides an overview of your most important dashboards and data visualizations along with a place for you to ask questions about analytics. For more information, see [Platform Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center.md).
 
 </td></tr><tr><td>
 

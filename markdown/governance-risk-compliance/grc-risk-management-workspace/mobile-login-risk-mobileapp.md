@@ -58,7 +58,7 @@ Enter the instance address or scan a QR code.
 Choose one to continue:-   Before the `.service-now.com`, enter the name of your ServiceNow AI Platform instance, for example, `grcmobile`.
 -   Enter an address in this field. This address is the URL of your ServiceNow AI Platform instance that you want to view on your mobile device, for example, `https://grcprkny.service-now.com`.
 -   Scan a QR code.
- For more information about the mobile app, see Log in to an instance with a mobile app
+ For more information about the mobile app, see [Log in to an instance with a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/login-end-user.md)
 
 </td></tr><tr><td>
 

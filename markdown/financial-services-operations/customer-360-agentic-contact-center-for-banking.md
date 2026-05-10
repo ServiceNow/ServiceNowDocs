@@ -153,5 +153,5 @@ The following table shows the available actions in the Customer 360 page.
 
 [Interaction page for Agentic Contact Center for Banking](interaction-workspace-for-agentic-contact-center-for-banking.md)
 
-[bundle-csm.csm-workspaces-configure]
+[CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)
 

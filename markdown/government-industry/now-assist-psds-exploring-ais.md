@@ -15,7 +15,7 @@ The AI Search index stores data from Platform records, Knowledge Base articles, 
 
 ![CSM Config Workspace showing AI Search results for a query.](../image/ais-psds.png)
 
-Watch this video to see how Public Sector Digital Services agents can find answers using AI Search. For information on AI Search see AI Search.
+Watch this video to see how Public Sector Digital Services agents can find answers using AI Search. For information on AI Search see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md).
 
 ![Answer generated to agent query in CSM Configurable Workspace for Public Sector](../image/ais-psds.png "Generative AI Q&A in CSM Configurable Workspace")
 

@@ -91,11 +91,11 @@ List of comma-separated activity system IDs. For example, incident ID or task ID
 </td></tr></tbody>
 </table>## FAQ Conversation Builder topic block
 
-Use this topic block to build bot conversations that use your existing FAQ content. With this topic block, you can enable topic authors to build simple conversations by using existing knowledge articles that are published in the FAQ template or by using Q&amp;A data that was imported from sources such as spreadsheets.
+Use this topic block to build bot conversations that use your existing FAQ content. With this topic block, you can enable topic authors to build simple conversations by using existing [knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-templates.md) that are published in the FAQ template or by using Q&amp;A data that was imported from sources such as [spreadsheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_TranslateTheInterface.md).
 
-The FAQ Conversation Builder topic block uses contextual search to find an appropriate match in the FAQ content. FAQ content is access-controlled based on requester role, access rights, and context.
+The FAQ Conversation Builder topic block uses [contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/configuring-contextual-search.md) to find an appropriate match in the FAQ content. FAQ content is access-controlled based on requester role, access rights, and context.
 
-Activate the Knowledge Management Advanced plugin to use the FAQ Knowledge template.
+Activate the [Knowledge Management Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md) plugin to use the FAQ Knowledge template.
 
 **Note:** The default length of an FAQ snippet that is returned in the conversation is 400 characters. The snippet length includes the HTML tags and links that are used in the snippet. To change the snippet length, change the value in the **com.glide.cs.faq.display\_size** system property. In addition to applying the specified length, the system applies word-wrap logic to prevent words and links in the snippet from being truncated arbitrarily.
 
@@ -252,7 +252,7 @@ You can control certain aspects of the Run AI Search topic block:
 
     To use the default Virtual Agent configuration for AI Search, leave the **Search Application Configuration** field empty in the Topic Block Properties sheet when you're adding the Run AI Search topic block to a topic.
 
--   Specify an AI Search flow action timeout value - The AI Search flow action in the topic block automatically times out at 10 seconds. You can change the length of time before this flow action times out by adding the system property **com.glide.cs.fdih.atlassearch.timeout** and setting these fields to change the timeout value:
+-   Specify an AI Search flow action timeout value - The AI Search flow action in the topic block automatically times out at 10 seconds. You can change the length of time before this flow action times out by [adding the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) **com.glide.cs.fdih.atlassearch.timeout** and setting these fields to change the timeout value:
 
 <table id="table_xdm_ryb_dxb"><thead><tr><th>
 

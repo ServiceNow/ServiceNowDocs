@@ -27,7 +27,7 @@ To edit the minimum and maximum values for a question that has the Template data
 
 1.  Navigate to **All** &gt; **Assessments** &gt; **Metric Definition** &gt; **Metrics**.
 
-2.  Configure the Configure the list layout to show the **Min** and **Max** columns.
+2.  Configure the [Configure the list layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/t_ConfigureTheListLayout.md) to show the **Min** and **Max** columns.
 
 3.  Run the following list filter condition: `[Template] [is] [<select the template you updated>]`
 

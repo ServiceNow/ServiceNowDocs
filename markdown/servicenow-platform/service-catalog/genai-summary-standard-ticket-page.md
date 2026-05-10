@@ -22,7 +22,7 @@ The ticket page provides an on-demand summary. When the requester selects Summar
 **Related topics**  
 
 
-[bundle-platai.now-assist-in-standard-ticket-page]
+[Now Assist in Standard Ticket Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-in-standard-ticket-page.md)
 
-[bundle-platux.configure-st-page]
+[Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-st-page.md)
 

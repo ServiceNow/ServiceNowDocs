@@ -81,7 +81,7 @@ Model
 
 </td><td>
 
-Prediction model to use to transform the data. If a model does not already exist, you can create one. To learn more, see Detect anomalies in MetricBase data using predictive models.This property applies only when **Transform** is Predict.
+Prediction model to use to transform the data. If a model does not already exist, you can create one. To learn more, see [Detect anomalies in MetricBase data using predictive models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/train-a-model.md).This property applies only when **Transform** is Predict.
 
 </td></tr><tr><td>
 

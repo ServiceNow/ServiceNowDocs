@@ -58,7 +58,7 @@ Use the following information for SAP Concur integration.
 
 Use the following information for Workday integration.
 
--   Workday uses RAAS reports to send data to external system. For more information on RAAS and field-level info about leaves, timesheets, compensation, job change, job requisition, or leave of absence, see Workday HR Spoke.
+-   Workday uses RAAS reports to send data to external system. For more information on RAAS and field-level info about leaves, timesheets, compensation, job change, job requisition, or leave of absence, see [Workday HR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/workday-hr-spoke.md).
 -   Only the open requests are displayed on the approvers **My tasks** page.
 -   Approval and rejection actions are performed using an **Integration System User \(ISU\)**. ISU is a virtual user \(and not an actual user\) which helps in the safe-keeping of approver credentials. With the use of ISU, approval and rejection records protect the sensitive data according to your configuration in Workday. For example,
     -   When John Doe, the approver enters time sheet approved as comment, the comment shown as `John Doe(john.doe@acme.com): Time sheet approved`.

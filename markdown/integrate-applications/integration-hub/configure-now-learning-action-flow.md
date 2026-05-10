@@ -18,7 +18,7 @@ Integrate the ServiceNow instance and ServiceNow University by using the Oauth c
 ## Before you begin
 
 -   Have ITSM Enterprise license subscription.
--   Integrate Coaching with Learning with ServiceNow University. For more information, see External Content Integration Sources.
+-   Integrate Coaching with Learning with ServiceNow University. For more information, see [External Content Integration Sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/integration-source-coaching-with-learning-coaching-wfo-itsm.md).
 -   Role required: admin.
 
 ## Procedure
@@ -93,5 +93,5 @@ Integrate the ServiceNow instance and ServiceNow University by using the Oauth c
 **Related topics**  
 
 
-[bundle-crworkflow.actions]
+[Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/actions.md)
 

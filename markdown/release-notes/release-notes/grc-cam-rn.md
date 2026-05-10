@@ -20,13 +20,13 @@ The ServiceNow® Continuous Authorization and Monitoring application provides a 
 -   View and edit Controls and Engagements sections in Authorization Packages in a hierarchical grid.
 -   Control visibility of UI elements across different workflow steps through state model attributes.
 
-See Continuous Authorization and Monitoring for more information.
+See [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/grc-cam-landing-page.md) for more information.
 
 **Important:** Continuous Authorization and Monitoring is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **OSCAL Assessment Plan export and import**
+-   **[OSCAL Assessment Plan export and import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-assessment-plan-import-export.md)**
 
     After upgrading to version 22.0.2, Continuous Authorization and Monitoring supports import and export of OSCAL Assessment Plan \(AP\) files.
 
@@ -34,23 +34,23 @@ See Continuous Authorization and Monitoring for more information.
 
     Export generates OSCAL AP files for auditors and authorizers, enabling other systems to understand what testing is planned or was performed.
 
--   **Request control tailoring**
+-   **[Request control tailoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/request-control-tailoring.md)**
 
     After upgrading to version 22.0.2, make incremental changes to control sets while preserving the state of unchanged controls without having to reset the entire package life cycle. Supported modifications include adding new controls, marking controls as not applicable, changing control allocation \(baseline to inherited or hybrid\), and modifying inheritance configurations.
 
--   **Inherit from multiple providers**
+-   **[Inherit from multiple providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/inherit-from-multiple-providers.md)**
 
     After upgrading to version 22.0.2, Controls can inherit individual control requirements from multiple Common Control Providers \(CCPs\) across different authorization packages. Previously, inheritance was limited to a single provider per control, which required creating multiple duplicate inherited controls when requirements came from different sources.
 
--   **Control grid view**
+-   **[Control grid view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/view-controls-in-grid-view.md)**
 
     After upgrading to version 22.0.2, edit implementation statements and attestation respondents directly in a hierarchical data grid through the Controls tab in an authorization package.
 
--   **Control tests grid view in Engagements**
+-   **[Control tests grid view in Engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/view-control-tests-in-grid-view.md)**
 
     After upgrading to version 22.0.2, toggle between traditional related list and hierarchical data grid on the Control tests tab. Changes to assessment procedure effectiveness automatically cascade to parent control test effectiveness.
 
--   **CAM workflow configuration enhancements**
+-   **[CAM workflow configuration enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-workflow-configurator.md)**
 
     After upgrading to version 22.0.2, control button visibility, UI page access, and related list actions across different workflow steps. Previously, related list actions \(such as add or remove buttons for information types or baseline control actions\) required manual scripting to support custom workflows.
 
@@ -67,7 +67,7 @@ See Continuous Authorization and Monitoring for more information.
 
 ## UI changes
 
--   **Properties page enhancements**
+-   **[Properties page enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-components-installed.md)**
 
     The Properties page includes new configuration options:
 

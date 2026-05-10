@@ -47,14 +47,14 @@ Any rule that is applied to a group is automatically assigned to group members. 
     -   To configure an existing group, open the group that you want to configure.
 3.  On the form, fill in the fields.
 
-    For detailed instructions and field descriptions, see Create a user group.
+    For detailed instructions and field descriptions, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAGroup.md).
 
 4.  Click **Submit** or **Update**.
 
 
 ## What to do next
 
--   Assign roles to the group. For more information, see Assign a role to a group.
+-   Assign roles to the group. For more information, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
 
     Configure agent connector and contributor roles for the group, if required.
 

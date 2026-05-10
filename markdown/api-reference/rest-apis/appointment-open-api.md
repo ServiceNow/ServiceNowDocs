@@ -244,7 +244,7 @@ hasMore
 
 </td><td>
 
-Flag that indicates whether there are more appointment slots to fetch after returning the limit. The limit is specified in the Appointment Booking property, sn\_apptmnt\_booking.max\_appointments\_returned \(Default: 100\). See Appointment booking components for more details about this property.Possible values:
+Flag that indicates whether there are more appointment slots to fetch after returning the limit. The limit is specified in the Appointment Booking property, sn\_apptmnt\_booking.max\_appointments\_returned \(Default: 100\). See [Appointment booking components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appointment-booking-components.md) for more details about this property.Possible values:
 
 -   true: More appointment slots can be fetched.
 -   false: No more appointment slots are available.

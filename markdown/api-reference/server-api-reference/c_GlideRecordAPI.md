@@ -21,7 +21,7 @@ To use this API to create dynamic attributes you must have the dynamic\_schema\_
 
 For information on a class that performs the same functions as GlideRecord and enforces ACLs, see [Using GlideRecordSecure](../../../../../script/glide-server-apis/topic/p_GlideServerAPIs.md#).
 
-See also Dynamic Schema.
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 See the [GlideRecord](https://developer.servicenow.com/dev.do#!/learn/courses/utah/app_store_learnv2_scripting_utah_scripting_in_servicenow/app_store_learnv2_scripting_utah_server_side_scripting/app_store_learnv2_scripting_utah_gliderecord) article for details on building and running queries.
 
@@ -29,7 +29,7 @@ For information about GlideRecordSecure, which is a class inherited from GlideRe
 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
-You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see Available system properties.
+You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 ## Retrieve values from records
 
@@ -98,7 +98,7 @@ Changes the domain used for the query from the user's domain to the domain of th
 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
-You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see Available system properties.
+You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 This function requires the Domain Support - Domain Extensions Installer \(com.glide.domain.msp\_extensions.installer\) plugin.
 
@@ -140,7 +140,7 @@ Adds an encoded query to other queries that may have been set.
 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
-You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see Available system properties.
+You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Note:** To enforce query access based on the user, use[addUserEncodedQuery\(\)](c_GlideRecordAPI.md#).
 
@@ -166,7 +166,7 @@ String
 
 </td><td>
 
-An encoded query string.
+An [encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 </td></tr><tr><td>
 
@@ -347,7 +347,7 @@ This is not a true database join; rather, addJoinQuery\(\) adds a subquery. So, 
 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
-You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see Available system properties.
+You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -403,7 +403,7 @@ This is not a true database join; rather, addJoinQuery\(\) adds a subquery. So, 
 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
-You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see Available system properties.
+You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -436,7 +436,7 @@ This is not a true database join; rather, addJoinQuery\(\) adds a subquery. So, 
 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
-You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see Available system properties.
+You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -522,7 +522,7 @@ For additional information on using queries, see [Querying tables in script](../
 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
-You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see Available system properties.
+You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Note:** To enforce query access based on the user, use[addUserQuery\(\)](c_GlideRecordAPI.md#).
 
@@ -556,7 +556,7 @@ Table field name or path to an attribute within a dynamic attribute store elemen
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also Dynamic Schema.
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr><tr><td>
 
@@ -696,11 +696,11 @@ For information on using this method with GlideRecordSecure, see [Enforcing quer
 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
-You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see Available system properties.
+You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 |Name|Type|Description|
 |----|----|-----------|
-|query|String|An encoded query string.|
+|query|String|An [encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).|
 
 |Type|Description|
 |----|-----------|
@@ -856,7 +856,7 @@ Additional methods for system-level access that bypass query ACL checks:
 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
-You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see Available system properties.
+You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 <table id="table_ix2_hvp_dt" class="parameters"><thead><tr><th>
 
@@ -1004,11 +1004,11 @@ For information on using this method with GlideRecordSecure, see [Enforcing quer
 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
-You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see Available system properties.
+You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 |Name|Type|Description|
 |----|----|-----------|
-|query|String|An encoded query string.|
+|query|String|An [encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).|
 
 |Type|Description|
 |----|-----------|
@@ -1179,7 +1179,7 @@ Additional methods for enforcing query ACL checks:
 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
-You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see Available system properties.
+You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 <table id="table_ix2_hvp_dt" class="parameters"><thead><tr><th>
 
@@ -1441,7 +1441,7 @@ function createAcl(table, role) {
 
 Apply a template record from the Template table \[sys\_template\] to the current record. If the specified template is not found, no action is taken.
 
-**Note:** This method automatically instantiates a now\_GR.insert\(\) method if a template has the **Next Related Child Template** field filled. For information, see Create templates for related task records.
+**Note:** This method automatically instantiates a now\_GR.insert\(\) method if a template has the **Next Related Child Template** field filled. For information, see [Create templates for related task records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-templates-for-related-task-records.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1839,7 +1839,7 @@ Dot-walking is not supported for this method. When using the deleteMultiple\(\) 
 
 Do not use deleteMultiple\(\) on tables with currency fields. Always delete each record individually. Also, do not use this method with the chooseWindow\(\) or setLimit\(\) methods when working with large tables. The setLimit\(\) method does not limit the number of records that are deleted with deleteMultiple\(\). All records returned by the query are deleted regardless of setLimit\(\).
 
-The **glide.db.forced.chunk.threshold** system property sets the threshold above which forces chunk record deletions and updates. Chunking helps to prevent non-primary key deletions on huge tables from causing replication problems. For more information, see Available system properties.
+The **glide.db.forced.chunk.threshold** system property sets the threshold above which forces chunk record deletions and updates. Chunking helps to prevent non-primary key deletions on huge tables from causing replication problems. For more information, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Note:** When using deleteMultiple\(\) to cascade delete, prior calls to setWorkflow\(\) on the same GlideRecord object are ignored.
 
@@ -2154,7 +2154,7 @@ To use the getClassDisplayValue\(\) method in a scoped application, use the corr
 
 Retrieves the display value for the current record or the display value of an attribute in a dynamic attribute store.
 
-Display values are manipulated based on the actual value in the database and user or system settings and preferences.
+[Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md) are manipulated based on the actual value in the database and user or system settings and preferences.
 
 The display value that is returned is dependent on the field type.
 
@@ -2163,7 +2163,7 @@ The display value that is returned is dependent on the field type.
 -   Encrypted text: The database value is encrypted, while the displayed value is unencrypted based on the user's encryption context.
 -   Reference fields: The database value is sys\_id, but the display value is the display field of the referenced record.
 
-See also Dynamic Schema.
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 <table id="table_kps_f2r_dt" class="parameters"><thead><tr><th>
 
@@ -2197,7 +2197,7 @@ Format of the attribute path: `dyn_att_field->attr_name`
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also Dynamic Schema.
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -2246,7 +2246,7 @@ To use the getDisplayValue\(\) method in a scoped application, use the correspon
 
 Returns the GlideElementDynamicAttribute object for the specified dynamic attribute store path.
 
-Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see Dynamic schema.
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 See also:
 
@@ -2284,7 +2284,7 @@ Path to use to locate the desired dynamic attribute. Format of the attribute pat
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also Dynamic Schema.
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table><table id="table_sgk_h1x_1bc" class="returns"><thead><tr><th>
@@ -2327,7 +2327,7 @@ Output:
 
 Returns a GlideElementDynamicAttribute object that contains the dynamic attribute located at the specified table field and attribute path.
 
-Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see Dynamic schema.
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 See also:
 
@@ -2416,7 +2416,7 @@ Output:
 
 Returns the value of the dynamic attribute located at a specified path.
 
-Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see Dynamic schema.
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 See also:
 
@@ -2454,7 +2454,7 @@ Path to use to locate the desired dynamic attribute. Format of the attribute pat
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also Dynamic Schema.
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table><table id="table_ph3_x1x_1bc" class="returns"><thead><tr><th>
@@ -2501,7 +2501,7 @@ Output:
 
 Returns the value of the dynamic attribute located at a specified field in the current table and a specified attribute path.
 
-Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see Dynamic schema.
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 See also:
 
@@ -2594,7 +2594,7 @@ Output:
 
 Returns the display value of the dynamic attribute located at the specified path.
 
-Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see Dynamic schema.
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 See also:
 
@@ -2632,7 +2632,7 @@ Path to use to locate the desired dynamic attribute. Format of the attribute pat
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also Dynamic Schema.
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table><table id="table_oht_nbx_1bc" class="returns"><thead><tr><th>
@@ -2679,7 +2679,7 @@ Output:
 
 Returns the display value of the dynamic attribute located in a specified table field and attribute path.
 
-Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see Dynamic schema.
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 See also:
 
@@ -2856,7 +2856,7 @@ Retrieves the query condition of the current result set as an encoded query stri
 
 |Type|Description|
 |----|-----------|
-|String|An encoded query string.|
+|String|An [encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).|
 
 This example shows how to obtain the current encoded query to use later to create a read ACL role.
 
@@ -2890,7 +2890,7 @@ To use the getEncodedQuery\(\) method in a scoped application, use the correspon
 
 Retrieves the field value for the display field of the current record and adds escape characters for use in Jelly scripts.
 
-**Note:** For this method to work, a display value must have been set on the associated table. For information on how to do this, see Select a field as the table display value.
+**Note:** For this method to work, a display value must have been set on the associated table. For information on how to do this, see [Select a field as the table display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SelectTheDisplayValue.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -3403,9 +3403,9 @@ gs.info(uniqueid);
 
 Retrieves the string value of a specified field or the string value of an attribute in a dynamic attribute store.
 
-**Note:** If the Field Encryption Enterprise plugin is enabled and the instance has access to the key, this method returns clear text values from encrypted fields. If the instance does not have access to the key, this method returns the encrypted value. For more information, see Platform Encryption.
+**Note:** If the Field Encryption Enterprise plugin is enabled and the instance has access to the key, this method returns clear text values from encrypted fields. If the instance does not have access to the key, this method returns the encrypted value. For more information, see [Platform Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption-landing.md).
 
-See also Dynamic Schema.
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 <table id="table_ev2_flr_dt" class="parameters"><thead><tr><th>
 
@@ -3437,7 +3437,7 @@ The name of the field whose value you want to retrieve or the path to an attribu
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also Dynamic Schema.
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table><table id="table_fv2_flr_dt" class="returns"><thead><tr><th>
@@ -4053,7 +4053,7 @@ Table field name, or path to an attribute within a dynamic attribute store, on w
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also Dynamic Schema.
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -4145,7 +4145,7 @@ Table field name, or path to an attribute within a dynamic attribute store, on w
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also Dynamic Schema.
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -4573,7 +4573,7 @@ Format of the attribute path: `dyn_att_field->attr_name`
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also Dynamic Schema.
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr><tr><td>
 
@@ -4626,7 +4626,7 @@ gr_AppTab.getDisplayValue('dyn_att_field->attr2);
 
 Sets the value of the dynamic attribute located at a specified path.
 
-Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see Dynamic schema.
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 See also:
 
@@ -4664,7 +4664,7 @@ Path to use to locate the desired dynamic attribute. Format of the attribute pat
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also Dynamic Schema.
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr><tr><td>
 
@@ -4726,7 +4726,7 @@ gr_Inc.insert();
 
 Sets the value of the dynamic attribute located in a specified field of the current GlideRecord and a specified attribute path.
 
-Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see Dynamic schema.
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 See also:
 
@@ -4842,7 +4842,7 @@ Output:
 
 Sets the display value of the dynamic attribute located at a specified path.
 
-Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see Dynamic schema.
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 See also:
 
@@ -4880,7 +4880,7 @@ Path to use to locate the dynamic attribute whose display value you want to upda
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also Dynamic Schema.
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr><tr><td>
 
@@ -4936,7 +4936,7 @@ var val = grProdTab.setDynamicAttributeDisplayValue('product_details->date_purch
 
 Sets the display value of the dynamic attribute located in a specified field of the current GlideRecord and a specified attribute path.
 
-Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see Dynamic schema.
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 See also:
 
@@ -5040,7 +5040,7 @@ Sets one or more dynamic attribute values with values specified in the passed Gl
 
 This method only updates the attributes and values passed in as arguments. Attributes and values on the GlideRecord that aren't specified are unaffected by this call. Any invalid attributes or values are ignored. Check the log messages for possible error information.
 
-Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see Dynamic schema.
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 See also:
 
@@ -5070,7 +5070,7 @@ String
 
 </td><td>
 
-Name of the field in the current table that contains the dynamic schema.
+Name of the field in the current table that contains the [dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr><tr><td>
 
@@ -5464,7 +5464,7 @@ If the value parameter is null, the record isn't updated, and an error isn't thr
 
 **Note:** This method can't be used on journal fields. Use [GlideElement.setJournalEntry\(\)](../../GlideElement_global/concept/c_GlideElementAPI.md#) instead.
 
-**Note:** If the Field Encryption Enterprise plugin is enabled and the instance has access to the key, this method can insert encrypted data into encrypted fields. If the instance does not have access to the key, this method returns an error. For more information, see Platform Encryption.
+**Note:** If the Field Encryption Enterprise plugin is enabled and the instance has access to the key, this method can insert encrypted data into encrypted fields. If the instance does not have access to the key, this method returns an error. For more information, see [Platform Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption-landing.md).
 
 -   **Not for authentication with password2 fields**
 
@@ -5474,9 +5474,9 @@ If the value parameter is null, the record isn't updated, and an error isn't thr
 
     See also:
 
-    -   Deprecate GlideEncrypter usage of 3DES for password2 fields
+    -   [Deprecate GlideEncrypter usage of 3DES for password2 fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/password2-3des-deprecation.md)
     -   [Alternatives to GlideEncrypter usage in knowledge base article KB1320986](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1320986)
-    -   Password2 encryption with the Key Management Framework \(KMF\)
+    -   [Password2 encryption with the Key Management Framework \(KMF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/password-2way-encrypted-fields.md)
 
 <table id="table_yps_2kw_dt" class="parameters"><thead><tr><th>
 
@@ -5510,7 +5510,7 @@ Format of the attribute path: `dyn_att_field->attr_name`
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also Dynamic Schema.
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr><tr><td>
 
@@ -5532,7 +5532,7 @@ Value to set in the specified field.**Note:** For a dynamic attribute, only the 
 -   Integer
 -   String
 
-To specify a dynamic category field in dynamic schema, use a reference key with the namespace and category field name instead of a sys\_id. Provide the category column as the name parameter, e.g., `grExample.setValue('cat_column_name', 'namespace_name/cat_name')`. For more information, see Create a dynamic namespace.
+To specify a dynamic category field in dynamic schema, use a reference key with the namespace and category field name instead of a sys\_id. Provide the category column as the name parameter, e.g., `grExample.setValue('cat_column_name', 'namespace_name/cat_name')`. For more information, see [Create a dynamic namespace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-dynamic-namespace.md).
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -5700,7 +5700,7 @@ Updates each GlideRecord in a stated query with a specified set of changes.
 
 For information on adding journal entries, refer to the [setJournalEntry\(\)](../../GlideElement_global/concept/c_GlideElementAPI.md#) method.
 
-The **glide.db.forced.chunk.threshold** system property sets the threshold above which forces chunk record deletions and updates. Chunking helps to prevent non-primary key deletions on huge tables from causing replication problems. For more information, see Available system properties.
+The **glide.db.forced.chunk.threshold** system property sets the threshold above which forces chunk record deletions and updates. Chunking helps to prevent non-primary key deletions on huge tables from causing replication problems. For more information, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Note:** To ensure expected results, use the setValue\(\) method instead of direct assignments. That is, use `gr_Now.setValue('<field_name>', '4'));` instead of `gr_Now.<field_name> = 4`.
 

@@ -24,10 +24,10 @@ The following steps help to configure the Telecommunications API notification in
 3.  [Activate the endpoint of the Telecommunications Alarm Management Open API connection](../task/activate-endpoint-in-the-telecommunications-alarm-management-open-api.md): To receive responses from the external system, activate the subscribed endpoints of the Telecommunications Alarm Management Open API connection in the Workflow Studio.
 4.  Provide the callback URL to the external system for receiving notifications. Customer can also reuse the callback URL. When requests from TMF 688 hit the Callback URL, it initiates the Default Alarm Event Notification Trigger flow to create an event.
 
-    To learn more about the functions to handle Event Notification Management Open API requests that are triggered by external trigger definitions to create, update, and delete events, see Event Notification Management Open API and TMFTopicEventAPIUtilOOB - Scoped.
+    To learn more about the functions to handle Event Notification Management Open API requests that are triggered by external trigger definitions to create, update, and delete events, see [Event Notification Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/event_open-api.md) and [TMFTopicEventAPIUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/tmftopiceventapiutiloobScopedAPI.md).
 
 
-This workflow creates an event in the Event Management application. To learn more about using Event Management, see Event Management.
+This workflow creates an event in the Event Management application. To learn more about using Event Management, see [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EM.md).
 
 **Related topics**  
 

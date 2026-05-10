@@ -25,7 +25,7 @@ Role required: sp\_admin
 
 2.  Click sn\_customerservice\_case, csm\_order case, sn\_customerservice\_task, or customer\_project\_task which is available by default.
 
-    **Note:** You can add your own case types and add new configurations for the required tables. For more information, see Configure the standard ticket page.
+    **Note:** You can add your own case types and add new configurations for the required tables. For more information, see [Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-st-page.md).
 
 3.  Click **here** to edit the record.
 
@@ -39,5 +39,5 @@ Role required: sp\_admin
 **Related topics**  
 
 
-[bundle-platux.configure-st-page]
+[Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-st-page.md)
 

@@ -48,5 +48,5 @@ When SLA timeline is activated, script includes are installed.
 
 [Activate Service Level Management - SLA Timer Config API](activate-sla-timer-config-api.md)
 
-[bundle-platadm.list-of-plugins]
+[List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

@@ -61,7 +61,7 @@ End users \(requesters\) can submit a request for software from the Software Cat
 
 When the submitted request is approved, Virtual Agent sends an actionable notification to the end user letting them know that the software has been assigned and will be available soon.
 
-**Note:** End users must be using Client Software Distribution.
+**Note:** End users must be using [Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_ClientSoftwareDistribution.md).
 
 ![Software assigned.](../image/software_request2.png)
 

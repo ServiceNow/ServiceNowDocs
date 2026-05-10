@@ -20,7 +20,7 @@ Installing the Now Assist for Order Management application installs the followin
 -   Manage Invoice Operations \(com.sn\_inv\_ops\_aias\)
 -   Summarization for Order Management
 
-Request the Now Assist for Order Management application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/b75a55a63f71b6108428dd8d001f8bca) and install it using the Application Manager. For more information, see Install a ServiceNow Store application.
+Request the Now Assist for Order Management application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/b75a55a63f71b6108428dd8d001f8bca) and install it using the Application Manager. For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
 
 ## Configuring order summarization skill
 
@@ -40,7 +40,7 @@ Business-to-business \(B2B\) customers can submit order cases using Now Assist V
 -   [Enable the manage order operations agent on the Business Portal](../task/enable-manage-order-operations-ai-agent.md)
 -   [Configure ATP API for the manage order operations agent](../task/create-atp-api-call.md)
 
-Enable AI voice agent support on your phone channels by installing the Now Assist Voice \[sn\_voice\_aia\] plugin. For more information, see Deploy AI voice agents.
+Enable AI voice agent support on your phone channels by installing the Now Assist Voice \[sn\_voice\_aia\] plugin. For more information, see [Deploy AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/deploy-ai-agents-for-voice.md).
 
 ## Configuring the Manage Invoice Operations application
 
@@ -51,16 +51,16 @@ Business-to-business \(B2B\) customers can submit invoice cases using Now Assist
 -   [Configure the invoice dispute resolution extension point](../task/configure-invoice-case-resolution-ep.md)
 -   [Make the invoice dispute assist workflow available in the Now Assist panel](../task/enable-invoice-dispute-assist-agentic-workflow.md)
 
-Enable AI voice agent support on your phone channels by installing the Now Assist Voice \[sn\_voice\_aia\] plugin. For more information, see Deploy AI voice agents.
+Enable AI voice agent support on your phone channels by installing the Now Assist Voice \[sn\_voice\_aia\] plugin. For more information, see [Deploy AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/deploy-ai-agents-for-voice.md).
 
-Configure Chat Summarization to enable the AI summarization and recommendation features in Active Chat. For more information, see Configure chat summarization.
+Configure Chat Summarization to enable the AI summarization and recommendation features in Active Chat. For more information, see [Configure chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/configure-chat-summarization-in-now-assist_0.md).
 
 **Related topics**  
 
 
-[bundle-platai.configuring-now-assist]
+[Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
 
-[bundle-platai.configuring-na-landing]
+[Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
 
 [Using Now Assist for Order Management](now-assist-order-management-using.md)
 

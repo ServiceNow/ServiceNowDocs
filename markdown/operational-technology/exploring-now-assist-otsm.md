@@ -20,7 +20,7 @@ The following generative AI capabilities are available for OTSM users:
 -   An auto-generating OT incident summary that helps you to understand the OT incident context.
 -   Auto-generating OT incident resolution notes that help other users resolve their incidents if they have a similar issue.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Now Assist for OTSM skills
 

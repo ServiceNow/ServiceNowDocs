@@ -29,7 +29,7 @@ Role required: virtual\_agent\_admin or admin
 
 4.  In the Request Translations dialog box, select the languages.
 
-    Only languages that are installed and activated in the Localization Framework are displayed. To learn how to activate localization plugins, see Activate a language.
+    Only languages that are installed and activated in the Localization Framework are displayed. To learn how to activate localization plugins, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 
 5.  Click **Submit**.
 

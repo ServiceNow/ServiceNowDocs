@@ -99,11 +99,11 @@ Expand help for all questions
     -   Reference
     -   Select Box
     -   Single Line Text
-    To learn more about the different types of variables and how to configure them, see Types of service catalog variables.
+    To learn more about the different types of variables and how to configure them, see [Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md).
 
 6.  In the **Available For** and **Not Available For** related lists, configure the user criteria to apply to the HR catalog item as appropriate.
 
-    User criteria controls which employees can access and request the HR catalog item in the HR service catalog. To learn more about user criteria and how they are used to control access to HR catalog items, see Set security for items and categories.
+    User criteria controls which employees can access and request the HR catalog item in the HR service catalog. To learn more about user criteria and how they are used to control access to HR catalog items, see [Set security for items and categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogAccessControls.md).
 
     **Note:** User criteria applied to the HR catalog item is employee-facing only, and has no relation to the HR criteria that is used to control what HR services an HR agent can request for an employee from the **Create New Case** module. See [Configure an HR service](configure-hr-service.md) for more information.
 

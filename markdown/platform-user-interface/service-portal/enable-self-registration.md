@@ -21,14 +21,14 @@ Role required: admin
 
 Complete the previous tasks:
 
-1.  Activate External User Registration
-2.  Configure the registration form for an external user configuration
+1.  [Activate External User Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/external-user-registration-plugin.md)
+2.  [Configure the registration form for an external user configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/external-user-configuration.md)
 
 Role required: admin
 
 ## About this task
 
-External user self-registration enables a large group of users to register to a ServiceNow app without the help of an administrator. For more information, see Enable external users to self-register to your ServiceNow instance.
+External user self-registration enables a large group of users to register to a ServiceNow app without the help of an administrator. For more information, see [Enable external users to self-register to your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/external-user-self-registration.md).
 
 ## Procedure
 

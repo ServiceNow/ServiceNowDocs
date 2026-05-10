@@ -138,7 +138,7 @@ Applies on Requested Items
 
 </td><td>
 
-Select the check box to apply the catalog client script on a Requested Item form, after the item is requested. Available in the fulfiller view. See VEditor .
+Select the check box to apply the catalog client script on a Requested Item form, after the item is requested. Available in the fulfiller view. See [VEditor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-variable-editor.md) .
 
 </td></tr><tr><td>
 
@@ -146,7 +146,7 @@ Applies on Catalog Tasks
 
 </td><td>
 
-Select the check box to apply the catalog client script when a Catalog Task form for the item is being displayed. Available in the fulfiller view. See VEditor .
+Select the check box to apply the catalog client script when a Catalog Task form for the item is being displayed. Available in the fulfiller view. See [VEditor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-variable-editor.md) .
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ Applies on the Target Record
 
 </td><td>
 
-Select the check box to support the catalog UI policy on a record created for task-extended tables via record producers. See Default variable editor .
+Select the check box to support the catalog UI policy on a record created for task-extended tables via record producers. See [Default variable editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-variable-editor.md) .
 
 </td></tr></tbody>
 </table>4.  Click **Submit**.

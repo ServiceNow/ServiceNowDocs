@@ -196,7 +196,7 @@ Repeat the step to capture more screenshots, if required.
                 |glide.rest.max\_content\_length|Integer|15|
                 |glide.rest.scripted.max\_inbound\_content\_length\_mb|Integer|15|
 
-For more information, see Configure system property.
+For more information, see [Configure system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/r_ControllingMaxRequestSize.md).
 
 **Note:** You must have the admin role to set the system properties.
 

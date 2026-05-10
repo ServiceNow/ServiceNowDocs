@@ -17,7 +17,7 @@ Access the Mobile App Builder to start the process of creating workflows for you
 
 Role required: admin or delegated developer
 
-For more information about the delegated developer role, see Delegated development and deployment.
+For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 ## Procedure
 

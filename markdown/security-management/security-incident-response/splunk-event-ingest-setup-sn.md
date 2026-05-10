@@ -41,7 +41,7 @@ Refer to the following table and verify that you have completed all the listed t
         -   Schedules on-going alert ingestion.
         -   Assigns the security incident analyst \(sn\_si.analyst\) role.
         -   Users with the sn\_si.analyst work with security incidents.
-    For more information about roles and assigning roles to users, see Managing roles.
+    For more information about roles and assigning roles to users, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md).
 
 2.  Verify that you are using version 6.0 or later of the Splunk API.
 
@@ -49,7 +49,7 @@ Refer to the following table and verify that you have completed all the listed t
 
 3.  Verify that you have installed and configured a MID Server.
 
-    A MID Server in your ServiceNow AI Platform® instance is required to connect to the Splunk service if the Splunk server is deployed within your corporate network. For more information about MID servers, see MID Server
+    A MID Server in your ServiceNow AI Platform® instance is required to connect to the Splunk service if the Splunk server is deployed within your corporate network. For more information about MID servers, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md)
 
     If you are using the Splunk Cloud service, a MID Server is not required.
 

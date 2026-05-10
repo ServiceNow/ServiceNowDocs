@@ -54,7 +54,7 @@ Role required: admin
 
 ## What to do next
 
-Ensure that you complete the post installation mandatory steps. For more information, see Post installation troubleshooting.
+Ensure that you complete the post installation mandatory steps. For more information, see [Post installation troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/post-install-steps.md).
 
 -   **[Post installation mandatory step for Supplier Collaboration Portal](../concept/post-install-steps.md)**  
 After you install the Supplier Collaboration Portal, ensure that you enable access to Supplier Collaboration Portal.

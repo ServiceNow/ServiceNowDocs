@@ -31,7 +31,7 @@ Role required: admin
 
 2.  From the Service Portal Designer, select the page you added the Connect Support widget to.
 
-    If you have not yet added the widget to a page, see Create and edit a page using the Service Portal Designer for more information.
+    If you have not yet added the widget to a page, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md) for more information.
 
 3.  Click the edit icon in the corner of the widget to open the instance options menu.
 

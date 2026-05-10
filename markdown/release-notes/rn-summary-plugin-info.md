@@ -109,7 +109,7 @@ Case management for CSM
 
 The following plugin is new in Australia:
 
-Assignment Workbench \(sn\_assign\_wb\_host\): This plugin enables managers to assign tasks to agents efficiently and intelligently.
+[Assignment Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-assignment-workbench.md) \(sn\_assign\_wb\_host\): This plugin enables managers to assign tasks to agents efficiently and intelligently.
 
 </td></tr><tr><td>
 
@@ -229,7 +229,7 @@ Enterprise Service Management Foundation
         -   Foundation: AI basics to deliver insights
         -   Advanced: AI to boost productivity across relevant use cases
         -   Prime: Act autonomously with all AI assets, and create your own
-For more information, see ServiceNow product tiers.
+For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 
 </td></tr><tr><td>
@@ -238,8 +238,8 @@ Field Service Management
 
 </td><td>
 
--   Field Service Manager Mobile \(com.snc.fsm\_manager\_mobile\). For details, see Activate Field Service Manager Mobile. Mangers can manage their technicians and tasks using their mobile device.
--   Field Service Manager Workforce \(com.snc.fsm\_manager\_workforce\). For details, see Activate Field Service Manager Workforce. Oversee agent schedules, manage resources, optimize territory coverage, and handle crew tasks and assignments to ensure efficient and effective coverage.
+-   Field Service Manager Mobile \(com.snc.fsm\_manager\_mobile\). For details, see [Activate Field Service Manager Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-manager-mobile.md). Mangers can manage their technicians and tasks using their mobile device.
+-   Field Service Manager Workforce \(com.snc.fsm\_manager\_workforce\). For details, see [Activate Field Service Manager Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/activate-workforce.md). Oversee agent schedules, manage resources, optimize territory coverage, and handle crew tasks and assignments to ensure efficient and effective coverage.
 
 </td></tr><tr><td>
 
@@ -392,10 +392,10 @@ Self-service and omnichannel engagement for CSM
 
 </td><td>
 
--   Customer Service integration with Social Media Store \(sn\_cs\_social\_host\): The Customer Service integration with Social Media app enables agents to select Social as the communication channel and add a social profile to the Case form. Any communication with customers or consumers that takes place through social media is recorded on the Case form in the Social Logs related list. For more information, see Social media communication channel
--   Web Components for Customers \(sn\_cx\_components\): The plugin adds Case create and Case view Web Embeddables components to your ServiceNow instance. You can clone and configure them, and embed on your third-party website. For more information, see Activate Web Embeddables.
--   Web Embeddable Core \(sn\_embeddable\_core\): This plugin enables you to create, edit, clone, delete, and organize components into modules, groups, and instances. Each instance can be configured with a live preview. It also provides tools to manage CORS rules for secure integration. For more information, see Activate Web Embeddables.
--   Web Components for Guest \(sn\_guest\_component\): This plugin enables guest user access to Knowledge article view and Catalog item Web Embeddables components on third-party websites. It allows unauthenticated users to view public knowledge articles and submit catalog items without logging in. You can configure access controls to determine which content is publicly accessible. For more information, see Activate Web Embeddables.
+-   Customer Service integration with Social Media Store \(sn\_cs\_social\_host\): The Customer Service integration with Social Media app enables agents to select Social as the communication channel and add a social profile to the Case form. Any communication with customers or consumers that takes place through social media is recorded on the Case form in the Social Logs related list. For more information, see [Social media communication channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/social-media-integration.md)
+-   Web Components for Customers \(sn\_cx\_components\): The plugin adds Case create and Case view Web Embeddables components to your ServiceNow instance. You can clone and configure them, and embed on your third-party website. For more information, see [Activate Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/act-web-embeddables.md).
+-   Web Embeddable Core \(sn\_embeddable\_core\): This plugin enables you to create, edit, clone, delete, and organize components into modules, groups, and instances. Each instance can be configured with a live preview. It also provides tools to manage CORS rules for secure integration. For more information, see [Activate Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/act-web-embeddables.md).
+-   Web Components for Guest \(sn\_guest\_component\): This plugin enables guest user access to Knowledge article view and Catalog item Web Embeddables components on third-party websites. It allows unauthenticated users to view public knowledge articles and submit catalog items without logging in. You can configure access controls to determine which content is publicly accessible. For more information, see [Activate Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/act-web-embeddables.md).
 
 </td></tr><tr><td>
 
@@ -496,7 +496,7 @@ Beginning with the Australia release, these plugins will be migrated to store ap
 -   sn-component-account-hierarchy \(com.sn\_component\_account\_hierarchy\)
 -   sn-component-workspace-shn \(com.sn\_component\_workspace\_shn\)
 
-For more information, see Plugins activated with Customer Service Management.
+For more information, see [Plugins activated with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/plugins-activated-with-csm.md).
 
 </td></tr><tr><td>
 
@@ -555,8 +555,8 @@ Content Management System
 
 </td><td>
 
--   CMS core plugin \(com.glide.cms\): Planned for deprecation in the C release \(GA\). It will be hidden and no longer available for activation but will continue to be supported for regression and security defects until the C release \(GA\). Use Service Portal for new development instead of CMS. Service Portal is an alternative to CMS with a refined user experience, and is active by default in the base system. For more information, see Service Portal and Content Management and Service Portal.
--   CMS core plugin \(com.glide.cms.extensions\): Planned for deprecation in the C release \(GA\). It will be hidden and no longer available for activation but will continue to be supported for regression and security defects until the C release \(GA\). Use Service Portal for new development instead of CMS. Service Portal is an alternative to CMS with a refined user experience, and is active by default in the base system. For more information, see Service Portal and Content Management and Service Portal.
+-   CMS core plugin \(com.glide.cms\): Planned for deprecation in the C release \(GA\). It will be hidden and no longer available for activation but will continue to be supported for regression and security defects until the C release \(GA\). Use Service Portal for new development instead of CMS. Service Portal is an alternative to CMS with a refined user experience, and is active by default in the base system. For more information, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md) and [Content Management and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_CMSAndSP.md).
+-   CMS core plugin \(com.glide.cms.extensions\): Planned for deprecation in the C release \(GA\). It will be hidden and no longer available for activation but will continue to be supported for regression and security defects until the C release \(GA\). Use Service Portal for new development instead of CMS. Service Portal is an alternative to CMS with a refined user experience, and is active by default in the base system. For more information, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md) and [Content Management and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_CMSAndSP.md).
 
 </td></tr><tr><td>
 
@@ -575,7 +575,7 @@ Document Intelligence
 
 </td><td>
 
-Document Intelligence Admin \(sn\_docintel\_admin\): Planned for deprecation in the Brazil release. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see Now Assist in Document Intelligence.
+Document Intelligence Admin \(sn\_docintel\_admin\): Planned for deprecation in the Brazil release. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 </td></tr><tr><td>
 
@@ -585,8 +585,8 @@ Encryption
 
 -   Column Level Encryption \(com.glide.encryption\): Planned for deprecation in the C release. Activate the Field Encryption Starter or Field Encryption Enterprise plugins instead.
 -   Column Level Encryption Enterprise\(com.glide.now.platform.encryption\): Planned for deprecation in July 2031. Activate the Field Encryption Starter or Field Encryption Enterprise instead.
--   Edge Encryption \(com.glide.edgeencryption\): Planned for deprecation in December 2028.Use Platform Encryption instead. For more information, see the [Edge Encryption End of Renewal \[KB2007685\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article on the Now Support Knowledge Base.
--   Edge Encryption Core \(com.glide.edgeencryption.core\): Planned for deprecation in December 2028. Use Platform Encryption instead. For more information, see the [Edge Encryption End of Renewal \[KB2007685\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article on the Now Support Knowledge Base.
+-   [Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EdgeEncryptionOverview.md) \(com.glide.edgeencryption\): Planned for deprecation in December 2028.Use Platform Encryption instead. For more information, see the [Edge Encryption End of Renewal \[KB2007685\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article on the Now Support Knowledge Base.
+-   [Edge Encryption Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EdgeEncryptionOverview.md) \(com.glide.edgeencryption.core\): Planned for deprecation in December 2028. Use Platform Encryption instead. For more information, see the [Edge Encryption End of Renewal \[KB2007685\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article on the Now Support Knowledge Base.
 
 </td></tr><tr><td>
 
@@ -623,7 +623,7 @@ Impact
 
 </td><td>
 
-Impact Health \(com.sn\_impact\_health\): Planned for deprecation in a future release. For this functionality, install the Now Assist for Platform Health Scan Engine application.
+Impact Health \(com.sn\_impact\_health\): Planned for deprecation in a future release. For this functionality, install the [Now Assist for Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-health-agent.md) Scan Engine application.
 
 </td></tr><tr><td>
 
@@ -631,7 +631,7 @@ Legal Virtual Agent Conversations
 
 </td><td>
 
-Legal Virtual Agent Conversations \(sn\_lg\_virtual\_agent\): Planned for deprecation in C release.There is no replacement for this plugin.
+[Legal Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-va-conversations.md) \(sn\_lg\_virtual\_agent\): Planned for deprecation in C release.There is no replacement for this plugin.
 
 </td></tr><tr><td>
 
@@ -639,7 +639,7 @@ Now Assist
 
 </td><td>
 
-Conversational Help Skills: Planned for deprecation in May 2026. Install the External Content Connectors Application Suite from the [ServiceNow store](https://store.servicenow.com/store/app/dd69bc781bd9a650396216db234bcb0b). For configuration guidance, see External Content Connectors .
+Conversational Help Skills: Planned for deprecation in May 2026. Install the External Content Connectors Application Suite from the [ServiceNow store](https://store.servicenow.com/store/app/dd69bc781bd9a650396216db234bcb0b). For configuration guidance, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ext-cont-connectors-landing-page.md) .
 
 </td></tr><tr><td>
 
@@ -656,7 +656,7 @@ Now Assist in Document Intelligence
 
 </td><td>
 
-The Document Intelligence Admin \(sn\_docintel\_admin\) plugin is planned for deprecation in the Brazil release. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see Now Assist in Document Intelligence.
+The Document Intelligence Admin \(sn\_docintel\_admin\) plugin is planned for deprecation in the Brazil release. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 </td></tr><tr><td>
 
@@ -680,10 +680,10 @@ Self-service and omnichannel engagement for CSM
 
 </td><td>
 
--   Openframe Integration App \(com.sn\_openframe\_integration\)
--   Skill Determination \(com.snc.skill\_determination\)
--   Advanced Work Assignment for CSM \(sn\_csm.awa\)
--   Social Media Store \(sn\_cs\_social\_host\)
+-   [Openframe Integration App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_OpenFrameOverview.md) \(com.sn\_openframe\_integration\)
+-   [Skill Determination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/quick-start-tests-csm.md) \(com.snc.skill\_determination\)
+-   [Advanced Work Assignment for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/awa-csm-overview.md) \(sn\_csm.awa\)
+-   [Social Media Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/social-media-integration.md) \(sn\_cs\_social\_host\)
 
 </td></tr><tr><td>
 
@@ -691,8 +691,8 @@ ServiceNow AI Platform core feature
 
 </td><td>
 
--   Form designer \(com.glide.ui.ng.fd\): Planned for deprecation in the C release. Form Builder is the recommended replacement for all form configurations. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
--   ServiceNow Subscription Management \(com.snc.usage\_admin.snc\): Planned for deprecation in August 2026. Update to the most recent version of the Subscription Management application through the Application Manager. For more information about the Subscription Management application, see Subscription Management.
+-   Form designer \(com.glide.ui.ng.fd\): Planned for deprecation in the C release. [Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/access-form-builder.md) is the recommended replacement for all form configurations. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+-   ServiceNow Subscription Management \(com.snc.usage\_admin.snc\): Planned for deprecation in August 2026. Update to the most recent version of the Subscription Management application through the Application Manager. For more information about the Subscription Management application, see [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/subscription-management-landing-page-v2.md).
 
 </td></tr><tr><td>
 

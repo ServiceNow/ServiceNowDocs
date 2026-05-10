@@ -17,7 +17,7 @@ The ServiceNow® UI Builder application is a web user interface builder for buil
 -   Share UI Builder pages across experiences without copying or recreating them, reducing maintenance and keeping users in their current workspace.
 -   UI Interactions let you define reusable UI and logic that can be triggered by user actions or system events and shared across any page or experience, eliminating the need to duplicate code or UI.
 
-See UI Builder for more information.
+See [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md) for more information.
 
 **Important:** UI Builder is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -27,7 +27,7 @@ Saving section for later.
 
 ## New in the Australia release
 
--   **Create event-driven UI interactions**
+-   **[Create event-driven UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/uib-ui-interactions.md)**
 
     Trigger UI interactions directly from events in UI Builder, allowing you to link event-driven behavior to reusable interaction logic with the following benefits:
 
@@ -46,7 +46,7 @@ Saving section for later.
 
 ## Changed in this release
 
--   **Use pages across experiences**
+-   **[Use pages across experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/use-across-pages.md)**
 
     Share and reuse pages across workspaces without switching contexts or rebuilding content to help save time and simplify maintenance.
 
@@ -65,19 +65,19 @@ The expanded drop-down menus for column properties can be ready by screen reader
 
 ## Related ServiceNow applications and features
 
--   **Build apps using App Engine Studio**
+-   **[Build apps using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-overview.md)**
 
     After you create apps in ServiceNow App Engine Studio, you can then create their user interface in ServiceNow UI Builder.
 
--   **Now Assist**
+-   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     ServiceNow® Now Assist uses generative AI that is designed to enhance user productivity and efficiency through conversation and proactive experiences.
 
--   **Overview tab in Now Assist Admin**
+-   **[Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)**
 
     The Now Assist Admin console provides you with quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
 
--   **Now Assist Skill Kit**
+-   **[Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)**
 
     The ServiceNow® Now Assist Skill Kit enables you to create and publish custom prompts and skills for Now Assist.
 

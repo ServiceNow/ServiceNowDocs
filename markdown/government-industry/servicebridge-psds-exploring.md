@@ -61,11 +61,11 @@ A consumer instance
 
 The main capabilities of Service Exchange include:
 
--   Onboarding: Quickly onboard agency partners or constituents that use ServiceNow with a simplified registration process.
--   Authorized Users: Manage and control access at the Remote Catalog item level to meet security and compliance requirements.
--   Remote Catalog: Update shared agency service catalogs in minutes as new items are introduced.
--   Remote Choice: Ensure up-to-date field options in downstream agency remote catalogs by retrieving real-time data from the provider's ServiceNow instance.
--   Remote Task: Help increase automation with seamless multi-party and multi-instance workflows across the ServiceNow ecosystem.
--   Provider Tasks: Enable all providers of services using Service Exchange to be transparent and collaborative with their partner agencies who use ServiceNow by syncing relevant tasks like cases, to consumers as Provider Tasks.
--   Transform Framework: Transform inbound and outbound remote task data for easy process transformation between ServiceNow instances.
+-   [Onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-onboarding.md): Quickly onboard agency partners or constituents that use ServiceNow with a simplified registration process.
+-   [Authorized Users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-auth-users.md): Manage and control access at the Remote Catalog item level to meet security and compliance requirements.
+-   [Remote Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-apps.md): Update shared agency service catalogs in minutes as new items are introduced.
+-   [Remote Choice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-remote-choice-fields.md): Ensure up-to-date field options in downstream agency remote catalogs by retrieving real-time data from the provider's ServiceNow instance.
+-   [Remote Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-remote-task-overview.md): Help increase automation with seamless multi-party and multi-instance workflows across the ServiceNow ecosystem.
+-   [Provider Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-provider-tasks.md): Enable all providers of services using Service Exchange to be transparent and collaborative with their partner agencies who use ServiceNow by syncing relevant tasks like cases, to consumers as Provider Tasks.
+-   [Transform Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-provider-tasks.md): Transform inbound and outbound remote task data for easy process transformation between ServiceNow instances.
 

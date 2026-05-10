@@ -17,7 +17,7 @@ Use the agent inbox to manage your incoming work items, such as chats, cases, in
 
 To open the agent inbox, select the Inbox icon \(![Inbox icon](../image/agent-inbox-icon.png)\) in the Source-to-Pay Workspace.
 
-The agent inbox displays the queues that are assigned to you, the number of active chats in each queue, and the average wait time for chats in the queue. For more information, see Inbox layout.
+The agent inbox displays the queues that are assigned to you, the number of active chats in each queue, and the average wait time for chats in the queue. For more information, see [Inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-inbox-layout.md).
 
 When you accept a chat, an interaction record is automatically created and captures the work done in that session.
 

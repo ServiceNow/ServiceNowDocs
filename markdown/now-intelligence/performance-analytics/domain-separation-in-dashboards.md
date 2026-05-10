@@ -24,11 +24,11 @@ Domain separation is supported in dashboard creation and administration. Domain 
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Overview of domain separation
 
- To activate the domain separation plugin, see Request domain separation.
+ To activate the domain separation plugin, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md).
 
 **Important:** For users in child domains to view dashboards in parent domains, both domain separation and delegated administration must be enabled.
 
@@ -58,7 +58,7 @@ In the following figure, dashboards created in the IT, CS, and HR domains are no
 **Related topics**  
 
 
-[bundle-psec.c_DomainSeparation]
+[Understanding domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md)
 
-[bundle-psec.bp-domain-sep-recommended]
+[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
 

@@ -4,7 +4,7 @@ description: A responsibility describes a role or function that supports a user.
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [PRM roles and components, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---

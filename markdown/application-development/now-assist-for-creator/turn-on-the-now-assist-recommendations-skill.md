@@ -41,7 +41,7 @@ Turn on the flow recommendations skill to get recommendations for the next step 
 
 ## What to do next
 
-For Flow generation v 28.2 and later releases, grant a flow creation role to each user who will use the Flow recommendations skill. For a list of available flow creation roles, see User access to Workflow Studio flows.
+For Flow generation v 28.2 and later releases, grant a flow creation role to each user who will use the Flow recommendations skill. For a list of available flow creation roles, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/user-access-flow-designer.md).
 
 For earlier versions of the Flow generation application, grant the now.assist.creator role and a flow creation role to each user who will use the Flow recommendations skill.
 

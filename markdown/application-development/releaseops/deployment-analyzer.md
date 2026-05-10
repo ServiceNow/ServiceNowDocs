@@ -30,5 +30,5 @@ The deployment analyzer also leverages Automated Test Framework \(ATF\) code cov
 
 By default, if ATF test suites cover less than 70 percent of the code in a deployment request, ReleaseOps transitions the deployment request to the **Reconciling** state and a test failure task is automatically created. You can adjust the ATF code coverage threshold in the deployment request assessment playbook. For more information, see [Set Automated Test Framework \(ATF\) code coverage](../task/set-atf-code-coverage-threshold.md).
 
-For more information about ATF code coverage, see ATF Code Coverage API.
+For more information about ATF code coverage, see [ATF Code Coverage API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/atf-code-coverage-api.md).
 

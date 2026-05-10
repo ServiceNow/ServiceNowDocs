@@ -31,7 +31,7 @@ By default, the following filters are available from the **System Mailboxes** &g
 
 **Note:** Filter action should be configured to indicate how the system should react when the conditions of this filter evaluate to true. The two choices in the base system are: Mark as Ignored and Move to Junk. You can use the Action script to perform additional email tasks.
 
-To learn more about enabling spam scoring and filtering, see Email spam scoring and filtering \(instance security hardening\) in Instance Security Hardening Settings.
+To learn more about enabling spam scoring and filtering, see [Email spam scoring and filtering \(instance security hardening\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-email-spam-scoring-and-filtering.md) in Instance Security Hardening Settings.
 
 ## Email filter script include
 

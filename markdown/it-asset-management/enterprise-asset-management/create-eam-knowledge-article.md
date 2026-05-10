@@ -27,7 +27,7 @@ Role required: sn\_eam.enterprise\_admin
 
 3.  On the form, fill in the fields.
 
-    For detailed information on the fields, refer to the Knowledge Management application
+    For detailed information on the fields, refer to the [Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management.md) application
 
 <table id="choicetable_y22_jbc_mzb"><thead><tr><th align="left" id="d102949e86">
 

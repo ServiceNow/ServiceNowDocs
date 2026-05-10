@@ -22,5 +22,5 @@ To give feedback on the answers provided by Now Assist, you can select either th
 
 **Note:** To activate Now Assist AI Search, the search card templates must be added by the administrator for your ServiceNow product. For example, Employee Service Management or Field Service Management.
 
-For more information on Now Assist in AI Search on mobile, including installation, see Now Assist in AI Search for more information. For information on guided setup to configure AI Search on your instance, see Configuring AI Search for Next Experience
+For more information on Now Assist in AI Search on mobile, including installation, see [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-ais.md) for more information. For information on guided setup to configure AI Search on your instance, see [Configuring AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ais-next-experience.md)
 

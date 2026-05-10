@@ -47,7 +47,7 @@ Description
 
 </td><td>
 
-Determine the roles of the individuals that you need to work on the claim cases for your line of business. Set up the roles to support the permissions that are required to adjudicate a claim. The roles should inherit the included roles from FSO core. For more information, see Managing roles.
+Determine the roles of the individuals that you need to work on the claim cases for your line of business. Set up the roles to support the permissions that are required to adjudicate a claim. The roles should inherit the included roles from FSO core. For more information, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md).
 
  Required roles include:
 
@@ -72,7 +72,7 @@ Use script includes to store JavaScript that runs on the server. By using script
 -   Any other script includes based on your requirements.
 Modify the ClaimConstants script include to reuse the object names across functions.
 
-For more information, see Script includes.
+For more information, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
 </td></tr><tr><td id="d52687e250">
 
@@ -116,7 +116,7 @@ Define the actions that the user can take on the table record in a form. Example
 -   The task tables inherit the UI actions from Financial Task.
 Override or hide the actions according to your business requirements.
 
-For more information, see Defining UI actions and [FSO Core Banking tables](../../fso-common/reference/fso-core-banking-tables.md).
+For more information, see [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UIActions.md) and [FSO Core Banking tables](../../fso-common/reference/fso-core-banking-tables.md).
 
 </td></tr><tr><td id="d52687e353">
 
@@ -128,7 +128,7 @@ Configure the workspaces for your defined personas to interact with the customer
 
 For more information, see [Enable the claim workspace for Individual Life Claims](enable-claim-workspace-for-individual-life-claims.md).**Note:** The claim workspace is accessible from an adjuster task.
 
-For more information, see [Configure CSM Configurable Workspace](../../fso-common/task/configure-csm-workspace-fso-apps.md) and UI Builder.
+For more information, see [Configure CSM Configurable Workspace](../../fso-common/task/configure-csm-workspace-fso-apps.md) and [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
 
 </td></tr><tr><td id="d52687e402">
 
@@ -140,7 +140,7 @@ Set up the decision tables that are specific to your business requirements.Refer
 
  If the input parameters, rules, and other elements vary, new tables may be needed for each line of business.
 
-For more information, see Decision Tables.
+For more information, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-tables/decision-table.md).
 
 </td></tr><tr><td id="d52687e422">
 

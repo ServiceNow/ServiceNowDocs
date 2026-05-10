@@ -21,8 +21,8 @@ The search results from the configured search sources are displayed in the form 
 
 AI search harnesses advanced machine learning algorithms and natural language processing capabilities to comprehend user queries and provides the most relevant search results that can be employed to resolve issues effectively. For more information on:
 
--   AI search and its features, see AI Search.
--   enabling AI search for Next Experience, see Enable AI Search for Next Experience.
+-   AI search and its features, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md).
+-   enabling AI search for Next Experience, see [Enable AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enable-ais-next-exp-app.md).
 
 ## AI search features
 

@@ -136,7 +136,7 @@ Month 6
 -   **Lower quartile**: When the data is split, 1,2,3 represents the set of values in the lower half of the data. In the example, the lower quartile is 2. Because the dataset has an even number of values, the lower quartile is an exact value. If the dataset had an odd number of values, you would average the two center numbers.
 -   **Minimum**: The month where the employee had the least number of incidents assigned, or 1 incident in this example.
 
-**Note:** When accessibility is enabled, this visualization includes a report that screen readers can interpret. For more information, see Enabling accessibility features.
+**Note:** When accessibility is enabled, this visualization includes a report that screen readers can interpret. For more information, see [Enabling accessibility features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_SetUpSect508ComplianceFeature.md).
 
 **Parent Topic:**[Report types](../reference/report-types-creation-details-rd.md)
 
@@ -172,7 +172,7 @@ Also called a report source, a data source is a table with filters applied to pr
 
 </td><td>
 
-The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see Retrieving external data using remote tables and scripts
+The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-tables.md)
 
 </td></tr><tr><td id="d32442e406">
 
@@ -188,7 +188,7 @@ Choose an existing imported report source, or select the Upload icon \(![Upload 
 
 </td><td>
 
-MetricBase enables you to collect, retain, analyze, and visualize custom time series data on the ServiceNow AI Platform. For more information, see MetricBase.
+MetricBase enables you to collect, retain, analyze, and visualize custom time series data on the ServiceNow AI Platform. For more information, see [MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase.md).
 
 </td></tr></tbody>
 </table>4.  On the **Type** tab, enter **Trendbox** in the filter, select the report type, and click **Next**.
@@ -248,7 +248,7 @@ Trend by
 
 </td><td>
 
-Table field whose values you want to show in a time sequence. Select the info icon ![](../../par-for-workspace/image/icon-info.png) for a description of the selected field. **Note:** If you selected a remote table in the **Table** field, the option you select in this field aggregates the data that was retrieved from an external source and aggregated in memory. To learn more about remote tables, see Retrieving external data using remote tables and scripts.
+Table field whose values you want to show in a time sequence. Select the info icon ![](../../par-for-workspace/image/icon-info.png) for a description of the selected field. **Note:** If you selected a remote table in the **Table** field, the option you select in this field aggregates the data that was retrieved from an external source and aggregated in memory. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-tables.md).
 
 </td></tr><tr><td>
 
@@ -297,7 +297,7 @@ Mathematical calculation to perform on the data. The default is **Count**, which
 
 7.  To limit the information displayed in the report, select the filter icon \(![Filter icon](../../../common/image/List_FilterIcon.png)\) and specify conditions to filter the report data.
 
-    To learn how to construct conditions, see Condition builder.
+    To learn how to construct conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
     **Note:** In aggregated and list reports, language-dependent filter conditions may return zero results on localized instances.
 

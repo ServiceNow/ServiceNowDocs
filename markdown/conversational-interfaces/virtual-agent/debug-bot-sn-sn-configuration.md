@@ -24,7 +24,7 @@ Enable the following system properties:
 -   **glide.outbound\_http\_log.override** = true
 -   **glide.outbound\_http\_log.override.level** = all
 
-For more information, see Add a system property.
+For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 Role required: admin
 

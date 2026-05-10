@@ -17,7 +17,7 @@ The Role API defines roles \[sys\_user\_role\] that grant specific permissions t
 
 **Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
-For general information about user roles, see Managing roles.
+For general information about user roles, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md).
 
 **Parent Topic:**[ServiceNow Fluent API reference](servicenow-fluent-api-reference.md)
 
@@ -76,7 +76,7 @@ Boolean
 
 </td><td>
 
-Flag that indicates if the role can be delegated to other users. For more information, see Delegating roles.Valid values:
+Flag that indicates if the role can be delegated to other users. For more information, see [Delegating roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_DelegateRoles.md).Valid values:
 
 -   true: The role can be delegated to other users.
 -   false: The role can't be delegated to other users.
@@ -105,7 +105,7 @@ Boolean
 
 </td><td>
 
-Flag that indicates whether manually accepting the responsibility of using the role before you can access the features of the role is required. For more information about elevated privileges, see Elevated privilege roles.Valid values:
+Flag that indicates whether manually accepting the responsibility of using the role before you can access the features of the role is required. For more information about elevated privileges, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ElevatedPrivilege.md).Valid values:
 
 -   true: You must manually accept the responsibility of using the role before you can access its features.
 -   false: You don't need to manually accept the responsibility of using the role to access its features.

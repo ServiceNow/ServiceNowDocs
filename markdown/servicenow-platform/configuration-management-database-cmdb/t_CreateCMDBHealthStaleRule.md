@@ -21,7 +21,7 @@ Role required: sn\_cmdb\_editor and itil have read access, sn\_cmdb\_admin and i
 
 ## About this task
 
-The Discovery setting of certain types of CIs as stale takes precedence over a CMDB Health staleness rule defined for the CI. For more information about Discovery marking CIs as stale, see Discovery for VMware vCenter.
+The Discovery setting of certain types of CIs as stale takes precedence over a CMDB Health staleness rule defined for the CI. For more information about Discovery marking CIs as stale, see [Discovery for VMware vCenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_DiscoveryForVMwareVCenter.md).
 
 Staleness rules are defined per class. If a rule isn't defined for a class, then the parent's rule is automatically derived by the child class and applies for the child class. If later a staleness rule is defined at the child class level, it overwrites the staleness rule that was derived from the parent class.
 

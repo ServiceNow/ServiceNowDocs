@@ -29,7 +29,7 @@ Any rule that is applied to a group is automatically assigned to group members; 
 
 -   You can create users and groups using the ServiceNow AI Platform user administration feature.
 
-    -   Create a user
-    -   Create a user group
-    -   Add a user to a group
+    -   [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md)
+    -   [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAGroup.md)
+    -   [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AddAUserToAGroup.md)
 

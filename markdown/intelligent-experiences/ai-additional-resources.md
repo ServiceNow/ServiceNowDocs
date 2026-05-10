@@ -36,7 +36,7 @@ Release Notes
 
 </td><td>
 
-Now Assist AI Agents Release Notes.
+[Now Assist AI Agents Release Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-ai-agents-rn.md).
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ Release notes
 
 </td><td>
 
-AI Control Tower release notes
+[AI Control Tower release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/ai-control-tower-rn.md)
 
 </td></tr><tr><td>
 
@@ -134,7 +134,7 @@ Release notes
 
 </td><td>
 
-Document Intelligence release notes
+[Document Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/document-intelligence-rn.md)
 
 </td></tr><tr><td>
 
@@ -284,29 +284,29 @@ Release notes
 
 </td><td>
 
-Now Assist release notes
+[Now Assist release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn.md)
 
- Now Assist for Creator release notes
-
- 
-
- Now Assist in Document Intelligence release notes
-
- Now Assist for Enterprise Architecture \(EA\) release notes
+ [Now Assist for Creator release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-creator-rn.md)
 
  
 
- Now Assist for IT Service Management \(ITSM\) release notes
+ [Now Assist in Document Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-document-intelligence-rn.md)
+
+ [Now Assist for Enterprise Architecture \(EA\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-ea-rn.md)
+
+ 
+
+ [Now Assist for IT Service Management \(ITSM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-itsm-rn.md)
 
  
 
  
 
- Now Assist for Strategic Portfolio Management \(SPM\) release notes
+ [Now Assist for Strategic Portfolio Management \(SPM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-spm-rn.md)
 
- Now Assist in Virtual Agent release notes
+ [Now Assist in Virtual Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-va-rn.md)
 
- Generative AI Controller release notes
+ [Generative AI Controller release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/generative-ai-controller-rn.md)
 
 </td></tr><tr><td>
 
@@ -424,7 +424,7 @@ Release notes
 
 </td><td>
 
-Predictive Intelligence release notes
+[Predictive Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/predictive-intelligence-rn.md)
 
 </td></tr><tr><td>
 

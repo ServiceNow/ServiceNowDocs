@@ -21,9 +21,9 @@ In this release, the available prebuilt integrations with Now Assist Virtual Age
 2.  Integration with Now Assist for Slot filling: Helps requesters and fulfillers in pre-filling the slots for LLM topics and skills execution using Natural Language Querying of Knowledge Graph.
 3.  Integration with Now Assist for Natural Language Query graph: Helps requesters and fulfillers with personalized responses on people queries and Natural Language queries. Also supports people citation card.
 
-**Note:** To enable Knowledge Graph for Now Assist Virtual Agent, ensure that **sn\_vad\_genai.knowledge\_graph.enabled** and **sn\_ais\_assist.enable\_knowledge\_graph\_nlq** system properties are set to true. See Add a Knowledge Graph schema to a chat assistant.
+**Note:** To enable Knowledge Graph for Now Assist Virtual Agent, ensure that **sn\_vad\_genai.knowledge\_graph.enabled** and **sn\_ais\_assist.enable\_knowledge\_graph\_nlq** system properties are set to true. See [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/add-kg-schema-assistant.md).
 
-For more information see Add a Knowledge Graph schema to a chat assistant.
+For more information see [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/add-kg-schema-assistant.md).
 
 **Note:**
 
@@ -126,5 +126,5 @@ Knowledge Graph is also integrated with AI Search. You can enable Now Assist Mul
 
 Ensure that you have already configured Knowledge Graph with an assistant before enabling it on AI search.
 
-To configure and enable the AI Search see Now Assist Q&amp;A Genius Results.
+To configure and enable the AI Search see [Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-qna-genius-results.md).
 

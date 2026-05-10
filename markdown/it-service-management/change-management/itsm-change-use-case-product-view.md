@@ -24,7 +24,7 @@ Change Management includes the following features:
 -   Service Maps let you see the change impacts at-a-glance.
 -   The change approval policies increase DevOps velocity and remove IT friction.
 
-For details on implementing the CSDM framework, see Implementing the CSDM framework in stages.
+For details on implementing the CSDM framework, see [Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md).
 
 ## Change Request form
 

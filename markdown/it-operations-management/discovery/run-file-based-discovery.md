@@ -41,7 +41,7 @@ Role required: admin
 
     If you're using anti-virus software, make sure to include all of the ServiceNow Windows PowerShell scripts so the anti-virus software does not see it as a threat.
 
-2.  Activate the File-based Discovery plugin.
+2.  [Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_RequestAPlugin.md) the File-based Discovery plugin.
 
 3.  Enable and configure File-based Discovery.
 
@@ -61,7 +61,7 @@ Role required: admin
 
         The default is set to Monthly.
 
-    **Note:** File-based Discovery does not trigger until initial Content Data Service \(CDS\) synchronization occurs. CDS synchronization could take approximately 24 hours for the initial set of data to be synchronized from CDS. For more information see, File Signature Normalization.
+    **Note:** File-based Discovery does not trigger until initial Content Data Service \(CDS\) synchronization occurs. CDS synchronization could take approximately 24 hours for the initial set of data to be synchronized from CDS. For more information see, [File Signature Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-file-based-discovery.md).
 
 
 ## Result

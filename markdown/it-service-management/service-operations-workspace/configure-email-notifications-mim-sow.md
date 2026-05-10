@@ -27,10 +27,10 @@ Consider the following items when you create or update a notification:
 
 -   Your notification recipients must have the appropriate notification preferences enabled.
 
-    Each user or group member must have the option to subscribe to the notification. They should have that option enabled in their notification preferences, along with the devices through which they want to receive the notification. Admins can impersonate users to review and configure their notification preferences. For more information, see Setting notification preferences in Core UI
+    Each user or group member must have the option to subscribe to the notification. They should have that option enabled in their notification preferences, along with the devices through which they want to receive the notification. Admins can impersonate users to review and configure their notification preferences. For more information, see [Setting notification preferences in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-notification-preferences.md)
 
--   To have your email notification also send as an SMS notification, recipients must subscribe to the notification on an SMS channel. For more information on creating an SMS channel, see Create notification channels.
--   After you create or update the notification, use the **Preview Notification** option to examine it. For example, you can test links that you have added and verify the notification recipients. For details, see Preview email notifications.
+-   To have your email notification also send as an SMS notification, recipients must subscribe to the notification on an SMS channel. For more information on creating an SMS channel, see [Create notification channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-channel.md).
+-   After you create or update the notification, use the **Preview Notification** option to examine it. For example, you can test links that you have added and verify the notification recipients. For details, see [Preview email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_PreviewingNotifications.md).
 
 Role required: admin
 
@@ -41,7 +41,7 @@ Use the following tabs in the Notification form to configure an email notificati
 -   When to send — Conditions required to send the notification.
 -   Who will receive — Recipients of the notification.
 -   What it will contain — Contents of the notification.
--   What a digest will contain — Contents of the email digests if the notification can be delivered in a digest. For more information, see Email digests.
+-   What a digest will contain — Contents of the email digests if the notification can be delivered in a digest. For more information, see [Email digests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-digests.md).
 
 **Note:** If you don’t see all the fields on the form, select the **Advanced** view option in the related link section.
 
@@ -61,7 +61,7 @@ Use the following tabs in the Notification form to configure an email notificati
 
 5.  On the Notification form, fill in the fields.
 
-    For a description of the field values, see Create an email notification.
+    For a description of the field values, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
 
 6.  Select **Submit**.
 
@@ -73,5 +73,5 @@ Use the **Preview Notification** option to preview what notifications look like 
 -   How the **Subject** and **Message** fields are displayed.
 -   Which users do or don’t receive the notification, including the reasons why the users don’t receive it.
 
-For more information, see Preview email notifications.
+For more information, see [Preview email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_PreviewingNotifications.md).
 

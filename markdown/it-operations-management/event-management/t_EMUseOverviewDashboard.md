@@ -30,5 +30,5 @@ The AIOps dashboards offer comprehensive visualizations of critical operational 
 **Related topics**  
 
 
-[bundle-par.c_performanceAnalyticsAndReporting]
+[Performance Analytics and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_performanceAnalyticsAndReporting.md)
 

@@ -32,9 +32,9 @@ Virtual Agent supports AI agents. When a user ask a question to the virtual agen
 
 Pre-built Virtual Agent topics are available from the ServiceNow Store. These topics are designed to handle common issues that can occur and are customized for ServiceNow workflows. Available plugins include the following:
 
--   ITSM Virtual Agent conversations
--   Customer Service Virtual Agent conversations
--   HR Service Delivery Virtual Agent conversations
+-   [ITSM Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-virtual-agent.md)
+-   [Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-virtual-agent-csm.md)
+-   [HR Service Delivery Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.md)
 
 ## Virtual Agent and Virtual Agent Lite
 
@@ -190,7 +190,7 @@ Integrate with other ServiceNow AI Platform applications, such as AI Search. Use
 
  [Integrating Virtual Agent with Workflow Studio workflows](va-flow-designer-integration.md)
 
- Integration Hub
+ [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md)
 
 </td><td>
 

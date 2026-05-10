@@ -15,7 +15,7 @@ breadcrumb: [Security Incident Response setup, Security Incident Response, Enter
 
 Platform Analytics Solutions contain preconfigured dashboards. The dashboards present important metrics for analyzing your Security Incident Response process, such as new security incidents or the average age of open security incidents.
 
-Platform Analytics data visualizations use Performance Analytics indicator data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
+Platform Analytics data visualizations use Performance Analytics [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
 
 The Security Incident Response Performance Analytics Solution is available from the ServiceNow Store. For information about downloading and installing this application, see [Security Operations and the ServiceNow Store](../../../product/planning-and-policy/concept/secops-and-store.md).
 
@@ -24,9 +24,9 @@ The Security Incident Response Performance Analytics Solution is available from 
 -   You cannot create new indicators.
 -   You cannot collect data older than 180 days.
 
-For full functionality, license Performance Analytics. For more information, see Activate your Performance Analytics subscription.
+For full functionality, license Performance Analytics. For more information, see [Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
 
-**Important:** By default, the data collection limit for the `(com.snc.pa.dc.max_records)` property in Performance Analytics is set as 5,000 records. But you can increase this limit per your requirements, such as 50,000 records. However, increasing this limit may impact performance during data collection or when performing operations on the Snapshot table. To learn more about the Performance Analytics properties, see Performance Analytics properties.
+**Important:** By default, the data collection limit for the `(com.snc.pa.dc.max_records)` property in Performance Analytics is set as 5,000 records. But you can increase this limit per your requirements, such as 50,000 records. However, increasing this limit may impact performance during data collection or when performing operations on the Snapshot table. To learn more about the Performance Analytics properties, see [Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-properties.md).
 
 -   **[CISO dashboard](ciso-dashboard.md)**  
 This dashboard reveals the overall security posture of your organization, including security vulnerability and incidents.
@@ -44,5 +44,5 @@ Security operations center \(SOC\) managers can view overall efficiency metrics 
 **Related topics**  
 
 
-[bundle-par.c_PremiumPerformanceAnalytics]
+[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md)
 

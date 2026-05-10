@@ -57,5 +57,5 @@ Multi-factor authentication \(MFA\) requires users to verify their identity with
     -   Knowledge-based authentication \(KBA\) are pre-set security questions configured by the admin, such as “`What are the last four digits of your SSN?`”
     -   Mostly used for low-risk operations, KBA requires no additional device but isn’t secure and shouldn’t standalone for sensitive actions.
 
-To learn more about voice service and how to create them, see Create an AI voice assistant.
+To learn more about voice service and how to create them, see [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-an-ai-voice-service.md).
 

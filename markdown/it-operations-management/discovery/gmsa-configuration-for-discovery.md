@@ -57,7 +57,7 @@ Role required: agent\_admin, discovery\_admin, or admin
 
     **Note:** It's not usually necessary to add discovered Windows servers to the GMSAGroup. Member hosts obtain the current and previous password values directly from a domain controller, and Discovery doesn't require this step.
 
-3.  Start the MID Server with the gMSA account following the directions here on using gMSA: Install a MID Server on Windows
+3.  Start the MID Server with the gMSA account following the directions here on using gMSA: [Install a MID Server on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md)
 
 4.  Create a Windows credential on the instance and select the check box **Use MID Server Service Account**.
 

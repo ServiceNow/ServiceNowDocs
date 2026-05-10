@@ -24,7 +24,7 @@ Domain separation is supported in Enterprise Asset Management. Domain separation
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Overview
 
@@ -36,7 +36,7 @@ In Enterprise Asset Management, domain separation occurs in two stages: data sep
 
 **Note:**
 
-The Recommended practice is to avoid customizing the base system domain configuration record.
+The [Recommended practice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md) is to avoid customizing the base system domain configuration record.
 
 ## Required plugins
 
@@ -49,7 +49,7 @@ The Recommended practice is to avoid customizing the base system domain configur
 -   Service Catalog – Domain Separation \(com.glideapp.servicecatalog.domain\_separation\)
 -   Procurement \(com.snc.procurement\)
 
-To learn more, see Domain separation explained, Contains queries and domain access, and Importance of Default domain.
+To learn more, see [Domain separation explained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-what-is-domain-separation.md), [Contains queries and domain access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-contains-domain-visibility.md), and [Importance of Default domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-default-domain.md).
 
 **Parent Topic:**[Enterprise Asset Management reference](reference-enterprise-asset-management.md)
 
@@ -96,5 +96,5 @@ To learn more, see Domain separation explained, Contains queries and domain acce
 
 [Asset put away task fields](../reference/put-away-task-form-eam.md)
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

@@ -22,5 +22,5 @@ KPIs for Service Catalog.
 |Catalog item fulfillment automation level distribution|Distribution of the catalog items that are fulfilled automatically.|
 |Catalog item translation coverage|Language wise distribution of the catalog items that are translated.|
 
-For more information on the service catalog KPIs see, Monitoring aggregated catalog item data.
+For more information on the service catalog KPIs see, [Monitoring aggregated catalog item data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/monitor-aggregated-catalog-item-data.md).
 

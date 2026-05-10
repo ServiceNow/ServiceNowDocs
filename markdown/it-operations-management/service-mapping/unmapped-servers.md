@@ -38,15 +38,15 @@ Role required: service\_mapping\_admin
 
 2.  Select the unmapped server that you want to use to create an application service.
 
-<table id="choicetable_vyc_pgt_zfc"><thead><tr><th align="left" id="d553185e135">
+<table id="choicetable_vyc_pgt_zfc"><thead><tr><th align="left" id="d552623e135">
 
 Version of Service Mapping Plus
 
-</th><th align="left" id="d553185e141">
+</th><th align="left" id="d552623e141">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d553185e147">
+</th></tr></thead><tbody><tr><td id="d552623e147">
 
 **Versions released before version 1.16.3**
 
@@ -65,7 +65,7 @@ Actions
 5.  Select **Map application service**.
 
 
-</td></tr><tr><td id="d553185e229">
+</td></tr><tr><td id="d552623e229">
 
 **Starting with version 1.16.3**
 

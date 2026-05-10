@@ -53,7 +53,7 @@ The following infographic is an example of the implementation for standalone SNM
 
 The Horizontal Discovery application in ServiceNow is a versatile and highly scalable discovery engine designed to operate effectively across network, IT, and cloud environments, collecting data across multiple layers to provide a holistic view of the infrastructure.
 
-For more information, see Horizontal discovery process flow with patterns.
+For more information, see [Horizontal discovery process flow with patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/disco-process-flow-patterns.md).
 
 ## Supported discovery patterns
 
@@ -78,7 +78,7 @@ This ensures seamless alignment between operational and inventory systems, which
 
 MID Server is a Java application that runs as a Windows service or UNIX daemon on a server within your local network. The ServiceNow® MID Server facilitates communication and data transfer between a ServiceNow instance and external applications, data sources, and services.
 
-For more information, see MID Server.
+For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
 
 ## Identification &amp; Reconciliation Engine \(IRE\)
 

@@ -39,7 +39,7 @@ If you want to analyze year-over-year performance, you must collect at least 24 
 
     5.  Select **Execute**.
 
-        For detailed information on scheduling a data collection job, refer to Create or schedule a data collection job.
+        For detailed information on scheduling a data collection job, refer to [Create or schedule a data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreatASchedDataCollJob.md).
 
 2.  Upload the collected data to the centralized Benchmarks instance.
 

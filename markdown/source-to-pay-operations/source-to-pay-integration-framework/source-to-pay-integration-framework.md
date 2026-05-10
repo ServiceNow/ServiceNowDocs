@@ -52,7 +52,7 @@ The following ServiceNow roles are required for integration:
 
 ## MID Server required for third-party integration
 
-This integration requires an installed and configured MID Server in your ServiceNow instance to connect to the ERP system server. See Installing the MID Server for details.
+This integration requires an installed and configured MID Server in your ServiceNow instance to connect to the ERP system server. See [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-installation.md) for details.
 
 **Note:** The MID Server integration is required only for an ERP integration using SOAP services.
 

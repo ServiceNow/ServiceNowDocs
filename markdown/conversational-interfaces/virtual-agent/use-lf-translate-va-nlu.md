@@ -47,14 +47,14 @@ Role required: virtual\_agent\_admin or admin
 
     -   Select the check boxes for the topics you want to translate, and then click **Request topic translations**. When prompted, confirm your choice.
 
-        A translation record is created, and the translation status changes to **In progress**. The translation task is assigned to a user with the localization fulfiller role. For information about the fulfillment process in the Localization Framework, see Fulfill a localization task.
+        A translation record is created, and the translation status changes to **In progress**. The translation task is assigned to a user with the localization fulfiller role. For information about the fulfillment process in the Localization Framework, see [Fulfill a localization task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/fulfill-localization-task.md).
 
         **Note:** If a topic is already in localization, the corresponding check box is not available.
 
     -   [Edit translations directly.](edit-translations-va-topics.md)
 6.  Click **Manage NLU translations**.
 
-    The model opens in NLU Workbench. Request translations for your model group. For more information, see Translate a multilingual model.
+    The model opens in NLU Workbench. Request translations for your model group. For more information, see [Translate a multilingual model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/translate-multilingual-model.md).
 
 
 ## Result

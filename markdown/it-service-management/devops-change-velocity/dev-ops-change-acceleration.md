@@ -49,7 +49,7 @@ You can automate the change approval process for all your DevOps change requests
 
 ## Flows
 
-A flow is an automated process consisting of a trigger \(which specifies when to run the flow\) and a sequence of reusable actions \(where the actions perform a sequence of operations on your data\). Flows are built in Flow Designer, a ServiceNow AI Platform feature that enables process automation. For more information, see Flow Designer.
+A flow is an automated process consisting of a trigger \(which specifies when to run the flow\) and a sequence of reusable actions \(where the actions perform a sequence of operations on your data\). Flows are built in Flow Designer, a ServiceNow AI Platform feature that enables process automation. For more information, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md).
 
 You can use one of the DevOps flows available in the base system as a template; clone the flow and customize it to your business requirements. Ensure that only one DevOps flow is in the active state at any time to avoid conflicts and errors. A DevOps flow is applicable to change requests that have the DevOps category or if the devops\_change property is set to true. \(An automatically created DevOps change request sets the category to DevOps by default\).
 
@@ -119,7 +119,7 @@ When demo data is installed, the  DevOps  Demo  Change Automation flow  
 ![DevOps Demo Change Automation flow](../image/dev-ops-demo-chg-automation-flow.png) You can clone this flow and customize it to make changes. Ensure that the other DevOps flows are deactivated.
 
 </td></tr></tbody>
-</table>To read guidelines on how to use flows, subflows, and actions more effectively, see General guidelines for Workflow Studio flows, subflows, and actions.
+</table>To read guidelines on how to use flows, subflows, and actions more effectively, see [General guidelines for Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/design-considerations-consolidated.md).
 
 ## Change approval policies
 

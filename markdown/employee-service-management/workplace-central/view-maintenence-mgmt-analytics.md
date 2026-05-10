@@ -166,7 +166,7 @@ Workplace.Maintenance.Case.Opened
 -   Workplace Maintenance Case Opened Preventive Closed Complete Count
 
 </td></tr></tbody>
-</table>You can also add new indicators. For more information on how to work with indicators, see Configure Performance Analytics fundamentals.
+</table>You can also add new indicators. For more information on how to work with indicators, see [Configure Performance Analytics fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PAWidgetsAndDashboards.md).
 
 -   **[Run the scheduled job for the Maintenance Management dashboard](run-job-for-wmm-dashboard.md)**  
 As an admin, run the scheduled job **Workplace Maintenance Case Historical Data Collection** to collect data for the past year that is used by the Maintenance Management dashboard.

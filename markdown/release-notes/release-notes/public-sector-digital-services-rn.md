@@ -21,7 +21,7 @@ The ServiceNow® Public Sector Digital Services application enables government a
 -   Synthesize narratives, entities, evidence, and activity history into a structured summary using Investigative Case Management Case Summarization.
 -   Validate large volumes of uploaded documents, verify information, flag issues, and highlight key details for case agents with the Document Screening Al Skill, used with Now Assist for Public Sector Digital Services \(PSDS\).
 
-See Public Sector Digital Services \(PSDS\) for more information.
+See [Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/bun-public-sector-landing-page.md) for more information.
 
 **Important:** Public Sector Digital Services is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -31,7 +31,7 @@ After the upgrade, certain public sector menus and menu items in CSM Configurabl
 
 ## New in the Australia release
 
--   **Investigative Case Management**
+-   **[Investigative Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-explore-inv-case-management.md)**
 
     Create an investigative case using Investigative Case Management. Investigative Case Management guides investigators through the process of organizing, tracking, and resolving investigations, ​developing case details,​ assigning investigators and team members​, and track evidence with logging and metadata. The following features are available as part of Investigative Case Management:
 
@@ -47,14 +47,14 @@ After the upgrade, certain public sector menus and menu items in CSM Configurabl
 
     Validate large volumes of uploaded documents, verify information, flag issues, and highlight key details for case agents using the Social Benefits Playbook with the Document Screening Al Skill, part of Now Assist for Public Sector Digital Services \(PSDS\).
 
--   **Granular configuration admin roles**
+-   **[Granular configuration admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/roles-installed-with-public-sector-digital-services.md)**
 
-    Several new granular admin roles enable admins to complete administrative configuration tasks on the Public Sector Digital Services platform without requiring the full admin role. These granular access roles enable a high-level administrator to define and assign custom roles that contain only the specific permissions a user needs, decreasing the number of users with full administrative power over the instance. For more information on granular admin roles, see Granular admin roles.
+    Several new granular admin roles enable admins to complete administrative configuration tasks on the Public Sector Digital Services platform without requiring the full admin role. These granular access roles enable a high-level administrator to define and assign custom roles that contain only the specific permissions a user needs, decreasing the number of users with full administrative power over the instance. For more information on granular admin roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
 
 
 ## UI changes
 
--   **Updated Coral theme**
+-   **[Updated Coral theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md)**
 
     The Coral theme has been improved to enhance usability across web, mobile, and portal experiences that use Next Experience and Core UI:
 
@@ -63,14 +63,14 @@ After the upgrade, certain public sector menus and menu items in CSM Configurabl
     -   A significantly improved dark mode with deeper blue tones for reduced eye strain.
     -   New AI gradient styles and subtle animations to highlight intelligent features.
     -   Smarter focus behavior that reduces visual clutter for mouse users.
--   **Enhancements to Constituent Service Portals**
+-   **[Enhancements to Constituent Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/portals-psds-exploring.md)**
 
     UI Enhancements have been made to all Public Sector Digital Services constituent portals by replacing legacy widgets \(for example, portal banners, data lists\) with standardized, CSM Configurable Widgets and components. The update verifies backward compatibility, migration guidance, usage analytics, and provide training for admins, and also enables dynamic data rendering, and better filtering across service flows.
 
 
 ## Changed in this release
 
--   **ServiceNow product tiers**
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -86,15 +86,15 @@ Install Public Sector Digital Services by requesting it from the ServiceNow Stor
 
 ## Related ServiceNow applications and features
 
--   **Customer Service Management**
+-   **[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)**
 
     The ServiceNow®Customer Service Management application enables customer service organizations and service operations to collaborate and resolve customer problems.
 
--   **CSM Configurable Workspace**
+-   **[CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)**
 
     The ServiceNow®CSM Configurable Workspace application provides government agents with the tools to research information, respond to questions from the public, and resolve cases.
 
--   **Now Assist**
+-   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     The ServiceNow®Now Assist application uses generative AI that is designed to enhance user productivity and efficiency through conversation and proactive experiences.
 

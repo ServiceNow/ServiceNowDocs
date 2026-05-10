@@ -44,7 +44,7 @@ ServiceNow Studio is the best option to get started creating apps fast. However,
 
 -   Custom tables generate lists and forms—lists display multiple records in a spreadsheet-like view while forms show detailed information for a single record. The typical development pattern is: create your custom table, customize the form layout for data entry, configure the list view for browsing records, then add UI policies, scripts, and actions to control behavior.
 
-    For more information about developing using classic lists and forms, see ServiceNow AI Platform® forms, fields, and lists.
+    For more information about developing using classic lists and forms, see [ServiceNow AI Platform® forms, fields, and lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-platform-forms-fields-lists.md).
 
 
 -   **[Tables and data models](tables-and-data-models.md)**  

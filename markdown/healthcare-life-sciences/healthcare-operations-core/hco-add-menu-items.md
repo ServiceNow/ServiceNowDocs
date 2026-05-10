@@ -33,7 +33,7 @@ Role required: admin
 
 6.  On the form, fill in the fields.
 
-    For more information about the form fields and descriptions, see Menu Item form.
+    For more information about the form fields and descriptions, see [Menu Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/menu-item-form.md).
 
 7.  Select **Submit**.
 

@@ -88,7 +88,7 @@ For more information on using Get Flow Outputs, see [Getting started with Dynami
 
 -   **Use dynamic flows if you have multiple subflows with similar functionality**
 
-    Dynamic flows let you compartmentalize your processes by applying a template to handle the inputs of multiple similar subflows. Compartmentalization lets you distinguish between subflows that perform similar functions, such as subflows for IntegrationHub spokes.
+    Dynamic flows let you compartmentalize your processes by applying a template to handle the inputs of multiple similar subflows. Compartmentalization lets you distinguish between subflows that perform similar functions, such as subflows for [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md) spokes.
 
 -   **Ensure dynamically called subflow inputs match template flow inputs**
 

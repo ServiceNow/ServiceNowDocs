@@ -335,7 +335,7 @@ As part of a UI action script, you can redirect a user to a URL. For example, yo
 action.setRedirectURL ( '[http://www.mysite.com/mypage.htm](http://www.mysite.com/mypage.htm)' );
 ```
 
-To direct a user to a record, use this syntax, where **new\_record** is the variable name for the GlideRecord:
+To direct a user to a record, use this syntax, where **new\_record** is the variable name for the [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md):
 
 ```javascript
 action.setRedirectURL (new_record );

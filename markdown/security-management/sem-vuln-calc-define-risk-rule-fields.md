@@ -17,8 +17,8 @@ Customize risk rule parameters and weights to generate risk scores that reflect 
 
 Additionally, you can use attributes in the configuration\_item \[cmdb\_ci\] in the Configuration Management Database \(CMDB\) to help you create logic for your Unified Security Exposure Management risk calculators. If, for example, you determine that CIs that are external-facing in your organization are more vulnerable and might require immediate remediation, you can assign attributes such as **Internet Facing** for these CIs. This attribute, and others, are listed in the Common Service Data Model release notes for the Orlando family release. For current information and guidance on the CMDB, see the following topics:
 
--   Common Service Data Model conceptual model
--   CMDB schema model
+-   [Common Service Data Model conceptual model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-conceptual-model.md)
+-   [CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
 
 Role required: sn\_vul.manage\_risk\_score\_configuration
 

@@ -15,7 +15,7 @@ Learn how to configure Buying Group to organize multiple contacts within Sales C
 
 ## Activate Buying Group
 
-As an admin, activate the plugin \(sn\_buying\_group\) to enable users to access Buying Group. For more information, see Activate a plugin.
+As an admin, activate the plugin \(sn\_buying\_group\) to enable users to access Buying Group. For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 <table id="table_r1w_lm2_g3c"><thead><tr><th>
 

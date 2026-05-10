@@ -33,7 +33,7 @@ The IP version information appears in all IP address related lists and forms.
 
 ## Discovery source
 
-A table called Source \[sys\_object\_source\] stores information identifying the source of a discovery \(by ServiceNow Discovery or another product\), the ID of that source, and the date/time of the last scan. To view this information, configure a CI form and add the **Sources** related list.
+A table called Source \[sys\_object\_source\] stores information identifying the source of a discovery \(by ServiceNow Discovery or another product\), the ID of that source, and the date/time of the last scan. To view this information, [configure a CI form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) and add the **Sources** related list.
 
-This table is populated automatically when the Discovery plugin is enabled.
+This table is populated automatically when the [Discovery plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md) is enabled.
 

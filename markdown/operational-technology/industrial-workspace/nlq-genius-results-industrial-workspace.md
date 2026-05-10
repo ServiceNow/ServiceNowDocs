@@ -19,7 +19,7 @@ The Industrial Workspace leverages Natural Language Query \(NLQ\) Genius Results
 
 Configuration Management Database \(CMDB\) tables cannot be indexed by AI Search. The Industrial Workspace search is configured to show NLQ Genius Results for each search, which can be used to search CMDB tables. NLQ Genius Results use NLQ processing to surface relevant results from tables that match your search query.
 
-For more information about NLQ Genius Results, see NLQ Genius Results.
+For more information about NLQ Genius Results, see [NLQ Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-result-nlq-ais.md).
 
 ## Searching OT CIs
 

@@ -62,9 +62,9 @@ When you create a manual fallout record, or an automated one is generated, the f
 
 [Fallout Management data model](../concept/order-mgt-fallout-management.md)
 
-[bundle-cadev.flow-designer]
+[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md)
 
-[bundle-crworkflow.flows]
+[Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md)
 
-[bundle-crworkflow.create-flow]
+[Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
 

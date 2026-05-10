@@ -25,8 +25,8 @@ You can incorporate icons, business logos, pictures, HTML layout, and rich text 
 
 For more information, see the following topics:
 
--   Composing emails with quick messages
--   Define a quick message
+-   [Composing emails with quick messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/quick-message.md)
+-   [Define a quick message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_QuickMessages.md)
 
 ## Procedure
 
@@ -46,7 +46,7 @@ For more information, see the following topics:
 **Related topics**  
 
 
-[bundle-platadm.t_QuickMessages]
+[Define a quick message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_QuickMessages.md)
 
-[bundle-platadm.quick-message]
+[Composing emails with quick messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/quick-message.md)
 

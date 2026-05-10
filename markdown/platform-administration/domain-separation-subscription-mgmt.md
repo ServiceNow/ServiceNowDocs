@@ -23,7 +23,7 @@ The support level is Basic but has some exceptions or special conditions.
 
 Sample use case: When an SP uses chat to respond to a tenant-customer’s message, the client must be able to see the SP's response.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Overview of domain separation inSubscription Management
 
@@ -58,5 +58,5 @@ Users in tenant domains can only view their own Now Assist usage. Users in tenan
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

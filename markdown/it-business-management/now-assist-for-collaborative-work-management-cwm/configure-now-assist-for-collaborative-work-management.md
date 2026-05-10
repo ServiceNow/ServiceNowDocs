@@ -17,9 +17,9 @@ If you have the admin role, you can configure the implementation for the Now Ass
 
 ## Before you begin
 
--   The minimum version of CWM application that is required to support Now Assist for CWM features is v6.0.0 and later. If you're on earlier versions, upgrade your app through Application Manager. See Update an application or plugin.
--   Install the Now Assist for Collaborative Work Management \(CWM\) plugin \(sn\_cwm\_ai\). See Install Now Assist plugins.
--   Activate the Now Assist panel standard chat.
+-   The minimum version of CWM application that is required to support Now Assist for CWM features is v6.0.0 and later. If you're on earlier versions, upgrade your app through Application Manager. See [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/update-application-app-mgr.md).
+-   Install the Now Assist for Collaborative Work Management \(CWM\) plugin \(sn\_cwm\_ai\). See [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+-   [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 Role required: admin
 
@@ -82,7 +82,7 @@ The skill is successfully activated.
 
 Return to the CWM skill grouping and repeat the process to activate any remaining skills.
 
-If you have custom roles that require access to a skill, update the ACLs for those roles that require access. For more information, see Implement access control in Now Assist AI agents.
+If you have custom roles that require access to a skill, update the ACLs for those roles that require access. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
 
 **Related topics**  
 

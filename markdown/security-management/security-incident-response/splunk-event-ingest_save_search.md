@@ -43,15 +43,15 @@ Role required: Splunk Enterprise administrator
 
 6.  In the form that is displayed, fill in the fields.
 
-<table id="choicetable_zvm_5cv_3fb"><thead><tr><th align="left" id="d331772e158">
+<table id="choicetable_zvm_5cv_3fb"><thead><tr><th align="left" id="d331776e158">
 
 Field
 
-</th><th align="left" id="d331772e161">
+</th><th align="left" id="d331776e161">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d331772e167">
+</th></tr></thead><tbody><tr><td id="d331776e167">
 
 **Title**
 
@@ -59,7 +59,7 @@ Description
 
 Descriptive name for the alert, for example, Malware Events. After you save this search as an alert, events from a fired alert in the Splunk service are automatically processed into triggered alerts using this search data. This triggered alert title is used in the event profile that you create in your ServiceNow AI Platform instance to identify which events are ingested into your instance for ServiceNow AI Platform® Security Incident Response SIR security incident creation.
 
-</td></tr><tr><td id="d331772e193">
+</td></tr><tr><td id="d331776e193">
 
 **\(Optional\) Description**
 
@@ -67,7 +67,7 @@ Descriptive name for the alert, for example, Malware Events. After you save this
 
 Text to help you distinguish this alert from other alerts.
 
-</td></tr><tr><td id="d331772e202">
+</td></tr><tr><td id="d331776e202">
 
 **Alert type**
 
@@ -75,7 +75,7 @@ Text to help you distinguish this alert from other alerts.
 
 In the fields that are displayed, select **Scheduled** to search for this alert on a schedule, or **Real-time** to search continuously for this alert.
 
-</td></tr><tr><td id="d331772e217">
+</td></tr><tr><td id="d331776e217">
 
 **Trigger results**
 
@@ -85,7 +85,7 @@ You may prefer to set one of the following filter conditions:-   Number of Resul
 -   One-time \(once\) for each result
 
 
-</td></tr><tr><td id="d331772e236">
+</td></tr><tr><td id="d331776e236">
 
 **Trigger actions**
 

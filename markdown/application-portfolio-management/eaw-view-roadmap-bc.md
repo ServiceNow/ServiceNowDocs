@@ -43,7 +43,7 @@ Role required: sn\_apm.apm\_user and sn\_align\_core.apw\_user
         2.  \(Optional\)  Grant access to the users of the portfolio plan by selecting the **Share with same users and groups ** option.
     3.  Select **Confirm**.
 
-    Alternatively, you can also create your own portfolio plan in the Strategic Planning Workspace \(SPW\) using the Business Capability lens. For more information, see Create a portfolio plan.
+    Alternatively, you can also create your own portfolio plan in the Strategic Planning Workspace \(SPW\) using the Business Capability lens. For more information, see [Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md).
 
 
 **Parent Topic:**[Working with the business portfolio module](../../concept/eaw-concept/eaw-work-with-business-portfolio-mod.md)

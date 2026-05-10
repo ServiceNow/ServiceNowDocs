@@ -15,7 +15,7 @@ breadcrumb: [Notify in Service Operations Workspace, Collaboration in Service Op
 
 Use Twilio to schedule conference calls with stakeholders to resolve incidents in Service Operations Workspace.
 
-Ensure that Twilio is configured to make conference calls from Service Operations Workspace. To configure Twilio, refer Configure Notify with Twilio.
+Ensure that Twilio is configured to make conference calls from Service Operations Workspace. To configure Twilio, refer [Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md).
 
 -   **[Start and end a conference call from Twilio in Service Operations Workspace](../task/start-conference-call-telephony.md)**  
 Start a conference call using Twilio to collaborate with others to work toward the resolution of an incident. End the call when the discussion is over.

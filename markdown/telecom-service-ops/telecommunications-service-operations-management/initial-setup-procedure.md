@@ -43,7 +43,7 @@ Verify the active application scope is Service Graph Connector \(SGC\) for Nokia
 
     3.  Select **Mark as Complete** when done.
 
-        **Note:** For more information on how to install and configure MID Server, see Configuring MID Server.
+        **Note:** For more information on how to install and configure MID Server, see [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/configure-mid-server.md).
 
     4.  Configure or skip the validation step.
 
@@ -68,7 +68,7 @@ Verify the active application scope is Service Graph Connector \(SGC\) for Nokia
         2.  In the **User name** field, specify your Nokia Altiplano instance user name.
         3.  In the **Password** field, specify your Nokia Altiplano instance password.
 
-            **Note:** Other authentication fields may be required depending on the authentication methods used in your Nokia Altiplano instance. By default, we use Basic authentication credentials \(as part of the Guided setup\).
+            **Note:** Other authentication fields may be required depending on the authentication methods used in your Nokia Altiplano instance. By default, we use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md) \(as part of the Guided setup\).
 
         4.  Leave the rest of the fields as default, select **Submit** and then select **Mark as Complete**.
     4.  Create HTTP Connection by selecting **Configure**

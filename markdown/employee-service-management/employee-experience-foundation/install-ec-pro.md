@@ -19,7 +19,7 @@ Employee Center Pro extends the standard Employee Center capabilities and provid
 
 Employee Center Pro requires a separate subscription from the rest of the ServiceNow AI Platform. If you are already using Employee Center and want to upgrade to Employee Center Pro, contact your ServiceNow account manager to purchase the subscription.
 
-**Note:** Before purchasing a subscription, you can evaluate the feature on a non-production instance without charge by requesting it from the Now Support Service Catalog. For more information, see Request a plugin.
+**Note:** Before purchasing a subscription, you can evaluate the feature on a non-production instance without charge by requesting it from the Now Support Service Catalog. For more information, see [Request a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_RequestAPlugin.md).
 
 The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
 
@@ -68,7 +68,7 @@ For information on the roles, tables, and widgets installed with Employee Center
 
 4.  Select the **Load demo data** check-box to include the demo data along with your install or repair your install with demo data checked.
 
-    **Note:** Dependent plugin demo data is not automatically installed. To use demo data, repair the plugins with demo data checked. See Repair a ServiceNow application.
+    **Note:** Dependent plugin demo data is not automatically installed. To use demo data, repair the plugins with demo data checked. See [Repair a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/repair-app.md).
 
 5.  Select **Install**.
 

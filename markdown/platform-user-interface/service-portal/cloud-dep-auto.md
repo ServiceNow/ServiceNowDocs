@@ -21,7 +21,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Spoke dependencies
 
-You must activate and set up the AWS CloudFormation spoke to use this application.
+You must activate and set up the [AWS CloudFormation spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/aws-cloudformation.md) to use this application.
 
 ## Catalog items and flows
 

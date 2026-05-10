@@ -15,7 +15,7 @@ breadcrumb: [ATF Test Generator and Cloud Runner reference, ATF Test Generator a
 
 ATF Test Generator and Cloud Runner is installed with these roles.
 
-To learn more about managing subscriptions, see Managing per-user subscriptions in Subscription Management and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 -   **[System Administrator \[admin\]](atf-tg-cr-roles-1.md)**  
 The admin role is required to access and use the ATF Test Generator and Cloud Runner store application.

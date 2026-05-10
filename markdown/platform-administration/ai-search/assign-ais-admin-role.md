@@ -62,9 +62,9 @@ Accesses High Security settings for AI Search, including the following:
 -   Bypasses all search filters from search sources and content security in the Search Preview UI, viewing all search query results available in the AI Search index
 -   Reads external content user mapping import history records
 
- This is an elevated privilege role. Elevated privilege roles aren't assigned to users or groups, and must be used by elevation. For more information on elevated privilege roles, see Elevated privilege roles. To learn about elevation, see Elevate to a privileged role.
+ This is an elevated privilege role. Elevated privilege roles aren't assigned to users or groups, and must be used by elevation. For more information on elevated privilege roles, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ElevatedPrivilege.md). To learn about elevation, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
 
- The Instance Security Center **Users with High Privilege Roles** user metric displays the count of users assigned this role. For more details, see User metrics.
+ The Instance Security Center **Users with High Privilege Roles** user metric displays the count of users assigned this role. For more details, see [User metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-sec-center-user-metrics.md).
 
 </td></tr><tr><td>
 
@@ -84,10 +84,10 @@ AI Search external content API user \[ais\_external\_content\]
 
 Accesses endpoints for AI Search external content APIs, including the following:
 
--   Feeds external documents for AI Search to index as search results, or deletes records for external documents from the index, using the External Content Ingestion API.
--   Imports user mappings for external content security using the AI Search External User Mapping API.
+-   Feeds external documents for AI Search to index as search results, or deletes records for external documents from the index, using the [External Content Ingestion API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/external-content-ingestion-api.md).
+-   Imports user mappings for external content security using the [AI Search External User Mapping API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ext-user-mapping-api.md).
 
- Assign this role to non-interactive users and integration users who require access to external content API endpoints. For more information on non-interactive users, see [Non-interactive sessions](../../users-and-groups/concept/c_NonInteractiveSessions.md#). For details on integration users, see Mark service accounts as internal integration users.
+ Assign this role to non-interactive users and integration users who require access to external content API endpoints. For more information on non-interactive users, see [Non-interactive sessions](../../users-and-groups/concept/c_NonInteractiveSessions.md#). For details on integration users, see [Mark service accounts as internal integration users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_MarkSvcAcctsAsInternalIntegUsers.md).
 
  Users with the admin role don't need this role to access external content API endpoints.
 

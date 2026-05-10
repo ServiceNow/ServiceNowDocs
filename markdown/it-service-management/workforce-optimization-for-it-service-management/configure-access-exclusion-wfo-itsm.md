@@ -31,7 +31,7 @@ Role required: admin
 
     For example, if you define a condition as **\[Name\]** **\[does not contain\]****\[Support\]**, then the Workforce Optimization for ITSM manager workspace doesn't display any groups that contain Support in the group name.
 
-    For information on configuring condition builders, see Condition builder.
+    For information on configuring condition builders, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 5.  Select **Submit**.
 

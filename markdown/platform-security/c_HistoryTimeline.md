@@ -19,7 +19,7 @@ You can open a timeline when you view the history of a CI. You can specify the t
 
 CI changes are represented by bubbles in different shapes and colors along the timeline. The shape of each bubble represents a different type of change and the color of each bubble specifies whether the change is valid or invalid. CI baselines are represented by black circles that you can hover over to display more details. Click the **?** icon to display bubble shape and color definitions, and point to a bubble to display details about the change set.
 
-A change to a relationship is considered valid only if it was applied through change management. If the change was applied via the Proposed Changes framework, it is valid. For additional validation steps, see Create or edit a planned validation script.
+A change to a relationship is considered valid only if it was applied through change management. If the change was applied via the Proposed Changes framework, it is valid. For additional validation steps, see [Create or edit a planned validation script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ProposedChanges.md).
 
 ![History timeline view](../image/TimelineDashboard.png "History Timeline view")
 

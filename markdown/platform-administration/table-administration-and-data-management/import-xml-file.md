@@ -42,5 +42,5 @@ Importing XML doesn't trigger business rules or update the instance cache.
 
 Data is imported into the target instance.
 
-If the data doesn't import, navigate to **System Definition** &gt; **Tables &amp; Columns** and verify that the table from which the data was exported also exists in the target instance. If the table doesn't exist, you can move it using an update set. For details on using update sets, see Get started with update sets.
+If the data doesn't import, navigate to **System Definition** &gt; **Tables &amp; Columns** and verify that the table from which the data was exported also exists in the target instance. If the table doesn't exist, you can move it using an update set. For details on using update sets, see [Get started with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/get-started-update-sets.md).
 

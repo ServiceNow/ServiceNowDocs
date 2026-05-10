@@ -257,7 +257,7 @@ CMDB 360 Data
 
 </td><td>
 
-List of all discovery sources at the CI attribute level. To learn more, see CMDB 360.
+List of all discovery sources at the CI attribute level. To learn more, see [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md).
 
 </td></tr><tr><td>
 

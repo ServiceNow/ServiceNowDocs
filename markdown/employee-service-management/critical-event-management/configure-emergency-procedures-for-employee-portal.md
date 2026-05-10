@@ -21,10 +21,10 @@ Role required: admin
 
 ## Procedure
 
-1.  To learn about the different ways to add knowledge articles, see Create a knowledge article.
+1.  To learn about the different ways to add knowledge articles, see [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-knowledge-article.md).
 
     **Note:** Articles for Emergency plans, Emergency contacts, and Emergency submission guidelines are available with the application. You can also edit these knowledge articles as needed for customization and publish.
 
-2.  To edit the knowledge articles, see Edit a knowledge article.
+2.  To edit the knowledge articles, see [Edit a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-knowledge-article.md).
 
 

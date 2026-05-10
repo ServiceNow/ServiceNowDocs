@@ -45,5 +45,5 @@ Review the updates to the JavaScript engine on the ServiceNow AI Platform in the
 **Related topics**  
 
 
-[bundle-cadev.t_UpdateAnApplicationRecord]
+[Update a custom application record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/t_UpdateAnApplicationRecord.md)
 

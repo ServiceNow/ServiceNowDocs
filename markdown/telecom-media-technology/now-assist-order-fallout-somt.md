@@ -32,9 +32,9 @@ Order fallout AI agent performs the following task:
 3.  Matches issues with available fallout types.
 4.  Creates appropriate fallout records.
 
-To modify the Order fallout AI agent, Duplicate an agentic workflow, and adjust the settings according to your requirements.
+To modify the Order fallout AI agent, [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
-To add tools and information, see Add tools and information to an AI agent for details.
+To add tools and information, see [Add tools and information to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-tool-aia.md) for details.
 
 **Important:** In the Select channels and status page, make sure that the **Active** button is turned on to activate the AI agent.
 
@@ -54,5 +54,5 @@ To access the use case testing page:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Testing**.
 2.  On the Overview page, select **Test use cases**.
 
-To test the use case, see Manually test the execution of an agentic workflow.
+To test the use case, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md).
 

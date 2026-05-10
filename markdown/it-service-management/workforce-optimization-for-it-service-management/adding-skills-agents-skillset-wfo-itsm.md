@@ -28,7 +28,7 @@ Using the skill matrix, you can:
     **Note:** Reset the filter if you want to view the skills for all users. When you reset the filters, all filters other than the Skill filter are reset. The Skill filter retains the skill selections that you've applied to display in the skill matrix.
 
 
-You can view up to 50 skills at any point in time. For more information on skills and skills levels, see Skills Management.
+You can view up to 50 skills at any point in time. For more information on skills and skills levels, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skills-management.md).
 
 When your agents gain new skills you can add them manually or use Predictive Intelligence to recommend skills that agents have used that have not yet been added to their skill set. For information on how predictive intelligence works to recommend skills for agents, see [Coaching in Workforce Optimization for ITSM](explore-coaching-configurable-workforce-optimization-itsm.md).
 

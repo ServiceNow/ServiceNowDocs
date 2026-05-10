@@ -18,7 +18,7 @@ You can customize the appearance and layout of the result-card interface in AI S
 
 ## Using EVAM to modify the Result-card interface overview
 
-AI Search Admin console provides a unified platform that enables you to manage the search result interface of your AI Search application with EVAM configurations. EVAM standardizes how different data sources are displayed in cards and lists. You can create, edit, copy, view usage, activate, deactivate, or delete EVAM view configurations, and even create EVAM definitions as needed all from the AI Search Admin console. To learn more about EVAM, see Exploring Entity View Action Mapper.
+AI Search Admin console provides a unified platform that enables you to manage the search result interface of your AI Search application with EVAM configurations. EVAM standardizes how different data sources are displayed in cards and lists. You can create, edit, copy, view usage, activate, deactivate, or delete EVAM view configurations, and even create EVAM definitions as needed all from the AI Search Admin console. To learn more about EVAM, see [Exploring Entity View Action Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/exploring-entity-view-action-mapper.md).
 
 The Result-card interface in AI Search applications displays a search result in clear, visual format. It includes key details, such as title, a brief description, relevant icons, and other important information. This helps users quickly understand each search result and decide which one to explore further.
 

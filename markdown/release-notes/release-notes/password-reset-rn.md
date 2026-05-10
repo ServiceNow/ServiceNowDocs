@@ -16,11 +16,11 @@ The ServiceNow® Password Reset application enables you to set up your end users
 
 Use the Password Reset granular admin role to configure Password Reset features.
 
-See Password Reset for more information.
+See [Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-landing-page.md) for more information.
 
 ## New in the Australia release
 
--   **Granular admin roles in Password Reset**
+-   **[Granular admin roles in Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/r_InstalledWithPasswordReset.md)**
 
     Configure the Password Reset application features using the granular Password Reset admin role \(password\_reset\_admin\).
 

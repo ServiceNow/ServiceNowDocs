@@ -50,7 +50,7 @@ Additional plugins may be required based on the specific asset management produc
 
 ## Inventory stock orders
 
-Typically, inventory stock orders are automatically submitted based on the stock rules configuration. Stock rules define the conditions under which a specified quantity of an asset is transferred from another stockroom or ordered from a supplier when the inventory in a particular stockroom falls below a defined threshold. For more information, see Stock rules.
+Typically, inventory stock orders are automatically submitted based on the stock rules configuration. Stock rules define the conditions under which a specified quantity of an asset is transferred from another stockroom or ordered from a supplier when the inventory in a particular stockroom falls below a defined threshold. For more information, see [Stock rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/c_StockRules.md).
 
 The following are the prerequisites for creating a stock order via stock rules:
 
@@ -62,9 +62,9 @@ The following are the prerequisites for creating a stock order via stock rules:
 
 ## End user requests via Service Catalog for IT assets
 
-An asset manager or end user can manually submit a request. If a user has the Inventory user role, they can purchase more than 10 items. For more information, see Create an inventory stock order request. If the user is purchasing 10 items or fewer, a general service catalog request works.
+An asset manager or end user can manually submit a request. If a user has the Inventory user role, they can purchase more than 10 items. For more information, see [Create an inventory stock order request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-inventory-stock-order.md). If the user is purchasing 10 items or fewer, a general service catalog request works.
 
-Requesters can only make requests via service catalog for published and approved models. If an approved model is not available, contact Procurement or IT to request the items, based on your business process. For more information, see Publish models to the hardware or software catalog.
+Requesters can only make requests via service catalog for published and approved models. If an approved model is not available, contact Procurement or IT to request the items, based on your business process. For more information, see [Publish models to the hardware or software catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/t_PublishingModToHrdwreOrSftCat.md).
 
 The following are the prerequisites for creating a request for more than 10 items:
 

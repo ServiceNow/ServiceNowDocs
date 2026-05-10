@@ -80,5 +80,5 @@ To set a default value for a duration field, use the following in the **Default 
 javascript:current.duration_field.setDisplayValue('3 04:30:14');
 ```
 
-Avoid hard-coding a particular date-time. If the system date-time format changes, the value becomes invalid. Instead, select the **Use dynamic default** check box and assign a dynamic filter option. For more information on dynamic filters, see Create a dynamic filter option .
+Avoid hard-coding a particular date-time. If the system date-time format changes, the value becomes invalid. Instead, select the **Use dynamic default** check box and assign a dynamic filter option. For more information on dynamic filters, see [Create a dynamic filter option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_DynamicFilterOptions.md) .
 

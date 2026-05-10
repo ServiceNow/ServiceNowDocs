@@ -22,7 +22,7 @@ Use the schedule a change agentic workflow to schedule change requests in the sl
 
 **Note:** The schedule a change agentic workflow doesn’t have a trigger and is invoked manually.
 
-To modify the schedule a change agentic workflow, duplicate it, and adjust the settings according to your requirements.
+To modify the schedule a change agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 

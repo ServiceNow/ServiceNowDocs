@@ -53,6 +53,6 @@ Role required: sn\_itom\_cam.cw\_certifier
 
     The account certification state changes to pending if it meets the admin's policy conditions for recertification.
 
-    For more information on certifying a task, see Review certification tasks.
+    For more information on certifying a task, see [Review certification tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-certific-review-tasks.md).
 
 

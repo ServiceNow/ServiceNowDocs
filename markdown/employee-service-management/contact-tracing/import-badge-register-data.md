@@ -59,7 +59,7 @@ Role required: sn\_imt\_tracing.badge\_manager
 **Related topics**  
 
 
-[bundle-crint.t_ScheduleADataImport]
+[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md)
 
-[bundle-crint.t_ScheduleADataImport]
+[Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md)
 

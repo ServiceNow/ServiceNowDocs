@@ -32,7 +32,7 @@ A search application configuration's **Genius Results Limit** field value specif
 You can select any one of the following trigger conditions for a Genius Result configuration:
 
 -   **Always**: The Genius Result configuration activates for all search queries.
--   **NLU**: The Genius Result configuration activates when the search query's detected intent matches a specified Natural Language Understanding \(NLU\) model intent. For more information on NLU models and intents, see Natural Language Understanding.
+-   **NLU**: The Genius Result configuration activates when the search query's detected intent matches a specified Natural Language Understanding \(NLU\) model intent. For more information on NLU models and intents, see [Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-landing.md).
 
 -   **Term**: The Genius Result configuration activates when the search query consists of a single specified term or phrase.
 
@@ -62,7 +62,7 @@ If an NLU model includes a table vocabulary source that references a table conta
 
 These tables are configured as vocabulary sources in the Default AI Search Genius Results Model specified in the People configuration's NLU trigger condition. If your instance has more than 100,000 records in any of the listed tables, training will fail for the NLU model and the People Genius Result configuration won't operate correctly.
 
-For more information on NLU vocabulary sources, see NLU vocabulary.
+For more information on NLU vocabulary sources, see [NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/using-nlu-vocabulary.md).
 
 ## Genius Result review feedback
 

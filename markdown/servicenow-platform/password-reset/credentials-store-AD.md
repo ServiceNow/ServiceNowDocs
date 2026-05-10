@@ -17,7 +17,7 @@ A credential store type is a set of workflows that specify how to connect to a c
 
 ## Overview
 
-Navigate to **Password Reset** &gt; **Credential Stores** to view the list of example credential stores that are based on the base-system types. You can also use subflows and integration hub IntegrationHub.
+Navigate to **Password Reset** &gt; **Credential Stores** to view the list of example credential stores that are based on the base-system types. You can also use subflows and integration hub [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md).
 
 -   **[Integrate Password Reset with your Active Directory service](../task/t_ConPassResetActiveDir.md)**  
 The Password Reset application can change passwords on an Active Directory credential store. The application changes passwords by referencing an Active Directory user role with the appropriate password change privileges.

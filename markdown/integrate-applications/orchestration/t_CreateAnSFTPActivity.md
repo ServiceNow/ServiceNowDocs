@@ -220,7 +220,7 @@ Size of a file, expressed in bytes. Field available on following command: Set fi
 
 </td><td>
 
-MID Server with the appropriate MID Server capabilities for connecting to the source and target servers.
+MID Server with the appropriate [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md) for connecting to the source and target servers.
 
 </td></tr></tbody>
 </table>    The system uses this logic to determine which files to move from the source host:
@@ -602,7 +602,7 @@ String
 
 </td><td>
 
-Credential aliases for Orchestration activities used to run the command on the source host.
+[Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_AssignCredsOrchActivities.md) used to run the command on the source host.
 
 </td></tr><tr><td>
 
@@ -875,7 +875,7 @@ Credential tag for source
 
 </td><td>
 
-Specific Credential aliases for Orchestration activities this activity must use to run SFTP commands on the source host.
+Specific [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_AssignCredsOrchActivities.md) this activity must use to run SFTP commands on the source host.
 
 </td><td>
 
@@ -1045,7 +1045,7 @@ Required MID Server capabilities
 
 </td><td>
 
-MID Server with the appropriate MID Server capabilities for connecting to the source and target servers. By default, the system selects an SSH MID Server.
+MID Server with the appropriate [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md) for connecting to the source and target servers. By default, the system selects an SSH MID Server.
 
 </td><td>
 

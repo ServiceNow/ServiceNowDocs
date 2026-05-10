@@ -128,7 +128,7 @@ After this option is selected, select a table, in the **Table** field, then sele
 
  **Note:** The created UI Action is inactive by default.
 
- Learn more about UI Actions at Defining UI actions.
+ Learn more about UI Actions at [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UIActions.md).
 
 </td></tr><tr><td>
 
@@ -140,7 +140,7 @@ Allows the skill to be used from a flow action. Once activated, you can access t
 
 </td><td>
 
-Details on the **Execute Skill** flow action can be found at Execute Skill action.
+Details on the **Execute Skill** flow action can be found at [Execute Skill action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/execute-skill-action.md).
 
 </td></tr><tr><td>
 
@@ -164,7 +164,7 @@ Makes the skill available for activation and use in various chat experiences wit
 
 </td><td>
 
-For more information about Now Assist in Virtual Agent, see Configuring assistants overview.
+For more information about Now Assist in Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
 </td></tr><tr><td>
 
@@ -176,7 +176,7 @@ Makes the skill available in UI Builder. You can find it in the Data and scripts
 
 </td><td>
 
-Learn how to use UI Builder to create web user interfaces at UI Builder.
+Learn how to use UI Builder to create web user interfaces at [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
 
 </td></tr></tbody>
 </table>    **Tip:** You can select more than one deployment location. Selecting a location here makes it available for an admin to activate, but not activate the skill automatically. An admin must still activate the skill in Now Assist Admin. To learn more, see [Activate a skill](activate-skill.md).

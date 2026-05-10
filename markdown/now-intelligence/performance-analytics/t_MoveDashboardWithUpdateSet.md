@@ -60,7 +60,7 @@ Additional steps may be necessary if you are moving a dashboard on a scoped appl
 
 7.  On the target instance, move the update using standard update set functionality.
 
-    For more information, see Retrieve an update set.
+    For more information, see [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_RetrieveAnUpdateSet.md).
 
     On the Remote Instance page, the **Retrieved Update Sets** related list shows all retrieved update sets. Select the update set to see if there are errors. Errors are shown on the **Retrieved Update Set** form in a related list called **Update Set Preview Problems**. See [Solving errors on dashboards moved with update sets](../concept/troubleshooting-dashboard-update-set.md#).
 
@@ -80,7 +80,7 @@ Additional steps may be necessary if you are moving a dashboard on a scoped appl
 
         The portal page for the current tab is added to the current update set.
 
-    4.  Move the update set to another instance using standard update set functionality. For more information, see Retrieve an update set.
+    4.  Move the update set to another instance using standard update set functionality. For more information, see [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_RetrieveAnUpdateSet.md).
 
 ## Result
 

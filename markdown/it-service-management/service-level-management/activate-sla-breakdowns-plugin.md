@@ -71,5 +71,5 @@ Several types of components are installed with the SLA breakdown definitions.
 
 [Activate Service Level Management - SLA Timer Config API](../task/activate-sla-timer-config-api.md)
 
-[bundle-platadm.list-of-plugins]
+[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

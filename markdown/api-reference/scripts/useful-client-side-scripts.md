@@ -31,8 +31,8 @@ This field passes a provided value to the **Company** field of the Service Catal
 
 This example makes the following assumptions:
 
--   The instance using two-step checkout. If two-step checkout is not enabled, enable it before beginning. For more information, see Service Catalog checkout models.
--   This example populates the **Company** field on the Service Catalog Request form. If the field does not appear on the form, configure the form before beginning. For instructions, see Personalize a form.
+-   The instance using two-step checkout. If two-step checkout is not enabled, enable it before beginning. For more information, see [Service Catalog checkout models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_EnableATwoStepCheckout.md).
+-   This example populates the **Company** field on the Service Catalog Request form. If the field does not appear on the form, configure the form before beginning. For instructions, see [Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_PersonalizeAForm.md).
 
 ### Procedure
 
@@ -449,5 +449,5 @@ Action name. This value is provided in the record listed in the UI Actions \[sys
 
 [GlideUser - Client](../../../app-store/dev_portal/API_reference/GlideUser/concept/c_GlideUserAPI.md#)
 
-[bundle-platadm.c_UIActions]
+[Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UIActions.md)
 

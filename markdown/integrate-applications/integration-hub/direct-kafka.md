@@ -27,7 +27,7 @@ The following image shows an example of a Direct Kafka Cluster. The Connection a
 
 ## Connection and Credential aliases
 
-Direct Kafka requires a Connection and Credential alias. For details on how to set one up, see Create a Connection &amp; Credential alias.
+Direct Kafka requires a Connection and Credential alias. For details on how to set one up, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
 
 Direct Kafka also requires a Kafka connection to connect to your local Kafka environment. For details, see [Configure a Kafka connection](../tasks/configure-kafka-connection.md). When configuring the Kafka connection, there are a couple things to keep in mind.
 
@@ -45,7 +45,7 @@ Configure a Direct Kafka Cluster for your local Kafka topics.
 ### Before you begin
 
 -   Role required: admin
--   A Direct Kafka cluster requires a Connection and Credential alias and a Kafka connection. For step-by-step instructions, see Create a Connection &amp; Credential alias and [Configure a Kafka connection](../tasks/configure-kafka-connection.md).
+-   A Direct Kafka cluster requires a Connection and Credential alias and a Kafka connection. For step-by-step instructions, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md) and [Configure a Kafka connection](../tasks/configure-kafka-connection.md).
 
     **Note:** Direct Kafka doesn’t use a MID Server. When you create the Kafka connection, make sure the **Use MID Server** check box isn’t checked.
 

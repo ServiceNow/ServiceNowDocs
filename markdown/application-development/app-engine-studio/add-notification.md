@@ -29,7 +29,7 @@ Email notifications enable you to send emails to the selected users about activi
 
 Creating an email notification involves specifying when to send it, who receives it, and what it contains.
 
-If your administrator has created an email template in the ServiceNow AI Platform, you can use it as is or override its content. For more information on email templates, see Email Templates. Also check with your administrator to see if they are using email layouts to control the header, body, and footer. For more information on email layouts, see Email layouts.
+If your administrator has created an email template in the ServiceNow AI Platform, you can use it as is or override its content. For more information on email templates, see [Email Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailTemplates.md). Also check with your administrator to see if they are using email layouts to control the header, body, and footer. For more information on email layouts, see [Email layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-layouts.md).
 
 ## Procedure
 
@@ -73,7 +73,7 @@ Situation where a notification is sent, such as after something happens or when 
 -   **When event is fired**
  This field is automatically set to **When a record is created or updated**.
 
- After you create an email notification with a Flow Action as the trigger, you specify the notification when creating a flow in Workflow Studio. For more information, see Notification step.
+ After you create an email notification with a [Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/noti-flow-action.md) as the trigger, you specify the notification when creating a flow in Workflow Studio. For more information, see [Notification step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/trigger-notification-action-designer.md).
 
 </td></tr><tr><td>
 
@@ -101,7 +101,7 @@ Event that triggers the notification. This field appears only when **When event 
 
 7.  Make the trigger conditional by using the condition builder.
 
-    Define the condition sets and values that must be met for the notification trigger. For more information, see Condition builder.
+    Define the condition sets and values that must be met for the notification trigger. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
     **Note:** If you specify that the notification trigger is a Flow Action, the condition builder isn't available.
 

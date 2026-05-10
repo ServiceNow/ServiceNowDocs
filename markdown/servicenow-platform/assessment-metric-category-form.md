@@ -203,7 +203,7 @@ Plugin that contains the tables queried in the script. The system executes the m
 
  This field is visible only if the **Method** is **Script**.
 
- **Note:** An administrator may need to add more Define an option for a choice list of plugins to the field.
+ **Note:** An administrator may need to add more [Define an option for a choice list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ViewChoiceListDefinitions.md) of plugins to the field.
 
 </td></tr><tr><td>
 

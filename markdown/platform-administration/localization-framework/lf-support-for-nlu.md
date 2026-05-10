@@ -33,7 +33,7 @@ The integration of Localization Framework with NLU Workbench enables you to do t
 
 **Note:** The localization of Natural Language Understanding models requires mapping between the Natural Language Understanding models in one language and their counterpart in other languages to use the localization framework support.
 
-For more information about localizing Natural Language Understanding models, see Translate NLU Models.
+For more information about localizing Natural Language Understanding models, see [Translate NLU Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/translate-multilingual-model.md).
 
 **Parent Topic:**[Explore Localization Framework](exploring-localization-framework.md)
 

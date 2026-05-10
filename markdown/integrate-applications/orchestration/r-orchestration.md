@@ -48,7 +48,7 @@ Orchestration is available as a separate subscription from the rest of the Servi
 **Use**
 
  -   [Orchestration activity packs](../../../administer/orchestration-activities/concept/c_OrchestrationActivityPacks.md)
--   Password Reset
+-   [Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-landing-page.md)
 -   [Client Software Distribution](../concept/c_ClientSoftwareDistribution.md)
 
 </td><td>

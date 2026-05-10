@@ -19,7 +19,7 @@ These functions are called when the **Get Topics** button is selected on the Top
 
 Both script includes run in the `sn_api_notif_mgmt` namespace.
 
-For additional information on topics, see External event management via Telecommunications API notifications.
+For additional information on topics, see [External event management via Telecommunications API notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecommunications-api-notification.md).
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 

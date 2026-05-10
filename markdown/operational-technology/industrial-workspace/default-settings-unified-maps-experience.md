@@ -17,7 +17,7 @@ You can modify the default settings available for the Operational Technology \(O
 
 With the **admin** or **sn\_cmdb\_ws.config\_admin** role, you can modify the default settings of the Industrial Workspace Config Identifier available with the OT Unified Map experience. A configuration identifier, or config identifier, is a configuration element within the configuration identifiers framework. A config identifier contains settings and table-driven configurations used in a UX application such as a workspace.
 
-If a property isn't set or if there are no entries in the table-driven configuration, look-up uses the values in the default configuration identifier instead. For more information about the configuration identifiers framework, see Configuration identifiers framework.
+If a property isn't set or if there are no entries in the table-driven configuration, look-up uses the values in the default configuration identifier instead. For more information about the configuration identifiers framework, see [Configuration identifiers framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/configuration-identifiers-framework.md).
 
 To access the Industrial Workspace Config Identifier record, navigate to **All**, and in the filter bar, enter `sn_cmdb_ws_config_identifier.list`. Then select **Industrial Workspace Config Identifier**.
 

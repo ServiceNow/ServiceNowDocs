@@ -39,7 +39,7 @@ Client software distribution requires Windows credentials that have administrati
     -   Use the credentials to log into the SCCM Server and connect via Windows PowerShell from the System Center Configuration Manager console at least once to set the path variable for that credential.
 5.  Fill in the other fields on the form, as appropriate.
 
-    For details, see Windows credentials.
+    For details, see [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md).
 
 6.  Click **Submit**.
 

@@ -29,7 +29,7 @@ Role required: flow\_designer, decision\_table\_admin, sn\_hr\_integr\_fw.admin,
 
 2.  Activate the Enterprise Service Management Integrations Framework\] application from the ServiceNow® Store.
 
-3.  Configure the SuccessFactors Spoke to pull data from SuccessFactors system.
+3.  Configure the [SuccessFactors Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/successfactors-spoke.md) to pull data from SuccessFactors system.
 
 4.  Create subflows aligning with Template Integration Gateway.
 
@@ -43,7 +43,7 @@ Role required: flow\_designer, decision\_table\_admin, sn\_hr\_integr\_fw.admin,
 
 6.  Duplicate AI agents available for SuccessFactors to run them autonomously.
 
-    For more information, see Duplicate an AI agent.
+    For more information, see [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md).
 
     **Note:** In the Toggle display section, ensure the toggle beside Virtual Agent is enabled.
 

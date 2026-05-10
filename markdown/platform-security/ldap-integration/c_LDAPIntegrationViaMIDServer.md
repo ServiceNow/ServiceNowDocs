@@ -15,7 +15,7 @@ breadcrumb: [LDAP integration setup, LDAP integration, Authentication, Access Ma
 
 Administrators can integrate using an LDAP data source over a Management, Instrumentation, and Discovery \(MID\) Server.
 
-The MID Server enables communication and movement of data between the ServiceNow AI Platform and external applications, data sources, and services. For details on installing a MID Server, see MID Server installation.
+The MID Server enables communication and movement of data between the ServiceNow AI Platform and external applications, data sources, and services. For details on installing a MID Server, see [MID Server installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-installation.md).
 
 Using a MID Server to establish an LDAP connection prevents you from having to expose the LDAP server to external network traffic. It eliminates the need to establish a VPN tunnel between your LDAP server and datacenters. The MID Server user must have the user\_admin role to be able to read LDAP server configuration records.
 
@@ -25,7 +25,7 @@ A MID Server connection communicates over HTTP on port 80 by default. This commu
 
 **Note:** LDAP cannot communicate via the MID Server with password authentication.
 
-For a secure communication over SSL, you must add an SSL certificate for the MID Server. Change the LDAP server URL from LDAP to LDAPS and change to port 636.
+For a secure communication over SSL, you must [add an SSL certificate for the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/add-ssl-certificates.md). Change the LDAP server URL from LDAP to LDAPS and change to port 636.
 
 ![LDAPS connection URL and SSL flag](../image/ldaps-midserver-setting.png)
 

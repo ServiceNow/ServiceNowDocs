@@ -66,7 +66,7 @@ To replace the Get Help icon link with the Walk-up Check-in icon link on the Ser
 
 9.  Navigate to **Service Portal** &gt; **Service Portal Home** to verify and test the newly created Walk-up Check-in icon link.
 
-10. To add the Walk-up Check-in icon link to a new container, refer to Create and edit a page using the Service Portal Designer.
+10. To add the Walk-up Check-in icon link to a new container, refer to [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md).
 
 11. Edit the container form fields with the same data and presentation information as detailed above in the form configuration input descriptions and follow the remaining relevant steps.
 

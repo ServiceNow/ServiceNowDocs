@@ -21,7 +21,7 @@ Create post-authentication policies for your external applicant role, so that th
 
 Depending on the post-authentication policy you’ve enabled, add a condition for the external applicant role and the Applicant Center identity provider. For more information on the roles in Hiring Experiences, see [Roles in Hiring Experiences](roles-in-ta.md). The identity provider is unique for each portal.
 
-For more information on setting up the post-authentication policy, see Configure an authentication policy.
+For more information on setting up the post-authentication policy, see [Configure an authentication policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-allow-access-policy.md).
 
 **Parent Topic:**[Configuring Applicant Center](config-applicant-center.md)
 

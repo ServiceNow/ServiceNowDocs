@@ -23,6 +23,6 @@ Role required: admin
 
 2.  To customize the connection configuration, access the connection settings in **Flow Designer** &gt; **Connections** and select **Mastercard**.
 
-    For more information on how to update the connection configuration, see Mastercard Spoke.
+    For more information on how to update the connection configuration, see [Mastercard Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/mastercard-spoke.md).
 
 

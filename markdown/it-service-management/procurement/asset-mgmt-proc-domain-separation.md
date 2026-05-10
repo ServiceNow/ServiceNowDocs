@@ -23,7 +23,7 @@ Domain separation is supported for Asset Management - Procurement Integration. D
 
 Sample use case: Tenant-customers of a shared environment must be able to change the impact, urgency, or priority matrix to set priority within their domain.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Asset Management - Procurement integration overview
 

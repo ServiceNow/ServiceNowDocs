@@ -33,7 +33,7 @@ These playbooks are ready to use without any additional configuration. Configure
 
 In Next Experience for Demand Management, playbooks are triggered by record creation. A playbook is associated with demand records, and the Playbook page appears in the L-2 \(level 2\) menu when a demand meets the trigger condition.
 
-For more information on how to create or customize playbooks, see Configuring Playbooks
+For more information on how to create or customize playbooks, see [Configuring Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/setting-up-process-automation-designer.md)
 
 ## Procedure
 
@@ -41,16 +41,16 @@ For more information on how to create or customize playbooks, see Configuring Pl
 
 2.  To customize an existing playbook or create one, create and configure the playbook according to your requirement.
 
-    -   To activate a predefined playbook, select the required playbook and define an appropriate trigger condition. For more information, see Activate Playbooks and Triggers.
-    -   To create a playbook, select **New**. For more information, see Create and configure playbooks.
-    -   Multiple playbooks can be enabled at a time. Define trigger conditions so that each demand maps to only one playbook type. For more information, see Create and configure playbooks.
+    -   To activate a predefined playbook, select the required playbook and define an appropriate trigger condition. For more information, see [Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activate-process-automation-designer.md) and [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-triggers.md).
+    -   To create a playbook, select **New**. For more information, see [Create and configure playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/setting-up-process-automation-designer.md).
+    -   Multiple playbooks can be enabled at a time. Define trigger conditions so that each demand maps to only one playbook type. For more information, see [Create and configure playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/setting-up-process-automation-designer.md).
 
 **Related topics**  
 
 
-[bundle-crworkflow.building-a-process]
+[Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-a-process.md)
 
-[bundle-crworkflow.playbook-experience-admins]
+[Designing Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-experience-admins.md)
 
 [Playbooks in Next Experience for Demand Management](../concept/playbooks-in-demand-workspace.md)
 

@@ -27,7 +27,7 @@ Role required: sn\_hr\_oracle\_adv.admin
 
 2.  To run the View Holiday Calendar widget successfully, configure BI report and Connection &amp; Credential Aliases in Oracle Cloud HCM Spoke.
 
-    For more information, see set up Oracle HCM Cloud spoke.
+    For more information, see set up [Oracle HCM Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-oracle-hcm.md).
 
 3.  Navigate to **Oracle Advanced Use Cases** &gt; **Holiday Calendar**.
 

@@ -36,8 +36,8 @@ Banner frame
 </td><td>
 
 Runs across the top of every page and contains a logo and the following information, controls, and tools.-   User menu provides options to access your profile and preferences. Administrators can impersonate users and elevate their security role.
--   Connect sidebar icon \(![Connect sidebar icon](../../../use/collaboration/image/IconUI16ToggleConnectSidebar.png)\): Lets you begin or continue conversations. This icon is available if Connect is enabled.
--   Global text search icon \(![Global text search icon](../image/IconUI16Search.png)\): Finds records from multiple tables.
+-   [Connect sidebar icon](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_CollaborationOverlay.md) \(![Connect sidebar icon](../../../use/collaboration/image/IconUI16ToggleConnectSidebar.png)\): Lets you begin or continue conversations. This icon is available if Connect is enabled.
+-   [Global text search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_GlobalTextSearch.md) icon \(![Global text search icon](../image/IconUI16Search.png)\): Finds records from multiple tables.
 -   Help icon \(![Help icon](../image/IconUI16Help.png)\): Opens the help panel with embedded help, where available. If there is no embedded help, it offers help search options.
 -   Gear icon \(![Gear icon](../image/IconUI16Gear.png)\): Opens the [System settings for the Core UI](../reference/r_UI16BannerFrame.md).
 

@@ -84,7 +84,7 @@ E-signature template
 
 </td><td>
 
-The e-signature template used with the e-signature content type. **Note:** For more information, see Configure an e-signature template.
+The e-signature template used with the e-signature content type. **Note:** For more information, see [Configure an e-signature template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/e-signature/configure-e-signature-configuration.md).
 
 </td></tr><tr><td>
 

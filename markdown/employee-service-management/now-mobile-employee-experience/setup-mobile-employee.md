@@ -44,13 +44,13 @@ Search includes these configuration options:
 
 -   **People search**
 
-    Configure whether users can search for other users in the system. By default, people search is enabled. For people search to display results, your users must have read-only access to the User \[sys\_user\] table. You can test people search by logging in as a user without any roles and searching for another user. If search results do not include meaningful data, for example, locations and phone numbers, update the access control lists \(ACLs\) on the User table to allow read access. For more information, see Access control list rules.
+    Configure whether users can search for other users in the system. By default, people search is enabled. For people search to display results, your users must have read-only access to the User \[sys\_user\] table. You can test people search by logging in as a user without any roles and searching for another user. If search results do not include meaningful data, for example, locations and phone numbers, update the access control lists \(ACLs\) on the User table to allow read access. For more information, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).
 
 -   **Analytics and suggestions**
 
     The Now Mobile app collects search data and analytics that generate search suggestions. If you are upgrading from a previous release, the search analytics do not contain any data yet. To immediately provide suggestions to your users, you can populate the search suggestions using knowledge, catalog, and user search records from the Text Searches \[text\_search\] table.
 
-    Search Suggestions is a ServiceNow AI Platform feature. For more information, see Search Suggestions.
+    Search Suggestions is a ServiceNow AI Platform feature. For more information, see [Search Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-suggestions/search-suggestions-overview.md).
 
 
 ## Items and services
@@ -61,7 +61,7 @@ Service Catalog items and services include these configuration options.
 
     Enable your users to view and request their associated items in the Now Mobile app. If no catalogs are selected, users can view and request items from all catalogs in the system. By default, the app uses Service Catalog.
 
-    For more information, see Now Mobile for Service Catalog.
+    For more information, see [Now Mobile for Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-mobile-catalog.md).
 
 -   **Quick actions**
 
@@ -74,7 +74,7 @@ Service Catalog items and services include these configuration options.
 
 Enable users to view knowledge articles from the mobile app. If no knowledge bases are selected, users can view articles from all knowledge bases in the system. By default, the app uses the IT knowledge base.
 
-For more information, see Now Mobile for Knowledge Management.
+For more information, see [Now Mobile for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/mobile-experience-for-km.md).
 
 ![Knowledge bases associated with the application.](../image/mobile_knowledge_bases.png)
 

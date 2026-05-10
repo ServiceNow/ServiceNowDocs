@@ -33,5 +33,5 @@ Role required: admin
 **Related topics**  
 
 
-[bundle-omgmt.create-channel-partner-record]
+[Create Channel Partner record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-channel-partner-record.md)
 

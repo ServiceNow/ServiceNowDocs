@@ -23,7 +23,7 @@ You can use the following subflows to the Visa spoke actions:
 -   Initiate dispute from transaction or case
 -   Submit dispute questionnaire
 
-For more information on setting up the integration to invoke Visa APIs for the Visa card dispute processs, see Set up Visa Spoke.
+For more information on setting up the integration to invoke Visa APIs for the Visa card dispute processs, see [Set up Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-visa-spoke.md).
 
 ## Workflow
 
@@ -43,5 +43,5 @@ Integrating Financial Services Operations card dispute flow with the Visa spoke 
 **Related topics**  
 
 
-[bundle-crint.visa-spoke]
+[Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/visa-spoke.md)
 

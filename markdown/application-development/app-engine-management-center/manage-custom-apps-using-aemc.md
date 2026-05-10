@@ -43,7 +43,7 @@ Knowing usage data for your applications has several benefits:
 -   Investigate and fix problems with the app. Knowing when or how data was changed can help identify where something went wrong.
 -   Determine whether you must load balance the processing power of your instance by seeing when there might be consistently higher traffic in your app.
 
-In the Usage Insights dashboards section, see detailed data such as active users, sessions, and page views by selecting an experience. For more information about how to understand and use this data, see Usage Insights.
+In the Usage Insights dashboards section, see detailed data such as active users, sessions, and page views by selecting an experience. For more information about how to understand and use this data, see [Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-exp-analytics-landing.md).
 
 ## Subscription monitoring
 

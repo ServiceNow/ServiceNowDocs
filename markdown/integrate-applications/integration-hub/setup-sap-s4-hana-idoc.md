@@ -41,7 +41,7 @@ Integrate the ServiceNow instance and SAP S4 HANA IDoc spoke by using the Basic 
 
     4.  Upload the required SAP proprietary files \(JAR, SO, or DLL\) obtained after contacting your SAP S4 HANA IDoc admin.
 
-        For more information, see Synchronize a JAR file to MID Servers.
+        For more information, see [Synchronize a JAR file to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SynchronizeAJARFiletoMIDServers.md).
 
     **Note:** Ensure that the files are synchronised in the `<MID-Server-root-directory>/agent/extlib` directory. If the files aren't synchronised, restart the MID Server.
 
@@ -105,7 +105,7 @@ Capabilities
 
 </td><td>
 
-Capabilities the MID Server must support to be eligible for selection. The system runs the action or activity from a MID Server that supports the selected capabilities.Required capabilities determine which MID Server is selected at runtime. To learn more about how a MID Server is selected during runtime, see MID Server selection.
+Capabilities the MID Server must support to be eligible for selection. The system runs the action or activity from a MID Server that supports the selected capabilities.Required capabilities determine which MID Server is selected at runtime. To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
 
 </td></tr><tr><td>
 
@@ -113,7 +113,7 @@ MID Application
 
 </td><td>
 
-Application the MID Server must support to be eligible for selection. The system runs the action from a MID Server that supports the selected application.To learn more about how a MID Server is selected during runtime, see MID Server selection.
+Application the MID Server must support to be eligible for selection. The system runs the action from a MID Server that supports the selected application.To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
 
 </td></tr></tbody>
 </table>    6.  In the **Attributes** tab, provide these details.

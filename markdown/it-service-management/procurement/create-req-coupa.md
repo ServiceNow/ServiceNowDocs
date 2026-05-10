@@ -35,9 +35,9 @@ Role required: sam\_admin and procurement\_integrator
 
 You can create a requisition on Coupa through the following ways:
 
--   When a user requests software through Service Catalog. For more information, see Request a catalog item from Service Portal.
+-   When a user requests software through Service Catalog. For more information, see [Request a catalog item from Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-cat-item-portal.md).
 -   If a procurement\_user or sam\_admin directly creates a Purchase Order on the Procurement application. For more information, see [Create a Purchase Order](t_CreateAPurchaseOrder.md).
--   When a sam\_user creates a Purchase Order directly from the Remediation Options form. For more information, see View software model results.
+-   When a sam\_user creates a Purchase Order directly from the Remediation Options form. For more information, see [View software model results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_ViewSWModelResults.md).
 
 Requisitions are of the following types:
 
@@ -222,7 +222,7 @@ Expected delivery
 
 </td><td>
 
-The date the items associated with the purchase order are expected to arrive in the stockroom identified in the **Ship to** field. This field can’t be edited when the purchase order has a **Status** of **Received** or **Canceled**. \(For more information about this field, seePurchase order expected delivery date.\)
+The date the items associated with the purchase order are expected to arrive in the stockroom identified in the **Ship to** field. This field can’t be edited when the purchase order has a **Status** of **Received** or **Canceled**. \(For more information about this field, see[Purchase order expected delivery date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/r_SetExpectDelDateOnPurchOrder.md).\)
 
 </td></tr><tr><td>
 

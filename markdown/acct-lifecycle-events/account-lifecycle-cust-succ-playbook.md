@@ -20,7 +20,7 @@ Playbooks provide step-by-step guidance and include multiple stages and activiti
 -   Mark an activity as complete and move to the next activity or stage.
 -   Complete the stages and activities and close the playbook.
 
-For more details on the playbook layout and components, see Playbook layout and features. The following playbooks are available:
+For more details on the playbook layout and components, see [Playbook layout and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-layout.md). The following playbooks are available:
 
 -   [Success case playbook](account-lifecycle-success-playbook.md)
 -   [Internal play playbook](account-lifecycle-internal-playbook.md)

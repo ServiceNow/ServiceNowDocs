@@ -41,5 +41,5 @@ Perform the following tasks to download the installation package and configure t
 
 Guided Setup provides a sequence of tasks that help you configure RPA Desktop Design Studio. With Guided Setup, keep track of what you have completed, so you can stop and start again where you left off. To open Guided Setup for RPA Hub, navigate to **All** &gt; **Robotic Process Automation** &gt; **Administration** &gt; **Guided Setup**.
 
-For more information about using the guided setup interface, see Using guided setup.
+For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
 

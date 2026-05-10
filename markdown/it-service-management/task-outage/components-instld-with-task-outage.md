@@ -15,7 +15,7 @@ breadcrumb: [Activate Task-Outage Relationship, Task Outage, IT Service Manageme
 
 The Task Outage table is installed with activation of the Task-Outage Relationship plugin \(com.snc.task\_outage\).
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 ## Roles installed
 

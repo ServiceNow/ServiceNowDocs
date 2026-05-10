@@ -21,10 +21,10 @@ If network access or datacenter location requires a specific MID Server, map MID
 -   Verify that you have at least version 1.30.2 of Discovery and Service Mapping Patterns.
 -   Verify that the Linux MID Server has the following requirements:
     -   8GB RAM with 4GB for the Java Virtual Machine \(JVM\).
-    -   MID Server **Capability** configured to **Scan Container Images**. For more information on configuring capabilities, see MID Server capabilities.
+    -   MID Server **Capability** configured to **Scan Container Images**. For more information on configuring capabilities, see [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/mid-server-capabilities.md).
     -   Can access the image repository.
     -   Has Aqua Trivy, starting 0.44.0, installed on the MID Server. The last version validated is 0.68.2. For more information on installing Aqua Trivy, see the [Container Image scan feature overview \[KB1218504\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1218504) article in the Now Support Knowledge Base.
--   Verify that the container image repository credentials are configured for the private repositories. For more information, see Create and test your credentials and Container image repository credentials.
+-   Verify that the container image repository credentials are configured for the private repositories. For more information, see [Create and test your credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/t_CreateCredential.md) and [Container image repository credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/container-image-repo-credential.md).
 -   Verify that a container image discovery has run for Docker, Kubernetes, or Amazon Elastic Container Service \(Amazon ECS\) discovery. For more information, see:
     -   [Docker virtualization](../../discovery/concept/c-docker-virtualization.md)
     -   [Kubernetes discovery using patterns](../concept/kubernetes-discovery.md)

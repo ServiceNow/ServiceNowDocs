@@ -25,15 +25,15 @@ Role required: admin
 
 1.  Use these two system properties to optimize dashboard widget rendering.
 
-<table id="choicetable_txm_hjc_wy"><thead><tr><th align="left" id="d151369e57">
+<table id="choicetable_txm_hjc_wy"><thead><tr><th align="left" id="d151381e57">
 
 Name
 
-</th><th align="left" id="d151369e60">
+</th><th align="left" id="d151381e60">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d151369e66">
+</th></tr></thead><tbody><tr><td id="d151381e66">
 
 **glide.canvas.grid.widget\_performance\_threshold**
 
@@ -44,7 +44,7 @@ Defines the maximum number of seconds for a widget to render on a dashboard. Wid
 -   Location: **System Properties** &gt; **Dashboard Properties**
 The default value of -1 disables the threshold and widget performance isn’t evaluated. Widgets are evaluated against any value greater than or equal to 1.
 
-</td></tr><tr><td id="d151369e97">
+</td></tr><tr><td id="d151381e97">
 
 **glide.canvas.grid.widget\_render\_concurrent\_max**
 
@@ -64,7 +64,7 @@ Defines the maximum number of widgets that render simultaneously on a dashboard.
 </td></tr></tbody>
 </table>    The values to use for these properties depend on the performance of your instance and the contents of its dashboards.
 
-2.  You can also configure a transaction quota rule.
+2.  You can also [configure a transaction quota rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/t_ConfigureATransactionQuotaRule.md).
 
     Transaction quota rules enable you to set a maximum execution time for a widget or a dashboard.
 
@@ -84,5 +84,5 @@ Defines the maximum number of widgets that render simultaneously on a dashboard.
 **Related topics**  
 
 
-[bundle-platadm.r_AvailableSystemProperties]
+[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md)
 

@@ -193,7 +193,7 @@ Returns predictions for multiple solutions.
 
 **Note:** Outcome result objects are grouped by solution name and sys\_id in the format `result.<solutionname>.<sys_id>.[{ <result1> },{ <result2>}]`.
 
-For customization information, see MLSolutionFactory scriptable objects.
+For customization information, see [MLSolutionFactory scriptable objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/using-ml-apis-mlsolutionfactory.md).
 
 ### URL format
 

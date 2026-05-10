@@ -23,9 +23,9 @@ Role required: admin
 
 The Problem form in the base system is configured to follow recommended ITIL practices. Evaluate the form layout and design with your existing business processes, and plan the changes to make.
 
-For additional form customization not described in this page, such as adding company-specific annotations or configuring related lists, see Form administration and Configuring the form layout.
+For additional form customization not described in this page, such as adding company-specific annotations or configuring related lists, see [Form administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/form-administration.md) and [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
-By default, auditing is enabled for the problem table. The administrator can configure the form layout to add the Audit Records and Audit History related lists. For more information about options for auditing a table, see Enable auditing for a table.
+By default, auditing is enabled for the problem table. The administrator can configure the form layout to add the Audit Records and Audit History related lists. For more information about options for auditing a table, see [Enable auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_EnableAuditingForATable.md).
 
 ## Procedure
 

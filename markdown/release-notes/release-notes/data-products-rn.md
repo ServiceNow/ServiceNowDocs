@@ -20,25 +20,25 @@ The ServiceNow® Data products application enables data stewards to create gover
 -   Access data from external systems such as Snowflake, Databricks, and Oracle without moving data into ServiceNow using zero-copy connectors.
 -   Protect consumers from source system changes through schema stability — published data interfaces maintain their structure even when underlying tables change.
 
-See Explore data products for more information.
+See [Explore data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-products.md) for more information.
 
 **Important:** Data products is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Data products features
 
--   **Data interfaces**
+-   **[Data interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-interfaces_wdf.md)**
 
     Define durable, schema-based contracts that provide a consistent access layer for data consumers in analytics, workflows, and AI applications. Data interfaces support multi-source composition through UNION and JOIN operations and maintain schema stability so that downstream consumers are protected from breaking changes when underlying source systems change. Control access to data interfaces using ServiceNow role-based access control and ACLs.
 
--   **Data products**
+-   **[Data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-products-wdf.md)**
 
     Create reusable, business-aligned data entities built on data interfaces with defined ownership, lifecycle management, and metadata. Package and govern data assets as publishable collections that consumers can discover in the Data Catalog and request access to through governed workflows. Control access to data products using ServiceNow role-based access control and ACLs.
 
--   **Zero Copy Connectors**
+-   **[Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zero-copy-connectors.md)**
 
     Access data from external systems in place without replication using federated queries with pushdown query execution. Query sources such as Snowflake, Databricks, and native ServiceNow data in real time or near-real time without moving data into your instance.
 
--   **Catalog-First Authoring Experience**
+-   **[Catalog-First Authoring Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-catalog.md)**
 
     Discover and onboard data assets directly from the Data Catalog and create data interfaces and data products from catalog assets without switching contexts. Build on catalog-registered data sources to improve reuse and reduce duplication of data efforts across your organization.
 
@@ -62,11 +62,11 @@ Install Data products by requesting it from the ServiceNow Store. Visit the [Ser
 
 ## Related ServiceNow applications and features
 
--   **Workflow data fabric**
+-   **[Workflow data fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-integrations-applications.md)**
 
     The ServiceNow® Workflow Data Fabric application provides the foundational platform for creating and managing data interfaces and products. Data Catalog is installed as part of the Workflow Data Fabric application and surfaces assets created and published through it.
 
--   **Data catalog**
+-   **[Data catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-catalog.md)**
 
     The ServiceNow® Data Catalog is the self-service discovery layer where consumers find published data products, review metadata and documentation, and request access. After a data product is published and the metadata collector runs, it becomes discoverable in the Data Catalog.
 

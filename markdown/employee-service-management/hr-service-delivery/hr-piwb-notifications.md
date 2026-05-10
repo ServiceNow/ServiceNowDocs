@@ -52,7 +52,7 @@ Use case Model training failedTable: PI Solution Model \[piwb\_model\]
 Sends an email to a specified user group when a use case model training has failed.
 
 </td></tr></tbody>
-</table>For more details about email notifications for Predictive Intelligence Workbench, see Preview email notification.
+</table>For more details about email notifications for Predictive Intelligence Workbench, see [Preview email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_PreviewingNotifications.md).
 
 **Parent Topic:**[HR Predictive Intelligence Workbench administration](hr-piwb-administration.md)
 

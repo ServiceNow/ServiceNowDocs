@@ -23,7 +23,7 @@ Role required: sn\_ohs\_im.manager, sn\_ohs\_im.agent, or sn\_ohs\_im.operations
 
 Use the **Report an incident** playbook available with Health and Safety Incident Management to manage safety incidents and resolve them. You can access the **Report an incident** playbook tab when a safety incident is assigned to you.
 
-For more information on how to interact with a playbook, see Playbooks.
+For more information on how to interact with a playbook, see [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md).
 
 **Note:** To work in a tab-based experience for safety incidents, your administrator can disable the playbook through Health and Safety properties. For more information, see [Disable the safety incident playbook](disable-safety-incident-playbook.md).
 

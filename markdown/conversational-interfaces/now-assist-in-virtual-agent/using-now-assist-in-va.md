@@ -190,7 +190,7 @@ Redirects into the full-page experience's chat tab.
 
 Both standard and enhanced chat require the ServiceNow default chat widget button to be turned on. The following actions must be completed for enhanced chat to display a synthesized response after entering a search query through the portal:
 
--   Configure the portal's AI Search
+-   [Configure the portal's AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ais.md)
 -   Turn on the ServiceNow default Search page widget.
 -   Turn on the ServiceNow default chat widget button.
 
@@ -206,10 +206,10 @@ The following actions must be completed for enhanced chat to display a synthesiz
 Want to learn more? Visit these resources.
 
 -   For more information on enhanced chat, see [Enhanced chat](nava-enhanced-chat.md).
--   For more information on enhanced chat in Employee Center, see Enhanced chat in Employee Center.
--   For more information on enhanced chat in self-service portals, see Now Assist conversational experience in self-service portals.
--   For more information on Now Assist, see Now Assist.
--   For more information on Now Assist in AI Search, see Now Assist in AI Search.
--   For more information on language support, see Multilingual service for Now Assist.
+-   For more information on enhanced chat in Employee Center, see [Enhanced chat in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/nass-now-assissist-self-service.md).
+-   For more information on enhanced chat in self-service portals, see [Now Assist conversational experience in self-service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nass-portal.md).
+-   For more information on Now Assist, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+-   For more information on Now Assist in AI Search, see [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-ais.md).
+-   For more information on language support, see [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/translation-for-now-assist.md).
 -   For more information on Now Assist in Virtual Agent analytics, see .
 

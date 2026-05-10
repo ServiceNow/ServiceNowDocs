@@ -135,7 +135,7 @@ There are different factors that can go into your decision to use one translatio
 
 **Note:** The native translation service is included in Pro Plus and Enterprise licenses, by default.
 
-For more information on tracking Now Assist usage, see Monitoring Now Assist usage.
+For more information on tracking Now Assist usage, see [Monitoring Now Assist usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
 
 ## Enabling translation for Now Assist
 

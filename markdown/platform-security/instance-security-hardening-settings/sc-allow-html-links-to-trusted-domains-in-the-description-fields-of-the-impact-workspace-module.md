@@ -116,7 +116,7 @@ Dependencies and prerequisites
 If the **sn\_impact\_common.blacklist\_tags\_HTML\_injection** system property contains HTML tags that surround HREF links, then all links within those tags will be removed.
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see Add a system property.
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
 

@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-Declarative actions help you to modify the list actions, related list actions, and field decorators available in the Service Operations Workspace. For more information about creating declarative actions and how to use them, see Declarative actions.
+Declarative actions help you to modify the list actions, related list actions, and field decorators available in the Service Operations Workspace. For more information about creating declarative actions and how to use them, see [Declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/migration-form-declarative-actions.md).
 
 Along with the declarative actions customizations, the SRP or Standard Record Page also modifies the add-on events in the Incident records and the tabs inside the records.
 

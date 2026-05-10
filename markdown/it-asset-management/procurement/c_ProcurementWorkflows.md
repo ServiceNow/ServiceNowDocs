@@ -47,7 +47,7 @@ Procurement uses the following workflows. You can edit the existing flows or cre
 
 [Domain separation and Procurement](domain-separation-procurement.md)
 
-[bundle-crworkflow.c_WorkflowOverview]
+[Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowOverview.md)
 
 [Sourcing items in a service catalog request](c_SourcingRequestItems.md)
 

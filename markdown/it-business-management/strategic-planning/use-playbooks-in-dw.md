@@ -72,16 +72,16 @@ Each stage consists of activities, action items, or steps that guide the demand 
         -   A stage is marked as completed once all activities within it are either completed or skipped.
         -   Use the **Restart** option \(available at both the activity and stage levels\) to revisit or edit completed or skipped activities.
         -   Some stages include an automated task that advances the demand state when all activities in the stage are completed. These automated tasks don’t require manual action.
-    -   To create a playbook, define the trigger condition in Workflow Studio. For more information, see Triggers.
-    For more information on how to create and use playbooks, see Building Playbooks and Designing Playbook Experience.
+    -   To create a playbook, define the trigger condition in Workflow Studio. For more information, see [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-triggers.md).
+    For more information on how to create and use playbooks, see [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-a-process.md) and [Designing Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-experience-admins.md).
 
 
 **Related topics**  
 
 
-[bundle-crworkflow.playbook-agents-and-fulfillers]
+[Running Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
 
-[bundle-crworkflow.process-automation-designer-reference]
+[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-reference.md)
 
 [Create and customize playbooks](playbooks-configuration-for-dmnd-wpc.md)
 

@@ -24,7 +24,7 @@ Role required: admin or sn\_mif.mif\_admin
 
 You must have ReleaseOps installed before configuring mulit-instance management. For more information, see [Install ReleaseOps](install-releaseops.md).
 
-All non-production \(development and test\) instances must be configured as instances managed by your production instance to participate in your ReleaseOps ecosystem. For more information, see Cross-instance application trust configuration.
+All non-production \(development and test\) instances must be configured as instances managed by your production instance to participate in your ReleaseOps ecosystem. For more information, see [Cross-instance application trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/grant-access-v2.md).
 
 ## Procedure
 
@@ -47,5 +47,5 @@ All non-production \(development and test\) instances must be configured as inst
 7.  Select **Approve Manager Instance**.
 
 
-If you receive Trust Profile errors, confirm that both Managed Instances and Manager Instances are correctly set up and approved. For more information, see Cross-instance application trust configuration.
+If you receive Trust Profile errors, confirm that both Managed Instances and Manager Instances are correctly set up and approved. For more information, see [Cross-instance application trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/grant-access-v2.md).
 

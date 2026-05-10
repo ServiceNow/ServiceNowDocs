@@ -31,7 +31,7 @@ For each candidate use case, answer the following questions before proceeding:
 
 ServiceNow provides a library of AI agents preconfigured for common use cases. Consider using base system agents when one fits your use case. These preconfigured agents can be faster to deploy, have been tested, and still support custom configuration. Build a custom agent only when no base system agent addresses your use case.
 
-OOTB agents are available in read-only mode. To modify an OOTB agent, you must first duplicate it. See General guidelines for creating AI agents and agentic workflows for guidelines on creating and adapting agents effectively.
+OOTB agents are available in read-only mode. To modify an OOTB agent, you must first duplicate it. See [General guidelines for creating AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-creating-aia.md) for guidelines on creating and adapting agents effectively.
 
 ## Choose an activation model
 

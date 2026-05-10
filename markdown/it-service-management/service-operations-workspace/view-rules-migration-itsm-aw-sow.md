@@ -19,7 +19,7 @@ Migration of view rules from ITSM Agent Workspace to Service Operations Workspac
 
 For information about view rules, see [https://www.servicenow.com/community/developer-blog/servicenow-view-and-view-rule-servicenow-tutorial-to-understand/ba-p/2333469](https://www.servicenow.com/community/developer-blog/servicenow-view-and-view-rule-servicenow-tutorial-to-understand/ba-p/2333469).
 
-For information about creating a view rule, see Create a view rule.
+For information about creating a view rule, see [Create a view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateAViewRule.md).
 
 ## Tables used for migration
 

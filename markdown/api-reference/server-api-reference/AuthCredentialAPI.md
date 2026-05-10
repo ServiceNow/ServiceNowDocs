@@ -23,7 +23,7 @@ Generate outbound signing requests using these APIs in the following order:
 4.  HttpRequestAuthedData: Get information about the signed request.
 5.  GlideHTTPRequest: Send the signed request.
 
-Before using these APIs, you must configure an authentication algorithm to sign the request and associate it with the credential used to authenticate the request.
+Before using these APIs, you must [configure an authentication algorithm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/configure-authentication-algorithm.md) to sign the request and associate it with the credential used to authenticate the request.
 
 You can create an empty AuthCredential object, instantiate an existing AuthCredential object, or use the StandardCredentialsProvider class to instantiate an AuthCredential object using a Credential record from the Credentials \[discovery\_credentials\] table. If you create an empty AuthCredential object, use the setAttribute\(\) method to add properties to the object.
 

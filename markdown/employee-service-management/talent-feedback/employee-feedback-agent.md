@@ -48,5 +48,5 @@ Employee feedback collection AI agent
 -   The **Employee feedback collection AI agent** enables managers select scenario-specific feedback templates to improve the relevance and actionability of the feedback collected. These templates configured by an admin using the Platform Surveys tool. Managers can review a summarized view of a reportee’s recent feedback and navigate to the Feedback page in Manager Hub to view all feedback received for any employee.
 
 </td></tr></tbody>
-</table>There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
+</table>There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 

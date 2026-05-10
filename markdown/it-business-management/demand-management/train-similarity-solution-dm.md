@@ -17,7 +17,7 @@ Train the Similar Demands solution definition is included within the Predictive 
 
 ## Before you begin
 
-Confirm that the Predictive Intelligence for Contextual Search plugin \(com.snc.contextual\_search\_ml\), PPM Standard plugin \(com.snc.financial\_planning\_pmo\), and Predictive Intelligence for PPM plugin \(com.snc.ppm\_ml\) are activated. For more information about Predictive Intelligence, see Predictive Intelligence.
+Confirm that the Predictive Intelligence for Contextual Search plugin \(com.snc.contextual\_search\_ml\), PPM Standard plugin \(com.snc.financial\_planning\_pmo\), and Predictive Intelligence for PPM plugin \(com.snc.ppm\_ml\) are activated. For more information about Predictive Intelligence, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md).
 
 Role required: admin
 
@@ -29,7 +29,7 @@ Role required: admin
 
 3.  On the Similarity Definition form, verify the default field values for demands.
 
-    For more information about the Similarity Definition form fields, see Create and train a similarity solution.
+    For more information about the Similarity Definition form fields, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md).
 
 4.  Select **Update &amp; Retrain**.
 
@@ -79,7 +79,7 @@ When the solution is complete, the similar demands appear in the Similar demands
 
 [Associate AI systems with demands](associate-ai-systems-with-demands.md)
 
-[bundle-platai.predictive-intelligence]
+[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md)
 
 [Predictive Intelligence for Demand Management](../concept/predictive-intelligence-for-demand.md)
 

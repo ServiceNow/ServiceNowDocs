@@ -29,8 +29,8 @@ For detailed information about roles that are installed with Task Mining, see [C
 
 -   Assign roles to users and groups using the ServiceNow AI Platform user administration feature.
 
-    -   Assign a role to a user.
-    -   Assign a role to a group.
+    -   [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
+    -   [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
 
 ## What to do next
 

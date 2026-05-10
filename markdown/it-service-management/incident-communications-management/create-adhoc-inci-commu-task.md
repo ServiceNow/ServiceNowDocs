@@ -53,7 +53,7 @@ Role required: major\_incident\_manager, ia\_admin, or admin
 
 ## What to do next
 
-Create adhoc incident communication channel. For more information on how to define a communication channel, refer Define a communication channel.
+Create adhoc incident communication channel. For more information on how to define a communication channel, refer [Define a communication channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/create-comm-channel-definition.md).
 
 **Parent Topic:**[Managing Incident Communications](../concept/working-with-inci-comm-mgmt.md)
 

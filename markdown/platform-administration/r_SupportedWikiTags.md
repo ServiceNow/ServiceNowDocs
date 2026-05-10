@@ -137,7 +137,7 @@ Placed images
 
 </td><td>
 
-\[\[Image:&lt;image name&gt;\]\] For more information on uploading images or files to the database, see Storing images in the database.
+\[\[Image:&lt;image name&gt;\]\] For more information on uploading images or files to the database, see [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md).
 
 </td></tr><tr><td>
 

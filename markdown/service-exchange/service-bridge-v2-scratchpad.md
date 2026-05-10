@@ -17,9 +17,9 @@ The Scratchpad feature facilitates exchange of additional data between provider 
 
 Both providers and consumers can add, update, and remove information to and from the Scratchpad table. Using server side scripts, name-value pairs are associated with Provider Tasks and Remote tasks and this data is automatically synced between the instances. Shared data must be associated with a Provider or a Remote Task, and is automatically synced if the associated task is active.
 
-The PSBScratchpadUtil API allows providers to share extra information that is outside of any other Service Exchange service, with their consumers. See PSBScratchpadUtil - Scoped for more details.
+The PSBScratchpadUtil API allows providers to share extra information that is outside of any other Service Exchange service, with their consumers. See [PSBScratchpadUtil - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PSBScratchpadUtilScopedAPI.md) for more details.
 
-The CSBScratchpadUtil API allows consumers to share extra information that is outside of any Service Exchange service with their providers. See CSBScratchpadUtil - Scoped for more details.
+The CSBScratchpadUtil API allows consumers to share extra information that is outside of any Service Exchange service with their providers. See [CSBScratchpadUtil - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CSBScratchpadUtilScopedAPI.md) for more details.
 
 **Note:**
 

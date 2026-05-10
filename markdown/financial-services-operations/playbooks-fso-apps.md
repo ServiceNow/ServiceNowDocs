@@ -13,7 +13,7 @@ breadcrumb: [Playbooks, Configure, Financial Services Operations \(FSO\)]
 
 Several playbooks are installed with Financial Services Operations applications that you can use to run your digitized business process.
 
-By using Process Automation Designer, you can review and configure these predefined playbooks for your own business needs.
+By using [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md), you can review and configure these predefined playbooks for your own business needs.
 
 The following table lists the predefined playbooks that are available with Financial Services Operations applications.
 

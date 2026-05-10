@@ -25,7 +25,7 @@ Set up your Financial Services Operations application by importing financial ser
 
     Configure internal and external users in Customer Service Management and the FSO application to ensure proper access. Combine Agent Connector and Contributor roles with relevant CSM Industry data model and user roles to streamline case management and support for specific accounts.
 
-4.  Setting up script includes
+4.  [Setting up script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md)
 
     Create script includes to store JavaScript that runs on the server.
 
@@ -33,11 +33,11 @@ Set up your Financial Services Operations application by importing financial ser
 
     Create structured and flexible data models to represent the need across various industries.
 
-6.  Creating an ACL
+6.  [Creating an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateNewACL.md)
 
     Create an access control rule \(ACL\) to prevent the Needs review field from being modified after it has been set.
 
-7.  Setting up form views
+7.  [Setting up form views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/form-configurable-workspace.md)
 
     Form views refer to the user interfaces or screens that allow users to input, edit, and view data related to tables.
 
@@ -45,7 +45,7 @@ Set up your Financial Services Operations application by importing financial ser
 
     Configure and modify service definitions for Financial Services Operations applications, including reviewing or adding new ones.
 
-9.  Creating a UI action
+9.  [Creating a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateNewUIAction.md)
 
     Create UI actions.
 
@@ -53,11 +53,11 @@ Set up your Financial Services Operations application by importing financial ser
 
     Review the CSM Configurable Workspace in Financial Services Operations applications to ensure it meets your business needs. Customize its components as needed and set it up for agents to engage with customers, answer questions, create cases, and resolve issues.
 
-11. Setting up decision tables
+11. [Setting up decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-tables/decision-table.md)
 
     Create decision tables.
 
-12. Setting up approval engine
+12. [Setting up approval engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/t_SetupAnApprovalEngine.md)
 
     Set up insurance claim core as per the business requirements.
 

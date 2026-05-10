@@ -38,7 +38,7 @@ Role required: admin
     |Connection name|Name of the external system that you want to create an outbound connection to. For example, *Jira*.|
     |Description|A description for the connection to the external system.|
     |Protocol|The connection protocol to connect to the external system.|
-    |Retry Policy|Retry policy for the connection. For more information, see Retry policy.|
+    |Retry Policy|Retry policy for the connection. For more information, see [Retry policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/retry-policy.md).|
     | | |
 
 8.  Choose between using a configuration template or custom credentials for adding an endpoint.
@@ -55,7 +55,7 @@ Role required: admin
 
 11. Enable the MID server option and configure the server information.
 
-    For more information, see Configure a MID Server cluster.
+    For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md).
 
 12. Click **Add Endpoint** to add additional endpoints for different environments.
 

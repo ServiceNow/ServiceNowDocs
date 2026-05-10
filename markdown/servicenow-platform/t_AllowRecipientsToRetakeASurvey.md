@@ -17,7 +17,7 @@ You can configure a survey to allow recipients to resubmit their answers as many
 
 Configure the Survey Definition form to display the **Allow retake** field. For more information, see
 
-Configure the form.
+[Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
 Role required: admin or survey\_admin
 

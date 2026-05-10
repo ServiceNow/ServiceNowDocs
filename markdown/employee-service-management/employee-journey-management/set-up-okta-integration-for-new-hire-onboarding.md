@@ -19,7 +19,7 @@ To set up the Okta integration for new hire onboarding, you must first set up th
 
 This integration requires subscriptions to the following:
 
--   Okta spoke v1.1.1
+-   [Okta spoke v1.1.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/okta-v2-spoke.md)
 -   Human Resources Scoped App: Lifecycle Events for Enterprise \[com.sn\_hr\_lifecycle\_ent\] plugin
 
     **Note:** The lifecycle event for new hire onboarding is included as demo data with this plugin.
@@ -31,11 +31,11 @@ Role required: admin
 
 1.  Set up the Okta spoke v1.1.1.
 
-    For instructions on how to set up the spoke, see Set up Okta spoke v1.1.1.
+    For instructions on how to set up the spoke, see [Set up Okta spoke v1.1.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-okta-v1.1.1.md).
 
 2.  Fetch the Okta groups into your instance.
 
-    For instructions on how to fetch the groups, see Fetch Okta groups.
+    For instructions on how to fetch the groups, see [Fetch Okta groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/fetch-okta-groups.md).
 
     **Important:** If an Okta group is deleted from within the Okta system, that change will not be reflected in your instance. You must manually delete the record by navigating to **Okta Spoke** &gt; **Okta groups**, as well as remove it from any business role mappings.
 

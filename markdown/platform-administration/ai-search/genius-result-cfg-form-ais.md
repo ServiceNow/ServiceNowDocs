@@ -42,7 +42,7 @@ Trigger condition
 Condition that triggers evaluation of the Genius Result configuration. Supported values:
 
 -   **Always**: The Genius Result configuration triggers for every search query.
--   **NLU**: The Genius Result configuration triggers when the search query's detected intent matches an NLU model intent. To use this trigger condition, you must link the NLU model and one or more of its intents to your Genius Result configuration. For instructions, see [Link an NLU model and intents to a Genius Result configuration](../task/link-nlu-model-genius-result-ais.md).
+-   **NLU**: The Genius Result configuration triggers when the search query's detected intent matches an [NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-models.md) intent. To use this trigger condition, you must link the NLU model and one or more of its intents to your Genius Result configuration. For instructions, see [Link an NLU model and intents to a Genius Result configuration](../task/link-nlu-model-genius-result-ais.md).
 
 **Note:**
 
@@ -97,7 +97,7 @@ Server-side script function that takes a GeniusResultContext object as its param
 
  To define a search query, use the GeniusResultAnswer.setTable\(\), GeniusResultAnswer.addSearchPhrases\(\), and GeniusResultAnswer.setSearchPhrase\(\) API methods.
 
- For details of API methods usable in this script function, including examples of use, see the GeniusResultAnswer and GeniusResultContext scoped JavaScript API descriptions.
+ For details of API methods usable in this script function, including examples of use, see the [GeniusResultAnswer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GeniusResultAnswerScopedAPI.md) and [GeniusResultContext](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GeniusResultContextScopedAPI.md) scoped JavaScript API descriptions.
 
 **Note:** The GeniusResultContext.getMatchingDocuments\(\) API method returns no results when invoked in an **AI Search request processor** script, since the script is executed before AI Search computes results for the triggering search query. Don't use this method in your request processor scripts.
 
@@ -113,7 +113,7 @@ Server-side script function that takes a GeniusResultContext object as its param
 
  To define your map of key-value pairs, use the GeniusResultAnswer.addDataMap\(\) API method. Each key-value pair represents a field name and value that you can display on the Genius Result answer card using the **Return fields** list.
 
- For details of API methods usable in this script function, including examples of use, see the GeniusResultAnswer and GeniusResultContext scoped JavaScript API descriptions.
+ For details of API methods usable in this script function, including examples of use, see the [GeniusResultAnswer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GeniusResultAnswerScopedAPI.md) and [GeniusResultContext](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GeniusResultContextScopedAPI.md) scoped JavaScript API descriptions.
 
 </td></tr><tr><td>
 

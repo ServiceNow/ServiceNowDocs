@@ -65,9 +65,9 @@ To sort a list, use one of the following methods:
 **Related topics**  
 
 
-[bundle-platadm.c_ChoiceLists]
+[Choice lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ChoiceLists.md)
 
-[bundle-platadm.c_IntValsForDfltChoiceList]
+[Integer values for default choice lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_IntValsForDfltChoiceList.md)
 
 ## Configure field status indicators
 

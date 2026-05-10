@@ -151,7 +151,7 @@ Appears when you select Conditional from the **Type** field.Select conditions wh
 -   Aileen Mottern
 This condition shows the special handling note for a General Inquiry case for Aileen Mottern.
 
-**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
+**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr></tbody>
 </table>4.  Select **Submit** or **Update**.

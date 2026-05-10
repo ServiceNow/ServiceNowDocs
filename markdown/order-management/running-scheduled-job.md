@@ -49,5 +49,5 @@ Customer order records are created.
 **Related topics**  
 
 
-[bundle-platadm.advanced-options-for-scheduled-jobs]
+[Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md)
 

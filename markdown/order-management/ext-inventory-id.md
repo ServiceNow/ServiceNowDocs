@@ -25,7 +25,7 @@ With the support of an external inventory ID, you can do the following tasks:
 -   Store the external inventory ID in a new table for new orders and associate them with the product inventory records that were created after the order fulfillment. Also, update the ID in the external product inventory table for any inflight revisions during the order fulfillment process.
 -   Allow external CPQ or southbound systems to use the external inventory ID to submit, change, disconnect, suspend, and resume orders on the product inventory in the order management system.
 
-**Note:** You can also map the external product inventory ID with the product inventory record by using the Product Inventory Open API. For more information, see Product Inventory Open API.
+**Note:** You can also map the external product inventory ID with the product inventory record by using the Product Inventory Open API. For more information, see [Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/product-inventory-open-api.md).
 
 -   **[Review the external product inventory details for a customer order](../task/order-mgt-review-ext-inventory.md)**  
 Review the external inventory details of the customer orders that you’ve received from the external Configure, Price, and Quote \(CPQ\) system during the order capture process.

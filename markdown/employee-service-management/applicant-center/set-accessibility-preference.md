@@ -21,7 +21,7 @@ Role required: sn\_ta\_hiring\_core.external\_applicant or sn\_ta\_hiring\_core.
 
 ## About this task
 
-Users can tab through the platform UI without enabling accessibility. However, without accessibility enabled, tabbing goes from field to field and skips other items on a form, such as reference icons. For details, see Using accessibility features.
+Users can tab through the platform UI without enabling accessibility. However, without accessibility enabled, tabbing goes from field to field and skips other items on a form, such as reference icons. For details, see [Using accessibility features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/keyboard-accessibility.md).
 
 ## Procedure
 

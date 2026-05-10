@@ -42,7 +42,7 @@ Role required:
 
 6.  In the Catalog tab, add products to the new quote or order that is created.
 
-    For more info, see Add products to a quote.
+    For more info, see [Add products to a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-catalog-tab.md).
 
 7.  Select **Submit for approval**.
 

@@ -25,7 +25,7 @@ Authentication algorithms support the following steps:
 -   REST Step
 -   SOAP Step
 
-For more information, see Integration steps
+For more information, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integration-steps.md)
 
 ## Authentication algorithm types
 

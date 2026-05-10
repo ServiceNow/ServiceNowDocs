@@ -25,15 +25,15 @@ Role required: major\_incident\_manager
 
     **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](../../service-operations-workspace/task/redirect-ui16-module-links-sow.md).
 
-<table id="choicetable_r21_xbw_3db"><thead><tr><th align="left" id="d168686e78">
+<table id="choicetable_r21_xbw_3db"><thead><tr><th align="left" id="d168690e78">
 
 Option
 
-</th><th align="left" id="d168686e81">
+</th><th align="left" id="d168690e81">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d168686e87">
+</th></tr></thead><tbody><tr><td id="d168690e87">
 
 **Accept a major incident candidate**
 
@@ -48,7 +48,7 @@ Description
 -   The incident is assigned to the user who approves the major incident.
 
 
-</td></tr><tr><td id="d168686e148">
+</td></tr><tr><td id="d168690e148">
 
 **Reject a major incident candidate**
 

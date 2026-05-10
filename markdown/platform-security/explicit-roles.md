@@ -53,7 +53,7 @@ When the Explicit Roles plugin is activated:
 -   To restrict access to processors to internal users, the plugin automatically assigns the snc\_internal role to the **\*** ACL with a **Type** of **processor**.
 -   External users must obtain, at minimum, the snc\_external role to access the instance. This role must be manually granted to external users. Access to records is granted through ACLs.
 
-Do not move system update sets among instances with and without the Explicit Roles plugin enabled. For more information, see System update sets.
+Do not move system update sets among instances with and without the Explicit Roles plugin enabled. For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md).
 
 **Note:** This plugin also requires the [Contextual Security Manager](../../roles/reference/r_ContextualSecurity.md) plugin.
 
@@ -72,7 +72,7 @@ To exclude snc\_internal role for certain users, use the `glide.security.explici
 
 ## Providing table access to external users
 
-You can provide external users access to a table by adding a role to the table that inherits the snc\_external role. For more information, see Provide external users access to a table.
+You can provide external users access to a table by adding a role to the table that inherits the snc\_external role. For more information, see [Provide external users access to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ProvideExternalUsersAccessToTables.md).
 
 ## The hasRoles\(\) method
 

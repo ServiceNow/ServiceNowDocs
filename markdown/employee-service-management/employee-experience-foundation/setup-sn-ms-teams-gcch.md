@@ -17,7 +17,7 @@ Set up your ServiceNow instance to integrate with Microsoft Teams applications.
 
 You can integrate Employee Center, Virtual Agent, and request-based chatbots with Microsoft Teams for Government Community Cloud - High \(GCC-H\) or US Department of Defense \(DoD\) customers.
 
-Integrating Virtual Agent with Microsoft Teams for GCC-H or DoD
+[Integrating Virtual Agent with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-msteams-gcch.md)
 
 You can integrate Virtual Agent with Microsoft Teams for GCC-H customers by configuring your own apps.
 

@@ -33,7 +33,7 @@ You can view boot time metrics in two locations: the **Insights** page and the *
 
 **Tip:** To view boot time on the **Insights** page, go to **Digital Employee Experience** &gt; **Insights** and select **System Time**. Review the **Boot time** and **Last boot timestamp** columns.
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see Now Assist skills, agents, and agentic workflows on by default.
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 ## Procedure
 

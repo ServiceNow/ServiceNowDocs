@@ -19,7 +19,7 @@ The Analytics user manager provides the user managers with reports of time sheet
 
 The dashboard can be activated using the Performance Analytics - Content Pack - Project Portfolio Suite Dashboards plugin \(com.snc.pps\_dashboards\). You require Performance Analytics license to use this dashboard.
 
-The dashboard displays time sheet reports only for those time card users who have the **Manager** field on User form set to the current user.
+The dashboard displays time sheet reports only for those time card users who have the **Manager** field on [User form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md) set to the current user.
 
 The reports in the dashboard are filtered based on **Date** range, and **User** selected.
 
@@ -65,7 +65,7 @@ Role required: resource\_manager, timecard\_admin
 
 **Important:** Starting with Xanadu release, **User Manager Dashboard** is renamed to **Analytics User manager** for new customers.
 
-The dashboard displays time sheet reports only for those time card users who have the **Manager** field on User form set to you.
+The dashboard displays time sheet reports only for those time card users who have the **Manager** field on [User form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md) set to you.
 
 ### Procedure
 

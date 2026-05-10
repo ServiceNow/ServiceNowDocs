@@ -41,9 +41,9 @@ Role required: none
 
 [Compare to the current version](t_CompareToCurrentVersion.md)
 
-[bundle-platcap.compare-two-article-versions]
+[Compare two versions of an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/compare-two-article-versions.md)
 
-[bundle-platadm.um-resolve-conflict]
+[Resolve conflicts for an individual record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-resolve-conflict.md)
 
 [Resolve a collision in Team Development](t_ResolveACollision.md)
 

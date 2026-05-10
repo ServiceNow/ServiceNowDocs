@@ -15,21 +15,21 @@ Sales Customer Relationship Management \(Sales CRM\) APIs provide endpoints to c
 
 |REST API|Description|
 |--------|-----------|
-|Entitlement API|The Entitlement API provides endpoints to create and retrieve entitlement records from an instance.|
-|lead API|The lead API provides endpoints that enable you to create, update, and query/retrieve marketing leads and their associated lead line items from an instance.|
-|Order API|The Order API provides endpoints for retrieving and creating orders with order line items for the Customer Service Management application.|
-|Product Inventory Open API|The Product Inventory Open API provides endpoints to create and retrieve product inventories.|
-|Sales Agreement API|The Sales Agreement API provides methods for creating a new sales agreement and retrieving an existing sales agreement of a given sys\_id.|
-|Work Order Management API|The Work Order Management API provides endpoints to create, update, and retrieve work orders.|
+|[Entitlement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/entitlement-api.md)|The Entitlement API provides endpoints to create and retrieve entitlement records from an instance.|
+|[lead API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/lead-api.md)|The lead API provides endpoints that enable you to create, update, and query/retrieve marketing leads and their associated lead line items from an instance.|
+|[Order API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/order_csm-api.md)|The Order API provides endpoints for retrieving and creating orders with order line items for the Customer Service Management application.|
+|[Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/product-inventory-open-api.md)|The Product Inventory Open API provides endpoints to create and retrieve product inventories.|
+|[Sales Agreement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/sales_agreement-api.md)|The Sales Agreement API provides methods for creating a new sales agreement and retrieving an existing sales agreement of a given sys\_id.|
+|[Work Order Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/work-order-mgmt-api.md)|The Work Order Management API provides endpoints to create, update, and retrieve work orders.|
 
 **Parent Topic:**[Sales Customer Relationship Management reference](../concept/som-reference.md)
 
 **Related topics**  
 
 
-[bundle-telmt.tmt-api-reference]
+[TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/tmt-api-reference.md)
 
-[bundle-crapiref.api-product-type]
+[Browse APIs by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-product-type.md)
 
-[bundle-crapiref.api-implementation-reference]
+[API implementation and reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-implementation-reference.md)
 

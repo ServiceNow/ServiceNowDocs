@@ -54,7 +54,7 @@ The Task `[task]` table provides a time-tracking field called **Time worked**. T
 
 ![](../image/TimeTimeworked.png "Time Worked")
 
-Any table that extends Task can use this field. To add the field, Personalize a form.
+Any table that extends Task can use this field. To add the field, [Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_PersonalizeAForm.md).
 
 As the record is viewed, the timer counts upward. To pause the timer, click the stop icon \(![Stop icon](../image/TimerStop.png)\)
 

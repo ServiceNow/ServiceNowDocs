@@ -57,9 +57,9 @@ The service model foundation operates across CRM products and adapts to a range 
 **Related topics**  
 
 
-[bundle-csm.csm-industry-data-model]
+[Service Model Foundation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-industry-data-model.md)
 
-[bundle-csm.configure-industry-data-model]
+[Configure Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-industry-data-model.md)
 
-[bundle-csm.industry-data-model-locations]
+[Service Model Foundation business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/industry-data-model-locations.md)
 

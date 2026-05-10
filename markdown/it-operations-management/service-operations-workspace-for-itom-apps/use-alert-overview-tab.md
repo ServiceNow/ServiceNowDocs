@@ -55,7 +55,7 @@ Impact
 
 Lists the Configuration item and any services impacted by the alert.The **Impacted Services** tile includes the following subtabs:
 
--   **Application services:** The application services affected by the alert. For details on application services, see Application services.
+-   **Application services:** The application services affected by the alert. For details on application services, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/application-services.md).
 -   **Related service offerings:** The service offerings connected to the application services affected by the alert.
 Application services and their related service offerings display on a many-to-many basis. That is, several service offerings can relate to one or more application services, and several application services can relate to one or more service offerings.
 

@@ -368,7 +368,7 @@ com.glide.hub.flow.restricted\_caller\_access.track\_flows\_as\_source
 Allow the system to generate restricted caller access privilege requests for flows and actions. The access privileges for flows and actions supersede any existing access privileges for script includes and business rules that call flows and actions. This property is inactive on instances upgraded from San Diego and earlier releases. Customers who want to continue using script-based access privileges for flows and actions shouldn’t enable this property. Enabling this property requires you to regenerate and approve access privileges for your flows and actions.-   Type: true \| false
 -   Default value: true for Tokyo and later releases. False for San Diego and earlier releases.
 -   Location: System Properties \[sys\_properties\] table
--   More information: Restricted caller access privilege settings
+-   More information: [Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/restricted-caller-access-privilege.md)
 
 </td></tr><tr><td>
 
@@ -379,7 +379,7 @@ com.glide.cs.fdih.interactive.timeout
 Specify the length of time, in seconds, before the Workflow Studio Integration Hub action workflow times out.-   Type: integer
 -   Default value: 120
 -   Location: System Properties \[sys\_properties\] table
--   More information: Specify the action workflow timeout.
+-   More information: [Specify the action workflow timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-fdih-action-timeout.md).
 
 </td></tr><tr><td>
 
@@ -467,7 +467,7 @@ com.glide.hub.flow\_api.default\_execution\_time
 Specify the default duration in milliseconds your Flow API calls can run. Use this property to give Flow API calls in spokes more time to run. The maximum value of this property is limited by REST transaction quotas, which by default the system stops after 60 seconds.-   Type: integer
 -   Default value: 30000 \(30 seconds\)
 -   Location: System Properties \[sys\_properties\] table
--   More information: Transaction quotas
+-   More information: [Transaction quotas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/c_TransactionQuotas.md)
 
 </td></tr><tr><td>
 
@@ -541,7 +541,7 @@ The comma-separated list of Type field values that an sys\_email record must hav
 -   Type: string
 -   Default value: sent,send-ready
 -   Location: Add to the System Properties \[sys\_properties\] table
--   More information: [Wait For Email Reply action](wait-for-email-reply-action.md) and System email log and mailboxes
+-   More information: [Wait For Email Reply action](wait-for-email-reply-action.md) and [System email log and mailboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_EmailLogs.md)
 
 </td></tr><tr><td>
 

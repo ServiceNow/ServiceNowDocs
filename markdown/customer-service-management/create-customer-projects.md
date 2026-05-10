@@ -33,7 +33,7 @@ A customer project can be initiated by applying templates, or by importing and e
 
 3.  On the form, fill in the fields.
 
-    The following table outlines the unique fields of the form. To learn more about other fields, refer Starting a project.
+    The following table outlines the unique fields of the form. To learn more about other fields, refer [Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md).
 
     |Field|Description|
     |-----|-----------|
@@ -123,7 +123,7 @@ Reports of the project
 </td></tr></tbody>
 </table>6.  Under the **Details** tab, fill in the other fields.
 
-    The following table outlines the unique fields of the customer project. To learn more about other fields, see Starting a project.
+    The following table outlines the unique fields of the customer project. To learn more about other fields, see [Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md).
 
 <table id="table_h33_rpn_tdc"><thead><tr><th>
 
@@ -161,5 +161,5 @@ Service organization for the project. Select an internal business location \(IBL
 </table>
 ## What to do next
 
-Create a project task from a project
+[Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateATaskFromAProject.md)
 

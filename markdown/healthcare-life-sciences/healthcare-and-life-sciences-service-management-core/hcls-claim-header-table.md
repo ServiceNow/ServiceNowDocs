@@ -183,7 +183,7 @@ Alpha-numeric profile identifier of the claim header.
 
  The value is auto-generated and is incremented every time you add a new claim header to an instance. The initial value for the **Number** field is CLAIMHDR00001001.
 
-**Note:** To customize the number, define the auto-numbering format for the Claim header \[sn\_hcls\_claim\_header\] table. For more information, see Add auto-numbering records in a table.
+**Note:** To customize the number, define the auto-numbering format for the Claim header \[sn\_hcls\_claim\_header\] table. For more information, see [Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AutoNumberingRecordsInATable.md).
 
 </td></tr><tr><td>
 

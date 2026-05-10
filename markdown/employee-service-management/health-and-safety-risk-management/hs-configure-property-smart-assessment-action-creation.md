@@ -25,7 +25,7 @@ Role required: sn\_hs\_rm.safety\_inspection\_manager or admin
 
 2.  In the property **Smart assessment fields enables for action creation. Please mention the sys\_id of the questions for which we need to have the in-line action enabled**, enter the sys\_id for each question that needs action creation enabled.
 
-    For information on how to access the sys\_id, see Unique record identifier \(sys\_id\).
+    For information on how to access the sys\_id, see [Unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UniqueRecordIdentifier.md).
 
 3.  Select **Save**.
 

@@ -43,7 +43,7 @@ The Lenovo spoke provides action to automate downloading asset warranty informat
 |------|-----------|
 |Download Asset Warranty|Connect to the Lenovo Warranty API to download asset warranty information.|
 
-**Note:** For more information on getting asset warranty details from Lenovo, see Integration with Lenovo for asset warranty details.
+**Note:** For more information on getting asset warranty details from Lenovo, see [Integration with Lenovo for asset warranty details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/integration-with-lenovo-asset-warranty.md).
 
 ## Connection and credential alias requirements
 

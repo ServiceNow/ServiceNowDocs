@@ -27,7 +27,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 NSX is a network virtualization solution offered by VMware. Among the virtual resources included in the NSX solution are virtual LANs \(VLANs\), virtual load balancers, virtual routers, switches, and firewalls.
 
-Discovery uses the VMware NSX Advanced load balancer discovery pattern to find VMware NSX load balancers and their components: Listeners, pools, pool members, and health services.
+Discovery uses the [VMware NSX Advanced load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/vmware-nsx-lb-discovery.md) pattern to find VMware NSX load balancers and their components: Listeners, pools, pool members, and health services.
 
 ![VMware NSX load balancer classes integrated with the CMDB class hierarchy.](../image/cmdb_ci_class_model_vmware_nsx.png "VMware NSX load balancer classes integrated with the CMDB class hierarchy")
 
@@ -43,7 +43,7 @@ CMDB CI Class Models: Release 1.10.0 adds the following classes for the VMware N
 
 ## Class columns
 
-The VMware NSX Advanced load balancer discovery pattern introduces one new table with one identification rule and entry. The table uses only the columns inherited from its parent.
+The [VMware NSX Advanced load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/vmware-nsx-lb-discovery.md) pattern introduces one new table with one identification rule and entry. The table uses only the columns inherited from its parent.
 
 **Related topics**  
 

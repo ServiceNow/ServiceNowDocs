@@ -13,7 +13,7 @@ breadcrumb: [Reference, Personal Lines Servicing, Property and Casualty Insuranc
 
 Several types of components are installed with installation of the Personal Lines Underwriting application \(sn\_ins\_underwrite\), including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 The Personal Lines Underwriting plugin \(sn\_ins\_underwrite\) is automatically installed with the Personal Lines Servicing plugin.
 

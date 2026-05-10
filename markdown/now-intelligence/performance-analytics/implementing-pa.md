@@ -15,7 +15,7 @@ breadcrumb: [Explore, Performance Analytics \(Indicator data sources\), Platform
 
 Follow these steps to begin using Performance Analytics to improve your service levels.
 
-A properly implemented Performance Analytics solution results in a set of dashboards tailored for the needs of specific people in your company. For an example, see the video linked from ITSM Success Dashboard indicators.
+A properly implemented Performance Analytics solution results in a set of dashboards tailored for the needs of specific people in your company. For an example, see the video linked from [ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/success-dashboard-indicator-landing.md).
 
 ## Plan and Prepare
 

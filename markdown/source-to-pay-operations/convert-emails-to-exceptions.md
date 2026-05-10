@@ -13,7 +13,7 @@ breadcrumb: [Using agentic workflows in Now Assist for Purchase Order Management
 
 Emails sent by a registered supplier contact are automatically converted to purchase order exceptions or universal requests by using the Email Intent to Action Agentic workflow.
 
-The Email Intent to Action Agentic workflow analyzes incoming supplier emails, identifies the email intent, and executes associated actions using the Intent Identification and Intent Executor agents. For more information on the Email Intent to Action Agentic workflow, see Email Intent to Action Agentic Workflow.
+The Email Intent to Action Agentic workflow analyzes incoming supplier emails, identifies the email intent, and executes associated actions using the Intent Identification and Intent Executor agents. For more information on the Email Intent to Action Agentic workflow, see [Email Intent to Action Agentic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-agentic-workflow.md).
 
 ## Prerequisites for automated creation of purchase order exceptions
 
@@ -24,7 +24,7 @@ To use this functionality, verify that the following steps are completed:
     **Note:** If you plan to use or are using the SLO Supplier inbox for scenarios such as supplier case creation, you must use the same inbox for creating purchase order exceptions.
 
 -   Deactivate the Create Supplier case for email inbound action. For more information, see [Deactivate Create supplier case from email inbound action](../../supplier-lifecycle-operations/concept/deactivate-create-supplier-case-from-email-inbound-action.md).
--   Activate the Trigger Intent to Action inbound action. To learn how to enable and configure intent to action workflow to invoke the agentic workflow from inbound actions, see Enable intent to action workflow from inbound actions.
+-   Activate the Trigger Intent to Action inbound action. To learn how to enable and configure intent to action workflow to invoke the agentic workflow from inbound actions, see [Enable intent to action workflow from inbound actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enable-intent-to-action.md).
 -   Set the **sn\_uni\_req.universal\_request\_portal** property value to **Supplier**. This step supports supplier user experience cases where a supplier email cannot be automatically converted to a purchase order exception. Instead, a universal request is created in the Supplier Collaboration Portal and the supplier receives an email with a link to the universal request created. For the link to correctly direct the supplier to the Supplier Collaboration Portal, the **sn\_uni\_req.universal\_request\_portal** property value must be set to **Supplier**.
 
 When a supplier sends an email to the configured email address, the Intent Executor Agent then implements the associated action based on the following conditions:

@@ -23,7 +23,7 @@ Domain separation is supported in Digital Portfolio Management. Domain separatio
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 The Digital Portfolio Management application uses Performance Analytics to collect data and provides domain separation support.
 

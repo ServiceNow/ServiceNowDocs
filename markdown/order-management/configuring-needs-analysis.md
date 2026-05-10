@@ -38,9 +38,9 @@ You configure decision trees by adding nodes, defining paths, and attaching guid
 
 Before creating decision trees for needs templates, review how decision trees work:
 
--   Decision trees in Guided decision - Learn the basic elements of a decision tree, such as node types, linking inputs in nodes, and decision tree paths.
--   Example configuration of a decision tree - Review an example decision tree, including preparations for creating a decision tree, to understand the end-to-end configuration of a decision tree.
--   Answer types for questions - Learn about the various types of answers to questions, such as Choice, Date, or Integers.
+-   [Decision trees in Guided decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/decision-trees-in-guided-decisions.md) - Learn the basic elements of a decision tree, such as node types, linking inputs in nodes, and decision tree paths.
+-   [Example configuration of a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/example-decision-tree.md) - Review an example decision tree, including preparations for creating a decision tree, to understand the end-to-end configuration of a decision tree.
+-   [Answer types for questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/type-of-answer.md) - Learn about the various types of answers to questions, such as Choice, Date, or Integers.
 
 ## Setting up needs analysis
 

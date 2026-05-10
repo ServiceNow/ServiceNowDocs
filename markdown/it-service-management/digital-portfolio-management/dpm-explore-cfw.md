@@ -19,8 +19,8 @@ Learn about the Digital Portfolio Management \(DPM\) Workspace features and bene
 
 The DPM Workspace is one of several configurable workspaces that ServiceNow provides. For information about workspaces, see the following topics.
 
--   List of workspaces
--   Open a Configurable Workspace experience in UI Builder
+-   [List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/list-of-workspaces.md)
+-   [Open a Configurable Workspace experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.md)
 
 The DPM Workspace enables you to:
 

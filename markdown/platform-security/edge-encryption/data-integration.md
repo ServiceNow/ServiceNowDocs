@@ -35,7 +35,7 @@ Edge Encryption does not support importing data from or exporting data to Excel,
 
     Use REST/SOAP web services to update or retrieve record data through the Edge Encryption proxy server.
 
-    Learn more: Web services
+    Learn more: [Web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_AvailableWebServices.md)
 
 -   **JSONv2 web service**
 
@@ -43,7 +43,7 @@ Edge Encryption does not support importing data from or exporting data to Excel,
 
     -   To insert a single record using the data modification API, use the insert\(\) or insertMutiple\(\) methods.
     -   To insert multiple records using the data modification API, use the insertMultiple\(\) method.
-    Learn more: JSONv2 Web Service
+    Learn more: [JSONv2 Web Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_JSONv2WebService.md)
 
 
 To encrypt data from custom third-party integrations not listed above, create custom encryption rules. See [Define a custom encryption rule](c_EncryptionRules.md).

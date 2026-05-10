@@ -35,7 +35,7 @@ You can drill down on a benchmark value from the KPI performance trends chart to
 
 3.  To drill down further into the Performance Analytics scorecard, click a value in your benchmark data on the performance trends chart.
 
-    **Note:** For additional analysis on **Chart**, **Scores**, **Comments**, or **More info**, see Performance Analytics.
+    **Note:** For additional analysis on **Chart**, **Scores**, **Comments**, or **More info**, see [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-overview.md).
 
 
 **Parent Topic:**[Deprecated Benchmarks dashboard](../concept/c_BenchDashboard.md)

@@ -31,7 +31,7 @@ To link your ServiceNow instance to a Kafka environment, Stream Connect uses the
 
 ![Diagram showing Stream Connect producers and consumers and how they connect to a Kafka environment, described as the "customer site", through the Hermes Messaging Service.](../images/stream-connect-architecture.png "Stream Connect producers and consumers")
 
-For more information, see [Using Stream Connect for Apache Kafka](stream-connect-apache-kafka.md) and the Hermes Messaging Service.
+For more information, see [Using Stream Connect for Apache Kafka](stream-connect-apache-kafka.md) and the [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service.md).
 
 ## Getting started
 
@@ -62,14 +62,14 @@ Setting up the Hermes Messaging Service requires coordination with your network 
 
 Make sure the following setup is in place:
 
--   The Hermes Messaging Service is activated. See Activating the Hermes Messaging Service.
+-   The Hermes Messaging Service is activated. See [Activating the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-activation.md).
 -   The Key Management Framework plugin \(com.glide.kmf.global\) is activated.
 -   The Certificates \[sys\_kmf\_certificate\] table contains a ServiceNow instance root CA certificate.
 -   The instance isn't configured with a Custom URL. Custom URLs are not supported with the Instance PKI Certificate Generator.
 
 Role required: hermes\_admin, sn\_kmf.cryptographic\_manager, or admin
 
-For details on assigning KMF roles, see Roles installed with Key Management Framework.
+For details on assigning KMF roles, see [Roles installed with Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/kmf-roles.md).
 
 ### Procedure
 
@@ -223,7 +223,7 @@ Retrieve messages from Hermes with the Kafka Message trigger in Workflow Studio 
 ### Before you begin
 
 -   Role required: integration\_hub\_admin
--   The first part of this section shows you how to use the Kafka Message trigger in Workflow Studio to consume messages. For more information about the trigger, see Create a flow with a Kafka Message trigger.
+-   The first part of this section shows you how to use the Kafka Message trigger in Workflow Studio to consume messages. For more information about the trigger, see [Create a flow with a Kafka Message trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow-kafka.md).
 -   The second part of this section shows you how to use the Script consumer to consume messages. For more information, see [Configure a script consumer](../tasks/configure-script-consumer.md).
 
 ### Procedure
@@ -526,9 +526,9 @@ Push data from ServiceNow to Hermes so that the Kafka consumers can read them.
 ### Before you begin
 
 -   Role required: integration\_hub\_admin
--   The first part of this section shows you how to use the Kafka Producer step in Workflow Studio to publish messages to Hermes. For more information about the step, see Kafka Producer step.
--   The second part of this section shows you how to use the ProducerV2 API to publish messages. For more information, see ProducerV2 API.
--   To receive all the messages, you need to run two consumers for different datacenters. See Consume test messages from a Hermes topic using the Kafka client for details.
+-   The first part of this section shows you how to use the Kafka Producer step in Workflow Studio to publish messages to Hermes. For more information about the step, see [Kafka Producer step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/kafka-producer-action-designer.md).
+-   The second part of this section shows you how to use the ProducerV2 API to publish messages. For more information, see [ProducerV2 API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ProducerV2ScopedAPI.md).
+-   To receive all the messages, you need to run two consumers for different datacenters. See [Consume test messages from a Hermes topic using the Kafka client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/consume-messages-hermes.md) for details.
 
 ### Procedure
 

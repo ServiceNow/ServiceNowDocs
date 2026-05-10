@@ -19,60 +19,60 @@ The ServiceNow® Customer Contracts and Entitlements application provides the fo
 -   Support hierarchical list view for contract lines in customer contracts.
 -   Enhance contract renewal performance with asynchronous processing.
 
-See Customer Contracts and Entitlements for more information.
+See [Customer Contracts and Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/exploring-post-sales-support.md) for more information.
 
 **Important:** Customer Contracts and Entitlements is available in the ServiceNow Store. For details, see the Activation information section of these release notes.
 
 ## New in the Australia release
 
--   **Derived priced products**
+-   **[Derived priced products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-customer-cnt-ent-wf.md)**
 
     Reflects dynamically calculated prices, ensuring consistency with underlying pricing logic and improving accuracy across contract‑driven workflows.
 
--   **Contracts consolidation**
+-   **[Contracts consolidation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/cce-renew-service-contract-line.md)**
 
     Enables users to merge multiple customer contract lines into a single consolidated renewed quote line. Users can also merge two renewal quotes for two different contracts into a single renewal quote. This capability will improve operational efficiency across multiple renewal by eliminating reducing duplication.
 
--   **Contracts hierarchical list**
+-   **[Contracts hierarchical list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-post-sales-support.md)**
 
     Enable agents to view contract lines under a customer contract record as a collapsible hierarchical list, making it easier to apply workflows at the appropriate root level and navigate complex product offering hierarchies.
 
--   **Contract renewal performance improvements**
+-   **[Contract renewal performance improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/cce-renew-service-contract-line.md)**
 
     Reduce processing time for large-scale renewals by enabling asynchronous processing for contract renewal workflows across quotes, orders, and opportunities.
 
 
 ## Activation information
 
-Customer Contracts and Entitlements is a ServiceNow AI Platform feature that is available with activation of the \(com.sn\_pss\_core\) plugin, which requires a separate subscription. For details, see Configure Customer Contracts and Entitlements.
+Customer Contracts and Entitlements is a ServiceNow AI Platform feature that is available with activation of the \(com.sn\_pss\_core\) plugin, which requires a separate subscription. For details, see [Configure Customer Contracts and Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-post-sales-support.md).
 
 ## Related ServiceNow applications and features
 
--   **Flow Designer**
+-   **[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/flow-designer-components.md)**
 
     ServiceNow® Workflow Studio components enable you to invoke flows or subflows that are part of a workflow and are used to find out the output or execution status of the flows or subflows.
 
--   **Order management**
+-   **[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)**
 
     Order and fulfillment agents can use ServiceNow® Order Management to fulfill customer orders created from the Sales Agreement Management application.
 
--   **Install base management**
+-   **[Install base management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-base-item.md)**
 
     ServiceNow® Install Base Management is used to capture a customer’s use or purchase of a product across any industry with the Customer Service Management application.
 
--   **Next Experience UI Builder**
+-   **[Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)**
 
     ServiceNow® Next Experience UI Builder is a low-code web user interface builder that enables developers to build pages for workspace and portal web-based experiences. Use the base system and custom web components to build your pages.
 
--   **Product Catalog Management**
+-   **[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)**
 
     ServiceNow® Product Catalog Management organizes products into catalogs and categories so agents can easily find and add products and services to a quote.
 
--   **Pricing Management**
+-   **[Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/pricing-management.md)**
 
     ServiceNow® Pricing Management helps you set pricing for products and services that can be added to a quote. Pricing Management also enables agents to make pricing adjustments to products in the quote.
 
--   **Workspace**
+-   **[Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md)**
 
     ServiceNow® Workspace is a graphical user interface that puts multiple tools on one page, including the tools that agents use to find, research, and resolve issues. CSM Configurable Workspace and CSM Agent Workspace are customer service-specific implementations that provide tools to tier 1 agents used to respond to customers and resolve cases.
 

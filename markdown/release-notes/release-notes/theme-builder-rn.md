@@ -18,26 +18,26 @@ The ServiceNow® Theme Builder application enables you to customize the visual e
 -   Customize fonts by category and adjust font sizes to scale typography across specific component categories like headers, buttons, and form fields, or by size groups for consistent styling.
 -   Access the new icon library to configure and override default icons using custom assets.
 
-See Working with themes in Next Experience for more information.
+See [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md) for more information.
 
 **Important:** Theme Builder is available by default and upgrades are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **Upload brand guidelines to generate theme colors**
+-   **[Upload brand guidelines to generate theme colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-a-theme-ai.md)**
 
     Upload brand guidelines as a PDF to the Theme Builder theme creation workflow in the Now Assist panel to generate themes aligned with your brand.
 
 
--   **AI-powered color palette theme creation**
+-   **[AI-powered color palette theme creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-a-theme-ai.md)**
 
     Use AI to generate themes from brand images, preview multiple options, and refine results all within the updated Create a theme wizard. If you prefer, you can skip the AI step and continue creating your theme manually using the existing workflow. This feature requires Now Assist for Creator.
 
--   **Generate themes using Now Assist**
+-   **[Generate themes using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-theme-now-assist.md)**
 
     Leverage Now Assist to generate themes based on your brand image. After generating a theme, navigate to Theme Builder to publish and apply additional styling. This feature requires Now Assist for Creator and a theme creation workflow enabled in AI Agent Studio.
 
--   **ServiceNow product tiers**
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -47,35 +47,35 @@ See Working with themes in Next Experience for more information.
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
--   **Override default icons for a fully branded experience**
+-   **[Override default icons for a fully branded experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-icon-illustrations.md)**
 
     View and manage your theme’s icon library in Theme Builder, including uploading custom assets to replace default icons. Icons support size variants, outline and fill styles, and dynamic color adjustments and integrate with embeddable components.
 
--   **Control typography at the component category level**
+-   **[Control typography at the component category level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/assign-fonts-by-category.md)**
 
     Assign fonts to individual component categories to create clearer visual distinction across your interface.
 
--   **Flexible Font size control**
+-   **[Flexible Font size control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/edit-font-size.md)**
 
     Fine-tune font sizes across component categories for a polished, consistent look. Use font‑size controls to tailor default or custom fonts to your brand needs. Applies across Next Experience and embeddable components, ensuring a consistent brand look even on external sites.
 
 
 ## UI changes
 
--   **Updated Editor page Global styles preview options**
+-   **[Updated Editor page Global styles preview options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-with-global-styles.md)**
 
     The Global styles panel has been updated in the following ways:
 
     -   The UI styles preview tab has been renamed to Abstract UI.
     -   The Experience preview tab has been renamed to Experiences.
     -   A Categories tab is now available allowing you to view groups of components by font or font size. This tab appears only when the Typography panel is open.
--   **Global styles panel updated**
+-   **[Global styles panel updated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-with-global-styles.md)**
 
     The Global styles panel has been updated in the following ways:
 
     -   Global styles panel was relocated to simplify theme editing and provide a more consistent interface.
     -   The Typography panel now features two dedicated tabs, Fonts and Sizes allowing you to manage typefaces and font scales independently. In addition, the panel supports a new structure for editing typography at a category level, bridging the previous gap between global and individual component styling.
--   **Create a theme wizard updated**
+-   **[Create a theme wizard updated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-theme.md)**
 
     The existing create a theme wizard has been updated and streamlined in the following ways:
 
@@ -91,23 +91,23 @@ Theme Builder is included as a core plugin with the Next Experience application 
 
 ## Related ServiceNow applications and features
 
--   **Build apps using App Engine Studio**
+-   **[Build apps using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-overview.md)**
 
     Use ServiceNow® App Engine Studio for developing rich web applications to store information, automate business processes, and solve business problems.
 
--   **UI Builder**
+-   **[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)**
 
     Use ServiceNow® UI Builder to build pages for workspaces that are generated with App Engine Studio or custom web experiences by using Next Experience Components and custom web components.
 
--   **Now Assist**
+-   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     ServiceNow® Now Assist uses generative AI that is designed to enhance user productivity and efficiency through conversation and proactive experiences.
 
--   **Now Assist for Creator**
+-   **[Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md)**
 
     ServiceNow® Now Assist for Creator application includes generative AI skills that can help you develop on the ServiceNow AI Platform efficiently.
 
--   **AI Agent Studio**
+-   **[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)**
 
     Create, manage, or test AI agents and agentic workflows so that you can create self-executing workflows to help you achieve your business goals.
 

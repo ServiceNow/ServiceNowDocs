@@ -456,7 +456,7 @@ The following example shows the difference between synchronus and asynchronous s
 
 Adds a specified encoded query string to the current query clause.
 
-This method enables you to specify complex filters \(encoded query strings\) in a single query call, unlike other client-side addQuery\(\) methods. Once you define all of the desired queries, call the [Client side GlideRecord - query\(String name, Function responseFunction, String value\)](c_GlideRecordClientSideAPI.md#) to execute the specified query clause \(filter\). For additional information on encoded query strings, refer to Encoded query strings.
+This method enables you to specify complex filters \(encoded query strings\) in a single query call, unlike other client-side addQuery\(\) methods. Once you define all of the desired queries, call the [Client side GlideRecord - query\(String name, Function responseFunction, String value\)](c_GlideRecordClientSideAPI.md#) to execute the specified query clause \(filter\). For additional information on encoded query strings, refer to [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 If you call this method multiple times before calling the query\(\) method, the queries are AND'ed together.
 

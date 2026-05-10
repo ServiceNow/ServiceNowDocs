@@ -51,13 +51,13 @@ With the Sales CRM applications, your organization can improve sales and order p
 
 |Benefits|Application or key feature|Persona|
 |--------|--------------------------|-------|
-|Create and manage cases for customer orders and invoices.|Order Operations Case Management|Order case, invoice case, and customer service agent|
+|Create and manage cases for customer orders and invoices.|[Order Operations Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-mgmt-order-ops.md)|Order case, invoice case, and customer service agent|
 |Empower sales teams by providing a consolidated view of all critical sales data and activities.|[Lead-to-Cash Process Management](explore-lead-cash-process-management.md)|Sales manager|
 |Manage return, replacement, or refund cases for installed products.|[Return Merchandise Authorization](return-merchandise-authorization.md)|Agent|
 
 |Benefits|Application or key feature|Persona|
 |--------|--------------------------|-------|
-|Support change management and commercial workflows \(move, add, change, and disconnect\) for sold products.|Customer Life Cycle Management Workflows|Agent|
+|Support change management and commercial workflows \(move, add, change, and disconnect\) for sold products.|[Customer Life Cycle Management Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-life-cycle-management-workflows.md)|Agent|
 
 |Benefits|Application or key feature|Persona|
 |--------|--------------------------|-------|

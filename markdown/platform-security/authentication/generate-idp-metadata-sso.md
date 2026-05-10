@@ -90,6 +90,6 @@ Navigate to **SAML 2 Single Sign-on** &gt; **Metadata**. The integration automat
 
     The redirect URL is synonymous with the callback URL that the authorization server redirects to.
 
-7.  To use Google reCAPTCHA service, set up an API key pair.
+7.  To use Google reCAPTCHA service, [set up an API key pair.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_ConfigureGoogleRecaptcha.md)
 
 

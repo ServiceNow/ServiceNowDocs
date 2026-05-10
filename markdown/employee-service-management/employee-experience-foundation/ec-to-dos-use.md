@@ -74,7 +74,7 @@ Use the To-dos page to review all tasks that are assigned to you and prioritize 
     -   Requests \(REQ\): If there are items \(RITMs\) under a Request \(REQ\), the items may require additional approvals.
     -   Requests for items \(RITM\): The default threshold is $1000 and defined in the Service Catalog Request \(sc\_request\) and found in the Workflow Editor. Any item requested that is $1000 or more requires an approval.
 
-        **Note:** For more information, see Workflow editor.
+        **Note:** For more information, see [Workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/workflow-editor.md).
 
     -   HR cases: Some HR cases through their related HR service are configured to require an approval.
 
@@ -86,7 +86,7 @@ Use the To-dos page to review all tasks that are assigned to you and prioritize 
 
         **Note:** For more information, see [Granular Delegation](../../employee-service-management/granular-delegation/concept/granular-delegation.md).
 
-    **Note:** By default, approvals do not require a comment. Rejections by default require a comment. Customers can add an access control rule \(ACL\) that prevents a user from writing a comment for rejections. For more information, see Configure ServiceNow access control.
+    **Note:** By default, approvals do not require a comment. Rejections by default require a comment. Customers can add an access control rule \(ACL\) that prevents a user from writing a comment for rejections. For more information, see [Configure ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ConfigureAccessControl.md).
 
     As an approver, use the templates with common info, primary info, tabs, and action groups to make informed decisions.
 

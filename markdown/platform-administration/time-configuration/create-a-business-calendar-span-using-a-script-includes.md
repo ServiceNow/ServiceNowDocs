@@ -51,5 +51,5 @@ A business calendar span script includes is created. The year is appended to the
 **Related topics**  
 
 
-[bundle-crapiref.c_ScriptIncludes]
+[Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md)
 

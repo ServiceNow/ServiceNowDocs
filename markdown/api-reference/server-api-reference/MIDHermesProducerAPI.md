@@ -15,11 +15,11 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The MIDHermesProducer API provides a method to send data from the MID Server to a Hermes topic.
 
-Sending data via the Hermes Messaging Service rather than using the MID Server ECC Queue can be a more efficient way to get data to a ServiceNow instance.
+Sending data via the [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service.md) rather than using the [MID Server ECC Queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/ecc-queue-mid-server.md) can be a more efficient way to get data to a ServiceNow instance.
 
-This API requires the ServiceNow MID Hermes API \(com.glide.mid.hermes\_api\) plugin. The calling user must have the kafka\_admin role. Before calling this API, follow the steps to Configure the MID Hermes API Extension.
+This API requires the ServiceNow MID Hermes API \(com.glide.mid.hermes\_api\) plugin. The calling user must have the kafka\_admin role. Before calling this API, follow the steps to [Configure the MID Hermes API Extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/MID-hermes-API.md).
 
-Use this API in scripts that run on the MID Server, such as MID Server background scripts or in Workflow Studio action script steps with the **Required Runtime** set to **MID**.
+Use this API in scripts that run on the MID Server, such as MID Server background scripts or in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md) action script steps with the **Required Runtime** set to **MID**.
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 
@@ -41,7 +41,7 @@ var producer = new MIDHermesProducer();
 
 Sends a message from the MID Server to the specified Hermes topic.
 
-The 4000-4050 port range must be open to send messages to a Hermes topic. For more information, see Producing and consuming messages from a Kafka client.
+The 4000-4050 port range must be open to send messages to a Hermes topic. For more information, see [Producing and consuming messages from a Kafka client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/producing-consuming-hermes.md).
 
 <table id="table_n1j_g1c_23c" class="parameters"><thead><tr><th>
 

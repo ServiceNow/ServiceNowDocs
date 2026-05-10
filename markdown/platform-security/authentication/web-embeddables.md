@@ -27,7 +27,7 @@ To use this end point, you need to send a valid bearer auth JWT based token in t
 
 Further, you can perform role relegation to further configure the roles that are required to be removed during an embedded session. To learn more about embedded session role configuration, see [Configure client session access role](../task/configure-client-session-access-role.md).
 
-To know more about the configuration of web embeddables, see Configure Web Embeddables.
+To know more about the configuration of web embeddables, see [Configure Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/using-web-embeddables.md).
 
 By default, the policy can be configured with only **Embedded Session** filter criteria. You can leverage **Zero Trust Access \(ZTA\)** plugin to further enhance its usage with filters such as IP, Location, Role, Group, Identity Provider Attributes. You can add these filters to the policies created in the **Client Access Role Configuration** table. This ensures further strengthening the access complexity and have a better security posture while establishing an embedded session. For more information about ZTA, see [Zero Trust Access \(ZTA\)](session-access.md).
 

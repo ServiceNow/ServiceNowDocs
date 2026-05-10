@@ -43,7 +43,7 @@ The system audits deletions from a list when it **audit** is selected on the tab
 
 `glide.db.audit.ignore.delete = sys_mutex,sys_db_cache,sys_lucene_block,sys_lucene_file,sys_lucene_directory,sys_user_preference,sys_audit,sc_cart,sc_cart_item,sys_trigger,wf_context,wf_activity,wf_condition,wf_executing,wf_history,wf_log,wf_transition,wf_transition_history, cmdb_ci_windows_service, cmdb_sam_sw_install, cmdb_software_instance, cmdb_sam_sw_usage, sam_sw_counter_detail`
 
-To learn more about adding system properties, see Add a system property
+To learn more about adding system properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md)
 
 It is to be noted that by default, the audit deletes are enabled whether the record is deleted from the form view, list view, or through a script/scheduled job.
 

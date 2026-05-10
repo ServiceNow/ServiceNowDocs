@@ -63,5 +63,5 @@ The Incident KCS Article table is installed with the activation of the KCS Integ
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of Australia plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

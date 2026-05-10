@@ -61,18 +61,18 @@ By default, the Dashboard Overview landing page is available to users with the f
 
 The system administrator can change these default roles by configuring the page audience. For more information, see the following topics:
 
--   Learn about audiences
--   Add an audience to your UI Builder page
+-   [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-audiences.md)
+-   [Add an audience to your UI Builder page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/configure-audiences.md)
 
 Roles determine view access for the dashboards available with the Dashboard Overview landing page. For details, see [Default dashboards](csm-ws-landing-page-dashboard.md#section_vny_jwb_4xb).
 
-The service management agent role \(sn\_esm\_agent\) contains the data visualizations creator role \(viz\_creator\), which is a role associated with the Visualization Designer and Visualization Library. Users with the viz\_creator role can create visualizations. The customer service agent \(sn\_customerservice\_agent\) and consumer service agent \(sn\_customerservice.consumer\_agent\) roles contain the sn\_esm\_agent role. For more information, see Data visualizations in Platform Analytics.
+The service management agent role \(sn\_esm\_agent\) contains the data visualizations creator role \(viz\_creator\), which is a role associated with the Visualization Designer and Visualization Library. Users with the viz\_creator role can create visualizations. The customer service agent \(sn\_customerservice\_agent\) and consumer service agent \(sn\_customerservice.consumer\_agent\) roles contain the sn\_esm\_agent role. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md).
 
 ## Dashboard Overview landing page default dashboards
 
 Four dashboards are available with the Dashboard Overview landing page. These dashboards are available in read-only mode for all users, including the admin role. Users can duplicate these dashboards and make the desired changes to the duplicate dashboards.
 
-**Note:** These dashboards are also available from Platform Analytics experience.
+**Note:** These dashboards are also available from [Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/par-workspace.md).
 
 The Dashboard Overview landing page includes the following dashboards for agents.
 
@@ -149,7 +149,7 @@ Available with the following plugins:
 </td></tr></tbody>
 </table>## Certifying a dashboard
 
-Users with the admin role can certify a dashboard to indicate that it is company-approved and recommended for use. The default dashboards available from the Dashboard Overview landing page are certified and admins cannot change this setting. Admins can only certify new dashboards. For more information, see Certify a Platform Analytics dashboard.
+Users with the admin role can certify a dashboard to indicate that it is company-approved and recommended for use. The default dashboards available from the Dashboard Overview landing page are certified and admins cannot change this setting. Admins can only certify new dashboards. For more information, see [Certify a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/certify-db-ac.md).
 
 ## Working with dashboards
 
@@ -165,7 +165,7 @@ From the Dashboard Overview landing page, managers and agents can do the followi
 -   Edit dashboards using a configuration panel.
 -   Share dashboards with other users or groups and grant edit or view-only rights.
 -   Create new dashboards.
--   Create and share visualization elements from the Platform Analytics Workspace.
+-   Create and share visualization elements from the [Platform Analytics Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/par-workspace.md).
 
 See the task descriptions in the following table for more information.
 
@@ -225,7 +225,7 @@ Duplicate a dashboard
     -   Select **Open it** in the information message.
     -   Select the dashboard tile on the Dashboard Overview landing page.
 
- For more information, see Duplicate a Platform Analytics dashboard.
+ For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/duplicate-db.md).
 
 </td></tr><tr><td>
 
@@ -235,7 +235,7 @@ Edit a dashboard
 
 1.  Select **Edit**.
 2.  Select the desired dashboard tab.
-3.  Edit an existing element or add a new element. For more information about these tasks, see Edit Platform Analytics dashboards.
+3.  Edit an existing element or add a new element. For more information about these tasks, see [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-in-ac.md).
 
 </td></tr><tr><td>
 
@@ -251,7 +251,7 @@ Share a dashboard
 6.  The selected users, groups, or roles are added to the Manage Access section. From here, you can change the permissions.
 7.  Click **Confirm**.
 
- For more information, see Share a Platform Analytics dashboard.
+ For more information, see [Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/share-db-in-ac.md).
 
 </td></tr><tr><td>
 
@@ -262,9 +262,9 @@ Create a dashboard
 1.  From the Dashboard Overview landing page, select **Create new dashboard**.
 2.  From the New dashboard pop-up window, select **In-line editor**.
 3.  Provide a **Name** and a **Description** and select **Create new dashboard**. The new dashboard opens in the editing mode.
-4.  Add new elements to the dashboard. For more information about this step, see see Create a dashboard with the in-line editor.
+4.  Add new elements to the dashboard. For more information about this step, see see [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-db-in-ac.md).
 
- When you create a dashboard with the in-line editor, several elements are available to help you organize and populate the information on your dashboard. For more information, see Exploring Platform Analytics dashboards.
+ When you create a dashboard with the in-line editor, several elements are available to help you organize and populate the information on your dashboard. For more information, see [Exploring Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ac-elements.md).
 
 </td></tr><tr><td>
 
@@ -275,7 +275,7 @@ Print a dashboard
 1.  Select the More actions menu \(![More actions icon](../image/csm-ws-dashboards-more-actions-icon.png)\).
 2.  Select **Printer friendly**.
 
- For more information, see Print a Platform Analytics dashboard.
+ For more information, see [Print a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/printer-friendly-db-ac.md).
 
 </td></tr><tr><td>
 
@@ -286,7 +286,7 @@ Bookmark a dashboard
 1.  Select the More actions menu \(![More actions icon](../image/csm-ws-dashboards-more-actions-icon.png)\).
 2.  Select **Add to bookmarks**.
 
- For more information, see Bookmark a Platform Analytics dashboard.
+ For more information, see [Bookmark a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/bookmark-dashboard-ac.md).
 
 </td></tr></tbody>
 </table>

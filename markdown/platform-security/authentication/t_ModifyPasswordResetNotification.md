@@ -21,7 +21,7 @@ Role required: password\_reset\_admin
 
 ## About this task
 
-This process is relevant only if users are Subscription-based notifications.
+This process is relevant only if users are [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SubscriptionBasedNotifications.md).
 
 ## Procedure
 
@@ -31,6 +31,6 @@ This process is relevant only if users are Subscription-based notifications.
 
 3.  Modify the text of the email in the **What it will contain** section.
 
-    For information on configuring other aspects of the notification, see Create an email notification.
+    For information on configuring other aspects of the notification, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
 
 

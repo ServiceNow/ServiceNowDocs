@@ -39,7 +39,7 @@ The following topics describe how to set up Now Assist Guardian and configure th
 
     Set up filters to redirect users to a different topic when certain subject material is detected in a Virtual Agent conversation.
 
--   **Enable Now Assist Guardian for AI agents**
+-   **[Enable Now Assist Guardian for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-aia-na-guardian.md)**
 
     Enable Now Assist Guardian in AI agents to automatically identify and block offensive messages, helping protect your agentic workflows from harmful content.
 
@@ -48,7 +48,7 @@ The following topics describe how to set up Now Assist Guardian and configure th
 
 The following topics describe how to review and export Now Assist Guardian logs to evaluate guardrail effectiveness and support security review.
 
--   **Now Assist Guardian analytics**
+-   **[Now Assist Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-guardian-analytics.md)**
 
     Monitor the performance of guardrails enabled through Now Assist Guardian, including tracking how often offensive content and prompt injection attempts are detected.
 

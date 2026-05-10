@@ -40,16 +40,16 @@ For information about the apps that are automatically installed with Topic Recom
 
         -   **NLU Workbench \(NLU topic discovery only\)**
 
-            Activates the plugins needed to run Natural Language Understanding in your instance. For more information, see Activate the NLU Workbench.
+            Activates the plugins needed to run Natural Language Understanding in your instance. For more information, see [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/activate-nlu-workbench.md).
 
     -   **Required ServiceNow Store applications**
         -   **Intent Discovery \(NLU discovery only\)**
 
-            Identifies user intents from analyzing incident/case data. To learn more, see Intent Discovery.
+            Identifies user intents from analyzing incident/case data. To learn more, see [Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/intent-discovery.md).
 
         -   **ITSM Virtual Agent Conversations**
 
-            Provides pre-built IT service management conversations to help your organization quickly deploy automated self-service conversations. For more information, see ITSM Virtual Agent.
+            Provides pre-built IT service management conversations to help your organization quickly deploy automated self-service conversations. For more information, see [ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-virtual-agent.md).
 
 
 ## Items installed with Topic Recommendations

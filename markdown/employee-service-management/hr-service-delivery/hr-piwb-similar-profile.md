@@ -46,7 +46,7 @@ Discover all the users who have a similar profile as the employee. Identify the 
 
 4.  On the form, verify the default field values and customize the solution as required.
 
-    For more information about the Clustering solution definition form fields, see Create and train a clustering solution and Test a classification solution prediction.
+    For more information about the Clustering solution definition form fields, see [Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md) and [Test a classification solution prediction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/test-solution-prediction.md).
 
     **Note:** For details regarding trained use case integration implementation, see Predictive Intelligence Workbench integration and customization.
 
@@ -64,7 +64,7 @@ You can verify the integration status from **HR Administration** &gt; **HR AI Co
 **Related topics**  
 
 
-[bundle-platai.predictive-intelligence]
+[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md)
 
-[bundle-platai.get-started-predictive-intelligence]
+[Get started with Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/install-predictive-intelligence.md)
 

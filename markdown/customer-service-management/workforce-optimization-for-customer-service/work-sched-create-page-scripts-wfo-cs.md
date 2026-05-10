@@ -25,7 +25,7 @@ Add the **Handle card clicked** and the **Handle card action clicked** page scri
 
 Add the **Transform workItem to cardProps** page script to transform the **workItem** object in the Work queue to properties for the card components.
 
-**Note:** If you have customized a Work scheduler card, you can follow the steps below to add client scripts.
+**Note:** If you have [customized a Work scheduler card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/customize-workscheduler-card-wfo-itsm.md), you can follow the steps below to add client scripts.
 
 ## Procedure
 
@@ -139,12 +139,12 @@ Add the **Transform workItem to cardProps** page script to transform the **workI
 
 ## What to do next
 
-Define the workItem property in the Work scheduler page configuration
+[Define the workItem property in the Work scheduler page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-create-page-properties.md)
 
 **Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](create-workscheduler-card-wfo-cs.md)
 
 **Related topics**  
 
 
-[bundle-cadev.define-client-scripts]
+[Define and bind client scripts to components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/define-client-scripts.md)
 

@@ -39,31 +39,31 @@ The Workflow Data Fabric enables connections between instances and external serv
 
 ServiceNow has a full series of options available to ServiceNow AI Platform subscribers. Ready-made tools and templates all mean easy and fast setup of your instance from the start, along with quick creation of interfaces and applications.
 
--   **App Engine Studio**
+-   **[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-overview.md)**
 
     Speed up—and scale up—low-code development for your instance.
 
--   **Flow Designer**
+-   **[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/flow-designer-components.md)**
 
     Recreate processes as digital workflows.
 
--   **UI Builder**
+-   **[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)**
 
     Create user interfaces and improve user experiences.
 
--   **Integration Hub**
+-   **[Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md)**
 
     Natively integrate ServiceNow with any external service or product.
 
--   **Predictive Intelligence**
+-   **[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md)**
 
     Perform smart automation of workflows.
 
--   **Virtual Agent**
+-   **[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md)**
 
     Create intelligent chatbots to address users' problems and services.
 
--   **Performance Analytics**
+-   **[Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-overview.md)**
 
     Analyze and maximize workflow performance.
 
@@ -76,25 +76,25 @@ ServiceNow has a full series of options available to ServiceNow AI Platform subs
 
 Distribute and consume Platform Analytics through data visualizations and dashboards with optional filters. Explore KPIs and receive insights into significant events in the data. Use dashboards to create a visual story with Platform Analytics data that you can share with multiple users. Use data visualizations based on table, indicator, or other data in dashboards across the Analytics Overview. Administrators can leverage Usage Insights to get information on user engagement with both mobile and web applications, including user population, retention, and behavior. Process Mining helps you discover ways to streamline your business, find bottlenecks and deviations in workflows, filter and compare processes.
 
-For more information, see Platform Analytics.
+For more information, see [Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_performanceAnalyticsAndReporting.md).
 
 ## Mobile
 
 Desktop access to the ServiceNow AI Platform is matched by our mobile applications. The Now Mobile app offers a consumer-grade experience for your customers and users to access available services, including help articles and live or virtual agents. ServiceNow mobile, geared toward service providers in your enterprise, provides tools for task scheduling and handling, communications, GPS and mapping, multimedia uploading, and offline services. Easy no-code configuration and in-depth developer tools, including reusable components, views, and a robust mobile publishing system, give you the tools to build mobile apps yourself.
 
-For more information, see Mobile Platform.
+For more information, see [Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-config-navigation.md).
 
 ## Knowledge
 
 ServiceNow provides not only the tools you need for your business to thrive, but the know-how to make use of all the options on the platform. Detailed knowledge base articles enable users and agents to get the information they need, to handle specialized tasks or processes, troubleshoot, or find other help. The Knowledge Management system enables you to create, store, and share information easily within your organization, monitor usage, and collect feedback \(including full analytics\) to improve your knowledge base.
 
-For more information, see Knowledge Management.
+For more information, see [Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management.md).
 
 ## AI Experiences
 
-Transform your enterprise with AI that drives outcomes. Start with an intuitive AI Experience that moves work forward. Scale to teams of AI agents that automate complex workflows. Customize capabilities with AI Agent Fabric, and maintain full visibility with AI Control Tower. AI that scales with you—flexible, purposeful, and always under your control.
+Transform your enterprise with AI that drives outcomes. Start with an intuitive [AI Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md) that moves work forward. Scale to teams of [AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) that automate complex workflows. Customize capabilities with AI Agent Fabric, and maintain full visibility with [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md). AI that scales with you—flexible, purposeful, and always under your control.
 
-For more information, see Enable AI experiences.
+For more information, see [Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md).
 
 **Parent Topic:**[Getting started on the ServiceNow AI Platform](get-started-now-platform.md)
 

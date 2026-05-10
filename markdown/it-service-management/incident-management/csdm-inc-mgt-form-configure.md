@@ -36,7 +36,7 @@ Incident Management leverages the CSDM data structure to display information tha
     -   **Populate the Service Offering related list for incidents**
     The properties are fully described in [Incident Management properties](../reference/incident-management-properties.md).
 
-3.  Ensure that the **Principle Class** option is selected for the CI or CI class as described in Create a CI class and Update the list of classes in the Principal Class filter.
+3.  Ensure that the **Principle Class** option is selected for the CI or CI class as described in [Create a CI class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIType.md) and [Update the list of classes in the Principal Class filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/update-principal-class-filter.md).
 
 4.  Navigate to **All** &gt; **Incident** &gt; **Open** and fill in the following fields:
 

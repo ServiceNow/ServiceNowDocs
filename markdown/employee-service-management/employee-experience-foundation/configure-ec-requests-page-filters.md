@@ -79,7 +79,7 @@ Filter
 
 </td><td>
 
-Conditions that a request must meet to appear on the requests page in the Employee Center.When defining conditions like case sensitivity or null values, see APIGlideFilter - Scoped, Global.
+Conditions that a request must meet to appear on the requests page in the Employee Center.When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
  **Note:** The conditions available to use are dependent on the table you select.
 

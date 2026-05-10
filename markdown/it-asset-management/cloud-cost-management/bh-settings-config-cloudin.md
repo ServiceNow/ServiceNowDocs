@@ -170,5 +170,5 @@ Default value: 1000
 **Related topics**  
 
 
-[bundle-itsm.c_ITILChangeManagement]
+[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ITILChangeManagement.md)
 

@@ -20,7 +20,7 @@ Use the Change request planning AI agent team to monitor similar change requests
 
 Generate the desired change plans using a team of AI agents in the Generate change request plans agentic workflow.
 
-To modify the Generate change request plans agentic workflow, duplicate it, and adjust the settings according to your requirements.
+To modify the Generate change request plans agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 **Important:** In the Edit trigger form, make sure that the **Active** button is turned on to enable the AI agent to trigger autonomously.
 

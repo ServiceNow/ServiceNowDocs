@@ -40,7 +40,7 @@ Register remote ServiceNow instance as an OAuth provider so that the local Servi
 ### Before you begin
 
 -   In the remote ServiceNow instance:
-    -   Create an OAuth API endpoint for external clients. In **Redirect URL**, specify the URL of the local ServiceNow instance in this format: `https://<instance-name>.service-now.com/oauth_redirect.do`. For more information, see Create an endpoint for clients to access the instance.
+    -   Create an OAuth API endpoint for external clients. In **Redirect URL**, specify the URL of the local ServiceNow instance in this format: `https://<instance-name>.service-now.com/oauth_redirect.do`. For more information, see [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_CreateEndpointforExternalClients.md).
     -   Copy and record the values of Client ID and Client Secret.
 -   Role required: admin
 

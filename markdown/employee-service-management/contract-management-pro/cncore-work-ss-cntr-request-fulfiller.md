@@ -33,15 +33,15 @@ You cannot add the same user to the Assigned to and Collaborator fields.
 
 3.  Work on the contract request.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d695541e99">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d695545e99">
 
 Action
 
-</th><th align="left" id="d695541e102">
+</th><th align="left" id="d695545e102">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d695541e108">
+</th></tr></thead><tbody><tr><td id="d695545e108">
 
 **Specify the contract as perpetual**
 
@@ -51,7 +51,7 @@ Select the **Perpetual** check box in the Details tab to classify the contract a
 
 The **Perpetual** check box is available in contract requests that are initiated from the Sales Customer Relationship Management and Source-to-Pay Operations.
 
-</td></tr><tr><td id="d695541e136">
+</td></tr><tr><td id="d695545e136">
 
 **Regenerate contract document**
 
@@ -59,7 +59,7 @@ The **Perpetual** check box is available in contract requests that are initiated
 
 Create a version of the contract document. Using this option discards the changes made in the previous version of the document. For more information, see [Regenerate contract document after modifying request](cncore-regen-contract-doc.md).
 
-</td></tr><tr><td id="d695541e152">
+</td></tr><tr><td id="d695545e152">
 
 **Sync the document__Note:__ This option is available on Contract Management Pro starting with version 1.2.1
 
@@ -69,7 +69,7 @@ Create a version of the contract document. Using this option discards the change
 
 Create a version of the contract document while retaining the changes made in the previous version. For more information, see [Create an updated contract document revision after modifying a self-served contract request \(starting Contract Management Pro 1.2.1\)](cncore-sync-document.md).
 
-</td></tr><tr><td id="d695541e173">
+</td></tr><tr><td id="d695545e173">
 
 **Create document revisions**
 
@@ -77,7 +77,7 @@ Create a version of the contract document while retaining the changes made in th
 
 Create a document revision. For more information, see [Create a document revision](cncore-create-doc-rev.md).
 
-</td></tr><tr><td id="d695541e190">
+</td></tr><tr><td id="d695545e190">
 
 **Add signatories**
 
@@ -85,7 +85,7 @@ Create a document revision. For more information, see [Create a document revisio
 
 Add signatories. For more information, see [Add signatories in self-served contract request](cncore-update-sign-ss-cmr.md).
 
-</td></tr><tr><td id="d695541e208">
+</td></tr><tr><td id="d695545e208">
 
 **Sync signatories__Note:__ This option isn’t available on Contract Management Pro starting with version 1.2.1 because it is no longer necessary.
 
@@ -95,7 +95,7 @@ Add signatories. For more information, see [Add signatories in self-served contr
 
 Update the contract document with the latest signatory details. For more information, see [Updating and synchronizing signatories](cncore-update-sync-signatories.md).
 
-</td></tr><tr><td id="d695541e229">
+</td></tr><tr><td id="d695545e229">
 
 **Initiate ad hoc approvals**
 
@@ -103,7 +103,7 @@ Update the contract document with the latest signatory details. For more informa
 
 Initiate ad hoc approvals. For more information, see [Initiate an ad hoc approval for a contract document revision](cmpro-initiate-approval-contract-request.md).
 
-</td></tr><tr><td id="d695541e245">
+</td></tr><tr><td id="d695545e245">
 
 **Communicate with stakeholders using Email**
 
@@ -111,7 +111,7 @@ Initiate ad hoc approvals. For more information, see [Initiate an ad hoc approva
 
 Communicate with stakeholders via email. For more information, see [Send email to stakeholders](cncore-send-email.md)
 
-</td></tr><tr><td id="d695541e260">
+</td></tr><tr><td id="d695545e260">
 
 **Analyze contract documents using Now Assist to identify non-standard and missing clauses**
 
@@ -119,7 +119,7 @@ Communicate with stakeholders via email. For more information, see [Send email t
 
 Use Now Assist to analyze the contract documents to identify the non-standard and missing clauses. For more information, see [Contract analysis using Now Assist in Contract Management](../concept/cncore-NA-review-land.md).
 
-</td></tr><tr><td id="d695541e289">
+</td></tr><tr><td id="d695545e289">
 
 **Send the document for signature**
 
@@ -127,7 +127,7 @@ Use Now Assist to analyze the contract documents to identify the non-standard an
 
 Send the document for a signature. For more information, see [Signature workflow for a contract request](../concept/cncore-signature-workflow.md).
 
-</td></tr><tr><td id="d695541e307">
+</td></tr><tr><td id="d695545e307">
 
 **Cancel request**
 

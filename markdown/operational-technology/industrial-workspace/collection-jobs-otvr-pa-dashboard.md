@@ -21,7 +21,7 @@ The following collection jobs collect the data that is shown on the Operational 
 
     Collection job for the historical data of existing records.
 
-    **Note:** The Historical Vulnerability Data Collection is an on-demand job that you only need to execute once. After the historical data is collected, the daily data collection jobs run on a scheduled time every day. For more information, see Collect historical data.
+    **Note:** The Historical Vulnerability Data Collection is an on-demand job that you only need to execute once. After the historical data is collected, the daily data collection jobs run on a scheduled time every day. For more information, see [Collect historical data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_RunHistoricalDataCollection.md).
 
 -   **\[PA OT VR\] Daily Collection for Remediation Tasks**
 

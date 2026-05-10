@@ -19,7 +19,7 @@ Consumers added as an additional consumer to the sold product with the Authorize
 
 Internal users added as related parties to a case with the Authorized Representative responsibility receive all email notifications sent to the case’s primary contact or consumer.
 
-For case resolved emails, related parties with the Authorized Representative responsibility can accept or reject the proposed solution. The responses of emails from related parties are treated similarly to the primary contact or consumer on the case. For more information, see Create an email notification.
+For case resolved emails, related parties with the Authorized Representative responsibility can accept or reject the proposed solution. The responses of emails from related parties are treated similarly to the primary contact or consumer on the case. For more information, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
 
 ## Enable case update notification
 

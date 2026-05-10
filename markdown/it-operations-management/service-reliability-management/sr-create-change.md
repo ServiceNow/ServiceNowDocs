@@ -17,7 +17,7 @@ Create a change task to implement a controlled process for modifying approved an
 
 ## Before you begin
 
-For general information on Change requests, see Using Change Management.
+For general information on Change requests, see [Using Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/using-change-management.md).
 
 Role required: srm\_manager, srm\_responder, or srm\_admin
 

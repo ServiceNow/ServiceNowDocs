@@ -43,7 +43,7 @@ You can create a version of a published pricing matrix \(Standard Price Adjustme
 
 7.  Update the decision table for the matrix by selecting **Create rule**.
 
-    Add the decision rows in the decision table for the matrix. You can use the decision table export feature to edit the decision table for the previous matrix version in Excel, update the Excel file, then import the updated Excel table to populate the decision table for the new version. For details, see Manage decision tables in Excel.
+    Add the decision rows in the decision table for the matrix. You can use the decision table export feature to edit the decision table for the previous matrix version in Excel, update the Excel file, then import the updated Excel table to populate the decision table for the new version. For details, see [Manage decision tables in Excel.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/manage-decision-tables-ms-excel.md)
 
 8.  Select **Save** and then **Publish**.
 

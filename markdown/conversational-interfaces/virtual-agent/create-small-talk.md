@@ -27,7 +27,7 @@ Role required: virtual\_agent\_admin or admin
 
 Small talk topics are conversations that diverge from the original bot conversation, usually to provide answers or information to casual questions that end users might ask. For example, you can create small talk topics that provide the current weather or time of day. When users engage with the bot through a small talk topic, they can return to the original conversation topic.
 
-**Note:** If you have activated Now Assist in Virtual Agent, you can also create small talk filters to redirect the conversation if needed. For more information, see Configure small talk filters.
+**Note:** If you have activated Now Assist in Virtual Agent, you can also create small talk filters to redirect the conversation if needed. For more information, see [Configure small talk filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-small-talk-filters.md).
 
 ## Procedure
 

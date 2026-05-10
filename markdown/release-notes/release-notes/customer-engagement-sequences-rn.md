@@ -16,7 +16,7 @@ The ServiceNow® Customer Engagement Sequences application enables customer-focu
 
 -   Enable click-to-call for agents using the new Schedule call activity that supports runtime outbound calling from sequence tasks.
 
-See Customer Engagement Sequences for more information.
+See [Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-customer-engagement-sequences.md) for more information.
 
 **Important:** Customer Engagement Sequences is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 

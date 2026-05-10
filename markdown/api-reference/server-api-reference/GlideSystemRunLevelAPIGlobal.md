@@ -15,7 +15,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideSystemRunLevel API provides methods to get and set the current system run level.
 
-Setting the system run level allows applications to change or limit their features based on operational toggles. For more information about using operational toggles, see Operational toggles.
+Setting the system run level allows applications to change or limit their features based on operational toggles. For more information about using operational toggles, see [Operational toggles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/operational-toggles.md).
 
 The system run level can be set to one of the defined system run levels.
 

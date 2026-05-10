@@ -19,7 +19,7 @@ You can replace the default Connect audio notification sound with an audio file 
 
 Role required: admin
 
-Upload the audio file you want to use as the notification sound.
+[Upload the audio file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_UploadAnAudioFile.md) you want to use as the notification sound.
 
 Role required: admin
 

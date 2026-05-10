@@ -115,7 +115,7 @@ Role required: asset
 
 After a Disposal order is initiated for your asset, use the ServiceNow Agent app to scan, verify, and depart the asset. You do not have to manually verify and depart your assets.
 
-On the app, you can use the same functionalities when you are offline. For more information, see Offline mode.
+On the app, you can use the same functionalities when you are offline. For more information, see [Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-offline-mode.md).
 
 ### Procedure
 

@@ -28,5 +28,5 @@ You can use the options on the HTML toolbar to apply the following formatting in
 -   Insert bookmarks to the article content that can link to specific parts of the text with an ID.
 -   Identify and resolve accessibility related issues in a knowledge article using the Accessibility checker in the toolbar.
 
-For more information, see Formatting icons for HTML fields.
+For more information, see [Formatting icons for HTML fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_Formatting.md).
 

@@ -20,7 +20,7 @@ Queries can differ widely as they can be configured to query a wide variety of c
 Batch size is applicable and behaves the same in all query run scenarios, regardless of how the run was initiated:
 
 -   Query Builder user interface \(ad hoc or saved query\)
--   Query Builder Scriptable API
+-   [Query Builder Scriptable API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CMDBQueryBuilderAPI.md)
 -   Scheduled jobs
 -   [CMDB groups](cmdb-groups.md#)
 

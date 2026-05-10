@@ -70,5 +70,5 @@ An appointment for the procedure is booked for the patient.
 Patient
 
 </td></tr></tbody>
-</table>As a user with the sn\_previsit.admin role, you can configure the email notifications for the Pre-Visit Management application, by navigating to **All** &gt; **System Notification** &gt; **Email** &gt; **Notifications**. For more information on editing email notifications, see Create an email notification.
+</table>As a user with the sn\_previsit.admin role, you can configure the email notifications for the Pre-Visit Management application, by navigating to **All** &gt; **System Notification** &gt; **Email** &gt; **Notifications**. For more information on editing email notifications, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
 

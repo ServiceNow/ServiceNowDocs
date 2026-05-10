@@ -19,11 +19,11 @@ On the Employee Center portal, add the following links to Idea Portal so that em
 
 -   **Header menu item on the Employee Center portal**
 
-    Configure a menu item for the Idea Portal page on the Employee Center portal header. Follow steps 1 through 5 in Create employee forum menu item in the Employee Center menu.
+    Configure a menu item for the Idea Portal page on the Employee Center portal header. Follow steps 1 through 5 in [Create employee forum menu item in the Employee Center menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-employee-forum.md).
 
 -   **Quick link on the Employee Center portal**
 
-    Create a quick link to the Idea Portal page using the quick links module in Employee Center. Follow the procedure in Create a quick link.
+    Create a quick link to the Idea Portal page using the quick links module in Employee Center. Follow the procedure in [Create a quick link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-quick-links.md).
 
 
 **Parent Topic:**[Managing Idea Portal](idea-portal.md)

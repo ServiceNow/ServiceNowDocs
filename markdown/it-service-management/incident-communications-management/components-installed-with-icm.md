@@ -15,7 +15,7 @@ breadcrumb: [Incident Communications Management reference, Incident Communicatio
 
 Several types of components are installed with activation of the Incident Communications Management plugin \(com.snc.iam\), including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -101,7 +101,7 @@ sn\_tcm\_admin
 
 </td><td>
 
-Configure all Task Communications Management features including communication plans and tasks. For more information, see Components installed with Task Communications Management.
+Configure all Task Communications Management features including communication plans and tasks. For more information, see [Components installed with Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/components-installed-with-tcm.md).
 
 </td><td>
 

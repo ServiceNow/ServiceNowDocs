@@ -22,7 +22,7 @@ The create standard change template proposal agentic workflow lets users quickly
 
 Using this agentic workflow, you can quickly propose a change template for a change request that you frequently create. This template is later sent for approval to the change management team, which reviews the request and approves the template as part of the approval process.
 
-To modify the Create standard change template proposal agentic workflow, duplicate it, and adjust the settings according to your requirements. The Create standard change template proposal agentic workflow doesn’t have a trigger and is invoked manually.
+To modify the Create standard change template proposal agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements. The Create standard change template proposal agentic workflow doesn’t have a trigger and is invoked manually.
 
 **Note:** The workflow can be accessed by the change\_manager and itil role.
 

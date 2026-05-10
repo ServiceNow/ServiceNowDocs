@@ -39,15 +39,15 @@ Role required: contract\_system\_admin, asset\_manager\(core UI and Hardware Ass
 
 5.  Either approve or reject the contract renewal request.
 
-<table id="choicetable_lcq_2fl_4tb"><thead><tr><th align="left" id="d371044e134">
+<table id="choicetable_lcq_2fl_4tb"><thead><tr><th align="left" id="d371069e134">
 
 Action
 
-</th><th align="left" id="d371044e137">
+</th><th align="left" id="d371069e137">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d371044e143">
+</th></tr></thead><tbody><tr><td id="d371069e143">
 
 **Approve the request by selecting Approve**
 
@@ -57,7 +57,7 @@ Result
 -   The Renewal purchase order task or the Manual purchase order task is created.
 
 
-</td></tr><tr><td id="d371044e161">
+</td></tr><tr><td id="d371069e161">
 
 **Reject the request by selecting Reject**
 

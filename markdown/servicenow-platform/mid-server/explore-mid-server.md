@@ -35,23 +35,23 @@ You can search the HI Knowledge Base for troubleshooting articles or monitor the
 
 ## ServiceNow applications that use the MID Server
 
--   Discovery
--   Orchestration
--   Service Mapping
--   Event Management
--   Operational Intelligence
--   Cloud Management
--   IntegrationHub
--   Cloud Cost Management
--   Agent Client Collector
+-   [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-setup.md)
+-   [Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationMID.md)
+-   [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-setup.md)
+-   [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMConfiguration.md)
+-   [Operational Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/get-started-metrics.md)
+-   [Cloud Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-configuration.md)
+-   [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md)
+-   [Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/cloud-insights-landing-page.md)
+-   [Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-landing-page.md)
 
 ## External applications that use the MID Server
 
--   Import Sets
--   Microsoft SMS/SCCM
--   LANDesk Maintenance Suite
--   Microsoft System Center Operations Manager \(SCOM\)
--   Microsoft MIIS
+-   [Import Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md)
+-   [Microsoft SMS/SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_MicrosoftSCCMIntegration.md)
+-   [LANDesk Maintenance Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_CSDExtensionFramework.md)
+-   [Microsoft System Center Operations Manager \(SCOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureSCOMConnectorInstance.md)
+-   [Microsoft MIIS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/c_UsingADAMSyncToPopulateADAM.md)
 
 ## Begin MID Server installation
 

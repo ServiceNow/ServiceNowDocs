@@ -55,7 +55,7 @@ Consider these points while implementing the CSDM framework.
 
 -   Do I need elements from all the CSDM domains to set up CSM?
 
-    No. The approach mentioned in this use case is based on the recommended guidelines and assumes you are in the Run or Fly stage of the CSDM implementation. See Implementing the CSDM framework in stages for more information.
+    No. The approach mentioned in this use case is based on the recommended guidelines and assumes you are in the Run or Fly stage of the CSDM implementation. See [Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md) for more information.
 
     When you’re implementing CSM, start with the tables in the CSDM Foundation domain and the CSM Customer Service domain. Using these domains enables you to leverage the capabilities included in CSM.
 

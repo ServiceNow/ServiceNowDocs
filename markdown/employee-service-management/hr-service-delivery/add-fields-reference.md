@@ -20,9 +20,9 @@ Add an entry in the respective tables for the following field values to be avail
 You must have the admin role to configure the fields.
 
 -   Add the Job Profile field entry to the Job Profile \[sn\_skills\_int\_job\_profile\] table and the Job Level field entry to the Job Level \[sn\_skills\_int\_job\_level\] table. For more information, see [Components installed with Skills Foundation](../../skills-intelligence/reference/skills-intelligence-users-and-roles-1.md).
--   Add the Office Location field entry to the Office Location \[sn\_fin\_office\_location\] table. For more information, see Add office locations.
+-   Add the Office Location field entry to the Office Location \[sn\_fin\_office\_location\] table. For more information, see [Add office locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-office-locations.md).
 
-The Office Location field must have the Legal Entity field defined. For more information on adding a legal entity entry to the Legal Entity \[sn\_fin\_legal\_entity\] table, see Legal entity.
+The Office Location field must have the Legal Entity field defined. For more information on adding a legal entity entry to the Legal Entity \[sn\_fin\_legal\_entity\] table, see .
 
 **Parent Topic:**[Configuring Hiring](configuring-hiring-tab.md)
 

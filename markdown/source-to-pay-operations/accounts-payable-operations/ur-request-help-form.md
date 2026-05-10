@@ -49,7 +49,7 @@ Anything else we should know?
 
 </td><td>
 
-Additional information about the issue.**Note:** Select the **Issue contains sensitive or confidential information** check box. For more information on handling sensitive information, see Universal Request sensitive information security.
+Additional information about the issue.**Note:** Select the **Issue contains sensitive or confidential information** check box. For more information on handling sensitive information, see [Universal Request sensitive information security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/universal-request-security.md).
 
 </td></tr><tr><td>
 

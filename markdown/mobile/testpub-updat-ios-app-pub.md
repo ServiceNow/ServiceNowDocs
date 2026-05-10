@@ -27,7 +27,7 @@ Role required: admin
     -   You don't need to create a new Apple iOS Distribution Certificate or a provisioning profile for apps that already exist and you're only updating the version number. For example, updating version 17.5 to 18.0. However, if your certificate has expired per your Keychain Access program on your Mac, see [KB0997467](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0997467) for instructions.
 2.  When your testers receive an email from Apple TestFlight with a link to test your branded app, use TestFlight to check the following if they've changed from your original request:
 
-    -   App has the correct name, icon, splash screen, branding, and theming. For more information, see Create a theme with Theme Builder.
+    -   App has the correct name, icon, splash screen, branding, and theming. For more information, see [Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-theme.md).
     -   App uses the default instance you specified for login if you selected the instance pre-fill option when you requested the branded app.
     -   EULA and privacy policy listed in the mobile app **Settings** tab under **Legal** link to the policies you specified.
     See [Apple documentation](https://developer.apple.com/testflight/) for information about using TestFlight.

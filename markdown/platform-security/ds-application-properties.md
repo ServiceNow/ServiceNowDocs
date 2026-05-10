@@ -67,7 +67,7 @@ The new System Application Property Value \[sys\_application\_property\_value\] 
 
 ## New APIs
 
-The new APIs are also supported in scoped apps. Domain-separated application properties have distinct APIs. The GlideApplicationProperty API has two new scriptable methods, available in both global and scoped applications. See GlideApplicationProperty - Scoped, Global to learn more about these new APIs.
+The new APIs are also supported in scoped apps. Domain-separated application properties have distinct APIs. The GlideApplicationProperty API has two new scriptable methods, available in both global and scoped applications. See [GlideApplicationProperty - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideApplicationProperty.md) to learn more about these new APIs.
 
 **Parent Topic:**[Advanced domain separation administration](c_DomainSeparationAdministration.md)
 

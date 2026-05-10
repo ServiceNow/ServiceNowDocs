@@ -26,5 +26,5 @@ Asset Management quick start tests requires the Asset Management plugin \(com.sn
 **Related topics**  
 
 
-[bundle-cadev.quick-start-tests]
+[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/quick-start-tests.md)
 

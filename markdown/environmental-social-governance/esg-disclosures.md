@@ -49,7 +49,7 @@ To create narrative disclosures on remote storage, you must install and activate
 
 For steps to integrate the ServiceNow® instance and Microsoft OneDrive, refer to the following articles.
 
--   Setup Microsoft OneDrive for Document Services
+-   [Setup Microsoft OneDrive for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/configure-ms-onedrive-doc-services.md)
 -   [Connecting to Microsoft Sharepoint \[KB1646310\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1646310%20) article in the Now Support Knowledge Base.
 
 You can download the disclosures in an Excel format from the overview tab in the Operational Sustainability Workspace.

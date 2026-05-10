@@ -17,28 +17,28 @@ The ServiceNow® Agent Workspace for HR Case Management application enables you 
 -   Enable CCaaS providers to display native voice and callback integrations so that HR agents can manage customer calls directly from HR Agent Workspace.
 -   Recommend actions based on the context of the case, helping HR agents resolve HR cases efficiently.
 
-See Agent Workspace for HR Case Management for more information.
+See [Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-landing-page.md) for more information.
 
-**Important:** Agent Workspace for HR Case Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** [Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-landing-page.md) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **Integration with Contact Center as a Service \(CCaaS\)**
+-   **[Integration with Contact Center as a Service \(CCaaS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/enable-hr-icc.md)**
 
     Implement prebuilt, certified integrations with Contact Center as a Service \(CCaaS\) providers using the ServiceNow voice reference architecture. The Interaction Controls Component \(ICC\) feature enables CCaaS providers to display native voice and callback integrations so HR agents can manage customer calls directly from HR Agent Workspace. HR agents are provided a brief wrap-up period at the end of customer conversations to complete their work before moving on to assist other customers.
 
--   **Recommended Actions for HRSD**
+-   **[Recommended Actions for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/recommended-actions-hrsd.md)**
 
     Recommend actions based on the context of the HR case, helping agents resolve case faster.
 
     -   Lists KB articles and similar cases in the context of the current case.
     -   Suggests to add an approval to the case only when an approval is required.
--   **Case creation configuration**
+-   **[Case creation configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-configurable-hr-create-case.md)**
 
     Enable an HR agent to quickly review the HR profiles of both **subject person** and **opened for** during the case creation process.
 
 
--   **Advanced Knowledge Editor**
+-   **[Advanced Knowledge Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/advance-knowledge-editor.md)**
 
     Streamline Knowledge article creation and editing with AI support in an improved, intuitive editor. Leverage AI powered Article optimizations recommendations to improve the knowledge content quality.
 
@@ -49,11 +49,11 @@ Install Agent Workspace for HR Case Management by requesting it from the Service
 
 ## Related ServiceNow applications and features
 
--   **HR Service Delivery**
+-   **[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-delivery-overview.md)**
 
     Improve the employee service experience by automating HR interactions and providing a single platform for all HR services. Replace manual and siloed processes with cross-functional digital workflows for increased efficiency. Align business goals with employee needs, including onboarding, career growth, and other transitions.
 
--   **Now Assist for HR Service Delivery \(HRSD\)**
+-   **[Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)**
 
     Summarize case information, generate resolution notes, and summarize chat information using GenAI capabilities. Enable your agents to understand the chat and case context and to propose quicker resolutions to requesters.
 

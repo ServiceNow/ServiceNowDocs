@@ -37,11 +37,11 @@ For more information, see [Enable task configuration for approvals](../task/appr
 
 Ask a question is a widget that establishes a communication link between a user with an HR Agent or queue to discuss HR tasks or cases. These configurations determine which HR agent or queue to use for communication. For HR tasks, the **Task support team** field defines the HR agent or queue that picks up any communication about the task when a user selects the Ask a question link. To use this option, activate the Connect Service Portal Widgets \(com.glide.connect.sp\_widgets\) plugin.
 
-**Note:** For more information about **Connect**, see Connect.
+**Note:** For more information about **Connect**, see [Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_Connect.md).
 
 For HR cases, define configuration under **Conversational Interfaces**.
 
-**Note:** For more information about **Conversational Interfaces**, see Conversational Interfaces and Setting up Agent Chat.
+**Note:** For more information about **Conversational Interfaces**, see [Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/convint-landing-page.md) and [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
 
 If your company is not using Connect Support, you can choose to hide the **Ask a question** link. To hide the Ask a question link, go to **sys\_properties.list** and find the **sn\_hr\_sp.hr\_ask\_a\_question\_enabled** property. Default value is **true**. To hide the Ask a Question on HR cases and tasks on the Employee Center, change the setting to **false**. For HR tasks, when Agent Workspace is selected in the **Task support team** drop-down, Virtual Agent is used. If Users and groups is selected, Connect Support is used. For more information, see [Adding an HR task to an HR case](../../human-resources/task/t_ViewAnHRTask.md).
 

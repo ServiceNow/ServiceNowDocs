@@ -43,7 +43,7 @@ Workflow Studio supports several Service Catalog variable types for both single-
 
 ## More information
 
-For a list of Service Catalog variable types, see Types of service catalog variables.
+For a list of Service Catalog variable types, see [Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md).
 
 **Parent Topic:**[Flows, subflows, and actions reference](flow-designer-reference.md)
 

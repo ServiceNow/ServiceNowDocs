@@ -4,7 +4,7 @@ description: Use the member registration form on the Partner portal to register 
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Partner Relationship Management reference, Reference, Sales Customer Relationship Management]
 ---

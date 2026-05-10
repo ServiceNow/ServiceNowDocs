@@ -17,7 +17,7 @@ Adjust a component to meet the Web Content Accessibility Guidelines \(WCAG\) 2.1
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see Granular admin roles.
+For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
 
 ## About this task
 

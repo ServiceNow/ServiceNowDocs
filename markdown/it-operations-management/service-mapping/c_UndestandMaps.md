@@ -109,6 +109,8 @@ To open this service instance in Event Management and view alerts on CIs that ar
 **Related topics**  
 
 
+[Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/application-services.md)
+
 [View CI attributes in an application service map in classic Service Mapping](../task/t_ViewCIDetails.md)
 
 [Modify display for CI attributes](../task/t_ConfigurePropertyDisplay.md)

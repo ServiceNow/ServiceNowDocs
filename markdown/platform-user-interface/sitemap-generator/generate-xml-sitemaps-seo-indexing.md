@@ -114,7 +114,7 @@ The approximate frequency at which the page is updated.
 
     **Note:** This URL accesses the latest sitemap or, if the sitemap is paginated, the latest sitemap index. It doesn’t execute scripts on the fly to regenerate the sitemap.
 
-    For information about using Google Search Console, see [Manage your sitemaps using the Sitemaps report](https://support.google.com/webmasters/answer/7451001) in the Google documentation. For information about the Google Custom Search integration, see ServiceNow provided integrations.
+    For information about using Google Search Console, see [Manage your sitemaps using the Sitemaps report](https://support.google.com/webmasters/answer/7451001) in the Google documentation. For information about the Google Custom Search integration, see [ServiceNow provided integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ServiceNowProvidedintegrations.md).
 
 12. Review any portals URLs that were excluded from the sitemap because they aren't publicly accessible.
 

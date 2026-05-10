@@ -29,7 +29,7 @@ Role required: flow\_designer or admin
 
     For a stage field to report stages on a record-based flow, a stage field must be present on the same table as the triggering record.
 
-    To add a field to a table, see Add and customize a field in a table.
+    To add a field to a table, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingNewFields.md).
 
 2.  If adding stages to a flow with a Service Catalog trigger, select the flow in the **Flow** field of the Service Catalog Item \[sc\_cat\_item\] table.
 

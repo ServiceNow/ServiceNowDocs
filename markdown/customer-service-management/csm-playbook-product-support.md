@@ -30,7 +30,7 @@ The Case Playbook for Product Support 3.0 includes a new Process Automation Desi
 The process definitions are stored in the Process Definitions table \(sys\_pd\_process\_definition\). To view a list of processes, you can do the following task:
 
 1.  In the application navigator, enter **sys\_pd\_process\_definition.list**.
-2.  Configure the list to show the **Name** field.
+2.  [Configure the list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_PersonalLists.md) to show the **Name** field.
 
 Only one PAD process per playbook can be active at a time.
 

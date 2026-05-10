@@ -109,7 +109,7 @@ References
 
 </td><td>
 
-Connect Chat
+[Connect Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_Collaboration.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)

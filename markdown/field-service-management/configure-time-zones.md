@@ -23,10 +23,10 @@ If you choose to enable multiple time zones, then you must configure the time zo
 
 Resource time indicators render technicians' schedules based on their time zone on the calendar in Dispatcher Workspace. The technician's location determines their time zone. It shows all technicians lined up evenly on the calendar, but with a broken time indicator that corresponds with the technician’s location. To configure resource time indicators you must:
 
-1.  Ensure that all locations have the correct time zone added. For more information on adding time zones to locations, see Set up locations.
+1.  Ensure that all locations have the correct time zone added. For more information on adding time zones to locations, see [Set up locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_LocationSetup.md).
 
-    **Note:** If you don’t see a time zone drop-down on the location record, then add it to the form. For more information on adding form fields, see Configuring the form layout.
+    **Note:** If you don’t see a time zone drop-down on the location record, then add it to the form. For more information on adding form fields, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
-2.  Ensure that all Field Service Technicians have the correct time zone configured on their user record. The line break on the calendar in Dispatcher Workspace is determined based on the time zone configured on the technician’s user record. For more information on adding Time zones to user records, see: The User record.
+2.  Ensure that all Field Service Technicians have the correct time zone configured on their user record. The line break on the calendar in Dispatcher Workspace is determined based on the time zone configured on the technician’s user record. For more information on adding Time zones to user records, see: [The User record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/user.md).
 3.  Enable the work.management.enable.timezone.agnostic property. For more information see [Enable resource time indicators](../task/enable-equalized-time.md).
 

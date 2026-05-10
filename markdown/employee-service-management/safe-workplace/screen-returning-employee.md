@@ -25,7 +25,7 @@ Conduct a health screen before people enter a location, such as employees return
 
 The following procedure includes the steps your organization might use in setting up health screening. Some of the steps might not be applicable to your location.
 
-**Note:** If the ServiceNow® Customer Service Management \(CSM\) application is activated, the health screen can be performed for CSM consumers and contacts. The customer service agent \[sn\_customerservice\_agent\] and consumer service agent \[sn\_customerservice.consumer\_agent\] roles can optionally be given to health screeners so that they can view additional CSM information on the health screening form, but these roles are not required for screening consumers and contacts. For more information about using Customer Service Management with Employee Health Screening, see Integrate Customer Service Management with Safe Workplace applications.
+**Note:** If the ServiceNow® Customer Service Management \(CSM\) application is activated, the health screen can be performed for CSM consumers and contacts. The customer service agent \[sn\_customerservice\_agent\] and consumer service agent \[sn\_customerservice.consumer\_agent\] roles can optionally be given to health screeners so that they can view additional CSM information on the health screening form, but these roles are not required for screening consumers and contacts. For more information about using Customer Service Management with Employee Health Screening, see [Integrate Customer Service Management with Safe Workplace applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-integration-safe-workplace.md).
 
 ## Procedure
 

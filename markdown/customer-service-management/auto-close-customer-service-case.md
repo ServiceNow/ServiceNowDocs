@@ -67,5 +67,5 @@ Use this business rule to configure when the system automatically sets the **Aut
 </table>**Related topics**  
 
 
-[bundle-cadev.flow-designer]
+[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md)
 

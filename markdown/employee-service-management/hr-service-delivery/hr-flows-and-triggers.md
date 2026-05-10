@@ -37,7 +37,7 @@ The following flows are installed with the Human Resources: Core application. Th
 
     Table: HR Profile \[sn\_hr\_core\_profile\]
 
-    This flow can be used as a template to create a customized trigger. The trigger is based on a custom date check for the employee start date. The default trigger is initiated two days prior to the employee start date. For more information about flows and triggers, see Flows.
+    This flow can be used as a template to create a customized trigger. The trigger is based on a custom date check for the employee start date. The default trigger is initiated two days prior to the employee start date. For more information about flows and triggers, see [Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md).
 
 
 These flows create an HR case adding an entry in the HR Lifecycle Events Case \[sn\_hr\_le\_case\] table. If multiple flows are active at the same time, there is a high probability of creating duplicate records and cases.

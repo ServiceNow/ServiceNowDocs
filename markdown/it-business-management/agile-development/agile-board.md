@@ -98,5 +98,5 @@ From the Sprint Tracking tab, you can track the progress of your current sprint 
 **Related topics**  
 
 
-[bundle-platux.c_VisualTaskBoards]
+[Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoards.md)
 

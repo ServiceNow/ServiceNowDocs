@@ -23,7 +23,7 @@ Role required: admin or ml\_admin
 
 ## About this task
 
-Plan your changes carefully, and remember that update sets match records based on the system ID \[sys-id\] and not the version number. Note that moving solutions to instances can sometimes deliver unpredictable results. If you run into such an issue, retrain the solution again, which takes 5 minutes per solution. For more information on update sets, see System update sets .
+Plan your changes carefully, and remember that update sets match records based on the system ID \[sys-id\] and not the version number. Note that moving solutions to instances can sometimes deliver unpredictable results. If you run into such an issue, retrain the solution again, which takes 5 minutes per solution. For more information on update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md) .
 
 ## Procedure
 

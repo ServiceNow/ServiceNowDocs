@@ -74,5 +74,5 @@ Associate the work scheduler card that you've created to the work configuration 
 **Related topics**  
 
 
-[bundle-cadev.create-page]
+[Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md)
 

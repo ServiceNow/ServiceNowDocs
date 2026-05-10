@@ -31,7 +31,7 @@ Agentic workflows in FSO are inactive by default. To activate a workflow:
 
 **Important:** By default, all agentic workflows and AI agent records are read only.
 
-To modify an agentic workflow, you must first duplicate the agentic workflow, and then proceed with the following steps:
+To modify an agentic workflow, you must first [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and then proceed with the following steps:
 
 -   Activate the agentic workflow.
 -   Activate the agent within the agentic workflow.
@@ -39,13 +39,13 @@ To modify an agentic workflow, you must first duplicate the agentic workflow, an
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
-For more information on activating agentic workflows, triggers, and agents, see Activate an agentic workflow template and Modify an AI agent.
+For more information on activating agentic workflows, triggers, and agents, see [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md) and [Modify an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-ai-agent.md).
 
 For more information on agentic workflows in FSO, see [Using agentic workflows in Now Assist for Financial Services Operations \(FSO\)](using-ai-agent-use-cases-in-now-assist-for-fso.md).
 
 ## Choosing a language model service provider
 
-You can choose which service provider to use for AI agents and agentic workflows in the Now Assist Admin console.
+You can choose which service provider to use for AI agents and agentic workflows [in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-model-providers.md).
 
 ## Access control lists
 
@@ -61,13 +61,13 @@ Predefined ACLs exist in Now Assist for FSO for the following:
 -   Subflows used in Disputes intake via Virtual Agent
 -   Subflows and subflow actions used in the Help Resolve Friendly Fraud agentic workflow
 
-See Implement access control in Now Assist AI agents for more information.
+See [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md) for more information.
 
 ## Role masking
 
 Required roles: sn\_bom\_credit\_card.dispute\_agent, sn\_bom\_credit\_card.dispute\_agent\_connector.
 
-Agentic workflows and their AI agents use role masking to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 In the data access settings, you must also add the necessary roles to Resolve friendly fraud using Agentic AI.
 

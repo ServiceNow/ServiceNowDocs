@@ -27,7 +27,7 @@ Role required: srm\_admin or admin
 
 3.  Select **Configure error budget actions** to edit the Process Error Budget Policy Threshold subflow in Workflow Studio.
 
-    **Note:** Working in Workflow Studio requires advanced ServiceNow expertise. For more detailed information on editing workflows or creating custom workflows, see Flow Designer.
+    **Note:** Working in Workflow Studio requires advanced ServiceNow expertise. For more detailed information on editing workflows or creating custom workflows, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md).
 
 
 **Parent Topic:**[Configuring Service Reliability Management](../concept/configuring-service-reliability-management.md)

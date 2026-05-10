@@ -43,7 +43,7 @@ Like any other CI type, an entry point contains several important definitions th
 
 4.  To create an entry point of the inclusion type, right-click **Inclusion Endpoint** from the **Class Hierarchy** pane and select **Add Child Class**.
 
-5.  Define the parameters for the new entry point type as described in Create a CI class.
+5.  Define the parameters for the new entry point type as described in [Create a CI class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIType.md).
 
 
 **Parent Topic:**[Discovery patterns used by ITOM Visibility](../concept/c_MappingPatternsCustomization.md)

@@ -43,7 +43,7 @@ Create a simple breakdown based on an existing indicator. To create more advance
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_xxh_jqm_h5"><tbody><tr><td id="d121479e136">
+<table id="choicetable_xxh_jqm_h5"><tbody><tr><td id="d121485e136">
 
 **Create a breakdown, breakdown source, and mapping**
 
@@ -51,7 +51,7 @@ Create a simple breakdown based on an existing indicator. To create more advance
 
 If no breakdown or breakdown source exists for the specified table, enter a name for the new breakdown. A breakdown source and mapping for the selected table and field are created automatically. Click **Show filter to make adjustments** to filter the data included in the breakdown source.
 
-</td></tr><tr><td id="d121479e148">
+</td></tr><tr><td id="d121485e148">
 
 **Create a mapping using an existing breakdown source**
 
@@ -59,7 +59,7 @@ If no breakdown or breakdown source exists for the specified table, enter a name
 
 If at least one breakdown source exists for the specified table and there are one or more breakdowns using the source, select the breakdown to create a mapping for. If a mapping exists between a breakdown with the selected source and a field on a parent of the indicator table, you can only select an existing breakdown to create the mapping for. If no such mapping exists for a parent table, you can select an existing breakdown or create a new breakdown.
 
-</td></tr><tr><td id="d121479e160">
+</td></tr><tr><td id="d121485e160">
 
 **Review existing records**
 

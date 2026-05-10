@@ -166,9 +166,9 @@ Manage Microsoft 365 license compliance and optimization by performing the follo
 
         Install the Software Asset Management - SaaS License Management plugin \(com.sn\_sam\_saas\_int\) to create and manage integrations with your SaaS and Single Sign-On \(SSO\) applications. These integrations enable you to track license usage and reclaim unused licenses effectively.
 
-    4.  Install Microsoft Entra ID Spoke
+    4.  [Install Microsoft Entra ID Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/microsoft-azure-ad-spoke.md)
 
-        Install the Microsoft Entra ID spoke \(formerly Azure AD spoke\) to enable automated integration with the Microsoft 365 Admin Center for license removal and other scenarios. An Integration Hub subscription is required for this spoke. For more information about Integration Hub, see Integration Hub.
+        Install the Microsoft Entra ID spoke \(formerly Azure AD spoke\) to enable automated integration with the Microsoft 365 Admin Center for license removal and other scenarios. An Integration Hub subscription is required for this spoke. For more information about Integration Hub, see [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md).
 
     5.  [Receive latest updates from Software Asset Management Content Service](c_SAMContentService.md)
 

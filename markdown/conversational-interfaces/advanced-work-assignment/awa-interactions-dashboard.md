@@ -113,7 +113,7 @@ To analyze data according to different categories, select a breakdown from the d
 -   Service Channel
 -   Queue
 
-For more information on analyzing data with breakdowns, see Using breakdowns on dashboards.
+For more information on analyzing data with breakdowns, see [Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_SpecialDashboards.md).
 
 ## Data visualizations
 

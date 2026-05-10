@@ -45,9 +45,9 @@ Telecommunications Service Management \(TSM\) breaks down siloed legacy systems 
 </td><td>
 
 -   [Now Assist for Telecommunications, Media, and Technology](../../tmt-spmc/reference/now-assist-spmc.md)
--   Customer Success Management
--   Service Exchange
--   Product Support for Technology
+-   [Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md)
+-   [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)
+-   [Product Support for Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows.md)
 -   [Customer Service Problem Management](../../tmt-spmc/reference/cspm-landing-page.md)
 -   [Service Test Management](../../tmt-service-test-management/reference/stm-landing-page.md)
 -   [Telecommunications Customer 360](../../tmt-telecom-customer-360/concept/c360-land-page.md)
@@ -79,9 +79,9 @@ Technology Provider Service Management \(TPSM\) automates work for technology pr
 </td><td>
 
 -   [Now Assist for Telecommunications, Media, and Technology](../../tmt-spmc/reference/now-assist-spmc.md)
--   Customer Success Management
--   Service Exchange
--   Product Support for Technology
+-   [Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md)
+-   [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)
+-   [Product Support for Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows.md)
 
 </td></tr></tbody>
 </table>## Developer reference
@@ -103,8 +103,8 @@ Open Digital Architecture-aligned REST APIs available across TMT solutions — a
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the Telecommunications, Media, and Technology release notes.
--   Learn about Customer Service Management at Customer Service Management
+-   Learn more about what's new and changed, see the [Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md).
+-   Learn about Customer Service Management at [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Telecommunications, Media, and Technology \(TMT\) features at [Now Create](https://learning.servicenow.com/nowcreate).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
 -   Find useful resources related to your role and explore general guidelines at the [Customer Success Center](https://www.servicenow.com/success.html).

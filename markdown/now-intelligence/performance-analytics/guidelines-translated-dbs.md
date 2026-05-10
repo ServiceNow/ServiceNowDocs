@@ -21,7 +21,7 @@ Users can only find translated dashboards under certain configurations. You can 
 
     The search function only works for translated dashboards when the instance uses the MySQL database and the dashboard translation is provided.
 
-    Learn more: Activate a language.
+    Learn more: [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 
 -   **Translate a dashboard's title**
 

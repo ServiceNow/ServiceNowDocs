@@ -39,14 +39,14 @@ Role required: admin
 
     3.  On the Service Catalog card, verify that the catalog item generation skill is active.
 
-        **Note:** If the Service Catalog card displays **Not started** or **Inactive** for the catalog item generation skill, you must activate it. To learn more, see Activate a Now Assist skill.
+        **Note:** If the Service Catalog card displays **Not started** or **Inactive** for the catalog item generation skill, you must activate it. To learn more, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
-    For more information about using the Now Assist Admin console to access information about setting up, configuring, and monitoring Now Assist applications, see Now Assist Admin console.
+    For more information about using the Now Assist Admin console to access information about setting up, configuring, and monitoring Now Assist applications, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
 
 ## What to do next
 
-Grant the now.assist.creator role to the Creator Studio users to create forms using Now Assist in Creator Studio. To learn more, see Assign a role to a user and [Creator Studio roles and personas](../reference/roles-creator-studio.md).
+Grant the now.assist.creator role to the Creator Studio users to create forms using Now Assist in Creator Studio. To learn more, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md) and [Creator Studio roles and personas](../reference/roles-creator-studio.md).
 
 **Parent Topic:**[Configuring form generation in Creator Studio](../concept/creator-studio-configure-now-assist.md)
 

@@ -28,7 +28,7 @@ Enable Now Assist Q&amp;A Genius Results in global search using the AI Search fo
 
 ### Before you begin
 
-The Next Experience UI must be activated on your instance. To learn about activating Next Experience UI, see Considerations for activating Next Experience.
+The [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md) must be activated on your instance. To learn about activating Next Experience UI, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
 
 The AI Search for Next Experience application must be installed and enabled on your instance. For more information about the application, see [AI Search for Next Experience](ais-next-experience-app.md).
 

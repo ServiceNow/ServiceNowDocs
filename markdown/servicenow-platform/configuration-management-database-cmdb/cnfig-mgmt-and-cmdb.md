@@ -37,7 +37,7 @@ You can for example, set the **Used for** attribute in the cmdb\_ci\_server tabl
 
 In base systems, CMDB provides core functionality for the configuration management database, including modules for hardware and configuration items. The separate Extended CMDB plugin includes a collection of modules for specialized configuration items, such as radio hardware, test equipment, and voice system hardware.
 
-To extend the CMDB you can activate the following plugins to access the modules for specialized configuration items.
+To extend the CMDB you can [activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md) the following plugins to access the modules for specialized configuration items.
 
 -   CMDB Mainframe \(com.snc.cmdb.mainframe\)
 -   CMDB Radio Category \(com.snc.cmdb.radio.category\)
@@ -62,13 +62,13 @@ Some scenarios that involve related tables, can result in orphan or otherwise st
 
 ## Localization
 
-Using the Translated Text field type \(instead of string\) for attributes in CMDB tables, can reduce overall performance, including performance of features such as CMDB Health. This is because values in CMDB tables are dynamic and are likely to change often, and the data itself is likely to continuously grow. Using the Translated Text field also requires manual update of related text. The Translated Text field type is typically effective with static data that doesn't change and doesn't grow. For more information about field types, see Field types reference.
+Using the Translated Text field type \(instead of string\) for attributes in CMDB tables, can reduce overall performance, including performance of features such as CMDB Health. This is because values in CMDB tables are dynamic and are likely to change often, and the data itself is likely to continuously grow. Using the Translated Text field also requires manual update of related text. The Translated Text field type is typically effective with static data that doesn't change and doesn't grow. For more information about field types, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
 
 ## Roles required
 
 Reading CMDB tables directly requires the cmdb\_read role, however accessing the **Configuration** module requires the sn\_cmdb\_editor, sn\_cmdb\_admin, asset, itil, or itil\_admin roles. For viewing CMDB-related records in the user interface, the sn\_cmdb\_editor or itil roles are usually sufficient. For updating records and for other manipulation of records, roles with higher credentials are usually required, as noted in each procedure throughout the documentation set.
 
-For details about CMDB and other roles, see Base system roles, or see a feature components topic such as [Components installed with CMDB Workspace](../reference/installed-with-cmdb-workspace.md).
+For details about CMDB and other roles, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md), or see a feature components topic such as [Components installed with CMDB Workspace](../reference/installed-with-cmdb-workspace.md).
 
 **Related topics**  
 

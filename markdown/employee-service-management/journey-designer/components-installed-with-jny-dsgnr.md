@@ -15,7 +15,7 @@ breadcrumb: [Reference, Journey designer, Employee Journey Management, HR Servic
 
 Several types of components install with the activation of the Journey designer application, including user roles and tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 Demo data is available for the Journey designer application. If you want to install the demo data, click **Load demo data** when installing this application. Demo data includes sample records and configurations for common use cases.
 
@@ -95,9 +95,9 @@ sn\_hr\_core.case\_reader
 </td></tr></tbody>
 </table>You can assign these roles to the appropriate roles, groups, or users in your application.
 
--   To assign a role to another role, see Add a role to an existing role.
--   To assign a role to a group, see Assign a role to a group.
--   To assign a role to a user, see Assign a role to a user.
+-   To assign a role to another role, see [Add a role to an existing role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AddARoleToAnExistingRole.md).
+-   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
+-   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
 ## Modules with Role
 

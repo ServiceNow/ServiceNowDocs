@@ -46,7 +46,7 @@ Role required: discovery\_admin
 
     |Option|Description|
     |------|-----------|
-    |**Cluster of MID servers**|Select an existing MID Server or create one. Clusters provide failover protection and load balancing between MID Servers. See Configure a MID Server cluster for more information.|
+    |**Cluster of MID servers**|Select an existing MID Server or create one. Clusters provide failover protection and load balancing between MID Servers. See [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md) for more information.|
     |**Auto-select MID server**|An available MID Server is automatically selected when the Discovery schedule runs. See [Automatic MID Server selection](../../agent-client-collector/concept/acc-auto-mid-selection.md) for more information.|
     |**MID server**|Choose a MID Server to run the Discovery schedule. All MID Server are shown, but only ones that are up and validated can successfully run a Discovery schedule.|
 

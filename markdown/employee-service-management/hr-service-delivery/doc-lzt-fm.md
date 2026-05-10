@@ -19,9 +19,9 @@ Translate content in Document Templates and document blocks Localization Framewo
 
 -   Role required: sn\_doc.admin
 -   Install the Localization Framework Installer plugin \(com.glide.localization\_framework.installer\).
--   Configure Localization Framework with the required artifacts. See Artifact Configurations for more information.
--   Activate the required languages and configure them with Localization Framework. For more information, see Activate a language.
--   If you want to use machine translators, activate the Dynamic Translation plugin \(com.glide.dynamic\_translation\). Configure the Dynamic Translation framework for the translation service provider. For more information, see Dynamic Translation.
+-   Configure Localization Framework with the required artifacts. See [Artifact Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/framework-configuration.md) for more information.
+-   Activate the required languages and configure them with Localization Framework. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
+-   If you want to use machine translators, activate the Dynamic Translation plugin \(com.glide.dynamic\_translation\). Configure the Dynamic Translation framework for the translation service provider. For more information, see [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md).
 
 ## Procedure
 

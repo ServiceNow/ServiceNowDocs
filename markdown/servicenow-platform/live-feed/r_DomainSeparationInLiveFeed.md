@@ -80,5 +80,5 @@ All of the Live Feed features are available to users within a domain and work th
 
 [Restrict hashtag renaming](r_RestrictHashtagRenaming.md)
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

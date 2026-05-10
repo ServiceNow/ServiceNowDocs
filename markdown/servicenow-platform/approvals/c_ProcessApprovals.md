@@ -15,7 +15,7 @@ breadcrumb: [Approval rules, Classic approvals, Exploring Service Administration
 
 Once a request has passed its gating approvals, any relevant execution plans are initiated.
 
-**Important:** Classic approval rules have been replaced by the Workflow Studio Ask for Approval action. Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 Those plans, in turn, create a sequence of required tasks. You can add an approval step to an execution plan, which is configured to occur at the appropriate point.
 

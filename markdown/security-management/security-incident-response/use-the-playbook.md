@@ -298,7 +298,7 @@ Outcome type
 
 </td><td>
 
-If you have the sn\_si.basic role, select **Yes/No** as the outcome type. If you have the security\_admin role, you can create a custom outcome type with multiple custom output values. For example, you can define a task with dependant values based on the threat category. For more information, see Choice lists.
+If you have the sn\_si.basic role, select **Yes/No** as the outcome type. If you have the security\_admin role, you can create a custom outcome type with multiple custom output values. For example, you can define a task with dependant values based on the threat category. For more information, see [Choice lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ViewChoiceListDefinitions.md).
 
 </td></tr><tr><td>
 

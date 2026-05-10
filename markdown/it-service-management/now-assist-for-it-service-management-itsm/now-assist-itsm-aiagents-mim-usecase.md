@@ -27,7 +27,7 @@ Using the Generate post incident reviews agentic workflow, generate reports afte
 
 The time taken to create the report after the incident is resolved may be reduced, and the business impact may be minimized when responses to major incidents are both effective and efficient. For information on how major incidents are created, see [Major Incident Management process](../../incident-management/concept/major-incident-management-process.md).
 
-To modify the Generate post incident reviews agentic workflow, duplicate it, and adjust the settings according to your requirements.
+To modify the Generate post incident reviews agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 **Important:** When you modify a use case, AI agent, or tool, make sure that you update all instructions accordingly.
 

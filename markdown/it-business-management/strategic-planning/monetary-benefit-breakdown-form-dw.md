@@ -77,7 +77,7 @@ Fiscal period
 
 </td><td>
 
-Fiscals generated at the period level. For information on periods, see fiscal calendars.
+Fiscals generated at the period level. For information on periods, see [fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_FiscalCalendar.md).
 
 </td></tr><tr><td>
 

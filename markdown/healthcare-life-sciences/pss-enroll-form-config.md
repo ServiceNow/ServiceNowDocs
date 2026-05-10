@@ -21,5 +21,5 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 
 As a healthcare provider, you can use an enrollment application form to enable patients or practitioners to submit enrollment requests.
 
-As a user with the admin role, you can configure an enrollment application form and associate the form fields with application tables using the **PatientServicePortalUtils** script include. The script include provides a default implementation and is available within the Patient Support Services application. You can create your own implementation and associate it with the **PatientServicePortalUtils** script include. For more information, see Script includes.
+As a user with the admin role, you can configure an enrollment application form and associate the form fields with application tables using the **PatientServicePortalUtils** script include. The script include provides a default implementation and is available within the Patient Support Services application. You can create your own implementation and associate it with the **PatientServicePortalUtils** script include. For more information, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
 

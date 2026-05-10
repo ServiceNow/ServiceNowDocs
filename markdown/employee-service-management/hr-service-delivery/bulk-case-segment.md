@@ -99,7 +99,7 @@ Determines who to create the bulk HR case for:-   Upload file:
 
 **Note:** Only available to users with the sn\_hr\_core.content\_reader, sn\_hr\_core.content\_writer, or sn\_hr\_core.admin roles.
 
--   User criteria: Criteria based on role, department, group, location, or company. User criteria is a platform feature. See User criteria for Service Portal .
+-   User criteria: Criteria based on role, department, group, location, or company. User criteria is a platform feature. See [User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/user-criteria.md) .
 
 **Note:** Only available to users with the sn\_hr\_core.content\_reader, sn\_hr\_core.content\_writer, or sn\_hr\_core.admin roles.
 
@@ -109,7 +109,7 @@ Determines who to create the bulk HR case for:-   Upload file:
 
  For the **HR Profile** and **Users** filter, you can refine the selection. Right-click on a column, select **Filter Out** or **Show Matching**.
 
-**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
+**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr></tbody>
 </table>3.  Select **Save**.

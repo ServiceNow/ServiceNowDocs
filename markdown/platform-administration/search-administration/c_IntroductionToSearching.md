@@ -17,11 +17,11 @@ Zing offers users several search interfaces and search operators to conduct text
 
 |Search interface|Description|
 |----------------|-----------|
-|[Global search](c_GlobalTextSearch.md)|Find records in multiple tables using the global search field in the Next Experience Unified Navigation.|
-|Search a list|Find records in a list; search in a specific field \(Go to\), all fields \(Search\), or in a specific column.|
-|Knowledge Base|Find knowledge articles.|
-|Live feed|Filter, search, or sort messages in live feed.|
-|UI pages|Create a custom UI page to search for records in a table.|
+|[Global search](c_GlobalTextSearch.md)|Find records in multiple tables using the global search field in the [Next Experience Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/using-the-next-experience-global-header.md).|
+|[Search a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_SearchAList.md)|Find records in a list; search in a specific field \(Go to\), all fields \(Search\), or in a specific column.|
+|[Knowledge Base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeSearch.md)|Find knowledge articles.|
+|[Live feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseLiveFeed.md)|Filter, search, or sort messages in live feed.|
+|[UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_UIPages.md)|Create a custom UI page to search for records in a table.|
 
 |Search operator|Description|
 |---------------|-----------|

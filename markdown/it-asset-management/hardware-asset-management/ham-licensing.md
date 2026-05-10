@@ -175,7 +175,7 @@ Printer
 </td></tr></tbody>
 </table>**Note:** Unclassified hardware, Monitors, Storage, and Printers are available with Hardware Asset Management version 10.1.0 and later only when you upgrade to HAM license version 5.0.
 
-To access Hardware Asset Management features for Telecommunications Network Inventory, you should install the Telecommunications Network Inventory application and opt-in to the Telecom Network Inventory resource category. For more information, see Telecommunications Network Inventory integration with Hardware Asset Management.
+To access Hardware Asset Management features for Telecommunications Network Inventory, you should install the Telecommunications Network Inventory application and opt-in to the Telecom Network Inventory resource category. For more information, see [Telecommunications Network Inventory integration with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/integration-with-hardware-asset-management.md).
 
 ## HAM Licensing for custom model categories
 

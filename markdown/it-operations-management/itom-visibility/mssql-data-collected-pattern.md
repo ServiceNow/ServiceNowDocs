@@ -29,11 +29,11 @@ For detailed information on SQL Server supported versions see: [Detailed informa
     -   Visibility Content starting with version 6.12.1 \(August 2023\)
 -   **Create Windows credentials**
 
-    After verifying that the MID Server is connected to the target Windows server, create Windows credentials on the ServiceNow AI Platform. For more information, see Windows credentials.
+    After verifying that the MID Server is connected to the target Windows server, create Windows credentials on the ServiceNow AI Platform. For more information, see [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md).
 
 -   **Create applicative credentials when using SQL authentication**
 
-    For more information, see Applicative credentials.
+    For more information, see [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/applicative-creds.md).
 
 -   **Verify the configuration of the MID Server**
 

@@ -164,7 +164,7 @@ Provides the option to search by QRC or barcode. Learn more about this feature i
 -   **Auto fill options**
     -   **GPS Location**
 
-Auto-fills with the mobile user's location when the action is used. For details on this feature, see Mobile location tracking configuration.
+Auto-fills with the mobile user's location when the action is used. For details on this feature, see [Mobile location tracking configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/mobile-location-tracking.md).
 
     -   **Date**
 

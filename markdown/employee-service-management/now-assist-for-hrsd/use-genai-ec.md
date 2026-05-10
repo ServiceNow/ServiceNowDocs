@@ -43,7 +43,7 @@ When the generative AI experience is configured for catalog item request submiss
 
 2.  Set up Now Assist in Virtual Agent.
 
-    For complete details on how to turn on the skills and set up Gen AI Virtual Agent, see Configuring assistants overview.
+    For complete details on how to turn on the skills and set up Gen AI Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
     **Note:**
 

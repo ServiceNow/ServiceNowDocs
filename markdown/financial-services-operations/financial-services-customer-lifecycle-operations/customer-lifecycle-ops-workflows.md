@@ -68,7 +68,7 @@ Address change for customer
 Name change of customer
 
 </td></tr></tbody>
-</table>These workflows are built using Process Automation Designer and Flow Designer. The CLO admin can review and customize these workflows according to their organization's needs.
+</table>These workflows are built using [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md) and [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md). The CLO admin can review and customize these workflows according to their organization's needs.
 
 ## General workflow for Financial Services Customer Lifecycle Operations
 

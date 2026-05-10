@@ -27,7 +27,7 @@ Use case: When a service provider \(SP\) uses chat to respond to a tenant-custom
 
 The mobile platform supports domain separation for all native clients. The mobile UI design clearly indicates the domain that a record is associated with.
 
-Before extending the domain separation functionality to mobile, the feature must be enabled on the platform web-based interface. For further information on configuration, see Domain separation setup and administration.
+Before extending the domain separation functionality to mobile, the feature must be enabled on the platform web-based interface. For further information on configuration, see [Domain separation setup and administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparationSetup.md).
 
 ## How domain separation works in mobile
 

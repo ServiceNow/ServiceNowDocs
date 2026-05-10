@@ -15,7 +15,7 @@ breadcrumb: [Explore, Process Mining, Platform Analytics]
 
 Understand the basic attributes of the Process Mining architecture.
 
--   The mining engine of Process Mining extracts data from the audit history based on the project settings. The data file is then uploaded to a centralized training server \(ServiceNow® Predictive Intelligence\) within the same datacenter. The centralized training server enables advanced computing of new metrics. The centralized server supports more data for scalability without causing any performance load on your instance.
+-   The mining engine of Process Mining extracts data from the audit history based on the project settings. The data file is then uploaded to a centralized training server \([ServiceNow® Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md)\) within the same datacenter. The centralized training server enables advanced computing of new metrics. The centralized server supports more data for scalability without causing any performance load on your instance.
 -   When the Process Mining project is ready, the training server sends the final project back to your instance and deletes all project data from the server. The data is transferred using secured and encrypted APIs.
 -   The most recent version of the project is then visualized through the Analyst workbench UI on your instance.
 
@@ -34,5 +34,5 @@ For detailed information on data handling and security in Predictive Intelligenc
 
 [Process Mining workspace](analyst-workbench-overview.md)
 
-[bundle-platai.predictive-intelligence]
+[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md)
 

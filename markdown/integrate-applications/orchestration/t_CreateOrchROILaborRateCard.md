@@ -27,7 +27,7 @@ The hourly rates defined in the rate cards are used to determine the savings fro
 
 1.  Navigate to **All** &gt; **Orchestration** &gt; **ROI** &gt; **Labor Rate Cards**.
 
-2.  Complete the fields in the form using the descriptions in Manage a labor rate card.
+2.  Complete the fields in the form using the descriptions in [Manage a labor rate card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/t_ManageALaborRateCard.md).
 
 3.  Click **Submit**.
 

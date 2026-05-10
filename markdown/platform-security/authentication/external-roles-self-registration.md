@@ -23,5 +23,5 @@ By default, users with the snc\_external role cannot access:
 -   Non-record type resources, such as processors and UI pages without the snc\_external role or a role that inherits the snc\_external role.
 -   Platform Analytics dashboards.
 
-Beginning with the Paris release, you must enable an exclude-list property to enforce the explicit assignment of snc\_external roles. For information about enabling the property, see Prevent future internal role assignments for external users.
+Beginning with the Paris release, you must enable an exclude-list property to enforce the explicit assignment of snc\_external roles. For information about enabling the property, see [Prevent future internal role assignments for external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/fix-csm-external-user-roles-task4.md).
 

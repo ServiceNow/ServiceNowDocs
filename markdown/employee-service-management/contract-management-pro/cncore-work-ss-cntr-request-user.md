@@ -27,15 +27,15 @@ Role required: sn\_lg\_cnt.contract\_user
 
 3.  Work on the contract request.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d767102e63">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d767106e63">
 
 Action
 
-</th><th align="left" id="d767102e66">
+</th><th align="left" id="d767106e66">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d767102e72">
+</th></tr></thead><tbody><tr><td id="d767106e72">
 
 **Modify the request details**
 
@@ -43,7 +43,7 @@ Steps
 
 Modify the fields of the self-served review request.If you want to add a company name that is not listed in the **Company** field, select the **Add new company name** check box and then enter the company name in the **New company legal name** field.
 
-</td></tr><tr><td id="d767102e92">
+</td></tr><tr><td id="d767106e92">
 
 **Regenerate contract document**
 
@@ -51,7 +51,7 @@ Modify the fields of the self-served review request.If you want to add a company
 
 Create a contract document revision from the contract template that includes the latest values and discards the changes made in the previous version of the document. For more information, see [Regenerate contract document after modifying request](cncore-regen-contract-doc.md).
 
-</td></tr><tr><td id="d767102e108">
+</td></tr><tr><td id="d767106e108">
 
 **Sync the document__Note:__ This option is available on Contract Management Pro starting with version 1.2.1
 
@@ -61,7 +61,7 @@ Create a contract document revision from the contract template that includes the
 
 Create a new version of the contract document with updated metadata and signatories while retaining the changes made in the previous version. For more information, see [Create an updated contract document revision after modifying a self-served contract request \(starting Contract Management Pro 1.2.1\)](cncore-sync-document.md).
 
-</td></tr><tr><td id="d767102e129">
+</td></tr><tr><td id="d767106e129">
 
 **Sync signatories__Note:__ This option isn’t available on Contract Management Pro starting with version 1.2.1 because it is no longer necessary.
 
@@ -71,7 +71,7 @@ Create a new version of the contract document with updated metadata and signator
 
 Update the contract document with the latest signatory details. For more information, see [Updating and synchronizing signatories](cncore-update-sync-signatories.md)
 
-</td></tr><tr><td id="d767102e150">
+</td></tr><tr><td id="d767106e150">
 
 **Send the document for signature.**
 
@@ -79,7 +79,7 @@ Update the contract document with the latest signatory details. For more informa
 
 See [Send a contract document for signature](cncore-send-doc-signature.md).
 
-</td></tr><tr><td id="d767102e166">
+</td></tr><tr><td id="d767106e166">
 
 **Cancel request**
 

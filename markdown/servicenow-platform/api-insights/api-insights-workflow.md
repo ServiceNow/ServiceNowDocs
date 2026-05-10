@@ -29,7 +29,7 @@ The **API Grant/Reject Access Template** subflow is available with the API Insig
 
 To manage API access requests through custom flows, it's essential to configure the flow with specific input parameters. These parameters guide the flow's behavior.
 
-To learn about creating flows, see Getting started with flows.
+To learn about creating flows, see [Getting started with flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-flow.md).
 
 When creating a flow for API access request automation, you must use specific parameters that control how the flow works.
 

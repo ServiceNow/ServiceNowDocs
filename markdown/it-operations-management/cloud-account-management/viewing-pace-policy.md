@@ -43,7 +43,7 @@ For each step, an entry is created in the **sn\_itom\_cam\_automation\_activity*
 
 6.  To remove a condition, select the delete icon ![Delete](../../event-management/image/delete-input-icon.png).
 
-    **Note:** For more information on managing policies, see Manage PaCE policies.
+    **Note:** For more information on managing policies, see [Manage PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-admin-manage-policies.md).
 
 
 ## What to do next

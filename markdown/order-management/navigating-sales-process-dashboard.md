@@ -57,5 +57,5 @@ Related lists configured in the Sales cockpit view in Next Experience UI govern 
 
 [Linking, delinking, and link conversion conditions](conditions-link-delink-toggle-records.md)
 
-[bundle-convint.using-sidebar]
+[Using Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/using-sidebar.md)
 

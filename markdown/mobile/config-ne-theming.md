@@ -17,7 +17,7 @@ Learn how to enable Next Experience theming, and create and apply themes for you
 
 **Important:** Use Next Experience theming on Utah and later versions of ServiceNow® instances.
 
-To use Next Experience theming, you must have Next Experience enabled on your instance. For activation instructions and more information on Next Experience, see Exploring themes in Next Experience.
+To use Next Experience theming, you must have Next Experience enabled on your instance. For activation instructions and more information on Next Experience, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
 
 ## Available themes for mobile apps
 
@@ -58,7 +58,7 @@ Create Next Experience themes on the UX Theme \[sys\_ux\_theme\] table on your i
 
 Each UX Theme record is linked one or more UX Style \[sys\_ux\_style\] records that define the appearance of the UI when you apply a theme to your instance. As with theme records, the default style records aren't editable, but can be copied.
 
-Learn more about Next Experience theme configuration at Configuring Next Experience themes and preferences.
+Learn more about Next Experience theme configuration at [Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-next-experience-themes-prefs.md).
 
 **Important:** Mobile apps only use the color elements of a UX style. Elements such as font, shadow, opacity, and other non-color elements in a theme do not change the appearance of the mobile UI.
 

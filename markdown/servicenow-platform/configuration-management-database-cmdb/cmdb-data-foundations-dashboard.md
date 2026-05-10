@@ -59,7 +59,7 @@ The following columns appear in the list view of metrics:
 
 ## Performance Analytics widgets
 
-Most metrics are associated with Performance Analytics \(PA\) widgets \(tiles\) that provide further details about CIs that are not in compliance with the metric. Drill down the tiles to access PA widgets, which are provided by the **CMDB Data Foundations PA Metric Collection** scheduled job.
+Most metrics are associated with [Performance Analytics \(PA\) widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_Widgets.md) \(tiles\) that provide further details about CIs that are not in compliance with the metric. Drill down the tiles to access PA widgets, which are provided by the **CMDB Data Foundations PA Metric Collection** scheduled job.
 
 On the Analytics Hub page:
 

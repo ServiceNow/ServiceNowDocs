@@ -34,7 +34,7 @@ Role required: virtual\_agent\_admin or admin
 
 2.  Configure Virtual Agent Lite for additional portals.
 
-    Virtual Agent Lite appears in the Service portal by default. For more information about configuring the Service portal, see Service Portal events.
+    Virtual Agent Lite appears in the Service portal by default. For more information about configuring the Service portal, see [Service Portal events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-analytics-events.md).
 
 3.  [Preview and test ITSM Virtual Agent Lite topics in Virtual Agent Designer.](test-valite-topic.md)
 

@@ -85,14 +85,14 @@ page parameters
 
 </td><td>
 
-Additional parameters are required by some pages to load dynamic content by looking up a record \(table, sys\_id\). Find the `$sp.getParameter` calls in a widget server script to see the parameters that a widget uses. For more detail on this method, see GlideSPScriptable - Scoped.
+Additional parameters are required by some pages to load dynamic content by looking up a record \(table, sys\_id\). Find the `$sp.getParameter` calls in a widget server script to see the parameters that a widget uses. For more detail on this method, see [GlideSPScriptable - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSPScriptableScopedAPI.md).
 
  If you don’t include these additional parameters when required, you might get a `You are either not authorized or record is not valid` error message.
 
 </td></tr></tbody>
 </table>For example, the URL for a public knowledge base page in Spanish in Service Portal could be `https://<instance>/sp/es/faq/what-is-a-cookie?id=kb_article&sys_id=KB0000007`.
 
-**Note:** If you use article versioning with the Knowledge Management - Service Portal \(com.snc.knowledge\_serviceportal\) plugin, you must add the article version number to the URL to open a knowledge article in the base system or knowledge portals. For example, instead of accessing an article using the URL `https://<instance>/sp?id=kb_article&sys_id=KB0000005`, you must include the article version number: `https://<instance>/sp?id=kb_article&sys_id=KB0000005%20V1.0`. To learn more, see Article versioning.
+**Note:** If you use article versioning with the Knowledge Management - Service Portal \(com.snc.knowledge\_serviceportal\) plugin, you must add the article version number to the URL to open a knowledge article in the base system or knowledge portals. For example, instead of accessing an article using the URL `https://<instance>/sp?id=kb_article&sys_id=KB0000005`, you must include the article version number: `https://<instance>/sp?id=kb_article&sys_id=KB0000005%20V1.0`. To learn more, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/article-versioning.md).
 
 ## Referencing a page ID
 

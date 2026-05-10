@@ -87,7 +87,7 @@ Condition
 
 Business conditions based on which the policy is mapped dynamically to specific deployables.For example, to dynamically map policies to only deployables that have the environment type as production, you can define the condition as: **\[Environment\]\[is\]\[Production\]**.
 
-For more information on defining a condition, see Map PaCE policies using Dynamic Mapping.
+For more information on defining a condition, see [Map PaCE policies using Dynamic Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-validate-dynamic.md).
 
 </td></tr><tr><td>
 
@@ -141,7 +141,7 @@ Tags that are associated with the policy.
 **Related topics**  
 
 
-[bundle-platcap.pace-validate-static]
+[Map PaCE policies using Static Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-validate-static.md)
 
-[bundle-platcap.pace-validate-dynamic]
+[Map PaCE policies using Dynamic Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-validate-dynamic.md)
 

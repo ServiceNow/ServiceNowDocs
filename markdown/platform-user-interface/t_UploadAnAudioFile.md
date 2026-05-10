@@ -19,7 +19,7 @@ Role required: image\_admin
 
 ## About this task
 
-The Database Storage for Audio Files \(com.glide.db\_audio\) feature must be activated to store audio files. The plugin is activated by default on new instances. For upgraded instances, you can activate the plugin if you have the admin role. For more information on activating a plugin, see Activate a plugin.
+The Database Storage for Audio Files \(com.glide.db\_audio\) feature must be activated to store audio files. The plugin is activated by default on new instances. For upgraded instances, you can activate the plugin if you have the admin role. For more information on activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 ## Procedure
 

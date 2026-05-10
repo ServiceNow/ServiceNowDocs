@@ -39,9 +39,9 @@ Flow action that generates and assigns assessment instances from a published ass
 </table>**Related topics**  
 
 
-[bundle-cadev.flow-designer]
+[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md)
 
-[bundle-crworkflow.flows]
+[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md)
 
-[bundle-crworkflow.create-flow]
+[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
 

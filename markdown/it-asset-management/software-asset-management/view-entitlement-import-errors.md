@@ -33,7 +33,7 @@ The entitlement import records are stored in the Entitlement import \[samp\_bulk
 
 3.  In the Entitlement import page, click **Download template** to download a spreadsheet template\(.xlsx\).
 
-    You can add software entitlement fields to the template to include additional fields in your import. Add each field as a new column in the template. The column name must match the field label exactly. You can include base system software entitlement fields as well as your custom software entitlement fields. To learn how to create a custom field, see Add and customize a field in a table.
+    You can add software entitlement fields to the template to include additional fields in your import. Add each field as a new column in the template. The column name must match the field label exactly. You can include base system software entitlement fields as well as your custom software entitlement fields. To learn how to create a custom field, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingNewFields.md).
 
     By default, the **Unit cost** column in the spreadsheet takes into account the currency that your system is set to. However you can manually change the currency and the Software Asset Management application will honor the currency that you specify. To specify a currency, enter the currency code followed by a semicolon and the cost. For example, `EUR;200`. Valid currency codes are the ones listed in the Currency \[fx\_currency\] table and have the **Active** column set to true.
 

@@ -15,7 +15,7 @@ Provide users the information that they need to start working by creating custom
 
 ## Before you begin
 
-Creating custom Next Experience landing pages requires configuring page components in UI Builder. For a quick tutorial on using UI Builder, see UI Builder quick start in the UI Builder documentation.
+Creating custom Next Experience landing pages requires configuring page components in UI Builder. For a quick tutorial on using UI Builder, see [UI Builder quick start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-quick-start.md) in the UI Builder documentation.
 
 Role required: ui\_builder\_admin or admin
 
@@ -47,7 +47,7 @@ To customize a Next Experience landing page for different audiences and use case
 
     3.  Next to the **Audiences** field, select **Add** and then select an audience from the list.
 
-        The audience defines who can see a page. By default, all users can see a page. For more information about audiences, see Learn about audiences in the UI Builder documentation.
+        The audience defines who can see a page. By default, all users can see a page. For more information about audiences, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-audiences.md) in the UI Builder documentation.
 
     4.  In the **Conditions** field, add criteria for when to display the page by entering an encoded query string.
 
@@ -57,7 +57,7 @@ To customize a Next Experience landing page for different audiences and use case
 
 6.  Customize the components on the page according to the needs of your audience.
 
-    You can customize what components are included on the page, the data they connect to, their style, and event mappings. To learn more about how to customize components on a page, refer to Customize UI Builder pages using components in the UI Builder documentation.
+    You can customize what components are included on the page, the data they connect to, their style, and event mappings. To learn more about how to customize components on a page, refer to [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md) in the UI Builder documentation.
 
     To enable a footer for the page, see [Configure a Next Experience landing page footer](configure-next-experience-landing-page-footer.md).
 

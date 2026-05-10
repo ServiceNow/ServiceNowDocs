@@ -20,7 +20,7 @@ Connect Zero Copy Connector for ERP \(Enterprise Resource Planning\) to a system
 
 Role required: sn\_erp\_integration.erp\_admin
 
-Identify an existing connection to use or create a connection. For more information, see Get started with connections and Create an HTTP\(s\) connection.
+Identify an existing connection to use or create a connection. For more information, see [Get started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-information.md) and [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md).
 
 Note the following:
 

@@ -33,7 +33,7 @@ Role required: admin
 
     ![Review the Resource path value for the REST endpoint.](../images/scripted-rest-api-endpoint.png)
 
-    For a description of the request parameters and an example send request, see Virtual Agent Bot Integration API.
+    For a description of the request parameters and an example send request, see [Virtual Agent Bot Integration API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md).
 
 5.  In the **Security** tab on the same page, select the **Requires authentication** check box.
 
@@ -47,7 +47,7 @@ Role required: admin
 
     -   Set up Basic or OAuth authentication.
 
-        To learn more about OAuth authentication and the possible security configurations for scripted REST APIs, see Enable OAuth with inbound REST.
+        To learn more about OAuth authentication and the possible security configurations for scripted REST APIs, see [Enable OAuth with inbound REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_EnableOAuthWithREST.md).
 
     -   Set up Message Authentication, which involves configuring either Static or Hash tokens, setting up Provider Authentication, and setting the channel identity. For details, see [Configure Message Authentication for inbound communication](set-up-message-auth-va-api.md).
 

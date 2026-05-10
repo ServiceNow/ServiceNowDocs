@@ -87,7 +87,7 @@ Role required: admin and sn\_hs\_rm.permit\_coordinator
 
         The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with the Flow Designer basics.
 
-        For information on how to create or modify flows, see Create a flow.
+        For information on how to create or modify flows, see [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
 
     4.  Select the new checklist type in the **Checklist type** field.
 

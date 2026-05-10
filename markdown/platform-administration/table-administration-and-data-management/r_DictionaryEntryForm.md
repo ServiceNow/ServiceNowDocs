@@ -168,7 +168,7 @@ For example, the following function definition creates a field that shows the sh
 
 `glidefunction:concat(short_description, ' ', caller_id.name)`
 
-**Note:** Function parameters support dot-walking. See Dot-walking to data in related tables.
+**Note:** Function parameters support dot-walking. See [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md).
 
 </td></tr><tr><td>
 
@@ -196,7 +196,7 @@ Dynamic filter value \[Advanced view\]
 
 </td><td>
 
-Specifies the Create a dynamic filter option that determines the default value if the **Use dynamic default** option is selected.
+Specifies the [Create a dynamic filter option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_DynamicFilterOptions.md) that determines the default value if the **Use dynamic default** option is selected.
 
 </td></tr><tr><td>
 
@@ -225,7 +225,7 @@ Use reference qualifier \[Advanced view\]
 </td><td>
 
 Specifies the type of qualifier to use:-   Simple: A set of choice lists where you can specify a reference qualifier condition.
--   Dynamic: A Create a dynamic filter option that you can use to build the qualifier.
+-   Dynamic: A [Create a dynamic filter option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_DynamicFilterOptions.md) that you can use to build the qualifier.
 -   Advanced: A static encoded query string or JavaScript code that you can use to build the qualifier.
 
 </td></tr><tr><td>
@@ -242,7 +242,7 @@ Dynamic ref qual \[Advanced view\]
 
 </td><td>
 
-Specifies the Create a dynamic filter option that determines the reference qualifier when the **Dynamic** qualifier type is selected.
+Specifies the [Create a dynamic filter option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_DynamicFilterOptions.md) that determines the reference qualifier when the **Dynamic** qualifier type is selected.
 
 </td></tr><tr><td>
 
@@ -359,7 +359,7 @@ Calculation Type \[Advanced view\]
 
 </td><td>
 
-Allows you to select script based calculation or formula based calculation for a column. For more information about predefined functions and example formulas, see Formulas for column values in Table Builder.
+Allows you to select script based calculation or formula based calculation for a column. For more information about predefined functions and example formulas, see [Formulas for column values in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/formulas-columns-table-builder.md).
 
 </td></tr><tr><td>
 

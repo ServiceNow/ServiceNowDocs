@@ -88,5 +88,5 @@ Several types of components are installed with the Best Practice- Change Risk Ca
 
 [Activate Change Management - Data Archiving](activate-data-retention-archive-rule.md)
 
-[bundle-platadm.list-of-plugins]
+[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

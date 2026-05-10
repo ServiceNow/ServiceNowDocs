@@ -57,22 +57,22 @@ Now Assist for CSM provides base system skills that can be tailored to meet spec
 ## Access and clone base system skills with the Now Assist Skill Kit
 
 1.  Navigate to **All** &gt; **Now Assist Skill KIt**.
-2.  Under the **ServiceNow skills** tab, select the prompt you want to edit in Now Assist Skill Kit.
+2.  Under the **ServiceNow skills** tab, select the prompt you want to edit in [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md).
 
     **Note:** You need the sn\_skill\_builder.admin role to activate and customize the prompt in the Now Assist Skill Kit \(NASK\).
 
-3.  Create a clone for the selected skill by selecting the overflow icon ![More options](../image/OverflowIcon.png)
+3.  Create a [clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/clone-and-edit-servicenow-skill.md) for the selected skill by selecting the overflow icon ![More options](../image/OverflowIcon.png)
 4.  Enter a name, description and provider to clone the skill.
 5.  In the **Skill contents** pane, select the**Inputs** edit icon and add any inputs that you like to add to the prompt.
-6.  In the **Prompt** screen, select the edit icon and add the desired inputs to the prompt or Create a new prompt.
-7.  Test the prompt.
-8.  Evaluate the prompt.
-9.  Finalize and publish the skill from the Now Assist Skill Kit.
+6.  In the **Prompt** screen, select the edit icon and add the desired inputs to the prompt or [Create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md) a new prompt.
+7.  [Test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/test-prompt-template.md) the prompt.
+8.  [Evaluate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/evaluate-prompt.md) the prompt.
+9.  [Finalize and publish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/publish-skill.md) the skill from the Now Assist Skill Kit.
 
     **Warning:** Once finalized, you won't be able to edit this version of the prompt. You can always update and create a new version, or clone and create a new prompt.
 
 10. Test the changes on associated records.
-11. Activate it in the Now Assist Admin console and set display options.
+11. [Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/activate-skill.md) it in the Now Assist Admin console and set display options.
 
     **Note:** This is not required for all skills.
 

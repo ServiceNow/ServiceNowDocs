@@ -35,7 +35,7 @@ Role required: sp\_admin
 
 5.  On the Menu item form, fill in the fields.
 
-    For a description of the field values, see Menu Item form.
+    For a description of the field values, see [Menu Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/menu-item-form.md).
 
     **Note:** If a message appears about the application scope, select **here** to be able to edit the record.
 

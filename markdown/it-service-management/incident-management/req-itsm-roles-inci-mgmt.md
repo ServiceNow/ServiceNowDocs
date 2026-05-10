@@ -146,5 +146,5 @@ Several user roles are installed with activation of the ITSM Roles — Incident 
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of Australia plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

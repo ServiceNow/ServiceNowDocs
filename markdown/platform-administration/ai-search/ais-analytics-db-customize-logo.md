@@ -29,7 +29,7 @@ The AI Search Analytics dashboard displays the ServiceNow logo in the banner. Yo
 
 1.  Switch to the Advanced AI Search Management Tools application.
 
-    For details on switching applications, see Switch between applications.
+    For details on switching applications, see [Switch between applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/t_SwitchBetweenApplications.md).
 
 2.  To replace the default **header\_for\_dashboard** UX theme asset with a version containing your logo, perform the following steps.
 
@@ -50,7 +50,7 @@ The AI Search Analytics dashboard displays the ServiceNow logo in the banner. Yo
 
     6.  In the form header, select the Manage Attachments icon ![](../../using-forms/image/UI14FormAttachments.png) and attach your logo image to the new record.
 
-        To learn more about managing record attachments, see Manage attachments.
+        To learn more about managing record attachments, see [Manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ManagingAttachments.md).
 
     7.  Select **Submit**.
 

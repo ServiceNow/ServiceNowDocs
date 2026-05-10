@@ -21,7 +21,7 @@ Use the Performance Analytics widgets on the dashboard to visualize data over ti
 
 **Note:** Solutions include some dashboards that are inactive by default. You can activate these dashboards to make them visible to end users according to your business needs.
 
-For unlimited access to all features of this Platform Analytics Solution, purchase a Performance Analytics subscription. For more information, see Activating your Performance Analytics subscription.
+For unlimited access to all features of this Platform Analytics Solution, purchase a Performance Analytics subscription. For more information, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
 
 To enable the solution for Service Level Management, an admin navigates to **System Definitions** &gt; **Plugins** and activates the Service Level Management PA Dashboard \(com.snc.pa.sla.overview\) plugin.
 
@@ -39,5 +39,5 @@ The Service Level Agreement \(SLA\) Overview module provides a Performance Analy
 **Related topics**  
 
 
-[bundle-par.c_PremiumPerformanceAnalytics]
+[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md)
 

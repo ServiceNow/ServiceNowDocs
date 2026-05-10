@@ -17,7 +17,7 @@ Provides Trusted Automated Exchange of Intelligence Information \(TAXII\) server
 
 This API requires the Threat Intelligence Security Center application, which is available on the ServiceNow Store.
 
-For additional information about TISC, see Threat Intelligence Security Center.
+For additional information about TISC, see [Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-landing-page.md).
 
 This API runs in the `sn_sec_tisc` namespace. The calling user must have the sn\_sec\_tisc.taxii\_server\_api\_user role.
 

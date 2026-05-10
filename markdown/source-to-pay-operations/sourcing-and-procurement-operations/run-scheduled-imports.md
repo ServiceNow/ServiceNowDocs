@@ -29,7 +29,7 @@ Role required: import\_scheduler, import\_admin, or admin
 
     ![The Example File Based Catalog Import form.](../image/spo-run-scheduled-import.png)
 
-3.  Follow the steps for data import.
+3.  Follow the steps for [data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md).
 
 
 ## What to do next

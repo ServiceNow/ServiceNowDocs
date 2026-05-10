@@ -33,5 +33,5 @@ Role required: admin
 **Related topics**  
 
 
-[bundle-platcap.create-a-knowledgebase]
+[Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-a-knowledgebase.md)
 

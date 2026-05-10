@@ -79,7 +79,7 @@ MID Server Name
 
 Select an existing MID Server to link to a Git repository stored behind your corporate firewall.**Note:** Use a separate MID Server to prevent conflicts with Discovery activities.
 
-See MID Server for more information.
+See [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -95,7 +95,7 @@ Credential
 
 </td><td>
 
-Select the credential for your Git repository. For more information, see Getting started with Credentials.**Note:** If you select the ssh network protocol, enter a valid credential of the SSH Private Key type. If you select the https protocol, enter a valid credential of the Basic Auth Credentials type.
+Select the credential for your Git repository. For more information, see [Getting started with Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-getting-started.md).**Note:** If you select the ssh network protocol, enter a valid credential of the SSH Private Key type. If you select the https protocol, enter a valid credential of the Basic Auth Credentials type.
 
 </td></tr></tbody>
 </table>    **Note:** All application developers on the instance share the credential used to link a Git repository to an application.
@@ -119,7 +119,7 @@ Select the credential for your Git repository. For more information, see Getting
 **Related topics**  
 
 
-[bundle-platcap.mid-server-landing]
+[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md)
 
-[bundle-psec.credentials-getting-started]
+[Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-getting-started.md)
 

@@ -19,7 +19,7 @@ Set up the Agent-Initiated Messaging Interface application to send messages from
 
 -   [Install agent-initiated messaging interface](install-agent-init-messg.md).
 -   [Review the list of messaging channels available for the Agent-Initiated Messaging Interface application](../reference/agent-init-messg-sc-setting.md).
--   Set the application scope to the application associated with the messaging channel using the application picker. For more information, see Application picker.
+-   Set the application scope to the application associated with the messaging channel using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
     For example, for using the SMS messaging channel, set the application scope to the Conversational SMS service channel application.
 
@@ -67,7 +67,7 @@ Check if active recipient profile exists
 
 </td><td>
 
-Option to ensure that an active channel user profile exists when sending messages to the user from the channel.If there are no active channel user profiles, the associated channel is not available for agent-initiated messages. In this case, the channel does not appear in the **Channel** field of the Compose Message form. For information on the Compose Message form available in CSM Configurable Workspace, see Initiate messaging conversations from CSM Configurable Workspace.
+Option to ensure that an active channel user profile exists when sending messages to the user from the channel.If there are no active channel user profiles, the associated channel is not available for agent-initiated messages. In this case, the channel does not appear in the **Channel** field of the Compose Message form. For information on the Compose Message form available in CSM Configurable Workspace, see [Initiate messaging conversations from CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/agent-init-messg-csm-cws.md).
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ Order
 
 </td><td>
 
-Order number for each channel in which they appear for agent on the Compose Message form when composing messages. The channel that has the lowest order number is displayed first.For information on the Compose Message form available in CSM Configurable Workspace, see Initiate messaging conversations from CSM Configurable Workspace.
+Order number for each channel in which they appear for agent on the Compose Message form when composing messages. The channel that has the lowest order number is displayed first.For information on the Compose Message form available in CSM Configurable Workspace, see [Initiate messaging conversations from CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/agent-init-messg-csm-cws.md).
 
 </td></tr></tbody>
 </table>4.  Save the configuration setting.

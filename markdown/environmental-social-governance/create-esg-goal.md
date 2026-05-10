@@ -25,7 +25,7 @@ After you create a [material topic](create-material-topics.md), you must also cr
 -   If you integrate with Integrated Risk Management, you can add policies. You can also monitor the goal-related risks, policy and control compliance, and issues that are due. This integration enables you to create policies and implement controls to reinforce company goals.
 -   If you integrate with Project Portfolio Management, you can add programs and projects for the goal.
 
-For more information, see Goal framework
+For more information, see [Goal framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/goal-framework.md)
 
 ## Procedure
 

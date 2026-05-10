@@ -29,7 +29,7 @@ Telephone number
 
 </td><td>
 
-Telephone number that conforms with the e164 naming convention. For more information, see E.164 phone number field configuration.
+Telephone number that conforms with the e164 naming convention. For more information, see [E.164 phone number field configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ConfigureE.164PhoneNumberFields.md).
 
 </td></tr><tr><td>
 

@@ -39,7 +39,7 @@ Role required: asset
 
 8.  Tap **Scan next item** each time to scan the barcodes of the next parts.
 
-    The default configuration enables you to scan a maximum of five parts at a time. You can increase or decrease the count of scanning multiple items at a time. For more information, see Configure a grouped input for multiple scans.
+    The default configuration enables you to scan a maximum of five parts at a time. You can increase or decrease the count of scanning multiple items at a time. For more information, see [Configure a grouped input for multiple scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-multiscan.md).
 
 9.  After scanning all the parts, tap **Review**.
 

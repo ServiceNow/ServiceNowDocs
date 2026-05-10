@@ -107,7 +107,7 @@ The Select spaces pop-up opens.
 
 2.  Add conditions to filter the spaces.
 
-For example, `Department is Finance`. For more information about conditions, see Condition builder.
+For example, `Department is Finance`. For more information about conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 3.  Select the spaces from the list.
  Alternatively, you can select multiple spaces on the map by holding the Shift key. You can also hold the Shift key and draw a circle to select spaces on the map.
@@ -141,7 +141,7 @@ The Select users pop-up opens.
 
 2.  Add conditions to filter the users.
 
-For example, `Workplace profile is Active`. For more information about conditions, see Condition builder.
+For example, `Workplace profile is Active`. For more information about conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 3.  Select the users from the list.
  The details panel displays information about the selected users and their assigned spaces.

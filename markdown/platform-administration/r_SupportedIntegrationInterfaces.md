@@ -17,13 +17,13 @@ ServiceNow provides a number of interfaces to be able to directly integrate with
 |---------|
 |[Email](../../../administer/notification/concept/c_InboundEmailActions.md)|
 |[JDBC](../../inbound-other-web-services/task/t_JDBCProbe.md)|
-|JSONv2 Web Service|
-|LDAP integration|
-|SOAP web service|
-|REST API|
-|SAML|
-|Digest token authentication|
-|ODBC driver|
+|[JSONv2 Web Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_JSONv2WebService.md)|
+|[LDAP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/c_LDAPIntegration.md)|
+|[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPWebService.md)|
+|[REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md)|
+|[SAML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_SAML2.0WebBrowserSSOProfile.md)|
+|[Digest token authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_DigestTokenAuthentication.md)|
+|[ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_ODBCDriver.md)|
 |[Data Export](../../../administer/exporting-data/concept/c_ExportData.md)|
 |[CTI](../../incident/reference/r_ComputerTelephonyIntegration.md)|
 |[Syslog probe](r_SyslogProbe.md)|

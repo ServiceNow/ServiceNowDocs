@@ -35,7 +35,7 @@ Set the **glide.zta.high\_assurance.mobile.session.allowed** system property to 
 |Fallback value|false|
 |Recommended value|false|
 
-To learn more about adding or creating a system property, see Add a system property.
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Parent Topic:**[Session management](sc-session-management.md)
 

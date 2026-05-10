@@ -74,7 +74,7 @@ Role required: agent\_client\_collector\_admin
 
     3.  Select the type of credentials you want to create.
 
-        For details on creating credentials, see Create a Connection and Credential alias.
+        For details on creating credentials, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
 
     4.  Enter values in the fields on the page to assign credentials to your selected credential type.
 

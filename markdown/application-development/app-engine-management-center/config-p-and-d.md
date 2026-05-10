@@ -25,7 +25,7 @@ The Pipelines and Deployments guided setup provides a sequence of tasks that hel
 
 Starting with version 28.2.1 of Pipelines and Deployments, you can migrate your existing pipelines to ReleaseOps. To learn more about the migration process and the advantages of migrating to ReleaseOps, see [Migrating App Engine pipelines to ReleaseOps](../../app-engine-management-center/concept/migrating-ae-pipelines-to-releaseops-aemc.md). To get started migrating your existing pipelines, see [Migration tasks](../../app-engine-management-center/concept/migration-tasks-aemc.md).
 
-For general information about guided setup, see Using guided setup.
+For general information about guided setup, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 ## Procedure
 
@@ -65,7 +65,7 @@ For general information about guided setup, see Using guided setup.
     2.  [Configure your controller instance](config-controller-instance.md).
     3.  [Enable Automated Test Framework \(ATF\) properties](enable-atf-properties.md).
     4.  [Configure Automated Test Framework \(ATF\) suite](../../../administer/auto-test-framework/concept/automated-test-framework.md).
-    5.  Configure Instance Scan suite.
+    5.  [Configure Instance Scan suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-landing-page.md).
     When you have completed all of the tasks in this category, the Guided Setup screen reappears.
 
 5.  Select the last **Get Started** button to begin performing tasks for all of the other non-production \(that is, test, development, staging, and so forth\) instances in your pipeline.

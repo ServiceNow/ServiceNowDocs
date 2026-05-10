@@ -23,13 +23,13 @@ Role required:
 -   The connection\_admin or admin role is required to assign attribute values.
 -   The action\_designer or admin role is required to use attributes in a custom action.
 
-Connection attributes are only used by integration steps, which require a subscription to Integration Hub. For more information about activating Integration Hub, see Request an Integration Hub plugin.
+Connection attributes are only used by integration steps, which require a subscription to Integration Hub. For more information about activating Integration Hub, see [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-integrationhub.md).
 
 ## About this task
 
 When using an integration step, you must establish a connection with an external system. Use a Connection &amp; Credential alias instead of defining the connection inline. An alias enables you to update the connection details once without having to reconfigure every action. Any action step that uses an alias inherits the attributes associated with it. Workflow Studio displays attributes as data pills that you can drag into your action step. For example, you can create a page size attribute that becomes a REST step query parameter.
 
-For more information about building custom Workflow Studio actions, see Workflow Studio.
+For more information about building custom Workflow Studio actions, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/actions.md).
 
 ## Procedure
 
@@ -41,11 +41,11 @@ For more information about building custom Workflow Studio actions, see Workflow
 
 4.  Define the attribute label and field type.
 
-    For a list of field types, see field types.
+    For a list of field types, see [field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
 
 5.  Click the Advanced view related link to set advanced dictionary preferences for the attribute.
 
-    For example, to create an attribute with a dynamically calculated value. See Dictionary entry form.
+    For example, to create an attribute with a dynamically calculated value. See [Dictionary entry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/r_DictionaryEntryForm.md).
 
 6.  Click **Submit**.
 

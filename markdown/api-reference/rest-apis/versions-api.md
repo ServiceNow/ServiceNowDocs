@@ -24,7 +24,7 @@ You must have one of the following roles to access this API:
 
 In addition, the Configuration Data Management \(CDM\) plugin must be activated for this API to be available in an instance.
 
-For additional information on snapshots, see View snapshots.
+For additional information on snapshots, see [View snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-snapshots-view-list.md).
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 
@@ -126,7 +126,7 @@ substituteVariables
 
 </td><td>
 
-Flag that indicates whether to follow the variables. For information on following the variables, see Validating and correcting configuration data.Valid values:
+Flag that indicates whether to follow the variables. For information on following the variables, see [Validating and correcting configuration data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-validating-cfg-data.md).Valid values:
 
 -   true: Follow the variables.
 -   false: Do not follow variables.

@@ -133,5 +133,5 @@ Enter the due date for the requestee agent to approve.![Shift swap request appro
 **Related topics**  
 
 
-[bundle-crworkflow.build-your-first-flow]
+[Build your first flow in Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/build-your-first-flow.md)
 

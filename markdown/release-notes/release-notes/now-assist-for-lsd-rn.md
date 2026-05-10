@@ -22,14 +22,14 @@ The ServiceNow® Now Assist for Legal Service Delivery \(LSD\) application lever
 
 ## New in the Australia release
 
--   **Submit COI request using Now Assist conversational intake**
+-   **[Submit COI request using Now Assist conversational intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-convi.md)**
 
     Submit a Conflict of Interest \(COI\) request through a natural language conversation. The conversational intake for Legal Conflict of Interest is available in the base system.
 
 
 ## Changed in this release
 
--   **Summarize a legal request or matter by using Now Assist for Legal Service Delivery \(LSD\)**
+-   **[Summarize a legal request or matter by using Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-summarize-case.md)**
 
     Summarization now includes data from extended practice area tables, providing context‑rich summaries for your legal requests and matters.
 
@@ -44,19 +44,19 @@ To see the list of supported browsers for Now Assist for Legal Service Delivery 
 
 ## Related ServiceNow applications and features
 
--   **Legal Service Delivery**
+-   **[Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-management-overview.md)**
 
     Connect employees and legal teams through a unified platform with intelligent workflows, streamlining legal requests and managing complex matters efficiently via the Legal Counsel Center.
 
--   **Overview tab in Now Assist Admin**
+-   **[Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)**
 
     Use the Now Assist Admin console to provide you with quick and easy access to the important information that you must set up, configure, and monitor Now Assist applications and features.
 
--   **Now Assist**
+-   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     Help improve productivity and efficiency in your organization, deliver better self-service, suggest actions, provide answers, and empower your users to search effectively.
 
--   **Now Assist skills**
+-   **[Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md)**
 
     Use Now Assist products to provide generative AI skills to meet the needs of users in different workflows. These AI skills include case or incident summarization, chat summarization, resolution notes generation, and code generation.
 

@@ -19,9 +19,9 @@ Role required: security\_admin
 
 ## Procedure
 
-1.  Elevate to a privileged role.
+1.  [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
 
-2.  Create an ACL rule with the following settings:
+2.  [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_CreateAnACLRule.md) with the following settings:
 
     -   **Type**: ui\_page
     -   **Operation**: read

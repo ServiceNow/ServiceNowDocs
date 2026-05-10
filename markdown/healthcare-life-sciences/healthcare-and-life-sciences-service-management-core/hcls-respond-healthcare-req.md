@@ -15,5 +15,5 @@ breadcrumb: [Manage healthcare requests in Workspace, Healthcare and Life Scienc
 
 As a healthcare agent, you can respond to healthcare requests to resolve issues raised by a patient.
 
-Patients can submit a healthcare request via a phone call or a chat. As a healthcare agent, you can respond to healthcare requests by accepting a work item from a patient or accessing the interaction records that store work items. For more information, see Interaction Management.
+Patients can submit a healthcare request via a phone call or a chat. As a healthcare agent, you can respond to healthcare requests by accepting a work item from a patient or accessing the interaction records that store work items. For more information, see [Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/interaction-management.md).
 

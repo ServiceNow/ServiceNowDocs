@@ -315,7 +315,7 @@ Parameters control the behavior of a particular MID Server and have lower preced
     -   Default value: false
 -   **mid.probe.use\_legacy\_forward\_dns**
 
-    Enables the legacy DNSNameResolver probe and disables the default DNSNameResolver probe. See Probes used by Orchestration for more information.
+    Enables the legacy DNSNameResolver probe and disables the default DNSNameResolver probe. See [Probes used by Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/r_OrchestrationProbes.md) for more information.
 
     -   Type: true \| false
     -   Default value: false
@@ -694,7 +694,7 @@ Add these parameters to the `config.xml` file in the `/agent` directory, in the 
     -   Default value: True
     GETBULK can also be set at the probe level or globally for all MID servers. Settings are listed in the order of precedence:
 
-    -   SNMP probe parameter
+    -   [SNMP probe parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_SNMPProbeParameters.md)
     -   MID Server configuration parameter
     -   [MID Server properties](r_MIDServerProperties.md#)
 -   **mid.snmp.use\_snmp4j**
@@ -705,7 +705,7 @@ Add these parameters to the `config.xml` file in the `/agent` directory, in the 
     -   Default value: true
 -   **mid.snmp.use\_snmp\_v1\_v2c**
 
-    Attempt communication using the SNMPv1 and SNMPv2c protocol versions. It may require configuration of SNMP community credentials. This parameter is an alternative and**not a strict requirement for SNMPv3.**
+    Attempt communication using the SNMPv1 and SNMPv2c protocol versions. It may require configuration of [SNMP community credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md). This parameter is an alternative and**not a strict requirement for SNMPv3.**
 
     -   Type: true \| false
     -   Default value: true

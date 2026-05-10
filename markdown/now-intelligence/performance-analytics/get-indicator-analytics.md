@@ -103,7 +103,7 @@ pa.getChangePercentage($[[Number of open incidents]], lastPeriod.addDaysUTC(-1),
 
 You want to filter out the scores of incidents where Priority = 1 - Critical.
 
-1.  Obtain the unique record identifiers for the Priority breakdown and the 1 - Critical element. Breakdown records are in the Breakdown table. The location of element records varies, but is identified in the Breakdown Source of the breakdown. In this case, the element is a Choice \[sys\_choice\] record. For directions on how to obtain the unique record identifiers, see The unique record identifier \(sys\_id\).
+1.  Obtain the unique record identifiers for the Priority breakdown and the 1 - Critical element. Breakdown records are in the Breakdown table. The location of element records varies, but is identified in the Breakdown Source of the breakdown. In this case, the element is a Choice \[sys\_choice\] record. For directions on how to obtain the unique record identifiers, see [The unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UniqueRecordIdentifier.md).
 
     The unique record identifiers are baec0752bf130100b96dac808c0739ed for the Priority breakdown and 8a4dde73c6112278017a6a4baf547aa7 for the 1 - Critical element.
 

@@ -87,7 +87,7 @@ Skills
 
 Specific skills the requested resources should possess to allocate them to the resource plan. This field appears if you select **Group** or **Role** in the **Resource type** field, and **All members** or **Any member** in the **Members preference** field.
 
- For more information, see Skills Management.
+ For more information, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skills-management.md).
 
 </td></tr><tr><td>
 

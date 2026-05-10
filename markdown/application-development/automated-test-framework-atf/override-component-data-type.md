@@ -44,7 +44,7 @@ Settable components have a data type that determines what values a Custom UI tes
     |Key|Value|
     |---|-----|
     |reference|Name of the table that contains the records you want the reference field to display. For example, add `"reference":"incident"` to display records from the Incident table.|
-    |reference\_qual|Filter to apply to the query. For example, add `"reference_qual":"active=true"` to display only active Incident records. See Reference qualifiers|
+    |reference\_qual|Filter to apply to the query. For example, add `"reference_qual":"active=true"` to display only active Incident records. See [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceQualifiers.md)|
 
 
 ## Example

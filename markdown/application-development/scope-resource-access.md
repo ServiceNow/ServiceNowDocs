@@ -152,7 +152,7 @@ Target Type
 
 Type of requested resource.-   Event
 
-**Note:** An event is a special type of target for restricted caller access. By selecting an event in a target scope, you give a source application permission to queue an event that is registered as part of a target application. However, if you set the caller access on the event registry to None, it prevents cross-scope access calls to an event. This setting combination is a one-to-one relationship. To learn more about events, and their function, see Events. If you set caller access to None on the event registry, the cross-scope access calls to an event are denied.
+**Note:** An event is a special type of target for restricted caller access. By selecting an event in a target scope, you give a source application permission to queue an event that is registered as part of a target application. However, if you set the caller access on the event registry to None, it prevents cross-scope access calls to an event. This setting combination is a one-to-one relationship. To learn more about events, and their function, see [Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/events.md). If you set caller access to None on the event registry, the cross-scope access calls to an event are denied.
 
 -   Scope
 -   Table

@@ -51,6 +51,6 @@ The following items are installed with Sidebar:
 
 6.  If you want to use the Search KB quick action, enable AI Search.
 
-    For more information, see AI Search and [AI Search Availability \[KB0867751\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867751).
+    For more information, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md) and [AI Search Availability \[KB0867751\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867751).
 
 

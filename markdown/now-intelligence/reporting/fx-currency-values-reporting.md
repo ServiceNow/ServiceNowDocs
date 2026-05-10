@@ -26,7 +26,7 @@ When you aggregate by **Average** or **Sum** on an FX currency field, you choose
 
 -   **Use FX currency configuration**
 
-    Calculates the values based on the FX Currency Configuration table. For more information, see Setting up and operating FX Currency fields.
+    Calculates the values based on the FX Currency Configuration table. For more information, see [Setting up and operating FX Currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency.md).
 
 -   **As entered values**
 
@@ -55,7 +55,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 2.  On the **Data** tab, name the report, choose the source table with FX currency fields, and then click **Next**.
 
-    The source must have FX Currency fields. See Setting up and operating FX Currency fields.
+    The source must have FX Currency fields. See [Setting up and operating FX Currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency.md).
 
 3.  On the **Type** tab, choose the visualization type that you want to use.
 
@@ -86,6 +86,6 @@ When you try to aggregate costs in multiple currencies by sum or average, there 
 
 -   **Aggregation Source is Reference values**
 
-    In this case, the values are converted to the reference value before calculation and the report is generated. For more information, see Understanding FX Currency values in forms.
+    In this case, the values are converted to the reference value before calculation and the report is generated. For more information, see [Understanding FX Currency values in forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency-values-forms.md).
 
 

@@ -15,7 +15,7 @@ breadcrumb: [Approval engines, Classic approvals, Exploring Service Administrati
 
 To manage the approvals for each of the Task tables in the system, set up an approval engine.
 
-**Important:** Classic approval rules have been replaced by the Workflow Studio Ask for Approval action. Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 ## Before you begin
 

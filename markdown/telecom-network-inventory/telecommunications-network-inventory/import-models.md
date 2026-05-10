@@ -87,12 +87,12 @@ Select **Attach File** to attach the import model file.**Note:**
 7.  Select **Import**.
 
     -   During the data import procedure:
-        -   Integration Commons for CMDB: The plugin is automatically activated and by default. To learn more, see Integration Commons for CMDB.
+        -   Integration Commons for CMDB: The plugin is automatically activated and by default. To learn more, see [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
         -   Normalization Data Service Client \(Optional\): If installed and configured, the following normalization rules are applied.
             -   Removes special characters from the **Manufacturer** name.
             -   The new value is replaced if it matches with five characters of the existing value.
             -   Downloads standard and variant company names.
-            -   Replaces company names with their standard equivalents. To learn more, see Normalization data services. To customize the normalization rules, see Normalized company names table.
+            -   Replaces company names with their standard equivalents. To learn more, see [Normalization data services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_NormalizationOverview.md). To customize the normalization rules, see [Normalized company names table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_NormalizedCompanyNames.md).
     -   The generation of a record triggers its automatic addition to the **Import Results**. From this tab, you can see the import status and can select the generated model.
     -   A dedicated inventory template is generated for every rack/cabinet equipment holders, equipment models, and card models. Moreover, the related templates are generated based on the defined model relationship.
 

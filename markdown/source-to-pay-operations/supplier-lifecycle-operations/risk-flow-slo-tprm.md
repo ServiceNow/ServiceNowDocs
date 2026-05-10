@@ -19,7 +19,7 @@ In this flow, the following occurs:
 
 1.  The supplier manager receives a supplier onboarding request.
 2.  The supplier manager uses the onboarding playbook, which provides a streamlined and guided process to onboard suppliers. For more information, see [Use the supplier onboarding playbook to onboard suppliers](use-playbooks-onboard-supp.md#).
-3.  The supplier manager submits a due diligence request. For more information about the fields in this activity, see Request due diligence for a third-party engagement.
+3.  The supplier manager submits a due diligence request. For more information about the fields in this activity, see [Request due diligence for a third-party engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-request-dd-for-engagement.md).
 
     The supplier manager must fill in the details and assign the due diligence request to the TPR manager.
 
@@ -35,7 +35,7 @@ In this flow, the following occurs:
 
     After the case is closed, you can continue with completing the activities in the Activation stage.
 
-    For more information about the due diligence workflow, see Due diligence workflow.
+    For more information about the due diligence workflow, see [Due diligence workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-workflow-in-workspace.md).
 
 
 -   **[Playbook stages and activities when Third-party Risk Due Diligence is installed](risk-flow-tprmdd-stages.md)**  

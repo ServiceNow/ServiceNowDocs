@@ -127,7 +127,7 @@ Condition script
 
 Script that implements the policy conditions to identify and report the policy violations. Cloud Configuration Governance contains several scriptable objects and variables for use in the policy scripts. For more information see, [Scripting reference](ccg-scripting-reference.md).
 
- You can create script includes to externalize the decision making and reuse the code across different scripts. For more information on creating the script includes, see Script includes.
+ You can create script includes to externalize the decision making and reuse the code across different scripts. For more information on creating the script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
  **Note:** If you create a custom audit result record through the script, then the **Audit Violation Reporting** configuration defined in the policy doesn’t take effect.
 

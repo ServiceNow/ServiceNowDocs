@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-You can configure the audiences that define who can access the SOW landing pages. For information about audiences, see Learn about audiences.
+You can configure the audiences that define who can access the SOW landing pages. For information about audiences, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-audiences.md).
 
 By default, the SOW landing page is associated with the following audiences. To access SOW, a user must align with the following criteria.
 

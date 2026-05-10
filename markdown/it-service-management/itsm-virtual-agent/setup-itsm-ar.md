@@ -19,7 +19,7 @@ Users with the virtual\_agent\_admin or admin role can configure Virtual Agent s
 
 Role required: admin or virtual\_agent\_admin
 
--   Activate Virtual Agent to use Virtual Agent as a response channel.
+-   [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/activate-virtual-agent.md) to use Virtual Agent as a response channel.
 -   [Set up ITSM Virtual Agent](setup-itsm-virtual-agent.md)
 
     Install the ITSM Virtual Agent Conversations app, which includes the ITSM NLU Model for Virtual Agent Conversations. Request this app from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
@@ -35,7 +35,7 @@ Most of the Issue Auto Resolution functionality is included with the Glide Virtu
 
     Train the Issue Auto Resolution Machine Learning model before activating the Auto Resolution Configuration record.
 
-    **Note:** The query on the Incident table must have the minimum number of records that you specify in the **glide.platform\_ml.api.min\_agent\_zero\_records** system property to train the model. The default value of this property is 300000 and should not be increased because training the model can fail with more than 300,000 records. Ensure that the conditions that you specify in the Auto Resolution configuration record return less than 300,000 records before you click **Train**. For more information about predictive intelligence properties, see Predictive Intelligence properties.
+    **Note:** The query on the Incident table must have the minimum number of records that you specify in the **glide.platform\_ml.api.min\_agent\_zero\_records** system property to train the model. The default value of this property is 300000 and should not be increased because training the model can fail with more than 300,000 records. Ensure that the conditions that you specify in the Auto Resolution configuration record return less than 300,000 records before you click **Train**. For more information about predictive intelligence properties, see [Predictive Intelligence properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence-properties.md).
 
     1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Settings** &gt; **Virtual Agent**.
 

@@ -104,7 +104,7 @@ The type of attachment that you are submitting if it is required by a validator 
 </td></tr></tbody>
 </table>4.  Add attachments, such as a SMART health card or an image of supporting documentation, by selecting **Add attachments**.
 
-    For more information on supported formats, see Document Viewer.
+    For more information on supported formats, see [Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/Documentviewer.md).
 
     **Note:** If you are adding an attachment required by a validator service, ensure that you've selected the correct **Attachment type**.
 

@@ -113,7 +113,7 @@ Select the schedule for collecting the data. Choices are: -   Daily
 -   Periodically
 -   Once
 -   On demand
- If you are using business calendars, you also have these options, for the start and end of the business calendar period \(See Define business calendar entries\):
+ If you are using business calendars, you also have these options, for the start and end of the business calendar period \(See [Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/define-business-calendar-entries.md)\):
 
 -   Business calendar: Entry start
 -   Business calendar: Entry end

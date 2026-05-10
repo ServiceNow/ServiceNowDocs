@@ -63,7 +63,7 @@ All parent classes
 
 </td><td>
 
-Check box that indicates whether CI relationships in the CMDB to all parent classes are processed.
+Check box that indicates whether [CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md) to all parent classes are processed.
 
 </td></tr><tr><td>
 

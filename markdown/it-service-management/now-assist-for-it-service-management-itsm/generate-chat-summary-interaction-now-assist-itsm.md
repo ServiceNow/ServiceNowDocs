@@ -22,7 +22,7 @@ Role required: itil
 
 ## About this task
 
-The Chat summarization skill is turned on by default. The skill will be automatically available to appropriate role users for the application. When new customers install a Now Assist product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see Now Assist skills, agents, and agentic workflows on by default.
+The Chat summarization skill is turned on by default. The skill will be automatically available to appropriate role users for the application. When new customers install a Now Assist product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 In a Virtual Agent conversation, when a requester chooses to connect to a live agent, a chat interaction appears in your inbox. When you accept the interaction, a summary of the Virtual Agent conversation is generated. You can request more details from the requester to resolve the issue.
 

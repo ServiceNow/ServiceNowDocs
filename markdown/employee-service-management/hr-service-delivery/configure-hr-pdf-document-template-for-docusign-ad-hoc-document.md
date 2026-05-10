@@ -17,7 +17,7 @@ If you are using the DocuSign integration, configure an HR PDF document template
 
 ## Before you begin
 
-Create the managed document that you want to make available for signing through the DocuSign system. See Managed Documents for more information.
+Create the managed document that you want to make available for signing through the DocuSign system. See [Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/c_ManagedDocuments.md) for more information.
 
 Role required: sn\_hr\_core.admin
 

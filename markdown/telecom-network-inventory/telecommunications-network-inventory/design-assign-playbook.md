@@ -81,7 +81,7 @@ Playbook admin \[playbook.admin\]
 
 </td><td>
 
-Uses the Workflow Studio application to author, configure, and monitor the Design and Assign function.
+Uses the [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md) application to author, configure, and monitor the Design and Assign function.
 
 </td></tr></tbody>
 </table>## Creating and configuring Design and Assign function for your network services

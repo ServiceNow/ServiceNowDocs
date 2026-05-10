@@ -93,7 +93,7 @@ If you have opted to manually initiate the Discovery module, or opted for both m
 
 You can view the changes in the context of application services. Service maps available in Service Mapping show changes to an application service as a whole and to the individual configuration items \(CIs\) comprising the service.
 
-If the ServiceNow AI Platform is configured to validate changes, all changes are evaluated and rendered as valid or not. If a change is valid, its change record on the service instance map is marked as approved. For more information about configuring the platform for change validation, see Managing proposed changes.
+If the ServiceNow AI Platform is configured to validate changes, all changes are evaluated and rendered as valid or not. If a change is valid, its change record on the service instance map is marked as approved. For more information about configuring the platform for change validation, see [Managing proposed changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ProposedChanges.md).
 
 The type of change mark depends on the nature of changes that it represents:
 
@@ -119,9 +119,9 @@ The type of change mark depends on the nature of changes that it represents:
 **Related topics**  
 
 
-[bundle-itom.r-discovery]
+[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-discovery.md)
 
-[bundle-itom.t_ViewCIChanges]
+[View the change history of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_ViewCIChanges.md)
 
-[bundle-itom.workspace-view-history-app-service]
+[View the change history of application services in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/workspace-view-history-app-service.md)
 

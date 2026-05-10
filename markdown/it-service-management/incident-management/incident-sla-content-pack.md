@@ -19,7 +19,7 @@ Platform Analytics Solutions contain preconfigured dashboards. These dashboards 
 
 Starting in Xanadu release, the Incident SLA Management Platform Analytics Solutions dashboards are deprecated. Users can use [Incident management dashboard](performance-analytics/incident.md) to view the actionable data visualizations that help in improving the business processes and practices.
 
-Platform Analytics data visualizations use Performance Analytics indicator data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
+Platform Analytics data visualizations use Performance Analytics [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
 
 To enable the solution for Incident SLA Management, an admin can navigate to **Performance Analytics** &gt; **Guided Setup**. Click **Get Started** then scroll to the section for Incident SLA Management. The guided setup takes you through the entire setup and configuration process.
 
@@ -27,7 +27,7 @@ The dashboards in this content pack are inactive when installed. Complete config
 
 ## Inactive dashboards
 
-Some dashboards in this content pack are inactive when installed. Complete configuration and run data collection jobs before you activate these dashboards. You can activate dashboards in Dashboard Properties, accessible from the context menu. You have to assign an owner to the dashboard to activate it.
+Some dashboards in this content pack are inactive when installed. Complete configuration and run [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) before you activate these dashboards. You can activate dashboards in Dashboard Properties, accessible from the context menu. You have to assign an owner to the dashboard to activate it.
 
 -   **[Legacy: Incident SLA Management dashboard](incident-sla-mgmt-dashboard.md)**  
 See how well the incidents that are subject to a Service Level Agreement meet the deadlines of those SLAs.
@@ -43,5 +43,5 @@ See the currently open incidents that are subject to an SLA. You can view a list
 **Related topics**  
 
 
-[bundle-par.c_PremiumPerformanceAnalytics]
+[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md)
 

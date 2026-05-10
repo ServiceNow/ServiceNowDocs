@@ -59,9 +59,9 @@ The Monitor project tasks agents are enabled for the selected project.
 **Related topics**  
 
 
-[bundle-platai.configuring-ai-agents]
+[Configure Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-ai-agents.md)
 
-[bundle-platai.install-ai-agents-plugins]
+[Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md)
 
 [Use AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)](../concept/using-na-spm-ai-agents.md)
 

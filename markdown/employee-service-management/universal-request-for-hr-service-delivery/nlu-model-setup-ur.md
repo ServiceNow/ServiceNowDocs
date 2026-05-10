@@ -19,7 +19,7 @@ Apply the Natural Language Understanding vocabulary in the Universal Request app
 
 Role required: admin
 
-To use the Universal Request topic for your chatbot conversations, select and enable the Natural Language Understanding \(NLU\) model. For more information, see Configure Natural Language Understanding in Virtual Agent.
+To use the Universal Request topic for your chatbot conversations, select and enable the Natural Language Understanding \(NLU\) model. For more information, see [Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-nlu-settings.md).
 
 ## Procedure
 

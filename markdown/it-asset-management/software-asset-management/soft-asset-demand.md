@@ -152,9 +152,9 @@ The demand is created with the **Submission status** field set to **Submitted**.
 
 ## What to do next
 
-Use the ServiceNow® Demand Management application to approve and complete the demand. For more information, see Demand Management.
+Use the ServiceNow® Demand Management application to approve and complete the demand. For more information, see [Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/c_DemandManagement.md).
 
-You can create a project for the demand by selecting the **Create Project** related link. A project enables you to track the status, percent complete, and duration of the work required to accomplish the demand. You can also create project tasks to define the work items that are required to complete the project. For more information, see Project Management.
+You can create a project for the demand by selecting the **Create Project** related link. A project enables you to track the status, percent complete, and duration of the work required to accomplish the demand. You can also create project tasks to define the work items that are required to complete the project. For more information, see [Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectApplicationOverview.md).
 
 To view all Software Asset Management demands, navigate to **Software Asset** &gt; **Software Asset Demand** &gt; **Demands**.
 

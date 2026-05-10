@@ -46,5 +46,5 @@ For applications that use ES5 Standards or Compatibility mode, you can also turn
 **Related topics**  
 
 
-[bundle-cadev.t_UpdateAnApplicationRecord]
+[Legacy - Update a custom application record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/t_UpdateAnApplicationRecord.md)
 

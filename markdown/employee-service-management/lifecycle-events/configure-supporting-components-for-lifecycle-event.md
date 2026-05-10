@@ -47,7 +47,7 @@ Approval
 
 N/A
 
- To learn more about approvals, see Approvals.
+ To learn more about approvals, see [Approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/r_Approvals.md).
 
 </td></tr><tr><td>
 
@@ -71,7 +71,7 @@ Automated Order Guide
 
 </td><td>
 
-Create an order guide To learn more about order guides, see Order guides.
+[Create an order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAnOrderGuide.md) To learn more about order guides, see [Order guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogOrderGuides.md).
 
 </td></tr><tr><td>
 
@@ -79,7 +79,7 @@ Catalog item
 
 </td><td>
 
-Create or edit a catalog item To learn more about catalog items, see Service catalog items.
+[Create or edit a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefineACatalogItem.md) To learn more about catalog items, see [Service catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md).
 
 </td></tr><tr><td>
 
@@ -103,7 +103,7 @@ Incident
 
 </td><td>
 
-Create an incident template To learn more about incident management, see Incident Management.
+[Create an incident template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/t_CreateAnIncidentTemplate.md) To learn more about incident management, see [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentManagement.md).
 
 </td></tr><tr><td>
 
@@ -111,7 +111,7 @@ Notification
 
 </td><td colspan="2">
 
-Create an email template To learn more about notifications, see Notifications.
+[Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnEmailTemplate.md) To learn more about notifications, see [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notifications.md).
 
 </td></tr><tr><td>
 
@@ -119,11 +119,11 @@ Flow
 
 </td><td colspan="2">
 
-Create a subflow **Important:** The only subflow available for use by default is the **Switch primary job** subflow. This subflow is used to [support multiple jobs in a lifecycle event](../task/adopt-jobs-table.md).
+[Create a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow.md) **Important:** The only subflow available for use by default is the **Switch primary job** subflow. This subflow is used to [support multiple jobs in a lifecycle event](../task/adopt-jobs-table.md).
 
 To use a different subflow for an activity, additional configuration is required. See the [Implementing multiple subflows in an LE activity \[KB0817520\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0817520) article in the HI knowledge base for more information.
 
- To learn more about subflows, see Subflows.
+ To learn more about subflows, see [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
 
 </td></tr><tr><td>
 

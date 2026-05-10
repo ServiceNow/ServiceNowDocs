@@ -24,11 +24,11 @@ Each skill is configured separately, and tailored to support agents across vario
 |Government case summarization|Summarize the case details and display this information on the case record, helping agents to grasp the context of a case. For more information, see [Configure Case summarization](now-assist-psds-customize-case-summ.md).|
 |Chat summarization|Auto-generate summaries of agent-facing chats, capturing the essence of conversations between agents and constituents or virtual agents, highlighting key points and enabling critical information from interactions to be readily accessible for future reference and actions. For more information, see[Configure Chat summarization](now-assist-psds-customize-chat-summ.md).|
 
-The Now Assist Admin console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see Overview tab in Now Assist Admin
+The Now Assist Admin console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
 
 ## General Configuration Steps
 
-The Now Assist Admin console contains everything that you need to install the plugins and configure generative AI skills. For additional information, see Overview tab in Now Assist Admin.
+The Now Assist Admin console contains everything that you need to install the plugins and configure generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
 Each skill has its own configuration process. However, skill activation follows the same guided setup. What configuring steps are required varies depending on the skill.
 
@@ -89,7 +89,7 @@ Role required: admin
 9.  Select where you would like to display the skill.
 
     -   **In-product**: When selected, the Now Assist skills are displayed on forms and workspaces. For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
-    -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see Activate the Now Assist panel standard chat. For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
+    -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md). For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 
         **Note:** Selecting **In-product** will allow the case summarization card to show on the process based experience playbook page in the CSM Configurable Workspace. For Government case summarization, select **In-product**.
 
@@ -111,7 +111,7 @@ You can go back to the Now Assist Features page to configure another skill.
 **Related topics**  
 
 
-[bundle-platai.platform-now-assist-landing]
+[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)
 
 [Configure Now Assist for Public Sector Digital Services \(PSDS\)](now-assist-psds-configuring.md)
 

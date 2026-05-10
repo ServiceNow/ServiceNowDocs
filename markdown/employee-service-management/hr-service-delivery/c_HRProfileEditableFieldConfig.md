@@ -91,7 +91,7 @@ The fields that appear on the **At a Glance** panel in Agent Workspace for HR Se
 
 **Note:** Fields with no data on the HR profile do not appear in the **At a Glance** panel.
 
-If you want additional fields to appear on the **At a Glance** panel, see Configuring the form layout.
+If you want additional fields to appear on the **At a Glance** panel, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
 **Parent Topic:**[HR Profile](c_HRProfileRecords.md)
 

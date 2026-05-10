@@ -17,7 +17,7 @@ Use this example implementation to configure Secrets Management without using pr
 
 For more detail on using client-side Secrets Management to manage access to passwords and groups, see [Understanding client-side Secrets Management](understand-sec-man.md).
 
-These instructions assume you have a MID Server configured on your local network. For information on this process see MID Server.
+These instructions assume you have a MID Server configured on your local network. For information on this process see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
 
 ## Process overview
 

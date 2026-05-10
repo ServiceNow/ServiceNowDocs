@@ -32,7 +32,7 @@ Role required: admin, sn\_appclient.app\_client\_company\_installer \(can only i
 
 Applications that you purchase from the ServiceNow Store are added to the Application Manager automatically. You must install the application from the Application Manager to activate it in an instance.
 
-To install an application that you published to the ServiceNow application repository, follow the steps in Install an application from the application repository instead.
+To install an application that you published to the ServiceNow application repository, follow the steps in [Install an application from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/install-app-from-repo.md) instead.
 
 ## Procedure
 
@@ -64,7 +64,7 @@ To install an application that you published to the ServiceNow application repos
 **Related topics**  
 
 
-[bundle-cadev.install-customizations-from-app-repo]
+[Install customizations from an application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/install-customizations-from-app-repo.md)
 
-[bundle-cadev.delegated_deployment_user_roles]
+[System-managed developer and deployment roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/delegated_deployment_user_roles.md)
 

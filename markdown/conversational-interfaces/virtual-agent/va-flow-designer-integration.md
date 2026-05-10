@@ -15,7 +15,7 @@ breadcrumb: [Exploring other Virtual Agent features, Build and deploy, Virtual A
 
 The workflows of ServiceNow® Workflow Studio can be integrated within ServiceNow Virtual Agent topics. You can then use these workflows in Virtual Agent conversations.
 
-**Note:** If you have turned on and set up Now Assist in Virtual Agent, you can use the base system conversational actions and subflows from the Assistant Designer Asset library. You currently can't create conversational subflows in Assistant Designer; you can only view and edit them. Conversational subflows can be created, tested, and deleted only in Workflow Studio. For more information on conversational actions and subflows, see Conversational actions and Conversational subflows. You can still integrate actions and subflows that are not conversational from Workflow Studio into Virtual Agent topics through Virtual Agent Designer. The following content is only relevant to actions or subflows that cannot be made conversational in Workflow Studio.
+**Note:** If you have turned on and set up Now Assist in Virtual Agent, you can use the base system conversational actions and subflows from the Assistant Designer Asset library. You currently can't create conversational subflows in Assistant Designer; you can only view and edit them. Conversational subflows can be created, tested, and deleted only in Workflow Studio. For more information on conversational actions and subflows, see [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/conversational-actions.md) and [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/conversational-subflows.md). You can still integrate actions and subflows that are not conversational from Workflow Studio into Virtual Agent topics through Virtual Agent Designer. The following content is only relevant to actions or subflows that cannot be made conversational in Workflow Studio.
 
 You can integrate Workflow Studio actions and subflows as follows:
 
@@ -27,7 +27,7 @@ In Virtual Agent conversations, you can use actions to trigger workflows that ar
 
 If an action in the workflow is slow to respond or appears to be waiting, topic authors see a relevant error message.
 
-By default, a scheduled job checks the conversation flow every 120 seconds. For more information about scheduled jobs, see Scheduled jobs.
+By default, a scheduled job checks the conversation flow every 120 seconds. For more information about scheduled jobs, see [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_ScheduledJobs.md).
 
 You can change this interval as needed. To change the interval, see [Specify the action workflow timeout](../task/va-fdih-action-timeout.md).
 

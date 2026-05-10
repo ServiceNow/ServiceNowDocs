@@ -20,32 +20,32 @@ The ServiceNow® Localization Workspace application is a targeted translation ma
 -   View the translation method from the translation request summary.
 -   Use intelligent due date suggestions based on the size and scope of your requests when creating translation requests.
 
-See Localization Workspace for more information.
+See [Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/localization-workspace.md) for more information.
 
 **Important:** Localization Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **Guided tours in the Localization Workspace interface**
+-   **[Guided tours in the Localization Workspace interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-language-setup.md)**
 
     Leverage new guided tours that assist users with setting up language providers and language groups.
 
--   **Language Asset Management**
+-   **[Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-language-asset-management.md)**
 
     Upload, store, and edit multiple glossaries in the new **Language Asset Management** tab of Localization Workspace. Each glossary can include terms translated into multiple languages. In the Australia release, Language Asset Management provides upload, storage, and editing functions only.
 
 
 ## Changed in this release
 
--   **Cancel translation requests, delete draft requests, and review archived requests from the landing page**
+-   **[Cancel translation requests, delete draft requests, and review archived requests from the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-status-synchronization.md)**
 
     Monitor and control your requests on the landing page with functions to cancel translation requests, delete draft requests, and review archived requests.
 
--   **View the translation method from the translation request summary**
+-   **[View the translation method from the translation request summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-status-synchronization.md)**
 
     View the translation method, such as TMS or machine translation, from the translation request summary. The summary is available from the My Requests list on the landing page.
 
--   **Use intelligent due date suggestions based on the size and scope of your requests**
+-   **[Use intelligent due date suggestions based on the size and scope of your requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-estimate.md)**
 
     Use intelligent due date suggestions, which provide an estimated completion date for your translations, based on the size and scope of your translation request. You can accept the suggested due date when submitting your request.
 
@@ -56,15 +56,15 @@ Install Localization Workspace by requesting it from the ServiceNow Store. See [
 
 ## Related ServiceNow applications and features
 
--   **Dynamic Translation**
+-   **[Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md)**
 
     Translate user-generated content live on your instance to streamline communication for your agents and end users. Integrate with the machine translation service provider of your choice to enable translation on forms, activity streams, and chats.
 
--   **Localization Framework**
+-   **[Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-framework-landing.md)**
 
     Localization Framework uses configurable workflows to standardize the process of translating artifacts across the platform. Translate Cloud Services Catalog items, Knowledge Base articles, Document Templates, and more.
 
--   **System Localization**
+-   **[System Localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/system-localization-landing.md)**
 
     Give your users specialized support with System Localization. Define locales and adjust localization settings to display specific time, date, and currency to users.
 

@@ -15,7 +15,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Help Request API provides an endpoint to track supervisor help actions.
 
-This API records supervisor help for agents working on interactions, including the help start and end time and the type of help. For more information about help requests, see Agent help request for voice calls.
+This API records supervisor help for agents working on interactions, including the help start and end time and the type of help. For more information about help requests, see [Agent help request for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/agent-help-request-for-voice-calls.md).
 
 This API requires the Interactions Management plugin \(com.glide.interaction\). The calling user must have the interaction\_integration\_user role.
 
@@ -77,7 +77,7 @@ Type of assistance provided by the supervisor. Required when creating a supervis
 -   monitor
 -   observe
 
-For additional information about supervisor actions, see Monitoring calls.
+For additional information about supervisor actions, see [Monitoring calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/call-monitoring.md).
 
 Data type: String
 

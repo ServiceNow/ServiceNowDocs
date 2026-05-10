@@ -37,7 +37,7 @@ Query
 
 Query to filter the case records.The default query shows cases that are awaiting information or are resolved.
 
-**Note:** If no query is provided, all case records are displayed in the widget. For more information, see Generate an encoded query string through a filter.
+**Note:** If no query is provided, all case records are displayed in the widget. For more information, see [Generate an encoded query string through a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_GenEncodQueryStringFilter.md).
 
 </td></tr><tr><td>
 

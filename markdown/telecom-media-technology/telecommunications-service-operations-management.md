@@ -17,19 +17,19 @@ Learn how Telecommunications Service Operations Management \(TSOM\) empowers com
 
 <table id="table_acr_hnj_wfc" class="nav-card presentation"><tbody><tr><td>
 
-Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about how telecom service providers use Telecommunications Service Operations Management.
+[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about how telecom service providers use Telecommunications Service Operations Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/exploring-tsom.md)
 
 </td><td>
 
-Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Plan and configure your Telecommunications Service Operations Management.
+[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Plan and configure your Telecommunications Service Operations Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configuring-tsom.md)
 
 </td></tr><tr><td>
 
-Use![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Use Telecommunications Service Operations Management to track comprehensive telecom service operations.
+[Use![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Use Telecommunications Service Operations Management to track comprehensive telecom service operations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/using-tsom.md)
 
 </td><td>
 
-Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get Telecommunications Service Operations Management reference information.
+[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get Telecommunications Service Operations Management reference information.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/components-installed-with-tsom.md)
 
 </td></tr></tbody>
 </table>## Additional resources
@@ -38,7 +38,7 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **![](../../../reuse/icons/dcx-icons/dcx-icon-impact.svg) Release Notes**
 
-    Learn more about what's new and changed in this release at Telecommunications Service Operations Management \(TSOM\) release notes
+    Learn more about what's new and changed in this release at [Telecommunications Service Operations Management \(TSOM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/telecommunications-service-operations-management-rn.md)
 
 -   **![](../../../reuse/icons/dcx-icons/dcx-icon-community.svg)ServiceNow Community**
 

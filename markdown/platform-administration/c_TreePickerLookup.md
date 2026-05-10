@@ -20,5 +20,5 @@ You cannot customize the label names used in the tree picker. The label names ar
 **Related topics**  
 
 
-[bundle-platux.c_TreePicker]
+[Tree picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_TreePicker.md)
 

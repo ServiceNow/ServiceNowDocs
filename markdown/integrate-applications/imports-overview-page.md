@@ -42,7 +42,7 @@ Import data from external systems and transform it into ServiceNow AI Platform r
 
     Automate data import tasks through a consolidated interface that provides a guided, step-by-step experience. Define external data sources, specify target tables, map how source data becomes target data, and schedule regular imports.
 
--   **Import Set API**
+-   **[Import Set API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_ImportSetAPI.md)**
 
     The Import Set API provides endpoints that enable you to interact with import set tables. The API transforms incoming data based on associated transform maps. The Import Set API supports synchronous transforms and mirrors the existing SOAP interface.
 
@@ -50,7 +50,7 @@ Import data from external systems and transform it into ServiceNow AI Platform r
 
     Easy import is a simplified import process that enables you to import only the columns you want.
 
--   **Inbound email actions**
+-   **[Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_InboundEmailActions.md)**
 
     Define an inbound email action to script how the system responds to an inbound email.
 

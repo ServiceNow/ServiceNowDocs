@@ -15,7 +15,7 @@ breadcrumb: [Install Workplace Core, Workplace Core, Safe Workplace, Health and 
 
 Several types of components are installed with installation of the Workplace Core application, including user roles, scheduled jobs, tables, and business rules.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -319,7 +319,7 @@ User Shift\[sn\_wsd\_core\_m2m\_user\_shift\]
 
 </td><td>
 
-Stores the relationship between shifts and employees.For existing users who are upgrading from the first version of the app, ensure that you have the **User** field as the display value. For more information, see Select a field as the table display value.
+Stores the relationship between shifts and employees.For existing users who are upgrading from the first version of the app, ensure that you have the **User** field as the display value. For more information, see [Select a field as the table display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SelectTheDisplayValue.md).
 
 </td></tr><tr><td>
 
@@ -361,7 +361,7 @@ Workplace Task\[sn\_wsd\_core\_workplace\_task\]
 
 Stores all the workplace tasks created for shifts.
 
- If you are upgrading from version 1.1.1 or earlier of the app, ensure that the **Default Value** field is empty for the workplace\_task\_type column of this table. For more information on how to modify the default display value of a table column, see Specify a default field value.
+ If you are upgrading from version 1.1.1 or earlier of the app, ensure that the **Default Value** field is empty for the workplace\_task\_type column of this table. For more information on how to modify the default display value of a table column, see [Specify a default field value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SpecifyingADefaultValue.md).
 
 </td></tr><tr><td>
 

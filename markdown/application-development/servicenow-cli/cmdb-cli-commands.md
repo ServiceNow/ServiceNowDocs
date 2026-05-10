@@ -29,7 +29,7 @@ CMDB Application CLI and API commands enable the following tasks:
 -   Populating an application service with a given population type
 -   Changing the state of an application service
 
-For the REST API solution, see SG Services API.
+For the REST API solution, see [SG Services API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/sg_services-api.md).
 
 ## Convert Application Service
 

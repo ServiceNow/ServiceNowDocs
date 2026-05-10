@@ -37,13 +37,13 @@ Role required: admin
 
     **Note:** The fibre broadband service definition as been shipped as a part of the demo data.
 
-    For more information about service definition, see Service definitions.
+    For more information about service definition, see [Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-service-definitions.md).
 
 8.  Select the **Recommended Services**.
 
     The **Recommended Services** shows the service definitions that are linked to the **Impacted Services/CIs**.
 
-    For more information about how to create record producer, see Record Producer.
+    For more information about how to create record producer, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md).
 
 9.  Select **Create proactive cases**.
 

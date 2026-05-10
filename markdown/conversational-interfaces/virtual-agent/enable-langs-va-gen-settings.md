@@ -17,7 +17,7 @@ If you plan to use language-specific NLU models, you must enable the installed l
 
 ## Before you begin
 
-Activate the ServiceNow plugin for each language you want to support. For more information, see Activate a language.
+Activate the ServiceNow plugin for each language you want to support. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 
 Role required: virtual\_agent\_admin or admin
 

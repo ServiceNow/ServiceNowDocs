@@ -25,7 +25,7 @@ To access this application, use the nlu\_admin or admin role and navigate to **A
 
 ## Installation
 
-NLU Model Performance is an application available on the ServiceNow® Store. To use this application, ensure that the NLU Workbench - Advanced Features \(sn\_nlu\_workbench\) plugin is active on your instance. For more information, see [Install NLU Workbench - Advanced Features](../task/install-nlu-workbench-adv-features.md) and [Activate the NLU Workbench](../task/activate-nlu-workbench.md). Because NLU Model Performance relies on data coming in from VA, ensure that the Glide Virtual Agent \(com.glide.cs.chatbot\) plugin is also active. See Activate Virtual Agent.
+NLU Model Performance is an application available on the ServiceNow® Store. To use this application, ensure that the NLU Workbench - Advanced Features \(sn\_nlu\_workbench\) plugin is active on your instance. For more information, see [Install NLU Workbench - Advanced Features](../task/install-nlu-workbench-adv-features.md) and [Activate the NLU Workbench](../task/activate-nlu-workbench.md). Because NLU Model Performance relies on data coming in from VA, ensure that the Glide Virtual Agent \(com.glide.cs.chatbot\) plugin is also active. See [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/activate-virtual-agent.md).
 
 ## Configuring Conversational Interfaces settings for ServiceNow NLU
 
@@ -33,7 +33,7 @@ To help with tracking NLU performance, you must first configure the Conversation
 
 ![Setting Conversational Interfaces settings](../images/nlu-model-performance0.png)
 
-To configure the settings, you need to use the virtual\_agent\_admin or admin role. For configuration guidance, see Implement NLU in Virtual Agent and Enable NLU languages in Virtual Agent settings.
+To configure the settings, you need to use the virtual\_agent\_admin or admin role. For configuration guidance, see [Implement NLU in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/implement-nlu-va.md) and [Enable NLU languages in Virtual Agent settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-langs-va-gen-settings.md).
 
 ## Reviewing the user interface \(UI\)
 
@@ -101,7 +101,7 @@ Click **Run analysis** or **Rerun analysis**, whichever is available. Each time 
 **Related topics**  
 
 
-[bundle-convint.virtual-agent-landing-page]
+[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md)
 
-[bundle-convint.va-NLU]
+[Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-NLU.md)
 

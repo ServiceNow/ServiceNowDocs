@@ -41,7 +41,7 @@ The process for configuring HR Service Delivery with a local document repository
 
 1.  Configure HR Service Delivery to communicate with the source location from Employee Document Import Configuration.
 
-    Before you can configure a local document storage, ensure that a MID Server is configured and available. A MID server is required to facilitate communication and movement of data between a ServiceNow instance and applications, data sources, and services.
+    Before you can configure a local document storage, ensure that a [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md) is configured and available. A MID server is required to facilitate communication and movement of data between a ServiceNow instance and applications, data sources, and services.
 
     **Important:** By default, this feature expects the file server to be UNIX. If the file server is any OS other than UNIX, then you must customize the solution.
 
@@ -50,7 +50,7 @@ The process for configuring HR Service Delivery with a local document repository
 
         **Note:** Other methods of configuring your local document storage requires custom development.
 
-    Create a credential to use for authentication with the local document storage. See Set up SSH credentials to the MID Server.
+    Create a credential to use for authentication with the local document storage. See [Set up SSH credentials to the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/set-up-and-config-MID-server.md).
 
     **Note:** When connecting to a local document repository, you may need to grant admin rights.
 

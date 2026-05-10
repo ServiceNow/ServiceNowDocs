@@ -35,7 +35,7 @@ To use the feature, do the following:
 2.  From the header menu, select the Now Assist icon to open the Now Assist panel.
 3.  In the Now Assist panel, type in a question related to a case.
 
-To get started with configuring the Now Assist Q&amp;A Skill, see the Configuring Now Assist Admin features instructions.
+To get started with configuring the Now Assist Q&amp;A Skill, see the [Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md) instructions.
 
 **Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](now-assist-csm-using.md)
 

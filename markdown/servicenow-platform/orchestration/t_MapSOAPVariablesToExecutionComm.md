@@ -6,7 +6,7 @@ release: australia
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 3
 breadcrumb: [Create a SOAP web service activity, Orchestration custom activity templates, Orchestration activity designer, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -55,7 +55,7 @@ Web service message
 
 </td><td>
 
-SOAP message to use for this activity. Users must have the web\_service\_admin role to configure this field.
+[SOAP message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPMessage.md) to use for this activity. Users must have the web\_service\_admin role to configure this field.
 
 </td></tr><tr><td>
 
@@ -63,7 +63,7 @@ Web service message function
 
 </td><td>
 
-SOAP message SOAP message functions to use for this activity. Users must have the web\_service\_admin role to configure this field.
+SOAP message [SOAP message functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPMessageFunctions.md) to use for this activity. Users must have the web\_service\_admin role to configure this field.
 
 </td></tr><tr><td>
 
@@ -79,7 +79,7 @@ SOAP message parameters
 
 </td><td>
 
-Name-value pairs to pass to the SOAP endpoint. You can create these parameters manually, or drag input variables into the parameter fields and then assign a value. Parameters defined in the SOAP message that use `${}` can be assigned data from this activity template. Use the **Additional attribute** column to configure the system to not escape the text. By default, text sent to the SOAP message is escaped. The **Name** column is auto-populated if the users have provided variables using Variable substitution in outbound REST messages in the SOAP message.
+Name-value pairs to pass to the SOAP endpoint. You can create these parameters manually, or drag input variables into the parameter fields and then assign a value. Parameters defined in the SOAP message that use `${}` can be assigned data from this activity template. Use the **Additional attribute** column to configure the system to not escape the text. By default, text sent to the SOAP message is escaped. The **Name** column is auto-populated if the users have provided variables using [Variable substitution in outbound REST messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_VariableSubstitutionREST.md) in the SOAP message.
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Authentication
 </td><td>
 
 Determines what type of authentication is required for the endpoint. The options are:-   **Use existing credentials in SOAP message**: Uses credential definitions from the SOAP message definition.
--   **Override with Basic Authentication credentials:** Uses \|Enable basic authentication for outbound SOAP credentials. Overrides the credentials in the SOAP message definition. Basic authentication credentials must be provisioned before they are available for selection.
+-   **Override with Basic Authentication credentials:** Uses \|[Enable basic authentication for outbound SOAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_BasicAuthentication.md) credentials. Overrides the credentials in the SOAP message definition. Basic authentication credentials must be provisioned before they are available for selection.
 -   **Override with Certificate Authentication credentials**: Overrides the credentials in the SOAP message definition with certificate authentication credentials.
 -   **Override with Both Basic and Certificate Authentication credentials**: Overrides the credentials in the SOAP message definition with both basic authentication or certificate authentication credentials.
 -   **Override with WS-Security Username profile**: Overrides the credentials in the SOAP message definition with credentials defined in WS-Security.
@@ -126,7 +126,7 @@ Credentials
 
 </td><td>
 
-Required REST endpoint basic authentication credentials. This field is available when **Override with Basic Authentication credentials** is selected in the **Authentication** field. Only basic authentication credentials appear in the selection list, which includes credentials stored on the instance and credential IDs from an external storage system. If you are using credentials stored in a CyberArk safe, you can override the Configure the MID Server for CyberArk defined in the MID Server configuration file by adding the name of a different safe as a prefix to the credential ID, separated by a colon. For example, **newsafe:orch-test-f5**.
+Required REST endpoint basic authentication credentials. This field is available when **Override with Basic Authentication credentials** is selected in the **Authentication** field. Only basic authentication credentials appear in the selection list, which includes credentials stored on the instance and credential IDs from an external storage system. If you are using credentials stored in a CyberArk safe, you can override the [Configure the MID Server for CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/t_ConfigureTheMIDServerForCyberArk.md) defined in the MID Server configuration file by adding the name of a different safe as a prefix to the credential ID, separated by a colon. For example, **newsafe:orch-test-f5**.
 
 </td></tr><tr><td>
 
@@ -134,7 +134,7 @@ Protocol Profile
 
 </td><td>
 
-Outbound web services mutual authentication to use for authentication. This field is available when the authentication type is either **Override with Certificate Authentication credentials** or **Override with Both Basic and Certificate Authentication credentials**.
+[Outbound web services mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundWebServicesMutualAuth.md) to use for authentication. This field is available when the authentication type is either **Override with Certificate Authentication credentials** or **Override with Both Basic and Certificate Authentication credentials**.
 
 </td></tr></tbody>
 </table>3.  Click **Save**.

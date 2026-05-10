@@ -31,7 +31,7 @@ When building low-code apps, you can customize them, create reports on their usa
 
 </td><td>
 
-Learn about the ServiceNow platform ![](../image/icon-learn.png) See what you can do with the ServiceNow platform.
+[Learn about the ServiceNow platform ![](../image/icon-learn.png) See what you can do with the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-platform/now-platform-landing.md)
 
 </td><td>
 

@@ -30,7 +30,7 @@ Ensure that you have activated the Agent Chat \(com.glide.interaction.awa\) plug
     -   Open the **Universal Request Chat Queue** chat queue and modify it
     -   Create the **Assignment Eligibility** record for the chat queue modifying the application provided Universal Request assignment rule.
     -   Click **New** to create a new record.
-    For more information, see Advanced Work Assignment.
+    For more information, see [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/implement-awa.md).
 
 3.  Click **Submit**.
 

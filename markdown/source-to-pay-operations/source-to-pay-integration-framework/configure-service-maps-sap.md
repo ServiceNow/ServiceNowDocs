@@ -20,7 +20,7 @@ Configure integration services for SAP
 ## Before you begin
 
 -   Verify that the application scope is set to SAP ECC and SAP S4 HANA spoke.
--   Verify that the MID Server is installed and configured in your ServiceNow instance to connect to the ERP server. For more details, see Installing the MID Server.
+-   Verify that the MID Server is installed and configured in your ServiceNow instance to connect to the ERP server. For more details, see [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-installation.md).
 -   For REST type service, REST API details, as provided by ERP.
 
 Role required: sn\_fcms\_intg.admin

@@ -48,7 +48,7 @@ Phase 2
 [Create a flow](app-tutorial-create-a-flow.md#)
 
 </td></tr></tbody>
-</table>For more information about using decision tables, see Create decision tables in Workflow Studio.
+</table>For more information about using decision tables, see [Create decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-decision-table-in-decision-designer.md).
 
 Follow along with the tutorial to build a decision table for the employee travel request application.
 

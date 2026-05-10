@@ -21,7 +21,7 @@ The Explore ERP models agentic workflow uses a team of AI agents to answer user 
 ## Prerequisites for the Explore ERP models agentic workflow
 
 -   The sn\_erp\_integration.erp\_ai\_user role is required to work with generative AI and agentic AI in Now Assist for ZCC.
--   You must have the Knowledge Graph plugin installed. For more information, see Configuring Knowledge Graph.
+-   You must have the Knowledge Graph plugin installed. For more information, see [Configuring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/configuring-knowledge-graph.md).
 -   Follow the steps in [Now Assist for Zero Copy Connector agentic workflow prerequisites](now-assist-erp-ai-agents-prereqs.md) before using the Explore ERP models agentic workflow.
 
 ## AI agents used in the Explore ERP models agentic workflow
@@ -44,12 +44,12 @@ Users with the sn\_aia\_admin role can access the workflow.
     ![Explore ERP models page with information about the workflow and the AI agents in the workflow.](../images/erp-data-product-explorer-workflow-listing.png)
 
 3.  Review the **Workflow description** and **List of steps**.
-4.  Review the **Add AI agents that can perform these steps** section and select an AI agent name for details. For more information, see Define key requirements for an agentic workflow.
-5.  Select **Save and continue** and view the user access options. For more information, see Define security controls for an agentic workflow.
-6.  Select **Save and continue** and view the data access options. For more information, see Define security controls for an agentic workflow.
-7.  Select **Save and continue** and view the trigger options. For more information, see Add a trigger to an agentic workflow.
-8.  Select **Save and continue** and view the channel and status options. For more information, see Select channels and access for an agentic workflow.
-9.  Select **Save and test** to test the workflow. For more information, see Manually test the execution of an agentic workflow.
+4.  Review the **Add AI agents that can perform these steps** section and select an AI agent name for details. For more information, see [Define key requirements for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-key-requirements.md).
+5.  Select **Save and continue** and view the user access options. For more information, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+6.  Select **Save and continue** and view the data access options. For more information, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+7.  Select **Save and continue** and view the trigger options. For more information, see [Add a trigger to an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aw.md).
+8.  Select **Save and continue** and view the channel and status options. For more information, see [Select channels and access for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/channels-access-aw.md).
+9.  Select **Save and test** to test the workflow. For more information, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md).
 
 ## Using the Explore ERP models agentic workflow
 
@@ -77,5 +77,5 @@ In this example, use the Explore ERP models agentic workflow to run a specific m
 
 Your conversation is saved until you start a new chat. If the conversation ends unexpectedly, start a new chat by selecting the New chat icon \(![New chat icon.](../../../common/image/icon-zoom-in.png)\).
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 

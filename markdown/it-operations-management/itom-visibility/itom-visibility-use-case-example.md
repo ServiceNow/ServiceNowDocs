@@ -61,13 +61,13 @@ The Service Map tab displays a visual representation of the service.
 **Related topics**  
 
 
-[bundle-platcap.csdm-lifecycle-document]
+[Life cycle of document and contract entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-document.md)
 
-[bundle-platcap.csdm-lifecycle-hardware]
+[Life cycle of tangible/physical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-hardware.md)
 
-[bundle-platcap.csdm-lifecycle-location]
+[Life cycle of location entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-location.md)
 
-[bundle-platcap.csdm-lifecycle-logical]
+[Life cycle of intangible/logical entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-logical.md)
 
-[bundle-platcap.csdm-lifecycle-product]
+[Life cycle of product entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-product.md)
 

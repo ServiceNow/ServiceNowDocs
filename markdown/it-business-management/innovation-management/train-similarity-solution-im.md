@@ -17,7 +17,7 @@ Train the Similar Ideas solution definition included within the Predictive Intel
 
 ## Before you begin
 
-Ensure that the Predictive Intelligence plugin \(com.glide.platform\_ml\), PPM Standard plugin \(com.snc.financial\_planning\_pmo\), and Predictive Intelligence for Ideation plugin \(com.snc.innovation\_management\_ml\) are activated. For more information about Predictive Intelligence, see Predictive Intelligence.
+Ensure that the Predictive Intelligence plugin \(com.glide.platform\_ml\), PPM Standard plugin \(com.snc.financial\_planning\_pmo\), and Predictive Intelligence for Ideation plugin \(com.snc.innovation\_management\_ml\) are activated. For more information about Predictive Intelligence, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md).
 
 Role required: admin
 
@@ -29,7 +29,7 @@ Role required: admin
 
 3.  On the Similarity Definition form, verify the default field values for ideas.
 
-    For more information about the Similarity Definition form fields, see Create and train a similarity solution.
+    For more information about the Similarity Definition form fields, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md).
 
 4.  Click **Update &amp; Retrain**.
 
@@ -55,7 +55,7 @@ When the solution is complete, the similar ideas appear in the Related Ideas sec
 **Related topics**  
 
 
-[bundle-platai.predictive-intelligence]
+[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md)
 
 [Predictive Intelligence for Innovation Management](../concept/predictive-intelligence-for-innovation.md)
 

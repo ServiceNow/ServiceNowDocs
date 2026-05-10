@@ -476,7 +476,7 @@ Agents can:-   Add documents to the information request without making them visi
 -   View documents approved to be published to the requester
 -   Publish approved documents to the requester
 
-To view the Documents related list, you must first install the Document Management plugin.
+To view the Documents related list, you must first install the [Document Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/doc-mgt-plugin.md).
 
 </td></tr><tr><td>
 

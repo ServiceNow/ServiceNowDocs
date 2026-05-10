@@ -23,7 +23,7 @@ The knowledge subscription feature uses email notification templates to send sub
 |KM Subscription: Article revised|Knowledge article|
 |KM Subscription: Article commented|Knowledge article|
 
-Users with the admin or knowledge\_admin role can customize these email notification templates. To locate the template, navigate to **System Notifications** &gt; **Email** &gt; **Notifications**. For more information about customizing a template, see Create an email notification.
+Users with the admin or knowledge\_admin role can customize these email notification templates. To locate the template, navigate to **System Notifications** &gt; **Email** &gt; **Notifications**. For more information about customizing a template, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
 
 Subscription notifications include a link at the bottom of the email to the user's Notification Preferences page.
 

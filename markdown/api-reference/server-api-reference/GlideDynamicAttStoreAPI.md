@@ -15,7 +15,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 Use the GlideDynamicAttributeStore API to create objects for working with dynamic attributes independently of a table or field.
 
-This API provides methods that enable you to get and set dynamic schema attributes in a GlideDynamicAttributeStore object. For more details on dynamic attributes, see Dynamic schema.
+This API provides methods that enable you to get and set dynamic schema attributes in a GlideDynamicAttributeStore object. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 To use this API to create dynamic attributes you must have the dynamic\_schema\_writer role. To read dynamic data using this API you must have the dynamic\_schema\_reader role.
 

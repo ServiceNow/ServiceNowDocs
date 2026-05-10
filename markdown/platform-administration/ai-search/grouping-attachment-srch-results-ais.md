@@ -37,7 +37,7 @@ Selecting an attachment search result downloads the original attachment to your 
 -   Document Viewer is enabled for the attachment's source table.
 -   The **useAttachmentViewer** EVAM property is set to **true** for the parent search result.
 
-For details on activating and enabling Document Viewer, see Enable Document Viewer. To learn more about EVAM property settings for search results, see [Configure EVAM display settings for search results in AI Search applications](../task/configure-search-result-card-opts.md).
+For details on activating and enabling Document Viewer, see [Enable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-document-viewer.md). To learn more about EVAM property settings for search results, see [Configure EVAM display settings for search results in AI Search applications](../task/configure-search-result-card-opts.md).
 
 ## Relevancy and click rank for grouped attachment search results
 

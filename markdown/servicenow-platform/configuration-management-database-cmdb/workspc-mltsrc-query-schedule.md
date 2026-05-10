@@ -46,7 +46,7 @@ Role required: sn\_cmdb\_user and either cmdb\_ms\_admin or cmdb\_ms\_editor.
 
 ## What to do next
 
-Create a CMDB 360 report to integrate CMDB 360 query results with platform Reporting capabilities. Each run of the query automatically updates the generated report.
+Create a CMDB 360 report to integrate CMDB 360 query results with platform [Reporting capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/reporting-landing-page.md). Each run of the query automatically updates the generated report.
 
 **Related topics**  
 

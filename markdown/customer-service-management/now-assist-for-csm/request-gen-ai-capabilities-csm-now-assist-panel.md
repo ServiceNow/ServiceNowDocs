@@ -18,9 +18,9 @@ Request the contextual generative AI capabilities, such as a chat summary, case 
 
 ## Before you begin
 
-Make sure that Next Experience is enabled in the instance. For more information, see Next Experience UI.
+Make sure that Next Experience is enabled in the instance. For more information, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md).
 
-Make sure that AI search and Now Assist in Virtual Agent are enabled in the instance for the conversational subflows and actions to work.
+Make sure that [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ais.md) and [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/turn-on-the-subflows-and-actions-skill.md) are enabled in the instance for the conversational subflows and actions to work.
 
 Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
@@ -28,7 +28,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
 You can use the Now Assist panel in CSM Configurable Workspace to request a chat, call or case summary, generate case resolution notes and knowledge article, ask a question about a case, Use AI agents to complete cases and use conversational subflows and actions.
 
-For more information about the Now Assist panel, see Now Assist panel. For information about activating the Now Assist panel, see Activate the Now Assist panel standard chat.
+For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md). For information about activating the Now Assist panel, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 ## Procedure
 

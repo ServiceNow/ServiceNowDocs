@@ -103,7 +103,7 @@ Option for searching dashboards by name or owner.
 
 </td><td>
 
-Launches the condition builder. For more information on using the condition builder, see Create a condition statement using the condition builder.
+Launches the condition builder. For more information on using the condition builder, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
 
  The condition builder for dashboards has the following extra options:
 

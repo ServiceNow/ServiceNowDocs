@@ -23,13 +23,13 @@ Domain separation is supported in mobile. Domain separation enables you to separ
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Overview
 
 The mobile platform supports domain separation for all native clients. The mobile UI design clearly indicates the domain that a record is associated with.
 
-Before extending the domain separation functionality to mobile, the feature must be enabled on the platform web-based interface. For further information on configuration, see Domain separation setup and administration.
+Before extending the domain separation functionality to mobile, the feature must be enabled on the platform web-based interface. For further information on configuration, see [Domain separation setup and administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparationSetup.md).
 
 ## How domain separation works in mobile
 
@@ -37,10 +37,10 @@ You can use the company or account fields to display appropriate records by doma
 
 After the feature has been set up through the platform web-based interface, a two-part process is required to further extend the domain separation functionality on mobile. For additional information about configuring domain separation on mobile devices, contact Customer Service and Support.
 
-**Note:** ITSM Mobile Agent contains an automatically configured domain separation feature. For more information, refer to the ITSM Mobile Agent documentation.
+**Note:** ITSM Mobile Agent contains an automatically configured domain separation feature. For more information, refer to the [ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/itsm-mobile-agent.md) documentation.
 
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

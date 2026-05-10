@@ -17,9 +17,9 @@ You can use the pre-built deflection topics and topic blocks in Virtual Agent co
 
 A deflection happens when ITSM Virtual Agent resolves an issue for you. By asking you relevant questions, ITSM Virtual Agent can create an incident in the correct assignment group. As a result, you might not need to create an incident, or need the assistance of a live agent.
 
-Deflection tracking uses the topics and topic blocks created in Virtual Agent Designer and is enabled by default. For more information, see Tracking deflections using deflection topic blocks.
+Deflection tracking uses the topics and topic blocks created in Virtual Agent Designer and is enabled by default. For more information, see [Tracking deflections using deflection topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/deflections-virtual-agent.md).
 
-By default, ITSM Virtual Agent includes pre-built deflection configurations in the base system. You can use the deflection configurations in the base system or customize them, as needed. For more information, see Create deflection configurations and patterns.
+By default, ITSM Virtual Agent includes pre-built deflection configurations in the base system. You can use the deflection configurations in the base system or customize them, as needed. For more information, see [Create deflection configurations and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/set-up-deflection-settings-va.md).
 
 ![Base system deflection configuration and patterns.](../image/itsm-deflection-tracking-default-configurations.png)
 
@@ -48,7 +48,7 @@ The deflection metrics are generated and stored in the Deflection Metric \[ssa\_
 
     **Note:** The Self-Service Analytics framework requires the Self-Service Analytics Core plugin \(com.snc.self\_service\_analytics\_core\).
 
-    For more information, see Activate Self-Service Analytics.
+    For more information, see [Activate Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-ssa-cs.md).
 
 -   Use the **Overview** tab of the Conversational Analytics Dashboard.
 

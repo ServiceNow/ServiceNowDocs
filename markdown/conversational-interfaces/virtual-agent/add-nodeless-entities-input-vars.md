@@ -24,7 +24,7 @@ Role required: virtual\_agent\_admin or admin
 
 If a custom control prompts a user for a date and the user mentioned a date in their initial utterance, you can capture that without prompting the user again. To prompt the user when not slot-filled, use input controls.
 
-For more information about NLU entities, see Entities. For more information about system entities, see [NLU system entities](../reference/nlu-system-entities.md).
+For more information about NLU entities, see [Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/entities.md). For more information about system entities, see [NLU system entities](../reference/nlu-system-entities.md).
 
 ## Procedure
 
@@ -93,7 +93,7 @@ Text format that is validated when a user enters certain text items. If the user
 -   Phone number \(E.164\): Internationally recognized standard phone number format.
 -   URL: Web address format
 -   Custom: Script that provides a text validation rule for a custom text format and the related error messages displayed when the expected format is not entered.
-**Note:** For phone and IP address format examples, see E.164 phone formats and IP address field types.
+**Note:** For phone and IP address format examples, see [E.164 phone formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ConfigureE.164PhoneNumberFields.md) and [IP address field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r-IPAddressFieldType.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

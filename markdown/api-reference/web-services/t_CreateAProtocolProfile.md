@@ -18,8 +18,8 @@ You can create a custom HTTPS protocol profile to specify the credentials and ce
 ## Before you begin
 
 -   Role required: admin
--   Uploading a certificate to an instance to authenticate the client certificate of the instance.
--   Uploading a trusted server certificate to authenticate the server certificate of the web service provider.
+-   [Uploading a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_UploadACertificateToAnInstance.md) to authenticate the client certificate of the instance.
+-   [Uploading a trusted server certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_UploadATrustedServerCertificate.md) to authenticate the server certificate of the web service provider.
 
 ## About this task
 

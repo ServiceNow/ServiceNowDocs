@@ -160,5 +160,5 @@ In this sample exact match, the system displays the matching article and an info
 </table>**Related topics**  
 
 
-[bundle-platux.c_UserPreferences]
+[User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md)
 

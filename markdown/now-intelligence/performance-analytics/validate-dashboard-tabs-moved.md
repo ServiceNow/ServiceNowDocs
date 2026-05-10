@@ -73,6 +73,6 @@ Moving dashboards from one instance to another requires associating the sys\_id 
 
     5.  Move the update set to another instance using standard update set functionality.
 
-        For more information, see Retrieve an update set.
+        For more information, see [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_RetrieveAnUpdateSet.md).
 
 

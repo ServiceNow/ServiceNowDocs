@@ -44,7 +44,7 @@ Persona selection screen
 </td></tr></tbody>
 </table>## Demo highlights
 
-The Now Mobile demo displays a launcher screen divided into UI sections. Tap an item in any section to open the item. For details on how launcher screens, other types of screens, and actions work together in the mobile environment, see Mobile hierarchy.
+The Now Mobile demo displays a launcher screen divided into UI sections. Tap an item in any section to open the item. For details on how launcher screens, other types of screens, and actions work together in the mobile environment, see [Mobile hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-hierarchy.md).
 
 ## Employee
 
@@ -54,7 +54,7 @@ The Now Mobile demo displays a launcher screen divided into UI sections. Tap an 
 
 -   **Frequently Used Items**
 
-    The display includes an example of shortcuts to items employee users are likely to access frequently, such as scheduling a visit to the tech lounge. These can be configured by the organization to keep them readily available for employees. For more information about the tech lounge example, see Walk-up Experience. For more information on office entry codes, see [Verify your health status and compliance](../../../product/employee-health-screening/task/agree-compliance-return.md).
+    The display includes an example of shortcuts to items employee users are likely to access frequently, such as scheduling a visit to the tech lounge. These can be configured by the organization to keep them readily available for employees. For more information about the tech lounge example, see [Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-experience-landing-page.md). For more information on office entry codes, see [Verify your health status and compliance](../../../product/employee-health-screening/task/agree-compliance-return.md).
 
 -   **My Items**
 
@@ -66,15 +66,15 @@ The Now Mobile demo displays a launcher screen divided into UI sections. Tap an 
 
     -   Requests
 
-        Once the employee has submitted a request for an item or service the open ticket or case will be available here to track. Universal requests, indicated with a UR at the beginning of the case number, can be easily transferred between departments as needed. For more information on services and requests, see Request experience in Now Mobile.
+        Once the employee has submitted a request for an item or service the open ticket or case will be available here to track. Universal requests, indicated with a UR at the beginning of the case number, can be easily transferred between departments as needed. For more information on services and requests, see [Request experience in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-mobile-catalog.md).
 
     -   Assets
 
-        Items assigned to a user are itemized for easy reference, making it simple to report an issue or review all checked out assets. For more information, see Hardware Asset Management.
+        Items assigned to a user are itemized for easy reference, making it simple to report an issue or review all checked out assets. For more information, see [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-landing-page.md).
 
     -   Team
 
-        Reaching colleagues is just a tap away. In addition to contact information, profiles show examples of how deeplinks can directly launch other apps, such as a Microsoft Teams chat or a LinkedIn profile. For information on configuring native mobile functions like those used to make calls and send emails, see Mobile functions.
+        Reaching colleagues is just a tap away. In addition to contact information, profiles show examples of how deeplinks can directly launch other apps, such as a Microsoft Teams chat or a LinkedIn profile. For information on configuring native mobile functions like those used to make calls and send emails, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-mobile-button-types.md).
 
 -   **Services**
 
@@ -82,7 +82,7 @@ The Now Mobile demo displays a launcher screen divided into UI sections. Tap an 
 
 -   **Saved**
 
-    Use saved views to gain quick access to frequently used screens and views. Saved views enable you to save any screen or web page within your mobile app. Learn more about Mobile saved views.
+    Use saved views to gain quick access to frequently used screens and views. Saved views enable you to save any screen or web page within your mobile app. Learn more about [Mobile saved views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/saved-views-mobile.md).
 
 -   **Health**
 
@@ -90,7 +90,7 @@ The Now Mobile demo displays a launcher screen divided into UI sections. Tap an 
 
 -   **Virtual Agent Chat**
 
-    Use the chat button to connect to a virtual agent. Virtual agent is an automated conversational interface you can use to address common issues, such as password resets, or email account setup. The Now Mobile uses a quick action to access chat. For more information on Virtual Agent, see Virtual Agent. The chat button on the demo launch page is a quick action. For details on how to add a virtual agent to your mobile apps, see [Enable Live Agent in the Now Mobile app](../../mobile-employee/task/va-in-me.md).
+    Use the chat button to connect to a virtual agent. Virtual agent is an automated conversational interface you can use to address common issues, such as password resets, or email account setup. The Now Mobile uses a quick action to access chat. For more information on Virtual Agent, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md). The chat button on the demo launch page is a quick action. For details on how to add a virtual agent to your mobile apps, see [Enable Live Agent in the Now Mobile app](../../mobile-employee/task/va-in-me.md).
 
 
 ## Chief Information Officer \(CIO\)
@@ -165,7 +165,7 @@ The Now Mobile demo displays a launcher screen divided into UI sections. Tap an 
 
     Use the contacts in this section to view and connect with colleagues using your mobile device's built in capabilities.
 
-    For information on configuring functions like those used to make calls and send emails, see Mobile functions.
+    For information on configuring functions like those used to make calls and send emails, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-mobile-button-types.md).
 
 -   **Get Informed**
 
@@ -177,7 +177,7 @@ The Now Mobile demo displays a launcher screen divided into UI sections. Tap an 
 Use the following links to learn more about on how to use and configure the Now Mobile app.
 
 -   Now Mobile app
--   Configuring the Mobile Platform
+-   [Configuring the Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-mobile-platform-landing.md)
 
 **Parent Topic:**[Now Mobile app](../../mobile-employee/concept/mobile-employee-experience.md)
 

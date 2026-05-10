@@ -19,7 +19,7 @@ Users with admin, sys\_admin, report\_admin, pa\_admin, and pa\_power\_user role
 
 You must have the subscription version of Performance Analytics to create reports with imported data. See [Activate your Performance Analytics subscription](../../performance-analytics/concept/c_PremiumPerformanceAnalytics.md#).
 
-**Note:** Importing report data in this way is useful when you have information that is maintained outside of your instance. To import an external data set into your instance permanently, see Easy import.
+**Note:** Importing report data in this way is useful when you have information that is maintained outside of your instance. To import an external data set into your instance permanently, see [Easy import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/easy-import/c_EasyImport.md).
 
 **Parent Topic:**[Administering reports](c_AdminsteringReports.md)
 

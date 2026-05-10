@@ -23,14 +23,14 @@ For information about configuring different types of activities, click an activi
 
 ## Core activities provided in the base system
 
--   Approval and rollback workflow activities
--   Condition Workflow activities
--   Notification workflow activity
--   Notify workflow activities
+-   [Approval and rollback workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/c_ApprovalAndRollbackActivities.md)
+-   [Condition Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/r_ConditionActivites.md)
+-   [Notification workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/r_NotificationActivity.md)
+-   [Notify workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyActivities.md)
 -   [Workflows used as subflows](../../workflow-activities/reference/workflows-as-subflows.md)
--   Task workflow activities
--   Timer workflow activities
--   Utility workflow activities
+-   [Task workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/r_TaskActivities.md)
+-   [Timer workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/c_TimerActivities.md)
+-   [Utility workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/c_UtilityActivities.md)
 
 ## Activities provided with Orchestration
 
@@ -43,5 +43,5 @@ The following activities are included with Orchestration.
 
 ## Templates provided for creating custom activities
 
-If Orchestration is active on your system, users with the proper roles can create custom activities using the ServiceNow Orchestration activity designer. For information about the templates Orchestration provides for creating custom activities that you can upload to the ServiceNow Store, see Activity designer components.
+If Orchestration is active on your system, users with the proper roles can create custom activities using the ServiceNow [Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_WorkflowActivityDesigner.md). For information about the templates Orchestration provides for creating custom activities that you can upload to the ServiceNow Store, see [Activity designer components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_ActivityDesignerComponents.md).
 

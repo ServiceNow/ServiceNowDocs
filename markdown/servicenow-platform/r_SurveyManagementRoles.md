@@ -13,7 +13,7 @@ breadcrumb: [Surveys reference, Surveys, Assessments and Surveys, Exploring Serv
 
 The Survey application uses the following roles.
 
-To learn more about managing subscriptions, see Managing per-user subscriptions in Subscription Management and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 No role is required to take assigned survey questionnaires.
 

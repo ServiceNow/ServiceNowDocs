@@ -19,7 +19,7 @@ If a user is not using software installed, or infrequently, that software can be
 
 ## Overview of software reclamation
 
-Software reclamation is integrated with Workflow and Client Software Distribution \(CSD\) to automate the process of uninstalling software from devices and reclaiming those software rights. During the workflow, the state of the removal candidate changes based on the progression within the workflow.
+Software reclamation is integrated with Workflow and [Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_ClientSoftwareDistribution.md) \(CSD\) to automate the process of uninstalling software from devices and reclaiming those software rights. During the workflow, the state of the removal candidate changes based on the progression within the workflow.
 
 **Note:** If you change a software asset's state to **Retired** or **Missing**, the installation associated to the software asset gets removed and a removal candidate won't be created.
 

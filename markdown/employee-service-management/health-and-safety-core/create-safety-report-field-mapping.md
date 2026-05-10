@@ -70,7 +70,7 @@ Steps
 
 In the list available with each field name, select a Health and Safety field to map to.The list displays fields from the selected Health and Safety mapping table.
 
-However, dot-walk fields are also available to select from the field mapping list to map further reference fields. For information on dot-walking, see Dot-walking to data in related tables.
+However, dot-walk fields are also available to select from the field mapping list to map further reference fields. For information on dot-walking, see [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md).
 
 </td></tr><tr><td id="d70693e246">
 

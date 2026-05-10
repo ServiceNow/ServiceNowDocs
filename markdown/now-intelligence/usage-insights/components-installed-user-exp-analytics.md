@@ -17,7 +17,7 @@ Several roles are installed to distinguish the activities different users can pe
 
 Usage Insights uses these roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 -   **[Analytics admin \[analytics\_admin\]](uxa-role-1.md)**  
 View the settings within Usage Insights in the application navigator and control the Usage Insights settings for each mobile, web, and service portal application. Assigned users can create funnel and cohort reports within the Usage Insights application.

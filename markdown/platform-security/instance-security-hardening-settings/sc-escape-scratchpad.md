@@ -109,7 +109,7 @@ References
 
 </td><td>
 
-Workflow administration
+[Workflow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowAdministration.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)

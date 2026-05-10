@@ -25,7 +25,7 @@ Ensure that the Delegates related list displays on the form. If the Delegates re
 
     ![The Additional actions menu highlighted](../image/Additional_actions_menu.jpg)
 
--   Configure the form to add the Delegates related list. For more information, see Configuring the form layout.
+-   Configure the form to add the Delegates related list. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
 ## Procedure
 

@@ -104,9 +104,9 @@ Allows keyboard-only users to access truncated text. Truncated text is text that
 
 </td><td>
 
-Voice input is activated automatically when Now Assist panel is activated. As of the Zurich patch 4, voice input is configured in Additional chat features and not with this option.
+Voice input is activated automatically when Now Assist panel is activated. As of the Zurich patch 4, voice input is configured in [Additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md) and not with this option.
 
-Activates voice-to-text in the Now Assist panel. With this feature, use your voice to access Now Assist skills in the Now Assist panel in any supported language. For more information on this preference, see [Enable voice input for the Now Assist panel](../concept/enable-voice-input-pref.md).**Note:** This preference appears only if your system administrator has enabled Now Assist voice input for your instance. For more information, see Enable voice input for Now Assist panel.
+Activates voice-to-text in the Now Assist panel. With this feature, use your voice to access Now Assist skills in the [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md) in any supported language. For more information on this preference, see [Enable voice input for the Now Assist panel](../concept/enable-voice-input-pref.md).**Note:** This preference appears only if your system administrator has enabled Now Assist voice input for your instance. For more information, see [Enable voice input for Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
 
 </td></tr><tr><td>
 

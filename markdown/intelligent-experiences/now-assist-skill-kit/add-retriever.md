@@ -125,7 +125,7 @@ Search criteria
 
 10. Select an embedding model.
 
-    To learn about embedding models, see Configuring your embedding model.
+    To learn about embedding models, see [Configuring your embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/setting-up-3p-embedding-models.md).
 
 11. If you selected **Hybrid** or **Semantic** search criteria, select a semantic index.
 

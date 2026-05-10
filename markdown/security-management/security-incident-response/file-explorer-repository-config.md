@@ -75,7 +75,7 @@ Graph Connection
 
 </td><td>
 
-Select the File Explorer Graph tenant record. For more information on the tenant connection configuration, see Microsoft SharePoint spoke.
+Select the File Explorer Graph tenant record. For more information on the tenant connection configuration, see [Microsoft SharePoint spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sharepoint-online-spoke.md).
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Rest Connection
 
 </td><td>
 
-Select the File Explorer REST tenant record. For more information on the tenant connection configuration, see Microsoft SharePoint spoke.
+Select the File Explorer REST tenant record. For more information on the tenant connection configuration, see [Microsoft SharePoint spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sharepoint-online-spoke.md).
 
 </td></tr></tbody>
 </table>3.  Select **Save**.

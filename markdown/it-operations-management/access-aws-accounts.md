@@ -33,7 +33,7 @@ There are permanent and temporary AWS credentials that you can use for configuri
 
     By default, the MID Server is configured to assume the **OrganizationAccountAccessRole**, which grants temporary credentials to all the members of a primary account. This action occurs automatically if no permanent credentials exist for the member accounts. This configuration doesn't apply any additional security or restrict access to any resources in member accounts.
 
-    By default, the ServiceNow instance caches temporary credentials for member accounts for 60 minutes. This interval enables the horizontal discovery process to run multiple times without generating new credentials during each discovery. You can avoid credential caching or modify the caching period using MID Server properties.
+    By default, the ServiceNow instance caches temporary credentials for member accounts for 60 minutes. This interval enables the horizontal discovery process to run multiple times without generating new credentials during each discovery. You can avoid credential caching or modify the caching period using [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md).
 
 
 ## IAM roles and permissions

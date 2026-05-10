@@ -25,7 +25,7 @@ Along with the installation of Now Assist in Catalog Builder application, you mu
 **Related topics**  
 
 
-[bundle-platai.install-now-assist-feature-plugins]
+[Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md)
 
-[bundle-platai.configure-a-now-assist-skill]
+[Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md)
 

@@ -22,7 +22,7 @@ A Universal Request is created from an Interaction Record or New Call record whe
 -   Resolve the Universal Request immediately without assigning it to a specific department.
 -   Transfer the Universal Request to a different department by assigning it to a Tier 1 assignment group.
 
-Universal Request serves as a parent record for other records created as child records, such as INC, HRC, and custom task types. It is also used for all cross-departmental reporting. For more information about universal request, see Exploring Universal Request.
+Universal Request serves as a parent record for other records created as child records, such as INC, HRC, and custom task types. It is also used for all cross-departmental reporting. For more information about universal request, see [Exploring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/explore-universal-request.md).
 
 ## Features
 
@@ -48,7 +48,7 @@ The integration provides the following functionalities:
 Activate the following plugins if you have the admin role. These plugins are not active by default, and you must install them to integrate Innovation Management with Universal Request applications.
 
 -   PPM Standard plugin \(com.snc.financial\_planning\_pmo\).
--   Universal Request plugin \(com.snc.universal\_request\). For activation information, see Activate Universal Request.
+-   Universal Request plugin \(com.snc.universal\_request\). For activation information, see [Activate Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/activate-ur-plugin.md).
 
 Activate other related plugins such as Human Resources Scoped App: Core \(com.sn\_hr\_core\), and Employee Center \(com.snc.employee\_center\) plugins to facilitate inter-department transfers of ideas.
 

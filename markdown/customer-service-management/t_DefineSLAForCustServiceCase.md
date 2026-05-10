@@ -25,8 +25,8 @@ An SLA is automatically associated to a case when the case is created or updated
 
 ## Procedure
 
--   For more information about SLAs, see Service Level Management concepts.
+-   For more information about SLAs, see [Service Level Management concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-management-concepts.md).
 
--   To create an SLA, see Create an SLA definition.
+-   To create an SLA, see [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/t_CreateAnSLADefinition.md).
 
 

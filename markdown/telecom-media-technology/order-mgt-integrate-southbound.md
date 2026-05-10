@@ -26,17 +26,17 @@ Using this integration, a Communications Service Provider \(CSP\) can do the fol
 
 The integration process for Order Management with the external technical order management systems is as follows:
 
-1.  As the administrator, you activate the Service Order Open API to capture the service order from the customer orders. To learn more, see TMF641 Service Order Open API- POST.
+1.  As the administrator, you activate the Service Order Open API to capture the service order from the customer orders. To learn more, see [TMF641 Service Order Open API- POST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/service-order-open-api.md).
 2.  The integration now begins:
 
     1.  The order fulfillment manager selects the Create fulfillment request UI action in the domain order table.
     2.  The Service Order Outbound Policy decision table checks the domain order attributes, and the order management system generates the payload for the domain service order.
-    3.  The generated payload is sent to the endpoint of the external fulfillment system. For more information on configuring external system endpoints by creating an integration request, see Workflow Studio flow integrations.
+    3.  The generated payload is sent to the endpoint of the external fulfillment system. For more information on configuring external system endpoints by creating an integration request, see [Workflow Studio flow integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-integrations.md).
     **Note:**
 
     -   If the domain order is configured as hierarchical in the decision table, the system sends all the child service domain orders in the hierarchy to the external system that is configured in the application spoke selector.
     -   If the domain order is configured as non-hierarchical in the decision table, the systems send only the individual domain order to the external system that is configured in the application spoke selector.
-    To learn more about spokes, see Building spokes using Spoke Generator.
+    To learn more about spokes, see [Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spoke-builder.md).
 
 3.  The service order manager selects the Create Outbound Fulfillment Request UI action on the service order form and the system shares the service order details with the external systems.
 
@@ -44,5 +44,5 @@ The integration process for Order Management with the external technical order m
 
     -   No successful outbound request exists for the service domain order yet.
     -   An outbound request exists but the current external fulfillment state of the service domain order is an error.
-4.  If the fulfillment request is successful, a response is received from the external system and is captured in the Outbound Request table \(sn\_tmt\_core\_outbound\_request\). To learn more, see Create outbound requests for service orders.
+4.  If the fulfillment request is successful, a response is received from the external system and is captured in the Outbound Request table \(sn\_tmt\_core\_outbound\_request\). To learn more, see [Create outbound requests for service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-outbound-request.md).
 

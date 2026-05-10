@@ -34,7 +34,7 @@ If your request is unclear or ambiguous, the agent will prompt you with clarifyi
 
 Suggested actions provide you with next steps you can take related to your Virtual Agent conversation. After completing a chat topic or request, these suggestions appear under a **Here's what you can do next** header. Selecting a suggested action initiates it directly in the same conversation, carrying over any relevant details such as your name.
 
-For more information on configuration, see Now Assist in Virtual Agent system properties
+For more information on configuration, see [Now Assist in Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-sys-props.md)
 
 ## Knowledge base citations
 
@@ -55,7 +55,7 @@ If external search sources have been configured by your organization, you can se
 -   ServiceNow documentation
 -   Slack
 
-Sources display with icons that indicate the type of record type each source is, such as a table, PDF, incident report, and so on For more information about external content connections, see External Content Connectors.
+Sources display with icons that indicate the type of record type each source is, such as a table, PDF, incident report, and so on For more information about external content connections, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ext-cont-connectors-landing-page.md).
 
 ## Doc QnA
 
@@ -103,9 +103,9 @@ You can find information about people in your organization if you have Knowledge
 
 ## Additional resources
 
-For more detailed information on all of standard chat’s specific skills, see Standard chat.
+For more detailed information on all of standard chat’s specific skills, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-standard-chat.md).
 
-For information on configuring Virtual Agent, see Configuring assistants overview.
+For information on configuring Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
 **Parent Topic:**[Using Now Assist for Mobile](using-now-assist-mobile.md)
 

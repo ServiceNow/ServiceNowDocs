@@ -15,7 +15,7 @@ breadcrumb: [Create an action in Workflow Studio, Build actions, Flows, subflows
 
 Generate a list of action inputs or input values each time that someone configures the action in a flow. Dynamic inputs can display a list of related action inputs, a list of fields from a record, or a list of options available in a choice list.
 
-**Note:** Dynamic inputs are not available in the base system. To use dynamic inputs in Workflow Studio, you must Request an Integration Hub plugin. Dynamic inputs are part of the ServiceNow Flow Designer - Introspection \[com.glide.hub.flow\_designer\_introspection\] plugin.
+**Note:** Dynamic inputs are not available in the base system. To use dynamic inputs in Workflow Studio, you must [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-integrationhub.md). Dynamic inputs are part of the ServiceNow Flow Designer - Introspection \[com.glide.hub.flow\_designer\_introspection\] plugin.
 
 During flow design, dynamic inputs retrieve values and display them as inputs within an action dynamically. These types of dynamic inputs are available to action authors.
 
@@ -59,7 +59,7 @@ A data gathering action collects data to be used by other actions. Data gatherin
 
 ## Supported dynamic input data types
 
-Dynamic inputs support a limited number of ServiceNow AI Platform data types. You can use the example JSON to build your own dynamic inputs. You can change the values of the label and name properties to met your needs. The type property must specify a ServiceNow AI Platform data type name. For more information about ServiceNow AI Platform field data types and how to configure them, see Field types reference.
+Dynamic inputs support a limited number of ServiceNow AI Platform data types. You can use the example JSON to build your own dynamic inputs. You can change the values of the label and name properties to met your needs. The type property must specify a ServiceNow AI Platform data type name. For more information about ServiceNow AI Platform field data types and how to configure them, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
 
 <table id="table_xv2_2lh_xcc"><thead><tr><th>
 
@@ -71,7 +71,7 @@ Example JSON
 
 </th></tr></thead><tbody><tr><td>
 
-Choice
+[Choice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ChoiceLists.md)
 
 </td><td>
 
@@ -140,7 +140,7 @@ Email
 
 </td></tr><tr><td>
 
-HTML
+[HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UseHTMLFields.md)
 
 </td><td>
 
@@ -188,7 +188,7 @@ Password 2
 
 </td></tr><tr><td>
 
-Reference
+[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceField.md)
 
 </td><td>
 
@@ -226,7 +226,7 @@ String
 
 -   **Consider dynamic inputs for third-party integrations**
 
-    Dynamic inputs let you create flows that fetch data dynamically from external sources. In third-party integrations, dynamic inputs can provide data values that pertain to a particular endpoint. For more information on setting up third-party integrations with Workflow Studio, see IntegrationHub.
+    Dynamic inputs let you create flows that fetch data dynamically from external sources. In third-party integrations, dynamic inputs can provide data values that pertain to a particular endpoint. For more information on setting up third-party integrations with Workflow Studio, see [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md).
 
 -   **Be aware of the time required to retrieve large amounts of data**
 

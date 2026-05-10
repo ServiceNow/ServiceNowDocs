@@ -106,11 +106,11 @@ You begin by creating a UI page variant of a guidance preview experience. When y
 
 4.  Select **Edit preview in UI Builder**.
 
-    The UI page variant opens in UI Builder, where you can add and configure components to customize the look and feel of the preview experience. For more information, see Working with components in the UI Builder.
+    The UI page variant opens in UI Builder, where you can add and configure components to customize the look and feel of the preview experience. For more information, see [Working with components in the UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md).
 
 5.  Bind the preview experience properties to your preview UI.
 
-    Data bindings are in the **Config** tab of the configuration panel in UI Builder. For more information, see Data resources in UI Builder.
+    Data bindings are in the **Config** tab of the configuration panel in UI Builder. For more information, see [Data resources in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/data-resources.md).
 
 6.  Add and bind scripts to components in your preview UI to dispatch events by using an event handler to execute or skip a recommendation with a corresponding payload.
 
@@ -228,6 +228,6 @@ api.emit(LOG_SEARCH_RESULT_EVENT, {actionData: {actionName: actionId}})
 ```
 
 </td></tr></tbody>
-</table>    For more information, see Define and bind client scripts to components.
+</table>    For more information, see [Define and bind client scripts to components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/define-client-scripts.md).
 
 

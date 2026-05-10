@@ -4,7 +4,7 @@ description: View the daily counts or the averages for the most recent 90 days o
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 3
 breadcrumb: [Operational Technology Management licensing and subscriptions, Operational Technology]
 ---

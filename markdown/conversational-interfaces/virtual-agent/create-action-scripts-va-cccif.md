@@ -29,7 +29,7 @@ Role required: admin
 
 2.  Click the **Actions** tab.
 
-3.  Create the actions you require to complete the conversational custom chat integration.
+3.  [Create the actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-action.md) you require to complete the conversational custom chat integration.
 
     For details about the input and output used in action scripts, along with script examples, see [Virtual Agent action scripts](../reference/va-action-scripts.md).
 

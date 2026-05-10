@@ -17,7 +17,7 @@ Opt in to unified appointment booking and enable it for the Employee Center.
 
 ## About this task
 
-If you are using IT Service Management with Employee Center Pro, the default appointment booking experience in the Employee Center is the Walk-up Experience. You can opt in to unified appointment booking to allow bookings based on user criteria, categories, and reasons.
+If you are using IT Service Management with Employee Center Pro, the default appointment booking experience in the Employee Center is the [Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-experience-landing-page.md). You can opt in to unified appointment booking to allow bookings based on user criteria, categories, and reasons.
 
 **Note:** If you are not using the ITSM Walk-up Experience with Employee Center Pro, unified appointment booking is opted in by default.
 

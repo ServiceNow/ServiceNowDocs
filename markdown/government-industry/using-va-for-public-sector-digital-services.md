@@ -24,18 +24,18 @@ The Public Sector Digital Services Core application provides several topic block
 -   Prompt Service for Constituent – Asks constituents to select a type of government service.
 -   Create Public Sector Additional Members – Prompts constituents to add other persons who have an authorized interest in an issue or case.
 
-To learn more about topic blocks and how to use them in Virtual Agent conversations, see Maximizing code reuse with topic blocks.
+To learn more about topic blocks and how to use them in Virtual Agent conversations, see [Maximizing code reuse with topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topic-blocks-overview.md).
 
 ## Before building Virtual Agent topics for public sector use cases
 
 Before creating Virtual Agent conversations, review the following prerequisites and the basic process for working with pre-built topics and topic blocks in Virtual Agent Designer.
 
--   Activate the Customer Service Virtual Agent Conversations plugin \(com.sn\_csm.virtualagent\) to access pre-built Customer Service conversations and topic blocks.
+-   [Activate the Customer Service Virtual Agent Conversations plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-virtual-agent-csm.md) \(com.sn\_csm.virtualagent\) to access pre-built Customer Service conversations and topic blocks.
 -   Determine the public sector use cases for topics to be created.
 -   In Virtual Agent Designer:
-    -   Preview \(test\) pre-built topics and topic blocks, such as the public sector blocks, to see how they work. Use the **Type** filter to sort the list of items, such as topic blocks, in the Topics page.
-    -   If you want to use a pre-built topic or topic block, duplicate and publish it.
-    -   Add the appropriate copies of topic blocks, such as the public sector topic blocks, to the originating \(calling\) topic. To learn more about adding topic blocks to a conversation, see Add a reusable topic block to a calling topic or topic block
+    -   [Preview \(test\) pre-built topics and topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-designer-testing.md), such as the public sector blocks, to see how they work. Use the **Type** filter to sort the list of items, such as topic blocks, in the Topics page.
+    -   If you want to use a pre-built topic or topic block, [duplicate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md) and [publish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md) it.
+    -   Add the appropriate copies of topic blocks, such as the public sector topic blocks, to the originating \(calling\) topic. To learn more about adding topic blocks to a conversation, see [Add a reusable topic block to a calling topic or topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-topic-blocks-to-topic.md)
 
         **Note:** You can use both public sector topic blocks in a conversation.
 

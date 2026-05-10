@@ -16,7 +16,7 @@ The ServiceNow AI Platform offers a range of skills that support efficiency in e
 
 If you are an experienced developer, this list can help you identify which tasks AI automates on your behalf. Each skill represents a previously manual task, a complex business rule, or a classification system that AI automates. Architect the data flow and governance for these skills, rather than writing the repetitive logic they replace.
 
-See Now Assist skills for a complete list of Now Assist skills.
+See [Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md) for a complete list of Now Assist skills.
 
 ## Application and artifact creation
 

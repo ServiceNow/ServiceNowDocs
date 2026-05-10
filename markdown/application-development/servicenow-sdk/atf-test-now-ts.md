@@ -272,7 +272,7 @@ Steps
 
 </td></tr><tr><td>
 
-Quick start tests for Dashboards
+[Quick start tests for Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/quick-start-tests-dashboards.md)
 
 </td><td>
 

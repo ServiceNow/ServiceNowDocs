@@ -22,7 +22,7 @@ See [data classification](https://servicenow.com/docs/bundle/washingtondc-platfo
 -   **Classifiable data**: Tables or columns that can be classified.
 -   **Classified data**: Dictionary entries, tables, or columns that are classified.
 
-The data is graphically displayed in a customizable chart that provides detailed analysis such as setting targets, thresholds, trends, statistics, or forecasts. The data is also organized as records in a table. See Analytics Hub for more information.
+The data is graphically displayed in a customizable chart that provides detailed analysis such as setting targets, thresholds, trends, statistics, or forecasts. The data is also organized as records in a table. See [Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md) for more information.
 
 Select the cards to view the individual metrics page with additional details.
 

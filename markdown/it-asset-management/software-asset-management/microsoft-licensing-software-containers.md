@@ -29,7 +29,7 @@ The Software Asset Management application uses the resulting data to create corr
 
 For more visibility into the Microsoft SQL Server products that are deployed through your Docker containers, view the [Licensable Software Products Deployed on Containers report](../reference/microsoft-licensable-software-products-deployed-containers-report.md).
 
-For more information on Docker discovery, see Docker virtualization. For more information on Kubernetes discovery, see Kubernetes discovery.
+For more information on Docker discovery, see [Docker virtualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c-docker-virtualization.md). For more information on Kubernetes discovery, see [Kubernetes discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/kubernetes-discovery.md).
 
 ## Supported licensing models
 

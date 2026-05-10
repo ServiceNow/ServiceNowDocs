@@ -17,7 +17,7 @@ Contextual Search is an embedded widget that can be added to a record producer a
 
 By default, the widget is included in the **Create Incident** record producer form to display items based on keywords entered in the description. These items can be knowledge articles or Service Catalog items. These search results appear as the user types the information.
 
-To use this widget with other record producers, see Define contextual search for the record producer.
+To use this widget with other record producers, see [Define contextual search for the record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/t_CntxtSearchRP.md).
 
 ![Contextual Search widget](../image/contextual-search-widget.png "Contextual Search widget")
 
@@ -32,5 +32,5 @@ To use this widget with other record producers, see Define contextual search for
 
 [Clone a widget](../task/t_CloneAndEditAWidget.md)
 
-[bundle-platadm.c_ContextualSearch]
+[Contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/c_ContextualSearch.md)
 

@@ -115,7 +115,7 @@ Rich text
 
 </td><td>
 
-Message you want to appear as portal content. Use the editing tools to format your text.**Note:** When translating rich text, the HTML sanitizer can remove HTML formatting to protect against security concerns. For more information, see HTML sanitizer.
+Message you want to appear as portal content. Use the editing tools to format your text.**Note:** When translating rich text, the HTML sanitizer can remove HTML formatting to protect against security concerns. For more information, see [HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HTMLSanitizer.md).
 
 </td></tr></tbody>
 </table>7.  Select **Save** to save the record and remain on the **Design** tab.

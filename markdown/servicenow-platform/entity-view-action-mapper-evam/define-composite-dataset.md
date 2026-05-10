@@ -36,7 +36,7 @@ Role required: admin or evam\_admin
 
 4.  In the EVAM Data source M2Ms related list, add a data source.
 
-<table id="choicetable_s23_h4l_wnb"><tbody><tr><td id="d358441e180">
+<table id="choicetable_s23_h4l_wnb"><tbody><tr><td id="d358662e180">
 
 **Create and Link**
 
@@ -44,7 +44,7 @@ Role required: admin or evam\_admin
 
 [You can define a new data source](define-evam-datasource.md) and then link this data source to your EVAM definition.
 
-</td></tr><tr><td id="d358441e196">
+</td></tr><tr><td id="d358662e196">
 
 **Link Existing**
 
@@ -52,7 +52,7 @@ Role required: admin or evam\_admin
 
 You can add a pre-defined data source to your EVAM definition.
 
-</td></tr><tr><td id="d358441e205">
+</td></tr><tr><td id="d358662e205">
 
 **Unlink Selected**
 
@@ -65,7 +65,7 @@ You can remove the selected data source from your EVAM definition.
 
 6.  In the EVAM View Config Bundle M2Ms related list, add a configuration bundle.
 
-<table id="choicetable_lwc_h2h_xnb"><tbody><tr><td id="d358441e236">
+<table id="choicetable_lwc_h2h_xnb"><tbody><tr><td id="d358662e236">
 
 **Create and Link**
 
@@ -73,7 +73,7 @@ You can remove the selected data source from your EVAM definition.
 
 [You can define a new configuration bundle](define-view-configuration-bundle.md) and then link this bundle to your EVAM definition.
 
-</td></tr><tr><td id="d358441e255">
+</td></tr><tr><td id="d358662e255">
 
 **Link Existing**
 
@@ -81,7 +81,7 @@ You can remove the selected data source from your EVAM definition.
 
 You can add a pre-defined configuration bundle to your EVAM definition.
 
-</td></tr><tr><td id="d358441e264">
+</td></tr><tr><td id="d358662e264">
 
 **Unlink Selected**
 

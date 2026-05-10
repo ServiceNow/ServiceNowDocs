@@ -22,7 +22,7 @@ With this application, you can do the following:
 
 ## Application setup
 
-First, you must activate the HR Service Delivery Integration with Workday Learning application from ServiceNow Store. This automatically activates the Workday Learning Spoke. Next you must set up Workday HR Spoke.
+First, you must activate the HR Service Delivery Integration with Workday Learning application from ServiceNow Store. This automatically activates the Workday Learning Spoke. Next you must set up [Workday HR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/workday-hr-spoke.md).
 
 **Note:**
 

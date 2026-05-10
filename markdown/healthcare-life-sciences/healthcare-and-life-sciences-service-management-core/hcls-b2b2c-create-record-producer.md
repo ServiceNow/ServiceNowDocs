@@ -29,7 +29,7 @@ Role required: admin
 
 3.  On the form, fill in the fields.
 
-    **Note:** For details on the fields, refer to Create a record producer.
+    **Note:** For details on the fields, refer to [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefRecProdInSCat.md).
 
 4.  Click **Save**, then re-open the record.
 
@@ -37,7 +37,7 @@ Role required: admin
 
     1.  Navigate to **Variables** and click **New**.
 
-        **Note:** For details on variables, refer to Variables to collect data for record producer fields.
+        **Note:** For details on variables, refer to [Variables to collect data for record producer fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_CreatingVariablesForFieldTypes.md).
 
     2.  Add the following variables in **Type Specifications**:
 

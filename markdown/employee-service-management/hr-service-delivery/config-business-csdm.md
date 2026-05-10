@@ -42,7 +42,7 @@ Customers require a common interface, a single place for monitoring metrics, vie
 
 5.  Create a service portfolio and add the required taxonomy nodes.
 
-    For more information, see Service Portfolio Management.
+    For more information, see [Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-landing-page.md).
 
 6.  Map BU service to the taxonomy nodes in the Services related list.
 
@@ -50,7 +50,7 @@ Customers require a common interface, a single place for monitoring metrics, vie
 
 7.  Configure KPI group and indicators for your business unit in the Digital Portfolio Management dashboard.
 
-    For more information, see Digital Portfolio Management.
+    For more information, see [Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-landing.md).
 
     -   To display the KPIs in Digital Portfolio Management, create a KPI group and add the required KPIs. Once KPIs are added, add group mapping to associate the group with correct taxonomy node where you want to display indicator data.
     -   The PA indicators must have the correct breakdown assigned. For example, if you are creating an indicator for service offering, add the **DPM: Service Offerings breakdown** to that indicator. Before adding the breakdown, make sure the record table exists in breakdown mappings.

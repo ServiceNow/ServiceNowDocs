@@ -24,7 +24,7 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 -   Advanced: AI to boost productivity across relevant use cases
 -   Prime: Act autonomously with all AI assets, and create your own
 
-For more information, see ServiceNow product tiers.
+For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 <table id="table_jb4_kgc_r1c_ddd" class="nav-card"><tbody><tr><td>
 
@@ -48,11 +48,11 @@ For more information, see ServiceNow product tiers.
 
 </td><td>
 
-Catalog item generation![](../../../reuse/icons/brand-icons/bus-service-catalog.svg)Generate catalog items using generative AI.
+[Catalog item generation![](../../../reuse/icons/brand-icons/bus-service-catalog.svg)Generate catalog items using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)
 
 </td></tr><tr><td>
 
-Code generation![](../../../reuse/icons/brand-icons/bus-start-developing.svg)Get help writing scripts quickly with AI-generated code based on text or code prompts.
+[Code generation![](../../../reuse/icons/brand-icons/bus-start-developing.svg)Get help writing scripts quickly with AI-generated code based on text or code prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/now-assist-code-landing.md)
 
 </td><td>
 
@@ -68,7 +68,7 @@ Code generation![](../../../reuse/icons/brand-icons/bus-start-developing.svg)Get
 
 </td><td>
 
-Mobile card generation![](../../../reuse/icons/brand-icons/bus-mobile-phone.svg)Generate cards for mobile applications.
+[Mobile card generation![](../../../reuse/icons/brand-icons/bus-mobile-phone.svg)Generate cards for mobile applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md)
 
 </td><td>
 
@@ -76,11 +76,11 @@ Mobile card generation![](../../../reuse/icons/brand-icons/bus-mobile-phone.svg)
 
 </td></tr><tr><td>
 
-Process Mining![](../../../reuse/icons/brand-icons/bus-elevate.svg)Identify the work notes and generate insights about inefficiencies, challenges, and other reasons that cause reassignment of work.
+[Process Mining![](../../../reuse/icons/brand-icons/bus-elevate.svg)Identify the work notes and generate insights about inefficiencies, challenges, and other reasons that cause reassignment of work.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/now-assist.md)
 
 </td><td>
 
-RPA bot generation ![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Create automations, activities, and add automation logic from text instructions and preview options.
+[RPA bot generation ![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Create automations, activities, and add automation logic from text instructions and preview options.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md)
 
 </td><td>
 
@@ -116,7 +116,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect skill usage metrics. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect skill usage metrics. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the Now Assist documentation.
+For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

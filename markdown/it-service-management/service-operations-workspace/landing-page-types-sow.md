@@ -24,7 +24,7 @@ Other landing pages are available if you have the corresponding plugins installe
 
 **Important:**
 
--   A user's access to the landing page is based on the audience associated with that page. Configure the audiences with the required service desk groups and the users that are part of these service desk groups can then access the landing page. For information about audiences, see Learn about audiences.
+-   A user's access to the landing page is based on the audience associated with that page. Configure the audiences with the required service desk groups and the users that are part of these service desk groups can then access the landing page. For information about audiences, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-audiences.md).
 -   When multiple audiences are available for the landing page, the audience with the least order is considered.
 
 ## Criteria to access the tier 1 landing page

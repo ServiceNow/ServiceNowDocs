@@ -19,22 +19,22 @@ ITOM Mobile Agent auto-integrates with ITSM Mobile Agent, letting you manage ale
 
 ## Manage an incident
 
--   Collaboration with incidents
--   Collaboration with incident tasks
--   Create an incident from app landing page
--   Generating task summarization for incident records
--   My team dashboard
--   Performance metrics
--   Process a breached incident
--   Process an incident at risk
--   Unassigned incidents
+-   [Collaboration with incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/collaboration-incident-itsm-mobile.md)
+-   [Collaboration with incident tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/collaboration-inc-task-itsm-mobile.md)
+-   [Create an incident from app landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/create-incident-mobile.md)
+-   [Generating task summarization for incident records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/gen-inc-rec-task-summariz.md)
+-   [My team dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/my-team-dashboard-mob.md)
+-   [Performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/perf-metrics-mob.md)
+-   [Process a breached incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/process-breached-incident.md)
+-   [Process an incident at risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/process-incident-at-risk.md)
+-   [Unassigned incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/process-unassigned-incident.md)
 
 ## Manage a major incident
 
--   Active major incidents
--   Collaboration with major incidents
--   Major incident dashboard
--   Review and work on a major incident candidate
+-   [Active major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/process-misingle.md)
+-   [Collaboration with major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/collaboration-major-incident-itsm-mobile.md)
+-   [Major incident dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/mim-dashboard-mobile.md)
+-   [Review and work on a major incident candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/major-incident-candidate.md)
 
 **Parent Topic:**[Use ITOM Mobile](../concept/use-itom-mobile.md)
 

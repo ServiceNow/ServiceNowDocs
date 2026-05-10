@@ -27,7 +27,7 @@ Admins can write scripts that perform the action and then save the signature inp
 
 You can use the `MobileSignatureHandler` script include to save signature inputs. The `MobileSignatureHandler` script include saves the signature into the sys\_attachment table and creates a relevant record in the signature\_image table.
 
-You can also write custom code to handle saving your signature inputs. For information about server-side scripting, see Server-side scripting.
+You can also write custom code to handle saving your signature inputs. For information about server-side scripting, see [Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ServerScripting.md).
 
 ## Procedure
 

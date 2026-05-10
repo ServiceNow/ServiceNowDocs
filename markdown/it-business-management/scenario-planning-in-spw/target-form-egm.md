@@ -15,7 +15,7 @@ breadcrumb: [Form field information for Strategic Planning, Reference, Portfolio
 
 Use the Target form to track and measure the progress of the goals.
 
-**Note:** For Operational Sustainability Workspace and Strategic Planning users, to view the other fields that aren't added to the default view or your custom form view on the form in the workspace, configure the default or custom form layout. For information on how to configure the form layout, see Configuring the form layout.
+**Note:** For Operational Sustainability Workspace and Strategic Planning users, to view the other fields that aren't added to the default view or your custom form view on the form in the workspace, configure the default or custom form layout. For information on how to configure the form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
 <table id="table_rlc_24d_gyb"><thead><tr><th>
 

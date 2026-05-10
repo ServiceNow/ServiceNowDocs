@@ -97,13 +97,13 @@ Build Agent can recommend in-app agents tailored to specific application use cas
 **Related topics**  
 
 
-[bundle-platai.ai-agent-studio]
+[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)
 
-[bundle-platai.configure-next-best-action-agent]
+[Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md)
 
-[bundle-platai.test-ai-agent]
+[Manually test the execution of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-agent.md)
 
-[bundle-platai.exploring-now-assist-skill-kit]
+[Exploring Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/exploring-now-assist-skill-kit.md)
 
-[bundle-platai.test-prompt-template]
+[Test a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/test-prompt-template.md)
 

@@ -125,7 +125,7 @@ You can select the chart to further explore or delve into more detailed informat
     -   Use the Sort by filter to sort the data in ascending or descending order.
     -   Use Filter by model to view data for only selected models.
 
-For more information on DEX, see Digital End-User Experience.
+For more information on DEX, see [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-landing.md).
 
 **Parent Topic:**[Managing Sustainable IT](managing-sustainable-it.md)
 

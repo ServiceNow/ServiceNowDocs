@@ -41,7 +41,7 @@ Confirm that you have the following:
 
 5.  Restart the MID Server to apply the changes.
 
-    For more information, see Manually start, stop, and restart a MID Server.
+    For more information, see [Manually start, stop, and restart a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_InstallMIDServerAsWinService.md).
 
 6.  Verify that the SNC configuration is working correctly.
 
@@ -75,7 +75,7 @@ Confirm that you have the following:
 -   Confirm that the security library is correctly installed and accessible. For more information, see [The SAP Security Library \(SAPSECULIB\)](https://help.sap.com/docs/SAP_NETWEAVER_700/12a37b156c5310149ffbe290df0708d6/b8821ff4dadd11d2a60a0000e835363f.html) on the SAP help site.
 -   Verify that the SNC parameters are correctly set. For more information, see [Setting the SNC Parameters](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2f64847a81a84bda878e32d5a4dae0a2/ce1dfd3d4aefd95ee10000000a114084.html) on the SAP help site.
 -   Check the SNC PSE for validity and correct DN entries. For more information, see [Creating or Replacing a PSE](https://help.sap.com/doc/saphelp_nw73ehp1/7.31.19/en-US/59/6b653a0c52425fe10000000a114084/content.htm?no_cache=true) on the SAP help site.
--   Confirm that the SAP clients are properly configured to use SNC. For more information, see Configuring MID Server.
+-   Confirm that the SAP clients are properly configured to use SNC. For more information, see [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/configure-mid-server.md).
 
 **Parent Topic:**[Use an SNC \(Secure Network Communication\) connection in Zero Copy Connector for ERP](../concept/erpc-use-an-snc-connection-in-erp-canvas.md)
 

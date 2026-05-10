@@ -21,7 +21,7 @@ Role required: admin, sn\_hr\_er.admin
 
 Certain users will be able to access a COE even it is restricted. For example, Opened for, Opened by, Watch List and Collaborators get access to a restricted COE irrespective of its security policies.
 
-COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are ServiceNow ACLs.
+COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are [ServiceNow ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).
 
 ## Procedure
 
@@ -125,7 +125,7 @@ Condition statement that filters an HR case.If the HR case matches the condition
 
  You can create conditions based on key words or fields from the HR case.
 
- When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
+ When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 **Note:** An empty filter condition matches all records for the selected COE.
 

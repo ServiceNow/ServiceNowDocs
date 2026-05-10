@@ -17,7 +17,7 @@ The Client Software Distribution \(CSD\) application allows administrators to di
 
 CSD allows an administrator to create all the records necessary to deploy software from service catalog requests, including software models and catalog items. You can use the CSD application to automate the deployment and [revocation](c_SCCMSoftwareRevocation.md#) of software from an SCCM host using the custom [SCCM activity pack](../../../administer/orchestration-activities/concept/c_SCCMActivityPack.md). You can define lease periods for software distributed from the Service Catalog and allow lease extensions in some cases, pending approvals. Deployment is accomplished using Orchestration activities and workflows.
 
-CSD also integrates with Software Asset Management to manage license counts for deployed software.
+CSD also integrates with [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMOverview.md) to manage license counts for deployed software.
 
 ![Client Software Distribution process flow using SCCM](../image/CSDProcessFlowDiagram.png "CSD process flow using SCCM")
 

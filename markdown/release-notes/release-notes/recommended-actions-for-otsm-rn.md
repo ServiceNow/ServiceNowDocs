@@ -16,20 +16,20 @@ The ServiceNow® Recommended Actions for Operational Technology Service Manageme
 
 -   Use the AI Enhanced Recommended Actions for OTSM feature to access external sources related to an OT incident and review why the document is relevant to the incident.
 
-See Recommended Actions for Operational Technology Service Management \(OTSM\) and AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\) for more information.
+See [Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/recommended-actions-for-otsm/recommended-actions-for-otsm.md) and [AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ai-enhanced-ra-otsm-landing.md) for more information.
 
 **Important:** Recommended Actions for OTSM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **Contextualize an external document**
+-   **[Contextualize an external document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/use-ai-enhanced-ra-otsm.md)**
 
     Contextualize an external document to get an explanation of why the document is relevant to the selected OT incident.
 
 
 ## UI changes
 
--   **Contextualize UI action**
+-   **[Contextualize UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/use-ai-enhanced-ra-otsm.md)**
 
     The **Contextualize** UI action was added to the Recommendations panel in the Industrial Workspace for external documents related to the selected OT incident.
 
@@ -40,7 +40,7 @@ Install Recommended Actions for OTSM by requesting it from the ServiceNow Store.
 
 ## Related ServiceNow applications and features
 
--   **IT Service Management**
+-   **[IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_ITServiceManagement.md)**
 
     When integrated with Operational Technology Incident Management, the ServiceNow IT Service Management application enables engineers to resolve OT device and production process issues.
 

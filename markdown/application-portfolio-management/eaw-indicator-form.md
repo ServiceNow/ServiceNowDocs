@@ -162,10 +162,10 @@ Data source
 
 Defines the location from which the indicator receives data.
 
- -   **Performance Analytics**: Collects scores from indicators created in Performance Analytics. See Performance Analytics indicators.
+ -   **Performance Analytics**: Collects scores from indicators created in Performance Analytics. See [Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_Indicators.md).
 -   **Custom Script**: Allows you to write a script that collects data from another application. Beneath the **Data Source** field, a sample script appears. Customize the script as needed.
 -   **Query Condition**: Allows you to select a table to run filters on to obtain data.
--   **Assessments**: Allows you to evaluate, score, and rank records by assessing records in a table. See Create metric types and generate assessable records.
+-   **Assessments**: Allows you to evaluate, score, and rank records by assessing records in a table. See [Create metric types and generate assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreatMetricTypesAndGenAssessRecs.md).
 -   **Indicators**: Allows you to add dependent child indicators. Through the child indicators, data is gathered to the parent indicator.
 
 For example, if the parent indicator is number of issues, the dependent indicators can be number of incident counts, number of problems, and changes. These dependent indicators are child indicators and the number of incidents, problems, and changes recorded are consolidated up to the parent indicator as the number of issues.

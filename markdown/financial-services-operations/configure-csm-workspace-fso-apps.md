@@ -15,7 +15,7 @@ Review the CSM Configurable Workspace available with Financial Services Operatio
 
 ## Before you begin
 
-Ensure that the scope is selected for the application that you are configuring for. For more information, see Application picker.
+Ensure that the scope is selected for the application that you are configuring for. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: Based on the application that you are configuring, you need the following roles:
 
@@ -34,6 +34,6 @@ Role required: Based on the application that you are configuring, you need the f
 
 -   Configure the CSM Configurable Workspace as per your requirements.
 
-    For more information on what you can configure, see Set up CSM Configurable Workspace.
+    For more information on what you can configure, see [Set up CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-set-up.md).
 
 

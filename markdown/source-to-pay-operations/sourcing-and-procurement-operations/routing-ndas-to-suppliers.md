@@ -26,7 +26,7 @@ Details of the workflow are provided here.
 1.  Define your NDA content and update the list of participants for signature.​ See [Define NDA content and update the list of signers](../task/define-nda-content-update-signers.md).
 2.  Set up DocuSign.
 
-    For more information, see Docusign eSignature Spoke.
+    For more information, see [Docusign eSignature Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/docusign-spoke.md).
 
 3.  Navigate to **All** &gt; **Procurement Case Management** &gt; **Source-to-Pay Workspace**.
 4.  Select the list icon and select **All team work** &gt; **Cases**.

@@ -29,7 +29,7 @@ Register the Rally OAuth application to access the Rally API 2.0 and to receive 
 
 ### Before you begin
 
-The Rally Integration Hub spoke must be active. For more information, see Rally spoke.
+The Rally Integration Hub spoke must be active. For more information, see [Rally spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/rally-spoke.md).
 
 Rally Role required: Refer to the [Minimal user permissions](integrate-with-rally.md#) table.
 
@@ -65,7 +65,7 @@ The Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_
 
 Role required: sam\_integrator
 
-**Important:** You must select the **Rally Spoke** check box for this integration while installing optional features on the Application Manager page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **Rally Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
 
 ### About this task
 

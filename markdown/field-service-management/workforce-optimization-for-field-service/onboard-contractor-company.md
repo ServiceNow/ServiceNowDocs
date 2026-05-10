@@ -21,7 +21,7 @@ Role required: wm\_admin and wm\_contractor\_manager\_int
 
 ## About this task
 
-You can also do the initial configuration of onboarding a contractor company through the **Field Service** &gt; **Administration** &gt; **Contractor Management** guided setup. For more information about using the guided setup interface, see Using guided setup.
+You can also do the initial configuration of onboarding a contractor company through the **Field Service** &gt; **Administration** &gt; **Contractor Management** guided setup. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 ## Procedure
 

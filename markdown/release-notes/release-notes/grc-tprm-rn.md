@@ -26,7 +26,7 @@ Use generative AI to recommend TPRM issues for reviewer validation.
 
 Review the updated AI experience with three licensing tiers.
 
-See Third-party Risk Management for more information.
+See [Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/third-party-risk-mgt-landing-page.md) for more information.
 
 **Important:** Third-party Risk Management is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -46,39 +46,39 @@ For existing TPRM customers, after upgrading to version 21.0.3, data from the In
 
 ## New in the Australia release
 
--   **Generate aggregate regulatory reports in local currencies**
+-   **[Generate aggregate regulatory reports in local currencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-dora-currency-aggregation.md)**
 
     After upgrading the Digital Resilience Third-party Information Register application to version 22.0.3, third‑party risk \(TPR\) managers  \[sn\_vdr\_risk\_asmt.vendor\_manager\] can standardize annual expense values during Register of Information report generation by enabling currency conversion and third‑party total expense aggregation. To support this process, the generated reporting package includes summary and detail reports that indicate successful conversions, aggregation results, and any skipped providers.
 
--   **Centralized repository for TPRM SAE templates**
+-   **[Centralized repository for TPRM SAE templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-integrating-ucm.md)**
 
     After upgrading to version 22.0.2 and installing the Unified Content Management application, TPR managers \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\] can help ensure consistent and comprehensive assessments by activating and updating ready‑to‑use Smart Assessment Engine questionnaire templates through a single, managed repository in the Vendor Management Workspace.
 
 
--   **Generate issue recommendations for TPRM**
+-   **[Generate issue recommendations for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-recommendation-tprm-issue.md)**
 
     After upgrading to version 22.0.8 if you have the third‑party assessment reviewer role \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] and have installed the Now Assist for Third-party Risk Management \(TPRM\) application, you can use generative AI to automatically identify and recommend issues based on assessment responses. The TPRM issue management recommendation skill recommends issues with rationalized summaries. Recommended issues are presented for review and are created as standard TPRM issues only after user confirmation.
 
 
 ## UI changes
 
--   **Fields added to Create New Excel download/upload request form**
+-   **[Fields added to Create New Excel download/upload request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-report-aggregate-expenses.md)**
 
     After upgrading the Digital Resilience Third-party Information Register application to version 22.0.3, the **Enable currency conversion** and **Enable third‑party total expense aggregation** fields are available on the Excel download/upload request page. When creating Excel Master Template or Plain‑CSV Reporting Package requests, you can configure these options directly on the form.
 
--   **TPRM Unified content management page**
+-   **[TPRM Unified content management page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-ucm-page.md)**
 
     After upgrading to version 22.0.2 and installing the Unified Content Management application, the unified content management module is available in the Vendor Management Workspace.
 
 
 ## Changed in this release
 
--   **Simplified third-party element process**
+-   **[Simplified third-party element process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-workflow-in-workspace.md)**
 
     After upgrading to version 22.0.1, third‑party elements are now linked to a single third party and can no longer be shared across third parties. Scoring rollups calculate results from element‑level assessments rather than entity records.
 
 
--   **ServiceNow product tiers**
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -98,23 +98,23 @@ Install Third-party Risk Management by requesting it from ServiceNow Store. Visi
 
 ## Related ServiceNow applications and features
 
--   **Operational Resilience**
+-   **[Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-opres-landing-page.md)**
 
     Operational Resilience helps organizations respond to adverse operational events by anticipating, preventing, recovering from, and adapting to such events.
 
--   **Operational Resilience Workspace**
+-   **[Operational Resilience Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/working-in-opres-ws.md)**
 
     Use Operational Resilience Workspace to manage your resilience tasks and monitor resilience metrics from a single dashboard.
 
--   **GRC Risk Management**
+-   **[GRC Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-risk-overview.md)**
 
     Use Risk Management with the ServiceNow® Advanced Risk application to identify and monitor high-impact risks, improve your risk-based decision-making, and reduce your reaction time from days to minutes.
 
--   **GRC Risk Workspace**
+-   **[GRC Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-workspace.md)**
 
     The Risk Workspace in the ServiceNow® Advanced Risk application provides a simplified user experience with a single-pane view for risk-related activities.
 
--   **Smart Assessment Engine**
+-   **[Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md)**
 
     The ServiceNow® Smart Assessment Engine \(SAE\) application helps you to reduce the manual burden and costs of your assessment processes through automation.
 

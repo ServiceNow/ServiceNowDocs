@@ -17,7 +17,7 @@ For a selected CI, the **Service instances** panel in Unified Map lists details 
 
 ## Before you begin
 
-Service Mapping must be installed. For more information, see Service Mapping.
+Service Mapping must be installed. For more information, see [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md).
 
 Role required:
 

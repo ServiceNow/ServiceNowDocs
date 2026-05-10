@@ -43,7 +43,7 @@ Role required: sn\_wsd\_core.workplace\_manager
 
     2.  Add conditions to filter the spaces.
 
-        For example, `Department is Finance`. For more information about conditions, see Condition builder.
+        For example, `Department is Finance`. For more information about conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
     3.  Select the spaces from the list, then select **Select**.
 

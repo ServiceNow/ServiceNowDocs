@@ -53,7 +53,7 @@ Table
 
 Task table to which this rule applies. For most service catalog approvals, select **Request**.
 
-**Note:** The list shows only tables and database views that are Application scope as the approval rule.
+**Note:** The list shows only tables and database views that are [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md) as the approval rule.
 
 </td></tr><tr><td>
 

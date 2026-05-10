@@ -17,9 +17,9 @@ To update or change an existing process for an app built in App Engine Studio \(
 
 ## Before you begin
 
-Before you edit a process, you must add a process in Playbooks. For more information, see Create a process definition.
+Before you edit a process, you must add a process in Playbooks. For more information, see [Create a process definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-process-definition.md).
 
-You can edit processes in App Engine Studio, but you must activate Playbooks for App Engine Studio and enable the **Process Automation Designer for App Engine \[com.glide.pad.license\]** plugin to get started. For more information, see Activate Playbooks.
+You can edit processes in App Engine Studio, but you must activate Playbooks for App Engine Studio and enable the **Process Automation Designer for App Engine \[com.glide.pad.license\]** plugin to get started. For more information, see [Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activate-process-automation-designer.md).
 
 Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](../concept/aes-app-dev-workflow.md).
 
@@ -40,7 +40,7 @@ Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more infor
 
 ## What to do next
 
-Test a process to make certain it works the way you expect. For more information on testing processes, see Test a process.
+Test a process to make certain it works the way you expect. For more information on testing processes, see [Test a process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-process.md).
 
 **Parent Topic:**[Add logic and automation](../concept/add-automation.md)
 

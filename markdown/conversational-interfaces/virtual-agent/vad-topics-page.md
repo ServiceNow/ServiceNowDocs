@@ -78,8 +78,8 @@ You can see which chat experiences an assistant has by checking **Display experi
         -   **Subflows**: Button to view only conversational subflows.
         -   **Actions**: Button to view only conversational actions.
         -   **Custom skills**: Button to view custom skills from Now Assist Skill Kit.
-        -   **AI agents**: Button to view list of AI agents. For more information, see Explore Now Assist AI agents.
-        -   **Agentic workflows**: Button to view list of Agentic workflows. For more information, see Now Assist agentic workflows.
+        -   **AI agents**: Button to view list of AI agents. For more information, see [Explore Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md).
+        -   **Agentic workflows**: Button to view list of Agentic workflows. For more information, see [Now Assist agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-aia-use-cases-list.md).
     -   NLU/Keyword controls:
         -   ○ **Test active topics**: Button to test all active NLU/keyword topics.
         -   **Create topic**: Button to create a new NLU/keyword topic. For more information, see, [Creating a Virtual Agent topic](../task/create-virtual-agent-topic.md).

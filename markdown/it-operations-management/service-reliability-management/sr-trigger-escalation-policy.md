@@ -23,9 +23,9 @@ Role required: srm\_manager or srm\_admin
 
 ## About this task
 
-This procedure shows how to create escalation triggers in SRM. If your organization manages on-call scheduling using IT Service Management \(ITSM\), you can also use ITSM On-Call Scheduling to define escalation triggers. See Create an escalation trigger rule for more information. While that procedure lists ITSM roles, SRM users only need the srm\_manager or srm\_admin role.
+This procedure shows how to create escalation triggers in SRM. If your organization manages on-call scheduling using IT Service Management \(ITSM\), you can also use ITSM On-Call Scheduling to define escalation triggers. See [Create an escalation trigger rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/create-trigger-rule-oncall.md) for more information. While that procedure lists ITSM roles, SRM users only need the srm\_manager or srm\_admin role.
 
-For a broader overview of escalation processes in ITSM, see Designing an escalation process.
+For a broader overview of escalation processes in ITSM, see [Designing an escalation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/designing-escalation-process-oncall.md).
 
 ## Procedure
 

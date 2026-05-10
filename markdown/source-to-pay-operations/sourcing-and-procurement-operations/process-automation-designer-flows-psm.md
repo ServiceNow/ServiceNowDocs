@@ -34,5 +34,5 @@ You can customize this behavior by customizing the Playbook experience with your
 **Related topics**  
 
 
-[bundle-crworkflow.process-automation-designer]
+[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md)
 

@@ -40,7 +40,7 @@ After Service Mapping discovers configuration items \(CIs\) belonging to your se
 
 All service instances, both manually created and discovered by Service Mapping, are stored in the Mapped Service Instance \[cmdb\_ci\_service\_discovered\] table.
 
-You can also create a single application service manually using the flow based on Common Service Data Model. The Common Service Data Model \(CSDM\) helps you streamline service types and service offerings. You can add relationships between application services and other service-related objects in the CSDM: Business Application, Technical Service Offerings, or Business Service Offerings. For more information, see Create application services .
+You can also create a single application service manually using the flow based on Common Service Data Model. The Common Service Data Model \(CSDM\) helps you streamline service types and service offerings. You can add relationships between application services and other service-related objects in the CSDM: Business Application, Technical Service Offerings, or Business Service Offerings. For more information, see [Create application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-it-services.md) .
 
 ## Procedure
 

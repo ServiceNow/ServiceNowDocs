@@ -75,7 +75,7 @@ Advanced
 
 **Note:** This script uses the SkillDeterminationUtils utility to identify which skills are needed for the current work item \(such as an incident or task\) and then assigns those skills to it automatically. This helps ensure that the work item has the correct skill requirements based on its details.
 
-4.  In the **When to run** tab, set when you want the business rule to execute. For more information, see Create a business rule.
+4.  In the **When to run** tab, set when you want the business rule to execute. For more information, see [Create a business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/business-rules-classic/c_BusinessRules.md).
 
 
 </td></tr></tbody>

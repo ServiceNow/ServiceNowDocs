@@ -27,5 +27,5 @@ Reduce the implementation time by configuring all catalog items or all record pr
 
 [Create a record producer](../task/t_DefRecProdInSCat.md)
 
-[bundle-emplsm.create-ur-recordproducer]
+[Configure a catalog item or record producer to create a universal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/create-ur-recordproducer.md)
 

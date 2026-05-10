@@ -23,15 +23,15 @@ Pre-chat surveys provide the following advantages that help agents efficiently h
 
     -   CSP Pre-Chat Survey - Collects preliminary information for logged-in customers.
     -   CSP Anonymous Pre-Chat Survey – Collects preliminary information for users who are not logged in.
-    You can define a different survey or modify these predefined surveys. For more information, see Create chat surveys.
+    You can define a different survey or modify these predefined surveys. For more information, see [Create chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/create-chat-surveys.md).
 
 -   **Routing chats to the correct queue**
 
-    Advanced Work Assignment \(AWA\) leverages information captured through pre-chat surveys to route a chat to the right queue. For more information, see Work item queues.
+    Advanced Work Assignment \(AWA\) leverages information captured through pre-chat surveys to route a chat to the right queue. For more information, see [Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-queues.md).
 
 -   **Identifying topics related to the chat issue**
 
-    When customers enter a response to the standard pre-chat question "Please briefly describe your issue," Natural Language Understanding can help determine the appropriate Virtual Agent conversation topic. Relevant topics are automatically displayed to end users \(requesters\) rather than prompting them to choose from a list of conversation topics. For more information, see Define context topic intent configurations.
+    When customers enter a response to the standard pre-chat question "Please briefly describe your issue," Natural Language Understanding can help determine the appropriate Virtual Agent conversation topic. Relevant topics are automatically displayed to end users \(requesters\) rather than prompting them to choose from a list of conversation topics. For more information, see [Define context topic intent configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-context-topic-intent.md).
 
 
 ## Configuring Pre-chat if you have upgraded
@@ -40,7 +40,7 @@ Some settings need to be configured if you have upgraded your ServiceNow® insta
 
 ## Plugins
 
-You must activate the Consumer Service Portal \(com.glide.service-portal.consumer-portal\) and Glide Conversation Server \(com.glide.cs\) plugins. To activate the plugins, see Activate a plugin.
+You must activate the Consumer Service Portal \(com.glide.service-portal.consumer-portal\) and Glide Conversation Server \(com.glide.cs\) plugins. To activate the plugins, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 **Related topics**  
 

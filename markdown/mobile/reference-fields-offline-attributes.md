@@ -20,7 +20,7 @@ Configure the fields that you want to use and the data you want to display in of
 
 ## Reference inputs
 
-Use reference inputs for inputs that reference a field on a table. These inputs work like reference fields in the forms on your instance. You can configure your reference input with conditions, reference qualifiers, and a search option to help your users find what they need quickly.
+Use reference inputs for inputs that reference a field on a table. These inputs work like [reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceField.md) in the forms on your instance. You can configure your reference input with conditions, reference qualifiers, and a search option to help your users find what they need quickly.
 
 You can use these attributes with reference inputs.
 

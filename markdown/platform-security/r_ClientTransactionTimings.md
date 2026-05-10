@@ -15,7 +15,7 @@ The Client Transaction Timings plugin enhances the system logs by providing addi
 
 You can track down performance issues to their source by viewing where the time is being consumed, and how time was spent during a transaction.
 
-This plugin requires the Response Time Indicator Response Time Indicator to be enabled, and collects information from the following browsers:
+This plugin requires the [Response Time Indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ResponseTimeIndicator.md) [Response Time Indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ResponseTimeIndicator.md) to be enabled, and collects information from the following browsers:
 
 -   Firefox
 -   Internet Explorer

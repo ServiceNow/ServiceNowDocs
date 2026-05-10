@@ -24,7 +24,7 @@ When an employee creates a case requesting an employment verification letter, yo
 
 -   Generate the document - Combine the document template with your signature and create an attachment to the case. If you use Employee Document Management, you can move the attachment to your document repository for storage.
 
-    **Note:** For more information, see Configure an e-signature template.
+    **Note:** For more information, see [Configure an e-signature template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/e-signature/configure-e-signature-configuration.md).
 
 
 ## Sign and generate a document in Agent Workspace for HR Case Management

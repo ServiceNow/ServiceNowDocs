@@ -51,7 +51,7 @@ Role required: sam
     |Installed|Date on which the software license was installed.|
     |Comments|Information about the software license that would be helpful for others to know.|
 
-    For information about the fields in the **Financial** and **Contracts** sections of the form, see Create assets.
+    For information about the fields in the **Financial** and **Contracts** sections of the form, see [Create assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_CreatingAssets.md).
 
 4.  Click **Submit**.
 

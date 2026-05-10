@@ -21,8 +21,8 @@ Role required: admin
 
 ## About this task
 
--   Use ServiceNow® Studio to create a spoke. For more information about Studio, see ServiceNow Studio.
--   If a spoke exists for the SaaS application that you're integrating with, you can use the existing spoke instead of creating one. For a list of applications that have ServiceNow® Integration Hub spokes, see IntegrationHub available spokes.
+-   Use ServiceNow® Studio to create a spoke. For more information about Studio, see [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/c_ServiceNowStudio.md).
+-   If a spoke exists for the SaaS application that you're integrating with, you can use the existing spoke instead of creating one. For a list of applications that have ServiceNow® Integration Hub spokes, see [IntegrationHub available spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/spokes-list.md).
 
 ## Procedure
 

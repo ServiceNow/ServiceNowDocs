@@ -21,7 +21,7 @@ The Citrix publisher pack supports Virtual Applications products \(formerly XenA
 
 Use the ServiceNow® Discovery application to collect data from Citrix. The license consumption data for your Citrix products is collected from the Citrix License Server.
 
-Discovery uses OData APIs to identify the third-party applications that are delivered through your Citrix farm from the Citrix Delivery Controller. Use this information to create software installation records and track license usage for these applications. To identify these applications, admins must create a Discovery schedule to run on the Citrix discovery pattern. See Citrix License Server and Delivery Controller discovery for more details on the Citrix discovery pattern and tables.
+Discovery uses OData APIs to identify the third-party applications that are delivered through your Citrix farm from the Citrix Delivery Controller. Use this information to create software installation records and track license usage for these applications. To identify these applications, admins must create a [Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) to run on the Citrix discovery pattern. See [Citrix License Server and Delivery Controller discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/citrix-lic-server-deliv-controller.md) for more details on the Citrix discovery pattern and tables.
 
 ## Citrix licensing models
 

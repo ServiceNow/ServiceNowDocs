@@ -22,7 +22,7 @@ Notify connector for Microsoft Teams enables you to manage and initiate a Micros
 
 ## System Requirements
 
-Install the ServiceNow IntegrationHub Installer \(com.glide.hub.integrations\) plugin to design the integration flows in the Flow Designer application. For more information, see Request IntegrationHub.
+Install the ServiceNow IntegrationHub Installer \(com.glide.hub.integrations\) plugin to design the integration flows in the Flow Designer application. For more information, see [Request IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md).
 
 ## Next procedures
 

@@ -19,5 +19,5 @@ Starting with the Yokohama release, Patient Support Services is being prepared f
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-Your administrator can configure the option for creating enrollment cases. By default, the option is available from the Case menu on the Consumer Service Portal page. If you have the contributor role in CSM, you can use the option to create enrollment cases from your Consumer Service Portal.
+Your administrator can configure the option for creating enrollment cases. By default, the option is available from the Case menu on the Consumer Service Portal page. If you have the [contributor role in CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-contributor-user-roles.md), you can use the option to create enrollment cases from your Consumer Service Portal.
 

@@ -77,7 +77,7 @@ Enables dynamic translation for htmlcom.glide.cs.dynamic.translation.enable.html
 
 </td><td>
 
-Enables dynamic translation for html, including Output Text controls that contain html, in Virtual Agent. For more information see Default input and output rich controls for a custom chat integration.Installed with the Dynamic Translation for Virtual Agent plugin \(com.glide.cs.dynamic.translation.virtual\_agent\). For information see Using language detection and dynamic machine translation in Virtual Agent enhanced chat conversations.
+Enables dynamic translation for html, including Output Text controls that contain html, in Virtual Agent. For more information see [Default input and output rich controls for a custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/default-rich-controls-va-cccif.md).Installed with the Dynamic Translation for Virtual Agent plugin \(com.glide.cs.dynamic.translation.virtual\_agent\). For information see [Using language detection and dynamic machine translation in Virtual Agent enhanced chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/dynamic-lang-detection-translation-enhanced-chat.md).
 
 </td></tr><tr><td>
 
@@ -85,7 +85,7 @@ Enables dynamic translation for messages that contain urls com.glide.cs.dynamic.
 
 </td><td>
 
-Enables dynamic translation for messages that contain URLs.Installed with the Dynamic Translation for Virtual Agent plugin \(com.glide.cs.dynamic.translation.virtual\_agent\). For information see Using language detection and dynamic machine translation in Virtual Agent enhanced chat conversations.
+Enables dynamic translation for messages that contain URLs.Installed with the Dynamic Translation for Virtual Agent plugin \(com.glide.cs.dynamic.translation.virtual\_agent\). For information see [Using language detection and dynamic machine translation in Virtual Agent enhanced chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/dynamic-lang-detection-translation-enhanced-chat.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Reference for Dynamic Translation](reference-for-dynamic-translation.md)

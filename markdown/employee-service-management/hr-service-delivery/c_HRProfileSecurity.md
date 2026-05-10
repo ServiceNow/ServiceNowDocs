@@ -54,7 +54,7 @@ You can prevent a user from accessing HR information by impersonating a user tha
 -   Scroll to **If true, ACLs check if the user is being impersonated.**
 -   Check **Yes** \(true\) to enable ACLs to check when a user is impersonating another user and prevent the user from viewing HR information.
 
-    COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are ServiceNow ACLs.
+    COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are [ServiceNow ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).
 
 -   Even if the logged in user has HR access and impersonates another HR user with the same access, HR information is not visible.
 

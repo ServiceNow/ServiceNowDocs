@@ -13,7 +13,7 @@ breadcrumb: [Configuring guidances and decision trees, Guided Decisions configur
 
 Configure decision trees using the no-code visual Decision Tree Builder, which provides a canvas for a diagrammatic representation of nodes and their paths in a troubleshooting process.
 
-As a process owner or business analyst, you can configure decision tree by adding nodes, defining paths, and attaching guidances through Decision Tree Builder. For more information, see [Decision tree nodes](guided-decision-tree-node-types.md).
+As a process owner or business analyst, you can configure [decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) by adding nodes, defining paths, and attaching guidances through Decision Tree Builder. For more information, see [Decision tree nodes](guided-decision-tree-node-types.md).
 
 You can validate and activate a decision tree with a single action. For more information, see [Activate a decision tree](../task/activate-guided-decision-tree.md).
 

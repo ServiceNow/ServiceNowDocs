@@ -97,7 +97,7 @@ String
 
 </td><td>
 
-Configured dependent field for the specified **target** element. For additional information, see Make a field dependent.
+Configured dependent field for the specified **target** element. For additional information, see [Make a field dependent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_MakingAFieldDependent.md).
 
 </td></tr><tr><td>
 
@@ -126,7 +126,7 @@ String
 
 </td><td>
 
-Configured reference qualifier for the specified **target** element. The function appends the specified reference qualifiers to the URL and only displays the filtered results in the pop-up window. If you don't want to include a reference qualifier, pass an empty string.For additional information on reference qualifiers, see Reference qualifiers.
+Configured reference qualifier for the specified **target** element. The function appends the specified reference qualifiers to the URL and only displays the filtered results in the pop-up window. If you don't want to include a reference qualifier, pass an empty string.For additional information on reference qualifiers, see [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceQualifiers.md).
 
 </td></tr><tr><td>
 

@@ -25,7 +25,7 @@ You can set up push notifications in a similar manner to email and SMS notificat
 -   when it should be sent
 -   what it should contain
 
-The ServiceNow mobile app is available as ServiceNow Classic and as Mobile Agent. By default, ServiceNow Classic supports push notifications, but you can also develop your own push application and configure your instance to send push notifications to it. For more information on setting up push notifications in Mobile Agent, go to Mobile push notifications.
+The ServiceNow mobile app is available as ServiceNow Classic and as Mobile Agent. By default, ServiceNow Classic supports push notifications, but you can also develop your own push application and configure your instance to send push notifications to it. For more information on setting up push notifications in Mobile Agent, go to [Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-push-notifications.md).
 
 ## Push notification setup
 

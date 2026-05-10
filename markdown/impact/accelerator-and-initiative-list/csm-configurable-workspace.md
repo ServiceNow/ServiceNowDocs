@@ -19,7 +19,7 @@ The Jumpstart Your Customer Service Management \(CSM\) Configurable Workspace Ac
 
 Jumpstart Your \(CSM\) Configurable Workspace helps Impact customers gain a deeper understanding of how to get started with CSM Configurable Workspace by providing a comprehensive overview and applied  demonstration. This Accelerator guides you through the setup process and clearly illustrates the value of the workspace. Additionally, key resources and leading practices are offered to enhance product adoption and usage.
 
-For additional information on the feature, see CSM Configurable Workspace.
+For additional information on the feature, see [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md).
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

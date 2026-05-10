@@ -15,7 +15,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The MLSolutionResult API provides methods for managing cluster information and members of a clustering solution. You can embed the results in business logic.
 
-**Note:** This API has been deprecated and is intended to be removed in a future release. Refer to Using ML APIs for the most recent guidelines.
+**Note:** This API has been deprecated and is intended to be removed in a future release. Refer to [Using ML APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/using-ml-apis.md) for the most recent guidelines.
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 
@@ -31,7 +31,7 @@ Instantiates a new MLSolutionResult object.
 
 Returns the solution object.
 
-This method only returns the solutions if the ml\_solution definition and solution are active \(that is, trained\). For information, see Create and train a clustering solution.
+This method only returns the solutions if the ml\_solution definition and solution are active \(that is, trained\). For information, see [Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -99,7 +99,7 @@ String
 
 </td><td>
 
-Optional. Identifies the segmentation field for which to retrieve cluster memberships, for example, assignment group.This field provides the same grouping as options provided via **Use Group By** check box in **Clustering Solution Definitions** table. Information provided varies by table selected in the **Table** field. For information, see Create and train a clustering solution.
+Optional. Identifies the segmentation field for which to retrieve cluster memberships, for example, assignment group.This field provides the same grouping as options provided via **Use Group By** check box in **Clustering Solution Definitions** table. Information provided varies by table selected in the **Table** field. For information, see [Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md).
 
 </td></tr><tr><td>
 
@@ -222,7 +222,7 @@ String
 
 </td><td>
 
-Optional. Identifies the segmentation field for which to retrieve cluster memberships, for example, assignment group.This field provides the same grouping as options provided via **Use Group By** check box in **Clustering Solution Definitions** table. Information provided varies by table selected in the **Table** field. For information, see Create and train a clustering solution.
+Optional. Identifies the segmentation field for which to retrieve cluster memberships, for example, assignment group.This field provides the same grouping as options provided via **Use Group By** check box in **Clustering Solution Definitions** table. Information provided varies by table selected in the **Table** field. For information, see [Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md).
 
 </td></tr><tr><td>
 

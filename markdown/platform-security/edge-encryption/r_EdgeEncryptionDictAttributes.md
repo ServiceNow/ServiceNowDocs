@@ -15,7 +15,7 @@ breadcrumb: [Configuring Edge Encryption, Edge Encryption, Encryption]
 
 Add dictionary attributes to tables and fields to control how they work with Edge Encryption.
 
-To set a dictionary attribute to true, you must enter `attribute=true` in the **Attributes** field. To add a dictionary attribute to a record, see Altering tables and fields using dictionary attributes.
+To set a dictionary attribute to true, you must enter `attribute=true` in the **Attributes** field. To add a dictionary attribute to a record, see [Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md).
 
 -   **Edge Encryption Excluded \[edge\_encryption\_excluded\]**
 

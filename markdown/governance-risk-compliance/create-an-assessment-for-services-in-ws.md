@@ -41,15 +41,15 @@ Operational Resilience Managers \(sn\_oper\_res.manager\) have the Smart Assessm
 
     -   Smart Assessment: You can add multiple smart assessment templates for the `Assessment type: Smart assessment` in the **Smart assessment templates** field.
     -   Legacy Assessment: You can add a single assessment template for the `Assessment type: Legacy assessment` in the **Assessment template** field.
-<table id="choicetable_ltj_f4q_xfc"><thead><tr><th align="left" id="d185635e176">
+<table id="choicetable_ltj_f4q_xfc"><thead><tr><th align="left" id="d185642e176">
 
 Choice
 
-</th><th align="left" id="d185635e179">
+</th><th align="left" id="d185642e179">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d185635e185">
+</th></tr></thead><tbody><tr><td id="d185642e185">
 
 **Select __Smart assessment__.**
 
@@ -79,7 +79,7 @@ Only when these conditions are met, the template is available for selection in t
 
  **Note:** For information on setting up Smart Assessment templates, see [Create a Smart Assessment template](../../grc-operational-res/task/create-sm-asmt-temp-as-ws.md) and [Create an assessment template](../../assessment-engine/task/sae-asmnt-template-create.md).
 
-</td></tr><tr><td id="d185635e324">
+</td></tr><tr><td id="d185642e324">
 
 **Select __Legacy assessment__.**
 

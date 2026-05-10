@@ -53,7 +53,7 @@ Activate the remote tables plugin
 
 </td><td>
 
-The remote tables plugin must be enabled for the ServiceNow instance to support remote tables. For more information, see Activate the remote tables plugin.
+The remote tables plugin must be enabled for the ServiceNow instance to support remote tables. For more information, see [Activate the remote tables plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/activate-remote-tables-plugin.md).
 
 </td></tr><tr><td>
 
@@ -115,7 +115,7 @@ Add reference qualifiers on fields
 
 </td><td>
 
-This step enables filtering of the list so it only shows, for example, accounts or policies within the external system that are related to the selected consumer.For more information, see Reference qualifiers.
+This step enables filtering of the list so it only shows, for example, accounts or policies within the external system that are related to the selected consumer.For more information, see [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceQualifiers.md).
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ Create a UI action to populate remote data
 
 </td><td>
 
-Create a UI action to populate remote data from the interaction into the case, or the respective objects in your workflow.For more information, see Create a UI action.
+Create a UI action to populate remote data from the interaction into the case, or the respective objects in your workflow.For more information, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md).
 
 </td></tr><tr><td>
 
@@ -143,7 +143,7 @@ Display remote transactions for locally stored financial account
 
 </td><td>
 
-You can choose to keep information that changes frequently in remote tables \(such as transactions\) while storing other data that doesn't change in local tables.For instance, you can display transactions for a persisted bank account as a related list where all transactional data remains in an external system. For more information, see Create defined related lists.
+You can choose to keep information that changes frequently in remote tables \(such as transactions\) while storing other data that doesn't change in local tables.For instance, you can display transactions for a persisted bank account as a related list where all transactional data remains in an external system. For more information, see [Create defined related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateDefinedRelatedLists.md).
 
 When creating the relationship, specify the remote table as the **Queries from table** value. Use a function in the **Query with** field to define the relationship between the transactions and account.
 

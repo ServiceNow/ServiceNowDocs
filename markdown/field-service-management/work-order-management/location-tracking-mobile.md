@@ -26,5 +26,5 @@ Your administrator selects which tracking options are available to you. There ar
     Starts location tracking for a defined period of time or tracks your location continuously.
 
 
-To monitor your activity, turn on location tracking from your mobile device. Location tracking continues even when there is no internet connection. For more information, see Using location tracking for mobile.
+To monitor your activity, turn on location tracking from your mobile device. Location tracking continues even when there is no internet connection. For more information, see [Using location tracking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-location.md).
 

@@ -53,7 +53,7 @@ Role required: sn\_sow\_svcobs.admin
 
     The new dashboard is titled with the words `- Copy` appended. Use the pencil icon to change the dashboard name.
 
-3.  To do basic editing, such as rearranging, resizing, or deleting charts, follow the instructions for Edit in-line Platform Analytics dashboard elements.
+3.  To do basic editing, such as rearranging, resizing, or deleting charts, follow the instructions for [Edit in-line Platform Analytics dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-elements-in-ac.md).
 
 4.  To add a vendor query for a new chart, follow these steps:
 

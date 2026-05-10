@@ -15,7 +15,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Conversation Member API provides methods for changing a specific agent’s member state to removed or updated in a given Agent Chat conversation.
 
-This API provides the ability to programmatically manage an agent member’s state in conversations in Agent Chat experience of Conversational Interfaces. See Agent Chat for more information.
+This API provides the ability to programmatically manage an agent member’s state in conversations in Agent Chat experience of Conversational Interfaces. See [Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-use-agent-chat.md) for more information.
 
 This API is available by default. The calling user must have the awa\_integration\_user role.
 

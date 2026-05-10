@@ -144,5 +144,5 @@ Agent Assist and Response Template example:
 **Related topics**  
 
 
-[bundle-platadm.configuring-contextual-search]
+[Configuring contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/configuring-contextual-search.md)
 

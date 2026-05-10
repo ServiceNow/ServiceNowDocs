@@ -19,7 +19,7 @@ Issue Auto Resolution sends actionable notifications through Virtual Agent direc
 
 Actionable notifications contain buttons that the end user can select. Each button is mapped to a topic that is enabled for Issue Auto Resolution. Based on the end user's selections, different aspects of Issue Auto Resolution execute, according to the logic of the matched topic.
 
-For more information about Issue Auto Resolution, see Using Issue Auto Resolution and [Issue Auto Resolution for ITSM Virtual Agent](../concept/itsm-va-auto-resolution.md).
+For more information about Issue Auto Resolution, see [Using Issue Auto Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/auto-resolution-va.md) and [Issue Auto Resolution for ITSM Virtual Agent](../concept/itsm-va-auto-resolution.md).
 
 **Note:** You must activate notifications in Workflow Studio in order to use them. For details, see [Set up actionable notifications for ITSM Virtual Agent](../task/setup-actionable-notifications.md).
 

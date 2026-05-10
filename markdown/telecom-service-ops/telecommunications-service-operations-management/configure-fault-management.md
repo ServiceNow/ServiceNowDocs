@@ -6,7 +6,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
 ---
@@ -81,5 +81,5 @@ Role required: TSOM Assurance admin
 **Related topics**  
 
 
-[bundle-itom.exploring-event-management]
+[Exploring Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/exploring-event-management.md)
 

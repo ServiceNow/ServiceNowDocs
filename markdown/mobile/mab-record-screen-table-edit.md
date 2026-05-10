@@ -17,7 +17,7 @@ Edit existing entries in the record screen tables in the Mobile App Builder.
 
 Role required: admin or delegated developer
 
-For more information about the delegated developer role, see Delegated development and deployment.
+For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 ## Procedure
 

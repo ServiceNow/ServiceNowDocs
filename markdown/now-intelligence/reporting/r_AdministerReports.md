@@ -25,7 +25,7 @@ You can select the table and field on which to report and the characteristics of
 
 ## Report Security
 
-The Report Security enforce access control checks plugin allows administrators to use access control list \(ACL\) rules to restrict report access. This functionality prevents unauthorized users from editing, updating, or deleting reports either through the UI or through a URL construct. See Access control list rules for more information.
+The Report Security enforce access control checks plugin allows administrators to use access control list \(ACL\) rules to restrict report access. This functionality prevents unauthorized users from editing, updating, or deleting reports either through the UI or through a URL construct. See [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md) for more information.
 
 ## Available Report Fields
 

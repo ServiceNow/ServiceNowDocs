@@ -27,7 +27,7 @@ The dashboard displays your survey reports arranged in widgets. You can add new 
 
 2.  Click the elements within the reports to view more information.
 
-    For more information about working with dashboards, see Dashboards.
+    For more information about working with dashboards, see [Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dashboards-landing-page.md).
 
 
 **Parent Topic:**[Survey administration](../reference/r_SurveyAdminTasks.md)

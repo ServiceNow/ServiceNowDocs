@@ -25,15 +25,15 @@ Role required: itil
 
 2.  Perform any of the following actions on the record page.
 
-<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d128943e61">
+<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d128947e61">
 
 Option
 
-</th><th align="left" id="d128943e64">
+</th><th align="left" id="d128947e64">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d128943e70">
+</th></tr></thead><tbody><tr><td id="d128947e70">
 
 **Create a new version of the knowledge article that we can publish**
 
@@ -41,7 +41,7 @@ Description
 
 Select **Checkout**.
 
-</td></tr><tr><td id="d128943e82">
+</td></tr><tr><td id="d128947e82">
 
 **Translate an article after its comparison in its original language and the language it will be translated into**
 
@@ -52,7 +52,7 @@ Select **Checkout**.
 
 **Note:** If Dynamic Translation is enabled, click **Machine Translate** to view machine translations.
 
-</td></tr><tr><td id="d128943e112">
+</td></tr><tr><td id="d128947e112">
 
 **View a knowledge article including the article number, short description, and article content**
 
@@ -60,15 +60,15 @@ Select **Checkout**.
 
 Select **View Article**.
 
-</td></tr><tr><td id="d128943e124">
+</td></tr><tr><td id="d128947e124">
 
 **Initiate the retirement workflow associated with the article**
 
 </td><td>
 
-From the more options drop-down \(![more actions icon](../../itsm-workspace/image/more-actions-icon.png)\), select **Retire**. For information about retiring a knowledge article, see Retire a knowledge article.
+From the more options drop-down \(![more actions icon](../../itsm-workspace/image/more-actions-icon.png)\), select **Retire**. For information about retiring a knowledge article, see [Retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/c_RetiredKnowledgeArticles.md).
 
-</td></tr><tr><td id="d128943e147">
+</td></tr><tr><td id="d128947e147">
 
 **Translate an article into multiple languages**
 
@@ -79,7 +79,7 @@ From the more options drop-down \(![more actions icon](../../itsm-workspace/imag
 3.  Select **Submit**.
 
 
-</td></tr><tr><td id="d128943e180">
+</td></tr><tr><td id="d128947e180">
 
 **Copy the record page URL to easily access the record**
 
@@ -87,7 +87,7 @@ From the more options drop-down \(![more actions icon](../../itsm-workspace/imag
 
 Select the more actions icon \(![more actions icon](../../itsm-workspace/image/more-actions-icon.png)\) and select **Copy URL**.
 
-</td></tr><tr><td id="d128943e198">
+</td></tr><tr><td id="d128947e198">
 
 **Reuse a knowledge block when creating or editing the article**
 
@@ -97,7 +97,7 @@ Select the more actions icon \(![more actions icon](../../itsm-workspace/image/m
 2.  Select the required knowledge block to add it to the article.
 
 
-</td></tr><tr><td id="d128943e222">
+</td></tr><tr><td id="d128947e222">
 
 **Attach a record that helps in quick resolution of the interaction**
 
@@ -109,7 +109,7 @@ Select the more actions icon \(![more actions icon](../../itsm-workspace/image/m
 
  For information on configuring additional search resources, see [Configure search resources for an interaction in Service Operations Workspace for ITSM](configure-resources-for-an-interaction.md).
 
-</td></tr><tr><td id="d128943e259">
+</td></tr><tr><td id="d128947e259">
 
 **Add attachments**
 
@@ -117,7 +117,7 @@ Select the more actions icon \(![more actions icon](../../itsm-workspace/image/m
 
 From the contextual side panel, select the attachments icon \(![attachments icon](../../itsm-workspace/image/attachment-icon.png)\). Alternatively, you can drag and drop the attachment into the **Active Chat** window of the interaction.**Note:** The added attachments are displayed in the activity stream in the **Compose** section.
 
-</td></tr><tr><td id="d128943e283">
+</td></tr><tr><td id="d128947e283">
 
 **Create templates for reuse**
 
@@ -125,7 +125,7 @@ From the contextual side panel, select the attachments icon \(![attachments icon
 
 From the contextual side panel, select the templates icon \(![templates icon](../image/template-icon.png)\) and create a template or reuse an existing one.
 
-</td></tr><tr><td id="d128943e299">
+</td></tr><tr><td id="d128947e299">
 
 **Most recent task**
 

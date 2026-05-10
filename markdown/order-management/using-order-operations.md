@@ -13,7 +13,7 @@ breadcrumb: [Use, Sales Customer Relationship Management]
 
 Learn how to use order operations applications.
 
-Manage cases
+[Manage cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-cases.md)
 
 Case management provides a structured and efficient approach to handling a wide variety of service requests, incidents, and inquiries. It encompasses the processes and tools used to manage individual cases from initiation through resolution, ensuring that service delivery is consistent, timely, and aligned with organizational goals.
 

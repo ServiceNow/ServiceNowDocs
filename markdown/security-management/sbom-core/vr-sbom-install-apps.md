@@ -33,8 +33,8 @@ Roles required: admin for download, installation, and activation of all applicat
     -   SBOM Core
     For more information about downloading and activating applications, see the following:
 
-    -   Install a ServiceNow Store application
-    -   Install an update to a ServiceNow Store application
+    -   [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md)
+    -   [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallUpdates.md)
 2.  If you want to view your SBOM data in the SBOM Workspace, view imported third-party vulnerability intelligence, assess your risk exposure, and remediate vulnerabilities with the Application Vulnerability Response and Vulnerability Response workflows, download the following applications:
 
     -   Vulnerability Response and its dependencies

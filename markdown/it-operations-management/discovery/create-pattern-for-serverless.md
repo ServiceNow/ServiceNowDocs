@@ -6,7 +6,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 3
 breadcrumb: [Serverless Discovery, Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -64,7 +64,7 @@ After you create a pattern for standard serverless discovery, create a Discovery
 
 ### Before you begin
 
-Ensure you have basic authentication credentials for HTTP calls in the pattern.
+Ensure you have [basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md) for HTTP calls in the pattern.
 
 Role required: cloud\_admin, service\_mapping\_admin, or admin
 

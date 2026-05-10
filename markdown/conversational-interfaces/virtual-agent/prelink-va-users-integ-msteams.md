@@ -24,8 +24,8 @@ To install the app otherwise, use the following directions.
 To install the app otherwise, use the following directions.
 
 -   [Install Conversational Integration with Microsoft Teams](teams-install.md), with the **Automatically Link ServiceNow user profiles** option enabled.
--   Set up Microsoft Teams Graph spoke.
--   Set up Microsoft Active Directory spoke.
+-   [Set up Microsoft Teams Graph spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-msteams.md).
+-   [Set up Microsoft Active Directory spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-ad.md).
 
 Roles required:
 
@@ -58,7 +58,7 @@ Batch pre-linking happens automatically via the **MS Teams Daily Pre Install Job
 
 3.  In the **Run** field, change the run time to your desired time.
 
-4.  For a description of the other fields that you can change in this form, including **Time zone**, see Automatically run a script of your choosing.
+4.  For a description of the other fields that you can change in this form, including **Time zone**, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ScheduleAScriptExecution.md).
 
 5.  Select **Save**.
 

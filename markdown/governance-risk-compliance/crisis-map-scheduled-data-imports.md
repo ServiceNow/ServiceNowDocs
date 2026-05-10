@@ -17,7 +17,7 @@ Manage your subscriptions to threat feeds from internal or external sources by c
 
 Role required: System administrator
 
-You must set up the Google maps for enabling the crisis map functionality. For more information, see Set up Google Maps API.
+You must set up the Google maps for enabling the crisis map functionality. For more information, see [Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-google-maps-api.md).
 
 ## About this task
 

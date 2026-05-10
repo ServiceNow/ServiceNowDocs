@@ -203,11 +203,11 @@ Before you can begin determining the license compliance of software across your 
 
 -   Activate the Discovery \(com.snc.discovery\) plugin on your ServiceNow instance.
 
-    See Request Discovery for detailed instructions.
+    See [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md) for detailed instructions.
 
 -   Request and install the Discovery and Service Mapping Patterns application from the [ServiceNow Store](https://store.servicenow.com/).
 
-    See Discovery patterns used by ITOM Visibility for more information on Discovery and Service Mapping patterns.
+    See [Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md) for more information on Discovery and Service Mapping patterns.
 
 -   Migrate cloud discoveries from Cloud API \(CAPI\) probes to pattern-based discovery.
 
@@ -215,7 +215,7 @@ Before you can begin determining the license compliance of software across your 
 
 -   Request and install the CMDB CI Class Models application from the [ServiceNow Store](https://store.servicenow.com/).
 
-    See CMDB CI Class Models store app for more information on the CMDB CI Class Models application.
+    See [CMDB CI Class Models store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md) for more information on the CMDB CI Class Models application.
 
 -   Request and install the Cloud Cost Management application from the [ServiceNow Store](https://store.servicenow.com/).
 
@@ -233,7 +233,7 @@ With BYOL and BYOS, the ServiceNow® Discovery application locates and identifie
 -   License type, such as BYOL, BYOS, or License Included
 -   Software that is installed on the virtual machine
 
-**Note:** The Amazon AWS Cloud, Microsoft Azure Cloud, and Google Cloud discovery patterns are included in the Discovery and Service Mapping Patterns store application. For more information on Amazon AWS Cloud discovery patterns, see Amazon AWS Cloud components discovery using patterns. For more information on Microsoft Azure Cloud discovery patterns, see Microsoft Azure Cloud components discovery using patterns. For more information on Google Cloud discovery patterns, see Google Cloud Platform \(GCP\) resource inventory discovery with Patterns and Google Cloud Platform \(GCP\) Organization discovery with Patterns.
+**Note:** The Amazon AWS Cloud, Microsoft Azure Cloud, and Google Cloud discovery patterns are included in the Discovery and Service Mapping Patterns store application. For more information on Amazon AWS Cloud discovery patterns, see [Amazon AWS Cloud components discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md). For more information on Microsoft Azure Cloud discovery patterns, see [Microsoft Azure Cloud components discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md). For more information on Google Cloud discovery patterns, see [Google Cloud Platform \(GCP\) resource inventory discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/gcp-resource-inventory-discovery.md) and [Google Cloud Platform \(GCP\) Organization discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/google-gcp-organization-discovery.md).
 
 Resources for your discovered software are populated and stored in corresponding Configuration Management Database \(CMDB\) tables, including the Host \[cmdb\_ci\_cloud\_host\] and Serverless Hardware \[cmdb\_ci\_serverless\_hardware\] tables, on your ServiceNow instance.
 

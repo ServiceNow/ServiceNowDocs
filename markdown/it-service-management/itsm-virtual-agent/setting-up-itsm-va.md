@@ -15,7 +15,7 @@ breadcrumb: [ITSM Virtual Agent, IT Service Management]
 
 Set up the ITSM Virtual Agent features and components that you need to provide support to your employees, IT teams, and customers.
 
-ITSM Virtual Agent topics must be activated and published before your employees can use them. By default, the base system provides topics as inactive and unpublished. To view, duplicate, preview, or publish ITSM topics in the Virtual Agent Designer, see Getting started with Virtual Agent Designer.
+ITSM Virtual Agent topics must be activated and published before your employees can use them. By default, the base system provides topics as inactive and unpublished. To view, duplicate, preview, or publish ITSM topics in the Virtual Agent Designer, see [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
 -   **[Set up ITSM Virtual Agent](../task/setup-itsm-virtual-agent.md)**  
 You can create and publish conversation topics in Virtual Agent Designer if you have administrator roles.

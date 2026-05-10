@@ -26,7 +26,7 @@ By default, the following use cases are available for Sourcing and Procurement O
 -   CM Pro - Contract Analysis
 -   CM Pro - Contract Metadata Extraction
 
-For more information, see Contract metadata extraction using Now Assist in Contract Management.
+For more information, see [Contract metadata extraction using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md).
 
 ## Procedure
 
@@ -45,9 +45,9 @@ For more information, see Contract metadata extraction using Now Assist in Contr
 
 ## What to do next
 
-Review the metadata extracted from a contract and add it to the contract repository. For more information, see Work with extracted metadata.
+Review the metadata extracted from a contract and add it to the contract repository. For more information, see [Work with extracted metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-review-metatdata.md).
 
-The Extraction results tab in the contract repository record displays the processed metadata and their statuses, indicating whether the metadata have been successfully added to the mapped fields in the contract repository. For more information, see Metadata extraction results.
+The Extraction results tab in the contract repository record displays the processed metadata and their statuses, indicating whether the metadata have been successfully added to the mapped fields in the contract repository. For more information, see [Metadata extraction results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-ext-results.md).
 
 **Parent Topic:**[Using Now Assist for Contract Management in Sourcing and Procurement Operations](../concept/use-now-assist-cmpro-spo.md)
 

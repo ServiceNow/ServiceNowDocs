@@ -23,7 +23,7 @@ You must have configured the following items:
 -   Cloud policy
 -   Approval policy
 -   Email notification
--   Create a subflow in Workflow Studio
+-   [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow.md)
 
 Role required: sn\_cmp.cloud\_governor or cloud\_admin
 
@@ -59,15 +59,15 @@ The **On resource limit exceeded** base system policy action has a default Servi
 
     2.  Click **Create** next to the action you want to occur when the quota is exceeded.
 
-<table id="choicetable_xpc_mhp_znb"><thead><tr><th align="left" id="d206619e263">
+<table id="choicetable_xpc_mhp_znb"><thead><tr><th align="left" id="d206524e263">
 
 Option
 
-</th><th align="left" id="d206619e266">
+</th><th align="left" id="d206524e266">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d206619e272">
+</th></tr></thead><tbody><tr><td id="d206524e272">
 
 **ServiceNow Approval**
 
@@ -78,7 +78,7 @@ Steps
 3.  Select the **Assignment group** to which this action applies.
 
 
-</td></tr><tr><td id="d206619e312">
+</td></tr><tr><td id="d206524e312">
 
 **Custom Approval**
 
@@ -88,7 +88,7 @@ Steps
 2.  Select an existing custom workflow in the **Subflow** field.
 
 
-</td></tr><tr><td id="d206619e343">
+</td></tr><tr><td id="d206524e343">
 
 **Send aNotification**
 

@@ -24,7 +24,7 @@ Domain separation is supported in On-Call Scheduling. The On-Call Scheduling app
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## On-Call Scheduling domain separation overview
 
@@ -69,7 +69,7 @@ This setup is enforced with a combination of the domain field and the **domain\_
 -   On-Call Escalation Contact Attempt \[on\_call\_escalation\_con\_attempt\]: **domain\_master**=**escalation\_level**
 -   On-Call Escalation Notification \[on\_call\_escalation\_comm\]: **domain\_master**=**contact\_attempt**
 
-To learn more, see Domain support for schedules
+To learn more, see [Domain support for schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/domain-support-for-schedules.md)
 
 ## Use cases
 
@@ -86,5 +86,5 @@ For the following On-Call Scheduling features, domain separation ensures that en
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

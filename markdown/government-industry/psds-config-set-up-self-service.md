@@ -26,7 +26,7 @@ Creating a self-service portal such as the Government Service Portal helps const
 
     Create and enable self-service portals for your customers to support their needs efficiently. Integrate these portals with knowledge bases, communities, service catalogs, and chatbots. Additionally, provide features like walk-up experiences and appointment booking to enhance their self-service options.
 
--   **Service Catalog**
+-   **[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md)**
 
     Use the Service Catalog application to create and customize service catalogs so that your constituents can request items such as services and public records, or submit applications for grants or various social benefit programs. Additionally, you can standardize request fulfillment to maintain the accuracy and availability of the items in the catalogs.
 

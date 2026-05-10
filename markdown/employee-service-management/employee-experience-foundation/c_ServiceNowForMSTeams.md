@@ -105,7 +105,7 @@ Use ServiceNow Virtual Agent with Microsoft Teams
 -   IT Service Management Standard, or
 -   HR Service Delivery Pro for full Virtual Agent
 
- To implement ServiceNow Virtual Agent with Microsoft Teams, see Conversational Integration with Microsoft Teams.
+ To implement ServiceNow Virtual Agent with Microsoft Teams, see [Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/teams-conv-integration.md).
 
 </td><td>
 
@@ -151,7 +151,7 @@ Build Custom integrations
 
 </td><td>
 
-For more information, see Microsoft Teams Graph spoke, and Microsoft Teams Communications spoke.
+For more information, see [Microsoft Teams Graph spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/msteams-spoke.md), and [Microsoft Teams Communications spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/msteams-comm.md).
 
 </td><td>
 
@@ -197,7 +197,7 @@ Enables employees to create universal requests directly from Microsoft Teams, vi
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the HR Service Delivery release notes.
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hr-service-delivery-landing.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

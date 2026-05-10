@@ -23,7 +23,7 @@ As a major\_incident\_manager, you must inherit any of the required roles to cre
 
 ## About this task
 
-Announcements can be displayed in an announcement banner or an announcement widget instance. For more information, see Posting announcements to portal users.
+Announcements can be displayed in an announcement banner or an announcement widget instance. For more information, see [Posting announcements to portal users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/announcements.md).
 
 ## Procedure
 
@@ -147,7 +147,7 @@ Display first
 
 </td><td>
 
-Option to display the announcement before all other announcements. **Note:** If two records set to **Display first** exist, the sort order defined in the **glide.service\_portal.announcement.default\_sort\_order** system property is implemented. For more information, see Service Portal properties.
+Option to display the announcement before all other announcements. **Note:** If two records set to **Display first** exist, the sort order defined in the **glide.service\_portal.announcement.default\_sort\_order** system property is implemented. For more information, see [Service Portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/properties-service-portal.md).
 
 </td></tr><tr><td>
 
@@ -158,7 +158,7 @@ Roles
 User roles to whom the announcement is visible. If left empty, the announcement is visible to all roles.**Note:**
 
 -   If the **Public** check box is cleared, you can define the user roles to whom the announcement is visible.
--   Alternatively, you can define user criteria for the announcement instead. To do so, set up User criteria for Service Portal and clear the **Public** check box. Announcements are displayed to only the users who pass the access criteria.
+-   Alternatively, you can define user criteria for the announcement instead. To do so, set up [User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/user-criteria.md) and clear the **Public** check box. Announcements are displayed to only the users who pass the access criteria.
 
 
 </td></tr><tr><td>
@@ -239,7 +239,7 @@ Portals that display the announcement. If this field is empty, the announcement 
 
     -   Can View: Contains a list of user criteria to enable the users to view the announcements based on role, department, group, location, or company.
     -   Cannot View: Contains a list of user criteria to block users from viewing the announcements based on role, department, group, location, or company.
-    You can select an existing user criteria or select **New** to create a user criteria. For more information, see User criteria for Service Portal.
+    You can select an existing user criteria or select **New** to create a user criteria. For more information, see [User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/user-criteria.md).
 
 
 ## What to do next

@@ -29,9 +29,9 @@ Use the Identity and Access Audit to understand changes made to users, groups, r
 
 </td></tr><tr><td>
 
-Audit Results![Evaluation](../../../common/image/icon-manage.png)
+[Audit Results![Evaluation](../../../common/image/icon-manage.png)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/audit-results.md)
 
- View results from Identity and Access Audit.
+ [View results from Identity and Access Audit.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/audit-results.md)
 
 </td><td>
 

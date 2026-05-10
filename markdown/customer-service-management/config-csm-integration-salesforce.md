@@ -19,7 +19,7 @@ Role required: admin
 
 ## Procedure
 
-1.  To configure the Salesforce spoke, follow the instructions in Set up the Salesforce spoke.
+1.  To configure the Salesforce spoke, follow the instructions in [Set up the Salesforce spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-sf-spk.md).
 
 
 **Parent Topic:**[Using remote tables and the Salesforce spoke](../concept/csm-integration-remote-tables.md)

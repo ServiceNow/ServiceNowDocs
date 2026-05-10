@@ -13,7 +13,7 @@ breadcrumb: [Components and roles installed, Reference, Public Sector Digital Se
 
 These plugins are automatically installed with the following Public Sector Digital Services applications, if they are not already active.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 ## Plugins installed with Public Sector Digital Services Core
 

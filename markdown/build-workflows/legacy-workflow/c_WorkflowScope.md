@@ -43,7 +43,7 @@ During runtime, publicly scoped workflows can access other application resources
 
 As you design workflows, validate the visibility and accessibility of all resources prior to deployment.
 
-See Application scope.
+See [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).
 
 For information on how to configure the scope for a workflow, see [Workflow properties](../../workflow-administration/reference/r_WorkflowProperties.md).
 

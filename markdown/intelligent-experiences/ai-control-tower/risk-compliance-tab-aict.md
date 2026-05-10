@@ -21,7 +21,7 @@ AI assets refer to the various components and resources that are essential for t
 2.  AI models: The mathematical and computational models that are trained on data to perform specific tasks. These models can range from simple linear regression models to complex deep learning neural networks.
 3.  AI datasets: The collections of data used to train, validate, and test AI models.
 
-For more information, see AI systems, AI models, and Datasets.
+For more information, see [AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-system-airc.md), [AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-model-airc.md), and [Datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/dataset-airc.md).
 
 Understanding and managing these AI assets is crucial for ensuring that AI systems are effective, reliable, and compliant with regulatory and ethical standards as defined by your organization.
 
@@ -43,7 +43,7 @@ The Risk and compliance dashboard has the following sections. You can drill down
 
     The authority documents are provided solely for informational and guidance purposes to assist with the initial setup of AI Risk and Compliance frameworks. It does not constitute legal advice or assurance of regulatory compliance. You are solely responsible for ensuring that all use of the content complies with applicable laws, regulations, directives, and industry standards in their jurisdictions.
 
-    **Note:** You can configure which authority documents and policies you want to display on the home page. For more information, see Set up properties for compliance posture.
+    **Note:** You can configure which authority documents and policies you want to display on the home page. For more information, see [Set up properties for compliance posture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/configure-airc-properties.md).
 
 
 ## Risk overview
@@ -61,7 +61,7 @@ This section monitors and tracks the risk posture of the AI assets in your organ
 
 ## Regulatory landscape overview
 
-You need to install GRC: Regulatory Change Management application to see this section. For more information, see Installing Regulatory Change Management.
+You need to install GRC: Regulatory Change Management application to see this section. For more information, see [Installing Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/activate-grc-rcm.md).
 
 -   **Overview**
     -   Alerts
@@ -81,5 +81,5 @@ The following image shows the Risk and compliance dashboard.
 
 ![The dashboard monitors and manages the risk and compliance posture of the AI assets in your organization.](../image/riask-and-compliance-dashboard-aict.png "Risk and compliance dashboard")
 
-For more information, see AI Risk and Compliance documentation.
+For more information, see [AI Risk and Compliance documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance.md).
 

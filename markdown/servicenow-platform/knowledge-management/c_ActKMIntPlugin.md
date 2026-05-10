@@ -16,8 +16,8 @@ breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage cont
 To enable translation of knowledge articles, you must activate multiple plugins.
 
 -   Knowledge Management Advanced \(com.snc.knowledge\_advanced\) plugin. For more information, see [Activate the Knowledge Management Advanced plugin](../task/activate-knowledge-advanced-plugin.md)
--   I18N:Knowledge Management Internationalization Plugin v2 \(com.glideapp.knowledge.i18n2\) plugin. For more information, see Activate a plugin.
--   Internationalization plugins for each appropriate language. For more information, see Activate a language.
+-   I18N:Knowledge Management Internationalization Plugin v2 \(com.glideapp.knowledge.i18n2\) plugin. For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+-   Internationalization plugins for each appropriate language. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 
     **Note:**
 

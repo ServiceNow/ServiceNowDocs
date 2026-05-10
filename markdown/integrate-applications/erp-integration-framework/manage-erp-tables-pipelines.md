@@ -28,10 +28,10 @@ Changes that you could promote from a development instance to a production insta
 
 There are several ways to move changes to your production instance on the ServiceNow AI Platform:
 
-1.  Use System Update Sets to transfer changes from a development instance to a non-production and then production instance. For more information, see System update sets.
-2.  Add the changes to the ServiceNow Store and use the **Share with others** option to install the updates on the production instance. For more information, see Publish an application to an Update Set.
+1.  Use System Update Sets to transfer changes from a development instance to a non-production and then production instance. For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md).
+2.  Add the changes to the ServiceNow Store and use the **Share with others** option to install the updates on the production instance. For more information, see [Publish an application to an Update Set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_PublishApplicationsToAnUpdateSet.md).
 
-For more information on ways to publish your ERP updates, see Application sharing.
+For more information on ways to publish your ERP updates, see [Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_SharingApplications.md).
 
 **Parent Topic:**[Building with ERP data](erp-canvas-building-with-erp-data.md)
 

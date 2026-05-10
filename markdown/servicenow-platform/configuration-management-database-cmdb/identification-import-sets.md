@@ -19,7 +19,7 @@ Populating CMDB tables using Import Sets can inadvertently result in duplicate C
 
 ## Transform map script
 
-In the onBefore transform map script for an import set, add a call to the CMDBTransformUtil API, similar to the following code sample:
+In the onBefore transform map script for an import set, add a call to the [CMDBTransformUtil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_CMDBTransformUtilAPI.md) API, similar to the following code sample:
 
 ```
 (function runTransformScript(source, map, log, target) {
@@ -49,13 +49,13 @@ The identification engine performs identification of each source record before i
 -   If not duplicate: Inserts the record to the target table.
 -   If duplicate: Updates the existing CI in the CMDB, with data from the source record.
 
-The CMDBTransformUtil API pre-processes the source data, then passes the input values to the identification engine with import set being the data source by default. The CMDBTransformUtil API supports a target field that is a reference field in the same manner that Import Sets supports it. The CMDBTransformUtil API also supports a source script, evaluating source scripts to determine the target value which is then passed to the identification engine. For more information, see Creating a field map.
+The CMDBTransformUtil API pre-processes the source data, then passes the input values to the identification engine with import set being the data source by default. The CMDBTransformUtil API supports a target field that is a reference field in the same manner that Import Sets supports it. The CMDBTransformUtil API also supports a source script, evaluating source scripts to determine the target value which is then passed to the identification engine. For more information, see [Creating a field map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_CreatingAFieldMap.md).
 
 ## Specify multiple target tables for an import set
 
 You can configure each record in an import set with its own target table. Then, instead of inserting all the transformed records into a single target table, the records are inserted into the different target tables that are specified per record. For example, you might need to insert some records from the import set to the Computer class and other records to the Server class.
 
-When importing data using Import Sets, incorporate the following steps:
+When [importing data using Import Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md), incorporate the following steps:
 
 -   In the data source file, add a target table column. Use a string such as "MyTable" to label the column header. In each record row, enter the target table for the record, as a valid CMDB class name such as "cmdb\_ci\_computer".
 -   After you **Auto Map Matching Fields** on the Table Transform Map form, add a field map for the added target table column to establish a relationship between classes and the target tables in the CMDB.
@@ -79,5 +79,5 @@ The following restrictions apply:
 **Related topics**  
 
 
-[bundle-crint.t_CreateATransformMap]
+[Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md)
 

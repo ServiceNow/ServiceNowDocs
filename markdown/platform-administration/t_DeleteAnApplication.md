@@ -15,7 +15,7 @@ As an administrator, you can delete custom applications that are no longer neede
 
 ## Before you begin
 
--   To ensure that you can reinstall the application later, first publish a backup of your application to the ServiceNow application repository, ServiceNow Store, or an update set. See Application sharing.
+-   To ensure that you can reinstall the application later, first publish a backup of your application to the ServiceNow application repository, ServiceNow Store, or an update set. See [Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_SharingApplications.md).
 
 Role required: admin
 

@@ -25,7 +25,7 @@ Role required: sn\_hr\_sp.esc\_admin
 
 2.  Edit the portal to suit your needs.
 
-    For more information on the portal form fields and description, see Create a portal.
+    For more information on the portal form fields and description, see [Create a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-a-portal.md).
 
 3.  Navigate to **All** &gt; **Service Portal** &gt; **Themes**.
 
@@ -45,7 +45,7 @@ Role required: sn\_hr\_sp.esc\_admin
     -   Footer name: Employee Center Footer
 6.  On the theme page, Edit **CSS variables** information to customize other settings such as primary and background colors.
 
-    For more information on the theme fields and description, see Create a portal theme.
+    For more information on the theme fields and description, see [Create a portal theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_CustomCSS.md).
 
 7.  Verify and use the following default configuration:
 

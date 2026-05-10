@@ -85,7 +85,7 @@ For the **Neighborhood** assignment, you must select the neighborhood you want t
 
 5.  Add conditions to filter the users.
 
-For example, `Workplace profile is Active`. For more information about conditions, see Condition builder.
+For example, `Workplace profile is Active`. For more information about conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 6.  Select the users that you want to assign, then select **Confirm**.
 

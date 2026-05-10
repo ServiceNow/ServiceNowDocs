@@ -17,7 +17,7 @@ You can export a survey and then import it to another instance.
 
 Role required: admin, survey\_reader, or survey\_admin
 
-For information about update sets, see System update sets.
+For information about update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md).
 
 ## Procedure
 

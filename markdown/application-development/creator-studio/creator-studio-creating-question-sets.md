@@ -20,7 +20,7 @@ Question sets enable admins to create curated, uneditable questions that users c
 
 Additionally, you can create question sets with multiple questions if you want several reusable questions to always be grouped together.
 
-See Create a variable set and add it to an item to find out how to create a question set in Service Catalog.
+See [Create a variable set and add it to an item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAVariableSet.md) to find out how to create a question set in Service Catalog.
 
 **Parent Topic:**[Administering templates and forms for Creator Studio](creator-studio-administering-forms.md)
 

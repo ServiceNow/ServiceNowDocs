@@ -42,7 +42,7 @@ You can create catalog items for the OT Service Catalog in the catalog builder. 
 
     For more information about the Catalog Item form fields, see [Operational Technology Catalog Item form](../reference/catalog-item-form-ot-request.md).
 
-    **Note:** You can’t remove the OT Catalog Item Variable Set from the Questions section. The OT Catalog Item Variable Set is what distinguishes OT requests from other requests. You can instead create new questions for your item form by selecting **Insert New Question**. For more information about inserting a new question, see Create a question for a catalog item in Catalog Builder.
+    **Note:** You can’t remove the OT Catalog Item Variable Set from the Questions section. The OT Catalog Item Variable Set is what distinguishes OT requests from other requests. You can instead create new questions for your item form by selecting **Insert New Question**. For more information about inserting a new question, see [Create a question for a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-question-cat-builder.md).
 
 7.  To preview your catalog item, select **Preview**.
 

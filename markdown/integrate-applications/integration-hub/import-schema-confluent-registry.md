@@ -20,7 +20,7 @@ Import a Schema from the Confluent Registry to enable your Stream Connect produc
 -   Role required: kafka\_admin
 -   This feature is part of schema management in Stream Connect. For more information, see [Schema management in Stream Connect](../concept/schema-management.md).
 -   The ServiceNow Stream Connect Installer \[com.glide.hub.stream\_connect.installer\] plugin is required.
--   To import a schema, you need to have a Connection and Credential alias to connect to your Confluent registry. Navigate to **All** &gt; **IntegrationHub** &gt; **Schema Management** &gt; **Configure Connection** to configure your alias. For instructions, see Create a Connection &amp; Credential alias.
+-   To import a schema, you need to have a Connection and Credential alias to connect to your Confluent registry. Navigate to **All** &gt; **IntegrationHub** &gt; **Schema Management** &gt; **Configure Connection** to configure your alias. For instructions, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
 
 ## About this task
 

@@ -15,7 +15,7 @@ breadcrumb: [Explore Workplace Core, Workplace Core, Workplace Service Delivery,
 
 Workplace Service Delivery provides you with delivered conversations in Virtual Agent, which is an automated chatbot that enables employees to request services or raise inquiries. The Virtual Agent is available on the Employee Center where employees can find all their workplace-related information.
 
-For more information about Virtual Agent, see Virtual Agent.
+For more information about Virtual Agent, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md).
 
 ## Predefined Virtual Agent topics for Workplace Service Delivery
 

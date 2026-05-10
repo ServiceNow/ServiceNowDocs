@@ -17,9 +17,9 @@ Mobile campaigns enable you to share curated content using a scrolling list of i
 
 **Note:**
 
-To set up a campaign to display on mobile devices, you must have the Employee Center Pro Content Publishing plugin \[com.sn\_content\_delivery\] installed. For more information, see Activate Content Publishing.
+To set up a campaign to display on mobile devices, you must have the Employee Center Pro Content Publishing plugin \[com.sn\_content\_delivery\] installed. For more information, see [Activate Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-content-delivery-plugin.md).
 
-You create campaign content through Content Experiences with Employee Center Pro. For more information, see Campaigns for Content Experiences and Configure mobile content.
+You create campaign content through Content Experiences with Employee Center Pro. For more information, see [Campaigns for Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaigns.md) and [Configure mobile content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-delivery-mobile.md).
 
 ![Mobile campaign example with an image, text, and video card](../image/campaigns-3-diff-egs.png "Examples of a mobile campaign with an image, text, and video card")
 

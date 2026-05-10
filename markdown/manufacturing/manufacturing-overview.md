@@ -51,7 +51,7 @@ The  ServiceNow® Manufacturing Commercial Operations \(MCO\) enables you to o
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed at Manufacturing Commercial Operations release notes.
+-   Learn more about what's new and changed at [Manufacturing Commercial Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/manufacturing-commercial-operations-rn.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Manufacturing Commercial Operations features at [Now Create](https://learning.servicenow.com/nowcreate).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Impact](http://impact.servicenow.com).

@@ -65,7 +65,7 @@ You can convert an idea into work entities other than demands. The **Create Task
 
 You must have the required Agile plugins Agile Development 2.0 and Scaled Agile Framework \(SAFe\) and Continual Improvement Management installed to view these options.
 
-If you want to allow conversion of ideas only to a demand, disable the **Create Task** button and continue using the **Accept** button or disable the **Accept** and **Defer** buttons to use other options. For more information see, Using the form designer.
+If you want to allow conversion of ideas only to a demand, disable the **Create Task** button and continue using the **Accept** button or disable the **Accept** and **Defer** buttons to use other options. For more information see, [Using the form designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_FormDesign.md).
 
 ## Business rules
 
@@ -73,7 +73,7 @@ Review the existing business rules in the idea table. Set the business rules tha
 
 ## Navigation for legacy Idea application
 
-To encourage your users to submit ideas through the new Idea Portal, remove navigation for old Idea application from the application menu and deactivate the Submit an Idea option from the Service Catalog. For more information see, Enable or disable an application menu or module.
+To encourage your users to submit ideas through the new Idea Portal, remove navigation for old Idea application from the application menu and deactivate the Submit an Idea option from the Service Catalog. For more information see, [Enable or disable an application menu or module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_EnDisableAppMenuOrMod.md).
 
 **Parent Topic:**[Configuring Innovation Management](../concept/configuring-innovation-management.md)
 

@@ -18,7 +18,7 @@ Request a security incident summary or closure notes from the Now Assist panel.
 
 ## Before you begin
 
-See Now Assist panel for how to activate the Now Assist panel.
+See [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md) for how to activate the Now Assist panel.
 
 Roles required: si\_analyst, si\_manager, or sn\_si.basic
 
@@ -32,15 +32,15 @@ Roles required: si\_analyst, si\_manager, or sn\_si.basic
 
 4.  Select the Now Assist \(![Now Assist panel for AI agent icon.](../image/ai-icon-now-assist.png)\) icon.
 
-<table id="choicetable_wp5_pvr_1cc"><thead><tr><th align="left" id="d298495e147">
+<table id="choicetable_wp5_pvr_1cc"><thead><tr><th align="left" id="d298499e147">
 
 Option
 
-</th><th align="left" id="d298495e150">
+</th><th align="left" id="d298499e150">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d298495e156">
+</th></tr></thead><tbody><tr><td id="d298499e156">
 
 **Generate resolution notes**
 
@@ -56,7 +56,7 @@ In the Now Assist panel, select **Generate resolution notes**.
 
  See [Generate closure notes for a security incident with Now Assist for Security Incident Response](generate-closure-notes-si-now-assist-sec-incident.md) for more information.
 
-</td></tr><tr><td id="d298495e193">
+</td></tr><tr><td id="d298499e193">
 
 **Summarize a security incident**
 
@@ -70,7 +70,7 @@ In the Now Assist panel, select **Summarize a record**.
 
  See [Summarize a security incident with Now Assist for Security Incident Response](summarize-security-incident-now-assist-sec-incident.md) for more information.
 
-</td></tr><tr><td id="d298495e227">
+</td></tr><tr><td id="d298499e227">
 
 **Generate correlation insights**
 

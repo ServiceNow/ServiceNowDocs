@@ -33,7 +33,7 @@ Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more infor
 
 4.  Take the appropriate actions to edit the decision.
 
-    For more information on editing decision tables, see Modify decision table structure in Workflow Studio.
+    For more information on editing decision tables, see [Modify decision table structure in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/format-decision-table-in-decision-designer.md).
 
 5.  To save your changes, select **Save**.
 

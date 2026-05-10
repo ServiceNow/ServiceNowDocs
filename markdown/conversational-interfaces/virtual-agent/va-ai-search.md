@@ -18,9 +18,9 @@ Virtual Agent uses the ServiceNow AI Platform® AI Search application to return 
 
 ## How Virtual Agent uses AI Search
 
-The AI Search application, which is included with the ServiceNow AI Platform, provides relevant search results for queries and uses Machine Learning to continuously improve search results based on end-user selections. To learn more about AI Search, see AI Search.
+The AI Search application, which is included with the ServiceNow AI Platform, provides relevant search results for queries and uses Machine Learning to continuously improve search results based on end-user selections. To learn more about AI Search, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md).
 
-In addition to normal search results, AI Search can display Genius Result cards that show relevant catalog items, questions and answers \(Q&amp;A\), and people \(user\) information. To learn more, see Genius Results.
+In addition to normal search results, AI Search can display Genius Result cards that show relevant catalog items, questions and answers \(Q&amp;A\), and people \(user\) information. To learn more, see [Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-results-ais.md).
 
 Catalog Genius Results and Q&amp;A Genius Results are automatically activated in the base system.
 
@@ -60,7 +60,7 @@ Virtual Agent uses AI Search fallback in the following instances:
 In Virtual Agent, the default chat experience or a custom chat experience determines the search experience, namely the search profile used and the format of the AI Search results displayed:
 
 -   The search application specified in the Virtual Agent default or custom chat experience defines certain aspects of the search experience, such as the search sources \(searchable content\) and synonyms used to improve search recall.
--   The EVAM configuration for Virtual Agent controls the Genius card content presented in search results \(Q&amp;A, Catalog, and People\). For information on how EVAM works, see Exploring Entity View Action Mapper.
+-   The EVAM configuration for Virtual Agent controls the Genius card content presented in search results \(Q&amp;A, Catalog, and People\). For information on how EVAM works, see [Exploring Entity View Action Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/exploring-entity-view-action-mapper.md).
 
 The default AI Search results include these items:
 

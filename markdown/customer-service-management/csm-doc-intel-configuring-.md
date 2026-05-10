@@ -27,7 +27,7 @@ Ensure that your instance is set up for Predictive Intelligence \(PI\).
 
 </td><td>
 
-Predictive Intelligence is a ServiceNow platform feature that provides a layer of artificial intelligence, which serves as a framework for machine learning models. For more information, see Predictive Intelligence.
+Predictive Intelligence is a ServiceNow platform feature that provides a layer of artificial intelligence, which serves as a framework for machine learning models. For more information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md).
 
 </td></tr><tr><td>
 
@@ -91,5 +91,5 @@ When you create a case type that extends the Case \[sn\_customerservice\_case\] 
 
 [Review and submit values predicted by Document Intelligence](../task/csm-doc-intel-review-values.md)
 
-[bundle-platai.document-intelligence-landing]
+[Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-landing.md)
 

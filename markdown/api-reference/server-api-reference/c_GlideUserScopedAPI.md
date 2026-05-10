@@ -177,7 +177,7 @@ gs.info(currentUser.getRoles());
 
 Returns the current user's time zone label in the current user's preferred language.
 
-For more information about setting a user's preferred language, see User specific language.
+For more information about setting a user's preferred language, see [User specific language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_UserSpecificLanguage.md).
 
 |Name|Type|Description|
 |----|----|-----------|

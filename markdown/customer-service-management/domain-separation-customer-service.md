@@ -23,7 +23,7 @@ Domain separation is supported in Customer Service Management. Domain separation
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Overview
 
@@ -89,7 +89,7 @@ When an escalation record is created from a case or account, it’s created in t
 
 Ribbon and Lookup Verify configurations and Special Handling Notes support domain separation as process-separated tables.
 
-When inserting or updating a record for process-separated tables, the picker domain scope takes precedence by design with the Overrides \[sys\_override\] field on process-separated tables. For more information, see Process administration.
+When inserting or updating a record for process-separated tables, the picker domain scope takes precedence by design with the Overrides \[sys\_override\] field on process-separated tables. For more information, see [Process administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DelegatedAdministration.md).
 
 -   **[Domain separation and entity relationships](../reference/domain_separation_csm_accounts.md)**  
 With domain separation in Customer Service Management, you can further control visibility and access to data by using contact, partner, and parent-child relationships.
@@ -99,5 +99,5 @@ With domain separation in Customer Service Management, you can further control v
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

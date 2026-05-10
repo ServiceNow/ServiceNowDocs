@@ -25,7 +25,7 @@ To use this script include you must activate the PPM Standard \(com.snc.financia
 
 Adds one or more cost plans to a specified task \(project or demand\). Use this method when you want to create multiple cost plans.
 
-Once processed, the cost plans are inserted into the specified project or demand. You can then view and modify them within your instance. For additional information, see Create a project cost plan and Create a demand cost plan.
+Once processed, the cost plans are inserted into the specified project or demand. You can then view and modify them within your instance. For additional information, see [Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectCostPlan.md) and [Create a demand cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreateADemandCostPlan.md).
 
 **Note:** This method only defines the cost plans to add to your instance. The cost plans are not inserted into your instance until the costPlanBatchOperations.process\(\) is called.
 

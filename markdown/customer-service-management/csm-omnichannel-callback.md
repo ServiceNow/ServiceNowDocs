@@ -13,7 +13,7 @@ breadcrumb: [Customer communication, Use, Customer Service Management]
 
 The ServiceNow® Omnichannel Callback for Customer Service Management app enables a callback option for customers when there's a long wait time for a live agent.Additionally, agents can schedule callbacks on behalf of customers from CSM Configurable Workspace
 
-For more information, see Omnichannel Callback.
+For more information, see [Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/omnichannel-callback/omnichannel-callback.md).
 
 ## Callback flow
 

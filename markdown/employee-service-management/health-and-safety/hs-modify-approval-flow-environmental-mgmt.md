@@ -17,7 +17,7 @@ Modify the chemical request approval flow using Flow designer.
 
 ## Before you begin
 
-The approval flows are built on Flow Designer. Before modifying, make sure that you're familiar with the basics of ServiceNow® Workflow Studio.
+The approval flows are built on [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md). Before modifying, make sure that you're familiar with the basics of ServiceNow® Workflow Studio.
 
 Role required: Flow designer
 

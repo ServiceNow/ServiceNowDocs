@@ -35,7 +35,7 @@ When configuring your department for Universal Request, to use transfer to other
 
 4.  Click **Create Implementation** in the related list to create your department specific extension point script.
 
-    For more information, see Using extension points to extend application functionality.
+    For more information, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
 
 
 **Parent Topic:**[Configure service to use Universal Request](../concept/config-service-for-ur.md)

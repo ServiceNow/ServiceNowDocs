@@ -47,7 +47,7 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **AI capabilities**
 
-    Exploring Now Assist Admin
+    [Exploring Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-platform.md)
 
     [Vibe coding and AI app development on the ServiceNow AI Platform](../../ai-capabilities/concept/use-ai-capabilities-in-custom-apps.md)
 
@@ -55,23 +55,23 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **Agentic workflows**
 
-    Create an agentic workflow
+    [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md)
 
-    Modify an agentic workflow
+    [Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aia-use-case.md)
 
 -   **AI Agents**
 
-    Explore Now Assist AI agents
+    [Explore Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md)
 
-    Create an AI agent
+    [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md)
 
-    Examples of using AI agents
+    [Examples of using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-examples.md)
 
 -   **Now Assist Skill Kit**
 
-    Exploring Now Assist Skill Kit
+    [Exploring Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/exploring-now-assist-skill-kit.md)
 
-    Create a skill
+    [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-new-skill.md)
 
 
 **Parent Topic:**[Using ServiceNow Studio](using-servicenow-studio.md)

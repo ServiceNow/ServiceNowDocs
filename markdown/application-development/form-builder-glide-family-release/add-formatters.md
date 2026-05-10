@@ -43,7 +43,7 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
     **Note:** Formatters in forms are only supported in Core UI and earlier interfaces.
 
-    For information on how you can add a formatter to a form, see Formatters.
+    For information on how you can add a formatter to a form, see [Formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Formatters.md).
 
 5.  Select **Save**.
 

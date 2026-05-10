@@ -19,7 +19,7 @@ Administrators and catalog administrators can define and manage multiple service
 
 ## Enabling access for catalogs
 
-You can enable read access to the catalogs by applying the rule **read ACL** on Catalog \(sc\_catalog\) table. See Access Control Rules for more information.
+You can enable read access to the catalogs by applying the rule **read ACL** on Catalog \(sc\_catalog\) table. See [Access Control Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md) for more information.
 
 **Parent Topic:**[Service catalog setup](../topic/p_ServiceCatalogs.md)
 
@@ -71,7 +71,7 @@ Application
 
 </td><td>
 
-The application scope for this catalog. For information on the application scope, see Application scope .
+The application scope for this catalog. For information on the application scope, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md) .
 
 </td></tr><tr><td>
 
@@ -153,7 +153,7 @@ The location to direct service catalog users to when they click the **Continue S
 </table>
 ### What to do next
 
-To add a module in the navigator for the new catalog, see Create a module.
+To add a module in the navigator for the new catalog, see [Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-app-navigator-category.md).
 
 ## Manage items in a catalog
 

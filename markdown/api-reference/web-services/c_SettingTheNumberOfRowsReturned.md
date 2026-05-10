@@ -31,7 +31,7 @@ glide.processor.json.row\_limit
 
 Specify the maximum number of rows a JSON query returns.-   Type: Integer
 -   Default value: 10,000
--   Location: Add glide.processor.json.row\_limit to the system properties `[sys_properties]` table
+-   Location: [Add glide.processor.json.row\_limit to the system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) `[sys_properties]` table
 
 </td></tr></tbody>
 </table>**Parent Topic:**[JSONv2 web service](c_JSONv2WebService.md)

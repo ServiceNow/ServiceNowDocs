@@ -26,5 +26,5 @@ Agents can perform the following actions from a record card:
 -   Select an email address on a lookup card to open to open the email composer in a sub-tab.
 -   Select a phone number on a lookup card to make a phone call.
 
-**Note:** An account lookup component is also available. To display this component, turn off the **Hide component** setting for this component in UI Builder. This setting is located in the Component visibility section of the Configure tab.
+**Note:** An account lookup component is also available. To display this component, turn off the **Hide component** setting for this component in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md). This setting is located in the Component visibility section of the Configure tab.
 

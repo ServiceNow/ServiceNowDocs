@@ -83,7 +83,7 @@ Verify that you have installed and configured a MID Server Application.
 
 Configured MID Server ApplicationA MID Server in your ServiceNow AI Platform® instance is required to connect to the ArcSight ESM service if the ArcSight ESM server is deployed within your corporate network. See [Install and configure the ServiceNow application for the ArcSight ESM Event Ingestion integration](arcsight-esm-install-configure.md) for instructions on how to configure a MID Server Application.
 
- See the MID Server for information about MID Servers.
+ See the [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md) for information about MID Servers.
 
  If you are using a hosted or cloud service, that is Internet accessible, a MID Server is not required.
 

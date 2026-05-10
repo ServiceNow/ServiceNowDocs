@@ -22,7 +22,7 @@ The following predefined workflows for treasury services are available with the 
 -   Remote Deposit Capture \(RDC\) Service
 -   Wire Transfer Service
 
-These workflows are built using Process Automation Designer and Flow Designer. The treasury admin can review and customize these workflows according to the needs of their organization.
+These workflows are built using [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md) and [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md). The treasury admin can review and customize these workflows according to the needs of their organization.
 
 The following diagram shows how the application helps bank agents resolve a treasury request for onboarding RDC service.
 

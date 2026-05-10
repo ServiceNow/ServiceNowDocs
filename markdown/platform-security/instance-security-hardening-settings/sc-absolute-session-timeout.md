@@ -19,7 +19,7 @@ If the **glide.ui.user\_cookie.max\_life\_span\_in\_days** system property is no
 
 Ensure that the property **glide.ui.user\_cookie.max\_life\_span\_in\_days** is set to `30` or less.
 
-**Note:** To enforce a maximum session time for any active user sessions, see Managing user sessions.
+**Note:** To enforce a maximum session time for any active user sessions, see [Managing user sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ManageUserSessions.md).
 
 ## More information
 

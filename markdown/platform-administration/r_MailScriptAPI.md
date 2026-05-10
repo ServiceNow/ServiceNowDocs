@@ -69,7 +69,7 @@ EmailOutbound object
 
 The email address that is passed by `setFrom` and `setReplyTo` needs to be in a valid form such as `helpdesk@sn.com` or `Display Name <helpdesk@sn.com>`. If the email address includes a 'Display Name', then that value overrides the instance's display name.
 
- For more information, see GlideEmailOutbound - Scoped.
+ For more information, see [GlideEmailOutbound - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideEmailOutboundScopedAPI.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Scripting for email notifications](../concept/c_ScriptingForEmailNotifications.md)

@@ -34,7 +34,7 @@ if (!gs.hasRole("itil")&& gs.isInteractive()) {
   gs.print("query restricted to user: " + u);}
 ```
 
-**Note:** You can also use access controls to restrict the records that users can see. For information, see Access Control List Rules.
+**Note:** You can also use access controls to restrict the records that users can see. For information, see [Access Control List Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).
 
 ## Schedule script for weekdays
 

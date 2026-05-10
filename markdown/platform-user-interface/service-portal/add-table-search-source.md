@@ -6,7 +6,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 4
 breadcrumb: [Zing search in Service Portal, Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -124,7 +124,7 @@ Table
 
 </td><td>
 
-Select a table from the list that you want to draw your results from. You can select any table in the platform. For example, User \[sys\_user\] or Knowledge \[kb\_knowledge\]. **Note:** Only indexed tables return search results. Learn more: Configure a table for indexing and searching.
+Select a table from the list that you want to draw your results from. You can select any table in the platform. For example, User \[sys\_user\] or Knowledge \[kb\_knowledge\]. **Note:** Only indexed tables return search results. Learn more: [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-single-table-for-indexing.md).
 
 </td></tr><tr><td>
 

@@ -25,12 +25,12 @@ Virtual NetScaler load balancers are not fully supported. Discovery supports loc
 
 ## Credentials
 
--   Configure SNMP credentials.
+-   Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md).
 
-    **Note:** You also have the option of using SSH credentials. However, if the payload size of the data that is returned to the instance is large, the discovery process can fail. In this case, use SNMP credentials instead.
+    **Note:** You also have the option of using [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md). However, if the payload size of the data that is returned to the instance is large, the discovery process can fail. In this case, use SNMP credentials instead.
 
 -   \(Optional\) Provide a user with the read access to the **NS.conf** configuration file if you do not want to provide SNMP or SSH credentials.
--   Use basic authentication credentials for discovery via REST.
+-   Use [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md) credentials for discovery via REST.
 
 For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](../../service-mapping/reference/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
 

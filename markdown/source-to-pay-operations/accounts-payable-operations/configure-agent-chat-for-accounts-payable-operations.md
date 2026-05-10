@@ -33,7 +33,7 @@ Role required: admin
 
     ![View the quick action configurations](../image/apo-quick-action-toolbar.png)
 
-    Add or update the quick action shortcuts for live agents in Agent Chat. For more information about configuring the toolbar controls, see Configuring Agent Chat.
+    Add or update the quick action shortcuts for live agents in Agent Chat. For more information about configuring the toolbar controls, see [Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-agent-chat-configuring.md).
 
 4.  Select **Save**.
 

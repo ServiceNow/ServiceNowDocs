@@ -25,13 +25,13 @@ For instructions on using the activity template process flow, see [create custom
 
 ## Procedure
 
-1.  Create a custom activity.
+1.  Create a [custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/create-custom-activities.md).
 
     This action creates a custom activity using a template.
 
 2.  After setting up [general properties](../reference/General-Flds-Templates.md) and [creating input variables](CreateInputVariables.md#), configure the SSH Execution Command.
 
-<table id="choicetable_j2l_k2s_d1b"><tbody><tr><td id="d347905e117">
+<table id="choicetable_j2l_k2s_d1b"><tbody><tr><td id="d348126e117">
 
 **[Map the input variables](CreateInputVariables.md#)**
 
@@ -39,7 +39,7 @@ For instructions on using the activity template process flow, see [create custom
 
 Use the variables you created to configure the command that Orchestration executes.
 
-</td></tr><tr><td id="d347905e133">
+</td></tr><tr><td id="d348126e133">
 
 **Target host**
 
@@ -47,7 +47,7 @@ Use the variables you created to configure the command that Orchestration execut
 
 Host name or IP address of the target server for this activity.
 
-</td></tr><tr><td id="d347905e142">
+</td></tr><tr><td id="d348126e142">
 
 **Command**
 
@@ -55,7 +55,7 @@ Host name or IP address of the target server for this activity.
 
 Command this activity runs on the target host. You can invoke a MID Server script from this field using any script type that the SSH command line supports. For more information, see **Advanced SSH script options** below the table.
 
-</td></tr><tr><td id="d347905e154">
+</td></tr><tr><td id="d348126e154">
 
 **Directory**
 
@@ -63,7 +63,7 @@ Command this activity runs on the target host. You can invoke a MID Server scrip
 
 Directory on the target host where the command is run.
 
-</td></tr><tr><td id="d347905e163">
+</td></tr><tr><td id="d348126e163">
 
 **Credential tag**
 
@@ -71,7 +71,7 @@ Directory on the target host where the command is run.
 
 The Orchestration credential tag to use when running the command.
 
-</td></tr><tr><td id="d347905e173">
+</td></tr><tr><td id="d348126e173">
 
 **Required MID Server capabilities**
 
@@ -79,7 +79,7 @@ The Orchestration credential tag to use when running the command.
 
 MID Server with the appropriate capabilities for connecting to the host. By default, the system selects a MID Server with SSH capabilities.
 
-</td></tr><tr><td id="d347905e182">
+</td></tr><tr><td id="d348126e182">
 
 **Long running**
 
@@ -87,13 +87,13 @@ MID Server with the appropriate capabilities for connecting to the host. By defa
 
 If checked, disables the SSH connection timeout for commands that might take longer to run than the default 60 seconds. Orchestration periodically checks the running process to determine its status until it is finished.
 
-</td></tr><tr><td id="d347905e191">
+</td></tr><tr><td id="d348126e191">
 
 **Must Sudo**
 
 </td><td>
 
-If checked, enables the use of sudo to run commands.
+If checked, enables the use of [sudo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md) to run commands.
 
 </td></tr></tbody>
 </table>    **Note:** You can map parameter values in a test payload to variables in the **Outputs** tab automatically. See [automap output variables](automap-output-variable-inputs.md).
@@ -292,7 +292,7 @@ Boolean
 
 </td><td>
 
-Indicates whether or not this activity must use sudo to run root commands. A value of true indicates that sudo SSH credentials must be used.
+Indicates whether or not this activity must use sudo to run root commands. A value of true indicates that [sudo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md) [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md) must be used.
 
 </td></tr></tbody>
 </table>## SSH post-processing parameters and payload parsing
@@ -466,7 +466,7 @@ Credential tag
 
 </td><td>
 
-The Credential aliases for Orchestration activities to use when running the command.
+The [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_AssignCredsOrchActivities.md) to use when running the command.
 
 </td></tr><tr><td>
 
@@ -490,7 +490,7 @@ Must Sudo
 
 </td><td>
 
-Check box to allow the use of SSH credentials to run commands.
+Check box to allow the use of [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md) to run commands.
 
 </td></tr></tbody>
 </table>3.  Click **Save**.

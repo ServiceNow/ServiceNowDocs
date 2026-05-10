@@ -4,7 +4,7 @@ description: You can access the values stored in a name-value pairs field in scr
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---

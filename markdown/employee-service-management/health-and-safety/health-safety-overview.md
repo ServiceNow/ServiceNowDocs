@@ -58,7 +58,7 @@ Health and Safety includes the following applications:
 
 Now Assist brings generative AI to the Health and Safety with capabilities such as conversational incident reporting and incident summarization. It also uses agentic workflows to analyze incident data, identify patterns, and generate corrective and preventive action plans, empowering safety teams avoid future incidents."
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Mobile experience for Health and Safety
 
@@ -68,7 +68,7 @@ For more information, see [Mobile experience for Health and Safety](../../hs-hea
 
 ## Domain separation for Health and Safety applications
 
-The Health and Safety applications support domain separation at basic level. For more information, see [Domain separation and Health and Safety Incident Management](health-safety-domain-separation.md) and [Domain separation and Health and Safety Risk Management](../../hs-risk-management/concept/hs-risk-mgmt-domain-separation.md). For a deeper understanding of the support levels, see Application support for domain separation.
+The Health and Safety applications support domain separation at basic level. For more information, see [Domain separation and Health and Safety Incident Management](health-safety-domain-separation.md) and [Domain separation and Health and Safety Risk Management](../../hs-risk-management/concept/hs-risk-mgmt-domain-separation.md). For a deeper understanding of the support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Request apps on the Store
 

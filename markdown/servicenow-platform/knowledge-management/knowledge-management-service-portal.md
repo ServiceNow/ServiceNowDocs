@@ -19,7 +19,7 @@ The Knowledge Management Service Portal enables users to perform the same operat
 -   For existing customers on release versions prior to Madrid, activate the plugin, if required.
 -   Configure the [Knowledge Management Service Portal properties](../reference/knowledge-service-portal-properties.md), including the property that directs users to the Knowledge Management homepage in the Knowledge Management Service Portal.
 
--   Navigate to **Service Portal** &gt; **Portals** and click **Knowledge Portal** \(Knowledge Management Service Portal is named as Knowledge Portal\). See Service Portal for more information about creating a custom interface.
+-   Navigate to **Service Portal** &gt; **Portals** and click **Knowledge Portal** \(Knowledge Management Service Portal is named as Knowledge Portal\). See [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md) for more information about creating a custom interface.
 -   System administrators can configure portal pages and configure widgets for searching, sorting, and filtering knowledge base information. To configure widget instance options and configure search, sort, and filter features, see [Knowledge Management Service Portal widgets](km-service-portal-widget-instances.md)
 -   To add knowledge bases to the Knowledge Service Portal, complete the following steps.
     1.  Navigate to **Service Portal** &gt; **Portals**, and click **Service Portal**.
@@ -37,7 +37,7 @@ Starting with the Washington DC release, the Knowledge Management v3 homepage \(
 
 ## Section 508 compliance features
 
-Users can view and interact with the Knowledge Management article view page in the Knowledge Management Service Portal using Section 508 compliance features. See Enabling accessibility features for more information.
+Users can view and interact with the Knowledge Management article view page in the Knowledge Management Service Portal using Section 508 compliance features. See [Enabling accessibility features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_SetUpSect508ComplianceFeature.md) for more information.
 
 -   **[Enable external or public users to view knowledge articles from the Knowledge Management Service Portal](../task/make-knowledge-visible-to-public.md)**  
 Enable knowledge articles on the Knowledge Management Service Portal to be visible to external or public users.

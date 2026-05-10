@@ -34,7 +34,7 @@ Use this example to see demonstrations of these operations and steps.
 
 1.  Create an application to store your work.
 
-    Use the Guided Application Creator.
+    Use the [Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/guided-application-creator/guided-app-creator.md).
 
     For example, create `My Application`.
 

@@ -19,7 +19,7 @@ Connect to your Argo CD instance to automate the deployment of applications from
 
 This integration enables the ServiceNow platform to manage the change request closure process based on the sync status received from Argo CD for continuous deployment of applications.
 
-You must activate the DevOps Integration with Argo CD plugin \(sn\_devops\_argocd\) before connecting your Argo CD instance in ServiceNow. For more information on activating a plugin, see Activate a plugin.
+You must activate the DevOps Integration with Argo CD plugin \(sn\_devops\_argocd\) before connecting your Argo CD instance in ServiceNow. For more information on activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 ## Workflow
 

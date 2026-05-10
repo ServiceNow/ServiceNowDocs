@@ -27,7 +27,7 @@ Set up HR Service Delivery Playbook so that your agents can easily manage, track
 
     -   Playbook Experience \[sn\_playbook\_exp\]
     -   Playbook Experience Components \[now\_playbook\_exp\]
-    For more information, see Install a ServiceNow Store application.
+    For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
 
 -   **HR cards**
 

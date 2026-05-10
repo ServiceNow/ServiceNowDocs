@@ -60,5 +60,5 @@ Role required: workspace\_admin or ui\_builder\_admin​
 **Related topics**  
 
 
-[bundle-cadev.state-parameters]
+[Create and bind a client state parameter to a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/state-parameters.md)
 

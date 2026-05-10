@@ -33,7 +33,7 @@ A calendar view displays events for a specified time period. A time line view di
 
 3.  Select **Show Schedule** related link.
 
-    Using the Next Experience user interface, you can view the schedules in the schedule calendar for all schedule types except the roster type. The schedules of roster type display in the on-call schedule.
+    Using the Next Experience user interface, you can view the schedules in the schedule calendar for all schedule types except the roster type. The schedules of roster type display in the [on-call schedule.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/c_OnCallScheduling.md)
 
 4.  Create a schedule entry.
 

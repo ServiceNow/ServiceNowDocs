@@ -29,20 +29,20 @@ After enabling the plugin, you can view the following read-only intents for the 
 -   Show Nearby Tasks
 -   Debrief Tasks
 
-To use these intents, you must train and publish the predefined Field Service NLU for VA model. For more information, see Train your NLU model and Publish your NLU model.
+To use these intents, you must train and publish the predefined Field Service NLU for VA model. For more information, see [Train your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/test-train-nlu-model.md) and [Publish your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/publish-nlu-model.md).
 
 ## Procedure
 
 1.  Enable ServiceNow NLU in Virtual Agent.
 
-    For more information, see Configure Natural Language Understanding in Virtual Agent.
+    For more information, see [Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-nlu-settings.md).
 
 2.  Customize an intent by importing an existing intent from the Field Service NLU for Virtual Agent model.
 
-    For more information, see Import an NLU intent.
+    For more information, see [Import an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/import-nlu-intent.md).
 
 3.  Link the NLU model with associated intents in the Virtual Agent topics.
 
-    For more information, see Natural Language Understanding in Virtual Agent.
+    For more information, see [Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-NLU.md).
 
 

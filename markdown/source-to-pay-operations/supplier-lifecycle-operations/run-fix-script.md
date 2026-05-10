@@ -17,7 +17,7 @@ Run the fix script to enable M2M mapping between supplier contact and suppliers.
 
 ## Before you begin
 
-Verify that the application scope is set to Supplier Common Architecture. For more information, see Application picker.
+Verify that the application scope is set to Supplier Common Architecture. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: admin
 

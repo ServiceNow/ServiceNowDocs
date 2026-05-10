@@ -21,7 +21,7 @@ Ensure the following ServiceNow Store applications are installed:
 -   Lucidchart Integration \[sn\_lcdchart\_int\] \(v 2.3.0 or later\)
 -   Personal Authentication \[sn\_ihub\_personal\_auth\] \(v 27.0.0 or later\)
 
-Ensure a connection is established with Lucid. For details, see Create OAuth 2.0 Client in Lucidchart and Create a connection and credential alias for the Lucidchart diagramming spoke.
+Ensure a connection is established with Lucid. For details, see [Create OAuth 2.0 Client in Lucidchart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-lucidchart.md) and [Create a connection and credential alias for the Lucidchart diagramming spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-conn-cred-lucidchart.md).
 
 Role required: Member of the Enterprise Architect group
 

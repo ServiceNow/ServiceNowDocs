@@ -17,7 +17,7 @@ Use conversational AI-native experience for administrators, employees, and fulfi
 
 These AI agents help administrators configure ITSM workflows seamlessly from a single admin UI page using natural language.
 
-For information about admin configurations applicable for Simplified ITSM, see Platform module configuration in Now Assist for Setup.
+For information about admin configurations applicable for Simplified ITSM, see [Platform module configuration in Now Assist for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md).
 
 For information about employee configurations in Simplified ITSM, see [Configuring the employee experience in Simplified IT Service Management](../concept/configuring-employee-experience-ai-native-itsm.md).
 
@@ -200,5 +200,5 @@ These AI agents help fulfillers with their ITSM tasks using natural language.
 **Related topics**  
 
 
-[bundle-platai.exploring-ai-agents]
+[Explore Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md)
 

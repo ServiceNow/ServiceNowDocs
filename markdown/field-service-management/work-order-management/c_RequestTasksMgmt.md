@@ -46,11 +46,11 @@ Optionally, set up one or more additional request task management configurations
 **Related topics**  
 
 
-[bundle-sm4e.t_ChangeTheLocationOfARequest]
+[Change the location of a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_ChangeTheLocationOfARequest.md)
 
-[bundle-sm4e.c_RequestApprovals]
+[Request approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_RequestApprovals.md)
 
-[bundle-sm4e.t_CollaborateOnARequest]
+[Collaborate on a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_CollaborateOnARequest.md)
 
-[bundle-sm4e.t_CloseARequest]
+[Close a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_CloseARequest.md)
 

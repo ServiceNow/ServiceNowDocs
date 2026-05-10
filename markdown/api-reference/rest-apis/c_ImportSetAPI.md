@@ -542,7 +542,7 @@ stagingTableName
 
 </td><td>
 
-Name of the import set table from which to import the data. Refer to Import sets key concepts.Data type: String
+Name of the import set table from which to import the data. Refer to [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportSetsKeyConcepts.md).Data type: String
 
 </td></tr></tbody>
 </table><table class="rest_api_query_parameters"><thead><tr><th>
@@ -590,7 +590,7 @@ Data source file
 
 </td><td>
 
-This request body format matches the JSON file format used to create the data source. Provide the request body in the same format as the JSON in the data source. JSON input varies depending on the properties in your data source. Refer to JSON information in File type data source.-   This option is only available if the staging table was created using a JSON data source. Refer to Create a File type data source.
+This request body format matches the JSON file format used to create the data source. Provide the request body in the same format as the JSON in the data source. JSON input varies depending on the properties in your data source. Refer to JSON information in [File type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_FileTypeDataSource.md).-   This option is only available if the staging table was created using a JSON data source. Refer to [Create a File type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/create-file-type-data-source.md).
 -   You must define the path of the data source in the Data Source \[sys\_data\_source\] table in the **Path for each row** field.
 -   To change the default behavior for the REST Insert Multiple user, create an entry in the REST Insert Multiples \[sys\_rest\_insert\_multiple\] table.
 -   Enable the **Use data source format** in the REST insert multiple entry.
@@ -637,7 +637,7 @@ You can modify mapping settings by adding an entry in the Rest Insert Multiples 
 }
 ```
 
-The Data dictionary tables provides details on table fields in the system.
+The [Data dictionary tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DataDictionaryTables.md) provides details on table fields in the system.
 
 Data type: Array
 

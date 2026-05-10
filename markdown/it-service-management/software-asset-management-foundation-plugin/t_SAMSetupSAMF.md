@@ -6,7 +6,7 @@ release: australia
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 2
 breadcrumb: [Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
@@ -34,7 +34,7 @@ Once you have [requested](t_RequSoftwareAssetMgmtSAMF.md) Software Asset Managem
         This step automatically converts and adds new tables, forms and lists, fields and values, and disables deprecated functionality. It also contains manual procedures for you to complete for successful migration.
 
     -   If not, proceed to the next step.
-2.  Determine whether Discovery is activated \(see Request Discovery\).
+2.  Determine whether Discovery is activated \(see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md)\).
 
     Check the list of plugins to see if the Discovery plugin is active.
 
@@ -44,7 +44,7 @@ Once you have [requested](t_RequSoftwareAssetMgmtSAMF.md) Software Asset Managem
 
     -   If not, activate and configure Discovery.
 
-        For more information, see Discovery.
+        For more information, see [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-discovery.md).
 
 3.  Proceed to [Get started with Software Asset Management Foundation plugin](t_SAMGetStartedSAMF.md) to begin using the Software Asset Management Foundation plugin in your environment.
 

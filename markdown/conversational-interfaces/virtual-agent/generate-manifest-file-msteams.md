@@ -33,7 +33,7 @@ An automated manifest file generator on the new Microsoft Teams UI automatically
     You can edit the manifest form and redownload it as many times as you want.​
 
 
-**Note:** This feature is only applicable when you’re setting up the Virtual Agent integration with Microsoft Teams. If you intend to use ServiceNow for Microsoft Teams with ITSM or HR capabilities, select the **Learn more** link next to **Planning to enable additional ITSM and HR integrations** on the Bot Configuration page. That way, you can configure the manifest in a separate module instead of continuing to configure the manifest here. For more information, see Create and download the manifest file.
+**Note:** This feature is only applicable when you’re setting up the Virtual Agent integration with Microsoft Teams. If you intend to use ServiceNow for Microsoft Teams with ITSM or HR capabilities, select the **Learn more** link next to **Planning to enable additional ITSM and HR integrations** on the Bot Configuration page. That way, you can configure the manifest in a separate module instead of continuing to configure the manifest here. For more information, see [Create and download the manifest file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/download-manifest-file-mt.md).
 
 ## Procedure
 

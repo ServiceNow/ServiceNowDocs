@@ -17,7 +17,7 @@ Use ServiceNow Machine Learning \(ML\) APIs to train Machine Learning models and
 
 ML APIs enable training solutions and managing solution versions. You can get and set active versions, monitor training status, and more. The ML API also provides encoders, which enable using term frequency–inverse document frequency \(TF-IDF\) as a word corpus. Predictability estimates enable assessing the predictive value of table columns.
 
-**Note:** Predictive Intelligence APIs run with full privileges before the Vancouver Patch 7 Hotfix 2b and Washington DC Patch 7 releases. With later releases, grant access using ACLs. For more information see Query ACLs.
+**Note:** Predictive Intelligence APIs run with full privileges before the Vancouver Patch 7 Hotfix 2b and Washington DC Patch 7 releases. With later releases, grant access using ACLs. For more information see [Query ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/query-acl-rule.md).
 
 ## ML API class overview
 
@@ -27,7 +27,7 @@ This section briefly describes classes for training ML solutions and running inf
 
     A dataset is a set of records including a table name, columns, and row selection criteria to use as input for ML training algorithms. Datasets don't contain the actual data.
 
-    For more information, see DatasetDefinition.
+    For more information, see [DatasetDefinition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DatasetDefinitionAPI.md).
 
 -   **ML objects – Solutions, Encoders, and Estimates**
 
@@ -39,36 +39,36 @@ This section briefly describes classes for training ML solutions and running inf
 
     For more information, see:
 
-    -   ClassificationSolution
-    -   ClusteringSolution
-    -   Encoder
-    -   PredictabilityEstimate
-    -   RegressionSolution
-    -   SimilaritySolution
+    -   [ClassificationSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionAPI.md)
+    -   [ClusteringSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md)
+    -   [Encoder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderAPI.md)
+    -   [PredictabilityEstimate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PredictabilityEstimateAPI.md)
+    -   [RegressionSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionAPI.md)
+    -   [SimilaritySolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionAPI.md)
 -   **Stores**
 
     ML objects are maintained in a specific store for each object type. Each store class includes methods for add, get, update, and delete operations.
 
     For more information, see:
 
-    -   ClassificationSolutionStore
-    -   ClusteringSolutionStore
-    -   EncoderStore
-    -   PredictabilityEstimateStore
-    -   RegressionSolutionStore
-    -   SimilaritySolutionStore
+    -   [ClassificationSolutionStore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionStoreAPI.md)
+    -   [ClusteringSolutionStore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionStoreAPI.md)
+    -   [EncoderStore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderStoreAPI.md)
+    -   [PredictabilityEstimateStore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PredictabilityEstimateStoreAPI.md)
+    -   [RegressionSolutionStore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionStoreAPI.md)
+    -   [SimilaritySolutionStore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionStoreAPI.md)
 -   **Versions**
 
     Each trained object results in a new version that you can run tasks on. Use the version API to get any solution version and run tasks on it.
 
     For more information, see:
 
-    -   ClassificationSolutionVersion
-    -   ClusteringSolutionVersion
-    -   EncoderVersion
-    -   PredictabilityEstimateVersion
-    -   RegressionSolutionVersion
-    -   SimilaritySolutionVersion
+    -   [ClassificationSolutionVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionVersionAPI.md)
+    -   [ClusteringSolutionVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionVersionAPI.md)
+    -   [EncoderVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderVersionAPI.md)
+    -   [PredictabilityEstimateVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PredictabilityEstimateVersionAPI.md)
+    -   [RegressionSolutionVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionVersionAPI.md)
+    -   [SimilaritySolutionVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionVersionAPI.md)
 
 ### Putting it together: ML API flows
 
@@ -101,7 +101,7 @@ ML object encoder requirements:
 Follow this example procedure to learn how to configure and train a solution.
 
 -   **Configure and train a solution**
-    1.  Define a dataset using the DatasetDefinition API.
+    1.  Define a dataset using the [DatasetDefinition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DatasetDefinitionAPI.md) API.
 
         ```
         var myData = new sn_ml.DatasetDefinition({
@@ -126,36 +126,36 @@ Follow this example procedure to learn how to configure and train a solution.
         });
         ```
 
-        -   ClassificationSolution\(\)
-        -   ClusteringSolution\(\)
-        -   Encoder\(\)
-        -   PredictabilityEstimate\(\)
-        -   RegressionSolution\(\)
-        -   SimilaritySolution\(\)
+        -   [ClassificationSolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionAPI.md)
+        -   [ClusteringSolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md)
+        -   [Encoder\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderAPI.md)
+        -   [PredictabilityEstimate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PredictabilityEstimateAPI.md)
+        -   [RegressionSolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionAPI.md)
+        -   [SimilaritySolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionAPI.md)
     3.  Add the solution definition to the store using the add\(\) method.
 
         ```
         var my_unique_name = sn_ml.ClassificationSolutionStore.add(mySolution);
         ```
 
-        -   ClassificationSolutionStore - add\(\)
-        -   ClusteringSolutionStore – add\(\)
-        -   EncoderStore - add\(\)
-        -   PredictabilityEstimateStore - add\(\)
-        -   RegressionSolutionStore - add\(\)
-        -   SimilaritySolutionStore - add\(\)
+        -   [ClassificationSolutionStore - add\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionStoreAPI.md)
+        -   [ClusteringSolutionStore – add\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionStoreAPI.md)
+        -   [EncoderStore - add\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderStoreAPI.md)
+        -   [PredictabilityEstimateStore - add\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PredictabilityEstimateStoreAPI.md)
+        -   [RegressionSolutionStore - add\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionStoreAPI.md)
+        -   [SimilaritySolutionStore - add\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionStoreAPI.md)
     4.  Train the solution using the submitTrainingJob\(\) method. After training is complete, you can manage the trained solution using a solution version API. A solution can be retrained multiple times. Each training results in a new solution "version" on which you can run inferences.
 
         ```
         var myClassifierVersion = mySolution.submitTrainingJob();
         ```
 
-        -   ClassificationSolution - submitTrainingJob\(\)
-        -   ClusteringSolutionVersion – submitTrainingJob\(\)
-        -   Encoder - submitTrainingJob\(\)
-        -   PredictabilityEstimate - submitTrainingJob\(\)
-        -   RegressionSolution - submitTrainingJob\(\)
-        -   SimilaritySolution - submitTrainingJob\(\)
+        -   [ClassificationSolution - submitTrainingJob\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionAPI.md)
+        -   [ClusteringSolutionVersion – submitTrainingJob\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md)
+        -   [Encoder - submitTrainingJob\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderAPI.md)
+        -   [PredictabilityEstimate - submitTrainingJob\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PredictabilityEstimateAPI.md)
+        -   [RegressionSolution - submitTrainingJob\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionAPI.md)
+        -   [SimilaritySolution - submitTrainingJob\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionAPI.md)
 -   **View all classification solutions in a store**
 
     You can use the store getAllNames\(\) method to see a list of all solutions that have been added to the store.
@@ -174,12 +174,12 @@ Follow this example procedure to learn how to configure and train a solution.
     ]
     ```
 
-    -   ClassificationSolutionStore - getAllNames\(\)
-    -   ClusteringSolutionStore – getAllNames\(\)
-    -   EncoderStore - getAllNames\(\)
-    -   PredictabilityEstimateStore - getAllNames\(\)
-    -   RegressionSolutionStore - getAllNames\(\)
-    -   SimilaritySolutionStore - getAllNames\(\)
+    -   [ClassificationSolutionStore - getAllNames\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionStoreAPI.md)
+    -   [ClusteringSolutionStore – getAllNames\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionStoreAPI.md)
+    -   [EncoderStore - getAllNames\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderStoreAPI.md)
+    -   [PredictabilityEstimateStore - getAllNames\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PredictabilityEstimateStoreAPI.md)
+    -   [RegressionSolutionStore - getAllNames\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionStoreAPI.md)
+    -   [SimilaritySolutionStore - getAllNames\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionStoreAPI.md)
 
 ## Getting started with ML API solution versions
 
@@ -196,12 +196,12 @@ Follow these example breakdowns to learn how to manage trained solution versions
         var mlSolution = sn_ml.ClassificationSolutionStore.get('ml_x_snc_global_global_my_solution_definition');
         ```
 
-        -   ClassificationSolutionStore - get\(\)
-        -   ClusteringSolutionStore – get\(\)
-        -   EncoderStore - get\(\)
-        -   PredictabilityEstimateStore - get\(\)
-        -   RegressionSolutionStore - get\(\)
-        -   SimilaritySolutionStore - get\(\)
+        -   [ClassificationSolutionStore - get\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionStoreAPI.md)
+        -   [ClusteringSolutionStore – get\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionStoreAPI.md)
+        -   [EncoderStore - get\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderStoreAPI.md)
+        -   [PredictabilityEstimateStore - get\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PredictabilityEstimateStoreAPI.md)
+        -   [RegressionSolutionStore - get\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionStoreAPI.md)
+        -   [SimilaritySolutionStore - get\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionStoreAPI.md)
     2.  Access the most recent solution version using the getLatestVersion\(\) solution method and get its training status using the getStatus\(\) version method.
 
         ```
@@ -217,12 +217,12 @@ Follow these example breakdowns to learn how to manage trained solution versions
 
         |getLatestVersion\(\)|getStatus\(\)|
         |--------------------|-------------|
-        |ClassificationSolution - getLatestVersion\(\)|ClassificationSolutionVersion - getStatus\(\)|
-        |ClusteringSolution – getLatestVersion\(\)|ClusteringSolutionVersion – getStatus\(\)|
-        |Encoder - getLatestVersion\(\)|EncoderVersion - getStatus\(\)|
-        |PredictabilityEstimate - getLatestVersion\(\)|PredictabilityEstimateVersion - getStatus\(\)|
-        |RegressionSolution - getLatestVersion\(\)|RegressionSolutionVersion - getStatus\(\)|
-        |SimilaritySolution - getLatestVersion\(\)|SimilaritySolutionVersion - getStatus\(\)|
+        |[ClassificationSolution - getLatestVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionAPI.md)|[ClassificationSolutionVersion - getStatus\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionVersionAPI.md)|
+        |[ClusteringSolution – getLatestVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md)|[ClusteringSolutionVersion – getStatus\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionVersionAPI.md)|
+        |[Encoder - getLatestVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderAPI.md)|[EncoderVersion - getStatus\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderVersionAPI.md)|
+        |[PredictabilityEstimate - getLatestVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PredictabilityEstimateAPI.md)|[PredictabilityEstimateVersion - getStatus\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PredictabilityEstimateVersionAPI.md)|
+        |[RegressionSolution - getLatestVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionAPI.md)|[RegressionSolutionVersion - getStatus\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionVersionAPI.md)|
+        |[SimilaritySolution - getLatestVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionAPI.md)|[SimilaritySolutionVersion - getStatus\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionVersionAPI.md)|
 
 -   **Get predictions using a solution version**
 
@@ -237,7 +237,7 @@ Follow these example breakdowns to learn how to manage trained solution versions
         var mlSolution = sn_ml.ClassificationSolutionStore.get('ml_x_snc_global_global_my_solution_definition');
         ```
 
-    2.  Use the GlideRecord API get\(\) method to provide a record from the Incident \[incident\] table.
+    2.  Use the [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md) API get\(\) method to provide a record from the Incident \[incident\] table.
 
         ```
         // single GlideRecord input
@@ -260,10 +260,10 @@ Follow these example breakdowns to learn how to manage trained solution versions
         var results = mlSolution.getLatestVersion().predict(input, options);
         ```
 
-        -   ClassificationSolutionVersion - predict\(\)
-        -   ClusteringSolutionVersion – predict\(\)
-        -   RegressionSolutionVersion - predict\(\)
-        -   SimilaritySolutionVersion - predict\(\)
+        -   [ClassificationSolutionVersion - predict\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionVersionAPI.md)
+        -   [ClusteringSolutionVersion – predict\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionVersionAPI.md)
+        -   [RegressionSolutionVersion - predict\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionVersionAPI.md)
+        -   [SimilaritySolutionVersion - predict\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionVersionAPI.md)
     5.  Print the predicted results output.
 
         ```

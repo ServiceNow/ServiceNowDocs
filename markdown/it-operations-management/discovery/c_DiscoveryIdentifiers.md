@@ -30,7 +30,7 @@ The identity probe in the base Discovery system can be configured to ask the dev
 
 ## Identifier rules
 
-The default Discovery system contains these identifier rules, each of which is associated with a specific CI type \(the **sys\_class\_name** field on the CI record\) or the table in the **Applies to** field and contains the appropriate attributes for discovering CIs from the specified table. Where necessary to discover all possible occurrences of an attribute, tables from related lists \(**Search on** tables\) are included in the rule. For more information, see Create or edit a CI identification rule.
+The default Discovery system contains these identifier rules, each of which is associated with a specific CI type \(the **sys\_class\_name** field on the CI record\) or the table in the **Applies to** field and contains the appropriate attributes for discovering CIs from the specified table. Where necessary to discover all possible occurrences of an attribute, tables from related lists \(**Search on** tables\) are included in the rule. For more information, see [Create or edit a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.md).
 
 <table id="table_r2p_1ql_lt"><thead><tr><th>
 
@@ -132,7 +132,7 @@ Custom identifiers must have different Order values than those of the default id
 
 ## Properties for processing duplicate CIs
 
-You can control how Discovery handles duplicate CIs with properties installed with Identification and Reconciliation. Use the `glide.identification_engine.skip_duplicates` and `glide.identification_engine.skip_duplicates.threshold` properties. For more information, see Properties for Identification and Reconciliation.
+You can control how Discovery handles duplicate CIs with properties installed with Identification and Reconciliation. Use the `glide.identification_engine.skip_duplicates` and `glide.identification_engine.skip_duplicates.threshold` properties. For more information, see [Properties for Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md).
 
 ## Properties that control identifier versions
 

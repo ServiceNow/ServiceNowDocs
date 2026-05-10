@@ -113,7 +113,7 @@ Select this option to enable users to expand help for all questions.
     -   Reference
     -   Select Box
     -   Single Line Text
-    To learn more about the different types of variables and how to configure them, see Types of service catalog variables Types of service catalog variables.
+    To learn more about the different types of variables and how to configure them, see [Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md) Types of service catalog variables.
 
 7.  Select **Submit**.
 

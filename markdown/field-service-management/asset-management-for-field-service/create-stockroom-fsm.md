@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-Stockrooms are separate, standalone entities in the Field Service Management application. When stock is low on a particular asset, stock rules can notify an asset manager, or automatically transfer inventory from one stockroom to another. For more information about stock rules, see Create a stock rule for enterprise assets.
+Stockrooms are separate, standalone entities in the Field Service Management application. When stock is low on a particular asset, stock rules can notify an asset manager, or automatically transfer inventory from one stockroom to another. For more information about stock rules, see [Create a stock rule for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eamstockrules.md).
 
 ## Procedure
 

@@ -109,7 +109,7 @@ The MID Server installs with 1 GB of JVM memory. If the suggested memory size fo
 
 ## Deployment types
 
-System requirements for your instance are determined by the needs of the individual products you use that require a MID Server. Some applications, such as Health Log Analytics, have additional system requirements listed in their documentation.
+System requirements for your instance are determined by the needs of the individual products you use that require a MID Server. Some applications, such as [Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-configuration-preferences.md), have additional system requirements listed in their documentation.
 
 -   **Standard deployments**
 

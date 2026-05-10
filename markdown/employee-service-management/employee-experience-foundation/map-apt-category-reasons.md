@@ -20,7 +20,7 @@ Use the Unified Taxonomy for Employee Center to create appointment categories to
 Ensure that you have created the following records:
 
 -   Unified Taxonomy topic for Employee Center. For more information about Unified Taxonomy, see [Unified Taxonomy for Employee Center](../concept/config-taxonomy.md).
--   Walk-up location queue record that you want to map the reasons to. For more information about creating a walk-up location queue, see Create or modify Walk-up Experience locations.
+-   Walk-up location queue record that you want to map the reasons to. For more information about creating a walk-up location queue, see [Create or modify Walk-up Experience locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/configure-walkup-location.md).
 -   Appointment reasons that you want to link to the location queue. For more information about creating reasons, see [Create an appointment reason](create-apt-reason.md).
 -   Location consent \(communication configuration\) record that you want to link to the walk-up location queue. For more information about configuring location consent \(communication configuration\), see [Configure appointment communication](configure-appt-comms.md).
 

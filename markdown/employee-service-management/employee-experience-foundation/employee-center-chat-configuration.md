@@ -15,11 +15,11 @@ breadcrumb: [Admin configurations, Configuring Employee Center, Employee Center,
 
 As an employee, you can chat directly and in real time with support agents through the Employee Center. When you initiate a chat and select a conversation topic, you are routed to the appropriate chat queue and connected to a support agent.
 
-Connect Support is a messaging tool that enables support agents to provide real-time assistance for end users, and is automatically enabled with Employee Center. Your administrator can create multiple chat queues for different departments, such as queues for HR, IT, Payroll, or Facilities. To set up the chat queues and learn more about Connect Support, see Connect Support.
+Connect Support is a messaging tool that enables support agents to provide real-time assistance for end users, and is automatically enabled with Employee Center. Your administrator can create multiple chat queues for different departments, such as queues for HR, IT, Payroll, or Facilities. To set up the chat queues and learn more about Connect Support, see [Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_ConnectSupport.md).
 
 **Note:**
 
-Starting in Utah, Connect Support has been deprecated and is no longer supported or available for new activation. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see Move from Connect Support to Advanced Work Assignment and Agent Chat.
+Starting in Utah, Connect Support has been deprecated and is no longer supported or available for new activation. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/migrate-from-connect-support.md).
 
 If no chat queues are defined, then the chat queue defaults to:
 

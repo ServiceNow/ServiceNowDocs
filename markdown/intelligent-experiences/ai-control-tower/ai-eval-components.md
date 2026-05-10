@@ -311,5 +311,5 @@ Primary Utility function for the Evaluator.
 </table>**Related topics**  
 
 
-[bundle-platcap.remote-tables]
+[Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-tables.md)
 

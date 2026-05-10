@@ -31,7 +31,7 @@ When you create a workplace service, you can configure the steps based on the ty
     -   **Child case**: Enables you to trigger child cases on selecting the workplace service. A workplace service must be provided for a child case. The child case is created based on the order specified.
     -   **Execute service item**: Executes the tasks or cases created for workplace service items ordered by an employee along with the workplace service. For more information, see [Add a workplace service item to a workplace service](../task/add-workplace-service-items.md).
     -   **Automated task**: Creates an automated task that will be closed without any manual intervention.
--   **Flow**: The flow option enables you to select an existing sub-flow from the application. For more information about Flows, see Flows.
+-   **Flow**: The flow option enables you to select an existing sub-flow from the application. For more information about Flows, see [Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md).
 
 **Parent Topic:**[Exploring Workplace Case Management](workplace-case-mgmt-ovw.md)
 

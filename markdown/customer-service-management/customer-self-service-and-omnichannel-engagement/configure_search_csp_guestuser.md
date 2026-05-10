@@ -19,7 +19,7 @@ An administrator activates the AI search widgets so that guest users logging in 
 
 Role required: sp\_admin
 
-You must configure AI Search for the Customer and Consumer Service Portals. For more information, see Enable and configure AI Search in Service Portal.
+You must configure AI Search for the Customer and Consumer Service Portals. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-ais-sp.md).
 
 ## Procedure
 

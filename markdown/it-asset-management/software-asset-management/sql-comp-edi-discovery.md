@@ -24,7 +24,7 @@ ITOM Discovery locates and identifies the Microsoft SQL Server databases and com
 -   If your Microsoft SQL Server database and components are deployed on the same device, only one license must be consumed on the device.
 -   If your Microsoft SQL Server database and components are deployed on different devices, separate licenses must be consumed on each device.
 
-For more information on Microsoft SQL Server component edition discovery, see MSSQL server discovery.
+For more information on Microsoft SQL Server component edition discovery, see [MSSQL server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/mssql-data-collected-pattern.md).
 
 ## Reconciling Microsoft SQL Server components based on the discovered component editions
 

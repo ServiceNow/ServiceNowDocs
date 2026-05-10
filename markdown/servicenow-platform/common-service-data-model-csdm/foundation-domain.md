@@ -43,17 +43,17 @@ A business process has a well-defined start and finish. Examples of business pro
 
 In a parent-child relationship, business processes can be identified by using the parent attribute as a reference to a parent business process.
 
-The business process is a manually-maintained CI that can identify declared and determined criticality as well as impact to confidentiality, integrity, and availability. Business processes can be reviewed monthly, quarterly, semi-annually, or annually. In addition, the next review date can be recorded. For further information, see Business process management and Create a business process.
+The business process is a manually-maintained CI that can identify declared and determined criticality as well as impact to confidentiality, integrity, and availability. Business processes can be reviewed monthly, quarterly, semi-annually, or annually. In addition, the next review date can be recorded. For further information, see [Business process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/business-process-overview.md) and [Create a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-a-business-process.md).
 
 ## Data managed by the contract manager: Contracts
 
 A contract is a binding agreement between two parties. In the ServiceNow AI Platform, contracts contain detailed information such as the contract number, start and end dates, active status, terms and conditions statements, documents, renewal information, and financial terms.
 
--   A contract is not a CI. Contracts use contract model types from the Product Models module. Contracts are stored in the \[ast\_contract\] table.
--   Use the Contract Management application to manage and track contracts. See Contract Management application.
--   In the Service Level Management application, contracts group together SLAs that relate to a single vendor or customer, as well as the CIs, locations, groups, users, and child contracts that are related to the contract. For more information, see Define a service contract.
+-   A contract is not a CI. Contracts use contract model types from the [Product Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CreateAProductModel.md) module. Contracts are stored in the \[ast\_contract\] table.
+-   Use the Contract Management application to manage and track contracts. See [Contract Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/c_ContractManagement.md).
+-   In the Service Level Management application, contracts group together SLAs that relate to a single vendor or customer, as well as the CIs, locations, groups, users, and child contracts that are related to the contract. For more information, see [Define a service contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/define-a-service-contract.md).
 -   Service contracts used by Vendor Management Workspace can support tangible/physical CIs as part of an SLA.
--   In the Customer Service Management product, service contracts define the type of support that customers receive. A contract can include an account and contact or a consumer and the specific assets that are covered. A contract can also include multiple service entitlements and SLAs. See Define a service contract in Customer Service Management.
+-   In the Customer Service Management product, service contracts define the type of support that customers receive. A contract can include an account and contact or a consumer and the specific assets that are covered. A contract can also include multiple service entitlements and SLAs. See [Define a service contract in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-csm-service-contracts.md).
 
 For more information, see [Definitions of life-cycle values for document and contract entities](../reference/csdm-lifecycle-df-document.md).
 

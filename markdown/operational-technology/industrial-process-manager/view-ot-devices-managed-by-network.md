@@ -32,7 +32,7 @@ The All OT Devices by Managed Network list on the ServiceNow AI Platform is a da
 
 Using the All OT Devices by Managed Network list can help you understand the relationship between OT devices and their network.
 
-For more information about the OT Device Network Connection data model, see the **OT Device Network Connection data model** section of Operational Technology \(OT\) extension classes.
+For more information about the OT Device Network Connection data model, see the **OT Device Network Connection data model** section of [Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-operation-technology.md).
 
 ## Procedure
 

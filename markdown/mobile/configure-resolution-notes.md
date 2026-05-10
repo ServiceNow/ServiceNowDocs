@@ -17,7 +17,7 @@ Generate the resolution notes that summarize work orders for mobile.
 
 Role required: admin
 
-Make sure that Now Assist is enabled in the instance. For more information, see Now Assist.
+Make sure that Now Assist is enabled in the instance. For more information, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
 ## Procedure
 

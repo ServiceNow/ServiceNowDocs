@@ -30,8 +30,8 @@ An agent adds the optional activity to a lane or activity relative to another ac
 
 See also:
 
--   Design an automated process
--   Process Automation Designer lanes and activities
+-   [Design an automated process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/design-automated-process.md)
+-   [Process Automation Designer lanes and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 
@@ -213,7 +213,7 @@ Output:
 
 Adds a specified optional activity to a process to be run relative to another activity during process execution.
 
-An activity context is created for each activity when a process executes. The context also handles how the activity handles execution. For information, see Process Automation Designer lanes and activities.
+An activity context is created for each activity when a process executes. The context also handles how the activity handles execution. For information, see [Process Automation Designer lanes and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md).
 
 <table id="PDAutoParms" class="parameters"><thead><tr><th>
 
@@ -341,7 +341,7 @@ errors: Array of 0 elements
 
 Assigns an optional activity to a lane to run during that lane's execution context.
 
-A lane context is created for each lane when a process executes. The context also handles how the lane handles execution. For information, see Process Automation Designer lanes and activities.
+A lane context is created for each lane when a process executes. The context also handles how the lane handles execution. For information, see [Process Automation Designer lanes and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md).
 
 <table id="PDAutoParms" class="parameters"><thead><tr><th>
 

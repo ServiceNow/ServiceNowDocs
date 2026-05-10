@@ -53,7 +53,7 @@ Run
 
 </td><td>
 
-Time interval to use for running the scheduled job. To learn more, see Automatically generate something from a template.
+Time interval to use for running the scheduled job. To learn more, see [Automatically generate something from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ScheduleTheGenerationOfAnEntity.md).
 
 </td></tr><tr><td>
 

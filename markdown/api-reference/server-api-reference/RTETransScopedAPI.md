@@ -19,7 +19,7 @@ For example, you can use this API when you have JSON payload\(s\) that contain u
 
 Use the `sn_impex` namespace when accessing this API.
 
-For additional information, see Define Robust Transform Engine operations.
+For additional information, see [Define Robust Transform Engine operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/define-rte-operations.md).
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 
@@ -49,7 +49,7 @@ String
 
 </td><td>
 
-Sys\_id of the extract, transform, and load \(ETL\) definition to use for the transform.For information on creating an ETL, see Create Extract Transform Load \(ETL\) definitions.
+Sys\_id of the extract, transform, and load \(ETL\) definition to use for the transform.For information on creating an ETL, see [Create Extract Transform Load \(ETL\) definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/create-etl-definitions.md).
 
 Table: ETL Definitions \[sys\_rte\_eb\_etl\_definition\]
 

@@ -41,15 +41,15 @@ Use the Excel download/upload requests module in Digital resilience third-party 
 
 5.  Select the records that you want from the list and perform one of the following steps.
 
-<table id="choicetable_agc_y2k_fdc"><thead><tr><th align="left" id="d118024e159">
+<table id="choicetable_agc_y2k_fdc"><thead><tr><th align="left" id="d118028e159">
 
 Step
 
-</th><th align="left" id="d118024e162">
+</th><th align="left" id="d118028e162">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d118024e168">
+</th></tr></thead><tbody><tr><td id="d118028e168">
 
 **Export to excel**
 
@@ -57,7 +57,7 @@ Description
 
 When making a download request for records related to Assessments, Branches, Contracts, Functions, Legal Entities, Supply Chains, Third Parties, or Third-Party Engagements, simply select the **Export to Info Excel** to export those records as a Microsoft Excel file.
 
-</td></tr><tr><td id="d118024e186">
+</td></tr><tr><td id="d118028e186">
 
 **Export to info register**
 
@@ -82,15 +82,15 @@ When making a download request for a Excel master template record, select **Expo
 
 7.  To export Excel download/upload requests, select the requests you want and then **Export**.
 
-<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d118024e318">
+<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d118028e318">
 
 Step
 
-</th><th align="left" id="d118024e321">
+</th><th align="left" id="d118028e321">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d118024e327">
+</th></tr></thead><tbody><tr><td id="d118028e327">
 
 **Select __File Type__.**
 
@@ -102,7 +102,7 @@ File type selected for the export. Available choices are:-   **Excel**
 -   **PDF**
 
 
-</td></tr><tr><td id="d118024e357">
+</td></tr><tr><td id="d118028e357">
 
 **Select __Delivery Type__.**
 
@@ -112,7 +112,7 @@ Delivery type selected for the export. Available choices are:-   **Download**
 -   **Email**
 
 
-</td></tr><tr><td id="d118024e379">
+</td></tr><tr><td id="d118028e379">
 
 **Select __Export.__**
 

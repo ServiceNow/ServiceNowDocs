@@ -17,9 +17,9 @@ Set up the Hiring tab in the Manager Hub to empower the hiring managers to make 
 
 Set up the Recommended for you section to add and view hiring content easily. For more information on setting up Recommended for you, see [Recommended for you](../../employee-center/concept/rfy-ec.md).
 
-Enable Now Assist Q&amp;A Genius Results to generate answers from articles most relevant to the search query. For more information, see Enabling Now Assist Q&amp;A Genius Results.
+Enable Now Assist Q&amp;A Genius Results to generate answers from articles most relevant to the search query. For more information, see [Enabling Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enabling-now-assist-qa-grs.md).
 
-Customize the job requisition form fields according to your organizational requirements. For more information, see Create or edit a catalog item.
+Customize the job requisition form fields according to your organizational requirements. For more information, see [Create or edit a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefineACatalogItem.md).
 
 **Parent Topic:**[Configuring Hiring](configuring-hiring-tab.md)
 

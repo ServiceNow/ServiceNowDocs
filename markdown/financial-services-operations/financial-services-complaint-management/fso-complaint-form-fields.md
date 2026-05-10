@@ -185,7 +185,7 @@ Response
 
 </td><td>
 
-Response drafted by the agent to resolve the case. To copy content from a response template and add to this field, select the response template icon \(![response template icon](../image/response-template-icon.png)\). For more information on how to use a response template, see Use response templates to add information to cases.
+Response drafted by the agent to resolve the case. To copy content from a response template and add to this field, select the response template icon \(![response template icon](../image/response-template-icon.png)\). For more information on how to use a response template, see [Use response templates to add information to cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-aw-agent-use-response-template.md).
 
 **Note:** Response templates are available only if they're configured by your complaint admin. For more information, see [Define response templates](../task/configure-response-templates-fso-complaints.md).
 

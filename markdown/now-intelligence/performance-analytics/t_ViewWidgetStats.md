@@ -57,7 +57,7 @@ glide.report.recent\_executions\_number
 
 The number of widget executions that are considered recent for the purpose of recent average duration calculations. -   Type: integer
 -   Default value: 25
--   Location: Add the property
+-   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md)
 
 </td></tr></tbody>
 </table>

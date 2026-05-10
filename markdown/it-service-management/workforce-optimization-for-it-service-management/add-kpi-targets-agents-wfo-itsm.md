@@ -45,15 +45,15 @@ When you set a personal target, it is only visible to you.
     -   To set a personal target, click **Personal**.
 7.  Set the KPI target.
 
-<table id="choicetable_fdw_lqf_t4b"><thead><tr><th align="left" id="d243683e145">
+<table id="choicetable_fdw_lqf_t4b"><thead><tr><th align="left" id="d243693e145">
 
 To
 
-</th><th align="left" id="d243683e148">
+</th><th align="left" id="d243693e148">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d243683e154">
+</th></tr></thead><tbody><tr><td id="d243693e154">
 
 **Update an existing target**
 
@@ -61,7 +61,7 @@ Do this
 
 In the **Target** field, update the value that you'd like the agent to achieve for the selected KPI.
 
-</td></tr><tr><td id="d243683e166">
+</td></tr><tr><td id="d243693e166">
 
 **Set a target for a key performance indicator**
 
@@ -71,7 +71,7 @@ In the **Target** field, update the value that you'd like the agent to achieve f
 2.  In the **Target** field, enter a value that you'd like the agent to achieve for the selected KPI.
 
 
-</td></tr><tr><td id="d243683e187">
+</td></tr><tr><td id="d243693e187">
 
 **Set a target to improve an existing baseline value**
 
@@ -101,5 +101,5 @@ In the **Target** field, update the value that you'd like the agent to achieve f
 **Related topics**  
 
 
-[bundle-par.pa-targets]
+[Performance Analytics targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-targets.md)
 

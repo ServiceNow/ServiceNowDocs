@@ -20,7 +20,7 @@ Be sure to map a dashboard with a skill in the same domain.
 
 **Note:** You can only map a skill to a dashboard. Mapping a feature \(that consists of multiple skills\) is currently not supported.
 
-If you're mapping a skill to a custom dashboard, be sure to share appropriate access to the dashboard. See Share a Platform Analytics dashboard for more information.
+If you're mapping a skill to a custom dashboard, be sure to share appropriate access to the dashboard. See [Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/share-db-in-ac.md) for more information.
 
 Roles required: sn\_na\_analytics.admin and sn\_nowassist\_admin.nsa\_admin
 

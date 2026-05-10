@@ -17,7 +17,7 @@ OpenFrame events are enabled by default when your administrator installs the Ope
 
 **Note:** The Advanced Work Assignment for CSM \(com.sn\_csm.awa\) plugin is automatically installed with the Customer Service plugin \(com.sn\_customerservice\).
 
-As a CTI developer, ensure that you subscribe to the following events by using the subscribe method of the openFrameAPI.​ For more information, see openFrameAPI - Client.
+As a CTI developer, ensure that you subscribe to the following events by using the subscribe method of the openFrameAPI.​ For more information, see [openFrameAPI - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_openFrameAPI.md).
 
 |Event|Description|
 |-----|-----------|

@@ -21,7 +21,7 @@ When your application scope is set to a non-Global scope, the picker icon displa
 
 ## Resources
 
-The application picker is part of the Next Experience picker. For more information, see Exploring Next Experience pickers.
+The application picker is part of the Next Experience picker. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-pickers.md).
 
 For more information about application scoping, see [Application scope](c_ApplicationScope.md).
 

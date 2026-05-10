@@ -27,7 +27,7 @@ You can also set up web service security to use different certificates for diffe
 
 ## Procedure
 
-1.  Upload a certificate to an instance.
+1.  [Upload a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_UploadACertificateToAnInstance.md).
 
 2.  [Create a WS-security profile](t_CreateANewWS-SecurityProfile.md).
 

@@ -15,7 +15,7 @@ Invoke an attended bot process \(attended automation\) from the UI experiences b
 
 The limitation to trigger the attended bot process \(attended automation\) from other UI experiences such as playbook can be resolved by performing the following customisation. By default, the UI action is created for classic or workspace experience to trigger the attended bot process \(attended automation\) when attended configuration is activated.
 
-To create a UI action or edit an existing one, see Create a UI action.
+To create a UI action or edit an existing one, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md).
 
 In the corresponding action, verify that the action visibility is `new sn_rpa_fdn.RPAInstanceFormHooks().canTriggerAutomation(current,’<attended_config_sys_id>`.
 

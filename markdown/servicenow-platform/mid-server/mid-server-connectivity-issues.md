@@ -108,7 +108,7 @@ Number of times an issue has been detected. Each time the scheduled job runs and
 </td></tr></tbody>
 </table>## User authentication failure
 
-The credentials that the instance uses to authenticate a MID Server user are configured in the MID Server Configuration Parameters \[ecc\_agent\_config\] table. If the MID Server user attempts to log into the instance with invalid credentials, the instance rejects the connection, and writes the **login.failed** event to the Events \[sysevents\] table for the user. Administrators can use this event in a custom script or in email notifications for authentication failure.
+The credentials that the instance uses to authenticate a MID Server user are configured in the MID Server Configuration Parameters \[ecc\_agent\_config\] table. If the MID Server user attempts to log into the instance with invalid credentials, the instance rejects the connection, and writes the **login.failed** event to the Events \[sysevents\] table for the user. Administrators can use this event in a custom script or in [email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md) for authentication failure.
 
 **Note:** If user authentication fails, user authorization is not attempted.
 
@@ -147,7 +147,7 @@ The necessary conditions for this message to appear are:
 
 ## User authorization failure
 
-The user authorization check occurs after the MID Server has successfully authenticated on the instance. In this step, the system ensures that the user account associated with a MID Server is granted the minimum roles required. A SOAP web service called MIDServerCheck performs the role checking on the instance. If the MID Server user has the proper roles, the connection is allowed and a **login** event is written to the Events \[sysevents\] table. If the user does not have the proper roles, the instance writes a **login.authorization.failed** event to the Events \[sysevents\] table. This event provides a comma separated list of the user's missing roles. Administrators can use this event in custom scripts or in email notifications for authorization failure.
+The user authorization check occurs after the MID Server has successfully authenticated on the instance. In this step, the system ensures that the user account associated with a MID Server is granted the minimum roles required. A SOAP web service called MIDServerCheck performs the role checking on the instance. If the MID Server user has the proper roles, the connection is allowed and a **login** event is written to the Events \[sysevents\] table. If the user does not have the proper roles, the instance writes a **login.authorization.failed** event to the Events \[sysevents\] table. This event provides a comma separated list of the user's missing roles. Administrators can use this event in custom scripts or in [email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md) for authorization failure.
 
 Authorization can fail if a user is missing the mid\_server role or any of the important SOAP roles, as in these cases:
 

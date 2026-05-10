@@ -15,7 +15,7 @@ Users with the customer administrator role \(sn\_customerservice.customer\_admin
 
 The following catalog pages and widgets are provided as part of the Customer Service with Request Management integration.
 
-For more information, see Associate a portal with a catalog.
+For more information, see [Associate a portal with a catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/associate-portal-catalog.md).
 
 ## CSM Catalog page
 

@@ -52,7 +52,7 @@ A risk administrator can train a default similarity solution for the risks in yo
 
 **Note:** A similarity solution is a machine-learning solution to collect and compare your existing records to new similar records.
 
-For more information, see Create and train a similarity solution.
+For more information, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md).
 
 **Note:** You must have at least 1000 risk records for the similarity algorithm to work.
 

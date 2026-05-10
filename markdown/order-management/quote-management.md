@@ -93,7 +93,7 @@ Sales agents can create a PDF document from a quote to send to customers for rev
 
 </td></tr><tr><td>
 
-**Channel Partner Quote management for business organization**
+**Channel Partner [Quote management for business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/quote-management-for-business-location.md)**
 
 </td><td>
 
@@ -101,7 +101,7 @@ Channel partners with multiple locations can create and manage the quote related
 
 </td></tr><tr><td>
 
-**Quote Related Party**Quote management for business organization
+**Quote Related Party**[Quote management for business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/quote-management-for-business-location.md)
 
 </td><td>
 

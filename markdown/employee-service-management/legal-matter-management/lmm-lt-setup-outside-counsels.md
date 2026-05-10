@@ -17,7 +17,7 @@ Add outside counsel details for an outside firm to enable matter creation in Leg
 
 ## Before you begin
 
-Ensure you have installed and activated Legal Tracker spoke. For more information, see Legal Tracker.
+Ensure you have installed and activated Legal Tracker spoke. For more information, see [Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/legal-tracker-spoke.md).
 
 Verify the schedule job **Fetch Firms Data** has been executed once before you add the outside counsel details for an outside firm.
 

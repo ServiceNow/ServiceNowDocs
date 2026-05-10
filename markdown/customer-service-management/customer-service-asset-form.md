@@ -136,7 +136,7 @@ Parent
 
 </td><td>
 
-Parent asset of the asset. For example, a monitor or peripheral can have a workstation as their parent asset. When a parent link is defined, the fields related to assignment and state of the child assets is set to read-only and are populated based on the parent assignment and state fields. For more information, see Bundled models.
+Parent asset of the asset. For example, a monitor or peripheral can have a workstation as their parent asset. When a parent link is defined, the fields related to assignment and state of the child assets is set to read-only and are populated based on the parent assignment and state fields. For more information, see [Bundled models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_CreatingBundledModels.md).
 
 </td></tr><tr><td>
 
@@ -182,7 +182,7 @@ Also, when you set the Location field to a place and then set the **sn\_itam\_c
 
 Location map doesn’t appear for excluded assets.
 
-You can also track your asset location using the Asset Indoor map in the Asset estate view of the Hardware Asset Workspace. For more information, see Track asset location using indoor maps.
+You can also track your asset location using the Asset Indoor map in the Asset estate view of the Hardware Asset Workspace. For more information, see [Track asset location using indoor maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/track-asset-location-using-indoor-maps.md).
 
 </td></tr><tr><td>
 

@@ -20,7 +20,7 @@ Generate a summary of the user, role, and caller types that attempted to access 
 
 When you install Now Assist for Vault, this agentic workflow is turned on by default.
 
-To modify the agentic workflow, duplicate it, and adjust the settings according to your requirements.
+To modify the agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 ## Summarize Access Observer logs
 
@@ -42,7 +42,7 @@ To access and configure the agentic workflow:
 |----|-----------|
 |Access Observer log analyzer agent|Uses various tools to generate a summary of the user, role, and caller types that attempted to access a table column configured in Access Observer.|
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 
 **Parent Topic:**[Use agentic AI in Now Assist for Vault](use-now-assist-vault-agentic-ai.md)
 

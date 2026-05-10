@@ -21,9 +21,9 @@ A search source specifies a table to include in Next Experience search. The sear
 
 ![Table filter list from search results page.](../../../get-started/servicenow-overview/image/pol-search-general-filter.png)
 
-To make a table searchable in Next Experience, add it as a new search source. For details on this procedure, see Add a search source for Next Experience.
+To make a table searchable in Next Experience, add it as a new search source. For details on this procedure, see [Add a search source for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/search-settings-filter-group-table.md).
 
-For the list of tables searchable by default in the base system, see Default global search sources for Next Experience.
+For the list of tables searchable by default in the base system, see [Default global search sources for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/search-settings-filter-group-table.md).
 
 ## Modify the fields displayed for each search result from a table
 
@@ -31,9 +31,9 @@ The text\_search list view for a searchable table determines which fields the sy
 
 ![Sample search result listing in Next Experience UI showing result's title, field list, and description.](../../../get-started/servicenow-overview/image/pol-search-result-fields.png)
 
-To learn how the system uses fields in the text\_search list view to populate search result entries, see Text search views control format of global search results for tables.
+To learn how the system uses fields in the text\_search list view to populate search result entries, see [Text search views control format of global search results for tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/text-search-view-formats-results.md).
 
-For the list of fields included in the base system's text\_search list views for the default searchable tables, see Default display fields for global search tables.
+For the list of fields included in the base system's text\_search list views for the default searchable tables, see [Default display fields for global search tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/global-search-default-tables.md).
 
 ## Add a workspace application to the search context menu
 
@@ -41,11 +41,11 @@ The search context menu enables users to view and open search results in availab
 
 ![Search context menu displayed beneath Unified Navigation search field.](../../../get-started/servicenow-overview/image/pol-search-context.png)
 
-To add a workspace application to the search context menu, see Add a workspace application to the Unified Navigation search context menu.
+To add a workspace application to the search context menu, see [Add a workspace application to the Unified Navigation search context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/add-app-search-context-polaris-ui.md).
 
-For details on using the search context menu, see View and open search results using workspace applications in Next Experience Unified Navigation.
+For details on using the search context menu, see [View and open search results using workspace applications in Next Experience Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/global-search-polaris-ui.md).
 
-For more information on configuring search settings in Next Experience, see Global search finds records from multiple tables.
+For more information on configuring search settings in Next Experience, see [Global search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_GlobalTextSearch.md).
 
 **Parent Topic:**[Configuring the Next Experience UI](next-experience-ui-admin.md)
 

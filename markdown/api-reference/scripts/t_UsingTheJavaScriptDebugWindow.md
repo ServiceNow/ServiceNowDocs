@@ -23,7 +23,7 @@ Role required: admin
 
 The steps to access the JavaScript debug window depend on which UI version you are using.
 
-**Note:** The JavaScript debug window is not supported with Next Experience. For more information about supported features in Next Experience, see Considerations for activating Next Experience.
+**Note:** The JavaScript debug window is not supported with Next Experience. For more information about supported features in Next Experience, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
 
 ## Procedure
 

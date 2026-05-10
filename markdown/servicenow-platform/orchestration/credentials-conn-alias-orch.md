@@ -6,7 +6,7 @@ release: australia
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 9
 breadcrumb: [Orchestration activity designer, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -85,11 +85,11 @@ Supports Test Credential option
 
 </th></tr></thead><tbody><tr><td>
 
-Applicative credentials
+[Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/applicative-creds.md)
 
 </td><td>
 
-The credentials to explore the applications on a device or computer. Discovery patterns used by ITOM Visibility often need applicative credentials.
+The credentials to explore the applications on a device or computer. [Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md) often need applicative credentials.
 
 </td><td>
 
@@ -97,7 +97,7 @@ No
 
 </td></tr><tr><td>
 
-Amazon Web Service credentials
+[Amazon Web Service credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_CloudManagementCredentialsForm.md)
 
 </td><td>
 
@@ -109,7 +109,7 @@ No
 
 </td></tr><tr><td>
 
-Azure Service Principal and Enterprise Agreement credentials
+[Azure Service Principal and Enterprise Agreement credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_CloudManagementCredentialsForm.md)
 
 </td><td>
 
@@ -121,7 +121,7 @@ No
 
 </td></tr><tr><td>
 
-Basic authentication credentials
+[Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md)
 
 </td><td>
 
@@ -133,7 +133,7 @@ No
 
 </td></tr><tr><td>
 
-CIM credentials
+[CIM credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_CIMCredentialsForm.md)
 
 </td><td>
 
@@ -145,7 +145,7 @@ No
 
 </td></tr><tr><td>
 
-Cloud credentials
+[Cloud credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_CloudManagementCredentialsForm.md)
 
 </td><td>
 
@@ -157,7 +157,7 @@ No
 
 </td></tr><tr><td>
 
-JDBC credentials
+[JDBC credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_JDBCCredentialsForm.md)
 
 </td><td>
 
@@ -169,7 +169,7 @@ Yes
 
 </td></tr><tr><td>
 
-JMS credentials
+[JMS credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_JMSCredentialsForm.md)
 
 </td><td>
 
@@ -181,7 +181,7 @@ Yes
 
 </td></tr><tr><td>
 
-OAuth 2.0 credentials
+[OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/oauth-2-credentials.md)
 
 </td><td>
 
@@ -193,7 +193,7 @@ OAuth 2.0 credentials enable ServiceNow® to obtain access to user accounts on a
 
 </td></tr><tr><td>
 
-SNMP community credentials
+[SNMP community credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md)
 
 </td><td>
 
@@ -205,7 +205,7 @@ Yes
 
 </td></tr><tr id="row_yc2_zp5_5y"><td>
 
-SNMPv3 credentials
+[SNMPv3 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md)
 
 </td><td>
 
@@ -217,7 +217,7 @@ Yes
 
 </td></tr><tr><td>
 
-SSH credentials
+[SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md)
 
 </td><td>
 
@@ -229,7 +229,7 @@ Yes
 
 </td></tr><tr><td>
 
-SSH credentials
+[SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md)
 
 </td><td>
 
@@ -241,7 +241,7 @@ Yes
 
 </td></tr><tr><td>
 
-VMware credentials
+[VMware credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_VMwareCredentialsForm.md)
 
 </td><td>
 
@@ -253,11 +253,11 @@ Yes
 
 </td></tr><tr><td>
 
-Windows credentials
+[Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md)
 
 </td><td>
 
-The user name and password required to access Windows computers. Several Windows credentials must be met to use Windows credentials.
+The user name and password required to access Windows computers. Several [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md) must be met to use Windows credentials.
 
 </td><td>
 
@@ -268,7 +268,7 @@ Yes
 
 By default, Windows MID Servers use the login credentials of the MID Server service on the host machine to discover Windows devices in the network. You should [Configure Windows MID Server service credentials](../../../product/mid-server/concept/mid-server-install-prereqs.md#) so that they have domain or local administrator privileges. For Linux and UNIX machines and network devices, the MID Server uses the SSH and SNMP credentials configured in the instance in **Discovery** &gt; **Credentials**.
 
-MID Servers that Orchestration uses must have access to the necessary credentials to execute commands on computers in the network as specified by the Workflow activities. Orchestration can use the same SSH and SNMP credentials as Discovery, but has two additional credentials designed for specific workflow activities: Windows \(for [PowerShell](../../orchestration-activities/concept/c_OrchestrPowerShellActivities.md#)\) and VMware.
+MID Servers that Orchestration uses must have access to the necessary credentials to execute commands on computers in the network as specified by the [Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-activities/c_WorkflowActivities.md). Orchestration can use the same SSH and SNMP credentials as Discovery, but has two additional credentials designed for specific workflow activities: Windows \(for [PowerShell](../../orchestration-activities/concept/c_OrchestrPowerShellActivities.md#)\) and VMware.
 
 ### Encryption and decryption
 
@@ -286,7 +286,7 @@ When credentials are requested by the MID Server, the platform decrypts the cred
 
 ### Credential order
 
-Credentials can be assigned an order value in the Credentials form, which forces the application to try all the credentials at their disposal in a certain sequence. If you do not specify an order value, the application tries the credentials in the Credentials \[discovery\_credential\] table randomly, until it finds one that works, such as when Orchestration attempts to run a command on an SSH server \(such as a Linux or UNIX machine\), or when Discovery attempts to query an SNMP device \(such as a printer, router, or UPS\).
+Credentials can be assigned an order value in the [Credentials form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/t_CreateCredential.md), which forces the application to try all the credentials at their disposal in a certain sequence. If you do not specify an order value, the application tries the credentials in the Credentials \[discovery\_credential\] table randomly, until it finds one that works, such as when Orchestration attempts to run a command on an SSH server \(such as a Linux or UNIX machine\), or when Discovery attempts to query an SNMP device \(such as a printer, router, or UPS\).
 
 After identifying the credentials for a device, Discovery and Orchestration create an affinity between the credentials and the device using the Credential Affinity `[dscy_credentials_affinity]` table. All subsequent discoveries or Orchestration activities attempt to match the credentials in this table with a device for which an affinity exists. If credentials for a device change, Discovery and Orchestration try all available credentials again until they create a new affinity.
 

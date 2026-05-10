@@ -35,13 +35,13 @@ When the chart interaction for a data visualization is set to Go to data, intera
 
 ## Health Log Analytics visualizations
 
-**Go to data** chart interactions from Health Log Analytics data visualizations open the log viewer. For more information, see Health Log Analytics.
+**Go to data** chart interactions from Health Log Analytics data visualizations open the log viewer. For more information, see [Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-landing-page.md).
 
 **Note:** You cannot create or edit data visualizations for Health Log Analytics from the Platform Analytics experience, but only from the UI Builder.
 
 ## MetricBase visualizations
 
-**Go to data** chart interactions from MetricBase visualizations open the Metrics Explorer. For more information, see MetricBase.
+**Go to data** chart interactions from MetricBase visualizations open the Metrics Explorer. For more information, see [MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase.md).
 
 **Important:** **Go to data** chart interactions for MetricBase require the Metric Explorer for Service Operations \(sn\_sow\_metric\_exp\) plugin.
 

@@ -4,7 +4,7 @@ description: Install the Order Management for Channel Partners plugin \(com.snc.
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -32,7 +32,7 @@ The following items are installed with the Order Management for Channel Partners
 -   Role like the sn\_prm\_orm.order\_partner\_ui
 -   Tables
 
-For more information on viewing components that are installed with an application, see Find components installed with an application.
+For more information on viewing components that are installed with an application, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 ## Procedure
 

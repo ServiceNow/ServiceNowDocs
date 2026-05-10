@@ -17,13 +17,13 @@ KPI Composer ensures that your performance management strategy aligns with busin
 
 KPI Composer helps you elicit performance management requirements and drive stakeholder alignment by visualizing implementation objectives, desired business outcomes, and required technical deliverables in a concise visual summary. This holistic approach ensures that stakeholders are completely aligned on the desired outcomes and requirements before implementers spend time working on any technical deliverables. When ready, Performance Analytics implementers get a task list of exactly what they need to create — indicators, breakdowns, reports, and dashboards — to support the goals, and you can even use KPI Composer to track the progress of the implementation.
 
-A free training in KPI Composer is available at [NOW Learning](https://learning.servicenow.com/lxp/en/now-intelligence/kpi-composer-overview?id=learning_course_prev&course_id=1f2469534722d6d03c6f6013e16d433c). You can also see examples of how a properly designed Performance Analytics solution can help different people in your organization at ITSM Success Dashboard indicators.
+A free training in KPI Composer is available at [NOW Learning](https://learning.servicenow.com/lxp/en/now-intelligence/kpi-composer-overview?id=learning_course_prev&course_id=1f2469534722d6d03c6f6013e16d433c). You can also see examples of how a properly designed Performance Analytics solution can help different people in your organization at [ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/success-dashboard-indicator-landing.md).
 
 ## Activating KPI Composer
 
 KPI Composer is available on the ServiceNow Store. Navigate to **System Applications** &gt; **Search ServiceNow Store**, or point a browser to [https://store.servicenow.com/sn\_appstore\_store.do\#!/store/home](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Search for the application named KPI Composer. If you are downloading the application to a production instance, you need a Now Support account.
 
-After you download the application, navigate to **System Applications** &gt; **All Available Applications** &gt; **All**. Search for the KPI Composer application and install it. For an example, see Activate a ServiceNow Store application.
+After you download the application, navigate to **System Applications** &gt; **All Available Applications** &gt; **All**. Search for the KPI Composer application and install it. For an example, see [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-entitled-store-app.md).
 
 **Note:** To get full use of KPI Composer, you should have the appropriate entitlement to use Performance Analytics.
 

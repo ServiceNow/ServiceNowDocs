@@ -31,7 +31,7 @@ Reference
 
 </th></tr></thead><tbody><tr><td>
 
-Access Control
+[Access Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNCAccessControl.md)
 
 </td><td>
 
@@ -43,7 +43,7 @@ See [Add application security](add-security.md).
 
 </td></tr><tr><td>
 
-Catalog Builder
+[Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-builder.md)
 
 </td><td>
 
@@ -55,7 +55,7 @@ See [Add a standard catalog item](../task/add-standard-catalog-item.md).
 
 </td></tr><tr><td>
 
-Decision tables in Workflow Studio
+[Decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/decision-designer-overview.md)
 
 </td><td>
 
@@ -67,7 +67,7 @@ See [Add a decision](../task/add-decision.md).
 
 </td></tr><tr><td>
 
-Email notifications
+[Email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
 
 </td><td>
 
@@ -79,7 +79,7 @@ See [Add an email notification](../task/add-notification.md).
 
 </td></tr><tr><td>
 
-Zero Copy Connector for ERP
+[Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-overview.md)
 
 </td><td>
 
@@ -87,11 +87,11 @@ Build an ERP \(Enterprise Resource Planning\) data model and extract data from y
 
 </td><td>
 
-See Zero Copy Connector for ERP.
+See [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-overview.md).
 
 </td></tr><tr><td>
 
-ERP Semantic Mining
+[ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erp-customization-mining-overview.md)
 
 </td><td>
 
@@ -99,11 +99,11 @@ Identify all of the customizations in your ERP system.
 
 </td><td>
 
-See ERP Semantic Mining.
+See [ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erp-customization-mining-overview.md).
 
 </td></tr><tr><td>
 
-Flows in Workflow Studio
+[Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flows.md)
 
 </td><td>
 
@@ -115,7 +115,7 @@ See [Add a flow from scratch](../task/create-scratch-flow.md).
 
 </td></tr><tr><td>
 
-Integration Hub - Import
+[Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub-imports.md)
 
 </td><td>
 
@@ -127,7 +127,7 @@ See [Create a data integration](../task/import-map-data-existing-table.md).
 
 </td></tr><tr><td>
 
-Mobile App Builder
+[Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md)
 
 </td><td>
 
@@ -139,7 +139,7 @@ See [Add a mobile experience](../task/add-mobile.md).
 
 </td></tr><tr><td>
 
-Process Automation Designer
+[Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md)
 
 </td><td>
 

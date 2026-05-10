@@ -46,7 +46,7 @@ You can map multiple scripts with each diagnostic scan and define the order of t
 
 ## What to do next
 
--   Create related link for navigating to the diagnostic features and scans in the application. For more information, see Create a UI action.
+-   Create related link for navigating to the diagnostic features and scans in the application. For more information, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md).
 -   Run diagnostic scan and view results. For an example of how the diagnostics scan work, see [Use Project Diagnostics to detect corrupt project data](../../project-management/task/project-diagnostics.md).
 
 **Related topics**  

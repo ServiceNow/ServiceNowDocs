@@ -15,7 +15,7 @@ breadcrumb: [Manage, DevOps Change Velocity, IT Service Management]
 
 DevOps Change has a pre-build playbook setup for users to configure a new tool. Custom tool integrations can be created using the guided playbook experience in the DevOps Change Workspace.
 
-Playbooks provide end users with a visual, task-oriented guide with the steps to complete a process, ensuring a consistent experience for tool onboarding. For detailed information about playbooks, see About Playbook Experience.
+Playbooks provide end users with a visual, task-oriented guide with the steps to complete a process, ensuring a consistent experience for tool onboarding. For detailed information about playbooks, see [About Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md).
 
 Perform the following steps to onboard your custom tool using the DevOps generic playbook.
 
@@ -51,7 +51,7 @@ Each Activity in a playbook is associated to an activity definition. DevOps has 
 -   DevOps Associate Services AD
 -   DevOps Summary AD
 
-For more information, see Exploring Playbook and About Playbook Experience.
+For more information, see [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md) and [About Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md).
 
 The DevOps table **sn\_devops\_capability\_activity\_mapping** has been created to maintain associations between Activity definitions and capabilities. This table configuration is used to dynamically render the stages and activities for a tool. You can update the conditions as needed to either enable or disable a particular activity for a tool.
 

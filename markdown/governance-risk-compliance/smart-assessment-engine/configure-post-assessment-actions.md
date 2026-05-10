@@ -17,7 +17,7 @@ The post-assessment actions feature in Smart Assessment Engine enables you to au
 
 ## Before you begin
 
--   A subflow must be available and mapped to the assessment template category for which you want to configure post-assessment actions. For more information about how to create and build subflows, refer to Create a subflow in Workflow Studio and Building subflows.
+-   A subflow must be available and mapped to the assessment template category for which you want to configure post-assessment actions. For more information about how to create and build subflows, refer to [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow.md) and [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
 -   To make actions available in post-assessment workflows, link the subflow to the appropriate template category. For more information, refer to [Link subflow to template category](link-subflow-to-action-set.md).
 -   The Reusable Impact Framework plugin \(sn\_impact\_fwk\) and Post Assessment Actions for Smart Assessments plugin \(sn\_smart\_imp\_auto\) must be installed.
 
@@ -39,15 +39,15 @@ Role required: sn\_smart\_asmt.assessment\_admin or sn\_smart\_asmt.template\_ma
 
 6.  Add either a conditional action set or a standalone action set.
 
-<table id="choicetable_v2z_xht_42c"><thead><tr><th align="left" id="d276946e139">
+<table id="choicetable_v2z_xht_42c"><thead><tr><th align="left" id="d276953e139">
 
 Option
 
-</th><th align="left" id="d276946e142">
+</th><th align="left" id="d276953e142">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d276946e148">
+</th></tr></thead><tbody><tr><td id="d276953e148">
 
 **Choose a conditional action set**
 
@@ -55,11 +55,11 @@ Description
 
 1.  Select **Add a conditional action set**.
 2.  Select **If** and then select **+New condition set**.
-3.  Create the conditional action set using the condition builder. For more information, refer to Condition builder.
+3.  Create the conditional action set using the condition builder. For more information, refer to [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 4.  Select **Save**.
  **Note:** You can select **+New condition set** to add multiple conditions.
 
-</td></tr><tr><td id="d276946e194">
+</td></tr><tr><td id="d276953e194">
 
 **Choose a standalone action set**
 
@@ -92,5 +92,5 @@ Select **Add a standalone action set**.
 **Related topics**  
 
 
-[bundle-cadev.flow-designer]
+[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md)
 

@@ -31,7 +31,7 @@ Hello World 2 includes an example of how the server script can be used as well.
 
 ![Hello World 3 widget, showing the HTML, client, server, and link function scripts in the IDE](../image/HelloWorld3.png "Hello World 3")
 
-For more information on Service Portal APIs, see the GlideSPSriptable API.
+For more information on Service Portal APIs, see the [GlideSPSriptable API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSPScriptableScopedAPI.md).
 
 **Parent Topic:**[Example widgets](sp-example-widgets.md)
 

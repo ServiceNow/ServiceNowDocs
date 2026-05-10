@@ -125,5 +125,5 @@ Manages the lifecycle of alerts, including performing basic operations such as v
 **Related topics**  
 
 
-[bundle-platux.list-of-workspaces]
+[List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/list-of-workspaces.md)
 

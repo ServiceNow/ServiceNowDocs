@@ -129,7 +129,7 @@ The name that identifies the interview question template.
 
 </td><td>
 
-The application the interview question template belongs to.**Note:** The application that appears is dependent on your current application scope. For more information, see Application scope.
+The application the interview question template belongs to.**Note:** The application that appears is dependent on your current application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).
 
 </td></tr><tr><td id="d301440e496">
 

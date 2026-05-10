@@ -38,7 +38,7 @@ Display Articles
 Displays knowledge articles from the associated knowledge base. The available options are:
 
 -   Manually select: Displays knowledge articles chosen in the **Manually Select Articles** field.
--   Dynamic query: Displays knowledge articles that meet the condition of a query in the Knowledge \[kb\_knowledge\] table defined in the **Dynamic Query** field. If no query is provided, all knowledge articles are displayed in the widget. For more information, seeGenerate an encoded query string through a filter
+-   Dynamic query: Displays knowledge articles that meet the condition of a query in the Knowledge \[kb\_knowledge\] table defined in the **Dynamic Query** field. If no query is provided, all knowledge articles are displayed in the widget. For more information, see[Generate an encoded query string through a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_GenEncodQueryStringFilter.md)
 -   Criteria based: Displays knowledge article based on the criteria Most viewed, Most useful, and Featured. The criteria is determined by the **View** field in the Knowledge \[kb\_knowledge\] table.
 
 The default selection is Criteria based.

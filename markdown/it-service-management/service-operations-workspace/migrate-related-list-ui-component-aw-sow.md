@@ -117,7 +117,7 @@ Role required: admin
 
     4.  If the record isn’t found with the table, remove the table filter and search for targetPayload contains route=mra or interceptor.
 
-        For **List** and **Field** decorator, you must add the MRA and interceptor add-on event mappings manually. For more information, see Create a UX add-on event mapping.
+        For **List** and **Field** decorator, you must add the MRA and interceptor add-on event mappings manually. For more information, see [Create a UX add-on event mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-a-ux-add-on-event-mapping.md).
 
     **Note:**
 

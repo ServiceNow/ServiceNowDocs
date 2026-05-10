@@ -18,7 +18,7 @@ For configuring service maps, provide the connection end point and the ERP crede
 ## Before you begin
 
 -   Verify that the application scope is set to Finance – ERP Integration.
--   Ensure that the MID Server is installed and configured in your ServiceNow instance to connect to the ERP server. See Installing the MID Server for details.
+-   Ensure that the MID Server is installed and configured in your ServiceNow instance to connect to the ERP server. See [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-installation.md) for details.
 
     **Note:** The MID Server integration is required only for an ERP integration using SOAP services.
 

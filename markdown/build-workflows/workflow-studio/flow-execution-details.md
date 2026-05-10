@@ -144,7 +144,7 @@ The following types of execution details are available.
 
 -   **Integration Metadata**
 
-    View transaction data such as connection and credential used, MID Server used, target host, and payload size. Integration Metadata is only displayed for integration steps and requires a separate Integration Hub subscription. For more information, see Integration steps.
+    View transaction data such as connection and credential used, MID Server used, target host, and payload size. Integration Metadata is only displayed for integration steps and requires a separate Integration Hub subscription. For more information, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integration-steps.md).
 
 -   **Configuration Details**
 
@@ -195,7 +195,7 @@ The calling source lists what started a flow, subflow, or action.
 |Workflow Studio Test|The flow started because someone selected the **Test** option from the Workflow Studio interface. The flow trigger conditions were ignored.|
 |CRUD Trigger|The flow started when the record-based trigger conditions were met.|
 |Date Trigger|The flow started when the schedule-based trigger conditions were met.|
-|Metric Trigger|The flow started when the MetricBase trigger conditions of a MetricBase were met.|
+|Metric Trigger|The flow started when the MetricBase trigger conditions of a [MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase.md) were met.|
 |Service Catalog Trigger|The flow started when a Service Catalog item was requested.|
 |Script|The flow started from a method call in a script, such as a business rule.|
 |Background Script|The flow started from a method call in the **Scripts - Background** module.|
@@ -280,5 +280,5 @@ fd\_read\_operations
 </td></tr></tbody>
 </table>## Run with roles support
 
-When a flow runs with one or more privileged roles, a user must also have these privileged roles to see the flow execution details. For example, if a flow runs as System, then a user must have the admin role to view its flow execution details. In addition, if a flow runs with a role that can access field encryption, then a user must also have that role in order to view its flow execution details. For more information about field encryption and roles, see Field Encryption.
+When a flow runs with one or more privileged roles, a user must also have these privileged roles to see the flow execution details. For example, if a flow runs as System, then a user must have the admin role to view its flow execution details. In addition, if a flow runs with a role that can access field encryption, then a user must also have that role in order to view its flow execution details. For more information about field encryption and roles, see [Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/field-encryption.md).
 

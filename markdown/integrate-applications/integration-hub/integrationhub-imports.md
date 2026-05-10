@@ -17,7 +17,7 @@ Automate data import tasks through a consolidated interface that provides a guid
 
 Managing imports through Integration Hub simplifies the process of importing data from external sources and transforming it to ServiceNow tables. You can configure, run, and schedule your data imports all through a single interface.
 
-You can access Integration Hub - Import directly through App Engine Studio to build data integrations for your custom applications. For more information, see Adding data in App Engine Studio.
+You can access Integration Hub - Import directly through App Engine Studio to build data integrations for your custom applications. For more information, see [Adding data in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-data.md).
 
 ## Benefits
 
@@ -96,7 +96,7 @@ The source configuration section has these components.
 
     If the data source is an Excel or CSV file, the File upload section appears here. You can drag a file over or browse to upload. Accepts XLSX, XLS, CSV, and ZIP files.
 
-    If the data source is a Data Stream action, the Connection section appears here. For Data Stream actions that use a connection alias, you can override the default connection alias with any of its children's aliases. Select the connection alias from the menu. For more information, see Create a Connection and Credential alias.
+    If the data source is a Data Stream action, the Connection section appears here. For Data Stream actions that use a connection alias, you can override the default connection alias with any of its children's aliases. Select the connection alias from the menu. For more information, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
 
 -   **3. Configuration section**
 
@@ -148,7 +148,7 @@ The table selection section has these components.
 
     -   **Properties**: Opens the Mapping Properties window where you can view or edit the options to run the table's business rules when importing and to run the import synchronously.
     -   **Edit mapping**: Opens the data-mapping section where you can create or edit your data mapping.
-    -   **Table Configuration**: Opens Table Builder where you can configure the target table. This option is only available if you have Table Builder installed. For more information, see Table Builder.
+    -   **Table Configuration**: Opens Table Builder where you can configure the target table. This option is only available if you have Table Builder installed. For more information, see [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md).
     -   **Revalidate**: Checks to see if there are any changes to the target entity schema. If changes are detected, the target table card displays a message saying the target schema has changed. Selecting the target table card opens a window where you can **Update** the target entity schema or **Cancel** to keep the schema the same. Revalidate your table whenever you edit the target table's configuration.
     -   **Delete**: Deletes the target table from the integration.
 

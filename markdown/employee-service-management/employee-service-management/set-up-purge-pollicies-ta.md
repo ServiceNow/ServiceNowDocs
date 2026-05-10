@@ -31,7 +31,7 @@ Role required: sn\_ta\_hiring\_core.admin/ sn\_ta\_tp.talent\_profile\_admin
     |sn\_ta\_hiring\_core\_job\_description \[sn\_ta\_hiring\_core\_job\_requisition\]|sys\_updated\_on|3 years|
     |sn\_ta\_tp\_talent\_profile \[sn\_ta\_tp\_talent\_profile\]|job\_applicant.consent\_updated|1 year|
 
-    For a description of the auto flush form field values, see Autoflush form.
+    For a description of the auto flush form field values, see [Autoflush form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-auto-flush.md).
 
 
 -   **[Rules to archive data](../concept/archive-data-ta.md)**  

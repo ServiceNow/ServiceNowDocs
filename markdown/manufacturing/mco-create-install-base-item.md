@@ -88,7 +88,7 @@ Contracts
 List of contracts that are related to an install base. Edit a contract by selecting **Edit**.
 
 </td></tr></tbody>
-</table>    For more information on the related lists, see Related list for an install base item.
+</table>    For more information on the related lists, see [Related list for an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-base-related-list.md).
 
 6.  Select **Update**.
 
@@ -100,5 +100,5 @@ The install base item is added to the account or consumer that you selected. You
 **Related topics**  
 
 
-[bundle-csm.install-base-item]
+[Install base items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-base-item.md)
 

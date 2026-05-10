@@ -19,7 +19,7 @@ The Azure password policy imposes constraints on the complexity, length, and re-
 
 To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Azure AD**. This activity was built with the [REST web service activity template](../../orchestration-activity-designer/task/t_CreateARESTWebServiceActivity.md#).
 
-**Important:** The REST message used for this activity must be configured to use OAuth 2.0.
+**Important:** The REST message used for this activity must be configured to use [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_OAuthApplications.md).
 
 ## Input variables
 

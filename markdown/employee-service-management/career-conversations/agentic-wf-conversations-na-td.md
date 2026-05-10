@@ -21,7 +21,7 @@ As a manager, use the growth conversation preparation AI agent to streamline you
 |------------------|---------|-----------|
 |Create a growth conversation|Growth conversation preparation AI agent|The Growth conversation preparation AI agent helps managers initiate and prepare for growth conversations with their team members. It checks calendars to suggest suitable time slots, creates conversation entries, aggregates employee data from multiple systems, and generates structured talking points based on recent talent activity and journey history.|
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 
 **Parent Topic:**[Using the Career Conversations application](egd-activities-use.md)
 

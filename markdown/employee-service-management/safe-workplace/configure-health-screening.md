@@ -308,7 +308,7 @@ This email is sent to the visitor before their scheduled visit. The **sn\_imt\_c
 
 **Note:** To ensure that a visitor’s requirement status is updated when the visitor responds to this email, set the **glide.user.trusted\_domain** property to the default value \(\*\). For more information, see
 
- **Note:** Inbound mail configuration. If you need to perform filtering on inbound emails, see Email filters.
+ **Note:** [Inbound mail configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_InboundMailConfiguration.md). If you need to perform filtering on inbound emails, see [Email filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailFilters.md).
 
  This notification is installed with the Employee Readiness Core application.
 

@@ -41,7 +41,7 @@ Check the status of your IT tickets and support cases.
 -   status = Allowed
 -   source = Script Include: ITSMTopicsHelper
 
-See Requested restricted caller access \(RCA\) for more information.
+See [Requested restricted caller access \(RCA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/requested-rca.md) for more information.
 
 </td></tr><tr><td>
 
@@ -130,7 +130,7 @@ Requirements:
 
 **Note:** For the password reset process to be available in Virtual Agent, ensure that you selected the **Enabled on Virtual Agent** check box in the Password Reset process configuration page.
 
-For more information about the password reset process, see Password Reset for Virtual Agent.
+For more information about the password reset process, see [Password Reset for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-for-virtual-agent.md).
 
 <table id="table_zc2_s23_nbc"><tbody><tr><td>
 
@@ -167,7 +167,7 @@ Request to verify your locked user account.
 -   Email code verification: User enters the code received via email.
 -   Security question verification: User enters the configured security question answers.
 
-For more information, see Configure your Password Reset process.
+For more information, see [Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md).
 
 ## Actionable notification topics
 

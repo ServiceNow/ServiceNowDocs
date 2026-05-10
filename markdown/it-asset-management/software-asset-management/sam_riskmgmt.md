@@ -17,7 +17,7 @@ Use the Software Asset Management application in conjunction with the Governance
 
 IT asset management directly feeds critical information required by GRC programs to monitor cyber security measures such as CIS controls from The Center for Internet Security ™ to enhance the overall security preparedness and cyber defense posture. For example, CIS controls 2.2, 2.4 require that organizations keep an inventory of all software assets and ensure that they are supported by the vendor. This information is automatically collected and surfaced on the CIS control indicate template from GRC.
 
-For detailed information on Cybersecurity Control Accelerators and regulations such as CIS controls, ISO 27001, 27002, see Cybersecurity Controls Accelerators.
+For detailed information on Cybersecurity Control Accelerators and regulations such as CIS controls, ISO 27001, 27002, see [Cybersecurity Controls Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/cybersecurity-controls-accelerator.md).
 
 **Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
 

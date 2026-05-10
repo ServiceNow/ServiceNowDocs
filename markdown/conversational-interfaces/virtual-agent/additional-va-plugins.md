@@ -15,7 +15,7 @@ breadcrumb: [Install Virtual Agent plugins, Activate and get started, Virtual Ag
 
 After activating Virtual Agent, you can activate additional plugins to enable other features for conversation design.
 
-You must have the admin role to activate these additional plugins. For details, see Activate a plugin.
+You must have the admin role to activate these additional plugins. For details, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 <table id="table_jwv_ct2_qhb"><thead><tr><th>
 

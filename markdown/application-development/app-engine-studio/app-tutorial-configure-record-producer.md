@@ -85,7 +85,7 @@ Create a record producer
 
 5.  Select **Continue to location** to specify the location of your record producer.
 
-    **Note:** Location determines where users can find the record producer. You can locate your record producer in a catalog, such as the Service Catalog, which is a set of business and technical products, services, and offerings that users can order. You can also locate your record producer with a topic, such as a knowledge base article. For more information about locations for record producers, see Creating or editing catalog item template.
+    **Note:** Location determines where users can find the record producer. You can locate your record producer in a catalog, such as the Service Catalog, which is a set of business and technical products, services, and offerings that users can order. You can also locate your record producer with a topic, such as a knowledge base article. For more information about locations for record producers, see [Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md).
 
     In our tutorial, we locate our record producer in the Service Catalog, so that employees can access the employee travel request form easily.
 
@@ -117,7 +117,7 @@ Create a record producer
 
 11. Add a question to the form.
 
-    **Note:** You can build different types of questions for your record producer. To see the full list of available question types in Catalog Builder, see Create a question for a catalog item in Catalog Builder.
+    **Note:** You can build different types of questions for your record producer. To see the full list of available question types in Catalog Builder, see [Create a question for a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-question-cat-builder.md).
 
     In our tutorial, we create several questions to collect details about employees' travel requests.
 

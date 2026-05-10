@@ -32,7 +32,7 @@ Role required: admin
     -   **All**: Displays survey instances in all states. By default, these instances are sorted in ascending order by the **Number** field.
 2.  Open a survey instance from the required sub-module.
 
-    By default, you can view the following fields in the Survey Instance form for all sub-modules other than **Completed**.
+    By default, you can view the following fields in the [Survey Instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/survey-instance-form.md) for all sub-modules other than **Completed**.
 
     -   **Number**
     -   **Metric type**

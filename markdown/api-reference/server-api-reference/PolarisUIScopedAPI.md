@@ -19,7 +19,7 @@ A UI page \[sys\_ui\_page\] is direct if the **Direct** field is **Selected**. A
 
 All non-direct UI pages use Next Experience by default.
 
-For more information about Next Experience, see the Next Experience UI.
+For more information about Next Experience, see [the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md).
 
 The PolarisUI API is provided within the `sn_ui` namespace.
 
@@ -142,7 +142,7 @@ This method checks if the **glide.ui.polaris.experience** system property and **
 -   **glide.ui.polaris.experience** enables Next Experience on the instance.
 -   **glide.ui.polaris.use** disables Next Experience for specified users when set to **false**.
 
-For more information about Next Experience system properties and user preferences, see Next Experience system properties.
+For more information about Next Experience system properties and user preferences, see [Next Experience system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/pol-sys-properties.md).
 
 **Note:** This method returns true even if Next Experience is disabled for the current page. This method is useful for conditionally enabling entire experiences or redirecting to different pages when Next Experience is enabled globally.
 

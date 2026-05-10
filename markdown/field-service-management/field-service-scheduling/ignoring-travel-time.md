@@ -21,7 +21,7 @@ The Ignore travel option in the work order task enables dynamic scheduling to as
 
 Enabling the **com.snc.dynamic.scheduling.ignoreAgentTravelTimeDuringScheduling** property displays the Ignore Travel option in work order tasks. For more information about enabling a dynamic scheduling property, see [Properties installed with Field Service Management](../../planning-and-policy/reference/r_PropInstallWFieldServMgmnt.md).
 
-The Ignore Travel option does not appear in the work order task form by default so you have to add it manually. For more information, see Configuring the form layout.
+The Ignore Travel option does not appear in the work order task form by default so you have to add it manually. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
 Note the following parameters related to dynamic scheduling when Ignore travel is enabled:
 

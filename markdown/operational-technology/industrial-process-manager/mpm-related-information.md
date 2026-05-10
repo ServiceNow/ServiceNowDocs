@@ -19,11 +19,11 @@ Find more information about the Network Intrusion Detection System \(NIDS\) exte
 
 The extension classes help you understand how Operational Technology Management works with the Configuration Management Database \(CMDB\).
 
--   **Network Intrusion Detection System \(NIDS\) CI extension class**
+-   **[Network Intrusion Detection System \(NIDS\) CI extension class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-network-ids-nids-ci-extension-class.md)**
 
     The Network Intrusion Detection System \(NIDS\) \[cmdb\_ci\_nids\] class builds the relationships between passive network monitoring appliances, and the devices on the network that it discovers.
 
--   **Operational Technology \(OT\) extension classes**
+-   **[Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-operation-technology.md)**
 
     The Configuration Management Database \(CMDB\) updates classes for OT.
 

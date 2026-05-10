@@ -22,7 +22,7 @@ This feature is supported in the Health Log Analytics application, Version 25.0.
 
 Starting with Health Log Analytics Version 38.0.17 - December 2025, you can also export all source types related to one or more selected log sources to the update set together. For more information, see [Export source types to an update set by log source in Health Log Analytics](../task/hla-export-sourcetypes-by-source.md).
 
-For general information about update sets in the ServiceNow AI Platform, see System update sets.
+For general information about update sets in the ServiceNow AI Platform, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md).
 
 -   **[Export a Health Log Analytics data input configuration](../task/hla-data-input-migrate.md)**  
 Export the configuration of a Health Log Analytics data input with or without the related source types to an update set. You can then import the update set to the target environment.

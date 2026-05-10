@@ -35,7 +35,7 @@ The IBM publisher pack supports the following license metrics:
 
 For more information on the supported IBM license metrics, see [Software license metrics](c_SAMLicenseMetrics.md).
 
-**Important:** The IBM publisher pack is available as part of the Software Asset Management Professional \(com.snc.samp\) plugin. The publisher pack includes all capabilities that are required for tracking and managing both full capacity and sub-capacity PVU and RVU licenses for your IBM products. It does not require the legacy IBM PVU Process Pack to track and manage IBM PVU licenses. See iBM PVU Process Pack for more information on the legacy process pack.
+**Important:** The IBM publisher pack is available as part of the Software Asset Management Professional \(com.snc.samp\) plugin. The publisher pack includes all capabilities that are required for tracking and managing both full capacity and sub-capacity PVU and RVU licenses for your IBM products. It does not require the legacy IBM PVU Process Pack to track and manage IBM PVU licenses. See [iBM PVU Process Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_IBMPVUProcessPack.md) for more information on the legacy process pack.
 
 When you run a discovery using a discovery tool such as the ServiceNow Discovery application, the discovery tool locates the IBM software installations in your environment and then imports the associated data into your ServiceNow instance. The Software Asset Management application compares this data against your IBM software entitlements to automatically reconcile your IBM software products, including products in complex server licensing scenarios.
 

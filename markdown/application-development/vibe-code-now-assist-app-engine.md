@@ -17,8 +17,8 @@ While Now Assist for Creator skills and Build Agent help you build the app, Now 
 
 Now Assist for App Engine enables you to leverage relevant ServiceNow AI Platform capabilities to enhance custom apps with GenAI and AI agents. Some of its most important features are the following:
 
--   Now Assist Skill Kit, which you can use to create custom skills for ServiceNow products and Now Assist for App Engine. For more information, see Now Assist Skill Kit.
--   AI Agent Studio, which enables you to create, manage, and test AI agents and agentic workflows. For more information, see AI Agent Studio.
+-   Now Assist Skill Kit, which you can use to create custom skills for ServiceNow products and Now Assist for App Engine. For more information, see [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
+-   AI Agent Studio, which enables you to create, manage, and test AI agents and agentic workflows. For more information, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md).
 -   The custom app record summarization skill, which generates AI summaries for the contents of records in custom applications and tables. For more information, see [Custom app record summarization skill](../../now-assist-app-engine/concept/custom-app-record-summarization-na-for-app-engine.md).
 
 Common capabilities for Now Assist for App Engine include:

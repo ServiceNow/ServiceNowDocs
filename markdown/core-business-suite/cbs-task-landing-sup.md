@@ -21,7 +21,7 @@ Choose one of the following tiles to learn more about the different applications
 
 <table id="table_odc_qmb_kgc" class="nav-card"><tbody><tr><td>
 
-Supplier Lifecycle Operations![](../../../reuse/icons/brand-icons/bus-meetings.svg)Learn more about Supplier Lifecycle Operations to create collaboration with suppliers, mitigate risks, and monitor compliance and performance.
+[Supplier Lifecycle Operations![](../../../reuse/icons/brand-icons/bus-meetings.svg)Learn more about Supplier Lifecycle Operations to create collaboration with suppliers, mitigate risks, and monitor compliance and performance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-landing-page.md)
 
 </td><td>
 
@@ -46,5 +46,5 @@ For more information, see [Raise an invoice request](../task/request-apo.md).
 
 ## Workflows and applications
 
-Finance and Supply Chain
+[Finance and Supply Chain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-supply-chain-landing.md)
 

@@ -35,9 +35,9 @@ AI Search is disabled by default. You can enable it by updating the portal recor
 
     A search application configuration defines search experience settings, such as the search engine, search results limit, and suggestions limit. A search application configuration is selected by default, but you can select a different configuration if needed.
 
-    You can modify existing search application configurations such as CSM Portal Default Search Application, or create and configure your own search application configurations with AI Search specified as the search engine. For details, see Create a search application configuration for AI Search.
+    You can modify existing search application configurations such as CSM Portal Default Search Application, or create and configure your own search application configurations with AI Search specified as the search engine. For details, see [Create a search application configuration for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-search-app-config-ais.md).
 
-    **Note:** You may need to configure the form layout to add **Search Application** field on the form. For more information about adding fields to a form, see Configuring the form layout.
+    **Note:** You may need to configure the form layout to add **Search Application** field on the form. For more information about adding fields to a form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
 5.  In the **Search Results Configuration** field, search and select the required search results configuration.
 
@@ -45,7 +45,7 @@ AI Search is disabled by default. You can enable it by updating the portal recor
 
     You can modify existing search results configuration record such as CSM Search or create and configure your own search results configuration.
 
-    **Note:** You may need to configure the form layout to add **Search Results Configuration** field on the form. For more information about adding fields to a form, see Configuring the form layout.
+    **Note:** You may need to configure the form layout to add **Search Results Configuration** field on the form. For more information about adding fields to a form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
 6.  Select **Update**.
 

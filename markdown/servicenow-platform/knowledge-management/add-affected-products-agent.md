@@ -17,7 +17,7 @@ Add affected products to a knowledge article to view the products associated wit
 
 ## Before you begin
 
-The Knowledge Product Entitlements plugin \(com.snc.kb\_product\_entitlements\) must be activated to use the Knowledge Product Entitlements application. Installing this plugin adds the Affected Products related list to the Knowledge form. For more information, see Knowledge product entitlements.
+The Knowledge Product Entitlements plugin \(com.snc.kb\_product\_entitlements\) must be activated to use the Knowledge Product Entitlements application. Installing this plugin adds the Affected Products related list to the Knowledge form. For more information, see [Knowledge product entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_KnowledgeProductEntitlements.md).
 
 You must have contribute access to the knowledge base that stores the knowledge article for which you want to add affected products.
 
@@ -25,7 +25,7 @@ Role required: agent\_workspace\_user
 
 ## About this task
 
-This task provides steps to add affected products to a knowledge article in Agent Workspace. You can also add affected products to a knowledge article using the Knowledge Management application in the ServiceNow AI Platform interface. For more information, see Add a related product to a knowledge base or knowledge article.
+This task provides steps to add affected products to a knowledge article in Agent Workspace. You can also add affected products to a knowledge article using the Knowledge Management application in the ServiceNow AI Platform interface. For more information, see [Add a related product to a knowledge base or knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_AddRelatedProdToKBOrArticle.md).
 
 ## Procedure
 

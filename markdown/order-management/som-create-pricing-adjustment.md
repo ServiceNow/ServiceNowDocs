@@ -19,7 +19,7 @@ Role required: sn\_csm\_pricing.pricelist\_administrator, sn\_csm\_pricing.price
 
 ## About this task
 
-In this task, you specify the product characteristics to which the pricing adjustment applies. Next, you use a decision table to set the attribute adjustment rule, which defines the conditions for applying the pricing adjustment. For more information on using decision tables, see Using decision tables.
+In this task, you specify the product characteristics to which the pricing adjustment applies. Next, you use a decision table to set the attribute adjustment rule, which defines the conditions for applying the pricing adjustment. For more information on using decision tables, see [Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md).
 
 **Note:** Starting with Pricing Matrixes release v10.0.0, a decision rule row can have more than one condition.
 
@@ -79,7 +79,7 @@ In this task, you specify the product characteristics to which the pricing adjus
 
 7.  Test your decision table.
 
-    For more information on testing your decision table before publishing it, see Test a decision table in Workflow Studio.
+    For more information on testing your decision table before publishing it, see [Test a decision table in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-decision-table-in-decision-builder.md).
 
 8.  In the **Details** tab for the attribute adjustment, select **Publish**.
 

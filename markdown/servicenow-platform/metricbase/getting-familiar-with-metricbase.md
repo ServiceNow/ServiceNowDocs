@@ -92,7 +92,7 @@ After ServiceNow personnel install the MetricBase and MetricBase Demo plugins, y
     ![Define an action](../image/flow-action.png)
 
 24. Select a domain of actions from the left column and the specific action to take in the right column.
-25. Select **Save** and **Activate**. The flow doesn't execute unless it is activated. For more information about Workflow Studio, see Workflow Studio.
+25. Select **Save** and **Activate**. The flow doesn't execute unless it is activated. For more information about Workflow Studio, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md).
 
 The following table summarizes the modules in the MetricBase demo.
 

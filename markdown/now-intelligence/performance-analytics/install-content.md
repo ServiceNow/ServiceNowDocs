@@ -58,5 +58,5 @@ Copy an Platform Analytics Solution dashboard, including the tabs, portal pages,
 **Related topics**  
 
 
-[bundle-platadm.t_ActivateAPlugin]
+[Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md)
 

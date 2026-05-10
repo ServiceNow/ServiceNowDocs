@@ -31,7 +31,7 @@ Product models provide dealers and manufacturers with a detail of the products b
 
 4.  On the Model form, fill in the fields.
 
-    For a description of the field values, see Model form fields.
+    For a description of the field values, see [Model form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/r_ModelFormFields.md).
 
 5.  Select **Update**.
 
@@ -39,5 +39,5 @@ Product models provide dealers and manufacturers with a detail of the products b
 **Related topics**  
 
 
-[bundle-csm.product-data]
+[Product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/product-data.md)
 

@@ -33,7 +33,7 @@ The search source configuration limits the search to the content associated with
 
 4.  On the form, fill in the fields.
 
-    For more information, see Define a search source.
+    For more information, see [Define a search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/add-table-search-source.md).
 
 5.  Click **Submit**.
 

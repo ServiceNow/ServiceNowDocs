@@ -142,7 +142,7 @@ Default settings:-   Selected for local ServiceNow credential stores
 
 7.  Click **Submit**.
 
-8.  Set up the Microsoft AD v2 spoke
+8.  Set up the [Microsoft AD v2 spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-ms-ad-v2.md)
 
 9.  [Test the connection to the credential store](test-cxn-to-credential-store.md).
 

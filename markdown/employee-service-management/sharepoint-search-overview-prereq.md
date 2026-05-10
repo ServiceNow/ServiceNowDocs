@@ -17,9 +17,9 @@ The ServiceNow SharePoint Online Search Connector offers a consumer-grade search
 
 For detailed instructions on how to get started with **External Content Connectors**, see
 
--   External Content Connectors.
--   Exploring External Content Connectors.
--   Configuring External Content Connectors.
+-   [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ext-cont-connectors-landing-page.md).
+-   [Exploring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/exploring-ext-cont-connectors.md).
+-   [Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ext-cont-connectors.md).
 
 As search is the key to productivity, SharePoint Online Search Connector \(SPOC\) helps your employees to search and discover content from the ServiceNow employee experience.
 

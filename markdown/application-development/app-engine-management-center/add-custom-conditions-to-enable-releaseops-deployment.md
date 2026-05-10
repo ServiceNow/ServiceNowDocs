@@ -33,6 +33,6 @@ Role required: admin or app\_engine\_admin
 
     **Tip:** For more information about how to use decision tables, see the following resources:
 
-    -   Using decision tables
-    -   Modify decision table rules in Workflow Studio
+    -   [Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
+    -   [Modify decision table rules in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/modify-decision-table-rules.md)
 

@@ -40,7 +40,7 @@ If an employee is reported as being in quarantine through the [self-reporting op
 
 If the employee has an active case, a work note is added to the case for the case manager to take appropriate action, if needed.
 
-The **Automated Case Creation from Employee Self Report** flow is installed with Contact Tracing. The contact tracing admin can review and configure the base system flow using the Flow Designer.
+The **Automated Case Creation from Employee Self Report** flow is installed with Contact Tracing. The contact tracing admin can review and configure the base system flow using the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md).
 
 ## Automated case task creation on adding a potentially exposed contact
 

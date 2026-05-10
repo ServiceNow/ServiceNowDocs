@@ -13,7 +13,7 @@ breadcrumb: [Care Team Operations for Healthcare IT, Healthcare Operations, Heal
 
 Incidents created from Healthcare IT cases are resolved using standard IT Service Management incident management functionality in the Service Operations workspace.
 
-For more information, see Incident Management.
+For more information, see [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentManagement.md).
 
 **Note:** Fulfillers should modify the Incident view Service Operations Workspace and add the related list **Case-&gt;Incident**.
 

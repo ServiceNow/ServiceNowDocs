@@ -41,9 +41,9 @@ Each table rotation has a schedule, according to which new data is written to on
 **Related topics**  
 
 
-[bundle-platadm.c_TableRotation]
+[Table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableRotation.md)
 
-[bundle-platadm.t_ApplyTableRotation]
+[Apply table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ApplyTableRotation.md)
 
 [Rotate event and alert table for cleanup](../concept/rotate-tables-purge-data.md)
 

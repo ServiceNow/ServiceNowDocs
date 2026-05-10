@@ -285,7 +285,7 @@ Role required: wm\_admin
 
 Assign one or more roles from the list of available roles to the user group.
 
- For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](../../planning-and-policy/reference/r_UserRoleInstallWFieldSrvMgmnt.md) and Assign a role to a group.
+ For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](../../planning-and-policy/reference/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
 
 </td></tr><tr><td id="d107494e458">
 
@@ -295,7 +295,7 @@ Assign one or more roles from the list of available roles to the user group.
 
 Assign one or more agents from the list of available agents to the user group.
 
- For more information on assigning group members, see Add a user to a group.
+ For more information on assigning group members, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AddAUserToAGroup.md).
 
 </td></tr><tr><td id="d107494e477">
 
@@ -373,7 +373,7 @@ Role required: wm\_admin
 
 Assign one or more roles from the list of available roles to the user group.
 
- For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](../../planning-and-policy/reference/r_UserRoleInstallWFieldSrvMgmnt.md) and Assign a role to a group.
+ For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](../../planning-and-policy/reference/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
 
 </td></tr><tr><td id="d107494e695">
 
@@ -383,7 +383,7 @@ Assign one or more roles from the list of available roles to the user group.
 
 Assign one or more qualifiers from the list of available qualifiers to the user group.
 
- For more information on assigning group members, see Add a user to a group.
+ For more information on assigning group members, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AddAUserToAGroup.md).
 
 </td></tr><tr><td id="d107494e714">
 
@@ -437,7 +437,7 @@ Role required: admin
 
 Assign one or more roles from the list of available roles to the user group.
 
- For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](../../planning-and-policy/reference/r_UserRoleInstallWFieldSrvMgmnt.md) and Assign a role to a group .
+ For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](../../planning-and-policy/reference/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md) .
 
 </td></tr><tr><td id="d107494e899">
 
@@ -483,7 +483,7 @@ Assign one or more agent groups to the dispatch user group.
 
 You can set up other types of user groups.
 
-In addition to setting up Field Service specific user groups, you can set up user groups for managers and initiators. For example, you can set up an initiator user group to create a new work order or you can create a work order from other record types, such as problem, incident, change, or project task. For more information on setting up other types of user groups, see Create a group.
+In addition to setting up Field Service specific user groups, you can set up user groups for managers and initiators. For example, you can set up an initiator user group to create a new work order or you can create a work order from other record types, such as problem, incident, change, or project task. For more information on setting up other types of user groups, see [Create a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_CreateAGroup.md).
 
 |User|Locations|User Group|User Group Roles|Manager-Initiator Group Relationship|
 |----|---------|----------|----------------|------------------------------------|

@@ -23,8 +23,8 @@ Role required: admin
 
 When you prepare to delete many records from a table, consider the following guidelines to minimize impact on performance.
 
--   Limit the number of records to be deleted in a single delete action to prevent the table from being locked. Use the setLimit\(\) method described at setLimit.
--   Minimize triggering an excessive number of business rules as a result of this deletion. Use the setWorkflow\(Boolean e\) method described at setWorkflow.
+-   Limit the number of records to be deleted in a single delete action to prevent the table from being locked. Use the setLimit\(\) method described at [setLimit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+-   Minimize triggering an excessive number of business rules as a result of this deletion. Use the setWorkflow\(Boolean e\) method described at [setWorkflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
 **Note:** Deleting all records for a table also deletes records from tables that extend the table.
 
@@ -38,7 +38,7 @@ There are several methods for deleting table records. Depending on the number of
 
     2.  Select the table for which to delete records.
 
-        **Note:** If the table you want to delete records from belongs to a scoped application, select that application in the scope picker. Alternatively, configure scope-to-scope access. See Restricted caller access privilege settings.
+        **Note:** If the table you want to delete records from belongs to a scoped application, select that application in the scope picker. Alternatively, configure scope-to-scope access. See [Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/restricted-caller-access-privilege.md).
 
         ![Tables and Columns](../image/tables_and_columns.png)
 

@@ -52,11 +52,11 @@ Some playbook pages and page variants are not active by default. You need to act
 **Related topics**  
 
 
-[bundle-cadev.reuse-page-definitions]
+[Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/reuse-page-definitions.md)
 
-[bundle-cadev.edit-page]
+[Edit a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/edit-page.md)
 
-[bundle-cadev.create-variant]
+[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md)
 
-[bundle-cadev.edit-variant-settings]
+[Edit page variant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/edit-variant-settings.md)
 

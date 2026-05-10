@@ -27,7 +27,7 @@ Role required: sn\_nb\_action.next\_best\_action\_author, admin
 
 3.  In the **Search Application Configuration** field, select the Lookup using list icon ![Lookup using list icon](../image/lookup-list.jpg) and select either the base system CSM Configurable Workspace Search Config or a custom configuration that specifies AI search as the search engine and contains your desired search settings.
 
-    You can configure the search result display and refinement settings in the search application configuration. For more information, see Search application configurations.
+    You can configure the search result display and refinement settings in the search application configuration. For more information, see [Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-app-cfgs-ais.md).
 
     The **\[CSM AIS\] Configurable Workspace Search Config** search application configuration is provided with the CSM Configurable Workspace store application. To access this configuration, navigate to **AI Search** &gt; **Search Experience** &gt; **Search Applications**.
 
@@ -81,7 +81,7 @@ This field shows all the source tables mapped to the search profile of your sear
 1.  In the **Map genius result** field, select **Yes** to enable genius result mapping to guidance inputs.
 2.  In the **Genius result configuration** field, select a genius result configuration to map the return fields to guidance inputs.
 
-This field shows return fields of the genius result configuration that is linked to the search profile of your search application configuration. For more information, see AI Search Genius Result Configuration form.
+This field shows return fields of the genius result configuration that is linked to the search profile of your search application configuration. For more information, see [AI Search Genius Result Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-result-cfg-form-ais.md).
 
 </td></tr></tbody>
 </table>8.  Save the record.

@@ -29,7 +29,7 @@ Content available
 
 </th></tr></thead><tbody><tr><td>
 
-App Engine Studio
+[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-overview.md)
 
 </td><td>
 
@@ -38,7 +38,7 @@ App Engine Studio
 
 </td></tr><tr><td>
 
-Integration Hub
+[Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md)
 
 </td><td>
 
@@ -56,7 +56,7 @@ Integration Hub
 
 </td></tr><tr><td>
 
-Robotic Process Automation \(RPA\) Hub
+[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-explore.md)
 
 </td><td>
 

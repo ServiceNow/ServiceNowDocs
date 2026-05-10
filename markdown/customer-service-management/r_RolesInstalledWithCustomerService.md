@@ -537,7 +537,7 @@ This role provides access to case tasks from the following modules in CSM Agent 
  
 
 </td></tr></tbody>
-</table>For detailed information on the granular admin roles in Custmer Data Foundation \(CDF\) and their associated privileges, see Platform security granular admin roles.
+</table>For detailed information on the granular admin roles in Custmer Data Foundation \(CDF\) and their associated privileges, see [Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-granular-roles.md).
 
 ## Roles installed with the Customer Service Base Entities plugin
 

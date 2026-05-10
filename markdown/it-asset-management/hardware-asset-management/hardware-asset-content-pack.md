@@ -21,9 +21,9 @@ Use the Performance Analytics widgets on the dashboard to visualize data over ti
 
 **Note:** Solutions include some dashboards that are inactive by default. You can activate these dashboards to make them visible to end users according to your business needs.
 
-For unlimited access to all features of this Platform Analytics Solution, purchase a Performance Analytics subscription. For more information, see Activating your Performance Analytics subscription.
+For unlimited access to all features of this Platform Analytics Solution, purchase a Performance Analytics subscription. For more information, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
 
-To use this Analytics and Reporting Solution, you must be entitled to use Performance Analytics with Hardware Asset Management. For more information about entitlements to Performance Analytics, see Activating your Performance Analytics subscription
+To use this Analytics and Reporting Solution, you must be entitled to use Performance Analytics with Hardware Asset Management. For more information about entitlements to Performance Analytics, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md)
 
 This Out-of-the-box Performance Analytics Solution is available from the ServiceNow Store. To enable this solution, an admin navigates to **System Applications** &gt; **Search ServiceNow Store**. When the landing page for the ServiceNow Store opens, search for Hardware Asset Management. When you have found the Solution, follow the instructions in the Store. The ServiceNow Store has its own documentation.
 
@@ -56,7 +56,7 @@ Beginning with the Xanadu release, note the following points about the Core UI P
 **Related topics**  
 
 
-[bundle-par.c_PremiumPerformanceAnalytics]
+[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md)
 
 ## Hardware Asset dashboard
 

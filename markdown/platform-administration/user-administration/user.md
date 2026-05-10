@@ -45,7 +45,7 @@ User records are associated with records on several other tables to control perm
 
 -   **Skills**
 
-    Use skill management to associate users with their areas of training and expertise. For more information on skill management, see Skill Management.
+    Use skill management to associate users with their areas of training and expertise. For more information on skill management, see [Skill Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skills-management.md).
 
 -   **Subscriptions**
 
@@ -53,7 +53,7 @@ User records are associated with records on several other tables to control perm
 
 -   **User preferences**
 
-    User accounts are also connected with user preferences. Users can save personalized preferences to configure many UI features, as well as preferences regarding the notifications they receive. Details on administering user preferences are found at User preferences.
+    User accounts are also connected with user preferences. Users can save personalized preferences to configure many UI features, as well as preferences regarding the notifications they receive. Details on administering user preferences are found at [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md).
 
 
 ## Date and time formatting
@@ -62,7 +62,7 @@ You can set your preferred date and time formatting through the User record. If 
 
 The Date format field appears in the User record by default and can be modified without specific permissions. However, the Time format field must be added to the User record by revealing additional form fields. For instructions on showing or hiding form fields, see [Configuring the form layout](../../form-administration/concept/configure-form-layout.md#). If you can't modify form fields, contact your organization's user administrator to update your time format preferences.
 
-The Date and time format field in **User Menu** &gt; **Preferences** &gt; **Language &amp; Region** extends the options you select in the Date format and Time format fields of your User record. For more information, see User preferences. Timezone settings automatically sync between the User record and your preferences.
+The Date and time format field in **User Menu** &gt; **Preferences** &gt; **Language &amp; Region** extends the options you select in the Date format and Time format fields of your User record. For more information, see [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md). Timezone settings automatically sync between the User record and your preferences.
 
 ## System and guest users
 
@@ -70,5 +70,5 @@ Some automated processes use the system or guest user to apply and track changes
 
 For example, when a user logs in for the first time in a day, some fields on that user's record are updated by the system user, such as **Last login** and **Last login time**. If a user has a failed login attempt or is locked out, some fields on that user's record are updated by the guest user, such as **Failed Login Attempts** or **Locked Out**.
 
-If a record was last updated by the system or by guest users, identify the fields that were updated by enabling auditing for the table and viewing the audit history set. For more information, see Configuring auditing for a table and Knowing about History sets.
+If a record was last updated by the system or by guest users, identify the fields that were updated by enabling auditing for the table and viewing the audit history set. For more information, see [Configuring auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_EnableAuditingForATable.md) and [Knowing about History sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistorySets.md).
 

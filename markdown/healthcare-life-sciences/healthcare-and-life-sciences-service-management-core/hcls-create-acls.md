@@ -15,7 +15,7 @@ breadcrumb: [Display patient information on a healthcare case, Set up your Healt
 
 You can create access control list \(ACL\) rules to enable users and applications to access healthcare cases.
 
-As a user in the sn\_hcls.admin role, manage access to the tables extended from the Healthcare case \[sn\_hcls\_case\] table by creating ACL rules. For more information, see Create an ACL rule.
+As a user in the sn\_hcls.admin role, manage access to the tables extended from the Healthcare case \[sn\_hcls\_case\] table by creating ACL rules. For more information, see [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_CreateAnACLRule.md).
 
-**Note:** The Healthcare case \[sn\_hcls\_case\] table and its extended tables are within the Healthcare and Life Sciences Service Management Core scoped application. To create ACL rules for the healthcare case tables, you must follow the access control rules in application administration apps.
+**Note:** The Healthcare case \[sn\_hcls\_case\] table and its extended tables are within the Healthcare and Life Sciences Service Management Core scoped application. To create ACL rules for the healthcare case tables, you must follow the [access control rules in application administration apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ACL-access-checks.md).
 

@@ -20,7 +20,7 @@ To perform a global search, perform one of the following actions based on your U
 |UI version|Action|
 |----------|------|
 |Next Experience UI|Enter your search terms in the Unified Navigation search field, then select **View results** or press Enter.|
-|Core UI|Select the search icon in the banner on the upper right of the System settings for the user interface \(UI\) , then enter your search terms and press Enter.|
+|Core UI|Select the search icon in the banner on the upper right of the [System settings for the user interface \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_UI16BannerFrame.md) , then enter your search terms and press Enter.|
 
 All UI versions also have a global search keyboard shortcut. The `ui_global_text_search` UI Macro provides the global search field.
 
@@ -78,5 +78,5 @@ Global text search offers two types of search suggestions.
 
 [Installed with Zing](../reference/installed-with-zing.md)
 
-[bundle-platux.r_KeyboardShortcuts]
+[Keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_KeyboardShortcuts.md)
 

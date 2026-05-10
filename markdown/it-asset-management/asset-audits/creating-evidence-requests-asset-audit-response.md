@@ -19,7 +19,7 @@ If you are an audit manager, you can request evidence for your financial regulat
 
 Request evidence for your financial regulatory audit engagements by performing the following task:
 
-Request evidence using Audit Workspace to Assest Audit Response
+[Request evidence using Audit Workspace to Assest Audit Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/request-evidence-during-audits-using-audit-workspace-and-assest-audit-response.md)
 
 Request evidence at any stage of a financial regulatory audit by using the Audit Workspace.
 

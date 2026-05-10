@@ -21,7 +21,7 @@ Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner,
 
 **Note:** Creating a request from the Customer and Consumer Service Portals requires activation of the Customer Service with Request Management plugin \(com.sn\_cs\_sm\_request\). It also requires that the system administrator provide external customers with access to request records.
 
-Partners, partner administrators, and proxy contacts can submit requests on behalf of other accounts or contacts with the addition of the following variable set to the desired catalog items: **csm\_request\_variable\_set**. This variable set adds the **Account** and **Contact** fields. For more information, see Service catalog variable sets.
+Partners, partner administrators, and proxy contacts can submit requests on behalf of other accounts or contacts with the addition of the following variable set to the desired catalog items: **csm\_request\_variable\_set**. This variable set adds the **Account** and **Contact** fields. For more information, see [Service catalog variable sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogVariableSets.md).
 
 ## Procedure
 

@@ -25,7 +25,7 @@ Role required: Not applicable
 
 2.  Select **New**.
 
-    For detailed information on Task SLA, refer Create an SLA definition.
+    For detailed information on Task SLA, refer [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/t_CreateAnSLADefinition.md).
 
 
 **Parent Topic:**[Product Non-conformance without playbook](mco-related-lists-product-non-conformance.md)
@@ -33,5 +33,5 @@ Role required: Not applicable
 **Related topics**  
 
 
-[bundle-itsm.create-sla-breakdown-definitions]
+[Create SLA breakdown definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/create-sla-breakdown-definitions.md)
 

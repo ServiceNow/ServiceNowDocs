@@ -30,7 +30,7 @@ Role required: admin
 
 3.  Select **Submit**.
 
-    You can download the import set template too. For more information, see Download an import template.
+    You can download the import set template too. For more information, see [Download an import template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/easy-import/t_DownloadAnImportTemplate.md).
 
 4.  In the Next steps section, select **Run Transform** related link.
 

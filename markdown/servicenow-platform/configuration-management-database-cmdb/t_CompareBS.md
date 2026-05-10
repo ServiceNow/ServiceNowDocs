@@ -41,15 +41,15 @@ Service Mapping, if deployed, tracks and shows all changes to a CI including con
 
 3.  On the history timeline, set the time range of changes that you want to view.
 
-<table id="choicetable_dnx_mtk_51b"><thead><tr><th align="left" id="d452335e184">
+<table id="choicetable_dnx_mtk_51b"><thead><tr><th align="left" id="d452339e184">
 
 Option
 
-</th><th align="left" id="d452335e187">
+</th><th align="left" id="d452339e187">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d452335e193">
+</th></tr></thead><tbody><tr><td id="d452339e193">
 
 **To set the time range of the history timeline**
 
@@ -57,7 +57,7 @@ Action
 
 Click the hour, day, week, or month icons.![Click Hours, Days, Weeks, or Months to set the time range of the history scale.](../image/MapHistoryTimeRangeIcons.png)
 
-</td></tr><tr><td id="d452335e208">
+</td></tr><tr><td id="d452339e208">
 
 **To increase or decrease the time range**
 
@@ -65,7 +65,7 @@ Click the hour, day, week, or month icons.![Click Hours, Days, Weeks, or Months 
 
 Click the zoom in and zoom out icons.![Click Zoom in and Zoom out to change the time range.](../image/MapHistoryPlusMinusIcons.png)
 
-</td></tr><tr><td id="d452335e223">
+</td></tr><tr><td id="d452339e223">
 
 **To change the upper limit on your history range**
 
@@ -139,5 +139,5 @@ You cannot set the lower limit on your history range to a time before this servi
 
 [View the change history of application services in classic Service Mapping](t_ViewCIChanges.md)
 
-[bundle-itom.compare-configuration-files]
+[Compare versions of CI configuration files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/compare-configuration-files.md)
 

@@ -71,7 +71,7 @@ See [Example queries](../concept/sample-queries.md) for a step-by-step walk thro
     -   Add filters to a class node: Apply filters to narrow down a class to a specific set of CIs or to a single specific CI.
 
         1.  Point to the node to add a filter to, and then select the **Apply filters** icon that pops up above the node.
-        2.  In the Filters section, add attribute and related list conditions.
+        2.  In the Filters section, add attribute and [related list conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-related-list-query.md).
         3.  Close the **Filters** section.
         For example: Add a filter for business criticality to query for businesses that are 'most critical'.
 

@@ -20,13 +20,13 @@ The localization process follows this basic flow:
 1.  Topics are developed and released in the source language \(for example, English\).
 2.  Topics are translated, either by request or by editing them directly in Virtual Agent Designer.
 
-    If you are using NLU models, the models must be translated as well. For more information about that process, see Multilingual model management.
+    If you are using NLU models, the models must be translated as well. For more information about that process, see [Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/multilingual-model-managent.md).
 
 3.  Translations are tested and published.
 
-Virtual Agent role privileges vary with the user's function in this process. These roles are also defined in the Localization Framework. For more information, see Localization Framework roles.
+Virtual Agent role privileges vary with the user's function in this process. These roles are also defined in the Localization Framework. For more information, see [Localization Framework roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/roles-localization-framework.md).
 
-To learn more about managing subscriptions, see Managing per-user subscriptions in Subscription Management and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 ## Virtual Agent admin permissions
 

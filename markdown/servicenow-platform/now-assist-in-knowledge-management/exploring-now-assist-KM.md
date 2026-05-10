@@ -35,16 +35,16 @@ The Now Assist in Knowledge Management application includes KB generation skills
 
 ## Now Assist panel
 
-Agents can use the Now Assist panel available in their workspace. This conversational interface enables agents to generate a new knowledge article related to a case or incident. For more information about the Now Assist panel, see Now Assist panel.
+Agents can use the Now Assist panel available in their workspace. This conversational interface enables agents to generate a new knowledge article related to a case or incident. For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 **Related topics**  
 
 
-[bundle-csm.Now-Assist-generate-article-csm-workspace]
+[Generate a knowledge article from the CSM Configurable Workspace and classic environment with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/Now-Assist-generate-article-csm-workspace.md)
 
-[bundle-itsm.Now-Assist-generate-article-SOW-itsm]
+[Generate a knowledge article from the Service Operations Workspace for ITSM and classic environment by using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/Now-Assist-generate-article-SOW-itsm.md)
 
-[bundle-emplsm.gen-kb-now-assisthr]
+[Generate a knowledge article from HR Agent Workspace with Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/gen-kb-now-assisthr.md)
 
 [Generate a Knowledge article from the classic environment with Now Assist](../task/Now-Assist-generate-article-coreui.md#)
 

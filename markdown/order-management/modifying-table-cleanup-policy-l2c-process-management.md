@@ -20,12 +20,12 @@ By default, records are deleted from the Business Process Record \[sn\_bo\_core\
 
 You can modify the data retention and table cleanup policy depending on your expected load and volume.
 
-To find out how to modify the data retention and table cleanup frequency for Lead-to-Cash Process Management, see Modify data retention policy for ATF test results.
+To find out how to modify the data retention and table cleanup frequency for Lead-to-Cash Process Management, see [Modify data retention policy for ATF test results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-edit-table-cleanup.md).
 
 **Related topics**  
 
 
-[bundle-cadev.table-cleanup]
+[Table cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/table-cleanup.md)
 
-[bundle-cadev.atf-auto-flush]
+[Autoflush form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-auto-flush.md)
 

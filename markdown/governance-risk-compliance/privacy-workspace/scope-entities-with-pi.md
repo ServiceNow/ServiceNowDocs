@@ -17,7 +17,7 @@ Determine which entities have and process personal information using the Service
 
 ## Before you begin
 
-Ensure that you created the CMDB queries. For more information on the CMDB queries, see Querying the CMDB.
+Ensure that you created the CMDB queries. For more information on the CMDB queries, see [Querying the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md).
 
 Role required: sn\_privacy.manager
 
@@ -26,7 +26,7 @@ Role required: sn\_privacy.manager
 In the Configuration Management Database \(CMDB\), you can search the database for entities that process personal data using one of the following methods:
 
 -   Using the predefined queries and selecting only those applications and processes that have associated information objects. For more information about information objects and their role in Privacy Management, see [Information objects in Privacy Management](../concept/information-object-in-privacy.md). For information on how to scope entities with personal information, see [Scope entities to discover processing activities with personal information](scope-entities-with-pi.md)
--   Building your own query. For more information on building the CMDB queries, see Querying the CMDB
+-   Building your own query. For more information on building the CMDB queries, see [Querying the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md)
 
 To filter entities that contain personal data, you must filter the entities using the appropriate queries. ServiceNow® provides two default queries for you to use to filter entities with personal data. The default queries are provided for the following tables:
 

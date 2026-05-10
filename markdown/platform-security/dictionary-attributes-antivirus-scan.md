@@ -22,5 +22,5 @@ Dictionary attributes alter the behavior of the table or element that the dictio
 **Related topics**  
 
 
-[bundle-platadm.c_DictionaryAttributes]
+[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)
 

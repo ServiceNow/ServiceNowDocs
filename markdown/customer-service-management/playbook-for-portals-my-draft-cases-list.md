@@ -28,7 +28,7 @@ The Draft state for the base case is shipped as inactive by default. Customers c
 4.  Clear the **Inactive** check box.
 5.  Select **Update**.
 
-For more information, see Choice list field type.
+For more information, see [Choice list field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ChoiceLists.md).
 
 ## Case draft state values system property
 

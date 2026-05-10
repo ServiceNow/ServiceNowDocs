@@ -26,13 +26,13 @@ See  for more information.
 
 ## New in the Australia release
 
--   **Location Based Holiday Calendar Management**
+-   **[Location Based Holiday Calendar Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/location-based-holiday-calendar-management.md)**
 
     Enable location-based holiday calendars to
 
     -   Manage location‑based holiday calendars that auto‑sync to schedules, providing real‑time visibility into regional holiday impacts and supporting accurate shift planning.
     -   Improve workforce scheduling and compliance by mapping holidays to specific regions, reducing manual adjustments and ensuring agents see their location‑based holidays in My Calendar.
--   **Manager Workspace landing page**
+-   **[Manager Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-configurable-manager-workspace-dashboards-new.md)**
 
     Enhance the Manager Dashboard to view
 
@@ -45,25 +45,25 @@ See  for more information.
     -   Install and configure the Manager Dashboard independently to provide a streamlined, modular experience, retaining only essential alerts and core widgets for performance, work management, and resource visibility while removing scheduling and coaching components.
     -   Pro customers can view Help Request alerts and Operational Insights when Channel Management is adopted with the dashboard. These capabilities are not available when Channel Management is adopted without the dashboard.
     -   Pro+ customers can view a tab based dashboard layout with AI powered widgets Sentiment Analysis, Trending Topics, and Auto QA for Customer Signals and Quality Management. They can access the Operations Insights tab with widgets like Performance, Work Management, and Resource Management.
--   **Listen, Monitor or Barge in to an agent call**
+-   **[Listen, Monitor or Barge in to an agent call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/listen-agent-call-configurable-wfo-cs.md)**
 
     Monitor, coach, or barge into voice calls to
 
     -   Assist agents during live customer calls by opening the agent’s active phone interaction in Manager Workspace.
     -   Enable supervisors to silently monitor calls, whisper‑coach agents, join conversations, view real‑time transcription when the conversation panel is enabled, and switch modes or end the session at any time using the NVC utility panel.
--   **Manager Workspace landing page**
+-   **[Manager Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-configurable-manager-workspace-dashboards-new.md)**
 
     Enable Manager dashboard to view the Help Request on the landing page.
 
     -   View the **Help Request** tab on the Manager Workspace landing page and in Conversation Monitoring list view.
     -   Segment Help Request interactions by different channel including Chat, Email, Messaging, Phone and Video.
--   **Channel Management in Workforce Optimization for Customer Service**
+-   **[Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/explore-channels-configurable-wfo-cs.md)**
     -   View the **Help Request** tab on the Channel Management landing page.
     -   Enable supervisors to open any active voice request to review context and take action by monitoring the live call, coaching the agent privately, or barging in to speak with both the agent and the customer.
 
 ## UI changes
 
--   **Manager Workspace landing page**
+-   **[Manager Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-configurable-manager-workspace-dashboards-new.md)**
 
     The following UI components have been added on the Manger Dashboard:
 
@@ -77,15 +77,15 @@ Install Workforce Optimization by requesting it from the ServiceNow Store. Visit
 
 ## Related ServiceNow applications and features
 
--   **Advanced Work Assignment**
+-   **[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md)**
 
     Automatically assign work items to your agents based on their availability, capacity, and skills using ServiceNow® Advanced Work Assignment.
 
--   **Skills Management**
+-   **[Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skills-management.md)**
 
     Assess the skills that your organization needs, identify gaps, and plan for the hiring and training of your teams using ServiceNow® Skills Management.
 
--   **CSM Workspaces**
+-   **[CSM Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)**
 
     Agents can swap shifts, manage their time-off requests and approvals, and complete assigned training using ServiceNow® CSM Agent Workspace.
 

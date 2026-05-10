@@ -65,7 +65,7 @@ Topic
 
 </td><td>
 
-The name of the probe the MID server ran. If you are using a pattern for discovery, the Horizontal Pattern probe Horizontal Pattern probe appears.
+The name of the probe the MID server ran. If you are using a pattern for discovery, the [Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-HorizontalPatternProbe.md) [Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-HorizontalPatternProbe.md) appears.
 
 </td></tr><tr><td>
 

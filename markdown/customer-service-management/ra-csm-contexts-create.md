@@ -120,7 +120,7 @@ Search Application Configuration \(Optional\)
 
 </td><td>
 
-Search application configuration that specifies AI Search as the search engine and the settings to use for the search.You can configure the search result display and refinement settings in the search application configuration. For more information, see Search application configurations.
+Search application configuration that specifies AI Search as the search engine and the settings to use for the search.You can configure the search result display and refinement settings in the search application configuration. For more information, see [Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-app-cfgs-ais.md).
 
 The **\[CSM AIS\] Configurable Workspace Search Config** search application configuration is provided with the CSM Configurable Workspace store application. To access this configuration, navigate to **AI Search** &gt; **Search Experience** &gt; **Search Applications**.
 

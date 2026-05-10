@@ -28,7 +28,7 @@ Role required: admin
     -   Guidewire ClaimCenter
     -   Guidewire PolicyCenter
     -   Guidewire ContactManager
-    Select one of these connections and follow the instructions described in Set up the Guidewire spoke to update the connection configuration.
+    Select one of these connections and follow the instructions described in [Set up the Guidewire spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-guidewire-spoke.md) to update the connection configuration.
 
 3.  Select the **Subflows** tab.
 

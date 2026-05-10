@@ -24,11 +24,11 @@ Domain separation is supported in reporting and relates to report creation and a
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Activation
 
-To activate the domain separation plugin, see Request domain separation.
+To activate the domain separation plugin, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md).
 
 ## How domain separation works in Reporting
 
@@ -50,7 +50,7 @@ Activate the domain separation plugin to enable reports to display content based
 **Related topics**  
 
 
-[bundle-psec.domain-separated-apps]
+[Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md)
 
-[bundle-psec.c_DomainSeparation]
+[Understanding domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md)
 

@@ -143,7 +143,7 @@ ITIL user
 
 </td><td>
 
-Base system roles
+[Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md)
 
 </td><td>
 
@@ -155,7 +155,7 @@ Administrator
 
 </td><td>
 
-Base system roles
+[Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md)
 
 </td><td>
 

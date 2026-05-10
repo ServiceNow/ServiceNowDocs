@@ -81,7 +81,7 @@ Level of identification of how quickly the service desk should address the task.
 
 -   This field is read-only and is auto-populated based on the values defined in **Urgency** and **Impact**.
 -   When updating **Urgency** and **Impact**, you must add the work notes. In such case, the value in this field is updated based on the modified the **Urgency** and **Impact** values.
-For more information on configuring the auto-populated values, see Configure auto-fill inputs on input form screens.
+For more information on configuring the auto-populated values, see [Configure auto-fill inputs on input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-autofil-inputs-nptfrmscrn.md).
 
 </td></tr><tr><td>
 

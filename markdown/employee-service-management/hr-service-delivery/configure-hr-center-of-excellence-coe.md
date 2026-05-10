@@ -25,7 +25,7 @@ Deactivate COEs manually on all your environments, if your company:
 -   Wants to deactivate COEs.
 -   Has multiple environments and you're using system update sets to update changes.
 
-    **Note:** System update sets capture deactivation in one environment, but after a patch or upgrade, COEs are active in your other environments. See System update sets.
+    **Note:** System update sets capture deactivation in one environment, but after a patch or upgrade, COEs are active in your other environments. See [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md).
 
 
 ## Procedure

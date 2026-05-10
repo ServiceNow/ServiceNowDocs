@@ -35,10 +35,10 @@ The integration imports different hardware assets into the ServiceNow® Configur
 
 The following are examples on how you can use the Service Graph Connector for different ServiceNow applications:
 
--   IT Operations Management \(ITOM\) Visibility
+-   [IT Operations Management \(ITOM\) Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/itom-visibility-landing-page.md)
     -   Detailed hardware and application inventory for Android, Apple, and Windows mobile devices. The inventory can be used with or without Software Asset Management \(SAM\).
     -   Compliance tracking for mobile devices. You can build your own device \(BYOD\) or use corporate-owned devices.
--   IT Service Management \(ITSM\)
+-   [IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_ITServiceManagement.md)
     -   Incident, problem, change on discovered configuration items \(CI\).
     -   Ownership tracking and assignment for mobile devices.
 

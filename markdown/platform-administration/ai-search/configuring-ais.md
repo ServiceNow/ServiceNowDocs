@@ -88,7 +88,7 @@ Optionally configure exact-match global searches that only match results from a 
 
 Guided setup provides a sequence of tasks that help you configure AI Search on your ServiceNow instance. To open AI Search guided setup, navigate to **All** &gt; **AI Search** &gt; **Guided Setup**.
 
-For more information about using the guided setup interface, see Using guided setup.
+For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 -   **[Assign roles to AI Search administrators and users](../task/assign-ais-admin-role.md)**  
 Grant users the ais\_admin, ais\_external\_content, ais\_high\_security\_admin, and search\_application\_admin roles so they can configure and manage settings and content for AI Search and search applications.

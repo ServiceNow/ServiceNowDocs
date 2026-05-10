@@ -15,7 +15,7 @@ breadcrumb: [Incident Management in Service Operations Workspace reference, Inci
 
 Several types of components are installed with activation of the Remedial Actions Framework \(com.snc.sn\_reacf\) application, including user roles and tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 ## Roles installed
 
@@ -144,7 +144,7 @@ Remedial action execution\[sn\_reacf\_remedial\_action\_execution\]
 List of execution records that are created for each remedial action when executed. The record is used to track the progress and maintain the information. The record includes information such as executed remedial action, parameter values, action execution record, parent record, target record, current state, user who executed the remedial action and origin.**Note:** This table is read only.
 
 </td></tr></tbody>
-</table>**Note:** Deny unless ACLs are added to all the tables. The Deny unless ACLs restrict access for a non-authenticated user, such as a public role user. Without access, the user can't perform any actions on the tables related to the mentioned applications, such as reading, writing, deleting, creating, or accessing the report view. For more information on Deny-Unless ACLs and enhanced security model adoption features, see Deny-Unless ACL and [Features of enhanced security model adoption for incident tables](../../incident-management/reference/comp-instal-itsm-enhanced-sec-features.md).
+</table>**Note:** Deny unless ACLs are added to all the tables. The Deny unless ACLs restrict access for a non-authenticated user, such as a public role user. Without access, the user can't perform any actions on the tables related to the mentioned applications, such as reading, writing, deleting, creating, or accessing the report view. For more information on Deny-Unless ACLs and enhanced security model adoption features, see [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/acl-denial-behavior.md) and [Features of enhanced security model adoption for incident tables](../../incident-management/reference/comp-instal-itsm-enhanced-sec-features.md).
 
 **Parent Topic:**[Incident Management in Service Operations Workspace reference](../concept/sow-im-reference.md)
 

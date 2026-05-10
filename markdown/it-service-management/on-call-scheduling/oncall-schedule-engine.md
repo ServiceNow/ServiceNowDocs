@@ -6,7 +6,7 @@ release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: concept
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Exploring On-Call Scheduling, On-Call Scheduling, IT Service Management]
 ---

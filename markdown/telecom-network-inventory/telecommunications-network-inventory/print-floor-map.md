@@ -96,7 +96,7 @@ Size of the place label text on the map.
 
 10. Select the paper size and orientation from the Print Layout panel.
 
-    For more information about the options, see Map printing options.
+    For more information about the options, see [Map printing options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/map-printing-options.md).
 
 11. In the preview area, zoom and drag the map based on your requirement.
 
@@ -104,7 +104,7 @@ Size of the place label text on the map.
 
 12. Configure the options in the Print Layout panel.
 
-    For a description of the field values, see Map printing options.
+    For a description of the field values, see [Map printing options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/map-printing-options.md).
 
 13. Select **Print**.
 

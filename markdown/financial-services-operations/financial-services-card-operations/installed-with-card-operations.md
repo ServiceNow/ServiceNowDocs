@@ -15,7 +15,7 @@ breadcrumb: [Reference, Card Operations, Banking applications, Financial Service
 
 Several types of components are installed with the installation of the Financial Services Card Operations application, including tables and user roles. The application also installs related plugins and store applications if they are not already installed.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 Demo data is available for this application.
 
@@ -44,7 +44,7 @@ Enables the extension of tables from the Customer Service Management application
 |-----------------|-----------|
 |Financial Services Operations Core|Stores the customer data that is needed to make credit card requests. For more information, see [Financial Services Operations Core](../../fso-common/reference/financial-services-operations-core-data-model.md).|
 |Financial Services Credit Operations|Enables management of Credit Risk Assessment tasks that are used in the card operations workflows. For more information, see [Components installed with Financial Services Credit Operations](../../fso-common/reference/installed-with-credit-assessment.md).|
-|Guided Decisions Experience|Allows customers to use Guided Decisions with Playbooks, Recommended Actions, and other features. For more information, see Configuring Guided Decisions|
+|Guided Decisions Experience|Allows customers to use Guided Decisions with Playbooks, Recommended Actions, and other features. For more information, see [Configuring Guided Decisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-guided-decisions.md)|
 |Document Processor|Enables management of document services tasks that are used in card operations workflows. For more information, see [Integrating with Document Processor](../../fso-common/concept/integrating-with-document-processor.md).|
 
 ## Roles installed

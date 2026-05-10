@@ -82,7 +82,7 @@ Encoded query string for a query that Catalog Item records must satisfy to be el
 
  Changes to this system property's value don't take effect until you reindex content from the Catalog Item Table indexed source and indexed sources for other tables that extend the Catalog Item \[sc\_cat\_item\] table. For details on reindexing content from indexed sources, see [Perform a full table index or reindex for a single AI Search indexed source](../task/index-single-source-ais.md) and [Perform a full table index or reindex for multiple AI Search indexed sources](../task/index-multiple-sources-ais.md)
 
- For additional details on indexing of content from catalog variables, see [Activate indexing of catalog variable content on Catalog Item records](../task/activate-catalog-variable-indexing.md) and [Variable types supported by AI Search indexing](variable-types-ais-index.md). To learn about encoded query strings, see Encoded query strings.
+ For additional details on indexing of content from catalog variables, see [Activate indexing of catalog variable content on Catalog Item records](../task/activate-catalog-variable-indexing.md) and [Variable types supported by AI Search indexing](variable-types-ais-index.md). To learn about encoded query strings, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 </td></tr><tr><td>
 
@@ -177,7 +177,7 @@ Option to allow indexing of searchable content from role-restricted catalog vari
 
  Changes to this system property's value don't take effect until you reindex content from the Catalog Item Table indexed source and indexed sources for other tables that extend the Catalog Item \[sc\_cat\_item\] table. For details on reindexing content from indexed sources, see [Perform a full table index or reindex for a single AI Search indexed source](../task/index-single-source-ais.md) and [Perform a full table index or reindex for multiple AI Search indexed sources](../task/index-multiple-sources-ais.md)
 
- For additional details on indexing of content from catalog variables, see [Activate indexing of catalog variable content on Catalog Item records](../task/activate-catalog-variable-indexing.md) and [Variable types supported by AI Search indexing](variable-types-ais-index.md). To learn about encoded query strings, see Encoded query strings.
+ For additional details on indexing of content from catalog variables, see [Activate indexing of catalog variable content on Catalog Item records](../task/activate-catalog-variable-indexing.md) and [Variable types supported by AI Search indexing](variable-types-ais-index.md). To learn about encoded query strings, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 </td></tr><tr><td>
 
@@ -196,7 +196,7 @@ Option to allow indexing of searchable content from globally accessible catalog 
 
  Changes to this system property's value don't take effect until you reindex content from the Catalog Item Table indexed source and indexed sources for other tables that extend the Catalog Item \[sc\_cat\_item\] table. For details on reindexing content from indexed sources, see [Perform a full table index or reindex for a single AI Search indexed source](../task/index-single-source-ais.md) and [Perform a full table index or reindex for multiple AI Search indexed sources](../task/index-multiple-sources-ais.md)
 
- For additional details on indexing of content from catalog variables, see [Activate indexing of catalog variable content on Catalog Item records](../task/activate-catalog-variable-indexing.md) and [Variable types supported by AI Search indexing](variable-types-ais-index.md). To learn about encoded query strings, see Encoded query strings.
+ For additional details on indexing of content from catalog variables, see [Activate indexing of catalog variable content on Catalog Item records](../task/activate-catalog-variable-indexing.md) and [Variable types supported by AI Search indexing](variable-types-ais-index.md). To learn about encoded query strings, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 </td></tr><tr><td>
 

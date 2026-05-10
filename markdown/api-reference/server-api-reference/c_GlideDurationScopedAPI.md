@@ -180,7 +180,7 @@ String
 
 </td><td>
 
-Duration format.Format: Global date and time field format
+Duration format.Format: [Global date and time field format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_FormatDateAndTimeFields.md)
 
 </td></tr></tbody>
 </table>|Type|Description|

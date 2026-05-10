@@ -15,7 +15,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The MLPredictor API provides utility methods for Predictive Intelligence predictions.
 
-**Note:** This API has been deprecated and is intended to be removed in a future release. Refer to Using ML APIs for the most recent guidelines.
+**Note:** This API has been deprecated and is intended to be removed in a future release. Refer to [Using ML APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/using-ml-apis.md) for the most recent guidelines.
 
 The MLPredictor API requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) and is provided within the `sn_ml` namespace.
 

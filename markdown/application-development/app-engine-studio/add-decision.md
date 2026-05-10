@@ -63,7 +63,7 @@ Scopes that can use the decision table. Available values are as follows:-   **Al
 
 ## What to do next
 
-After you create the decision table, you must edit it to specify inputs and triggers. For more information on editing decision tables, see Modify decision table structure in Workflow Studio.
+After you create the decision table, you must edit it to specify inputs and triggers. For more information on editing decision tables, see [Modify decision table structure in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/format-decision-table-in-decision-designer.md).
 
 <table id="table_m51_zrm_jtb-2"><thead><tr><th>
 

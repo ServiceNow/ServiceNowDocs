@@ -4,7 +4,7 @@ description: Install the PRM \(com.snc.partner\_relationship\_management\) appli
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 2
 breadcrumb: [Configure, Sales Customer Relationship Management]
 ---

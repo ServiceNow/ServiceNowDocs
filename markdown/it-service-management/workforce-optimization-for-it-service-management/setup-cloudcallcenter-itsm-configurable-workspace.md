@@ -19,7 +19,7 @@ Set up phone queues for Amazon Connect to gain visibility into the queues using 
 
 Enable the Advanced Work Assignment plugin \(com.glide.awa\) to create the Amazon Connect queues. You must activate this plugin before you activate the Cloud Call Center Core \(sn\_cti\_core\) plugin so that you can successfully integrate the two applications.
 
-After you install the Cloud Call Center applications, when you enable the Advanced Work Assignment plugin \(com.glide.awa\), the Amazon Connect \(phone\) service channel appears in the Workforce Optimization for ITSM.
+After you [install the Cloud Call Center applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/install-ccc-apps.md), when you enable the Advanced Work Assignment plugin \(com.glide.awa\), the Amazon Connect \(phone\) service channel appears in the Workforce Optimization for ITSM.
 
 Role required: sn\_wfo\_cfg\_ws.admin or sn\_cti\_amzn\_cct.admin
 
@@ -52,7 +52,7 @@ A routing profile links queues to agents. Every agent must have a routing profil
 
 1.  Create placeholder queues for an Amazon Connect \(phone\) service channel if you need additional queues.
 
-    For more information on creating a queue, see Create a work item queue.
+    For more information on creating a queue, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-queue.md).
 
     **Note:** Do not add work item routing conditions when you create placeholder queues.
 

@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The Search retrieval tool is configured to use the \[CSM AIS\] Configurable Workspace Search Config AI search profile. By default, this profile is linked to the Case and Knowledge search sources, which are defined in the \[CSM AIS\] Case and Knowledge Table indexed sources. For more information, see Indexed sources in AI Search.
+The Search retrieval tool is configured to use the \[CSM AIS\] Configurable Workspace Search Config AI search profile. By default, this profile is linked to the Case and Knowledge search sources, which are defined in the \[CSM AIS\] Case and Knowledge Table indexed sources. For more information, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-sources-ais.md).
 
 ## Procedure
 
@@ -30,21 +30,21 @@ The Search retrieval tool is configured to use the \[CSM AIS\] Configurable Work
 
 2.  On the form, fill in the **Name**, **Source**, and **Retention Policy** fields and select **Submit**.
 
-    For a description of the field values, see Indexed Source form.
+    For a description of the field values, see [Indexed Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-source-form-ais.md).
 
 3.  In the Semantic Index Configuration related list, select **New** and fill in the details as needed.
 
-    For a description of the field values, see Semantic Index Configuration form.
+    For a description of the field values, see [Semantic Index Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/semantic-index-configuration-form.md).
 
 4.  In the Semantic Index Fields related list, select **New** and add the fields of the table that you want included in your search.
 
-    For a description of the field values, see Semantic Index Field form.
+    For a description of the field values, see [Semantic Index Field form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/semantic-index-field-form.md).
 
 5.  Navigate to **All** &gt; **AI Search Sources** &gt; **New**.
 
 6.  On the form, fill in the **Name**, **Indexed Source**, and **Conditions** fields.
 
-    For a description of the field values, see Search Source form.
+    For a description of the field values, see [Search Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-source-form-ais.md).
 
 7.  Navigate to **All** &gt; **AI Search** &gt; **Search Profile** &gt; **New**.
 
@@ -60,7 +60,7 @@ The Search retrieval tool is configured to use the \[CSM AIS\] Configurable Work
 
 13. In the Edit search retrieval window, add the previously created indexed source into **Search sources** and then specify what to search for in the **Fields returned** and **Semantic index fields**.
 
-    For a description of the field values, see Add a search retrieval to an AI agent.
+    For a description of the field values, see [Add a search retrieval to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-retriever-ai-agent.md).
 
 14. Select **Save**.
 

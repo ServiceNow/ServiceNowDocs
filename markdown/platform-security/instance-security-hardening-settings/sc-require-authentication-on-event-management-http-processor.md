@@ -102,7 +102,7 @@ References
 </td><td>
 
 -   [https://docs.aws.amazon.com/sns/latest/dg/welcome.html](https://docs.aws.amazon.com/sns/latest/dg/welcome.html)
--   Access control
+-   [Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/access-control.md)
 
 </td></tr><tr><td>
 

@@ -4,7 +4,7 @@ description: Identify and block offensive messages that are sent by human agents
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 2
 breadcrumb: [Configure, Now Assist AI agents, Enable AI experiences]
 ---

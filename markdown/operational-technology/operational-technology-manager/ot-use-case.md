@@ -30,7 +30,7 @@ The numbers in this figure correspond to the CSDM tables managed by Incident Man
 ## CSDM tables used by Operational Technology
 
 1.  OT devices:
-    1.  Configuration Item classes were created for Operational Technology hardware classes \(cmdb\_ci\_ot\) by extending hardware. See Operational Technology \(OT\) extension classes for details.
+    1.  Configuration Item classes were created for Operational Technology hardware classes \(cmdb\_ci\_ot\) by extending hardware. See [Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-operation-technology.md) for details.
     2.  Any CI Class \(any relevant existing hardware class as well as new OT classes can be designated as OT devices by adding OT device details using the OT Device Details \(cmdb\_ot\_entity\) reference to the cmdb\_ot\_entity table. OT Device Details include OT-specific characteristics like Purdue Level and OT device type.
     3.  OT device types describe the function of any CI that automates an industrial or production process. The cmdb\_ot\_entity\_type table describes these functions or roles.
 

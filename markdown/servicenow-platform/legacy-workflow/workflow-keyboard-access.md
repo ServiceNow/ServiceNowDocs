@@ -15,7 +15,7 @@ breadcrumb: [Workflow editor, Classic Workflow, ServiceNow AI Platform Additiona
 
 The platform includes accessibility features that makes the interface accessible to users with disabilities.
 
-These features improve the user experience when accessing platform functions with Using accessibility features. In general, you use the following set of standard keyboard navigation functions:
+These features improve the user experience when accessing platform functions with [Using accessibility features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/keyboard-accessibility.md). In general, you use the following set of standard keyboard navigation functions:
 
 -   Press **Tab** to navigate major groupings in a pre-defined sequence. This usually includes moving between standard interface controls \(fields and lists\) in a module, or between records within a tab.
 

@@ -15,13 +15,13 @@ Invoke or call a flow that is available in Workflow Studio by using the InvokeFl
 
 ## Before you begin
 
-To understand more about flows in Workflow Studio, see Building flows.
+To understand more about flows in Workflow Studio, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md).
 
 Before you use any Flow Designer component, use the Connection Manager to make sure that you're connected to the instance. For more information about how to connect to an instance, [Connect to an RPA Hub instance from RPA Desktop Design Studio](connect-studio-instance-rpa.md).
 
 Enable the client callable option on an RPA Hub flow or subflow. For more information, see [Enable the client callable option on a flow or subflow in RPA Hub](enable-client-flow-rpa.md).
 
-Role required: fd\_read role. For more information on this role, see User access to Workflow Studio flows.
+Role required: fd\_read role. For more information on this role, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/user-access-flow-designer.md).
 
 ## About this task
 

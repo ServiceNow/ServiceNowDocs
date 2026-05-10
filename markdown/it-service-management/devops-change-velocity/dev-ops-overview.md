@@ -15,7 +15,7 @@ breadcrumb: [Explore, DevOps Change Velocity, IT Service Management]
 
 Get an overview of how DevOps Change Velocity integrates with your external DevOps toolchain and the tools supported for this integration.
 
-The DevOps Change Velocity integration with external tools is achieved by exposing REST endpoints to receive webhook notifications or direct REST calls from these tools in real-time. Additionally, DevOps Change Velocity enables importing of data from these tools using polling. DevOps API enables integration with any coding, planning, or orchestration tools. For more information, see DevOps API.
+The DevOps Change Velocity integration with external tools is achieved by exposing REST endpoints to receive webhook notifications or direct REST calls from these tools in real-time. Additionally, DevOps Change Velocity enables importing of data from these tools using polling. DevOps API enables integration with any coding, planning, or orchestration tools. For more information, see [DevOps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/devops-api.md).
 
 ## Supported tools
 

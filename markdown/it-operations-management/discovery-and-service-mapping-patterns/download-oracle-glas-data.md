@@ -168,7 +168,7 @@ Defines the maximum overall payload size for the payload of results that come fr
  Default value: 300000
 
 </td></tr></tbody>
-</table>If you receive an SSH timeout error, you must create and set the following properties. See "Create a MID Server property" in MID Server Properties for details.
+</table>If you receive an SSH timeout error, you must create and set the following properties. See "Create a MID Server property" in [MID Server Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md) for details.
 
 <table id="table_x43_2gc_ddc"><thead><tr><th>
 

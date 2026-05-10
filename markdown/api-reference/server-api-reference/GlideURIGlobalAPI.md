@@ -19,8 +19,8 @@ The GlideURI API provides methods to handle URI parameters in a global applicati
 
 For more information on using URIs:
 
--   Navigate by URL
--   Navigation stack
+-   [Navigate by URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/navigate-using-url.md)
+-   [Navigation stack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_NavigationStack.md)
 
 See also [Action - getGlideURI\(\)](../../Action/concept/ActionAPIBoth.md#).
 
@@ -188,7 +188,7 @@ To use the set\(\) method in a scoped application, use the corresponding scoped 
 
 Adds the **sysparm\_view** parameter to the query with the named view.
 
-A view defines the elements that appear when a user opens a form or a list. The **sysparm\_view** parameter specifies the view to be used for a list or a form. For more information on views, see View management.
+A view defines the elements that appear when a user opens a form or a list. The **sysparm\_view** parameter specifies the view to be used for a list or a form. For more information on views, see [View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-management-overview.md).
 
 See also:
 

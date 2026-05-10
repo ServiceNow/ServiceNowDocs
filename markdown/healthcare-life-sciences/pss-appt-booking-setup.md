@@ -21,7 +21,7 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 
 In the Patient Support Services application, an appointment is booked for scheduling training requests included within a program service. For completing a program service item, a program task is created in the application.
 
-The Patient Support Services application uses the Appointment Booking plugin \(com.snc.appointment\_booking\) to create an appointment record in the Appointment \[sn\_hcls\_appointment\] table. The appointment record is created for a program task that requires appointment booking. The plugin is automatically activated after your administrator installs the Patient Support Services application. For more information about the Appointment Booking feature, see Appointment booking components.
+The Patient Support Services application uses the Appointment Booking plugin \(com.snc.appointment\_booking\) to create an appointment record in the Appointment \[sn\_hcls\_appointment\] table. The appointment record is created for a program task that requires appointment booking. The plugin is automatically activated after your administrator installs the Patient Support Services application. For more information about the Appointment Booking feature, see [Appointment booking components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appointment-booking-components.md).
 
 As a user with the sn\_patientservice.admin role, you configure the following appointment booking settings:
 
@@ -50,7 +50,7 @@ Starting with the Yokohama release, Patient Support Services is being prepared f
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-Set the application scope to Patient Support Services using the application picker. For more information, see Application picker.
+Set the application scope to Patient Support Services using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: sn\_patientservice.admin
 
@@ -268,7 +268,7 @@ Holiday schedule to use when determining appointment availability.
 
  Click the lookup icon \(![Lookup using list icon.](../image/lookup-using-list.png)\) and select a schedule from the Schedules list.
 
- The appointment booking feature evaluates the holiday schedule when determining the number of available appointments and excludes any day in the schedule that is set to **Exclude**. For more information, see Holidays.
+ The appointment booking feature evaluates the holiday schedule when determining the number of available appointments and excludes any day in the schedule that is set to **Exclude**. For more information, see [Holidays](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_Holidays.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -613,5 +613,5 @@ By default, the **Program service appointment** record producer is available for
 
 As an administrator, you can include the record producer for appointment booking in a service  catalog and display the service  catalog  as a module on a patient portal. Patients can then use the module to book appointments for a training request.
 
-For more information, see Record Producer and Set up a service catalog . 
+For more information, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md) and [Set up a service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_SetUpAServiceCatalog.md) . 
 

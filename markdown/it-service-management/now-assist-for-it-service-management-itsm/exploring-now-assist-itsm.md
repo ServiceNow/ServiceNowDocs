@@ -137,7 +137,7 @@ The Now Assist for ITSM application includes the generative AI skills and featur
 
 ## Now Assist panel in Service Operations Workspace for ITSM
 
-An agent can use the Now Assist panel in Service Operations Workspace for ITSM. This conversational interface enables an agent to request a chat summary or incident summary and generate the incident resolution notes. For more information about the Now Assist panel, see Now Assist panel.
+An agent can use the Now Assist panel in Service Operations Workspace for ITSM. This conversational interface enables an agent to request a chat summary or incident summary and generate the incident resolution notes. For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 -   **[Supporting information for Now Assist for IT Service Management \(ITSM\)](supporting-information-now-assist-itsm.md)**  
 Get a quick overview of the important information that is related to the Now Assist for IT Service Management \(ITSM\) application.
@@ -147,5 +147,5 @@ Get a quick overview of the important information that is related to the Now Ass
 **Related topics**  
 
 
-[bundle-platai.exploring-now-assist-platform]
+[Exploring Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-platform.md)
 

@@ -40,7 +40,7 @@ Role required: sn\_skill\_builder.admin
 
 6.  If the skill is deployed as a flow, disable the system property com.glide.oneapi.fdih.async.quick.mode, and then enable flow reporting.
 
-    This property allows the generation of flow execution details when running flows, subflows, and actions from a custom skill. You can use flow execution details to test and troubleshoot your flow, subflow, or action. For more information about the system property, see Workflow Studio flow system properties.
+    This property allows the generation of flow execution details when running flows, subflows, and actions from a custom skill. You can use flow execution details to test and troubleshoot your flow, subflow, or action. For more information about the system property, see [Workflow Studio flow system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-system-properties.md).
 
 7.  Refine the prompt if you want, and repeat testing as necessary.
 

@@ -19,5 +19,5 @@ Predictive Intelligence suggests related results to help you solve an issue or r
 
 The sources such as Similar Incidents, Similar Knowledge Articles, Similar Open Incidents, and Similar Resolved Incidents are available only when the Predictive Intelligence plugin \(com.glide.platform\_ml\) and the Predictive Intelligence for Contextual Search plugin \(com.snc.contextual\_search\_ml\) are active.
 
-For more information, see Predictive Intelligence.
+For more information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence-landing.md).
 

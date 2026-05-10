@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-For more information, refer Introduction to credentials, connections, and aliases.
+For more information, refer [Introduction to credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-connections-alias.md).
 
 ## Procedure
 

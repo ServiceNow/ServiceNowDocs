@@ -25,7 +25,7 @@ Role required: admin
 
 2.  Create a UI action.
 
-    For more information on creating UI actions, see Create a UI action.
+    For more information on creating UI actions, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md).
 
 3.  Add your script.
 

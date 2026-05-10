@@ -102,9 +102,9 @@ Add variables set to the record producer. To learn more, see [Add variable set t
 **Related topics**  
 
 
-[bundle-platcap.c_RecordProducer]
+[Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md)
 
-[bundle-platcap.c_ServiceCatalogVariables]
+[Service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogVariables.md)
 
 [Configuring Design and Assign function for your network services](../concept/configure-playbooks-design-assign-function.md)
 

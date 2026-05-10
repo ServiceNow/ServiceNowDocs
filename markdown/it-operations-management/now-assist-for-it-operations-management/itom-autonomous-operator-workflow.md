@@ -29,7 +29,7 @@ For information on how to review key insights and data derived from the workflow
 
 For information about configuring this workflow, see [Configure the manage alerts autonomously agentic workflow](../task/configure-manage-alerts-autonomously-workflow.md).
 
-Use the information on this page to learn about the actions related to the manage alerts autonomously agentic workflow. To modify the workflow, you must duplicate it and adjust the settings according to your requirements. For more information, see Duplicate an agentic workflow.
+Use the information on this page to learn about the actions related to the manage alerts autonomously agentic workflow. To modify the workflow, you must duplicate it and adjust the settings according to your requirements. For more information, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md).
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
@@ -70,5 +70,5 @@ The manage alerts autonomously agentic workflow performs several actions in the 
         -   summaries of Service Observability dashboards to provide health analysis of each service associated with an alert. For more information see, [Analyze service health in Service Observability](analyze-service-health-in-service-observability.md).
     -   Provides clear, actionable insights
 
-**Important:** This agentic workflow is turned on by default. For more information, see Now Assist skills, agents, and agentic workflows on by default.
+**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 

@@ -48,15 +48,15 @@ These Request Management summarization skills provide you with concise summaries
 
 3.  When you're finished summarizing a record, you can add the summary to your work notes, copy it, or provide feedback.
 
-<table id="choicetable_h4z_krw_53c"><thead><tr><th align="left" id="d389482e195">
+<table id="choicetable_h4z_krw_53c"><thead><tr><th align="left" id="d389507e195">
 
 Option
 
-</th><th align="left" id="d389482e198">
+</th><th align="left" id="d389507e198">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d389482e204">
+</th></tr></thead><tbody><tr><td id="d389507e204">
 
 **Add summary to work notes**
 
@@ -67,7 +67,7 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d389482e231">
+</td></tr><tr><td id="d389507e231">
 
 **Expand or collapse**
 
@@ -75,7 +75,7 @@ Procedure
 
 Select the expand card icon \(![expand card icon.](../image/icon-expand.png)\) to view the complete summary. Select the collapse card icon \(![collapse card icon.](../image/icon-collapse.png)\) to view a collapsed summary.
 
-</td></tr><tr><td id="d389482e254">
+</td></tr><tr><td id="d389507e254">
 
 **Provide feedback**
 
@@ -83,7 +83,7 @@ Select the expand card icon \(![expand card icon.](../image/icon-expand.png)\) t
 
 If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../image/icon-helpful.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d389482e277">
+</td></tr><tr><td id="d389507e277">
 
 **Copy summary**
 
@@ -91,7 +91,7 @@ If you think that the summary was helpful, select the helpful icon \(![Helpful i
 
 If you want to reuse the summary, select the copy to clipboard icon \(![Copy to clipboard icon.](../image/icon-copy.png)\).
 
-</td></tr><tr><td id="d389482e293">
+</td></tr><tr><td id="d389507e293">
 
 **View more information about the summary**
 

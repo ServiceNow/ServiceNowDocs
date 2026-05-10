@@ -15,7 +15,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Sales Agreement API provides methods for creating a new sales agreement and retrieving an existing sales agreement of a given sys\_id.
 
-This API works with data in the Sales Agreement Management application, which managers, agents, and administrators use to generate sales agreements from quotes.
+This API works with data in the [Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-agreement-mgmt.md) application, which managers, agents, and administrators use to generate sales agreements from quotes.
 
 The Sales Agreement API runs in the sn\_sales\_agmt\_core  namespace and requires three plugins to access it:
 

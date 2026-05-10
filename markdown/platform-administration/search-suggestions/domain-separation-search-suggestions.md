@@ -20,7 +20,7 @@ Domain separation is unsupported in the Search Suggestions application. Domain s
 -   The domain field may exist on data tables but there is no business logic to manage the data.
 -   This level is not considered domain-separated.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Search Suggestions domain separation overview
 
@@ -33,5 +33,5 @@ By default, Search Suggestions results are limited to the specific domain of the
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

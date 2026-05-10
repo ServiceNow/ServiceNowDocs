@@ -17,7 +17,7 @@ A bundled model is a single model comprised of individual models. For example, a
 
 Bundled model is a template to define the kind of assets that would be a part of asset bundles. To maintain the integrity between asset bundles and bundled models, select the **Bundle assets** check box in the Product Model form layout. Once you select the check box, the status of the bundled model defaults to **Build**. While the status is in build, you can add make changes to the bundled model. Once you change the status to **In Production**, no changes can be made to the bundled model. Now that the bundled model is read-only, you can create asset bundles out of this bundled model. You can change the status of the bundled model back to **Build** only if there are no asset bundles associated with the bundled model.
 
-**Note:** The **Bundle assets** check box functionality is available only with the Hardware Asset Management licensable application. Hardware Asset Management is available in the ServiceNow Store. To view more information on the asset bundle functionality, see asset bundles.
+**Note:** The **Bundle assets** check box functionality is available only with the Hardware Asset Management licensable application. Hardware Asset Management is available in the ServiceNow Store. To view more information on the asset bundle functionality, see [asset bundles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-bundles-concept.md).
 
 Bundled models can be abstract or concrete.
 
@@ -59,9 +59,9 @@ You can publish bundled models to the product catalog to make the bundled models
 **Related topics**  
 
 
-[bundle-itam.t_ConsumingConsumableAssets]
+[Consume consumable assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_ConsumingConsumableAssets.md)
 
-[bundle-itam.t_CreatingPreAllocatedAssets]
+[Create pre-allocated assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_CreatingPreAllocatedAssets.md)
 
 [Model categories](c_ModelCategories.md)
 

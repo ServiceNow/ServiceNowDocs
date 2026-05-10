@@ -201,7 +201,7 @@ Non-monetary benefit that is associated to this monetary benefit plan.
     |-----|-----------|
     |Entered benefit|Benefit incurred from the epic specified in terms of entered currency.|
     |Entered currency|Currency in which you want the benefit plan to be created.|
-    |Functional currency|Currency that is obtained from the **glide.system.locale** property.|
+    |Functional currency|Currency that is obtained from the [**glide.system.locale** property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/currency-properties.md).|
     |Total planned benefit|Estimated amount of potential benefit of the epic.|
     |Benefit in functional currency|Benefit incurred from epic in terms of functional currency. The value in this field changes if the **Entered currency** is different from the functional currency.|
     |Actual benefit|Actual benefit that is incurred from the epic. This value is rolled up from the **Actual benefit** field of all the benefit plan breakdowns.|

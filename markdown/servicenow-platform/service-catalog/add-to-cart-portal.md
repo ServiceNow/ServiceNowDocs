@@ -112,5 +112,5 @@ Role required: requester
 
 [Request an order guide from Service Portal](request-order-guide-portal.md)
 
-[bundle-platux.sc-shopping-cart]
+[SC Shopping Cart widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-shopping-cart.md)
 

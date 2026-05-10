@@ -23,12 +23,12 @@ Admin Center offers easy access to a number of key applications administrators n
 
     **Note:** Adoption Blueprints platform feature is available by default with instance upgrade to Tokyo and above.
 
--   Now Assist Admin: The Now Assist Admin console provides you with quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist features and skills. See Overview tab in Now Assist Admin for more information.
+-   Now Assist Admin: The Now Assist Admin console provides you with quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist features and skills. See [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md) for more information.
 -   Application Manager: As an admin, you have the ability to install, update, and manage licensed applications and plugins on your instance using the Application Manager application. See [Application Manager](../../application-manager/concept/application-manager.md) for more information.
 
     **Note:** Application Manager store application is available by default with the instance upgrade of Vancouver and above.
 
--   Security Center: Use the Security Center application to help your organization maintain the security of your ServiceNow deployments. See Security Center for more information.
+-   Security Center: Use the Security Center application to help your organization maintain the security of your ServiceNow deployments. See [Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sec-center-v2.md) for more information.
 
     **Note:** Security Center is available by default from the Vancouver release and above with the instance upgrade. For the previous releases, you can install it from the ServiceNow store.
 

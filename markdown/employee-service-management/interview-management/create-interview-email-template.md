@@ -23,7 +23,7 @@ Role required: sn\_ta\_hiring\_core.recruiter or sn\_ta\_hiring\_core.recruitmen
 
 1.  Navigate to **All** &gt; **sys\_template.LIST** to create the template.
 
-    For more information on creating a template, see Create a template using the Template form.
+    For more information on creating a template, see [Create a template using the Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateATemplateUsingTheTmplForm.md).
 
 2.  On the template form, select the table as Job interview and the Template fields as **Meeting invite** and **Meeting subject**.
 

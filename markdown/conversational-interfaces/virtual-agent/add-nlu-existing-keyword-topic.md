@@ -55,7 +55,7 @@ Role required: virtual\_agent\_admin or admin
 
 8.  Select the **NLU Intent** tab, and then add utterances and associate entities with them.
 
-    For more information about adding utterances, see Create an NLU intent. For more information about defining entities, see Entities.
+    For more information about adding utterances, see [Create an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-nlu-intent.md). For more information about defining entities, see [Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/entities.md).
 
 9.  Make any other changes on the **Flow** tab, such as associating entities with a node or adding entities as input variables for the topic.
 

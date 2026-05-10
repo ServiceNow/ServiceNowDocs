@@ -33,7 +33,7 @@ When you create a network function record, it creates a corresponding configurat
 
 4.  On the form, fill in the fields.
 
-    To see a description of the fields, see Design &amp; Planning domain in the CSDM model.
+    To see a description of the fields, see [Design &amp; Planning domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/design-domain.md).
 
 5.  Select **Submit**.
 

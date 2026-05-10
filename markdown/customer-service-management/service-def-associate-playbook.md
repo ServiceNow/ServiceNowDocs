@@ -35,7 +35,7 @@ When the agent selects **Create Case** on the [case type selector screen](../con
 
 3.  Select a playbook record generator in the **Playbook record generator** field.
 
-    This field is a reference to the Playbook Experience Record Generator table \(sys\_playbook\_experience\_record\_generator\). For more information, see Playbook record generator
+    This field is a reference to the Playbook Experience Record Generator table \(sys\_playbook\_experience\_record\_generator\). For more information, see [Playbook record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-record-generator-overview.md)
 
 4.  Select **Update**.
 

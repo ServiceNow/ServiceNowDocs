@@ -34,7 +34,7 @@ Role required: admin
 
 ## What to do next
 
-For more information about assignment rules, see Defining assignment rules.
+For more information about assignment rules, see [Defining assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DefineAssignmentRules.md).
 
 **Parent Topic:**[Configuring Operational Technology Incident Management](../concept/configuring-operational-technology-incident-mgt.md)
 

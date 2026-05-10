@@ -17,7 +17,7 @@ The GeniusResultContext API provides methods for retrieving search query informa
 
 You can use search query details retrieved with this API to populate Genius Result answer objects created with the [GeniusResultAnswer](../../GeniusResultAnswerScoped/concept/GeniusResultAnswerScopedAPI.md#) API.
 
-Use this API in Genius Result server-side scripts with the `sn_ais` namespace identifier. For more information on scripting logic for Genius Results, see Create a new Genius Result configuration.
+Use this API in Genius Result server-side scripts with the `sn_ais` namespace identifier. For more information on scripting logic for Genius Results, see [Create a new Genius Result configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-genius-results-config-ais.md).
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 
@@ -134,7 +134,7 @@ URL for the search result document.
 
 </td><td>
 
-The child class that the search result document belongs to. For more information on table child classes, see Table extension and classes.
+The child class that the search result document belongs to. For more information on table child classes, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/table-extension-and-classes.md).
 
  Data type: String
 

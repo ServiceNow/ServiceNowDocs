@@ -81,13 +81,13 @@ Software Asset Workspace
 
     4.  On the Create a report form, set **Group by** to **Last activity** and select **Run**.
 
-        For more information, see Create a report.
+        For more information, see [Create a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_CreateYourOwnReport.md).
 
         The report visualization automatically updates to display filtered software subscriptions grouped by last activity in bar chart form.
 
     5.  Point to any bar in the chart to view additional details and select a bar to view the individual records that comprise it.
 
-        For more information about using reports, see Using reporting.
+        For more information about using reports, see [Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_GenerateReports.md).
 
 3.  Find Software Asset Management optimization recommendations for Microsoft 365 based on subscription details, usage, and potential savings based on recommendation type.
 

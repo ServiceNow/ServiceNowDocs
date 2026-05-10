@@ -37,8 +37,8 @@ Users with the roles that are listed in the following table can use the Operatio
 
     |Task|User administration feature|
     |----|---------------------------|
-    |**Assign a role to a user**|See Assign a role to a user.|
-    |**Assign a role to a group**|See Assign a role to a group.|
+    |**Assign a role to a user**|See [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).|
+    |**Assign a role to a group**|See [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).|
 
 
 **Parent Topic:**[Configuring the Service Graph Connector for Microsoft Excel](../concept/configuring-service-graph-connector-for-excel.md)

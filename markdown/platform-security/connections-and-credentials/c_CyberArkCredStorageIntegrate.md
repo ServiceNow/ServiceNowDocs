@@ -56,8 +56,8 @@ ServiceNow AI Platform features that use these network protocols also support th
 
 |Network protocol|ServiceNow® Workflow Studio support|Orchestration support|
 |----------------|-----------------------------------|---------------------|
-|SOAP|SOAP Step|Create a SOAP web service activity with basic authentication overrides|
-|REST|REST Step|Create a REST web service activity with basic authentication overrides|
+|SOAP|SOAP Step|[Create a SOAP web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateASOAPWebServiceActivity.md) with basic authentication overrides|
+|REST|REST Step|[Create a REST web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateARESTWebServiceActivity.md) with basic authentication overrides|
 |JDBC|JDBC Step|JDBC activity|
 |SSH|SSH Step|SSH activity|
 |PowerShell|PowerShell Step|PowerShell activity|

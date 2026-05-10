@@ -28,7 +28,7 @@ To access the **User Search Metrics** tab, you must have the chat analytics admi
 
 ## AI Search
 
-Virtual Agent topics may use AI search to suggest helpful resources to the user. When a user enters a query, AI search provides the most relevant results by using intelligent query features. To know more about AI search, see AI Search . To integrate Virtual Agent with AI Search, see [Improving the user experience with AI Search](va-ai-search.md).
+Virtual Agent topics may use AI search to suggest helpful resources to the user. When a user enters a query, AI search provides the most relevant results by using intelligent query features. To know more about AI search, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md) . To integrate Virtual Agent with AI Search, see [Improving the user experience with AI Search](va-ai-search.md).
 
 ## Contextual Search
 

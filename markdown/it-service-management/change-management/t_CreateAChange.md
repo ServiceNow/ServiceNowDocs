@@ -31,7 +31,7 @@ If you use conflict detection, the planned start and end dates and the configura
 
 1.  Create the change request with one of these options.
 
-<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d183324e99">
+<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d183328e99">
 
 **From the Change module**
 
@@ -49,7 +49,7 @@ You can create all three types of change from the **Change** module.1.  Navigate
 -   **All**: All models are available to select.
 
 
-</td></tr><tr><td id="d183324e195">
+</td></tr><tr><td id="d183328e195">
 
 **From an incident or a problem**
 
@@ -59,7 +59,7 @@ As a user with the sn\_change\_write role, you can create a standard, normal, or
 2.  Right-click the form header and select **Create Normal Change**, **Create Standard Change**, or **Create Emergency Change**.
 
 
-</td></tr><tr><td id="d183324e222">
+</td></tr><tr><td id="d183328e222">
 
 **From an existing change record**
 
@@ -69,7 +69,7 @@ If the administrator enabled the change request copy option, you can create a ne
 2.  Select **Copy Change**.
  **Note:** If the create task workflow sets the **create\_from** field in the \[change\_task\] table to **workflow**, manually created tasks from the existing change record are copied.
 
-</td></tr><tr><td id="d183324e252">
+</td></tr><tr><td id="d183328e252">
 
 **From a change template**
 

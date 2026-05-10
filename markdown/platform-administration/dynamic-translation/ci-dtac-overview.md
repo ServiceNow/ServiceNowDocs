@@ -22,7 +22,7 @@ DTAC enables cross-locale support teams and merger and acquisition projects to s
 **Note:**
 
 -   DTAC is supported on Agent Workspace, not on Connect Support.
--   DTAC is currently not supported when autopilot is in progress. When the requester responds to prompts from autopilot topics, these responses are not translated for the agent, even if DTAC is turned on for that conversation. See Conversation Autopilot for more information.
+-   DTAC is currently not supported when autopilot is in progress. When the requester responds to prompts from autopilot topics, these responses are not translated for the agent, even if DTAC is turned on for that conversation. See [Conversation Autopilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-agent-chat-using.md) for more information.
 
 ## How DTAC works
 

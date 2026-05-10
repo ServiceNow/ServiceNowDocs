@@ -108,7 +108,7 @@ Functional impact
 This remediation enforces a combination of authentication methods, in the form of basic authentication and system level access control.-   It performs this authentication while importing data sources into the instance tables/pages.
 -   It restricts any guest users who are currently accessing this data. If applicable, you may need to create a new account for users who need access to this content, with necessary access control permissions.
 
- To learn more, see Retrieving data from a CSV formatted file.
+ To learn more, see [Retrieving data from a CSV formatted file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_RetrieveDataFromACSVFormatFile.md).
 
 </td></tr><tr><td>
 

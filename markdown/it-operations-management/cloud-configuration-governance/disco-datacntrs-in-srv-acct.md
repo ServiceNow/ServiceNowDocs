@@ -34,7 +34,7 @@ You can run Discovery on-demand.
 
 1.  Navigate to the Cloud Service Accounts \[cmdb\_ci\_cloud\_service\_account\_list\] table.
 
-    For more information on directly navigating to a table, see Navigate directly to a table.
+    For more information on directly navigating to a table, see [Navigate directly to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_NavigateDirectlyToATable.md).
 
 2.  Select the service account whose LDCs you want to discover.
 

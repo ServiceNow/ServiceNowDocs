@@ -124,7 +124,7 @@ Alpha-numeric profile identifier of the observation.
 
  The value is auto-generated and is incremented every time you add a new observation to your ServiceNow instance. The initial value for the **Number** field is OBSV00001001.
 
-**Note:** To customize the number, define the auto-numbering format for the Observation \[sn\_hcls\_observation\] table. For more information, see Add auto-numbering records in a table.
+**Note:** To customize the number, define the auto-numbering format for the Observation \[sn\_hcls\_observation\] table. For more information, see [Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AutoNumberingRecordsInATable.md).
 
 </td></tr><tr><td>
 

@@ -32,7 +32,7 @@ A data structure is a collection of related data elements organized into a hiera
     |---|---|
     |**Action or subflow input**|Click **Create Input**|
     |**Action or subflow output**|Click **Create Output**|
-    |**XML parser step**|See XML parser step|
+    |**XML parser step**|See [XML parser step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/xml-parser-step-action-designer.md)|
 
 2.  Set **Type** to **Object**.
 

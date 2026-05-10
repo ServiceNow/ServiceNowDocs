@@ -23,7 +23,7 @@ Generate outbound signing requests using these APIs in the following order:
 4.  HttpRequestAuthedData: Get information about the signed request.
 5.  GlideHTTPRequest: Send the signed request.
 
-Before using these APIs, you must configure an authentication algorithm to sign the request and associate it with the credential used to authenticate the request.
+Before using these APIs, you must [configure an authentication algorithm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/configure-authentication-algorithm.md) to sign the request and associate it with the credential used to authenticate the request.
 
 Use this API in scoped scripts with the `sn_auth` namespace identifier. You can instantiate this class using the constructor, or you can return an HttpRequestAuthedData object from the generateAuth\(\) method in the RequestAuthAPI class.
 
@@ -423,7 +423,7 @@ String
 
 </td><td>
 
-Message about the request signing. If the request signing fails, returns one of these error messages:-   `credential is not valid`: Check the AuthCredential object you used to sign the request. Make sure an authentication algorithm is associated with the credential. For more information, see Configure an authentication algorithm.
+Message about the request signing. If the request signing fails, returns one of these error messages:-   `credential is not valid`: Check the AuthCredential object you used to sign the request. Make sure an authentication algorithm is associated with the credential. For more information, see [Configure an authentication algorithm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/configure-authentication-algorithm.md).
 -   `Request data is empty. Request auth is skipped`: Check the HttpRequestData object because required information may be missing.
 -   `Can't find script includes scope`: Verify that the authentication algorithm record and associated script includes used to sign the request are in the correct scope.
 

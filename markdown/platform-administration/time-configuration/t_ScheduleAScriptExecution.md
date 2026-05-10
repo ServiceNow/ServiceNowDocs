@@ -90,7 +90,7 @@ Condition
 
 </td><td>
 
-A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. **Warning:** Conditional scripts for scheduled report emails and Performance Analytics data collection jobs are executed in the sandbox. Therefore, function definitions are not allowed. Some API calls and keywords are also not allowed.For more information, see Script sandbox evaluator.
+A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. **Warning:** Conditional scripts for scheduled report emails and Performance Analytics data collection jobs are executed in the sandbox. Therefore, function definitions are not allowed. Some API calls and keywords are also not allowed.For more information, see [Script sandbox evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-sandbox.md).
 
 After upgrade, jobs with conditional scripts that contain these disallowed API components finish with errors.
 
@@ -242,7 +242,7 @@ Name of the script to run at the scheduled date and time. For example, copy scri
 </td></tr></tbody>
 </table>5.  If Domain Separation is installed in this instance, the following fields also appear for selecting, sorting, and scheduling jobs by domain.
 
-    **Note:** The Domain Support - Domain Extensions Installer plugin installs these fields. To learn more, see Request domain separation.
+    **Note:** The Domain Support - Domain Extensions Installer plugin installs these fields. To learn more, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md).
 
 <table id="table_m2n_yyf_tlb"><thead><tr><th>
 
@@ -266,7 +266,7 @@ Domain source table
 
 </td><td>
 
-Name of the domain-separated table that is the source of the domains in which the scheduled job should run. For example, select **Department \(cmn\_department\)** if you want to use it as the source of the assigned domains used to schedule scripts. The scheduled job determines these domains from the sys\_domain field of the source table records. To learn more, see Domain assignment. **Note:** It's a good idea to create a domain-separated table solely dedicated to sourcing domains, unless you have a use case that warrants using an existing one. If you do create a new one, simply select it using this field.
+Name of the domain-separated table that is the source of the domains in which the scheduled job should run. For example, select **Department \(cmn\_department\)** if you want to use it as the source of the assigned domains used to schedule scripts. The scheduled job determines these domains from the sys\_domain field of the source table records. To learn more, see [Domain assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainAssignment.md). **Note:** It's a good idea to create a domain-separated table solely dedicated to sourcing domains, unless you have a use case that warrants using an existing one. If you do create a new one, simply select it using this field.
 
 </td></tr><tr><td>
 
@@ -275,7 +275,7 @@ Domain source filter
 </td><td>
 
 Optional condition you can specify to filter the records queried from the selected domain source table. 1.  Select the field to use for filtering records.
-2.  Add filtering conditions and operators to narrow the domain selection criteria. To learn more, see Filters.
+2.  Add filtering conditions and operators to narrow the domain selection criteria. To learn more, see [Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Filters.md).
 
 
 </td></tr></tbody>
@@ -302,5 +302,5 @@ Optional condition you can specify to filter the records queried from the select
 
 [Set a system time zone](../../time/task/t_SetASystemTimeZone.md)
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

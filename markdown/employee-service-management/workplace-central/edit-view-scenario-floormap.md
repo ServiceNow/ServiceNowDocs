@@ -52,15 +52,15 @@ Role required: sn\_wsd\_spcmgmt.space\_planner, sn\_wsd\_spcmgmt.scenario\_reade
 
 5.  Edit the scenario by using the floor map.
 
-<table id="choicetable_y3x_khj_3vb"><thead><tr><th align="left" id="d709473e217">
+<table id="choicetable_y3x_khj_3vb"><thead><tr><th align="left" id="d709477e217">
 
 Action
 
-</th><th align="left" id="d709473e220">
+</th><th align="left" id="d709477e220">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d709473e226">
+</th></tr></thead><tbody><tr><td id="d709477e226">
 
 **Zoom in or out on the map**
 
@@ -68,7 +68,7 @@ Description
 
 Use the zoom options \(![Zoom options.](../images/zoom-options.png)\) on the map.
 
-</td></tr><tr><td id="d709473e241">
+</td></tr><tr><td id="d709477e241">
 
 **Change the map to a different floor and building**
 
@@ -76,7 +76,7 @@ Use the zoom options \(![Zoom options.](../images/zoom-options.png)\) on the map
 
 Select a building and floor from the **Building** and **Floor** list options.
 
-</td></tr><tr><td id="d709473e256">
+</td></tr><tr><td id="d709477e256">
 
 **Share a floor**
 
@@ -93,7 +93,7 @@ A link to the floor is copied and can be shared with other space planners. Make 
 -   You can only share floors from scenario planning.
 
 
-</td></tr><tr><td id="d709473e297">
+</td></tr><tr><td id="d709477e297">
 
 **Select spaces based on a filter query**
 
@@ -102,7 +102,7 @@ A link to the floor is copied and can be shared with other space planners. Make 
 1.  On the Space details panel, select the filter icon \(![Filter icon.](../../../reuse/icons/product-icons/filter-outline-24.svg)\).
 2.  On the Filter spaces pop-up, add conditions to select the spaces based on your requirement.
 
-For example, `Space type is Room`. For more information about conditions, see Condition builder.
+For example, `Space type is Room`. For more information about conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 3.  Select **Apply**.
 
@@ -110,7 +110,7 @@ Spaces on the map are selected based on the conditions that you added.
 
  **Note:** You can select spaces only while editing a scenario.
 
-</td></tr><tr><td id="d709473e342">
+</td></tr><tr><td id="d709477e342">
 
 **View the details of a space**
 
@@ -122,7 +122,7 @@ The details of the selected spaces are displayed on the Space details panel sect
 
 **Note:** You can select spaces only while editing a scenario.
 
-</td></tr><tr><td id="d709473e358">
+</td></tr><tr><td id="d709477e358">
 
 **Edit the allocation of a space**
 
@@ -144,7 +144,7 @@ You can select multiple spaces by holding the Shift key. You can also hold the S
 5.  Select **Apply**, then save the scenario.
  **Note:** For Workplace Entities, if you add a parent and child entity as allocations, only the child entity is displayed on the map legend.
 
-</td></tr><tr><td id="d709473e439">
+</td></tr><tr><td id="d709477e439">
 
 **Edit the assignment type of a space**
 
@@ -159,7 +159,7 @@ You can select multiple spaces by holding the Shift key. You can also hold the S
 4.  Select **Apply**, then save the scenario.
 
 
-</td></tr><tr><td id="d709473e477">
+</td></tr><tr><td id="d709477e477">
 
 **Assign a user to a space**
 
@@ -177,7 +177,7 @@ You can also select multiple users.
 4.  Select **Apply**, then save the scenario.
 
 
-</td></tr><tr><td id="d709473e517">
+</td></tr><tr><td id="d709477e517">
 
 **Remove a user assigned to a space**
 
@@ -190,7 +190,7 @@ You can select only a single space to remove a user.
 2.  On the Space details panel, on the **Assignment** card, remove a user by selecting the remove assignment option.
 
 
-</td></tr><tr><td id="d709473e540">
+</td></tr><tr><td id="d709477e540">
 
 **Edit the display of user assignment and assignment type on the map**
 
@@ -202,7 +202,7 @@ You can select only a single space to remove a user.
     -   **Assignment type**: Option to display the type of assignment, that is, flexible or permanent.
 
 
-</td></tr><tr><td id="d709473e574">
+</td></tr><tr><td id="d709477e574">
 
 **View the map as defined in the Map Studio**
 
@@ -213,7 +213,7 @@ You can select only a single space to remove a user.
 
 The map displays spaces as defined in the Map Studio.
 
-</td></tr><tr><td id="d709473e597">
+</td></tr><tr><td id="d709477e597">
 
 **Change the opacity of colored spaces**
 

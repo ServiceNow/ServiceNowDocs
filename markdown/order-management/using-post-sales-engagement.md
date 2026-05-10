@@ -13,7 +13,7 @@ breadcrumb: [Use, Sales Customer Relationship Management]
 
 Learn how to use post-sales engagement applications.
 
-Customer Life Cycle Management Workflows
+[Customer Life Cycle Management Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-life-cycle-management-workflows.md)
 
 Modify, suspend, resume, or disconnect the sold products and their complete hierarchy.
 

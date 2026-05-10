@@ -29,7 +29,7 @@ The indicators on the Skill details dashboard page provide the following insight
 
 The indicators on skill details pages might differ based on the skill selected. For example, summarization skills might have different set of indicators compared to generation skills because each skill is mapped to its own dashboard that contains a set of indicators related to the skill.
 
-The Now Assist Analytics dashboard comes with some default skill-to-dashboard mappings to get you started. The default dashboards are visible to users with the Now Assist Analytics Viewer \[sn\_na\_analytics.viewer\] role. You can create your own dashboards and map them to skills. See Create a dashboard with the in-line editor and [Map a skill to a dashboard](map-a-skill-to-a-dashboard.md) for more information on creating custom dashboards and mapping them to skills, respectively.
+The Now Assist Analytics dashboard comes with some default skill-to-dashboard mappings to get you started. The default dashboards are visible to users with the Now Assist Analytics Viewer \[sn\_na\_analytics.viewer\] role. You can create your own dashboards and map them to skills. See [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-db-in-ac.md) and [Map a skill to a dashboard](map-a-skill-to-a-dashboard.md) for more information on creating custom dashboards and mapping them to skills, respectively.
 
 The following indicators are for the Flow Generation skill.
 

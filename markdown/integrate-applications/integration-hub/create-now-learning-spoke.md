@@ -21,12 +21,12 @@ Connect ServiceNow University with Coaching with Learning to pull courses from S
 -   Activate the ServiceNow University spoke.
 -   Role required: admin.
 
--   Integrate Coaching with Learning with ServiceNow University. For more information, see External Content Integration Sources.
+-   Integrate Coaching with Learning with ServiceNow University. For more information, see [External Content Integration Sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/integration-source-coaching-with-learning-coaching-wfo-itsm.md).
 -   Contact [nowlearningapi@servicenow.com](mailto:nowlearningapi_servicenow.com) to get your spoke credentials.
 
     **Note:** You must have an ITSM Enterprise license subscription to get your spoke credentials.
 
--   For more information on OAuth Credentials, see OAuth 2.0 credentials.
+-   For more information on OAuth Credentials, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/oauth-2-credentials.md).
 
 ## Procedure
 

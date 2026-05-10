@@ -94,7 +94,7 @@ Open business condition
 
 Opens the condition set on the CDM Deployable \[sn\_cdm\_deployable\] table based on which the policy was dynamically mapped to the deployable and executed.**Note:** This menu option is available only for the dynamically mapped policy.
 
-For more information on conditions and dynamic mapping, see Map PaCE policies using Dynamic Mapping.
+For more information on conditions and dynamic mapping, see [Map PaCE policies using Dynamic Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-validate-dynamic.md).
 
 </td></tr></tbody>
 </table>    The **Failures and warnings** panel displays the list of all failures and warnings for the policy that is mapped to the associated deployable.

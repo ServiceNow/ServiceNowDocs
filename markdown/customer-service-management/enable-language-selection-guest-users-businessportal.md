@@ -15,7 +15,7 @@ The language selector widget enables guest users and unauthenticated users to se
 
 When a user selects a preferred language, the portal content reloads into the selected language. The widget is enabled by default on the Knowledge portal, the Customer Service Management portal, and the Consumer Service portal. Users can map their languages with regions to view all available languages in the form of a pop-up on the same screen.
 
-To enable the language selector on the business portal, see Enable a language selector in portal headers.
+To enable the language selector on the business portal, see [Enable a language selector in portal headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-header-menu.md).
 
 
 
@@ -34,9 +34,9 @@ If languages aren’t grouped, users can view all available languages as a full-
 **Related topics**  
 
 
-[bundle-platux.enable-lang-selector-widget]
+[Enable language selector widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-header-menu.md)
 
-[bundle-platux.properties-service-portal]
+[Service Portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/properties-service-portal.md)
 
-[bundle-platadm.create-regions]
+[Create regions for language selection in portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/create-regions.md)
 

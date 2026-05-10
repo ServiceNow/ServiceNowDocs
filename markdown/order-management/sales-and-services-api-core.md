@@ -4,7 +4,7 @@ description: Enables seamless tracking and management of Sales Customer Relation
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---

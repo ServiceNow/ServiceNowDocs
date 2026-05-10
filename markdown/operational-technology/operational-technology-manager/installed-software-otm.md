@@ -23,9 +23,9 @@ The installed software for a CI varies depending on if you have the Software Ass
 -   Software Model \[cmdb\_software\_product\_model\]
 -   Software Installation \[cmdb\_sam\_sw\_install\]
 
-For more information about how the table structure for managing software installations behaves differently when SAM is activated, see Discovery with Software Asset Management.
+For more information about how the table structure for managing software installations behaves differently when SAM is activated, see [Discovery with Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_DiscoSWAssetMgmtTableSchema.md).
 
-You can also configure a computer CI to display Software Asset Management data. For more information, see Configure a CI to display Software Asset Management data.
+You can also configure a computer CI to display Software Asset Management data. For more information, see [Configure a CI to display Software Asset Management data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/configure-ci-to-display-sam-data.md).
 
 ## View installed software for OT devices
 

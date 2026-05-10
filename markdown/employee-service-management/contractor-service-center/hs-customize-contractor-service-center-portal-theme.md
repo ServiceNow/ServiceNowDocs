@@ -47,8 +47,8 @@ Contractor Service Center application ships a default **CSC theme** that has the
 
     6.  Edit the **CSS variables** field to customize the text and the background colors of your portal.
 
-        -   To create a portal theme and for a description of the field values to create a portal theme, see Create a portal theme.
-        -   To configure a portal header or footer, see Configure a portal header menu
+        -   To create a portal theme and for a description of the field values to create a portal theme, see [Create a portal theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_CustomCSS.md).
+        -   To configure a portal header or footer, see [Configure a portal header menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-header-menu.md)
 4.  Navigate to **All** &gt; **Service Portal** &gt; **Portals** &gt; **Contractor service center** and then select **Try it** to preview.
 
 5.  Select **Update**.

@@ -26,7 +26,7 @@ Note the following requirements to be able to send and receive SMS notifications
 -   The Notify plug-in and the Notify-Twilio Direct driver must be enabled.
 -   The Label for your number in **Notify** &gt; **Messages** must be set to **Outreach**.
 
-For more information on configuring Notify and the Notify-Twilio Direct driver, see Notify.
+For more information on configuring Notify and the Notify-Twilio Direct driver, see [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-landing-page.md).
 
 Role required: sn\_imt\_checkin.checkin\_admin or admin
 

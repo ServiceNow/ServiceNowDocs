@@ -18,8 +18,8 @@ Create a serverless discovery schedule to discover F5 BIG-IP load balancers thro
 ## Before you begin
 
 -   Verify you have the IP address for the F5 BIG-IP load balancer.
--   Create a basic authentication credential. For more information, see Basic authentication credentials.
--   Create a alias for the basic authentication credential. For more information, see Credential aliases for Discovery.
+-   Create a basic authentication credential. For more information, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md).
+-   Create a alias for the basic authentication credential. For more information, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/discovery-credential-alias.md).
 
 Role required: discovery\_admin
 

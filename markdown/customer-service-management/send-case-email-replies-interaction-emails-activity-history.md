@@ -30,7 +30,7 @@ Role required: admin
     **Note:**
 
     -   The number of emails in the activity history matches the value set in the system properties, **include\_system\_emails\_in\_notification and number\_of\_activities\_in\_reply**.
-    -   You can also create a client template and map it to the Interaction table. For more information, see Create an email client template.
+    -   You can also create a client template and map it to the Interaction table. For more information, see [Create an email client template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnEmailClientTemplate.md).
 4.  Select **Update**.
 
 

@@ -35,15 +35,15 @@ Apart from the matter owner, a collaborator or a task fulfiller can also add an 
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d759028e108">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d759032e108">
 
 Option
 
-</th><th align="left" id="d759028e111">
+</th><th align="left" id="d759032e111">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d759028e117">
+</th></tr></thead><tbody><tr><td id="d759032e117">
 
 **As an assignee**
 
@@ -55,7 +55,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d759028e146">
+</td></tr><tr><td id="d759032e146">
 
 **As a collaborator**
 

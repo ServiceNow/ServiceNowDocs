@@ -29,7 +29,7 @@ The record producer uses variables to store field information submitted via inta
 
 1.  Add new columns in a practice area table that you want to use to create reports for legal requests or legal matters submitted for the practice area.
 
-    For more information, see Add and customize a field in a table.
+    For more information, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingNewFields.md).
 
 2.  Create or modify a record producer for a legal request or legal matter for the associated practice area.
 
@@ -47,7 +47,7 @@ The record producer uses variables to store field information submitted via inta
 
         **\[Category\] \[is\] \[Compliance \[sn\_lg\_ops\_compliance\]\]**
 
-    For more information, see Create a business rule.
+    For more information, see [Create a business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/business-rules-classic/c_BusinessRules.md).
 
 
 **Parent Topic:**[Configuring Legal Request Management](../concept/legal-ops-administration.md)

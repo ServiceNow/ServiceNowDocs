@@ -92,7 +92,7 @@ The work item is deleted in Azure DevOps but not deleted in Agile Development 2.
 
 Ensure that the **Can Delete** field in the Application access of the respective tables is set to **true**.
 
- For details, see Table design and runtime settings.
+ For details, see [Table design and runtime settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/r_TableApplicationAccessFields.md).
 
 </td></tr><tr><td>
 

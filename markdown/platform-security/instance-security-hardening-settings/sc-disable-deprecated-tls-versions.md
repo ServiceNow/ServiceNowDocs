@@ -35,7 +35,7 @@ Set the **com.glide.communications.disable.deprecated.tls** to **true** to use o
 |Fallback value|true|
 |Recommended value|true|
 
-To learn more about adding or creating a system property, see Add a system property.
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Parent Topic:**[Communications](sc-communications.md)
 

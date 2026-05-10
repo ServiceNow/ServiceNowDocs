@@ -22,7 +22,7 @@ The GeniusResultAnswer API methods you need to invoke to create your answer obje
 -   If you're scripting in a Genius Result configuration's **AI Search request processor** field, you need to invoke the setTable\(\) method and one of the setSearchPhrase\(\), addSearchPhrases\(\), or setEncodedQuery\(\) methods. All other methods are optional except for addDataMap\(\), which is not relevant for this use case.
 -   If you're scripting in a Genius Result configuration's **AI Search response processor** field, you need to invoke the addDataMap\(\) method. No other methods are relevant for this use case.
 
-Use this API in Genius Result server-side scripts with the `sn_ais` namespace identifier. For more information on scripting logic for Genius Results, see Create a new Genius Result configuration.
+Use this API in Genius Result server-side scripts with the `sn_ais` namespace identifier. For more information on scripting logic for Genius Results, see [Create a new Genius Result configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-genius-results-config-ais.md).
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 

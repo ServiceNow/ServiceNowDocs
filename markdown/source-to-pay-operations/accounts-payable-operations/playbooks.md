@@ -24,7 +24,7 @@ You can perform the following actions using playbook:
 -   View the different stages and activities of an invoice
 -   View status indicators that display the state of the current stage or action
 
-For more information about the workflow of playbooks, see Process Automation Designer.
+For more information about the workflow of playbooks, see [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md).
 
 -   **[View the Playbook activities](how-playbook-works.md)**  
 Playbooks in Accounts Payable Operations displays step by step process involved in processing an invoice processing case through activity views.

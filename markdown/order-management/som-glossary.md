@@ -37,7 +37,7 @@ An item that can't be delivered immediately due to being out of stock.
 
 Self-service web portal for B2B customers, providing integrated access to knowledge articles, community forums, service catalogs, and chat bots, enabling customers to browse products, place orders, and manage order cases.
 
-To learn more about using the business portal, see Using the Business Portal.
+To learn more about using the business portal, see [Using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-the-business-portal.md).
 
 ## campaign
 

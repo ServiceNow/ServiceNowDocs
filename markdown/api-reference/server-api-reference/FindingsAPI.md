@@ -15,14 +15,14 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The Findings API provides methods for handling how an Instance Scan check produces findings.
 
-This API is included with the Instance Scan \(com.glide.instance\_scan\) plugin and runs in the `sn_instance_scan` namespace. For more information, see Instance Scan.
+This API is included with the Instance Scan \(com.glide.instance\_scan\) plugin and runs in the `sn_instance_scan` namespace. For more information, see [Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-landing-page.md).
 
 In Instance Scan, checks run on each record in the scope of a scan on the instance to generate findings. Each finding holds information about an issue record and which check it violated. Findings methods are used in Instance Scan checks as part of the engine object passed to the user. Add the code to the **Script** field in the check form.
 
 See also:
 
--   Getting started with checks
--   Findings
+-   [Getting started with checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-intro-health-check.md)
+-   [Findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-findings.md)
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 
@@ -42,7 +42,7 @@ This method can be called multiple times to signify that this finding has multip
 |----|-----------|
 |None| |
 
-The following example shows how to count the number of records with a failed state in a table type check. For more information, see Create a table type check.
+The following example shows how to count the number of records with a failed state in a table type check. For more information, see [Create a table type check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-create-table-health-check.md).
 
 ```
 (function(engine) {
@@ -56,11 +56,11 @@ The following example shows how to count the number of records with a failed sta
 
 If the current finding is from a linter check, this method increments the current finding count and simultaneously passes the linter node object to the finding.
 
-Use this method in the Script field in the Linter Check form. This method saves information about the given node, such as a line number in a current finding's details column.
+Use this method in the Script field in the [Linter Check form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hc-linter-check.md). This method saves information about the given node, such as a line number in a current finding's details column.
 
 See also:
 
--   Advanced linter check scripts
+-   [Advanced linter check scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-linter-check-scripts.md)
 -   [LinterCheckAstNode API](../../LinterCheckAstNode/concept/LinterCheckAstNodeAPIBoth.md#)
 
 |Name|Type|Description|
@@ -89,7 +89,7 @@ The following example shows how to increment linter type nodes in a linter check
 
 Sets the source of the current finding based on the provided GlideRecord.
 
-Use this method in the **Script** field of a Script Only check. This method is not used for any other checks because they automatically set the source as the current record during the scan. For more information, see Create a script only check.
+Use this method in the **Script** field of a Script Only check. This method is not used for any other checks because they automatically set the source as the current record during the scan. For more information, see [Create a script only check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-create-script-health-check.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -99,7 +99,7 @@ Use this method in the **Script** field of a Script Only check. This method is n
 |----|-----------|
 |None| |
 
-The following example shows how to set the current source to an incident record in a script only check. For more information, see Create a script only check.
+The following example shows how to set the current source to an incident record in a script only check. For more information, see [Create a script only check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-create-script-health-check.md).
 
 ```
 (function(engine) {

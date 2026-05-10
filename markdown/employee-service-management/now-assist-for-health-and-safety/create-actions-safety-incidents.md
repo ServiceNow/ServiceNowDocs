@@ -22,7 +22,7 @@ To access the agentic workflow:
 
 Safety agents and managers with the \[now\_assist\_panel\_user\] role can view the Now Assist panel. This panel can automatically trigger responses and create actions once an incident is opened. Once the actions are suggested by agentic AI, the safety agents and managers can enter the preferred action number or description. Entering the action number automatically creates that specific action record in the health and safety action-related item in an open incident record.
 
-For more information on the Now Assist panel, see Now Assist panel.
+For more information on the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 The AI agents and tools used for the **Create actions for safety incidents** agentic workflow are as follows:
 

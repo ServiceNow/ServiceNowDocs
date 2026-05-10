@@ -69,9 +69,11 @@ Traversal rules identify and map relationships between configuration items to cr
 **Related topics**  
 
 
-[bundle-platcap.application-services]
+[Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/application-services.md)
+
+[Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/application-services.md)
 
 [Event Management](../../event-management/concept/c_EM.md)
 
-[bundle-platcap.c_BusinesssServiceManagementMaps]
+[Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/c_BusinesssServiceManagementMaps.md)
 

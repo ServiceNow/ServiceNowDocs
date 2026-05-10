@@ -30,7 +30,7 @@ You can do these actions by using the Now Assist icon:
 
 **Note:** The Chat reply recommendation skill can be found in the **HRSD** tab under the **Employee** group in Now Assist Admin. To learn how to activate this skill, see [Configure Now Assist for HR Service Delivery \(HRSD\)](configure-now-assist-hr.md).
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see Now Assist skills, agents, and agentic workflows on by default.
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 ## Procedure
 

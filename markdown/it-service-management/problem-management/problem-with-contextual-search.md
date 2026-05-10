@@ -28,5 +28,5 @@ You can:
 **Related topics**  
 
 
-[bundle-platadm.c_ContextualSearch]
+[Contextual search overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/c_ContextualSearch.md)
 

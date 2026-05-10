@@ -17,7 +17,7 @@ The Business Rule API defines server-sides scripts \[sys\_script\] that run when
 
 **Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
-For general information about business rules, see Classic Business rules.
+For general information about business rules, see [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/business-rules-classic/c_BusinessRules.md).
 
 **Parent Topic:**[ServiceNow Fluent API reference](servicenow-fluent-api-reference.md)
 
@@ -133,7 +133,7 @@ String
 
 </td><td>
 
-The time that the business rule should execute. For more information about when business rules run, see How business rules work.Valid values:
+The time that the business rule should execute. For more information about when business rules run, see [How business rules work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/business-rules-classic/c_BusinessRules.md).Valid values:
 
 -   before
 -   after
@@ -152,7 +152,7 @@ Array
 
 </td><td>
 
-The record options that the business rule applies to. For more information about business rule actions, see How business rules work.Valid values:
+The record options that the business rule applies to. For more information about business rule actions, see [How business rules work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/business-rules-classic/c_BusinessRules.md).Valid values:
 
 -   insert
 -   update
@@ -246,7 +246,7 @@ String
 
 </td><td>
 
-A filter query that specifies the fields and values that must be true for the business rule to run. For more information, see Operators available for filters and queries.
+A filter query that specifies the fields and values that must be true for the business rule to run. For more information, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
 </td></tr><tr><td>
 

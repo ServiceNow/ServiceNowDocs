@@ -662,7 +662,7 @@ if (current.operation() != 'insert' && current.comments.changes()) {
 
 Queues an event in the event manager.
 
-The passed in event schedule information is stored in the Events \[sysevent\] table. For additional information on events, see Events.
+The passed in event schedule information is stored in the Events \[sysevent\] table. For additional information on events, see [Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/events.md).
 
 <table id="table_nxv_r3k_bx" class="parameters"><thead><tr><th>
 
@@ -1011,7 +1011,7 @@ Retrieves the specified message from the Message \[sys\_ui\_message\] table. If 
 
 If the specified message identifier \(Key\) exists in the Message \[sys\_ui\_message\] table for the current language, the method returns the translated message with all special characters returned as escape sequences. If the specified message identifier does not exist for the current language, then the method returns the English version of the message with all special characters returned as escape sequences. If the message identifier does not exist in the table, then it returns the message ID.
 
-For additional information about the Message table, see Message table.
+For additional information about the Message table, see [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_MessageTable.md).
 
 **Note:** If the UI message has a tick \('\), there may be issues with the message in the script; to escape the ticks \('\), use getMessageS\(String, Object\).
 
@@ -1093,7 +1093,7 @@ Retrieves translated messages from the Message \[sys\_ui\_message\] table to dis
 
 If the specified message identifier \(key\) exists in the Message \[sys\_ui\_message\] table for the current language, then the method returns the translated message. If the specified message identifier does not exist for the current language, then the method returns the English version of the message. If the message identifier does not exist in the table, then it returns the message ID.
 
-For additional information about the Message table, see Message table
+For additional information about the Message table, see [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_MessageTable.md)
 
 **Note:** If the UI message has a tick \('\), there may be issues with the message in the script; to escape the ticks \('\), use getMessageS\(String, Object\).
 

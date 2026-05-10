@@ -25,7 +25,7 @@ Domain separation is supported in Time Card. Domain separation enables you to se
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 For more information about using domain separation with Time Card, see [https://community.servicenow.com/community?id=community\_article&amp;sys\_id=616d706edbb318d066f1d9d9689619c1](https://community.servicenow.com/community?id=community_article&sys_id=616d706edbb318d066f1d9d9689619c1).
 
@@ -34,5 +34,5 @@ For more information about using domain separation with Time Card, see [https://
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

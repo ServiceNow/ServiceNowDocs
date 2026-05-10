@@ -33,7 +33,7 @@ Role required: admin
 
 3.  In the **Communications Template** section, select **Configure SMS**.
 
-    The Notify SMS template page displays a list of available communication SMS templates. For more information on Notify, see Notify.
+    The Notify SMS template page displays a list of available communication SMS templates. For more information on Notify, see [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-landing-page.md).
 
 4.  Select **New**.
 

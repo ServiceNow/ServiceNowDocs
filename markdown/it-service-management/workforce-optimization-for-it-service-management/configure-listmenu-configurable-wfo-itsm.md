@@ -19,7 +19,7 @@ Add a system property to add to or modify the list menu for Coaching with Learni
 
 **Important:** This feature is available with the Coaching with Learning plugin \(sn\_coach\_lrn\) from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for ITSM for configurabe workspace](activate-configurable-workforce-optimization-itsm.md).
 
-Set the map application scope to **Coaching With Learning**. For information on how to set the scope, see Set map application scope.
+Set the map application scope to **Coaching With Learning**. For information on how to set the scope, see [Set map application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-map-application-scope.md).
 
 Role required: admin
 

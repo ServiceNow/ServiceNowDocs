@@ -15,7 +15,7 @@ breadcrumb: [Core UI Reporting, Reporting, Reporting, dashboards, and Performanc
 
 View a list of reports and create reports from the Reports list.
 
-Standard platform Access Control Lists \(ACLs\) govern access to reports in the reports list. For information about the ACLs used to control access to reports, see Access control list rules.
+Standard platform Access Control Lists \(ACLs\) govern access to reports in the reports list. For information about the ACLs used to control access to reports, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).
 
 **Note:** On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience visualizations are found in the Platform Analytics library. For more information, see [Exploring the Data Visualizations library](../../performance-analytics/concept/explore-data-vis-library.md).
 
@@ -59,7 +59,7 @@ To toggle between showing only favorite reports and showing all reports, click t
 
 A report is automatically marked as a favorite when you open it. You can manually mark a report as a favorite by clicking the star icon beside the report title.
 
-To turn off the automatic marking of reports as favorites, disable the user preference glide.ui.nav.auto\_favorite. For more information, see User preferences .
+To turn off the automatic marking of reports as favorites, disable the user preference glide.ui.nav.auto\_favorite. For more information, see [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md) .
 
 ## View report owners
 
@@ -176,7 +176,7 @@ sysparm\_query
 
 </td><td>
 
-Enables you to filter on any condition in platform condition builder format. For example, `https://yourbusiness.service-now.com/report_home.do?sysparm_query=titleSTARTSWITHPRB&table!=incident`. For more information, see Condition builder.
+Enables you to filter on any condition in platform condition builder format. For example, `https://yourbusiness.service-now.com/report_home.do?sysparm_query=titleSTARTSWITHPRB&table!=incident`. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 </td></tr></tbody>
 </table>

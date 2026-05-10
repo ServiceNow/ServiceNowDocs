@@ -71,7 +71,7 @@ Token
 
 </td><td>
 
-Token for webhook.By default, the token for ServiceNow webhook is `nowbot`. As a user with the admin role, you can set the **glide.cs.facebook\_messenger\_verify\_token** system property to a desired value and then enter that value in this field. Because the **glide.cs.facebook\_messenger\_verify\_token** system property isn't available by default, you must add it with the data type set to string. For more information, see Add a system property.
+Token for webhook.By default, the token for ServiceNow webhook is `nowbot`. As a user with the admin role, you can set the **glide.cs.facebook\_messenger\_verify\_token** system property to a desired value and then enter that value in this field. Because the **glide.cs.facebook\_messenger\_verify\_token** system property isn't available by default, you must add it with the data type set to string. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 </td></tr></tbody>
 </table>        3.  Click **Verify and Save**.

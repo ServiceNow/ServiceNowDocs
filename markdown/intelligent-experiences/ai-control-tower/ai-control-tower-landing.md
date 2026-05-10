@@ -36,7 +36,7 @@ The AI Control Tower is a platform that connects different parts of an organizat
 
 </td></tr><tr><td>
 
-Risk and Compliance![](../../../reuse/icons/brand-icons/bus-learn.svg)AI Risk and compliance application to manage your artificial intelligence \(AI\) capabilities ethically, mitigate AI risks, and ensure compliance.
+[Risk and Compliance![](../../../reuse/icons/brand-icons/bus-learn.svg)AI Risk and compliance application to manage your artificial intelligence \(AI\) capabilities ethically, mitigate AI risks, and ensure compliance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance.md)
 
 </td><td>
 

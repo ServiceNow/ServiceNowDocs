@@ -30,7 +30,7 @@ Role required: sn\_aia.admin
 
 2.  Under the **Agentic workflows** tab, select the **Generate OT KB articles** agentic workflow.
 
-    **Important:** This agentic workflow is turned on by default. For more information, see Now Assist skills, agents, and agentic workflows on by default.
+    **Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 3.  In the **Define key requirements** screen, review and update the information as needed then select **Save and Continue**.
 

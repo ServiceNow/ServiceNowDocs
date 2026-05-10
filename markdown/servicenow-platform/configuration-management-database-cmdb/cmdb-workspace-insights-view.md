@@ -59,7 +59,7 @@ Depending on adoption level, a card might contain any of the following resource 
 -   **Get started**: Link to a landing page where you can start immediately utilizing the feature.
 -   **Install app**: Link to the ServiceNow Store where you can immediately install the app.
 
-Cards use different methods to examine the instance and determine if the card's feature is installed, activated, and being used. For example, some cards check for the installation status of plugins and some cards rely on data in the specific feature tables. Many counts and aggregation data that appear on cards is based on Performance Analytics indicators built on top of the Base Aggregate Data \[sn\_cmdb\_ws\_base\_aggregate\_data\] table.
+Cards use different methods to examine the instance and determine if the card's feature is installed, activated, and being used. For example, some cards check for the installation status of plugins and some cards rely on data in the specific feature tables. Many counts and aggregation data that appear on cards is based on [Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_Indicators.md) built on top of the Base Aggregate Data \[sn\_cmdb\_ws\_base\_aggregate\_data\] table.
 
 -   If the result is that the card's feature is installed or being used, then the card shows charts and counts about the level of usage. In which case, the card's label might slightly adjust.
 -   If the result is that the card's feature isn't installed or isn't in use, then links are provided to resources where you can explore, install, and start using the feature.
@@ -117,7 +117,7 @@ Data ingestion contains the following features and aggregations:
 
 -   **CMDB application for APIs and CLI**
 
-    Determines whether the CMDB application for APIs and CLI store app is installed.
+    Determines whether the [CMDB application for APIs and CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/cmdb-cli-commands.md) store app is installed.
 
     This card appears only if the store app isn't installed, providing helpful resources for exploration and adoption.
 
@@ -315,7 +315,7 @@ The Service Graph connectors tab contains the following tiles:
 
         Shows the percentage of Service Graph Connector data sources in the Data Sources \[sys\_data\_source\] table with disabled **Use Batch Import**. It also lists the total number of data sources, and the number of data sources with enabled or disabled batch processing.
 
-        To enable batch processing, access the record of a specific data source from the list view and select **Use Batch Import**. For more information about batch processing, see Data source fields.
+        To enable batch processing, access the record of a specific data source from the list view and select **Use Batch Import**. For more information about batch processing, see [Data source fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_DataSourceFileTypeFields.md).
 
         You can also select **Edit** to update a data source from the list view. For more information about editing a data source, see [Edit a data source from CMDB performance insights](../task/insights-update-data-source.md).
 
@@ -323,7 +323,7 @@ The Service Graph connectors tab contains the following tiles:
 
         Shows the percentage of scheduled data imports of Service Graph Connector data sources in the Scheduled Data Imports \[scheduled\_import\_set\] table with **Concurrent Import** turned off. It also lists the total number of scheduled data imports, and the number of scheduled data imports with **Concurrent Import** turned on or off.
 
-        To enable concurrent import, access the record of a specific scheduled data import from the list view and select **Concurrent Import**. For more information about concurrent import, see Concurrent imports.
+        To enable concurrent import, access the record of a specific scheduled data import from the list view and select **Concurrent Import**. For more information about concurrent import, see [Concurrent imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/concurrent-imports.md).
 
         You can also select **Edit** to update a scheduled data import from the list view. For more information about editing a scheduled data import, see [Edit a scheduled data import from CMDB performance insights](../task/insights-schedule-data-import.md).
 
@@ -331,7 +331,7 @@ The Service Graph connectors tab contains the following tiles:
 
         Shows the percentage of scheduled data imports of Service Graph Connector data sources in the Scheduled Data Imports \[scheduled\_import\_set\] table that use a non-custom size partition method. It also lists the total number of scheduled data imports, and the number of scheduled data imports that use a non-custom size partition method.
 
-        To use a custom size partition method, access the record of a specific scheduled data import from the list view. Ensure that **Concurrent Import** is selected. From the **Partition Method** drop-down menu that appears, select **Custom size**. For more information about partition methods, see Schedule a data import.
+        To use a custom size partition method, access the record of a specific scheduled data import from the list view. Ensure that **Concurrent Import** is selected. From the **Partition Method** drop-down menu that appears, select **Custom size**. For more information about partition methods, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md).
 
         You can also select **Edit** to update a new scheduled data import from the list view. For more information about editing a scheduled data import, see [Edit a scheduled data import from CMDB performance insights](../task/insights-schedule-data-import.md).
 

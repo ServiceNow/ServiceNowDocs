@@ -72,7 +72,7 @@ Constants to use when setting the close button style of modal interfaces.
 
 Constants to use when setting the style of a message.
 
-The appearance of each message style can be customized using theme colors. For more information, see Next Experience theming for mobile.
+The appearance of each message style can be customized using theme colors. For more information, see [Next Experience theming for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/explore-ne-theming.md).
 
 |Name|Type|Description|
 |----|----|-----------|

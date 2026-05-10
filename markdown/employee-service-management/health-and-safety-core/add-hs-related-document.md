@@ -21,7 +21,7 @@ Role required: sn\_ohs\_im.document\_writer
 
 ## About this task
 
--   The ServiceNow® Document Management \(com.snc.platform\_document\_management\) plugin is installed with Health and Safety applications and enables you to manage your safety documents. For information on document management, see Document repository.
+-   The ServiceNow® Document Management \(com.snc.platform\_document\_management\) plugin is installed with Health and Safety applications and enables you to manage your safety documents. For information on document management, see [Document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/doc-mgt-view-documents-repo.md).
 -   All Health and Safety documents are stored in the Health and Safety document \[sn\_ohs\_im\_document\_v2\] table. The previous **Standards and Documents** list and its associated table \[sn\_ohs\_im\_document\] have been deprecated. To access your existing safety documents, migrate them from the deprecated table into the new Health and Safety document \[sn\_ohs\_im\_document\_v2\] table. For more information, see [Migrate existing safety documents to the Document library](../../hs-core/task/hs-migrate-sync-existing-safety-document-docs-library.md).
 
 ## Procedure
@@ -38,11 +38,11 @@ Role required: sn\_ohs\_im.document\_writer
 
 5.  On the form, fill in the fields.
 
-    For information on the document field descriptions, see Create a document record.
+    For information on the document field descriptions, see [Create a document record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/create-new-doc.md).
 
 6.  In the Access Settings section, select the document access settings.
 
-    For information on access settings, see Document security and access.
+    For information on access settings, see [Document security and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-access-settings.md).
 
 7.  Select **Save**.
 
@@ -54,7 +54,7 @@ Role required: sn\_ohs\_im.document\_writer
 
     If there're multiple approvers added for a document, it is sent to approvers in ascending order based on the sequence number entered. If two approvers have the same sequence number, only one approver's approval is needed to move on to the next approver in the sequence.
 
-    For information on advanced approval rules and process, see Document approval and publish process.
+    For information on advanced approval rules and process, see [Document approval and publish process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-review-approval.md).
 
 10. In the **Versions** tab, select **New** to upload a version of this document.
 

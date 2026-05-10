@@ -66,7 +66,7 @@ CSM centered chat interaction record page
 The CSM centered chat interaction record template brings the chat component to the center of the workspace and give agents greater visibility and access to customer chat conversations. This page view enables agents to manage chats and displays information, such as customer history and interaction details, that help agents to resolve issues.
 
 </td></tr></tbody>
-</table>For more information, see Create a page from a template in the UI Builder documentation.
+</table>For more information, see [Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/reuse-page-definitions.md) in the UI Builder documentation.
 
 ## Record presence feature
 

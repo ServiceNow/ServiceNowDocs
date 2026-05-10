@@ -111,7 +111,7 @@ Release notes
 
 </td><td>
 
-Mobile Platform release notes
+[Mobile Platform release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/mobile-rn.md)
 
 </td></tr><tr><td>
 

@@ -191,7 +191,7 @@ Role required: change\_manager
 
 4.  Add the **Exclude from conflict detection** field to the change request form.
 
-    For information on the procedure to add a new field to a form, see Configuring the form layout.
+    For information on the procedure to add a new field to a form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
 
 ### Result

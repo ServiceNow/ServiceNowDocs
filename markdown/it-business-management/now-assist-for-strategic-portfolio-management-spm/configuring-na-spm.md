@@ -23,7 +23,7 @@ The following example shows the Settings page with available plugins to install,
 
 ![Now Assist settings page that lets you install plugins, activate the Now Assist panel, and view account details.](../images/settings-page-na.png "Now Assist Admin settings page")
 
-To enable the Agile story generation skill and project insights generation skill, verify that Now assist panel is enabled. For more information, see Activate the Now Assist panel standard chat. For Agile story generation skill, verify AI Search is activated and ready to use by navigating to **All** &gt; **AI Search** &gt; **AI Search Status**
+To enable the Agile story generation skill and project insights generation skill, verify that Now assist panel is enabled. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md). For Agile story generation skill, verify AI Search is activated and ready to use by navigating to **All** &gt; **AI Search** &gt; **AI Search Status**
 
 **Important:** The Acceptance criteria generation skill also requires activating Refine Records skill.
 
@@ -32,7 +32,7 @@ To enable the Agile story generation skill and project insights generation skill
 
 [Using Now Assist for Strategic Portfolio Management \(SPM\)](using-now-assist-for-spm.md)
 
-[bundle-platai.configuring-now-assist]
+[Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
 
-[bundle-platai.configuring-na-landing]
+[Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
 

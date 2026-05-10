@@ -16,7 +16,7 @@ Use the check role access for encrypted column skill to identify user roles that
 ## Before you begin
 
 -   Install ServiceNow Vault. For more information, see [Configuring ServiceNow Vault](../../vault/concept/configuring-servicenow-vault.md).
--   Ensure that the check role access for encrypted column skill is active. For more information, see Activate a Now Assist skill.
+-   Ensure that the check role access for encrypted column skill is active. For more information, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
 Role required: sn\_vault\_console.vault\_console\_admin
 

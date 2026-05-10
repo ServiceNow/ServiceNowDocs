@@ -23,7 +23,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Configure users and groups
+[Configure users and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-users-groups.md)
 
 </td><td>
 
@@ -47,7 +47,7 @@ The FSO application includes agent connector and contributor roles. To set the r
 
 </td></tr><tr><td>
 
-Create multiple consumer profiles for a user
+[Create multiple consumer profiles for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/consumer-profiles-configuration.md)
 
 </td><td>
 
@@ -55,7 +55,7 @@ Individual consumers can have multiple profiles for different needs. You can cre
 
 </td></tr><tr><td>
 
-Configure a unified user
+[Configure a unified user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-unified-user.md)
 
 </td><td>
 
@@ -63,7 +63,7 @@ Enable users to maintain multiple profiles within the Customer Service Managemen
 
 </td></tr><tr><td>
 
-Create customer relationships
+[Create customer relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceRelationships.md)
 
 </td><td>
 
@@ -73,7 +73,7 @@ Establish different types of relationships between partners, customers, and cont
 
 </td></tr><tr><td>
 
-Create account teams
+[Create account teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-account-teams.md)
 
 </td><td>
 
@@ -81,7 +81,7 @@ Create teams made up of employees and customer contacts who fulfill the roles an
 
 </td></tr><tr><td>
 
-Configure Contributor Users
+[Configure Contributor Users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-contributor-user.md)
 
 </td><td>
 
@@ -89,7 +89,7 @@ Configure contributor users to engage middle office teams in resolving customer 
 
 </td></tr><tr><td>
 
-Configuring customer access management
+[Configuring customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-cam.md)
 
 </td><td>
 

@@ -48,11 +48,11 @@ Incident field prediction
 
 </td><td>
 
-Task Intelligence for ITSM
+[Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/c-itsm-task-intelligence.md)
 
 </td><td>
 
-Create an incident field prediction model
+[Create an incident field prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/create-incident-prediction-model.md)
 
 </td></tr><tr><td>
 
@@ -60,11 +60,11 @@ Similarity model management
 
 </td><td>
 
-Task Intelligence for ITSM
+[Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/c-itsm-task-intelligence.md)
 
 </td><td>
 
-Create a similar records prediction model in Task Intelligence for ITSM
+[Create a similar records prediction model in Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/create-a-similar-records-model-in-task-intelligence-for-itsm.md)
 
 </td></tr><tr><td>
 
@@ -72,13 +72,13 @@ Case field prediction
 
 </td><td>
 
-Task Intelligence for CSM
+[Task Intelligence for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intelligence.md)
 
 </td><td>
 
 Predicts output fields on case forms, including categorization.
 
- Record categorization
+ [Record categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-categorization-overview.md)
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Sentiment prediction
 
 </td><td>
 
-Task Intelligence for CSM
+[Task Intelligence for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intelligence.md)
 
 </td><td>
 
@@ -100,7 +100,7 @@ Language detection
 
 </td><td>
 
-Task Intelligence for CSM
+[Task Intelligence for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intelligence.md)
 
 </td><td>
 
@@ -121,14 +121,14 @@ Training a machine learning model is when the model learns patterns in past data
 
 The Task Intelligence Admin Console provides admins with a no-code experience for deploying Task Intelligence solutions. The seamless experience helps you automate and optimize task creation, deflection, triaging, and resolution.
 
-Features are implemented by two applications: Task Intelligence for Customer Service and Task Intelligence for ITSM.
+Features are implemented by two applications: [Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intelligence.md) and [Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/c-itsm-task-intelligence.md).
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
 |Predict form field values to auto-populate or recommend as suggestions|Create a field prediction model|Admins, agents|
-|Categorize emails and cases based on language and attachment content|Record categorization|Agents|
+|Categorize emails and cases based on language and attachment content|[Record categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-categorization-overview.md)|Agents|
 |Predict incident category and priority based on previous incidents to lower time to resolution|Create an incident prediction model|Agents|
-|Analyze initial and ongoing sentiment during customer service cases|Sentiment Analysis|Agents|
-|Identify the language used to create customer service cases|Language detection|Agents|
+|Analyze initial and ongoing sentiment during customer service cases|[Sentiment Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-sentiment-analysis.md)|Agents|
+|Identify the language used to create customer service cases|[Language detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-language-detection.md)|Agents|
 |Analyze and assess the performance of models|Task Intelligence Analytics and Monitoring|Admins|
 

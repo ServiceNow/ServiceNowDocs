@@ -47,7 +47,7 @@ Alerts
 
 </td><td>
 
-Event Management must be activated for the CI summarization skill. For more information, see Event Management.
+Event Management must be activated for the CI summarization skill. For more information, see [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EM.md).
 
 </td></tr><tr><td>
 
@@ -55,7 +55,7 @@ Security vulnerabilities
 
 </td><td>
 
-Security Operations must be activated for the CI summarization skill. For more information, see Security Operations.
+Security Operations must be activated for the CI summarization skill. For more information, see [Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations-landing-page.md).
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ Data on the CMDB Health Dashboard
 The Correctness Score Calculation scheduled job improves the accuracy of the summary details on the CMDB Health Dashboard. For more information, see [Enable and configure a CMDB Health Dashboard job](t_EnableCMDBHealthDashboardJob.md).
 
 </td></tr></tbody>
-</table>By default, all skills exist in the global domain. When you use Now Assist in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, Now Assist only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see Domain separation in the Now Assist Admin console. \(Note that global domain is not the same as global scope. For more information, see Exploring Next Experience pickers.\)
+</table>By default, all skills exist in the global domain. When you use Now Assist in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, Now Assist only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-pickers.md).\)
 
 ## Procedure
 

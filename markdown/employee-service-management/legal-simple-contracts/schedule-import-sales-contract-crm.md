@@ -32,7 +32,7 @@ The import set jobs trigger a Workflow Studio flow that pulls the data from the 
 -   **The maximum number of records to return when fetching data** \(**sn\_flow\_designer.action\_picker\_limit**\)
 -   **The maximum amount of iterations that a loop will run in flow designer** \(**sn\_flow\_designer.max\_iterations**\)
 
-Based on the number of records pulled for your system, you can modify the values of these properties. For more information, see Workflow Studio system properties.
+Based on the number of records pulled for your system, you can modify the values of these properties. For more information, see [Workflow Studio system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-system-properties.md).
 
 ## Procedure
 
@@ -49,10 +49,10 @@ Based on the number of records pulled for your system, you can modify the values
 
 3.  Configure the data import job as needed.
 
-    For more information on configuring a data import set schedule, see Schedule a data import .
+    For more information on configuring a data import set schedule, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md) .
 
 4.  To pull data from a different set of fields from the CRM system, update the corresponding transformation maps.
 
-    For more information on configuring a transformation map, see Create a transform map .
+    For more information on configuring a transformation map, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md) .
 
 

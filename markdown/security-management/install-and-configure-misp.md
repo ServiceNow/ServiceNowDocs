@@ -75,7 +75,7 @@ MID Application
 
 </td><td>
 
-String field that identifies the MID Application name that is used to communicate with MISP.This field is required when you select the **On Premises Deployment** option. For information on how to configure the MID server for your application, see Configure a MID Server for each application
+String field that identifies the MID Application name that is used to communicate with MISP.This field is required when you select the **On Premises Deployment** option. For information on how to configure the MID server for your application, see [Configure a MID Server for each application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SpecifyMIDServerApplications.md)
 
 </td></tr></tbody>
 </table>5.  Click **Submit**.

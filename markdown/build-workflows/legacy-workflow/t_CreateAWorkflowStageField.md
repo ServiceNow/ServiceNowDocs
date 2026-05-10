@@ -39,7 +39,7 @@ To create a workflow stage field:
 
 4.  On the form view of the table used by the workflow, create a field with the **Type** set to **Workflow**.
 
-    For detailed steps, see Add and customize a field in a table.
+    For detailed steps, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingNewFields.md).
 
 5.  Click **Save**.
 
@@ -57,11 +57,11 @@ To create a workflow stage field:
     -   The **Value** of each choice must match the **Value** of the corresponding workflow stage.
     -   Do not use spaces in the **Value** field for either choices or stages. Use underscores in place of spaces.
     -   Make the choice list read-only. If a user changes the stage value for a record from the choice list rather than allowing the workflow to control the value, the workflow-driven, legacy, and linear renders may not work as intended. You can also use business rules or events to ensure the workflow progresses accordingly.
-    For detailed steps on defining choice lists, see Define an option for a choice list.
+    For detailed steps on defining choice lists, see [Define an option for a choice list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ViewChoiceListDefinitions.md).
 
 11. To see workflow stages as icons, add the field to the list layout of the workflow table.
 
-    For detailed steps, see Configure the list layout.
+    For detailed steps, see [Configure the list layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/t_ConfigureTheListLayout.md).
 
 
 ## What to do next

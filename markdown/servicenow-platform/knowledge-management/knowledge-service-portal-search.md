@@ -122,7 +122,7 @@ Depending on the system setup, view additional search results using one of these
 
 4.  Click **Update**.
 
-The search functionality in Knowledge Management Service Portal pages uses the **Knowledge Base Search** search context to fetch results. As an administrator, you must not update the definition of this search context because it may impact the search behavior. For more information about contextual search, see Contextual search concepts.
+The search functionality in Knowledge Management Service Portal pages uses the **Knowledge Base Search** search context to fetch results. As an administrator, you must not update the definition of this search context because it may impact the search behavior. For more information about contextual search, see [Contextual search concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/contextual-search-concepts.md).
 
 **Parent Topic:**[Using Knowledge Management](using-knowledge-management.md)
 

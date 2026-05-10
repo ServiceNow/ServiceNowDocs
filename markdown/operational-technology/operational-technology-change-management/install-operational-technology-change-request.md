@@ -22,7 +22,7 @@ You can install the Operational Technology Change Management application \(sn\_o
     -   **Required ServiceNow plugins**
         -   **CMDB CI Class Models \(sn\_cmdb\_ci\_class\)**
 
-            The Configuration Management Database \(CMDB\) CI Class Models store app adds class models that extend the CMDB class hierarchy, including the class descriptions, identification rules, identifier entries, and dependent relationships. For more information, see CMDB CI Class Models store app.
+            The Configuration Management Database \(CMDB\) CI Class Models store app adds class models that extend the CMDB class hierarchy, including the class descriptions, identification rules, identifier entries, and dependent relationships. For more information, see [CMDB CI Class Models store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 
         -   **ISA Equipment Model \(sn\_isa\_model\)**
 

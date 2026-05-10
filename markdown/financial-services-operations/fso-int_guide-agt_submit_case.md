@@ -41,12 +41,12 @@ The following diagram shows the flow of the REST API calls for this use case and
 
 </td><td>
 
-1.  The agent enters the customer lookup information on the complaint form. Using this information, formulate the REST call /api/getConsumerDetails using the RESTMessageV2 API and send it to the remote bank application to obtain the customer's account details.
+1.  The agent enters the customer lookup information on the complaint form. Using this information, formulate the REST call /api/getConsumerDetails using the [RESTMessageV2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_RESTMessageV2API.md) API and send it to the remote bank application to obtain the customer's account details.
 2.  The /getConsumerDetails endpoint returns the consumer details or an error if the customer is not located.
-3.  Using the GlideRecord API, create/update the associated customer record in the ServiceNow Consumers \[csm\_consumer\] table with the consumer information.
+3.  Using the [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) API, create/update the associated customer record in the ServiceNow Consumers \[csm\_consumer\] table with the consumer information.
 4.  Using the account information returned by the /api/getConsumerDetails REST call, lookup the customer mortgage record on the remote bank application. Again, use the RESTMessageV2 API to formulate and send the call to the /getFinancialAccounts endpoint on the bank application to obtain the customer's mortgage record.
 5.  The /getFinancialAccounts endpoint returns the financial accounts associated with the specified customer.
-6.  Using the GlideRecord API, create/update the associated consumer's financial account information in the ServiceNow financial\_account table.
+6.  Using the [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) API, create/update the associated consumer's financial account information in the ServiceNow financial\_account table.
 
 </td></tr></tbody>
 </table>## Example code

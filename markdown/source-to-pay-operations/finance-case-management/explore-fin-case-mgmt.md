@@ -15,7 +15,7 @@ breadcrumb: [Finance Case Management, Finance and Supply Chain applications, Fin
 
 Learn about the benefits and capabilities of Finance Case Management.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Benefits
 
@@ -31,7 +31,7 @@ As part of the Next Experience default theme provided by the ServiceNow platform
 
 The dark theme emits less blue light, making the display easier for your eyes and less disturbing in low-light settings. The dark theme is supported for configurable workspaces, lists, forms, dashboards, and reports.
 
-For more information on customizing coral theme, see Working with themes in Next Experience.
+For more information on customizing coral theme, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
 
 An example of the email notification template with coral theme is shown below.![Theme](../../accounts-payable-operations/image/theme.png)
 

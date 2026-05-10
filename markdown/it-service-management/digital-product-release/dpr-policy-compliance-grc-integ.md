@@ -50,7 +50,7 @@ In GRC: Policy and Compliance Management
 
 1. In the Compliance Workspace, the compliance manager maps a control objective and policies from the **PaCE policies** tab in the Control Objective record.**Note:** Only the policies that have the exception enabled can be mapped to a control objective.
 
-For more information, see Manage control objectives and policies using the Compliance Workspace.
+For more information, see [Manage control objectives and policies using the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/manage-control-obj-policies-ws.md).
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ For more information, see Manage control objectives and policies using the Compl
 
 </td><td>
 
-3.b. One or more Controls are created for a combination of release entity and control objective \(CO\).For more information, see Multiple controls for compliance management.
+3.b. One or more Controls are created for a combination of release entity and control objective \(CO\).For more information, see [Multiple controls for compliance management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/support-multiple-controls-same-entity-control-objective.md).
 
 The policy execution status is listed in the **PaCE results** tab in the newly created Control records.
 
@@ -92,7 +92,7 @@ The policy execution status is listed in the **PaCE results** tab in the newly c
 
 </td><td>
 
-5. Compliance manager or an authorized user from the Policy and Compliance group reviews and approves the policy exception \(or extension\) request.For more information, see Review the policy exception and extension request using the Compliance Workspace.
+5. Compliance manager or an authorized user from the Policy and Compliance group reviews and approves the policy exception \(or extension\) request.For more information, see [Review the policy exception and extension request using the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/review-policy-ext-and-extension-req-ws.md).
 
 </td></tr><tr><td>
 

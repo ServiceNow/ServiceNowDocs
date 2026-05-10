@@ -51,7 +51,7 @@ The Carbon Black integration enables you to investigate and respond to security 
 -   [Tips for writing integrations](../../../security-operations-integrations/concept/c_BestPractisesIntegrations.md)
 -   [Developer training](https://developer.servicenow.com/app.do#!/training/landing)
 -   [Developer documentation](https://developer.servicenow.com/app.do#!/documentation)
--   Find components installed with an application
+-   [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md)
 
 </td></tr><tr><td>
 

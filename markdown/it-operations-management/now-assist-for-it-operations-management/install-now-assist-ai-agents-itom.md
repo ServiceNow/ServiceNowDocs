@@ -57,7 +57,7 @@ Role required: admin
 
 ## What to do next
 
-To access AI agents in the Now Assist panel, you must enable the panel. For more information, see Activate the Now Assist panel standard chat.
+To access AI agents in the Now Assist panel, you must enable the panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 **Parent Topic:**[Configure Now Assist for ITOM](../concept/now-assist-itom-configure.md)
 

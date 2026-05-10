@@ -47,7 +47,7 @@ Because function field calculations are not stored in the database, some operati
 
 -   Function fields cannot be encrypted, since a function field value is never stored in the database.
 -   Function fields cannot be converted to regular fields or vice versa.
--   Function fields that you create in the Reporting UI do not support dot-walking. For more information, see Configure function fields in Reporting.
+-   Function fields that you create in the Reporting UI do not support dot-walking. For more information, see [Configure function fields in Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/configure-function-fields.md).
 -   Security is evaluated on the components of the function and on the calculated value of the field. When used in visualizations, sections that contain information that the user is not permitted to see are hidden from the user.
 -   Field function names must be unique.
 
@@ -59,9 +59,9 @@ Platform functions can be defined in two ways:
 
     |APIs|Description|
     |----|-----------|
-    |Scoped GlideDBFunctionBuilder|Construct the function to perform a SQL operation.|
-    |GlideRecord - addFunction\(Object function\)|Apply the function to a GlideRecord.|
-    |GlideDBFunctionCaseBuilder - Global|Build case statements.|
+    |[Scoped GlideDBFunctionBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDBFunctionBuilderScopedAPI.md)|Construct the function to perform a SQL operation.|
+    |[GlideRecord - addFunction\(Object function\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)|Apply the function to a GlideRecord.|
+    |[GlideDBFunctionCaseBuilder - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDBFunctionCaseBuilderAPI.md)|Build case statements.|
 
 2.  Create a field that holds the function definition, as shown in the following example.
 
@@ -453,7 +453,7 @@ For example, the following function definition creates a field that shows the sh
 
 `glidefunction:concat(short_description, ' ', caller_id.name)`
 
-**Note:** Function parameters support dot-walking. See Dot-walking to data in related tables.
+**Note:** Function parameters support dot-walking. See [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md).
 
 </td></tr></tbody>
 </table>5.  Click **Submit**.
@@ -464,7 +464,7 @@ For example, the following function definition creates a field that shows the sh
 
 7.  Add the function field to the list.
 
-    See Configure items on forms or in lists using a list collector.
+    See [Configure items on forms or in lists using a list collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_UseSlushbuckets.md).
 
 
 ### Result

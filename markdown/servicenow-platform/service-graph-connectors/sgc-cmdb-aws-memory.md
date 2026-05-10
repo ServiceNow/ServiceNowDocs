@@ -17,7 +17,7 @@ You can use the `SgAwsApplicationProperties` script include to avoid memory util
 
 By making multiple database calls to ingest AWS data in smaller batches, the `SgAwsApplicationProperties` script include avoids overloading of the Robust Transform Engine \(RTE\) and results in reduced memory usage. However, for the script include to function properly, verify that the AWS Config aggregator is enabled on your AWS instance.
 
-To access the script include, navigate to **All** &gt; **System Definitions** &gt; **Script Includes**, and then search for and select `SgAwsApplicationProperties`. For more information, see Script includes.
+To access the script include, navigate to **All** &gt; **System Definitions** &gt; **Script Includes**, and then search for and select `SgAwsApplicationProperties`. For more information, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
 In the `SgAwsApplicationProperties` script include, you can modify the functions as described in the following table to resolve memory utilization errors.
 

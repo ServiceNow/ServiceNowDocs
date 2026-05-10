@@ -43,7 +43,7 @@ The base system provides the following predefined Virtual Agent topics \(chatbot
     -   Projects without strategy
     -   Projects without program or portfolio
 
-A topic defines the dialog between the Virtual Agent \(chat support bot\) and user, which enables you to gather information for a specific business need. For more information, see Virtual Agent.
+A topic defines the dialog between the Virtual Agent \(chat support bot\) and user, which enables you to gather information for a specific business need. For more information, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md).
 
 ## Integration with messaging applications
 
@@ -51,9 +51,9 @@ You can run Virtual Agent bot conversations for PPM using third-party messaging 
 
 Use the Virtual Agent integration app to configure the messaging apps for your instance.
 
-For more information, see Virtual Agent integration with messaging apps.
+For more information, see [Virtual Agent integration with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
 
-For more information on integrating with Slack or Microsoft Teams, see Setting up Virtual Agent notifications.
+For more information on integrating with Slack or Microsoft Teams, see [Setting up Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configuring-va-notifications.md).
 
 **Related topics**  
 

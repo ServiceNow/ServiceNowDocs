@@ -42,7 +42,7 @@ Role required: admin
 
     7.  On the Dictionary entry form, fill in the fields.
 
-        For more information, see Dictionary entry form.
+        For more information, see [Dictionary entry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/r_DictionaryEntryForm.md).
 
     8.  Select **Submit**.
 

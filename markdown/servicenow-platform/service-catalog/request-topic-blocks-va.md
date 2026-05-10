@@ -65,7 +65,7 @@ You can use this topic block to request for a catalog item.
 |Parameter|Description|
 |---------|-----------|
 |catalog\_item\_id|sys\_id of the catalog item that should be requested.|
-|execute\_contextual\_search|Option to specify if the contextual search should be run for a record producer based on its configuration. For information on defining contextual search for a record producer, see Define contextual search for record producer.|
+|execute\_contextual\_search|Option to specify if the contextual search should be run for a record producer based on its configuration. For information on defining contextual search for a record producer, see [Define contextual search for record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/t_CntxtSearchRP.md).|
 |confirm\_catalog\_item|Option to specify whether the user must confirm the catalog item before continuing with the next step. If this is set to `false`, user can answer the catalog items questions by skipping the confirmation.|
 |show\_end\_state\_card|Option to display the end state card information about the generated record to the user.|
 

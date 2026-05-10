@@ -36,7 +36,7 @@ Document Services provides a broad range of services related to document managem
 
     Manage large numbers of documents efficiently. Document Management provides storage space and a tracking system to easily upload, retrieve, and delete documents.
 
--   **Document Viewer**
+-   **[Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/Documentviewer.md)**
 
     View documents directly in the ServiceNow AI Platform® rather than having to download them. Document Viewer supports viewing various file types in the platform. The maximum document file size is 50 MB. Enable  Document Viewer and the tables you want to use with it at the instance level.
 
@@ -49,16 +49,16 @@ Document Services provides a broad range of services related to document managem
     Integrate providers with your ServiceNow instance to store files, upload, add versions, and download information with document providers.
 
 
--   Upgrade to Australia
+-   [Upgrade to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrade.md)
 -   [Developer training](https://developer.servicenow.com/app.do#!/training/article/app_store_learnv2_automatingapps_paris_notifications/app_store_learnv2_automatingapps_paris_notifications_objectives?v=paris)
 -   [Domain separation and Document Management](../concept/domain-separation-document-services.md)
 
 ## Document generation apps
 
--   PDFGenerationAPI API
--   Document API
--   DocumentListService API
--   DocumentService API
+-   [PDFGenerationAPI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+-   [Document API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md)
+-   [DocumentListService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentListServiceBothAPI.md)
+-   [DocumentService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentServiceBothAPI.md)
 
 ## Troubleshoot and get help
 

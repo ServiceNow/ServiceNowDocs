@@ -16,13 +16,13 @@ breadcrumb: [Getting started with Virtual Agent Designer, Build and deploy, Virt
 
 View custom skills through Assistant Designer Asset library.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 **Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](../reference/vad-prev-topics-page.md).
 
 **Role required**: virtual\_agent\_admin
 
-When you select a custom skill, it opens the skill in Now Assist Skill Kit. Custom skills currently can't be created in Virtual Agent Designer. You can only view them in Assistant Designer Asset library. The skills can be created, tested, and deleted only in Now Assist Skill Kit. For more details on creating skills, see Create a skill.
+When you select a custom skill, it opens the skill in Now Assist Skill Kit. Custom skills currently can't be created in Virtual Agent Designer. You can only view them in Assistant Designer Asset library. The skills can be created, tested, and deleted only in Now Assist Skill Kit. For more details on creating skills, see [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-new-skill.md).
 
 ![Custom skills pill inAssistant Designer Asset library.](../images/vad-custom-skills.png "Custom skills as viewed in Assistant Designer Asset library")
 
@@ -53,8 +53,8 @@ Custom skills become available in Assistant Designer Asset library based on the 
     -   Select **Platform skills** in the **Feature** list.
     -   Select the **Now Assist panel** card to enable the skill through the Now Assist Panel.
 
--   For more information about the Now Assist Panel, see Now Assist panel.
--   For more information about Now Assist Skill Kit, see Now Assist Skill Kit.
+-   For more information about the Now Assist Panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+-   For more information about Now Assist Skill Kit, see [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
 
 **Parent Topic:**[Getting started with Virtual Agent Designer](../reference/conversation-designer-virtual-agent.md)
 

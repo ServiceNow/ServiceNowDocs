@@ -15,7 +15,7 @@ breadcrumb: [Now Assist for SPO, Sourcing and Procurement Operations, Finance an
 
 For your requesters' purchasing needs, the Now Assist for SPO Virtual Agent searches against the existing products in the product catalog and displays the available products.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 If a product is found with or without a price in the catalog, the requester can then fill out the intake questions through a simple conversation, and then submit the purchase request after reviewing the summary of responses. They can also edit a response before submitting.
 
@@ -25,15 +25,15 @@ If a product or service isn’t found in the catalog, the chatbot gathers more i
 
 As a requester, you can start with viewing all the topics, and then selecting **Buy a product**.
 
-You could also directly start typing what you need, in which case the utterance detection mechanism uses Genius Results to retrieve Virtual Agent topics, catalog items, and Q&amp;A results, and displays them to the requester within a card carousel. For details, see Using Now Assist in Virtual Agent.
+You could also directly start typing what you need, in which case the utterance detection mechanism uses Genius Results to retrieve Virtual Agent topics, catalog items, and Q&amp;A results, and displays them to the requester within a card carousel. For details, see [Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
 
 The Virtual Agent engages you in a guided conversation, asking you relevant questions along the way to help you submit your purchase, sourcing, and off-catalog requests, as well as procurement cases, independently, without the need to reach out to fulfillers. You can then review and track these request records from Shopping Hub, Employee Center, or Platform.
 
 To learn more about quick checkout and sourcing checkout processes, see [Order a product with quick checkout](../task/order-a-product.md) and [Complete sourcing checkout](../task/complete-sourcing-checkout.md) respectively. For more information on off-catalog intake forms, see [Requesting for products or services that you don't see on ShoppingHub](request-prod-serv-dont-see-sh.md).
 
-Now Assist in Virtual Agent provides your users with an interactive generative Artificial Intelligence \(AI\) experience. A friendly, natural language conversation is easier to understand and makes requesters more comfortable with talking to a bot. To learn how a conversation powered by generative AI might look in Virtual Agent, see Using Now Assist in Virtual Agent.
+Now Assist in Virtual Agent provides your users with an interactive generative Artificial Intelligence \(AI\) experience. A friendly, natural language conversation is easier to understand and makes requesters more comfortable with talking to a bot. To learn how a conversation powered by generative AI might look in Virtual Agent, see [Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
 
-As an administrator, you can use the Now Assist in Virtual Agent Analytics dashboard to monitor the performance of Now Assist in Virtual Agent as a self-service deflection tool. To learn more, see Using Now Assist Analytics. Now Assist in Virtual Agent Analytics calculates the conversation deflection rate based on the resolution status associated with Now Assist query responses.
+As an administrator, you can use the Now Assist in Virtual Agent Analytics dashboard to monitor the performance of Now Assist in Virtual Agent as a self-service deflection tool. To learn more, see [Using Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-analytics.md). Now Assist in Virtual Agent Analytics calculates the conversation deflection rate based on the resolution status associated with Now Assist query responses.
 
 For detailed information on Now Assist in Virtual Agent in general, and Now Assist for SPO in particular, see [Explore Now Assist for Sourcing and Procurement Operations \(SPO\)](now-assist-spo-exploring.md).
 

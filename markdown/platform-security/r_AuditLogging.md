@@ -15,7 +15,7 @@ The following logging tracks logins and activity by ServiceNow employees.
 
 <table id="table_fcs_45s_2r"><tbody><tr><td>
 
-Event Logs
+[Event Logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/event-logs-2.md)
 
 </td><td>
 

@@ -98,7 +98,7 @@ If a connection is already available within the Connections related list, contin
 
 For example, `Open AI connection`.
 
-**Note:** For more information about the fields on the HTTP\(s\) Connections New record form, see Create an HTTP\(s\) connection.
+**Note:** For more information about the fields on the HTTP\(s\) Connections New record form, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md).
 
 3.  Select the Lookup using list icon \( ![Lookup using list icon.](../../../reuse/icons/product-icons/magnifying-glass-outline-24.svg)\) next to **Credential**.
 4.  Select **New** to create a credential for your connection.
@@ -112,7 +112,7 @@ For example, `Open AI key`.
 
 7.  Enter the API key in the **API key** field.
 
-**Note:** For more information about the fields on the API Key Credentials New record form, see API key credentials.
+**Note:** For more information about the fields on the API Key Credentials New record form, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/API-key-credential-form.md).
 
 8.  Select **Submit**.
 
@@ -137,9 +137,9 @@ For example, enter `https://api.openai.com` for Open AI.
 
 ## Result
 
-End users can now perform an internet search to answer a query whenever in web search mode. For more information about web search mode for end users, see Web search.
+End users can now perform an internet search to answer a query whenever in web search mode. For more information about web search mode for end users, see [Web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/web-search-requestor.md).
 
 ## What to do next
 
-If you switched the AI provider to Perplexity, you must work with the **sn\_ai\_websearch.perplexity\_model\_name** system property. For more information on this system property, see Now Assist in Virtual Agent system properties.
+If you switched the AI provider to Perplexity, you must work with the **sn\_ai\_websearch.perplexity\_model\_name** system property. For more information on this system property, see [Now Assist in Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-sys-props.md).
 

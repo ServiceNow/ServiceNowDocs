@@ -67,7 +67,7 @@ Use these general guidelines with a For Each flow logic.
 
 -   **Avoid nested For Each loops**
 
-    Avoid nested For Each loops that process many records. Nested loops may cause the flow to run until it is stopped by the flow transaction quota rule, which prevents flows from running longer than an hour. For more information about transaction quotas, see Transaction quotas.
+    Avoid nested For Each loops that process many records. Nested loops may cause the flow to run until it is stopped by the flow transaction quota rule, which prevents flows from running longer than an hour. For more information about transaction quotas, see [Transaction quotas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/c_TransactionQuotas.md).
 
 
 **Parent Topic:**[Workflow Studio flow logic](flow-logic.md)

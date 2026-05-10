@@ -117,7 +117,7 @@ Two aliases are available when you install the BMC Remedy spoke; one alias is of
 
 ## MID Server requirements
 
-These actions use REST calls that can run either on an instance or, optionally, through a MID Server. Use the connection record associated with the BMC Remedy alias to configure where actions run and, if needed, specify MID Server selection attributes. For more information, see MID server.
+These actions use REST calls that can run either on an instance or, optionally, through a MID Server. Use the connection record associated with the BMC Remedy alias to configure where actions run and, if needed, specify MID Server selection attributes. For more information, see [MID server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
 
 To set up the MID Server for this spoke, see [Set up MID Server for a spoke](../task/config-adv-mid-settings-for-oauth-on-mid.md).
 

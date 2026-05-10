@@ -20,34 +20,34 @@ The ServiceNow® Service Operations Workspace \(SOW\) application is a configura
 -   Configure reference field auto-load behavior from the SOW Admin Center.
 -   Enable service desk agents to easily create, manage, and track checklists for Request and RITM records directly within the workspace to confirm that all steps are completed.
 
-See Service Operations Workspace for ITSM for more information.
+See [Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-landing-page.md) for more information.
 
 **Important:** Service Operations Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **UI16 links to SOW redirection behavior**
+-   **[UI16 links to SOW redirection behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/manage-admin-console-sow-itsm.md)**
 
     Improve the fulfiller experience by redirecting UI16 module links such as forms and lists to the equivalent SOW experience. The UI16 module link redirection behavior is supported for all the applications in SOW when the system property **sn\_sow\_itsm\_admin.experience\_redirection\_enabled.sow** is set to `true`.
 
     For new instances, this redirection configuration is automatically available in the base system. For upgrade instances, administrators can configure the redirection behavior from the SOW Admin Center. You can enable this feature for the UI16 links and user groups or specifically for a custom table. You can also enable this feature for specific user groups or all user groups within the custom table or applications in SOW.
 
--   **Mapping granular admin roles with SOW granular roles**
+-   **[Mapping granular admin roles with SOW granular roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/roles-in-sow.md)**
 
     Using granular admin roles, provide full administrative access to the configuration and property pages for the applications in SOW without requiring the administrator \(admin\) role. These granular admin roles are mapped with ACLs and contain the corresponding existing SOW granular roles.
 
--   **UX property to hide contextual side panel**
+-   **[UX property to hide contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/manage-admin-console-sow-itsm.md)**
 
     Use the Hide contextual side panel for specific table and tab combination option from the SOW Properties section in the SOW Admin Center to configure the hide **ContextualSidebar** UX page property. This property enables you to define the table with tab combination for which the default primary contextual side panel must be hidden, prioritizing the embedded contextual side panel within the tab instead.
 
 
 ## Changed in this release
 
--   **Configure reference field auto-load behavior from SOW Admin Center**
+-   **[Configure reference field auto-load behavior from SOW Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/admin-center-sow.md)**
 
     Use the Reference field auto-load behavior option from the SOW Properties section of the SOW Admin Center to configure the **Reference search on click ** \(**ref\_search\_on\_click**\) UX page property. The option enables you to configure the automatic searching of field value results displayed for reference fields such as Configuration item, Service offering, and Service.
 
--   **Recent list links in SOW record**
+-   **[Recent list links in SOW record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/view-inc-record-info-contextual-sidepanel.md)**
 
     Selecting the Recent incidents, Recent interaction, or Recent tasks links from the Record information side panel of a SOW record displays the 10 most recent records irrespective of their timeline instead of showing the records from last seven days. You can select the **View All** option to view additional records as well.
 
@@ -58,55 +58,55 @@ Service Operations Workspace for ITSM is active by default and its default versi
 
 ## Related ServiceNow applications and Features
 
--   **Change Management**
+-   **[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ITILChangeManagement.md)**
 
     Control the life cycle of a change and implement the change with minimum disruption to IT services.
 
--   **Incident Management**
+-   **[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentManagement.md)**
 
     Enable users to identify IT issues and log incidents through the Incident Management system. Efficiently track, classify, and prioritize incidents to work effectively toward their resolution.
 
--   **Interaction Management**
+-   **[Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/interaction-management.md)**
 
     Respond to an incoming chat, phone, walk-up, or messaging interaction quickly by using an interaction that provides a centralized location for all communication channels.
 
--   **Notify**
+-   **[Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-landing-page.md)**
 
     Provide support for SMS and voice channels on the platform to communicate with your team and customers.
 
--   **On-Call Scheduling**
+-   **[On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/c_OnCallScheduling.md)**
 
     Identify available on-call members of a support group who can be contacted to resolve an issue.
 
--   **Password Reset**
+-   **[Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-landing-page.md)**
 
     The ServiceNow® Password Reset application enforces strong and secure passwords by enabling end users to reset or change their passwords either by using the self-service process or by requesting the assistance of a service desk agent.
 
--   **Predictive Intelligence**
+-   **[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md)**
 
     Use machine-learning algorithms to provide dynamic and contextual recommendations for resolving an incident.
 
--   **Problem Management**
+-   **[Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/c_ProblemManagement.md)**
 
     Identify the root cause of recurring incidents or a major incident to help prevent them from happening again.
 
--   **Recommended Actions for ITSM in Service Operations Workspace**
+-   **[Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/recommended-actions-for-itsm-in-service-operations-workspace.md)**
 
     Get field recommendations and guidance in the side panel for the incident form in Service Operations Workspace.
 
--   **Request Management**
+-   **[Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/c_RequestManagement.md)**
 
     Initiate a catalog request flow from a different IT Service Management flow, such as an incident flow, by using catalog requests.
 
--   **Service Level Management**
+-   **[Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-mgmt-landing-page.md)**
 
     Access incident service level agreement \(SLA\) information on the Service Operations Workspace for ITSM landing page and incident record page.
 
--   **Service Operations Workspace for ITOM**
+-   **[Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/sow-landing-page-itom.md)**
 
     Configure your operator experience through a unified interface for multiple ServiceNow® IT Operations Management workflows.
 
--   **Walk-up Experience**
+-   **[Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-experience-landing-page.md)**
 
     Manage walk-up interactions and queues effortlessly by using Service Operations Workspace for ITSM.
 

@@ -17,6 +17,6 @@ Now Assist AI agents help to improve live agent productivity by using AI agents 
 
 AI agents for Health and Safety help to create actions using the Now Assist panel.
 
--   For more information, see Explore Now Assist AI agents.
--   To learn how to manage AI agents and agentic workflows, see AI Agent Studio.
+-   For more information, see [Explore Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md).
+-   To learn how to manage AI agents and agentic workflows, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md).
 

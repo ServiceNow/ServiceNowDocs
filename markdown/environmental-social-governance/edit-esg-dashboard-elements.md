@@ -4,7 +4,7 @@ description: You can edit the contents of a dashboard or dashboard tab, includin
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 4
 breadcrumb: [Monitoring assessment data using Operational Sustainability Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -60,7 +60,7 @@ You can also select **Add new element** on any selected dashboard element to see
 
 1.  Select **Edit** to put the dashboard into edit mode.
 2.  Select **Add new element**. From the list, select **Data visualization**.
-3.  Create the visualization as described in Data visualizations in Platform Analytics.
+3.  Create the visualization as described in [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md).
 4.  Select the More actions icon ![](../images/more-menu.png) and select **Add to library**.
 5.  Give the visualization a name and a description.
 6.  Select **Add to library**.
@@ -87,8 +87,8 @@ The data visualization is available in the Visualization library for use on othe
 2.  Select the element that you want to edit.
 3.  In the element's header, select the Configure icon ![](../images/configuration-icon.png) to open the Configuration panel.
 4.  Configure the element and choose **Save**. For more information about configuring an element, see one of the following:
-    -   Edit a data visualization in an inline dashboard
-    -   Edit a Platform Analytics filter on a dashboard
+    -   [Edit a data visualization in an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/editing-dv-in-line-db.md)
+    -   [Edit a Platform Analytics filter on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-filters-configurable-workspaces.md)
     -   [Heading component reference](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/now-components/now-heading/uib-config)
     -   [Image component reference](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/now-components/now-image/uib-setup)
     -   [Simple List component reference](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/shared-components/now-record-list-connected-snapshot/uib-setup)
@@ -113,7 +113,7 @@ When you have multiple tabs, you can move elements from tab to another or to the
 
 Filters let users filter data for all report widgets on a dashboard that follow them. You can add filters to both the entire dashboard and to individual dashboard tabs.
 
- For more information, see Filters in Platform Analytics.
+ For more information, see [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/interactive-filters-workspace.md).
 
 </td></tr><tr><td id="d23497e346">
 

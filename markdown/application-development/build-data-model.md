@@ -25,7 +25,7 @@ ServiceNow automatically adds five fields to each new table. The new fields cont
 |Sys ID|sys\_id|Unique identifier for the record. It is unique throughout the instance.|
 |Updates|sys\_mod\_count|Numeric field that counts the number of updates to the record since record creation.|
 
-New tables can extend an existing table to inherit fields and functionality from the table being extended. Add to and modify the components of the extended table. The most commonly extended ServiceNow table is the task table. For more information, see [When to create a new table vs. when to extend](https://www.servicenow.com/community/in-other-news/when-to-create-a-new-table-vs-when-to-extend/ba-p/2277550) and Exploring ServiceNow AI Platform® tables.
+New tables can extend an existing table to inherit fields and functionality from the table being extended. Add to and modify the components of the extended table. The most commonly extended ServiceNow table is the task table. For more information, see [When to create a new table vs. when to extend](https://www.servicenow.com/community/in-other-news/when-to-create-a-new-table-vs-when-to-extend/ba-p/2277550) and [Exploring ServiceNow AI Platform® tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/exploring-table-administration.md).
 
 Add fields to the table to support the data model required by the application. ServiceNow has many different field types with built-in validation. Select the field type that best fits the field’s data.
 

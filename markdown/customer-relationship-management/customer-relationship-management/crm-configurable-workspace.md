@@ -78,9 +78,9 @@ Each product within the CRM portfolio uses configurable workspace as the foundat
 **Related topics**  
 
 
-[bundle-csm.csm-workspaces-configure]
+[CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)
 
-[bundle-csm.csm-workspace-feature-overview]
+[CSM Configurable Workspace features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-feature-overview.md)
 
-[bundle-csm.csm-config-ws-pages-templates]
+[CSM Configurable Workspace record pages and page templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-pages-templates.md)
 

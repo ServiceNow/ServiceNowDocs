@@ -52,9 +52,9 @@ Beginning in the New York release, you can use the new Jobs \(sn\_hr\_core\_job\
 **Related topics**  
 
 
-[bundle-crapiref.hr_UtilsAPI]
+[hr\_Utils - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/hr_UtilsAPI.md)
 
-[bundle-crapiref.hr_ActivitySetAPI]
+[hr\_ActivitySet - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/hr_ActivitySetAPI.md)
 
-[bundle-crapiref.hr_ActivityUtilsAPI]
+[hr\_ActivityUtils - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/hr_ActivityUtilsAPI.md)
 

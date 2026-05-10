@@ -22,13 +22,13 @@ The ServiceNow® Industrial Connected Workforce Mobile Experience \(ICW Mobile\)
 -   Find the information that you need quickly using AI-powered search functionality across tasks, standards, and articles from a single mobile interface.
 -   Improve guided task accuracy and speed with integrated barcode and QR scanning support.
 
-See Exploring Industrial Connected Workforce Mobile Experience for more information.
+See [Exploring Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/exploring-icw-mobile-experience.md) for more information.
 
 **Important:** ICW Mobile is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## ICW Mobile features
 
--   **ServiceNow product tiers**
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -37,46 +37,46 @@ See Exploring Industrial Connected Workforce Mobile Experience for more informat
     -   Prime: Act autonomously with all AI assets, and create your own
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
--   **Contextualize an external document using AI Enhanced recommended actions for ICW Mobile**
+-   **[Contextualize an external document using AI Enhanced recommended actions for ICW Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/use-ai-enhanced-ra-icw-mobile.md)**
 
     Contextualize an external document to get an explanation of why the document is relevant to the selected deviation.
 
--   **Generate an action plan using AI Enhanced recommended actions for ICW Mobile**
+-   **[Generate an action plan using AI Enhanced recommended actions for ICW Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/generate-action-plan-ai-enhanced-ra-icw-mobile.md)**
 
     Create an action plan to help resolve your ICW deviation using relevant documentation.
 
 
--   **Mobile Task Management**
+-   **[Mobile Task Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/using-icw-mobile-experience.md)**
 
     Manage all task‑related activity from intuitive mobile views tailored for shop floor workers to improve visibility and responsiveness during operations.
 
     Clear status indicators and color cues help in identifying critical or overdue tasks, improving responsiveness during operations.
 
--   **Mobile Standards Hub**
+-   **[Mobile Standards Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/standards-hub-mobile.md)**
 
     Browse, request, and access published standards tailored to your functional location using the mobile Standards Hub.
 
     Embedded rating and feedback mechanisms support continuous improvement of documentation and frontline usability.
 
--   **Intuitive and minimal input actions**
+-   **[Intuitive and minimal input actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/create-action-mobile.md)**
 
     Create actions, deviations, breakdowns, and follow‑up tasks directly from the mobile interface with minimal input to accelerate issue reporting.
 
     Integrated escalation workflows help operators move seamlessly from detection to analysis, such as starting an RCA directly from a deviation.
 
--   **Guided Task Execution**
+-   **[Guided Task Execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/execute-igt-icw-mobile.md)**
 
     Execute guided tasks on the shop floor by following step‑by‑step instructions with embedded media, validation checks, and barcode or QR scanning.
 
     Skill validation helps prevent unauthorized execution of tasks that require specific certifications or training.
 
--   **Performance &amp; Reliability Enhancements**
+-   **[Performance &amp; Reliability Enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/configure-now-mobile-agent-application-icw-mobile.md)**
 
     Continue working in low‑connectivity environments with offline caching that saves your progress and synchronizes updates when connectivity returns.
 
     Optimized load times and reduced latency to create a smooth user experience across industrial environments.
 
--   **Report any safety related incident**
+-   **[Report any safety related incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/icw-mobile-report-safety-incident.md)**
 
     Report, triage, and investigate health and safety‑related incidents directly from the mobile interface through ICW integration with Health and Safety.
 
@@ -98,15 +98,15 @@ Install Industrial Connected Workforce Mobile Experience as part of the ICW Foun
 
 ## Related ServiceNow applications and features
 
--   **Industrial Connected Workforce Core**
+-   **[Industrial Connected Workforce Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-core-landing-page.md)**
 
     Provides the foundational data, workflows, and governance structures that power all ICW applications. It standardizes organizational, equipment, and workforce models to keep all apps aligned.
 
--   **Industrial Standards**
+-   **[Industrial Standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-standards-landing-page.md)**
 
     Enables the creation and governance of SOPs, inspections, and CIL routines. ICW Mobile accesses these standards to generate tasks and deliver instructions to operators.
 
--   **Industrial Guided Tasks**
+-   **[Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/exploring-industrial-guided-tasks.md)**
 
     Industrial Guided Tasks provides structured, step‑by‑step workflows for industrial activities. These guided tasks integrate directly into the ICW Mobile experience for seamless execution on handheld devices.
 

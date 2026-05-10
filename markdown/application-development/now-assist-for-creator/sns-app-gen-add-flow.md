@@ -54,7 +54,7 @@ Use the app generation skill to add one or more flows to a custom application wh
 
     ![Now Assist panel with flow details requested highlighted.](../images/app-generation-add-flow2.png)
 
-    For more information about flows, see Exploring flows.
+    For more information about flows, see [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flows.md).
 
 8.  Continue the conversation until the flow contains what you need.
 

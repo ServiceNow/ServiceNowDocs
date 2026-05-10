@@ -33,7 +33,7 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 
 6.  From the **Step Type** options, select steps you want to measure, and screens, events, or actions as applicable.
 
-<table id="choicetable_fsr_qbg_wjb"><tbody><tr><td id="d92644e119">
+<table id="choicetable_fsr_qbg_wjb"><tbody><tr><td id="d92650e119">
 
 **Event Trigger**
 
@@ -41,7 +41,7 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 
 Select [User Analytics Events KPIs](view-events.md#) to measure. To match a selected event by a certain property, select **Filter properties**, select a property from the drop down, and enter a value for the property.
 
-</td></tr><tr><td id="d92644e141">
+</td></tr><tr><td id="d92650e141">
 
 **Session Start \(1st\)**
 
@@ -49,7 +49,7 @@ Select [User Analytics Events KPIs](view-events.md#) to measure. To match a sele
 
 Select to measure users' first sessions.
 
-</td></tr><tr><td id="d92644e150">
+</td></tr><tr><td id="d92650e150">
 
 **Session Start \(any\)**
 

@@ -35,7 +35,7 @@ Set the **glide.authenticate.multifactor.setup.bypass.count** system property to
 |Fallback value|0|
 |Recommended value|0|
 
-To learn more about adding or creating a system property, see Add a system property.
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Parent Topic:**[Authentication](sc-authentication.md)
 

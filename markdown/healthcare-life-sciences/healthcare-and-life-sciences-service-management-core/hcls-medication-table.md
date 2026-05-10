@@ -110,7 +110,7 @@ Alpha-numeric profile identifier of the medication.
 
  The value is auto-generated and is incremented every time you add a new medication to your ServiceNow instance. The initial value for the **Number** field is MED00001001.
 
-**Note:** To customize the number, define the auto-numbering format for the Medication \[sn\_hcls\_medication\] table. For more information, see Add auto-numbering records in a table.
+**Note:** To customize the number, define the auto-numbering format for the Medication \[sn\_hcls\_medication\] table. For more information, see [Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AutoNumberingRecordsInATable.md).
 
 </td></tr><tr><td>
 

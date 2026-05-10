@@ -17,7 +17,7 @@ ServiceNow® Service Operations Workspace is a configurable workspace that provi
 
 ![SOW overview](../image/sow-overview-landing-new-bg.svg)
 
-For information about how you can automate and optimize your services and operations using Service Operations Workspace, see Automating and optimizing your services and operations using Service Operations Workspace.
+For information about how you can automate and optimize your services and operations using Service Operations Workspace, see [Automating and optimizing your services and operations using Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/service-operations.md).
 
 ## Get started with Service Operations Workspace for ITSM
 
@@ -46,7 +46,7 @@ For information about how you can automate and optimize your services and operat
 [Optimizing IT services in your organization ![Optimizing IT services](../../../common/image/icon-explore.png) Enhance and optimize IT services in your organization](optimizing-services-operations-in-organization.md)
 
 </td></tr></tbody>
-</table>For information about Service Operations Workspace for ITOM, see Service Operations Workspace for ITOM.
+</table>For information about Service Operations Workspace for ITOM, see [Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/sow-landing-page-itom.md).
 
 ## Helpful resources
 

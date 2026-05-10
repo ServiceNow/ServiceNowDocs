@@ -15,7 +15,7 @@ breadcrumb: [Software Asset Management publisher pack for SAP, Supported softwar
 
 Tables are installed with the Software Asset Management Professional for SAP plugin. The tables store data pulled from the SAP systems.
 
-**Note:** Use the Application Files table to see all components installed with the SAP publisher pack. For more information, see Find components installed with an application.
+**Note:** Use the Application Files table to see all components installed with the SAP publisher pack. For more information, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 Demo data is available for the SAP publisher pack.
 

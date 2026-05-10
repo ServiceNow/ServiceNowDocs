@@ -88,7 +88,7 @@ Enabling the **Active** check box makes the context input available for use in t
 </td></tr></tbody>
 </table>5.  Provide the necessary details in the related tabs.
 
-    The related tabs that display vary based on the field type selected in the **Type** field. For more information on the data types, see Field types reference.
+    The related tabs that display vary based on the field type selected in the **Type** field. For more information on the data types, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
 
 6.  Select **Save**.
 

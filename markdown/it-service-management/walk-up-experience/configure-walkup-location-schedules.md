@@ -29,7 +29,7 @@ Role required: admin or sn\_walkup.walkup\_admin
 
 3.  Complete the Schedule New record form or modify fields on an existing form.
 
-    To complete this process and for detailed information on creating, modifying, and using schedules in the system, including a definition of all form fields, refer to Schedules .
+    To complete this process and for detailed information on creating, modifying, and using schedules in the system, including a definition of all form fields, refer to [Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md) .
 
 
 **Parent Topic:**[Configuring Walk-up Experience](../concept/walkup-experience-configuration.md)

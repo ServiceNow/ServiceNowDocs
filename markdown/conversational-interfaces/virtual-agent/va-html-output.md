@@ -20,9 +20,9 @@ Use the HTML bot response control to display static HTML text in the Virtual Age
 
 ## Security considerations for HTML markup
 
-For security reasons, an HTML sanitizer script runs automatically and checks all HTML markup used in the instance, including Virtual Agent conversations. The sanitizer script removes elements or attributes that might enable cross-site scripting attacks. You can edit the HTML sanitizer script to change the list of markup items to be preserved or removed. For details, see HTML sanitizer. For examples of adding markup items to the exclusion or inclusion lists, see Configure HTML sanitizer.
+For security reasons, an HTML sanitizer script runs automatically and checks all HTML markup used in the instance, including Virtual Agent conversations. The sanitizer script removes elements or attributes that might enable cross-site scripting attacks. You can edit the HTML sanitizer script to change the list of markup items to be preserved or removed. For details, see [HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HTMLSanitizer.md). For examples of adding markup items to the exclusion or inclusion lists, see [Configure HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ConfigureHTMLSanitizer.md).
 
-To disable the HTML sanitizer script only for Virtual Agent conversations, add the **com.glide.cs.html.sanitizer.enabled** system property and set the value to false. For details about creating a system property, see Add a system property.
+To disable the HTML sanitizer script only for Virtual Agent conversations, add the **com.glide.cs.html.sanitizer.enabled** system property and set the value to false. For details about creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 ## HTML bot response control properties
 

@@ -34,7 +34,7 @@ The ServiceNow® ITOM AIOps application helps you to keep track and maintain the
     -   [Service Operations Workspace \(SOW\) for ITOM](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-service-ops-workspace-itom-apps.html)
     -   [Synthetic Monitoring](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-sow-synthetic-monitoring.html)
 
-See ITOM AIOps for more information.
+See [ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-health-landing-page.md) for more information.
 
 **Important:** ITOMAIOps apps are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -42,16 +42,16 @@ See ITOM AIOps for more information.
 
 Install ITOM AIOps apps by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
--   ITOM AIOps is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). You must purchase a more comprehensive ITOM AIOps package, ITOM Predictive AIOps, to enable working with Health Log Analytics. For details, see Event Management setup.
+-   ITOM AIOps is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). You must purchase a more comprehensive ITOM AIOps package, ITOM Predictive AIOps, to enable working with Health Log Analytics. For details, see [Event Management setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMConfiguration.md).
 -   Install Service Operations Workspace \(ITOM\) by installing the AIOps Experience \[sn\_sow\_aiops\] application from the ServiceNow Store.
 
 ## Related ServiceNow applications and features
 
--   **ITOM Visibility**
+-   **[ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/itom-visibility-landing-page.md)**
 
-    The ServiceNow® ITOM Visibility product consists of ServiceNow® , , , Service Mapping, , , , , and  applications. Discovery and Service Mapping give you a unified, connected view of your entire IT network and the services that it supports. The Service Graph Connectors and CMDB 360 applications provide data to ITOM Visibility.
+    The ServiceNow® ITOM Visibility product consists of ServiceNow® , , , [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md), , , , , and  applications. Discovery and Service Mapping give you a unified, connected view of your entire IT network and the services that it supports. The [Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-available.md) and [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md) applications provide data to ITOM Visibility.
 
-    Discovery provides a replicable and reliable method to identify your enterprise IT infrastructure. Service Mapping creates an accurate, service-aware view of your infrastructure. Service Mapping continuously monitors IT resources for service-affecting changes and updates service maps in real time. For more information on ITOM Visibility, see ITOM Visibility .
+    Discovery provides a replicable and reliable method to identify your enterprise IT infrastructure. Service Mapping creates an accurate, service-aware view of your infrastructure. Service Mapping continuously monitors IT resources for service-affecting changes and updates service maps in real time. For more information on ITOM Visibility, see [ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/itom-visibility-landing-page.md) .
 
 
 **Parent Topic:**[IT Operations Management release notes](it-operations-management-rn-landing.md)

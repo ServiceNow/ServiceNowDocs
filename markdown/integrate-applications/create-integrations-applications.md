@@ -30,7 +30,7 @@ Automate and connect anything to ServiceNow. Unify your approach to automation w
 
 </td></tr><tr><td>
 
-External Content Connectors ![](../../../reuse/icons/brand-icons/bus-proxy.svg) Search content and metadata from supported external data repositories.
+[External Content Connectors ![](../../../reuse/icons/brand-icons/bus-proxy.svg) Search content and metadata from supported external data repositories.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ext-cont-connectors-landing-page.md)
 
 </td><td>
 
@@ -111,7 +111,7 @@ Integration Hub Remote Process Sync enables you to set up one-way or bidirection
 
 </td></tr><tr><td>
 
-External Content Connectors
+[External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ext-cont-connectors-landing-page.md)
 
 </td><td>
 
@@ -144,19 +144,19 @@ Securely connect to an external data source and access external data directly fr
 </td></tr></tbody>
 </table>## Related ServiceNow applications and features
 
--   **Instance Data Replication**
+-   **[Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/instance-data-replication.md)**
 
     ServiceNow® Instance Data Replication \(IDR\) copies data updates from one instance, called the producer instance, to one or more other instances called the consumer instances. IDR enables you to maintain consistent data across different instances. For example, you can synchronize data between different organizations in your company or even between different companies with separate instances.
 
--   **Inbound email actions**
+-   **[Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_InboundEmailActions.md)**
 
     Define an inbound email action to script how the system responds to an inbound email.
 
--   **Workflow Studio**
+-   **[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md)**
 
     Integrate workflow authoring, configuring, and monitoring into a single page experience. Consolidate playbooks, flows, actions, decision tables, and integrations into one design environment.
 
--   **Building actions**
+-   **[Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/actions.md)**
 
     Actions automate a repeatable task or operation within a flow. Flows run actions by passing them data as inputs. Actions run a sequence of steps to complete the task, and pass data to the flow as outputs.
 

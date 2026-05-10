@@ -17,9 +17,9 @@ In this example, we create a script to retrieve specific types of incident recor
 
 For Remote Table API information, refer to:
 
--   v\_query – Scoped, Global
--   v\_record - Scoped, Global
--   v\_table – Scoped, Global
+-   [v\_query – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_queryAPI.md)
+-   [v\_record - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_recordAPI.md)
+-   [v\_table – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md)
 
 ```javascript
 /**

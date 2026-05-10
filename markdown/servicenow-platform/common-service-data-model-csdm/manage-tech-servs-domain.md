@@ -49,7 +49,7 @@ The services are operational, which means that you can select them for ITSM Inci
 -   Dynamic CI Group \(a dynamic grouping of CIs, based on results of CMDB Groups queries\) uses a related list to specify the relationship with Infrastructure CIs.
 -   Business Service Offering **Depends on::Used by** Service instance.
 
-**Note:** Business services and Technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See Service Portfolio Management taxonomy.
+**Note:** Business services and Technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See [Service Portfolio Management taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-taxonomy.md).
 
 ## Tables used during the Service Delivery phase of the service life cycle
 
@@ -77,7 +77,7 @@ Users of Technology management services can view and manage the technologies tha
 
 Technology management services can be managed as part of the Service Portfolio in the Service Consumption domain \(that is, a Service Portfolio hierarchy can be referenced from a Technology management service\). This allows for a more complete hierarchy and management of both Technology management services and business services within the Service Portfolio Management workspace and related workspaces. You can make better decisions when you know how spend on Technology management services can improve performance and reliability of your business services.
 
-**Note:** Business services and Technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See Service Portfolio Management taxonomy.
+**Note:** Business services and Technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See [Service Portfolio Management taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-taxonomy.md).
 
 ## Technology management offerings
 
@@ -180,7 +180,7 @@ The table that a service instance maps to depends on the method used to create i
 
 -   For more information about service instances and the methods you can use to create them, see [Application services](../../configuration-management/concept/application-services.md) and [Create a Service instance \(application service\)](../../service-mapping/task/create-it-services.md).
 -   You can specify required attributes for service instances. For more information, see [Modify the attributes and relationships required for application services](../../configuration-management/task/modify-req-fields-appservice.md).
--   You can set a relationship between a service instance and the components of other CSDM domains. See Service Mapping.
+-   You can set a relationship between a service instance and the components of other CSDM domains. See [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md).
 
 ## Applications
 

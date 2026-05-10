@@ -51,5 +51,5 @@ Multiple skills are involved in GAF setup and execution. They are modular, so no
 
 GAF uses AI Search to improve its effectiveness and can use it as a fallback option in case GAF does not return any results. GAF can work without Now Assist in AI Search, but if it is enabled then GAF has optimized prediction. The optimized prediction feature increases clustering capacity up to 500,000 records and improves recall speed.
 
-See Install Now Assist in AI Search and [Set up AI Search for Group Action Framework](../task/setup-ai-search-gaf.md) for more information on configuring AI Search for GAF.
+See [Install Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/install-now-assist-ais.md) and [Set up AI Search for Group Action Framework](../task/setup-ai-search-gaf.md) for more information on configuring AI Search for GAF.
 

@@ -87,7 +87,7 @@ When set to true, disables health results from sources other than CMDB Health au
 -   Location: System Property \[sys\_properties\] table.
 -   Learn more:
     -   [CMDB Health KPIs and metrics](r_CMDBHealthMetrics.md)
-    -   Discovery for VMware vCenter
+    -   [Discovery for VMware vCenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_DiscoveryForVMwareVCenter.md)
 
 </td></tr><tr><td>
 

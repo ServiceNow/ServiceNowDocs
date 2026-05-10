@@ -33,6 +33,6 @@ Role required: sn\_cmdb\_admin
 
 4.  On the Discovery Admin Workspace, create a discovery schedule as required.
 
-    For more information, see Create an IP-based Discovery schedule in Discovery Admin Workspace.
+    For more information, see [Create an IP-based Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t-dawCreateNewDiscoSchedule.md).
 
 

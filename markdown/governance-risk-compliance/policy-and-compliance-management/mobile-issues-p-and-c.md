@@ -56,15 +56,15 @@ Time to complete this task: 5-10 minutes.
 
     ![Issue record.](../image/mobile-issue-record.jpg)
 
-<table id="choicetable_sgf_5fd_xhb"><thead><tr><th align="left" id="d150721e236">
+<table id="choicetable_sgf_5fd_xhb"><thead><tr><th align="left" id="d150725e236">
 
 Option
 
-</th><th align="left" id="d150721e239">
+</th><th align="left" id="d150725e239">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d150721e245">
+</th></tr></thead><tbody><tr><td id="d150725e245">
 
 **Details tab**
 
@@ -81,7 +81,7 @@ Tap the **Control/Risk** field to expand it. A list of records is displayed. Tap
 -   At the top right of the screen with the Issue screen displayed, tap the menu icon \( ![Menu icon.](../../grc-common/image/mobile-top-menu.png)\) to edit and assign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d150721e289">
+</td></tr><tr><td id="d150725e289">
 
 **Activity Stream tab**
 
@@ -91,7 +91,7 @@ Choose one to continue.-   View work notes and additional comments. Tap the plus
 -   At the top right of the screen, tap the menu icon \( ![Menu icon.](../../grc-common/image/mobile-top-menu.png)\) to edit and assign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d150721e319">
+</td></tr><tr><td id="d150725e319">
 
 **Related List tab**
 
@@ -104,7 +104,7 @@ View the related lists.
 3.  After your review, navigate back to the issue record and tap the menu \( ![Menu icon.](../../grc-common/image/mobile-top-menu.png)\) to edit and assign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d150721e352">
+</td></tr><tr><td id="d150725e352">
 
 **Screen icons at the bottom of the screen.**
 

@@ -233,7 +233,7 @@ Alpha-numeric profile identifier of the practitioner.
 
  The value is auto-generated and is incremented every time you add a new practitioner to an instance. The initial value for the **Number** field is PRACT00001001.
 
-**Note:** To customize the number, define the auto-numbering format for the Practitioner \[sn\_hcls\_practitioner\] table. For more information, see Add auto-numbering records in a table.
+**Note:** To customize the number, define the auto-numbering format for the Practitioner \[sn\_hcls\_practitioner\] table. For more information, see [Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AutoNumberingRecordsInATable.md).
 
 </td></tr><tr><td>
 

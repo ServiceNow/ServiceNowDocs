@@ -23,7 +23,7 @@ Role required: admin
 
 1.  If not already configured, configure your ServiceNow instance as an OAuth JWT provider.
 
-    For details, see Create an OAuth JWT API endpoint for external clients \(machine to machine integration\).
+    For details, see [Create an OAuth JWT API endpoint for external clients \(machine to machine integration\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-jwt-endpoint.md).
 
 2.  Navigate to **System Definition** &gt; **Certificates**.
 
@@ -31,11 +31,11 @@ Role required: admin
 
     ![Mobile SDK iOS X.509 certificate](../../image/mobile_sdk-image-x509-cert.png)
 
-    For details on creating this certificate, see Update your X.509 certificate.
+    For details on creating this certificate, see [Update your X.509 certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/update-cert-whois.md).
 
 4.  Create an OAuth Entity.
 
-    For details, see Create an OAuth JWT API endpoint for external clients \(machine to machine integration\).
+    For details, see [Create an OAuth JWT API endpoint for external clients \(machine to machine integration\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-jwt-endpoint.md).
 
 5.  Add and select the **Public Client** field to the form.
 

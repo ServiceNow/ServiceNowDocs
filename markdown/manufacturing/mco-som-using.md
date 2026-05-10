@@ -15,7 +15,7 @@ The Order Management application for Manufacturing Commercial Operations creates
 
 Use Order Management as the system of action and relay order status via the customer service portal. Orders can be captured and fulfilled in any system and synced back to the Order Management order table.
 
-To learn how to use Order Management, see Order management.
+To learn how to use Order Management, see [Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md).
 
 -   **[Using the Business Portal in Manufacturing Commercial Operations](mco-business-portal-using.md#)**  
 Customers can use the Business Portal to browse product catalogs and create product orders in Sales Customer Relationship Management for Manufacturing Commercial Operations.

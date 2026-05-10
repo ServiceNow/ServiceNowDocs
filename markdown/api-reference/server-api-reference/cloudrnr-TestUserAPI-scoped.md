@@ -23,7 +23,7 @@ You can use this API for the following tasks:
 -   Check the progress of the user test job.
 -   Cancel the test job.
 
-In global scope, this API is executed within the sn\_atf\_tg namespace. You must have the ATF Test Generator and Cloud Runner \(sn\_atf\_tg\) plugin activated to use this API.
+In global scope, this API is executed within the sn\_atf\_tg namespace. You must have the [ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-intro.md) \(sn\_atf\_tg\) plugin activated to use this API.
 
 See also:
 

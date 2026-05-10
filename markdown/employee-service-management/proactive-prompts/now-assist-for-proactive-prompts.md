@@ -26,7 +26,7 @@ A signal is the configuration for instructions about when to send them, what to 
 
 The **Show Approvals** and **Request PTO** actions aren't available by default to add to the signal configuration as they’re inactive. Follow these steps to activate these actions:
 
--   Create and publish the Now LLM Service topics. For information on creating a Virtual Agent topic, see Creating a Virtual Agent topic. For information on publishing a Virtual Agent topic, see Publish a Virtual Agent topic
+-   Create and publish the Now LLM Service topics. For information on creating a Virtual Agent topic, see [Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md). For information on publishing a Virtual Agent topic, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md)
 -   Create signal actions forProactive Prompts. For information about configuring signal actions for Proactive Prompts, see [Configure signal actions for Proactive Prompts](../task/proactive-prompts-signal-actions.md).
 -   Select the actions in the signal channel configuration. For information on configuring the delivery channels in Proactive Prompts, see [Configure delivery channels in Proactive Prompts](../task/proactive-prompts-config-channels.md).
 

@@ -13,7 +13,7 @@ breadcrumb: [Flows, Configure, Financial Services Operations \(FSO\)]
 
 Several flows are installed with Financial Services Operations applications that you can use to automate requests.
 
-By using Workflow Studio, you can review and configure these predefined flows for your own business needs.
+By using [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md), you can review and configure these predefined flows for your own business needs.
 
 The following table lists the predefined flows that are available with Financial Services Operations applications.
 

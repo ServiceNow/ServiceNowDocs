@@ -128,5 +128,5 @@ A script to determine advanced assignment rule functionality. Scripts provide ac
 **Related topics**  
 
 
-[bundle-platadm.c_DefineAssignmentRules]
+[Define assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DefineAssignmentRules.md)
 

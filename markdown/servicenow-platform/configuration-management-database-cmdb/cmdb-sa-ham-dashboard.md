@@ -15,7 +15,7 @@ breadcrumb: [Use HAM advisor, CMDB success advisor, Configuration Management Dat
 
 The CMDB success advisor for HAM dashboard enables CMDB administrators to identify and address data quality issues specific to HAM in the Configuration Management Database \(CMDB\).
 
-**Important:** When you select a segment or count on a chart from a CMDB success advisor dashboard, the KPI Details page opens. On the page, you can analyze how a specific metric trends over time. Additionally, the Remediation actions panel appears when remediation actions are available for that card. Use the panel to improve the quality of CMDB. To learn more, see KPI Details and [Improving CMDB data quality for HAM](cmdb-sa-ham-remediation.md).
+**Important:** When you select a segment or count on a chart from a CMDB success advisor dashboard, the KPI Details page opens. On the page, you can analyze how a specific metric trends over time. Additionally, the Remediation actions panel appears when remediation actions are available for that card. Use the panel to improve the quality of CMDB. To learn more, see [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md) and [Improving CMDB data quality for HAM](cmdb-sa-ham-remediation.md).
 
 ![CMDB success advisor for HAM dashboard overview.](../image/cmdb-sa-ham-dashboard.png)
 

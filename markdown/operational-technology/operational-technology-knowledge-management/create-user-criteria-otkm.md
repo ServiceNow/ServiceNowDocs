@@ -19,7 +19,7 @@ Create a user criteria record to determine the users who can read or contribute 
 
 Role required: user\_criteria\_admin
 
-**Note:** To create a user criteria record from the Knowledge module, you must have the user\_criteria\_admin role in addition to the knowledge role. For more information about access, see Managing access to knowledge bases and knowledge articles.
+**Note:** To create a user criteria record from the Knowledge module, you must have the user\_criteria\_admin role in addition to the knowledge role. For more information about access, see [Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/user-access-knowledge.md).
 
 ## About this task
 

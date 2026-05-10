@@ -66,5 +66,5 @@ This example demonstrates how you can create and configure a playbook to design 
 
 [Telecommunications Network Inventory subflows](subflow.md)
 
-[bundle-crworkflow.building-a-process]
+[Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-a-process.md)
 

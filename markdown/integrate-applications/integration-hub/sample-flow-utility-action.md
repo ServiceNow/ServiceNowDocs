@@ -29,7 +29,7 @@ This sample flow demonstrates using the Utility Actions spoke actions to create 
 
 2.  Create a flow.
 
-    For more information, see Building flows.
+    For more information, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md).
 
 3.  In the flow, add these spoke actions or flow logics:
 

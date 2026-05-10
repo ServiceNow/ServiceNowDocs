@@ -17,11 +17,11 @@ The Workplace Connector Webhook API is a generic interface that enables data fro
 
 This API runs in the `sn_wsd_wc` namespace. To access this API the Workplace Connectors \(com.sn\_wsd\_wc\) plugin must be activated.
 
-Before calling this API, you must configure records in the Connector Configuration \[sn\_wsd\_wc\_connector\_config\] and Provider Configuration \[sn\_wsd\_wc\_provider\_config\] tables. For information on how to configure these records, see Configure Workplace Connectors.
+Before calling this API, you must configure records in the Connector Configuration \[sn\_wsd\_wc\_connector\_config\] and Provider Configuration \[sn\_wsd\_wc\_provider\_config\] tables. For information on how to configure these records, see [Configure Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/configure-workplace-connectors.md).
 
 In addition, you must set up an extension point that defines the data conversion/mapping from the hardware/sensor-based event payload to the target ServiceNow table, such as the Employee Attendance Data \[sn\_wsd\_wc\_employee\_attendance\_data\] table.
 
-For additional information on workplace connector webhooks, see Workplace Connectors.
+For additional information on workplace connector webhooks, see [Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/workplace-connectors-landing-page.md).
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 

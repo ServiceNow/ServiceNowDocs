@@ -51,7 +51,7 @@ To start a post incident review:
 
 5.  Click **Update**.
 
-    When the incident goes into the **Review** state \(or immediately, if it is already in the **Review** state\), each of the users in the review list receives an initial email notification. Reminders are sent as the due date nears. When each user accesses the questionnaire from the email link or by going to **Post Incident Review** &gt; **My Pending Reviews**, the questions shown are drawn from all categories that fit this security incident. If new users are added to the review list before the due date is reached, they are sent notifications when the security incident is saved.
+    When the incident goes into the **Review** state \(or immediately, if it is already in the **Review** state\), each of the users in the review list receives an initial [email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_AssessmentNotifications.md). Reminders are sent as the due date nears. When each user accesses the questionnaire from the email link or by going to **Post Incident Review** &gt; **My Pending Reviews**, the questions shown are drawn from all categories that fit this security incident. If new users are added to the review list before the due date is reached, they are sent notifications when the security incident is saved.
 
     As users complete their questionnaires, the post incident report compiles the data and displays the report in the **Post Incident Review** tab. The questionnaire data is displayed in the **Findings** tab.
 

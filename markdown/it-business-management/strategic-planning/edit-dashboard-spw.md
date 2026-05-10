@@ -113,7 +113,7 @@ The dashboard is updated with the latest changes.
 ## What to do next
 
 -   Add more elements and customize your dashboard as required.
--   For detailed instructions on editing a dashboard using the Platform Analytics experience in Strategic Planning, see Edit Platform Analytics dashboards.
+-   For detailed instructions on editing a dashboard using the Platform Analytics experience in Strategic Planning, see [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-in-ac.md).
 
 **Related topics**  
 

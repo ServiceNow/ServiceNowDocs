@@ -17,7 +17,7 @@ Configure resources to plot the organization's assets on the crisis map. The ass
 
 Role required: System administrator
 
-Set up the Google maps for enabling the crisis map functionality. For more information, see Set up Google Maps API.
+Set up the Google maps for enabling the crisis map functionality. For more information, see [Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-google-maps-api.md).
 
 ## Procedure
 

@@ -29,9 +29,9 @@ Use the Performance Analytics widgets on the dashboard to visualize data over ti
 
 **Note:** Solutions include some dashboards that are inactive by default. You can activate these dashboards to make them visible to end users according to your business needs.
 
-For unlimited access to all features of this Platform Analytics Solution, purchase a Performance Analytics subscription. For more information, see Activating your Performance Analytics subscription.
+For unlimited access to all features of this Platform Analytics Solution, purchase a Performance Analytics subscription. For more information, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
 
-To use this Platform Analytics Solution, you must activate your subscription to Performance Analytics for Business Management. For more information about entitlements to Performance Analytics, see Activating your Performance Analytics subscription.
+To use this Platform Analytics Solution, you must activate your subscription to Performance Analytics for Business Management. For more information about entitlements to Performance Analytics, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
 
 This base system Platform Analytics Solution is available from the ServiceNow Store. To enable this solution, as an admin, navigate to **System Applications** &gt; **Search ServiceNow Store**. When the landing page for the ServiceNow Store opens, search for Performance Analytics Content Pack for Essential SAFe. When you find the solution, follow the instructions in the ServiceNow Store. The ServiceNow Store has its own documentation.
 
@@ -79,5 +79,5 @@ Customize the Burnup, Burndown, and Cumulative Flow Diagram reports of your dash
 
 [Work Progress Status for SAFe](../../../product/work-progress-status-safe/concept/work-progress-status-safe-overview.md)
 
-[bundle-par.c_PremiumPerformanceAnalytics]
+[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md)
 

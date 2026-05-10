@@ -34,7 +34,7 @@ Enables \(true\) or disables \(false\) requiring basic authentication for incomi
 -   Location:Add to the System Properties \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Note:** To learn more about this property, see Basic auth: JSONv2 requests in Instance Security Hardening Settings.
+</table>**Note:** To learn more about this property, see [Basic auth: JSONv2 requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-jsonv2-request-authorization.md) in Instance Security Hardening Settings.
 
 **Parent Topic:**[JSONv2 web service](c_JSONv2WebService.md)
 

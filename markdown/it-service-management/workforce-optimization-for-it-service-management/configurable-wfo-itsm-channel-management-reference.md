@@ -59,7 +59,7 @@ Grants administrative rights to create, read, update, and delete \(CRUD\) channe
 </td></tr></tbody>
 </table>## Properties
 
-**Note:** To use channel management properties, they must be added to the System Property \[sys\_properties\] table. For information on how to add a system property, refer to Add a system property.
+**Note:** To use channel management properties, they must be added to the System Property \[sys\_properties\] table. For information on how to add a system property, refer to [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 <table id="table_whl_zfk_twb"><thead><tr><th>
 

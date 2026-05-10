@@ -15,9 +15,9 @@ Configure a JWT provider on the ServiceNow AI Platform to configure an OAuth app
 
 ## Before you begin
 
-Upload a Java Key Store \(JKS\) certificate. Attach a JKS certificate containing the certificate uploaded on Microsoft Azure to your instance to use when enabling the JWT client authentication. For more information, see Upload Java Key Store certificate.
+Upload a Java Key Store \(JKS\) certificate. Attach a JKS certificate containing the certificate uploaded on Microsoft Azure to your instance to use when enabling the JWT client authentication. For more information, see [Upload Java Key Store certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/JWT-Bearer-token-support.md).
 
-Create a JWT signing key to assign to your JKS certificate. For more information, see Configure a JWT signing key.
+Create a JWT signing key to assign to your JKS certificate. For more information, see [Configure a JWT signing key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/JWT-Bearer-token-support.md).
 
 Role required: admin
 
@@ -58,7 +58,7 @@ sub
 Client ID copied from Microsoft Azure
 
 </td></tr></tbody>
-</table>    For more information, see Create a JWT provider with a JWT signing key.
+</table>    For more information, see [Create a JWT provider with a JWT signing key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/JWT-Bearer-token-support.md).
 
 2.  From the JWT Provider record menu, select **Copy sys\_id** and copy the JWT provider sys\_id.
 

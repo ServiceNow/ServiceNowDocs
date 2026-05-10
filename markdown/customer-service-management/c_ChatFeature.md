@@ -15,5 +15,5 @@ Configure the chat channel with the ServiceNow® Connect Support feature. You ca
 
 Agents must be added to the Customer Service chat support assignment group before they can receive chat requests. This assignment group is used by the Customer Service chat queue to route the chat requests.
 
-For more information, see Connect Support and Virtual Agent.
+For more information, see [Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_ConnectSupport.md) and [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md).
 

@@ -64,7 +64,7 @@ Creator Studio specializes in helping you craft request-fulfillment applications
 
 ## Troubleshoot and get help
 
--   To learn more about what's new in the Australia release, see the ServiceNow SDK release notes.
+-   To learn more about what's new in the Australia release, see the [ServiceNow SDK release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/servicenow-sdk-rn.md).
 -   [ServiceNow SDK and Fluent Creator Toolbox](https://www.youtube.com/live/PHFZBsbTTtI?si=DbZq3aTEtqUlxpbi&t=2167) video
 -   [ServiceNow SDK examples](https://github.com/ServiceNow/sdk-examples) GitHub repository
 -   [ServiceNow IDE, SDK, and Fluent forum](https://www.servicenow.com/community/servicenow-ide-sdk-and-fluent/bd-p/ide-sdk-fluent-forum) in the ServiceNow Community

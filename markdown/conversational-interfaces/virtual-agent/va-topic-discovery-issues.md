@@ -25,7 +25,7 @@ If a Virtual Agent is not being discovered, check the following:
 
 -   **Is the NLU Model trained and published for the session language?**
 
-    Your topic may not be using the latest changes to your model. For ServiceNow® NLU, see Train and try your NLU model and [Publish a Virtual Agent topic](../task/publish-virtual-agent-topic.md).
+    Your topic may not be using the latest changes to your model. For ServiceNow® NLU, see [Train and try your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/test-train-nlu-model.md) and [Publish a Virtual Agent topic](../task/publish-virtual-agent-topic.md).
 
 -   **Is the Virtual Agent topic published, discoverable, and bound to a published NLU Model and Intent for the session language?**
 
@@ -47,7 +47,7 @@ If a Virtual Agent is not being discovered, check the following:
         -   Bound to Model A and Intent A for English
         -   Bound to Model A and Intent A for Spanish
         -   NOT bound to a model or intent for French
-        In this scenario, create a French model and intent for the topic. For more information, see Multilingual model management.
+        In this scenario, create a French model and intent for the topic. For more information, see [Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/multilingual-model-managent.md).
 
 -   **Why did a topic variable NOT slot fill?**
 

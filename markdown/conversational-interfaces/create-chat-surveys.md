@@ -26,7 +26,7 @@ Role required: survey\_admin or admin
 
 ## About this task
 
-You define, configure, and publish conversational questionnaires \(surveys\) using Survey Designer. You can use various survey controls to define the content of your questionnaires. For details on the survey controls available, see Survey designer elements to see how the controls are rendered in the survey. For example, the Choice control provides a multiple choice selection to your users.
+You define, configure, and publish conversational questionnaires \(surveys\) using [Survey Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md). You can use various survey controls to define the content of your questionnaires. For details on the survey controls available, see [Survey designer elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesignerElements.md) to see how the controls are rendered in the survey. For example, the Choice control provides a multiple choice selection to your users.
 
 The survey controls map to corresponding Virtual Agent Designer input controls that render the survey as a conversation in the chat client. For examples on how Virtual Agent Designer input controls are rendered in run-time conversations, see [Virtual Agent Designer user input controls](../../virtual-agent/reference/va-user-inputs.md). The following table identifies the survey controls supported in Virtual Agent Designer.
 
@@ -59,7 +59,7 @@ The survey controls map to corresponding Virtual Agent Designer input controls t
     -   If you want an introduction note and end note to begin and end your survey, enter your content in the **Introduction** and **End note** fields.
     -   Select the **Chat Survey** option to enable conversational questionnaires. This option also enables the display of the **Context** option in the Properties form for each survey control.
     -   Select **Save**.
-    For details, see Configure a survey in the survey designer.
+    For details, see [Configure a survey in the survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigSurveyInSurveyDesgnr.md).
 
 3.  Select the **Design** tab and give your survey a **Name**.
 
@@ -70,7 +70,7 @@ The survey controls map to corresponding Virtual Agent Designer input controls t
         -   If you enable the **Mandatory** option, users are required to answer the survey question. If you leave this field blank, users can skip the question in the survey.
         -   If you want to store the user response to this question, enter the chat context variable in the **Context** field.
     -   Select **Save**.
-    For details, see Create a question in the survey.
+    For details, see [Create a question in the survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateQuestSurveyDesigr.md).
 
 4.  When you are finished defining the questions in your survey, select **Preview** to review your survey.
 

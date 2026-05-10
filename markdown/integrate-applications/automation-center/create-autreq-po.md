@@ -25,7 +25,7 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 1.  Navigate to **Workspaces** &gt; **Process Mining Workspace**.
 
-    For more information, see the Process Mining documentation.
+    For more information, see the [Process Mining documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integration-with-ac.md).
 
 
 ## What to do next

@@ -25,7 +25,7 @@ Role required:
 
 This task adds an existing AI system from AI Control Tower to a business application record.
 
-You can also add a business application to a new AI System. For information, see Request an AI use case form.
+You can also add a business application to a new AI System. For information, see [Request an AI use case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/request-ai-system-form.md).
 
 ## Procedure
 
@@ -69,5 +69,5 @@ You can also add a business application to a new AI System. For information, see
 
 [AI Control Tower integration with Enterprise Architecture](../../concept/eaw-concept/eaw-aict.md)
 
-[bundle-platai.ai-control-tower-home-page]
+[AI Control Tower Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-control-tower-home-page.md)
 

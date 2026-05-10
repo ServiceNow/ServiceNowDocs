@@ -30,7 +30,7 @@ These apps run on the ServiceNow mobile platform. You can download these mobile 
 
 ## Offline mode for mobile
 
-Use the offline mode of the Mobile Agent and the Now Mobile app to work in areas without an internet connection. You can turn on the offline mode and complete your tasks. Once you go online, the changes are all synchronized automatically. For more information, see Offline mode.
+Use the offline mode of the Mobile Agent and the Now Mobile app to work in areas without an internet connection. You can turn on the offline mode and complete your tasks. Once you go online, the changes are all synchronized automatically. For more information, see [Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-offline-mode.md).
 
 To turn on offline mode on your mobile, do the following:
 
@@ -38,7 +38,7 @@ To turn on offline mode on your mobile, do the following:
 -   Tap **Download Cache**.
 -   Enable the **Offline Mode** option.
 
-**Tip:** To schedule a periodic download of cache, configure the **glide.sg.offline.scheduled\_download.enabled** system property on your instance. For more information, see Configure offline mode behavior.
+**Tip:** To schedule a periodic download of cache, configure the **glide.sg.offline.scheduled\_download.enabled** system property on your instance. For more information, see [Configure offline mode behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-offline-mode.md).
 
 
 

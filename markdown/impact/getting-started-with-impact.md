@@ -4,7 +4,7 @@ description: A set of activities that help new Impact customers get started with
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-05-08"
+last_updated: "2026-05-09"
 reading_time_minutes: 1
 breadcrumb: [Impact Foundations, Impact operating model, Exploring Impact, Impact]
 ---

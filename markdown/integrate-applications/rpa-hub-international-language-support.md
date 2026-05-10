@@ -15,5 +15,5 @@ You can customize the RPA Hub application for your international users by using 
 
 Internationalization support is automatically enabled and isn't configurable.
 
-To view the full list of languages that are offered as ServiceNow AI Platform plugins and are supported in RPA Hub, see Activate a language.
+To view the full list of languages that are offered as ServiceNow AI Platform plugins and are supported in RPA Hub, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 

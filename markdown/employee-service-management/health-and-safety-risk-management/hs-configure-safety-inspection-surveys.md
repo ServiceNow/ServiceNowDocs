@@ -17,14 +17,14 @@ Review surveys available with the Health and Safety Risk Management application.
 
 ## Before you begin
 
--   Surveys are built with the ServiceNow® Survey designer. So, familiarize yourself with Survey administration.
--   Ensure that the application scope is selected as Health and Safety Risk Management. For more information, see Application picker.
+-   Surveys are built with the ServiceNow® Survey designer. So, familiarize yourself with [Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md).
+-   Ensure that the application scope is selected as Health and Safety Risk Management. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: sn\_hs\_rm.safety\_inspection\_manager, sn\_hs\_rm.safety\_audit\_manager, survey\_creator, or admin
 
 ## About this task
 
-You can convert your existing Survey templates related to Health and Safety into Smart Assessment templates using the Smart Assessment Engine migration tool. For more information, see Creating an assessment template from legacy assessment metric types.
+You can convert your existing Survey templates related to Health and Safety into Smart Assessment templates using the Smart Assessment Engine migration tool. For more information, see [Creating an assessment template from legacy assessment metric types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-migrating.md).
 
 ## Procedure
 
@@ -34,7 +34,7 @@ You can convert your existing Survey templates related to Health and Safety into
 
     -   To create a survey, click **New** or **Survey Designer**.
     -   To modify a predefined one, filter the list to show the surveys for the Health and Safety Risk Management application and open the desired survey.
-    -   For information on building and updating surveys, see Survey designer.
+    -   For information on building and updating surveys, see [Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md).
     -   **Tip:** When assigned to a user, any survey created via the ServiceNow® Assessments and Surveys is available under **My Assessments and Surveys** in the Employee Center. Therefore, it might be a good idea that your survey has the same name as your inspection or audit record. This helps identify the inspection or audit survey quickly in the list of other assessments and surveys the user has been assigned.
 
 3.  In the **Source table** field, select the source table.

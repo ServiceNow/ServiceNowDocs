@@ -17,7 +17,7 @@ Lists the categories for your Knowledge Base. You can use this base system widge
 
 ![Knowledge Base categories widget](../image/WidgetKBCategories.png "KB Categories widget")
 
-Categories are determined by the list of Knowledge Categories provided for the Knowledge Base. To view a list of categories for a knowledge base, in the platform navigate to **Knowledge** &gt; **Administration** &gt; **Knowledge bases** then select the name of the knowledge base, for example IT. Categories for the knowledge base appear in the related lists. For more information on defining categories for a knowledge base, see Define a knowledge article category.
+Categories are determined by the list of Knowledge Categories provided for the Knowledge Base. To view a list of categories for a knowledge base, in the platform navigate to **Knowledge** &gt; **Administration** &gt; **Knowledge bases** then select the name of the knowledge base, for example IT. Categories for the knowledge base appear in the related lists. For more information on defining categories for a knowledge base, see [Define a knowledge article category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_DefineAKnowledgeCategory.md).
 
 **Note:** If the **Max article limit to allow category counts** field is set to 500 counts and the knowledge base contains more than 500 articles the KB categories widget displays all of the categories in the knowledge base.
 

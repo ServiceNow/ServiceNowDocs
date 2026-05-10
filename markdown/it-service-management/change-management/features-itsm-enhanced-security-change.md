@@ -15,7 +15,7 @@ breadcrumb: [Reference, Change Management, IT Service Management]
 
 Help prevent unauthorized access to change-related tables using deny-unless ACLs. A deny-unless authentication ACL restricts access for a non-authenticated user.
 
-The enhanced security model implements deny-unless ACLs to restrict access for a non-authenticated user, such as a public role user. Without access, the user can't perform any actions on change-related tables, including reading, writing, deleting, or creating. This ensures that only authorized or approved user roles can access the change tables. For more information on deny-unless ACLs, see Deny-Unless ACL.
+The enhanced security model implements deny-unless ACLs to restrict access for a non-authenticated user, such as a public role user. Without access, the user can't perform any actions on change-related tables, including reading, writing, deleting, or creating. This ensures that only authorized or approved user roles can access the change tables. For more information on deny-unless ACLs, see [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/acl-denial-behavior.md).
 
 This model is applicable on the following change-related tables after installing the ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin:
 

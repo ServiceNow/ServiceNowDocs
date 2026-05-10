@@ -22,9 +22,9 @@ The following searches support Zing wildcard characters.
 
     **Note:** Users with the admin role can enable wildcard search in the Knowledge context by navigating to **All** &gt; **Contextual Search** &gt; **Search Contexts**, editing the **Knowledge Base Search** record, and selecting the **Enable wildcard searches** check box.
 
--   Search a list
+-   [Search a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_SearchAList.md)
 
-    **Note:** To perform a wildcard text search of a list, you must select **for text** as the search field. If you select a list field instead of **for text**, wildcard characters in search terms will be interpreted as list search wildcards \(for non-reference fields\) or as [auto-complete wildcards](../../field-administration/concept/c_AutoCompleteForReferenceFields.md#) \(for reference fields\).
+    **Note:** To perform a wildcard text search of a list, you must select **for text** as the search field. If you select a list field instead of **for text**, wildcard characters in search terms will be interpreted as [list search wildcards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_SearchAList.md) \(for non-reference fields\) or as [auto-complete wildcards](../../field-administration/concept/c_AutoCompleteForReferenceFields.md#) \(for reference fields\).
 
 
 To perform a single-character wildcard search, use the percent sign \(`%`\) character. This wildcard finds words that contain any one character in place of the percent-sign-character. For example, to find words such as **text** or **test**, search for `te%t`.

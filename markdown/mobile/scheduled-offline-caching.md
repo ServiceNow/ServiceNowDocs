@@ -15,13 +15,13 @@ Configure offline caching so your field technicians can receive scheduled update
 
 ## Activate the Agent Schedule plugin
 
-To enable and configure scheduled offline caching, the Agent Schedule plugin \[com.snc.agent\_schedule\] must be activated. For details on plugin activation, see Activate a plugin.
+To enable and configure scheduled offline caching, the Agent Schedule plugin \[com.snc.agent\_schedule\] must be activated. For details on plugin activation, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 ## Create work schedules for offline caching
 
 For mobile clients other than Mobile Agent, ensure that an entry in Offline download schedule \(sys\_sg\_offline\_download\_schedule\) exists for the client type, for example, Request. This entry specifies the table that has the offline download schedules for the agents or technicians. Mobile uses the schedule from this table for scheduling offline cache generation. To populate schedules for each user, a scheduler script can be used like in Field Service Mobile.
 
-For Mobile Agent, the entry is created when the plugin is activated. After activating the plugin, you must create work schedules for the agents or technicians to enable users to automatically receive scheduled offline caches. This can be done directly through the Agent Work Schedules \[agent\_work\_schedule\] table. For more information on how to create schedules through this table, see Create a work schedule for an agent or technician.
+For Mobile Agent, the entry is created when the plugin is activated. After activating the plugin, you must create work schedules for the agents or technicians to enable users to automatically receive scheduled offline caches. This can be done directly through the Agent Work Schedules \[agent\_work\_schedule\] table. For more information on how to create schedules through this table, see [Create a work schedule for an agent or technician](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-agent-work-schedule.md).
 
 Based on the records from the Agent Work Schedules table, your instance runs background scheduled jobs that create schedules in the Agent Daily Schedules \[agent\_daily\_schedule\] table. Within these schedules, agents will receive a silent push sometime throughout their scheduled day.
 

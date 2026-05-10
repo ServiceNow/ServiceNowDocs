@@ -24,7 +24,7 @@ The header search bar and the Search dynamic block in the base system both autom
 
 In order for the global search to work properly, it is important to ensure that the DEFAULT directs users to a working content page. If not, the results from the global search link back to the frame set, not to pages within the CMS site.
 
-**Note:** The global search is similar to the normal frame set user interface and ties to the same roles \(Set global text search properties\).
+**Note:** The global search is similar to the normal frame set user interface and ties to the same roles \([Set global text search properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/set-global-text-search-properties.md)\).
 
 ## Search Results \(Global\)
 

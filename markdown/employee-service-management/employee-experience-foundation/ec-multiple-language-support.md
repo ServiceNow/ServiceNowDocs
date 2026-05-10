@@ -17,7 +17,7 @@ Content Publishing supports multi-lingual content creation by enabling content m
 
 For more information on multiple language support in the Content Library, see [Multilingual support in the Content Library](ec-switch-language.md).
 
-For information on translating custom widgets, see Translate a client script message
+For information on translating custom widgets, see [Translate a client script message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_TranslateAClientScriptMessage.md)
 
 -   Translation is available through Content Publishing versions 21.0.15 and later.
 -   When upgrading your version of Content Publishing, you will not automatically receive translations support for all fields. The following tables are not updated to use translated text instead of the original type field:

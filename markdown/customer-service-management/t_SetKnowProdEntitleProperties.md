@@ -23,7 +23,7 @@ Role required: admin
 
 2.  Set the following properties, as needed.
 
-<table id="choicetable_v3v_fd1_cv"><tbody><tr><td id="d221782e92">
+<table id="choicetable_v3v_fd1_cv"><tbody><tr><td id="d221789e92">
 
 **Enable access control of Knowledge Bases based on product entitlements**
 
@@ -31,7 +31,7 @@ Role required: admin
 
 If enabled, customers can access all of the knowledge bases related to the products for which they have entitlements.
 
-</td></tr><tr><td id="d221782e101">
+</td></tr><tr><td id="d221789e101">
 
 **Allow access to Knowledge Bases with empty related\_products**
 
@@ -39,7 +39,7 @@ If enabled, customers can access all of the knowledge bases related to the produ
 
 If enabled, customers can access all knowledge bases even if no products have been specified in the **Related Products** field on the Knowledge Base form.
 
-</td></tr><tr><td id="d221782e113">
+</td></tr><tr><td id="d221789e113">
 
 **Enable access control of Knowledge Articles based on product entitlements**
 
@@ -47,7 +47,7 @@ If enabled, customers can access all knowledge bases even if no products have be
 
 If enabled, customers can access all of the knowledge articles related to the products for which they have entitlements.
 
-</td></tr><tr><td id="d221782e122">
+</td></tr><tr><td id="d221789e122">
 
 **Allow access to Knowledge Articles with empty related\_products**
 
