@@ -2,6 +2,8 @@
 
 ServiceNow AI Platform™ product documentation optimized for AI Agent consumption.
 
+> NOTE: This repository does not contain any media objects (images, etc.). As it is intended for LLM consumption and not human viewing, images are omitted. Human readers can find all images and other media objects at the official [product documentation site](https://www.servicenow.com/docs).
+
 Australia release family documentation.
 
 ## Refresh cadence
@@ -9,8 +11,6 @@ Australia release family documentation.
 This repository is updated whenever the ServiceNow AI Platform documentation
 is republished to [the product documentation site](https://www.servicenow.com/docs),
 normally at least monthly, sometimes more often.
-
-> NOTE: This repository does not contain any media objects (images, etc.). As it is intended for LLM consumption and not human viewing, images are omitted. Human readers can find all images and other media objects at the official [product documentation site](https://www.servicenow.com/docs).
 
 ## List of publications
 
@@ -68,6 +68,6 @@ normally at least monthly, sometimes more often.
 
 
 ## Change log
-
+- __10 May 2026__ Republished Australia content to correct truncated index.md files, fix cross-publication links.
 - __29 April 2026__ Initial publication of Australia family content
 - __23 April 2026__ Repository created.
