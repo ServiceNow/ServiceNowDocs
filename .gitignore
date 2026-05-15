@@ -12,6 +12,11 @@ _site/
 *.mov
 *.mp4
 *.MP4
+*.PNG
+*.gif
+*.jpeg
+*.jpg
+*.png
 
 
 # Additional Ruby/bundler ignore for when you run: bundle install
