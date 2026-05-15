@@ -7,6 +7,12 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 .*
+# Don't allow media files to be committed.
+*.MOV
+*.mov
+*.mp4
+*.MP4
+
 
 # Additional Ruby/bundler ignore for when you run: bundle install
 /vendor
