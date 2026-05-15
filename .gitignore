@@ -7,6 +7,16 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 .*
+# Ignore media files
+*.mov
+*.MOV
+*.mp4
+*.MP4
+*.PNG
+*.gif
+*.jpeg
+*.jpg
+*.png
 
 # Additional Ruby/bundler ignore for when you run: bundle install
 /vendor
