@@ -17,7 +17,9 @@ normally at least monthly, sometimes more often.
 - __18 June 2026__:
   * Issues 8 and 17: All links within and between publications are absolute URLs to the GitHub raw format.
   * Issue 16: Media references are rendered as annotations indicating an omitted image with any alternative text retained.
+  * Issue 14: Store, mobile, and other release notes (branches "store", "mobile", and "other")
   * Issue 12: Filenames differing only in case resolved
+  * Issue 11: Canonical URL property added to all topics
 - __10 May 2026__ Republished Australia content to correct truncated index.md files, fix cross-publication links.
 - __29 April 2026__ Initial publication of Australia family content
 - __23 April 2026__ Repository created.
