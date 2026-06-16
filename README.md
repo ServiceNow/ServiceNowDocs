@@ -4,7 +4,7 @@ ServiceNow AI Platform™ product documentation with the content format optimize
 
 > NOTE: This repository does not contain any media objects (images, etc.). As it is intended for LLM consumption and not human viewing, images are omitted. Human readers can find all images and other media objects at the official [product documentation site](https://www.servicenow.com/docs).
 
-{family} release family documentation.
+Other release notes (not associated with any release family).
 
 ## Refresh cadence
 
