@@ -27,7 +27,7 @@ Important notes:
 
 ## Documents
 
-{Family} version ("{family}" branch) documentation.
+Store release notes documentation.
 
 Each folder within the `markdown` directory is a separate publication. The index.md for each publication lists the files in that publication.
 
