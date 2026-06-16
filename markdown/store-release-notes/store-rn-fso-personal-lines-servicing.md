@@ -1,0 +1,104 @@
+---
+title: Personal Lines Servicing release notes
+description: Version history for the Personal Lines Servicing application on the ServiceNow Store.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-personal-lines-servicing.html
+release: store
+topic_type: reference
+last_updated: "2026-06-11"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
+---
+
+# Personal Lines Servicing release notes
+
+Version history for the Personal Lines Servicing application on the ServiceNow Store.
+
+**Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+## Version history
+
+-   **Version 2.7.0 - June 2026**
+
+    New: Added child tables for indexing for Financial Case indexed source
+
+-   **Version 2.6.0 - April 2026**
+
+    Updated: FSO now uses the native CSM Case Type Selector with Agent and User Criteria support, replacing custom extension logic and legacy components to reduce maintenance overhead and standardize case type handling across all user types.
+
+-   **Version 2.5.0 - March 2026**
+
+    Updated: Updated the read-only option to 'Strict Read Only' for read-only fields
+
+-   **Version 2.3.1 - August 2025**
+
+    Changed: Included additional translations to support localization for Q4.
+
+-   **Version 2.2.1 - November 2024**
+
+    Changed: ACL bypass via UX Screen Condition.
+
+-   **Version 2.2.0 - May 2024**
+    -   New: Migrated data from FSO service category \(sn\_bom\_service\_definition\_category\) table to CSM service category\(sn\_csm\_case\_types\_service\_category\) and relationship tables
+    -   Changed: Modified configuration for localization support
+    -   Removed: Deprecated sn\_bom\_policy\_b2c.requestor role and related UI actions
+-   **Version 2.1.0 - February 2024**
+    -   Fixed: Fixed security issue in portal page
+    -   Changed:
+        -   Upgraded snc-app-parent version to 5.1.0.16
+        -   Modified configuration for localization support
+        -   Migrated agent assist template to UIB layout 3.0
+-   **Version 1.6.3 - December 2023 \(Vancouver\)**
+
+    Fixed: Updated Policy info service portal widget to private.
+
+-   **Version 1.5.4 - December 2023 \(Utah\)**
+
+    Fixed: Updated Policy info service portal widget to private.
+
+-   **Version 1.3.3 - December 2023 \(Tokyo\)**
+
+    Fixed: Updated Policy info service portal widget to private.
+
+-   **Version 1.5.1 - November 2023**
+
+    Changed: Moved product model demo data from 'sn\_bom\_ins\_policy\_model' table to 'sn\_ent\_b2c\_ins\_policy\_model' table.
+
+-   **Version 1.5.0 - May 2023**
+    -   New:
+        -   Added UX page properties for the Agent Assist on Voltron record page.
+        -   Added localization changes.
+-   **Version 1.4.0 - February 2023**
+
+    Changed:
+
+    -   Updated contributor roles
+    -   Updated UI actions for case
+-   **Version 1.3.0 - November 2022**
+
+    Fixed:
+
+    -   Fixed dark theme issues
+    -   Fixed the form layout for auto policy
+-   **Version 1.2.0 - August 2022**
+    -   New:
+        -   Added dependency for reject reason choice field based on stage
+        -   Added support for document signing with integration to Document Template
+    -   Changed:
+        -   Renamed Net premium field to Balance due
+        -   Renamed Decline button to Cancel request
+    -   Fixed: Fixed application forms and views
+    -   Removed: Removed customer 360 page
+-   **Version 1.1.2 - March 2022**
+    -   New:
+        -   New service definition on Auto Policy Service Case for Change coverage request
+        -   New service definition on Homeowner Policy Service Case for Change coverage request
+        -   New playbooks for both service definitions
+-   **Version 1.1.1 - February 2022**
+    -   New:
+        -   Migrated workspace from Agent workspace to CSM configurable workspace
+        -   Added new roles "Agent Connector" and "Contributor"
+    -   Changed:
+        -   Changed case type to be specific to personal lines
+        -   Changed roles to be specific to personal lines
+

@@ -1,0 +1,935 @@
+---
+title: CMDB CI Class Models release notes
+description: Version history for the IT Operations Management CMDB CI Class Models on the ServiceNow Store.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-cmdb-class-models.html
+release: store
+topic_type: reference
+last_updated: "2026-06-11"
+reading_time_minutes: 49
+breadcrumb: [ServiceNow Store - ITOM Visibility release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+---
+
+# CMDB CI Class Models release notes
+
+Version history for the IT Operations Management CMDB CI Class Models on the ServiceNow Store.
+
+**Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+## Version history
+
+-   **Version 1.86.2 - June 2026**
+    -   Added:
+        -   There were 23 new CMDB CI classes added in this release.
+            -   New CMDB CI Classes to support Retail
+            -   Handheld Barcode Scanner \(cmdb\_ci\_handheld\_barcode\_scanner \): Represents portable scanning devices used to capture and decode barcodes printed on products, assets, or labels. These devices are typically operated by hand and connect to point-of-sale \(POS\) systems, computers, or mobile applications to transmit scanned data for inventory, retail, or asset tracking purposes.
+            -   Industrial Refrigeration\(cmdb\_ci\_industrial\_refrigeration\): This class is for industrial scale refrigeration and cooling systems, as defined by UNSPSC code 24130000, such as industrial refrigerators, Industrial freezers, and Ice makers.
+            -   New CMDB CI Classes to support Mobile Private Network \(MPN\) support for 4G/5G RAN and Core network objects.
+            -   Plus few more classes, check the TSOM documentation for details.
+    -   Modified:
+        -   Eliminated duplicate Certificate Management tasks for expired certificates.
+        -   With the DigiCert pattern, expired certificates were being created and immediately retired by an archive rule. However, in the brief window before archiving, a remediation task was being generated for the same certificate on every cycle — resulting in a flood of duplicate sn\_disco\_certmgmt\_certificate\_task records all pointing to the same already-retired certificate. This has been fixed. Task creation now skips certificates that have already been retired or archived, so a single certificate no longer generates a stream of identical tasks.
+        -   CA certificates with empty CN and SAN can now be ingested.
+        -   The data policy on the certificate table treated Subject Alternative Name \(SAN\) as a mandatory field. While this is correct for TLS server certificates, Certificate Authority \(CA\) certificates legitimately have no hostname identity — they identify an issuing organization, not a server. As a result, CA certificates with both CN and SAN empty were being rejected by IRE with the error: Data Policy Exception: The following fields are mandatory: Subject Alternative Name.This has been fixed. The data policy now correctly distinguishes CA certificates from end-entity TLS certificates. CA certificates are accepted with empty CN and SAN, while the mandatory check continues to apply to server certificates.
+        -   Added missing class descriptions to NSX tables.
+        -   The NSX tables introduced in the March release shipped without Class Description entries in their class info files, leaving them blank in CI Class Manager. Class Description metadata has now been added to all newly created NSX classes. NSX tables now display proper, human-readable descriptions in CI Class Manager and related tooling.
+-   **Version 1.85.1 - May 2026**
+    -   New:
+        -   Enhanced the application with comprehensive context and metadata for the following Traditional Server, Blade Server, and Hypervisor-related CMDB CI classes. This change significantly improves discoverability and usability of the data model.
+        -   Tables \(fields and relationships are described in the table records\):
+            -   cmdb\_ci\_unix\_server
+            -   cmdb\_ci\_linux\_server
+            -   cmdb\_ci\_win\_server
+            -   cmdb\_ci\_osx\_server
+            -   cmdb\_ci\_server
+            -   cmdb\_ci\_citrix\_netscaler\_sdx
+            -   cmdb\_ci\_cloud\_host
+            -   cmdb\_ci\_esx\_server
+            -   cmdb\_ci\_hpe\_bladesystem\_enclosure
+            -   cmdb\_ci\_hyper\_v\_instance
+            -   cmdb\_ci\_hyper\_v\_network
+            -   cmdb\_ci\_hyper\_v\_network\_comp
+            -   cmdb\_ci\_hyper\_v\_object
+            -   cmdb\_ci\_hyper\_v\_resource\_pool
+            -   cmdb\_ci\_hyper\_v\_server
+            -   cmdb\_ci\_hyper\_v\_storage
+            -   cmdb\_ci\_hyper\_v\_storage\_comp
+            -   cmdb\_ci\_ibm\_zvm\_server
+            -   cmdb\_ci\_ip\_switch
+            -   cmdb\_ci\_nutanix\_cluster
+            -   cmdb\_ci\_nutanix\_controller\_vm
+            -   cmdb\_ci\_nutanix\_host
+            -   cmdb\_ci\_nutanix\_prism\_central
+            -   cmdb\_ci\_nutanix\_storage\_container
+            -   cmdb\_ci\_nutanix\_storage\_pool
+            -   cmdb\_ci\_nutanix\_vm\_instance
+            -   cmdb\_ci\_rhv\_cluster
+            -   cmdb\_ci\_rhv\_ldc
+            -   cmdb\_ci\_rhv\_server
+            -   cmdb\_ci\_rhv\_vm\_instance
+            -   cmdb\_ci\_ucs\_chassis
+            -   cmdb\_ci\_ucs\_equipment
+            -   cmdb\_ci\_ucs\_rack\_unit
+            -   cmdb\_ci\_vcenter\_server\_obj
+            -   cmdb\_ci\_vm\_object
+            -   cmdb\_ci\_vmware\_instance
+-   **Version 1.84.0 - April 2026**
+    -   New:
+        -   The “Business Process Activity” CI class includes new activity types that represent additional BPMN 2.0 standard elements to support detailed and accurate process maps. \(The existing class supported a limited set of activity types, restricting complex process modeling.\) The class also includes a new field to support more comprehensive BPMN modeling.
+            -   Activity types are relabeled for clarity \(for example, “User” is renamed to “User Task”\).
+            -   Four new activity types are added to conform with OMG standards: Script Task, Business Rule Task, Send Task, and Receive Task.
+            -   The new “Activity Marker” choice list field includes BPMN symbols that convey additional behavioral information: Multi Instance Parallel, Multi Instance Sequential, Compensation, and Loop and Compensation.
+    -   Fixed: Due to the addition of a non-null persistence\_type column to the cmdb\_ci\_vm\_object class, upgrading the CMDB CI Class Models app was slow for larger instances. The issue is fixed in the current version. The recommendation is to skip older versions of the app and upgrade directly to this version.
+-   **Version 1.83.0 - March 2026**
+    -   New:
+        -   For API product:
+            -   AddedCI Confluent Environment \(cmdb\_ci\_confluent\_env\) An isolated namespace for organization of your Confluent resources.
+            -   Confluent Organization \(cmdb\_ci\_confluent\_org\) An organization contains all Confluent customer resources.
+        -   For OT product:
+            -   Implemented site-based Edit/Delete permissions for OT Devices using site assignment and user criteria.
+            -   Introduced MID Server validations to improve OT SGC troubleshooting.
+            -   AddedVLAN related list to OT device form view.
+            -   IncludedNetmask andNetwork Partition Identifier fields in IP Address related list.
+            -   AddedIP Network Subnets related list to multiple CMDB classes.
+            -   Integrated OT device details directly into selected CMDB class forms. Removed redundant tabs.
+-   **Version 1.82.0 - February 2026**
+    -   New:
+        -   Enhanced user understanding of the CMDB data model by adding detailed in-product descriptions of various CMDB classes and fields. Updated classes include base CMDB, end-user computing, IP Address Management \(IPAM\), networking, and server data models. The content is added if the Data Model Navigator Store app is installed and is accessible from navigation items in the Data Model Navigator.
+        -   Added theLoss \[cmdb\_loss\] table for tracking and quantifying industrial losses from outages and inefficiencies.
+        -   To facilitate Solo.io integration, added theGloo Gateway \[cmdb\_ci\_gloo\_gateway\] marker class in the API Gateway hierarchy.
+        -   Added theRadio Extender \[cmdb\_ci\_radio\_extender\] table. Radio Extender increases the reach of a telecommunications network by retransmitting signals without boosting. Radio Extender also increases the coverage area of a telecommunications wireless network, typically by creating a new network. Radio Extender can be used to affect the directionality of the signal.
+        -   Added theNode B \[cmdb\_ci\_node\_b\] table. A 3G/Universal Mobile Telecommunications System \(UMTS\) base station located at the cell site facilitates radio transmission and reception to and from mobile devices within a cell. Node B devices connect to and are controlled by a Radio Network Controller \(RNC\) in the core network.
+    -   Changed:
+        -   Added key/value related entries toNetwork Site, Network Group, Network Interface, and Interface Card.Network Site and Network Group are currently blocked.
+        -   Updated theGoogle Organization Project \[cmdb\_ci\_gcp\_project\] class. AddedGCP Project Number to capture project number details.
+-   **Version 1.81.1 - December 2025**
+    -   New:
+        -   Added CMDB table VLAN Configuration \(cmdb\_vlan\_configuration\) to store VLAN ID, related CI, VLAN tag, VLAN type, and optional subnet association. The table provides a standardized CMDB object to represent the relationship between a VLAN ID and a specific CI. The table is primarily used by OT and TNI for modeling VLAN-to-CI mappings needed for identification logic and network segmentation use cases.
+        -   Added corresponding Related Entryidentification rules and ACLs to ensure correct identification and controlled access to VLAN configuration records. The rules are based on the combination &lt;VLAN ID, CI, VLAN Tag&gt;
+        -   Added identification rules for hardware, network ports, network interfaces, and logical connections to ensure consistent association regardless of CI type.
+        -   AddedAlibaba Datacenter \[cmdb\_ci\_alibaba\_datacenter\] that is Extended From cmdb\_ci\_logical\_datacenter.
+        -   Added the suggested relationships with Virtual Machine Instance, Cloud Image, Cloud Hardware Type, Storage Volume, Availability Zone, and Cloud Service Account to support Alibaba Cloud Resource Discovery.
+-   **Version 1.80.0 - November 2025**
+    -   Added:
+        -   Console Extender \(cmdb\_ci\_console\_extender\)
+            -   Specialized category of hardware connected to computer consoles enabling enhanced interface options, increased port replication, and/or improved signal transmission
+        -   Network Security Equipment \(cmdb\_ci\_network\_security\_equipment\)
+            -   Non-firewall equipment whose primary function is network threat assessment and mediation
+        -   Multimedia Production Equipment \(cmdb\_ci\_multimedia\_production\_equipment\)
+            -   Parent class for broadcast and production CIs. Includes systems for creating, processing, monitoring, and distributing audio-visual content from capture to transmission and delivery.
+        -   Media Control and Routing Equipment \(cmdb\_ci\_media\_control\_routing\_equipment\)
+            -   High-performance, non-blocking control or switch systems designed to manage the distribution and routing of broadcast signals within production or transmission environments.
+        -   Contribution Equipment \(cmdb\_ci\_contribution\_equipment\)
+            -   Devices that ingest, route, and protect live video streams, enabling signal transfer from ground to facility and from facility to affiliates.
+        -   Audio Production Equipment \(cmdb\_ci\_audio\_production\_equipment\)
+            -   Broadcast-grade systems for processing and distributing high-quality audio signals. Not for end-user playback.
+        -   Video Production Equipment \(cmdb\_ci\_video\_production\_equipment\)
+            -   Devices for replay systems \(instant replays, live editing, delivery\), monitoring and analyzing broadcast/OTT streams, and video switchers for broadcast use.
+        -   Video Playout Equipment \(cmdb\_ci\_video\_playout\_equipment\)
+            -   Dedicated hardware or integrated systems for delivering linear TV channels and recorded content. Functions include play, encode/transcode, overlay graphics/text, output audio/video streams to broadcast, OTT, or multi-screen platforms.
+        -   Video Precision Monitor \(cmdb\_ci\_video\_precision\_monitor\)
+            -   Broadcast-grade UHD monitors used for quality monitoring and signal integrity checks in live production, grading suites, or control rooms.
+        -   Signal Processor and Amplifier \(cmdb\_ci\_signal\_processor\_amplifier\)
+            -   Broadcast devices to manipulate, route, encode, QC, and transport live audio/video streams. Handles encoding, transcoding, error correction, redundancy switching, and packaging for reliable content delivery.
+        -   Broadcast Sync Generator \(cmdb\_ci\_broadcast\_sync\_generator\)
+            -   Sync Pulse Generators or Clocks providing precise synchronization signals across broadcast and production facilities.
+        -   Teleprompter \(cmdb\_ci\_teleprompter\)
+            -   Teleprompter systems for professional broadcast studios.
+        -   Production Camera \(cmdb\_ci\_production\_camera\)
+            -   Cameras for entertainment production, offering shallow depth of field and exceptional image clarity.
+        -   Stage and Studio Lighting \(cmdb\_ci\_stage\_studio\_lighting\)
+            -   Professional lighting fixtures for use in television studios, film sets, or studios.
+    -   Updated:
+        -   We have updated the default forms and lists to include a new button for creating Connection, Data, Facility, Network, and Operational Process Service Instances. This update serves as a temporary solution until a long-term user interface is implemented.
+        -   We have updated the labels for several IPAM classes: cmdb\_ci\_ip\_pool is now labeled as "Managed IP Pool" and cmdb\_ci\_ip\_network\_subnet as "Managed IP Network Subnet." Additionally, we modified the IRE rule for cmdb\_ci\_ip\_pool to include managed\_network as one of the criterion attributes.
+        -   Updated  Antenna Structure \(cmdb\_ci\_antenna\_structure\) class added the following attribute
+            -   Field Label: Antenna Structure Registration Number \(ASR\)
+            -   Field Name: asr\_number
+            -   Field Type: Integer
+            -   Description: Antenna Structure Registration \(ASR\) is a seven-digit number assigned to each tower by the FCC.
+        -   Updated Mobility Management Entity \(cmdb\_ci\_mobility\_management\_entity\) class added the following attribute
+            -   Field Label: MME Pool ID
+            -   Field Name: mme\_pool\_id
+            -   Field Type: String
+            -   Description: The MME Pool ID is a globally unique identifier assigned to a Mobility Management Entities \(MMEs\) that serve a particular geographic area or tracking area group.
+        -   updated Baseband Unit \(cmdb\_ci\_baseband\_unit\) class and added the following attributes
+            -   Field Label: MME Pool ID
+            -   Field Name: mme\_pool\_id
+            -   Field Type: String
+            -   Description: The BBU uses the MME Pool ID to identify which MME \(Mobility Management Entity\) it should interact with for managing control plane signaling.
+        -   updated  Hardware \(cmdb\_ci\_hardware \) class and added the following attributes
+            -   Field Label: Frame Identification Code
+            -   Field Name: frame\_identification\_code
+            -   Field Type: String
+            -   Description: A Frame Identification Code is a unique alphanumeric ID assigned to a physical frame, racks, or cabinets, etc.
+-   **Version 1.79.0 - October 2025**
+
+    For the Virtual Machine Object \(cmdb\_ci\_vm\_object\) table: The Persistence Type \(persistence\_type\) column has been added. The value specifies the persistence status of a virtual machine object. Possible values \(choice type\): persistent, non\_persistent.
+
+-   **Version 1.78.0 - September 2025**
+    -   New:
+        -   Updated the cmdb\_ci\_allocated\_ip\_address table by adding a new attribute: ci\_match\_status. The attribute is a choice field with values "No Match," "Single Match," and "Multiple Matches". The attribute indicates whether any discovered IP addresses are associated with an allocated IP address.
+        -   Changed the identification rule for the cmdb\_ci\_nutanix\_cluster table from using both Cluster ID and Object ID to using only Cluster ID.
+    -   Fixed: Fixed several minor bugs related to the installation of the class model application.
+-   **Version 1.77.1 - August 2025**
+    -   New:
+        -   Copied all IRE identification rules for the Hardware \[cmdb\_ci\_hardware\] table to the Computer \[cmdb\_ci\_computer\] table. In addition, we added a new identification rule based on the object\_id field to Computer CI.
+        -   Added wavelength attribute to the Network Interface class.
+            -   Wavelength is a list of one or more optical wavelengths in nanometers, each as an integer or decimal, separated by a comma and a space.  By adding a Wavelength \(nm\) field, the network teams can immediately identify the correct transceiver modules and channel assignments in any multiplexer \(WDM\) or single mode / multimode environment, reducing configuration errors and speeding both deployment and troubleshooting.
+        -   Added unit position attribute on the Equipment Holder class
+            -   Unit position identifies the position of the equipment on a shelf relative to the bay/rack identified in the Frame identifier code.
+            -   This attribute can be used to identify the equipment’s tray position, providing a clear location in the configuration. Example from data: “6A”, where “6” represents the shelf identifier and “A” represents the tray position.
+        -   Added a new Network Function class \(cmdb\_ci\_network\_function\_instance\) under the Network Service Instance class \(cmdb\_ci\_network\_service\_instance\)
+            -   The Network function class enables better mapping of device communication such as routing, firewalls, and load balancing. This function is available in three types: physical, virtual, or container, reflecting its evolution from dedicated hardware appliances to modern, flexible software deployments.
+            -   IRE Rule: One IRE rule for Name, one IRE rule for Object ID
+        -   Added a new Network Function Application class \(db\_ci\_network\_function\_application\) to the Application class \(cmdb\_ci\_appl\)
+            -   Network Function Application represents the software component that powers virtualized network functions \(NFV\). It captures essential application details to manage network workloads and enable integration with virtualized or containerized infrastructures
+        -   DCIM Data Model: We are developing a Data Center Infrastructure Management \(DCIM\) solution that enables a comprehensive representation of the power, HVAC, and network infrastructure along with their interrelationships. This feature aims to create a unified and detailed data model for all critical data center assets and their connectivity, supporting better monitoring, power management, and planning.
+            -   Elements of this model include:
+                -   cmdb\_ci\_rack\_pdu
+                    -   \(Rack PDU\) Device used to distribute electrical power to multiple devices within a server rack or data center. It provides efficient and safe power management by offering outlets for servers, switches, routers, and other networking equipment.
+                -   cmdb\_ci\_rack\_rail \(Rack Rail\)
+                    -   Vertical metal components used in server racks or enclosures to support and secure equipment such as servers, switches, and other devices. They typically feature standardized hole patterns to accommodate rack-mounted equipment.
+                -   cmdb\_ci\_wire\_manager
+                    -   \(Wire Manager\) Device or system used to organize and route cables in server racks, data centers, or other environments where numerous cables are present.
+            -   Power Equipment \(All children of the Power Equipment Class\)
+                -   cmdb\_ci\_transformer \(Transformer\):
+                    -   Electrical device used to change the voltage of AC in a power distribution system. It is crucial in power generation, transmission, and distribution networks, including those found in data centers.
+                -   cmdb\_ci\_switch\_gear \(Switch Gear\):
+                    -   A collection of electrical disconnect switches, fuses, and circuit breakers used to control, protect, and isolate electrical equipment in a power distribution system.
+                -   cmdb\_ci\_power\_panel \(Power Panel\):
+                    -   Essential component in electrical systems used for managing and distributing electrical power to various circuits and devices. It contains circuit breakers or fuses that protect individual circuits and allow for manual switching of electrical supply.
+                -   cmdb\_ci\_rectifier \(Rectifier\):
+                    -   Electrical device that converts AC current to DC current.
+                -   cmdb\_ci\_inverter \(Inverter\):
+                    -   Electronic device that converts DC current to AC current.
+                -   cmdb\_ci\_maintenance\_bypass\_panel \(Maintenance Bypass Panel\):
+                    -   Critical component in data centers and critical facilities. It allows for the maintenance or replacement of power distribution equipment such as a UPS without interrupting the power supply to connected loads.
+                -   cmdb\_ci\_remote\_power\_panel \(Remote Power Panel\):
+                    -   Electrical distribution device used in data centers and other facilities to distribute power to multiple devices or loads from a centralized source, such as a UPS or generator.
+                -   cmdb\_ci\_circuit\_breaker \(Circuit Breaker\):
+                    -   Automatically operated electrical switch designed to protect an electrical circuit from damage caused by overloads or short circuits. When a fault is detected, the circuit breaker interrupts the flow of current, preventing further damage to the circuits.
+                -   cmdb\_ci\_fuse\_alarm\_panel \(Fuse Alarm Panel\):
+                    -   Monitor the status of fuses and alert operators when a fuse has blown or is faulty. It provides an early warning for maintenance personnel, helping prevent system downtime or damage to connected equipment.
+            -   Facility Hardware Class:
+                -   cmdb\_ci\_cage \(Cage\):
+                    -   Secured enclosure or space that defines a specific boundary for equipment or components. It's used to house servers or storage devices, offering both security and organization.
+                    -   IRE rule: Add PID, Name on Cage table
+            -   New Backup Management Features: This release introduces new classes for managing backup storage information and job execution history, including attributes such as backup status, execution logs, and recovery point objectives.
+                -   cmdb\_backup\_storage\_information \(Backup Storage Information\):
+                    -   The \(OT\) Backup Management provides visibility and actionable insights on the backup of the OT devices. The class tables described below are interconnected and collectively form the Backup Management data model. Use the Backup Storage Information class to create backup records that identify the device in internal or external backup services.
+                -   cmdb\_backup\_job\_execution\_history \(Backup Job Execution History\):
+                    -   Use this class to capture  a history of records for all backup executions.
+            -   UPDATES
+                -   The label \(display name\) for the Video Management Systems \[cmdb\_ci\_vms\_appl\] table was corrected \(the incorrect label was the plural form: Video Management System\).
+                -   The Site column in the Video Management Systems \[cmdb\_ci\_vms\_appl\] table is deprecated because a relationship to the Site table exists.
+                -   For OT device: A new view has been introduced to display all OT Devices grouped by Managed Network.
+-   **Version 1.76.0 - July 2025**
+    -   New: Copied all IRE identification rules for the Hardware \[cmdb\_ci\_hardware\] table to the Computer \[cmdb\_ci\_computer\] table. In addition, we added a new identification rule based on the object\_id field to Computer CI.
+    -   Updates:
+        -   The label \(display name\) for the Video Management Systems \[cmdb\_ci\_vms\_appl\] table was corrected \(the incorrect label was Video Management System\).
+        -   The Site column in the Video Management Systems \[cmdb\_ci\_vms\_appl\] table is deprecated because a relationship to the Site table exists.
+-   **Version 1.75.0 - June 2025**
+    -   New:
+        -   Tactical Equipment \(cmdb\_ci\_tactical\_equipment\)This class is for Defense and Law Enforcement and Security and Safety Equipment and Supplies as defined by UNSPSC segment code 46000000, covering products for defense, law enforcement, security, and personal safety.
+        -   Humanitarian Emergency Kit \(cmdb\_ci\_humanitarian\_emergency\_kit\)This class is for humanitarian logistics emergency kits as defined by UNSPSC code 57070100, including specialized kits that support efficient and safe humanitarian relief operations.
+        -   Building Plumbing \(cmdb\_ci\_building\_plumbing\)This class is for plumbing equipment and components as defined by UNSPSC codes 40140000 and 30180000, including valves, fittings, pipes, regulators, and fixtures for fluid and gas distribution.
+        -   Weapon \(cmdb\_ci\_weapon\)This class is for controlled armaments, including firearms, conventional weapons, and launchers as defined by UNSPSC codes 46101500, 46110000, and 46140000.
+        -   Tactical PPE \(cmdb\_ci\_tactical\_ppe\)This class is for personal safety and protection equipment as defined by UNSPSC code 46180000, including safety apparel, headgear, respiratory gear, fall protection, etc. used by Defense and Law Enforcement teams.
+        -   Building Furniture \(cmdb\_ci\_building\_furniture\)This class is for furniture and furnishings as defined by UNSPSC code 56000000, including accommodation, commercial, and industrial furniture.
+        -   Good \(cmdb\_ci\_good\)This class is for tangible configuration items \(CIs\) that are not hardware, software, services, or processes serving as the overall parent for all physical goods.
+        -   Construction Equipment \(cmdb\_ci\_construction\_equipment\)This class is for heavy construction machinery and equipment as defined by UNSPSC code 22100000, including earth-moving machines, paving equipment, and building construction tools.
+        -   Apparel \(cmdb\_ci\_apparel\)This class is for apparel and luggage and personal care items as defined by UNSPSC code 53000000, including clothing, footwear, luggage, handbags, and personal care products.
+        -   Wearable Uniform \(cmdb\_ci\_wearable\_uniform\)This class is for uniforms as defined by UNSPSC code 53102700, including standardized apparel for military, police, medical, corporate, and educational use.
+        -   Construction Tool \(cmdb\_ci\_construction\_tool\)This class is for building construction machinery and accessories as defined by UNSPSC code 22101900, including mixers, curing machines, shoring equipment, and trench support tools.
+        -   Domestic Appliance \(cmdb\_ci\_domestic\_appliance\)This class is for domestic appliances as defined by UNSPSC code 52140000, including household devices like kitchen, laundry, and bath appliances.
+        -   Construction \(cmdb\_ci\_construction\)This class is for construction machinery and accessories as defined by UNSPSC code 22000000, used in building, repair, and maintenance of structures and roads.
+        -   Service Industry Equipment \(cmdb\_ci\_service\_industry\_equipment\)This class is for service industry machinery and equipment as defined by UNSPSC code 48000000, used in business service environments like food service, banking, and gaming.
+        -   Cleaning Equipment \(cmdb\_ci\_cleaning\_equipment\)This class is for cleaning equipment and supplies as defined by UNSPSC code 47000000, including janitorial tools, industrial laundry systems, and water treatment equipment.
+        -   Humanitarian Logistic Supply \(cmdb\_ci\_humanitarian\_logistic\_supply\)This class is for humanitarian logistics supplies as defined by UNSPSC code 57070000, including essential items and kits that support logistics operations during emergencies.
+        -   Wearable Clothing \(cmdb\_ci\_wearable\_clothing\)This class is for wearable clothing as defined by UNSPSC code 53100000, covering garments like shirts, trousers, dresses, uniforms, and related apparel.
+        -   Ammunition\(cmdb\_ci\_ammunition\)This class is for ammunition and explosive ordnance as defined by UNSPSC codes 46101600, 46111500, 46120000, and 46130000, including projectiles, shells, missiles, grenades, mines, and bombs.
+        -   Humanitarian Item \(cmdb\_ci\_humanitarian\_item\)This class is for humanitarian relief items, kits or accessories as defined by UNSPSC code 57000000, including essential products for shelter, health, sanitation, and personal protection during emergencies.
+        -   Forensic Supply \(cmdb\_ci\_forensic\_supply\)This class is for forensic equipment and supplies as defined by UNSPSC code 46151700, including investigative tools like fingerprint kits, light sources, evidence cabinets, and imaging devices.
+        -   Humanitarian PPE \(cmdb\_ci\_humanitarian\_ppe\)This class is for personal protection equipment, power, and water supply as defined by UNSPSC code 57070105, covering essential safety and resource items for humanitarian operations.
+        -   Testing Equipment \(cmdb\_ci\_testing\_equipment\)This class is for laboratory, measuring, and testing equipment as defined by UNSPSC code 41000000, including scientific instruments, test tools, and lab supplies.
+    -   Added: Added an archiving rule for the cmdb\_ci\_certificate table. Certificates that expired more than six months ago and are not in the 'Installed' state are archived.
+-   **Version 1.72.0 - April 2025**
+    -   Changed:
+        -   Migrated class model applications from the translation model to a new JSON model. This update significantly accelerates translation loading.
+        -   Added a missing class description for the cmdb\_ci\_sap\_sid CI class.
+-   **Version 1.71.0 - March 2025**
+    -   New:
+        -   cmdb\_ci\_boomi\_api\_gateway: An API gateway service provided by Boomi for hosting and managing APIs.
+        -   cmdb\_ci\_anypoint\_api\_gateway: An API gateway service provided by MuleSoft for hosting and managing APIs.
+        -   cmdb\_ci\_tyk\_api\_gateway: An API gateway service provided by Tyk for hosting and managing APIs.
+        -   cmdb\_ci\_api\_product\_bundle: In API gateways and developer portals, an API product bundle is a collection of one or more APIs for consumption by developers and applications. Some platforms use the term for an API product alone.
+        -   cmdb\_ci\_api\_consumer\_subscription: To access one or more API product bundles, a developer can register for an API consumer subscription on a developer portal. The subscription registers with one or more bundles and provides a key for access to the APIs in the bundles.
+        -   cmdb\_ci\_web\_acl: The WebACL class represents ACLs for CloudFront, API gateway REST APIs, application load balancers, AppSync GraphQL APIs, Cognito user pools, App Runner services, AWS Verified Access, and the Azure Front Door application gateway.
+-   **Version 1.69.0 - February 2025**
+    -   New:
+        -   Updated OT form views and included a related list for alerts. 
+        -   Added the following tables as a related entry for OT classes: 
+            -   Firmware Installation \[cmdb\_firmware\_install\] 
+            -   Key Value \[cmdb\_key\_value\] 
+            -   Software Instance \[cmdb\_sam\_sw\_install\] 
+        -   For the OT Entity table, added the ire\_criterion attribute. 
+        -   The new attribute is the criterion attribute for OT Entity related entry. 
+        -   Added Product Instance Identifier as an identifier for the OT Identification Rule. 
+    -   Updated :
+        -   Created new views for OT devices. 
+        -   The views do not have relationships to the OT equipment model entity. 
+        -   The views are used primarily for the OT visibility KPI dashboard. 
+-   **Version 1.68.0 - January 2025**
+    -   New:
+        -   cmn\_media
+            -   cmn\_media is a generic table that stores media that is uploaded against a record. Current options are video and image media types.
+            -   One of the first uses is in the Telecommunications Network Inventory \(TNI\). The table enables the Network Planning Agent to upload images for a network site, mark them as active/inactive, maintain the sequence and description of each image, and view the active images of the network site in the TNI workspace.
+        -   cmdb\_ci\_processing\_unit
+            -   The Processing Unit is a base class for various types of processing units in a computing system. It encapsulates the core attributes and functionalities common to all processing units, providing a foundation for more specialized subclasses such as GPU.
+        -   cmdb\_ci\_gpu
+            -   The graphics processing unit \(GPU\) helps handle graphics-related work like graphics, videos, and AI ML workloads. The GPU can be installed in the computer or connected externally. Typically characterized by number of cores and GPU memory.
+        -   cmdb\_ci\_function\_ai
+            -   AI SaaS applications deployed on public cloud platforms that offer scalable, on-demand services for machine learning, data processing, and AI-driven tasks. This provides flexible solutions without the need for on-premises infrastructure management.
+        -   cmdb\_ci\_appl\_ai\_application
+            -   AI software applications that can run on various platforms such as Linux, Windows, Docker containers, or Kubernetes \(K8\) clusters. These platforms support diverse AI workloads, including machine learning models, data analytics, and intelligent services or AI-enabled applications
+    -   Updates:
+        -   Added PON choice to bandwidth table to support interface speeds that are discovered, for example, for an XGS-PON port or a GPON port.
+        -   Updated IRE rules for Interface Card, Slot, Subslot, and Network interface to support the TSOM discovery application.
+-   **Version 1.67.0 - December 2024**
+    -   New:
+        -   New class: Video Management System: \(cmdb\_ci\_vms\_appl\)A Video Management System \(VMS\) is a software-based platform designed to manage and control video surveillance cameras, recording devices, and other security components. The class is commonly used in large-scale surveillance and security monitoring.
+        -   IBM MQ Manager: cmdb\_ci\_appl\_ibm\_wmqA software component that manages and owns queues and that provides messaging services to applications.
+        -   IBM MQ Queue: cmdb\_ci\_appl\_ibm\_wmq\_queueA queue is a container for messages. Business applications that are connected to the queue manager that hosts the queue can retrieve message from the queue
+        -   IBM MQ Channel: cmdb\_ci\_appl\_ibm\_mq\_channelIn IBM MQ, a channel is a unidirectional communication link that allows two queue managers to connect over a network and transmit messages between each other.
+        -   IBM MQ Queue Remote: cmdb\_ci\_appl\_mq\_queue\_remoteRemote queue definitions are definitions on the local queue manager of queues that belong to another queue manager. To send a message to a queue on a remote queue manager, the sender queue manager must have a remote definition of the target queue.
+        -   IBM MQ Queue Local: cmdb\_ci\_appl\_mq\_queue\_localA local queue is a definition of both a queue and the set of messages that are associated with the queue. The queue manager that hosts the queue receives messages in its local queues.
+        -   IBM MQ Queue Alias: cmdb\_ci\_appl\_mq\_queue\_aliasAn alias queue is an IBM MQ object that you can use to access another queue or a topic.
+        -   IBM MQ Queue Model: cmdb\_ci\_appl\_mq\_queue\_modelA model queue is a template for queues that you want the queue manager to create dynamically as required.
+        -   IBM CICS Region: cmdb\_ci\_appl\_ibm\_cics\_regionA CICS Region is a named collection of resources that are controlled by CICS as a unit.
+        -   IBM CICS Transaction: cmdb\_ci\_appl\_ibm\_cics\_transactionA CICS transaction consists of an item of processing that can be run by one or more application programs.
+        -   IBM CICS Program: cmdb\_ci\_appl\_ibm\_cics\_programIBM CICS Program is a family of mixed-language applications that provide transaction management and connectivity for applications on IBM mainframe systems under z/OS and z/VSE.
+        -   IBM CICSplex: cmdb\_ci\_appl\_ibm\_cicsplexA CICSplex is any grouping of CICS systems that you want to manage and manipulate as if they were a single entity.
+        -   DB2 Stored Procedure: cmdb\_ci\_db\_db2\_stored\_procedureA DB2 stored procedure is a compiled program that can run SQL statements and is stored on a local or remote DB2 Universal Database Server.
+        -   DB2 Sharing Group: cmdb\_ci\_db\_db2\_sharing\_groupA collection of one or more Db2 subsystems that share Db2 data.
+        -   IMS Subsystem: cmdb\_ci\_db\_ims\_subsystemA control program that can be either online or batch and runs in a z/OS address space. It is a part of IBM's Information Management System \(IMS\). IMS systems help with the organization, storage, and retrieval of data.
+        -   IMS Database: cmdb\_ci\_db\_ims\_databaseAn IMS Database running within an IMS Subsystem \(database instance\).
+        -   IMS Area: cmdb\_ci\_db\_ims\_areaData sets, called areas, with each area containing the entire data structure.
+        -   IMS Plex: cmdb\_ci\_db\_ims\_plexAn IMSplex is made up of IMS and z/OS components that work together.
+        -   IMS Subsystem Region: cmdb\_ci\_appl\_ims\_regionThe IMS region provides the central point of control for an IMS subsystem. The IMS region provides the interface to z/OS for the operation of the IMS subsystem.
+        -   IMS Transaction: cmdb\_ci\_appl\_ims\_transactionAn IBM IMS transaction is a message that is sent to an application program. When defining a transaction to IMS, several characteristics can be identified, such as: transaction codes, output limits, scheduling rules, and exceptions to those rules.
+-   **Version 1.64.0 - November 2024**
+    -   New:
+        -   Added new CI Types:
+            -   Data Service Instance \(cmdb\_ci\_data\_service\_instance\): A Data Service Instance is extended from Service Instance and represents a logicalinstance of a data service that can persist structured and unstructured data, process data \(pipeline\) or retrieve data \(data, search, query, etc\).
+            -   Network Service Instance \(cmdb\_ci\_network\_service\_instance\): Network Service Instance represents a specific deployed, provisioned and /orconfigured instance of a set of network services that in turn are based on Network Functions.
+            -   Connection Service Instance \(cmdb\_ci\_connection\_service\_instance\): Connection Service Instance is extended from Service Instance and represents alogical instance of a network connection \(logical or physical\) that is intrinsic to theService Dependency map for end-to-end Service Delivery. Connection ServiceInstances are realized by Network Functions \(and their respective Network ServiceInstance\). Connection Service Instance is different from Network Service Instancesas Connection Service Instance represents a configured, provisioned or materializedinter-connect between two logical or physical end-points.
+            -   Operational Process Instance \(cmdb\_ci\_operational\_process\_service\_instance\): Operational Process Service Instance. An Operational Process Service Instance isextended from Service Instance and represents a logical instance of an operationalprocess that is based on series/sequence of interdependent \(network\) connectedand disconnected devices and equipment that implement or realized the end-to-endoperational process. The Operational Process may be autonomic but typicallyinvolves operational, front-line employees.
+            -   Facility Service Instance \(cmdb\_ci\_facility\_service\_instance\): Facility Services Instance. A Facility Service Instance is extended from ServiceInstance and represents a logical instance of a service that is associated with theoperations of a Facility \(office building, residential building, manufacturing plant,operations control center, parking garage, etc.\)
+        -   Added Classes to Telecom Model
+            -   cmdb\_ci\_filler\_component \(Filler Component\)
+            -   Parent Class: cmdb\_ci\_hardware
+            -   Description: Represents a cover for empty spots/slots in a rack or device. Often made of flat metallic or plastic materials, helps separate cold and hot air zones, prevents \\dust from entering the chassis, and ensures proper airflow through the chassis or rack.
+        -   cmdb\_ci\_heat\_baffle \(Heat Baffle\)
+            -   Parent Class: cmdb\_ci\_filler\_component
+            -   Description: The Heat Baffle CI class is used to represent hardware used to help direct rising hot air away from equipment.
+        -   cmdb\_ci\_service\_switching\_point \(Service Switching Point \(SSP\)\)
+            -   Parent Class: cmdb\_ci\_ni\_telco\_equipment
+            -   Description: Switch in a telecommunications network that sends a query to a central database called a service control point \(SCP\) via the SS7 network to determine how a TDMcall can be routed. SSPs can be part of a voice switch or a separate computer connected to it.
+        -   cmdb\_ci\_service\_control\_point \(Service Control Point \(SCP\)\)
+            -   Parent Class: cmdb\_ci\_ni\_telco\_equipment
+            -   Description: The Service Control Point CI class represents service control points \(SCPs\) in the Signaling System 7 \(SS7\) network responsible for routing calls and managing special features.
+        -   cmdb\_ci\_telco\_control\_component \(Control Component\)
+            -   Parent Class: cmdb\_ci\_ni\_telco\_equipment
+            -   Description: Component in a telco device that creates an interface between a telco device's main system motherboard and other hardware components. Some will be integrated directly into the motherboard, while others may be added on as expansion devices.
+        -   Added:
+        -   Move the Redundancy relationship type from TNI app to CMDB CI Class model app update folder
+        -   Make the following CMDB CI relationship types available without the requirement to install Network Inventory Core plugin.
+            -   Redundancy Provided by::Provides Redundancy for
+            -   Is Primary::Is Secondary
+            -   Terminated::Terminated by
+        -   Added Additional attributes on API Consumer table
+        -   API and API Component Enhancements
+        -   Added IRE rules for API class \(cmdb\_ci\_api\) and API Component class \(cmdb\_ci\_api\_component\) to associate the tags.
+        -   Added column in API Consumer Table \(api\_consumer\)
+        -   -   Column Name: API Consumer Type \(Choice List\)
+-   Choices:
+-   Internal
+-   External
+-   Unknown \(Default\)
+        -   Added columns in API Class \(cmdb\_ci\_api\)
+        -   -   Technical Specification Location \(String\)
+-   Stores the repository location of the API's technical specification.
+-   Design Specification Location \(String\)
+-   Stores the repository location for the API's design and documentation.
+-   **Version 1.63.0 - October 2024**
+    -   New: Added the \[cmdb\_key\_value\] table as a related table for the following tables:
+        -   Google Organization Folder \[cmdb\_ci\_gcp\_folder\]
+        -   IP Address \[cmdb\_ci\_ip\_address\]
+        -   Hardware Type \[cmdb\_ci\_compute\_template\]
+        -   Cloud Hardware Type \[cmdb\_ci\_cloud\_hardware\_type\]
+        -   Load Balancer Pool Member \[cmdb\_ci\_lb\_pool\_member\]
+        -   Load Balancer Service \[cmdb\_ci\_lb\_service\]
+    -   For the MSFT SQL Instance \[cmdb\_ci\_db\_mssql\_instance\] table, added the following items:
+    -   -   2008 R2 and 2014 version number
+-   Engine edition types:
+    -   Enterprise
+    -   Standard
+    -   Developer
+    -   Express
+    -   Web
+-   **Version 1.59.1 - September 2024**
+
+    Fix: Allow users with the cmdb\_read role to view SDLC Component CIs The \*\*itil\*\* role is required to access SDLC Components. The APM \*\*sn\_apm.apm\_user\*\* role includes the \*\*cmdb\_read\*\* role but not the \*\*itil\*\* role. As a result, users with the APM role could not search for and link \*\*SDLC Components\*\* in the APM relationship table at the Digital Interface level. Previously, if an APM user lacks read access to SDLC Components, the related list for linking SDLC Components and interfaces is not displayed. In this release the \*\*cmdb\_read\*\* role is added to the access control layers of the SDLC Component. As a result, APM users with read access to SDLC Components can link interfaces with SDLC Components.
+
+-   **Version 1.59.0 - August 2024**
+    -   Operational Technology notes
+        -   New:
+            -   New class: 'OT System Service' \[cmdb\_ci\_ot\_system\_service\] extending the Calculated Application Service \[cmdb\_ci\_service\_calculated\] table.
+            -   Description: OT is a category of technology and systems used to manage, control, and monitor physical processes, machinery, and industrial operations. Operational Technology \(OT\) systems are specialized computing systems used in industrial and critical infrastructure settings to monitor, control, and automate physical processes. The systems encompass a wide range of devices, including industrial control systems \(ICS\), supervisory control and data acquisition \(SCADA\) systems, programmable logic controllers \(PLCs\), and other components tailored to specific industries such as manufacturing, energy, transportation, and utilities.
+            -   OT systems are essential for ensuring the efficient and safe operation of industrial processes, enabling organizations to manage production lines, power grids, and so on. OT systems facilitate real-time monitoring of equipment, data collection from sensors, control of machinery, and automation of tasks. OT systems enhancing productivity, safety, and reliability in industrial operations. OT systems \(logical groupings of devices\) also supervise production processes. OT systems become the central element of consideration for OT engineers.
+            -   Examples:
+                -   Distributed Control system \(DCS\)
+                -   Building management system \(BMS\)
+                -   Manufacturing execution system \(MES\)
+        -   Improvements:
+            -   Added suggested relationships between the OT System Service class and the Equipment Model Entity, Hardware, Technical Service, and Business Service classes.
+            -   You can now view an OT dependency map on the OT system service form both in the platform and in the Industrial workspace.
+            -   You can now bulk-validate NIDS records from the list view.
+            -   Improvements to sync IP addresses of OT CIs from the \[cmdb\_ci\_ip\_address\] table to the 'IP Address' field on the CI. You can therefore now use IP address to add devices to an equipment model entity.
+            -   You can now map ISA entities to OT System Services using a scheduled job.
+            -   Added a related entry in the backup storage information \[cmdb\_backup\_storage\_information\] table for the 'Operational Technology \(OT\)' and 'OT control module' identification rules.
+            -   Created the Operational Technology \(OT\) view on the Industrial workspace. The OT view is available to users with the OT role \(cmdb\_ot\_\*\). Created OT views for the forms of
+                -   Request \[sc\_request\]
+                -   Request Item \[sc\_req\_item\] list with columns that are used in the Industrial Workspace list.
+                -   Related lists of Request Item \[sc\_req\_item\] and Catalog Task \[sc\_task\], including all fields required for OT use cases.
+                -   The OT view displays CI forms with columns and related lists that reflect the OT context.
+                -   The OT view includes backup storage information \[cmdb\_backup\_storage\_information\] as a related list for CI forms.
+            -   Removed the Opened date column from OT Incident \[sn\_ot\_incident\] lists for the Operational Technology \(OT\) view in the Industrial workspace.
+        -   Fixed:
+            -   Removed a duplicate "Read only fields" UI policy from the \[cmdb\_ci\_nids\] table.
+            -   Added a fix script to modify the "sequence" of existing Purdue level choices to accommodate new choices for the 'Purdue level' field on the \[cmdb\_ot\_entity\] table.
+    -   -   Telecom Network Inventory notes
+    -   Improvements
+        -   Updates to labels for Model Relationship and Shelf Class
+            -   Updated the labeling of model relationships and shelf class to enhance clarity and consistency. The change ensures better understanding and usage of the labels across the platform.
+        -   Cleaned up inventory models
+            -   Streamlined the inventory models by removing obsolete TNI model category seed files from the CMDB application. The changes help to maintain an up-to-date and efficient data model.
+        -   Improved the data model for power attributes
+            -   Implemented changes to the data model to better support and manage power attributes. The improvements ensure more accurate and functional data handling for power-related information.
+        -   Deprecated obsolete fields
+            -   Deprecated the 'Topology' field from logical connection and physical connection entities. The change simplifies the data model structure by removing fields that no longer serve a purpose.
+    -   Fixed:
+        -   Access control
+            -   Put all necessary ACLs in place for network topology nodes. The change strengthens the security and integrity of the system.
+        -   Data integration and consistency
+            -   Ensured that all related entry IRE rules are correctly applied to connection elements and physical connection elements tables. The change ensures proper data relationships, consistency, and integration.
+        -   Organizational improvements for sys\_choice definitions
+            -   Moved 'sys\_choice' definitions from the update folder to the dictionary folder. The correction improves overall system organization and maintainability.
+        -   Format of domain values
+            -   Added scripts to ensure that domain values are consistently and accurately converted from string format to domain\_id. The action addresses prior inconsistencies and improves the reliability of domain-related data.
+        -   Removed deprecated fields from UI
+            -   Removed deprecated fields \(such as 'Topology'\) from forms where they were previously still visible. The update ensures that the UI accurately reflects the current data model.
+-   **Version 2.12.2 - July 2024**
+
+    Fixed: Updating Auth API from '/uapi/auth/tokens' to '/api/v1/auth/token' for JAMF Pro 10.35 or higher.
+
+-   **Version 1.57.0 - June 2024**
+    -   Added:
+        -   The newly introduced Dental Equipment model category supports dental practices and dental care delivery. The new Dental Equipment CI class is an extension of the existing Medical Device class. The class is mapped to the Medical Device Model class and the Medical Asset class. The new class provides a specialized framework for managing dental assets as outlined by the UNSPSC family code 42150000.
+        -   The newly introduced Operational Equipment model category supports the management of operational tools, machinery, and devices. It provides a structured framework for tracking and maintaining critical operational assets to ensure optimal performance and reliability. The new Operational Equipment CI class is an extension of the Hardware category. The new class is mapped to the Operational Equipment model category.
+        -   The newly introduced DNS model supports the management of data associated with a domain name. This allows you to trace the ownership and tenure of a domain details from tools like who is and DNS lookup tools. The model also supports various DNS resource records for A, AAAA, CNAME, and Alias records.
+        -   CMDB Model updates for API and API component:
+            -   New attribute on Azure API Management class
+            -   New attributes on API class
+            -   Updated IRE rule on API class
+            -   New attributes on API Component class
+            -   Updated IRE rule API Component class
+    -   -   Wireless Sector \[cmdb\_ci\_wireless\_sector\] - A unit of cellular coverage area.
+    -   Radio Band - A specific frequency range used for wireless communication. These bands are designated by regulatory bodies and are assigned to various wireless technologies such as cellular networks, Wi-Fi, and satellite communication.
+    -   E-Utran Cell Global Identifier \(ECGI\) - Used to identify cells globally. The ECGI is constructed from the MCC \(Mobile Country Code\), MNC \(Mobile Network Code\), and the ECI \(E-UTRAN Cell Identifier\).
+    -   Transmission Technology - The type of technology used for transmission on an antenna sector.
+    -   Antenna Face - Sector Antenna Face
+    -   Carrier Number - Sector Carrier Number
+    -   Antenna Structure \[cmdb\_ci\_antenna\_structure\] - Physical structure that supports the antennas in a radio network. Raises them to a suitable height for optimal signal coverage and minimizing interference with nearby structures.
+        -   Structure Height - Height of the physical structure, such as a tower or mast, that supports the antenna at a cell site.
+        -   Dimension Units The units of the structure dimension values.
+        -   Ground Elevation - Height of the antenna structure location above or below sea level.
+        -   Overall Height - Height of the antenna structure plus any other foundations, rooftops, etc. It may be mounted upon from the ground elevation.
+        -   Alarm Responsibility - The entity responsible for responding to an alarm on an antenna structure.
+        -   Structure Sub-Type - The secondary type of the structure.
+        -   Material Type - The material type used to build the structure.
+        -   Lighting Type - The lighting type used to build the structure.
+        -   FAA Callout Required - Structure FAA callout is required.
+    -   -   Battery Distribution Fuse Panel \[cmdb\_ci\_battery\_distribution\_fuse\_panel\] - A battery distribution fuse panel distributes power within an equipment holder \(rack/cabinet\) and connects to a Battery Distribution Bay.
+    -   -   Radio Network Controller \(RNC\) \[cmdb\_ci\_radio\_network\_controller\] - The RNC is a functional element of the UMTS RNS \(Radio Network System\) which controls several NodeBs. Responsibilities of the RNC include radio resource management and control, air interface security, mobility procedures, and system synchronization.
+    -   -   Transmission Control Unit \(TCU\) \[cmdb\_ci\_transmission\_control\_unit\] - In a 2G radio network the transmission control unit \(TCU\) encodes and decodes speech and handles data rate adaptation. Because the air interface requires that all speech be digitized at certain rates, the transmission rate is 13 kbits/s. Since the accepted rate is usually 64 kbits/s within the network the signal must be translated. This translation is performed by the TCU.
+    -   -   Voice Switch \[cmdb\_ci\_voice\_switch\] - Represents a large-scale computer system that is used to switch Time Division Multiplexer \(TDM\)-based, circuit-switched telephone calls. An example of a voice switch is a Class-5 telephone switch in the public switched telephone network \(PSTN\) that directly serves subscribers and manages subscriber calling features. Class-5 services include basic dial-tone, calling features, and additional digital and data services to subscribers connected to a local loop.
+    -   -   Fixed CMDB Correctness Dashboard for cmdb\_ci\_printer CIs and their corresponding certificates.
+-   Added missing class descriptions for certain mainframe, medical device, and TNI classes.
+-   **Version 1.56.0 - May 2024**
+    -   New:
+        -   Disabled the Newbutton on the All OT devices \[cmdb\_ot\_entity\] list view to prevent users from manually creating new OT devices.
+        -   Added the IP Address related list to the Hardware and its child CI form in the Operational Technology \(OT\) view.
+        -   Introduced the Quality Inspection Control System\[cmdb\_ci\_ot\_qics\] class. This is a child class of the OT Control System\[cmdb\_ci\_ot\_control\] class.
+            -   Description:This class represents control systems that assistin quality and inspection functions.
+            -   Difference/Usage:OT control systems monitor and control industrial processes and equipment for operational efficiency and safety. In contrast,quality inspection control systems manage inspection activities and help to ensure product quality. It is important to differentiate the two control systems because their purposes and the attributes they manage and hold are different. In addition, different sets of people manage and maintain the two different kinds of devices.
+            -   To support testing the quality of products at different stages of the manufacturing process, added a system property that enables the activity stream for the Quality Inspection Control System \[cmdb\_ci\_ot\_qics\] class.
+    -   Fixed:
+        -   Relabelled OT Asset to OT Device in the module menu, UI action, related links, and the view name. This name change helps avoid confusion with Asset Management terminology.
+        -   Added ACLswith areport\_view type forthe\[cmdb\_ci\_nids\], \[cmdb\_ot\_entity\],and\[cmdb\_ot\_entity\_type\] tablesas well as the\[isa\_entity\_site\] field onthe\[cmdb\_ot\_entity\] table.
+        -   See the "Other Requirements" section for additional release note content.
+-   **Version 1.55.0 - March 2024**
+    -   Added new Non-CMDB table: Radio Band \[cmn\_radio\_band\] - Set of normalized radio frequency bands. Populated from standards such as the International Telecommunication Union \(ITU\) and/or Federal Communications Commission \(FCC\).
+    -   Added new CMDB CI tables: Detailed descriptions of the new tables appear in the "Other Requirements" section.
+        -   Wireless Sector \[cmdb\_ci\_wireless\_sector\]
+        -   Antenna Structure \[cmdb\_ci\_antenna\_structure\]
+        -   Battery Distribution Fuse Panel \[cmdb\_ci\_battery\_distribution\_fuse\_panel\]
+        -   Radio Network Controller \(RNC\) \[cmdb\_ci\_radio\_network\_controller\]
+        -   Transmission Control Unit \(TCU\) \[cmdb\_ci\_transmission\_control\_unit\]
+        -   Voice Switch \[cmdb\_ci\_voice\_switch\]
+    -   Added newtablesto support OpenStack hosted in a private cloud. Tested with the Red Hat OpenStack Platform.
+        -   OpenStack Object \[cmdb\_ci\_openstack\_object\]
+        -   OpenStack Hypervisor View \[cmdb\_ci\_openstack\_hypervisor\_view\]
+    -   The following attributes are discovered:
+        -   Name: Concatenated value of hypervisor\_type and hypervisor\_hostname. For example, QEMU@host.acmecorp.com
+        -   IP Address: The value of host\_ip
+        -   Hypervisor technology: The value of hypervisor\_type
+        -   Object ID: The value of id
+        -   State: The value of state
+        -   Version: The value of hypervisor\_version
+    -   Added TNI Attribute related IRE Rule in the following CI Classes.
+        -   cloud\_service\_account
+        -   cmp\_price\_base and
+        -   ci\_hyper\_v\_cluster
+    -   Location of xml files: The corresponding IRE rule is included in the CMDB Class Model application's TNI Core IF folder.
+    -   Added missing read access control for cmdb\_read role on the following class: Network Topology Root Node \[cmdb\_network\_topology\_root\_node\]
+    -   Added column to Network Gear \[cmdb\_ci\_netgear\]: Is Virtual
+    -   Added column to Monitoring Unit Shelf \[cmdb\_ci\_monitoring\_unit\] and Remote Radio Unit \[cmdb\_ci\_remote\_radio\_unit\]: Radio Type
+    -   Added columns to Baseband Unit \[cmdb\_ci\_baseband\_unit\]:
+        -   Unit Coverage Type
+        -   Radio Frequency Type
+        -   Radio Frequency Modulation Identifier Code \(FM ID\)
+        -   Radio Type
+        -   Unit Architecture
+    -   Added columns to Call Server \[cmdb\_ci\_call\_server\], Mobile Switching Center \[cmdb\_ci\_mobile\_switching\_center\], Media Gateway \[cmdb\_ci\_media\_gateway\], Voicemail Equipment \[cmdb\_ci\_voicemail\_equipment\], Private Branch Exchange \[cmdb\_ci\_private\_branch\_exchange\], Echo Cancellation System \[cmdb\_ci\_echo\_cancellation\_system\], Voice Activity Detection Equipment \[cmdb\_ci\_voice\_activity\_detection\_equipment\], and Voice Gateway \[cmdb\_ci\_voice\_gateway\]:
+        -   Link Set Name
+        -   Node Category
+        -   Phone Number
+        -   Mobile Switching Center \(MSC\) Category
+    -   Fixed: The following bugs are fixed in this release:
+        -   Added missing TNI-related IRE rules to the cmdb\_ci\_cloud\_service\_account and cmdb\_ci\_hyper\_v\_cluster classes. They were missed in the last December release.
+        -   Updated UI alignment for Site, Equipment, Card, Interface, and Connection forms, and added class descriptions for Cable, Strands, and other TNI classes. Also added missing ACLs for cmdb\_network\_topology\_root\_node.
+        -   Realigned the UI for cmdb\_ci\_ni\_interface CI classes. This removes extra white spaces from the UI by realigning the widgets.
+        -   Fixed the 'Configuration Item' label on the Configuration Item \(cmdb\_ci\) table. The label had been incorrectly translated with the local word for 'Asset'.
+-   **Version 1.54.0 - February 2024**
+    -   New:
+        -   Added a new hosting rule to Kubernetes Component \[cmdb\_ci\_kubernetes\_component\] that enables you to use the CMDB to model Kubernetes resources that don't have a class of their own.
+        -   Added arelated entity IRE rule to the tables in the non-CMDB TNI CI Attributes \[tni\_entity\] table used by the Network Inventory application when the application is installed.
+        -   New CMDB CI tables:
+            -   Database Catalog \[cmdb\_ci\_db\_catalog\]
+            -   SAP Hana Catalog \[cmdb\_ci\_db\_hana\_catalog\]
+            -   Connection Medium \[cmdb\_ci\_connection\_medium\]
+            -   Strand \[cmdb\_ci\_strand\]
+            -   Cable \[cmdb\_ci\_cable\]
+            -   Optical Fiber Strand \[cmdb\_ci\_optical\_fiber\_strand\]
+            -   Optical Fiber Cable \[cmdb\_ci\_optical\_fiber\_cable\]
+        -   CI class details on Call Content Delivery Unit \[cmdb\_ci\_call\_content\_delivery\_unit\] table.
+        -   Related lists on the Network Topology \[cmdb\_ci\_network\_topology\] table.
+        -   Added these columns to the Unique Certificate \[cmdb\_ci\_certificate\] table:
+            -   Request Type
+            -   Revocation Reason
+            -   Requester Name
+            -   Template Enrollment Flags
+            -   Request Submission Date
+            -   Request Revocation Date
+            -   Request Resolution Date
+            -   Effective Revocation Date
+    -   Fixed: Invalid related entity IRE rule in the non-CMDB TNI CI Attributes \[tni\_entity\] table in the Network Topology \[cmdb\_ci\_network\_topology\] table when the Network Inventory application is not installed.
+    -   Deprecated: These columns on the Physical Connection \[cmdb\_ci\_ni\_physical\_link\] table:
+        -   Cable type
+        -   Cable number
+        -   Strand count
+        -   Cable length
+        -   Color code
+        -   Sparelength A
+        -   Sparelength Z
+        -   KML route
+-   **Version 1.53.1 - January 2024**
+    -   Fixed:
+        -   Long Vancouver upgrade times caused by unnecessary indexes in Unmatched API Endpoint \[cmdb\_ci\_unmatched\_api\_endpoint\] and API \[cmdb\_ci\_api\].
+        -   CMDB CI field not getting populated in Cloud Cost Management due to reconciliation of Kubernetes cluster records with the same name. This fix adds a new IRE rule to the Kubernetes cluster that checks both the name and cluster resouce ID.
+-   **Version 1.53.0 - December 2023**
+    -   New:
+        -   Classes:
+            -   Connection Medium \[cmdb\_ci\_connection\_medium\]
+            -   Strand \[cmdb\_ci\_strand\]
+            -   Cable \[cmdb\_ci\_cable\]
+            -   Optical Fiber Strand \[cmdb\_ci\_optical\_fiber\_strand\]
+            -   Optical Fiber Cable \[cmdb\_ci\_optical\_fiber\_cable\]
+        -   Classes that are not receiving new attributes:
+            -   AWS API Gateway \[cmdb\_ci\_aws\_api\_gateway\]
+            -   Azure API Management\[cmdb\_ci\_azure\_api\_mgmt\]
+            -   Apigee API Gateway\[cmdb\_ci\_apigee\_api\_gateway\]
+            -   IBM API Connect\[cmdb\_ci\_ibm\_api\_connect\]
+        -   Non-CMDB tables:
+            -   Cable Model \[sn\_ent\_cable\_model\]
+            -   Strand Model \[sn\_ent\_strand\_model\]
+        -   Related Items added to these default class forms:
+            -   API \(cmdb\_ci\_api\)
+            -   Managed API \(cmdb\_ci\_managed\_api\)
+            -   API Gateway \(cmdb\_ci\_api\_gateway\)
+            -   Kong Gateway \(cmdb\_ci\_kong\_gateway\)
+            -   API Component \(cmdb\_ci\_api\_component\)
+            -   API Frontend \(cmdb\_ci\_api\_frontend\)
+            -   API Backend \(cmdb\_ci\_api\_backend\)
+            -   Kong Load Balancer \(cmdb\_ci\_kong\_lb\)
+            -   Kong Target \(cmdb\_ci\_kong\_target\)
+            -   Unmatched API Endpoint \(cmdb\_ci\_unmatched\_api\_endpoint\)
+        -   Related lists added to classes:
+            -   API Deployments to API \[cmdb\_ci\_api\].
+            -   API Headers to API Component \[cmdb\_ci\_api\_component\].
+        -   IRE Rules:
+            -   Logical Composite IRE rule to Logical Composite \[cmdb\_ci\_logical\_composite\].
+            -   Network Circuit IRE rule to Network Circuit \[cmdb\_ci\_network\_circuit\].
+            -   Strand rule IRE rule to Strand \[cmdb\_ci\_strand\].
+            -   Sys\_auto\_flush table cleaner to the API Endpoint Discovered table to remove data that's 30 days older than the last updated date.
+    -   Changed:
+        -   Access Control Lists \(ACLs\) for these classes now include the cmdb\_read role, enabling users with the cmdb\_read role to read the classes:
+            -   Network Site \[cmdb\_ci\_ni\_site\]
+            -   Equipment holder \[cmdb\_ci\_equipment\_holder\]
+            -   Logical connection \[cmdb\_ci\_ni\_logical\_path\]
+            -   Physical connection \[cmdb\_ci\_ni\_physical\_link\]
+            -   Network Interface \[cmdb\_ci\_ni\_interface\]
+            -   Card \[cmdb\_ci\_interface\_card\]
+            -   Telco equipment \[cmdb\_ci\_ni\_telco\_equipment\]
+    -   Fixed:
+        -   The username attribute in the API Consumer \[api\_consumer\] non-CMDB table now correctly displays on the api\_policy tables when you upgrade to v1.53 from v1.48 or earlier of the CMDB CI Class Models store application.
+        -   The sn\_ni\_core.inventory\_agent role no longer maps to CMDB ACLs when the role doesn't exist. The sn\_ni\_core.inventory\_agent role should now only be mapped to CMDB ACLs when the TNI store app is also installed.
+        -   The Network Topologies IRE rule on the Network Topology \[cmdb\_ci\_network\_topology\] class no longer shows with errors when you only install the CMDB CI Class Models app without the TNI store app. The rule now only appears when TNI is also installed on your ServiceNow application.
+-   **Version 1.52.0 - November 2023**
+    -   New:
+        -   Classes:
+            -   Cloud Account Group \[cmdb\_ci\_cloud\_account\_group\]
+            -   AWS Organizational Unit \[cmdb\_ci\_aws\_org\_unit\]
+            -   Topology \[cmdb\_ci\_topology\]
+            -   Network Topology \[cmdb\_ci\_network\_topology\]
+        -   Non-CMDB tables:
+            -   Network Topology Root Node \[cmdb\_network\_topology\_root\_node\]
+        -   Attributes in these classes:
+            -   Cloud Organization \[cmdb\_ci\_cloud\_org\]
+                -   Root Id
+                -   Main Email
+            -   Cloud Service Account \[cmdb\_ci\_cloud\_service\_account\]
+                -   Account Email
+        -   Suggested relationship rules:
+            -   Network topology Connects :: Connected by Site \[cmdb\_ci\_site\]
+            -   Network topology Contains :: Container by Hardware \[cmdb\_ci\_hardware\]
+            -   Network topology Members :: Member of Physical Connections \[cmdb\_ci\_ni\_physical\_link\]
+            -   Network topology Members :: Member of Logical Path \[cmdb\_ci\_ni\_logical\_path\]
+            -   Network topology Members :: Member of other Network Topology \[cmdb\_ci\_network\_topology\]
+        -   Network IRE rule added to Network Topology \[cmdb\_ci\_network\_topology\].
+    -   Changed:
+        -   IBM Informix Dynamic Servers now use config\_file and Version for identification, instead of installation directory and Version.
+        -   The default related list for Telco Equipment \[cmdb\_ci\_ni\_telco\_equipment\] now shows these tables:
+            -   Physical Connections
+            -   Logical Connections
+            -   Change Request
+            -   Change Tasks
+            -   Teams
+            -   Number Elements
+            -   IP Address
+    -   Fixed:
+        -   Duplicate CI Class Manager Display Names and table Labels for SAP System \[cmdb\_ci\_sap\_sid\] and SAP System \[cmdb\_ci\_appl\_system\]. The Display Name and the table Label for SAP System \[cmdb\_ci\_sap\_sid\] is now SAP SID \[cmdb\_ci\_sap\_sid\].
+-   **Version 1.48.0 - August 2023**
+
+    New:
+
+    -   Added firmware column to appropriate OT list views.
+    -   Added an additional choice list on the OT control module called ""Input/Output"".
+    -   OT Editor with ISA viewer can now assign OT assets to sites
+    -   Added OT asset Display name in the OT asset details section.
+    -   Added ""external system URL"" related list to ""Operational Technology \(OT\)"" view for Core IT classes
+    -   Enabled cross-scope deletions on cmdb\_ot\_entity table
+    -   Added additional CMDB classes for equipment \(FARB0000506\)
+    Changed:
+
+    -   Removed IP Address form field for IT classes in OT View and list views on the platform and workspace
+    -   Relabeled cmdb\_key\_value\_v2 table as ""External system meta data"".
+    -   Removed the NEW button on the All OT Assets by IP address list view.
+-   **Version 1.47.0 - June 2023**
+    -   New:
+        -   PCF BOSH Data Model
+        -   IBM WebSEAL REST API Data Model
+        -   Add a Related List for Change Requests on OT Assets
+-   **Version 1.45.0 - March 2023**
+    -   New:
+        -   Cloud Foundry discovery - Droplets are added to the discovery.
+        -   Support for commercial software class definitions.
+    -   Fixed: The UI Page, ACL for NIDS delete confirmation, is added.
+-   **Version 1.43.0 - February 2023**
+    -   New:
+        -   The table \[cmdb\_container\_environment\_variables\] extends \[cmdb\_key\_value\].
+        -   A new dependent relationship between \[cmdb\_ci\_docker\_container\] and \[cmdb\_ci\_appl\] was created.
+        -   A new field \[v\_cpu\] was added to the \[cmdb\_ci\_oslv\_container\] table.
+        -   A new command "os, os\_family, os\_version, architecture field" was added to \[cmdb\_ci\_oslv\_image\].
+        -   The table \[cmdb\_ci\_snat\_ip\_pool\] was modified to support the A10 SNAT pattern content.
+-   **Version 1.42.0 - December 2022**
+    -   Fixed: The OT Form View of the Protocol Converter CI is updated.
+    -   Changed: A Hosting rule between the docker container and the Application CI is added.
+-   **Version 1.41.0 - November 2022**
+    -   New
+        -   a relationship of storage device dependent on hardware was added.
+        -   Model Rack number for Control modules.
+    -   Fixed: Search was showing irrelevant results on All OT assets by IP address list view
+-   **Version 1.40.0 - October 2022**
+    -   New: Added AWS Kinesis class model
+    -   Changed: Update the parent for cmdb\_ci\_base\_rpa\_process table from cmdb\_ci\_business\_process to cmdb\_ci\_automation
+    -   Fixed:
+        -   nids\_admin is unable to save NIDS record when the record is validated
+        -   User with no roles defined has access to the Couchbase Cluster application modules
+-   **Version 1.39.0 - September 2022**
+    -   New:
+        -   Added the relationship from cmdb\_ci\_cloud\_lb\_ipaddress to cmdb\_key\_value.
+        -   Added the relationship from cmdb\_ci\_kubernetes\_cluster to cmdb\_key\_value.
+    -   Fixed:
+        -   Save UI Action on cmdb\_ci\_nids table has improper configuration - sys\_overrides field is not supposed to be used since it's designed for the Domain Separation context.
+        -   The Class column is missing in OT asset list views on the platform.
+        -   None should be added to the Switch position choice list.
+        -   \[Security Bug\] ACL bypass with 'NIDSRecordAjax' Script Include \| CMDB CI Class Models
+-   **Version 1.38.0 - August 2022**
+
+    What's New: Automation Center base table - Automation CI \(cmdb\_ci\_automation\) with Operational as Life Cycle Stage and Published as Life Cycle Stage Status in Life Cycle Control table.
+
+-   **Version 1.37.0 - July 2022**
+    -   New:
+        -   Add Operational as Life Cycle Stage and Published as Life Cycle Stage Status in Life Cycle Control table
+        -   Amazon Redshift class definition
+        -   Cohesity New Class Definitions
+        -   Creating Automation CI Table - cmdb\_ci\_automation
+    -   Fixed: Security bug
+-   **Version 1.36.0 - May 2022**
+    -   New: New tables added for storing Intel vPro information discovered through ACC-V.
+    -   Changed: CMDB Class Model App changes for TNI app May Store release.
+-   **Version 1.35.0 - March 2022**
+    -   New:
+        -   Add RPA base tables - Base Bot Process \(cmdb\_ci\_base\_rpa\_process\) and Base Robot \(cmdb\_ci\_base\_rpa\_robot\)
+        -   Related Entry to populate key-value pairs for Docker image labels/tags
+        -   Azure Services Class Definitions and Dependencies
+    -   Fixed: MPM Domain separation: While creating an OT Asset manually, the domain value on the CI is different than on the OT Entity
+-   **Version 1.34.0 - February 2022**
+    -   New: CMDB Class models for BladeSystem Enclosure/Chassis
+    -   Changed: Minor class model updates to update OT asset management
+-   **Version 1.33.0 - December 2021**
+    -   New:
+        -   Added the CMDB SDLC Component \(cmdb\_ci\_sdlc\_component\) table
+        -   Ensured that the IP address is on the OT class CI after importing via SGC Excel or via a third-party
+-   **Version 1.32.0 - November 2021**
+    -   New: Data Model for the OT industry
+    -   Fixed:
+        -   The **Assigned To** field was moved from “form” to the “NIDS Metadata form” section.
+        -   Changed the SGC related script to include protection policy as “None” to allow edits.
+        -   MSFT SGC: An error is thrown during the ETL integration when the Purdue level value is undefined.
+-   **Version 1.31.0 - October 2021**
+
+    New: Data Model for Cloudian Storage System
+
+-   **Version 1.30.0 - September 2021**
+    -   New:
+        -   Class Model support for Citrix XenServer and NetApp Storage
+        -   New Class Model for OT: Network IDS Appliance
+        -   RBAC Policy: cmdb\_ot\_admin to see all OT assets
+    -   Changed:
+        -   Updated Dependent relationships for cmdb\_ci\_vcenter\_datastore and cmdb\_ci\_esx\_resource\_pool to cmdb\_ci\_logical\_datastore
+        -   Activity Stream for OT Class models
+-   **Version 1.29.0 - August 2021**
+    -   New: Oracle Cluster model
+    -   Fixed: Infinibox - Storage enclosures and corresponding disks are not discovered
+-   **Version 1.28.0 - July 2021**
+    -   New: OT Model Extensions Mongo DB
+    -   Changed: SAP model attributes
+    -   Fixed:
+        -   CI and OT type should not be changed once it is created
+        -   OT Workspace : ISA site field is missing on OT entity form
+        -   Revise ISA Equipment Model script includes to use object-oriented coding pattern.
+-   **Version 1.26.0 - June 2021**
+    -   New:
+        -   Rubrik suport for VMWare.
+        -   Implementation of SAP CMDB model approved by CMDB Model Council.
+        -   OT:
+            -   Added "Unclassified OT" to Workspace Lists.
+            -   Cool icon for Industrial 3D Printer.
+            -   Created reference from cmdb\_ci to cmdb\_ot\_entity.
+            -   Created Related Entry records between cmdb\_ci\_ot\_control\_module and cmdb\_ot\_entity.
+            -   Made the "ot\_asset" field on the "cmdb\_ot\_entity" table mandatory using the UI policy instead of making it mandatory in the Dictionary Entry.
+            -   For MFG, enabled audits on OT Entity Table. OT entity type for Industrial 3D printer class.
+            -   Removed "New" button in the Agent Workspace and OT Foundation Workspace on OT Asset Lists.
+    -   Fixed:
+        -   Rubrik Discovery patterns that were creating duplicates among the CMDB for the following CI types: Server, Hyper V VM, VMware instances, Oracle DB, MSSQL instances and MSSQL DBs.
+        -   OT: CMDB202106: OT admin and OT editor roles did not have access to the relationship formatter. CMDB202106: IP address field was editable from the OT assets list view.
+-   **Version 1.25.0 - May 2021**
+    -   New: OT - added navigation menu and Tags relations
+-   **Version 1.24.0 - April 2021**
+    -   New:
+    -   Added BYOL DB Classes.
+    -   Operation Technology \(OT\):
+        -   Related Entry records between cmdb\_ci\_hardware, cmdb\_ci\_ot, and cmdb\_ot\_entity.
+        -   IP Address Table for IPs.
+    -   Fixed:
+        -   Operation Technology \(OT\):
+            -   Hardware version field was missing on the OT CI form.
+            -   It was not possible to map a CI to the cmdb\_ot\_entity class using the IntegrationHub ETL if the payload did not have a purdue\_level attribute.
+-   **Version 1.23.0 - March 2021**
+    -   New:
+        -   Added Operational Technology \(OT\) classes
+        -   Added NetApp SolidFire classes
+-   **Version 1.21.0 - February 2021**
+    -   New:
+        -   Class model support for the following:
+            -   Rubrik Backup discovery
+            -   ZooKeeper Cluster discovery
+            -   Kafka Cluster discovery
+    -   Fixed:
+        -   Resolved Overlapping IPs issue:
+            -   Key parts of the CMDB model, where the IP address is used directly for identification, were extended to include a Network Partition Identifier. This identifier includes a string value that identifies the unique Network Partition for the IP address. By extending the model and associated Identification and Reconciliation Engine \(IRE\) rules, overlapping IP addresses existing in different network partitions can be identified and maintained as separate CIs. Ensure you are running Orlando Patch 10 \(or later\) or Paris Patch 6 \(or later\) to include this fix.
+-   **Version 1.20.0 - January 2021**
+
+    Fixed: Removal of a fix script used to insert description records from the Class Models app and instead insert them using XML files, as per other records.
+
+-   **Version 1.18.0 - December 2020**
+
+    Fixed: Removal of a fix script used to insert description records from the Class Models app and instead insert them using XML files, as per other records.
+
+-   **Version 1.17.0 - November 2020**
+
+    New: As part of CSDM conformance, a number of suggested relationships were added to various CIs.
+
+-   **Version 1.16.0 - October 2020**
+    -   New: CMDB Class model support for BigID integration
+    -   Fixed:
+        -   CSDM: added suggested relationships missing from 26 CIs released in the store
+        -   GCP Org: Class model bug fixes to support Google folders and projects
+-   **Version 1.15.0 - September 2020**
+    -   New:
+        -   Class model support for Google Cloud Platform \(GCP\) Organization and Cassandra \(support for top-down discovery by Service Mapping\)
+        -   Class model updates to the handheld computing class model
+-   **Version 1.14.0 - August 2020**
+
+    In August 2020 release, the following new classes are added to support discovery and provisionining:
+
+    -   Telo industry model
+    -   Cassandra DB model
+    -   Extention of A10 LB discovery to support A10 partitions
+-   **Version 1.12.0 - June 2020**
+    -   New:
+        -   Extends the Cisco Firewall class model.
+        -   Adds the class model for Kubernetes YAML and Istio.
+-   **Version 1.11.0 - May 2020**
+    -   New: The firewall class model was added to support the following firewall devices:
+        -   Palo Alto Panorama
+        -   Fortinet
+        -   Juniper
+        -   Cisco
+-   **Version 1.10.0 - April 2020**
+
+    New: A new class added to support discovery of Firewall devices, Cisco Wireless Access Point and VMWare NSX LB
+
+-   **Version 1.8.0 - February 2020**
+
+    New: The OpenStack and Avi LB classes were added
+
+-   **Version 1.6.0 - December 2019**
+    -   New classes were added to support IoT:
+        -   Aircraft
+        -   Converged Infrastructure
+        -   Display Device
+        -   Drone
+        -   Game Console
+        -   Human Machine Interface
+        -   Imaging Device
+        -   IoT Device
+        -   IoT Gateway
+        -   IP Camera
+        -   Manufacturing Device
+        -   Medical Diagnostic Device
+        -   Medical Measuring Device
+        -   Medical Support Device
+        -   Medical Therapeutic Device
+        -   Media Player
+        -   Medical Device
+        -   Display Monitor Control
+        -   Multimedia Device
+        -   Payment Device
+        -   Process Logic Controller
+        -   Point of Sale Device
+        -   Single Board Computing
+        -   Security Device
+        -   Ship
+        -   Smart Television
+        -   Train
+        -   Transport Type
+        -   Vehicle
+        -   Wearable Technology
+    -   New classes were added to support AVI Networks technology:
+        -   AVI Controller
+        -   AVI Controller Cluster
+        -   AVI Service Engine
+    -   Classes were added or removed for Red Hat Virtualization:
+        -   RHV LDC \(added\)
+        -   RHV Datacenter \(removed\)
+-   **Version 1.5.0 - November 2019**
+    -   The following new classes are added to support Red Hat Virtualization \(RHV\):
+        -   RHV Cluster
+        -   RHV Server
+        -   RHV Datacenter
+        -   RHV Manager
+        -   RHV Virtual Machine Instance
+        -   RHV Object
+    -   The following Nutanix class is added:
+        -   Nutanix Prism Central
+-   **Version 1.4.0 - October 2019**
+    -   New:
+        -   A description for the Unique Certificate \[cmdb\_ci\_certificate\] table was added.
+    -   Changed:
+        -   It is no longer possible to add or delete records from the Unique Certificate \[cmdb\_ci\_certificate\] table.
+        -   It is no longer possible to add or delete attachments from the certificate file attribute in the Unique Certificate \[cmdb\_ci\_certificate\] table.
+        -   The assigned\_to attribute now depends on the assignment\_group attribute so that users in the assigned\_to attribute are filtered based on the specified assignment\_group.
+-   **Version 1.3.0 - September 2019**
+
+    New classes:
+
+    -   Unique Certificate \(extends from the existing cmdb\_ci table\)
+    -   Certificate Domain
+    New columns to the existing IBM Frame and IBM HMC Processor pool tables:
+
+    -   IBM Frame
+        -   Current available processor units
+        -   Configurable processor units
+        -   Configurable memory units
+        -   Installed processor units
+        -   Current avaialble memory units
+        -   Installed memory units
+    -   IBM HMC Processor
+        -   LPAR IDs
+        -   LPAR names
+        -   Frame name
+-   **Version 1.2.0 - August 2019**
+    -   New: 5 new classes - IBM HMC Server, IBM Frame, IBM LPAR Instance, LPAR Resource, IBM HMC Processor Pool Modification. These classes extend from existing cmdb\_ci tables that support IBM Cloud Platform.
+    -   Changed: Minor column label update in the Nutanix Controller VM class. The column label **Memory** was updated to **Memory \(MB\)**.
+-   **Version 1.1.5 - July 2019**
+
+    New: One additional metadata hosting rule that defines a dependency between Nutanix storage pool and VMware Vcenter Object.
+
+-   **Version 1.1.4 - June 2019**
+
+    New: Nutanix Cloud platform class model
+
+    -   Nutanix Cluster
+    -   Nutanix Controller VM
+    -   Nutanix Storage Pool
+    -   Nutanix Storage Container
+    -   Nutanix Host
+    -   Nutanix Virtual Machine
+
+**Parent Topic:**[ServiceNow Store - ITOM Visibility release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-visibility-landing.md)
+

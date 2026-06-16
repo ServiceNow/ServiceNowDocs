@@ -1,0 +1,785 @@
+---
+title: Workplace Reservation Management release notes
+description: Version history for the Workplace Service Delivery Workplace Reservation Management application on the ServiceNow Store.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-reservation-management.html
+release: store
+topic_type: reference
+last_updated: "2026-06-11"
+reading_time_minutes: 57
+breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+---
+
+# Workplace Reservation Management release notes
+
+Version history for the Workplace Service Delivery Workplace Reservation Management application on the ServiceNow Store.
+
+**Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+## Version history
+
+-   **Version 3.4.1 - June 2026**
+    -   New: Enable employees to subscribe to a space in case all are available spaces are booked. Space allocation is done based on weight \(priority\) and other factors.
+    -   Fixed:
+        -   Blocker reservations were displayed as "booked" in the map view.
+        -   When requesting services through the catalog, the time zone attached to the employee was used, rather than the related building.
+        -   The incorrect building was displayed when two buildings were close to each other while searching for a space using the map.
+        -   Additional questions was indicated as mandatory when editing a reservation.
+        -   Employees could use a time slot that had already passed.
+        -   Opening and managing a reservation as an Event Planner would use an incorrect time zone.
+        -   Spaces were not deselected when changing the reservable module
+        -   The search button could be incorrectly disabled after changing the building or date and time were updated.
+        -   The start time of each occurrence was set based on the first occurrence, when the start time passed the "Start time of the working day", even when all-day was enforced.
+        -   Searching for a space near a colleague could return an error when using the map-view.
+        -   Reservations couldn't be viewed when it overlapped with a block reservation.
+        -   Checking out a reservation updated the departure time of a related visitor registration.
+        -   Incorrect dates could be displayed for selected spaces indicated as a favorite in the space details or search page.
+        -   The building value was empty in the quick reservation experience, while the floor value was still present to  Employees were not informed when a selected duration is enabled after scanning a QR-code on mobile devices.
+        -   An incorrect tooltip was displayed when hovering over the occurrence dates when viewing the  reservation summary
+        -   The indication showing the number of available spaces was incorrect when sorting using "My favorites first".
+        -   In some cases, employees were able to submit a reservation when not all mandatory information was entered.
+        -   Returning to the search page when creating a multi location reservation could select an incorrect floor.
+        -   Seat arrangements was displayed as grayed out when loading the map.
+        -   Rejected reservations that occurred in the past remained visible, even after running the daily job.
+        -   Extra white spaces were displayed in the card after selecting it in the Event Planner.
+        -   Accessibility improvements to support screen readers.
+        -   Services could be retained, after switching locations.
+        -   Employees could reserve allocated spaces in certain cases.
+        -   Expanding the added attendees on the reservation details page was hiding the submit or Go back buttons.
+        -   Event Planners were able to view filters not shared with them.
+        -   The shopping card icon was displayed incorrectly in the schedule view.
+        -   The value of the location could overlap with the status column.
+        -   Security fixes.
+-   **Version 3.3.1 - May 2026**
+
+    New: The introduction of new API end points to support artificial intelligence platforms
+
+-   **Version 3.2.6 - April 2026**
+
+    Increasing version number to align with the releases.
+
+-   **Version 3.2.2 - March 2026**
+    -   New:
+        -   Employees can now add colleagues as attendees while searching for a space using Exchange Online
+        -   Recurring reservations now support complex daily, weekly, and monthly patterns
+        -   Synchronize true recurring reservations with Exchange Online, instead of synchronizing individual occurrences
+    -   Changed: Search criteria, applied filter, and added attendees on the search page will be preserved when navigating back from the reservation details page to the search page
+    -   Fixed:
+        -   Spaces belonging to inactive floors will no longer appear in search results
+        -   Employees could use inactive shifts when searching for available spaces
+        -   Duplicate campus names were displayed on the reservation summary page after reserving multiple spaces for different buildings belonging to the same campus
+        -   The label on the button for adding services via the Outlook add-in was incorrect
+        -   Resolved incorrect color rendering on the reservation summary page on mobile
+        -   Asking the AI agent to reserve a specific space could result in an error
+        -   In some cases, it was not possible to select a sort order because the list closed automatically on mobile
+        -   The error message shown when attempting to book a desk after the configured day-end time has improved and is consistent across portal and mobile
+        -   Sorting search results on favorites did not return any results
+        -   The Outlook add-in could encounter cross-origin errors when opened in a browser
+        -   Improved translation for several labels and error messages
+        -   Security fixes
+-   **Version 3.1.1 - January 2026**
+    -   New:
+        -   Use Now Assist AI Agents while optimizing your in-office presence
+        -   Now Assist AI Agents can suggest a space near a colleague or collaborator
+    -   Fixed:
+        -   Workplace admins and Events Planners could not edit a reservation when the subject was indicated as private in the Event Planner experience.
+        -   A reservation can be submitted with validation errors applied when using additional fields.
+        -   In some cases, duplicate reservations could be created for the same location.
+        -   Security fixes.
+-   **Version 3.0.2 - December 2025**
+    -   New:
+        -   As of this version, the search widget has been made compatible to use as an add-in in Outlook clients.
+            -   Find spaces more easily with enhanced search and filter options.
+            -   View a larger space image.
+            -   Find available spaces by using the floor map.
+            -   Show additional fields as configured in the reservable module.
+            -   The system will try to retain services when changing the date, time, or location.
+            -   Create reservations for your delegates.
+        -   Improve configurability of the Event Planner experience.
+        -   Apply a custom filter and grouping when using the Event Planner experience.
+        -   View the space details directly from the schedule of the Event Planner experience.
+        -   Change and add additional time zones in the Event Planner experience based on the buildings that are being managed in the Event Planner experience.
+        -   Show employee names who reserved a space directly on the map while searching for an available space.
+        -   Employees and guests can reserve spaces using the Workplace Services Kiosk.
+        -   Set on system level the number of spaces used for displaying and loading additional spaces in the Event Planner experience.
+    -   Changed:
+        -   Search for spaces more easily by switching the position of the search and filter criteria. Search criteria and filter criteria can be collapsed to show more information for each view.
+        -   Improvements to the design when viewing reservation details.
+    -   Fixed:
+        -   Unable to change the date in the bar after making other changes when using the Event Planner experience.
+        -   Sometimes, the incorrect reservable module was selected when trying to reserve a space when using the Location Directory.
+        -   The "Reservation on your behalf" and "Reservation on your behalf updated" push notifications pushed an empty notification.
+        -   Changing buildings were not updating the start and end times
+        -   Clearing the building value in the Quick reservation experience did not show the correct label.
+        -   The date format in the Cancel reservation email notification could display "invalid" in certain cases.
+        -   In some cases, when editing a multi-building multi-location reservation, the message "No item selected" could be displayed instead of the selected buildings or locations.
+        -   Sometimes, adding attendees to an existing reservation could result in an error, which was not read out by Screen readers.
+        -   The Outlook add-in intermittently allows creation of extra services for recurring reservations.
+        -   In some cases, an error message about a Query Range was displayed on the reservation search page.
+        -   Spaces were not visible for employees when a spaces is part of multiple neighborhoods, including a restricted neighborhood, and they were not part of that neighborhood.
+        -   Reservable modules were available in the Quick Reservation widget, even when the module was not indicated to be available here.
+        -   The normal widget for adding additional services was loaded instead of the record producer after removing the services.
+        -   Images added to the Reservation notes show truncated or do not display correctly in the Reservation summary page
+        -   Sometimes, the invitees tab was not loading by default after attendees were added.
+        -   Sometimes, the cancel button was displayed for reservations created from an external provider in Schedule view \(Event Planner experience\).
+        -   The Cancel Series button was visible for recurring reservations created from an external provider.
+        -   Additional notes were not displayed correctly when clicking on show more on the mobile browsers.
+        -   Removing parking preference when editing an existing visitor registration within a reservation was not saved.
+        -   Updating a reservation in the Event Planner experience could show an incorrect message that services could be retained.
+        -   The maximum number of occurrences was calculated incorrectly on the Space Details page.
+        -   Sometimes, spaces from multiple buildings were visible after changing the building and clicking "show more".
+        -   Tags displayed the Card-view in the Location Directory experience were not updated correctly.
+        -   Locations were not auto-refreshed for the Card-view in the Location Directory.
+        -   Employees could reserve spaces without neighborhood access by directly accessing the reservation details page URL.
+        -   Sometimes, the message informing employees of overlapping reservations was displayed inconsistently.
+        -   The link in the searching a space near a colleague's email templated failed for several date formats.
+        -   The reservation subject is auto changed when changing the reservation details using REST API explorer.
+        -   Enhanced the use of capitols to better support translations for service names.
+        -   Enhancements to translation issues
+        -   Enhanced styling for displaying timeslots.
+        -   Enhanced styling for browsing by neighborhood on mobile browsers.
+        -   Resolved issues where NVDA screen readers could not read time fields properly.
+        -   Security fixes
+-   **Version 2.21.2 - November 2025**
+
+    New: Enhance the employee experience by asking the Reservation AI agent, using Now Assist, for a space for the day. Spaces are suggested based on available information and if available, personalized suggestions.
+
+-   **Version 2.20.1 - September 2025**
+
+    New: The AI Agent updating reservations can now also handle multi location reservations.
+
+-   **Version 2.19.0 - August 2025**
+    -   New:
+        -   Configure additional questions and provide a similar experience through the catalog, by assigning a record producer to the workplace service that will be used in the reservation experience. Configure per workplace service if the default form or the new experience with the record producer is used.
+        -   Reserve multiple days using suggested spaces in the mobile Workplace experience.
+        -   Edit reservations using suggested spaces in the mobile Workplace experience.
+        -   View planned reservations in the mobile Workplace experience.
+        -   Drag the edges to extend or shorten a reservation in the Workplace Event Planner experience.
+        -   The reservation subject is updated with the selected space name when the employee changes the location and has not set the custom subject.
+        -   Assigned neighborhoods are displayed on the cards when reserving a space
+    -   Changed:
+        -   Use the new neighborhood tables, that are part of Workplace Core.
+        -   The banner image for the workplace dashboard has been updated.
+        -   Configuration item cannot be selected from the reservable type in the reservable module
+        -   Employees cannot select a time in the past when using the advanced reservation experience and the space details page
+    -   Fixed:
+        -   Employees could reserve a space by adding the space ID to the url, while they normally do not have access to the space
+        -   Editing an existing group reservation and change the requested for could trigger email messages to the employees previously selected.
+        -   The reserved for text was misaligned on the reservation summary page for group reservations.
+        -   The all-day was not set by default when editing a reservation while set as such in the reservable module configuration.
+        -   Cancelling a multi-location could send an email to all locations, even to previously added but not removed locations.
+        -   No neighborhoods were displayed without typing the first characters when there are more than 50 neighborhoods.
+        -   Unable to search for a space near colleague is the subject was set to private.
+        -   The cost displayed for requested service differed before and after submitting the reservation.
+        -   When selecting the From-date as today's date the To-date does not show available options in multi-day reservations
+        -   Sometimes, the message to refresh the search results was displayed using the 12-hour time format.
+        -   The icon to clear several fields in the browse by neighborhood path was displayed twice. This only impacts Yokohoma instances.
+        -   The virtual meeting link got invalid when converting a single reservation to multi-location reservation.
+        -   Changed how timezone names are displayed in the Event planner experience, matching the reservation portal experience.
+        -   Sometimes, the occurrences for recurring reservations were not calculated properly when setting a different end date.
+        -   The From and To fields were not read out properly by screen readers.
+        -   Sometimes, the location picker did not load properly when trying to select a building while reserving a space.
+        -   Sometimes, it was not able to clear applied filter when searching for available spaces.
+        -   Sometimes, external visitors were not be displayed on the reservation summary page or were not retained when editing the reservation.
+        -   Sometimes, the reservation times were displayed in a different format when changing the date or time in the side panel within the Workplace Event Planner experience.
+        -   The chevrons to change the time in the calendar did not work.
+        -   ICAL file was not generated and attached in the email send to invitees.
+        -   Parking was still selected when removing it from an existing visitor registration when editing the registration that is part of a reservation.
+        -   Clearing "the who would you to like sit near" field was not accessible.
+        -   The "Ends on this date" when creating a recurring reservation did not support translations.
+        -   The label indicating the number of occurrences did not support translations.
+        -   The generated reservation subject did not support translations.
+        -   General performance improvements for the Workplace Reservation experience.
+        -   General performance improvements for the Workplace Event Planner experience.
+        -   Security fixes
+-   **Version 2.17.2 - May 2025**
+    -   New: List overviews on the Event Planner dashboard are moved to a dedicated List section within Workplace Central.
+    -   Changed: Configure the reservable module if an all-day reservation covers the whole day or use the current configuration.
+    -   Fixed:
+        -   A building could display incorrect floors after reopening the reservation search page.
+        -   Sometimes, all-day was not set on the search page when indicated as default in the reservable module.
+        -   In some cases, the schedule view in the Event Planner was blank after reopening the view after closing it before.
+        -   Notifications could overlap when more than one message should be displayed.
+        -   Users did not see the message or the date pickers if the space is not part of a reservable module.
+        -   The reservation notes section did not show the entire message when it went beyond four lines.
+        -   The vertical line before the Add/Remove buttons in the schedule view appeared to be cut off.
+        -   The space details page could flicker if the reservable module specified a minimum and maximum duration.
+        -   Creating a recurring reservation for a single day calculated the series.
+        -   Workplace services could be lost when dragging a reservation to another date while scrolling down in the Event Planner.
+        -   No email notification was sent when changing the space from an occurrence within a recurring series.
+        -   A different time zone could be displayed in the contextual side panel on the schedule views in the Event Planner.
+        -   The filter section on the search page could display a dot.
+        -   The reservation add-API could fail on the last day of maxDaysInFuture with some time zones.
+        -   Sometimes, a reservation cannot be created using a shift.
+        -   Enhanced support for translations of the Reservation Dashboard in Workplace Central.
+        -   Enhanced support for translations of the Event Planner in Workplace Central.
+        -   Enhanced support for accessibility
+        -   Security fixes
+-   **Version 2.16.0 - February 2025**
+    -   New:
+        -   Find spaces more easily by selecting start and end times. Selecting an end date is only required when reserving a space covering multiple days.
+        -   Automatically update the search result when changing the search criteria.
+        -   Allow Event Planners and other key users to ignore several reservable module settings, allowing them to:
+            -   Reserve a space for more than the max days allowed in the future.
+            -   Reserve a space for longer than the max duration.
+            -   Create a recurring reservation for a longer series.
+            -   Move reservations between different reservable modules in the Event Planner experience.
+        -   Filter on Space types when managing reservations in the Event Planner experience.
+    -   Fixed:
+        -   Prevent the cancellation of the virtual meeting links for recurring reservations created from a non-ServiceNow source.
+        -   Standard services and location purpose were incorrectly displayed on smaller sizes in the calendar view.
+        -   Closing the popover in the Event Planner could get stuck in loading state.
+        -   The Location Directory was not displayed when there was no map assigned to the select campus or building opening it from the Event Planner.
+        -   Employees were able to select multiple spaces for a recurring reservation in the schedule-view.
+        -   Dynamic calculation of occurrence count did not update when the start date is changed.
+        -   The occurrence count was not updated when changing the start or end date when making a recurring reservation until a specific date.
+        -   Removed services could still show up in update email notifications.
+        -   Adding a new service in lead time would set the state to "In progress".
+        -   Employees could try to make reservation with a building that was indicated as not reservable if building was saved in the user preferences.
+        -   The "Cancel Reservation PL" email template listed both initially selected and updated locations as cancelled in the case of multi-location reservations.
+        -   Parking was checked when viewing or editing an existing visitor registration that is part of a reservation.
+        -   Week day schedules were visible when scheduling a reservation for a weekend day.
+        -   Location names and organizer names were missing in the email when a group reservation is made for different employees.
+        -   The "add-day" field was not disabled if the multi day reservation was set greater than one, when managing the reservable modules in the list view.
+        -   Incorrect timezone was displayed for location using the Asia/Kolkata timezone in the Event Planner.
+        -   Several labels used for a recurring reservation were not translated correctly in Dutch.
+        -   Day, week, and month labels were not translated when creating a recurring reservation.
+        -   Performance improvements when loading the Space details page in the workplace services portal
+        -   Accessibility improvements implemented with improved labels, aria attributes, table markup, and more.
+-   **Version 2.14.0 - November 2024**
+    -   Fixed:
+        -   The Add button in the Scheduled View could be partially hidden when using Employee Center.
+        -   The incorrect floor was loaded when searching for a space near a colleague when ^NQ and ^EQ conditions in the reservable module filter.
+        -   The update virtual meeting flow was triggered for every update.
+        -   When a reservation from the VST timezone is updated from the contextual panel or with drag-and-drop in Workplace Central, the start and end times were not updated properly.
+        -   Space planners could update private subjects in Workplace Central.
+        -   Selecting an inactive space from the favorite space displayed only the end time field instead of the start and end time and a warning message informing the employee that they cannot reserve that space.
+        -   The time was not set correctly when updating a reservation with "all day" set to "required" in the reservable module.
+        -   The occurrence count did not match for recurring reservations when the employee chose "Lasts" field value as "until".
+        -   When calculating availability, blocker reservations were not always taken into consideration.
+        -   Spaces could appear in search due to wrong availability in Search by Neighborhood.
+        -   The "date" field does not populate when selecting a reoccurring reservation for "weekly" "until".
+        -   When the "Warn employee for duplicate reservation" is enabled for the reservable module, the message "Showing the available results closest to the \[name\] user" when browsing near a person was not visible.
+        -   Service Item cost was showing 0.00 GBP for the existing reservations after the Washington upgrade.
+        -   Text on the confirmation pop-up displayed when moving a reservation to a different location or time was not translated to the language selected.
+        -   While using MappedIn, an error could be displayed after selecting the building and floor stating that there was no map available.
+        -   The drop-down list to add services was incorrectly rendered with large text sizes.
+        -   The date and day were not fully localized.
+        -   Accessibility improvements implemented with improved keyboard support, addition of sIDs, alt text, contrast ratio, support for screen readers, and more.
+        -   Performance improvements
+        -   Security fixes
+-   **Version 2.13.4 - August 2024**
+    -   New:
+        -   Configure the required lead time for each service item and location. Employees cannot add or edit services when within the set time.
+        -   Ability to launch Location Directory UI from the Event Planner app \(Home Page and the Schedule View\) on Workplace Central.
+        -   Configure snap interval when using the 30-min and 60-min views in the Event Planner.
+        -   Update reservation details using the side panel in the Event Planner.
+        -   Retain services while optimizing space reservations in the Event Planner.
+        -   Set start and end times on the 30-min and 60-min schedule views in the Event Planner.
+    -   Changed:
+        -   When viewing the reservation in the side panel of the Event Planner, display the start and end time in the timezone assigned to the building.
+        -   Updating reservations in the Event Planner will capture the last updated source.
+        -   The URL used for the reservable image location can now be configured to ensure the image can be displayed correctly.
+    -   Fixed:
+        -   Informing employees on location privacy was not displayed correctly based on system and building configuration. This has been fixed.
+        -   In some cases, the notification informing the employee that a multi-location reservation was cancelled was only shown quickly. This has been fixed.
+        -   Recurring score calculation does not correctly calculate the availability of spaces with a quantity. This has been fixed.
+        -   The text "Add"-button was not clear in certain cases. This has been fixed.
+        -   Service cases were recreated in case these were already delivered. This has been fixed.
+        -   Additional notes added to a recurring reservation were placed above the recurring pattern. This has been fixed.
+        -   When a space was replaced while editing a reservation, the old and new spaces names were displayed. This has been fixed.
+        -   It was possible to change a recurring occurrence into a multi-location reservation. This has been fixed.
+        -   Images were not displayed in the Outlook invitation when it was added to the additional message. This has been fixed.
+        -   When clicking unselect, all pattern styles are applied in the map view, even though the accessibility pattern setting is disabled. This has been fixed.
+        -   Invalid values were displayed in the notifications sent to notify invitees. This has been fixed.
+        -   Invitees were not listed in alphabetical order on the summary page. This has been fixed.
+        -   The recurring details section flickers when incrementing/decrementing time in the 'Until' scenario. This has been fixed.
+        -   When viewing the recurring pattern for an occurrence in the reservation details page, no tooltip was displayed. This has been fixed.
+        -   The items on the screen seem to flicker when changing the date or time using the clock on the space details page. This has been fixed.
+        -   Reservation Map is not working when we have a lot of campuses. This has been fixed.
+        -   In certain cases, the previous space name was displayed when updating a multi-location reservation. This has been fixed.
+        -   An error in the phone number is displayed when adding a visitor when scheduling a reservation has been fixed.
+        -   The same cost value was displayed for the added space arrangement item even though each location has different costs. This has been fixed.
+        -   In some cases, the "Make space details private" checkbox under each space on the reservation details page could not be checked/unchecked. This has been fixed.
+        -   In some cases, setting the "End date and time" was not possible when scheduling a reservation on the space details page. This has been fixed.
+        -   There was overlapping text when the filter section was opened and on smaller screen sizes when using the German language. This has been fixed.
+        -   The "day\(s\)" label on the search page was not translated when creating a recurring reservation. This has been fixed.
+        -   The reservable module title was not translated correctly. This has been fixed.
+        -   Accessibility improvements have been made. Improved support for keyboards, added IDs, alt text, contrast ratio, support for screen readers, and more.
+-   **Version 2.11.0 - May 2024**
+    -   New:
+        -   The map will now display the name of the employee who booked the space.
+        -   You now configure custom questions for different types of reservations in the existing reservation widget using an embedded record producer.
+        -   Reservation admins can more easily troubleshoot why privacy is or is not applied to a reservation.
+    -   Changed:
+        -   Automatic check-in: Changes have been made to the "Check in/out reminder" scheduled job. If Occupancy sensors are enabled, then the job checks for occupancy of the reserved space. If the space is occupied, then a reservation is automatically checked in. If the space is NOT occupied then a reminder is sent to the employee.
+        -   Times displayed in the schedule view are improved using the 12-hour time format.
+    -   Fixed:
+        -   No error was displayed when entering a value larger than the maximum number of occurrences. The value was only reset to the previous correct value. This has been fixed.
+        -   Dynamic calculation of the number of occurrences or end times for a recurring reservation was not always available. This has been fixed.
+        -   Spaces were not sorted correctly based on proximity when filtering favorite spaces. This has been fixed.
+        -   The locations on the multi-building reservation were still mentioned after changing the locations. This has been fixed.
+        -   Not all spaces were returned when searching within the area path. This has been fixed.
+        -   The information message confirming the reservation remains visible after the reservation is confirmed on the summary page. This has been fixed.
+        -   Downloaded ical files did not show up in Outlook. This has been fixed.
+        -   Reserving a space in the proximity of a space in a shared reservation resulted in an error with certain timezone combinations. This has been fixed.
+        -   Unselecting all spaces could show the spaces using the accessibility patterns instead of the colors. This has been fixed.
+        -   Creating a group reservation showed undefined in the additional message field on the summary page. This has been fixed.
+        -   Setting the date on the maximum day in the future prevented the employee from changing the time. This has been fixed.
+        -   Favorites were not displayed accordingly after setting a favorite and changing the sort order. This has been fixed.
+        -   Employees did not receive an email notification for resolved reservations after the reservation was rejected. This has been fixed.
+        -   Reservations awaiting approval were not displayed correctly in the confirmation email. This has been fixed.
+        -   When creating a new module, the all-day option disabled was displayed twice. This has been fixed.
+        -   Selecting more than 35 spaces for a single reservation resulted in an error. This has been fixed.
+        -   Translations have been fixed.
+-   **Version 2.10.0 - February 2024**
+    -   New:
+        -   Employees can now see the availability of the series when creating a recurring reservation.
+        -   Seat assignments are displayed on the floor maps while searching for a space
+    -   Changed:
+        -   Control per reservable module if employees can make an all-day reservation, if it is optional, or if it is mandatory.
+        -   Control per reservable module if employees can reserve a space using the map, a list, or if the map is always used.
+        -   The email sent after creating multi-day reservations is now updated to show the correct start and end date &amp; time.
+        -   The email sent after creating a recurring reservation that requires approval is updated. It will not show the employee that the series is "created".
+        -   The "Canceled reservations of today" widget on the Event Planner homepage only shows data for today.
+        -   The "Pending approval reservations" widget on the Event Planner homepage only shows data for the next 30 days.
+        -   The 'Space title' field is used in the subject of several email templates like Reservation confirmation, update, rejection, cancellation, and check-in/out reminders.
+        -   The configuration option within the Reservable Module now allows control over space reservations only by employees assigned to a restricted neighborhood.
+        -   The pop-over tooltip is updated when opening the contextual panel in the Event Planner to "Show reservation details".
+        -   The Reservation Management Dashboard can now be accessed from the Workplace Central workspace. If you have installed 2.8.3 or earlier versions of the app, you can still access the old version of the dashboard. If you are installing the app for the first time, i.e., from the 2.10.0 version onwards, you can only access the dashboard from the Workplace Central workspace.
+    -   Fixed:
+        -   The "Refresh results" message is displayed after loading the space details page and using the 12-hour time notation.
+        -   The "Refresh results" message is displayed when loading the reservation page and using the 12-hour time notation.
+        -   The date/time was not converting correctly when using French.
+        -   Unable to load more spaces after the second page is loaded when using the "My favorites first" sort order
+        -   No campuses or buildings were displayed on the map when at least one campus had an empty external\_id.
+        -   Time values displayed overlap in the schedule view When using the Employee Center portal.
+        -   The privacy message is not displayed when using Quick Reserve.
+        -   A different end date is set when multi-day is enabled, and a reservation is created at 11 pm.
+        -   Not all permanent spaces assigned to the employee are visible when using "Browse near a person".
+        -   All buildings are visible when using native mobile, even if buildings are limited for the selected reservable module.
+        -   Employee avatar is not visible when searching for a space near a person.
+        -   Neighborhood value could not be updated when editing a multi-location reservation if the default reservation path is set to "Based on reservation".
+        -   Unable to load more space when six or more spaces have the same title/name.
+        -   The old location is still mentioned in the email notification after changing the location of the reservation.
+        -   The canceled location is still mentioned in the email notification after removing the location of the multi-location reservation.
+        -   Quantity value when adding services is read-only in the MESP portal.
+        -   User timezone is initially used when browsing for a space within a neighborhood.
+        -   The 'Refresh Results' message is showing without any changes while editing a reservation.
+        -   Edit a group reservation and add additional spaces to the reservation resulted in an error.
+        -   Spaces were not filtered correctly in the schedule view when sorting on proximity.
+        -   Unable to expand or collapse the reservation message on the reservation summary page using mobile responsive.
+        -   The reservation message is not cleared when it is removed when updating the reservations.
+        -   The reservation message is not saved on the group parent.
+        -   The image used for the reservation path cannot be updated.
+        -   Loading the quick reservation widget triggered an additional search that can result in an error.
+        -   The reservation dashboard is made inactive after upgrading the plugin.
+        -   Accessibility improvements have been made. Added IDs, updated labels, improved support for screen readers, and more.
+        -   General translation improvements.
+        -   General performance changes.
+        -   Security fixes.
+-   **Version 2.8.4 - January 2024**
+
+    Security fixes.
+
+-   **Version 2.8.3 - November 2023**
+    -   New:
+        -   View and manage reservations through the new Workplace Event Planner. Allow facility and concierge teams to view and manage reservations on behalf of employees.
+            -   Filter on specific locations, space purposes, or search for a particular space or reservation.
+            -   View all reservations on spaces using a schedule view, and get more information by clicking on the reservation or viewing all the details.
+            -   Optimise location reservation by dragging 'and dropping to a new time, date, or location.
+            -   Manage the reservations on behalf of the employee.
+        -   Reserve spaces covering multiple days.
+            -   Configure the maximum duration per type \(reservable module\).
+            -   A search is done for the complete duration, resulting in a single reservation.
+            -   Select the best space by scrolling through the days in the schedule view.
+        -   Configure the number of days available for an employee to select from when Browsing near a person.
+        -   Understand the employee journey while using the reservation experience.
+    -   Changed:
+        -   Creating a recurring series with one occurrence, will be created as a single reservation.
+        -   Updated the default text to inform employees of the maximum number of days a reservation can be created in the future.
+        -   The check-in state of a recurring parent will always be "Not required".
+        -   The Reservation Management dashboard can now be accessed from Workplace Central using the "Workplace Dashboards" tab
+    -   Fixed:
+        -   Earlier, occurrences Start and End time are offset by one hour when the recurring series runs through daylight saving end date. This has been fixed now.
+        -   Earlier, some date and time format combinations resulted in an error when loading the search page. This has been fixed now.
+        -   Earlier, blocked locations were selected for employees while searching for available space, resulting in an error. This has been fixed now.
+        -   Earlier, removing a favorite space on the Favorite page could show a negative value. This has been fixed now.
+        -   Earlier, opening the recurring email link only sends back to the first occurrence and not to the most recent. This has been fixed now.
+        -   Earlier, the code to view the Zoom recording was not visible to the employee who created the reservation. This has been fixed now.
+        -   Earlier, the link to the recording was not removed when a reservation was canceled. This has been fixed now.
+        -   Earlier, changing the requirement for approval and then approving the reservation will set the state to draft and then cancel it. This has been fixed now.
+        -   Earlier, changing the location would not update the approver if configured like that. This has been fixed now.
+        -   Earlier, an error was displayed when entering a date when the date format was YYYY-MMM-DD. This has been fixed now.
+        -   Earlier, a negative value could be entered on the reservation record on the platform UI. This has been fixed now.
+        -   Earlier, changing the location to a location without the need for approval did not update the state if it was awaiting approval. This has been fixed now.
+        -   Earlier, the region was not sorted correctly in the tree-selector when using the Quick Reserve and WSD Search Page. This has been fixed now.
+        -   Earlier, the selected time slots were not cleared if used by an employee in the quick reserve widget after the value was removed from the reservable module. This has been fixed now.
+        -   Earlier, in some cases, duplicate emails were sent when selecting multiple spaces in one reservation. This has been fixed now.
+        -   Earlier, when creating a multi-building reservation, the start or end date was not displayed in the tooltip when hovering over a reservation using the schedule view. This has been fixed now.
+        -   Earlier, multi-day reservations could not be edited using a MappedIn floor map. This has been fixed now.
+        -   Earlier, the building field not be empty when editing a reservation and switching between reservation paths. This has been fixed now.
+        -   Earlier, in some cases, it was not possible to remove a selected space when switching between card and schedule view. This has been fixed now.
+        -   Earlier, in some cases, it was not possible to change the time using the date/time pickers. This has been fixed now.
+        -   Earlier, creating a series with an end date resulted in one occurrence less than expected. This has been fixed now.
+        -   Earlier, changing a reservation into a group reservation shows previously added services. This has been fixed now.
+        -   Earlier, creating a recurring reservation where the start date of the series is the same as the end date resulted in an error. This has been fixed now.
+        -   Earlier, in some cases, the reservation was not visible in the schedule view when switching buildings. This has been fixed now.
+        -   Earlier, when using MESP, some UI overlapped with extra services and on the Reservation Details Page. This has been fixed now.
+        -   Improvements in loading reservation information on the My Reservation page.
+        -   Accessibility improvements have been made to ensure attribute IDs are unique, labels are updated, improved support for screen readers, and more.
+-   **Version 2.7.0 - August 2023**
+    -   New:
+        -   You can now show descriptions added to services and service items while making or viewing a reservation.
+        -   An additional archiving configuration is introduced.
+    -   Changed:
+        -   Improved performance while searching for available spaces.
+        -   Improved performance while opening and viewing reservations on the My Reservation page.
+    -   Fixed:
+        -   Earlier, in some cases, the map was displayed partially and on the top right. This has been fixed.;
+        -   Earlier, the option to save and add a new external visitor was disabled until you focussed the phone number field. This has been fixed.
+        -   Earlier, changing the 'On behalf of' did not change the related case when services were related to the reservation. This has been fixed.
+        -   Earlier, an employee could not search when the number of occurrences was set to one. This has been fixed.
+        -   Earlier, the tooltip for allowing attendees while configuring the reservable module was incorrect. This has been fixed.
+        -   Earlier, the reservation information was not loaded for reservation summary when editing a reservation, and the module was disabled. This has been fixed.
+        -   Earlier, the error message that a building is mandatory was briefly shown after loading while editing a reservation. This has been fixed.
+        -   Earlier, not all spaces were displayed while searching for a new space. The "Show more" option did not show the next page. This has been fixed.
+        -   Earlier, while editing a reservation, clicking on the location hierarchy and then on the building field did not hide the location hierarchy. This has been fixed.
+        -   Earlier, the API to create or update a reservation allowed negative number of attendees. This has been fixed.
+        -   Earlier, standard services that are marked as inactive were still visible on the space card while reserving a space. This has been fixed.
+        -   Earlier, opening a reservation in the "Awaiting confirmation" state would truncate the state. This has been fixed.
+        -   Earlier, creating a reservation through the quick reservation widget with an unsupported timezone resulted in an error. This has been fixed.
+        -   Earlier, in some cases, clicking "Show more" to display more spaces while editing a reservation resulted in an error. This has been fixed.
+        -   Earlier, undefined values were generated from the orphan/unknown location records in workplace service item locations. This has been fixed.
+        -   Earlier, in some cases, the location was not loaded when searching for available spaces when one location is set as inactive. This has been fixed.
+        -   Earlier, in some cases, it was not possible to set the number of occurrences when scheduling a recurring reservation. This has been fixed.
+        -   Earlier, in some cases, double email notifications were sent when canceling reservations. This has been fixed.
+        -   Earlier, when selecting a reservation date on the Quick Reservation widget, if the date is in the DD/MM/YYYY format, the 'Max days in policy' was incorrectly calculated and applied. This has been fixed.
+        -   Accessibility improvements have been made to ensure attribute IDs are unique. Added names, updated labels, and support for screen readers are available, and more.
+        -   Improved support for the dark theme in the MESP portal.
+-   **Version 2.6.1 - May 2023**
+    -   New:
+        -   When editing an existing reservation, services will retain service after a review by the employee.
+        -   Capture additional meeting notes while creating a reservation and share it with invitees.
+        -   Inform employees when making a reservation that is too far in the future.
+        -   Inform employees about existing and overlapping reservations while creating or editing an existing reservation of the same type.
+        -   Use alphabetical or custom sorting to the location, floor, area, and neighborhood selectors while searching for available space.
+        -   Show all spaces and not only the reservable spaces while searching for a space in a neighborhood.
+        -   Reserve spaces in a neighborhood in multiple buildings.
+        -   Report total costs of reservations when services have been ordered.
+        -   Allow editing of reservations in the path they were created in.
+    -   Changed:
+        -   General performance improvements for showing and ordering services as part of a reservation.
+        -   Costs displayed for requested services are using prices at the time of ordering. The costs will be updated in case services are added or changed.
+        -   Reservations in canceled state cannot be shared anymore.
+    -   Fixed:
+        -   Earlier, planned reservations were not canceled when changing the assignment type to permanent. This has been fixed now.
+        -   Earlier, changing module did not update start and end times in the case all-day reservations are mandatory. This has been fixed now.
+        -   Earlier, the show more button did not work anymore after indicating a space as favorite. This has been fixed now.
+        -   Earlier, the date was not updated when changing the date on the space details page. This has been fixed now.
+        -   Earlier, when searching for a space in a neighborhood and changing the sorting order to sort by favorite, also shows other spaces. This has been fixed now.
+        -   Earlier, the sort order when applying "My favorites first" were different between Indoor Mapping and Mappedin maps. This has been fixed now.
+        -   Earlier, it was not possible to configure a module to allow the inviting of attendees without also changing the on behalf of. This has been fixed now.
+        -   Earlier, when selecting multiple buildings, the time indicator on the schedule view displayed the incorrect end time. This has been fixed now.
+        -   Earlier, on mobile browser, in some cases, it was not possible to select a building using the tree picker. This has been fixed now.
+        -   Earlier, adding a new workplace service through the related list was not always successful. This has been fixed now.
+        -   Earlier, reservations there were checked-in but not checked-out were not handled by the daily scheduled process. This has been fixed now.
+        -   Earlier, the parent reservation for multi-location reservations was not handled by the daily scheduled process. This has been fixed now.
+        -   Earlier, it was possible to enter a negative value for a number of attendees when editing the reservation using the platform-experience. This has been fixed now.
+        -   Earlier, filters, sorting, and views were not visible in the French language. This has been fixed now.
+        -   Earlier, in some cases, an error was displayed when searching for spaces. This has been fixed now.
+        -   Earlier, editing a group reservation using a map returned an error. This has been fixed now.
+        -   Earlier, virtual meeting links were not cleared off on child records when the reservation was canceled. This has been fixed now.
+        -   Earlier, the quantity field was read-only for non-English languages. This has been fixed now.
+        -   Earlier, the timezone text was not translated when selecting the browse near a neighborhood path. This has been fixed now.
+        -   Earlier, in some cases an error was displayed when pressing the "Go back" to return to the search page. This has been fixed now.
+        -   Performance improvements after selecting a space while retrieving available services.
+        -   Performance improvements when creating a reservation.
+        -   General accessibility improvements; support for screen readers, HTML elements, headings, labels, and more.
+-   **Version 2.5.1 - February 2023**
+    -   New
+        -   Control employees location visibility when someone is searching for them or searching for a space near them. When using Native Mobile, the privacy setting will apply for all spaces in the reservation.
+            -   Configure employee location privacy preferences to meet your privacy requirements.
+            -   Optionally allow employees to override the location privacy while making reservations.
+            -   Hide private spaces when someone is browsing for a space near a colleague or searching for a colleague or a space using the Location Directory
+        -   Create open and restricted neighborhoods and assign employees to them. Allow employees to reserve a space in eligible neighborhoods or let them search, browse or navigate using the location directory.
+    -   Changed
+        -   Update experience to support next experience for native mobile and responsive-web
+        -   Default email templates are updated to match the next experience content and style guidelines. The new templates are installed beside the old ones in cases the old ones already exist on the instance.
+        -   When resolving a recurring conflict, the system also takes favorites into consideration
+    -   Fixed
+        -   Earlier, buildings were not sorted accordingly when a custom order was applied. This has been fixed now.
+        -   Earlier, in some cases, a reservation could not be updated when all day was mandatory on the related module. This has been fixed now.
+        -   Earlier, floors were sorted alphabetically instead of the expected numeric order when using floor maps imported from Indoor Mapping. This has been fixed now.
+        -   Earlier, services were not always visible for location when a location was assigned to the workplace-service. This has been fixed now.
+        -   Earlier, the floor was not translated until selected when loading the experience initially. This has been fixed now.
+        -   Earlier, long names for "Organizer" and "Reserved for" were not displayed correctly. This has been fixed now.
+        -   Earlier, user criteria that contain user\_id variable were not working. This has been fixed now.
+        -   Earlier, using a link to find a space near a colleague with a module that is disabled, an incorrect message. This has been fixed now.
+        -   Earlier, you could not view all or scroll through all locations in case more than eight locations were selected. This has been fixed now.
+        -   Earlier, the date in the schedule view on the location details page was invalid when using 12-hour notation. This has been fixed now.
+-   **Version 2.4.4 - December 2022**
+    -   Changed
+        -   Approving or rejecting a reservation on a space will also approve/reject any related blockers automatically. However, it is still possible to manually reject one or more blockers before accepting the corresponding reservation.
+        -   When creating a new reservation on mobile responsive using the MESP portal, only the card view can be used to see and select the available spaces. The map and the schedule views are still available for mobile-responsive service portal pages.
+    -   Fixed
+        -   Earlier, editing a reservation that was in the awaiting for approval state would result in the reservation getting stuck in the "draft" state. This has been fixed.
+        -   Earlier, it was impossible to edit reservations if the reservation was created for a new user and if the user did not log in. This has been fixed.
+        -   Earlier, when checking out a reservation, the reservation got inactivated but the state was set back to awaiting for approval state. This has been fixed now.
+        -   Earlier, when checking in a reservation that had attendees or a virtual meeting link, the attendees and virtual meeting link would get removed. This has been fixed now.
+-   **Version 2.4.1 - November 2022**
+    -   New
+        -   Employees can create a reservation covering multiple buildings. While making or viewing the reservation, the employee is aware of the timezone and local time of the reservation for each building.
+        -   While scheduling a recurring reservation, the system will now automatically try to resolve any conflicts.
+    -   Fixed
+        -   Earlier, reservations in conflict or reject states were blocking the space's calendar when searching for available spaces. This has been fixed now.
+        -   Earlier, reservations could not be displayed in case one of the attendees was set inactive. This has been fixed now.
+        -   Earlier, the reservable module was still visible on the search page even when "Advanced reservation" was not added to "Available in" on the reservable module. This has been fixed now.
+        -   Earlier, when both spaces and rooms were part of a reservable module, the favorite icon was only visible for the spaces. This has been fixed now.
+        -   Earlier, the building selector was disabled when editing a conflicted reservation, and no other spaces were available. This has been fixed now.
+        -   Earlier, occupied spaces were displayed first while browsing near a person in the calendar view. This has been fixed now.
+        -   Earlier, spaces were not filtered out when "cost center/department" validation was active. This has been fixed now.
+        -   Earlier, updating a conflicted reoccurring reservation for the same date/time and location remained in a conflicted state. This has been fixed now.
+        -   Earlier, scheduling a recurring series on the 31st of the month could shift occurrences in the series by one day. This has been fixed now.
+        -   Earlier, the start and end date/time were not always set correctly using the MESP portal. This has been fixed now.
+        -   Earlier, not all values were visible when viewing an existing reservation on a mobile device. This has been fixed now.
+        -   Earlier, you were able to search using an area that was no longer reservable when it was selected previously. This has been fixed now.
+        -   Earlier, a new external visitor could only be added when selecting the "Phone number" field. This has been fixed now.
+        -   General changes supporting accessibility.
+-   **Version 2.3.1 - August 2022**
+    -   New
+        -   You can now control mandating the all-day reservation option for employees at the reservable module level.
+        -   Employees and invitees will now receive email notifications for recurring reservations. The email will contain all the reservation details related to the series and the reserved space.
+        -   The information related to the REST APIs that are used is documented on the developer site.
+    -   Changed
+        -   You can control the ability to make a recurring reservation at the reservable module level.
+        -   You can control the display of floor search parameters at the reservable module level. The 'Filter by floor' will always remain available.
+        -   The passcode related to the recording of a virtual meeting will be securely saved on the reservation when received.
+        -   Performance improvements related to invoking maps from Indoor Mapping have been made.
+        -   General accessibility improvements while using the reservation experience have been made.
+        -   General UI optimizations to the reservation experience have been made.
+    -   Fixed
+        -   Earlier, when you select Show more and go back to search spaces for a different building while searching spaces, even the spaces belonging to the new building were added to the previous space list. This has been fixed now.
+        -   Earlier, when scheduling a reservation using a shift, the start date was reset to default values instead of the selected date. This has been fixed now.
+        -   Earlier, the organizer of a reservation changed would get changed to the employee who updated the reservation. This has been fixed now.
+        -   Earlier, the My reservation page did not open if certain fields were empty or when an employee was inactive. This has been fixed now.
+        -   Earlier, while making a reservation using 'Browse near a person', the Start and End date fields displayed an error when the date format was as DD/MM/YYYY. This has been fixed now.
+        -   Earlier, invitees were partially synced to Microsoft Exchange when you updated a reservation and added invitees. This has been fixed now.
+        -   Earlier, a reservation cancellation email was not sent when the system canceled a reservation if it was not checked in. This has been fixed now.
+        -   Earlier, while making a recurring reservation, the system was not considering the reservable quantity field, resulting in overlapping recurring reservations falling into a conflicted state. This has been fixed now.
+        -   Earlier, the reservation source was changed in case the reservation was indicated as 'no show' at the end of the day. This has been fixed now.
+-   **Version 2.2.4 - June 2022**
+
+    Changed: Generic improvements have been made to the loading time while viewing and using the floor map when making a reservation.
+
+-   **Version 2.2.2 - May 2022**
+    -   New
+        -   Set your favorite places and use them when searching for availability.
+            -   Set a space as a favorite and manage it from your My favorites.
+            -   Favorite spaces are displayed at first when displaying the availability in both the Reservation portal and the Quick Reservation Widget on the web.
+            -   View space details, and find availability to reserve the space
+        -   Invitee attendees such as co-workers and visitors while making a reservation.
+            -   Register guests and add them to the reservation. Manage their arrival and stay using the Workplace Visitor Management application. If they are already registered, select their details from the list of known visitors.
+            -   Synchronize your reservations along with invitees using your calendar provider. Send an email with the iCalender to visitors.
+            -   Assign invitees to workplaces such as conference rooms.
+            -   View invitee acceptance status such as accepted, tentative, and rejected.
+        -   Plan hybrid meetings, by adding a virtual meeting link to the reservation \(for providers such as Microsoft Teams and Zoom\)
+            -   Once a reservation has ended, retrieve the optional link to the recording.
+            -   Add the virtual meeting as a location when synchronizing with a calendar provider.
+        -   Find available spaces using the new Indoor Mapping solution.
+        -   Approve reservations created using an external calendar provider in ServiceNow.
+    -   Changed
+        -   The cards are redesigned to make it easier for employees to review and select appropriate spaces for their reservations.
+            -   Employees can now select the spaces that they want to reserve, and proceed to the next step to confirm the reservation.
+        -   The Quick Reserve Widget now displays the values in the "Reserve a space" dropdown as per the order defined in the reservable module.
+    -   Fixed
+        -   Earlier, when making a reservation the screen reader informed the building button as a button.
+        -   Earlier, when making a reservation using a keyboard the tab order missed Capacity and Floors filters.
+-   **Version 2.1.5 - March 2022**
+    -   Fixed
+        -   The date selection option of a reservation is now displayed correctly while finding a space near a colleague even if the user's date format is undefined.
+        -   The quick reserve widget now loads correctly without any errors.
+-   **Version 2.1.2 - February 2022**
+    -   New
+        -   Extra services are now available in reservations. They are now used and created using the Unified Workplace Service delivery mechanism.
+        -   The Reservation approvals are now managed by the new Approval Definitions module in Workplace Safety Management.
+            -   You can configure and apply different approval flows based on reservation types.
+            -   Manage and set various approver prioritizations and multi-step approvals.
+        -   A new configuration option is available to mandate reservation approval requirements at the space or room level.
+        -   You can search for all available spaces of an area or a floor.
+        -   You can request different types of space arrangements while scheduling a new reservation.
+        -   While making a reservation, the reservation is now scheduled based on the time zone of the building.
+    -   Changed: A placeholder image is shown on the cards in the Card view if there is no image for a space.
+    -   Fixed
+        -   You can now specify a quantity while editing the requested services.
+        -   The select spaces will not be selected anymore after you deselect all the spaces while editing a reservation and selecting "Show more".
+        -   The standard services are now displayed on the cards in the Map view.
+        -   While changing the time for an existing reservation, an employee cannot select an unavailable space on the map.
+        -   The map will now load correctly while making a reservation and changing the building
+        -   It is not possible to create a reservation with 0 minutes using the Virtual Agent conversation.
+        -   While updating a single reservation to a multi-location reservation, the parent reservation state will now change from the draft state.
+        -   While viewing the reservation summary, when the state of the reservation changes, the related items are updated correctly.
+        -   The check-in option is now visible while updating a multi-location reservation to a single reservation, and when check-in is required.
+        -   You can now republish the Create reservation for a location conversation.
+        -   The error message will no longer repeat if a group reservation cannot be confirmed.
+        -   The date picker now supports translations.
+        -   The correct translation is displayed for Recurrence
+    -   Removed: Existing flexible services are removed and are listed as Workplace Services in Workplace Case Management. The modules related to flexible services and the requests are removed.
+-   **Version 2.0.2 - December 2021**
+    -   New
+        -   Work along with your colleague more easily:
+            -   Search for an available space near a colleague.
+            -   Notify your team members about your visit to the office. Your team members can use the link in the email notification to find a nearby available space.
+            -   Create multiple reservations on behalf of multiple team members or colleagues in one go.
+        -   Check-in and check-out a reservation by scanning the QR code of a location.
+        -   Enable employees to only select a building that has the required type of space.
+        -   Download an iCalender file to add a reservation to an employee's calendar manually.
+        -   The Reservation search panel UI has been improved.
+        -   Configure when should an employee check-in their reservation.
+    -   Changed
+        -   Show the filter panel based on the employee's preference. You can also control if the panel must be displayed always or hidden while searching for available spaces.
+        -   Use the schedule view to make a reservation with a shift. The start and end times of the shift are now displayed correctly in the view.
+        -   Add additional information like the subject and privacy indicator while reserving a space using the Quick Reserve widget.
+        -   An employee can filter reservations to sort if the reservations are created by themselves, or by others on behalf of themselves.
+        -   The filtering behaviour has been improved for upcoming and past reservations on the My reservation page.
+        -   The title field is now used to display the reservable module in the widget. The field also supports translations.
+    -   Fixed
+        -   When editing a reservation, the selection was reset whenever the selected locations were changed and when loading more spaces.
+        -   The word "items" when selecting multiple spaces could not be translated.
+        -   The word "daily" for a recurring series could not be translated.
+        -   It was not possible to translate the "Not reservable" value displayed whenever space was not available for reservation on the map.
+        -   Requesting a recurring reservation on behalf of an invalid user could not be translated.
+        -   The icon to indicate extra services on the cards was incorrect.
+-   **Version 1.9.7 - October 2021**
+    -   New
+        -   You can now configure the different views for a module on the portal. You can configure the available modules, the order, and the default view for each reservable module separately.
+        -   It is now possible to configure how a filter must be constructed. You can choose to configure a filter be based on the search results, or show filters with all possible options based on the selected location and the reservable module.
+        -   Additional support has been added to support all the 22 languages that are currently available across the ServiceNow AI Platform.
+    -   Changed
+        -   When creating a reservation using a shift, additional checks have been added to ensure the selected date is within the shift definition.
+        -   An employee is informed with better information when they select a date in the past using the Quick Reservation widget.
+        -   The icon to indicate the source of the reservation has been updated. The icons are now displayed only while viewing the details or managing the reservation.
+        -   The support for generic and 508 accessibility while using the reservation experience has been improved.
+        -   The support to use translations within the application has been improved.
+        -   Several UI and label improvements have been made on the Quick Reservation widget.
+        -   Several UI and label improvements have been made on the Reservation widget.
+    -   Fixed
+        -   In some cases, employees could still make a reservation on a shift they were no longer part of.
+        -   In some cases, no available spaces were returned while using the Outlook add-in when the time spanned two days based on the time-zone settings.
+        -   It was not possible to check in reservations that were planned for the whole day.
+        -   It was possible to create multiple reservations which resulted in a 'Conflicted' state.
+        -   In some cases, the multi-parent reservation was not canceled when a reservation was converted to a single reservation.
+        -   It was possible to check in a reservation when it was in the 'Awaiting for confirmation' state.
+-   **Version 1.8.5 - September 2021**
+    -   New: An employee can reserve a space directly from the central home page \(portal page\), with just a single click! The workplace admin can configure which space types must be made available for reserving. When an employee opens the page, based on their search criteria, a space is suggested that they can reserve. If needed, the employee can also update the time slot \(duration\) or location of a reservation.
+    -   Changed
+        -   The 'My reservations' overview now displays the reservations as per their date. The employee can directly check-in or check out, and manage their reservation without opening the summary first.
+        -   The name of the employee is selected by default in the 'on behalf of-field. When the value is changed, both the name and the email address are displayed and the employee can continue to search.
+        -   As a workplace admin, you can now configure the number of occurrences an employee can schedule in a single reservation.
+        -   The notification message that is sent when a reservation is submitted has been updated. The state of a reservation is directly updated while viewing the details of the reservation when it changes in the backend.
+        -   The schedule view will not show any data when searching for a space within a shift.
+        -   The support for accessibility while using the reservation experience has been improved.
+    -   Fixed
+        -   When a new room was added, the space type was not set automatically.
+        -   For certain time zones, reservations that were checked-in or checked-out were incorrectly updated on the current date.
+        -   In some cases, the parent reservation was not cancelled when a multi-room reservation was cancelled in Microsoft Exchange.
+        -   In some cases the notification after cancelling a reservation was send twice.
+-   **Version 1.7.4 - July 2021**
+    -   New:
+        -   The application is now compatible with the new application, Workplace Reservations for Microsoft Outlook Add-in to ensure that the reservations being made are updated correctly in both systems.
+        -   You can now use the map view while reserving a space within a shift.
+    -   Changed:
+        -   While reserving a space within a shift, an employee can only reserve it on behalf of someone who belongs to the selected shift.
+        -   All reservations are completed by the end of the day. The mechanism to calculate the previous day has been updated to ensure that the reservations are completed, or canceled accordingly.
+        -   The support for accessibility while using the reservation experience has been improved.
+    -   Fixed:
+        -   Earlier, when checking out or canceling a reservation, the action buttons were still visible. This has been fixed now and they will no longer appear.
+        -   Earlier, filtering on location purposes did not show the correct result. This has been fixed now.
+        -   Earlier, recurring reservations did not take the minimum and maximum duration into account while creating a series. This has been fixed now.
+    -   Removed:
+        -   The dedicated Workplace Service Delivery portal has been removed. The default Workplace Service portal is still available.
+-   **Version 1.6.1 - June 2021**
+    -   New:
+        -   Create a blocker reservation for those workplace items that require time for preparation and/or clean-up services, The workplace item will be blocked as part of the reservation. A dedicated reservation will be created in the calendar to execute the required activities.
+        -   If a reservation is not checked in, then it is canceled automatically. The employee is informed via email. Space is made available in case it is not being used. You can use reporting tools to get insights into the usage.
+        -   Enable employees to search and reserve spaces only within their cost center and/or department.
+        -   Assign a location directly to an employee. When you assign a space to an employee, any planned reservations on that space are canceled. The employee will receive a notification regarding the same.
+        -   Archive old reservations and extra service requests logs.
+    -   Changed:
+        -   Configure what fields and details must an employee specify while making a reservation. Manage per type which fields need to appear on the reservation form. The employee is required to enter the relevant information.
+        -   Improved search and selection of buildings of available spaces. Update email address of a room that is used for integration directly from the room's configuration form.
+        -   An employee cannot cancel a reservation once the reservation is checked in.
+        -   An employee can see the status of the services they requested as part of their reservation and also update them if needed.
+        -   New UI optimizations are added to the reservation experience.
+    -   Fixed:
+        -   Earlier, while scheduling recurring reservations, the application did not check the min and max duration. This has been fixed now.
+        -   Earlier, when checking out or canceling a reservation, the action buttons were still visible. This has been fixed now and they will no longer retain.
+        -   Earlier, when you select an item and then switch to the recurring option, the item still remained selected. This has been fixed now and it will be deselected.
+        -   Earlier, while planning a recurring reservation for certain time zones, the reservations were scheduled on incorrect days. This has been fixed now and is now scheduled correctly.
+        -   Earlier, for certain time zones, reservations were incorrectly canceled on the current date. This has been fixed now.
+-   **Version 1.5.3 - March 2021**
+    -   New:
+        -   Employees can now select a shift when making a reservation. You can configure the shift start and end time, the schedules, and locations that an employee can reserve for the selected shift.
+        -   You can add flexible services to a workplace location. Employees can request these as extra services in their reservations.
+        -   Employees can add services to reservations created and synchronized using the Workplace Calendar Synchronization application.
+        -   You can assign locations or define a bulk space quantity to an area. An employee can make a reservation within the same area, instead of finding the workplace.
+    -   Changed:
+        -   Employees can manage reservations that are created on behalf of them
+        -   You can specify if employees are required to enter the number of attendees in a reservation. The default value is set to 1.
+    -   Fixed:
+        -   Earlier, the action button on the Now mobile app was not aligned correctly. This has been fixed now.
+-   **Version 1.4.1 - January 2021**
+    -   New:
+        -   View insights about how employees make reservations and update them.
+        -   View the space reservations created in Workplace Safety Management. This will prevent any double bookings created on workplace spaces.
+    -   Changed:
+        -   Employees cannot cancel a reservation once they check in. The reservation must be checked out in order to complete the reservation.
+        -   The handling of the states during the reservation process is improved. This will now provide a more seamless experience when creating, updating, approving, and synchronizing a reservation.
+    -   Fixed:
+        -   Earlier when creating a recurring reservation series passing DST \(Daylight Saving Time\), the meeting times were not set correctly. This has been fixed now.
+        -   Earlier when disabling a reservable module used by employees during their visit resulted in an error. This has been fixed now.
+-   **Version 1.3.3 - December 2020**
+    -   New:
+        -   When you revisit the Reservation portal to make a reservation, the portal will display the available spaces even before you specify your reservation details.
+        -   You can now add Reservable purposes for a location. Employees can filter workplace items based on reservation purposes.
+        -   You can now configure to check in and check out a reservation. Define on the space level, or on the reservable module if a reservation requires a check-in/out.
+            -   Configure to send check in/out notifications to employees at the time of reservation.
+            -   Employees can check in/out easily by opening their reservation details.
+            -   Employees must check in 30 minutes before the reservation start time.
+        -   Employees can now cancel a reservation using the virtual chat agent support.
+    -   Changed:
+        -   Improved the card and schedule view of the workplace items to show the capacity and available services to simplify selection.
+        -   You can now define how many workplace items must be taken into consideration when a search is executed.
+    -   Fixed: Earlier, when using the 12-hour time format, the reservations were not created using the Virtual Agent. This has been fixed now.
+-   **Version 1.2.1 - November 2020**
+    -   New:
+        -   Virtual agent chat support to create a reservation and view reservation details.
+        -   Reserve multiple workplace items in a single reservation for the same date and time.
+    -   Changed:
+        -   From Workplace Safety Management \(sn\_wsd\_core\) version 2.1, all updates, and new features are available only on the Workplace Service Portal. The workplace services provided by ServiceNow® are removed from the Service Portal from Workplace Safety Management \(sn\_wsd\_core\) version 2.1.
+        -   The Reservation Management Dashboard is now accessible only from the Workplace Safety Management application.
+        -   The mobile web interface has been improved in the Now Mobile app.
+        -   The Workplace Services Catalog can also be accessed from the Now Mobile app homepage.
+-   **Version 1.0.9 - October 2020**
+    -   New:
+        -   Search filter and sorting on search results
+        -   Create and apply user criteria on a reservable module
+        -   Workplace Reservation admin can configure to mandate reservation subject and cancellation notes on a reservable module
+        -   Workplace Reservation admin can configure from when the reservable module should be active
+        -   Workplace Reservation admin can create a record producer and pre-define a reservable module with a system ID
+        -   The Floor option is removed from the search criteria and added to the filter option
+
+## Notice regarding use by organizations
+
+All decisions in connection with the implementation of this application are at the sole decision of the Organization utilizing this application. Organizations agree that use of the application is not a representation by ServiceNow regarding the application’s compliance with any law or regulation and any suggested language provided out of the box with the application does not constitute legal advice by ServiceNow.
+
+Organizations remain solely responsible for complying with their legal obligations under applicable law, including \(but not limited to\) data protection and employment laws, and should modify any language within the templates provided to meet the Organizations' specific requirements.
+
+## Notice regarding use by government agencies
+
+ServiceNow is offering this application to government agencies and their authorized users, not to government employees in their individual capacities. Use of the application does not modify any existing, or future entitlements or payment obligations for ServiceNow software or applications otherwise purchased by the government agency. ServiceNow shall not be responsible for any implementation or configuration costs associated with use of the application unless separately purchased. Government customers are solely responsible to confirm with the agency’s Ethics Office or its authorized representative that acceptance and usage of the application is permissible.
+
+All decisions in connection with the implementation of this application are at the sole decision of the government agency utilizing this application. Agencies remain solely responsible for complying with their legal obligations under applicable laws and regulations, including \(but not limited to\) data protection and employment laws and regulations, and should modify any language within the templates provided to meet the agency’s specific requirements.
+
+**Parent Topic:**[ServiceNow Store - Workplace Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
+

@@ -1,0 +1,505 @@
+---
+title: Agent Client Collector Framework release notes
+description: Version history for the IT Operations Management Agent Client Collector Framework integration on the ServiceNow Store.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-acc-framework.html
+release: store
+topic_type: reference
+last_updated: "2026-06-11"
+reading_time_minutes: 17
+breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+---
+
+# Agent Client Collector Framework release notes
+
+Version history for the IT Operations Management Agent Client Collector Framework integration on the ServiceNow Store.
+
+**Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+## Version history
+
+-   **Version 6.5.0 - June 2026**
+    -   New:
+        -   Installer &amp; Deployment
+            -   Following Microsoft's deprecation of VBScript, we are migrating our MSI installer scripts to C\#. VBScript remains available as a fallback option, but C\# is now the default \[.NET 4.6.2 is required to install the agent\]
+            -   Golden Image Preparation \(automated agent prep for VM templates, preventing duplicate conflicts\)
+            -   Added PAC\_FILE support in single-line installer for macOS and Linux
+        -   Diagnostics &amp; Error Handling
+            -   Reclassified generic error codes \(ACC-2100, ACC-2503, ACC-2504\) into specific ACC-4xxx codes with remediation guidance for the Error Triage Dashboard
+            -   Agent upgrade errors now include error suggestions for troubleshooting
+            -   Agent registration now checks file permissions post-registration and creates Automation Error messages
+        -   Other:
+            -   Instance Scan Enhancements \(ICS connectivity diagnostics, configurable scan cadence, routing errors to Agent Issues table for self-healing workflows\)
+    -   Change:
+        -   Agent Installer &amp; Lifecycle Management
+            -   Updated sudoers requirements for RPM and Debian upgrade
+            -   Added support for the relocation flag during selective upgrade
+            -   Agents in Restarting or Upgrading state now transition to Disconnected if the MID is down, instead of remaining stuck
+        -   Security &amp; Library Updates
+            -   Go version upgraded to v1.25.9
+            -   golang.org/grpc upgraded to v1.79.3
+            -   OpenSSL upgraded to 3.4.4
+            -   RDoc upgraded to 6.6.2
+            -   Addressable upgraded to 2.8.6
+            -   net-imap upgraded to 0.4.21
+            -   zlib upgraded to 3.1.1
+            -   erb upgraded to 4.0.3
+    -   Fix:
+        -   Policy Calculation
+            -   Importing ACC policies no longer incorrectly deletes assets from MID server
+            -   Policy calculation is now time-boxed, preventing inconsistent results between monitored CI retrieval and CI cleanup
+            -   Policy calculation with service filter now yields the correct expected result
+        -   Data Collection
+            -   Linux host data collection now selects the default-gateway interface IP instead of the first routable IPv4 on multi-homed hosts
+            -   Failed initial data collection now automatically retriggers instead of silently stopping
+        -   Installer &amp; Deployment
+            -   Windows installer no longer falsely detects a servicenow user that doesn't actually exist
+            -   RPM pre-install script now handles group/user search correctly on domain-joined Linux hosts
+        -   Others:
+            -   MonitoringConfig script include now performs proper checks before updating ECC records instead of updating all indiscriminately.
+            -   Stale checks are now properly handled and no longer appear as active entries under Automation Error Messages
+            -   Windows child process priority is now uniformly applied to all child processes
+            -   Killing the ACC service on Linux now properly terminates child processes
+            -   Agent no longer fails to start when log messages exceed the max-log-size parameter
+            -   Checks now execute even if the agent was down during a scheduled interval, preventing permanently missed checks
+-   **Version 6.3.0 - May 2026**
+    -   Changes:
+        -   1. Improve Keepalive processing and database performance by reducing database operation times, particularly minimizing dependency on the sn\_agent\_ci\_extened\_info table.
+        -   2. Eliminate vulnerabilities by updating the OpenSSL version to 3.4.4.
+-   **Version 6.2.0 - April 2026**
+    -   New:
+        -   Added support for database view in policy monitor filter for VDI.
+        -   Filter undesirable processes on the agent to prevent excessive running process records on the instance.
+    -   Fixed: Fixed all tables with preserver and exclusion records; these are now part of the default system profile.
+    -   **Note:** 6.2.0 will only have the ACC-F scoped app release with no new installers. It is compatible with the 6.1.0 installers.
+
+-   **Version 6.1.0 - March 2026**
+    -   New:
+        -   ACC Error remediation:
+            -   Introduced a new ACCErrorRefiner Script Include to enable more granular error logging.
+            -   Executed a Phase 1 error analysis to identify all unique errors and created remediation suggestions for newly identified error codes.
+            -   Enhanced Agent Now logging to capture more detailed errors for ACC-1500, ACC-2000, and ACC-2500.
+            -   Add error resolution suggestions for ACC-4004
+        -   Agent uses timestamp-based certificate verification for signed assets
+            -   This allows the agent to validate certificates using the signing timestamp, even if the certificate has since expired.
+            -   Assets signed with expired certificates remain valid if they were signed when the certificate was valid.
+        -   Others:
+            -   For ICS, If registration key exists: register with the instance without checking for certificates.
+            -   Agent now registers to worker nodes instead of UI nodes of the instance.
+            -   Graceful handling of the error when the user cancels Test Check on Agent.
+            -   Improved error handling for AgentUpgradeUtil.
+            -   Upgrade go version : v1.24.11
+    -   Fixed:
+        -   Fixed Timeout Issue in Agent when querying Local DB APIs.
+        -   Fixed the Configuration Publish Race Condition when an agent switches from one MID server to another before host data collection completes.
+        -   Added table cleaner for agent errors table.
+        -   Preserve database and cache folder for post MAC agent upgrade.
+        -   Fixed UI action to restart Windows and Linux agents.
+-   **Version 6.0.4 - January 2026**
+    -   Fixed:
+        -   Agent Installation &amp; Upgrade:
+            -   Fixed Ubuntu single-line installation failure.
+            -   Removed %COMSPEC% dependency for the Windows MSI installer.
+            -   Deterministic Agent ID now uses MAC addresses from all interfaces on the installation endpoint, regardless of whether the interface is active.
+            -   Fixed memory leak caused by a timer that never terminated.
+            -   Unified handling of all WebSocket error codes under the same backoff/retry logic to prevent continuous reconnection attempts.
+            -   Included self-test in the allowlist for upgraded agents.
+            -   Added full upgrade support for non-English laptops where system encoding is not UTF-8.
+        -   Data Collection:
+            -   Fixed data collection failure when running\_process is empty, which previously caused an incorrect IRE error.
+            -   Fixed RAM data not being retrieved on some Windows hypervisors.
+            -   Fixed ACC incorrectly setting the primary IP address to a deactivated network interface.
+    -   Changed: Windows: model\_id is now populated by ACC-VC and is no longer part of basic data collection.
+-   **Version 6.0.1 - December 2025**
+    -   Changed:
+        -   Enhanced diagnostics and error reporting. Run comprehensive validation to verify permissions, connectivity, and configuration.
+        -   Agents now automatically recover from transient network issues, rate limiting, and temporary service unavailability during initial registration.
+        -   libxcrypt is now embedded for Linux distributions \(RHEL, Rocky Linux\) that no longer include it as a dependency.
+    -   Fixed: Fixes related to memory optimization, connection handling, and UI responsiveness.
+-   **Version 5.0.1 - September 2025**
+    -   Fixed:
+        -   Agent CPU utilization calculation
+        -   Windows: HTTP\_PROXY and PAC file can be passed from the single line install
+-   **Version 5.0.0 - September 2025**
+    -   New:
+        -   Agent Proxy and PAC File support
+        -   Agent registration improvements - Mid-less only
+            -   Agent logs errors on both pre and post registration failures
+            -   Deleting an agent will delete its registration key
+            -   Shell agent is created during a registration failure, giving visibility into failures from the instance
+        -   Agent can now move between instances using command line execution
+        -   Now supports macOS selective/auto upgrade
+        -   Duplicate Agent ID duplication detection and remediation \[agents connected through mid server only\]
+    -   Fixed:
+        -   Openssl upgrade to v3.4.1
+        -   upgrade net-imap 0.4.9.1
+        -   Issues with deterministic agent ID generation
+        -   Check execution on Windows agent does not accurately report CPU usage
+        -   OS domain primary source is WMI
+        -   Agent does not respect glide.discovery.hostname.include\_domain property to populate "host\_name" field
+        -   Policy hierarchy: imported parent policies do not sync down changes to child when published
+        -   Policy Domain Separation: When policy gets copied from parent to child domain, credentials should not get copied down
+        -   Mid-less Agent Registration: Update the logic to get the current active ipki cert issuing rather than just the latest
+-   **Version 5.0.0 - August 2025**
+    -   New:
+        -   Agent Proxy and PAC File support
+        -   Agent registration improvements - Mid-less only
+            -   Agent logs errors on both pre and post registration failures
+            -   Deleting an agent will delete its registration key
+            -   Shell agent is created during a registration failure to give visibility into failures from the instance
+        -   Agent can now move between instances using command line execution
+        -   Now supports macOS selective/auto upgrade
+        -   Duplicate Agent ID duplication detection and remediation \[agents connected through mid server only\]
+    -   Fixed:
+        -   Openssl upgrade to v3.4.1
+        -   upgrade net-imap 0.4.9.1
+        -   Issues with deterministic agent ID generation
+        -   Check execution on Windows agent does not accurately report CPU usage
+        -   OS domain primary source is WMI
+        -   Agent does not respect glide.discovery.hostname.include\_domain property to populate "host\_name" field
+        -   Policy hierarchy: imported parent policies do not sync down changes to child when published
+        -   Policy Domain Separation: When policy gets copied from parent to child domain, credentials should not get copied down
+        -   Mid-less: Agent Registration: Update the logic to get the current active ipki cert issuing rather than just the latest
+-   **Version 4.3.1 - May 2025**
+    -   New:
+        -   Agent proxy support \[MID-less\]
+        -   Allow mass upgrade of agents on Linux and Windows
+        -   OSQuery Upgrade to v5.14.1
+        -   Error framework improvements
+    -   Changed:
+        -   Hosts with same AgentID report error logging IP address
+        -   UI actions processed by MID servers are now interactive instead of standard priority
+        -   Delete registration record when the agent is deleted \[MID-less\]
+    -   Fixed:
+        -   Error on Windows Service Startup causing reboot loop
+        -   Windows agent installer flashes command prompt a few times during installation
+        -   Agent creating empty folder in /tmp directory while executing osquery
+        -   Check commands where parameter \[-p\] values were replaced with REDACTED
+        -   Windows installer fails when the domain user is from a different domain than the installing user
+-   **Version 4.2.1 - February 2025**
+    -   New:
+        -   Support: Ubuntu 24 LTS
+        -   Patterns on agent: support oracle glasv2
+        -   Add Instance Scan to verify ACC Error Framework
+    -   Changed: When agent registration key is invalid, log an agent issue with appropriate details
+    -   Fixed:
+        -   ACC Plugins do not sync on Instances using Oracle DB
+        -   Unable to install agent client collector with existing local user through agent installation UI
+        -   The collected host data is marked as successful after encountering an IRE error
+        -   Added new security ACL on Agent registration key table
+        -   Security fixes
+-   **Version 4.1.1 - December 2024**
+    -   New:
+        -   Leverage Linux capabilities to provide access to other files \[using CAP\_SETFCAP\]
+        -   Agent error framework
+    -   Changed:
+        -   As part of security vulnerable scans, the following libraries were upgraded:
+            -   openssl
+            -   rexml
+            -   Go
+    -   Fixed:
+        -   Agent execution will respect agent embedded path if it is set before the system path
+        -   ACC upgrade is deleting ServiceNow user profile directories resulting in failure to sync assets after upgrade
+        -   Windows installer fails to create ServiceNow user, causing ACC service to not be created
+        -   MacOS upgrade non-mid-based solution
+        -   Clean up child process on the agent
+        -   Windows log rotation
+-   **Version 4.1.0 - November 2024**
+    -   New:
+        -   Leverage Linux capabilities to provide access to other files \[using CAP\_SETFCAP\]
+        -   Agent error framework
+    -   Changed:
+        -   As part of security vulnerable scans, the following libraries were upgraded
+            -   openssl
+            -   rexml
+            -   Go
+    -   Fixed:
+        -   Agent execution will respect agent an embedded path if it is set before the system path
+        -   macOS upgrade non-mid-based solution
+        -   Clean up child process on the agent
+        -   Windows log rotation
+-   **Version 4.0.0 - August 2024**
+    -   New:
+        -   Upgrade Ruby v3.3.2
+        -   Upgrade goLang crypto Library to v0.21.0
+        -   Upgrade Go v1.22.3
+        -   Introducing localDB on agent
+        -   Support upgrade macOS agent using pkg installer
+    -   Changed: Set sys\_property "sn\_agent.logging.verbosity" to "info"
+    -   Fixed:
+        -   macOS fixes
+            -   Agent fails to install if the system already has a user with prefix \_servicenow
+            -   \_servicenow user UID/GID needs to be below 500
+            -   Agent uninstall and reinstall on a machine will generate the same agentID which uniquely identifies the agent
+            -   Policy syncing when mid restarts
+            -   Related list on agent record when ITOM Cloud Service plugin is activated
+            -   Agent selective upgrade from non-install server source
+            -   Agent policy fixes
+                -   Unable to delete parent policy from list view
+                -   Policy calculation creates duplicate mapping records
+                -   Unable to deactivate policy from list view
+-   **Version 3.5.5 - June 2024**
+    -   New: Windows acc and ruby executables signed
+    -   Fixed: Keepalive response time when processing more than 10k agents
+-   **Version 3.5.3 - May 2024**
+    -   New:
+        -   Support macOS Sonoma
+        -   Enhancements on allow-list
+            -   Boolean flag in acc.yml to load allow-list content coming from plugins or just load the local, global one
+        -   Agent Cache Folder improvements
+            -   On demand clear cache folder on agent
+            -   Do not download plugins on agent
+        -   Use "Instance Scan" feature to report anomalies and customizations
+        -   Agent debug logging
+            -   Enable log level on agent to debug from the instance
+        -   Add Agent status "Unknown" when it's been awhile since the last keepalive
+            -   Agent Status = "Unknown" when the agent keepalive doesn't reach the instance
+            -   Agent Status = "Disconnected" when the Mid Server goes down
+    -   Changed:
+        -   Remote Code Execution via Custom Certificate Injection
+            -   Validate the authenticity, integrity and validity of the certificate before using the certificate to verify the plugin signature
+            -   Any custom certs now need to be part of a truststore
+    -   Fixed:
+        -   Agent Protection: CPU usage was incorrectly calculated
+        -   Policies remain in "Ready to publish" state due to "String object would exceed maximum permitted size"
+        -   Policy synchronization creates customer updates
+        -   Proxy policy with advanced script fully recalculates every 15 minutes
+        -   Policy recalculation is happening every time an agent comes back up
+        -   Debian and Windows selective upgrade fixes
+        -   Log rotation archive deletion for ACC
+        -   Slow performance for delta-keepalives performed with 15000+ Agents
+-   **Version 3.4.0 - February 2024**
+    -   New:
+        -   Upgrade Go - 1.20.12
+        -   Upgrade OSQuery 5.9.1
+        -   Support for Pattern running on agents in terminal mode
+        -   Enable/Disable policy to be part of full/delta policy calculation
+    -   Fixed:
+        -   Memory leaks on agent for background checks
+        -   Policy calculation performance improvements
+        -   Selective upgrade for Oracle Linux 9, Ubuntu 19/20/22.04 LTS machines
+        -   Host CI "discovery\_source" flips between ACC-V and ACC
+        -   Security fixes
+-   **Version 3.3.1 - November 2023**
+    -   New:
+        -   Agent MacOS pkg is now notarized
+        -   Sync configuration data from instance to agents
+        -   Better logging in agent logs when debug enabled
+        -   execution mode = execv, can now parse CI parms with spaces
+    -   Changed:
+        -   Log level on instance changes from verbose to debug
+        -   ActiveSupport ruby gem version upgraded to 7.0.8
+        -   agent keepalive improvements
+        -   agent RPM improvements - see notes below
+    -   Fixed:
+        -   acc.yml file corruption issue
+        -   Model number fix on Apple Silicon
+        -   duplicate agent issue when the hostname changes
+        -   Support Windows dns\_name on UTF-8
+    -   Notes on the new rpm: the scriptlets have been refactored:
+        -   Account creation moved to pre-install
+        -   acc.yml, check-allow-list.json and acc.service marked as configuration file with noreplace
+        -   Efficiencies in the post-install
+        -   Regardless of how the agents are deployed &amp; managed in your environment, test the agent upgrade separately before running it at scale.
+-   **Version 3.2.0 - August 2023**
+    -   New
+        -   Ruby verison upgraded to v3.2.0
+        -   Go version upgraded to v1.20.5
+        -   Performance improvements on applicaiton shell CI creation
+        -   Adding OS to Choice list when new Linux/macOS are discovered
+        -   Agent keepalive improvements
+            -   Agent will be marked as ""Disconnected"" if the keepalive fails to get processed on time.
+    -   Changed
+        -   macOS no longer required sudo configuration to collect tcp connections &amp; running processes
+        -   Migrated ACC Health dashboard to the new workspace experience
+        -   Better logging in acc.log for missing ""api-key""
+    -   Fixed
+        -   Single line install on macOS when ""System integrity protection"" was turned on
+        -   Host data reclassified CI as computer if the operating system edition couldn't be retrieved
+        -   Policy cron-based scheduling
+        -   Agent data collection ran incorrect check when there were multiple checks with the same order value
+-   **Version 3.1.1 - June 2023**
+    -   Fixed:
+        -   Policy with empty service filter does not get run by any agents
+        -   Issue with auto MID selection
+    -   New:
+        -   Upgraded OSQuery to v5.7.0
+        -   Sensu rebase v6.8.1
+        -   Support for Ubuntu 22.04 LTS and Oracle Linux 9
+        -   Native support for ARM64 on Apple Silicon architectures only
+        -   Synching of config data from the instance to the agent
+    -   Changed:
+        -   Execution mode set to "execv" for all out of the box check definitions.
+        -   Next generation Policy client generator - performance improvements
+        -   Changes on allow-list
+        -   Test check changes:
+            -   On Check definition we can now select "Agent" instead of "CI"
+            -   Test checks can now be cancelled.
+    -   Fixed:
+        -   FQDN, DNS domain and OS domain for MacOS
+        -   Clean up Agent Feature Matrix
+        -   Agent incorrectly marked as down after successfully upgrading the Agent \[Selective upgrade\]
+        -   We no longer create empty&gt; CI if there is error in basic inventory payload
+        -   Handles reclassification for CI from cmdb\_ci\_hardware class
+    -   Removed: Support for Debian 8
+-   **Version 3.1.0 - May 2023**
+    -   New:
+        -   Upgraded OSQuery to v5.7.0
+        -   Sensu rebase v6.8.1
+        -   Support for Ubuntu 22.04 LTS and Oracle Linux 9
+        -   Native support for ARM64 on Apple Silicon architectures only
+        -   Synching of config data from the instance to the agent
+    -   Changed:
+        -   Execution mode set to "execv" for all out of the box check definitions.
+        -   Next generation Policy client generator - performance improvements
+        -   Changes on allow-list
+        -   Test check changes:
+            -   On Check definition we can now select "Agent" instead of "CI"
+            -   Test checks can now be cancelled.
+    -   Fixed:
+        -   FQDN, DNS domain and OS domain for MacOS
+        -   Clean up Agent Feature Matrix
+        -   Agent incorrectly marked as down after successfully upgrading the Agent \[Selective upgrade\]
+        -   We no longer create empty&gt; CI if there is error in basic inventory payload
+        -   Handles reclassification for CI from cmdb\_ci\_hardware class
+    -   Removed: Support for Debian 8
+-   **Version 3.0.2 - March 2023**
+
+    Fixed: adding report view ACLs.
+
+-   **Version 3.0.1 - February 2023**
+    -   Fixed:
+        -   Agents for Cloud Native Operations - CNO use case
+            -   Host CI will not be created
+            -   Data collection will be disabled
+-   **Version 3.0.0 - November 2022**
+    -   New:
+        -   Upgraded OSQuery to v4.9.0
+        -   Agent registration support for Cloud Native Operations
+        -   Renewed certificate for ACC plugin syncing and installer package
+        -   Support for executing commands in "execv" mode
+    -   Changed: Full payload logging in agent logs moved from "info" to "debug"
+    -   Fixed:
+        -   Operating System and OS version for
+            -   Oracle Linux \(OL\) server
+            -   MacOS BigSur and above
+        -   Agent selective self-upgrade
+            -   Minor version mismatch issues
+            -   Signed plugins for Linux/Windows
+    -   Removed: Hardcoded URL/domain name for downloading agent installers from ServiceNow installation server
+-   **Version 2.10.1 - August 2022**
+    -   New:
+        -   Supporting new OS Versions
+            -   Windows 2022 Server
+            -   macOS Monterey \(x86\)
+            -   CentOS Stream 8 and 9
+            -   RHEL 9
+        -   Windows installer improvements
+            -   Run agent service as gMSA, LocalService and Local SYSTEM accounts
+            -   Additional options added to commandline agent installer
+                -   servicenow user set with "password never expires"
+                -   DenyLogicalLogin for servicenow user
+                -   agent installation will not automically start the service
+        -   Host CI Identification
+            -   Agent will use the serial number table to uniquely identify the CI through IRE
+            -   Ability to choose the type of required serial number \[BIOS, Baseboard and others\] to the computer CI serial\_number attribute via the sys property sn\_agent.ci\_serial\_number.pref\_order
+    -   Changed:
+        -   Windows Agent service now has a delayed startup
+        -   Publisher information updated in the agent-client-collector software
+    -   Fixed:
+        -   Agent stability/performance improvements
+        -   Reporting of CPU cores on Linux agents
+        -   Agent selftest on macOS
+        -   check-allow-list.json set to ready only on all platforms
+        -   Downloading asset/plugin from the attachment no longer prevents it from getting updated using the regular store upgrade
+        -   Windows agent can now upgrade to custom installation path
+-   **Version 2.9.2 - July 2022**
+    -   Fixed:
+        -   Agent status shows as "up" if the agent disconnects before full keepalive payload reaches the instance
+        -   Exec mode field editable
+        -   Payload gets dropped when the agent executing a check through policy without a request ID.
+-   **Version 2.9.0 - May 2022**
+    -   New:
+        -   Support for Windows 11 Professional / Enterprise
+        -   Support for MacOS Big Sur
+        -   Support for TLS 1.3 between agents and MIDs \(documentation\)
+        -   Selective self-upgrade capabilities on Linux and Windows systems
+        -   Asynchronous payload import \(for air-gapped networks\)
+    -   Changed:
+        -   Optimizations on agent keepalive payload
+        -   Display a warning when attempting to run a check with an inactive plugin
+    -   Fixed:
+        -   Updated check requests sent to agents before ACC plugins are completely synched on MIDs
+        -   Auto MID selection on multi-domain instances
+        -   "Restart" UI action available when the agent status is down
+        -   Agents on systems with same hostname marked as duplicates
+        -   Start Date on Linux systems
+        -   osqueryi conflict with osqueryd
+        -   Update model\_number with empty value
+        -   One-line uninstaller on MacOS when the service is unloaded
+-   **Version 2.8.2 - February 2022**
+    -   New:
+        -   IPV6 support for
+            -   Basic Inventory
+            -   TCP Connections
+        -   Windows Agent installation no longer dependents on powershell
+    -   Fixed:
+        -   Windows agent install/uninstall bug fixes
+            -   Uninstall fails on some versions of agent
+            -   Agent acc.yml file parsing error during installation of agent
+            -   ServiceNow user cannot interrupt windows installation
+            -   Uninstalling agent does not remove User or Group added during install
+        -   Security fixes
+        -   Agent support matrix shows deprecation of support for Ubuntu 16 and Ubuntu 14
+-   **Version 2.7.0 - December 2021**
+    -   New:
+        -   Change allow-list logic to better support debugging
+        -   Sync public certificates from the Servicenow server or other sources to prevent the lapse of public certificates on Agent Client Collectors
+        -   Agent logs are now in a more user readable format \(syslog style\)
+    -   Fixed:
+        -   Agent downloads page, one-line installer command can be copied on Safari
+        -   One-line installer supports upgrade macOS agents
+        -   One-line installer overrides MID information provided during upgrade
+        -   Security updates for Linux OSes \(check-allow list file mode\)
+        -   Agent reconnect when Auto MID selection is enabled
+        -   Support for system-installed osquery via path priority
+        -   Invalid serial number causing issues with Host CI creation
+        -   Workaround on gateway retrieval without osquery
+    -   Changed:
+        -   CI Name coming from computername vs. DNS hostname on Windows, now using the following properties:
+            -   glide.discovery.hostname.wmi\_trusted
+            -   glide.discovery.hostname.case
+-   **Version 2.6.2 - November 2021**
+
+    New: Agent Downloads Page – single-line installer command can be generated using an API KEY from list.
+
+-   **Version 2.6.0 - September 2021**
+    -   New:
+        -   Agent Downloads Page – Option to copy single-line installer command
+        -   Automatic MID selection - Support capabilities from extending applications
+        -   Enable Check APIs – Ability to run existing flows using REST/CLI
+-   **Version 2.5.0 - July 2021**
+    -   New:
+        -   OS Support – macOS Catalina
+        -   OS Support – Amazon Linux 2 and Oracle Linux
+        -   CPU threshold for proxy agent increase
+        -   Policy Management Improvements \(inherits the parent attributes\)
+        -   Performance improvements on collecting host data Agent Self Check
+-   **Version 2.4.1 - May 2021**
+    -   New:
+        -   Changes to automatic MID selection
+        -   Support for Windows 10 \(20H2\)
+        -   Improved Policy Management
+        -   Download dashboard
+        -   Simplified log collection
+-   **Version 2.3.01 - March 2021**
+    -   New:
+        -   Policy hierarchy – Child policy creation and managing behaviors.
+        -   Agent REST APIs – CLI for agent interface, REST API calls for control agents and retrieving agent information.
+        -   Feature registry - View features that are currently supported by agents, given their current version.
+        -   Additional support for applications- Allow-list and “sudo” support.
+-   **Version 2.2.0 - November 2020**
+
+    The Agent Client Collector is an agent that is installed on infrastructure components. The Agent Client Collector executes commands on the machines it is installed on and sends output data to the ServiceNow instance via the MID Server. Managing Agent Client Collector on the ServiceNow instance and MID Server is part of the Agent Client Collector Framework application.
+
+

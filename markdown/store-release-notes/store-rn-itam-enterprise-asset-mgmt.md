@@ -1,0 +1,336 @@
+---
+title: Enterprise Asset Management release notes
+description: Version history for the ITAM Enterprise Asset Management application on the ServiceNow Store.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-enterprise-asset-mgmt.html
+release: store
+topic_type: reference
+last_updated: "2026-05-05"
+reading_time_minutes: 23
+breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+---
+
+# Enterprise Asset Management release notes
+
+Version history for the ITAM Enterprise Asset Management application on the ServiceNow Store.
+
+**Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+## Version history
+
+-   **Version 10.0.1 - May 2026**
+    -   Enterprise Technicians can now access the Now Assist Panel. Previously, a required role was missing from the Enterprise Technician role, which prevented access.
+    -   The Enterprise Asset Admin Center now loads reliably for instances with a large number of top-level location records. Location data is loaded on demand when a site is selected, rather than all at once, resolving prior cases where the Admin Center could fail to load.
+    -   Classification Import now correctly establishes parent and child relationships between Classification records. Both parent and child records are loaded, child Classifications are associated with their parent, and models can be created using the imported classifications. Previously, this relationship was not being established during import.
+-   **Version 9.1.1 - March 2026**
+    -   Fixed:
+        -   Resolved an issue where empty asset records were incorrectly created in the sn\_ent\_asset table when bulk import operations failed due to data validation errors.
+        -   Added localization support.
+-   **Version 10.0.0 - March 2026**
+    -   Work Order Plans:
+        -   Create unified plans for complex asset-centric tasks across assets, asset groups, or locations.
+        -   Save as reusable templates; organize sequential operations \(shutdowns, inspections, calibrations, restarts\) in a structured playbook.
+        -   Assign, schedule, and track work order tasks within the playbook.
+    -   Multimedia Production Equipment: Create, track, and manage multimedia production equipment models and assets in the Enterprise Asset Workspace, with a full lifecycle view.
+    -   Granular Admin Roles: Replace broad admin access with specific responsibility-based roles and granular permissions.
+    -   Enhanced Asset Audit:
+        -   Include consumable assets in inventory audits; run a single audit covering hardware and enterprise assets at one location.
+        -   The ServiceNow Mobile Agent app shows real-time scanned assets and creates records for newly discovered ones.
+    -   Work Order &amp; Task Enhancements:
+        -   Create work orders and tasks for asset groups, not just for individual assets.
+        -   The Deploy, Swap, and Remove actions now support multiple assets and asset groups.
+        -   Shutdown and Startup work types have been added for lifecycle transitions.
+        -   Calibrations are supported for multiple assets/groups via a single work order task.
+        -   Asset condition work order tasks generate a separate condition line per asset within a single task.
+-   **Version 9.0.2 - December 2025**
+    -   New:
+        -   Developed a new app, "Enterprise Asset Management for DCNAM," offering EAM capabilities for data centers and telecom network centers to manage critical facility models, assets, and related workflows.
+        -   Developed a new app "Enterprise Asset Management for Providers," offering EAM features for providers, vendors, and manufacturers to manage enterprise models, assets, and associated workflows.
+    -   Fixed:
+        -   Mandatory field validation is now enforced for disposal orders before allowing tasks to move from "Open" to "Close Complete." Users are prompted to complete all required fields before closing a task.
+        -   Resolved ACL issues.
+        -   The disposal reason field is now editable.
+        -   Recall order fields \(Serial Numbers, VINs, Recall Source, and Remediation\) are now set to read-only when the order is in the "Acknowledged" state. All fields in the Acknowledge task are also enforced as read-only.
+        -   Restored import functionality for Risk attributes during model import, ensuring attributes are applied correctly. The import process for pre-assembled models now retains the correct type and all components.
+        -   Addressed accessibility issues in the onboarding flow.
+-   **Version 9.0.1 - September 2025**
+    -   Fixed:
+        -   OT Technicians now will be able to view the failure\_code field in the Troubleshoot task form.
+        -   An issue in the EAM Asset Refresh flow where the sourcing page incorrectly displayed the message that sourcing was complete in certain cases.
+        -   An issue where the TCO benchmark mapping was missing during the model import process.
+        -   Asset count mismatch for "Assets in stock" view in domain separated environments for stockrooms.
+        -   The ability to add OT hardware in lease contracts by OT managers.
+        -   Asset update when IRE rule is not present during imports.
+        -   The filters for Assets Eligible for Refresh by Model Category in the asset analytics view.
+        -   Removed the legacy PO number field in bulk import.
+        -   Theming issues
+-   **Version 9.0.0 - August 2025**
+    -   New in the Zurich release:
+        -   Organize your assets into hierarchical asset groups to manage your complex asset ecosystems
+            -   Organize assets into logical groups and subgroups to represent their dependencies and operational relationships. Use a dependency map to visualize the entire structure of the asset hierarchy, making it easy to see all the subgroups and assets within each asset group.
+        -   Inspect the condition of enterprise assets to determine their health and ensure reliability
+            -   Define condition attributes for enterprise models and assets and associate these attributes with templates to identify any potential issues throughout the asset life cycle. Enable scoring in the templates to calculate asset condition scores to determine whether an asset passes or fails the evaluation. Schedule asset condition evaluations via maintenance plans or work orders. View comprehensive reports on the asset condition outcomes on dashboards across your organization.
+        -   Optimize your operations with asset performance reports
+            -   Track the past performance of assets and get notified about trends, threshold breaches, or anomalies based on their location, model category, model, or classification. This tracking helps improve asset availability according to ISO standards.
+        -   Monitor supply and demand of assets in a stockroom with detailed inventory reports
+            -   Track and manage stockrooms efficiently by evaluating the inventory reports in the Inventory view of the Enterprise Asset Workspace. These reports help you:
+                -   Find replacement options or spare part availability for assets that are in use, being repaired, or in maintenance
+                -   Quickly identify shortages and align current demand in your stockroom with both current and incoming supply
+                -   Analyze the supply to meet open demand across all stockrooms or locations
+        -   Achieve faster diagnostics and improved maintenance efficiency with standardized failure and resolution codes
+            -   Enable technicians to record predefined failure reasons and resolution steps with configurable codes. You can create, update, and import these codes through spreadsheets in the Admin center of the Enterprise Asset Workspace. In the Repair flow, these codes help technicians record the reason for the specific issue with the asset and the appropriate solution for repairing it.
+        -   Manage OT hardware models and assets in the OT Asset Workspace
+            -   Enable OT asset managers to view and fulfill requests for OT hardware assets in the OT Asset Workspace. The reports and dashboards in the OT Asset workspace include OT hardware models, assets, and requests. The following OT Asset Management workflows and features now provide support for OT hardware assets and models, in addition to the workflows and features that continue to support them from the Yokohama release:
+                -   Bulk import
+                -   Asset reclamation
+                -   Advanced Shipment Notification \(ASN\)
+                -   Asset audits
+                -   Total Cost of Ownership \(TCO\)
+                -   Lease contract
+                -   Risk
+                -   Resale
+                -   Loaner
+                -   Move
+                -   Recall
+                -   Stock rule
+        -   Remediate unsuccessful enterprise asset calibrations
+            -   Remediate failed calibration events by initiating new work orders and corresponding work order tasks for those events. When you select the option to remediate a failed calibration event, you can choose an appropriate work order template to generate a new work order with at least one work order task. The work order and work order task are auto-populated with the asset that you want to calibrate, the location of that asset, the original work order, and all mandatory fields. In addition, the original and new calibration events and their corresponding tasks are linked together through the Parent field for full traceability.
+        -   Measure calibration tolerance conformance by using additional value types
+            -   Use the following additional value types to compare your calibration measurements against the corresponding tolerances that you define:
+                -   Range
+                -   Less than
+                -   Greater than
+            -   In addition, use the True/False value type to assess the qualitative elements of your calibrations.
+        -   Manage unique identifiers for enterprise assets using CI identification rules
+            -   Define required and unique fields on asset records by creating identification rules on associated CI classes in the Identification and Reconciliation engine \(IRE\). When you create an asset whose model category is linked to a CI class with an identification rule, you should provide details for at least one of the fields, such as Asset tag, Serial number, and MAC address, that uniquely identify the asset.
+        -   Drop off and receive assets at a stockroom by using the ServiceNow Mobile Agent application
+            -   Return the assets that you have in your personal stockroom to a different stockroom by creating a Drop off task using the ServiceNow Mobile Agent application. The asset manager of the destination stockroom receives the assets that you dropped off through a Receive task. The asset manager then verifies the received assets and closes the Drop off task using the Mobile Agent application. Note: Starting with the Xanadu release, you could create Drop off and Receive tasks in the Enterprise Asset Workspace. However, now you can also use the Mobile Agent application for the same purpose.
+        -   Receive shipment assets at a stockroom through the streamlined and unified receiving process
+            -   Receive assets from any workﬂow directly at the stockroom using the unified receiving functionality in the following workspaces:
+                -   Enterprise Asset Workspace
+                -   OT Asset Workspace
+                -   Medical Asset Workspace
+                -   Facility Asset Workspace
+            -   This standardized receiving process reduces the time spent on receiving assets. By requiring each asset to be assigned a unique identiﬁer when received at the stockroom, the quality of asset data also improves.
+            -   You can receive assets in bulk by using a template. Additionally, you can view the results and validation comments in the staging table. During this process, the system handles existing assets, creates new ones as needed, and performs comprehensive validations.
+        -   Track asset movement from the receiving bay to an aisle-space in the stockroom
+            -   Move assets from the receiving bay to their designated aisle and space and improve asset tracking and inventory management by using the Asset put away feature. This task can be performed via the Enterprise Asset Workspace or ServiceNow Agent application.
+    -   UI changes
+        -   Coral theme
+            -   Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to improve your user experience. A dark theme option is available for web and mobile experiences.
+        -   Asset performance dashboard in the Asset analytics view
+            -   The Asset performance dashboard in the Asset analytics view of the Enterprise Asset Workspace includes scorecards for Availability, Mean time to repair device \(MTTR\), and Mean time between failures \(MTBF\).
+            -   The Asset availability and related KPIs report and the Asset total time spent report are displayed in the contextual sidebar of the asset form.
+        -   Stock orders and Transfer orders tabs for stock rules in Enterprise Asset Workspace
+            -   The Stock orders tab on a stock rule shows all the stock orders that were created using that specific stock rule. The Transfer orders tab on a stock rule lists all the transfer orders that were generated using that particular stock rule.
+        -   Inventory availability tab on the asset form in the Enterprise Asset Workspace
+            -   The Inventory availability tab on the asset form lists all available replacement assets and parts or their substitutes in local and remote stockrooms. The Purchase lead time column displays the average number of days that it would take to procure a new asset through a new purchase order.
+        -   Failure and resolution list in the Admin center
+            -   The Failure and resolution list in the Admin center of the Enterprise Asset Workspace provides options to create, update, and import failure and resolution codes.
+        -   Failure code and Resolution code fields on repair order task forms
+            -   The Failure code and Resolution code fields appear on repair order task forms. As an asset technician, you can do the following:
+                -   On the Troubleshoot asset task form, select a predefined code in the Failure code field.
+                -   On the Repair asset task form, select predefined codes in both the Failure code and Resolution code fields.
+                -   On the Evaluate asset task form and the Repair order line form, only view the failure code and resolution code selected in the previous tasks.
+        -   Location field on the work order and work order task forms for linear assets
+            -   For a linear asset, the Location field on the work order and work order task forms in the Enterprise Asset Workspace shows a pencil icon \(\). Selecting this icon opens a map where you can select a marker location between the start and end markers.
+        -   Acknowledge Recall button and Enterprise Recall Tasks tab
+            -   When an enterprise recall order is created in the Enterprise Asset Workspace, the Acknowledge Recall button appears. When you select this button, an Acknowledgment task is generated and listed under the Enterprise Recall Tasks tab to confirm whether you want to continue with the recall process.
+        -   Aisle and space field on the stockroom audit form
+            -   When the audit is for a stockroom, the Aisle and space field appears on the audit form in the Enterprise Asset Workspace.
+        -   Custom Firmware CPE mapping in the Enterprise Asset Management Content Service
+            -   The Custom Firmware CPE mapping option enables you to opt in to the Enterprise Asset Management Content Service to improve the normalization process.
+            -   The Exclude from content service option on the Custom firmware CPE mapping form enables you to exclude these transactions from being shared with the Content Service.
+        -   Columns for OT entity and Parent asset attribute in the bulk import templates
+            -   The bulk import templates include the OT entity and Parent asset attribute columns
+            -   When the OT Asset Management application is activated, you can bulk import hardware assets and models in both the Enterprise Asset Workspace and the OT Asset Workspace only if the OT entity column is marked as TRUE.
+            -   With the Parent asset attribute, you can choose to identify the parent of a child asset using either the asset tag, serial number, or MAC address.
+        -   OT entity column in the Advanced Shipment Notification template
+            -   The Advanced Shipment Notification template includes the OT entity column. When this column is set to TRUE for hardware models, it creates OT hardware assets in the OT Asset Workspace.
+        -   Hardware Asset Reclamation Lines tab on OT hardware asset reclamation requests
+            -   When a reclamation request for an OT hardware asset is created, a hardware reclamation request line is generated and displayed on the Hardware Asset Reclamation Lines tab in the OT Asset Workspace.
+        -   OT stock rule check box on the Stock rule form
+            -   The OT stock rule check box appears on the stock rule form only for hardware models in both the OT Asset Workspace and Enterprise Asset Workspace. However, only the OT asset manager can select or clear this check box in the OT Asset Workspace. The OT stock rule check box indicates whether the stock rule was created in the OT Asset Workspace.
+        -   Bulk import instructions for assets
+            -   The Bulk import instructions option that appears on the contextual sidebar provides guidance on assigning a parent asset when importing assets in bulk.
+        -   Report table field values on the TCO comparative report
+            -   The Report table field on the TCO comparative report shows the Hardware option in the OT Asset Workspace.
+        -   Renamed the Pick task required field in the Stockroom details form
+            -   The Pick task required field in the Stockroom details form has been renamed Warehouse tasks required. This field supports enabling both the Asset put away task and the Asset pick task for the stockroom in the Hardware Asset Workspace.
+-   **Version 8.1.3 - June 2025**
+    -   Fixed:
+        -   State/Substate Case Sensitivity in Bulk Import: Bulk import now correctly handles state and substate values regardless of letter case \(lower case, UPPER CASE, or mixed case\), preventing import failures.
+        -   Validation Messaging for Validate classification on model in Bulk Import: Bulk import now presents the specific field identified by the business rule with the message Category of classification code must match the category of the model or be a parent of the model's category instead of a generic failure message.
+        -   Classification Column in EAM Workspace Model List View: The model list in the EAM Workspace now displays the Classification column, improving model visibility and filtering.
+        -   Bulk Import Data Truncation Issues: Bulk import no longer crops values in the Stockroom, Location, Model Comments, and Model Name columns when they exceed 40 characters, and model records with names longer than 40 characters can now be inserted successfully.
+        -   Location Mandatory Enforcement in Classic UI: The application now correctly enforces the Location field as required when an asset's state is set to In use' in the Classic UI. In addition, the application no longer throws the Mandatory true not set on field location: cross-scope access denied error.
+        -   Invalid Consumable Model State Transition: The system now prohibits you from changing a consumable model from 'In Production' to 'Build' when assets are present, displaying the Assets are present so status cannot be changed to build. error message.
+        -   Missing New Button for OT Asset Manager in Hardware Asset Tab: OT Asset Managers now see the New button on the Hardware tab within the OTAM workspace when viewing a stockroom, matching the availability in the Enterprise Assets tab.
+        -   Blank Page on Recall Order Open Record Button: Clicking the Open Record button on the Recall Order field under Enterprise Recalled Assets now correctly navigates to the associated recall order record instead of displaying a blank page.
+-   **Version 8.1.2 - May 2025**
+    -   Fixed:
+        -   Theming issues for the UI.
+        -   Showing the mac address sync property in admin center.
+        -   Missing lifecycle column to content table.
+        -   The knowledge article links for Instant Publish and Instant retire flows from platform.
+-   **Version 8.1.1 - March 2025**
+    -   Fixed:
+        -   Missing details are added in the asset form for "Enterprise" model category form in line with other industry model categories for improved consistency.
+        -   Validation rules have been applied to ensure only permitted asset state-substate combinations are assigned during bulk imports.
+        -   Compatibility issues with the sn\_risk\_heatmap plugin have been resolved, ensuring proper loading of the Risk Heatmap in Enterprise Model Management.
+        -   The label calculated lifecycle formula was updated across all UI components.
+        -   The correct validation error messages are now displayed in the "Error Message" field in Classification Import Staging for better troubleshooting.
+-   **Version 8.1.0 - February 2025**
+    -   New: Hardware assets can be managed through EAM flows when OTAM is installed.
+    -   Fixed:
+        -   Added a declarative action button titled "New Pallet Assets" on the "Assets" tab \(alm\_asset\) and "New Pallet Models" on the "Models" tab \(cmdb\_model\), respectively.
+        -   For disposal order, modified the qualifier to filter on assets that are in the same stockroom as disposal order stockroom; assets that are in substates pending resale, pending disposal, pending repair, and bugive; and for consumables that have the Planned for Disposal field set to True.
+        -   Bulk import will now import reference fields that are not case-sensitive.
+        -   Location field is now set as required for assets that are in "In use" state.
+    -   Removed: Removed the The "Pallet" tabs from Model management and Asset estate modules.
+-   **Version 7.0.3 - November 2024**
+    -   Fixed:
+        -   The Ability to import even if the string in the Bulk Import Excel does not have the same case as the database string.
+        -   The location field is mandatory when the asset state is in the "In Use" state.
+        -   The New button on the Maintenance plan.
+-   **Version 7.0.2 - October 2024**
+
+    Fixed: A reclaim task should be created after completing the deploy task in an enterprise asset refresh.
+
+-   **Version 6.1.2 - October 2024**
+    -   Fixed:
+        -   The asset State and Substate fields should be marked editable after the asset is received from an enterprise asset request.
+        -   After being assigned to a user, the consumable asset's state should be set to Consumed instead of In Use.
+-   **Version 7.0.1 - September 2024**
+    -   Fixed:
+        -   After the model is published in the Swedish language, the Manufacturer should be included in the Name field on the catalog item.
+        -   The part requirement should be marked as delivered after the pick task is closed.
+        -   When the consumable is assigned to a user from the consume action button, the state should be Consumed.
+        -   Asset state and substate should be editable once the asset is received from the enterprise stock order.
+        -   Creating the new maintenance plan for the OT workspace.
+        -   Indoor mapping for assets demo data has been updated
+    -   Removed: "Child" resource category from Enterprise asset management licensing.
+-   **Version 7.0.0 - August 2024**
+    -   New:
+        -   Define calibration attributes on models and assets to enable the scheduling and execution and track the progress and results.
+        -   Create new personalized workspaces and roles for Facility, Healthcare, and Operational Technology \(OT\).
+        -   Request repair of assets that are defective or pending repair by using the Repair flow.
+        -   Return the assets that you have in your personal stockroom to a different stockroom by creating a drop off task
+        -   Pick assets in your stockroom easily for sourcing, enterprise asset requests, and enterprise asset refresh workflows by enabling the pick task for your stockroom.
+        -   Enable users of Field Service Management Pro or Field Service Management Enterprise to utilize the Planned Work Management application's functionality to manage work plans from within the Enterprise Asset Workspace.
+        -   Manage the complete life cycle of enterprise models efficiently by applying calculated model life-cycle templates.
+        -   Onboard multiple assets at one go by creating onboarding orders in the Enterprise Asset Workspace.
+-   **Version 6.1.0 - May 2024**
+    -   New:
+        -   Created a new schedule job for counting the number of assets and insert in asset usage tables.
+        -   Seed the subscription unit ratios for the OT resource categories in the license resource category table and map OT model categories to OT resource categories.
+    -   Fixed:
+        -   The reading of the location detail of the start and end markers of a segment in the geo map popup.
+        -   The Enterprise Technician role should have access to the work order and work order tasks tabs in the work management module.
+        -   The reading of the location details from the map for the start marker or end marker for the segment.
+        -   The asset field on a loaner prepare task should persist after closing the prepare task.
+        -   Security ACLs.
+-   **Version 6.0.1 - March 2024**
+    -   Fixed:
+        -   Asset Creation Notification Fix: Fixed an issue where unwanted warning messages appeared during the creation of pre-assembled assets using demo models.
+        -   Procurement Model Updates: Corrected the purchase order state for received orders under the procurement model, updating order management accuracy.
+        -   Access Management for EAM: Restored access rights to EAM Manager and EAM Admin for managing related lists of vendor data import rows, ensuring proper data management and oversight.
+        -   Demo Data Corrections: Addressed missing expense lines and asset data for TCO demo data, ensuring completeness and accuracy of demo data for TCO.
+        -   Asset Disposal Process Update: Introduced the ability to release add-on assets from pre-assembled assets in the verify task of disposal orders.
+        -   Dashboard Access Improvements: Resolved access errors in the Procurement Overview Dashboard and TCO Dashboard.
+        -   TCO Configuration Optimization: Removed non-EAM task rate cards from the default seeded rate card list under TCO configuration in the admin center, simplifying rate card management.
+        -   Resale Order Functionality: Assets in a Retired state can now be added to resale orders, expanding the options for asset disposition.
+        -   Linear Asset Creation Error Fix: Corrected an error related to missing End of Useful Life information when creating a new linear asset.
+        -   Work Order Task Creation Fix: Fixed errors in the All Related Tasks related list for assets during the creation of work order tasks.
+        -   Fixed empty ACLs by adding EAM roles.
+-   **Version 6.0.0 - February 2024**
+    -   New features:
+        -   Asset total cost of ownership \(Asset TCO\)
+        -   Multi-asset onboarding playbook
+        -   Asset hierarchy
+        -   Consolidated tasks list on an asset record
+        -   Work management changes
+        -   Work order tasks in the mobile agent application
+        -   Admin center
+-   **Version 5.1.1 - January 2024**
+    -   Fixed:
+        -   Add EAM roles to empty ACLs.
+        -   Consumable asset should be created when it is received from a manually created Purchase Order.
+        -   Consumable received from an Enterprise Stock Order is now created with a corresponding enterprise model category.
+        -   Assets with retired state should not be available for addition into a resale order catalog request.
+        -   Remove model component ID from a child asset that was released from its user-assembled asset during disposal.
+        -   When assets in a pallet are disposed/resold and the pallet asset itself is cancelled during the verify task \(excluded from disposal flow\), the pallet asset should be cleared from the parent fields on the disposed/resold assets.
+        -   Stockroom should be populated when a consumable child asset of a user-assembled asset is swapped out.
+        -   Asset field should be populated in show xml for move order task.
+-   **Version 5.1.0 - November 2023**
+    -   Fixed:
+        -   Enterprise Asset Technician can view model classification on Model record.
+        -   Both geo map and indoor map icons are displayed in the right contextual panel inside the asset form.
+        -   Opening the activity log control is not available on the Work order task.
+        -   Asset state and substate should be editable once the asset is received.
+        -   User-assembled asset state should not be moved out of the Build state before assembling required child assets.
+        -   When disposing of a pre-assembled asset with add-ons, the add-on assets should be released from the parent asset once the verified task has been closed.
+        -   Creating an asset from the pre-assembled model should always populate the asset type as "Pre-assembled".
+        -   Addition of location field to all enterprise asset catalog items in demo data.
+        -   Report View ACLs.
+-   **Version 5.0.2 - September 2023**
+    -   Fixed:
+        -   After EAM is installed, user is blocked from entering Work Management module in Enterprise Asset Workspace even when following the documented Field Service configuration.
+        -   Performance issues in Assets and Models Bulk Import due to inefficient indexing in cmdb\_model and import staging tables.
+        -   Import operation on disposal or resale order gets stuck in a pending state.
+        -   Enterprise Asset Manager cannot perform Advance Shipment Notifications actions.
+        -   User with Enterprise Asset Technician \(sn\_eam.enterprise\_asset\_technician\) role only and without wm\_agent role is unable to view the Asset Tasks in the Asset Estate module.
+        -   Additional demo data added.
+-   **Version 5.0.1 - August 2023**
+    -   New:
+        -   Linear assets and integration with Google Maps \(Requires Google Maps key\).
+        -   Integration with WSD Indoor Maps to visual assets \(Requires indoor mapping apps from WSD\).
+        -   Asset onboarding flow.
+        -   Asset move flow.
+        -   Granular location data model.
+        -   Utility to import assets and models in bulk.
+        -   New updated stockroom UI.
+        -   Support for stockroom distribution channels.
+        -   Stockroom support for service locations.
+        -   Integration with shipment carriers.
+        -   Shipment tracking is integrated with all shipment tasks and all workflows.
+        -   Simplification of multiple model components creation in a single UI.
+        -   Model classification change to support for multiple tiers.
+        -   Update of risk scores, exception at asset level.
+        -   Contract module in Enterprise asset workspace.
+        -   Contract renewal flows.
+-   **Version 4.0.1 - March 2023**
+    -   Fixed:
+        -   Asset eligible for refresh card is loading empty even if the records exist.
+        -   Enterprise Asset Technician \(sn\_eam.enterprise\_asset\_technician\)does not have access to deploy and refresh reclaim tasks in the Enterprise Asset Refresh order.
+        -   Performance issue with the Enterprise Asset Management Workspace when creating an Asset from any of the tabs.
+        -   Adding model component attributes columns \(Required, Hot swappable, Repairable\) to the child assets related list.
+        -   Creation of an enterprise model is throwing error ""Unrelated Model Category Selected, Record not saved""
+        -   All consumable records are getting released for Pre-assembled assets irrespective of the Required attribute being set to true for a consumable model component.
+        -   Performing normalization for an already normalized model is marking the model as manually normalized
+-   **Version 4.0.0 - February 2023**
+    -   New:
+        -   Work management
+        -   Parts sourcing
+        -   Reclamation workflow
+        -   Resale workflow
+        -   Advance shipment notifications
+        -   Model substitutes support for asset swaps
+        -   RFID Integration
+-   **Version 2.0.3 - March 2023**
+    -   Fixed:
+        -   Asset eligible for refresh card is loading empty even if the records exist.
+        -   Enterprise Asset Technician \(sn\_eam.enterprise\_asset\_technician\) does not have access to deploy and refresh reclaim tasks in the Enterprise Asset Refresh order.
+        -   Performance issue with the Enterprise Asset Management Workspace when creating an Asset.
+-   **Version 2.0.2 - January 2023**
+    -   Fixes for upgrading Expanded Model and Asset Classes \(sn\_ent\) complex assets compatible with EAM once the EAM app is installed.
+    -   Fixed security issues for EAM Workspace Dashboard reports.
+-   **Version 2.0.1 - September 2022**
+    -   Fixes for:
+        -   Recall Flow
+        -   Lease Contract Expiration Flow Stage
+-   **Version 2.0.0 - August 2022**
+
+    ServiceNow Enterprise Asset Management \(EAM\) automates the end-to-end lifecycle of physical business assets. Organizations rely on a range of assets to operate, from revenue-generating frontline items to back-office equipment. Understand what you own, where it is, and how it is being used. Make data-driven financial and operational decisions to help maximize the return on enterprise assets while mitigating business risk. Control the entire lifecycle from planning through retirement. Asset managers can streamline tasks with prescriptive workflows, including acquire-to-deploy processes, reservations, recalls, and RMA orders. End users can request items directly from the asset catalogue. Mirror real-world environments by using multi-component and hierarchical asset models. ServiceNow EAM enables organizations to maintain data accuracy, create auditable records, and leverage useful enterprise asset life. Operate asset warehouses efficiently and optimize stock levels for your organization with inventory management capabilities like stock rules, bulk orders, transfers, and mobile scanning. Empower asset managers with tools to improve balance sheet by avoiding stockouts without carrying excess inventory. When enterprise assets are nearing the end of useful life, ServiceNow EAM will manage your asset refresh cycles, lease-end decisions, and disposal certificates.
+
+

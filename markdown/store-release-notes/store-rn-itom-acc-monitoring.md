@@ -1,0 +1,278 @@
+---
+title: Agent Client Collector Monitoring release notes
+description: Version history for the IT Operations Management Agent Client Collector Monitoring integration on the ServiceNow Store.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-acc-monitoring.html
+release: store
+topic_type: reference
+last_updated: "2026-04-09"
+reading_time_minutes: 12
+breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+---
+
+# Agent Client Collector Monitoring release notes
+
+Version history for the IT Operations Management Agent Client Collector Monitoring integration on the ServiceNow Store.
+
+**Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+## Version history
+
+-   **Version 3.17.1 - April 2026**
+    -   Fixed:
+        -   PRB1993711 - Optimize/reduce frequency of the most CPU-intensive default Windows checks \(disk/memory/network metrics\) in upcoming releases.
+        -   PRB1997688 - Missing alerts due to additional validation for configured mounts as this blocks the check from running correctly.
+        -   PRB2003064 - Incorrect threshold evaluation logic in Windows disk check commands
+        -   PRB2005566 - Disk check fails on the VM where non-fixed drives exist
+-   **Version 3.16.1 - January 2026**
+    -   Changed:
+        -   Enhanced GCP proxy checks to include more checks and added customization to add or remove checks from the list.
+        -   Used 'Available memory' in the calculation of the metric check 'os.linux.check-free-physical-memory'
+        -   Replaced WMIC commands with PowerShell commands in Windows metrics and events checks.
+    -   Fixed:
+        -   PRB1854213 - Even though the "Warning" threshold is disabled for a check such as "os.windows.check-system-disk," events are created with a “Critical” threshold, despite the threshold not being reached.
+        -   PRB1809845 - Check-windows-service returns Warning for a stopped service but check description states it should return Critical.
+        -   PRB1895643 - 'os.windows.check-event-log-details' check cannot be executed on Windows 2012 / Windows 2012 R2 machines.
+        -   PRB1884616 - Client receives events from Metric Intelligence regarding process memory and process cpu usage, but it does not contain info on which process it is.
+        -   PRB1854616 - ACC "os.windows.check-event-log-details" check definition isn't working as expected.
+        -   PRB1868772 - The "Metrics by selected CI filter" is not applied to all metrics on the AIOps Dashboard's Monitoring Technology Dashboard for Windows.
+        -   PRB1862490 - os.windows.metrics-system-disk-ml check for disk.AvgDiskSec/Read does not produce metric registration events.
+        -   PRB1880781 - Publisher is not getting picked up on certain apps; common trait among the apps is that they are installed from Appstore.
+        -   PRB1953044 - ITOM Agent unable to find running process using os.windows.check-windows-process check.
+        -   PRB1910652 - Agents don’t honor timeout on background checks; background checks’ timeout should be 0 to run without timeout.
+        -   PRB1968533 - ACC-M checks are failing on Windows 11/Server 2025 systems due to WMIC deprecation.
+        -   PRB1791988 - Disk Usage Metrics Graphs are not loading in Linux Server Dashboard.
+        -   PRB1868772 - The "Metrics by selected CI filter" Is Not Applied To All Metrics On The AIOps Dashboard's Monitoring Technology Dashboard for Windows.
+        -   PRB1962038 - AWS Metrics Monitoring assigning the wrong sys\_id to an event for cloud load balancers and creating binding issues.
+-   **Version 3.15.1 - December 2025**
+    -   Changed:
+        -   Enhanced GCP proxy checks to include more checks and added customization to add or remove checks from the list.
+        -   Used 'Available memory' in the calculation of the metric check 'os.linux.check-free-physical-memory'
+    -   Fixed:
+        -   PRB1854213 - Even though the "Warning" threshold is disabled for a check such as "os.windows.check-system-disk," events are created with a critical threshold despite the threshold not being reached.
+        -   PRB1841263 - \[Security Bug\] Vulnerable Library golang.org/x/crypto v0.26.0.
+        -   PRB1809845 - Check-windows-service returns Warning for a stopped service but check description states it should return Critical.
+        -   PRB1895643 - 'os.windows.check-event-log-details' check cannot be executed on Windows 2012 / Windows 2012 R2 machines.
+        -   PRB1884616 - When client receives events from Metric Intelligence regarding process memory and process cpu usage but it does not contain info on which process it is.
+        -   PRB1854616 - ACC "os.windows.check-event-log-details" check definition isn't working as expected.
+        -   PRB1868772 - The "Metrics by selected CI filter" is not applied to all metrics on the AIOps Dashboard's Monitoring Technology Dashboard for Windows.
+        -   PRB1862490 - os.windows.metrics-system-disk-ml check for disk.AvgDiskSec/Read does not produce metric registration events.
+        -   PRB1880781 - Certain apps for which Publisher not getting picked up; common trait is that they are installed from Appstore.
+        -   PRB1953044 - ITOM Agent unable to find running process using os.windows.check-windows-process check.
+        -   PRB1910652 - Agents do not honor timeout on background checks, background checks timeout should be 0 to run without timeout.
+    -   Known Issues: PRB1962038 - AWS Metrics Monitoring assigning the wrong sys\_id to an event for cloud load balancers and creating binding issues
+-   **Version 3.13.0 - February 2025**
+    -   New: Directory Monitoring Checks
+    -   Changed:
+        -   Improved Windows Events Logs check to support suppress events for non-existing log files
+        -   Improved Windows service check to support suppressing events for non-existing services
+        -   Improved Linux process check to support suppressing events for non-existing processes
+    -   Fixed:
+        -   Skip The VMs without regions such as West US or East US during the metric collection using Azure Policy
+        -   Improved to "Monitoring ACC agents connected to the MID" similar to "Monitoring Agent Status - Deprecated" metric
+        -   AgentClientCollectorMidMonitor Health Monitor Script not binding to the Mid Server CI
+-   **Version 3.12.0 - November 2024**
+    -   New:
+        -   Added a new check definition for Network Ping \(network-check-port\)
+        -   Improved Windows Event Logs checks
+            -   Renamed the existing check os.windows.check-event-log to os.windows.check-event-log-count
+            -   Added new check for detailed event information - os.windows.check-windows-event-log-details
+-   **Version 3.11.4 - August 2024**
+    -   Fixed:
+        -   Monitor metric parser not parsing the disk\_usage total metrics correctly.
+        -   os.linux.check-system-disk-usage reports issues on ignored mounts.
+        -   MonitorCloudMetricsParser script include logging is not reporting enough detailed information to be useful for troubleshooting.
+        -   Featured metrics graph not coming in Service Operations Workspace Metrics tab for the new Azure Policies \(Azure Load Balancer, Azure Gateway, Azure Redis\).
+        -   Modified locale for the reboot count metric check to make it work for other languages.
+        -   Use URL encoding while encoding url param in util.metrics-http instead of base64 encoding.
+-   **Version 3.11.0 - May 2024**
+    -   New:
+        -   Linux OS Events - Extended policy
+            -   check-kernel-parameter
+            -   check-network-interface
+            -   check-system-login-user
+            -   check-repo-list
+            -   check-system-file-update
+            -   check-system-fileHashcodeUpdate
+        -   Windows OS Events - Extended policy:
+            -   check-env-variables
+            -   check-system-patch
+            -   check-modules
+            -   check-user-account
+            -   check-file-update
+            -   check-file-hashcode-update
+    -   Updated:
+        -   Linux OS Metrics policy
+            -   metrics-logged-users
+        -   Windows OS Events policy
+            -   check-disk-name
+            -   check-windows-service
+    -   Fixed:
+        -   Azure policy "Azure VM metrics" generates a resource file that also contains the "Virtual Machine Scale Sets" CI
+        -   Network ping \(util.check-ping\) check fails in ACC Agent 3.4.0 due to latest Sensu changes.
+        -   Permission issue of Azure cosmos DB with Linux Centos agent.
+        -   Update MonitorMetricParser to do the logging only in debug mode.
+        -   Fixing incorrect unit for disk.iotime of Linux Metrics policy.
+        -   Azure check definition should have config file param in the command prefix.
+    -   Removed: Removed all beta checks \(PRB1751955\)
+-   **Version 3.10.4 - March 2024**
+    -   New:
+        -   High performance Azure metric policies utilizing Azure batch API and multiple CIs per check instance
+        -   SNMP v3 support in SNMP policies
+        -   Updated MongoDB checks - added more metrics
+    -   Fixed:
+        -   os.linux.check-system-cpu check is generating warning events even after -w flag has been deactivated.
+        -   Performance improvement of Monitor Metric Parser to handle bigger response payload
+        -   Updating the curl version to latest 8.6.0 to avoid security vulnerability
+        -   The resource file loaded as empty in second try
+-   **Version 3.8.0 - August 2023**
+    -   New:
+        -   For Utah Patch 4 and higher, monitoring dashboards are now part of the AIOps Dashboards app in Service Operations Workspace \(need to install this app if you don't have it\).
+        -   For Vancouver users, monitoring dashboards contain new filters - a global time range filter, CI filter.
+        -   For Vancouver users, dynamic aggregation of data is enabled in all monitoring dashboards, thus aggregation period is set according to the time range. For examples:
+            -   Time range &lt; 4 hours: minute aggregation.
+            -   Time range 4 hours - 3 days: hourly aggregation.
+            -   Time range &gt; 3 days: daily aggregation
+    -   Fixed:
+        -   Metric Parser script include is not handling all error conditions and is creating false metric types.
+        -   Performance issues with ACC self-monitoring.
+        -   SOW-Metric view configuration for cmdb\_ci\_service\_discovered must be removed
+        -   Self-Healing Events policy implementation should be improved for better performance
+        -   ACC-M: "os.windows.check-system-process" check alerts with the error: Found 0 matching running processes named 'explorer' on on Windows Server, when you would not expect Explorer to be running.
+        -   CC winchecks executable not processing "metric-windows-network" results properly in some cases.
+        -   "Metrics by selected CI Filter" is not working for HTTP policy.
+        -   vSphere's hostname check param either should not be mandatory or should be filled with a default value if making it mandatory.
+        -   \[Policy HTTP Entry Points Metrics\] - Test check shows response code : 1.
+        -   Duration for Memory Distribution in Linux Dashboard should be 6 hours not 6 days
+    -   Known Issues:
+        -   ACC-M Dashboard Filters are not working as expected when upgraded from Tokyo/Utah to Vancouver.
+            -   Workaround: We should run the Repair for ACC-Monitoring plugin from plugins page. If repair does not work, we should run the fix script manually.
+            -   KB: https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB143804
+        -   When a user selects a single CI in the filter, they don't see CI name + metric name in the chart, only CI type \(will be fixed soon\). For more than one CI in the filter, it works as expected. For Vancouver users, Metricbase version has to be 1.19.0.10 or above. Please raise a ticket at Now Support for an upgrade.
+        -   After any family upgrade \(Tokyo-&gt;Utah-&gt;Vancouver\), its recommended to repair the ACC-M plugin.
+        -   On Tokyo and Utah there are no menu links to monitoring dashboards. Users can access the monitoring dashboards only via Platform Analytics Workspace.
+-   **Version 3.7.1 - June 2023**
+    -   Fixed:
+        -   Added Service Operations Workspace Metric Explorer as a dependency to ACC-M, so no need to install it separately
+        -   Host CPU usage is high for URL monitoring checks
+    -   New:
+        -   PA Technology Dashboards for GCP checks
+        -   PA Technology Dashboards for VMware vSphere checks
+        -   Network ping check
+        -   Windows Event Log check
+    -   Changed: UpdatedHTTP Entry Points Metricspolicy to use Golang script to improve the performance of collecting metrics. It will deprecate existing util.metrics-http-curl and add new check util.metrics-http with updated scripts.
+-   **Version 3.7.0 - May 2023**
+    -   New:
+        -   PA Technology Dashboards for GCP checks
+        -   PA Technology Dashboards for VMware vSphere checks
+        -   Network ping check
+        -   Windows Event Log check
+    -   Changed: Updated HTTP Entry Points Metrics policy to use Golang script to improve the performance of collecting metrics. It will deprecate existing util.metrics-http-curl and add new check util.metrics-http with updated scripts.
+    -   Fixed: Host CPU usage is high for URL monitoring checks
+-   **Version 3.6.0 - February 2023**
+    -   New:
+        -   GCP Monitoring checks
+        -   Monitoring Technology Dashboards
+            -   HTTP Monitoring dashboards
+            -   Azure Monitoring dashboards
+            -   AWS Monitoring dashboards
+    -   Changed:
+        -   Changed Event status threshold to 5 for all checks
+        -   Apache metrics policy is updated to Apache on Windows and Apache on Linux policies
+    -   Note: Install SOW ITOM Apps 21.6.2 to view metrics in SOW.
+    -   Known Issues: Test Check is not working for the new policies of Apache on Linux and Apache on Windows \(Technical limitation\).
+-   **Version 3.5.0 - November 2022**
+    -   New:
+        -   MS Exchange Metric and event checks
+        -   Linux metric check - Added network metrics
+        -   PA Technology Dashboards for Windows Linux
+        -   Localization on-boarding changes
+        -   Proxy Agent Cluster \(ACC-F scope but related to monitoring\) - A proxy policy now can run on multiple agents \(with load balancing\) to meet any scale or performance requirement
+    -   Changed:
+        -   Updated "Event status change threshold" for HTTP checks
+        -   Renamed Kubernetes policy
+-   **Version 3.4.1 - October 2022**
+    -   Fixed: vSphere metrics policy causes vSphere environment to lock up with 503 errors
+-   **Version 3.4.0 - August 2022**
+    -   Known issues:
+        -   For Tokyo users, HTTP metrics policy/util.metrics-http-curl check fails on a linux proxy agent \(Error message: Check failed to run. Response code: 3\). Please refer to [KB1158643](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1158643) for more information.
+        -   vSphere metrics policy causes vSphere environment to lock up with 503 errors. Please refer to [KB1168789](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1168789) for a more information.
+    -   New Features:
+        -   VMWare vSphere metric checks \(Datacenter, datastore, ESX, VM\)
+        -   HAProxy metric and event checks
+        -   GlassFish metric and event checks
+        -   Apache Kafka metric and event checks
+        -   Varnish metric and event checks
+        -   MSSQL check - Query support
+        -   New check for HTTP response code
+-   **Version 3.3.0 - May 2022**
+    -   New:
+        -   Active Directory metric and event checks
+        -   MongoDB metric and event checks
+        -   Nginx metric and event checks
+        -   RabbitMQ metric and event checks
+        -   Cassandra metric and event checks
+        -   Azure databases metric checks \(MySQL/Postgres/Cosmos\)
+        -   Linux check definition for uptime
+    -   Fixed:
+        -   ACC abort connection as MySQL check execution finished
+        -   Provide a regex or wild card option for "ignore\_mnt" check parameter
+-   **Version 3.2.0 - February 2022**
+    -   New:
+        -   Azure blob storage metric checks
+        -   AWS ECS metric checks
+        -   PosgreSQL metrics/event checks
+        -   AWS DynamoDB metric checks
+    -   Fixed:
+        -   ACC-M monitoring setup in bulk/ single setup - when distributed cluster is deleted, the setup does not create a new distributed cluster and does not invoke an alarm about it.
+        -   A check execution on an entry point CI does not select the correct CI. Agent Max Checks Self Health monitor doesn't differentiate the standard case from the proxy case.
+        -   Agent Health Dashboard - define color per field value \(status/host collection, etc\).
+        -   Removing ACC-M check instance within policy through slush-bucket removes more check instances than it should.
+        -   PostgreSQL: Proper Message should be displayed when the invalid input value is given for the Test check.
+        -   os.windows.pgsql.metric-active-connections check instance is mispelled in Windows-PostgreSQL-Metrics, and was also changed in Description.
+        -   Unable to do the test check for Postgresql events and metrics of Linux OS. Getting message as "Timed out " with retry and cancel option.
+        -   AWS EC2 Events Fixes
+        -   Test check is duplicated for all the resources of os.windows.pgsql.metric-statsdb check instance- 153 records are shown \(actual count is 51\).
+-   **Version 3.1.0 - December 2021**
+    -   New:
+        -   Bulk MID enablement - Setup ACC-M for multiple MID servers
+        -   New UI action on monitoring alert to redirect you to the associated policy/check Instance
+        -   AWS metric checks for: EC2, EBS, S3, RDS, EKS
+        -   Azure metric checks for: Azure VM, AKS
+        -   Custom check template
+-   **Version 3.0.0 - September 2021**
+    -   New: API/CLI for checks operations \(in addition to existing agents/policies APIs\)
+    -   Fixed: New agent goes to silent mode immediately after discovery with breached threshold 0%
+-   **Version 2.5.1 - July 2021**
+    -   New:
+        -   Metric Explorer for Operator Workspace is now part of ACC-M
+            -   Drill down on metrics, focusing on a specific time range
+            -   Include ad-hoc metrics in charts
+            -   Create custom charts
+            -   Compare and correlate different host, applications and service metrics
+            -   View alerts on chart timeline
+            -   Explore metrics for CIs without the alert context
+        -   Child policies can now continuously inherit changes in parent policy attributes
+        -   Improved ACC setup that reflects the real setup status
+-   **Version 2.4.0 - May 2021**
+    -   New:
+        -   Schedule policies to run in specific time windows using cron expressions
+        -   Location info on metrics that were monitored by multiple agents
+        -   Grab agent config file from the instance
+        -   Automatic MID selection updates
+        -   Simplified MID setup
+        -   Updated OS checks for metrics and events
+        -   Kubernetes checks
+-   **Version 2.3.0 - March 2021**
+    -   New:
+        -   Updated Policy Filter – Assign policies to sub-groups of CIs using CMDB groups \(e.g. my Oracle servers that run on Windows\)
+        -   Policy hierarchy – Create child policies that inherit parent attributes but can override specific attributes \(e.g. set different CPU alert threshold for my production Linux servers\)
+        -   API/CLI-based Actions – Performing actions using a script, from CLI or from custom portal, not via ServiceNow UI
+        -   Log Monitoring Check for Windows – Find patterns in a logfile \(similar to the previously released Linux log monitoring check
+        -   Auto close alerts when check/policy was disabled – If checks/policies were disabled, open alerts are not relevant anymore and need to be closed
+        -   Notify when credentials are required in policy – Let the user know when credentials are mandatory
+-   **Version 2.2.0 - November 2020**
+
+    The ITOM Monitoring solution provides the ability to monitor customer CIs using the Agent Client Collector. This application comes with pre-defined monitoring checks and policies that are applied on the agent. The solution is extendable; the user can define new checks and monitoring policies.
+
+

@@ -1,0 +1,420 @@
+---
+title: FSM Configurable Dispatcher Workspace release notes
+description: Version history for the FSM Configurable Dispatcher Workspace application on the ServiceNow Store.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-config-dispatcher-workspace.html
+release: store
+topic_type: reference
+last_updated: "2026-06-11"
+reading_time_minutes: 24
+breadcrumb: [ServiceNow Store - Field Service Management release notes, ServiceNow Store release notes]
+---
+
+# FSM Configurable Dispatcher Workspace release notes
+
+Version history for the FSM Configurable Dispatcher Workspace application on the ServiceNow Store.
+
+**Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+## Version history
+
+-   **Version 30.0.2 - June 2026**
+    -   New Features &amp; Enhancements:
+        -   Viewport Scroll \(Dynamic Resource Loading\): Progressively loads resources with debounce as dispatchers scroll. Reduces initial page load times for large territories. Soft/auto-refresh and "View on Calendar" respect the active viewport. Hides off-shift agents until requested. Preserves focus, pinned/adhoc resources, metric counts, group expansion, filters, and window positioning across dates and scrolls.
+        -   Task Card Hover Popover: Displays configurable key details on calendar timelines and map markers without opening records. Hides empty fields, prevents map text overflow, dismisses on window switching, and eliminates duplicate marker tooltips.
+        -   Territory Demand Channel Mapping: Surfaces territory-specific demand channel info on the CSP and calendar. Validates drag-and-drop assignments, warning users if an agent's demand channel mismatches the task's territory.
+        -   Task Filter by Territory: Auto-narrows the task list to "My Territories" or current selections, removing the need for manual cross-referencing.
+        -   CSP Upgrades: Adds header locking for long scrolls, inline WOT field editing \(activity streams, notes, comments\), and inline history views.
+    -   Fixes:
+        -   Drag &amp; Drop: Fixed an issue where dropping tasks onto calendar contractor groups had no effect.
+        -   Date &amp; Time: Resolved incorrect event management localization, optimization summary date formats on refresh, timezone offsets for non-UTC all-day events, markspan shifting under MM/DD/YYYY formats, and stuck "Optimizing" labels.
+        -   Resource Management: Corrected skill sorting/ranking and advanced resource filter pagination. Prevented adhoc resource deletion when assigned elsewhere. Fixed a timezone indicator null pointer exception and restored multi-territory manager visibility.
+        -   Contractors &amp; Crews: Fixed contractor expand-group controls, side-panel crew additions, and an issue causing white calendar spans for mid-shift relocated agents.
+        -   Tasks &amp; Assignments: Enforced "Allow Assignment Override" for multi-territory agents and fixed visualization lines for newly expanded groups.
+        -   UI &amp; Performance: Fixed "Hide Off-Shift Agents" toggle tooltips and active states. Removed horizontal scrollbars from task notifications, fixed cut-off event heights, added a landing page close button, hid the weekly "Optimize Route" button, and standardized route icons. Optimized back-end queries to slash latency and memory use in the Event Management tab.
+        -   Security: Remedied an ACL bypass via the 'multiple' data broker, restricted filter configuration read access to dispatchers, and secured getRefRecord\(\)script scope boundaries.
+-   **Version 29.1.0 - May 2026**
+    -   Fixed an issue where dropping a task onto the calendar panel in the Dispatcher Workspace had no effect.
+    -   Fixed an issue where drag and drop was not working when assigning tasks to a contractor group.
+    -   Fixed an issue where dates in the Optimization Summary panel were displayed in an incorrect format.
+    -   Fixed an issue where agent time markspans appeared shifted on initial page load for users whose session was configured with the MM/DD/YYYY date format and the 12-hour AM/PM time format.
+    -   Fixed an issue where searching for contractors and expanding contractor groups in the calendar view were not working.
+    -   Fixed an issue where sorting agents by skills in the resource panel was not ordering or ranking agents as expected.
+    -   Fixed an issue where the resource count shown in the pagination area was incorrect when an Advanced Resource Filter was applied that targeted the last assignment group.
+    -   Fixed an issue in the Go to Assignment Window where expanding or collapsing a group caused the visualization lines to disappear.
+    -   Fixed an issue where the event body was cut off vertically when the event body configuration had the "Always show" option enabled and the "Default field" option disabled.
+    -   Fixed an issue where the auto-refresh notification banner in the task panel was causing an unexpected horizontal scrollbar to appear in the workspace.
+-   **Version 28.5.0 - May 2026**
+    -   Fixed an issue where dragging and dropping a work order task onto a Contractor Company was failing when Territory Management was enabled.
+    -   Fixed an issue where dates in the Optimization Summary panel were displayed in an incorrect format.
+    -   Fixed an issue where agent time markspans appeared shifted on initial page load for users whose session was configured with the MM/DD/YYYY date format and the 12-hour AM/PM time format.
+    -   Fixed an issue where searching for contractors and expanding contractor groups in the calendar view were not working.
+    -   Fixed an issue where agents were not loading completely for territory-based groups on the Dispatcher Workspace calendar.
+    -   Fixed an issue where sorting agents by skills in the resource panel was not ordering or ranking agents as expected.
+    -   Fixed an issue in the Go to Assignment Window where expanding or collapsing a group caused the visualization lines to disappear.
+    -   Fixed an issue where the event body was cut off vertically when the event body configuration had the "Always show" option enabled and the "Default field" option disabled.
+    -   Fixed an issue where the auto-refresh notification banner in the task panel was causing an unexpected horizontal scrollbar to appear in the workspace.
+-   **Version 27.7.0 - May 2026**
+    -   Fixed an issue where dropping tasks onto the calendar panel in the Dispatcher Workspace had no effect. Tasks can now be dragged and dropped as expected.
+    -   Resolved failure when dragging work order tasks onto Contractor Companies with Territory Management enabled. Tasks are now successfully assigned in territory-managed environments.
+    -   Fixed drag-and-drop functionality for assigning tasks to contractor groups.
+    -   Corrected date format display in the Optimization Summary panel.
+    -   Agent time markspans now display correctly on initial page load for users with MM/DD/YYYY and 12-hour time formats.
+    -   Agent location information now appears in the Resource card on the Dispatcher Workspace.
+    -   Agent sorting by skills in the resource panel now produces correct results.
+    -   Agents in territory-based groups now load completely on the calendar.
+    -   Fixed pagination and filter application issues in the Advanced Resource Filter.
+    -   Managers now see all agent calendar events they manage.
+    -   Crew tasks now load additional records reliably when "load more" is clicked.
+    -   Visualization lines in the Go to Assignment Window remain displayed after group expand/collapse.
+    -   Event bodies now render at full height when "Always show" is enabled and "Default field" is disabled.
+    -   Auto-refresh notification banners no longer cause horizontal scrollbars in the workspace.
+    -   Event bodies on the calendar now display correctly for events starting before the current view window.
+-   **Version 28.4.0 - March 2026**
+    -   Fixed crew task loading issues and corrected the visibility of agent events for managers in the workspace.
+    -   Resolved drag-and-drop failures on contractor groups and issues where dropped tasks failed to register on the calendar.
+    -   Corrected event body rendering for early start times and resolved bugs causing blank calendars.
+    -   Fixed missing auto-assign messages for filtered tasks and addressed performance lags caused by auto-refresh.
+    -   Standardized system timezone usage for missing location data and fixed stale state issues with stacked timezones.
+    -   Persisted "hide off-shift agents" settings and added manual clear buttons to task and resource search inputs.
+    -   Resolved disappearing metrics during workspace refreshes and fixed agent loading errors for complex group data setups.
+    -   Fixed advanced filter issues where temporary filters were deleted or pagination failed for single territories.
+    -   Prevented duplicate event creation from rapid save clicks and optimized performance by pulling only relevant dispatch groups.
+    -   Added support for filtering resources without specific skills and enabled wildcard "contains" searches in the resource panel.
+    -   Included past/future sublabels in the assignment window and fixed missing "Work Type" values on the details tab.
+    -   Implemented task flagging functionality and resolved broken resource cards occurring during advanced filtering.
+-   **Version 29.0.11 - March 2026**
+    -   New features
+        -   Deep Link Navigation
+        -   Navigate from lists to calendar in one click
+            -   Select tasks from any ServiceNow list view.
+            -   Click "Open in Dispatcher Workspace" to instantly view tasks on calendar.
+    -   🌍 Timezone-Agnostic Display
+        -   True multi-timezone support for global operations
+            -   Agent schedules display in their local timezone.
+            -   All agents' "8 AM local time" align vertically on calendar.
+    -   Overtime Visualization
+        -   Distinct markspans show overtime periods on calendar.
+    -   Issue Resolutions:
+        -   Null pointer exception in skills/parts utility
+        -   Localization support for resource filters
+        -   Agent location tracking performance improvements
+        -   Calendar auto-refresh issues resolved
+    -   Usability Improvements:
+        -   Collapse mode enhancements
+        -   Resource panel keyword search improvements
+        -   Flag task functionality with auto-refresh
+        -   Map and route improvements
+        -   Hide map setting enhancements
+        -   Add resources duplicate row fixes
+        -   Settings modal UI improvements
+    -   Performance Optimizations:
+        -   Calendar resources pagination
+        -   Flat table schedule attributes optimization
+        -   Territory query optimization
+    -   Google Maps API Migration:
+        -   Advanced Markers API uptake \(deprecated markers replaced\)
+        -   Security and Compliance Fixes:
+        -   Dot-walk scoping bypass remediation
+        -   Read-only field security enhancements
+    -   Additional Improvements:
+        -   Real-time traffic overlay
+        -   Personal events enhancements \(mandatory/optional status\)
+        -   WFO personal events in map overlay
+        -   System property cleanup
+        -   Localization support
+        -   Event duration across days fix
+-   **Version 27.6.4 - January 2026**
+    -   Fixed pagination count displaying incorrectly when an agent belongs to an assignment group under the same territory and that assignment group is not loaded on initial workspace load
+    -   Resolved issue where markspans were not rendering correctly on initial load when custom Start of day time and End of day time were defined
+    -   Enabled apply button on the territory filter modal when no territories are selected to allow dispatchers to reset to empty state
+    -   Corrected agent schedules being offset by a few minutes for 15 and 30-minute calendar timeframes
+    -   Removed unnecessary alert displayed on territory selection filter modal
+    -   Fixed issue where multiple clicks on Save button created multiple events
+    -   Resolved advanced resource filter pagination issue occurring when only one group or territory is selected
+    -   Fixed broken resource card display when applying advanced resource filter
+    -   Corrected issue where temporary filter was being removed in advanced filter functionality
+-   **Version 28.3.0 - December 2025**
+    -   Bug Fixes:
+        -   Territory Resource Filtering - Fixed issue where groups with multiple types were not properly filtered
+        -   Agent Data Management - Resolved calendar task disappearance when navigating between dates
+        -   Resource Pagination - Corrected duplicate agent display when loading additional resources
+        -   Contractor Group Search - Fixed search and expansion functionality in territory data model
+        -   Collapse Mode Enhancement - Improved agent slot utilization across all groups
+        -   Task Panel Pagination - Fixed pagination display text not updating properly
+        -   Pinned Agent Events - Resolved missing events for pinned agents during date navigation
+        -   Personal Event Time Display - Ensured consistent time display across all workspace views
+    -   Improvements:
+        -   Enhanced territory model support and resource visibility
+        -   Improved user experience with better pagination information
+        -   Strengthened data management to prevent state conflicts
+        -   Better handling of contractor groups in search scenarios
+    -   Technical Information:
+        -   Version: SR - FSM - FSM Configurable Dispatcher Workspace Bundle v8.0.2
+        -   Compatibility: Backward compatible with existing 8.0.X versions
+        -   Requirement: Requires Zurich Patch 2 as minimum platform version
+-   **Version 27.5.2 - November 2025**
+    -   Enhanced Features
+        -   Collapse Mode Improvements: Enhanced collapse mode functionality to better support customer use cases by utilizing all available agent slots across all groups instead of limiting to specific groups. The improvements properly handle both territory and assignment group models while maintaining backward compatibility with existing configurations.
+        -   Error Handling Enhancements: Improved system stability with comprehensive error handling for invalid task assignee records. The system now gracefully handles inaccessible or corrupted task records, preventing calendar display issues and providing detailed error logging for troubleshooting.
+        -   State Management Fixes: Resolved critical state management issues that caused calendar tasks to disappear when switching between Work Order Task \(WOT\) cards in the task panel. The fix ensures proper date context preservation and prevents unnecessary state mutations that could interfere with task visibility.
+    -   Bug Fixes
+        -   Calendar Navigation: Fixed calendar navigation functionality for Yokohama release compatibility, resolving issues where the "Go to Assignment Window" feature was non-functional due to incorrect parameter variable references.
+        -   Task Panel Pagination: Corrected pagination controls in the task panel to accurately display item counts and update properly during auto-refresh operations. The pagination text now includes clearer labeling with the "records" suffix for improved user clarity.
+        -   Calendar Refresh Operations: Resolved issues where manual refresh operations on different dates would not properly render markspans and tasks. The calendar now correctly displays data for the currently selected date range during refresh operations.
+        -   Territory Resource Filtering: Updated territory resource filtering to support groups with multiple types using CONTAINS operator instead of exact match queries. This ensures proper dispatcher access when groups have multiple type assignments.
+        -   Resource Pagination in Calendar View: Fixed incorrect pagination calculations when agents belong to multiple assignment groups under a single territory. The system now properly accounts for duplicate agents and displays accurate resource counts.
+        -   Technical ImprovementsAgent Data State Management: Enhanced agent data state handling with proper deep cloning mechanisms and date parameter management to prevent state mutation issues during task panel operations.
+        -   Query Optimization: Improved database query logic for territory resource filtering, allowing proper handling of groups with multiple type configurations while maintaining security requirements.
+        -   Date Range Processing: Enhanced date range processing during manual refresh operations to ensure calendar displays correct data for the selected time period.
+    -   Compatibility &amp; Requirements
+        -   Requires Yokohama patch 8
+-   **Version 28.2.0 - October 2025**
+    -   Fixed timezone-related issue where 'Hide off-shift agents' icon was not properly disabled for past days when users were in different timezones from system base timezone.
+    -   Corrected drag-and-drop task scheduling when sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.scheduled\_travel\_start\_as\_scheduled\_start property is set to false - now properly calculates end times excluding travel durations.
+    -   Resolved issue where time-off events were not displaying correctly in Manager Workspace weekly view \(events showed in daily view but not weekly view\).
+    -   Fixed pagination display issues when same agent belongs to multiple assignment groups under single territory - now shows correct resource counts and proper 'Load More' functionality.
+    -   Enhanced error handling for invalid wm\_task\_assignee records to prevent calendar from going blank - system now gracefully handles inaccessible task records and logs errors appropriately.
+    -   Added null pointer exception protection in task popover functionality when task records are missing optional fields like asset model or account information.
+    -   Fixed 'Hide Map' property implementation on Manager workforce page - map-related buttons are now properly hidden when map is disabled in settings
+    -   Resolved issue where deactivated agents were still visible in Workforce view - added proper active status filtering.
+    -   Fixed duplicate event ID issues that caused calendar rendering errors when single events needed to be displayed multiple times for different groups or qualifiers - implemented unique ID generation with suffix handling.
+    -   Various fixes to ensure proper handling of system properties and configuration settings across different deployment scenarios.
+-   **Version 27.4.0 - September 2025**
+    -   Fixed:
+        -   Enhance auto refresh calendar to avoid special handling
+        -   Manager Workspace view does not show time-off events in weekly view, shows in daily view
+        -   Collapsed mode is enabled OOB.
+        -   Allow calendar sorting / filtering across all groups / territories the dispatcher manages
+        -   Drag and drop with sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.scheduled\_travel\_start\_as\_scheduled\_start as false not working as expected
+        -   De-activated Agents are listed in Workforce
+        -   Manager Workforce: User personal events dont show up when you switch to week view
+        -   WFO - Timezone settings option is not working in Schedule tab
+        -   The 'Hide Map' property from the Map settings was not taken into account on the Workforce page.
+        -   Loader is not removed for when using Task assignment confirmation modal.
+        -   Hide off shift agents icon is not getting disabled for territory model if we go beyond 7 days
+        -   When preparing the data for the popover that appears when hovering over a task, the system would encounter a null pointer exception. This occurred if the task record was missing certain fields \(like \`asset.model\` or \`work\_order.account\`\) that the popover was configured to display. The code did not properly handle cases where these fields did not exist on the task record, leading to an error that prevented the popover from rendering.
+-   **Version 28.1.1 - August 2025**
+    -   Performance Improvements - Enhancements to backend and UI responsiveness, especially in calendar and task panel rendering.
+        -   Improved backend drag-and-drop performance.
+        -   Optimized event body rendering.
+        -   Enabled support for batch streaming with individual databrokers.
+        -   Identified and addressed task assignment bottlenecks.
+        -   Enhanced auto-refresh logic for calendar.
+        -   Limited refresh scope to expanded panels only.
+    -   Extensibility - Support for broader resource types and filtering capabilities.
+        -   Extended filters to support more resource types.
+    -   Usability - Improvements to workflows and user interactions in the Dispatcher Workspace.
+        -   Auto-updated end time in personal events.
+        -   Flagged tasks outside the Dispatcher workspace UI.
+        -   Evaluated list view bundles.
+        -   Decoupled task panel auto-refresh settings.
+    -   Calendar Updates - Enhancements to calendar rendering, timezone support, and event handling.
+        -   Improved rendering and date handling.
+        -   Enhanced calendar refresh and performance.
+        -   Deprecated non-collapsible calendar behavior.
+            -   Removed legacy collapse mode logic to query and render resources on the schedule calendar.
+    -   Other Notables
+        -   Enabled view-only access to Smart Assessment responses from the workspace.
+        -   Displayed dependent tasks in the Contextual side panel.
+        -   Added conflict detail to dependent task cards.
+        -   Migrated from work parameters to the new agent schedule attribute plan table.
+    -   Tech Debt - Focuses on modernizing and cleaning up legacy components in the Dispatcher Workspace.
+        -   Replaced the datetime picker with the NDS component for consistency.
+        -   Fixed ACL warnings across the Dispatcher workspace tables.
+        -   Introduced API abstraction for flat table rendering.
+    -   Manager workforce page improvements -
+        -   Added calendar tab in contextual side panel when workforce optimization \(WFO\) is enabled.
+        -   Display work order tasks when WFO is enabled.
+        -   Hide other events in the calendar except WOT events when WFO is enabled.
+        -   Adopted the flat table approach for WFO.
+        -   Applied the coral theme to the Workforce UI.
+-   **Version 27.0.12 - July 2025**
+    -   Fixed:
+        -   Resource Search when resources are associated via territory membership only
+        -   Auto-refresh notification on the task panel
+        -   Tasks are not reassigned properly when the confirmation modal is enabled and reassigning tasks
+        -   Crew drag and drop assignment in the Dispatcher Workspace
+        -   Decouple the auto-refresh notification and new task loading position within the task panel
+        -   Enable SNC Customization for the Workforce API
+        -   Fix on-demand optimization UI issues for overlapping qualifiers
+        -   Console errors from rendering map markers during auto refresh scenarios
+        -   Navigate to the assignment window for 'Today's task'
+        -   The task panel auto-refresh doesn't work for configured fields
+        -   Territory filter count issues
+        -   Un-assign an action on the calendar work order task \(WOT\) doesn't automatically update the task on the task panel if there's enough space to add the task
+        -   Dispatcher Workspace Assignment Assistance sometimes fails to assign tasks
+        -   Add a check when pushing the label to avoid a NullPointerException for the territory filter modal
+        -   Refactor the agent group cache handling by adding user invalidation logic and improving cache update process
+        -   In the Dispatcher Workspace, the 'Assigned to' field keeps getting reset in the Assignment confirmation window when the WOT doesn't have an Assignment group
+        -   The calendar goes blank on auto-assign rules with the territory modal
+        -   'Work start/travel start' is updated with incorrect values when dragging and dropping the task
+        -   Multiple dispatchers are not able to view resources on the Dispatcher Workspace due to cache issue
+-   **Version 25.0.18 - April 2025**
+    -   \[Google Maps Places API - Workspace\]: Upgrade to the new Places API from Google Maps APIs
+    -   Upgrade to the new Places API \(new\) and Routes API for Field Service Capabilities
+        -   Effective March 1, 2025, Google has designated the Places API, Directions API, and Distance Matrix API as Legacy services. The newer versions of these services are Places API \(New\) and Routes API.
+        -   You can’t enable or generate new API keys for these legacy services. However, you can continue using these services with the existing API keys. Enable the new APIs from Google Console to continue using the API services without any issues.
+        -   If you need to create a new Google API key after March 2025, you must enable the new APIs from Google Console.
+        -   For more information see, [KB2111488](https://support.servicenow.com/nav_to.do?uri=kb_knowledge.do?sys_id=3b86844293516210f538fb2d6cba10bf), [KB2112054](https://support.servicenow.com/nav_to.do?uri=kb_knowledge.do?sys_id=47952c8a93556210f538fb2d6cba1026), and [Changes to Google Maps Platform automatic volume discounts, monthly credit, and services transitioning to Legacy status](https://developers.google.com/maps/billing-and-pricing/faq#legacy).
+-   **Version 26.0.15 - April 2025**
+    -   Fixed
+        -   Auto refresh on personal event is causing calendar to go blank for UK time zone format.
+        -   Stockrooms in 'Source Part' modal from Work Order Task fail to load when viewed in a non-English language
+        -   Field Service Dispatcher screen is not loading when setting up a location
+        -   Menu options missing in Work Order Card for Similar Work orders
+        -   Filter Duplicate groups that prevent duplicate event entries in calendar.
+        -   Events show multiple times, when an agent belongs to more than one group\(Crew Members\)
+        -   Events are not shown/duplicated in the Calendar Panel
+        -   A date time field configuration for task panel cards causes page to stop loading
+    -   \[Google Maps Places API - Workspace\]: Upgrade to the new Places API from Google Maps APIs
+    -   Upgrade to the new Places API \(new\) and Routes API for Field Service Capabilities
+        -   Effective March 1, 2025, Google has designated the Places API, Directions API, and Distance Matrix API as Legacy services. The newer versions of these services are Places API \(New\) and Routes API.
+        -   You can’t enable or generate new API keys for these legacy services. However, you can continue using these services with the existing API keys. Enable the new APIs from Google Console to continue using the API services without any issues.
+        -   If you need to create a new Google API key after March 2025, you must enable the new APIs from Google Console.
+        -   For more information see, [KB2111488](https://support.servicenow.com/nav_to.do?uri=kb_knowledge.do?sys_id=3b86844293516210f538fb2d6cba10bf), [KB2112054](https://support.servicenow.com/nav_to.do?uri=kb_knowledge.do?sys_id=47952c8a93556210f538fb2d6cba1026), and [Changes to Google Maps Platform automatic volume discounts, monthly credit, and services transitioning to Legacy status](https://developers.google.com/maps/billing-and-pricing/faq#legacy).
+    -   Improved the performance of the Drag and drop operation of work order tasks to agents on calendar.
+-   **Version 27.0.10 - April 2025**
+    -   Fixed
+        -   Dispatcher Workspace Google Maps live agent location update displays wrong last updated time when system has a different time zone
+        -   Calendar goes blank when one of the agent is in a different timezone
+        -   Auto refresh on personal event is causing calendar to go blank for UK time zone format
+        -   Equipment events only displayed on DWS for one equipment if multiple equipment share the same event
+        -   Stockrooms in 'Source Part' modal from Work Order Task fail to load when viewed in a non-English language
+        -   Route Optimization shows incorrect Driving Distance
+        -   manager workforce page - Agent location history icon on agent card- we should show icon only in Day or WorkDay view and not in Week view
+        -   workforce page -Agent location history - When day changes map view should reset along with icon on agent card
+        -   Initial load for calendar doesn't work
+        -   Filter Duplicate groups that prevent duplicate event entries in calendar.
+        -   Show route button on agent card is visible on Week view but should not be visible in Week view.
+        -   Crew Member Events not visible. When the resource count is less than 15, Backport DEF0618204
+        -   Events show multiple times, when an agent belongs to more than one group\(Crew Members\)
+        -   Task panel task card is not deselected on applying resource filter
+        -   Timezone is not getting appended to the scheduled start during auto refresh of task whenever the field gets updated
+    -   Upgrade to the new Places API from Google Maps APIs
+    -   Improved the performance of the Drag and drop operation of work order tasks to agents on calendar.
+    -   Territory Selector Filter: improve the performance of the prepareSelectedTerritoriesFromUserPreferenceFilters method as it is taking longer time when selectedIds stored in user preference increases
+-   **Version 25.0.16 - March 2025**
+    -   Fix issues regarding calendar going blank when auto refresh personal event update
+    -   Fix event creation for all day events in different languages
+    -   Fix rank resources not returning any results for territory model
+    -   Fix personal event creation for different timezones
+    -   Fix events not shown / duplicated on calendar
+    -   Performance improvement in loading the workspace by adding empty state
+-   **Version 27.0.8 - February 2025**
+    -   Improved overall Dispatcher Workspace performance
+    -   Introduced a new data model to store schedules and personal events for agents, crews, and equipments
+    -   Added empty state of Dispatcher Workspace that loads the workspace with a blank slate if no default group / territories are selected
+    -   Added multiple accessibility improvements
+    -   Added feature to show real-time markers of agents on Dispatcher Workspace map
+    -   Added advanced resource filter capability
+    -   Added ability to show completed route view for day view
+    -   Added various error handling mechanisms
+    -   Added changes for task dependency
+    -   Added additional manager support for workforce
+    -   Added Schedule Optimization related improvements
+-   **Version 26.0.12 - December 2024**
+    -   Fixed issue with groups not sorting in the filter
+    -   Fixed issue with assignment not working on searched resources
+    -   Fixed issue with territory plugin not showing inactive resources
+    -   Fixed issue with hide off shift agents on collapsed mode
+-   **Version 26.0.11 - October 2024**
+    1.  Fix issues regarding single select territories
+    2.  Fix load more related issues fetching more data than required
+    3.  Fix contractor cards not updating the added tasks
+    4.  Fix sorting issues with territory model
+    5.  Add improvements related to auto refresh for having constrained behavior
+    6.  Fix issues related to technician relocation
+    7.  Fix drag and drop issues with WFO
+-   **Version 26.0.6 - August 2024**
+    -   Update tile icons for FSM UIB-enabled components
+    -   Restricted view on manager workforce page
+    -   Support territory on manager workforce page
+    -   Bug fixes for few A11y issues
+    -   Feature to load all assignment groups, territories, or header groups collapsed on initial page load of Dispatcher Workspace
+    -   Added warning message: SO and schedule assistance in conflict
+    -   Assisted assignment feature
+    -   Add single select of dispatch/group/territory on Dispatcher Workspace setting
+    -   Display various time zones on the Dispatcher Workspace calendar
+    -   Creation of personal events for territories on Dispatcher Workspace
+    -   Auto-refresh on task panel enhancement
+    -   Ability to hide off-shift or non-working agents from view, store-related changes
+    -   Agent location and capacity management updates for Dispatcher Workspace
+-   **Version 25.0.13 - June 2024**
+    1.  Fixed issues related to loading contractors and equipments on Dispatcher workspace with territory model switched ON.
+    2.  Fixed honoring collapsed groups state during date navigation with Territory model switched ON.
+    3.  Uptake calendar component child configuration flags to fix section header collapse issue.
+    4.  Fixed work order getting stuck in draft status.
+    5.  Removed old qualifiers from default qualifiers sections
+    6.  Fixed show all routes and pagination.
+    7.  Fixed on demand intraday issue related to overlapping territories.
+    8.  Fixed misconfiguration of table/field ACLs for few tables to improve app security.
+    9.  Performance fixes on Dispatcher workspace.
+-   **Version 24.0.10 - March 2024**
+    -   Fix issues for linear assets in workspace
+    -   Fix internationalization issues
+    -   Resolved an issue on dispatcher workspace for assignment window details coming up as empty
+    -   Fix issue on dispatcher workspace for Flexible view and week view for remove time gaps
+    -   Fix performance issues on territory planning and dispatcher workspace
+    -   Fix issues for ad-hoc agents not displaying on dispatcher workspace
+    -   Fix resource filter issue on dispatcher workspace for large number of assignment groups
+    -   Fix issue for dispatcher workspace drag and drop after sorting agents
+-   **Version 25.0.7 - February 2024**
+    -   Create personal events on calendar
+    -   Make bulk updates for calendar events
+    -   Choose assignment options on drag and drop action
+    -   Enable single-select only on group/territory dropdown
+    -   Sidebar - Send messages between agents​
+    -   Display various timezones for agents​
+-   **Version 23.3.12 - September 2023**
+    -   Fixed:
+        -   Agent Assist on the work order task form is not loading the correct page.
+        -   Utah with Dispatcher Workspace 23.3.8: calendar events and the task panel have task state colors are missing.
+        -   On the calendar, the work start and work end times for multi-day work order tasks are incorrect when indicators for travel time and travel home time are enabled.
+        -   Events are not visible for agents when filtered by a resource filter.
+        -   The default resource filter for agents in multiple groups hides events.
+        -   When the resource filter is applied, tasks are not displayed after dragging and dropping them on the calendar.
+-   **Version 23.2.11 - September 2023**
+    -   Fixed:
+        -   Applying the resource filter is not displaying the events correctly.
+        -   Drag and drop to assign task failed right after refreshing the browser on the dispatcher workspace.
+        -   On the calendar, the work start and work end times for multi-day work order tasks are incorrect when indicators for travel time and travel home time are enabled.
+        -   Events are not visible for agents when filtered by a resource filter.
+        -   The default resource filter for agents in multiple groups hides events.
+        -   When the resource filter is applied, tasks are not displayed after dragging and dropping them on the calendar.
+-   **Version 24.0.7 - August 2023**
+    -   Contextual Side Panel: Support the dispatcher in visualizing work schedules, and agent details, show sibling tasks and task requirements in a contextual side panel
+    -   Group Metrics: Allow Dispatchers to view group and individual performance.
+    -   Dispatcher Workspace Maps:
+        -   Improve the map markers and visual indicators on the map
+        -   Provide capability of agent and tasks filters on the map
+        -   Support the dispatcher in visualizing work schedules and routes, as well as agent details and task requirements in a contextual side panel
+    -   Dispatcher Workspace Automated Task Bundling: Allow Dispatchers to select and assign or create bundles from multiple tasks
+    -   Dispatcher Workspace Schedule Optimization indicator: DW UI indicator when schedule optimization is run
+    -   Dispatcher workspace Collapse/collapse task panel
+-   **Version 22.3.8 - July 2023**
+    -   Fixed below:
+        -   Searching the resource and then dragging and dropping the task is not working in some scenarios
+        -   Creating a bundle is failing with the Vancouver family build
+        -   Task filters on DWS 3.0 on the initial page load are not filtered according to the default selected filter
+        -   on DWS 3.0 calendar, task state colors are missing with the Vancouver family build.
+-   **Version 23.3.5 - February 2023**
+    -   New:
+        -   Ad-Hoc Filtering capability added in Task panel of dispatcher workspace
+        -   Added capability to lock/unlock work order tasks on dispatcher workspace UI
+        -   Capability added to Drag and drop work order tasks based on scheduled travel start time instead of scheduled start time
+    -   Changed:
+        -   The Central Dispatch plugin \(com.snc.central\_dispatch\) is deprecated in Utah release.
+
+            Instead, use the \[field-service-mgmt\] \[dispatcher-workspace\] plugin \(com.snc.uib.fsm\_dispatcher\_workspace\) for scheduling and dispatching work order tasks to agents.
+
+        -   Minor updates
+-   **Version 22.2.5 - August 2022**
+    -   New:
+        -   Localization support from the internationalization team for translation of strings within this store app, so that the store build no longer depends on the family release build for translations.
+        -   The following usability features were added in the Dispatcher Workspace UI:
+            -   Within dispatcher workspace calendar, support resizing of the events to increase/decrease the duration of the event.
+            -   Update the layout in UIB pages to the latest layout 3.0 offered from UIB-UXF platform.
+
+**Parent Topic:**[ServiceNow Store - Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
+

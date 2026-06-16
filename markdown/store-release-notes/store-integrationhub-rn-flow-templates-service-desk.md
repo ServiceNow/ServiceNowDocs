@@ -1,0 +1,34 @@
+---
+title: Flow Templates for Service Desk release notes
+description: Version history for the Flow Templates for Service Desk application on the ServiceNow Store.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-flow-templates-service-desk.html
+release: store
+topic_type: reference
+last_updated: "2023-04-06"
+reading_time_minutes: 1
+breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+---
+
+# Flow Templates for Service Desk release notes
+
+Version history for the Flow Templates for Service Desk application on the ServiceNow Store.
+
+**Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+## Version history
+
+-   **Version 1.0.3 - April 2023**
+
+    Fixed: Improve installation performance of application.
+
+-   **Version 1.0.2 - January 2023**
+
+    Fixed: Dependencies.
+
+-   **Version 1.0.0 - August 2022**
+    -   Easily add service desk automation in your custom applications with the Flow Templates for Service Desk application. Rather than creating a new flow from scratch, users can choose the relevant template in App Engine Studio and follow the guided screens to create a new flow. These templates leverage Integration Hub spokes to create Incidents, Change Requests, Problems in BMC, and Customer Requests in JIRA Service Management.
+    -   Setup screens guide you and indicate what information is required. Flows generated from templates provide additional explanations and can be customized as needed. The templates all have pre-defined flow triggers, but you can modify the flows and add additional conditions to control when they are triggered.
+
+**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+

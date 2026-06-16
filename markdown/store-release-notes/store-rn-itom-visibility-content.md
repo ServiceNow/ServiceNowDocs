@@ -1,0 +1,583 @@
+---
+title: Visibility Content release notes
+description: Version history for the ITOM Visibility Content application on the ServiceNow Store.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-visibility-content.html
+release: store
+topic_type: reference
+last_updated: "2026-06-11"
+reading_time_minutes: 37
+breadcrumb: [ServiceNow Store - ITOM Visibility release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+---
+
+# Visibility Content release notes
+
+Version history for the ITOM Visibility Content application on the ServiceNow Store.
+
+**Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+## Version history
+
+-   **Version 6.32.0 - June 2026**
+    -   New:
+        -   Discover Oracle Databases on UNIX using Oracle Wallet instead of storing applicative credentials in the ServiceNow instance.
+        -   Control which IP version Discovery populates on a Network Adapter CI during Linux, Windows, and Solaris discovery using the network\_adaptor\_preferred\_ip\_version MID Server property.
+    -   Changed: The NVIDIA GPU pattern extension now requires the AI Agent Topology Mapping application to be installed on the instance for Discovery to process.
+    -   Fixed:
+        -   Discovery patterns for MacBook \(macOS\) devices now correctly use SSH instead of PowerShell when executing the Parse Command Output step. \(PRB1794971\)
+        -   The "Windows OS – Desktops" and "Windows OS – Servers" patterns now correctly populate the chassis type attribute for all DMTF Win32\_SystemEnclosure chassis types. \(PRB2022107\)
+        -   The "Netscaler Load Balancer" pattern no longer sends SSH commands and operates exclusively via SNMP or API-based probes. \(PRB1481614\)
+        -   The "Sun iPlanet Webserver" pattern now correctly captures version details for discovered CIs. \(PRB2008576\)
+        -   The "Tomcat" pattern now works correctly on Windows systems. \(PRB2009609\)
+        -   Security fixes. \(PRB1958296\)
+        -   Stack member switches that have been physically removed from a stack configuration no longer maintain a "Stack Member of" relationship with the main switch in the CMDB. \(PRB1956550\)
+        -   The "Windows OS – Servers" pattern now correctly maps volumes and file systems to their corresponding disk partitions when a disk contains multiple partitions. \(PRB1996598\)
+        -   The L2 physical connection discovery pattern no longer incorrectly prioritizes LLDP results over CDP results, allowing physical connections to be created correctly. \(PRB2010579\)
+        -   The "Linux - AWS" pattern step "Check if it is compiled by amazon" now executes successfully without encountering an unexpected operator condition. \(PRB1973788\)
+        -   The ".NET Application" pattern no longer returns an incorrect version value during Service Mapping top-down discovery, which previously caused the "Tomcat" pattern to be skipped. \(PRB1998094\)
+        -   The "Windows OS – Servers" pattern now correctly stores the installation date and time on Windows Server CIs regardless of the time zone of the discovering MID Server. \(PRB1945809\)
+        -   The "Apache On Windows" pattern no longer exits prematurely during Service Mapping top-down discovery. \(PRB1968918\)
+        -   The "Jboss" pattern now correctly handles the jboss\_home variable and the EVAL Script directory variable. \(PRB1987372\)
+        -   The "Google Cloud Platform \(GCP\) - Discover Related Projects" pattern no longer discovers Google-managed system projects \(sys- prefix\), improving Discovery performance and resource utilization on the instance. \(PRB2007167\)
+        -   Discovery now correctly identifies JDBC database connections based on data from the jdbc-pool.html file. \(PRB1979566\)
+        -   The "Network Router" and "Network Switch" discovery patterns now correctly create the relationship between network CIs and their associated DNS Name CIs. \(PRB1964684\)
+        -   The "Active Directory Domain Controller On Windows" pattern now works correctly when multiple Domain Controllers are present on the same host. \(PRB1989809\)
+-   **Version 6.30.1 - April 2026**
+
+    Fixed: Discovery Pattern active field preference is now preserved across plugin upgrades. When a user enables or disables a Discovery Pattern, the preference is retained automatically on all future upgrades while the pattern continues to receive OOB content updates. \(PRB1996794\)Note: If you previously enabled a Discovery Pattern and your preference was reset after upgrading to app-pattern-designer, starting with version 6.28.0, re-enable the pattern once. Your preference will be preserved automatically on all future upgrades.
+
+-   **Version 6.30.0 - March 2026**
+    -   Fixed:
+        -   "MSSql DB On Windows" pattern now correctly sets the is\_clustered field to true and updates the comments field with always\_on for clustered configurations \(PRB1954769\).
+        -   "MSSql DB On Windows" pattern filters out the \_Total database when creating database connections \(PRB1980978\).
+        -   "MSSql DB On Windows" pattern now updates edition details for on‑premises MSSQL servers \(PRB1966294\).
+        -   AIX Server discovery now correctly updates the system memory field \(PRB1961358\).
+        -   "NetApp Storage Cluster‑Mode" pattern no longer assigns the same default serial number to multiple storage servers \(PRB1982053\).
+        -   PostgreSQL DB discovery no longer swaps database and instance names \(PRB1968727\).
+        -   "Windows OS - Servers" pattern verifies both the namespace and Hyper‑V role before creating Hyper‑V records \(PRB1956561\).
+        -   Rocky Linux is now correctly classified as Linux Rocky \(PRB1810987\).
+        -   Oracle DB discovery fetches a single version and creates a unique software installation record \(PRB1963738\).
+        -   "Azure DataBase \(LP\)" pattern correctly sets Postgres SQL as the database type \(PRB1955925\).
+        -   "My SQL server On Windows and Linux" pattern now correctly populates the installation directory, data directory, and version fields \(PRB1956019\).
+        -   Top‑down discovery now establishes connections for SAP ERS applications \(PRB1982172\).
+        -   "Oracle DB On Windows" pattern adds SQL execution using TNS Alias as a failover mechanism \(PRB1968436\).
+-   **Version 6.29.0 - December 2025**
+    -   Fixed:
+        -   The Cloud Function \[cmdb\_ci\_cloud\_function\] table correctly shows the operational status of impacted services, such as AWS Lambda, Amazon API Gateway, and Amazon DynamoDB. \(PRB1918876\)
+        -   "Amazon AWS - Organizational Units \(LP\) pattern doesn't flips the values in the Operational status and Install Status fields in the Cloud Service Account \[cmdb\_ci\_cloud\_service\_account\] table records. \(PRB1919626\)
+        -   The CPG module populates the required File field when creating a Google Cloud Platform \(GCP\) credential. \(PRB1899791\)
+        -   Version information is populated for JBoss version 8 at least on Windows servers. \(PRB1906756\)
+        -   The "Jboss" pattern has been improved. The pattern checks forward slashes in process variables, includes a failover step for accurate identification of standalone types, and retrieves the version information. \(PRB1938340\)
+        -   In a switch stack, if a switch changes roles \(is promoted to parent or demoted to child\), the relationship is updated accordingly. \(PRB1925358\)
+        -   The "Network Switch pattern populates the Device Neighbors field under parent for stacked switches. \(PRB1902752\)
+        -   The F5REST pattern filters out load balancer services using duplicate IP addresses and ports. \(PRB1906962\)
+        -   The "RabbitMQ Windows pattern populates the Installation directory field in the RabbitMQ \[cmdb\_ci\_appl\_rabbitmq\] table. \(PRB1929184\)
+        -   The "J2EE EAR On Linux and "J2EE EAR On Windows pattern steps have correct conditions to discover the "Oracle jdbc Connection section. \(PRB1918053\)
+        -   The "DNS Shared Library" correctly respects the MID Server property 'nslookup\_size\_limitation' when set to 0, and doesn't collect DNS names by running nslookup. \(PRB1915372\)
+        -   WebSphere discovery on Windows servers collects the WebSphere Enterprise Archive \(EAR\) name and version, and creates a relationship between the EAR file to WebSphere Application Server \(WAS\). \(PRB1925016\)
+        -   The "Linux Server pattern collects the cluster data of Oracle Clusterware 10g version. \(PRB1922704\)
+        -   The Sybase" pattern will terminate gracefully if no instance name is found. \(PRB1897373\)
+        -   The "NetApp Storage Cluster-Mode" pattern correctly maps serial numbers to the Storage Node Element \[cmdb\_ci\_storage\_node\_element\] and the Storage Server \[cmdb\_ci\_storage\_server\] tables. \(PRB1915425\)
+        -   In the WebLogic pattern, if no port is found in the identified CI, the "Identification for HTTP\(S\)" section is skipped, and the pattern continues with the "Lightweight identification for WebLogic section. \(PRB1919666\)
+        -   The WebLogic" pattern populates the Version field in the Oracle WebLogic \[cmdb\_ci\_app\_server\_weblogic\] table for Windows servers. \(PRB1916584\)
+        -   The WebLogic" pattern populates the Server Name field in the Oracle WebLogic \[cmdb\_ci\_app\_server\_weblogic\] table for Windows servers. \(PRB1915512\)
+        -   The "WebLogic" pattern makes only the necessary SSH connections to the target host during discovery. \(PRB1931365\)
+        -   The "WebLogic" pattern has been improved to use less central processing unit \(CPU\). \(PRB1933086\)
+        -   The Windows OS - Servers pattern doesn't fails if the MAC address isn't configured. \(PRB1937815\)
+        -   The "Tomcat pattern successfully retrieves the Tomcat version information. \(PRB1928416\)
+        -   The "Oracle DB On Unix" pattern correctly reads lines in the oratab file that have a hash sign, and collects the home folder data as expected. \(PRB1908237\)
+        -   The '$sw\_horizontal\_discovery\_log' supports TinyURL and now displays log information for TinyURL in View Log. \(PRB1618805\)
+        -   The service\_mapping\_admin' role can compare versions of CI configuration files \(Tracked configuration file\). \(PRB1802633\)
+        -   NetApp storage devices now appear in discovery status pages after discovery completes. Duplicate IP entries no longer cause sensor processing delays and stuck discovery schedules. \(PRB1911750\)
+        -   "Linux Server" pattern now correctly discovers and populates all memory modules in the CMDB when a server has multiple memory modules installed. \(PRB1554673\)
+        -   "Linux Server" and "Windows OS - Servers" patterns now detect the Product Part Number \(PPN\) for HP/HPE hardware models to support accurate model normalization. \(PRB1790316\)
+        -   "A10 Load Balancer" pattern no longer throws a DUPLICATE\_PAYLOAD\_RECORDS error for the Load Balancer Service \[cmdb\_ci\_lb\_service\] table when multiple virtual server ports share the same name. \(PRB1904191\)
+        -   "Tomcat" pattern now correctly discovers services when the Tomcat process listens on multiple ports. \(PRB1920770\)
+        -   Discovery now correctly updates the Install Status \[install\_status\] field to "Installed" for Computer \[cmdb\_ci\_computer\] table records when a previously retired CI is rediscovered. \(PRB1915559\)
+        -   "Azure LoadBalancer TD" pattern now supports the High Availability Ports load balancing rule configuration in Azure. \(PRB1677513\)
+        -   Azure cloud discovery deletion strategies now correctly mark CIs as retired when the last remaining resource in a region is deleted or terminated, preventing the pattern from failing with a graceful termination error. \(PRB1645668, PRB1919537\)
+        -   "Azure Datacenter discovery" pattern now uses the correct filter condition to identify active datacenters, preventing regions with similar names from being incorrectly included. \(PRB1904300\)
+-   **Version 6.28.0 - August 2025**
+    -   New: Activate/deactivate patterns - Toggling a pattern's status won't increment its version number or flag it as changed, yet it still receives future updates.
+    -   Fixed:
+        -   The "CAS on Windows" pattern's section "Identification using Powershell script" is fixed by adding a failover step "run the powershell script to populate the xml file failover". This step checks that script\_output has valid data containing DC= and CN= \(PRB1877647\).
+        -   "The "IIS" pattern's "Identification for HTTP\(S\) entry point type\(s\) for IIS6 second logic" section, which might cause an infinite loop issue, is fixed by setting "VDIRs attributes" in the same section \(PRB1870733\).
+        -   The "IIS" pattern now creates outgoing connections to default website \(PRB1863483\).
+        -   The "Azure DataBase \(LP\)" pattern is fixed to populate the name of the Azure PostgreSQL FlexibleServers in the right format \(PRB1875281\).
+        -   The issue causing Listener Identification failure has been resolved by fixing the "Oracle DB on Unix" pattern \(PRB1892864\).
+        -   The "Oracle DB on Unix" pattern is fixed to skip the step for lower Oracle versions when the condition is met \(PRB1896257\).
+        -   The "Network Switch" pattern now finds the LLDP neighbor \(PRB1854223\).
+        -   Added missing Discovery classifier for Windows Server 2025 \(PRB1868603\).
+        -   The "Nginx" pattern is fixed to parse the upstreams of the config file in order to display the upstream nodes \(PRB1844729\).
+        -   The "Tomcat" pattern now includes connection support for Windows \(PRB1863242\).
+        -   The "Oracle Listener" pattern now obtains the Preferred/Available nodes information \(PRB1866223\).
+        -   The "IIS Virtual Directory" pattern's connection section for "Active Directory Federation Services" using "netstat -ao" no longer times out \(PRB1894053\).
+        -   The "PostgreSQL DB" pattern now correctly populates the Configuration Directory and Config File paths on Windows Server installations \(PRB1851523\).
+-   **Version 6.26.0 - May 2025**
+    -   Fixed:
+        -   The "Network Switch" pattern now sets the correct serial number \(PRB1848773\).
+        -   The Network Switch pattern has been fixed to reduce high memory consumption \(PRB1846202\).
+        -   The Network Switch pattern now updates the install\_status on the Switch CI \(PRB1828631\).
+        -   The Windows OS - Servers pattern has now been fixed. When the property glide.discovery.discover\_aws\_ec2\_host\_metadata is set to false, the pattern will no longer collect AWS EC2 instance metadata via either IPv6 or IPv4 addresses \(PRB1861225\).
+        -   The MSSql DB On Windows pattern has now been fixed to prevent the database user from being locked out \(PRB1639152\).
+        -   The Azure DataBase \(LP\) pattern now populates the version information for both Microsoft SQL Server and MySQL Flexible Server \(PRB1711299\).
+        -   The Azure DataBase \(LP\) pattern and the shared library Azure - Databases Instances to Database now correctly fetch MySQL and PostgreSQL databases on both Server and Flexible Server \(PRB1848829\).
+        -   The DB2 On Windows pattern now uses credentials properly \(PRB1840200\).
+        -   The DB2 on Linux pattern now populates the correct name in the cmdb\_ci\_db\_db2\_instance table \(PRB1849473\).
+        -   The Linux Server pattern now correctly creates the relationship between cmdb\_ci\_ip\_address and cmdb\_ci\_network\_adapter, even when different IP addresses are used \(PRB1840849\).
+        -   The "Linux Server" pattern shared library "Linux - Hardware Information" now populates serial number, model ID, and manufacturer information for the "IBM Power 8 architecture \(ppc64le\)" system \(PRB1322596\).
+        -   The EMC Isilon pattern previously encountered an error when creating the IP range list due to missing input. This issue has been fixed \(PRB1858293\).
+        -   The Websphere On Unix pattern now uses the URL entry point correctly \(PRB1834223\).
+        -   The Nginx pattern now creates a connection between the load balancer and the resource even when the port is not specified in the configuration \(PRB1844119\).
+        -   The "Google Cloud Platform \(GCP\) - Discover Related Projects" pattern now excludes discovery from inactive projects \(PRB1833367\).
+        -   The "Linux - Storage" pattern now parses the value for disk size from Docker drives correctly \(PRB1841319\).
+        -   The application type pattern now sets the discovery source as "ServiceNow" \(PRB1832900\).
+        -   In the cmdb\_ci\_storage\_device table, the Vendor attribute is now updated as a 'reference' type \(PRB1765736\).
+        -   The Solaris LDOM infrastructure" pattern has been fixed and does not create duplicate records in the cmdb\_serial\_number table \(PRB1812714\).
+        -   The issue of duplicate Model records in the cmdb\_model table has been fixed, and there is now consistency between probes and patterns-based discovery \(PRB1832935\).
+        -   The "My SQL server On Windows and Linux" pattern now populates the version information \(PRB1833941\).
+-   **Version 6.23.0 - February 2025**
+    -   Fixed:
+        -   Pattern Pre/Post Script "Modify Operational Status for MSFT SQL Instance" is fixed for passive cluster nodes \(PRB1783348\)
+        -   The network device name remains consistent in the CMDB\(PRB1828545\)
+        -   The pattern "Oracle DB on Unix" is updated to exclude ASM \(Automatic Storage Management\) as an Oracle instance \(PRB1821439\)
+        -   A non-admin user can create a record in \[cmdb\_identifier\_entry\] \(PRB1804283\)
+        -   The pattern "Tomcat" has been updated to include a pre-condition ensuring that the step is executed only for Unix-type OS discovery \(PRB1818289\)
+        -   The "Windows - Storage" shared library is fixed to filter the File System table based on the data from \[Win32\_Volume\]. The filtering would happen based on a new MID property called "windows\_server\_Win32\_Volumes\_filter" with default value "true" \(PRB1745922\)
+        -   The Oracle database instances are now discovered with the correct version and port details\(PRB1820716\)
+        -   The "Azure Database \(LP\)" pattern, which failed with a "MULTIPLE\_DEPENDENCIES" error, has been fixed by updating step 33, "Create Database and IPs Relation," to change the field matching from "fqdn" to "object\_id."\(PRB1820120\)
+        -   The "Windows OS - Server" pattern is fixed to handle escaped backslashes \(PRB1825633\)
+        -   The "Linux Server" pattern has been updated to populate the disk size and disk label for disks of the type "sun" attached to the Linux server \(PRB1807707\)
+        -   The Oracle Listener pattern populates the Oracle DB endpoint \(PRB1809341\)
+        -   The "DB2 on Linux" pattern is fixed to discover DB2 Instance from instance home directory and installation location\(PRB1764933\)
+        -   The "Compare" UI action on history records for \[cmdb\_ci\_config\_file\_tracked\] items has been fixed and can now be performed by users with the appropriate role \(PRB1802633\)
+        -   Cloud Discovery Workspace Issues for GCP are fixed, and correct assignment between projects and Folders \(PRB1818003\)
+        -   Credential-less discovery has been updated to ensure that the IP address is set for servers \(PRB1794579\)
+        -   The "Tuxedo Application" pattern added a fallback step to get the version info \(PRB1790032\)
+-   **Version 6.22.0 - November 2024**
+    -   Fixed:
+        -   The "MSSQL DB on Windows" pattern has been updated to ensure that the "ComputerManagement16" version is set when using the MSSQL Server 2022 \(PRB1791493\)
+        -   Discovery schedules no longer gets stuck during duplicate IP processing due to the presence of duplicate device histories associated with the same IP address \(PRB1786820\)
+        -   The Horizontal Discovery Sensor has been fixed to properly handle standalone hardware CIs that have no relationships \(PRB1807482\)
+        -   The "WebSphere on Unix" pattern is fixed to set the ear\_uri.file variable correctly \(PRB1800225\)
+        -   The top-down "MSSQL DB on Windows" pattern fallback is fixed to handle cases where both process detection and netstat fail to identify the tcp\_port \(PRB1764779\)
+        -   The "F5 Load Balancer SSH" pattern has been fixed to address issues caused by merging large amounts of data, which previously led to pattern failures \(PRB1798586\)
+        -   The "Linux Server" pattern is fixed to resolve an issue where Discovery was incorrectly marking some physical servers as virtual by setting the isVirtual=True attribute \(PRB1790315\)
+        -   The F5 Load Balancer, Cluster Name issue, has been fixed, and now it is populated correctly as a reference field in the "cmdb\_ci\_lb\_bigip" table \(PRB1786949\)
+            -   Fixed the below patterns
+                -   F5 Load Balancer
+                -   F5 Load Balancer SSH
+                -   F5 REST OAuth 2.0 authentication
+                -   F5REST
+        -   The "PeopleSoft Application Server" pattern has been fixed to support the relevant command execution on AIX servers \(PRB1797789\)
+        -   Improve the discovery performance due to the pattern Pre/Post Script OSs - Pre Sensor \(PRB1784356\)
+            -   Impacted patterns are
+                -   Linux Server
+                -   Solaris Server
+                -   AIX Server
+                -   HP-UX Server
+                -   IBM zOS Server
+                -   Windows OS - Servers
+                -   Windows OS - Desktops
+                -   Hyper-V Server
+        -   The Linux Server pattern is fixed to address the AWS EC2 instance \(PRB1797237\)
+-   **Version 6.21.3 - September 2024**
+    -   Fixed:
+        -   Nginx pattern was fixed to resolve the issue with connecting to SSH on a Windows machine
+        -   Windows OS - Servers pattern, extension Windows - Azure fixed step Set uuidSerial
+        -   cmdb\_ci\_wap\_network CIs created with IP Address
+        -   Linux - Server Extension, creates the relationship between IP Address and Network Adapter
+        -   Network Switch creates a relationship between dscy\_switchport and dscy\_swtch\_partition
+        -   My SQL server on Windows and Linux pattern fixed to use mysqld server command when the client is not installed
+        -   IIS Pattern creates correct mapping IIS service if more than one Website running
+        -   Oracle DB On Unix and Oracle DB on Windows pattern, populates version of Oracle instance
+        -   Windows OS - Server pattern fixed the extension Windows - Cluster to discover the Windows cluster
+        -   Azure Database \(LP\) pattern fixed to correctly populate the values for the life cycle stage. The life cycle stage status and install status in sync with Life Cycle Mappings
+        -   SSIS pattern fixed to support multiple instances
+-   **Version 6.21.0 - August 2024**
+    -   Fixed:
+        -   Windows OS server pattern - fixed invalid cmdb\_serial\_number object for KVM Windows machine
+        -   AIX Server pattern - File Systems section fixed the error handling message not to parsed
+        -   Linux server pattern - filter out DNS communication error message
+        -   Introduced new Mid Server property - 'mid.pattern.command.timeout' . The default value is "false" for the Linux Server pattern so that the deletion strategy will not attempt to delete all the related CIs
+        -   Network Switch pattern - fixed the problem with the stacked switch \(not primary\) discovered as standalone remains in stack mode "not primary" in the CMDB, causing accumulation of Network Adapter "Absent" records
+        -   Oracle DB On Unix pattern - fixed to populate IP address as expected for local host
+        -   Network Switch/Router device skips invalid Serial Numbers
+        -   Tomcat connection fixed if server.xml contains a docBase entry with a null path
+        -   Tuxedo version is set to the actual version
+        -   GCP discovery is fixed not to trigger all the GCP-related patterns when the GCP account is not active
+    -   New: Azure Database pattern supports "mySQL databases/PostgreSQL" running on "Flexible server"
+-   **Version 6.19.1 - June 2024**
+    -   Fixed:
+        -   Docker Pattern - a logic to remove unused images is Added. The new MID server properties are configured remove\_unused\_images\_from\_docker\_discovery = false and remove\_unused\_images\_from\_docker\_discovery = true by default OOTB. Docker image and container image tables are enhanced. The image records are removed if there isn't any container with the same image ID.
+        -   Linux Server Pattern, Storage Shared Pattern Library fixed Duplicate Multipath IO Pool Groups and Multipath IO Pool Paths with Name "undefined"
+        -   Linux Server Pattern populates correct DNS name records in the cmdb\_ci\_dns\_name table
+        -   Amazon AWS Relational Database Service Pattern handles null values of the Address parameter in the endpoints section of the response payload
+-   **Version 6.19.0 - May 2024**
+    -   New: The "HAProxy" horizontal discovery pattern supports the community edition
+    -   Fixed
+        -   The "MSSQL DB on Windows" pattern updates the field \[is\_clustered\] value to true for AlwaysOn availability groups
+        -   The "IIS" pattern regex for TCP port valuation enhanced toIIS websites
+        -   "AIX Server" pattern-
+            -   Updates the IP address of the server. Had an error message Error in Horizontal Discovery Sensor for Horizontal Pattern: Failed to update IP on the CI, java.lang.IllegalArgumentException: invalid IP address: &lt;hostname&gt; in the discovery status
+            -   Updates the "AIX hardware Manufacturer" field in the "AIX Server" table, instead of updating it with the last log-in time
+            -   Updates the Host Name field with the FQDN if the "glide.discovery.hostname.include\_domain" property is set to "true"
+        -   The "Network Router" pattern keeps the Loopback adapters in the "Network Adapter" table if it does not contain the MAC address.
+        -   The "Windows OS - Servers" pattern-
+            -   Includes FQDN in the Host Name field if the "glide.Discovery.hostname.include\_domain" property is set to true
+            -   Creates a reference relationship between "Disk Partition" and "File Systems"
+        -   The "F5 LoadBalancer SNMP" and the "SSH" patterns update the IP address records of the Wide-IP in the "DNS Name" table.
+        -   The "IIS Virtual Directory" pattern creates relationships between MS SQL and Port
+        -   The "Linux Server" pattern updates the "Azure Object ID" table based on the Little Endian or Big Endian format
+        -   Horizontal Discovery updates Hardware CIs that use the \[ip\_address\] as an identifier. See KB1585077
+        -   The "Azure Service Account" pattern updates the discovery log with an error and terminates if the pattern fails.
+-   **Version 6.16.1 - March 2024**
+    -   Fixed:
+        -   IIS Virtual Directory pattern supports multiple instances of running tnsping.exe.\\SQL Express.
+        -   Solaris ADM/ADME Probes initiate for Global Zone Servers.
+        -   Linux storage pattern populates a 'Capacity' field in MB \(Total Space\), in the File System table.
+        -   Linux Server pattern discovery of Amazon EC2 AMI virtual server sets a flag "virtual"="true" in the Linux Server table.
+        -   Server discovery populates the 'Vendor' field with Disk CIs \(any disk types cmdb\_ci\_storage\_hba','cmdb\_ci\_disk','cmdb\_ci\_iscsi\_disk','cmdb\_ci\_fc\_disk','cmdb\_ci\_storage\_device\)
+        -   The Network Device pattern works with credentials.
+        -   The storage.bash' MID Server Script file is fixed to check that the executable 'multipath' actually exists or not
+        -   Azure:
+            -   Azure - Sub Account \(LP\) Pattern discovers Azure management account
+            -   Azure DataBase \(LP\), Azure DataBase Event, and Azure DataBase TD mark retired Database CIs and Cloud Database CIs
+        -   NetApp:
+            -   NetApp Storage pattern inserts or updates the storage volume of the NetApp Storage Server.
+            -   NetApp Storage Server pattern- fixed the logic to validate the serial number of CI types Chassis and Disk Shelf Chassis
+-   **Version 6.16.0 - February 2024**
+    -   New: F5 Pattern supports token-based authentication
+    -   Fixed:
+        -   -   Deletion Strategy is fixed for the Cloud LP pattern
+-   WebLogic Pattern - the app deployments are populated in the WebLogic Cluster
+-   Docker Pattern
+    -   Creates the relationship
+    -   Filters Local Image \(property sn\_itom\_pattern.manifest\_digest\_image\_id is set to true\)
+-   Windows OS - Desktops Pattern - creates a relationship between Computer CI and the VM instance
+-   Linux Server Pattern
+    -   Collects a valid os\_distribution
+    -   Corrects the dependency Multiple IO Pool Group and Multiple IO Pool path
+    -   Correctly processes the Major/Minor from the response and the pool members will be related to a pool
+-   Linux Storage Pattern - correctlymaintains the relationship between disks and partitions
+-   MSSql DB On Windows Pattern - sets the correct install\_status value
+-   JBOSS Pattern - updates the correct value in the install\_directory field
+-   IIS Virtual Directory Pattern - the invalid ADO.NET connection is fixed
+-   F5Rest Pattern - correctly maintainsregex \(Ip and Port combination\)
+-   UCS Discovery maintains the right relationship between the server and the blade
+-   MySQL on Unix Pattern - Populates the correct version of MySQL
+-   **Version 6.15.2 - December 2023**
+    -   Fixed:
+        -   Solaris Server pattern extension section "Solaris serial number alignment": Solaris Sun/Blade Servers that are physically unique and share the same physical chassis return the same chassis serial number, fix the logic, and have separate records for each physical unique server in the CMDB
+        -   Azure LoadBalancer TD: Set the correct service backend port
+        -   In the Linux Server pattern and in the extension section Unix Cluster - ORACLE Clusterware: Fixed the regex and capable of parsing another format, when it doesn't match VIP and Name
+        -   F5REST pattern: Populate IP address value
+        -   Delivery Controller pattern: The logic to fetch \[entry\_point\] is fixed
+        -   SAP ERS Application pattern: Fixed the logic of parsing the SAP ERS version
+        -   Netscaler Load Balancer pattern using NS.CONF: Set the correct Primary Node status in CMDB
+        -   UCS - HD pattern: Read the UCS response and update blade items in CMDB
+        -   Windows storage pattern: Fixed the issue of multiple NTFS Folder mounted drives discover
+        -   MS SQL DB on Windows pattern:
+            -   Fixed the broken relationship in \[cmdb\_rel\_ci\] for MS SQL Standalone instances
+            -   Fixed the passive SQL Instance Operational Status
+        -   Windows OS - Desktops pattern: Fixed the relationship between the Computer CI and the Virtual Machine Instance CI
+-   **Version 6.15.0 - November 2023**
+    -   Changed:
+        -   SSIS refactoring
+        -   SSAS refactoring
+    -   Fixed:
+        -   Linux Server Pattern: Calculate the total diskspace of a Linux Server with Multipath SAN drive
+        -   Network Switch pattern:
+            -   Sets the switch name with FQDN if glide.discovery.hostname.include\_domain system property is set to true
+            -   Post-sensor script will process a large payload
+        -   Credential-less Discovery Network Device: Add graceful termination when HostDiscovery is empty
+        -   GCP Validate Service Account Pattern: The test account was failing when attempting to validate with Folder ID
+        -   Tomcat Pattern: Name of the CI contains a redundant ":" character
+        -   MSSql DB On Windows:
+            -   The Collect MSSQL Cluster Info" extension section does create node
+            -   Will not mark as absent a previously discovered database
+            -   Will have reference to instance name
+        -   Amazon AWS Relational Database Service: Correcting the EVAL step pre-condition
+        -   GoDaddy CA Discovery: CA authority does create certificate history for all certificates
+        -   F5 Load Balancer SSH and F5 Load Balancer Pattern: Doesnot create duplicate records
+        -   "F5 Load Balancer SSH" Pattern: Can interact with bigpipe.displayservicenames regardless of parameter value
+        -   Azure website TD Pattern: Will create connection to Database
+        -   IIS Virtual Directory Pattern: Remove default dummy connection
+        -   Windows - Network Pattern Library: NICs gets filtered
+        -   Netscaler pattern HD: Will not filter out vips without groups and TD discovery will not fail
+        -   DB2 on Linux Pattern: Calculate installed dir
+        -   Windows OS: Desktops pattern is populating chassis-type field in Computer class
+        -   JBoss: Pattern is collecting the right version of JBoss
+        -   J2EE: EAR On Linux pattern is not creating duplicates Oracle DB Endpoints
+        -   NetApp Cluster Pattern: Doesn't create duplicate storage volumes
+        -   Linux Storage Pattern: Fibre Channel Disks for Linux servers reference to FC Port
+-   **Version 6.12.3 - October 2023**
+    -   Changed:
+        -   SSIS refactoring
+        -   SSAS refactoring
+        -   Cleanup in the gs.log statements in global.CloudApplicationDiscovery
+    -   Fixed:
+        -   Discovery Home Page: fixed Test account when trying to validate with Folder ID for Google provider
+        -   Azure Website pattern: fixed the relationship to the database
+        -   The Network Switch pattern is using glide.discovery.hostname.include\_domain
+        -   HD Netscaler pattern: fixed filtering on VIPs without groups
+        -   Credentialless Discovery Network Device: added graceful termination when the HostDiscovery is empty
+        -   Network discovery: fixed the post-sensor script that was not executed due to the fact that the String obj exceeded the maximum permitted size
+        -   Windows - Network Pattern Library: fixed the filtering on VIPs with more than one address issue
+        -   F5 Load Balancer SSH and F5 Load Balancer \(SNMP\): aligned the serial number value
+        -   IIS Virtual Directory pattern: fixed the "ADO .NET connectivity"
+        -   MSSQL DB On Windows pattern:
+            -   Handling timeout on MSSQL populate database table
+            -   "Collect MSSQL Cluster Info" extension: support for glide.discovery.hostname.include\_domain
+        -   Windows OS - Desktops: support for chassis type in the Computer class
+-   **Version 6.13.0 - September 2023**
+    -   Changed:
+        -   SSIS refactoring
+        -   SSAS refactoring
+        -   Cleanup in the gs.log statements in global.CloudApplicationDiscovery
+    -   Fixed:
+        -   Discovery Home Page: fixed Test account when trying to validate with Folder ID for Google provider
+        -   Azure Website pattern: fixed the relationship to the database
+        -   The Network Switch pattern is using glide.discovery.hostname.include\_domain
+        -   HD Netscaler pattern: fixed filtering on VIPs without groups
+        -   Credentialless Discovery Network Device: added graceful termination when the HostDiscovery is empty
+        -   Network discovery: fixed the post-sensor script that was not executed due to the fact that the String obj exceeded the maximum permitted size
+        -   Windows - Network Pattern Library: fixed the filtering on VIPs with more than one address issue
+        -   F5 Load Balancer SSH and F5 Load Balancer \(SNMP\): aligned the serial number value
+        -   IIS Virtual Directory pattern: fixed the "ADO .NET connectivity"
+        -   MSSQL DB On Windows pattern:
+            -   Handling timeout on MSSQL populate database table
+            -   "Collect MSSQL Cluster Info" extension: support for glide.discovery.hostname.include\_domain
+        -   Windows OS - Desktops: support for chassis type in the Computer class
+-   **Version 6.12.1 - August 2023**
+    -   Fixed:
+        -   ""My SQL server On Windows"" and ""Linux"" patterns
+            -   The identification step eval failed
+            -   Had the wrong command syntax when creating connections to other
+            -   Had a problem finding the location of MySQL in ExecutableDir.
+        -   The ""Apache on UNIX-based OS"" pattern is populating the correct web server version
+        -   The Linux server discovery of devices in a Kubernetes environment is updated
+        -   The ""Linux server"" pattern populates \[ip\_address\] CI and not creating duplicate network adapters
+        -   The Network Switch pattern - Duplicate Hardware Models is fixed
+        -   The Mongo DB pattern failed to execute 2 times or more
+        -   The Jboss pattern failed if app: demo-console and app: demo-console-server
+        -   OSs - Pre Sensor"" Pattern Pre Post Processing script is fixed
+        -   Azure - Classic LB \(LP\)"" pattern created two CIs of the LB service if it runs cloud schedule and TD or service mapping
+        -   'UNIX - Find FQDN' Shared Pattern Library sets SSH Error is fixed
+        -   a Button on the pattern log to disco home is added
+        -   NetApp Storage Cluster-Mode pattern discovery is fixed
+        -   For V instance disable the retry code in ITOM in case the code of ATG exists
+        -   Linux\\Unix OS - Pre Sensor failed when the start date was not returned in numeric value
+        -   ""Delete Switch Stack stale old relations"" pre/post script caused high memory consumption
+        -   Domain Separation: pattern overrides didn't work - Amazon AWS Service Account / Amazon AWS - Sub Account \(LP\) didn't launch during AWS Cloud discovery
+        -   The ML errors in the logs were fixed
+        -   Discovery of Computers/Servers changes CI's install status to Operational/Installed, overwriting the correct manually added values
+        -   Deletion Strategy was triggered even if the Orchestrator pages failed
+        -   The required attribute \[dataceneter\_type\] was missing when the wrong credentials for Azure were inserted.
+        -   A10 Pattern- the Pool Members were not populated by Discovery
+        -   SNMP - Classify Initialization"" is fixed
+        -   Active Directory Domain Controller for Windows - Process Classification added
+        -   The Linux server pattern failed in the Utah version due to unfiltered invalid IPv6 route
+        -   the Azure Database Pattern is updated
+        -   The HyperV VM disk size and count is fixed
+        -   The Azure subscription tags are now discovered
+        -   The HP-UX pattern is updated
+        -   The HP-UX - Hardware Serial Number library gets the same serial number virtual machine and host
+        -   ""HorizontalDiscoveryHandler.addLinkToDiscoveryLog\(\)"" added a new index
+        -   Change the \[sn\_discovery\_orchestrator\_pattern\_output\] table cleaner configured OOB to retain 7days
+        -   The Tuxedo pattern is updated
+        -   ProcessGroupService: processes were deleted and the cluster still held the reference to the empty processes
+-   **Version 6.12.0 - June 2023**
+    -   New: A configuration to easily enable or disable collecting ARP info in the Discovery configuration console.
+    -   Fixed:
+        -   An image id was differently captured by both the Docker and the Kubernetes Patterns for the same Docker image.
+        -   The MSSQL DB On Windows Pattern triggered security alerts on the discovered server due to multiple sqlcmd failed attempts.
+        -   GCP Storage volumes had 5 different states, ServiceNow only tracked 3 so a blank value was given when 2 states were in use.
+        -   The Tuxedo application Pattern fallback steps to getVersion didn't work.
+        -   Oracle PDB instances \[cmdb\_ci\_db\_ora\_pdb\_instance\] were discovered for partial databases.
+        -   The ESX server had multiple "Runs-on" relationships to Cisco UCS Blade.
+        -   The "Windows 2022 Server" classifier triggered "Windows - Installed Software" by default.
+        -   Discovery failed with IRE error MISSING\_MATCHING\_ATTRIBUTES because the UNIX Cluster - Oracle Clusterware library created cmdb\_ci\_cluster\_vip records with an empty name and IP address "Usage: grep".
+        -   The WebLogic "Module Connectivity" failed an attempt to create cmdb\_ci\_endpoint\_tcp records with a null port, resulting in IRE errors.
+        -   The Linux server Pattern had inconsistent whitespace addition in the storage.bash.
+        -   The Network Router Pattern produced network adapter records with empty 'Mac address' or 'Name' values, causing identification errors.
+        -   The Oracle DB on Unix identification sectionfailed to process TCP EP on regex of Oracle home and version.
+        -   For the Azure Website \(LP\) Pattern, the table \[cmdb\_ci\_cloud\_webserver\] attribute "vendor" is now populating.
+-   **Version 6.11.0 - May 2023**
+    -   New: A configuration to easily enable or disable collecting ARP info in the Discovery configuration console.
+    -   Fixed:
+        -   An image id was differently captured by both the Docker and the Kubernetes Patterns for the same Docker image.
+        -   The MSSQL DB On Windows Pattern triggered security alerts on the discovered server due to multiple sqlcmd failed attempts.
+        -   GCP Storage volumes had 5 different states, ServiceNow only tracked 3 so a blank value was given when 2 states were in use.
+        -   The Tuxedo application Pattern fallback steps to getVersion didn't work.
+        -   Oracle PDB instances \[cmdb\_ci\_db\_ora\_pdb\_instance\] were discovered for partial databases.
+        -   The ESX server had multiple "Runs-on" relationships to Cisco UCS Blade.
+        -   The "Windows 2022 Server" classifier triggered "Windows - Installed Software" by default.
+        -   Discovery failed with IRE error MISSING\_MATCHING\_ATTRIBUTES because the UNIX Cluster - Oracle Clusterware library created cmdb\_ci\_cluster\_vip records with an empty name and IP address "Usage: grep".
+        -   The WebLogic "Module Connectivity" failed an attempt to create cmdb\_ci\_endpoint\_tcp records with a null port, resulting in IRE errors.
+        -   The Linux server Pattern had inconsistent whitespace addition in the storage.bash.
+        -   The Network Router Pattern produced network adapter records with empty 'Mac address' or 'Name' values, causing identification errors.
+        -   The Oracle DB on Unix identification sectionfailed to process TCP EP on regex of Oracle home and version.
+        -   For the Azure Website \(LP\) Pattern, the table \[cmdb\_ci\_cloud\_webserver\] attribute "vendor" is now populating.
+-   **Version 6.9.0 - March 2023**
+    -   Fixed:
+        -   Linux Server discovery was failing due to missing MAC Address for the network interface.
+        -   The issue with MSSQL Instance discovery as part of MSSQL cluster discovery is fixed.
+        -   The Discovery Pattern Weblogic was capturing the incorrect version number.
+        -   The discovery of nslookup was failing in some situations during Pattern execution when the IP address table size was too large.
+        -   PostgreSQL instance was not defining $entry\_point.instance and the result was a generic CI name.
+        -   Cassandra Distributed DB Pattern - IRE payload was missing matching attributes.
+        -   Windows network adapters were filtered by the wrong logical operator when removing network adapters with VIP.
+        -   AWS ELB service Pattern did not create a connection since it was looking for rules that are not always assigned.
+        -   \[k8S-SAM\] \[docker pattern\]Container Environment variables collected only for the first container of the image.
+        -   Security bugs
+-   **Version 6.7.2 - February 2023**
+    -   Fixed:
+        -   Linux Server Pattern failed to run AWS Host discovery with Azure flag set to "true".
+        -   Windows and Linux Pattern Parse JSON Custom Operation didn't return all records.
+        -   Tomcat populate web applications library causes MID server OOM crash.
+        -   Windows Patterns that run "Parse File" operation got "Failed to retrieve remote data" error.
+        -   Google Organization Pattern discovery got "Cannot convert null to an object" error during Post-processing.
+        -   Linux Pattern Step 3.1.10 - "Convert output to JSON" resulted in "java.lang" error.
+        -   When more than one Discovery Pattern was exported to XML, the Export Window did not show the correct title.
+        -   Out-Of-Box ServiceNow SNMP OID 1.3.6.1.4.1.9.1.2661 didn't point to the IP Router Table as well as Standard Network Router Classifier.
+        -   GCP Discovery Related Projects got an error during Step 18: "java.util.ArrayList cannot be cast to class java.lang.String".
+        -   Top-down discovery for Tibco Service failed because the wrong pattern was triggered.
+        -   DB2 on Linux Pattern did not discover the Edition attribute.
+        -   The Oracle DB on Unix pattern discovery failed due to the TCPS protocol.
+        -   The Docker images were not populated in the \[cmdb\_ci\_docker\_image\] CI during discovery on k8s node.
+        -   The process of the group table deletion did not work.
+        -   Discovery resulted in an error when sysprop "glide.hd.payload\_format.internal\_id\_based\_payload" was set to "true" due to CIs inserted in Pre-Sensor scripts.
+        -   Linux Server IMDSv2 pattern steps impacted pattern performance on non-EC2 servers due to default curl timeout.
+        -   Linux Server discovery, step "Filter route interfaces" \(\#3.2.83\) failed and resulted in "NullPointer" error.
+        -   Patterns on agent - The data collection results in "getFileOwner" windows operation error.
+        -   Amazon AWS classic ELB Service and Amazon AWS application ELB service did not properly set name and object\_id.
+        -   The ID section discovery on SAP did not create a connection to HANA DB.
+        -   The Wrong precondition in shared library "Azure - Resolve FQDN to IPs" prevented the population of the IP addresses for Cloud databases.
+        -   The Load Balancer Pool Members were not discovered with Patterns.
+        -   Running Horizontal Discovery on a VM in AWS did not populate correlation\_id on Tokyo, when the manufacturer value was in the pre-sensor script.
+        -   NetApp Discovery pattern did not update manufacturer value for Storage Cluster.
+-   **Version 6.7.0 - December 2022**
+    -   Changed:
+        -   Update Pattern logs table to include an attribute to indicate when a pattern gets executed on an agent
+        -   Azure VM - change from per LDC region to all LDCs region
+    -   Fixed:
+        -   Security bug
+        -   ACL bypass with CreatePatternForGenericApplication Script Include \| Service Mapping and Patterns \[Project SeCure CCSI\]
+        -   ACL Issues: Client Callable Script Include \(CCSI\) Attribute
+        -   Windows
+        -   discovery does not link the file system to the correct partition
+        -   Discovery Payload Processing Error - Serial number is empty
+        -   Linux
+        -   CPU information is empty for ARM CPU in QEMU of Linux server CI in the discovery
+        -   Linux Server Pattern does not have a step "Remove interfaces without name and Mac addresses" for Kernel 3 and above
+        -   Red Hat Linux 9 got "Linux Fedora" in Linux distro in "Linux Server" pattern
+        -   Azure
+        -   Relationship missing between the Server and Azure VM
+        -   Azure Website TD functionality - detect connections using connection string type field
+        -   F5
+        -   F5 Load Balancer pattern - F5 - SNMP Cluster extension creates duplicate records in cmdb\_ci\_cluster table, as the cluster\_id is too long due to duplicated entries in sysCmTrafficGroupStatusEntry variable
+        -   OID 1.3.6.1.4.1.3375.2.1.3.4.113 is showing a wrong model &gt; BIG-IP 8400
+        -   Oracle DB
+        -   ORACLE\_HOME from Step 22: "set ora\_home\_exe if the process contains pmon" in pattern "Oracle DB on Unix" should be populated from the variable "oracle\_home\_from\_pmon"
+        -   Service Mapping for Oracle DB on UNIX sets a different listening port to that of Horizontal discovery on an Oracle Instance
+        -   Docker
+        -   Align docker image name, image digest and container id with kubernetes pattern
+        -   Image Ids captured by Docker pattern and Kubernetes pattern are different for the same image
+        -   High memory consumption on /api/now/pattern\_library/GetCITypes calls
+        -   HTTPClassyProbe does not create service affinity records \(ip\_service\_affinity\)
+        -   IBM Zos discovery is failing with error message : Found duplicate items in the payload \(index 0 and 1\), using className \[cmdb\_ci\_server\] and fields \[name\]., DUPLICATE\_PAYLOAD\_RECORDS
+        -   Model Name for Gigamon Router \(OID 1.3.6.1.4.1.26866.3.14\) is not correct
+        -   Network Switch pattern post sensor scripts fails due to: TypeError: Cannot convert null to an object
+        -   OOB Solaris Server pattern shows old sunOS version and not the Solaris OS Version
+        -   Postgres pattern not populate port number as a part of the instance and CI name of the PostgresSQL for some Linux server.
+        -   Slow probe to pattern migration due to updates on probe\_to\_pattern\_log.
+        -   Solaris - Network shared library merging of interfaces throws error when comparing two ArrayLists
+        -   Standalone switch that used to be a switch still set as secondary and duplicating router/switch data because it thinks it is still a secondaryswitch
+        -   TableCleaner query for the count on sn\_discovery\_orchestrator\_pattern\_output runs too long
+-   **Version 6.6.0 - November 2022**
+    -   Fixed:
+        -   Added record validation to check status for scripts listed in sa\_find\_host\_script \(for app-pattern-designer\).
+        -   A Switch CI was created for Cisco Fabric Extender \(FEX\) units, as if it was a Stacked Switch.
+        -   Amazon AWS Route53 pattern errors that occured when there were no resources after filtering, instead of failing.
+        -   AWS Linux Servers did not create relationships for IMDSv2 between the VM instance and the Linux server record.
+        -   Postgres pattern did not populate the instance name and all discovered CI set as PostgresSQL.
+        -   Invalid "DNS Names" were created when there was additional output from nslookup.
+-   **Version 6.1.1 - October 2022**
+    -   Fixed:
+        -   Network
+            -   "Network Devices - Post Sensor" pre/post replicating large object causing high memory consumption
+            -   "Step: 3.2.33. Update cmdb\_ci\_network\_adapter table - for kernel and above" in Linux Server pattern causes missing adapter and orphan ip address
+            -   Additional Fix for PRB1409610 - Network Switch Fails with Java Error in Step 18.3: Set destination network and convert network data for future calculations
+        -   IIS
+            -   Service Mapping - Filters remove all websites and IIS doesn't pass apps to connection section \(IIS folders\)
+            -   Pattern: instance is part of EP but pattern fails to create CI
+        -   Azure
+            -   Azure Cloud Discovery not able to Discovery the Database
+            -   Azure Website pattern fails during top down due to deprecated API use under patern's connection section
+        -   F5
+            -   Pattern doesn't support partitions
+            -   F5Rest pattern has no logic for honoring discovery property "glide.discovery.hostname.include\_domain"
+        -   Amazon AWS - Virtual Server - fails due to payload error
+        -   Cloud Inventory Discovery - GCP resources that are getting discovered with specific pattern also exist under inventory include list
+        -   DB2 Instance \(cmdb\_ci\_db\_db2\_instance\) hosted on Linux/Unix server might be discovered with different name by Service Mapping and result in multiple CIs created for the same instance
+        -   Discovery for Stacked Switches does not add serial\_number\_type to member Switches, which can result in high DB CPU due to insert failures
+        -   Identification attributes for class cmdb\_ci\_cluster are not populated \(ID and Name\) causing the Linux Server Pattern to fail
+        -   Linux - Network pattern step, "Extract interface data - for kernel 3 and above", causes removing some of the interfaces due to parsing issue
+        -   Oracle DB on Windows Discovery pattern uses sqlplus executable version rather than actual oracle version
+        -   Pattern "PostgreSQL DB" on Windows - incorrectly handled quotation marks
+        -   Tomcat pattern: does not create Ora connections although found from conf file
+        -   Windows OS - Servers Pattern Step 'nslookup all IP addresses' runs even though the Pre - Condition is not met
+-   **Version 6.1.0 - September 2022**
+    -   New: Support IPvF5 LBs,Linux and Windows
+    -   Fixed: IPv4 for Windows
+        -   discovery\_net\_arp\_table - IPv4 addresses are not discovered - regression for IPv4
+        -   discovery\_net\_arp\_table - IPv6 addresses are not discovered
+        -   dscy\_route\_interface name - regression for IPv4
+        -   discovery\_net\_arp\_table - entries are missing for IPv4 - regression for IPv4
+        -   Invalid relations for window server
+        -   Windows OS storage pattern does not filter duplicates correctly on step 26.54
+        -   Windows Server IPv6: dscy\_route\_next\_hop: some entries have name "-1.442971133E9" value
+        -   "NetApp Storage Cluster-Mode" pattern does not retrieve the serial number for a specific device. The system-info parameters of the device do not match a successful discovery.
+        -   NetApp Storage cluster mode pattern is failing while processing the data with error message: MISSING\_DEPENDENCY
+        -   The Deletion Strategies of the F5REST Pattern are incorrect or missing
+        -   Navigate to Pattern: F5 Load Balancer Pattern - There is a space before the ItmPoolStatEntry OID for 18. Get Pools Table
+        -   Linux HD falied on ARP tables
+        -   Linux pattern doesn't update "Complete Activity" under "Device"
+        -   Linux Server Discovery Pattern doesn't populate CPU Info if cpu\_core\_thread is missing
+        -   Linux Server pattern failing due to error in payload missing minimum set of input values for criterion \(matching\) attributes from identify rule for table \[dscy\_router\_interface\]
+        -   Incorrect disk space for Linux server
+        -   "sudo" command hardcoded in Linux Memory Modules
+        -   \[Linux server IPV6\] Linux server pattern is failing in step - "Filter gateways"
+        -   Discovery: Linux Server Pattern Creating Duplicate Storage Device Disk Related Items for NVMe Storage
+        -   After PRB1567613 relations between DNS names and AWS Cloud service account are not created
+        -   AWS Hybrid discovery for 2 IPs \(v4 and v6\) is not consistent
+        -   Due to duplication of source\_native key in Host\(LP\) pattern, the AWS - Virtual Server pattern is failing
+        -   Jboss pattern: step: 14. set alternative install dir Unix = $install\_dir\_exists is an array, thus step pops error: class java.util.ArrayList cannot be cast to class java.lang.String
+        -   Need to fix default Variable " res " Value in step 23 of the JBOSS Http pattern
+        -   Citrix Virtual Apps showing apps not related the entry point defined in the icon path field
+        -   Hyper-V Server pattern steps do not differentiate identification fields from Windows Server, causing conflicts with duplicate remediator
+        -   "Hyper-V - Virtual Machines" shared library's "38.1.26. Insert virtual machines data to cmdb\_ci\_hyper\_v\_instance" step populates the same bios\_guid for all vms with HyperVVirtualMachines\[1\] instead of HyperVVirtualMachines\[\].
+        -   Add some random minutes to the start time of Applications suggestion - ITOM Autodiscovery scheduled job from 2019-08-07 11:34:36 so that trigger associated with the job gets updated as per the new start time.
+        -   AFP Scheduled job are running at periodically in pre-defined defined minute, causing a thundering-herd style problem
+        -   AIX Discovery fails when OS Patch name is not returned
+        -   Azure LoadBalancer TD have duplicate records
+        -   Citrix license server classifier is not accurate since lmgrd.exe is a generic FlexLM daemon name which can be used by a lot of vendors, not just Citrix.
+        -   DB2 pattern is not setting the installed\_dir
+        -   DEF0277815 causing com.snc.it.discovery.patterns test failures
+        -   During execution of Discovery Pattern PostgreSQL DB against a Windows Server, the process pid is not passed to the netstat findstr command
+        -   Generated text for IIS and Java is too long, needs to be limited to 1000 characters
+        -   In the Pattern Tomcat, the software version are not collected from default sources like version.bat, version.sh and RELEASE-NOTES
+        -   Kubernetes Pattern is populates Linux Server Name with FQDN, causing duplicate records in the Linux Server table, and subsequent deletion of the original, because Host Discovery uses just the hostname by default
+        -   MariaDB discovery through MySQL pattern is not supported
+        -   Network Switch pattern is failing OOTB when attempting to discover Cisco APs through a Cisco Controller
+        -   Quick discovery updates node element and storage cluster location to empty
+        -   Refresh Member accounts Patterns are not deleting the deleted Projects linked to an Organization
+        -   Regression of PRB1475015 - Virtual machine are not marked as 'isVirtual'
+        -   Solaris Server: ChassisSerialNumber is extracted insteead of smbios serial number
+        -   SSHTerminalInteractiveCommand probe ignores Credential Affinity
+-   **Version 6.0.0 - August 2022**
+    -   Decouple Pattern content from family releases.
+    -   Change in the install status update. After upgrading to Tokyo, the install status is automatically set to “Installed” \(“1”\) for all discovered infrastructure CIs. If your organization uses the install status, test Tokyo on your test instance before upgrading the production instance. Use the CSDM lifecycle status for tracking life cycle stages and stage statuses for CIs. Learn more about migrating to the CSDM life cycle standards.
+    -   To resolve issues related to the install status after upgrading to Tokyo, see [KB1226587](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1226587)
+

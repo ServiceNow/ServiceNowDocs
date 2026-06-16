@@ -1,0 +1,480 @@
+---
+title: Now Assist for Creator release notes
+description: Version history for the Now Assist for Creator application on the ServiceNow Store.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-na-creator.html
+release: store
+topic_type: reference
+last_updated: "2026-06-11"
+reading_time_minutes: 23
+breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+---
+
+# Now Assist for Creator release notes
+
+Version history for the Now Assist for Creator application on the ServiceNow Store.
+
+**Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+## Version history
+
+-   **Version 29.2.5 - June 2026 \(Australia\)**
+    -   New:
+        -   Build Agent
+            -   Upload files to Build Agent to provide context: images \(PNG, JPEG, GIF, WEBP\), documents \(PDF, DOC, DOCX, XLS, XLSX\), and text/code files \(TS, JS, PY, JSON, MD, HTML, YAML, and more\)
+            -   View update sets created by Build Agent from within the chat panel. Each checkpoint includes a button that opens the relevant update set in a new tab
+            -   Connect Build Agent to external MCP servers in ServiceNow Studio. Previously, MCP server connectivity was only available in the ServiceNow IDE.
+            -   Validate user interface output during app creation with the UI validation tool in Build Agent, now available in ServiceNow Studio.
+            -   Use the Search retrieval tool to enable agents to fetch and present relevant information from configured data sources in response to user queries. Agents can surface knowledge articles, catalog items, and other indexed content directly within the agentic workflow, reducing the need for users to navigate to separate search interfaces.
+        -   Catalog Item Generation
+            -   Migrated Now Assist for Catalog Generation skill group \(Create Catalog Item and Refine Skill\) to Mosaic \(off-Glide GenAI Controller\) by enabling offglide routing via OneExtend
+        -   Flow Execution Analysis
+            -   Net new app in Now Assist for Creator
+        -   Playbook Generation
+            -   Playbooks now automatically generate a concise, AI-powered summary of a Playbook's purpose, structure, and logic, helping new process owners quickly understand existing workflows without manual documentation.
+        -   Widget Generation and Widget Updation
+            -   Australia support
+    -   Changed:
+        -   Build Agent
+            -   New MCP integrations in ServiceNow Studio: Added support for 12 connectors including Atlassian Rovo, DocuSign, Figma, GitHub, Linear, Miro, Prisma Postgres, and Zoom \(Chat, Docs, Revenue Accelerator, Whiteboard\)
+-   **Version 28.9.3 - June 2026 \(Zurich\)**
+    -   New:
+        -   Build Agent:
+            -   Upload files to Build Agent to provide context: images \(PNG, JPEG, GIF, WEBP\), documents \(PDF, DOC, DOCX, XLS, XLSX\), and text/code files \(TS, JS, PY, JSON, MD, HTML, YAML, and more\)
+            -   View update sets created by Build Agent from within the chat panel. Each checkpoint includes a button that opens the relevant update set in a new tab
+            -   Connect Build Agent to external MCP servers in ServiceNow Studio. Previously, MCP server connectivity was only available in the ServiceNow IDE.
+            -   Validate user interface output during app creation with the UI validation tool in Build Agent, now available in  ServiceNow Studio.
+            -   Use the Search retrieval tool to enable agents to fetch and present relevant information from configured data sources in response to user queries. Agents can surface knowledge articles, catalog items, and other indexed content directly within the agentic workflow, reducing the need for users to navigate to separate search interfaces.
+        -   Catalog Item Generation:
+            -   Migrated Now Assist for Catalog Generation skill group \(Create Catalog Item and Refine Skill\) to Mosaic \(off-Glide GenAI Controller\) by enabling offglide routing via OneExtend
+        -   Playbook Generation:
+            -   Playbooks now automatically generate a concise, AI-powered summary of a Playbook's purpose, structure, and logic, helping new process owners quickly understand existing workflows without manual documentation.
+    -   Changed:
+        -   Build Agent:
+            -   New MCP integrations in ServiceNow Studio: Added support for 12 connectors including Atlassian Rovo, DocuSign, Figma, GitHub, Linear, Miro, Prisma Postgres, and Zoom \(Chat, Docs, Revenue Accelerator, Whiteboard\)
+-   **Version 29.2.2 - May 2026 \(Australia\)**
+    -   New:
+        -   Build Agent
+            -   Execute and troubleshoot ATF tests right from the Build Agent console in the ServiceNow IDE and ServiceNow Studio.
+            -   Improved first shot UI output with design time UI validation tooling.
+            -   Use semantic search in Build Agent to locate relevant instance artifacts, including tables, scripts, and business rules during build and edit tasks. Find files, applications, and knowledge on your instance based on meaning instead of requiring exact keywords.
+        -   Theme generation
+            -   Upload brand guidelines as a PDF to the theme creation workflow in the Now Assist panel to generate themes that align with your brand.
+-   **Version 28.9.2 - May 2026 \(Zurich\)**
+    -   New:
+        -   Build Agent
+            -   Execute and troubleshoot ATF tests right from the Build Agent console in the ServiceNow IDE and ServiceNow Studio.
+            -   Improved first shot UI output with design time UI validation tooling.
+            -   Use semantic search in Build Agent to locate relevant instance artifacts, including tables, scripts, and business rules during build and edit tasks. Find files, applications, and knowledge on your instance based on meaning instead of requiring exact keywords.
+        -   Theme generation
+            -   Upload brand guidelines as a PDF to the theme creation workflow in the Now Assist panel to generate themes that align with your brand.
+        -   Widget generation and widget updation
+            -   Initial Release
+-   **Version 29.1.2 - April 2026 \(Australia\)**
+    -   New:
+        -   Build Agent
+            -   Keyword search enhancements
+        -   Mobile card generation
+            -   Users with the mobile\_admin role can access mobile card generation
+        -   Release lifecycle documentation AI agent
+            -   ServiceNow introduces release lifecycle documentation AI agent, an AI-powered capability designed to reduce the documentation burden on IT admins managing application development and deployment workflows.
+        -   Theme generation workflow
+            -   Generate themes using Now Assist.
+    -   Changed:
+        -   Catalog item generation
+            -   Improved messaging in the conversational catalog builder to provide clearer guidance and a better user experience.
+    -   Fixed:
+        -   Catalog item generation
+            -   Updated the Catalog Generation application scope from private to public to improve accessibility.
+-   **Version 28.8.2 - April 2026 \(Zurich\)**
+    -   New:
+    -   -   Build Agent
+    -   Build Agent in ServiceNow Studio - AI-assisted development now available directly in Studio, reaching low-code and no-code builders for the first time.
+    -   Global &amp; App Customization - Build Agent now edits entire instances, not just individual apps. Simplifies OOB app customization and large-scale implementations.
+    -   Upgraded AI Models - Claude Opus 4.6 and Sonnet 4.5 deliver better code quality, reasoning, and performance.
+    -   Now supporting: Flows, Service Catalog, Workspaces, UI Components, List Controls, UI Policy, Email, and UI View.
+    -   Keyword search enhancements
+-   Mobile Card Generation
+    -   Users with the mobile\_admin role can access Mobile Card Generation
+-   **Version 29.0.1 - March 2026 \(Australia\)**
+    -   New:
+        -   Build Agent
+            -   Build Agent in ServiceNow Studio - AI-assisted development now available directly in Studio, reaching low-code and no-code builders for the first time.
+            -   Global &amp; App Customization - Build Agent now edits entire instances, not just individual apps. Simplifies OOB app customization and large-scale implementations.
+            -   Upgraded AI Models - Claude Opus 4.6 and Sonnet 4.5 deliver better code quality, reasoning, and performance.
+            -   Now supporting: Flows, Service Catalog, Workspaces, UI Components, List Controls, UI Policy, Email, and UI View.
+-   **Version 28.7.1 - March 2026 \(Zurich\)**
+    -   New:
+        -   Catalog item generation
+            -   Edit published or live catalog items directly with Now Assist.
+            -   Configure UI policies with multiple associated action records against multiple variables with Now Assist.
+            -   Configure location, access, fulfillment, and portal settings with Now Assist.
+            -   Implemented the latest AI tokens for catalog generation.
+        -   Generate themes using Now Assist
+            -   Initial release.
+        -   UI generation
+            -   Application module generation enables admins to create and configure modules through natural language prompts.
+            -   Added support for 3rd party LLMs \(OpenAI GPT-5.2, Claude Sonnet 4.5, and Gemini 3.0 Pro\).
+-   **Version 28.6.1 - February 2026 \(Zurich\)**
+
+    Removed: Spoke Generation has been removed from the Now Assist for Creator Bundle and will be a separately installed app on the ServiceNow Store.
+
+-   **Version 27.7.1 - February 2026 \(Yokohama\)**
+
+    Removed: Spoke Generation has been removed from the Now Assist for Creator Bundle and will be a separately installed app on the ServiceNow Store.
+
+-   **Version 28.5.2 - January 2026 \(Zurich\)**
+    -   New:
+        -   Build Agent
+            -   Expanded Metadata Support:
+                -   Contextual Security: Define granular security rules that control access based on contextual conditions
+                -   Import Sets: Create data import configurations to migrate data from external sources into your applications
+                -   UI Policy: Build dynamic form behaviors that show, hide, or make fields mandatory based on conditions
+                -   UI Formatter: Design custom field formatters to control how data displays on forms and lists
+                -   Related List: Configure related lists to display associated records on forms
+            -   UI Page Theming Enhancements: Build Agent now creates more visually polished UI pages with improved theming capabilities.
+        -   Catalog Item Generation
+            -   Added feedback population logic for Catalog Generation and Catalog Refine skills to track Now Assist response acceptance in Gen AI logs table
+-   **Version 27.6.1 - January 2026 \(Yokohama\)**
+    -   New:
+        -   ATF troubleshooting agent
+            -   The new ATF troubleshooting agent helps to streamline the process of determining why tests are failing on specific metadata. The ATF troubleshooting agent analyzes test failures and provides rationale for why tests might have failed.
+        -   Build Agent
+            -   Use the planning tool provided with the Build Agent to plan your application development. The planning tool helps you to create a detailed, step-by-step plan for your application development. You can refine this plan iteratively through discussion, providing feedback, and making adjustments until a final version is agreed upon.
+            -   Create your app architecture diagrams using the Mermaid diagram tool for better understanding of how the app is structured and for documentation.
+            -   Import existing custom scoped applications using the Open App tool.
+            -   Debug your UI Pages using the UI Page preview tool.
+            -   Use images as prompts with Build Agent. You can now attach images, such as architectural diagrams or UI wireframes, to provide context for prompts in the Build Agent.
+        -   Catalog generation
+            -   New conversational interface for catalog item creation.
+            -   Access real-time previews during catalog item creation.
+        -   Flow generation
+            -   Now supports NOW LLM LTS.
+        -   Flow summarization
+            -   Now supports NOW LLM LTS.
+        -   Mobile card generation
+            -   Now supports NOW LLM LTS.
+        -   Test generation
+            -   Now supports NOW LLM LTS.
+        -   UI generation
+            -   The new UI Builder agent enables you to ask questions and receive guidance about how to use UI Builder. The UI Builder agent provides an overview of page configuration, such as the structure and interconnections of page elements.  You can also use the UI Builder agent to apply different layouts configure components, and update styling.
+    -   Changed:
+        -   Code Generation
+            -   Choose an AI model provider for all Now Assist for Code skills in the script editor.
+        -   Mobile Card Generation
+            -   Updated roles.
+    -   Fixed:
+        -   Code Generation
+            -   Improvements to autocomplete performance.
+        -   Test Generation
+            -   Prompts in other supported languages such as Japanese.
+            -   Fixed issues with "generate test preview" and "cancel" button visibility.
+-   **Version 28.4.3 - December 2025 \(Zurich\)**
+    -   New:
+        -   ATF Troubleshooting Agent
+            -   Accelerate troubleshooting and resolve test failures quickly by using ATF Troubleshooting Agent on covered metadata.
+        -   Build Agent
+            -   Use the planning tool provided with the Build Agent to plan your application development. The Build Agent features a planning tool that helps you create a detailed, step-by-step plan for your application development. You can refine this plan iteratively through discussion, providing feedback, and making adjustments until a final version is agreed upon.
+            -   Create your app architecture diagrams using the Mermaid diagram tool for better understanding of how the app is structured and documentation.
+            -   Import existing custom scoped applications using the Open App tool.
+            -   Debug your UI Pages using the UI Page preview tool.
+            -   Use images as prompts in Build Agent. You can now attach images, such as architectural diagrams or UI wireframes, to provide context for prompts in the Build Agent.
+        -   Catalog item generation
+            -   Added conversational interface for catalog item creation.
+            -   Provided live, real-time previews during user interaction.
+            -   Enhanced user experience with prompts and dynamic updates.
+            -   Minimized manual work by merging natural language input and instant visual feedback.
+        -   Code generation
+            -   Choose an AI model provider for all Now Assist for Code skills in the script editor.
+            -   Improvements to Autocomplete performance
+        -   Flow generation
+            -   Now supports NOW LLM LTS.
+        -   Flow summarization
+            -   Now supports NOW LLM LTS.
+        -   Mobile card generation
+            -   Now supports NOW LLM LTS.
+        -   Playbook generation
+            -   Nudge screen is exposed to playbook authors if Playbook generation skills are available but not activated.
+        -   Test generation
+            -   Now supports NOW LLM LTS.
+        -   UI generation
+            -   Ask your questions about using UI Builder to the UI Builder agent. The UI Builder agent provides an overview of page configuration, such as the structure and interconnections of page elements. You can also use the UI Builder agent to apply different layouts, configure components, and update styling.
+    -   Changed:
+        -   Mobile card generation
+            -   Updated roles and golden config.
+    -   Fixed:
+        -   Test generation
+            -   Prompts in other supported languages such as Japanese.
+            -   "Generate test preview" and "Cancel" button visibility issues.
+    -   Removed:
+        -   App generation
+            -   Removed now.assist.creator role.
+        -   App summarization
+            -   Removed now.assist.creator role.
+        -   Catalog item generation
+            -   Removed now.assist.creator role.
+        -   Playbook generation
+            -   Removed now.assist.creator role.
+        -   UI generation
+            -   Removed now.assist.creator role.
+-   **Version 28.2.0 - October 2025**
+    -   Changed
+        -   Test generation
+            -   Removed now.assist.creator role requirement to access capability.
+    -   Fixed
+        -   Flow generation with images
+            -   Fixed performance issue.
+-   **Version 27.5.0 - October 2025**
+    -   Changed
+        -   Test generation
+            -   Removed now.assist.creator role requirement to access capability.
+    -   Fixed
+        -   Flow generation with images
+            -   Fixed performance issue.
+-   **Version 1.0.4 - October 2025**
+
+    The Now Assist for Employee Center Pro application bundles the required Now Assist capabilities for delivering an enterprise wide AI experience for employees. Employees can search across the enterprise, access tasks across systems, and more through an omni-channel conversational AI experience.
+
+-   **Version 28.1.0 - September 2025 \(Zurich\)**
+    -   New:
+        -   Application generation: Added support for Gemini and Claude, in addition to Now LLM and Azure OpenAI.
+        -   Application summarization: Added support for Gemini, Azure OpenAI and Claude, in addition to Now LLM.
+        -   Build agent: New feature \(first release\)
+        -   Flow generation:
+            -   Support generation using 3rd party models from Anthropic Claude, and Google Gemini.
+            -   Support generating subflow inputs and outputs using OpenAI GPT, Anthropic Claude, and Google Gemini.
+        -   Flow generation with images: Support generation using 3rd party models from Anthropic Claude, and Google Gemini.
+        -   Flow summarization: Support generation using 3rd party models from Anthropic Claude, and Google Gemini.
+        -   UI generation
+            -   Generate data binding with plain words - Simply describe what you want to calculate, and Now Assist will generate the correct data binding for you—no need to memorize formulas or structures.
+            -   Use AI like a data resource - Easily add generative AI capabilities to any component or page, just like using a data resource. No extra configuration needed.
+            -   Added support for Gemini and Claude, in addition to Now LLM and Azure OpenAI for the following features Experience Creation, Client Script Summarization, and Event Handler Generation.
+        -   Enhanced security measures to provide granular access controls across Now Assist for Creator skills
+    -   Changed:
+        -   Code generation: No longer requires users to have the now.assist.creator role
+    -   Removed:
+        -   Analytics generation: Feature is no longer bundled with Now Assist for Creator, but available to all Pro Plus customers.
+-   **Version 27.4.1 - September 2025 \(Yokohama\)**
+    -   New:
+        -   Application generation: Added support for Gemini and Claude, in addition to Now LLM and Azure OpenAI.
+        -   Application summarization: Added support for Gemini, Azure OpenAI and Claude, in addition to Now LLM.
+        -   Build agent: New feature \(first release\)
+        -   Catalog item generation:
+            -   Added support for Catalog generation skill on Gemini and Anthropic models.
+            -   Added Support for Catalog refine skill on Azure, Gemini, and Anthropic models.
+            -   Added support for Numeric scale, Masked, URL, and Lookup multiple choice variable types with Now assist
+            -   Improved the UX of AI elements in Catalog builder
+        -   Flow generation:
+            -   Support generation using 3rd party models from Anthropic Claude, and Google Gemini.
+            -   Support generating subflow inputs and outputs using OpenAI GPT, Anthropic Claude, and Google Gemini.
+        -   Flow generation with images: Support generation using 3rd party models from Anthropic Claude, and Google Gemini.
+        -   Flow summarization: Support generation using 3rd party models from Anthropic Claude, and Google Gemini.
+        -   Enhanced security measures to provide granular access controls across Now Assist for Creator skills
+    -   Changed:
+        -   Code generation: No longer requires users to have the now.assist.creator role
+    -   Removed:
+        -   Analytics generation: Feature is no longer bundled with Now Assist for Creator, but available to all Pro Plus customers.
+-   **Version 28.0.1 - August 2025 \(Zurich\)**
+    -   New:
+        -   Application generation
+            -   Create a workspace when creating an application in Now Assist for app generation. Enhance an existing application by adding a workspace.
+            -   Create a flow when creating an application in Now Assist for app generation. Enhance an existing application by adding a flow.
+            -   Support app generation with the Now LLM Service, which gives you the flexibility to choose between the Now LLM Service or OpenAI GPT-4o. Ensure compliance with any regional restrictions and help APAC users who may face limitations with US-based models, such as GPT-4.0.
+        -   App summarization
+            -   Time out app summary generation after 2 minutes.
+        -   Code generation
+            -   Support code explain and code summarize with the Now LLM Service. Ensure compliance with any regional restrictions and help APAC users who may face limitations with US-based models.
+        -   Flow generation
+            -   Call flow generation from a script using a flow generation API.
+            -   Use flow generation with images to create flows from images.
+        -   Flow summarization
+            -   Summarize what a flow or subflow does by using generative AI.
+        -   Mobile Component Generation
+            -   Convert an existing web component to a native mobile component.
+            -   Use Now Assist to create a new mobile card for use on a record screen. Have Now Assist automatically choose the optimal card template and map the most relevant table fields from the selected web form view.
+        -   Playbook Generation
+            -   Replace placeholder activities with custom activities, flows, sub-flows or actions.
+        -   Test Generation
+            -   Generate tests in out-of-box application scopes in addition to the global scope.
+    -   Changed:
+        -   Flow Generation
+            -   Enhance how components display in the preview and diagramming views.
+    -   Fixed:
+        -   Code Generation
+            -   Fix minor bugs.
+-   **Version 27.3.0 - August 2025 \(Yokohama\)**
+    -   New
+        -   Catalog item generation
+            -   Support creation of Numeric scale, Masked, URL, and Lookup multiple choice variable types with Now assist: Users can generate variable types like Numeric Scale, Masked, URL, and Lookup Multiple Choice using natural language with Now Assist.
+            -   Support creation of simple reference qualifiers with Now assist: Users can create simple reference qualifiers by describing filter conditions in natural language with Now Assist.
+            -   Configure availability section, additional question details, choice config using Now assist.
+            -   Support Catalog generation skill on Google Gemini and Anthropic Claude.
+            -   Support Catalog refine skill on OpenAI, Google Gemini and Anthropic Claude.
+        -   Code generation
+            -   Code autocomplete feature of the Now Assist for Code is available in the ServiceNow IDE.
+            -   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist for Code skills in addition to Now LLM Service and Azure OpenAI.
+        -   Flow generation
+            -   Support available for 3rd party models during flow generation.
+        -   Flow summarization
+            -   Support available for 3rd party models during flow summarization.
+        -   Mobile card generation
+            -   Support available for 3rd party models \(Google Gemini and Anthropic Claude\) during mobile card generation.
+        -   Playbook generation
+            -   Support available for 3rd party models \(Google Gemini and Anthropic Claude\) during playbook generation.
+        -   Test generation
+            -   Model choice support for Azure Open AI, Amazon Bedrock \(Claude\), Google Gemini, and NOW LLM. Specifically, with NOW LLM, regulated market customers can make use of Test Generation
+    -   Fixed
+        -   Test generation
+            -   Fixed irrelevant error "Check Dependencies before proceeding. See logs for more details" when Create with "Now Assist button" is clicked on the ATF Tests page.
+-   **Version 26.4.0 - June 2025 \(Xanadu\)**
+    -   New:
+        -   Analytics generation:
+        -   Improve response for time period/duration related questions
+        -   Catalog item generation:
+            -   Describe your item, and it's generated instantly.
+            -   Provide specific details, and the AI tailors catalog items to your needs.
+            -   The generated catalog item is customizable, ensuring that every item fits your specifications.
+            -   Get descriptions and question labels automatically.
+            -   The AI crafts compelling narratives, enhancing your catalog's professionalism.
+            -   Block users from creating catalog items for illegal and dangerous items/services.
+            -   Modify AI-generated values for certain fields using the Generate, Elaborate, or Shorten actions on individual fields.
+        -   Code generation:
+            -   Support code explain and code summarize with the Now LLM Service.
+            -   Ensure compliance with any regional restrictions and help APAC users who may face limitations with US-based models.
+        -   Mobile card generation:
+            -   Convert an existing web component to a native mobile component.
+            -   Use Now Assist to create a new mobile card for use on a record screen.
+            -   Have Now Assist automatically choose the optimal card template and map the most relevant table fields from the selected web form view.
+    -   Changed:
+        -   Catalog item generation:
+            -   Support the Llama 70B LLM.
+    -   Fixed:
+        -   Code generation:
+            -   Fix minor bugs.
+-   **Version 27.2.1 - May 2025 \(Yokohama\)**
+    -   New:
+        -   Added the flow generation with images skill.
+        -   Added the flow summarization skill.
+        -   Updated the application generation skill to allow adding columns to existing tables.
+        -   Updated the application generation skill to allow adding flows when creating an application.
+        -   Updated the application generation skill to allow adding workspaces when creating an application.
+        -   Updated the application generation skill to support using the Now LLM Service when creating an application.
+        -   Updated the playbook generation skill to support Retrieval Augmented Generation \(RAG\).
+-   **Version 27.1.0 - February 2025 \(Yokohama\)**
+    -   New:
+        -   Application Generation
+            -   Create applications in ServiceNow Studio using Now Assist with the guided app creator roleIn addition to users with the admin role, users with the guided app creator role can create application with Now Assist for app generation.
+            -   Edit applications without having to change the scope manuallyWhen editing applications, Now Assist for app generation now changes the scope you are working in to the scope of the application automatically.
+        -   App Summarization
+            -   New in this release.
+        -   Catalog Item Generation
+            -   Dynamic behavior supportUsers can now specify conditions in the utterance \[in supported regions\] based on which the UI policies will be generated and attached to the question.
+            -   Try an exampleView example utterances to see the feature in action.
+        -   Flow Recommendations
+            -   Display recommendations for placeholders.
+        -   Test Generation
+            -   New in this release.
+        -   Work Notes Analysis
+            -   New in this release.
+    -   Changed:
+        -   Analytics Generation
+            -   Analytics Generation now uses a Text to Query Service instead of Natural Language Query \(NLQ\), allowing more loosely phrased queries.
+            -   Only table data from the Task table hierarchy is supported.
+        -   -   Application Generation
+    -   Find files faster when previewing an application in Now Assist for app generationFilter the app files list and narrow the search based on file type when previewing an application created with Now Assist for app generation.
+    -   Enhanced visibility of apps created by Now Assist for app generationOn the ServiceNow Studio home page, apps generated by AI display the AI indicator.
+    -   More easily identify changes when previewing and updating applicationsWhen previewing an application, any requested changes made by Now Assist for app gen are noted on the progress bar as the preview pane loads.
+-   Flow Generation
+    -   Updated the UI.
+    -   Fixed:
+        -   Flow Generation
+            -   Fixed bugs.
+-   **Version 26.2.0 - November 2024**
+    -   Analytics Generation
+        -   Support of new chart types \(dial, gauge, area,column, scatter, donut, semi-donut\)
+        -   Add to any dashboard \(enabling user to addgenerated visualization to any dashboard forwhich the edit right is in place\)
+        -   Follow-up data vis refinement \(enabling user tomodify generated data visualization by changingchart type and/or conditions \(group by, trend,aggregation\)\)
+    -   Application Generation
+        -   Use Now Assist for App Generation in ServiceNow Studio, which offers an advanced application development environment.
+        -   Visually preview an application in a new tab before generating to review for accuracy and reduce the amount of corrective work.
+        -   Augment existing applications with new application objects, such as tables, roles, ACLs, and record producers.
+        -   Create new tables for an application created with app generation by extending existing tables, such as the task table.
+        -   Non-admin users with the delegated developer role can edit applications.
+        -   App generation can only be used when launching the Now Assist panel from within Service Now Studio.
+    -   Catalog Item Generation
+        -   Integration with Now Assist Guardian: Now Assist Guardian blocks the creation of catalog items related to illegal or dangerous services, ensuring compliance and safety.
+        -   AI-Powered Field Modifications: Users can now modify field values using AI-powered Generate, Elaborate, or Shorten actions,offering greater customization and flexibility.
+    -   Code Generation
+        -   Added Code Editing functionality, callable by highlighting the lines of code that you want to modify and then triggering the Now Assist for Code prompt hotkey or right-click menu option.
+        -   Code Editing supports improving/optimizing your existing codefor the following use cases mediated by the specificity of your prompt: adding descriptive comments to your code, validation, error handling, variable naming, queries to the database for script performance, logging for debugging, rewriting to use specific Glide APIs.
+        -   Provide Feedback on suggestions to help improve Now Assist for Code. You can now provide detailed feedback on suggestions you receive to help our teams build a better Now Assist capability.
+        -   Removed preproduction version of Autocomplete. We're working on an improved Autocomplete capability and we've removed access to our early preproduction experience to prevent unintended consequences while we work to improve and polish our next release.
+        -   Improved user experience and bug fixes. Now Assist's prompt modal now pops up in a better location above your code, and not over your code.
+    -   Flow Generation
+        -   Generate data pill values during flow generation: Generate appropriate data pill values for supported flow triggers and action inputs.
+        -   Reference specific tables with hash tags during flow generation: Enter a hash tag character in the flow directions to refer to a specific table by name. Use auto-complete to select a table name from the options that match your partial entry.
+        -   Flow generation configures action and flow logic inputs: Use the Now Assist for Creator flow generation skill to create and configure a flow from text directions. Flow generation uses data pills to set input values for actions and flow logic.
+    -   Playbook Generation
+        -   Generate a playbook from an image: Generate a playbook with out-of-the-box activities from text, an image, or both.
+    -   Spoke Generation
+        -   Now Assist Integration: Generate actions for custom spokes by pasting API documentation directly into the Spoke Generator UI.
+        -   Preview Mode: Review and verify generated actions before publishing.
+        -   Quick Publishing: Finalize and deploy custom spokes for immediate use.
+    -   UI Generation
+        -   Within the UI Builder \(UIB\), simply describe your desired experience through natural language and Experience generation will create a fully-functional experience that can then be further refined if need be.
+-   **Version 26.1.1 - August 2024 \(Xanadu\)**
+    -   New:
+        -   Added Analytics Generation
+        -   Code Generation -Generate code from text using the Code with Now Assist dialog box. Tell Now Assist what code to generate by opening the Code with Now Assist dialog box from a script editor and describing what you want the script to do.
+    -   Changed:
+        -   Application Generation - The App Engine Studio App Inventory page now clearly distinguishes apps created with Now Assist in the following ways:
+            -   A transition animation from the Now Assist Panel into AES eases navigation after the application has been generated.
+            -   A banner prompts users to review the generated items on landing in AES.
+            -   Metadata records are tagged with labels and other UI highlights to indicate they were generated by AI.
+            -   Metadata records have a Review button to identify records that need to be reviewed.
+            -   App submission changes help inform users that they should be reviewing prior to deployment.
+        -   Catalog Generation - LLM Model Updates: Improved the LLM model to enhance the quality and accuracy of generated output, providing a better user experience.
+        -   Code Generation - Code completion is off by default. Turn on generating scripts from code in script editors with the sn\_now\_assist\_code.enable\_promptless\_experiencesystem property.
+        -   Flow Generation - Adding annotation to the generated flow.
+        -   Playbook Generation:
+            -   Get recommendations on which activities to replace placeholder activities with.
+            -   Preview and modify your text directions before generating your playbook outline with Now Assist.
+    -   Fixed: Code Generation - Problem fixes
+-   **Version 25.1.0 - May 2024**
+    -   New:
+        -   Added support for application generation.
+        -   Added support for catalog item generation.
+        -   Added support for flow generation with preview and rebuild.
+        -   Added support for playbook generation.
+    -   Fixed: Improved training of Large Language Model \(LLM\).
+-   **Version 25.0.1 - March 2024**
+    -   Flow Generation - Fixed
+        -   Improved training of large language model \(LLM\).
+        -   Improved flow generation performance.
+-   **Version 3.1.1 - February 2024**
+    -   New for Flow generation:
+        -   Added field to flow properties to store prompt
+        -   Added tool tips for each field
+        -   Added Try an example option that inserts a working prompt into the create flow with Now Assist page
+    -   Changed for Flow generation:
+        -   Improved error messages
+        -   Improved LLM parsing of requests
+        -   Improved LLM training data to support more actions
+-   **Version 25.0.0 - February 2024**
+    -   New: Flow generation - Added Try an example option that inserts a working prompt into the create flow with Now Assist page
+    -   Changed:
+        -   Flow generation - Improved LLM training data to support more actions
+        -   Flow generation - Improved LLM parsing of requests
+-   **Version 3.0.0 - November 2023**
+    -   Added Text-to-Flow feature
+    -   Addresses numerous issues
+-   **Version 2.0.0 - September 2023**
+
+    Now Assist for Creator includes the Now Assist for Code and Now Assist Recommendations for Flow Designer applications. Now Assist for Code is a platform change that allows developers to write scripts quickly with AI-generated code suggestions based on developer prompts. Now Assist Recommendations improves the flow authoring experience with AI-generated content by providing flow authors with a list of recommendations for the next step of their flow.
+
+    -   New
+        -   Assign the now.assist.creator role to use generative AI skills for creators.
+        -   Enable automatic code suggestions to get AI-generated code suggestions in script editors without manually triggering Now Assist for Code to generate them.
+        -   Control when to track and indicate that code is AI-generated.
+        -   Add Now Assist Recommendations functionality to display a list of recommendations for the next step of a flow.
+

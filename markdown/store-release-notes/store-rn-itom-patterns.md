@@ -1,0 +1,1560 @@
+---
+title: Discovery and Service Mapping Patterns release notes
+description: Version history for the IT Operations Management Discovery and Service Mapping Patterns application on the ServiceNow Store.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-patterns.html
+release: store
+topic_type: reference
+last_updated: "2026-06-11"
+reading_time_minutes: 91
+breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+---
+
+# Discovery and Service Mapping Patterns release notes
+
+Version history for the IT Operations Management Discovery and Service Mapping Patterns application on the ServiceNow Store.
+
+**Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+## Read patterns documentation in one place
+
+The ServiceNow Store documentation for IT Operations Management patterns is now in the release family sections of the ServiceNow Product Documentation site. To read about Discovery and Service Mapping features from the ServiceNow Store and the family releases, navigate to the [Product Documentation site homepage](https://docs.servicenow.com) and select your release family.
+
+## Version history
+
+-   **Version 1.31.0 - June 2026**
+    -   New:
+        -   Discover the following resources:
+            -   NSX-T Cluster
+            -   Azure Key Vault Key
+            -   Nutanix Host and Nutanix VM events for v4
+        -   Discover Oracle Databases on UNIX using Oracle Wallet instead of storing applicative credentials in the ServiceNow instance.
+        -   Control the port range that Nmap scans during credential-less discovery using the mid.discovery.credentialless.alt\_port\_options system property.
+    -   Changed:
+        -   Configure whether the Kubernetes, Kubernetes Event, Docker Pattern, and Amazon AWS - ECS patterns discover Docker container CIs. Check your entitlements to determine whether you have access to 2026 Container Packaging.
+        -   Discover additional attributes for AWS KMS Keys, including key algorithm, key usage, origin, and multi-region configuration.
+        -   Discover additional attributes for AWS Secrets Manager Secrets, including rotation configuration details and key lifecycle dates.
+    -   Fixed:
+        -   The "Network Switch" pattern's "WAPs – Pre" pre-sensor script no longer fails with a TypeError when converting a null object. \(PRB2006345\)
+        -   The "Google Cloud Platform \(GCP\) - Virtual Server" pattern no longer updates server CIs for powered-off or retired VM instances. \(PRB1668145\)
+        -   The "Azure - Sub Account \(LP\)" pattern's \_getNOnStaleCI\(\) method in AzureCloudAccountDeleteStrategy no longer incorrectly marks Logical Data Centers as retired. \(PRB2009714\)
+        -   The "UNIX Cluster – Pacemaker Cluster" pattern no longer generates a MISSING\_MATCHING\_ATTRIBUTES IRE error caused by a null server attribute in the cmdb\_ci\_cluster\_resource\_group payload. \(PRB2025842\)
+        -   The "Kubernetes" pattern no longer fails with a "Set is not defined" JavaScript error, restoring creation of Provided By::Provides relationships between services and workloads. \(PRB2023214\)
+        -   The "Azure Service Account" pattern now correctly evaluates the main account attribute, preventing unnecessary API calls to management.azure.com/subscriptions and the resulting InvalidSubscriptionId errors. \(PRB1990584\)
+        -   The "MSSql DB On Windows" pattern via Agent Client Collector \(ACC\) now correctly escapes the command in the "delete generated report after parsing" step, preventing excessive logging on the SQL Server log directory. \(PRB1998396\)
+        -   The "Handle GCP Regional Load Balancers" business rule no longer calls current.update\(\) unnecessarily, preventing infinite loops and excessive record updates on the Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\] table. \(PRB1982643\)
+        -   The "Nutanix Components" pattern's Nutanix API v4 identification section now correctly identifies and updates Server CIs in the CMDB. \(PRB2014670\)
+        -   The "Nutanix Components" pattern now correctly gathers all tags during Nutanix API v4 discovery. \(PRB2020600\)
+        -   The "Discover Nvidia GPU" pattern now correctly populates manufacturer and model name values, preventing names from being duplicated or appended with GPU UUIDs. \(PRB2005466\)
+        -   The "Azure VM Instance - Uniform Scale Set" pattern no longer fails when all instance scale sets use Flexible Orchestration Mode. \(PRB2012759\)
+        -   The "Azure VM Instance - Uniform Scale Set" pattern now correctly populates the IP Address \[ip\_address\] field on Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] records. \(PRB1999131\)
+        -   The "Amazon AWS - AutoScaling Groups \(LP\)" pattern now correctly filters out empty instance entries before generating VM instance payloads, preventing MISSING\_DEPENDENCY IRE errors. \(PRB2005231\)
+        -   The "Amazon AWS Relational Database Service" pattern now correctly identifies and connects to the corresponding RDS instance during Service Mapping discovery. \(PRB2003097\)
+        -   Cloud Discovery and Cloud Events now handle Object IDs consistently regardless of casing, preventing Object ID values from flipping between upper and lower case across multiple sources. \(PRB1973722\)
+        -   The "Amazon AWS S3" pattern no longer re-creates replication relationships for retired Cloud Object Storage \[cmdb\_ci\_cloud\_object\_storage\] CIs. \(PRB2009631\)
+        -   The "Oracle Golden Gate" discovery pattern now correctly collects .rpt and .prm files, preventing incomplete discovery results and missing installation data in the CMDB. \(PRB2007686\)
+        -   The "Google Cloud Platform \(GCP\) - BigQuery DB" pattern now correctly populates region values, preventing incorrect discovery results caused by hardcoded region values. \(PRB1992832\)
+        -   The "Linux Server" pattern now correctly sets the Virtual \[virtual\] attribute to true on Linux Server \[cmdb\_ci\_linux\_server\] records for Red Hat virtualized servers. \(PRB2000779\)
+        -   The Kubernetes cluster deletion strategy now correctly handles region-specific cloud discovery, preventing clusters from being incorrectly marked as absent when discovery runs for a different region. \(PRB2018574\)
+        -   GCP discovery no longer creates duplicate hardware type CI records in the Cloud Hardware Type \[cmdb\_ci\_cloud\_hardware\_type\] table. \(PRB1999905\)
+        -   The "Amazon AWS Resource Inventory" pattern now correctly updates the Operational status and Install Status fields on Cloud Resource \[cmdb\_ci\_cmp\_resource\] records after a successful discovery run. \(PRB2005316\)
+        -   The "Citrix Netscaler SDX" pattern now works correctly in environments where NSCLI has read-only permissions. \(PRB2014456\)
+        -   The "Amazon AWS - NIC \(LP\)" pattern now correctly updates the Install Status \[install\_status\] field on previously retired Cloud Mgmt Network Interface \[cmdb\_ci\_nic\] records upon re-discovery. \(PRB1994412\)
+        -   The "NetApp Storage Cluster-Mode - HTTP" pattern now returns a consistent number of storage volumes regardless of whether a timeout is configured in the step command. \(PRB1974252\)
+        -   Oracle Management Agent discovery no longer creates duplicate Oracle Management Agent \[cmdb\_ci\_oracle\_management\_agent\] records when the associated process changes its PID. \(PRB1994936\)
+        -   The "ZooKeeper Server" pattern now correctly extracts the broker ID value, preventing Kafka Cluster Node \[cmdb\_ci\_kafka\_cluster\_node\] records from being created with an empty name attribute. \(PRB1742282\)
+        -   The "PostgreSQL DB" pattern no longer fails with an illegal option error on systems that do not support the --pid flag in the ps command. \(PRB2008269\)
+        -   The "Cassandra Distributed DB" pattern now correctly parses the cluster name in all scenarios. \(PRB1996550\)
+        -   The "oVirt Virtual Machines" pattern now correctly populates IP address and NIC data on RHV Virtual Machine Instance \[cmdb\_ci\_rhv\_vm\_instance\] records. \(PRB1989783\)
+        -   AWS cloud discovery deletion strategy now correctly removes stale tag entries from the Key Value \[cmdb\_key\_value\] table for Cloud Service Account \[cmdb\_ci\_cloud\_service\_account\] records when tags are modified or deleted in AWS. \(PRB1987787\)
+        -   The "Amazon AWS API Gateway" pattern no longer fails with a "logger is not defined" JavaScript error during discovery. \(PRB2004174\)
+        -   The "IBM WebSEAL" pattern no longer fails with a MULTIPLE\_DEPENDENCIES error caused by duplicate records in the Webseal Junction \[cmdb\_ci\_webseal\_junction\] and Webseal Backend Server \[cmdb\_ci\_webseal\_backend\_server\] tables. \(PRB1921137\)
+        -   "Pure Storage" discovery now correctly populates the Storage field on Fibre Channel Export \[cmdb\_ci\_fc\_export\] and iSCSI Export \[cmdb\_ci\_iscsi\_export\] records. \(PRB1987354\)
+        -   The "Scan Container Image" pattern now correctly handles digest-based image references, preserving the @digest value instead of removing it. \(PRB1973031\)
+        -   The "Microsoft CA - Certificate Management" pattern now correctly populates the fingerprint value on discovered certificates, fixing an incorrect variable name in the "fetch raw certificate per template limit true" step. \(PRB2005716\)
+        -   The "Kubernetes Node" pattern no longer fails with an undefined Operational Status error in the "handle unknown operational values" step on sn\_itom\_pattern starting from version 1.29.0. \(PRB2004783\)
+        -   AWS cloud load balancer discovery deletion strategy now correctly removes stale tag entries from the Key Value \[cmdb\_key\_value\] table for non-stale load balancer CIs. \(PRB1994394\)
+        -   The "Google Cloud Platform \(GCP\) - Cloud SQL DB" pattern now correctly removes relationships between Cloud DataBase \[cmdb\_ci\_cloud\_database\] and Cloud Hardware Type \[cmdb\_ci\_cloud\_hardware\_type\] records when they are no longer valid. \(PRB1998351\)
+        -   PowerMax discovery no longer scans remote arrays during local discovery runs. \(PRB1971078\)
+        -   The "Java Installation" pattern now correctly updates the software install version when the installation path remains the same. \(PRB1996051\)
+        -   The "Azure Resource Inventory \(LP\)" pattern now correctly retrieves Azure Cognitive Services resources when a valid entry exists in the Cloud Inventory Resource Inclusion List \[sa\_cloud\_inventory\_resource\_whitelist\] table. \(PRB2000900\)
+        -   The "Amazon AWS - Network \(LP\)" and "Amazon AWS - Storage \(LP\)" patterns now correctly update the Operational status and Install Status fields on Cloud Network \[cmdb\_ci\_network\] and Storage Volume \[cmdb\_ci\_storage\_volume\] records after a successful discovery run. \(PRB2007665\)
+        -   The process classification triggering condition for the "Jboss Fuse" pattern has been refined to prevent the pattern from matching hosts that do not have a JBoss Fuse deployment. \(PRB1950400\)
+-   **Version 1.30.2 - April 2026**
+    -   New:
+        -   Container image scanning now supports MID Server selection per datacenter for private repositories.
+        -   Improve query performance by populating Service Account, Logical Datacenter, and Virtual Machine Object fields in CI tables.
+        -   Exclude temporary Azure Databricks VMs from "Azure - Virtual Machine \(LP\)" discovery to reduce short-lived CI records.
+        -   Scan container repositories not reachable through a proxy using the new system property "sn\_itom\_pattern.container\_image\_scan\_no\_proxy".
+        -   New CI classes and fields for NSX infrastructure.
+    -   Changed:
+        -   AWS S3 Owner now displays the Account ID instead of the bucket owner name.
+        -   AWS Image patterns discover tags only. License and BYOL discovery moved to the "Amazon AWS - Virtual Server \(LP\)" pattern.
+        -   The Azure - Sub Account \(LP\) pattern no longer deletes stale tags for service accounts.
+    -   Fixed:
+        -   The "NetApp Storage Cluster-Mode - HTTP" pattern now retrieves the volume ID for each LUN before populating the Storage Volume \[cmdb\_ci\_storage\_volume\] table, preventing pattern failure. \(PRB1939206\)
+        -   The "Microsoft CA - Certificate Management" pattern correctly processes multiple Certificate OIDs from template lists during discovery. \(PRB1969371\)
+        -   The post-sensor script "Add Issuer and Root Issuer to Certificates" now updates the Issuer \[issuer\] and Root issuer \[root\_issuer\] fields in the Unique Certificate \[cmdb\_ci\_certificate\] table only when values differ.Existing values in the Comments \[comments\] field are now preserved. This fix applies to all certificate patterns, including "Microsoft CA - Certificate Management." \(PRB1962737\)
+        -   The "Pure Storage" pattern correctly populates the Hosted by \[hosted\_by\] field in the Storage Pool \[cmdb\_ci\_storage\_pool\] table with a reference to the Storage Server \[cmdb\_ci\_storage\_server\]. \(PRB1962057\)
+        -   The "Pure Storage" pattern now correctly updates the Operational status \[operational\_status\] and Install Status \[install\_status\] fields in the Storage Server \[cmdb\_ci\_storage\_server\] table when a previously retired CI is rediscovered. \(PRB1987303\)
+        -   The "Pure Storage" pattern no longer populates the Change Group \[assignment\_group\] field in the Storage Cluster Node \[cmdb\_ci\_storage\_cluster\_node\] table with iSCSI Qualified Name \(IQN\) and World Wide Name \(WWN\) values. \(PRB1975075\)
+        -   The "Network Switch" pattern now populates the Location field for additional Cisco wireless access point \(WAP\) CIs in the Wireless Access Point \[cmdb\_ci\_wap\_network\] table from the Discovery Schedule. \(PRB1697376\)
+        -   The "SSAS" pattern now correctly sets the Find Process Strategy to Listening Port for SQL Server Analysis Services \[cmdb\_ci\_db\_mssql\_analysis\] discovery, preventing pattern failure. \(PRB1976538\)
+        -   The "Nutanix Components" pattern now correctly creates relationships for Nutanix Controller VM \[cmdb\_ci\_nutanix\_controller\_vm\] CIs with AHV hypervisor type, preventing a MISSING\_DEPENDENCY error during discovery. \(PRB1948604\)
+        -   The "Nutanix Components" pattern now correctly handles category names that contain spaces in the "Get all Categories Values" step. \(PRB1960518\)
+        -   The "Oracle Listener" pattern now correctly filters Oracle instances, preventing duplicate records when only one instance exists. \(PRB1943412\)
+        -   The "Oracle Listener HD" pattern no longer overwrites the IP Address \[ip\_address\] field on Linux server CIs with the IP address being scanned at discovery time. \(PRB1972529\)
+        -   The "MSSql DB On Windows" pattern extension "Collect MSSQL HADR - Availability Group Info" now discovers all availability groups with listeners, including those without an assigned IP address. \(PRB1958086\)
+        -   The "Collect CAL Info" shared library now populates the Discovery source \[discovery\_source\] field in the User Device License Consumption \[samp\_user\_device\_license\_consumption\] table. \(PRB1974182\)
+        -   The "GUNICORN" pattern now populates the TCP port\(s\) \[tcp\_port\] field in the Gunicorn \[cmdb\_ci\_gunicorn\] table. \(PRB1923240\)
+        -   The "Connect Direct for Unix" process classifier now supports Solaris 11 discovery by correctly identifying Connect:Direct instances regardless of the parent process ID. \(PRB1903185\)
+        -   The "EMC PMAX Phase 1" pattern now supports older Unisphere and PowerMax versions where the REST response does not return an API version, preventing pattern failure. \(PRB1986051\)
+        -   The "Collect SAP Hana DB Catalog" shared library now uses the correct default SQL port \(30015\) when querying SAP HANA databases during discovery. \(PRB1918056\)
+        -   The "EMC Isilon" pattern now includes a step to retrieve the latest available API version, resolving identification failures on newer EMC Isilon devices. \(PRB1600510\)
+        -   The "EMC Isilon" pattern now populates correct RAM values in the Storage Node Element \[cmdb\_ci\_storage\_node\_element\] table. \(PRB1970813\)
+        -   The "Kubernetes" pattern now populates a consistent Kubernetes Unique Identifier \(KUID\) in the Kubernetes Cluster \[cmdb\_ci\_kubernetes\_cluster\] table, preventing duplicate records with Service Graph Connector for Microsoft Azure. \(PRB1965697\)
+        -   The "Kubernetes" pattern now correctly populates the cluster name in the Kubernetes Cluster \[cmdb\_ci\_kubernetes\_cluster\] table instead of the control plane node name. \(PRB1936895\)
+        -   The "Kubernetes" pattern now uses an improved deletion strategy script to reduce memory consumption during large-scale discovery. \(PRB1956848\)
+        -   The "Kubernetes" pattern now includes failover logic to support the OpenShift controller-manager endpoint namespace, preventing discovery failure in Red Hat OpenShift environments. \(PRB1968741\)
+        -   Next Generation Fortinet Network Firewall patterns now correctly discover Fortinet devices configured as a cluster with a single member device. \(PRB1961071\)
+        -   The "Solaris Server" and "Solaris LDOM infrastructure" patterns now populate a consistent name value for guest virtual machines \(VMs\) in the Solaris Server \[cmdb\_ci\_solaris\_server\] table, preventing duplicate CI records. \(PRB1945236\)
+        -   Azure Cloud Discovery no longer incorrectly marks active Logical Datacenters and their child CIs as Retired in CMDB after each run, even though the resources are active in Azure. \(PRB2009714\)
+-   **Version 1.29.0 - December 2025**
+    -   New:
+        -   Alibaba Cloud
+            -   Introducing Alibaba Cloud discovery, with support for both Gov Cloud and Commercial Cloud.
+            -   New credentials type 'Alibaba Cloud API Credentials'.
+            -   11 New patterns:
+                -   Alibaba - Availability Zone \(LP\)
+                -   Alibaba - Cloud Hardware Type \(LP\)
+                -   Alibaba - Cloud OS Image \(LP\)
+                -   Alibaba - Datacenter \(LP\)
+                -   Alibaba - Image Tags
+                -   Alibaba - Service Account Tags
+                -   Alibaba - Service Account Validation
+                -   Alibaba - Storage Volume \(LP\)
+                -   Alibaba - Storage Volume Tags
+                -   Alibaba - Virtual Machine \(LP\)
+                -   Alibaba - VM Tags
+        -   Amazon AWS Cloud
+            -   AWS cloud discovery optimization: Discover only datacenters with resources by setting the MID Server property \(mid.cloud.discovery.sonar.discover\_all\_aws\_datacenters\) to false.
+            -   A clear error message is displayed when there is an AWS service account failure.
+            -   22 new patterns:
+                -   Amazon AWS - API Gateway Domain Name - Extended Inventory \(LP\)
+                -   Amazon AWS - Batch Compute Environment - Extended Inventory \(LP\)
+                -   Amazon AWS - CloudHSM HSM - Extended Inventory \(LP\)
+                -   Amazon AWS - CloudTrail Trail - Extended Inventory \(LP\)
+                -   Amazon AWS - DataSync Task - Extended Inventory \(LP\)
+                -   Amazon AWS - DynamoDB Cluster - Extended Inventory \(LP\)
+                -   Amazon AWS - Elastic Compute Cloud EBS Snapshot - Extended Inventory \(LP\)
+                -   Amazon AWS - Elastic Compute Cloud Reserved Instance - Extended Inventory \(LP\)
+                -   Amazon AWS - Elastic Compute Cloud VPC Endpoint Service - Extended Inventory \(LP\)
+                -   Amazon AWS - Elastic Compute Cloud VPC Peering Connection - Extended Inventory \(LP\)
+                -   Amazon AWS - Elastic File System - Extended Inventory \(LP\)
+                -   Amazon AWS - ElastiCache Snapshot - Extended Inventory \(LP\)
+                -   Amazon AWS - Global Accelerator - Extended Inventory \(LP\)
+                -   Amazon AWS - Managed Workflows for Apache Airflow Environment - Extended Inventory \(LP\)
+                -   Amazon AWS - Network Firewall - Extended Inventory \(LP\)
+                -   Amazon AWS - Redshift Serverless Namespace - Extended Inventory \(LP\)
+                -   Amazon AWS - Redshift Serverless Snapshot - Extended Inventory \(LP\)
+                -   Amazon AWS - Redshift Serverless Workgroup - Extended Inventory \(LP\)
+                -   Amazon AWS - Relational Database Services DB Snapshot - Extended Inventory \(LP\)
+                -   Amazon AWS - SageMaker Training Job - Extended Inventory \(LP\)
+                -   Amazon AWS - Storage Gateway File Share - Extended Inventory \(LP\)
+                -   Amazon AWS - Timestream for InfluxDB Database Instance - Extended Inventory \(LP\)
+        -   Azure Cloud
+            -   10 New patterns:
+                -   Azure - Application Insight Data Collection Rule - Extended Inventory\(LP\)
+                -   Azure - Cosmos DB for PostgreSQL Cluster - Extended Inventory\(LP\)
+                -   Azure - Data Explorer Cluster - Extended Inventory\(LP\)
+                -   Azure - Dev Center - Extended Inventory\(LP\)
+                -   Azure - Log Analytics Workspace - Extended Inventory\(LP\)
+                -   Azure - Network Security Azure Firewall - Extended Inventory\(LP\)
+                -   Azure - Recovery Services Vault - Extended Inventory\(LP\)
+                -   Azure - Recovery Services Vault Backup Item - Extended Inventory\(LP\)
+                -   Azure - Service Endpoint Policy - Extended Inventory\(LP\)
+                -   Azure - Web Application Firewall Policy - Extended Inventory\(LP\)
+        -   Oracle Cloud Infrastructure \(OCI\) discovery supports OCI GovCloud.
+        -   oVirt patterns discover virtual machine disks, virtual machine templates, and networks.
+        -   Nutanix discovery supports API v4, enabling improved integration and leveraging new features from the latest Nutanix Prism services.
+    -   Changed:
+        -   "Amazon AWS API Gateway" pattern data model has changed; the new main CI class is AWS API Gateway \[cmdb\_ci\_aws\_api\_gateway\].
+        -   In the "Amazon AWS - AutoScaling Groups \(LP\)" pattern, the relationship between Instance Scale Set \[cmdb\_ci\_instance\_scale\_set\] and VM Instance \[cmdb\_ci\_vm\_instance\] has changed from "Members::Member of" to "Managed by::Manages".
+        -   NetApp patterns have standardized storage capacity. The Storage Server \[cmdb\_ci\_storage\_server\] table populates the Physical Capacity \(GB\), Free Physical Capacity \(GB\), and Used Physical Capacity \(GB\) fields.
+        -   EMC PMAX patterns have standardized storage capacity. The Storage Server \[cmdb\_ci\_storage\_server\] table populates the Free Physical Capacity \(GB\), Virtual Capacity \(GB\), Free Virtual Capacity \(GB\), and Used Virtual Capacity \(GB\) fields.
+        -   "Pure Storage Flash Array" pattern has standardized storage capacity. The Storage Server \[cmdb\_ci\_storage\_server\] table populates the Free Physical Capacity \(GB\), Used Physical Capacity \(GB\), Virtual Capacity \(GB\), Free Virtual Capacity \(GB\), and Used Virtual Capacity \(GB\) fields.
+        -   "IBM HMC Server" pattern has been improved. The IBM Frame \[cmdb\_ci\_ibm\_frame\] table populates the IP Address field and the IBM LPAR Instance \[cmdb\_ci\_lpar\_instance\] table populates the IP Address, Model number, and Frame Name fields.
+    -   Fixed:
+        -   AVI Load Balancer Controller patterns create a relationship between Load Balancer Pool \[cmdb\_ci\_lb\_pool\] and Load Balancer Service \[cmdb\_ci\_lb\_service\].
+        -   The Oracle DB On Unix" pattern properly handles multiple instances and doesn't update just one Oracle instance. \(PRB1937379\)
+        -   Version source for CPG to Pattern Migration has been correctly updated. It now displays "Store Application: Discovery and Service Mapping Patterns" instead of the previous "Update Set: Default." Additionally, the related pattern is now set to active. \(PRB1799391\)
+        -   EMC PMAX patterns support API at least version 10.1. \(PRB1909895\)
+        -   "EMC PMAX Phase2 pattern doesn't create duplicate items for the CI type Storage Cluster Node \[cmdb\_ci\_storage\_cluster\_node\]. If the storage cluster nodes have the same name but are associated with different storage clusters, the pattern creates a unique record for the storage cluster node in the format &lt;Node Name&gt;\_&lt;Cluster Name&gt;. \(PRB1944175\)
+        -   The "Discover Nvidia GPU extension section for "Linux Server pattern has been improved to ensure accurate GPU record creation. The pattern successfully creates records for GPUs, even those without a serial number or that have the same name but unique serial numbers. \(PRB1926719\)
+        -   The "Collect MSSQL HADR - Availability Group Info extension section for "MSSql DB On Windows" pattern creates "Contains::Contained by" relationship between MS SQL DataBase \[cmdb\_ci\_db\_mssql\_database\] and MSSQL Availability Group Replica \[cmdb\_ci\_mssql\_ag\_replica\]. \(PRB1926998\)
+        -   The "Collect MSSQL HADR - Availability Group Info extension section for "MSSql DB On Windows" pattern discovers SQL Server replicas. \(PRB1920658\)
+        -   The "Collect MSSQL HADR - Availability Group Info extension section for "MSSql DB On Windows" pattern works even if the cluster ID and the availability group name are the same. \(PRB1933769\)
+        -   The "Collect MSSQL HADR - Availability Group Info extension section for "MSSql DB On Windows" pattern populates the MSSQL Availability Group \[cmdb\_ci\_mssql\_ag\] table even if the availability groups don't have listeners. \(PRB1933754\)
+        -   "MSSql DB On Windows" pattern correctly fills the Name field, even with case-insensitive regex. \(PRB1877327\)
+        -   The Kubernetes Namespace rule 'cmdb\_ci\_kubernetes\_namespace' has been updated and allows null attributes for the Key Value \[cmdb\_key\_value\] table. \(PRB1919574\)
+        -   "DB2 On Linux" pattern on AIX servers finds the source that enables you to execute commands from a file in the current shell session. \(PRB1917727\)
+        -   The "Azure VM Instance - Uniform Scale Set" and "Azure - Virtual Machine \(LP\) patterns don't create duplicate CIs in Cloud Hardware Type \[cmdb\_ci\_cloud\_hardware\_type\] table. \(PRB1921628\)
+        -   "Azure DataBase \(LP\)" pattern for MySQL flexible servers populates the Name values in Database \[cmdb\_ci\_database\] table using the correct format &lt;dbName&gt;@&lt;serverName&gt;. \(PRB1916347\)
+        -   In Azure Change Processing, the virtual machine \(VM\) status updates when a property changes. \(PRB1888581\)
+        -   Azure Change Processing is functioning properly in domain separation instances. \(PRB1894584\)
+        -   Azure Cloud Discovery populates the correct value in the Operational status and Install Status fields for the Service Account \[cmdb\_ci\_cloud\_service\_account\] and Azure Management Group \[cmdb\_ci\_azure\_management\_group\] tables. \(PRB1949006\)
+        -   "Azure Application Gateway \(LP\) pattern's deletion strategy deletes stale related entries that correspond to tags from the Key Value \[cmdb\_key\_value\] table. \(PRB1907204\)
+        -   Cloud Discovery Wizard creates a schedule even if an Azure account has no active resources and the Refresh Datacenters process will terminate gracefully. \(PRB1878076\)
+        -   "Google Cloud Platform \(GCP\) - Virtual Server pattern's parsing strategy processes the special characters in the output file. \(PRB1924903\)
+        -   "Google Cloud Platform \(GCP\) - Spanner DB" pattern populates Install Status and Operational status fields correctly. \(PRB1918821\)
+        -   The "Google Cloud Platform \(GCP\) - Cloud Functions" pattern filters out empty values. \(PRB1940492\)
+        -   The "Windows OS - Servers" pattern extension "Collect MSSQL Info" and the "MSSql DB On Windows" pattern extension "Collect MSSQL Components Info" payloads are processed correctly in the IRE. \(PRB1944170\)
+        -   "AVI Load Balancer Controller - Session based" pattern filters out duplicate items from the payload. \(PRB1860111\)
+        -   "EMC Isilon" pattern doesn't flips the Location value in the storage Node Element \[cmdb\_ci\_storage\_node\_element\] table. \(PRB1911248\)
+        -   "NetApp Storage Cluster-Mode - HTTP" pattern logic determines the IP address of the management interface and continues the execution. If it can't find the IP address, it gracefully terminates the pattern. \(PRB1904086\)
+        -   "NetApp Storage Cluster-Mode - HTTP" pattern populates the cluster name in the Cluster \[cmdb\_ci\_cluster\] table first, and then creates a reference to that name in the Cluster field in the Storage Cluster Node \[cmdb\_ci\_storage\_cluster\_node\] table. \(PRB1936800\)
+        -   "Next Generation Fortinet Network Firewall - REST pattern populates MAC addresses and IP addresses of network adapters. \(PRB1922064\)
+        -   "Next Generation Fortinet Network Firewall" pattern correctly populates Operational status field. \(PRB1790281\)
+        -   "Next Generation Fortinet Network Firewall" pattern doesn't creates duplicate records in the Network Adapter \[cmdb\_ci\_network\_adapter\] table. \(PRB1939130\)
+        -   The "FortinetApiCall" MID Server script include has been updated to resolve an issue with Fortinet Firewall session-based authentication. \(PRB1908407\)
+        -   "Linux Server" and Oracle OCI - Virtual Machine \(LP\)" patterns create the "Virtualized by::Virtualizes" relationship. \(PRB1938171\)
+        -   The http section connection section for the Nginx" pattern doesn't produce a "permission denied error. \(PRB1900991\)
+        -   "Amazon AWS - Simple Email Service Identity - Extended Inventory \(LP\)" pattern creates a record even if the resource names are case-sensitive. \(PRB1923105\)
+        -   "Amazon AWS Inventory Tags" pattern populates the tag information in the Key Value \[cmdb\_key\_value\] table for the AWS resource "AWS::CloudWatch::Alarm". \(PRB1814585\)
+        -   "Amazon AWS Resource Inventory" populates unique Object ID values for the "AWS::RDS::DBSecurityGroup resource, appending the service account to the Object ID value. \(PRB1917803\)
+        -   OpenStack cloud discovery populates the Object ID, MAC Address, Netmask, Install Status, and Operational status fields in the Cloud Mgmt Network Interface \[cmdb\_ci\_nic\] table. It is also populate the IP Address, Disk size \(GB\), CPUs, and Memory \(MB\) in the Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] table. \(PRB1903948\)
+        -   OpenStack - Get Storage Resources" pattern uses v3 version for its REST API calls. \(PRB1932374\)
+        -   DNS names are being populated in the DNS Name \[cmdb\_ci\_dns\_name\] table even if different IP address from different local networks resolve to the same name. \(PRB1944026\)
+        -   "Pure Storage" pattern only uses an active credential. \(PRB1912833\)
+        -   Duplicate "Cascade deprovisioned status to server" business rule is deactived; only the business rule in Global Application scope remains active. \(PRB1930342\)
+        -   "Cohesity Storage System" pattern populates Cohesity nodes with unique names and valid serial numbers. \(PRB1932101\)
+        -   "Nutanix Components" pattern \(API v1-3\) populates all Cluster IP addresses, enabling subsequent pattern steps to complete. \(PRB1915266\)
+        -   "Azure - Route Table \(LP\)" pattern now correctly updates existing tag entries in the Key Value \[cmdb\_key\_value\] table instead of creating duplicate records when tag values change. \(PRB1915513\)
+        -   AWS Cloud Discovery retry framework now retries only on ThrottlingException errors, preventing unnecessary retries on other HTTP 400 responses. \(PRB1898566\)
+        -   "Amazon AWS - AutoScaling Groups \(LP\)" pattern now correctly handles pagination, discovering all Auto Scaling Group CIs and populating them in the CMDB. \(PRB1910688\)
+        -   "Amazon AWS - MQ Configuration - Extended Inventory \(LP\)" pattern no longer fails with a duplicate token error during pagination. \(PRB1837624\)
+        -   "Azure - DNS Zones \(LP\)" pattern now correctly discovers and populates tag data for DNS Zone resources in the CMDB. \(PRB1909989\)
+        -   "Azure - Virtual Machine \(LP\)" pattern's deletion strategy now skips reprocessing for related Virtual Network Interface and Endpoint CIs, preventing Discovery sensor transaction cancellations and Discovery hangs. \(PRB1899168\)
+        -   Azure and AWS cloud discovery now populates the Active/Passive status in the Comments \[comments\] field of the Azure Datacenter \[cmdb\_ci\_azure\_datacenter\] and AWS Datacenter \[cmdb\_ci\_aws\_datacenter\] tables. In AWS discovery, the field is left empty if AWS Config is not enabled or the service account has insufficient permissions to call the AWS Config API. \(PRB1853059\)
+        -   "Amazon AWS Route53" pattern now supports pagination, allowing discovery of more than 100 hosted zones. \(PRB1762396\)
+        -   "Oracle OCI - Virtual Machine \(LP\)" pattern now populates the IP Address \[ip\_address\] field in the Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] table with the private IP address of the primary network interface. \(PRB1923402\)
+        -   Azure Change Processing now correctly updates the disk size in the Storage Volume \[cmdb\_ci\_storage\_volume\] table when the size of a VM-attached disk changes. \(PRB1829982\)
+        -   "Azure - NIC \(LP\)" pattern now populates a stable IP Address \[ip\_address\] in the Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] table when multiple network cards are attached. \(PRB1923854\)
+        -   "Amazon AWS Lambda" pattern now correctly discovers and populates Lambda functions whose names or descriptions contain special characters. \(PRB1908729\)
+        -   Fixed "Azure - Storage Container\(LP\)" log output issue.
+        -   Azure Kubernetes Service \(AKS\) auto discovery schedules are now created for Kubernetes clusters configured with a private FQDN only. \(PRB1920918\)
+        -   Kubernetes discovery now correctly reconciles existing Linux Server records with records discovered through Kubernetes, preventing duplicate CIs in the CMDB. \(PRB1934174\)
+        -   Kubernetes patterns and the "Kubernetes Event" pattern now populate CI relationships consistently. \(PRB1924716\)
+        -   Discovery patterns now use PowerShell commands as a fallback when WMIC commands are unavailable on Windows 10/11 \(version 21H1 and later\). \(PRB1819964\)
+        -   Discovery now correctly creates MSSQL component records in the MSSQL Components Info \[mssql\_components\_info\] table. \(PRB1844139\)
+        -   Solaris server discovery now uses a fallback method to retrieve the serial number when both the smbios and sneep utilities are unavailable. \(PRB1932997\)
+        -   Nutanix discovery now creates the Instantiates::Instantiated by relationship between Computer \[cmdb\_ci\_computer\] and Nutanix Virtual Machine Instance \[cmdb\_ci\_nutanix\_vm\_instance\] tables. \(PRB1948197\)
+        -   "Next Generation Fortinet Network Firewall - REST" pattern now populates IP Address records and their relations in the CMDB. \(PRB1831268\)
+        -   "Next Generation Fortinet Network Firewall - REST" pattern now correctly populates the Model number \[model\_number\] and Manufacturer \[manufacturer\] fields. \(PRB1925999\)
+        -   "Next Generation Palo Alto Firewall" pattern now correctly executes the fallback step to retrieve the serial number when the primary step returns "unknown". \(PRB1936916\)
+        -   OpenStack discovery no longer fails with a "Token creation failed" error during schedule creation. \(PRB1912870\)
+        -   The State \[state\] field in the Unique Certificate \[cmdb\_ci\_certificate\] table now retains the value set by port scan discovery when a certificate is also discovered via CA discovery. \(PRB1894305\)
+-   **Version 1.28.0 - August 2025**
+    -   New:
+        -   22 new patterns for the following Azure services:
+            -   App Configuration - Configuration Store
+            -   App Service - App Service Plan
+            -   Application Insight - Component
+            -   Application Security Group
+            -   Automation - Automation Account
+            -   Compute Gallery - Image Definition
+            -   Compute - Snapshot
+            -   Container Registry - Registry
+            -   Data Factory - Data Factory
+            -   Data Protection - Backup Vault
+            -   Databricks - Workspace
+            -   Disk Encryption Set - Disk Encryption Set
+            -   Event Grid - System Topic
+            -   Event Hub - Namespace
+            -   Key Vault - Key Vault
+            -   Logic App - Logic App
+            -   Managed Identity - User Assigned Identity
+            -   Networks - IP Group
+            -   Private Link - Private Endpoint
+            -   Service Bus - Namespace
+            -   Service Bus - Queue
+            -   Service Bus - Topic
+        -   Google Cloud Platform \(GCP\):
+            -   New "Google Cloud Platform \(GCP\) - Cloud Functions" pattern.
+            -   New "Google Cloud Platform \(GCP\) - AlloyDB for PostgreSQL" pattern, which supports an AlloyDB cluster.
+            -   "Google Cloud Platform \(GCP\) - Memorystore DB" pattern now supports Redis Cluster discovery.
+        -   Oracle Linux Virtualization Manager \(OLVM\) discovery is now supported.
+    -   Fixed:
+        -   Kubernetes discovery now populate the cluster name and remove the cloud account ID in the "Name" field of the Kubernetes Cluster \[cmdb\_ci\_kubernetes\_cluster\] table. aligning with naming conventions used by other discovery methods \(PRB1805941\).
+        -   The "Cohesity Storage System" pattern now populates the data in the Cohesity Cluster \[cmdb\_ci\_cohesity\_cluster\] and Cohesity Node \[cmdb\_ci\_cohesity\_node\] tables \(PRB1874368\).
+        -   The "Next Generation Fortinet Network Firewall" pattern sets the device member's IP address correctly \(PRB1842482\).
+        -   The "Next Generation Fortinet Network Firewall - REST" pattern has been fixed for both token-based and basic authentication methods \(PRB1879124\).
+        -   The "Cascade deprovisioned status to server" Business Rule is now fixed \(PRB1891935\).
+        -   The "A10 Load Balancer" pattern's extension "Collect A10 Partition info" is now fixed to get the virtual server details \(PRB1875831\).
+        -   The "NetApp Storage Cluster-Mode" and "NetApp Storage Cluster-Mode - HTTP" patterns have been fixed and now populate consistent information \(PRB1861932\).
+        -   The Pre/post script "MicrosoftCA" now references the correct sys\_property for renewal tracking \(PRB1871767\).
+        -   The "EMC PMAX Phase2" pattern has been fixed and now storage volume with or without "wwn" works \(PRB1830051\).
+        -   The "MSSql DB On Windows" pattern's extension "Collect MSSQL HADR - Availability Group Info" is fixed and now populating correct information in the MSSQL Availability Group Listener \[cmdb\_ci\_mssql\_ag\_listener\] and MSSQL Availability Group \[cmdb\_ci\_mssql\_ag\] tables \(PRB1894330\).
+        -   The "Oracle Listener HD" pattern is now fixed and improved: The logic only creates the record for the host running the "ora\_pmon" process in the Oracle Instance \[cmdb\_ci\_db\_ora\_instance\] table \(PRB1866783\).
+        -   The "Connect Direct" pattern is now fixed and failover steps have been added to retrieve the Version information \(PRB1892614\).
+        -   The "Windows OS - Server" pattern is fixed and now populates the description and OS version of Windows Server \(PRB1864552\).
+        -   The "IBM PowerHA Cluster \(HACMP\)"" pattern is fixed and now creates correct AIX server records \(PRB1892359\).
+        -   The "Amazon AWS - Sub Account \(LP\)" pattern is fixed and now doesn't delete the discovered tags \(PRB1887065\).
+        -   The "Amazon AWS - Athena Workgroup - Extended Inventory \(LP\) Tags" pattern is now creating tags \(PRB1888464\).
+        -   "AWS DynamoDB" pattern's step has been corrected and now AWS Event-based discovery is fixed \(PRB1874480\).
+        -   The "Azure - Marketplace LB \(LP\)" pattern has been fixed and now the Version value populates in the Marketplace Product Details \[marketplace\_product\_details\] table \(PRB1854427\).
+        -   The "Azure - Virtual Machine \(LP\)" pattern is fixed and now doesn't set the location field to an invalid string on CI resources \(PRB1841108\).
+        -   The "Azure - Storage Volume \(LP\)" pattern deletion strategy has now been fixed to prevent non-stale CIs from being marked as stale in the Key Value \[cmdb\_key\_value\] table \(PRB1874383\).
+        -   The "Google Cloud Platform \(GCP\) Resource Inventory" pattern is fixed: The MID Server's "CloudAPICommand" script has been fixed and now works even if no content is returned from DELETE Bucket API response \(PRB1898432\).
+    -   Changed:
+        -   The RHV cloud provider has been changed to oVirt.
+        -   The RHV MID Server capability has been changed to oVirt.
+        -   The label for the \[cmdb\_ci\_rhv\_ldc\] datacenter type has been changed to oVirt LDC
+        -   The label for the \[rhv\_credentials\] credential type has been changed to oVirt Credentials.
+        -   The following pattern names have been changed from RHV to oVirt:
+            -   oVirt Clusters and Hosts
+            -   oVirt Discover Logical Datacenters
+            -   oVirt Discover Manager Instance
+            -   oVirt Virtual Machines
+        -   The following table labels have been changed from RHV to oVirt:
+            -   oVirt LDC \[cmdb\_ci\_rhv\_ldc\]
+            -   oVirt Cluster \[cmdb\_ci\_rhv\_cluster\]
+            -   oVirt Server \[cmdb\_ci\_rhv\_server\]
+            -   oVirt Virtual Machine Instance \[cmdb\_ci\_rhv\_vm\_instance\]
+            -   oVirt Object \[cmdb\_ci\_rhv\_object\]
+            -   oVirt Manager \[cmdb\_ci\_rhv\_manager\]
+-   **Version 1.27.0 - May 2025**
+    -   New:
+        -   Introduces a new pattern for 7 AWS services:
+            -   AppSync API
+            -   Elastic BeanStalk Application
+            -   EventBridge Event Bus
+            -   MQ Broker
+            -   SQS Queue
+            -   Step Functions State Machine
+            -   Storage Gateway Gateway
+        -   Supports Microsoft SQL Server Always On availability groups discovery.
+        -   Discovers AWS web ACL.
+        -   Discovers AWS Load Balancer targets.
+        -   Discovers AWS Systems Manager \(SSM\) agents.
+        -   Supports Azure tenants and management groups discovery.
+        -   Collects tags for the Azure VM Instance - Uniform Scale Set" pattern.
+        -   Introduces a new system property for Kubernetes discovery, "sn\_itom\_pattern.image\_scan\_process\_container," which controls whether software package data populates to containers or only to images. By default, the value of the property is set to "true" and the containers and images are both populated.
+        -   Introduces a new pattern for NVIDIA GPUs with a new CI class, Graphics Processing Unit \[cmdb\_ci\_gpu\].
+        -   Enhances the "Microsoft CA - Certificate Management" pattern to populate Subject Alternative Name \(SAN\) for a specific template ID in the template\_list parameter.
+    -   Fixed:
+        -   EMC PowerMax storage:
+            -   The pattern now handles external credential store \(CyberArk\) \(PRB1858079\).
+            -   The pattern now creates the relationship between Storage server and Storage port \(PRB1849658\).
+        -   The OpenStack - Get Compute Resources pattern now supports pagination \(PRB1726659\).
+        -   The "Next Generation Fortinet Network Firewall" pattern now sets the device member IP address \(PRB1842482\).
+        -   Amazon:
+            -   The Amazon AWS Inventory Tags pattern now handles resource ARN format \(PRB1859823\).
+            -   The "Amazon AWS - ECS" pattern has been updated to handle cases where no container registry is associated \(PRB1864560\).
+        -   Azure:
+            -   The "Microsoft Azure - Virtual Machine \(LP\)" pattern extension section has been improved with logic to handle custom image licensing \(PRB1841409\).
+        -   The "Amazon AWS DynamoDB" pattern now discovers all DynamoDB tables without limits across the service account \(PRB1835277\).
+        -   The Solaris Server pattern extension: "Solaris LDOM SN" now populate the serial number \(PRB1847537\).
+        -   The Apache on UNIX based OS pattern now populates version information \(PRB1856888\).
+        -   SSH IP-based discovery now respects credential affinities \(PRB1836027\).
+        -   Fixed the "Docker Pattern" error "Could not find host item in Identification engine output payload" \(PRB1834788\).
+-   **Version 1.25.0 - February 2025**
+    -   New: Introducing a new pattern for 27 AWS services, which is disabled in the base system \(out-of-the-box\). The primary CI class for this pattern will be \[cmdb\_ci\_cmp\_resource\], while all additional attributes are stored in a non-CMDB class. These attributes can be accessed via the Left Navigator Menu under Configuration and then AWS. For more details, please refer to the link: https://www.servicenow.com/docs/bundle/yokohama-it-operations-management/page/product/service-mapping/reference/aws-service-discovery-pattern.html
+        -   Athena Workgroup
+        -   Backup Plan
+        -   Backup Vault
+        -   CloudFront Distribution
+        -   CloudWatch Logs
+        -   CodeDeploy Deployment
+        -   CodePipeline Pipeline
+        -   DMS Endpoints
+        -   EMR Cluster \(running on EC2\)
+        -   FSx Backup
+        -   FSx File System
+        -   Glue Database
+        -   IAM Policy
+        -   IAM Role
+        -   IAM User
+        -   KMS Key
+        -   MQ Configuration
+        -   S3 Glacier Vault
+        -   SageMaker Notebook Instance
+        -   Secrets Manager Secret
+        -   SES Identity
+        -   Systems Manager Document
+        -   Systems Manager Parameter Store
+        -   Transfer Family Server
+        -   VPC Flow Log
+        -   VPC Managed Prefix List
+        -   XRay Sampling Rule
+    -   Fixed:
+        -   AWS:
+            -   The "Amazon AWS - Virtual Server \(LP\)" pattern updates an operational status, when the MID property ""sn\_itom\_pattern.discover\_aws\_instance\_statuses" value is set to "true" \(PRB1804983\)
+            -   The AWS cloud discovery performance is improved, introducing a new deletion strategy script 'AWSVmStorageMapping" and mapped to \[cmdb\_ci\_storage\_mapping\] CIs \(PRB1822204\)
+            -   The AWS discovery handles the additional Guest OS value \('Red Hat Enterprise Linux'and'SUSE Linux Enterprise Server'\) in the \[cmdb\_ci\_os\_template\] and \[cmdb\_ci\_cloud\_os\_image\] \(PRB1811128\)
+            -   The "Amazon AWS Inventory Tags" Shared Library pattern now populates the tags for the AWS CloudWatch Alarm service \(PRB1814585\)
+        -   Azure:
+            -   The "Azure Resource Inventory \(LP\)" pattern updates the install status for cloud resources \(PRB1827923\)
+            -   The "Azure VM Instance - Uniform Scale Set" pattern updates the retired CI's in the \[cmdb\_ci\_vm\_instance\] table \(PRB1809815\)
+            -   The "Azure Virtual Machine Event" pattern is fixed to get the LDC information \(PRB1814690\)
+            -   The "Azure - Marketplace LB \(LP\)" pattern is fixed to prevent the reclassification of Virtual Machines \(PRB1834740\)
+            -   The "Azure - Marketplace LB \(LP\)" pattern is updated to correctly populate the Install Status and Operation Status \(PRB1817349\)
+        -   Google: The GCP Discovery is fixed for the regions "europe-north2" and "northamerica-south1" \(PRB1822303\)
+        -   MSSQL
+            -   The "MSSQL DB on Windows" pattern now populates the Edition value for multiple SQL instances running on the same host machine \(PRB1820756\)
+            -   The "MSSql DB On Windows" pattern has been updated to correctly populate the Install Status and Operation Status \(PRB1808988\)
+            -   The "MSSql DB On Windows" pattern is fixed to support Windows Internal Database \(WID\) and SQL Embedded Edition\(SSEE\)\(PRB1819997\)
+        -   The Pre/Post Script "Unix Cluster - Postscript" is fixed to update the \[cmdb\_ci\_unix\_cluster\_node\] records of the Operational server with the same IP value \(PRB1808450\)
+        -   The "Rubrik Update VMware Instances" pre-post sensor script has been fixed to address case sensitivity issues. It now accurately matches data, enabling vCenter discovery to update the configuration items \(CIs\) seamlessly \(PRB1817229\)
+        -   The shared library "Populate WebLogic attributes if missing" in the pattern "Weblogic" is fixed to handle Windows file paths \(PRB1827882\)
+        -   The "Nutanix Components" pattern has been fixed to terminate gracefully when the Prism service is not reachable \(PRB1803673\)
+        -   The "NutanixApiQuery" MID script include is fixed to handle encodeURL empty spaces \(PRB1826255\)
+        -   The "Oracle OCI - Service Account Validation" pattern is fixed to handle JSON parsing in the step "Parse Service Account" \(PRB1832694\)
+        -   The "Pure Storage" pattern step "Rel/Ref ClusterNode and Storage Volume" is fixed, to stop reference an nonexistent field \(PRB1824630\)
+        -   The "IBM HMC Server" discovery pattern populates IBM Frame manufacturer information \(PRB1828273\)
+        -   The AVI Discovery is fixed to handle "\\" character in the login request \(PRB1816224\)
+        -   The "Netscaler Loadbalancer - NITRO" pattern step 17 precondition is fixed to handle exceptions \(PRB1829305\)
+        -   The "EMC Isilon" pattern is fixed to prevent the creation of additional "Uses::Used by" relationships between storage servers and IP addresses \(PRB1801253\)
+        -   The "Peoplesoft Application Server" pattern is fixed to detect HP - UX devices \(PRB1811986\)
+        -   The "Kafka Broker Java" and "ZooKeeper Server" patterns are fixed, to prevent duplication of related CI types \(PRB1818802\)
+        -   The "Scan Container Image" pattern now populates a large number of OS packages, which are stored in the \[sn\_itom\_pattern\_container\_image\_os\_packages\] table \(PRB1817126\)
+        -   The "Fortinet firewall" serverless pattern is fixed to populate "source\_interface" and "destination\_interface" attributes in \[cmdb\_ci\_fortinet\_firewall\_policy table\] \(PRB1817893\)
+-   **Version 1.21.0 - November 2024**
+    -   New:
+        -   Patterns that support AWS discovery in the China region
+            -   Amazon AWS Datacenter Discovery
+            -   Amazon AWS - Availability Zone \(LP\)
+            -   Amazon AWS Service Account
+            -   Amazon AWS Sub Account Discovery
+            -   Amazon AWS - Sub Account \(LP\)
+            -   Amazon AWS - Relational Database Service
+            -   Amazon AWS - NIC \(LP\)
+            -   Amazon AWS - LB Pool \(LP\)
+            -   Amazon AWS - Classic LB \(LP\)
+            -   Amazon AWS - Virtual Server \(LP\)
+            -   Amazon AWS - Cloud Hardware Type \(LP\)
+            -   Amazon AWS - Hardware Type \(LP\)
+            -   Amazon AWS - Executable Cloud OS Image \(LP\) \(Shared Images\)
+            -   Amazon AWS - Owned Cloud OS Image \(LP\) \(Private Images\)
+            -   Amazon AWS - Storage \(LP\)\)
+            -   Amazon AWS - Network \(LP\)
+            -   Amazon AWS - Application and Network LB \(LP\)
+            -   Amazon AWS - Subnet \(LP\)
+            -   Amazon AWS - Security Group \(LP\)
+        -   The Azure - Marketplace LB \(LP\) Pattern discovers the following Azure Marketplace products.
+            -   Virtual Machine
+            -   SaaS \(Classic as well\)
+            -   Azure Application
+        -   The attributes populate the new tables Deployed Marketplace Product and Marketplace Product Details. The tag will also be discovered.
+        -   The Google Asset Inventory pattern triggers as a part of the scheduled cloud discovery. To support it, introduced new mid-server properties
+            -   mid.gcp\_resource\_inventory\_bucketpath.default \(Comman Bucket path for all the GCP Project\)
+            -   mid.gcp\_resource\_inventory\_bucketpath.&lt;Cloud Account Id&gt; \(Individual Bucket path per GCP project\)
+        -   The Next Generation Fortinet Network Firewall - Rest" pattern supports VDOM and collects attributes of VDOM, VDOM interface, and policy.
+            -   Populate data to the tables below
+                -   Fortinet Firewall Device
+                -   Fortinet Firewall Cluster
+                -   Network Adapter
+                -   Router Interface
+                -   Fortinet Vdom \(New class\)
+                -   Fortinet Firewall Policy \(New class\)
+                -   Fortinet Firewall Interface \(New class\)
+    -   Fixed:
+        -   Amazon:
+            -   The Amazon AWS - Sub Account \(LP\)" pattern is fixed and doesn't set the AWS sub-account to non-operational. \(PRB1790471\)
+            -   The Amazon AWS - ECS pattern is fixed to populate the correct VM State and Install Status; The VM instance is associated with the ECS cluster and terminated, and AWS event-driven discovery is configured. \(PRB1793487\)
+            -   The AWS Cloud Load Balancers Resource is hosted in AWS GovCloud and has an attribute source\_native\_key value that is fixed The following patterns are modified. \(PRB1803819\)
+                -   Amazon AWS - NIC \(LP\)
+                -   Amazon AWS - Application and Network LB \(LP\)
+        -   Azure:
+            -   After upgrading to Discovery and Service Mapping Patterns version 1.10, stale tags for Azure VMs were getting automatically cleaned up. \(PRB1749297\)
+        -   Google:
+            -   The GCP Asset Inventory pattern populates the tag information of the Google storage bucket. \(PRB1784648\)
+            -   The GCP Asset Inventory pattern populates the Global resources in the cmdb\_ci\_cmp\_resource \(PRB1803228\)
+        -   All the cloud credentials issue is fixed to handle the error no access to sn\_itom\_patterns.glide\_encrypter \(PRB1787568\)
+        -   The ColdFusion Application - the version attribute is getting populated. \(PRB1780934\)
+        -   The HA Proxy pattern is fixed to handle an error MULTIPLE\_DEPENDENCIES: Found multiple dependent relation items and create a single relationship between cmdb\_ci\_lb\_service and cmdb\_ci\_lb\_pool and if there are multiple services, only use the cmdb\_ci\_lb\_service with the lowest number port. \(PRB1795289\)
+        -   The InfiniBox Storage System \(LP\) pattern - Serial Number is getting populated for the cmdb\_ci\_storage\_server table. \(PRB1798985\)
+        -   The Kubernetes discovery is fixed, and the Kubernetes Node pattern shared library is to filter out IPv6. \(PRB1797771\)
+        -   The Netscaler Loadbalancer - NITRO pattern creates the relationship between the Load Balancer Service and the Load Balancer Pool. Service Mapping creates the connection with the Load Balancer Service and Load Balancer Pool. \(PRB1741543\)
+        -   The IBM PowerHA Cluster \(HACMP\) pattern is fixed, this pattern respects the system properties glide.discovery.hostname.dns\_nbt\_trusted is set to true then pattern populate DNS trust name as Name field. \(PRB1790297\)
+        -   The "F5 Load Balancer SSH" pattern is fixed to handle an error Cannot convert null to an object. Steps are added to remove duplicates and filter out empty records. \(PRB1767558\)
+        -   The MSSql DB On Windows pattern handles instances configured to be listened to on multiple ports. \(PRB1796534\)
+        -   The "Nutanix Components" pattern updates the VM state. \(PRB1803129\)
+        -   The Pure Storage pattern Pre/Post Script Affinity - BasicAuth Table Upload is fixed to address the MID Server CPU spike. \(PRB1791441\)
+-   **Version 1.18.1 - September 2024**
+    -   Fixed:
+        -   Solaris LDOM infrastructure pattern respects the "glide.discovery.hostname.case sys\_properties, to format the 'Name" attribute based on the value\(No change, Lower case, Upper case\)
+        -   A10 Load Balancer pattern, Extension "Collect A10 Partition info" A10 LBs on CLI 5.2.1+, collects the partitions information
+        -   AWS tags are getting populated for cmdb\_ci\_cmp\_resource records
+        -   Large table handling on \(cmdb\_rel\_ci\) table triggered by AzureDefaultDeleteStrategyVM Delete Strategy
+        -   UNIX Cluster - VERITAS Cluster pattern fixed an error duplicate cmdb\_ci\_unix\_cluster\_resource records in the payload
+        -   OpenShift Kubernetes cluster discovery has been fixed to ensure StatefulSets are not filtered out, even if the YAML file does not include an initContainer
+        -   NetApp Storage Cluster-Mode - HTTP pattern populates RAM field value in "MB"
+        -   NetApp Storage Cluster-Mode - HTTP pattern now populates the firmware version of ONTAP
+        -   GCP Asset Inventory pattern populates the tags for the Google Cloud storage bucket
+        -   The Network Switch pattern has been fixed to resolve the error IP-Switch Switch Stack" pre sensor execution with error = TypeError: Cannot convert null to an object
+        -   RHV Virtual Machines pattern now populates CPU and RAM attributes of the virtual machine
+        -   JBoss pattern collects version information for both the Enterprise Application platform and the Application server
+        -   MSSQL DB on Windows pattern now deletes SQL Discovery reports. A new system property,sn\_itom\_pattern.threshold\_time\_to\_delete\_mssql\_reports, has been added to control the threshold time for deletion
+-   **Version 1.18.0 - August 2024**
+    -   New:
+        -   The Pure Storage FlashArray pattern populates additional attributes "Encryption at rest" and "Encryption algorithm" in the Storage Server table
+        -   Storage patterns:
+            -   Dell EMC PowerMax
+            -   Dell EMC Data Domain
+        -   The Amazon AWS - ECS pattern supports Amazon Elastic Container Registry \(Amazon ECR\) image
+        -   The Scan Container Image pattern supports scanning container images in the following repositories:
+            -   Public repositories
+            -   Self-hosted private repositories
+            -   Amazon ECR, both public and private repositories
+    -   Fixed:
+        -   AKS discovery of Cluster and resources without having a dependency on Azure CLI for MS Entra ID
+        -   Google Cloud Platform \(GCP\) - Virtual Server pattern fixed to create a relationship between Google virtual machine and Server
+        -   F5-Cluster pattern fixed the operational\_status field based on the value of "sysCmTrafficGroupStatusFailoverStatus"
+        -   RHV Virtual Machines pattern updates the IP Address field in the \[cmdb\_ci\_ip\_address\] table
+        -   Tag extension: "Azure Subscriptions Discovery For Management Group" pattern fixed to handle tag contains a null value
+        -   The Oracle RAC Single Node" pre-post sensor is fixed to enable high memory consumption
+        -   The AVI LB pre-execution script "Get all vCenter Datacenters" is fixed
+        -   Azure service account discovery marks closed accounts as retired/inactive
+        -   NetApp Storage Cluster-Node - HTTP" pattern: the models and manufacturer value in the \[cmdb\_ci\_chassis\] table are fixed
+        -   Kubernetes "ReplicationController" table: the duplicate records issue is fixed
+        -   Fixed the HPE discovery - Physical entity relationship
+        -   The problem with the Kubernetes cluster pattern not populating empty serial number value in the \[cmdb\_serial\_number table\] is fixed
+        -   The Kubernetes discovery is fixed, to work if \[cmdb\_key\_value\] value field is empty
+        -   The issue with the old Kubernetes version imageID that didn't contain the repository details is fixed
+        -   Kubernetes discovery handles Kubernetes node API returns empty value for the node memory
+        -   Kubernetes pattern discovery: New MID server property: "sn\_itom\_pattern.kubernetes\_create\_server" handles the creation of \[cmdb\_ci\_linux\_server\] optional
+        -   The IBM WebSEAL pattern creates the load balancer reference in the LB Pool Member table
+        -   The "MSSql DB On Windows" pattern populates version 2008 R2 and 2014
+        -   The Microsoft CA - Certificate Management pattern filtered the expired certificate if the newly introduced system property: "sn\_itom\_pattern.exclude.expired.certificates.from.discovery" is set to "true" . The fixed discovery is scheduled to discover the OID value of a single certificate template
+-   **Version 1.15.1 - June 2024**
+    -   Fixed:
+        -   AIX Server Pattern populates the correct value in the \[start\_date\] field. The value is in YYYY-MM-DD HH:MM:SS format.
+        -   The Azure - DNS Zone Recordsets \(LP\) Pattern is fixed to handle the error Illegal character in opaque part at index 6: https:\\/\\/management.azure.com:443\\/.
+        -   The Azure Application Gateway TD \(LBS\) Pattern collects the Private and Public IP address.
+        -   Options for Windows Server 2019 and 2022 are added under the Windows Servers &amp; Computers section in the Discovery configuration console, within the Discovery definition menu.
+        -   GCP Event Job system log \(info messages\) with account numbers and credentials handle using system properties \[sn\_itom\_pattern.log\_gcp\_event\_job\] set to true/false, in order to enable/disable the info messages.
+        -   The Oracle Listener HD Pattern collects all Oracle DB on the host.
+        -   The Pure Storage Pattern is fixed to establish relationships when detecting Fiber Channel.
+        -   The SSHTerminalInteractiveCommand is initiating the expected "VMware vCenter" probes.
+-   **Version 1.15.0 - May 2024**
+    -   New:
+        -   The Linux server pattern populates the certificates' data from Java KeyStore. The "Collect Certificates" pattern extension is disabled by default.
+        -   The Windows Server pattern populates the certificates' data from Java KeyStore and Windows certificate store. The pattern extension is disabled by default.
+        -   The new system property, "sn\_itom\_pattern.k8s\_run\_k8s\_cloud\_discovery," prevents the automatic scheduling of cloud Kubernetes cluster discovery.
+        -   The "Azure - Get Kubernetes Clusters" pattern creates a relationship between the Kubernetes cluster and the resource group.
+    -   Changed:
+        -   The ״Amazon AWS - Kubernetes Discovery and Schedule Creator״ pattern is renamed asthe "Amazon AWS - Get Kubernetes Clusters" pattern.
+        -   The "Azure - Kubernetes Discovery and Schedule Creator" pattern is renamed as the "Azure - Get Kubernetes Clusters" pattern.
+        -   The "Google Cloud Platform \(GCP\) - Kubernetes Discovery and Schedule Creator" pattern is renamed as the "Google Cloud Platform \(GCP\) - Get Kubernetes Clusters" pattern
+    -   Fixed:
+        -   Amazon
+            -   The "Amazon AWS - Get Kubernetes Clusters" pattern updates the FQDN in the FQDN field
+            -   The Kubernetes cluster state is marked as retired when the cluster is removed
+            -   The "Amazon AWS Inventory Tags" pattern execution performance is improved from 659ms to 7 ms
+        -   Azure
+            -   The "Azure Application Gateway" pattern creates a relationship between the resource group and the load balancer
+            -   The "Azure - Get Kubernetes Clusters" pattern updates the FQDN in the FQDN field
+            -   The Kubernetes cluster state is marked as retired when the cluster is removed
+            -   The Azure cloud discovery performance is improved:
+                -   The MID-Server property "mid.cloud.discovery.sonar.discover\_all\_azure\_datacenters" has been added. Its value is false by default, indicating that the discovery will solely operate on an active datacenter
+                -   The "Azure datacenter" discovery pattern establishes or updates regions that contain resources per service account.
+                -   The "Azure - Virtual Machine", "Azure - Hardware Type" and "Azure Cloud Hardware Type" patterns execute based on the new hardware type Model per active datacenter within the service account
+        -   Google
+            -   The "Google Cloud Platform \(GCP\) - Get Kubernetes Clusters" pattern updates the Fully qualified domain name field value in the Kubernetes cluster table
+            -   The Kubernetes cluster state is marked as retired when the cluster is removed
+        -   Kubernetes
+            -   The "Kubernetes" pattern collects node labels and annotations and populate them in the \[cmdb\_key\_value\] table
+            -   The "Kubernetes" pattern and the "Kubernetes Event" pattern don't create duplicate records for the same cluster in the "Docker Container" Table
+            -   The "Kubernetes" pattern performance is improved by \[cmdb\_key\_value\] filtering
+            -   The discovery of OnPrem Kubernetes cluster functions without the cluster's resource ID
+        -   Nutanix
+            -   The "Nutanix Components" pattern extension, "Nutanix Tags", creates or updates tags regardless of the category limitations
+            -   The "Nutanix Components" pattern establishes only one-to-many relationships between the Nutanix Host and the Nutanix VM Instances
+        -   The "Microsoft CA" pattern's issue of duplicate certificate records in the "Unique Certificate" table is resolved. The issue was caused by variations in the format value of the fingerprint in the "Fingerprint" field.
+        -   The "Veritas/VxVM Volume Replicator" process classifier is applied to horizontal discovery patterns, rather than being applied to top-down discovery
+        -   The "Oracle OCI - Autonomous DB \(LP\)" pattern enables the discovery of Autonomous Databases
+        -   The "Tuxedo" pattern has been updated to ensure the accurate version is reflected in the "Tuxedo" table
+        -   The "Next Generation Fortinet Network Firewall" pattern successfully populates the \[serial\_number\] field
+        -   In the "F5 BigIP LTM" pattern step, the "bigpipe.displayservicenames" value is configured to be set to "false"
+        -   The "Linux Server" pattern extension, "UNIX Cluster - Linux Pacemaker Cluster", populates the cluster nodes, cluster resources, and cluster virtual IPs of the Linux Pacemaker cluster
+        -   The "MSSQL DB On Windows" pattern extension, "Collect MSSQL Cluster Info - MSSQL Cluster", retrieves the MSSQL cluster IP address
+        -   The "Scan Container Image" pattern supports the Trivy versions v0.44.0 or later.
+        -   The "IBM HMC Server" pattern updates the name and status of the LPAR Instances
+        -   The "Azure Application Gateway \(LP\)" pattern creates a relationship between the Resource Group and the Cloud Load Balancer
+        -   To enhance the efficiency of the "Multi Paged Orchestrator" patterns and decrease both execution time and memory usage, a new column named "orchestrator\_page" was introduced in the "Horizontal Paged Payload" table
+        -   The "Collect Container Repository" extension is executed if the \[cmdb\_ci\_container\_repository\] entry name is empty
+-   **Version 1.12.0 - March 2024**
+    -   New:
+        -   WebSphere Message Broker on UNIX pattern supports IBM App Connect Enterprise 11.
+        -   OpenStack Discovery \(Private Cloud\).
+    -   Fixed:
+        -   F5 Pattern updates the Subject Alternative name field.
+        -   IBM HMC Server Pattern creates a relationship between all of the LPAR instances in the LPAR names with the processor pool.
+    -   Azure:
+        -   Azure Cloud discovery is inserting the valid value in the Location reference field.
+        -   Azure VM Instance - Uniform Scale Set pattern discover CPU and Memory information.
+        -   Azure VM Instance - Uniform Scale Set pattern is enhanced, if there is no response from the API then it gracefully terminates.
+        -   Azure - NIC \(LP\) pattern is fixed to populate the source\_native\_key value in the correct format.
+    -   Google: Improved the security on the Google Credential User Interface page - Add an Access Control List restricting the user access to the appropriate role/user group.
+    -   Docker:
+        -   The Docker pattern creates a relationship between the Docker engine and the Docker Container.
+        -   The Docker Pattern populates the Docker local image.
+    -   Changed: The Pure FlashArray storage pattern is disabled by default.
+-   **Version 1.11.0 - February 2024**
+    -   New:
+        -   Pure Storage FlashArray discovery
+        -   SAP Hana 2.0 DB Catalog discovery
+        -   Microsoft CA Pattern discovers additional attributes
+        -   AWS Cloud Discovery now discovers additional attributes on the Cloud organizations and Cloud Service Account Tables
+        -   GCP Cloud credentials now support standard Google Cloud Credential JSON file importing
+    -   Fixed:
+    -   -   Network and Subnet patterns no longer truncate the address space - AWS, Azure, and GCP
+-   Kubernetes Pattern - Populates Labels and Annotations for Kubernetes Nodes
+-   IBM PowerHA Cluster \(HACMP\) Pattern - updates correct FQDN for AIX Servers
+-   MSSql DB On Windows Pattern - Deletes the SQL discovery report after discovery is complete
+-   Azure:
+    -   Azure - Sub Account \(LP\) Pattern - all tenants now under root
+    -   Azure - Virtual Machine \(LP\)" Pattern - new VMs build the relationship with the OS Server
+    -   Azure - NIC \(LP\) and Azure NIC Tags Pattern - now collects the tags
+-   Amazon:
+    -   Amazon AWS - Internet Gateway \(LP\) Pattern - Creates a relationship between Network and Internet Gateway EP
+    -   Amazon AWS API Gateway Pattern - supports Paginating
+-   Google:
+    -   GCP TCP-UDP Load Balancing Pattern - populates LB Backend Service, IP and Port, Global LB, Pools, and Pool members
+    -   Google Cloud Platform \(GCP\) - Get Logical Datacenters Pattern - discovers Northamerica-northeast2 datacenter
+    -   Google Cloud Platform \(GCP\) - Disk and Virtual server Pattern - IRE error fixed
+-   Microsoft CA Pattern:
+    -   Fixed issue with High Memory Consumption
+    -   Populates srenewal\_tracking for certificate based on system property
+    -   MID Server no longer receives responses exceeding the allowed number of rows
+-   **Version 1.10.1 - December 2023**
+    -   Fixed:
+        -   Oracle-GLAS Export Utility:
+            -   File Name change to lowercase
+            -   &lt;machine\_name&gt;.txtfile - is now created under the log folder
+    -   Azure VM Instance - Uniform Scale Set Pattern: Corrected the region part of the \[source\_native\_key\] and removed duplicate records because more than one VM can have the same template.
+    -   Azure Application Gateway \(LP\): Service Mapping is fixed for services on Port 80 and Private IPs
+    -   Cloud Foundry:Operational Status for \[cmdb\_ci\_pcf\_organization\] and \[cmdb\_ci\_pcf\_appl\] CIs
+    -   Azure NIC Event: The IRE error is fixed
+    -   F5 - SSH - SSL Certification: The broken NDL is fixed
+    -   Solaris Server: The default route without the interface can be retrieved
+    -   Azure Application Gateway TD \(LBS\): Parsing is corrected for the Application Gateway service attributes
+    -   AVI Load Balancer Controller and Avi Load Balancer Controller - Session-based: The PORT number and IP address for \[cmdb\_ci\_lb\_service\] CIs are fixed for AVI Controller load balancer services
+    -   Kubernetes and Pattern Library: Kubernetes WorkLoad Components: a mid-server property is added. When activated, Kubernetes Volume is populated and the Kubernetes WorkLoad Components are optimized.
+    -   The Oracle DB on UNIX Pattern is able to fetch the DB Name, DB Unique Name, Host Name &amp; Instance
+    -   Microsoft CA - Certificate Management Pattern: The \[subject\_organizational\_unit\] field is now populated with the expected value
+    -   Jboss Pattern: The correct \[Version\] is getting populated for JBoss 29 installed on Windows Server
+    -   Azure - Sub Account \(LP\): fixed the query to limit Management Groups
+    -   Post sensor "Delete Old Relations with Storage Account for Storage Containers": modified to have the property use\_split\_payload/"Use Split Payload" set to true. Fixed the Out of Memory issue
+    -   Nutanix components Pattern: Fixed the relationship Managed by::Manages
+    -   Next Generation Fortinet Network Firewall pattern:Fortinet firewall in a cluster, correctly mapping the serial number attribute value in the \[cmdb\_serial\_numbers\] table to the respective firewall nodes
+-   **Version 1.10.0 - November 2023**
+    -   New:
+        -   Sybase DB Catalog
+        -   Discovery partitions from Citrix LB and support discovery via NITRO APIs
+    -   Changed: OS template migration to new model
+    -   Fixed:
+        -   K8 Discovery
+        -   F5 Certificate discovery
+        -   ZooKeeper Server Pattern fails with Could not find host item in Identification engine output payload
+        -   Google Cloud Platform \(GCP\) - Virtual Server fails with Payload Errors
+-   **Version 1.8.0 - September 2023**
+    -   New:
+        -   Citrix NetScaler load balancer discovery using NITRO APIs.
+        -   BYOL on Azure, GCP, and AWS: support for the license key value for GCP Windows, RHEL, and SQL servers.
+        -   Amazon AWS ElastiCache pattern: tags for databases.
+        -   DBA report discovery for Apache Cassandra, MS SQL, MySQL, MongoDB, and Oracle databases.
+    -   Changed:
+        -   All LP files moved to the standard "update" folder, as their current "if.paris.pattern.engine" is outdated.
+        -   The Apache Cassandra DB Pattern was refactored.
+    -   Fixed:
+        -   Amazon AWS - ECS:
+            -   -   Task and Task Definition relationship
+-   "Amazon Parse ECS Tags" fixed Service Tags
+-   Amazon AWS - EC2: detection steps on Linux Server when the "compiled by" value is "Xen"
+-   Azure Cloud Discovery:
+            -   Object ID between Azure - Hardware Type \(LP\) and Azure - Virtual Machine \(LP\)
+            -   The Post sensor pattern pre-postsfor 'Azure - Virtual Machine \(LP\)' were unnecessarily holding on to large objects for too long.
+            -   Azure Events: Azure events were not able to process when a new hardware type was enabled
+        -   NetApp Storage Cluster Mode:
+            -   Under the "Normalize disk data" step, the field \[disk\_interface\] is replaced with "device\_interface"
+            -   Fixed the \[cmdb\_ci\_storage\_cluster\_node\] tables \[operational\_status\] field value.
+            -   Fixed the \[cmdb\_ci\_disk\] Hosted On::Hosts \[cmdb\_ci\_diskshelf\_chassis\] relationship
+            -   Fixed the Reference to cluster in the Storage Cluster Node table
+        -   Next Generation Cisco Firewall: fixed hung discovery
+        -   Microsoft CA - Certificate Management:
+            -   Skipped glide.discovery.certs.enable\_renewal\_task\_creation\_on\_for\_discovered\_certificates
+            -   Fixed the condition on the failover step to \[set root\_issuer\] name
+        -   Couchbase Classifier: fixed the false positive on the instance creation
+        -   Couchbase Instance pattern: support for "Parse the Remote Clusters"
+        -   MSSql DB On Windows: fixed Pre-sensor script "Create reference bw MSSQL Components and Windows Server"
+        -   Fixed edition for MSSQL Server 2022 "Enterprise Evaluation Edition"
+        -   The Credentialless Discovery Network pattern was failing during IRE processing due to duplicate payload items being generated in the pattern
+        -   ColdFusion Application Server pattern: fixed the filtering issue
+-   **Version 1.7.0 - August 2023**
+
+    New:
+
+    -   The NetApp pattern is supporting HTTP REST API.
+    -   IBM WebSEAL TD discovery is added.
+    -   Installed Software discovery via Aqua Trivy - Generate and download SBOM per docker image
+    -   AWS Cloud discovery Retry mechanism
+    Fixed:
+
+    -   Migrate Azure pattern steps from Availability Zone to Availability Sets
+    -   Microsoft SQL Cluster discovery is refactored
+    -   Legacy Password2 system
+    -   IBM HMC Server pattern - the pre-execution Scripts
+    -   The relationships between the CIs in Nutanix V5.20
+    -   The deletion strategy in the \[cmdb\_ci\_snat\_ip\_pool\] table
+    -   ""MSSQL DB on Windows"" pattern now adds appropriate reference value for the field ""server"" in the \[cmdb\_ci\_mssql\_cluster\_node\] class
+    -   Microsoft CA Certificate discovery failed when the server locale is not using ""dd/MM/yyyy"" - Unparseable date: ""No Valid Date"" or wrong date
+    -   The error handling for the Kubernetes pattern is improved.
+    -   Azure - The VM Scale Set patterns are populating the location field correctly from a reference field
+    -   The Windows ARP and Windows NDP steps in the Windows OS - Server pattern are fixed
+    -   SQL Components discover by quick discovery even though no SQL Server Service installed on the VM
+    -   IBM and Azure API command scripts log error details are added
+    -   A10 Load Balancer Services with Pool Reference
+    -   Google Cloud Platform \(GCP\) - Virtual Server pattern failed with MULTIPLE\_DEPENDENCIES found between Hardware Type and Google Datacenter
+    -   Slow Query - ASYNC: Discovery - Sensors Pattern Launch
+    -   Cloud discovery is updating discovery\_source of the CIs discovered
+    -   Linux Server pattern extension ""Get Object Id For OCI Linux Server"" timeout 10 sec if Linux Server VM is not hosted on OCI
+    -   AWS API command had a log error body for HTTP 400
+    -   Quick Discovery: All SQL components are discovered and no duplicate records are created
+    -   Azure - File Share \(LP\) pattern populate data in the \[cmdb\_ci\_cloud\_file\_share\] table
+    -   Microsoft CA Certificate Management pattern populates correct attributes - Issuer Distinguished Name, Subject Distinguished Name, Fingerprint Algorithm, Signature Algorithm
+    -   JBoss Fuse pattern incorrectly triggered for ServiceMix software
+    -   The relationship between the Linux server and Azure VM instance
+    -   EMC Isilon pattern corrected relation and reference to \[cmdb\_ci\_storage\_node\_element\]
+    -   Amazon AWS Serverless Database tags pattern extension is creating a tag for cloud database
+    -   AVI Load Balancer Controller pattern is populating the IP address field
+    -   Azure Resource Graph \(ARG\) API - the response mapping is updatedto adhere to the latest API response update
+    -   Additional checks to validate SPDX SBOM content are added
+    -   The post-sensor script ""create a relation between HPE BladeSystem blade and OS Server"" is updated
+    -   The container image scan and SBOM generation can be done by using Aqua Trivy installation instead of an uploaded file.
+    -   Citrix Netscaler SDX pattern failed at step 4 regex fails to parse the data
+    -   SBOM - Docker Image name overridden, Invalid SBOM files, Old SBOM Attachment Files delete and spdx-json"" and ""spdx"" file types
+    -   AKS token issue for AD-enabled clusters
+    -   Oracle DB, Oracle db-11g, and Oracle GLAS Oracle DB on UNIX patterns failed with payload error
+    -   The pre-requisite check to migrate probes to patterns was failing
+    -   Oracle LMS recertification -
+        -   Collection-&lt;machine\_name&gt;.txt file - can be created in the log folder and additional FS data
+        -   Oracle GLAS reports for middleware components
+        -   Discover Oracle middleware components
+-   **Version 1.6.0 - June 2023**
+    -   New:
+        -   New WebSEAL and ISAM creation pattern to support version 9. x and above. The pattern should be supported with REST API.
+        -   Implemented MID bypass Proxy property
+        -   Azure VM Scale Set discovery pattern \(Orchestrator Uniform Mode\)
+        -   Created a relationship between Azure regular VM Instance and VMs ScaleSet \(Flexible mode\)
+        -   Added PCF Bosh resources to the existing Cloud Foundry pattern, based on new OpsMan API functionality.
+        -   MSSQL DB on Windows pattern Collected MSSQL Components Editions using MSSQL report Utility.
+        -   Azure VM LP patternwill be changed to trigger after Datacenter discovery, rather than hardware type
+    -   Fixed:
+        -   Trailing "." in the Palo Alto network device name was caused due to use to nslookup in Next Generation Palo Alto Firewall.
+        -   EMC Isilon pattern merged node and node elements
+        -   NetApp Storage Cluster-Mode" pattern retrieves a specific device's serial number.
+        -   WebLogic application server pattern was failing with the error "Failed to get file due to the path being too long 2,004. The path expression should not exceed 2,000 characters"
+        -   "Default form" view for the 'cmdb\_ci\_instance\_scale\_set' table from the 'CMDB CI Class Models' store app.
+        -   ESX server has multiple Runs-on relationships to HPE BladeSystem Blades
+        -   Pattern IBM PowerHA Cluster \(HACMP\) changes were missing relation \(between UNIX Cluster Node \(cmdb\_ci\_unix\_cluster\_node\) and the AIX server \(cmdb\_ci\_aix\_server\)\), cluster node state and created duplicate resource groups.
+        -   The regex in the "DB2 on Linux" pattern step "Get instance name from PPID" was removed and hard-coded as a 0.
+        -   "Computer" and "Virtual Machine Instance" in Azure and AWS currently has 'Virtualized by::Virtualizes' relationship
+        -   Discovery attempts to default ports when adding a new SQL server.
+        -   Azure \(LP\) Patterns Extension Sections to get Azure Tags removed duplicate key/value pairs before creating relationships to Main CI
+        -   Azure Events can contain Resource IDs with different case-sensitive naming
+        -   Azure Virtual Machine Event is failing with MULTIPLE\_DEPENDENCIES error.
+        -   "Issuer" and "Root Issuer" fields are not being set by the F5 certificate extension
+        -   container image scan failure reason shows in the message field
+        -   Azure Event patterns execute additional and unneeded API calls contributing to 429 errors
+        -   Google Cloud Platform \(GCP\) - Cloud SQL DB failing with an unknown error
+        -   Cassandra DB Discovery fixed for nodes that is having multiple Cassandra installations.
+        -   Microsoft Azure Inventory \(LP\): cmdb\_key\_value table is not populated by the LP pattern
+        -   Microsoft Azure Inventory \(LP\): deletion strategy is worked
+        -   Discovery and Service Mapping Patterns 1.0.99 sets Discovery Status Source=scan\_container\_images and Discover=ContainerImages, that are missing from the choice lists
+        -   Add OOB fix to migrate new hardware type model
+        -   Azure Cloud Discovery: Throttling Error \(429\) fixed
+    -   Kubernetes:
+        -   \[Credential-less\] \[Serverless\] Kubernetes Volume table is now populating the Kubernetes Cluster attribute
+        -   Kubernetes pattern does use full manifest digest for image\_id.
+        -   Kubernetes discovery was failing with CMDB App version 1.42.0 and Patterns app 1.0.96
+        -   Kubernetes OOTB pattern updated the "name" field in the cmdb\_ci\_kubernetes\_cluster table as "OnPrem"
+        -   Kubernetes discovery will not create an invalid pod record if the cmdb\_ci\_kubernetes\_pod table is empty
+        -   The OpenShift extension in the Kubernetes pattern is fixed with "Cannot convert null to an object"
+        -   Some Kubernetes components like cmdb\_ci\_kubernetes\_replicasets are removed from the CMDB
+    -   Changed: Azure Functions, Azure Website, Azure Database LP, and Azure DNS Zones patterns are changed to Cloud resources type.
+    -   Removed: Remove the tag extension section from the Azure Database TD pattern.
+-   **Version 1.5.0 - May 2023**
+    -   New:
+        -   A new Pattern to discover WebSEAL and ISAM is released. The supported versions are 9. x and above. The Pattern should be supported with REST API.
+        -   The MID bypass Proxy property is Implemented.
+        -   A new Azure VM Scale Set Pattern \(Orchestrator Uniform Mode\) is released.
+        -   A new relation is created between Azure regular VM Instance and VMs Scale Set \(Flexible mode\)
+        -   PCF BOSH resources are added to the existing Pivotal Cloud Foundry Pattern, based on new OpsMan API functionality.
+        -   MSSQL DB on Windows Pattern Collected MSSQL Components Editions using MSSQL report Utility.
+        -   Azure VM LP Pattern is changed to trigger after the Datacenter discovery, rather than Hardware Type.
+        -   Trailing "." in the Palo Alto network device name was caused due to use to nslookup in Next Generation Palo Alto Firewall.
+        -   The EMC Isilon Pattern merged node and node elements.
+        -   The NetApp Storage Cluster-Mode Pattern didn't retrieve the serial number for a specific device.
+        -   The WebLogic application server Pattern was failing with the error "Failed to get file due to the path being too long 2,004. The path expression should not exceed 2,000 characters".
+        -   The "Default form" view of the \[cmdb\_ci\_instance\_scale\_set\] table in the 'CMDB CI Class Models' store app.
+        -   The ESXi server Pattern had multiple Runs-on relationships to the HPE BladeSystem blades.
+        -   The IBM PowerHA Cluster \(HACMP\) Pattern changes were missing the relation between the UNIX Cluster Node \[cmdb\_ci\_unix\_cluster\_node\] and the AIX server \[cmdb\_ci\_aix\_server\]. A cluster node state created duplicate resource groups.
+        -   The regex in "DB2 on Linux" pattern step "Get instance name from PPID" was removed and hard-coded as a 0.
+        -   The "Computer" CI and "Virtual Machine Instance" CI of Azure and AWS had a 'Virtualized by::Virtualizes' relationship.
+        -   The MSSQL DB on Windows Pattern was failing due to using the default port.
+        -   The Azure \(LP\) pattern extension sections of Azure Tags did not create duplicate key-value pairs before creating relationships.
+        -   The Azure Event Patterns were failing due to case-insensitive conditions.
+        -   The Azure Virtual Machine Event Pattern was failing with the "MULTIPLE\_DEPENDENCIES" error. The relationship between NIC and LDC being was created twice.
+        -   F5 Load Balancer Pattern was failing to add "Issuer" and "Root Issue" to Certificates.
+        -   The Container image scan was failing on timeout and no failure reason was logged.
+        -   Azure Event patterns executed unwanted API calls.
+        -   Google Cloud Platform \(GCP\) -the Cloud SQL DB was failing with the error "JAVASCRIPT\_CODE\_FAILURE: Caused by an error in the Ad hoc script 'EvalClosure-Populate Hardware Type Table' at line 4"
+        -   Kubernetes
+        -   The \[Credential-less\] \[Serverless\] Kubernetes Volume table wasn't populating the Kubernetes Cluster attribute.
+        -   The Kubernetes Pattern didn't use full manifest digest for image\_id.
+        -   The Kubernetes discovery was failing with CMDB App version 1.42.0 and Patterns app 1.0.96.
+    -   Changed: The Azure Functions, Azure Website, Azure Database LP, and Azure DNS Zones patterns are changed to Cloud resources type \(formerly application type\). Visit the Service Now documentation site for detailed information on products discovered by ITOM Visibility.
+    -   Removed: The tag extension section from the Azure Database TD pattern.
+-   **Version 1.3.0 - March 2023**
+    -   New:
+        -   Azure event collection and processing that updates the CMDB configuration items.
+        -   Collects events across multiple subscriptions, at the Azure management group level.
+        -   Replaces the old approach of event collection through Azure configurations.
+        -   A deletion strategy is added to delete container application records if the container is no longer available.
+        -   Disables alert configuration while migrating to pull-based events.
+        -   Installed software records are added for additional software.
+        -   GCP Cloud Discovery - \[volume\_name\] is now populating GCP snapshots.
+        -   Citrix Xen HyperV extension is now populating CPU count/CPU core count and more values.
+    -   Changed:
+        -   Azure Inventory Pattern is now supporting large payloads.
+        -   Cloud Foundry Pattern is now supporting v3 API.
+    -   Fixed:
+        -   Kubernetes
+            -   -   Kubernetes Discovery was failing with the error: "no relations defined for dependent class".
+-   The first entry on sn\_itom\_pattern.kubernetes\_annotation\_list value \(array\) was filtered out during Kubernetes discovery.
+-   Kubernetes discovery is now updating \[cmdb\_ci\_kubernetes\_volume\] gracefully.
+-   The "Undefined" Pattern error occurred when K8s workloads \(daemonset, replicaset, statefulset\) were not discovered properly.
+-   \[sn\_itom\_pattern.k8s\_aws\_cli\_to\_generate\_token\] property is now active.
+-   Kubernetes discovery was ignoring service relations to empty or undefined workload components.
+-   \[K8S-SAM\]\[kubernetes pattern\] all container environment variables are now collected.
+-   \[k8S-SAM\] Virtual-CPU is now populated for containers without CPU limits.
+-   \[K8S-SAM\] container enrich script is now triggered correctly.
+-   \[K8S-SAM\] software package details are now updated to the containers.
+-   \[K8S-SAM\] \[Docker\] \[Kubernetes\] User Password masked in \[cmdb\_ci\_db\_mssql\_instance\] table.
+            -   AWS and Azure: the discovery failed after capi due to the Pattern migration to the new hardware type.
+        -   AWS
+            -   -   AWS discovery - Event-based discovery Object ID issue is fixed.
+-   Cloud tags for the AWS EC2 instance are now removed from \[cmdb\_key\_value\] when the instance is terminated.
+-   The tags of the Cloud database CIs were using the "Amazon AWS Relational Database Service Tags" Pattern extension.
+-   Now discovery ignores the stale DNS name records on AWS load balancer discovery.
+        -   Azure
+            -   -   Incorrect LDC was populated for Azure Functions Event Pattern.
+-   "Azure - Classic LB \(LP\)" discovery now works when backendAddressPools are defined for multiple devices.
+-   Microsoft Azure Inventory \(LP\): New relations are now created.
+-   Azure Application Gateway \(LP\) is now avoiding duplicate CIs for a single Azure resource.
+        -   Google Cloud Platform \(GCP\)
+            -   GCP discovery was failing in some scenarios.
+            -   The shared library "Google Cloud Platform \(GCP\) - VM and Image Labels" is now fetching labels for cloud images.
+            -   Improvements in "Google Cloud Platform \(GCP\) - Virtual Server" Pattern for event-based discovery are now available.
+    -   Microsoft CA - The Certificate Management Pattern was failing in some situations.
+    -   Microsoft CA - Certificate Authority pattern now includes seconds for Valid to/Valid from timestamps
+    -   ZooKeeper Server Pattern was failing to create a record in the CMDB.
+    -   MSSQL Cluster discovery now respects \[glide.discovery.hostname.include\_domain = true\]
+    -   Rubrik Node \[source\_native\_key\] is now populated correctly with the Rubrik cluster ID.
+    -   Oracle Pattern: Removed duplicates in express value under \[Edition\].
+    -   The Oracle databases relationships to Oracle DB Instances are fixed for some cases.
+    -   The Network Router / Switch Pattern is now setting the CI Name from DNS when \[glide.discovery.hostname.snmp\_trusted\] is set to false.
+    -   The openStack security token is now masked in the Discovery Log.
+    -   Security bugs
+-   **Version 1.0.98 - February 2023**
+    -   New:
+        -   A new extension of the A10 Load balancer Pattern, that supports IP SNAT \(Source Network Address Translation\).
+        -   Installed Software discovery for deployed Docker / containerized workloads in Kubernetes and OpenShift.
+    -   Fixed:
+        -   IBM Informix Dynamic Server discovery Pattern failed to populate executable Dir and TCP ports.
+        -   Invalid certificate was created during F5 pattern discovery.
+        -   A10 discovery failed to execute insertation \(Identification Engine Payload error\).
+        -   The deletion strategy of the \[cmdb\_ci\_docker\_image\] CI was modified to ""keep"" on the Kubernetes Pattern.
+        -   The command ""crsctl query cluster site -all"" in Oracle Listener HD Pattern requires elevated user rights \(sudo\) as a failover.
+        -   Google Cloud Platform \(GCP\) Firestore DB Pattern discovery failed in Payload Processing because no relations were defined for the dependent Class Cloud Database.
+        -   Arista switches discovery did not populate ""neighbor interface"" in ""Device Neighbors"".
+        -   GCP Load Balancer HTTP discovery created irrelevant multiple Load Balance Service dependencies.
+        -   In the GCP Virtual Server Pattern, the step 'Get image name from source image' returned an error.
+        -   The Discovery script that creates relationships between blades and servers, created invalid relationships for the HPE BladeSystem blade and OS Server.
+        -   Cassandra discovery for two different servers with the same cluster name listed only one cluster.
+        -   The Kubernetes discovery was creating duplicates in the Linux servers table due to a ""glide.discovery.hostname.include\_domain"" property setting problem.
+        -   Generic switches in Pattern discovery do not create ""discovery\_switch\_fwd\_table"" records, which impacts L2 connections.
+        -   The Pattern extension of Azure Virtual Machine \(VM\) License did not set the key ""Windows\_OS\_License\_Type\_automatic"" value to ""License\_included"".
+-   **Version 1.0.96 - December 2022**
+    -   New: Dell EMC XtremIO Storage.
+    -   Fixed:
+        -   Azure
+            -   Azure deletion strategy didn't work for Resource groups.
+            -   Azure - Network and subnet \(LP\) pattern failed with IRE error, due to missing identification attributes for dependent CI class Virtual network peering.
+            -   Azure database view "sn\_itom\_pattern\_azure\_virtual\_machine\_instance" returned duplicate records.
+            -   The Azure Subscription tag details were not discovered.
+        -   GCP
+            -   Google Cloud Platform \(GCP\) - Virtual Server discovery failed due to strange duplicate CI records inside the payload that did not come from the pattern.
+            -   The FQDN and IP Address is added to GCP Databases.
+            -   The error in Google Cloud Platform \(GCP\) pattern-Discover Related Projects, Step 11.
+            -   Virtualized by relationship did not populate for GCP Linux servers, as the Linux server pattern failed to retrieve the Object id of the VM Instance hosted on Google cloud.
+        -   Amazon
+            -   Amazon AWS DB Cluster pattern failed if the region only contained serverless clusters.
+            -   AWS S3 bucket discovery- if the bucket location was not found, the bucket CI was not created.
+            -   The MID Server was backed up when the AWS Cloud discovery run for a long time.
+        -   Kubernetes
+            -   The Kubernetes Event pattern did not filter the Annotations in the same way the Kubernetes pattern does.
+            -   Kubernetes pattern did not use full manifest digest for image\_id.
+            -   The CPU\_COUNT and CPU\_TYPE target fields were only populated in the Linux Server table for the Kubernetes Event pattern, but not for the Kubernetes pattern.
+            -   The Couchbase instance had an incorrect identification rule. The rule should be 'dependent' and not 'independent'.
+            -   Deletion Strategy- for the manually retired CIs from the CMDB, the Install Status and Operational Status columns didn't get updated appropriately after the re-run of Discovery.
+            -   The offline Oracle instance is being discovered and updated.
+            -   Pattern "Cassandra Distributed DB" didn't work - install\_directory was not properly detected, leading to an empty UID.
+            -   The IBM Informix Dynamic Server Pattern populated the same name for different Informix instances and SQL regex parse with the correct hostname.
+-   **Version 1.0.95 - November 2022**
+    -   New:
+        -   Oracle Services was added as discovered CI.
+        -   AWS Auto Scaling groups was updated.
+    -   Changed: The "state" attributes for all Kubernetes entities was updated \(if vendor response contains state\).
+    -   Fixed:
+        -   Kubernetes
+            -   OpenShift received a call only after pulling the first 100 records.
+            -   There was no visibility of the Kubernetes dashboard with the right set of permissions.
+            -   A relation between LDC and EKS, AKS, and GKE clusters was created.
+            -   Openshift discovery failed because the deployment config wasn't present.
+            -   While running "Get replicationcontroller" step in the Kubernetes pattern,the memory run out.
+        -   AWS
+            -   Auto Scaling groups \(LP\): The "state" attribute of the "cmdb\_ci\_instance\_scale\_set" table was not populated when it was 'Active' by default.
+            -   OpenSearch pattern errors occurred, when there were no resources found, instead of failing.
+            -   Avi Load Balancer Controller - Session-based pattern did not discover Load Balancer Pool Member.
+            -   Discovery marked cmdb\_ci\_compute\_security\_group as terminated, however, it didn't mark it back as available / installed.
+            -   Discovery pattern Oracle Listener HD populated incorrect values to Oracle Database CI attributes in some cases.
+            -   Interactive Probe Shell sensor script logs errors to Syslog, that contained just the result, which might have been the message "empty".
+            -   MID Server script include was conflicting with name resolution \[AzureProvider\].
+            -   OOB FlashBlade Pure Storage pattern obtained empty results \(position 2\). When changed the position to 3, it was possible to get the API token value.
+            -   Oracle Service: Manually setting the CI state to non-operational was not resetting back to the right status after discovery.
+            -   The GCP Service parent account ID was deleted after running discovery.
+            -   Nutanix dashboard with ID '56107869dbde7b00e7dc7c4daf96192e' was not found.
+            -   Network and Subnet \(LP\) pattern was populating cmdb\_ci\_vnet\_peering even though there was no data for Vnet peering in the API response.
+            -   Record validation was added to check the status for scripts listed in Sa\_find\_host\_script \(for app-itom-patterns\).
+-   **Version 1.0.94 - October 2022**
+    -   New:
+        -   AWS Kinesis Discovery
+        -   AWS Auto Scalling Discovery
+    -   Fixed:
+        -   Kubernetes
+            -   "Kubernetes Event" discovery is failing with "MULTIPLE\_DEPENDENCIES Found multiple dependent relation items"
+            -   Bad identification rules on cmdb\_ci\_kubernetes\_workload
+            -   Istio service mesh kubernetes service relation are not getting created
+            -   Kubernetes Disco fails due to "Collect Container Repository" extension in K8 pattern
+            -   Kubernetes discovery performance - need to remove collected of tracked files from the Openshift extension
+            -   Kubernetes Event pattern "Populating cmdb\_ci\_linux\_server" step does not evaluate the "os" value correctly
+            -   The IP address field should not be populated in Kubernetes cluster when the cluster is discovered by containerized in-cluster MID
+            -   Annotations\['deployment.kubernetes.io/revision'\] Found in the Kubernetes config files \("Get Kubernetes Config Files"\)
+            -   \[Kubernetes \| Docker \] Relation between docker container and image is missing
+        -   AWS
+            -   Amazon AWS - Virtual Server - fails due to payload error
+            -   AWS DB services: Graceful termination is not handled correctly
+            -   AWS DB services: Opensearch: Certain resources are not discovered
+            -   Guest OS field on cmdb\_ci\_os\_template \(Image\) is populated incorrectly in the context of discovery pattern "Amazon AWS - Executable Template \(LP\)"
+            -   Slow query on \`a\_str\_7\` IS NULL coming from "ASYNC: Discovery - Sensors Pattern Launc" jobs observed during execution of Amazon AWS Virtual server pattern
+            -   IBM PowerHA Cluster
+            -   Pattern is not populating cmdb\_ci\_unix\_cluster\_node if having "-" \(hyphen\) in hostname
+            -   Pattern is not populating the Cluster field \(reference\) for few CI types related to the discovery pattern
+        -   GCP
+            -   Events API call restricted to collect only page response each GCP events job schedule runs
+            -   Kubernetes Pattern - Unicode Character in Pattern Name
+            -   Pull events flag is changed to enabled, "latesttimestamp" set to current time
+            -   The listener protocol is not populated for frontend
+            -   Disk shelf chassis and node elements bringing in the same serial number when the netapp pattern is triggered
+            -   AVI Load Balancer Controller - Session based pattern not creating relationships between Load Balancer and Service Engine
+            -   Azure Kubernetes discovery fails due to empty cmdb\_ci\_docker\_image ID
+            -   MicroSoft CA - Certificate Management Pattern is injecting certificate serial number in non standard format
+            -   Nutanix Components discovery pattern not populating Guest OS for VM instances causing additional license count
+            -   Openstack Discovery - Token Creation is getting failed while OpenStack Discovery
+            -   Rubrik discovery is creating duplicates in Windows server table if the property: glide.discovery.hostname.include\_domain is set to true
+-   **Version 1.0.92 - September 2022**
+    -   Changed: Improved Kubernetes model to support Native Cloud Operation Application
+    -   Fixed:
+        -   Kubernetes
+            -   "Kubernetes Event" discovery is failing with MULTIPLE\_DEPENDENCIES Found multiple dependent relation items
+            -   \[Kubernetes \| Docker \] Relation between docker container and image is missing
+            -   Bad identification rules on cmdb\_ci\_kubernetes\_workload
+            -   Changes in k8s pattern based on BMO escalation
+            -   \[CNO\] Name field is showing \(empty\) in Kubernetes Services
+            -   Issues with Kubernetes pattern after Patterns upgrade to 1.0.90
+        -   AWS
+            -   Amazon AWS DB Cluster Pattern fails, CI Type cmdb\_ci\_cloud\_db\_cluster cannot be created
+            -   Discovery of several different AWS resources having identical resource ids, result in creating only one CI in cmdb
+            -   Pattern: Amazon AWS - Classic LB \(LP\) is not populating Load Balancer field for cmdb\_ci\_lb\_service
+        -   Azure
+            -   Azure tag:- tags with key value as "null" \(this is the string and not null\) is being populated as empty
+            -   Issue with object ID for centos stream 9 \(Azure\)
+            -   Refresh sub-account on populating all accounts using "Azure Subscriptions Discovery For Management Group"
+        -   Cloud Retry Framework
+            -   Changes to prevent multiple retry configuration for the same provider
+            -   GetCloudRequestStatsProbe output ecc queue records are stuck in 'processing'
+            -   Undefined variable prevents cloud metrics from being inserted into H2 database
+            -   Fix L10N errors
+        -   Cassandra Distributed DB, the pattern is unable to correctly identify the path to nodetool utility.
+        -   Discovery via "Oracle DB on Unix" pattern creating duplicate oracle instances if RAC configured to one node
+        -   The "Nutanix Relations" Pattern Pre/Post Script can create the "Instantiates::Instantiated by" relationship with a Retired Server
+        -   "Virtualized by::Virtualizes" relationship between the Virtual servers and VM instances in OCI cloud
+-   **Version 1.0.91 - July 2022**
+    -   New:
+        -   Cohesity backup server discovery
+        -   AWS Redshift
+        -   Auto scheduler for AKS
+        -   AWS ElastiCache
+        -   AWS Keyspaces
+        -   AWS MemoryDB
+        -   AWS Opensearch
+    -   Fixed:
+        -   Cloud Retry Framework
+            -   Change to prevent multiple retry configuration for the same provider
+            -   GetCloudRequestStatsProbe output ecc queue records are stuck in 'processing'
+            -   Undefined variable prevents cloud metrics from being inserted into H2 database
+        -   Kubernetes
+            -   Discovery will fail if Kubernetes run on-premise due to undefined provider
+            -   Event pattern does NOT include "Cluster Name" parameter as Kubernetes pattern
+            -   Pattern isn't ingesting the UID for the cluster
+            -   Pattern wouldn't populate cluster/main node IP address"
+            -   OOB Get Kubernetes YAML Files pattern, populates the improper yaml\_file content.
+            -   Populate Kubernetes cmdb\_ci\_docker\_container.status field by container status \(RUNNING, STOPPED, ...\)
+            -   Discovery patterns Credential Types sn\_itom\_pattern\_kubernetes/sn\_itom\_pattern\_pcf are missing from the discovery\_credentials.type field choice list, so shows in blue in list view
+        -   GCP
+            -   Add support for more datacenters \(regions\) in GCP patterns
+            -   GCP Kubernetes Pattern - Unicode Character in Patern Name
+            -   GCP: Incorrect relations are being created between VM table and GCP datacenter/Availability zone
+            -   Discovery of GCP resources not working
+            -   Need to add additional LDCs to the "Google GCP - Get Logical Datacenter" pattern
+            -   Public BigQuery Cloud Databases are duplicated for each account
+        -   AWS
+            -   AWS DB services: Opensearch: Certain resources are not discovered
+            -   AWSAPICommand Response Improvement to capture additional response information for error scenarios
+            -   Discovery of several different AWS resources having identical resource ids, result in creating only one CI in cmdb
+            -   Pattern steps with logic that calls AWS API might return "Status: 400 - Throttling - Rate exceeded" error
+            -   Slow query on \`a\_str\_7\` IS NULL coming from "ASYNC: Discovery - Sensors Pattern Launc" jobs observed during execution of Amazon AWS Virtual server pattern
+        -   Azure
+            -   Azure Cloud Discovery Errors - Pattern Based Discovery
+            -   Missing All Tag value from Azure VM discovered
+            -   Virtual Machine Instances do not get retired after during delete strategy of Azure - Virtual Machine \(LP\) pattern
+        -   EMC Isilon
+            -   EMC Isilon Cluster pattern missing manufacturer and model id
+            -   EMC Isilon pattern joins all disks to all nfs and all samba shares due to missing matching condition
+        -   Cloud
+            -   Modify all new Azure and AWS Large Payload \(LP\) patterns to not active state and add them to the CPG to Pattern migration script
+            -   Cloud Key pair status is is "Absent" even though it should not be.
+            -   Trailing space is not trimmed for Service account object\_id in Cloud Service Account form
+        -   Rubrik
+            -   Rubrik discovery updating 'Operating System', 'OS Version' and 'Operational status' for Windows Server CI
+            -   Rubrik update VMware instances" pre post script doesn't properly look up ESX Host and drops VMWare instances leading to pattern result processing failure
+        -   Oracle DB
+            -   Oracle DB On Unix pattern extension "Get Oracle Instance Size Info" step 27 "get instance size info Unix" does not parse correctly if command result is on multiple lines.
+            -   Oracle DB on Unix" pattern extension's "Get Oracle Instance Size info"At step 26 "get PDB size" is able to get the total size information but fails to retrieve used\_size or free\_size.
+            -   When discovering an Oracle DB on Unix, error messages are returned from SQL commands, as the credential record contains special characters
+        -   Citrix Netscaler SDX: Remove vpx\_profile filter and fix VDX name parsing
+        -   Cluster node name is not displaying properly
+        -   Few Choices fields are showing undefined on certificate table \|\| MicroSoft CA - Certificate Management pattern
+        -   OCI Cloud Discovery not discovering tags - Tags are not discovered for OCI VMs.
+        -   Unintentional updates on Server Records when processing 'Nutanix Components' results
+        -   Citrix Xen HyperV" pattern extension marks Linux Server as "Virtual"
+        -   "Zookeeper Server" pattern step 16 fails when run in the Pattern Designer
+-   **Version 1.0.90 - May 2022**
+
+    Refer to Discovery and Service Mapping Patterns Version 1.0.90 [Release Notes PDF](https://store.servicenow.com/appStoreAttachments.do?sys_id=d00f7aef1bdf4d10e57c0fe5604bcbf8).
+
+-   **Version 1.0.89 - April 2022**
+    -   New:
+        -   GCP Auto Kubernetes Serverless schedulers creation
+        -   GCP DB Services Event Base discovery support for:
+            -   BigQuery
+            -   BigTable
+            -   Cloud SQL
+            -   DataStore
+            -   FireBase
+            -   FireStore
+            -   MemoryStore
+            -   Spanner
+    -   Fixed:
+        -   Zookeeper - Discovery and Service Mapping Patterns contain a code error.
+        -   400 Bad Request error when accessing Cloud Load Balancer tags when the URL length is long.
+        -   Remove unauthorized words from the steps label.
+        -   Azure
+            -   VNIC Relations: Failed to create "Implement End Point To::Implement End Point From" relation for a few values
+            -   cmdb\_ci\_cloud\_webserver table is not populated after discovery
+            -   ConnectionPoolTimeoutException
+        -   GCP
+            -   Correct GCP DB EVALs to not contain a loop inside of a loop
+            -   VM pattern fails during a full scan discovery
+            -   DB Services - Event testing issue.
+            -   DB Services - The Firebase pattern is not available as a part of app-itom-patterns-1.0.89-rc.2-app
+            -   Disk type pattern fails when a full scan discovery is performed.
+            -   The parsing input has failure, trying to attempt with prefix Root error occurs in the pattern for GCP virtual machines at this step: 'Parse Google Virtual Machines attributes'
+            -   The IPAddress Console count does not match the GCP Glide Record and GCP Table count
+        -   Duplicate payloads in A10 Partition info pattern causes an A10 Load Balancer pattern to fail
+        -   Kafka discovery is not populating Kafka Consumers, Producers, topics, or Consumer Groups records
+        -   New Version of Parse JSON custom operation
+        -   Nutanix pre-sensor script does not match an empty string for ip\_address
+        -   Only the Storage Credentials with higher priority order are used - 'FlashBlade Pure Storage' pattern
+        -   Perfomance issues in ""Image License"" extension section for ""Amazon AWSExecutable Template pattern""
+-   **Version 1.0.88 - March 2022**
+    -   New:
+        -   Azure Services
+            -   Virtual machine scale set
+            -   Virtual NAT gateway
+            -   Private DNS zone
+            -   Vnet peering
+            -   Express route direct
+            -   Local network gateway
+            -   Azure connection
+            -   Cosmos DB
+            -   Queue service
+            -   Table service
+            -   File service
+            -   File shares
+        -   GCP DB Services
+            -   BigQuery DB
+            -   Firebase DB
+            -   Cloud SQL DB
+            -   FireStore DB
+            -   Memory Store DB
+            -   Spanner DB
+            -   Big Table DB
+    -   Changed:
+        -   Support GCP Global/Regional IAAS
+        -   Couchbase remote cluster
+    -   Fixed:
+        -   AIX server discovery fails if the AIX server is physical
+        -   Azure: Image name is populated only with the version of the image when the image is populated through events
+        -   cmdb\_ci\_openshift\_images is not an extension of cmdb\_ci\_docker\_image or its parent cmdb\_ci\_oslv\_image
+        -   Couchbase Instance: Measure units are missing in the memory size attributes \(cmdb\_ci\_couchbase\_cluster\_node\)
+        -   Clustered Fortinet Next Generation Network Firewall is not discovered
+        -   EMC Isilion pattern does not handle the latest API version
+        -   GCP
+        -   DB Services - GCP Bigtable DB: The state attribute is not populated in cmdb\_ci\_cloud\_database
+        -   Firestore DB: Discovery fails with duplicate Regions in the payload if the multi-region DB is discovered
+        -   LB: HTTP loabalancers are not being discovered because of pattern failure
+        -   LDC- loadbalancer pattern fails when LDC discovery is performed
+        -   KubernetesDiscovery fails if there are containers in the cluster with two different images in the same container repository
+        -   Pattern is populating hostname for ip\_address field when creating a record on cmdb\_ci\_kubernetes\_cluster table
+        -   Linux server discovery is failing because of duplicate items found in the payload
+        -   Microsoft CA
+        -   Certificate discovery error
+        -   Pattern does not parse valid\_from and valid\_to dates correctly.
+        -   Move all "sa\_pre\_task\_script" files from Patterns plugin "update" folder to the Service Mapping IF folder
+        -   OpenStack Discovery Pattern
+        -   operational\_status for ms\_sql database is not set correctly for the instance that is not in cluster.
+        -   POL\_QE\_RP1: discovery\_admin cannot view some of the cmdb\_ci tables.
+        -   Private IP of Azure VM is not updating when the NIC is replaced
+        -   Redundant cmdb\_ci\_cloud\_key\_pair data collected during "Amazon AWS Virtual Server Events" pattern run
+        -   The Kafka Broker Java pattern fails to parse installation directory, and therefore updates it with "null"
+        -   The logic in the sn\_itom\_pattern.ProbeInvoker script included in the getMid function may select the incorrect MID-server
+        -   The Microsoft SQL Server Cluster Info is not being captured correctly
+        -   The pattern is able to get the keys from API call, but is not parsing all the keys. Instead, it is updating all the keys as one key.
+        -   VM discovery is not occurringfor GCP Cloud Account - GCP ver 105
+-   **Version 1.0.87 - February 2022**
+    -   New:
+        -   HPE BladeSystem Enclosure
+        -   Couchbase Database
+-   **Version 1.0.86 - December 2021**
+    -   Fixed:
+        -   Azure
+            -   The Azure Application Gateway HD Pattern does not populate both public and private IP Addresses for the discovered Azure Cloud Load Balancers.
+            -   The Azure tags collection for the Azure Database and Azure Website is incompatible with OOB patterns in the Paris and the Quebec release.
+        -   GCP
+            -   The GCP VM Instance and server record may pick up incorrect server records from CMDB.
+            -   The Discovery of GCP Resources is unable to create relationships between a few resources, i.e., buckets, cloud function, and SQL instances.
+            -   There are inconsistent labels for folders and organizations between folders and projects in GCP.
+            -   The Cascade deprovisioned status to server status update should be performed by relation.
+            -   Correct the Kubernetes filtering steps if the discovery is not for all namespaces.
+            -   There is not support for the creation of relationships between a Server and VM instance through IP discovery.
+            -   Discovery and Service Mapping Patterns adds a duplicate Relationship Type "Manages::Managed By", with an incorrect upper case "By", when other OOB code has traditionally been creating/using "Manages::Managed by".
+            -   The Docker pattern fails at the Payload Processing step.
+            -   There is a need to Support Discover tags for AWS Service accounts.
+            -   "Solaris LDOM infrastructure" Pattern: If the setup is not available, the pattern fails with the "should be skipped" error.
+-   **Version 1.0.85 - November 2021**
+    -   New:
+        -   Extend Docker Image model to collect image instance and entry.
+        -   MSSQL Components collection for MSSQL CI
+        -   Security-related additions
+    -   Fixed:
+        -   Deletion strategy for the Route Table does not kick in
+        -   Pulling tag information from Azure while using Windows MID populates Japanese characters incorrectly
+        -   Google Cloud Platform \(GCP\) - Virtual Server errors on the new LDC
+        -   The pattern "Google Cloud Platform \(GCP\) - SSH Keys" fails with the “DUPLICATE\_PAYLOAD\_RECORDS due to cmdb\_ci\_cloud\_key\_pair with same object\_id” error
+        -   The wrong query was used in the Oracle Pattern Step "check is CDB Unix with SID"
+        -   Oracle Databases and Oracle Database instances were not always discovered - Incorrect filtering, pattern Oracle Listener HD
+        -   The Kubernetes Pattern fails with the “MULTIPLE\_DEPENDENCIES Found multiple dependent relation items” error message
+        -   The Kubernetes serverless execution pattern takes a long time to execute which often leads to the discovery status getting cancelled
+        -   Discovery of SQL Server Edition when the process is not running
+        -   Failed Exploring CI Pattern, Pattern name: Next Generation Fortinet Network Firewall Invalid parsing of the name in IBM PowerHA Cluster Pattern is creating Invalid cluster nodes in the cmdb\_ci\_unix\_cluster\_node table
+        -   S3, Dynamo and Lambda patterns are failing
+        -   Security fixes
+-   **Version 1.0.84 - October 2021**
+    -   New: Cloudian Storage Patterns
+    -   Fixed:
+        -   Zoo Keeper - Failed Exploring CI Pattern, Pattern name: ZooKeeper Server" issue after Rome upgrade in Datacenter Dev
+        -   Kubernetes - Event Handler Pattern Pre/post dumping huge amount of logging statements to syslog causing High DB disk growth
+        -   NetApp Solidfire - Storage System pattern uses Applicative Credentials instead of Basic Credentials
+        -   Avi Vantage discovery - failing due to multiple dependent relations
+        -   CAPI to pattern migration process results in OOB cloud patterns to be considered as customization by the platform
+        -   Kafka Broker Java - pattern failures due to missing pre-condition resulting in overriding the values and making them null
+        -   Google Cloud
+        -   GCP Patterns taking lot of time to complete the cloud discovery
+        -   Google Cloud Platform \(GCP\) - Virtual Server pattern fails with the error in step Populate cmdb\_ci\_vm\_instance table with disk size
+        -   ITOM Pattern Scoped Pre execution Scripts are calling SNC.PrePatternExecutionData instead of global.PrePatternExecution
+        -   Out of box duplicate identical cmdb\_related\_entry records for cmdb\_key\_value on multiple CI Identifiers
+        -   Physical AIX Server discovery fails due to LPAR not being found, when LPAR does not exist for Physical AIX
+        -   When discovering an Oracle DB on unix, error messages are not filtered so incorrect relationships are created with e.g. 'ORA-00942' as the description of the PDB
+-   **Version 1.0.83 - September 2021**
+    -   New:
+        -   Citrix XenServer Hypervisor
+        -   NetApp Storage Pattern Changes
+    -   Fixed: Missing Tag discovery for Azure Database, Azure website, and Azure Functions
+-   **Version 1.0.82 - August 2021**
+    -   New:
+        -   Oracle Listener and Oracle Cluster discovery
+    -   Fixed:
+        -   "MicroSoft CA - Certificate Management" pattern configuration does not complete when discovering a large number of certificates and requires offset range configurations to split the load on different pattern runs.
+        -   EMC Isilon, Request to populate Operating System and OS Version for storage node element
+        -   InfiniBox - Storage enclosures and corresponding disks are not discovered \(CONTENT\)JSON Parser custom operations fails to parse if there is a NULL attribute in the path of the parsed attribute Skipped Approval
+        -   Multiple issues with Azure Application Gateway pattern - DNS lookup and duplicates
+        -   Not able to insert records into cloud\_inventory\_resource table from the VR scoped app
+        -   Google Cloud Platform \(GCP\) - SSH Keys fail with an error due to multiple cmdb\_ci\_google\_datacenter records created with the same name
+        -   The "18. Populate project labels" step is not bringing all labels for GCP project through the Discover Google Organization pattern
+        -   The API version referred to in the EMC Isilon pattern in step 8, get Inn Interfaces, is wrong
+        -   Wrong query to get catalog in Oracle extension section
+-   **Version 1.0.81 - July 2021**
+    -   New: InfiniBox Pattern
+    -   Fixed:
+        -   CI-CI Relationships missing from HACMP pattern execution during AIX Server Discovery
+        -   The CloudFoundry Get Call Custom Operation adds an extra slash to the URL when pagination is involved
+        -   The AVI Controller does not populate the model
+        -   The cmdb\_ci\_cloud\_service\_account table is missing a label, causing the Cloud Service Account to add the CMDB CI label in a specific scenario
+        -   GCP Inventory Pattern: Tags are not populating
+        -   An incorrect IP address is being assigned to the Kubernetes Clusters table during Kubernetes pattern execution
+        -   MISSING\_DEPENDENCY: In the payload, no relations are defined for dependent class \[cmdb\_ci\_cluster\_vip\] that match any containment/hosting rules: \[cmdb\_ci\_cluster\_vip &gt;&gt; Virtualizes &gt;&gt; cmdb\_ci\_cluster\]
+        -   OCI
+            -   Menus generate an Oracle syntax error
+            -   The relation from VM to the fault domain is absent
+            -   The value of the guest OS "Canonical Ubuntu" is not added to the dictionary
+            -   The relation of secondary subnets to the VMs is not created
+        -   There is a payload issue with the "RHV Virtual Machines" pattern
+        -   The physical serial number is populated instead of the chassis serial number for NetApp SolidFire Server
+        -   The Private IP Address needs to populate the Cloud VM Instance Records in AWS, Azure, and GCP discovery
+        -   The Amazon AWS Config service auto-update to CMDB is not working on S3 bucket delete events
+        -   Rubrik discovery - WindowsCluster CIs are populated into the Windows Server table.
+-   **Version 1.0.78 - June 2021**
+    -   New:
+        -   MSSQL Cluster.
+        -   Updates to Cloud VMs and PaaS services in Tag-Based Services.
+        -   Updates to Kubernetes components and their relationships in Tag-Based Services.
+    -   Fixed:
+        -   Rubrik Discovery patterns created duplicates in the CMDB for the following CI types: Server, Hyper V VM, VMware instances, Oracle DB, MSSQL instances and MSSQL DBs. RHV Clusters and Hosts and Linux Server patterns both created records in the cmdb\_ci\_rhv\_server records and cmdb\_ci\_linux\_server table representing the same server. This led to double licensing as both tables extend cmdb\_ci\_server. After updating Discovery and Service Mapping Patterns to 1.0.72/72/73, Azure Cloud Events created relations from all the new CIs to the West US datacenter.
+        -   API Command Mid Server script included a "do not log" reason for HTTP failure, making it hard to troubleshoot. Application service form \[SBS, angular\]: Entrypoint of type AWS Resource Name Endpoint \[cmdb\_ci\_enpoint\_arn\] should only include the "arn" field and no Host field.
+        -   Azure functions pattern did not discover all kinds of functions.
+        -   Azure Management group discovery did not trigger any pattern probes. In the CAPI to Pattern UI migration page, the name was changed from "CAPI to pattern" to "CMP to pattern". cmdb\_ci\_appl\_kafka\_topic CI values were not populated for the Kafka Broker Java pattern.
+        -   Deletion stretegy was missing for cmdb\_ci\_openshift\_project. For EMC Isilon patterns, Manufacturer and Model were incorrect for storage node elements. HMC pattern behaved incorrectly due to duplicate entries from the lpar\_data table. Resolved issues with the Azure Virtual Machine Event pattern, namely IRE errors with cmdb\_ci\_nic object, due to missing relations with LDC.
+        -   Resolved issues with removing event data from input objects while invoking an event based pattern for GCP, as event data was not used during pattern execution. Resolved a customer reported issue where the Openshift extension failed on Groovy Script Error.
+        -   Microsoft CA:
+            -   Fixed an issue when the template\_list value was set to a single certificate template OID, and the MicroSoft CA - Certificate Management pattern failed with the following error: CertUtil: -view command FAILED: 0x80070057 \(WIN32: 87 ERROR\_INVALID\_PARAMETER\)
+            -   Fixed an issue where the MicroSoft CA - Certificate Management pattern failed at the "Fix dates" step with the following error message: \(Groovy code failure. java.text.ParseException: Unparseable date: "No Valid Date". Unparseable date: "No Valid Date"\)
+-   **Version 1.0.76 - May 2021**
+    -   New: Password2 metadata definition.
+    -   Fixed:
+        -   Cloud Discovery pattern Script Include "CloudVendor" made package calls to Packages.com.snc.sw.log.DiscoLog.getLogger.
+        -   Incorrect behavior when creating a scheduled job to delete old hardware type records.
+        -   Duplicate records of the relation cmdb\_ci\_logical\_datacenter\(child type\) Hosted on:Hosts cmdb\_ci\_cmp\_resource\(parent type\) were created in the cmdb\_metadata\_hosting table.
+        -   Multiple application patterns did not work as expected with inconsistent failures with LP patterns \(429\). IBM HMC Server pattern discovery did not run correctly. A duplicate step on Oracle OCI - DB Home \(LP\) needed to be removed.
+        -   When using the March release, the Cloud layer plugin did not get installed as a transient dependency when the patterns plugin was activated.
+        -   Oracle issues: - Extending the Oracle instance section failed in Oracle DB on Windows discovery. - Get PDBs Unix with SID did not work when tnsnames.ora was not updated. - Oracle on Unix: PDB size was not populated.
+        -   Kubernetes issues: - Incorrect Namespace and Openshift project class records behavior. - Pod Status Attribute was incorrect.
+        -   Azure issues: - Inventory failed for VM objects. - The pre/post script for removing duplicates did not work as expected for Azure cloud discovery. - Additional VM to DC relationship was created in the UI. - snitommid VM was not discovered and hence the corresponding vnic and image were also not getting discovered. - Service account created for Azure Gov cloud accepted the Portal URL instead of the API URL.
+        -   AWS issues: - Sub account graceful termination did not work as expected. - Tags for NIC did not work as expected. - All DNS name values did not have relationships with the datacenter. - Deletion of DB Cluster DB support did not work as expected.
+-   **Version 1.0.75 - April 2021**
+    -   New: AWS RDS Cluster support - Aurora DB.
+    -   Changed: AWS/Azure/GCP Cloud model changes.
+    -   Fixed:
+        -   Amazon Parse ECS Tags pattern did not parse all the discovered tags due to the same $cluster\_to\_tags variable in steps 17-20.
+        -   Added references between AVI Tenants and LB Services.cmdb\_ci\_kubernetes\_cluster.ipaddress populated the hostname instead of the IP address.
+        -   Discovery only populated 1 PDB when more were present.
+        -   During Oracle PDB/CDB size discovery, the instance name was populated with the wrong value.
+        -   AWS hardware type was not discovered after running the scripts.
+        -   Kafka and Zookeeper suggested relationship was missing.
+        -   Nutanix Component pattern failed on the Create relation between CMV and VM Instance step when VM Instance had multiple NICs/IP addresses.
+        -   Oracle Golden Gate discovery issue.
+        -   Palo Alto Firewall FQDN was not used for CI name.Jboss discovery on the Linux platform was not working as expected.
+        -   The same PDB$SEED record was assigned to all CDB instances instead of new entries for each.
+        -   The probe \(Discovery sensor\) of the "Interactive Probe Shell", related to the NetScaler SDX discovery, left the device history in the classifying state on OOB instance when discovery was triggered on a Linux machine.
+        -   Issues with debugging some Cloud Discovery patterns if the Service Mapping plugin was not installed.
+        -   Azure:
+            -   The Parse Azure National Region step in any pattern set the result variable to ".com" instead of "azure.com".
+            -   Hardware type pattern failed for the westus3 region.
+        -   Microsoft CA:
+            -   Fixed date format in step 17 from "dd/MM/yyyy HH:mm aa" to "dd/MM/yyyy hh:mm aa".
+        -   Oracle Cloud infrastructure \(OCI\):
+            -   Terminated instances were not getting discovered on the first discovery run in a clean instance.
+            -   The block endpoint did not populate "host" and "state" attribute.
+            -   Deletion strategy was not working correctly.
+            -   Duplicate Availability zones were created.
+-   **Version 1.0.74 - March 2021**
+    -   New:
+        -   Oracle Cloud Interface Patterns with Large Payload.
+        -   NetApp SolidFire Storage Pattern.
+    -   Fixed:
+        -   Zookeeper - added cluster name.
+        -   GCP Inventory - fixed the \[Bucket not configured in GCP console or 'Inventory Bucket URI' input variable value is in incorrect format\] issue. Rubrik - resolved issues with discovery not working as expected for all REST API versions.
+        -   AVI - fixed session base pattern to work with headers.Cassandra DB - fixed an issue with the double bin folder in command execution.
+        -   Oracle DB - fixed an issue where Get Oracle Catalogs did not work correctly when using the default port; the port should be taken from connnection info.
+        -   Kafka - added missing isr attribute in cmdb\_ci\_appl\_kafka\_topic.
+        -   Resolved issues with Linux Pacemaker and Linux Red Hat pattern running in the same order.
+        -   MS CA \(Certificate Management\):
+            -   Fixed missing -gmt flag.
+            -   Fixed missing line seperator.
+            -   Added a missing step.
+            -   Removed u\_ prefix.
+        -   Azure LB:
+            -   Fixed format differences between patterns and CAPI.
+            -   Fixed H/W Type fails on region westus3.
+        -   Removed is\_paginated property for store patterns applied on pre-Paris instances.
+        -   Cloud Nav menu:
+            -   Attributes are now populated in the default view.
+            -   Database view 'sn\_itom\_pattern\_amazon\_cloud\_database' no longer throws an error on Oracle instances.
+-   **Version 1.0.73 - February 2021**
+    -   New:
+        -   Rubrik Cluster Pattern
+        -   ZooKeeper Cluster Pattern
+        -   Kafka Cluster Pattern
+    -   Fixed:
+        -   RHV Clusters and Hosts issues.
+        -   AWS deletion strategy for dynamo db was not set correctly. As a result, the discovery did not update changes, even if the service was stopped.
+        -   GCP events did not work in certain builds, but worked in itomqcopper.
+        -   The state and the storage\_type in Blobs were not populated in the storage volume table.
+        -   The UNIX Cluster - Linux Pacemaker Cluster Linux server pattern extension failed due to bad error handling.
+        -   The RHV Virtual Machines pattern did not run correctly with a network adapter that has multiple IPs.
+        -   Significant increases in discovery time for Azure after the implementation of Blob.
+-   **Version 1.0.72 - January 2021**
+    -   New:
+        -   TLS Certificate discovery from Microsoft Certificate Authority
+        -   Microsoft Azure pattern for Blob storage
+        -   Discovery of Citrix NetScaler SDX
+    -   Fixed:
+        -   Bug fixes for the following patterns: Kubernetes, Google Cloud, AVI Load Balancer, Linux Pacemaker Cluster, AWS GovCloud, and Azure Resource Inventory
+-   **Version 1.0.71 - December 2020**
+    -   New:
+        -   Collect BYOL information for AWS/Azure cloud patterns.
+        -   Support for Solaris LDOM.
+    -   Changed:
+        -   Add failover for iproute commands to store patterns and shared libraries.
+        -   Convert all Azure patterns to work with LP, including GOV and Events.
+        -   Starting with v1.0.71, ServiceNow has switched to the Azure Resource Graph API "ARG"
+    -   Fixed:
+        -   RHV parse Hosts exception.
+        -   AWS dynamoDB deletion strategy.
+        -   Azure Application Gateway HD pattern.
+        -   BM HMC pattern was creating duplicate object\_ids.
+        -   Virtual field was not set to true for Nutanix virtual machines.
+        -   Kubernetes pattern failed in payload processing.
+        -   Incorrect file type mentioned in step 17 of the Oracle GoldenGate pattern.
+        -   Creation of an empty entry in cmdb\_ci\_firewall\_device\_palo\_alto in step 17 \(Populate Palo Alto Firewall Device Table\) of the Palo Alto Firewall pattern.
+-   **Version 1.0.70 - October 2020**
+    -   Pattern extension:
+        -   F5: Discovery of TLS Certificates from F5 SSH patterns
+    -   Fixed:
+        -   GCP Org: Pattern content bug fixes to support Google folders and projects
+        -   Redhat Virtualization \(RHV\): Virtual Machines Horizontal Pattern fails with identification error 'no relations defined for dependent class \[cmdb\_ci\_rhv\_cluster\] that matches any containment/hosting rules \[cmdb\_ci\_rhv\_cluster\]'
+        -   Kubernetes Pattern \(YAML\): Kubernetes Service populates self-link to avoid process payload error in YAML extension
+        -   Fortinet Pattern bug fixes
+        -   CSDM: added suggested relationships missing from 34 CIs released in the store
+-   **Version 1.0.69 - September 2020**
+    -   New:
+        -   Cassandra - support for Service Mapping top-down discovery
+        -   Google Cloud Platform \(GCP\) Organization - discovery of projects, folders, and resources under the Organization node
+    -   Fixed:
+        -   Pagination support for Nutanix
+        -   HMC Pattern - fixed the following presensor script bug: 'Handle Model and Manufacturer for HMC failed due to: TypeError: Cannot convert null to an object'
+        -   Google Cloud - fixed the Google Cloud VM pagination bug: 'Payload length 29504825 exceeded the limit of 5000000'
+        -   AVI Load balancer - fixed the following bugs:
+            -   Not able to pull all the data and fails to populate the relationships between Pools and Pool Members
+            -   Vertical discovery for Avi Vantage load balancers fails for load balancers in the Azure environment
+-   **Version 1.0.68 - August 2020**
+    -   New Patterns:
+        -   Cassandra DB HD support
+        -   Linux Pacemaker
+        -   AWS CAPI to LP patterns
+    -   Pattern Extension:
+        -   A10 – support for A10 partitions
+        -   APIGee enchantments
+        -   GCP relation between VM to server discovered IP Base
+        -   IBM relation between VM to server discovered IP Base
+        -   NSX/VMware VIP
+    -   Bug fixes:
+        -   RHV - Handle Stale Relations: sa\_pattern\_prepost\_script has undeclared variable, causing error in Post Sensor script.
+        -   RHV Clusters and Hosts: the pattern does not filter tables prior to insert and fails due to rejected inserts when scanning individual LDCs.
+        -   RHV Virtual Machines: the pattern doesn't properly filter records when running against single LDC.
+        -   ACL and Block endpoint:: addition of filters to update the table with relevant values.
+        -   After Kubernetes discovery, the dashboard page is blank and it is showing one information message as attached in the screenshot.
+        -   Azure Resource Inventory pattern error "reference table cmdb\_key\_value is not a known CI Type" due to missing related entry Requested.
+        -   CloudFoundry can easily lead to duplication.
+        -   Discovery VMs by IP address option in RHV discovery schedule doesn't work.
+        -   IBM Cloud - VMs not discovered in this release
+        -   Kubernetes discovery pattern no longer populates
+        -   Kubernetes services. Kubernetes Service mesh connections parsing is not working properly.
+        -   Nutenix pattern: block serial number and hypervisor type is missing on the Nutanix host.
+-   **Version 1.0.65 - June 2020**
+    -   New Patterns:
+        -   Cisco firewall
+        -   Palo Alto firewall
+    -   Pattern Extension:
+        -   Kubernetes: Pattern extension to collect YAML Configuration and support Istio Service Mesh
+        -   Avi load balancer: Pattern extension for service mapping use cases
+        -   Oracle database: Pattern extension for DB catalog discovery
+    -   Bug fixes:
+        -   SAP Patch Level Info attribute for SAP SID CI
+        -   Avi load balancer:
+            -   Pool member missing relation
+            -   Service port
+            -   Delete strategy
+        -   Azure/AWS inventory allow list update
+        -   AWS multiple records with empty values
+        -   Azure Gateway remove empty lines
+        -   HMC:
+            -   Set MNG IP as IP
+            -   LPAR attributes
+            -   Remove duplicate cmdb\_ci\_processor\_pool
+            -   Set serial number
+-   **Version 1.0.63 - May 2020**
+    -   New: discovery patterns are published for the following:
+        -   Juniper
+        -   Fortinet
+    -   Fixed:
+        -   Kubernetes
+            -   Unique name created to support tag-based discovery
+            -   Get Call supports properly loops tokenized results
+        -   GCP Inventory
+            -   Extra whitespace removed from the pattern name
+        -   Avi Load Balancer
+            -   Duplicate record removed from sa\_ci\_to\_pattern
+        -   Nutanix
+            -   Fixed VM instance missing from discovery results
+            -   Nutanix component populated with NIC/IP
+            -   Fixed scan server failures on KVM
+-   **Version 1.0.62 - April 2020**
+
+    For Madrid instances, the minimum version required is Madrid Patch 5.
+
+    -   New:
+        -   Provides visibility for VMware NSX Edge LB, LB service, LB pool, LB pool member, and LB health service.
+
+            VMware NSX Edge load balancers \(LB\) enable high-availability services and distribute network traffic load among multiple servers. NSX Edge distributes incoming service requests evenly among multiple servers in such a way that the load distribution is transparent to users.
+
+        -   Pattern extensions for Wireless Access Points
+    -   Fixed:
+        -   Kubernetes: Fixed duplicate references and incorrect parsing
+        -   ECS: Fixed an issue where identification failed
+        -   IBM Cloud LB, AVI LB, GCP VM: Minor bug fixes
+-   **Version 1.0.61 - February 2020**
+    -   New:
+        -   Provides visibility to the following OpenStack constructs:
+            -   Keystone Identity service​
+            -   Nova-Compute service​
+            -   Glance Image service​
+            -   Cinder Block Storage​
+            -   Neutron Networking​
+            -   Octavia load balancer​
+            -   Horizon Dashboard
+        -   Provides session cookie-based auth support for the Avi Load Balancer discovery pattern
+-   **Version 1.0.59 - January 2020**
+
+    The minimum versions required are London Patch 10 or Madrid Patch 5.
+
+    -   Red Hat Virtualization support
+        -   Red Hat Virtualization is an open, software-defined platform that virtualizes Linux and Microsoft Windows workloads. With the January content release, the CMDB gets visibility to the Red Hat datacenters, clusters, KVM hypervisors, virtual machines, and the lifecycle status.
+    -   Avi Vantage load balancer support
+        -   The software-defined, scale-out architecture of Avi Vantage provides on-demand autoscaling of elastic load balancers. Leverage the Avi Vantage pattern to get visibility of Avi Vantage load balancer to construct in the CMDB and perform top-down mapping for the virtual IPs of the Avi load balancer.
+    -   Important information:
+        -   During an upgrade to the New York release, the April 2019 \(1.0.39\) release of Discovery and Service Mapping Patterns is automatically installed for Discovery customers.
+        -   Note: It may make the upgrade time longer depending on your CMDB size. To decrease the upgrade time, install the Discovery and Service Mapping Patterns from ServiceNow Store before upgrading to the New York release.
+-   **Version 1.0.55 - November 2019**
+    -   Amazon Web Services \(AWS\) Elastic Container Service \(ECS\) and Fargate:
+        -   AWS Elastic Container Service \(ECS\) is a highly scalable, fast, container management service that makes it easy to run, stop, and manage Docker containers. ​AWS Fargate is a compute engine for Amazon ECS that allows AWS customers to run containers without having to manage servers or clusters. With the November content release, ServiceNow users get visibility for ECS clusters, ECS services, ECS task definitions, ECS tasks, Docker containers, and ECS container instances.
+    -   Google Cloud Platform \(GCP\) generic inventory
+        -   With the November content release, get visibility to all GCP services with a single pattern, which can collect inventory data on the deployed GCP services with tag information and share information into the CMDB. The allow listing of services based on the resource type can also help customers restrict the inflow of data into the CMDB.
+    -   Important information:
+        -   During an upgrade to the New York release, the April 2019 \(1.0.39\) release of Discovery and Service Mapping Patterns is automatically installed for Discovery customers.
+        -   Note: It may make the upgrade time longer depending on your CMDB size. To decrease the upgrade time, install the Discovery and Service Mapping Patterns from ServiceNow Store before upgrading to the New York release.
+-   **Version 1.0.53 - October 2019**
+
+    The minimum versions required are London Patch 10 or Madrid Patch 5.
+
+    New:
+
+    -   Provides visibility into OpenShift clusters by discovering information on projects, images, image streams, users, groups, routes, build configs, and deployment configurations.
+    -   Provides visibility into HACMP cluster status, resource groups, cluster resources, nodes and interface configuration.
+-   **Version 1.0.52 - September 2019**
+
+    The minimum versions required are London Patch 10 or Madrid Patch 5.
+
+    New:
+
+    -   Visibility to Oracle pluggable database: Get visibility to the Oracle pluggable database \(PDBs\) and its relationship with container database \(CDBs\). The new discovery extension delivers topology relationships between PDBs/CDBs and populates version/edition details of all PDBs.
+    -   AWS generic inventory: Get visibility to all AWS services with a single pattern, which can collect inventory data on the deployed AWS services using the tag information. The allow listing of services based on the resource type can also help customers restrict the inflow of data into the CMDB.
+    Fixed:
+
+    -   Changes to the IBM HMC pattern
+    -   Bug fixes and minor changes to the frame resource utilization data in the CMDB
+-   **Version 1.0.49 - August 2019**
+
+    The minimum versions required are London Patch 8 or Madrid Patch 4.
+
+    New:
+
+    -   Visibility to IBM Power systems via Hardware Management Console \(HMC\): Support discovery of HMC servers and their critical topology dependencies with Frame, LPARs, and VIO servers
+    -   IBM cloud discovery changess: Visibility to IBM Cloud IaaS tags augment the context-awareness of IaaS cloud objects discovered using IBM Cloud discovery
+    -   Google Cloud Platform \(GCP\) discovery changes: Visibility to GCP IaaS labels change the context-awareness of IaaS cloud objects discovered using GCP discovery. Version 1.0.49 also extends the event-driven discovery support for GCP load balancers.
+-   **Version 1.0.47 - July 2019**
+
+    The minimum versions required are London Patch 8 or Madrid Patch 2.
+
+    New: Ability to discover Nutanix \(Acropolis hypervisor and VMware ESX/ESXi\) hyper-converged infrastructure. The new pattern collects information about critical Nutanix infrastructure elements and their dependencies from PRISM Central. Customers can get complete visibility of Nutanix clusters, hosts, virtual machine \(VM\) instances, VM tags, controller VMs, storage pools, and storage containers.
+
+-   **Version 1.0.42 - June 2019**
+
+    The minimum versions required are London Patch 8 or Madrid Patch 2.
+
+    -   IBM Cloud Discovery changes: Collect data on location and resource groups for configuration items \(CIs\) hosted on IBM Cloud.
+    -   AWS Cloud Discovery changes: Discover tags for AWS PaaS services hosted on AWS Cloud. This change helps to retrieve AWS PaaS services information from the ServiceNow CMDB based on tags. Discover AWS Cognito services using a dedicated pattern. Amazon Cognito provides authentication, authorization, and user management functions for AWS customers.
+    -   Azure Cloud Discovery changes: Use the new CMDB CI class \[cmdb\_ci\_cmp\_resource\] for holding information on all allow listed services hosted on Azure Cloud. In the future, the same table will hold generic inventory data from AWS.
+    -   Google Cloud Discovery changes: Discover specific CIs hosted on Google Cloud based on events. This feature helps to write new real-time updates on Google cloud virtual machines, storage, network, firewall, and subnet data into the CMDB.
+    -   SAP System ID: Use the SAP system ID for ITSM incident or change management process. This feature is supported by a new CMDB CI class for storing SAP system IDs.
+-   **Version 1.0.39 - April 2019**
+
+    The following new/updated patterns are available:
+
+    -   Multi-cloud discovery pattern support:
+        -   IBM Cloud
+        -   Google Cloud
+    -   Pivotal Cloud Foundry
+    -   Oracle Golden Gate
+-   **Version 1.0.35 - December 2018**
+
+    The following new/updated patterns are available:
+
+    -   Cloud Platform-as-a-Service objects:
+        -   AWS Dynamo DB - adding event-based discovery and global table relationships
+    -   Pure storage FlashBlade storage array
+    -   Veritas Cluster on Unix
+-   **Version 1.0.28 - October 2018**
+
+    The following new/updated patterns are available:
+
+    -   Cloud Platform-as-a-Service objects
+        -   AWS S3: Added capacity and event-based discovery
+        -   AWS Dynamo DB
+    -   Apigee
+
+**Parent Topic:**[ServiceNow Store - IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
+

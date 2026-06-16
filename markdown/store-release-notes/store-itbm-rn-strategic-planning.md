@@ -1,0 +1,405 @@
+---
+title: Strategic Planning release notes
+description: Version history for the Strategic Planning application on the ServiceNow Store.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-strategic-planning.html
+release: store
+topic_type: reference
+last_updated: "2026-06-11"
+reading_time_minutes: 23
+breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
+---
+
+# Strategic Planning release notes
+
+Version history for the Strategic Planning application on the ServiceNow Store.
+
+**Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+## Version history
+
+-   **Version 4.15.0 - June 2026**
+    -   New:
+        -   Enterprise Agile Planning:
+            -   Right-click any work item and select Move to Top to reprioritize it to position 1 in the backlog, sprint, or PI — even from a later page. Supported for all work item types, including stories, features, capabilities, and epics.
+            -   Newly created planning items now appear automatically in the Hierarchy tab without a page refresh. Root items such as epics appear with top-level entities, and child items appear under their expanded parent.
+            -   Completed and canceled work items are now hidden from the EAP Backlog list by default, so only actionable items are visible. Sprint and PI lists continue to show all items. Administrators can override this behavior using system properties.
+        -   Portfolio Planning:
+            -   Use the Planning item lens to plan, prioritize, and roadmap work directly with planning items, without configuring organization structure, programs, portfolios, or products.
+            -   Added partition support for project and demand planning item tables.
+            -   View additional status attributes — cost, resource, schedule, and scope — for planning items in Strategic Planning Workspace. For project planning items, these attributes are synced automatically from the latest published project status report.
+            -   Make a portfolio plan public and share the copied link with Strategic Planning Workspace users, without inviting them individually or as a group.
+-   **Version 4.14.0 - May 2026**
+    -   New:
+        -   Added expand and collapse functionality for team headers in EAP and Portfolio Planning views.
+        -   Added sn\_align\_core.apw\_user, it\_demand\_manager, and it\_project\_manager roles under sn\_ai\_governance.ai\_steward to access data in the AI Control Tower workspace.
+        -   Updated project and demand demo data deadlines and milestones to key type.
+        -   Added 'Epic status assessment' section to top of Epic record page which uses AI to automatically evaluate epic health across six risk dimensions.
+        -   Added the Demand AI Specialist side panel UX for agent activity visibility on demand records.
+        -   Added the ability to copy the link for a portfolio plan via the Share Actions button and Manage Access modal.
+    -   Changed:
+        -   Ability to view the AI-forecasted status for goals and targets in the grid, generated automatically via a scheduled job, along with the rationale for the generated status.
+        -   Ability to edit the default saved view within portfolio plans. Users will also see the Save view option when on the default view.
+    -   Fixed:
+        -   Resolved an issue where EAP read-only users were unable to view story widgets on the Agile team page in the Australia release.
+        -   Removed duplicate parent work level fields in the SPW advanced repo.
+        -   Resolved a focus issue when using the quick filter.
+        -   Resolved an issue that allowed views with duplicate names to be created.
+-   **Version 4.13.0 - April 2026**
+    -   Fixed:
+        -   Resolved an issue where the assigned entity field was not carried over from the parent goal when creating a subgoal.
+        -   Resolved aggregate value calculation issues for goals on the Strategy and Goals boards.
+        -   Resolved an issue where inactive goals were displayed on the board.
+        -   Resolved refresh issues that occurred during check-in actuals.
+        -   Resolved an issue where an unintended visual separator appeared between parent and subgoal rows in the goals grid.
+        -   Resolved refresh issues for strategic plans and strategic priorities.
+-   **Version 4.11.0 - March 2026**
+    -   Portfolio Planning \(SPW\):
+        -   Improved discoverability: The Hierarchy and Kanban views are now available as dedicated primary tabs, making these high‑value views easier to find and access.
+        -   Enhanced hierarchy view: Added support for sorting by global rank, providing a clearer and more intuitive structure for parent and child items.
+        -   Goal management: Users now receive notifications and reminders for goals and targets, helping improve tracking and accountability.
+    -   Enterprise Agile Planning \(EAP\):
+        -   New hierarchy view: Introduced a new Hierarchy view to provide better visibility into work structure and progress..
+        -   Usability enhancements: Made several improvements to overall usability and user experience across the Enterprise Agile Planning module.
+    -   AI-Powered features \(Now Assist\): AI‑powered sprint summaries: Introduced a new Now Assist capability that automatically summarizes sprints at the team level, providing quick insights and saving time.
+    -   Financials:
+        -   Added multicurrency support for financial baselines.
+        -   Labor costs are automatically generated when resource effort allocations change at the breakdown level, even if the total requested effort remains unchanged.
+-   **Version 4.10.3 - January 2026**
+    -   Enterprise agile planning:
+        -   Fixed: Issues related to loading the Backlog page for Kanban configuration teams.
+    -   Demand management:
+        -   Fixed:
+            -   An issue where item demand and global rank fields were not copying over to newly created EAP entities during conversion planning.
+            -   An issue where financial fields data was not migrating properly to EAP entities.
+            -   An issue where the product feedback banner was not updating properly after a theme change.
+            -   An issue where 'Sys admin' users did not have access to the multi feedback summary.
+            -   An issue where Enterprise Agile Planning Backlog was not displaying data after upgrading the Strategic Planning plugin.
+-   **Version 4.10.1 - December 2025**
+    -   Portfolio Planning:
+        -   Roadmaps now support admin-defined custom colour themes for better visual alignment with organisational standards.
+        -   Portfolio plans shared with the Viewer setting are now viewable regardless of the user’s read/write access to the associated work.Note: Record pages remain read/write or read-only based on the user’s permissions.
+        -   SPW Lists have been uplifted to use the ServiceNow presentation list component for a more consistent user experience.
+        -   Added the ability to convert demands into EAP epics, features, or capabilities.
+    -   Enterprise Agile Planning:
+        -   EAP - CWM connection:
+            -   Connect EAP teams with CWM boards, so your team members can leverage the more flexible functionality of CWM for team level planning while you have the cross team visibility and planning experience in EAP
+            -   CWM's connected work can be used to plan defects, incidents and other tasks along with stories in your sprints.
+            -   EAP provides visibility and enables cross team planning across teams that use CWM, EAP or external tools like Jira and ADO
+        -   Removed dependency on system Administrator role for creating planning calendars and iterations in EAP
+        -   Improved performance of Planning Board page in Enterprise Agile Planning
+        -   Financials
+            -   Define multicurrency to create and track financial records for your planning items in a different currency from the system-defined functional currency.
+            -   Create and manage monetary benefit plans directly from the Costs and benefits view.
+            -   Support to generate labor costs on planning items such as Demands, Projects, Epics, and Features.
+-   **Version 4.8.1 - September 2025**
+
+    This release includes dependency updates for Docs component and Portfolio Planning workspace.
+
+-   **Version 4.8.0 - August 2025**
+    -   Financials:
+        -   New:
+            -   Ability to do financial planning on any planning item like Feature, Capabilities etc
+            -   No dependency on integration with task tables for enabling financials on projects, demands and epics planning items
+            -   New 'Display modes' on record financials page to view planned costs and planned vs actuals for all fiscal period
+        -   Fixed:
+            -   Cost plan and breakdowns honor ACLs in the new Financials page
+            -   Inactive goals will not be displayed when looked up for in primary goal reference field in planning item form or parent goal reference field in goals form.
+            -   Performance improvement on loading Dashboard and Goals tab in portfolio plans in Strategic Planning Workspace.
+    -   Portfolio Plans:
+        -   New:
+            -   Different milestone types are now represented with distinct icons.
+            -   Quick filters now support both string and boolean type conditions.
+            -   Roadmap bars display consistent colors across portfolio plans when grouped by the same attribute.
+        -   Changed:
+            -   The milestone bar now stays fixed at the top of the roadmap during scrolling.
+            -   The milestone limit for roadmap items has been increased from 50 to 100.
+-   **Version 4.7.0 - May 2025**
+    -   New:
+        -   Enterprise Agile planning
+            -   Cycle time report:
+                -   Analyze progression of stories at the team level using the new cycle time report
+                -   Visualise the time taken to complete the stories relative to their planned effort \(story points\)
+                -   Cycle time report is available for Yokohoama release and later.
+            -   Kanban teams support:
+                -   Kanban configuration is added to the list of available default EAP configurations.
+                -   Teasms that do not follow a regular iteration to plan and deliver their work can utilize the Kanban configuration to flexibly manage their work.
+                -   Portfolio-level and Team-level dashboards are available for teams working in the Kanban style.
+    -   Portfolio Plan views
+        -   Create, edit, and switch between views with display preferences such as column selection, grouping, and filtering for portfolio plans
+        -   Ability to create personal views that are private to you, or public views that can be shared with stakeholders who have access to the portfolio plan
+        -   The portfolio plan view saves your display preferences across the Prioritization, Roadmap, Capacity, and Financials tabs
+    -   Dashboards
+        -   Use dashboards to view key data and metrics, enabling you to monitor performance, track progress, and make informed decisions related to ideas, feedback, strategy, planning, and execution.
+        -   Each widget within a dashboard displays key data and metrics and may include visualizations. The default available dashboards are the Product Idea Dashboard, Feedback Dashboard, Strategy Execution Dashboard, and Execution Dashboard.
+        -   Use the out-of-the-box dashboards or create your own dashboards based on your requirements.
+    -   Scenario Planning
+        -   Define portfolio budget as the target, and do a cost-benefit analysis by trying out different budget combinations for the work items
+        -   Populate the budget bottom-up from the forecast or enter a top-down budget value to evaluate different budget approval scenarios
+        -   Choose to simulate budget allocation for various time scales like month, quarter, year, or total plan timeline
+        -   Flexibility to do financial planning by capex/opex or at additional granularity by labor, software, hardware, and other various categories
+        -   Visualize the differences in financials between multiple scenarios through the compare scenarios screen
+        -   Auto-populate the approved budget on work items on scenario approval
+        -   Optionally convert the prioritized demands to projects on scenario approval
+-   **Version 4.5.0 - February 2025**
+    -   New:
+        -   Lenses
+            -   Align with the business strategy using the Digital Product lens to plan, prioritize, and roadmap work for your digital products
+        -   Enterprise Agile Planning
+            -   Usability: Accessibility improvements for the configuration panel and the ability to edit important fields of EAP planning items
+            -   Functional: Support for real-time collaboration in docs associated with EAP planning items and iterations
+        -   Financial Planning
+            -   View rolled-up financial costs and benefits data of planning items in the new 'Financials' tab to integrate financial insights into your planning and improve decision-making
+            -   Analyze financial data for Epics, Demands, and Projects at the portfolio level across varied time scales and ranges for greater flexibility
+            -   Monitor Budget, Forecast, Budget vs Forecast Variance, Planned, Actuals, and Remaining Estimates by expense or cost type to improve visibility and precision in financial management
+            -   Track Planned, Actuals, and Variance of monetary benefits to maximize ROI and align financial outcomes with business goals
+            -   Record estimates and actuals of monetary and non-monetary benefits for planning items using the new Monetary Benefit Plans and Non-Monetary Benefit Plans tabs on the Record details page
+    -   Fixed:
+    -   -   Goals in SPW
+    -   Align work option is disabled for read-only users of the portfolio plan
+    -   Display unique cards for aligned work under Goals when work is tied to multiple targets of the goal
+    -   Refresh issue for the Actuals to Date widget in the Progress tab of the target
+-   Feedback
+    -   Feedback cards view rendering with images and texts
+    -   Feedback list view deletion fixes
+    -   Graceful handling of access to product feedback collections
+-   **Version 4.3.2 - November 2024**
+    -   Enterprise Agile planning:
+        -   New: Usability improvements
+            -   Planning board: Epic methodology dictates "State" columns
+            -   Backlog &amp; Settings: Easier to break-down work items for example: Epics to Stories
+        -   Fixed: Accessibility
+    -   Portfolio Planning \(Goals, Planning, Scoring, and Free-form roadmaps\):
+    -   -   New:
+    -   Ability to create new targets while creating new goal allowing seamless creation of Goals and targets
+    -   Ability to have daily, weekly, and monthly breakdowns of targets apart from quarterly and yearly
+    -   The Progress tab in the target side panel displays a graphical visualization of the target's progress for the target's duration
+    -   Ability to easily enter or update actuals for the target through the side panel, cell context menu, or target breakdowns related list in target full details record page
+    -   Ability to view historical updates of target actuals
+    -   Activity stream is enabled in the Target and Goals full details record page
+    -   Use the Target distribution dropdown section to view the cumulative/noncumulative target value distribution over the time period in the create target modal
+    -   Ability to create a duplicate of Goals and targets in the List or Hierarchy view
+    -   View child items of Epics \(or any EAP entity\) within SPW as per the hierarchy setup in EAP
+-   Changed:
+    -   The List and Hierarchy tabs have been moved under a new tab, Goals and targets, for a better UI experience while switching between the List and Hierarchy views
+    -   The Breakdown intervalfield has been removed and target breakdown creation is driven only by theCheck-in frequency field
+    -   Migration job \(Migrate BreakdownInterval To Checkinfrequency\) to enable upgrade customers for a seamless transition from breakdown interval to check-in frequency
+    -   Ability to modify the Unit of measure, Start value, Final target value, Check-in frequency, and Target value distribution without any data loss
+    -   Renamed the label Copy &lt;planning item type&gt; to Duplicate in the Prioritization page for planning items and in the Goals page for goals and target
+    -   Renamed the label Copy roadmap to Duplicate roadmap in the free-form roadmap
+    -   Renamed the label Copy portfolio plan to Duplicate portfolio plan in the portfolio plan actions of the portfolio plan header
+    -   Label changes:
+        -   Review frequencytoCheck-in frequency
+        -   Base valuetoStart value
+        -   Target valuetoFinal target value
+        -   Actual valuetoActuals to date
+        -   Review due datetoCheck-in due date
+-   Removed:
+    -   TheBreakdown intervalandCumulative target fields are deprecated
+    -   The Fortnightly option in Check-in frequency \(formerly known as Review Frequency\) is no longer supported
+    -   Feedback:
+        -   Changed:
+            -   Renamed Product Feedback to Feedback
+            -   Display 20 feedback or product idea records in their respective lists
+            -   Display most recently created feedback/product idea records on the top in the feedback/product idea list
+    -   Capacity Planning:
+    -   -   New:
+    -   Select primary attribute to automatically populate resource criteria from the resource assignments of the prioritized planning items.
+-   Changed:
+    -   View the capacity details for only prioritized planning items.
+    -   Improved user experience to view the total capacity and total estimate of resource types in the Capacity Planning screen.
+    -   Financials:
+        -   New:
+            -   View cost plans, expense lines, budget, and financial baselines of sub projects at parent project level. View the financial performance of a project using the rolled up planned and actuals costs in the widgets of parent projects.
+-   **Version 4.2.0 - August 2024**
+    -   New:
+        -   Enterprise Agile planning
+            -   Usability improvements
+                -   Planning board: Persistence of user selections in the planning board, Work item type toggle on ART Planning Board​
+                -   Backlog &amp; Settings:Create Next PI" and "Create Next Sprint" to auto pre-pend team's specific text,Updated List view to show capacity, OOB configurations to be SAFe 6.0 compatible
+                -   Agile team members and managers now have a centralised location to store documents associated withplanning items \(e.g., epics, capabilities, features and stories\)​
+                -   Agile team members and managers now have a centralised location to store documents associated withAgile teams \(e.g., ST, ART, Team\)​
+            -   Guided setup based migration for Scaled Agile \(Essential and Portfolio SAFe\) to Enterprise Agile Planning \(work items, iterations and team structures\)
+        -   Feedback
+            -   Pin the feedback filter cards to quickly access the important ones
+            -   Share and edit the feedback filters from the landing page cards view
+            -   Share and edit the feedback filter from within the filtered feedback page
+            -   Side panel to display the preview of the feedback &amp; product idea record
+        -   Goals in Strategic Planning Workspace
+            -   Improved demarcation between Goals-Target sets allowing seamless navigation for users
+            -   Export Goals-Target list as flat list in Excel/CSV from the download icon in the side panel
+            -   Increased character limits for Goals &amp; Target names
+        -   Financials on planning item records
+            -   New Budget allocation capability for portfolio managers that allows budget to be allocated for shorter time periods like fiscal period or quarter apart from years
+            -   New budget vs cost comparison view for planning item owners to compare their latest costs with the approved budget to identify budget overruns
+            -   Ability to categorize resource assignments as Capital or operational expenditure for more accurate categorization of labor costs generated for the demands or projects
+            -   Migration capability for admins to move the budget data for on-going demands or projects from classic experience into the next experience supporting customers to adopt the next experience easily
+            -   Compare simple financials data captured in financial baselines using the new compare baselines view for planning items
+        -   Scenario Planning:
+            -   Create multiple scenarios of the changes to your portfolio plan in a simulation mode to try out different combination of prioritization lists and planning item timelines
+            -   Review the goals alignment of the in-plan items to ensure delivery of your organizational outcomes
+            -   Compare multiple scenarios between each other to analyze different trade off decisions made between scenarios and determine the best plan
+            -   Approve the optimal scenario to revise the live portfolio plan with the scenario dates as approved dates ensuring the creation of best possible portfolio plan
+            -   View approved scenarios in read only mode for future reference
+-   **Version 4.1.3 - June 2024**
+
+    Fixed: The Generative AI summary card on the feedback record page \(In Product Feedback\) will only be shown if the Gen-AI feature is enabled.
+
+-   **Version 4.1.2 - May 2024**
+    -   New:
+        -   Portfolio Planning
+            -   Use the Project Program lens to plan, prioritize, and roadmap work of the programs or portfolios.
+            -   Support for inline editing of tags in the prioritization list view
+            -   Support for filtering tags in the quick filters in a portfolio plan
+        -   Product Feedback
+            -   Feedback filters to group feedback by a custom filter criteria. Product managers can create and organize product feedback based on the filter criteria, helping them analyze feedback.
+            -   Importance field added on feedback table.
+        -   Goals
+            -   Ability to align work to targets, along with goals.
+            -   Display aligned work items in the side panel of goals and targets \(View aligned work option in context menu\) with the ability to add/remove work items and the ability to search the item card with name, owner, and planning item type.
+            -   The Primary target field has been added too all planning item forms.
+            -   Contributors from the goal will be copied over to the target of that goal and can be modified as required.
+        -   Enterprise Agile Planning
+            -   Added a 'Home' tab to all the team levels to display the metrics and progress for the corresponding level.
+            -   Enhanced Planning board and Backlog functionality to provide options for personalization and display metrics \(ex: Capacity utilized\) for each iteration.
+    -   Changed
+        -   The Goal Relationship related list in the planning item has been renamed to Goal/Target Relationship.
+        -   The Primary goal field in Goal Relationship \(m:m\) table has been renamed to Primary.
+        -   The Goal and Target columns in the List view of Goals have been merged into one column, Goals and targets.
+        -   The default value for the Cumulative target field has been changed to true on the Target form. The Target value is cumulatively distributed across the quarters for cumulative targets.
+        -   The "Actual Value Source Configuration" section has been renamed to "Target Automation". Also, the Automate actual value option has been moved to the Target Automation section on the Target form.
+    -   Removed: Overview tab for product ideas.
+-   **Version 4.0.2 - February 2024**
+    -   New:
+        -   Enterprise Agile Planning
+            -   Strategic planning is now dependent on"com.snc.sdlc.agile.2.0" family plugin.
+            -   Support multiple agile teams and their scaling needs within a single instance using flexible work and team hierarchies.
+            -   Plan and track work across teams with insights into dependencies, using the new Planning Board.
+            -   Prioritize work items and schedule them into iterations such as Planning Intervals or Sprints using the new Backlog.
+            -   Ensure alignment with the evolving needs of the organization by flexibly upgrading your Agile configuration.
+            -   Lenses:The business capability lens is introduced to plan, prioritize, and roadmap the work for their business applications and business capabilities.
+        -   Financial Planning
+            -   Quickly view the financial totals like Estimate at completion, Budget, EAC vs Budget variance, Planned cost, and Actuals to date using the new widgets in the financials tab of planning items like projects, demands, and epics
+            -   Export the latest financial data and the baseline comparison data to Excel or CSV
+            -   View or edit the cost plans and expense lines using a wider side panel
+            -   Delete any incorrect or unwanted cost plans using the 'delete' option under the 3-dot menu in the grid
+            -   Save the user preferences for show/hide columns, changed column width or time scale
+            -   Add new expense lines for an un-planned cost type using a 'New Expense line' option
+            -   Generate labor costs automatically for demands based on resource assignments using an updated 'Generate labor costs for demands and projects' scheduler
+        -   Product Feedback
+            -   Sentiment widgets help determine product performance
+            -   Link feedback and Product ideas to any entity \(ITSM incident, CSM cases, etc.\)
+            -   Configurable pill filter for Product ideas and Feedback overview page
+            -   Product idea and feedback list view page support inline edit
+            -   Scoring
+            -   Personalize the side panel to display selected columns stacked at the top of the list followed by the unselected columns sorted in alphabetical order.
+            -   Display Confidence and Effort attributes of the RICE framework in colored pills
+            -   Search and select your scoring framework from the Scoring framework window in the Add details step of the portfolio plan creation wizard
+            -   Filter items in the scoring or planning grid based on scoring attributes.
+    -   Changed:
+        -   Scoring
+            -   System administrators can modify or deactivate the OOB scoring frameworks.
+            -   On the Scoring Framework Attribute form, the Advanced view has been removed and all the fields and options have been moved to the default view
+            -   Quickly rearrange the position or order of columns by horizontal drag and drop of in the scoring grid.
+        -   Goals \(OKRs\)
+            -   Display symbols for units of measure for the KRs/targets in the List grid view of Goals.
+            -   Personalize side panel changes - Display selected columns at the top of the panel followed by the unselected columns sorted in alphabetical order.
+            -   The Personalize side panel now auto-closes after clicking the Apply button.
+        -   Prioritization
+            -   Enable inline editing in the Portfolio Plans list.
+            -   Export planning items data of the portfolio planto Excel/CSV from the Prioritization grid.
+            -   Delete a planning item from the Row context menu in the List view
+            -   Move a planning item to the top or bottom in the List view to quickly change the order of planning items
+            -   Personalize the side panel to display the selected columns stacked at the top of the list followed by the unselected columns sorted in alphabetical order.
+            -   The side panel now auto-closes after clicking the Apply button
+            -   The existing MoSCoW state values have been updated to1-Must Have,2-Should Have, and so on along with the icons.
+            -   Quickly rearrange the order or position of columns in the grid by horizontal drag and drop of columns.
+    -   Fixed:
+        -   Prioritization
+            -   Rank by any numeric or choice type attribute
+            -   Rank or sort by Moscow column
+        -   Product Feedback
+            -   Hyperlink of feedback number displayed in an alert message on creating feedback from Outlook add-in
+            -   Feedback number hyperlink added to create a new feedback alert message
+            -   Product idea number hyperlink added to create a new product idea alert message
+            -   Completed demand is no longer available for linking with feedback/product idea
+            -   Breadcrumb navigation fix
+            -   Important information for upgrading
+            -   Starting with v4.0.2, you can access the SPM Pro-licensed features only in Strategic Planning Workspace. If you own an SPM Pro license but still using the SPM Pro-licensed features \(such as Goals, Product Feedback, Hybrid portfolio planning, and additional lenses\) in Portfolio Planning Workspace, you must install Strategic Planning to access such features.
+-   **Version 3.4.3 - December 2023**
+    -   Fixed:
+        -   Resolved an issue where the re-ranking of product ideas in a portfolio plan was not working as expected.
+        -   The Moscow field in planning items now has new choice values, with the old values being deprecated. This update changes the understanding of planning item ranking in a portfolio plan based on the Moscow field.
+        -   Addressed a visibility issue with the Related Item tab under Feedback/Product Idea. The tab is now displayed as intended.
+        -   The "Unaligned goals" row in the Hierarchy tab doesn't disappear even when there are no unaligned goals.
+        -   A few of the user interface issues w.r.t. colors and alignment have been fixed.
+-   **Version 3.4.0 - November 2023**
+    -   New:
+        -   Scoring Frameworks
+            -   Ability to associate scoring framework to portfolio plan in the Add Details step of portfolio plan creation/updation wizard.
+            -   Scoring module to enable scoring of your work and strategic items based on OOB or custom scoring frameworks
+            -   Scoring Frameworks list page and ability to create new custom scoring frameworks by sn\_align\_core\_apw\_admin personas.
+        -   Rank the items in the Prioritization list
+            -   Ability to rank the items in the prioritization screen based on score or any numeric or choice type planning item attribute such as Planned Cost, Priority, etc.
+        -   Read-only role
+            -   Read-only role to access portfolio planning in view-only mode. The users with this role won't be able to create or edit portfolio plans and planning items.
+        -   Portfolio Plan changes
+            -   Copy portfolio plan
+            -   Copy an item from the prioritization list
+            -   Save the timescale selection on the roadmap timeline view
+            -   New free-from roadmap configuration to control what tables to be availalbe for free-form roadmapping
+        -   Financials
+            -   Create financial baselines on demand or automatically to capture the status of financial costs at any given time.
+            -   Compare any two financial baselines to easily analyze the changes in cost and report what has caused the variance and when it occurred.
+            -   Generate attribute-based labor costs for Demands based on the new resource assignments capability which enables flexible reporting of labor costs for your organizational needs.
+            -   Provide high-level cost estimates to Epics using the new financials section in the Details tab
+        -   Capacity Planning
+            -   Use rank of planning items for resource fulfillment in capacity planning.
+            -   Filter on planning items in capacity planning.
+            -   Warning icons and their interactions in capacity planning.
+    -   Changed: Validations have been added for the 'sn\_align\_ws.spw\_financial\_user' role, for users to access financial data such as Planned costs, Actual costs, etc., on the Prioritization list.
+-   **Version 3.0.0 - August 2023**
+    -   New:
+        -   Capacity Planning:
+            -   Configure the attributes to work with capacity planning using the planning attributes.
+            -   Generate capacity for the teams and different attribute combinations who work on items in a portfolio.
+            -   Regenerate the capacity to view the latest data.
+            -   Add high-level effort estimates using resource assignments on planning items to do capacity planning.
+            -   Define the set of resources to create capacity plans.
+            -   You can quickly view the work items and the capacity by attributes and teams along with the deficit/surplus in one view.
+        -   Product Feedback:
+            -   Integrate the Product Feedback module in the Strategic Planning application and update the product development process.
+            -   Improve product discovery by consolidating and analyzing feedback from various sources in a single workspace.
+            -   View the Trends and Statistics dashboards and take corrective actions on customer feedback.
+            -   Create and link feedback or a product idea to an epic, demand, or project.
+            -   A Microsoft Outlook add-in for submitting feedback.
+        -   The document component is integrated for better collaboration. It also provides support for embedding a Miro board.
+        -   Financials:
+            -   Create cost plans and expense lines for Financial planning of Demands, Projects, and Epics.
+            -   Generate labor costs based on the resource assignments done for the Demands, Projects, and Epics.
+        -   Goals:
+            -   Updated the dashboard within the goals module to provide more actionable insights on goals and targets within a portfolio plan.
+            -   Ability to set quarterly intervals/breakdowns for long-term targets to easily update and manage the targets. Ability to add remarks to capture the highlights for the actual value update on targets.
+        -   Prioritization and Roadmap: Add quick filters on Prioritization and Roadmap tabs for a consistent data experience in different views of these tabs. Filters can be applied only to choice-list and reference-type fields.
+        -   User roles: New user roles for Goals, Product feedback, Capacity, and financials.
+    -   Changed: Portfolio plan creation: Add sets of filters using the multiple condition builder while creating a portfolio plan.
+    -   Removed:
+        -   Column-level filters from the Prioritization tab.
+        -   Filters from the side panel of the Roadmap tab.
+-   **Version 2.1.0 - May 2023**
+    -   New:
+        -   Plan high-level strategic items such as initiatives and strategic programs.
+        -   View portfolio plan roadmap and free-form roadmap on a Kanban board, in addition to the timeline view.
+        -   Diagnostics for lens setup, planning items global rank population, and high-level planning setup to help ServiceNow admin troubleshoot the data discrepancies and fix them quickly.
+        -   New Kanban card on the Kanban board that displays more data similar to a roadmap bar.
+    -   Changed: Updated out-of-the-box lens ""Strategic Investments"" to enable the Initiatives and Strategic Program entities for planning.
+    -   Fixed:
+        -   The Prioritization List and Kanban view will not display converted demands anymore.
+        -   Business stakeholder behavior is corrected. They can no longer create milestones in the Strategic Planning workspace.
+-   **Version 2.0.1 - February 2023**
+
+    Strategic Planning \( formerly known as Alignment Planner Workspace\) provides an end-to-end integrated planning experience that aligns strategy to execution by enabling business leaders to define and track goals across the organization; gather, review, and prioritize work that aligns with the strategy and commit to them once they are on the roadmap all in a single platform. Strategic Plannings flexible design supports Agile, hybrid, and waterfall planning methodologies and allows planners to visualize, manage, and share their portfolio plans.
+
+
+**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
+
