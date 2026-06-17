@@ -2,6 +2,7 @@
 title: ServiceNow Classic for iOS v6.5
 description: The iOS v6.5 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/classic-ios-v6-5.html
 release: mobile
 topic_type: reference
 last_updated: "2019-11-08"
@@ -40,5 +41,5 @@ When clicking the back button, it responds immediately
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Mobile Classic mobile app version history](../classic-available-versions.md)
+**Parent Topic:**[Mobile Classic mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-available-versions.md)
 

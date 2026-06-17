@@ -2,6 +2,7 @@
 title: Mobile Onboarding for iOS v9.0.4
 description: The iOS v9.0.4 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-ios-v9-0-4.html
 release: mobile
 topic_type: reference
 last_updated: "2020-01-23"
@@ -38,5 +39,5 @@ Not all the top menu functions/actions are displayed
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Now Support app version history](../../now-support/now-support-available-versions.md)
+**Parent Topic:**[Now Support app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/now-support-available-versions.md)
 

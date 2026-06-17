@@ -2,6 +2,7 @@
 title: Mobile Onboarding for iOS v10.3.0
 description: The iOS v10.3.0 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-ios-v10-3-0.html
 release: mobile
 topic_type: reference
 last_updated: "2020-09-16"
@@ -43,5 +44,5 @@ Fixed the issue of triggering call actions from application
 -   Support X-axis labels in the chart section
 -   Other performance improvements and minor bug fixes
 
-**Parent Topic:**[Now Support app version history](../../now-support/now-support-available-versions.md)
+**Parent Topic:**[Now Support app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/now-support-available-versions.md)
 

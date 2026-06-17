@@ -2,6 +2,7 @@
 title: Now Support for Android v21.0.0
 description: The Android v21.0.0 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/nowsupport-android-v21-0-0.html
 release: mobile
 topic_type: reference
 last_updated: "2026-02-05"
@@ -340,5 +341,5 @@ Notice that a survey question appears along with the issue.
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Now Support app version history](../now-support-available-versions.md)
+**Parent Topic:**[Now Support app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/now-support-available-versions.md)
 

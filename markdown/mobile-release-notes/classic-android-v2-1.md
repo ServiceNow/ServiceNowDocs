@@ -2,6 +2,7 @@
 title: Mobile Classic Android v2.1
 description: The Mobile Classic Android v2.1 release provides problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/classic-android-v2-1.html
 release: mobile
 topic_type: reference
 last_updated: "2026-06-17"
@@ -171,5 +172,5 @@ Native mobile apps should support "Accept / Decline" push notification buttons
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile Classic mobile app version history](../classic-available-versions.md)
+</table>**Parent Topic:**[Mobile Classic mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-available-versions.md)
 

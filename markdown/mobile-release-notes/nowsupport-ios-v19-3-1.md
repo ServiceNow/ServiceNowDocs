@@ -2,6 +2,7 @@
 title: Now Support for iOS v19.3.1
 description: The iOS v19.3.1 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/nowsupport-ios-v19-3-1.html
 release: mobile
 topic_type: reference
 last_updated: "2025-03-11"
@@ -185,5 +186,5 @@ When a push notification with an internal link is selected, the screen is not op
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Now Support app version history](../now-support-available-versions.md)
+**Parent Topic:**[Now Support app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/now-support-available-versions.md)
 

@@ -2,6 +2,7 @@
 title: Mobile Classic iOS v6.2
 description: The Mobile Classic iOS v6.2 release provides problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/classic-ios-v6-2.html
 release: mobile
 topic_type: reference
 last_updated: "2026-06-17"
@@ -50,5 +51,5 @@ Mobile
 Fixed issue with button colors: Color-tint was being applied to button backgrounds, which is no longer necessary after iOS11
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile Classic mobile app version history](../classic-available-versions.md)
+</table>**Parent Topic:**[Mobile Classic mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-available-versions.md)
 

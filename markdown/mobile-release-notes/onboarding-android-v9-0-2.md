@@ -2,6 +2,7 @@
 title: Mobile Onboarding for Android v9.0.2
 description: The Android v9.0.2 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-android-v9-0-2.html
 release: mobile
 topic_type: reference
 last_updated: "2019-11-20"
@@ -50,5 +51,5 @@ Search list is not working for updating records
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Now Support app version history](../../now-support/now-support-available-versions.md)
+**Parent Topic:**[Now Support app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/now-support-available-versions.md)
 

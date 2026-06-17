@@ -2,6 +2,7 @@
 title: ServiceNow Onboarding - Intune for Android v11.0.0
 description: The Android v11.0.0 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-intune-android-v11-0-0.html
 release: mobile
 topic_type: reference
 last_updated: "2020-10-22"
@@ -146,5 +147,5 @@ Field changes in the Activity Stream that include HTML tags are displayed in pla
 -   Added the Debug mode.
 -   Other performance improvements and minor bug fixes.
 
-**Parent Topic:**[ServiceNow Onboarding - Intune app version history](../onboarding-intune-available-versions.md)
+**Parent Topic:**[ServiceNow Onboarding - Intune app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/onboarding-intune-available-versions.md)
 

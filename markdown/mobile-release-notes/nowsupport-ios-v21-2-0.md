@@ -2,6 +2,7 @@
 title: Now Support for iOS v21.2.0
 description: The iOS v21.2.0 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/nowsupport-ios-v21-2-0.html
 release: mobile
 topic_type: reference
 last_updated: "2026-04-09"
@@ -179,5 +180,5 @@ Date type value is displayed as yyyy-mm-dd HH:MM:SS on the Input Form screen in 
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Now Support app version history](../now-support-available-versions.md)
+**Parent Topic:**[Now Support app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/now-support-available-versions.md)
 

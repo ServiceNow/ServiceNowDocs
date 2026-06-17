@@ -2,6 +2,7 @@
 title: Mobile Classic iOS v6.4
 description: The Mobile Classic iOS v6.4 release provides problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/classic-ios-v6-4.html
 release: mobile
 topic_type: reference
 last_updated: "2026-06-17"
@@ -78,5 +79,5 @@ When viewing the activity stream for a record and clicking an "email sent" entry
  You will be directed to a blank page.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile Classic mobile app version history](../classic-available-versions.md)
+</table>**Parent Topic:**[Mobile Classic mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-available-versions.md)
 

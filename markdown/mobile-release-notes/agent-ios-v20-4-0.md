@@ -2,6 +2,7 @@
 title: Mobile Agent for iOS v20.4.0
 description: The iOS v20.4.0 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/agent-ios-v20-4-0.html
 release: mobile
 topic_type: reference
 last_updated: "2024-10-02"
@@ -119,5 +120,5 @@ On iOS, when the device default browser is set to a non-Safari browser and SNAut
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[ServiceNow Agent mobile app version history](../agent-available-versions.md)
+**Parent Topic:**[ServiceNow Agent mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-available-versions.md)
 

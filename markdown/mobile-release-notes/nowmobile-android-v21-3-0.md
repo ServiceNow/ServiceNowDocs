@@ -2,6 +2,7 @@
 title: Now Mobile for Android v21.3.0
 description: The Android v21.3.0 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/nowmobile-android-v21-3-0.html
 release: mobile
 topic_type: reference
 last_updated: "2026-05-05"
@@ -152,5 +153,5 @@ Now SDK Sample Application crash when device is connected to WiFi without intern
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Now Mobile app version history](../now-mobile-available-versions.md)
+**Parent Topic:**[Now Mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/now-mobile-available-versions.md)
 

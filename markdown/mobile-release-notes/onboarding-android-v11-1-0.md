@@ -2,6 +2,7 @@
 title: Mobile Onboarding for Android v11.1.0
 description: The Android v11.1.0 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-android-v11-1-0.html
 release: mobile
 topic_type: reference
 last_updated: "2020-11-12"
@@ -60,5 +61,5 @@ When opening the chart details screen, an error is thrown
 </td></tr></tbody>
 </table>This version also contains other performance improvements and minor bug fixes.
 
-**Parent Topic:**[Now Support app version history](../../now-support/now-support-available-versions.md)
+**Parent Topic:**[Now Support app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/now-support-available-versions.md)
 

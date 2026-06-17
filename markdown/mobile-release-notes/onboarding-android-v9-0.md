@@ -2,6 +2,7 @@
 title: Mobile Onboarding Android v9.0
 description: The Android v9.0 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-android-v9-0.html
 release: mobile
 topic_type: reference
 last_updated: "2026-06-17"
@@ -130,5 +131,5 @@ Large offline data download causes stability issues
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Now Support app version history](../../now-support/now-support-available-versions.md)
+</table>**Parent Topic:**[Now Support app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/now-support-available-versions.md)
 

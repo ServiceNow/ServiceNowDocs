@@ -2,6 +2,7 @@
 title: Now Mobile for BlackBerry for iOS v21.3.1
 description: The iOS v21.3.1 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/nowmobile-blackberry-ios-v21-3-1.html
 release: mobile
 topic_type: reference
 last_updated: "2026-05-18"
@@ -63,5 +64,5 @@ When user selects location card, the focus does not consistently start at the to
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Now Mobile for BlackBerry app version history](../nowmobile-blackberry-available-versions.md)
+**Parent Topic:**[Now Mobile for BlackBerry app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-blackberry-available-versions.md)
 

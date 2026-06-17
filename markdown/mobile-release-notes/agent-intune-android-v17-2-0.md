@@ -2,6 +2,7 @@
 title: Mobile Agent - Intune for Android v17.2.0
 description: The Android v17.2.0 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/agent-intune-android-v17-2-0.html
 release: mobile
 topic_type: reference
 last_updated: "2024-02-01"
@@ -187,5 +188,5 @@ An error message displays saying that the publication has failed.
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Mobile Agent - Intune app version history](../agent-intune-available-versions.md)
+**Parent Topic:**[Mobile Agent - Intune app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-intune-available-versions.md)
 

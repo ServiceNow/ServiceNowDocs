@@ -2,6 +2,7 @@
 title: Mobile Onboarding for Android v13.5.0
 description: The Android v13.5.0 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-android-v13-5-0.html
 release: mobile
 topic_type: reference
 last_updated: "2022-03-03"
@@ -89,5 +90,5 @@ Notice that the text is selected and you have the option to copy that text.
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Now Support app version history](../../now-support/now-support-available-versions.md)
+**Parent Topic:**[Now Support app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/now-support-available-versions.md)
 

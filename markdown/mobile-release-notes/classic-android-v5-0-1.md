@@ -2,6 +2,7 @@
 title: ServiceNow Classic for Android v5.0.1
 description: The Android v5.0.1 release provides problem fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/classic-android-v5-0-1.html
 release: mobile
 topic_type: reference
 last_updated: "2020-09-11"
@@ -48,5 +49,5 @@ Accessing Task Map causes the app to crash
 The app crashes when clicking Task Map. Also when clicking Location, the app crashes as well. The issue doesn't occur on iOS.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile Classic mobile app version history](../classic-available-versions.md)
+</table>**Parent Topic:**[Mobile Classic mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-available-versions.md)
 

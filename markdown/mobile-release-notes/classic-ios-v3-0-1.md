@@ -2,6 +2,7 @@
 title: Mobile Classic iOS v3.0.1
 description: The Mobile Classic iOS v3.0.1 release provides problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/classic-ios-v3-0-1.html
 release: mobile
 topic_type: reference
 last_updated: "2026-06-17"
@@ -176,5 +177,5 @@ If the request to get the count of records fails, the count favorite widget show
  Expected behavior: The count widget should show an ellipses in place of the number upon failure.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile Classic mobile app version history](../classic-available-versions.md)
+</table>**Parent Topic:**[Mobile Classic mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-available-versions.md)
 

@@ -2,6 +2,7 @@
 title: ServiceNow Onboarding - Intune for iOS v9.2.0
 description: The iOS v9.2.0 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-intune-ios-v9-2-0.html
 release: mobile
 topic_type: reference
 last_updated: "2020-03-23"
@@ -21,5 +22,5 @@ To download the latest release, visit the [Apple App Store](https://apps.apple.c
 
 This version includes performance improvements and minor bug fixes.
 
-**Parent Topic:**[ServiceNow Onboarding - Intune app version history](../onboarding-intune-available-versions.md)
+**Parent Topic:**[ServiceNow Onboarding - Intune app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/onboarding-intune-available-versions.md)
 

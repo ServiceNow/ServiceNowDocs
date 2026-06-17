@@ -2,6 +2,7 @@
 title: ServiceNow Classic for Android v5.0
 description: The Android v5.0 release provides updates for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/classic-android-v5-0.html
 release: mobile
 topic_type: reference
 last_updated: "2020-07-23"
@@ -27,5 +28,5 @@ Users upgrading from the London release or earlier can transition from ServiceNo
 
 Administrators can now prevent users with the ServiceNow Classic app from logging in. For more details, see Disable the ServiceNow Classic mobile app.
 
-**Parent Topic:**[Mobile Classic mobile app version history](../classic-available-versions.md)
+**Parent Topic:**[Mobile Classic mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-available-versions.md)
 

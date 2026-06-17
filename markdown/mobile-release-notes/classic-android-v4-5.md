@@ -2,6 +2,7 @@
 title: Mobile Classic Android v4.5
 description: The Mobile Classic Android v4.5 release provides problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/classic-android-v4-5.html
 release: mobile
 topic_type: reference
 last_updated: "2026-06-17"
@@ -42,5 +43,5 @@ Home routes are missing from the Android Classic mobile app
 </td></tr></tbody>
 </table>This release also contains stability and security improvements.
 
-**Parent Topic:**[Mobile Classic mobile app version history](../classic-available-versions.md)
+**Parent Topic:**[Mobile Classic mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-available-versions.md)
 

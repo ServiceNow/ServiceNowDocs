@@ -2,6 +2,7 @@
 title: ServiceNow Onboarding - Intune for Android v13.4.0
 description: The Android v13.4.0 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-intune-android-v13-4-0.html
 release: mobile
 topic_type: reference
 last_updated: "2022-02-03"
@@ -21,5 +22,5 @@ To download the latest release, visit the [Google Play store](https://play.googl
 
 This version includes minor bug fixes and performance improvements.
 
-**Parent Topic:**[ServiceNow Onboarding - Intune app version history](../onboarding-intune-available-versions.md)
+**Parent Topic:**[ServiceNow Onboarding - Intune app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/onboarding-intune-available-versions.md)
 

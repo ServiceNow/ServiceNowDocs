@@ -2,6 +2,7 @@
 title: Mobile Classic Android v4.2
 description: The Mobile Classic Android v4.2 release provides problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/classic-android-v4-2.html
 release: mobile
 topic_type: reference
 last_updated: "2026-06-17"
@@ -92,5 +93,5 @@ The 'Forgot password' link tries to load
 In the native Android application, clicking on Forgot Password may prompt the user to select the application to use - usually a browser and also the Android app. Selecting the ServiceNow app will not load the forgot password page.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile Classic mobile app version history](../classic-available-versions.md)
+</table>**Parent Topic:**[Mobile Classic mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-available-versions.md)
 

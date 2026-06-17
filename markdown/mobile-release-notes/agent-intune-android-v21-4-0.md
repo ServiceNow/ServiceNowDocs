@@ -2,6 +2,7 @@
 title: Mobile Agent - Intune for Android v21.4.0
 description: The Android v21.4.0 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/agent-intune-android-v21-4-0.html
 release: mobile
 topic_type: reference
 last_updated: "2026-06-11"
@@ -110,5 +111,5 @@ If the nickname is different from the instance name, voice chat does not work.
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Mobile Agent - Intune app version history](../agent-intune-available-versions.md)
+**Parent Topic:**[Mobile Agent - Intune app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-intune-available-versions.md)
 

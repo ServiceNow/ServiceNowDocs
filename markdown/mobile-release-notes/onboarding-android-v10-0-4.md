@@ -2,6 +2,7 @@
 title: Mobile Onboarding for Android v10.0.4
 description: The Android v10.0.4 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-android-v10-0-4.html
 release: mobile
 topic_type: reference
 last_updated: "2020-06-18"
@@ -51,5 +52,5 @@ The issue is related to MultiLinkInlineControl.java in Virtual Agent. The crash 
 -   Mobile push notification enablement toggle will now appear in the notification preferences section in the settings tab.
 -   UI improvements, performance improvements, and other minor bug fixes.
 
-**Parent Topic:**[Now Support app version history](../../now-support/now-support-available-versions.md)
+**Parent Topic:**[Now Support app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/now-support-available-versions.md)
 

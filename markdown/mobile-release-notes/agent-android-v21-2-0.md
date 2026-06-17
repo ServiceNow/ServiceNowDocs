@@ -2,6 +2,7 @@
 title: Mobile Agent for Android v21.2.0
 description: The Android v21.2.0 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/agent-android-v21-2-0.html
 release: mobile
 topic_type: reference
 last_updated: "2026-04-09"
@@ -56,5 +57,5 @@ The **Back** button on the NowMobile App on Android on the 'Requests' tab is not
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[ServiceNow Agent mobile app version history](../agent-available-versions.md)
+**Parent Topic:**[ServiceNow Agent mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-available-versions.md)
 

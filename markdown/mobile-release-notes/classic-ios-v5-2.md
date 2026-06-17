@@ -2,6 +2,7 @@
 title: Mobile Classic iOS v5.2
 description: The Mobile Classic iOS v5.2 release provides problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/classic-ios-v5-2.html
 release: mobile
 topic_type: reference
 last_updated: "2026-06-17"
@@ -40,5 +41,5 @@ Mobile
 Support for iOS internal distribution binary
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile Classic mobile app version history](../classic-available-versions.md)
+</table>**Parent Topic:**[Mobile Classic mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-available-versions.md)
 

@@ -2,6 +2,7 @@
 title: Mobile Agent for Android v18.2.0
 description: The Android v18.2.0 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/agent-android-v18-2-0.html
 release: mobile
 topic_type: reference
 last_updated: "2024-09-10"
@@ -92,5 +93,5 @@ When an input is mapped to a database field that contains decimals, the decimals
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[ServiceNow Agent mobile app version history](../agent-available-versions.md)
+**Parent Topic:**[ServiceNow Agent mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-available-versions.md)
 

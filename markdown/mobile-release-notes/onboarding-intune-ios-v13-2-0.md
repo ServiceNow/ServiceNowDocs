@@ -2,6 +2,7 @@
 title: ServiceNow Onboarding - Intune for iOS v13.2.0
 description: The iOS v13.2.0 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-intune-ios-v13-2-0.html
 release: mobile
 topic_type: reference
 last_updated: "2021-12-16"
@@ -205,5 +206,5 @@ The chat icon button does not have an accessible name or label
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[ServiceNow Onboarding - Intune app version history](../onboarding-intune-available-versions.md)
+**Parent Topic:**[ServiceNow Onboarding - Intune app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/onboarding-intune-available-versions.md)
 

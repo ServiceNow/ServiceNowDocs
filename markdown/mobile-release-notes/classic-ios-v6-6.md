@@ -2,6 +2,7 @@
 title: ServiceNow Classic for iOS v6.6
 description: The iOS v6.6 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/classic-ios-v6-6.html
 release: mobile
 topic_type: reference
 last_updated: "2020-03-13"
@@ -40,5 +41,5 @@ Mobile \(Classic\)
 Barcode scanning in ServiceNow Classic mobile app does not work with iPhone 11
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile Classic mobile app version history](../classic-available-versions.md)
+</table>**Parent Topic:**[Mobile Classic mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-available-versions.md)
 

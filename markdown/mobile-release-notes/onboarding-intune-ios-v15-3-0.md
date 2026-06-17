@@ -2,6 +2,7 @@
 title: ServiceNow Onboarding - Intune for iOS v15.3.0
 description: The iOS v15.3.0 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-intune-ios-v15-3-0.html
 release: mobile
 topic_type: reference
 last_updated: "2023-01-05"
@@ -320,5 +321,5 @@ In the iOS Mobile Apps, a second scroll bar can appear in the HTML fields
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[ServiceNow Onboarding - Intune app version history](../onboarding-intune-available-versions.md)
+**Parent Topic:**[ServiceNow Onboarding - Intune app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/onboarding-intune-available-versions.md)
 

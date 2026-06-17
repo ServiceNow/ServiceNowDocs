@@ -2,6 +2,7 @@
 title: Mobile Agent - BlackBerry for iOS v19.2.0
 description: The iOS v19.2.0 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/agent-blackberry-ios-v19-2-0.html
 release: mobile
 topic_type: reference
 last_updated: "2025-01-30"
@@ -192,5 +193,5 @@ Pre-requisites:
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Mobile Agent - BlackBerry app version history](../agent-blackberry-available-versions.md)
+**Parent Topic:**[Mobile Agent - BlackBerry app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-blackberry-available-versions.md)
 

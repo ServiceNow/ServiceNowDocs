@@ -2,6 +2,7 @@
 title: Mobile Onboarding for iOS v11.3.1
 description: The iOS v11.3.1 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-ios-v11-3-1.html
 release: mobile
 topic_type: reference
 last_updated: "2021-01-25"
@@ -291,5 +292,5 @@ Type the content in Korean and submit.
 
 **Note:** This version is compatible with Quebec Early Availability instances.
 
-**Parent Topic:**[Now Support app version history](../../now-support/now-support-available-versions.md)
+**Parent Topic:**[Now Support app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/now-support-available-versions.md)
 

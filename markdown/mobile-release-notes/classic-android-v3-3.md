@@ -2,6 +2,7 @@
 title: Mobile Classic Android v3.3
 description: The Mobile Classic Android v3.3 release provides problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/classic-android-v3-3.html
 release: mobile
 topic_type: reference
 last_updated: "2026-06-17"
@@ -228,5 +229,5 @@ Reference search does not work for reference fields. The magnifying glass disapp
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile Classic mobile app version history](../classic-available-versions.md)
+</table>**Parent Topic:**[Mobile Classic mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-available-versions.md)
 

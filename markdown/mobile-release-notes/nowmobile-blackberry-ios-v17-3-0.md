@@ -2,6 +2,7 @@
 title: Now Mobile for BlackBerry for iOS v17.3.0
 description: The iOS v17.3.0 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/nowmobile-blackberry-ios-v17-3-0.html
 release: mobile
 topic_type: reference
 last_updated: "2024-03-07"
@@ -84,5 +85,5 @@ The Mobile UI does not apply when refreshing the form screen
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Now Mobile for BlackBerry app version history](../nowmobile-blackberry-available-versions.md)
+**Parent Topic:**[Now Mobile for BlackBerry app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-blackberry-available-versions.md)
 

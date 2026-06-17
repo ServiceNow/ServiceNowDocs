@@ -2,6 +2,7 @@
 title: Mobile Onboarding for Android v13.4.0
 description: The Android v13.4.0 release provides fixes for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-android-v13-4-0.html
 release: mobile
 topic_type: reference
 last_updated: "2022-02-03"
@@ -21,5 +22,5 @@ To download the latest release, visit the [Google Play store](https://play.googl
 
 This version includes minor bug fixes and performance improvements.
 
-**Parent Topic:**[Now Support app version history](../../now-support/now-support-available-versions.md)
+**Parent Topic:**[Now Support app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/now-support-available-versions.md)
 
