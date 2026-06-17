@@ -2,7 +2,6 @@
 title: Now Support for iOS v20.3.1
 description: The iOS v20.3.1 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/nowsupport-ios-v20-3-1.html
 release: mobile
 topic_type: reference
 last_updated: "2025-09-10"
@@ -66,5 +65,5 @@ Notice that portal prompts the user to install Microsoft Edge browser.
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Now Support app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/now-support-available-versions.md)
+**Parent Topic:**[Now Support app version history](../now-support-available-versions.md)
 

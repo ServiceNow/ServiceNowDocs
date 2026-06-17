@@ -2,10 +2,9 @@
 title: Mobile Classic iOS v3.0.3
 description: The Mobile Classic iOS v3.0.3 release provides problem fixes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/classic-ios-v3-0-3.html
 release: mobile
 topic_type: reference
-last_updated: "2026-06-16"
+last_updated: "2026-06-17"
 reading_time_minutes: 1
 breadcrumb: [Mobile Classic mobile app version history, Mobile app version history for iOS and Android]
 ---
@@ -56,5 +55,5 @@ On iOS 10:
  Actual result: App stays on home screen.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile Classic mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-available-versions.md)
+</table>**Parent Topic:**[Mobile Classic mobile app version history](../classic-available-versions.md)
 

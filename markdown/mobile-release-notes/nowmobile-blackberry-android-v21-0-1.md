@@ -2,7 +2,6 @@
 title: Now Mobile for BlackBerry for Android v21.0.1
 description: The Android v21.0.1 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/nowmobile-blackberry-android-v21-0-1.html
 release: mobile
 topic_type: reference
 last_updated: "2026-02-11"
@@ -141,5 +140,5 @@ This defect occurs when an input form screen has at least three pages, with two 
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Now Mobile for BlackBerry app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-blackberry-available-versions.md)
+**Parent Topic:**[Now Mobile for BlackBerry app version history](../nowmobile-blackberry-available-versions.md)
 

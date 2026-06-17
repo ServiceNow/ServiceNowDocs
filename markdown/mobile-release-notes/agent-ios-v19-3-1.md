@@ -2,7 +2,6 @@
 title: Mobile Agent for iOS v19.3.1
 description: The iOS v19.3.1 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/agent-ios-v19-3-1.html
 release: mobile
 topic_type: reference
 last_updated: "2025-03-11"
@@ -186,5 +185,5 @@ When a push notification with an internal link is selected, the screen is not op
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[ServiceNow Agent mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-available-versions.md)
+**Parent Topic:**[ServiceNow Agent mobile app version history](../agent-available-versions.md)
 

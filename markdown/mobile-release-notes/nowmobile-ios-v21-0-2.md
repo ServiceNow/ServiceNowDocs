@@ -2,7 +2,6 @@
 title: Now Mobile for iOS v21.0.2
 description: The iOS v21.0.2 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/nowmobile-ios-v21-0-2.html
 release: mobile
 topic_type: reference
 last_updated: "2026-03-01"
@@ -149,5 +148,5 @@ Note the Item's icons.
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Now Mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/now-mobile-available-versions.md)
+**Parent Topic:**[Now Mobile app version history](../now-mobile-available-versions.md)
 

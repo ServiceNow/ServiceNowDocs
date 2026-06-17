@@ -2,7 +2,6 @@
 title: ServiceNow Onboarding - Intune for iOS v12.2.0
 description: The iOS v12.2.0 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-intune-ios-v12-2-0.html
 release: mobile
 topic_type: reference
 last_updated: "2021-06-07"
@@ -345,5 +344,5 @@ When users try to edit a time card from the time sheet, it does not allow them w
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[ServiceNow Onboarding - Intune app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/onboarding-intune-available-versions.md)
+**Parent Topic:**[ServiceNow Onboarding - Intune app version history](../onboarding-intune-available-versions.md)
 

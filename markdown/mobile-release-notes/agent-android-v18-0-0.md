@@ -2,7 +2,6 @@
 title: Mobile Agent for Android v18.0.0
 description: The Android v18.0.0 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/agent-android-v18-0-0.html
 release: mobile
 topic_type: reference
 last_updated: "2024-07-04"
@@ -432,5 +431,5 @@ Notice that on the 'Support' or other launcher tab screen, the 'Home' Tab is sel
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[ServiceNow Agent mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-available-versions.md)
+**Parent Topic:**[ServiceNow Agent mobile app version history](../agent-available-versions.md)
 

@@ -2,7 +2,6 @@
 title: ServiceNow Onboarding - Intune for Android v15.4.1
 description: The Android v15.4.1 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-intune-android-v15-4-1.html
 release: mobile
 topic_type: reference
 last_updated: "2023-02-14"
@@ -87,5 +86,5 @@ Refer to the listed KB article for details.
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[ServiceNow Onboarding - Intune app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/onboarding-intune-available-versions.md)
+**Parent Topic:**[ServiceNow Onboarding - Intune app version history](../onboarding-intune-available-versions.md)
 

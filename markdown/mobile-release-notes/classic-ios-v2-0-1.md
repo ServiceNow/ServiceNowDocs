@@ -2,10 +2,9 @@
 title: Mobile Classic iOS v2.0.1
 description: The Mobile Classic iOS v2.0.1 release provides problem fixes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/classic-ios-v2-0-1.html
 release: mobile
 topic_type: reference
-last_updated: "2026-06-16"
+last_updated: "2026-06-17"
 reading_time_minutes: 1
 breadcrumb: [Mobile Classic mobile app version history, Mobile app version history for iOS and Android]
 ---
@@ -129,5 +128,5 @@ If no primary IDP is set for an instance, login fails
 Note that instead of being redirected to the external IDP that was set up for the user, the following error occurs: 'No external identity provider found for the username: admin'
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile Classic mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-available-versions.md)
+</table>**Parent Topic:**[Mobile Classic mobile app version history](../classic-available-versions.md)
 

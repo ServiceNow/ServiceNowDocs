@@ -2,7 +2,6 @@
 title: Mobile Agent - BlackBerry for Android v19.2.0
 description: The Android v19.2.0 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/agent-blackberry-android-v19-2-0.html
 release: mobile
 topic_type: reference
 last_updated: "2025-01-30"
@@ -143,5 +142,5 @@ The **See All** button doesn't work on large tables.
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Mobile Agent - BlackBerry app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-blackberry-available-versions.md)
+**Parent Topic:**[Mobile Agent - BlackBerry app version history](../agent-blackberry-available-versions.md)
 

@@ -2,7 +2,6 @@
 title: Now Support for Android v19.5.1
 description: The Android v19.5.1 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/nowsupport-android-v19-5-1.html
 release: mobile
 topic_type: reference
 last_updated: "2025-05-01"
@@ -63,5 +62,5 @@ When 'glide.sg.block\_mobile\_attachments\_sharing' is true, the app should prev
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Now Support app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/now-support-available-versions.md)
+**Parent Topic:**[Now Support app version history](../now-support-available-versions.md)
 

@@ -2,7 +2,6 @@
 title: Mobile Classic mobile app version history
 description: The version history release notes contain details on what's new fixed in each version.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/classic-available-versions.html
 release: mobile
 topic_type: reference
 last_updated: "2020-09-11"
@@ -44,7 +43,7 @@ Availability
 
 </th></tr></thead><tbody><tr><td>
 
-[ServiceNow Classic for iOS v7.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-ios-v7-0.md)
+[ServiceNow Classic for iOS v7.0](ios/classic-ios-v7-0.md)
 
 </td><td>
 
@@ -60,7 +59,7 @@ Available
 
 </td></tr><tr><td>
 
-[ServiceNow Classic for iOS v6.6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-ios-v6-6.md)
+[ServiceNow Classic for iOS v6.6](ios/classic-ios-v6-6.md)
 
 </td><td>
 
@@ -76,7 +75,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[ServiceNow Classic for iOS v6.5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-ios-v6-5.md)
+[ServiceNow Classic for iOS v6.5](ios/classic-ios-v6-5.md)
 
 </td><td>
 
@@ -92,7 +91,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic iOS v6.4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-ios-v6-4.md)
+[Mobile Classic iOS v6.4](ios/classic-ios-v6-4.md)
 
 </td><td>
 
@@ -108,7 +107,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic iOS v6.3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-ios-v6-3.md)
+[Mobile Classic iOS v6.3](ios/classic-ios-v6-3.md)
 
 </td><td>
 
@@ -124,7 +123,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic iOS v6.2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-ios-v6-2.md)
+[Mobile Classic iOS v6.2](ios/classic-ios-v6-2.md)
 
 </td><td>
 
@@ -140,7 +139,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic iOS v6.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-ios-v6-1.md)
+[Mobile Classic iOS v6.1](ios/classic-ios-v6-1.md)
 
 </td><td>
 
@@ -188,7 +187,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic iOS v5.2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-ios-v5-2.md)
+[Mobile Classic iOS v5.2](ios/classic-ios-v5-2.md)
 
 </td><td>
 
@@ -236,7 +235,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic iOS v4.3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-ios-v4-3.md)
+[Mobile Classic iOS v4.3](ios/classic-ios-v4-3.md)
 
 </td><td>
 
@@ -252,7 +251,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic iOS v4.2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-ios-v4-2.md)
+[Mobile Classic iOS v4.2](ios/classic-ios-v4-2.md)
 
 </td><td>
 
@@ -268,7 +267,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic iOS v4.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-ios-v4-1.md)
+[Mobile Classic iOS v4.1](ios/classic-ios-v4-1.md)
 
 </td><td>
 
@@ -284,7 +283,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic iOS v4.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-ios-v4-0.md)
+[Mobile Classic iOS v4.0](ios/classic-ios-v4-0.md)
 
  Istanbul mobile release notes
 
@@ -302,7 +301,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic iOS v3.0.3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-ios-v3-0-3.md)
+[Mobile Classic iOS v3.0.3](ios/classic-ios-v3-0-3.md)
 
 </td><td>
 
@@ -318,7 +317,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic iOS v3.0.2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-ios-v3-0-2.md)
+[Mobile Classic iOS v3.0.2](ios/classic-ios-v3-0-2.md)
 
 </td><td>
 
@@ -334,7 +333,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic iOS v3.0.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-ios-v3-0-1.md)
+[Mobile Classic iOS v3.0.1](ios/classic-ios-v3-0-1.md)
 
 </td><td>
 
@@ -366,7 +365,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic iOS v2.0.3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-ios-v2-0-3.md)
+[Mobile Classic iOS v2.0.3](ios/classic-ios-v2-0-3.md)
 
 </td><td>
 
@@ -382,7 +381,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic iOS v2.0.2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-ios-v2-0-2.md)
+[Mobile Classic iOS v2.0.2](ios/classic-ios-v2-0-2.md)
 
 </td><td>
 
@@ -398,7 +397,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic iOS v2.0.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-ios-v2-0-1.md)
+[Mobile Classic iOS v2.0.1](ios/classic-ios-v2-0-1.md)
 
 </td><td>
 
@@ -435,7 +434,7 @@ Availability
 
 </th></tr></thead><tbody><tr><td>
 
-[ServiceNow Classic for Android v5.0.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-android-v5-0-1.md)
+[ServiceNow Classic for Android v5.0.1](android/classic-android-v5-0-1.md)
 
 </td><td>
 
@@ -451,7 +450,7 @@ Available
 
 </td></tr><tr><td>
 
-[ServiceNow Classic for Android v5.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-android-v5-0.md)
+[ServiceNow Classic for Android v5.0](android/classic-android-v5-0.md)
 
 </td><td>
 
@@ -467,7 +466,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic Android v4.6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-android-v4-6.md)
+[Mobile Classic Android v4.6](android/classic-android-v4-6.md)
 
 </td><td>
 
@@ -483,7 +482,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic Android v4.5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-android-v4-5.md)
+[Mobile Classic Android v4.5](android/classic-android-v4-5.md)
 
 </td><td>
 
@@ -499,7 +498,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic Android v4.4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-android-v4-4.md)
+[Mobile Classic Android v4.4](android/classic-android-v4-4.md)
 
 </td><td>
 
@@ -515,7 +514,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic Android v4.3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-android-v4-3.md)
+[Mobile Classic Android v4.3](android/classic-android-v4-3.md)
 
 </td><td>
 
@@ -531,7 +530,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic Android v4.2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-android-v4-2.md)
+[Mobile Classic Android v4.2](android/classic-android-v4-2.md)
 
 </td><td>
 
@@ -547,7 +546,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic Android v4.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-android-v4-1.md)
+[Mobile Classic Android v4.1](android/classic-android-v4-1.md)
 
 </td><td>
 
@@ -595,7 +594,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic Android v3.3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-android-v3-3.md)
+[Mobile Classic Android v3.3](android/classic-android-v3-3.md)
 
 </td><td>
 
@@ -659,7 +658,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic Android v2.3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-android-v2-3.md)
+[Mobile Classic Android v2.3](android/classic-android-v2-3.md)
 
 </td><td>
 
@@ -691,7 +690,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic Android v2.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-android-v2-1.md)
+[Mobile Classic Android v2.1](android/classic-android-v2-1.md)
 
 </td><td>
 
@@ -741,7 +740,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Mobile Classic Android v1.0.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-android-v1-0-1.md)
+[Mobile Classic Android v1.0.1](android/classic-android-v1-0-1.md)
 
 </td><td>
 
@@ -756,5 +755,5 @@ Patch
 Unavailable
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile app version history for iOS and Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/mobile-apps.md)
+</table>**Parent Topic:**[Mobile app version history for iOS and Android](../mobile-apps.md)
 

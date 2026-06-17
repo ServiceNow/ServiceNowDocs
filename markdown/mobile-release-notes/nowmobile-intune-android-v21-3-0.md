@@ -2,7 +2,6 @@
 title: Now Mobile - Intune for Android v21.3.0
 description: The Android v21.3.0 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/nowmobile-intune-android-v21-3-0.html
 release: mobile
 topic_type: reference
 last_updated: "2026-05-05"
@@ -153,5 +152,5 @@ Now SDK Sample Application crash when device is connected to WiFi without intern
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Now Mobile - Intune app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-intune-available-versions.md)
+**Parent Topic:**[Now Mobile - Intune app version history](../nowmobile-intune-available-versions.md)
 

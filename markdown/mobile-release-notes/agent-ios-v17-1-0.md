@@ -2,7 +2,6 @@
 title: Mobile Agent for iOS v17.1.0
 description: The iOS v17.1.0 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/agent-ios-v17-1-0.html
 release: mobile
 topic_type: reference
 last_updated: "2024-01-04"
@@ -173,5 +172,5 @@ Cancelling an attachment upload that is at 100% results in an app crash
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[ServiceNow Agent mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-available-versions.md)
+**Parent Topic:**[ServiceNow Agent mobile app version history](../agent-available-versions.md)
 

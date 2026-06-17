@@ -2,10 +2,9 @@
 title: Mobile Classic Android v4.6
 description: The Mobile Classic Android v4.6 release provides problem fixes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/classic-android-v4-6.html
 release: mobile
 topic_type: reference
-last_updated: "2026-06-16"
+last_updated: "2026-06-17"
 reading_time_minutes: 1
 breadcrumb: [Mobile Classic mobile app version history, Mobile app version history for iOS and Android]
 ---
@@ -43,5 +42,5 @@ When viewing the activity stream for a record and clicking an "email sent" entry
 </td></tr></tbody>
 </table>This release also contains stability and security improvements.
 
-**Parent Topic:**[Mobile Classic mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-available-versions.md)
+**Parent Topic:**[Mobile Classic mobile app version history](../classic-available-versions.md)
 

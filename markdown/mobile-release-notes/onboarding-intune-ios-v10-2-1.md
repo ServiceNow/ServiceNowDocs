@@ -2,7 +2,6 @@
 title: ServiceNow Onboarding - Intune for iOS v10.2.1
 description: The iOS v10.2.1 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-intune-ios-v10-2-1.html
 release: mobile
 topic_type: reference
 last_updated: "2020-08-18"
@@ -73,5 +72,5 @@ When using Virtual Agent, recent conversations are not loaded if the user comes 
  Notice that it only shows the previous conversation history, and the recent conversation you just had is not shown.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Onboarding - Intune app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/onboarding-intune-available-versions.md)
+</table>**Parent Topic:**[ServiceNow Onboarding - Intune app version history](../onboarding-intune-available-versions.md)
 

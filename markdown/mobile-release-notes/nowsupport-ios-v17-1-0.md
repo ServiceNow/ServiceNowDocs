@@ -2,7 +2,6 @@
 title: Now Support for iOS v17.1.0
 description: The iOS v17.1.0 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/nowsupport-ios-v17-1-0.html
 release: mobile
 topic_type: reference
 last_updated: "2024-01-04"
@@ -173,5 +172,5 @@ Cancelling an attachment upload that is at 100% results in an app crash
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Now Support app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/now-support-available-versions.md)
+**Parent Topic:**[Now Support app version history](../now-support-available-versions.md)
 

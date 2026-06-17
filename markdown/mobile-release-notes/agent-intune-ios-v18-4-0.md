@@ -2,7 +2,6 @@
 title: Mobile Agent - Intune for iOS v18.4.0
 description: The iOS v18.4.0 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/agent-intune-ios-v18-4-0.html
 release: mobile
 topic_type: reference
 last_updated: "2024-11-07"
@@ -123,5 +122,5 @@ The user observes the message, 'No data available please pull down to refresh' o
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Mobile Agent - Intune app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-intune-available-versions.md)
+**Parent Topic:**[Mobile Agent - Intune app version history](../agent-intune-available-versions.md)
 

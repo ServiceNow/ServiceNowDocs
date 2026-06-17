@@ -2,7 +2,6 @@
 title: Mobile Onboarding for Android v15.2.0
 description: The Android v15.2.0 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-android-v15-2-0.html
 release: mobile
 topic_type: reference
 last_updated: "2022-12-01"
@@ -136,5 +135,5 @@ The user can only observe composite characters by posting a work note or comment
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Now Support app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/now-support-available-versions.md)
+**Parent Topic:**[Now Support app version history](../../now-support/now-support-available-versions.md)
 

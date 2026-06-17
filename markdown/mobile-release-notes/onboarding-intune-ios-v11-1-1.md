@@ -2,7 +2,6 @@
 title: ServiceNow Onboarding - Intune for iOS v11.1.1
 description: The ServiceNow Onboarding - Intune for iOS v11.1.1 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-intune-ios-v11-1-1.html
 release: mobile
 topic_type: reference
 last_updated: "2020-11-17"
@@ -39,5 +38,5 @@ Mobile iOS \(non-classic\)
 The crash issue with the iOS Intune requestor app
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Onboarding - Intune app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/onboarding-intune-available-versions.md)
+</table>**Parent Topic:**[ServiceNow Onboarding - Intune app version history](../onboarding-intune-available-versions.md)
 

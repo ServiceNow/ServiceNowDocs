@@ -2,7 +2,6 @@
 title: Mobile Onboarding for Android v10.0.3
 description: The Android v10.0.3 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-android-v10-0-3.html
 release: mobile
 topic_type: reference
 last_updated: "2020-06-01"
@@ -58,5 +57,5 @@ This leaves Assigned to as the only parameter visible on the action screen.
  Actual behavior: When Assignment group is not added as a UI parameter on the action screen, all user records show up, and the dependency is not honored.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Now Support app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/now-support-available-versions.md)
+</table>**Parent Topic:**[Now Support app version history](../../now-support/now-support-available-versions.md)
 

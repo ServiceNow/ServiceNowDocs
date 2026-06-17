@@ -2,7 +2,6 @@
 title: Mobile Agent - BlackBerry for Android v20.5.1
 description: The Android v20.5.1 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/agent-blackberry-android-v20-5-1.html
 release: mobile
 topic_type: reference
 last_updated: "2025-11-14"
@@ -60,5 +59,5 @@ A green 'Sync successful' banner is displayed, but some items remain in the outb
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Mobile Agent - BlackBerry app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-blackberry-available-versions.md)
+**Parent Topic:**[Mobile Agent - BlackBerry app version history](../agent-blackberry-available-versions.md)
 

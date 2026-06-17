@@ -2,7 +2,6 @@
 title: ServiceNow Onboarding - Intune for iOS v10.0.0
 description: The iOS v10.0.0 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-intune-ios-v10-0-0.html
 release: mobile
 topic_type: reference
 last_updated: "2020-04-24"
@@ -77,5 +76,5 @@ Support BlackBerry Access for App Configuration
 </td></tr></tbody>
 </table>This version also includes an update to the location of the **Quick Action** button to align with iOS standards, as well as other minor bug fixes and performance improvements.
 
-**Parent Topic:**[ServiceNow Onboarding - Intune app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/onboarding-intune-available-versions.md)
+**Parent Topic:**[ServiceNow Onboarding - Intune app version history](../onboarding-intune-available-versions.md)
 

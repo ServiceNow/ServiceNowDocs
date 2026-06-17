@@ -2,10 +2,9 @@
 title: Mobile Classic iOS v4.1
 description: The Mobile Classic iOS v4.1 release provides problem fixes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/classic-ios-v4-1.html
 release: mobile
 topic_type: reference
-last_updated: "2026-06-16"
+last_updated: "2026-06-17"
 reading_time_minutes: 2
 breadcrumb: [Mobile Classic mobile app version history, Mobile app version history for iOS and Android]
 ---
@@ -204,5 +203,5 @@ Actionable push notifications should navigate to the record/web path if the acti
  Actual result: App launches and does not navigate to the record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile Classic mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-available-versions.md)
+</table>**Parent Topic:**[Mobile Classic mobile app version history](../classic-available-versions.md)
 

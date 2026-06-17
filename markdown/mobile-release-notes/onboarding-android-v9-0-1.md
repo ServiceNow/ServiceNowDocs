@@ -2,7 +2,6 @@
 title: Mobile Onboarding for Android v9.0.1
 description: The Android v9.0.1 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-android-v9-0-1.html
 release: mobile
 topic_type: reference
 last_updated: "2019-10-25"
@@ -22,5 +21,5 @@ To download the latest release, visit the [Google Play store](https://play.googl
 
 This version includes stability enhancements, performance improvements, and other minor bug fixes.
 
-**Parent Topic:**[Now Support app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/now-support-available-versions.md)
+**Parent Topic:**[Now Support app version history](../../now-support/now-support-available-versions.md)
 

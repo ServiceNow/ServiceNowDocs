@@ -2,7 +2,6 @@
 title: Mobile Onboarding for Android v11.5.0
 description: The Android v11.5.0 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-android-v11-5-0.html
 release: mobile
 topic_type: reference
 last_updated: "2021-03-10"
@@ -312,5 +311,5 @@ When searching a SearchList, if the search returns no result, the screen does no
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Now Support app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/now-support-available-versions.md)
+**Parent Topic:**[Now Support app version history](../../now-support/now-support-available-versions.md)
 

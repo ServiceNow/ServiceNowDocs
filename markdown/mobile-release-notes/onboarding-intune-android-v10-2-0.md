@@ -2,7 +2,6 @@
 title: ServiceNow Onboarding - Intune for Android v10.2.0
 description: The Android v10.2.0 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-intune-android-v10-2-0.html
 release: mobile
 topic_type: reference
 last_updated: "2020-08-12"
@@ -66,5 +65,5 @@ When navigating to a list from a group list applet, the list is returning no res
 -   Enabled image zoom on Activity Stream
 -   Other performance improvements and minor bug fixes
 
-**Parent Topic:**[ServiceNow Onboarding - Intune app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/onboarding-intune-available-versions.md)
+**Parent Topic:**[ServiceNow Onboarding - Intune app version history](../onboarding-intune-available-versions.md)
 

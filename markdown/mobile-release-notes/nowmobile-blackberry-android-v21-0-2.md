@@ -2,7 +2,6 @@
 title: Now Mobile for BlackBerry for Android v21.0.2
 description: The Android v21.0.2 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/nowmobile-blackberry-android-v21-0-2.html
 release: mobile
 topic_type: reference
 last_updated: "2026-03-01"
@@ -57,5 +56,5 @@ There is an issue with maintaining scroll position on a legacy list screen due t
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Now Mobile for BlackBerry app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-blackberry-available-versions.md)
+**Parent Topic:**[Now Mobile for BlackBerry app version history](../nowmobile-blackberry-available-versions.md)
 

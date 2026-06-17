@@ -2,7 +2,6 @@
 title: Now Mobile for Android v19.1.0
 description: The Android v19.1.0 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/nowmobile-android-v19-1-0.html
 release: mobile
 topic_type: reference
 last_updated: "2025-01-02"
@@ -135,5 +134,5 @@ Now Mobile shows 'No data available' when the user opens a bookmarked employee p
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Now Mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/now-mobile-available-versions.md)
+**Parent Topic:**[Now Mobile app version history](../now-mobile-available-versions.md)
 

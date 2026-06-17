@@ -2,10 +2,9 @@
 title: Mobile Classic iOS v6.1
 description: The Mobile Classic iOS v6.1 release provides problem fixes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/classic-ios-v6-1.html
 release: mobile
 topic_type: reference
-last_updated: "2026-06-16"
+last_updated: "2026-06-17"
 reading_time_minutes: 1
 breadcrumb: [Mobile Classic mobile app version history, Mobile app version history for iOS and Android]
 ---
@@ -41,5 +40,5 @@ Mobile
 The ServiceNow mobile app UI does not appear correctly on iPhone X devices. The fix for this PRB adds support for iPhone X.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile Classic mobile app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/classic-available-versions.md)
+</table>**Parent Topic:**[Mobile Classic mobile app version history](../classic-available-versions.md)
 

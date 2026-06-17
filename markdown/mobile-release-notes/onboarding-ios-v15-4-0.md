@@ -2,7 +2,6 @@
 title: Mobile Onboarding for iOS v15.4.0
 description: The iOS v15.4.0 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-ios-v15-4-0.html
 release: mobile
 topic_type: reference
 last_updated: "2023-02-02"
@@ -193,5 +192,5 @@ Users can see the **Share** button on the right top area.
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Now Support app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/now-support-available-versions.md)
+**Parent Topic:**[Now Support app version history](../../now-support/now-support-available-versions.md)
 

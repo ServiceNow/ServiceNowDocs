@@ -2,7 +2,6 @@
 title: Now Mobile for BlackBerry for Android v21.2.0
 description: The Android v21.2.0 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/nowmobile-blackberry-android-v21-2-0.html
 release: mobile
 topic_type: reference
 last_updated: "2026-04-09"
@@ -57,5 +56,5 @@ The **Back** button on the NowMobile App on Android on the 'Requests' tab is not
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes and performance improvements.
 
-**Parent Topic:**[Now Mobile for BlackBerry app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-blackberry-available-versions.md)
+**Parent Topic:**[Now Mobile for BlackBerry app version history](../nowmobile-blackberry-available-versions.md)
 

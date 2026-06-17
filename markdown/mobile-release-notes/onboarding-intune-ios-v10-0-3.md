@@ -2,7 +2,6 @@
 title: ServiceNow Onboarding - Intune for iOS v10.0.3
 description: The iOS v10.0.3 release provides fixes for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-intune-ios-v10-0-3.html
 release: mobile
 topic_type: reference
 last_updated: "2020-06-01"
@@ -90,5 +89,5 @@ The list of groups shows up.
 </td></tr></tbody>
 </table>This version also includes other minor bug fixes.
 
-**Parent Topic:**[ServiceNow Onboarding - Intune app version history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/onboarding-intune-available-versions.md)
+**Parent Topic:**[ServiceNow Onboarding - Intune app version history](../onboarding-intune-available-versions.md)
 
